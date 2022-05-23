@@ -1,0 +1,89 @@
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java:22: error: package org.apache.regexp does not exist
+import org.apache.regexp.RE;
+                        ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:22: error: package org.apache.regexp does not exist
+import org.apache.regexp.RE;
+                        ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:23: error: package org.apache.regexp does not exist
+import org.apache.regexp.RESyntaxException;
+                        ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:57: error: cannot find symbol
+    protected RE getCompiledPattern(int options)
+              ^
+  symbol:   class RE
+  location: class JakartaRegexpMatcher
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:91: error: cannot find symbol
+    private boolean matches(String input, RE reg) {
+                                          ^
+  symbol:   class RE
+  location: class JakartaRegexpMatcher
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:91: error: matches(String,RE) in JakartaRegexpMatcher cannot implement matches(String,int) in RegexpMatcher
+    private boolean matches(String input, RE reg) {
+                    ^
+  attempting to assign weaker access privileges; was public
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:61: error: cannot find symbol
+            RE reg = new RE(pattern);
+            ^
+  symbol:   class RE
+  location: class JakartaRegexpMatcher
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:61: error: cannot find symbol
+            RE reg = new RE(pattern);
+                         ^
+  symbol:   class RE
+  location: class JakartaRegexpMatcher
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:64: error: cannot find symbol
+        } catch (RESyntaxException e) {
+                 ^
+  symbol:   class RESyntaxException
+  location: class JakartaRegexpMatcher
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:76: error: reference to matches is ambiguous
+        return matches(argument, MATCH_DEFAULT);
+               ^
+  both method matches(String,int) in JakartaRegexpMatcher and method matches(String,RE) in JakartaRegexpMatcher match
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:123: error: cannot find symbol
+        RE reg = getCompiledPattern(options);
+        ^
+  symbol:   class RE
+  location: class JakartaRegexpMatcher
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:146: error: cannot find symbol
+        int cOptions = RE.MATCH_NORMAL;
+                       ^
+  symbol:   variable RE
+  location: class JakartaRegexpMatcher
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:149: error: cannot find symbol
+            cOptions |= RE.MATCH_CASEINDEPENDENT;
+                        ^
+  symbol:   variable RE
+  location: class JakartaRegexpMatcher
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:152: error: cannot find symbol
+            cOptions |= RE.MATCH_MULTILINE;
+                        ^
+  symbol:   variable RE
+  location: class JakartaRegexpMatcher
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java:155: error: cannot find symbol
+            cOptions |= RE.MATCH_SINGLELINE;
+                        ^
+  symbol:   variable RE
+  location: class JakartaRegexpMatcher
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java:28: error: matches(String,RE) in JakartaRegexpMatcher cannot implement matches(String,int) in RegexpMatcher
+public class JakartaRegexpRegexp extends JakartaRegexpMatcher
+       ^
+  attempting to assign weaker access privileges; was public
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java:43: error: cannot find symbol
+        int subsOptions = RE.REPLACE_FIRSTONLY;
+                          ^
+  symbol:   variable RE
+  location: class JakartaRegexpRegexp
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java:45: error: cannot find symbol
+            subsOptions = RE.REPLACE_ALL;
+                          ^
+  symbol:   variable RE
+  location: class JakartaRegexpRegexp
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java:85: error: cannot find symbol
+        RE reg = getCompiledPattern(options);
+        ^
+  symbol:   class RE
+  location: class JakartaRegexpRegexp
+Note: sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors

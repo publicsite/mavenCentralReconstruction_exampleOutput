@@ -1,0 +1,53 @@
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java:10: error: cannot find symbol
+import org.apache.ldap.common.name.LdapName;
+                                  ^
+  symbol:   class LdapName
+  location: package org.apache.ldap.common.name
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java:24: error: cannot find symbol
+import org.apache.ldap.common.message.LockableAttributesImpl;
+                                     ^
+  symbol:   class LockableAttributesImpl
+  location: package org.apache.ldap.common.message
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java:28: error: package junit.framework does not exist
+import junit.framework.TestCase;
+                      ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java:30: error: cannot find symbol
+public abstract class AbstractCoreTest extends TestCase
+                                               ^
+  symbol: class TestCase
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java:45: error: cannot find symbol
+        final Attributes attributes = (Attributes)new LockableAttributesImpl();
+                                                      ^
+  symbol:   class LockableAttributesImpl
+  location: class AbstractCoreTest
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java:58: error: cannot find symbol
+        super.setUp();
+        ^
+  symbol:   variable super
+  location: class AbstractCoreTest
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java:61: error: no suitable constructor found for File(Object)
+            this.doDelete(new File(this.overrides.get("server.wkdir")));
+                          ^
+    constructor File.File(String) is not applicable
+      (argument mismatch; Object cannot be converted to String)
+    constructor File.File(URI) is not applicable
+      (argument mismatch; Object cannot be converted to URI)
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java:99: error: cannot find symbol
+        super.tearDown();
+        ^
+  symbol:   variable super
+  location: class AbstractCoreTest
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java:122: error: cannot find symbol
+                final Attributes attributes = (Attributes)new LockableAttributesImpl();
+                                                              ^
+  symbol:   class LockableAttributesImpl
+  location: class AbstractCoreTest
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java:125: error: cannot find symbol
+                final Name dn = (Name)new LdapName((String)attributes.remove("dn").get());
+                                          ^
+  symbol:   class LdapName
+  location: class AbstractCoreTest
+Note: sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/AbstractCoreTest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+10 errors

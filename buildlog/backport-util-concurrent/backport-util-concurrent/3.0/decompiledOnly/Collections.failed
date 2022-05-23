@@ -1,0 +1,54 @@
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/extractedSources/src/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:206: error: cannot find symbol
+        final sun.misc.Perf perf;
+                      ^
+  symbol:   class Perf
+  location: package sun.misc
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/Collections.java:71: error: no suitable method found for min(Collection<CAP#1>)
+        return java.util.Collections.min((Collection<?>)coll);
+                                    ^
+    method Collections.<T#1>min(Collection<? extends T#1>) is not applicable
+      (inference variable T#1 has incompatible bounds
+        lower bounds: Object,Comparable<? super T#1>
+        lower bounds: CAP#1)
+    method Collections.<T#2>min(Collection<? extends T#2>,Comparator<? super T#2>) is not applicable
+      (cannot infer type-variable(s) T#2
+        (actual and formal argument lists differ in length))
+  where T#1,T#2 are type-variables:
+    T#1 extends Object,Comparable<? super T#1> declared in method <T#1>min(Collection<? extends T#1>)
+    T#2 extends Object declared in method <T#2>min(Collection<? extends T#2>,Comparator<? super T#2>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/Collections.java:79: error: no suitable method found for max(Collection<CAP#1>)
+        return java.util.Collections.max((Collection<?>)coll);
+                                    ^
+    method Collections.<T#1>max(Collection<? extends T#1>) is not applicable
+      (inference variable T#1 has incompatible bounds
+        lower bounds: Object,Comparable<? super T#1>
+        lower bounds: CAP#1)
+    method Collections.<T#2>max(Collection<? extends T#2>,Comparator<? super T#2>) is not applicable
+      (cannot infer type-variable(s) T#2
+        (actual and formal argument lists differ in length))
+  where T#1,T#2 are type-variables:
+    T#1 extends Object,Comparable<? super T#1> declared in method <T#1>max(Collection<? extends T#1>)
+    T#2 extends Object declared in method <T#2>max(Collection<? extends T#2>,Comparator<? super T#2>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/Collections.java:705: error: incompatible types: Object cannot be converted to Entry
+                        return this.this$1.this$0.new EntryView(itr.next());
+                                                                        ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/extractedSources/src/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:209: error: cannot find symbol
+            perf = (sun.misc.Perf)
+                            ^
+  symbol:   class Perf
+  location: package sun.misc
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/extractedSources/src/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:212: error: cannot find symbol
+                        return sun.misc.Perf.getPerf();
+                                       ^
+  symbol:   class Perf
+  location: package sun.misc
+Note: sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/extractedSources/src/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+6 errors

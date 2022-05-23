@@ -1,0 +1,54 @@
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:12: error: cannot find symbol
+import org.apache.asn1.ber.TagEnum;
+                          ^
+  symbol:   class TagEnum
+  location: package org.apache.asn1.ber
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:13: error: cannot find symbol
+import org.apache.asn1.ber.primitives.UniversalTag;
+                                     ^
+  symbol:   class UniversalTag
+  location: package org.apache.asn1.ber.primitives
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:14: error: cannot find symbol
+import org.apache.asn1.ber.digester.rules.PrimitiveOctetStringRule;
+                                         ^
+  symbol:   class PrimitiveOctetStringRule
+  location: package org.apache.asn1.ber.digester.rules
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:16: error: cannot find symbol
+public class ModificationItemRule extends PrimitiveOctetStringRule
+                                          ^
+  symbol: class PrimitiveOctetStringRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:19: error: cannot find symbol
+        super((TagEnum)UniversalTag.OCTET_STRING);
+               ^
+  symbol:   class TagEnum
+  location: class ModificationItemRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:19: error: cannot find symbol
+        super((TagEnum)UniversalTag.OCTET_STRING);
+                       ^
+  symbol:   variable UniversalTag
+  location: class ModificationItemRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:23: error: cannot find symbol
+        if (this.isConstructed()) {
+                ^
+  symbol: method isConstructed()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:26: error: cannot find symbol
+        final ByteBuffer buf = this.getAccumulator().drain(0);
+                                   ^
+  symbol: method getAccumulator()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:35: error: cannot find symbol
+        final int op = this.getDigester().popInt();
+                           ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:55: error: cannot find symbol
+        final ModifyRequest req = (ModifyRequest)this.getDigester().peek();
+                                                     ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:58: error: cannot find symbol
+        this.getDigester().push((Object)mods);
+            ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModificationItemRule.java:59: error: cannot find symbol
+        this.setConstructed(false);
+            ^
+  symbol: method setConstructed(boolean)
+12 errors

@@ -1,0 +1,37 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionItemMatcher.java:8: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionItemMatcher.java:11: error: package ElementMatcher.Junction does not exist
+public class CollectionItemMatcher<T> extends ElementMatcher.Junction.AbstractBase<Iterable<? extends T>>
+                                                                     ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionItemMatcher.java:10: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionItemMatcher.java:13: error: cannot find symbol
+    private final ElementMatcher<? super T> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class CollectionItemMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CollectionItemMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionItemMatcher.java:15: error: cannot find symbol
+    public CollectionItemMatcher(final ElementMatcher<? super T> matcher) {
+                                       ^
+  symbol:   class ElementMatcher
+  location: class CollectionItemMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CollectionItemMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionItemMatcher.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionItemMatcher.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionItemMatcher.java:35: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((CollectionItemMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionItemMatcher.java:38: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+9 errors

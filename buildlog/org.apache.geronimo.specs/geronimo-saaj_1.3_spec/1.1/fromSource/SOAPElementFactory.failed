@@ -1,0 +1,32 @@
+sources/structure/org.apache.geronimo.specs/geronimo-saaj_1.3_spec/1.1/extractedSources/javax/xml/soap/SOAPElementFactory.java:54: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public SOAPElement create(Name name) throws SOAPException {
+                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-saaj_1.3_spec/1.1/extractedSources/javax/xml/soap/SOAPElementFactory.java:67: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public SOAPElement create(String localName) throws SOAPException {
+                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-saaj_1.3_spec/1.1/extractedSources/javax/xml/soap/SOAPElementFactory.java:85: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public SOAPElement create(String localName, String prefix, String uri)
+                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-saaj_1.3_spec/1.1/extractedSources/javax/xml/soap/SOAPElementFactory.java:33: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public class SOAPElementFactory {
+       ^
+sources/structure/org.apache.geronimo.specs/geronimo-saaj_1.3_spec/1.1/extractedSources/javax/xml/soap/FactoryFinder.java:28: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-saaj_1.3_spec/1.1/extractedSources/javax/xml/soap/FactoryFinder.java:51: error: cannot find symbol
+            return ProviderLocator.loadClass(factoryClassName, FactoryFinder.class, classloader).newInstance();
+                   ^
+  symbol:   variable ProviderLocator
+  location: class FactoryFinder
+sources/structure/org.apache.geronimo.specs/geronimo-saaj_1.3_spec/1.1/extractedSources/javax/xml/soap/FactoryFinder.java:85: error: cannot find symbol
+            Object service = ProviderLocator.getService(factoryPropertyName, FactoryFinder.class, classLoader);
+                             ^
+  symbol:   variable ProviderLocator
+  location: class FactoryFinder
+sources/structure/org.apache.geronimo.specs/geronimo-saaj_1.3_spec/1.1/extractedSources/javax/xml/soap/FactoryFinder.java:93: error: cannot find symbol
+            String factoryClassName =  ProviderLocator.lookupByJREPropertyFile("lib" + File.separator + "jaxm.properties", factoryPropertyName);
+                                       ^
+  symbol:   variable ProviderLocator
+  location: class FactoryFinder
+4 errors
+4 warnings

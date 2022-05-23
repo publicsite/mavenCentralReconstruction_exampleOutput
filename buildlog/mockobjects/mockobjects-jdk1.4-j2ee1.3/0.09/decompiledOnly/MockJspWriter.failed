@@ -1,0 +1,35 @@
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/Decompiled/com/mockobjects/servlet/MockJspWriter.java:7: error: package com.mockobjects.util does not exist
+import com.mockobjects.util.AssertMo;
+                           ^
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/Decompiled/com/mockobjects/servlet/MockJspWriter.java:11: error: cannot find symbol
+import com.mockobjects.ExpectationValue;
+                      ^
+  symbol:   class ExpectationValue
+  location: package com.mockobjects
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/Decompiled/com/mockobjects/servlet/MockJspWriter.java:12: error: package javax.servlet.jsp does not exist
+import javax.servlet.jsp.JspWriter;
+                        ^
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/Decompiled/com/mockobjects/servlet/MockJspWriter.java:14: error: cannot find symbol
+public class MockJspWriter extends JspWriter
+                                   ^
+  symbol: class JspWriter
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/Decompiled/com/mockobjects/servlet/MockJspWriter.java:16: error: cannot find symbol
+    private final ExpectationValue expectedData;
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockJspWriter
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/Decompiled/com/mockobjects/servlet/MockJspWriter.java:22: error: cannot find symbol
+        this.expectedData = new ExpectationValue("data");
+                                ^
+  symbol:   class ExpectationValue
+  location: class MockJspWriter
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/Decompiled/com/mockobjects/servlet/MockJspWriter.java:32: error: cannot find symbol
+        AssertMo.notImplemented(this.getClass().getName());
+        ^
+  symbol:   variable AssertMo
+  location: class MockJspWriter
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/Decompiled/com/mockobjects/servlet/MockJspWriter.java:32: error: cannot find symbol
+        AssertMo.notImplemented(this.getClass().getName());
+                                    ^
+  symbol: method getClass()
+8 errors

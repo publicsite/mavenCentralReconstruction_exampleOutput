@@ -1,0 +1,38 @@
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/BaseRecordManager.java:120: error: incompatible types: Object cannot be converted to Long
+        final Long recid = nameDirectory.get(name);
+                                            ^
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/RecordFile.java:48: error: incompatible types: Object cannot be converted to BlockIo
+        BlockIo node = this.inTxn.get(key);
+                                     ^
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/RecordFile.java:54: error: incompatible types: Object cannot be converted to BlockIo
+        node = this.dirty.get(key);
+                             ^
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/RecordFile.java:62: error: incompatible types: Object cannot be converted to BlockIo
+            final BlockIo cur = i.next();
+                                      ^
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/RecordFile.java:87: error: incompatible types: Object cannot be converted to BlockIo
+        final BlockIo node = this.inUse.get(new Long(blockid));
+                                           ^
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/RecordFile.java:129: error: incompatible types: Object cannot be converted to BlockIo
+            final BlockIo node = i.next();
+                                       ^
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/RecordFile.java:200: error: incompatible types: Object cannot be converted to BlockIo
+            retval = this.free.removeFirst();
+                                          ^
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/TransactionManager.java:66: error: incompatible types: Object cannot be converted to BlockIo
+                for (final BlockIo block : this.txns[i]) {
+                                                    ^
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/TransactionManager.java:137: error: incompatible types: Object cannot be converted to BlockIo
+            final BlockIo cur = blockIterator.next();
+                                                  ^
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/TransactionManager.java:150: error: incompatible types: Object cannot be converted to BlockIo
+        for (final BlockIo cur : blocks) {
+                                 ^
+sources/structure/jdbm/jdbm/0.20-dev/Decompiled/jdbm/recman/TransactionManager.java:156: error: incompatible types: Object cannot be converted to BlockIo
+        for (final BlockIo cur : blocks) {
+                                 ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors

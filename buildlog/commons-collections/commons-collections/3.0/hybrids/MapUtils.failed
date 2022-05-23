@@ -1,0 +1,286 @@
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:938: error: class, interface, or enum expected
+    public static void verbosePrint(
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:939: error: class, interface, or enum expected
+        final PrintStream out,
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:940: error: class, interface, or enum expected
+        final Object label,
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:941: error: class, interface, or enum expected
+        final Map map) {
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:944: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:964: error: class, interface, or enum expected
+    public static void debugPrint(
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:965: error: class, interface, or enum expected
+        final PrintStream out,
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:966: error: class, interface, or enum expected
+        final Object label,
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:967: error: class, interface, or enum expected
+        final Map map) {
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:970: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:981: error: class, interface, or enum expected
+    protected static void logInfo(final Exception ex) {
+                                        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:983: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1009: error: class, interface, or enum expected
+        final PrintStream out,
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1010: error: class, interface, or enum expected
+        final Object label,
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1011: error: class, interface, or enum expected
+        final Map map,
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1012: error: class, interface, or enum expected
+        final ArrayStack lineage,
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1013: error: class, interface, or enum expected
+        final boolean debug) {
+              ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1017: error: class, interface, or enum expected
+        if (map == null) {
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1020: error: class, interface, or enum expected
+                out.print(" = ");
+                ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1021: error: class, interface, or enum expected
+            }
+            ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1023: error: class, interface, or enum expected
+            return;
+            ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1024: error: class, interface, or enum expected
+        }
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1027: error: class, interface, or enum expected
+            out.println(" = ");
+            ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1028: error: class, interface, or enum expected
+        }
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1031: error: class, interface, or enum expected
+        out.println("{");
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1033: error: class, interface, or enum expected
+        lineage.push(map);
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1035: error: class, interface, or enum expected
+        for (Iterator it = map.entrySet().iterator(); it.hasNext();) {
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1035: error: class, interface, or enum expected
+        for (Iterator it = map.entrySet().iterator(); it.hasNext();) {
+                                                      ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1035: error: class, interface, or enum expected
+        for (Iterator it = map.entrySet().iterator(); it.hasNext();) {
+                                                                   ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1037: error: class, interface, or enum expected
+            Object childKey = entry.getKey();
+            ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1038: error: class, interface, or enum expected
+            Object childValue = entry.getValue();
+            ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1039: error: class, interface, or enum expected
+            if (childValue instanceof Map && !lineage.contains(childValue)) {
+            ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1046: error: class, interface, or enum expected
+            } else {
+            ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1048: error: class, interface, or enum expected
+                out.print(childKey);
+                ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1049: error: class, interface, or enum expected
+                out.print(" = ");
+                ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1051: error: class, interface, or enum expected
+                final int lineageIndex = lineage.indexOf(childValue);
+                      ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1052: error: class, interface, or enum expected
+                if (lineageIndex == -1) {
+                ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1054: error: class, interface, or enum expected
+                } else if (lineage.size() - 1 == lineageIndex) {
+                ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1056: error: class, interface, or enum expected
+                } else {
+                ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1061: error: class, interface, or enum expected
+                }
+                ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1065: error: class, interface, or enum expected
+                    out.println(childValue.getClass().getName());
+                    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1066: error: class, interface, or enum expected
+                } else {
+                ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1068: error: class, interface, or enum expected
+                }
+                ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1074: error: class, interface, or enum expected
+        printIndent(out, lineage.size());
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1075: error: class, interface, or enum expected
+        out.println(debug ? "} " + map.getClass().getName() : "}");
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1076: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1083: error: class, interface, or enum expected
+    private static void printIndent(final PrintStream out, final int indent) {
+                                          ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1083: error: class, interface, or enum expected
+    private static void printIndent(final PrintStream out, final int indent) {
+                                                                 ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1084: error: class, interface, or enum expected
+        for (int i = 0; i < indent; i++) {
+                        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1084: error: class, interface, or enum expected
+        for (int i = 0; i < indent; i++) {
+                                    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1086: error: class, interface, or enum expected
+        }
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1105: error: class, interface, or enum expected
+    public static Map invertMap(Map map) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1107: error: class, interface, or enum expected
+        for (Iterator it = map.entrySet().iterator(); it.hasNext();) {
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1107: error: class, interface, or enum expected
+        for (Iterator it = map.entrySet().iterator(); it.hasNext();) {
+                                                      ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1107: error: class, interface, or enum expected
+        for (Iterator it = map.entrySet().iterator(); it.hasNext();) {
+                                                                   ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1109: error: class, interface, or enum expected
+            out.put(entry.getValue(), entry.getKey());
+            ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1110: error: class, interface, or enum expected
+        }
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1112: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1128: error: class, interface, or enum expected
+    public static void safeAddToMap(Map map, Object key, Object value) throws NullPointerException {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1131: error: class, interface, or enum expected
+        } else {
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1133: error: class, interface, or enum expected
+        }
+        ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1161: error: class, interface, or enum expected
+    public static Map synchronizedMap(Map map) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1163: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1174: error: class, interface, or enum expected
+    public static Map unmodifiableMap(Map map) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1176: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1190: error: class, interface, or enum expected
+    public static Map predicatedMap(Map map, Predicate keyPred, Predicate valuePred) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1192: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1205: error: class, interface, or enum expected
+    public static Map typedMap(Map map, Class keyType, Class valueType) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1207: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1222: error: class, interface, or enum expected
+    public static Map transformedMap(Map map, Transformer keyTransformer, Transformer valueTransformer) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1224: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1236: error: class, interface, or enum expected
+    public static Map fixedSizeMap(Map map) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1238: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1268: error: class, interface, or enum expected
+    public static Map lazyMap(Map map, Factory factory) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1270: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1307: error: class, interface, or enum expected
+    public static Map lazyMap(Map map, Transformer transformerFactory) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1309: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1322: error: class, interface, or enum expected
+    public static Map orderedMap(Map map) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1324: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1351: error: class, interface, or enum expected
+    public static Map synchronizedSortedMap(SortedMap map) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1353: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1364: error: class, interface, or enum expected
+    public static Map unmodifiableSortedMap(SortedMap map) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1366: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1380: error: class, interface, or enum expected
+    public static SortedMap predicatedSortedMap(SortedMap map, Predicate keyPred, Predicate valuePred) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1382: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1394: error: class, interface, or enum expected
+    public static SortedMap typedSortedMap(SortedMap map, Class keyType, Class valueType) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1396: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1411: error: class, interface, or enum expected
+    public static SortedMap transformedSortedMap(SortedMap map, Transformer keyTransformer, Transformer valueTransformer) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1413: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1425: error: class, interface, or enum expected
+    public static SortedMap fixedSizeSortedMap(SortedMap map) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1427: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1458: error: class, interface, or enum expected
+    public static SortedMap lazySortedMap(SortedMap map, Factory factory) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1460: error: class, interface, or enum expected
+    }
+    ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1497: error: class, interface, or enum expected
+    public static SortedMap lazySortedMap(SortedMap map, Transformer transformerFactory) {
+                  ^
+hybrids/commons-collections/commons-collections/3.0/MapUtils.java:1499: error: class, interface, or enum expected
+    }
+    ^
+95 errors

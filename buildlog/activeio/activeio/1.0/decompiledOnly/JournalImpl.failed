@@ -1,0 +1,116 @@
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:9: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.FutureResult;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:12: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.ThreadFactory;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:19: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.QueuedExecutor;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/BatchedWrite.java:7: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.Latch;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/LogFileManager.java:21: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.SynchronizedInt;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:34: error: cannot find symbol
+    private QueuedExecutor executor;
+            ^
+  symbol:   class QueuedExecutor
+  location: class JournalImpl
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/packet/PacketPool.java:7: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.SynchronizedInt;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/LogFileManager.java:36: error: cannot find symbol
+    private final SynchronizedInt activeLogFileCount;
+                  ^
+  symbol:   class SynchronizedInt
+  location: class LogFileManager
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/BatchedWrite.java:17: error: cannot find symbol
+    private Latch writeDoneLatch;
+            ^
+  symbol:   class Latch
+  location: class BatchedWrite
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/packet/PacketPool.java:60: error: cannot find symbol
+        private final SynchronizedInt referenceCounter;
+                      ^
+  symbol:   class SynchronizedInt
+  location: class PacketPool.PooledPacket
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/packet/PacketPool.java:66: error: cannot find symbol
+        private PooledPacket(final Packet next, final SynchronizedInt referenceCounter) {
+                                                      ^
+  symbol:   class SynchronizedInt
+  location: class PacketPool.PooledPacket
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:57: error: cannot find symbol
+        (this.executor = new QueuedExecutor()).setThreadFactory((ThreadFactory)new ThreadFactory() {
+                                                                 ^
+  symbol:   class ThreadFactory
+  location: class JournalImpl
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:57: error: cannot find symbol
+        (this.executor = new QueuedExecutor()).setThreadFactory((ThreadFactory)new ThreadFactory() {
+                                                                                   ^
+  symbol:   class ThreadFactory
+  location: class JournalImpl
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:57: error: cannot find symbol
+        (this.executor = new QueuedExecutor()).setThreadFactory((ThreadFactory)new ThreadFactory() {
+                             ^
+  symbol:   class QueuedExecutor
+  location: class JournalImpl
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:160: error: cannot find symbol
+                final FutureResult result = new FutureResult();
+                      ^
+  symbol:   class FutureResult
+  location: class JournalImpl
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:160: error: cannot find symbol
+                final FutureResult result = new FutureResult();
+                                                ^
+  symbol:   class FutureResult
+  location: class JournalImpl
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:221: error: cannot find symbol
+            final FutureResult result = new FutureResult();
+                  ^
+  symbol:   class FutureResult
+  location: class JournalImpl
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:221: error: cannot find symbol
+            final FutureResult result = new FutureResult();
+                                            ^
+  symbol:   class FutureResult
+  location: class JournalImpl
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:260: error: cannot find symbol
+        final FutureResult result = new FutureResult();
+              ^
+  symbol:   class FutureResult
+  location: class JournalImpl
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/JournalImpl.java:260: error: cannot find symbol
+        final FutureResult result = new FutureResult();
+                                        ^
+  symbol:   class FutureResult
+  location: class JournalImpl
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/BatchedWrite.java:40: error: cannot find symbol
+            this.writeDoneLatch = new Latch();
+                                      ^
+  symbol:   class Latch
+  location: class BatchedWrite
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/LogFileManager.java:52: error: cannot find symbol
+        this.activeLogFileCount = new SynchronizedInt(0);
+                                      ^
+  symbol:   class SynchronizedInt
+  location: class LogFileManager
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/packet/PacketPool.java:29: error: incompatible types: Object cannot be converted to Packet
+                    answer = this.pool.remove(this.pool.size() - 1);
+                                             ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/packet/PacketPool.java:40: error: no suitable constructor found for PooledPacket(Packet)
+        return new PooledPacket(answer);
+               ^
+    constructor PacketPool.PooledPacket.PacketPool.PooledPacket(PacketPool,Packet) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor PacketPool.PooledPacket.PacketPool.PooledPacket(Packet,SynchronizedInt) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/packet/PacketPool.java:63: error: cannot find symbol
+            this(this$0, next, new SynchronizedInt(0));
+                                   ^
+  symbol:   class SynchronizedInt
+  location: class PacketPool.PooledPacket
+Note: sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/packet/PacketPool.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+25 errors

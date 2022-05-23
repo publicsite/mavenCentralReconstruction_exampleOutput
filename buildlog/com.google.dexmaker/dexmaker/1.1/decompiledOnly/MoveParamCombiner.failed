@@ -1,0 +1,133 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:7: error: package com.google.dexmaker.dx.rop.cst does not exist
+import com.google.dexmaker.dx.rop.cst.CstInteger;
+                                     ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:8: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.CstInsn;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:11: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.LocalItem;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:13: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.RegisterSpec;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:17: error: cannot find symbol
+    private final SsaMethod ssaMeth;
+                  ^
+  symbol:   class SsaMethod
+  location: class MoveParamCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:19: error: cannot find symbol
+    public static void process(final SsaMethod ssaMethod) {
+                                     ^
+  symbol:   class SsaMethod
+  location: class MoveParamCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:23: error: cannot find symbol
+    private MoveParamCombiner(final SsaMethod ssaMeth) {
+                                    ^
+  symbol:   class SsaMethod
+  location: class MoveParamCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:90: error: cannot find symbol
+    private int getParamIndex(final NormalSsaInsn insn) {
+                                    ^
+  symbol:   class NormalSsaInsn
+  location: class MoveParamCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:28: error: cannot find symbol
+        final RegisterSpec[] paramSpecs = new RegisterSpec[this.ssaMeth.getParamWidth()];
+              ^
+  symbol:   class RegisterSpec
+  location: class MoveParamCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:28: error: cannot find symbol
+        final RegisterSpec[] paramSpecs = new RegisterSpec[this.ssaMeth.getParamWidth()];
+                                              ^
+  symbol:   class RegisterSpec
+  location: class MoveParamCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:29: error: cannot find symbol
+        final HashSet<SsaInsn> deletedInsns = new HashSet<SsaInsn>();
+                      ^
+  symbol:   class SsaInsn
+  location: class MoveParamCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:29: error: cannot find symbol
+        final HashSet<SsaInsn> deletedInsns = new HashSet<SsaInsn>();
+                                                          ^
+  symbol:   class SsaInsn
+  location: class MoveParamCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:30: error: package SsaInsn does not exist
+        this.ssaMeth.forEachInsn(new SsaInsn.Visitor() {
+                                            ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:31: error: cannot find symbol
+            public void visitMoveInsn(final NormalSsaInsn insn) {
+                                            ^
+  symbol: class NormalSsaInsn
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:34: error: cannot find symbol
+            public void visitPhiInsn(final PhiInsn phi) {
+                                           ^
+  symbol: class PhiInsn
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:37: error: cannot find symbol
+            public void visitNonMoveInsn(final NormalSsaInsn insn) {
+                                               ^
+  symbol: class NormalSsaInsn
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:46: error: cannot find symbol
+                    final RegisterSpec specA = paramSpecs[param];
+                          ^
+  symbol: class RegisterSpec
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:47: error: cannot find symbol
+                    final RegisterSpec specB = insn.getResult();
+                          ^
+  symbol: class RegisterSpec
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:48: error: cannot find symbol
+                    final LocalItem localA = specA.getLocalItem();
+                          ^
+  symbol: class LocalItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:49: error: cannot find symbol
+                    final LocalItem localB = specB.getLocalItem();
+                          ^
+  symbol: class LocalItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:50: error: cannot find symbol
+                    LocalItem newLocal;
+                    ^
+  symbol: class LocalItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:64: error: cannot find symbol
+                    final RegisterMapper mapper = new RegisterMapper() {
+                          ^
+  symbol: class RegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:64: error: cannot find symbol
+                    final RegisterMapper mapper = new RegisterMapper() {
+                                                      ^
+  symbol: class RegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:71: error: cannot find symbol
+                        public RegisterSpec map(final RegisterSpec registerSpec) {
+                                                      ^
+  symbol: class RegisterSpec
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:71: error: cannot find symbol
+                        public RegisterSpec map(final RegisterSpec registerSpec) {
+                               ^
+  symbol: class RegisterSpec
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:65: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:70: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:78: error: cannot find symbol
+                    final List<SsaInsn> uses = MoveParamCombiner.this.ssaMeth.getUseListForRegister(specB.getReg());
+                               ^
+  symbol: class SsaInsn
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:80: error: cannot find symbol
+                        final SsaInsn use = uses.get(i);
+                              ^
+  symbol: class SsaInsn
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:91: error: cannot find symbol
+        final CstInsn cstInsn = (CstInsn)insn.getOriginalRopInsn();
+              ^
+  symbol:   class CstInsn
+  location: class MoveParamCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:91: error: cannot find symbol
+        final CstInsn cstInsn = (CstInsn)insn.getOriginalRopInsn();
+                                 ^
+  symbol:   class CstInsn
+  location: class MoveParamCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/MoveParamCombiner.java:92: error: cannot find symbol
+        final int param = ((CstInteger)cstInsn.getConstant()).getValue();
+                            ^
+  symbol:   class CstInteger
+  location: class MoveParamCombiner
+32 errors

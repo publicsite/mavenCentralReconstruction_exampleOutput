@@ -1,0 +1,22 @@
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:21: error: package org.powermock.core.reporter does not exist
+import org.powermock.core.reporter.PowerMockReporter;
+                                  ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:23: error: package org.powermock.utils does not exist
+import static org.powermock.utils.StringJoiner.join;
+                                 ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:23: error: static import only from classes and interfaces
+import static org.powermock.utils.StringJoiner.join;
+^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:25: error: cannot find symbol
+public class MockitoPowerMockReporter implements PowerMockReporter {
+                                                 ^
+  symbol: class PowerMockReporter
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:29: error: cannot find symbol
+        throw new ClassNotPreparedException(join(String.format("The class %s not prepared for test.", type.getName()),
+                                            ^
+  symbol:   method join(String,String,String)
+  location: class MockitoPowerMockReporter
+6 errors

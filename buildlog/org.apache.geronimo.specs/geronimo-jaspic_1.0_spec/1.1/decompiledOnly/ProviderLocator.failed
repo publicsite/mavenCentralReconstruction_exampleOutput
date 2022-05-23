@@ -1,0 +1,82 @@
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:23: error: package org.apache.geronimo.osgi.registry.api does not exist
+import org.apache.geronimo.osgi.registry.api.ProviderRegistry;
+                                            ^
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:24: error: package org.osgi.util.tracker does not exist
+import org.osgi.util.tracker.ServiceTrackerCustomizer;
+                            ^
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:25: error: package org.osgi.util.tracker does not exist
+import org.osgi.util.tracker.ServiceTracker;
+                            ^
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:26: error: package org.osgi.framework does not exist
+import org.osgi.framework.BundleContext;
+                         ^
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:30: error: cannot find symbol
+    private static BundleContext context;
+                   ^
+  symbol:   class BundleContext
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:36: error: cannot find symbol
+    public static void init(final BundleContext c) {
+                                  ^
+  symbol:   class BundleContext
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:38: error: cannot find symbol
+            ProviderLocator.registryTracker = new ServiceTracker(c, "org.apache.geronimo.osgi.registry.api.ProviderRegistry", (ServiceTrackerCustomizer)null);
+                                                  ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:38: error: cannot find symbol
+            ProviderLocator.registryTracker = new ServiceTracker(c, "org.apache.geronimo.osgi.registry.api.ProviderRegistry", (ServiceTrackerCustomizer)null);
+                                                                                                                               ^
+  symbol:   class ServiceTrackerCustomizer
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:39: error: cannot find symbol
+            ((ServiceTracker)ProviderLocator.registryTracker).open();
+              ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:49: error: cannot find symbol
+            ((ServiceTracker)ProviderLocator.registryTracker).close();
+              ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:59: error: cannot find symbol
+        return (Class<?>)((ProviderRegistry)registry).locate(providerId);
+                           ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:67: error: cannot find symbol
+        return (List<Class<?>>)((ProviderRegistry)registry).locateAll(providerId);
+                                 ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:98: error: cannot find symbol
+            final Object service = ((ProviderRegistry)registry).getService(iface);
+                                     ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:113: error: cannot find symbol
+            final Class<?> cls = (Class<?>)((ProviderRegistry)registry).getServiceClass(iface);
+                                             ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:125: error: cannot find symbol
+            final List<Object> globalServices = (List<Object>)((ProviderRegistry)registry).getServices(iface);
+                                                                ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:143: error: cannot find symbol
+            final List<Class<?>> globalServices = (List<Class<?>>)((ProviderRegistry)registry).getServiceClasses(iface);
+                                                                    ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java:278: error: cannot find symbol
+        return ((ServiceTracker)ProviderLocator.registryTracker).getService();
+                 ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+Note: sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.apache.geronimo.specs/geronimo-jaspic_1.0_spec/1.1/Decompiled/org/apache/geronimo/osgi/locator/ProviderLocator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+17 errors

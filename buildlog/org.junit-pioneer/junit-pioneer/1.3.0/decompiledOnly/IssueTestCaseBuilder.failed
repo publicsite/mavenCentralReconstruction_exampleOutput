@@ -1,0 +1,28 @@
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueTestCaseBuilder.java:8: error: package org.junit.platform.engine does not exist
+import org.junit.platform.engine.TestExecutionResult;
+                                ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueTestCaseBuilder.java:14: error: package TestExecutionResult does not exist
+    private TestExecutionResult.Status result;
+                               ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueTestCaseBuilder.java:20: error: package TestExecutionResult does not exist
+    public IssueTestCaseBuilder setResult(final TestExecutionResult.Status result) {
+                                                                   ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/IssueTestCase.java:17: error: package org.junit.platform.engine.TestExecutionResult does not exist
+import org.junit.platform.engine.TestExecutionResult.Status;
+                                                    ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/IssueTestCase.java:33: error: cannot find symbol
+	private final Status result;
+	              ^
+  symbol:   class Status
+  location: class IssueTestCase
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/IssueTestCase.java:41: error: cannot find symbol
+	public IssueTestCase(String testId, Status result) {
+	                                    ^
+  symbol:   class Status
+  location: class IssueTestCase
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/IssueTestCase.java:59: error: cannot find symbol
+	public Status result() {
+	       ^
+  symbol:   class Status
+  location: class IssueTestCase
+7 errors

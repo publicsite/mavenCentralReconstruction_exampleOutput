@@ -1,0 +1,46 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:7: error: cannot find symbol
+import net.sf.cglib.proxy.MethodProxy;
+                         ^
+  symbol:   class MethodProxy
+  location: package net.sf.cglib.proxy
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:9: error: cannot find symbol
+import net.sf.cglib.proxy.MethodInterceptor;
+                         ^
+  symbol:   class MethodInterceptor
+  location: package net.sf.cglib.proxy
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:14: error: cannot find symbol
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+  symbol:   class Enhancer
+  location: package net.sf.cglib.proxy
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:71: error: cannot find symbol
+        private class LookupOverrideMethodInterceptor extends CglibIdentitySupport implements MethodInterceptor
+                                                                                              ^
+  symbol:   class MethodInterceptor
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:73: error: cannot find symbol
+            public Object intercept(final Object obj, final Method method, final Object[] args, final MethodProxy mp) throws Throwable {
+                                                                                                      ^
+  symbol:   class MethodProxy
+  location: class CglibSubclassCreator.LookupOverrideMethodInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:79: error: cannot find symbol
+        private class ReplaceOverrideMethodInterceptor extends CglibIdentitySupport implements MethodInterceptor
+                                                                                               ^
+  symbol:   class MethodInterceptor
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:81: error: cannot find symbol
+            public Object intercept(final Object obj, final Method method, final Object[] args, final MethodProxy mp) throws Throwable {
+                                                                                                      ^
+  symbol:   class MethodProxy
+  location: class CglibSubclassCreator.ReplaceOverrideMethodInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:45: error: cannot find symbol
+            final Enhancer enhancer = new Enhancer();
+                  ^
+  symbol:   class Enhancer
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:45: error: cannot find symbol
+            final Enhancer enhancer = new Enhancer();
+                                          ^
+  symbol:   class Enhancer
+  location: class CglibSubclassCreator
+9 errors

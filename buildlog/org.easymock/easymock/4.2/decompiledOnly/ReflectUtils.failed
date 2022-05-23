@@ -1,0 +1,57 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:10: error: cannot find symbol
+import org.easymock.asm.Attribute;
+                       ^
+  symbol:   class Attribute
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:61: error: cannot find symbol
+            return TypeUtils.getTypes(((Method)member).getExceptionTypes());
+                   ^
+  symbol:   variable TypeUtils
+  location: class ReflectUtils
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:64: error: cannot find symbol
+            return TypeUtils.getTypes(((Constructor)member).getExceptionTypes());
+                   ^
+  symbol:   variable TypeUtils
+  location: class ReflectUtils
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:74: error: cannot find symbol
+            final Type[] types = TypeUtils.getTypes(((Constructor)member).getParameterTypes());
+                                 ^
+  symbol:   variable TypeUtils
+  location: class ReflectUtils
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:136: error: incompatible types: Object cannot be converted to String
+            types[i] = getClass(params.get(i), loader);
+                                          ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:175: error: incompatible types: Object cannot be converted to Class
+                final Class c = ReflectUtils.primitives.get(className);
+                                                           ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:181: error: incompatible types: Object cannot be converted to String
+                final String transform = ReflectUtils.transforms.get(className);
+                                                                    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:194: error: cannot find symbol
+        return newInstance(type, Constants.EMPTY_CLASS_ARRAY, null);
+                                 ^
+  symbol:   variable Constants
+  location: class ReflectUtils
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:276: error: incompatible types: Object[] cannot be converted to Method[]
+        return methods.toArray(new Method[methods.size()]);
+                              ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:305: error: incompatible types: Object[] cannot be converted to PropertyDescriptor[]
+            return properties.toArray(new PropertyDescriptor[properties.size()]);
+                                     ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:423: error: cannot find symbol
+            public Attribute getAttribute() {
+                   ^
+  symbol: class Attribute
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:449: error: cannot find symbol
+                return TypeUtils.getTypes(clazz.getInterfaces());
+                       ^
+  symbol: variable TypeUtils
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java:467: error: incompatible types: Object cannot be converted to Method
+            result[j] = map.get(namesAndDescriptors[j * 2] + namesAndDescriptors[j * 2 + 1]);
+                               ^
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/ReflectUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+13 errors

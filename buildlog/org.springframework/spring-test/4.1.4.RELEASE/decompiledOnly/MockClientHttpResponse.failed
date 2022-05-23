@@ -1,0 +1,83 @@
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/http/client/MockClientHttpResponse.java:9: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/http/client/MockClientHttpResponse.java:10: error: package org.springframework.http does not exist
+import org.springframework.http.HttpStatus;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/http/client/MockClientHttpResponse.java:11: error: package org.springframework.http.client does not exist
+import org.springframework.http.client.ClientHttpResponse;
+                                      ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:22: error: package org.springframework.http does not exist
+import org.springframework.http.HttpHeaders;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:23: error: package org.springframework.http does not exist
+import org.springframework.http.HttpInputMessage;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:24: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:32: error: cannot find symbol
+public class MockHttpInputMessage implements HttpInputMessage {
+                                             ^
+  symbol: class HttpInputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/http/client/MockClientHttpResponse.java:14: error: cannot find symbol
+public class MockClientHttpResponse extends MockHttpInputMessage implements ClientHttpResponse
+                                                                            ^
+  symbol: class ClientHttpResponse
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/http/client/MockClientHttpResponse.java:16: error: cannot find symbol
+    private final HttpStatus status;
+                  ^
+  symbol:   class HttpStatus
+  location: class MockClientHttpResponse
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/http/client/MockClientHttpResponse.java:18: error: cannot find symbol
+    public MockClientHttpResponse(final byte[] body, final HttpStatus statusCode) {
+                                                           ^
+  symbol:   class HttpStatus
+  location: class MockClientHttpResponse
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/http/client/MockClientHttpResponse.java:24: error: cannot find symbol
+    public MockClientHttpResponse(final InputStream body, final HttpStatus statusCode) {
+                                                                ^
+  symbol:   class HttpStatus
+  location: class MockClientHttpResponse
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/http/client/MockClientHttpResponse.java:30: error: cannot find symbol
+    public HttpStatus getStatusCode() throws IOException {
+           ^
+  symbol:   class HttpStatus
+  location: class MockClientHttpResponse
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:34: error: cannot find symbol
+	private final HttpHeaders headers = new HttpHeaders();
+	              ^
+  symbol:   class HttpHeaders
+  location: class MockHttpInputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:49: error: cannot find symbol
+	public HttpHeaders getHeaders() {
+	       ^
+  symbol:   class HttpHeaders
+  location: class MockHttpInputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:34: error: cannot find symbol
+	private final HttpHeaders headers = new HttpHeaders();
+	                                        ^
+  symbol:   class HttpHeaders
+  location: class MockHttpInputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:44: error: cannot find symbol
+		Assert.notNull(body, "'body' must not be null");
+		^
+  symbol:   variable Assert
+  location: class MockHttpInputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:48: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:53: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/http/client/MockClientHttpResponse.java:20: error: cannot find symbol
+        Assert.notNull((Object)statusCode, "statisCode is required");
+        ^
+  symbol:   variable Assert
+  location: class MockClientHttpResponse
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/http/client/MockClientHttpResponse.java:26: error: cannot find symbol
+        Assert.notNull((Object)statusCode, "statisCode is required");
+        ^
+  symbol:   variable Assert
+  location: class MockClientHttpResponse
+20 errors

@@ -1,0 +1,140 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:243: error: package Loaded does not exist
+        protected static class MissingValue extends Loaded.AbstractBase<Void> implements AnnotationValue<Void, Void>
+                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:365: error: cannot find symbol
+    public static class ForLoadedAnnotation<S extends Annotation> extends ForPrepared<S>
+                                                                          ^
+  symbol:   class ForPrepared
+  location: interface AnnotationDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3546: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3554: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:81: error: type argument Object is not within bounds of type-variable T
+            return (S)Proxy.newProxyInstance(classLoader, new Class[] { annotationType }, new AnnotationInvocationHandler<Object>(annotationType, loadedValues));
+                                                                                                                          ^
+  where T is a type-variable:
+    T extends Annotation declared in class AnnotationInvocationHandler
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:81: error: incompatible types: Class<S> cannot be converted to Class<Object>
+            return (S)Proxy.newProxyInstance(classLoader, new Class[] { annotationType }, new AnnotationInvocationHandler<Object>(annotationType, loadedValues));
+                                                                                                                                  ^
+  where S is a type-variable:
+    S extends Annotation declared in method <S>of(ClassLoader,Class<S>,Map<String,? extends AnnotationValue<?,?>>)
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:243: error: MissingValue is not abstract and does not override abstract method <W>resolve(Class<? extends W>) in AnnotationValue
+        protected static class MissingValue extends Loaded.AbstractBase<Void> implements AnnotationValue<Void, Void>
+                         ^
+  where W is a type-variable:
+    W extends Object declared in method <W>resolve(Class<? extends W>)
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:266: error: incompatible types: MissingValue cannot be converted to Loaded<Void>
+                return this;
+                       ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:270: error: incompatible types: MissingValue cannot be converted to Loaded<Void>
+                return this;
+                       ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:371: error: incompatible types: Class<Annotation> cannot be converted to Class<S>
+            this(annotation, (Class<Annotation>)annotation.annotationType());
+                             ^
+  where S is a type-variable:
+    S extends Annotation declared in class ForLoadedAnnotation
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:380: error: incompatible types: ForLoadedAnnotation<U> cannot be converted to Loadable<U>
+            return new ForLoadedAnnotation<U>(annotation);
+                   ^
+  where U is a type-variable:
+    U extends Annotation declared in method <U>of(U)
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:454: error: type argument Object is not within bounds of type-variable T
+                        AccessController.doPrivileged(new SetAccessibleAction<Object>(method));
+                                                                              ^
+  where T is a type-variable:
+    T extends AccessibleObject declared in class SetAccessibleAction
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:471: error: incompatible types: bad type in conditional expression
+            return (annotationType == this.annotation.annotationType()) ? this : new ForLoadedAnnotation<T>(this.annotation, (Class<Annotation>)annotationType);
+                                                                          ^
+    ForLoadedAnnotation<S> cannot be converted to Loadable<T>
+  where S,T are type-variables:
+    S extends Annotation declared in class ForLoadedAnnotation
+    T extends Annotation declared in method <T>prepare(Class<T>)
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:471: error: incompatible types: S cannot be converted to T
+            return (annotationType == this.annotation.annotationType()) ? this : new ForLoadedAnnotation<T>(this.annotation, (Class<Annotation>)annotationType);
+                                                                                                                ^
+  where S,T are type-variables:
+    S extends Annotation declared in class ForLoadedAnnotation
+    T extends Annotation declared in method <T>prepare(Class<T>)
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:589: error: type argument Object is not within bounds of type-variable S
+            return this.define(property, new ForLoadedAnnotation<Object>(annotation));
+                                                                 ^
+  where S is a type-variable:
+    S extends Annotation declared in class ForLoadedAnnotation
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:589: error: no suitable method found for define(String,ForLoadedAnnotation<Object>)
+            return this.define(property, new ForLoadedAnnotation<Object>(annotation));
+                       ^
+    method Builder.define(String,AnnotationValue<?,?>) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to AnnotationValue<?,?>)
+    method Builder.define(String,Enum<?>) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to Enum<?>)
+    method Builder.define(String,EnumerationDescription) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to EnumerationDescription)
+    method Builder.define(String,Annotation) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to Annotation)
+    method Builder.define(String,AnnotationDescription) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to AnnotationDescription)
+    method Builder.define(String,Class<?>) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to Class<?>)
+    method Builder.define(String,TypeDescription) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to TypeDescription)
+    method Builder.define(String,boolean) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to boolean)
+    method Builder.define(String,byte) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to byte)
+    method Builder.define(String,char) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to char)
+    method Builder.define(String,short) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to short)
+    method Builder.define(String,int) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to int)
+    method Builder.define(String,long) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to long)
+    method Builder.define(String,float) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to float)
+    method Builder.define(String,double) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to double)
+    method Builder.define(String,String) is not applicable
+      (argument mismatch; ForLoadedAnnotation<Object> cannot be converted to String)
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java:593: error: type argument Object is not within bounds of type-variable U
+            return this.define(property, new AnnotationValue.ForAnnotationDescription<Object>(annotationDescription));
+                                                                                      ^
+  where U is a type-variable:
+    U extends Annotation declared in class ForAnnotationDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/annotation/AnnotationDescription.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+22 errors

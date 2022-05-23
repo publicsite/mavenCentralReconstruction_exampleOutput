@@ -1,0 +1,25 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:19: error: package javax.transaction does not exist
+import javax.transaction.NotSupportedException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:20: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:21: error: package javax.transaction does not exist
+import javax.transaction.Transaction;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	^
+  symbol:   class Transaction
+  location: interface TransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	                                                               ^
+  symbol:   class NotSupportedException
+  location: interface TransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	                                                                                      ^
+  symbol:   class SystemException
+  location: interface TransactionFactory
+6 errors

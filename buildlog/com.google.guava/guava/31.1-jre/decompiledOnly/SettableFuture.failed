@@ -1,0 +1,87 @@
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/util/concurrent/SettableFuture.java:7: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/util/concurrent/SettableFuture.java:12: error: cannot find symbol
+public final class SettableFuture<V> extends TrustedFuture<V>
+                                             ^
+  symbol: class TrustedFuture
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListenableFuture.java:17: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.DoNotMock;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListenableFuture.java:21: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListenableFuture.java:118: error: cannot find symbol
+@DoNotMock("Use the methods in Futures (like immediateFuture) or SettableFuture")
+ ^
+  symbol: class DoNotMock
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListenableFuture.java:120: error: cannot find symbol
+public interface ListenableFuture<V extends @Nullable Object> extends Future<V> {
+                                             ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ParametricNullness.java:50: error: package javax.annotation.meta does not exist
+@javax.annotation.meta.TypeQualifierNickname
+                      ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ParametricNullness.java:51: error: package javax.annotation does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                 ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/util/concurrent/SettableFuture.java:18: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class SettableFuture<V>
+  where V is a type-variable:
+    V extends Object declared in class SettableFuture
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/util/concurrent/SettableFuture.java:23: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class SettableFuture<V>
+  where V is a type-variable:
+    V extends Object declared in class SettableFuture
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/util/concurrent/SettableFuture.java:28: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class SettableFuture<V>
+  where V is a type-variable:
+    V extends Object declared in class SettableFuture
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ParametricNullness.java:51: error: package javax.annotation.meta does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                                                      ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/util/concurrent/SettableFuture.java:20: error: cannot find symbol
+        return super.set(value);
+               ^
+  symbol:   variable super
+  location: class SettableFuture<V>
+  where V is a type-variable:
+    V extends Object declared in class SettableFuture
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/util/concurrent/SettableFuture.java:25: error: cannot find symbol
+        return super.setException(throwable);
+               ^
+  symbol:   variable super
+  location: class SettableFuture<V>
+  where V is a type-variable:
+    V extends Object declared in class SettableFuture
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/util/concurrent/SettableFuture.java:30: error: cannot find symbol
+        return super.setFuture(future);
+               ^
+  symbol:   variable super
+  location: class SettableFuture<V>
+  where V is a type-variable:
+    V extends Object declared in class SettableFuture
+19 errors

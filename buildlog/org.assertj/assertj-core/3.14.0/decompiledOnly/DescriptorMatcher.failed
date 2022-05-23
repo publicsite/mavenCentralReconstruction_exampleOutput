@@ -1,0 +1,46 @@
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:8: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.description.ByteCodeElement;
+                                                      ^
+  symbol:   class ByteCodeElement
+  location: package org.assertj.core.internal.bytebuddy.description
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:11: error: package ElementMatcher.Junction does not exist
+public class DescriptorMatcher<T extends ByteCodeElement> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                         ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:10: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:11: error: cannot find symbol
+public class DescriptorMatcher<T extends ByteCodeElement> extends ElementMatcher.Junction.AbstractBase<T>
+                                         ^
+  symbol: class ByteCodeElement
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:13: error: cannot find symbol
+    private final ElementMatcher<String> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class DescriptorMatcher<T>
+  where T is a type-variable:
+    T declared in class DescriptorMatcher
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:15: error: cannot find symbol
+    public DescriptorMatcher(final ElementMatcher<String> matcher) {
+                                   ^
+  symbol:   class ElementMatcher
+  location: class DescriptorMatcher<T>
+  where T is a type-variable:
+    T declared in class DescriptorMatcher
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:30: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((DescriptorMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DescriptorMatcher.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+11 errors

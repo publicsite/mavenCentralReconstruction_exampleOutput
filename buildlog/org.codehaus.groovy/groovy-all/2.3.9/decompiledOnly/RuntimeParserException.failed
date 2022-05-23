@@ -1,0 +1,31 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/syntax/RuntimeParserException.java:7: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ASTNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/syntax/RuntimeParserException.java:8: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/syntax/RuntimeParserException.java:10: error: cannot find symbol
+public class RuntimeParserException extends GroovyRuntimeException
+                                            ^
+  symbol: class GroovyRuntimeException
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/syntax/RuntimeParserException.java:12: error: cannot find symbol
+    public RuntimeParserException(final String message, final ASTNode node) {
+                                                              ^
+  symbol:   class ASTNode
+  location: class RuntimeParserException
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/syntax/RuntimeParserException.java:17: error: cannot find symbol
+        final ASTNode node = this.getNode();
+              ^
+  symbol:   class ASTNode
+  location: class RuntimeParserException
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/syntax/RuntimeParserException.java:17: error: cannot find symbol
+        final ASTNode node = this.getNode();
+                                 ^
+  symbol: method getNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/syntax/RuntimeParserException.java:18: error: cannot find symbol
+        throw new SyntaxException(this.getMessage(), node.getLineNumber(), node.getColumnNumber(), node.getLastLineNumber(), node.getLastColumnNumber());
+                                      ^
+  symbol: method getMessage()
+7 errors

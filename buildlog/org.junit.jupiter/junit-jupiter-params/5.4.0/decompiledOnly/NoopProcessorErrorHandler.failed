@@ -1,0 +1,22 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/NoopProcessorErrorHandler.java:7: error: cannot find symbol
+public final class NoopProcessorErrorHandler<T extends Context> implements ProcessorErrorHandler<T>
+                                                                           ^
+  symbol: class ProcessorErrorHandler
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/NoopProcessorErrorHandler.java:9: error: cannot find symbol
+    public static final ProcessorErrorHandler instance;
+                        ^
+  symbol:   class ProcessorErrorHandler
+  location: class NoopProcessorErrorHandler<T>
+  where T is a type-variable:
+    T extends Context declared in class NoopProcessorErrorHandler
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/NoopProcessorErrorHandler.java:15: error: cannot find symbol
+    public void handleError(final DataProcessingException error, final Object[] inputRow, final T context) {
+                                  ^
+  symbol:   class DataProcessingException
+  location: class NoopProcessorErrorHandler<T>
+  where T is a type-variable:
+    T extends Context declared in class NoopProcessorErrorHandler
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/NoopProcessorErrorHandler.java:14: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+4 errors

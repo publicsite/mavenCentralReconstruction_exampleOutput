@@ -1,0 +1,16 @@
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/functors/SwitchClosure.java:43: error: incompatible types: Object cannot be converted to Closure
+        final Closure defaultClosure = predicatesAndClosures.remove(null);
+                                                                   ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/functors/SwitchClosure.java:51: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry entry : predicatesAndClosures.entrySet()) {
+                                                                   ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/functors/SwitchClosure.java:52: error: incompatible types: Object cannot be converted to Predicate
+            preds[i] = entry.getKey();
+                                   ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/functors/SwitchClosure.java:53: error: incompatible types: Object cannot be converted to Closure
+            closures[i] = entry.getValue();
+                                        ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/functors/FunctorUtils.java:61: error: incompatible types: Object cannot be converted to Predicate
+            preds[i] = it.next();
+                              ^
+5 errors

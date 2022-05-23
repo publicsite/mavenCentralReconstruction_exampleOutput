@@ -1,0 +1,56 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:7: error: cannot find symbol
+class TokenRefElement extends GrammarAtom
+                              ^
+  symbol: class GrammarAtom
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:9: error: cannot find symbol
+    public TokenRefElement(final Grammar grammar, final Token token, final boolean not, final int n) {
+                                 ^
+  symbol:   class Grammar
+  location: class TokenRefElement
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:27: error: cannot find symbol
+    public Lookahead look(final int n) {
+           ^
+  symbol:   class Lookahead
+  location: class TokenRefElement
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:11: error: cannot find symbol
+        this.not = not;
+            ^
+  symbol: variable not
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:12: error: cannot find symbol
+        final TokenSymbol tokenSymbol = this.grammar.tokenManager.getTokenSymbol(this.atomText);
+              ^
+  symbol:   class TokenSymbol
+  location: class TokenRefElement
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:12: error: cannot find symbol
+        final TokenSymbol tokenSymbol = this.grammar.tokenManager.getTokenSymbol(this.atomText);
+                                                                                     ^
+  symbol: variable atomText
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:12: error: cannot find symbol
+        final TokenSymbol tokenSymbol = this.grammar.tokenManager.getTokenSymbol(this.atomText);
+                                            ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:14: error: cannot find symbol
+            grammar.antlrTool.error("Undefined token symbol: " + this.atomText, this.grammar.getFilename(), token.getLine(), token.getColumn());
+                                                                     ^
+  symbol: variable atomText
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:14: error: cannot find symbol
+            grammar.antlrTool.error("Undefined token symbol: " + this.atomText, this.grammar.getFilename(), token.getLine(), token.getColumn());
+                                                                                    ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:17: error: cannot find symbol
+            this.tokenType = tokenSymbol.getTokenType();
+                ^
+  symbol: variable tokenType
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:20: error: cannot find symbol
+        this.line = token.getLine();
+            ^
+  symbol: variable line
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:24: error: cannot find symbol
+        this.grammar.generator.gen(this);
+            ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenRefElement.java:28: error: cannot find symbol
+        return this.grammar.theLLkAnalyzer.look(n, this);
+                   ^
+  symbol: variable grammar
+13 errors

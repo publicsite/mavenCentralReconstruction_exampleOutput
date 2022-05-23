@@ -1,0 +1,18 @@
+sources/structure/org.hamcrest/hamcrest/2.2/Decompiled/org/hamcrest/collection/IsIterableContainingInRelativeOrder.java:43: error: incompatible types: List<Matcher<? super E>> cannot be converted to List<Matcher<? super Object>>
+        return (Matcher<Iterable<? extends E>>)containsInRelativeOrder((List<Matcher<? super Object>>)matchers);
+                                                                                                      ^
+  where E is a type-variable:
+    E extends Object declared in method <E>containsInRelativeOrder(E...)
+sources/structure/org.hamcrest/hamcrest/2.2/Decompiled/org/hamcrest/collection/IsIterableContainingInRelativeOrder.java:48: error: incompatible types: Matcher<Iterable<? extends Object>> cannot be converted to Matcher<Iterable<? extends E>>
+        return (Matcher<Iterable<? extends E>>)containsInRelativeOrder(Arrays.asList((Matcher<? super Object>[])itemMatchers));
+                                                                      ^
+  where E is a type-variable:
+    E extends Object declared in method <E>containsInRelativeOrder(Matcher<? super E>...)
+sources/structure/org.hamcrest/hamcrest/2.2/Decompiled/org/hamcrest/collection/IsIterableContainingInRelativeOrder.java:52: error: incompatible types: List<Matcher<? super E>> cannot be converted to List<Matcher<? super Object>>
+        return (Matcher<Iterable<? extends E>>)new IsIterableContainingInRelativeOrder((List<Matcher<? super Object>>)itemMatchers);
+                                                                                                                      ^
+  where E is a type-variable:
+    E extends Object declared in method <E>containsInRelativeOrder(List<Matcher<? super E>>)
+Note: sources/structure/org.hamcrest/hamcrest/2.2/Decompiled/org/hamcrest/collection/IsIterableContainingInRelativeOrder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors

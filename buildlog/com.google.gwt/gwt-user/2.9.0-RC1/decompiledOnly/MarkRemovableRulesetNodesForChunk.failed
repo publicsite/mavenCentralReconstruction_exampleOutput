@@ -1,0 +1,80 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:7: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssSelectorListNode;
+                                                        ^
+  symbol:   class CssSelectorListNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:8: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssSelectorNode;
+                                                        ^
+  symbol:   class CssSelectorNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:9: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssRulesetNode;
+                                                        ^
+  symbol:   class CssRulesetNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:10: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Preconditions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:11: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssTree;
+                                                        ^
+  symbol:   class CssTree
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:13: error: cannot find symbol
+public class MarkRemovableRulesetNodesForChunk<T> extends MarkRemovableRulesetNodes
+                                                          ^
+  symbol: class MarkRemovableRulesetNodes
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:17: error: cannot find symbol
+    public MarkRemovableRulesetNodesForChunk(final T chunk, final CssTree tree, final boolean skipping) {
+                                                                  ^
+  symbol:   class CssTree
+  location: class MarkRemovableRulesetNodesForChunk<T>
+  where T is a type-variable:
+    T extends Object declared in class MarkRemovableRulesetNodesForChunk
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:24: error: cannot find symbol
+    public boolean canModifyRuleset(final CssRulesetNode ruleset) {
+                                          ^
+  symbol:   class CssRulesetNode
+  location: class MarkRemovableRulesetNodesForChunk<T>
+  where T is a type-variable:
+    T extends Object declared in class MarkRemovableRulesetNodesForChunk
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:19: error: cannot find symbol
+        Preconditions.checkNotNull((Object)chunk);
+        ^
+  symbol:   variable Preconditions
+  location: class MarkRemovableRulesetNodesForChunk<T>
+  where T is a type-variable:
+    T extends Object declared in class MarkRemovableRulesetNodesForChunk
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:25: error: cannot find symbol
+        if (!super.canModifyRuleset(ruleset)) {
+             ^
+  symbol:   variable super
+  location: class MarkRemovableRulesetNodesForChunk<T>
+  where T is a type-variable:
+    T extends Object declared in class MarkRemovableRulesetNodesForChunk
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:28: error: cannot find symbol
+        final CssSelectorListNode selectors = ruleset.getSelectors();
+              ^
+  symbol:   class CssSelectorListNode
+  location: class MarkRemovableRulesetNodesForChunk<T>
+  where T is a type-variable:
+    T extends Object declared in class MarkRemovableRulesetNodesForChunk
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:29: error: cannot find symbol
+        Preconditions.checkArgument(selectors.numChildren() == 1);
+        ^
+  symbol:   variable Preconditions
+  location: class MarkRemovableRulesetNodesForChunk<T>
+  where T is a type-variable:
+    T extends Object declared in class MarkRemovableRulesetNodesForChunk
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/MarkRemovableRulesetNodesForChunk.java:30: error: cannot find symbol
+        final CssSelectorNode selector = selectors.getChildAt(0);
+              ^
+  symbol:   class CssSelectorNode
+  location: class MarkRemovableRulesetNodesForChunk<T>
+  where T is a type-variable:
+    T extends Object declared in class MarkRemovableRulesetNodesForChunk
+14 errors

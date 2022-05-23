@@ -1,0 +1,83 @@
+hybrids/mockobjects/mockobjects-core/0.09/TestCaseMo.java:4: error: package junit.awtui does not exist
+import junit.awtui.TestRunner;
+                  ^
+hybrids/mockobjects/mockobjects-core/0.09/TestCaseMo.java:12: error: cannot find symbol
+public abstract class TestCaseMo extends TestCase {
+                                         ^
+  symbol: class TestCase
+hybrids/mockobjects/mockobjects-core/0.09/TestCaseMo.java:3: error: package junit.framework does not exist
+import junit.framework.*;
+^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:4: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:5: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:8: error: cannot find symbol
+public class AssertMo extends Assert {
+                              ^
+  symbol: class Assert
+hybrids/mockobjects/mockobjects-core/0.09/TestCaseMo.java:27: error: cannot find symbol
+        TestRunner.main(testNames);
+        ^
+  symbol:   variable TestRunner
+  location: class TestCaseMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:20: error: incompatible types: int cannot be converted to Object[]
+            expectedArray.length,
+                         ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:25: error: incompatible types: Object cannot be converted to Object[]
+                expectedArray[i],
+                             ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:34: error: cannot find symbol
+        assertTrue(
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:47: error: cannot find symbol
+        assertTrue(
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:60: error: cannot find symbol
+        assertTrue(
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:73: error: cannot find symbol
+        } catch (AssertionFailedError ex) {
+                 ^
+  symbol:   class AssertionFailedError
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:77: error: cannot find symbol
+        assertTrue("Should not have verified", threwException);
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:87: error: cannot find symbol
+        fail(
+        ^
+  symbol:   method fail(String)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/NotImplementedException.java:3: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/NotImplementedException.java:5: error: cannot find symbol
+public class NotImplementedException extends AssertionFailedError {
+                                             ^
+  symbol: class AssertionFailedError
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:92: error: incompatible types: NotImplementedException cannot be converted to Throwable
+        throw new NotImplementedException("Not Implemented in " + mockName);
+        ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:98: error: cannot find symbol
+        } catch (AssertionFailedError expected) {
+                 ^
+  symbol:   class AssertionFailedError
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:101: error: cannot find symbol
+        fail(message);
+        ^
+  symbol:   method fail(String)
+  location: class AssertMo
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+20 errors

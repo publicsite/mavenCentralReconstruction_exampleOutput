@@ -1,0 +1,105 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:12: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:18: error: cannot find symbol
+import groovy.lang.GroovyObjectSupport;
+                  ^
+  symbol:   class GroovyObjectSupport
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:20: error: cannot find symbol
+public class JsonBuilder extends GroovyObjectSupport implements Writable
+                                 ^
+  symbol: class GroovyObjectSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:51: error: cannot find symbol
+    public Object call(final Collection coll, final Closure c) {
+                                                    ^
+  symbol:   class Closure
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:61: error: cannot find symbol
+    public Object call(final Closure c) {
+                             ^
+  symbol:   class Closure
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:35: error: name clash: class JsonBuilder has two methods with the same erasure, yet neither overrides the other
+    public Object call(final Map m) {
+                  ^
+  first method:  call(Closure) in JsonBuilder
+  second method: call(Object[]) in JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:39: error: name clash: class JsonBuilder has two methods with the same erasure, yet neither overrides the other
+    public Object call(final List l) {
+                  ^
+  first method:  call(Closure) in JsonBuilder
+  second method: call(Object[]) in JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:55: error: cannot find symbol
+                listContent.add(JsonDelegate.curryDelegateAndGetContent(c, it));
+                                ^
+  symbol:   variable JsonDelegate
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:62: error: cannot find symbol
+        return this.content = JsonDelegate.cloneDelegateAndGetContent(c);
+                              ^
+  symbol:   variable JsonDelegate
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:65: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:75: error: cannot find symbol
+            if (arr[0] instanceof Closure) {
+                                  ^
+  symbol:   class Closure
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:76: error: cannot find symbol
+                return this.setAndGetContent(name, JsonDelegate.cloneDelegateAndGetContent((Closure<?>)arr[0]));
+                                                                                            ^
+  symbol:   class Closure
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:76: error: cannot find symbol
+                return this.setAndGetContent(name, JsonDelegate.cloneDelegateAndGetContent((Closure<?>)arr[0]));
+                                                   ^
+  symbol:   variable JsonDelegate
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:83: error: cannot find symbol
+            if (arr[0] instanceof Map && arr[1] instanceof Closure) {
+                                                           ^
+  symbol:   class Closure
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:86: error: cannot find symbol
+                subMap.putAll(JsonDelegate.cloneDelegateAndGetContent((Closure<?>)arr[1]));
+                                                                       ^
+  symbol:   class Closure
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:86: error: cannot find symbol
+                subMap.putAll(JsonDelegate.cloneDelegateAndGetContent((Closure<?>)arr[1]));
+                              ^
+  symbol:   variable JsonDelegate
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:89: error: cannot find symbol
+            if (arr[0] instanceof Collection && arr[1] instanceof Closure) {
+                                                                  ^
+  symbol:   class Closure
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:92: error: cannot find symbol
+                    list.add(JsonDelegate.curryDelegateAndGetContent((Closure<?>)arr[1], it));
+                                                                      ^
+  symbol:   class Closure
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:92: error: cannot find symbol
+                    list.add(JsonDelegate.curryDelegateAndGetContent((Closure<?>)arr[1], it));
+                             ^
+  symbol:   variable JsonDelegate
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:108: error: cannot find symbol
+        return JsonOutput.toJson(this.content);
+               ^
+  symbol:   variable JsonOutput
+  location: class JsonBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java:112: error: cannot find symbol
+        return JsonOutput.prettyPrint(this.toString());
+               ^
+  symbol:   variable JsonOutput
+  location: class JsonBuilder
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonBuilder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+21 errors

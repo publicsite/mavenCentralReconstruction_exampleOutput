@@ -1,0 +1,70 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:8: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.DataProcessingException;
+                                                                   ^
+  symbol:   class DataProcessingException
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:11: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.ArgumentUtils;
+                                                                   ^
+  symbol:   class ArgumentUtils
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:15: error: cannot find symbol
+public class BooleanConversion extends ObjectConversion<Boolean>
+                                       ^
+  symbol: class ObjectConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:30: error: cannot find symbol
+        ArgumentUtils.notEmpty("Values for true", valuesForTrue);
+        ^
+  symbol:   variable ArgumentUtils
+  location: class BooleanConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:31: error: cannot find symbol
+        ArgumentUtils.notEmpty("Values for false", valuesForFalse);
+        ^
+  symbol:   variable ArgumentUtils
+  location: class BooleanConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:34: error: cannot find symbol
+        ArgumentUtils.normalize(this.falseValues);
+        ^
+  symbol:   variable ArgumentUtils
+  location: class BooleanConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:35: error: cannot find symbol
+        ArgumentUtils.normalize(this.trueValues);
+        ^
+  symbol:   variable ArgumentUtils
+  location: class BooleanConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:38: error: cannot find symbol
+                throw new DataProcessingException("Ambiguous string representation for both false and true values: '" + falseValue + '\'');
+                          ^
+  symbol:   class DataProcessingException
+  location: class BooleanConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:45: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:55: error: cannot find symbol
+        return this.getValueIfObjectIsNull();
+                   ^
+  symbol: method getValueIfObjectIsNull()
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:58: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:63: error: cannot find symbol
+        return super.getValueIfStringIsNull();
+               ^
+  symbol:   variable super
+  location: class BooleanConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:74: error: cannot find symbol
+        final String normalized = ArgumentUtils.normalize(defaultString);
+                                  ^
+  symbol:   variable ArgumentUtils
+  location: class BooleanConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:81: error: cannot find symbol
+        final DataProcessingException exception = new DataProcessingException("Unable to convert '{value}' to Boolean. Allowed Strings are: " + trueValues + " for true; and " + falseValues + " for false.");
+              ^
+  symbol:   class DataProcessingException
+  location: class BooleanConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/BooleanConversion.java:81: error: cannot find symbol
+        final DataProcessingException exception = new DataProcessingException("Unable to convert '{value}' to Boolean. Allowed Strings are: " + trueValues + " for true; and " + falseValues + " for false.");
+                                                      ^
+  symbol:   class DataProcessingException
+  location: class BooleanConversion
+15 errors

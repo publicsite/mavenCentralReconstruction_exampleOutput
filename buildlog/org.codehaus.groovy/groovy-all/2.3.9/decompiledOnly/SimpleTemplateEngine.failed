@@ -1,0 +1,101 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:10: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:11: error: cannot find symbol
+import groovy.lang.Binding;
+                  ^
+  symbol:   class Binding
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:15: error: cannot find symbol
+import groovy.lang.Script;
+                  ^
+  symbol:   class Script
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:17: error: cannot find symbol
+import org.codehaus.groovy.control.CompilationFailedException;
+                                  ^
+  symbol:   class CompilationFailedException
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:18: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:20: error: cannot find symbol
+import groovy.lang.GroovyShell;
+                  ^
+  symbol:   class GroovyShell
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:22: error: cannot find symbol
+public class SimpleTemplateEngine extends TemplateEngine
+                                          ^
+  symbol: class TemplateEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:26: error: cannot find symbol
+    private GroovyShell groovyShell;
+            ^
+  symbol:   class GroovyShell
+  location: class SimpleTemplateEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:41: error: cannot find symbol
+    public SimpleTemplateEngine(final GroovyShell groovyShell) {
+                                      ^
+  symbol:   class GroovyShell
+  location: class SimpleTemplateEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:46: error: cannot find symbol
+    public Template createTemplate(final Reader reader) throws CompilationFailedException, IOException {
+                                                               ^
+  symbol:   class CompilationFailedException
+  location: class SimpleTemplateEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:77: error: cannot find symbol
+        protected Script script;
+                  ^
+  symbol:   class Script
+  location: class SimpleTemplate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:29: error: cannot find symbol
+        this(GroovyShell.class.getClassLoader());
+             ^
+  symbol:   class GroovyShell
+  location: class SimpleTemplateEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:33: error: cannot find symbol
+        this(GroovyShell.class.getClassLoader());
+             ^
+  symbol:   class GroovyShell
+  location: class SimpleTemplateEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:38: error: cannot find symbol
+        this(new GroovyShell(parentLoader));
+                 ^
+  symbol:   class GroovyShell
+  location: class SimpleTemplateEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:45: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:58: error: cannot find symbol
+            throw new GroovyRuntimeException("Failed to parse template script (your template may contain an error or be trying to use expressions not currently supported): " + e.getMessage());
+                      ^
+  symbol:   class GroovyRuntimeException
+  location: class SimpleTemplateEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:89: error: cannot find symbol
+                    Binding binding;
+                    ^
+  symbol: class Binding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:91: error: cannot find symbol
+                        binding = new Binding();
+                                      ^
+  symbol: class Binding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:94: error: cannot find symbol
+                        binding = new Binding(map);
+                                      ^
+  symbol: class Binding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:96: error: cannot find symbol
+                    final Script scriptObject = InvokerHelper.createScript(SimpleTemplate.this.script.getClass(), binding);
+                          ^
+  symbol: class Script
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:96: error: cannot find symbol
+                    final Script scriptObject = InvokerHelper.createScript(SimpleTemplate.this.script.getClass(), binding);
+                                                ^
+  symbol: variable InvokerHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/text/SimpleTemplateEngine.java:37: error: recursive constructor invocation
+    public SimpleTemplateEngine(final ClassLoader parentLoader) {
+           ^
+22 errors

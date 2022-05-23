@@ -1,0 +1,52 @@
+sources/structure/commons-logging/commons-logging/1.0.4/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:8: error: cannot find symbol
+import org.apache.log4j.Logger;
+                       ^
+  symbol:   class Logger
+  location: package org.apache.log4j
+sources/structure/commons-logging/commons-logging/1.0.4/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:37: error: incompatible types: Object cannot be converted to String
+            results[i] = names.elementAt(i);
+                                        ^
+sources/structure/commons-logging/commons-logging/1.0.4/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:43: error: incompatible types: Object cannot be converted to Log
+        Log instance = this.instances.get(clazz);
+                                         ^
+sources/structure/commons-logging/commons-logging/1.0.4/extractedSources/org/apache/commons/logging/impl/Log4JLogger.java:22: error: cannot find symbol
+import org.apache.log4j.Logger;
+                       ^
+  symbol:   class Logger
+  location: package org.apache.log4j
+sources/structure/commons-logging/commons-logging/1.0.4/extractedSources/org/apache/commons/logging/impl/Log4JLogger.java:48: error: cannot find symbol
+    private transient Logger logger = null;
+                      ^
+  symbol:   class Logger
+  location: class Log4JLogger
+sources/structure/commons-logging/commons-logging/1.0.4/extractedSources/org/apache/commons/logging/impl/Log4JLogger.java:70: error: cannot find symbol
+    public Log4JLogger(Logger logger ) {
+                       ^
+  symbol:   class Logger
+  location: class Log4JLogger
+sources/structure/commons-logging/commons-logging/1.0.4/extractedSources/org/apache/commons/logging/impl/Log4JLogger.java:227: error: cannot find symbol
+    public Logger getLogger() {
+           ^
+  symbol:   class Logger
+  location: class Log4JLogger
+sources/structure/commons-logging/commons-logging/1.0.4/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:47: error: cannot find symbol
+        instance = new Log4JLogger(Logger.getLogger(clazz));
+                                   ^
+  symbol:   variable Logger
+  location: class Log4jFactory
+sources/structure/commons-logging/commons-logging/1.0.4/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:53: error: incompatible types: Object cannot be converted to Log
+        Log instance = this.instances.get(name);
+                                         ^
+sources/structure/commons-logging/commons-logging/1.0.4/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:57: error: cannot find symbol
+        instance = new Log4JLogger(Logger.getLogger(name));
+                                   ^
+  symbol:   variable Logger
+  location: class Log4jFactory
+sources/structure/commons-logging/commons-logging/1.0.4/extractedSources/org/apache/commons/logging/impl/Log4JLogger.java:229: error: cannot find symbol
+            logger = Logger.getLogger(name);
+                     ^
+  symbol:   variable Logger
+  location: class Log4JLogger
+Note: sources/structure/commons-logging/commons-logging/1.0.4/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors

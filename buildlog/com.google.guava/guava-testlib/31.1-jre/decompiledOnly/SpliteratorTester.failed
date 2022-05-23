@@ -1,0 +1,200 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:11: error: cannot find symbol
+import com.google.common.collect.UnmodifiableIterator;
+                                ^
+  symbol:   class UnmodifiableIterator
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:13: error: package com.google.common.primitives does not exist
+import com.google.common.primitives.Ints;
+                                   ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:14: error: cannot find symbol
+import com.google.common.collect.Ordering;
+                                ^
+  symbol:   class Ordering
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:21: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:26: error: cannot find symbol
+import com.google.common.collect.ImmutableSet;
+                                ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:32: error: cannot find symbol
+    private final ImmutableSet<Supplier<GeneralSpliterator<E>>> spliteratorSuppliers;
+                  ^
+  symbol:   class ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:80: error: cannot find symbol
+    private SpliteratorTester(final ImmutableSet<Supplier<GeneralSpliterator<E>>> spliteratorSuppliers) {
+                                    ^
+  symbol:   class ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:56: error: cannot find symbol
+        return new SpliteratorTester<E>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<E>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get())));
+                                                                  ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:56: error: cannot find symbol
+        return new SpliteratorTester<E>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<E>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get())));
+                                                                                                                 ^
+  symbol:   variable ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:60: error: cannot find symbol
+        return new SpliteratorTester<Integer>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Integer>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                        ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:60: error: cannot find symbol
+        return new SpliteratorTester<Integer>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Integer>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                                                                             ^
+  symbol:   variable ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:60: error: incompatible types: OfInt cannot be converted to Spliterator<Object>
+        return new SpliteratorTester<Integer>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Integer>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                                                                                                                                                                              ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:60: error: incompatible types: OfInt cannot be converted to OfPrimitive<Object,Object,?>
+        return new SpliteratorTester<Integer>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Integer>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                                                                                                                                                                                                                                                                                              ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:67: error: cannot find symbol
+        return new SpliteratorTester<Long>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Long>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                     ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:67: error: cannot find symbol
+        return new SpliteratorTester<Long>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Long>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                                                                       ^
+  symbol:   variable ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:67: error: incompatible types: OfLong cannot be converted to Spliterator<Object>
+        return new SpliteratorTester<Long>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Long>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                                                                                                                                                                        ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:67: error: incompatible types: OfLong cannot be converted to OfPrimitive<Object,Object,?>
+        return new SpliteratorTester<Long>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Long>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                                                                                                                                                                                                                                                                                        ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:74: error: cannot find symbol
+        return new SpliteratorTester<Double>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Double>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                       ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:74: error: cannot find symbol
+        return new SpliteratorTester<Double>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Double>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                                                                           ^
+  symbol:   variable ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:74: error: incompatible types: OfDouble cannot be converted to Spliterator<Object>
+        return new SpliteratorTester<Double>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Double>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                                                                                                                                                                            ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:74: error: incompatible types: OfDouble cannot be converted to OfPrimitive<Object,Object,?>
+        return new SpliteratorTester<Double>((com.google.common.collect.ImmutableSet<Supplier<GeneralSpliterator<Double>>>)ImmutableSet.of(() -> new GeneralSpliteratorOfObject((Spliterator<Object>)spliteratorSupplier.get()), () -> new GeneralSpliteratorOfPrimitive((Spliterator.OfPrimitive<Object, Object, ?>)spliteratorSupplier.get(), c -> {
+                                                                                                                                                                                                                                                                                                                                            ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:81: error: cannot find symbol
+        this.spliteratorSuppliers = (ImmutableSet<Supplier<GeneralSpliterator<E>>>)Preconditions.checkNotNull((Object)spliteratorSuppliers);
+                                     ^
+  symbol:   class ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:81: error: cannot find symbol
+        this.spliteratorSuppliers = (ImmutableSet<Supplier<GeneralSpliterator<E>>>)Preconditions.checkNotNull((Object)spliteratorSuppliers);
+                                                                                   ^
+  symbol:   variable Preconditions
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:108: error: incompatible types: inference variable T has incompatible bounds
+                        comparator = Comparator.naturalOrder();
+                                                            ^
+    lower bounds: Comparable<? super T>
+    lower bounds: E
+  where T,E are type-variables:
+    T extends Comparable<? super T> declared in method <T>naturalOrder()
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:110: error: cannot find symbol
+                    Assert.assertTrue(Ordering.from((Comparator)comparator).isOrdered((Iterable)resultsForStrategy));
+                                      ^
+  symbol:   variable Ordering
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:113: error: cannot find symbol
+                    Assert.assertEquals(Ints.checkedCast(estimatedSize), resultsForStrategy.size());
+                                        ^
+  symbol:   variable Ints
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:119: error: anonymous class implements interface; cannot have arguments
+        return new Ordered(this) {
+                           ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:134: error: cannot find symbol
+            this.spliterator = (Spliterator<E>)Preconditions.checkNotNull((Object)spliterator);
+                                               ^
+  symbol:   variable Preconditions
+  location: class GeneralSpliterator<E>
+  where E is a type-variable:
+    E extends Object declared in class GeneralSpliterator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:211: error: incompatible types: OfPrimitive<E,C,CAP#1> cannot be converted to OfPrimitive<E,Object,?>
+            return (split == null) ? null : new GeneralSpliteratorOfPrimitive<E, Object>(split, this.consumerizer);
+                                                                                         ^
+  where E,C are type-variables:
+    E extends Object declared in class GeneralSpliteratorOfPrimitive
+    C extends Object declared in class GeneralSpliteratorOfPrimitive
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends OfPrimitive<E,C,CAP#1> from capture of ?
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:217: error: constructor SpliteratorDecompositionStrategy in enum SpliteratorDecompositionStrategy cannot be applied to given types;
+        NO_SPLIT_FOR_EACH_REMAINING(0) {
+                                   ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:223: error: constructor SpliteratorDecompositionStrategy in enum SpliteratorDecompositionStrategy cannot be applied to given types;
+        NO_SPLIT_TRY_ADVANCE(1) {
+                            ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:229: error: constructor SpliteratorDecompositionStrategy in enum SpliteratorDecompositionStrategy cannot be applied to given types;
+        MAXIMUM_SPLIT(2) {
+                     ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:240: error: incompatible types: Object cannot be converted to CAP#1
+                    consumer.accept((Object)e);
+                                    ^
+  where E is a type-variable:
+    E extends Object declared in method <E>forEach(GeneralSpliterator<E>,Consumer<? super E>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: E from capture of ? super E
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:241: error: array required, but Object found
+                    ++o[n];
+                       ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:249: error: constructor SpliteratorDecompositionStrategy in enum SpliteratorDecompositionStrategy cannot be applied to given types;
+        ALTERNATE_ADVANCE_AND_SPLIT(3) {
+                                   ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java:268: error: cannot find symbol
+            $VALUES = $values();
+            ^
+  symbol:   variable $VALUES
+  location: class SpliteratorDecompositionStrategy
+Note: sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/SpliteratorTester.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+36 errors

@@ -1,0 +1,113 @@
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:11: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.AntClassLoader;
+                           ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:14: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.BuildException;
+                           ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:16: error: package org.apache.tools.ant.types does not exist
+import org.apache.tools.ant.types.Path;
+                                 ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:19: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.Task;
+                           ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:21: error: cannot find symbol
+public class AttributeValidatorTask extends Task
+                                            ^
+  symbol: class Task
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:26: error: cannot find symbol
+    private Path classPath;
+            ^
+  symbol:   class Path
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:46: error: cannot find symbol
+    public Path createClasspath() {
+           ^
+  symbol:   class Path
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:56: error: cannot find symbol
+    protected void findJarFile() throws BuildException {
+                                        ^
+  symbol:   class BuildException
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:74: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:47: error: cannot find symbol
+        return this.classPath = new Path(this.project);
+                                    ^
+  symbol:   class Path
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:47: error: cannot find symbol
+        return this.classPath = new Path(this.project);
+                                             ^
+  symbol: variable project
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:59: error: cannot find symbol
+            throw new BuildException("Unable to find any file with base name " + this.baseName.getName() + " in " + this.baseName.getParentFile().getPath());
+                      ^
+  symbol:   class BuildException
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:70: error: cannot find symbol
+            throw new BuildException("Unable to find any file with base name " + this.baseName.getName() + " in " + this.baseName.getParentFile().getPath());
+                      ^
+  symbol:   class BuildException
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:79: error: cannot find symbol
+            this.log("Can't find " + this.jarFile.getPath());
+                ^
+  symbol: method log(String)
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:83: error: cannot find symbol
+            this.log("Validating attributes in " + this.jarFile.getPath());
+                ^
+  symbol: method log(String)
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:88: error: incompatible types: Object cannot be converted to JarEntry
+                    final JarEntry entry = e.nextElement();
+                                                        ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:102: error: cannot find symbol
+            final AntClassLoader cl = new AntClassLoader(this.getClass().getClassLoader(), this.project, this.classPath, true);
+                  ^
+  symbol:   class AntClassLoader
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:102: error: cannot find symbol
+            final AntClassLoader cl = new AntClassLoader(this.getClass().getClassLoader(), this.project, this.classPath, true);
+                                          ^
+  symbol:   class AntClassLoader
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:102: error: cannot find symbol
+            final AntClassLoader cl = new AntClassLoader(this.getClass().getClassLoader(), this.project, this.classPath, true);
+                                                                                               ^
+  symbol: variable project
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:102: error: cannot find symbol
+            final AntClassLoader cl = new AntClassLoader(this.getClass().getClassLoader(), this.project, this.classPath, true);
+                                                             ^
+  symbol: method getClass()
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:106: error: incompatible types: Object cannot be converted to String
+                for (final String className2 : this.classes) {
+                                                   ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:110: error: incompatible types: Object cannot be converted to Validator
+                for (final Validator validator : this.validators) {
+                                                     ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:112: error: incompatible types: Object cannot be converted to AttributeValidator
+                    final AttributeValidator attrValidator = validatorClass.newInstance();
+                                                                                       ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:117: error: cannot find symbol
+                        throw new BuildException(ve.getInvalidClass() + " failed to validate: " + ve.getMessage());
+                                  ^
+  symbol:   class BuildException
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:125: error: cannot find symbol
+        catch (BuildException be) {
+               ^
+  symbol:   class BuildException
+  location: class AttributeValidatorTask
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java:130: error: cannot find symbol
+            throw new BuildException(e2.toString());
+                      ^
+  symbol:   class BuildException
+  location: class AttributeValidatorTask
+Note: sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/validation/AttributeValidatorTask.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+26 errors

@@ -1,0 +1,25 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SimpleNamingContext.java:33: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SimpleNamingContext.java:34: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SimpleNamingContext.java:36: error: package org.springframework.util does not exist
+import org.springframework.util.StringUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SimpleNamingContext.java:55: error: cannot find symbol
+	private final Log logger = LogFactory.getLog(getClass());
+	              ^
+  symbol:   class Log
+  location: class SimpleNamingContext
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SimpleNamingContext.java:55: error: cannot find symbol
+	private final Log logger = LogFactory.getLog(getClass());
+	                           ^
+  symbol:   variable LogFactory
+  location: class SimpleNamingContext
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SimpleNamingContext.java:137: error: cannot find symbol
+					StringUtils.collectionToDelimitedString(this.boundObjects.keySet(), ",") + "]");
+					^
+  symbol:   variable StringUtils
+  location: class SimpleNamingContext
+6 errors

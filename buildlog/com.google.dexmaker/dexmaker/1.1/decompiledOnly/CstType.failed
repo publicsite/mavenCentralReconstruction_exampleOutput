@@ -1,0 +1,184 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:7: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Type;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:10: error: cannot find symbol
+public final class CstType extends TypedConstant
+                                   ^
+  symbol: class TypedConstant
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:12: error: cannot find symbol
+    private static final HashMap<Type, CstType> interns;
+                                 ^
+  symbol:   class Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:31: error: cannot find symbol
+    private final Type type;
+                  ^
+  symbol:   class Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:32: error: cannot find symbol
+    private CstString descriptor;
+            ^
+  symbol:   class CstString
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:34: error: cannot find symbol
+    public static CstType forBoxedPrimitiveType(final Type primitiveType) {
+                                                      ^
+  symbol:   class Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:69: error: cannot find symbol
+    public static CstType intern(final Type type) {
+                                       ^
+  symbol:   class Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:80: error: cannot find symbol
+    public CstType(final Type type) {
+                         ^
+  symbol:   class Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:113: error: cannot find symbol
+    public Type getType() {
+           ^
+  symbol:   class Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:131: error: cannot find symbol
+    public Type getClassType() {
+           ^
+  symbol:   class Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:135: error: cannot find symbol
+    public CstString getDescriptor() {
+           ^
+  symbol:   class CstString
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:84: error: cannot find symbol
+        if (type == Type.KNOWN_NULL) {
+                    ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:91: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:96: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:101: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:104: error: incompatible types: Constant cannot be converted to CstType
+        final String otherDescriptor = ((CstType)other).type.getDescriptor();
+                                                 ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:108: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:114: error: cannot find symbol
+        return Type.CLASS;
+               ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:117: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:122: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:137: error: cannot find symbol
+            this.descriptor = new CstString(this.type.getDescriptor());
+                                  ^
+  symbol:   class CstString
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:143: error: cannot find symbol
+        interns = new HashMap<Type, CstType>(100);
+                              ^
+  symbol:   class Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:144: error: cannot find symbol
+        OBJECT = intern(Type.OBJECT);
+                        ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:145: error: cannot find symbol
+        BOOLEAN = intern(Type.BOOLEAN_CLASS);
+                         ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:146: error: cannot find symbol
+        BYTE = intern(Type.BYTE_CLASS);
+                      ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:147: error: cannot find symbol
+        CHARACTER = intern(Type.CHARACTER_CLASS);
+                           ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:148: error: cannot find symbol
+        DOUBLE = intern(Type.DOUBLE_CLASS);
+                        ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:149: error: cannot find symbol
+        FLOAT = intern(Type.FLOAT_CLASS);
+                       ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:150: error: cannot find symbol
+        LONG = intern(Type.LONG_CLASS);
+                      ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:151: error: cannot find symbol
+        INTEGER = intern(Type.INTEGER_CLASS);
+                         ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:152: error: cannot find symbol
+        SHORT = intern(Type.SHORT_CLASS);
+                       ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:153: error: cannot find symbol
+        VOID = intern(Type.VOID_CLASS);
+                      ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:154: error: cannot find symbol
+        BOOLEAN_ARRAY = intern(Type.BOOLEAN_ARRAY);
+                               ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:155: error: cannot find symbol
+        BYTE_ARRAY = intern(Type.BYTE_ARRAY);
+                            ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:156: error: cannot find symbol
+        CHAR_ARRAY = intern(Type.CHAR_ARRAY);
+                            ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:157: error: cannot find symbol
+        DOUBLE_ARRAY = intern(Type.DOUBLE_ARRAY);
+                              ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:158: error: cannot find symbol
+        FLOAT_ARRAY = intern(Type.FLOAT_ARRAY);
+                             ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:159: error: cannot find symbol
+        LONG_ARRAY = intern(Type.LONG_ARRAY);
+                            ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:160: error: cannot find symbol
+        INT_ARRAY = intern(Type.INT_ARRAY);
+                           ^
+  symbol:   variable Type
+  location: class CstType
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstType.java:161: error: cannot find symbol
+        SHORT_ARRAY = intern(Type.SHORT_ARRAY);
+                             ^
+  symbol:   variable Type
+  location: class CstType
+40 errors

@@ -1,0 +1,34 @@
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/timer/SingletonTimerFactory.java:7: error: cannot find symbol
+import org.apache.derby.shared.common.i18n.MessageService;
+                                          ^
+  symbol:   class MessageService
+  location: package org.apache.derby.shared.common.i18n
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/timer/SingletonTimerFactory.java:10: error: cannot find symbol
+import org.apache.derby.shared.common.error.StandardException;
+                                           ^
+  symbol:   class StandardException
+  location: package org.apache.derby.shared.common.error
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/iapi/services/monitor/ModuleControl.java:7: error: cannot find symbol
+import org.apache.derby.shared.common.error.StandardException;
+                                           ^
+  symbol:   class StandardException
+  location: package org.apache.derby.shared.common.error
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/timer/SingletonTimerFactory.java:51: error: cannot find symbol
+    public void boot(final boolean b, final Properties properties) throws StandardException {
+                                                                          ^
+  symbol:   class StandardException
+  location: class SingletonTimerFactory
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/iapi/services/monitor/ModuleControl.java:12: error: cannot find symbol
+    void boot(final boolean p0, final Properties p1) throws StandardException;
+                                                            ^
+  symbol:   class StandardException
+  location: interface ModuleControl
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/timer/SingletonTimerFactory.java:80: error: incompatible types: <anonymous PrivilegedAction<Void>> cannot be converted to PrivilegedAction<Object>
+            AccessController.doPrivileged((PrivilegedAction<Object>)new PrivilegedAction<Void>() {
+                                                                    ^
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/timer/SingletonTimerFactory.java:94: error: cannot find symbol
+        this.warnings.append(MessageService.getTextMessage(s, new Object[] { ex.toString() }));
+                             ^
+  symbol:   variable MessageService
+  location: class SingletonTimerFactory
+7 errors

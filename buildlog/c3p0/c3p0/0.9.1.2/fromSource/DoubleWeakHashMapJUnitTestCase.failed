@@ -1,0 +1,62 @@
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:31: error: package junit.framework does not exist
+import junit.framework.TestCase;
+                      ^
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:33: error: cannot find symbol
+public class DoubleWeakHashMapJUnitTestCase extends TestCase
+                                                    ^
+  symbol: class TestCase
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:38: error: cannot find symbol
+        assertNull( m.get("foo") );
+        ^
+  symbol:   method assertNull(Object)
+  location: class DoubleWeakHashMapJUnitTestCase
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:55: error: cannot find symbol
+        assertEquals("Size should be three, viewed via Map directly.", m.size(), 3);
+        ^
+  symbol:   method assertEquals(String,int,int)
+  location: class DoubleWeakHashMapJUnitTestCase
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:56: error: cannot find symbol
+        assertEquals("Size should be three, viewed via keySet .", m.keySet().size(), 3);
+        ^
+  symbol:   method assertEquals(String,int,int)
+  location: class DoubleWeakHashMapJUnitTestCase
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:57: error: cannot find symbol
+        assertEquals("Size should be three, viewed via values Collection.", m.values().size(), 3);
+        ^
+  symbol:   method assertEquals(String,int,int)
+  location: class DoubleWeakHashMapJUnitTestCase
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:64: error: cannot find symbol
+        assertEquals("Count should be six, viewed via values Collection.", count, 6);
+        ^
+  symbol:   method assertEquals(String,int,int)
+  location: class DoubleWeakHashMapJUnitTestCase
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:69: error: cannot find symbol
+        assertEquals("After removing a doubled value, size should be 2", m.size(), 2);
+        ^
+  symbol:   method assertEquals(String,int,int)
+  location: class DoubleWeakHashMapJUnitTestCase
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:86: error: cannot find symbol
+        assertEquals("1) Weak values should not yet have been removed (but not guaranteed! sometimes fails without a defect!)", m.size(), 3);
+        ^
+  symbol:   method assertEquals(String,int,int)
+  location: class DoubleWeakHashMapJUnitTestCase
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:95: error: cannot find symbol
+        assertEquals("2) Weak values should have been automatically removed (but not guaranteed! sometimes fails without a defect!)", m.size(), 1);
+        ^
+  symbol:   method assertEquals(String,int,int)
+  location: class DoubleWeakHashMapJUnitTestCase
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:100: error: cannot find symbol
+        assertEquals("3) Weak key should not yet have been removed (but not guaranteed! sometimes fails without a defect!)", m.size(), 2);
+        ^
+  symbol:   method assertEquals(String,int,int)
+  location: class DoubleWeakHashMapJUnitTestCase
+sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java:106: error: cannot find symbol
+        assertEquals("4) Weak key should have been automatically removed (but not guaranteed! sometimes fails without a defect!)", m.size(), 1);
+        ^
+  symbol:   method assertEquals(String,int,int)
+  location: class DoubleWeakHashMapJUnitTestCase
+Note: sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/c3p0/c3p0/0.9.1.2/extractedSources/com/mchange/v2/util/junit/DoubleWeakHashMapJUnitTestCase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 errors

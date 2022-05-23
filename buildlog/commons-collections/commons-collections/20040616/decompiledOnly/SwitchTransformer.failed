@@ -1,0 +1,16 @@
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/functors/SwitchTransformer.java:43: error: incompatible types: Object cannot be converted to Transformer
+        final Transformer defaultTransformer = predicatesAndTransformers.remove(null);
+                                                                               ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/functors/SwitchTransformer.java:51: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry entry : predicatesAndTransformers.entrySet()) {
+                                                                       ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/functors/SwitchTransformer.java:52: error: incompatible types: Object cannot be converted to Predicate
+            preds[i] = entry.getKey();
+                                   ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/functors/SwitchTransformer.java:53: error: incompatible types: Object cannot be converted to Transformer
+            transformers[i] = entry.getValue();
+                                            ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/functors/FunctorUtils.java:61: error: incompatible types: Object cannot be converted to Predicate
+            preds[i] = it.next();
+                              ^
+5 errors

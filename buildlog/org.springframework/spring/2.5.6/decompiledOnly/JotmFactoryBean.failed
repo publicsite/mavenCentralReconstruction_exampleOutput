@@ -1,0 +1,45 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/JotmFactoryBean.java:7: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/JotmFactoryBean.java:9: error: package org.objectweb.jotm does not exist
+import org.objectweb.jotm.Jotm;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/JotmFactoryBean.java:10: error: package org.objectweb.jotm does not exist
+import org.objectweb.jotm.Current;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/JotmFactoryBean.java:16: error: cannot find symbol
+    private Current jotmCurrent;
+            ^
+  symbol:   class Current
+  location: class JotmFactoryBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/JotmFactoryBean.java:17: error: cannot find symbol
+    private Jotm jotm;
+            ^
+  symbol:   class Jotm
+  location: class JotmFactoryBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/JotmFactoryBean.java:35: error: cannot find symbol
+    public Jotm getJotm() {
+           ^
+  symbol:   class Jotm
+  location: class JotmFactoryBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/JotmFactoryBean.java:20: error: cannot find symbol
+        this.jotmCurrent = Current.getCurrent();
+                           ^
+  symbol:   variable Current
+  location: class JotmFactoryBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/JotmFactoryBean.java:22: error: cannot find symbol
+            this.jotm = new Jotm(true, false);
+                            ^
+  symbol:   class Jotm
+  location: class JotmFactoryBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/JotmFactoryBean.java:23: error: cannot find symbol
+            this.jotmCurrent = Current.getCurrent();
+                               ^
+  symbol:   variable Current
+  location: class JotmFactoryBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/JotmFactoryBean.java:32: error: cannot find symbol
+        catch (SystemException ex) {}
+               ^
+  symbol:   class SystemException
+  location: class JotmFactoryBean
+10 errors

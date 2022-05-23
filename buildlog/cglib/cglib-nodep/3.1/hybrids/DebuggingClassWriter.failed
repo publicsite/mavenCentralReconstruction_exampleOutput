@@ -1,0 +1,62 @@
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassWriter;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassReader;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:20: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassVisitor;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:21: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Opcodes;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:26: error: cannot find symbol
+public class DebuggingClassWriter extends ClassVisitor {
+                                          ^
+  symbol: class ClassVisitor
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:42: error: cannot find symbol
+              traceCtor = clazz.getConstructor(new Class[]{ClassVisitor.class, PrintWriter.class});
+                                                           ^
+  symbol:   class ClassVisitor
+  location: class DebuggingClassWriter
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:49: error: cannot find symbol
+	super(Opcodes.ASM4, new ClassWriter(flags));
+	      ^
+  symbol:   variable Opcodes
+  location: class DebuggingClassWriter
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:49: error: cannot find symbol
+	super(Opcodes.ASM4, new ClassWriter(flags));
+	                        ^
+  symbol:   class ClassWriter
+  location: class DebuggingClassWriter
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:60: error: cannot find symbol
+        super.visit(version, access, name, signature, superName, interfaces);
+        ^
+  symbol:   variable super
+  location: class DebuggingClassWriter
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:78: error: cannot find symbol
+                byte[] b = ((ClassWriter) DebuggingClassWriter.super.cv).toByteArray();
+                             ^
+  symbol: class ClassWriter
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:78: error: not an enclosing class: DebuggingClassWriter
+                byte[] b = ((ClassWriter) DebuggingClassWriter.super.cv).toByteArray();
+                                                              ^
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:96: error: cannot find symbol
+                                ClassReader cr = new ClassReader(b);
+                                ^
+  symbol: class ClassReader
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:96: error: cannot find symbol
+                                ClassReader cr = new ClassReader(b);
+                                                     ^
+  symbol: class ClassReader
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:98: error: cannot find symbol
+                                ClassVisitor tcv = (ClassVisitor)traceCtor.newInstance(new Object[]{null, pw});
+                                ^
+  symbol: class ClassVisitor
+hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java:98: error: cannot find symbol
+                                ClassVisitor tcv = (ClassVisitor)traceCtor.newInstance(new Object[]{null, pw});
+                                                    ^
+  symbol: class ClassVisitor
+Note: hybrids/cglib/cglib-nodep/3.1/DebuggingClassWriter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+15 errors

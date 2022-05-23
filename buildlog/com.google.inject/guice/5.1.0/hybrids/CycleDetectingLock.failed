@@ -1,0 +1,209 @@
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:3: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:4: error: cannot find symbol
+import com.google.common.collect.ImmutableListMultimap;
+                                ^
+  symbol:   class ImmutableListMultimap
+  location: package com.google.common.collect
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:5: error: cannot find symbol
+import com.google.common.collect.LinkedHashMultimap;
+                                ^
+  symbol:   class LinkedHashMultimap
+  location: package com.google.common.collect
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:6: error: cannot find symbol
+import com.google.common.collect.ListMultimap;
+                                ^
+  symbol:   class ListMultimap
+  location: package com.google.common.collect
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:7: error: cannot find symbol
+import com.google.common.collect.Maps;
+                                ^
+  symbol:   class Maps
+  location: package com.google.common.collect
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:8: error: cannot find symbol
+import com.google.common.collect.Multimap;
+                                ^
+  symbol:   class Multimap
+  location: package com.google.common.collect
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:9: error: cannot find symbol
+import com.google.common.collect.MultimapBuilder;
+                                ^
+  symbol:   class MultimapBuilder
+  location: package com.google.common.collect
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:43: error: cannot find symbol
+  ListMultimap<Thread, ID> lockOrDetectPotentialLocksCycle();
+  ^
+  symbol:   class ListMultimap
+  location: interface CycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in interface CycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:101: error: cannot find symbol
+    private static final Multimap<Thread, ReentrantCycleDetectingLock<?>> locksOwnedByThread =
+                         ^
+  symbol:   class Multimap
+  location: class CycleDetectingLockFactory<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class CycleDetectingLockFactory
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:143: error: cannot find symbol
+      public ListMultimap<Thread, ID> lockOrDetectPotentialLocksCycle() {
+             ^
+  symbol:   class ListMultimap
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:240: error: cannot find symbol
+      private ListMultimap<Thread, ID> detectPotentialLocksCycle() {
+              ^
+  symbol:   class ListMultimap
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:274: error: cannot find symbol
+          ListMultimap<Thread, ID> potentialLocksCycle) {
+          ^
+  symbol:   class ListMultimap
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:81: error: cannot find symbol
+        Maps.newHashMap();
+        ^
+  symbol:   variable Maps
+  location: class CycleDetectingLockFactory<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class CycleDetectingLockFactory
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:102: error: cannot find symbol
+        LinkedHashMultimap.create();
+        ^
+  symbol:   variable LinkedHashMultimap
+  location: class CycleDetectingLockFactory<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class CycleDetectingLockFactory
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:137: error: cannot find symbol
+        this.userLockId = Preconditions.checkNotNull(userLockId, "userLockId");
+                          ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:139: error: cannot find symbol
+            Preconditions.checkNotNull(lockImplementation, "lockImplementation");
+            ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:149: error: cannot find symbol
+          ListMultimap<Thread, ID> locksInCycle = detectPotentialLocksCycle();
+          ^
+  symbol:   class ListMultimap
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:173: error: cannot find symbol
+        return ImmutableListMultimap.of();
+               ^
+  symbol:   variable ImmutableListMultimap
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:181: error: cannot find symbol
+          Preconditions.checkState(
+          ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:183: error: cannot find symbol
+          Preconditions.checkState(
+          ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:195: error: cannot find symbol
+            Preconditions.checkState(
+            ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:209: error: cannot find symbol
+        Preconditions.checkState(
+        ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:214: error: cannot find symbol
+          Preconditions.checkState(
+          ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:217: error: cannot find symbol
+          Preconditions.checkState(
+          ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:223: error: cannot find symbol
+          Preconditions.checkState(
+          ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:226: error: cannot find symbol
+          Preconditions.checkState(
+          ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:245: error: cannot find symbol
+          return ImmutableListMultimap.of();
+                 ^
+  symbol:   variable ImmutableListMultimap
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:248: error: cannot find symbol
+        ListMultimap<Thread, ID> potentialLocksCycle =
+        ^
+  symbol:   class ListMultimap
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:249: error: cannot find symbol
+            MultimapBuilder.linkedHashKeys().arrayListValues().build();
+            ^
+  symbol:   variable MultimapBuilder
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:264: error: cannot find symbol
+        return ImmutableListMultimap.of();
+               ^
+  symbol:   variable ImmutableListMultimap
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:277: error: cannot find symbol
+        Preconditions.checkNotNull(
+        ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+hybrids/com.google.inject/guice/5.1.0/CycleDetectingLock.java:293: error: cannot find symbol
+        Preconditions.checkState(
+        ^
+  symbol:   variable Preconditions
+  location: class ReentrantCycleDetectingLock<ID>
+  where ID is a type-variable:
+    ID extends Object declared in class ReentrantCycleDetectingLock
+32 errors

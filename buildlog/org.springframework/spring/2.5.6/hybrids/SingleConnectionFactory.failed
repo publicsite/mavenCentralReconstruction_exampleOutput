@@ -1,0 +1,215 @@
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:24: error: package javax.resource does not exist
+import javax.resource.NotSupportedException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:25: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:26: error: package javax.resource.cci does not exist
+import javax.resource.cci.Connection;
+                         ^
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:27: error: package javax.resource.cci does not exist
+import javax.resource.cci.ConnectionFactory;
+                         ^
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:28: error: package javax.resource.cci does not exist
+import javax.resource.cci.ConnectionSpec;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:21: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:22: error: package javax.resource.cci does not exist
+import javax.resource.cci.Connection;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:23: error: package javax.resource.cci does not exist
+import javax.resource.cci.ConnectionFactory;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:24: error: package javax.resource.cci does not exist
+import javax.resource.cci.ConnectionSpec;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:25: error: package javax.resource.cci does not exist
+import javax.resource.cci.RecordFactory;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:26: error: package javax.resource.cci does not exist
+import javax.resource.cci.ResourceAdapterMetaData;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:42: error: cannot find symbol
+public class DelegatingConnectionFactory implements ConnectionFactory, InitializingBean {
+                                                    ^
+  symbol: class ConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:59: error: cannot find symbol
+	private Connection target;
+	        ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:62: error: cannot find symbol
+	private Connection connection;
+	        ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:80: error: cannot find symbol
+	public SingleConnectionFactory(Connection target) {
+	                               ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:92: error: cannot find symbol
+	public SingleConnectionFactory(ConnectionFactory targetConnectionFactory) {
+	                               ^
+  symbol:   class ConnectionFactory
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:108: error: cannot find symbol
+	public Connection getConnection() throws ResourceException {
+	       ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:108: error: cannot find symbol
+	public Connection getConnection() throws ResourceException {
+	                                         ^
+  symbol:   class ResourceException
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:117: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	                                ^
+  symbol:   class ConnectionSpec
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:117: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	       ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:117: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	                                                                      ^
+  symbol:   class ResourceException
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:139: error: cannot find symbol
+	public void initConnection() throws ResourceException {
+	                                    ^
+  symbol:   class ResourceException
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:175: error: cannot find symbol
+	protected Connection doCreateConnection() throws ResourceException {
+	          ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:175: error: cannot find symbol
+	protected Connection doCreateConnection() throws ResourceException {
+	                                                 ^
+  symbol:   class ResourceException
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:184: error: cannot find symbol
+	protected void prepareConnection(Connection con) throws ResourceException {
+	                                 ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:184: error: cannot find symbol
+	protected void prepareConnection(Connection con) throws ResourceException {
+	                                                        ^
+  symbol:   class ResourceException
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:191: error: cannot find symbol
+	protected void closeConnection(Connection con) {
+	                               ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:208: error: cannot find symbol
+	protected Connection getCloseSuppressingConnectionProxy(Connection target) {
+	                                                        ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:208: error: cannot find symbol
+	protected Connection getCloseSuppressingConnectionProxy(Connection target) {
+	          ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:44: error: cannot find symbol
+	private ConnectionFactory targetConnectionFactory;
+	        ^
+  symbol:   class ConnectionFactory
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:50: error: cannot find symbol
+	public void setTargetConnectionFactory(ConnectionFactory targetConnectionFactory) {
+	                                       ^
+  symbol:   class ConnectionFactory
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:57: error: cannot find symbol
+	public ConnectionFactory getTargetConnectionFactory() {
+	       ^
+  symbol:   class ConnectionFactory
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:69: error: cannot find symbol
+	public Connection getConnection() throws ResourceException {
+	       ^
+  symbol:   class Connection
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:69: error: cannot find symbol
+	public Connection getConnection() throws ResourceException {
+	                                         ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:73: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	                                ^
+  symbol:   class ConnectionSpec
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:73: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	       ^
+  symbol:   class Connection
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:73: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	                                                                      ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:77: error: cannot find symbol
+	public RecordFactory getRecordFactory() throws ResourceException {
+	       ^
+  symbol:   class RecordFactory
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:77: error: cannot find symbol
+	public RecordFactory getRecordFactory() throws ResourceException {
+	                                               ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:81: error: cannot find symbol
+	public ResourceAdapterMetaData getMetaData() throws ResourceException {
+	       ^
+  symbol:   class ResourceAdapterMetaData
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:81: error: cannot find symbol
+	public ResourceAdapterMetaData getMetaData() throws ResourceException {
+	                                                    ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:221: error: cannot find symbol
+		private final Connection target;
+		              ^
+  symbol:   class Connection
+  location: class CloseSuppressingInvocationHandler
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:223: error: cannot find symbol
+		private CloseSuppressingInvocationHandler(Connection target) {
+		                                          ^
+  symbol:   class Connection
+  location: class CloseSuppressingInvocationHandler
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:118: error: cannot find symbol
+		throw new NotSupportedException(
+		          ^
+  symbol:   class NotSupportedException
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:209: error: cannot find symbol
+		return (Connection) Proxy.newProxyInstance(
+		        ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:211: error: cannot find symbol
+				new Class[] {Connection.class},
+				             ^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java:210: error: cannot find symbol
+				Connection.class.getClassLoader(),
+				^
+  symbol:   class Connection
+  location: class SingleConnectionFactory
+Note: hybrids/org.springframework/spring/2.5.6/SingleConnectionFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+47 errors

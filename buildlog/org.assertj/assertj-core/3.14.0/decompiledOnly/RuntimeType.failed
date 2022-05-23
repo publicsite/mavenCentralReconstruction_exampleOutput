@@ -1,0 +1,18 @@
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/RuntimeType.java:7: error: package org.assertj.core.internal.bytebuddy.implementation.bytecode.assign does not exist
+import org.assertj.core.internal.bytebuddy.implementation.bytecode.assign.Assigner;
+                                                                         ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/RuntimeType.java:8: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationSource;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/RuntimeType.java:26: error: cannot find symbol
+        public static Assigner.Typing check(final AnnotationSource annotationSource) {
+                                                  ^
+  symbol:   class AnnotationSource
+  location: class Verifier
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/RuntimeType.java:26: error: package Assigner does not exist
+        public static Assigner.Typing check(final AnnotationSource annotationSource) {
+                              ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/RuntimeType.java:27: error: package Assigner does not exist
+            return Assigner.Typing.of(annotationSource.getDeclaredAnnotations().isAnnotationPresent(RuntimeType.class));
+                           ^
+5 errors

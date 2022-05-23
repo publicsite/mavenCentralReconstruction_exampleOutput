@@ -1,0 +1,61 @@
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:23: error: package org.apache.catalina.loader does not exist
+import org.apache.catalina.loader.ResourceEntry;
+                                 ^
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:24: error: package org.apache.catalina.loader does not exist
+import org.apache.catalina.loader.WebappClassLoader;
+                                 ^
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:57: error: cannot find symbol
+public class TomcatInstrumentableClassLoader extends WebappClassLoader {
+                                                     ^
+  symbol: class WebappClassLoader
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:110: error: cannot find symbol
+	protected ResourceEntry findResourceInternal(String name, String path) {
+	          ^
+  symbol:   class ResourceEntry
+  location: class TomcatInstrumentableClassLoader
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:70: error: incompatible types: TomcatInstrumentableClassLoader cannot be converted to ClassLoader
+		this.weavingTransformer = new WeavingTransformer(this);
+		                                                 ^
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:80: error: incompatible types: TomcatInstrumentableClassLoader cannot be converted to ClassLoader
+		this.weavingTransformer = new WeavingTransformer(this);
+		                                                 ^
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:101: error: cannot find symbol
+		WebappClassLoader tempLoader = new WebappClassLoader();
+		^
+  symbol:   class WebappClassLoader
+  location: class TomcatInstrumentableClassLoader
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:101: error: cannot find symbol
+		WebappClassLoader tempLoader = new WebappClassLoader();
+		                                   ^
+  symbol:   class WebappClassLoader
+  location: class TomcatInstrumentableClassLoader
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:109: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:111: error: cannot find symbol
+		ResourceEntry entry = super.findResourceInternal(name, path);
+		^
+  symbol:   class ResourceEntry
+  location: class TomcatInstrumentableClassLoader
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:111: error: cannot find symbol
+		ResourceEntry entry = super.findResourceInternal(name, path);
+		                      ^
+  symbol:   variable super
+  location: class TomcatInstrumentableClassLoader
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:120: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:122: error: cannot find symbol
+		StringBuilder sb = new StringBuilder(getClass().getName());
+		                                     ^
+  symbol:   method getClass()
+  location: class TomcatInstrumentableClassLoader
+hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java:124: error: cannot find symbol
+		sb.append(super.toString());
+		          ^
+  symbol:   variable super
+  location: class TomcatInstrumentableClassLoader
+Note: hybrids/org.springframework/spring/2.5.6/TomcatInstrumentableClassLoader.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+14 errors

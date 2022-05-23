@@ -1,0 +1,12 @@
+sources/structure/xml-apis/xml-apis/1.3.04/Decompiled/javax/xml/xpath/XPathFactory.java:5: error: package exists in another module: java.xml
+package javax.xml.xpath;
+^
+sources/structure/xml-apis/xml-apis/1.3.04/Decompiled/javax/xml/xpath/XPathFactory.java:31: error: cannot find symbol
+        ClassLoader classLoader = SecuritySupport.getContextClassLoader();
+                                  ^
+  symbol:   variable SecuritySupport
+  location: class XPathFactory
+sources/structure/xml-apis/xml-apis/1.3.04/Decompiled/javax/xml/xpath/XPathFactory.java:35: error: XPathFactoryFinder is not public in javax.xml.xpath; cannot be accessed from outside package
+        final XPathFactory factory = new XPathFactoryFinder(classLoader).newFactory(str);
+                                         ^
+3 errors

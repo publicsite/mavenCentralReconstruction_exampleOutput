@@ -1,0 +1,70 @@
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/transform/AbstractClassTransformer.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/transform/AbstractClassTransformer.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Opcodes;
+                        ^
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/transform/ClassTransformer.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/transform/ClassTransformer.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Opcodes;
+                        ^
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/transform/ClassTransformer.java:21: error: cannot find symbol
+public abstract class ClassTransformer extends ClassVisitor {
+                                               ^
+  symbol: class ClassVisitor
+hybrids/cglib/cglib-nodep/3.1/ClassTransformerChain.java:27: error: cannot find symbol
+    public void setTarget(final ClassVisitor v) {
+                                ^
+  symbol:   class ClassVisitor
+  location: class ClassTransformerChain
+hybrids/cglib/cglib-nodep/3.1/ClassTransformerChain.java:36: error: cannot find symbol
+    public MethodVisitor visitMethod(int access,
+           ^
+  symbol:   class MethodVisitor
+  location: class ClassTransformerChain
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/transform/AbstractClassTransformer.java:26: error: cannot find symbol
+    public void setTarget(ClassVisitor target) {
+                          ^
+  symbol:   class ClassVisitor
+  location: class AbstractClassTransformer
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/transform/ClassTransformer.java:28: error: cannot find symbol
+   public abstract void setTarget(ClassVisitor target);
+                                  ^
+  symbol:   class ClassVisitor
+  location: class ClassTransformer
+hybrids/cglib/cglib-nodep/3.1/ClassTransformerChain.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.*;
+^
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/transform/ClassTransformer.java:23: error: cannot find symbol
+	super(Opcodes.ASM4);
+	      ^
+  symbol:   variable Opcodes
+  location: class ClassTransformer
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/transform/AbstractClassTransformer.java:23: error: cannot find symbol
+        super(Opcodes.ASM4);
+              ^
+  symbol:   variable Opcodes
+  location: class AbstractClassTransformer
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/transform/AbstractClassTransformer.java:27: error: cannot find symbol
+        cv = target;
+        ^
+  symbol:   variable cv
+  location: class AbstractClassTransformer
+hybrids/cglib/cglib-nodep/3.1/ClassTransformerChain.java:29: error: cannot find symbol
+        ClassVisitor next = v;
+        ^
+  symbol:   class ClassVisitor
+  location: class ClassTransformerChain
+hybrids/cglib/cglib-nodep/3.1/ClassTransformerChain.java:41: error: cannot find symbol
+        return cv.visitMethod(access, name, desc, signature, exceptions);
+               ^
+  symbol:   variable cv
+  location: class ClassTransformerChain
+hybrids/cglib/cglib-nodep/3.1/ClassTransformerChain.java:51: error: cannot find symbol
+            sb.append(chain[i].toString());
+                              ^
+  symbol:   method toString()
+  location: class ClassTransformer
+16 errors

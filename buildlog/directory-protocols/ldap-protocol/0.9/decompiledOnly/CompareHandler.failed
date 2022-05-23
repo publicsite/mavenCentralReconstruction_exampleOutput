@@ -1,0 +1,53 @@
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/CompareHandler.java:12: error: cannot find symbol
+import org.apache.ldap.common.util.ExceptionUtils;
+                                  ^
+  symbol:   class ExceptionUtils
+  location: package org.apache.ldap.common.util
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/CompareHandler.java:13: error: cannot find symbol
+import org.apache.ldap.common.message.ResultCodeEnum;
+                                     ^
+  symbol:   class ResultCodeEnum
+  location: package org.apache.ldap.common.message
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/CompareHandler.java:33: error: cannot find symbol
+                resp.getLdapResult().setResultCode(ResultCodeEnum.COMPAREFALSE);
+                                                   ^
+  symbol:   variable ResultCodeEnum
+  location: class CompareHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/CompareHandler.java:36: error: cannot find symbol
+                resp.getLdapResult().setResultCode(ResultCodeEnum.COMPARETRUE);
+                                                   ^
+  symbol:   variable ResultCodeEnum
+  location: class CompareHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/CompareHandler.java:39: error: cannot find symbol
+                resp.getLdapResult().setResultCode(ResultCodeEnum.COMPAREFALSE);
+                                                   ^
+  symbol:   variable ResultCodeEnum
+  location: class CompareHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/CompareHandler.java:44: error: cannot find symbol
+            msg += ExceptionUtils.getStackTrace((Throwable)e);
+                   ^
+  symbol:   variable ExceptionUtils
+  location: class CompareHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/CompareHandler.java:45: error: cannot find symbol
+            ResultCodeEnum code;
+            ^
+  symbol:   class ResultCodeEnum
+  location: class CompareHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/CompareHandler.java:50: error: cannot access MessageTypeEnum
+                code = ResultCodeEnum.getBestEstimate((Throwable)e, req.getType());
+                                                                               ^
+  class file for org.apache.ldap.common.message.MessageTypeEnum not found
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/CompareHandler.java:50: error: cannot find symbol
+                code = ResultCodeEnum.getBestEstimate((Throwable)e, req.getType());
+                       ^
+  symbol:   variable ResultCodeEnum
+  location: class CompareHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SessionRegistry.java:55: error: incompatible types: Object cannot be converted to LdapContext
+            ctx = this.contexts.get(session);
+                                   ^
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SessionRegistry.java:63: error: incompatible types: Object cannot be converted to InitialContextFactory
+                final InitialContextFactory factory = this.env.get("server.use.factory.instance");
+                                                                  ^
+Note: sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SessionRegistry.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors

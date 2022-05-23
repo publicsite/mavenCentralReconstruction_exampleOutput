@@ -1,0 +1,48 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:7: error: package org.codehaus.groovy.ast.stmt does not exist
+import org.codehaus.groovy.ast.stmt.Statement;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:8: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.Parameter;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:9: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.Expression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:10: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ClosureExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:14: error: cannot find symbol
+    private final StaticCompilationTransformer transformer;
+                  ^
+  symbol:   class StaticCompilationTransformer
+  location: class ClosureExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:16: error: cannot find symbol
+    public ClosureExpressionTransformer(final StaticCompilationTransformer staticCompilationTransformer) {
+                                              ^
+  symbol:   class StaticCompilationTransformer
+  location: class ClosureExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:20: error: cannot find symbol
+    Expression transformClosureExpression(final ClosureExpression expr) {
+                                                ^
+  symbol:   class ClosureExpression
+  location: class ClosureExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:20: error: cannot find symbol
+    Expression transformClosureExpression(final ClosureExpression expr) {
+    ^
+  symbol:   class Expression
+  location: class ClosureExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:21: error: cannot find symbol
+        final Parameter[] parameters = expr.getParameters();
+              ^
+  symbol:   class Parameter
+  location: class ClosureExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:23: error: cannot find symbol
+            for (final Parameter parameter : parameters) {
+                       ^
+  symbol:   class Parameter
+  location: class ClosureExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/ClosureExpressionTransformer.java:29: error: cannot find symbol
+        final Statement code = expr.getCode();
+              ^
+  symbol:   class Statement
+  location: class ClosureExpressionTransformer
+11 errors

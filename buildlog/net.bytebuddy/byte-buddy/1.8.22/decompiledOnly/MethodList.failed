@@ -1,0 +1,49 @@
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3194: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3202: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/description/method/MethodList.java:35: error: non-static type variable T cannot be referenced from a static context
+                tokens.add(((ByteCodeElement.TypeDependant<T, MethodDescription.Token>)methodDescription).asToken(matcher));
+                                                           ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/description/method/MethodList.java:44: error: type argument InDefinedShape is not within bounds of type-variable T
+                declaredForms.add(((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)methodDescription).asDefined());
+                                                                                   ^
+  where T,S are type-variables:
+    T extends TypeDependant<?,S> declared in interface TypeDependant
+    S extends Token<S> declared in interface TypeDependant
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/description/method/MethodList.java:44: error: incompatible types: MethodDescription cannot be converted to TypeDependant<InDefinedShape,S>
+                declaredForms.add(((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)methodDescription).asDefined());
+                                                                                                       ^
+  where S is a type-variable:
+    S extends MethodDescription declared in class AbstractBase
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+10 errors

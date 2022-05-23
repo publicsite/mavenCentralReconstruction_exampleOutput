@@ -1,0 +1,48 @@
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:80: error: remove(Object,Object) in MultiHashMap cannot implement remove(Object,Object) in Map
+    public Object remove(final Object key, final Object item) {
+                  ^
+  return type Object is not compatible with boolean
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:50: error: incompatible types: Object cannot be converted to Entry
+            for (final Map.Entry entry : this.entrySet()) {
+                                                      ^
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:51: error: cannot find symbol
+                super.put(entry.getKey(), entry.getValue().iterator().next());
+                                                          ^
+  symbol:   method iterator()
+  location: class Object
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:57: error: incompatible types: Object cannot be converted to Collection
+        Collection coll = super.get(key);
+                                   ^
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:71: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry keyValuePair : pairs) {
+                                            ^
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:72: error: incompatible types: Object cannot be converted to Collection
+            final Collection coll = keyValuePair.getValue();
+                                                         ^
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:81: error: incompatible types: Object cannot be converted to Collection
+        final Collection valuesForKey = super.get(key);
+                                                 ^
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:94: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry keyValuePair : pairs) {
+                                            ^
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:95: error: incompatible types: Object cannot be converted to Collection
+            final Collection coll = keyValuePair.getValue();
+                                                         ^
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:108: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry entry : this.entrySet()) {
+                                                  ^
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:109: error: incompatible types: Object cannot be converted to Collection
+            final Collection coll = entry.getValue();
+                                                  ^
+sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java:158: error: cannot find symbol
+                this.tempIterator = this.backedIterator.next().iterator();
+                                                              ^
+  symbol:   method iterator()
+  location: class Object
+sources/structure/commons-collections/commons-collections/3.0/extractedSources/org/apache/commons/collections/MultiMap.java:95: error: remove(Object,Object) in MultiMap clashes with remove(Object,Object) in Map
+    public Object remove(Object key, Object item);
+                  ^
+  return type Object is not compatible with boolean
+Note: sources/structure/commons-collections/commons-collections/3.0/Decompiled/org/apache/commons/collections/MultiHashMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+13 errors

@@ -1,0 +1,41 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashSet.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashSet.java:29: error: no suitable constructor found for HashSet(LinkedHashMap<E,Object>)
+    super(new LinkedHashMap<E, Object>());
+    ^
+    constructor HashSet.HashSet(Collection<? extends E>) is not applicable
+      (argument mismatch; LinkedHashMap<E,Object> cannot be converted to Collection<? extends E>)
+    constructor HashSet.HashSet(int) is not applicable
+      (argument mismatch; LinkedHashMap<E,Object> cannot be converted to int)
+  where E is a type-variable:
+    E extends Object declared in class LinkedHashSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashSet.java:33: error: no suitable constructor found for HashSet(LinkedHashMap<E,Object>)
+    super(new LinkedHashMap<E, Object>());
+    ^
+    constructor HashSet.HashSet(Collection<? extends E>) is not applicable
+      (argument mismatch; LinkedHashMap<E,Object> cannot be converted to Collection<? extends E>)
+    constructor HashSet.HashSet(int) is not applicable
+      (argument mismatch; LinkedHashMap<E,Object> cannot be converted to int)
+  where E is a type-variable:
+    E extends Object declared in class LinkedHashSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashSet.java:38: error: no suitable constructor found for HashSet(LinkedHashMap<E,Object>)
+    super(new LinkedHashMap<E, Object>(ignored));
+    ^
+    constructor HashSet.HashSet(Collection<? extends E>) is not applicable
+      (argument mismatch; LinkedHashMap<E,Object> cannot be converted to Collection<? extends E>)
+    constructor HashSet.HashSet(int) is not applicable
+      (argument mismatch; LinkedHashMap<E,Object> cannot be converted to int)
+  where E is a type-variable:
+    E extends Object declared in class LinkedHashSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashSet.java:42: error: no suitable constructor found for HashSet(LinkedHashMap<E,Object>)
+    super(new LinkedHashMap<E, Object>(ignored, alsoIgnored));
+    ^
+    constructor HashSet.HashSet(Collection<? extends E>) is not applicable
+      (argument mismatch; LinkedHashMap<E,Object> cannot be converted to Collection<? extends E>)
+    constructor HashSet.HashSet(int) is not applicable
+      (argument mismatch; LinkedHashMap<E,Object> cannot be converted to int)
+  where E is a type-variable:
+    E extends Object declared in class LinkedHashSet
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+5 errors

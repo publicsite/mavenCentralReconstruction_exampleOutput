@@ -1,0 +1,33 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/Arguments.java:16: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/NullArgumentsProvider.java:19: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/EmptyArgumentsProvider.java:24: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.PreconditionViolationException;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/EmptyArgumentsProvider.java:25: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/Arguments.java:75: error: cannot find symbol
+		Preconditions.notNull(arguments, "argument array must not be null");
+		^
+  symbol:   variable Preconditions
+  location: interface Arguments
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/NullArgumentsProvider.java:32: error: cannot find symbol
+		Preconditions.condition(testMethod.getParameterCount() > 0, () -> String.format(
+		^
+  symbol:   variable Preconditions
+  location: class NullArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/EmptyArgumentsProvider.java:38: error: cannot find symbol
+		Preconditions.condition(parameterTypes.length > 0, () -> String.format(
+		^
+  symbol:   variable Preconditions
+  location: class EmptyArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/EmptyArgumentsProvider.java:61: error: cannot find symbol
+		throw new PreconditionViolationException(
+		          ^
+  symbol:   class PreconditionViolationException
+  location: class EmptyArgumentsProvider
+8 errors

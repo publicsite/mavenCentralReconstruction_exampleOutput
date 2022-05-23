@@ -1,0 +1,22 @@
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/info/dmtree/registry/DmtServiceFactory.java:8: error: package org.osgi.framework does not exist
+import org.osgi.framework.ServiceReference;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/info/dmtree/registry/DmtServiceFactory.java:10: error: package org.osgi.framework does not exist
+import org.osgi.framework.BundleContext;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/info/dmtree/registry/DmtServiceFactory.java:14: error: cannot find symbol
+    private static BundleContext context;
+                   ^
+  symbol:   class BundleContext
+  location: class DmtServiceFactory
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/info/dmtree/registry/DmtServiceFactory.java:23: error: cannot find symbol
+        final ServiceReference dmtAdminRef = DmtServiceFactory.context.getServiceReference(DmtAdmin.class.getName());
+              ^
+  symbol:   class ServiceReference
+  location: class DmtServiceFactory
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/info/dmtree/registry/DmtServiceFactory.java:38: error: cannot find symbol
+        final ServiceReference notificationServiceRef = DmtServiceFactory.context.getServiceReference(NotificationService.class.getName());
+              ^
+  symbol:   class ServiceReference
+  location: class DmtServiceFactory
+5 errors

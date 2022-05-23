@@ -1,0 +1,20 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/DisabledCondition.java:13: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.AnnotationUtils.findAnnotation;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/DisabledCondition.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.AnnotationUtils.findAnnotation;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/DisabledCondition.java:22: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.StringUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/DisabledCondition.java:43: error: cannot find symbol
+		Optional<Disabled> disabled = findAnnotation(element, Disabled.class);
+		                              ^
+  symbol:   method findAnnotation(Optional<AnnotatedElement>,Class<Disabled>)
+  location: class DisabledCondition
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/DisabledCondition.java:45: error: cannot find symbol
+			String reason = disabled.map(Disabled::value).filter(StringUtils::isNotBlank).orElseGet(
+			                                                     ^
+  symbol:   variable StringUtils
+  location: class DisabledCondition
+5 errors

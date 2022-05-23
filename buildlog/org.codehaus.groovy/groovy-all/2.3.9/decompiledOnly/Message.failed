@@ -1,0 +1,61 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:7: error: cannot find symbol
+import org.codehaus.groovy.control.SourceUnit;
+                                  ^
+  symbol:   class SourceUnit
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:8: error: cannot find symbol
+import org.codehaus.groovy.syntax.SyntaxException;
+                                 ^
+  symbol:   class SyntaxException
+  location: package org.codehaus.groovy.syntax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:9: error: cannot find symbol
+import org.codehaus.groovy.control.ProcessingUnit;
+                                  ^
+  symbol:   class ProcessingUnit
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:10: error: cannot find symbol
+import org.codehaus.groovy.control.Janitor;
+                                  ^
+  symbol:   class Janitor
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:15: error: cannot find symbol
+    public abstract void write(final PrintWriter p0, final Janitor p1);
+                                                           ^
+  symbol:   class Janitor
+  location: class Message
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:21: error: cannot find symbol
+    public static Message create(final String text, final ProcessingUnit owner) {
+                                                          ^
+  symbol:   class ProcessingUnit
+  location: class Message
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:25: error: cannot find symbol
+    public static Message create(final String text, final Object data, final ProcessingUnit owner) {
+                                                                             ^
+  symbol:   class ProcessingUnit
+  location: class Message
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:29: error: cannot find symbol
+    public static Message create(final SyntaxException error, final SourceUnit owner) {
+                                       ^
+  symbol:   class SyntaxException
+  location: class Message
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:29: error: cannot find symbol
+    public static Message create(final SyntaxException error, final SourceUnit owner) {
+                                                                    ^
+  symbol:   class SourceUnit
+  location: class Message
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:22: error: cannot find symbol
+        return new SimpleMessage(text, owner);
+                   ^
+  symbol:   class SimpleMessage
+  location: class Message
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:26: error: cannot find symbol
+        return new SimpleMessage(text, data, owner);
+                   ^
+  symbol:   class SimpleMessage
+  location: class Message
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/messages/Message.java:30: error: cannot find symbol
+        return new SyntaxErrorMessage(error, owner);
+                   ^
+  symbol:   class SyntaxErrorMessage
+  location: class Message
+12 errors

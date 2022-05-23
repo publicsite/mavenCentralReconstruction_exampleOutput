@@ -1,0 +1,73 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:8: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:10: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:13: error: package ElementMatcher.Junction does not exist
+public class CachingMatcher<T> extends ElementMatcher.Junction.AbstractBase<T>
+                                                              ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:12: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance(permitSubclassEquality = true)
+                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:15: error: cannot find symbol
+    private final ElementMatcher<? super T> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class CachingMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CachingMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:19: error: cannot find symbol
+    public CachingMatcher(final ElementMatcher<? super T> matcher, final ConcurrentMap<? super T, Boolean> map) {
+                                ^
+  symbol:   class ElementMatcher
+  location: class CachingMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CachingMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:53: error: cannot find symbol
+    @SuppressFBWarnings(value = { "EQ_DOESNT_OVERRIDE_EQUALS" }, justification = "Equality does not consider eviction size")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class CachingMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CachingMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:58: error: cannot find symbol
+        public WithInlineEviction(final ElementMatcher<? super S> matcher, final ConcurrentMap<? super S, Boolean> map, final int evictionSize) {
+                                        ^
+  symbol:   class ElementMatcher
+  location: class WithInlineEviction<S>
+  where S is a type-variable:
+    S extends Object declared in class WithInlineEviction
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:16: error: package HashCodeAndEqualsPlugin does not exist
+    @HashCodeAndEqualsPlugin.ValueHandling(HashCodeAndEqualsPlugin.ValueHandling.Sort.IGNORE)
+                            ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:16: error: package HashCodeAndEqualsPlugin.ValueHandling does not exist
+    @HashCodeAndEqualsPlugin.ValueHandling(HashCodeAndEqualsPlugin.ValueHandling.Sort.IGNORE)
+                                                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:34: error: incompatible types: Object cannot be converted to CAP#1
+        this.map.put((Object)target, Boolean.valueOf(cached));
+                     ^
+  where T is a type-variable:
+    T extends Object declared in class CachingMatcher
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: T from capture of ? super T
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:38: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:43: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:48: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java:59: error: cannot find symbol
+            super((ElementMatcher<? super Object>)matcher, (ConcurrentMap<? super Object, Boolean>)map);
+                   ^
+  symbol:   class ElementMatcher
+  location: class WithInlineEviction<S>
+  where S is a type-variable:
+    S extends Object declared in class WithInlineEviction
+Note: sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CachingMatcher.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+15 errors

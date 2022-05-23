@@ -1,0 +1,125 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:17: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:235: error: incomparable types: java.util.BitSet and java.util.BitSet
+    if (this == set) {
+             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:248: error: cannot find symbol
+    int limit = Math.min(array.length, set.array.length);
+                                          ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:253: error: cannot find symbol
+        array[index] = word & wordAt(set.array, index);
+                                        ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:261: error: incomparable types: java.util.BitSet and java.util.BitSet
+    if (this == set) {
+             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:276: error: cannot find symbol
+    int limit = Math.min(array.length, set.array.length);
+                                          ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:278: error: cannot find symbol
+      int otherWord = wordAt(set.array, index);
+                                ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:350: error: no suitable constructor found for BitSet(int[])
+    return new BitSet(Arrays.copyOf(array, array.length));
+           ^
+    constructor BitSet.BitSet(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+    constructor BitSet.BitSet(long[]) is not applicable
+      (argument mismatch; int[] cannot be converted to long[])
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:366: error: cannot find symbol
+    if (lastIndex != lastSetWordIndex(other.array)) {
+                                           ^
+  symbol:   variable array
+  location: variable other of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:371: error: cannot find symbol
+      if (wordAt(array, index) != wordAt(other.array, index)) {
+                                              ^
+  symbol:   variable array
+  location: variable other of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:464: error: no suitable constructor found for BitSet(int[])
+      return new BitSet(subArray);
+             ^
+    constructor BitSet.BitSet(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+    constructor BitSet.BitSet(long[]) is not applicable
+      (argument mismatch; int[] cannot be converted to long[])
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:507: error: no suitable constructor found for BitSet(int[])
+    return new BitSet(subArray);
+           ^
+    constructor BitSet.BitSet(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+    constructor BitSet.BitSet(long[]) is not applicable
+      (argument mismatch; int[] cannot be converted to long[])
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:536: error: incomparable types: java.util.BitSet and java.util.BitSet
+    if (this == set) {
+             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:541: error: cannot find symbol
+    int limit = Math.min(array.length, set.array.length);
+                                          ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:544: error: cannot find symbol
+      if (word != 0 && (word & wordAt(set.array, index)) != 0) {
+                                         ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:654: error: incomparable types: java.util.BitSet and java.util.BitSet
+    if (this == set) {
+             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:658: error: cannot find symbol
+    maybeGrowArrayToIndex(array, set.array.length - 1);
+                                    ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:670: error: cannot find symbol
+    for (int index = 0; index < set.array.length; index++) {
+                                   ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:671: error: cannot find symbol
+      int word = wordAt(set.array, index);
+                           ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:733: error: incomparable types: java.util.BitSet and java.util.BitSet
+    if (this == set) {
+             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:738: error: cannot find symbol
+    maybeGrowArrayToIndex(array, set.array.length - 1);
+                                    ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:750: error: cannot find symbol
+    for (int index = 0; index < set.array.length; index++) {
+                                   ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:751: error: cannot find symbol
+      int word = wordAt(set.array, index);
+                           ^
+  symbol:   variable array
+  location: variable set of type BitSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:833: error: no suitable constructor found for BitSet(int[])
+    return new BitSet(array);
+           ^
+    constructor BitSet.BitSet(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+    constructor BitSet.BitSet(long[]) is not applicable
+      (argument mismatch; int[] cannot be converted to long[])
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/BitSet.java:847: error: no suitable constructor found for BitSet(int[])
+    return new BitSet(array);
+           ^
+    constructor BitSet.BitSet(int) is not applicable
+      (argument mismatch; int[] cannot be converted to int)
+    constructor BitSet.BitSet(long[]) is not applicable
+      (argument mismatch; int[] cannot be converted to long[])
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+25 errors

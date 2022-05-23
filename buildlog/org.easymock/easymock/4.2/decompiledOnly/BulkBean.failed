@@ -1,0 +1,93 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:7: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:8: error: cannot find symbol
+import org.easymock.cglib.core.ReflectUtils;
+                              ^
+  symbol:   class ReflectUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:10: error: cannot find symbol
+import org.easymock.cglib.core.AbstractClassGenerator;
+                              ^
+  symbol:   class AbstractClassGenerator
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:11: error: cannot find symbol
+import org.easymock.cglib.core.KeyFactory;
+                              ^
+  symbol:   class KeyFactory
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:59: error: cannot find symbol
+    public static class Generator extends AbstractClassGenerator
+                                          ^
+  symbol:   class AbstractClassGenerator
+  location: class BulkBean
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:61: error: cannot find symbol
+        private static final Source SOURCE;
+                             ^
+  symbol:   class Source
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:105: error: cannot find symbol
+        public void generateClass(final ClassVisitor v) throws Exception {
+                                        ^
+  symbol:   class ClassVisitor
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:56: error: cannot find symbol
+        KEY_FACTORY = (BulkBeanKey)KeyFactory.create(BulkBeanKey.class);
+                                   ^
+  symbol:   variable KeyFactory
+  location: class BulkBean
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:87: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:92: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:94: error: cannot find symbol
+            return ReflectUtils.getProtectionDomain(this.target);
+                   ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:98: error: cannot find symbol
+            this.setNamePrefix(this.target.getName());
+                ^
+  symbol: method setNamePrefix(String)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:100: error: cannot find symbol
+            final String[] typeClassNames = ReflectUtils.getNames(this.types);
+                                            ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:102: error: non-static variable super cannot be referenced from a static context
+            return (BulkBean)super.create(key);
+                             ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:102: error: cannot find symbol
+            return (BulkBean)super.create(key);
+                                  ^
+  symbol: method create(Object)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:106: error: cannot find symbol
+            new BulkBeanEmitter(v, this.getClassName(), this.target, this.getters, this.setters, this.types);
+                ^
+  symbol:   class BulkBeanEmitter
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:106: error: cannot find symbol
+            new BulkBeanEmitter(v, this.getClassName(), this.target, this.getters, this.setters, this.types);
+                                       ^
+  symbol: method getClassName()
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:109: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:111: error: cannot find symbol
+            final BulkBean instance = (BulkBean)ReflectUtils.newInstance(type);
+                                                ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:123: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BulkBean.java:129: error: cannot find symbol
+            SOURCE = new Source(BulkBean.class.getName());
+                         ^
+  symbol:   class Source
+  location: class Generator
+21 errors

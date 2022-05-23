@@ -1,0 +1,66 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:7: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.ImmutableMap;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:8: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Preconditions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:9: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.Maps;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:10: error: cannot find symbol
+import javax.annotation.Nullable;
+                       ^
+  symbol:   class Nullable
+  location: package javax.annotation
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:12: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Predicate;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:17: error: cannot find symbol
+    private final Predicate<? super String> shouldRecordMappingForCodeGeneration;
+                  ^
+  symbol:   class Predicate
+  location: class RecordingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:20: error: cannot find symbol
+    private final MultipleMappingSubstitutionMap multipleMappingSubstitutionMap;
+                  ^
+  symbol:   class MultipleMappingSubstitutionMap
+  location: class RecordingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:22: error: cannot find symbol
+    public RecordingSubstitutionMap(final SubstitutionMap map, final Predicate<? super String> shouldRecordMappingForCodeGeneration) {
+                                                                     ^
+  symbol:   class Predicate
+  location: class RecordingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:19: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class RecordingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:25: error: cannot find symbol
+        this.mappings = (Map<String, String>)Maps.newLinkedHashMap();
+                                             ^
+  symbol:   variable Maps
+  location: class RecordingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:26: error: cannot find symbol
+        this.multipleMappingSubstitutionMap = ((map instanceof MultipleMappingSubstitutionMap) ? ((MultipleMappingSubstitutionMap)map) : null);
+                                                               ^
+  symbol:   class MultipleMappingSubstitutionMap
+  location: class RecordingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:26: error: cannot find symbol
+        this.multipleMappingSubstitutionMap = ((map instanceof MultipleMappingSubstitutionMap) ? ((MultipleMappingSubstitutionMap)map) : null);
+                                                                                                   ^
+  symbol:   class MultipleMappingSubstitutionMap
+  location: class RecordingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:31: error: cannot find symbol
+        Preconditions.checkNotNull((Object)key);
+        ^
+  symbol:   variable Preconditions
+  location: class RecordingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:39: error: package MultipleMappingSubstitutionMap does not exist
+            final MultipleMappingSubstitutionMap.ValueWithMappings valueWithMappings = this.multipleMappingSubstitutionMap.getValueWithMappings(key);
+                                                ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/RecordingSubstitutionMap.java:49: error: cannot find symbol
+        return (Map<String, String>)ImmutableMap.copyOf((Map)this.mappings);
+                                    ^
+  symbol:   variable ImmutableMap
+  location: class RecordingSubstitutionMap
+15 errors

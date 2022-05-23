@@ -1,0 +1,467 @@
+hybrids/com.google.truth/truth/1.1.3/Platform.java:18: error: package com.google.common.base does not exist
+import static com.google.common.base.Throwables.throwIfUnchecked;
+                                    ^
+hybrids/com.google.truth/truth/1.1.3/Platform.java:18: error: static import only from classes and interfaces
+import static com.google.common.base.Throwables.throwIfUnchecked;
+^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:20: error: package com.google.common.base does not exist
+import static com.google.common.base.Strings.padEnd;
+                                    ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:20: error: static import only from classes and interfaces
+import static com.google.common.base.Strings.padEnd;
+^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:23: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+hybrids/com.google.truth/truth/1.1.3/Platform.java:22: error: package com.google.common.base does not exist
+import com.google.common.base.Joiner;
+                             ^
+hybrids/com.google.truth/truth/1.1.3/Platform.java:23: error: package com.google.common.base does not exist
+import com.google.common.base.Splitter;
+                             ^
+hybrids/com.google.truth/truth/1.1.3/Platform.java:24: error: package com.google.common.base does not exist
+import com.google.common.base.Throwables;
+                             ^
+hybrids/com.google.truth/truth/1.1.3/Platform.java:25: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+hybrids/com.google.truth/truth/1.1.3/Platform.java:136: error: cannot find symbol
+  static @Nullable ImmutableList<Fact> makeDiff(String expected, String actual) {
+                   ^
+  symbol:   class ImmutableList
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:153: error: cannot find symbol
+  private static ImmutableList<String> splitLines(String s) {
+                 ^
+  symbol:   class ImmutableList
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:237: error: cannot find symbol
+      ImmutableList<String> messages,
+      ^
+  symbol:   class ImmutableList
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:238: error: cannot find symbol
+      ImmutableList<Fact> facts,
+      ^
+  symbol:   class ImmutableList
+  location: class Platform
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:87: error: cannot find symbol
+  static String makeMessage(ImmutableList<String> messages, ImmutableList<Fact> facts) {
+                            ^
+  symbol:   class ImmutableList
+  location: class Fact
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:87: error: cannot find symbol
+  static String makeMessage(ImmutableList<String> messages, ImmutableList<Fact> facts) {
+                                                            ^
+  symbol:   class ImmutableList
+  location: class Fact
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:69: error: cannot find symbol
+    this.key = checkNotNull(key);
+               ^
+  symbol:   method checkNotNull(String)
+  location: class Fact
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:122: error: cannot find symbol
+        builder.append(padEnd(fact.key, longestKeyLength, ' '));
+                       ^
+  symbol:   method padEnd(String,int,char)
+  location: class Fact
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:18: error: package com.google.common.base does not exist
+import static com.google.common.base.MoreObjects.firstNonNull;
+                                    ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:18: error: static import only from classes and interfaces
+import static com.google.common.base.MoreObjects.firstNonNull;
+^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:22: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:23: error: cannot find symbol
+import com.google.common.collect.ImmutableSet;
+                                ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:24: error: cannot find symbol
+import com.google.common.collect.Sets;
+                                ^
+  symbol:   class Sets
+  location: package com.google.common.collect
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:192: error: cannot find symbol
+  private static final ImmutableSet<String> SUBJECT_CLASS =
+                       ^
+  symbol:   class ImmutableSet
+  location: class StackTraceCleaner
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:195: error: cannot find symbol
+  private static final ImmutableSet<String> STANDARD_SUBJECT_BUILDER_CLASS =
+                       ^
+  symbol:   class ImmutableSet
+  location: class StackTraceCleaner
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:211: error: cannot find symbol
+  private static final ImmutableSet<String> JUNIT_INFRASTRUCTURE_CLASSES =
+                       ^
+  symbol:   class ImmutableSet
+  location: class StackTraceCleaner
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:220: error: cannot find symbol
+      StackTraceElement stackTraceElement, ImmutableSet<String> recognizedClasses) {
+                                           ^
+  symbol:   class ImmutableSet
+  location: class StackTraceCleaner
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:265: error: cannot find symbol
+      StackTraceElement stackTraceElement, ImmutableSet<String> recognizedClasses) {
+                                           ^
+  symbol:   class ImmutableSet
+  location: class StackTraceCleaner
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:386: error: cannot find symbol
+    private final ImmutableList<String> prefixes;
+                  ^
+  symbol:   class ImmutableList
+  location: class StackFrameType
+hybrids/com.google.truth/truth/1.1.3/Platform.java:113: error: cannot find symbol
+          Joiner.on('.').join("com", "google", "common", "truth", "ActualValueInference");
+          ^
+  symbol:   variable Joiner
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:137: error: cannot find symbol
+    ImmutableList<String> expectedLines = splitLines(expected);
+    ^
+  symbol:   class ImmutableList
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:138: error: cannot find symbol
+    ImmutableList<String> actualLines = splitLines(actual);
+    ^
+  symbol:   class ImmutableList
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:142: error: cannot find symbol
+      return ImmutableList.of(
+             ^
+  symbol:   variable ImmutableList
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:146: error: cannot find symbol
+    String result = Joiner.on("\n").join(unifiedDiff);
+                    ^
+  symbol:   variable Joiner
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:150: error: cannot find symbol
+    return ImmutableList.of(fact(DIFF_KEY, result));
+           ^
+  symbol:   variable ImmutableList
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:155: error: cannot find symbol
+    return ImmutableList.copyOf(Splitter.onPattern("\r?\n").split(s));
+           ^
+  symbol:   variable ImmutableList
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:155: error: cannot find symbol
+    return ImmutableList.copyOf(Splitter.onPattern("\r?\n").split(s));
+                                ^
+  symbol:   variable Splitter
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:206: error: cannot find symbol
+    return Throwables.getStackTraceAsString(throwable);
+           ^
+  symbol:   variable Throwables
+  location: class Platform
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/AssertionErrorWithFacts.java:18: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/AssertionErrorWithFacts.java:18: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/AssertionErrorWithFacts.java:21: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/ErrorWithFacts.java:19: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/AssertionErrorWithFacts.java:30: error: cannot find symbol
+  private final ImmutableList<Fact> facts;
+                ^
+  symbol:   class ImmutableList
+  location: class AssertionErrorWithFacts
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/AssertionErrorWithFacts.java:36: error: cannot find symbol
+      ImmutableList<String> messages, ImmutableList<Fact> facts, @Nullable Throwable cause) {
+      ^
+  symbol:   class ImmutableList
+  location: class AssertionErrorWithFacts
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/AssertionErrorWithFacts.java:36: error: cannot find symbol
+      ImmutableList<String> messages, ImmutableList<Fact> facts, @Nullable Throwable cause) {
+                                      ^
+  symbol:   class ImmutableList
+  location: class AssertionErrorWithFacts
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/AssertionErrorWithFacts.java:60: error: cannot find symbol
+  public ImmutableList<Fact> facts() {
+         ^
+  symbol:   class ImmutableList
+  location: class AssertionErrorWithFacts
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/ErrorWithFacts.java:26: error: cannot find symbol
+  ImmutableList<Fact> facts();
+  ^
+  symbol:   class ImmutableList
+  location: interface ErrorWithFacts
+hybrids/com.google.truth/truth/1.1.3/Platform.java:267: error: cannot find symbol
+              ImmutableList.class,
+              ^
+  symbol:   class ImmutableList
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:268: error: cannot find symbol
+              ImmutableList.class,
+              ^
+  symbol:   class ImmutableList
+  location: class Platform
+hybrids/com.google.truth/truth/1.1.3/Platform.java:280: error: cannot find symbol
+      throwIfUnchecked(e.getCause());
+      ^
+  symbol:   method throwIfUnchecked(Throwable)
+  location: class Platform
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:46: error: cannot find symbol
+    new StackTraceCleaner(throwable).clean(Sets.<Throwable>newIdentityHashSet());
+                                           ^
+  symbol:   variable Sets
+  location: class StackTraceCleaner
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:193: error: cannot find symbol
+      ImmutableSet.of(Subject.class.getCanonicalName());
+      ^
+  symbol:   variable ImmutableSet
+  location: class StackTraceCleaner
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:196: error: cannot find symbol
+      ImmutableSet.of(StandardSubjectBuilder.class.getCanonicalName());
+      ^
+  symbol:   variable ImmutableSet
+  location: class StackTraceCleaner
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:212: error: cannot find symbol
+      ImmutableSet.of("org.junit.runner.Runner", "org.junit.runners.model.Statement");
+      ^
+  symbol:   variable ImmutableSet
+  location: class StackTraceCleaner
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:292: error: cannot find symbol
+        firstNonNull(
+        ^
+  symbol:   method firstNonNull(ClassLoader,ClassLoader)
+  location: class StackTraceCleaner
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/StackTraceCleaner.java:396: error: cannot find symbol
+      this.prefixes = ImmutableList.copyOf(prefixes);
+                      ^
+  symbol:   variable ImmutableList
+  location: class StackFrameType
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:112: error: cannot find symbol
+    Optional<String> homogeneousTypeName = getHomogeneousTypeName(items);
+    ^
+  symbol:   class Optional
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:127: error: cannot find symbol
+      Optional<String> homogeneousTypeName = getHomogeneousTypeName(items);
+      ^
+  symbol:   class Optional
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:137: error: cannot find symbol
+          /* homogeneousTypeToDisplay= */ Optional.<String>absent());
+                                          ^
+  symbol:   variable Optional
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:144: error: cannot find symbol
+        new Function<Multiset.Entry<Wrapper<E>>, Multiset.Entry<?>>() {
+            ^
+  symbol:   class Function
+  location: class NonHashingMultiset<E>
+  where E is a type-variable:
+    E extends Object declared in class NonHashingMultiset
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:144: error: package Multiset does not exist
+        new Function<Multiset.Entry<Wrapper<E>>, Multiset.Entry<?>>() {
+                             ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:144: error: cannot find symbol
+        new Function<Multiset.Entry<Wrapper<E>>, Multiset.Entry<?>>() {
+                                    ^
+  symbol:   class Wrapper
+  location: class NonHashingMultiset<E>
+  where E is a type-variable:
+    E extends Object declared in class NonHashingMultiset
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:144: error: package Multiset does not exist
+        new Function<Multiset.Entry<Wrapper<E>>, Multiset.Entry<?>>() {
+                                                         ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:146: error: package Multiset does not exist
+          public Multiset.Entry<?> apply(Multiset.Entry<Wrapper<E>> input) {
+                                                 ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:146: error: cannot find symbol
+          public Multiset.Entry<?> apply(Multiset.Entry<Wrapper<E>> input) {
+                                                        ^
+  symbol: class Wrapper
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:146: error: package Multiset does not exist
+          public Multiset.Entry<?> apply(Multiset.Entry<Wrapper<E>> input) {
+                         ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:145: error: method does not override or implement a method from a supertype
+          @Override
+          ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:151: error: cannot find symbol
+    private final Multiset<Equivalence.Wrapper<E>> contents = LinkedHashMultiset.create();
+                                                              ^
+  symbol:   variable LinkedHashMultiset
+  location: class NonHashingMultiset<E>
+  where E is a type-variable:
+    E extends Object declared in class NonHashingMultiset
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:175: error: package Multiset does not exist
+      for (Multiset.Entry<?> entry : entrySet()) {
+                   ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:188: error: cannot find symbol
+        new Equivalence<Object>() {
+            ^
+  symbol:   class Equivalence
+  location: class NonHashingMultiset<E>
+  where E is a type-variable:
+    E extends Object declared in class NonHashingMultiset
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:189: error: method does not override or implement a method from a supertype
+          @Override
+          ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:191: error: cannot find symbol
+            return Objects.equal(a, b);
+                   ^
+  symbol: variable Objects
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:194: error: method does not override or implement a method from a supertype
+          @Override
+          ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:248: error: cannot find symbol
+    Optional<String> homogeneousTypeName = getHomogeneousTypeName(items);
+    ^
+  symbol:   class Optional
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:265: error: cannot find symbol
+    SetMultimap<String, Object> stringValueToItemsToCheck = HashMultimap.create();
+    ^
+  symbol:   class SetMultimap
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:265: error: cannot find symbol
+    SetMultimap<String, Object> stringValueToItemsToCheck = HashMultimap.create();
+                                                            ^
+  symbol:   variable HashMultimap
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:270: error: cannot find symbol
+    List<Object> result = Lists.newArrayList();
+                          ^
+  symbol:   variable Lists
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:273: error: cannot find symbol
+        if (!Objects.equal(itemToCheck, item)) {
+             ^
+  symbol:   variable Objects
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:289: error: cannot find symbol
+    if (isEmpty(items1) || isEmpty(items2)) {
+        ^
+  symbol:   method isEmpty(Iterable<CAP#1>)
+  location: class SubjectUtils
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:289: error: cannot find symbol
+    if (isEmpty(items1) || isEmpty(items2)) {
+                           ^
+  symbol:   method isEmpty(Iterable<CAP#1>)
+  location: class SubjectUtils
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:306: error: cannot find symbol
+      return lenientFormat("Map.Entry<%s, %s>", objectToTypeName(entry.getKey()), valueTypeName);
+             ^
+  symbol:   method lenientFormat(String,String,String)
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:317: error: cannot find symbol
+    Optional<String> homogeneousTypeName = Optional.absent();
+    ^
+  symbol:   class Optional
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:317: error: cannot find symbol
+    Optional<String> homogeneousTypeName = Optional.absent();
+                                           ^
+  symbol:   variable Optional
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:325: error: cannot find symbol
+        return Optional.absent();
+               ^
+  symbol:   variable Optional
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:328: error: cannot find symbol
+        homogeneousTypeName = Optional.of(objectToTypeName(item));
+                              ^
+  symbol:   variable Optional
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:331: error: cannot find symbol
+        return Optional.absent();
+               ^
+  symbol:   variable Optional
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:338: error: cannot find symbol
+    List<String> itemsWithTypeInfo = Lists.newArrayList();
+                                     ^
+  symbol:   variable Lists
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:340: error: cannot find symbol
+      itemsWithTypeInfo.add(lenientFormat("%s (%s)", item, objectToTypeName(item)));
+                            ^
+  symbol:   method lenientFormat(String,Object,String)
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:351: error: cannot find symbol
+      return Lists.newArrayList(iterable);
+             ^
+  symbol:   variable Lists
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:359: error: cannot find symbol
+      return Lists.newArrayList(iterable);
+             ^
+  symbol:   variable Lists
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:370: error: cannot find symbol
+    if (Iterables.contains(items, "")) {
+        ^
+  symbol:   variable Iterables
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:371: error: cannot find symbol
+      List<T> annotatedItems = Lists.newArrayList();
+                               ^
+  symbol:   variable Lists
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:373: error: cannot find symbol
+        if (Objects.equal(item, "")) {
+            ^
+  symbol:   variable Objects
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:391: error: cannot find symbol
+    return ImmutableList.copyOf(Iterables.concat(inputs));
+           ^
+  symbol:   variable ImmutableList
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:391: error: cannot find symbol
+    return ImmutableList.copyOf(Iterables.concat(inputs));
+                                ^
+  symbol:   variable Iterables
+  location: class SubjectUtils
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:395: error: package ImmutableList does not exist
+    return new ImmutableList.Builder<E>().add(array).add(object).build();
+                            ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:399: error: package ImmutableList does not exist
+    return new ImmutableList.Builder<E>().addAll(list).add(object).build();
+                            ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/SubjectUtils.java:403: error: package ImmutableList does not exist
+    return new ImmutableList.Builder<E>().add(first).add(array).add(last).build();
+                            ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/ComparisonFailures.java:67: error: cannot find symbol
+    ImmutableList<Fact> result;
+    ^
+  symbol:   class ImmutableList
+  location: class ComparisonFailures
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors

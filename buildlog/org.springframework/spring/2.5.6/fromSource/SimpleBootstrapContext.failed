@@ -1,0 +1,57 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:21: error: package javax.resource.spi does not exist
+import javax.resource.spi.BootstrapContext;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:22: error: package javax.resource.spi does not exist
+import javax.resource.spi.UnavailableException;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:23: error: package javax.resource.spi does not exist
+import javax.resource.spi.XATerminator;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:24: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkManager;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:38: error: cannot find symbol
+public class SimpleBootstrapContext implements BootstrapContext {
+                                               ^
+  symbol: class BootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:40: error: cannot find symbol
+	private WorkManager workManager;
+	        ^
+  symbol:   class WorkManager
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:42: error: cannot find symbol
+	private XATerminator xaTerminator;
+	        ^
+  symbol:   class XATerminator
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:50: error: cannot find symbol
+	public SimpleBootstrapContext(WorkManager workManager) {
+	                              ^
+  symbol:   class WorkManager
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:59: error: cannot find symbol
+	public SimpleBootstrapContext(WorkManager workManager, XATerminator xaTerminator) {
+	                              ^
+  symbol:   class WorkManager
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:59: error: cannot find symbol
+	public SimpleBootstrapContext(WorkManager workManager, XATerminator xaTerminator) {
+	                                                       ^
+  symbol:   class XATerminator
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:65: error: cannot find symbol
+	public WorkManager getWorkManager() {
+	       ^
+  symbol:   class WorkManager
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:72: error: cannot find symbol
+	public XATerminator getXATerminator() {
+	       ^
+  symbol:   class XATerminator
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:76: error: cannot find symbol
+	public Timer createTimer() throws UnavailableException {
+	                                  ^
+  symbol:   class UnavailableException
+  location: class SimpleBootstrapContext
+13 errors

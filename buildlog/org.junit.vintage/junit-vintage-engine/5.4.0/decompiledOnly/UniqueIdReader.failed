@@ -1,0 +1,38 @@
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/support/UniqueIdReader.java:7: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.LoggerFactory;
+                                         ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/support/UniqueIdReader.java:9: error: package org.junit.platform.commons.function does not exist
+import org.junit.platform.commons.function.Try;
+                                          ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/support/UniqueIdReader.java:12: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/support/UniqueIdReader.java:13: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.Logger;
+                                         ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/support/UniqueIdReader.java:22: error: cannot find symbol
+    private static final Logger logger;
+                         ^
+  symbol:   class Logger
+  location: class UniqueIdReader
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/support/UniqueIdReader.java:35: error: cannot find symbol
+        final Try tryToReadFieldValue = ReflectionUtils.tryToReadFieldValue((Class)Description.class, this.fieldName, (Object)description);
+              ^
+  symbol:   class Try
+  location: class UniqueIdReader
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/support/UniqueIdReader.java:35: error: cannot find symbol
+        final Try tryToReadFieldValue = ReflectionUtils.tryToReadFieldValue((Class)Description.class, this.fieldName, (Object)description);
+                                        ^
+  symbol:   variable ReflectionUtils
+  location: class UniqueIdReader
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/support/UniqueIdReader.java:40: error: incompatible types: Object cannot be converted to Serializable
+        return optional.orElseGet(description::getDisplayName);
+                                 ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/support/UniqueIdReader.java:44: error: cannot find symbol
+        logger = LoggerFactory.getLogger((Class)UniqueIdReader.class);
+                 ^
+  symbol:   variable LoggerFactory
+  location: class UniqueIdReader
+Note: sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/support/UniqueIdReader.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

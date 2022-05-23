@@ -1,0 +1,72 @@
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:7: warning: Signal is internal proprietary API and may be removed in a future release
+import sun.misc.Signal;
+               ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:8: warning: SignalHandler is internal proprietary API and may be removed in a future release
+import sun.misc.SignalHandler;
+               ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:62: error: incompatible types: Object cannot be converted to Thread
+                final Thread exitThread = this.m_exitThreadMap.get(runnable);
+                                                                  ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:105: error: incompatible types: Object cannot be converted to INTSignalHandler
+                final INTSignalHandler handler = this.m_signalHandlerMap.get(runnable);
+                                                                            ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:126: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    private static final class INTSignalHandler implements SignalHandler
+                                                           ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:129: warning: SignalHandler is internal proprietary API and may be removed in a future release
+        private SignalHandler m_previous;
+                ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:131: warning: Signal is internal proprietary API and may be removed in a future release
+        public synchronized void handle(final Signal signal) {
+                                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:139: warning: SignalHandler is internal proprietary API and may be removed in a future release
+            if (this.m_previous != null && this.m_previous != SignalHandler.SIG_DFL && this.m_previous != SignalHandler.SIG_IGN) {
+                                                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:139: warning: SignalHandler is internal proprietary API and may be removed in a future release
+            if (this.m_previous != null && this.m_previous != SignalHandler.SIG_DFL && this.m_previous != SignalHandler.SIG_IGN) {
+                                                                                                          ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:155: warning: Signal is internal proprietary API and may be removed in a future release
+            this.m_previous = Signal.handle(new Signal("INT"), this);
+                                                ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/exit/ExitHookManager.java:155: warning: Signal is internal proprietary API and may be removed in a future release
+            this.m_previous = Signal.handle(new Signal("INT"), this);
+                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/IJREVersion.java:25: error: cannot find symbol
+            _JRE_1_2_PLUS = ((((IJREVersion$1.class$java$lang$SecurityManager == null) ? (IJREVersion$1.class$java$lang$SecurityManager = IJREVersion$1.class$("java.lang.SecurityManager")) : IJREVersion$1.class$java$lang$SecurityManager).getModifiers() & 0x400) == 0x0);
+                                ^
+  symbol:   variable IJREVersion$1
+  location: class _JREVersion
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/IJREVersion.java:25: error: cannot find symbol
+            _JRE_1_2_PLUS = ((((IJREVersion$1.class$java$lang$SecurityManager == null) ? (IJREVersion$1.class$java$lang$SecurityManager = IJREVersion$1.class$("java.lang.SecurityManager")) : IJREVersion$1.class$java$lang$SecurityManager).getModifiers() & 0x400) == 0x0);
+                                                                                          ^
+  symbol:   variable IJREVersion$1
+  location: class _JREVersion
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/IJREVersion.java:25: error: cannot find symbol
+            _JRE_1_2_PLUS = ((((IJREVersion$1.class$java$lang$SecurityManager == null) ? (IJREVersion$1.class$java$lang$SecurityManager = IJREVersion$1.class$("java.lang.SecurityManager")) : IJREVersion$1.class$java$lang$SecurityManager).getModifiers() & 0x400) == 0x0);
+                                                                                                                                          ^
+  symbol:   variable IJREVersion$1
+  location: class _JREVersion
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/IJREVersion.java:25: error: cannot find symbol
+            _JRE_1_2_PLUS = ((((IJREVersion$1.class$java$lang$SecurityManager == null) ? (IJREVersion$1.class$java$lang$SecurityManager = IJREVersion$1.class$("java.lang.SecurityManager")) : IJREVersion$1.class$java$lang$SecurityManager).getModifiers() & 0x400) == 0x0);
+                                                                                                                                                                                               ^
+  symbol:   variable IJREVersion$1
+  location: class _JREVersion
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/Property.java:42: error: incompatible types: Object cannot be converted to String
+                final String n = overrideNames.nextElement();
+                                                          ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/XProperties.java:30: error: incompatible types: Object cannot be converted to String
+        for (final String n : _propertyNames) {
+                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/XProperties.java:42: error: incompatible types: Object cannot be converted to String
+        for (final String n : _propertyNames) {
+                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/Property.java:272: error: incompatible types: Object cannot be converted to String
+                        final String n = e.nextElement();
+                                                      ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/Property.java:311: error: incompatible types: Object cannot be converted to String
+                final String redirect = this.m_systemRedirects.get(key);
+                                                                  ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors
+9 warnings

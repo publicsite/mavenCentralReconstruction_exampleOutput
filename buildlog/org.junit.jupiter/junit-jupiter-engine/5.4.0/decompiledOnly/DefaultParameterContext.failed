@@ -1,0 +1,58 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:7: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ToStringBuilder;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:9: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:13: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.AnnotationUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:15: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:27: error: cannot find symbol
+        Preconditions.condition(index >= 0, "index must be greater than or equal to zero");
+        ^
+  symbol:   variable Preconditions
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:28: error: cannot find symbol
+        this.parameter = (Parameter)Preconditions.notNull((Object)parameter, "parameter must not be null");
+                                    ^
+  symbol:   variable Preconditions
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:30: error: cannot find symbol
+        this.target = (Optional<Object>)Preconditions.notNull((Object)target, "target must not be null");
+                                        ^
+  symbol:   variable Preconditions
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:46: error: cannot find symbol
+        return AnnotationUtils.isAnnotated(this.getEffectiveAnnotatedParameter(), (Class)annotationType);
+               ^
+  symbol:   variable AnnotationUtils
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:50: error: cannot find symbol
+        return (Optional<A>)AnnotationUtils.findAnnotation(this.getEffectiveAnnotatedParameter(), (Class)annotationType);
+                            ^
+  symbol:   variable AnnotationUtils
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:54: error: cannot find symbol
+        return (List<A>)AnnotationUtils.findRepeatableAnnotations(this.getEffectiveAnnotatedParameter(), (Class)annotationType);
+                        ^
+  symbol:   variable AnnotationUtils
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:59: error: cannot find symbol
+        if (executable instanceof Constructor && ReflectionUtils.isInnerClass((Class)executable.getDeclaringClass()) && executable.getParameterAnnotations().length == executable.getParameterCount() - 1) {
+                                                 ^
+  symbol:   variable ReflectionUtils
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:60: error: cannot find symbol
+            Preconditions.condition(this.index != 0, "A ParameterContext should never be created for parameter index 0 in an inner class constructor");
+            ^
+  symbol:   variable Preconditions
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/execution/DefaultParameterContext.java:68: error: cannot find symbol
+        return new ToStringBuilder((Object)this).append("parameter", (Object)this.parameter).append("index", (Object)this.index).append("target", (Object)this.target).toString();
+                   ^
+  symbol:   class ToStringBuilder
+  location: class DefaultParameterContext
+13 errors

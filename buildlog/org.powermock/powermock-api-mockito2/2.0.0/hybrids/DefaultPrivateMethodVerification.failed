@@ -1,0 +1,24 @@
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/DefaultPrivateMethodVerification.java:21: error: package org.powermock.reflect does not exist
+import org.powermock.reflect.Whitebox;
+                            ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/DefaultPrivateMethodVerification.java:22: error: package org.powermock.tests.utils.impl does not exist
+import org.powermock.tests.utils.impl.ArrayMergerImpl;
+                                     ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/DefaultPrivateMethodVerification.java:36: error: cannot find symbol
+		Whitebox.invokeMethod(objectToVerify, arguments);
+		^
+  symbol:   variable Whitebox
+  location: class DefaultPrivateMethodVerification
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/DefaultPrivateMethodVerification.java:42: error: cannot find symbol
+		Whitebox.invokeMethod(objectToVerify, methodToExecute, (Object[]) arguments);
+		^
+  symbol:   variable Whitebox
+  location: class DefaultPrivateMethodVerification
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/DefaultPrivateMethodVerification.java:66: error: cannot find symbol
+                Object[] arguments = new ArrayMergerImpl().mergeArrays(Object.class, new Object[]{firstArgument}, additionalArguments);
+                                         ^
+  symbol:   class ArrayMergerImpl
+  location: class DefaultPrivateMethodVerification.VerificationArguments
+Note: hybrids/org.powermock/powermock-api-mockito2/2.0.0/DefaultPrivateMethodVerification.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+5 errors

@@ -1,0 +1,16 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContext.java:22: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContext.java:23: error: package org.springframework.core does not exist
+import org.springframework.core.AttributeAccessor;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContext.java:33: error: cannot find symbol
+public interface TestContext extends AttributeAccessor, Serializable {
+                                     ^
+  symbol: class AttributeAccessor
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContext.java:46: error: cannot find symbol
+	ApplicationContext getApplicationContext();
+	^
+  symbol:   class ApplicationContext
+  location: interface TestContext
+4 errors

@@ -1,0 +1,178 @@
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:7: error: package org.powermock.core.classloader.annotations does not exist
+import org.powermock.core.classloader.annotations.MockPolicy;
+                                                 ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:8: error: package org.powermock.core.classloader.annotations does not exist
+import org.powermock.core.classloader.annotations.PrepareEverythingForTest;
+                                                 ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:9: error: package org.powermock.tests.utils.impl does not exist
+import org.powermock.tests.utils.impl.PrepareForTestExtractorImpl;
+                                     ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:11: error: package org.powermock.tests.utils.impl does not exist
+import org.powermock.tests.utils.impl.MockPolicyInitializerImpl;
+                                     ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:27: error: package org.powermock.tests.utils.impl does not exist
+import org.powermock.tests.utils.impl.StaticConstructorSuppressExtractorImpl;
+                                     ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:34: error: package org.powermock.reflect does not exist
+import org.powermock.reflect.Whitebox;
+                            ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:36: error: package org.powermock.tests.utils.impl does not exist
+import org.powermock.tests.utils.impl.PowerMockTestNotifierImpl;
+                                     ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:37: error: package org.powermock.core.spi does not exist
+import org.powermock.core.spi.PowerMockTestListener;
+                             ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:38: error: package org.powermock.tests.utils does not exist
+import org.powermock.tests.utils.PowerMockTestNotifier;
+                                ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:51: error: cannot find symbol
+    private final PowerMockTestNotifier powerMockTestNotifier;
+                  ^
+  symbol:   class PowerMockTestNotifier
+  location: class PowerMockJUnit44RunnerDelegateImpl
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:53: error: cannot find symbol
+    public PowerMockJUnit44RunnerDelegateImpl(final Class<?> klass, final String[] methodsToRun, final PowerMockTestListener[] listeners) throws InitializationError {
+                                                                                                       ^
+  symbol:   class PowerMockTestListener
+  location: class PowerMockJUnit44RunnerDelegateImpl
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/testcaseworkaround/PowerMockJUnit4MethodValidator.java:25: error: package org.powermock.reflect does not exist
+import org.powermock.reflect.Whitebox;
+                            ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:54: error: cannot find symbol
+        this.powerMockTestNotifier = (PowerMockTestNotifier)new PowerMockTestNotifierImpl((listeners == null) ? new PowerMockTestListener[0] : listeners);
+                                      ^
+  symbol:   class PowerMockTestNotifier
+  location: class PowerMockJUnit44RunnerDelegateImpl
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:54: error: cannot find symbol
+        this.powerMockTestNotifier = (PowerMockTestNotifier)new PowerMockTestNotifierImpl((listeners == null) ? new PowerMockTestListener[0] : listeners);
+                                                                ^
+  symbol:   class PowerMockTestNotifierImpl
+  location: class PowerMockJUnit44RunnerDelegateImpl
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:54: error: cannot find symbol
+        this.powerMockTestNotifier = (PowerMockTestNotifier)new PowerMockTestNotifierImpl((listeners == null) ? new PowerMockTestListener[0] : listeners);
+                                                                                                                    ^
+  symbol:   class PowerMockTestListener
+  location: class PowerMockJUnit44RunnerDelegateImpl
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:76: error: cannot find symbol
+                return (List<Method>)Whitebox.invokeMethod((Object)this.testClass, "getTestMethods", new Object[0]);
+                                     ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit44RunnerDelegateImpl
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:113: error: cannot find symbol
+        final StaticConstructorSuppressExtractorImpl staticConstructorSuppressExtractorImpl = new StaticConstructorSuppressExtractorImpl();
+              ^
+  symbol:   class StaticConstructorSuppressExtractorImpl
+  location: class PowerMockJUnit44RunnerDelegateImpl
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:113: error: cannot find symbol
+        final StaticConstructorSuppressExtractorImpl staticConstructorSuppressExtractorImpl = new StaticConstructorSuppressExtractorImpl();
+                                                                                                  ^
+  symbol:   class StaticConstructorSuppressExtractorImpl
+  location: class PowerMockJUnit44RunnerDelegateImpl
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:262: error: cannot find symbol
+            this.executeTest((Method)Whitebox.getInternalState((Object)this.testMethod, (Class)Method.class), this.testInstance, test);
+                                     ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:270: error: cannot find symbol
+            new MockPolicyInitializerImpl(PowerMockJUnit44RunnerDelegateImpl.this.testClass.getJavaClass()).initialize(classloader);
+                ^
+  symbol:   class MockPolicyInitializerImpl
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:284: error: cannot find symbol
+                        final Method setUp = Whitebox.getMethod((Class)this.testInstance.getClass(), "setUp", new Class[0]);
+                                             ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:286: error: cannot find symbol
+                            Whitebox.invokeMethod(this.testInstance, "setUp", new Object[0]);
+                            ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:290: error: cannot find symbol
+                    if (Whitebox.invokeMethod((Object)this.testMethod, "expectsException", new Object[0])) {
+                        ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:303: error: cannot find symbol
+                            Whitebox.invokeMethod(this.testInstance, "tearDown", new Object[0]);
+                            ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:328: error: cannot find symbol
+                if (!(boolean)Whitebox.invokeMethod((Object)testMethod, "expectsException", new Object[0])) {
+                              ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:331: error: cannot find symbol
+                    if (actualFailure instanceof NullPointerException && !testClassAsJavaClass.getName().equals(className) && !className.startsWith("java.lang") && !className.startsWith("org.powermock") && !className.startsWith("org.junit") && !new PrepareForTestExtractorImpl().isPrepared((AnnotatedElement)testClassAsJavaClass, className) && !testClassAsJavaClass.isAnnotationPresent((Class<? extends Annotation>)PrepareEverythingForTest.class) && !new MockPolicyInitializerImpl((Class[])(testClassAsJavaClass.isAnnotationPresent((Class<? extends Annotation>)MockPolicy.class) ? testClassAsJavaClass.getAnnotation(MockPolicy.class).value() : null)).isPrepared(className)) {
+                                                                                                                                                                                                                                                         ^
+  symbol:   class PrepareForTestExtractorImpl
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:331: error: cannot find symbol
+                    if (actualFailure instanceof NullPointerException && !testClassAsJavaClass.getName().equals(className) && !className.startsWith("java.lang") && !className.startsWith("org.powermock") && !className.startsWith("org.junit") && !new PrepareForTestExtractorImpl().isPrepared((AnnotatedElement)testClassAsJavaClass, className) && !testClassAsJavaClass.isAnnotationPresent((Class<? extends Annotation>)PrepareEverythingForTest.class) && !new MockPolicyInitializerImpl((Class[])(testClassAsJavaClass.isAnnotationPresent((Class<? extends Annotation>)MockPolicy.class) ? testClassAsJavaClass.getAnnotation(MockPolicy.class).value() : null)).isPrepared(className)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+  symbol:   class PrepareEverythingForTest
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:331: error: cannot find symbol
+                    if (actualFailure instanceof NullPointerException && !testClassAsJavaClass.getName().equals(className) && !className.startsWith("java.lang") && !className.startsWith("org.powermock") && !className.startsWith("org.junit") && !new PrepareForTestExtractorImpl().isPrepared((AnnotatedElement)testClassAsJavaClass, className) && !testClassAsJavaClass.isAnnotationPresent((Class<? extends Annotation>)PrepareEverythingForTest.class) && !new MockPolicyInitializerImpl((Class[])(testClassAsJavaClass.isAnnotationPresent((Class<? extends Annotation>)MockPolicy.class) ? testClassAsJavaClass.getAnnotation(MockPolicy.class).value() : null)).isPrepared(className)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+  symbol:   class MockPolicyInitializerImpl
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:331: error: cannot find symbol
+                    if (actualFailure instanceof NullPointerException && !testClassAsJavaClass.getName().equals(className) && !className.startsWith("java.lang") && !className.startsWith("org.powermock") && !className.startsWith("org.junit") && !new PrepareForTestExtractorImpl().isPrepared((AnnotatedElement)testClassAsJavaClass, className) && !testClassAsJavaClass.isAnnotationPresent((Class<? extends Annotation>)PrepareEverythingForTest.class) && !new MockPolicyInitializerImpl((Class[])(testClassAsJavaClass.isAnnotationPresent((Class<? extends Annotation>)MockPolicy.class) ? testClassAsJavaClass.getAnnotation(MockPolicy.class).value() : null)).isPrepared(className)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^
+  symbol:   class MockPolicy
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:331: error: cannot find symbol
+                    if (actualFailure instanceof NullPointerException && !testClassAsJavaClass.getName().equals(className) && !className.startsWith("java.lang") && !className.startsWith("org.powermock") && !className.startsWith("org.junit") && !new PrepareForTestExtractorImpl().isPrepared((AnnotatedElement)testClassAsJavaClass, className) && !testClassAsJavaClass.isAnnotationPresent((Class<? extends Annotation>)PrepareEverythingForTest.class) && !new MockPolicyInitializerImpl((Class[])(testClassAsJavaClass.isAnnotationPresent((Class<? extends Annotation>)MockPolicy.class) ? testClassAsJavaClass.getAnnotation(MockPolicy.class).value() : null)).isPrepared(className)) {
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+  symbol:   class MockPolicy
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:332: error: cannot find symbol
+                        Whitebox.setInternalState((Object)actualFailure, "detailMessage", (Object)("Perhaps the class " + className + " must be prepared for test?"), (Class)Throwable.class);
+                        ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:336: error: cannot find symbol
+                else if (Whitebox.invokeMethod((Object)testMethod, "isUnexpected", new Object[] { actualFailure })) {
+                         ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java:347: error: cannot find symbol
+            return ((Class)Whitebox.invokeMethod((Object)fTestMethod, "getExpectedException", new Object[0])).getName();
+                           ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit44RunnerDelegateImpl.PowerMockJUnit44MethodRunner
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/testcaseworkaround/PowerMockJUnit4MethodValidator.java:71: error: cannot find symbol
+        TestClass testClass = Whitebox.getInternalState(this, TEST_CLASS_FIELD, MethodValidator.class);
+                              ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit4MethodValidator
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/testcaseworkaround/PowerMockJUnit4MethodValidator.java:72: error: cannot find symbol
+        Class<?> classUnderTest = Whitebox.getInternalState(testClass, CLASS_UNDER_TEST_FIELD);
+                                  ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit4MethodValidator
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/testcaseworkaround/PowerMockJUnit4MethodValidator.java:73: error: cannot find symbol
+        List<Throwable> fErrors = Whitebox.getInternalState(this, ERRORS_FIELD, MethodValidator.class);
+                                  ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit4MethodValidator
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/testcaseworkaround/PowerMockJUnit4MethodValidator.java:97: error: cannot find symbol
+        TestClass testClass = Whitebox.getInternalState(this, TEST_CLASS_FIELD, MethodValidator.class);
+                              ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit4MethodValidator
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/testcaseworkaround/PowerMockJUnit4MethodValidator.java:98: error: cannot find symbol
+        Class<?> classUnderTest = Whitebox.getInternalState(testClass, CLASS_UNDER_TEST_FIELD);
+                                  ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit4MethodValidator
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/testcaseworkaround/PowerMockJUnit4MethodValidator.java:106: error: cannot find symbol
+        List<Throwable> fErrors = Whitebox.getInternalState(this, ERRORS_FIELD, MethodValidator.class);
+                                  ^
+  symbol:   variable Whitebox
+  location: class PowerMockJUnit4MethodValidator
+Note: sources/structure/org.powermock/powermock-module-junit4/2.0.0/Decompiled/org/powermock/modules/junit4/internal/impl/PowerMockJUnit44RunnerDelegateImpl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+39 errors

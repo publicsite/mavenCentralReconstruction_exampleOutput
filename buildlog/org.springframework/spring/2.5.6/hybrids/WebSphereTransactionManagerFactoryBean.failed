@@ -1,0 +1,16 @@
+hybrids/org.springframework/spring/2.5.6/WebSphereTransactionManagerFactoryBean.java:22: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+hybrids/org.springframework/spring/2.5.6/WebSphereTransactionManagerFactoryBean.java:76: error: cannot find symbol
+	private final TransactionManager transactionManager;
+	              ^
+  symbol:   class TransactionManager
+  location: class WebSphereTransactionManagerFactoryBean
+hybrids/org.springframework/spring/2.5.6/WebSphereTransactionManagerFactoryBean.java:88: error: cannot find symbol
+			this.transactionManager = (TransactionManager) method.invoke(null, (Object[]) null);
+			                           ^
+  symbol:   class TransactionManager
+  location: class WebSphereTransactionManagerFactoryBean
+Note: hybrids/org.springframework/spring/2.5.6/WebSphereTransactionManagerFactoryBean.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors

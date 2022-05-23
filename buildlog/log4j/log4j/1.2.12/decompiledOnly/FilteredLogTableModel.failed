@@ -1,0 +1,32 @@
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/lf5/viewer/FilteredLogTableModel.java:50: error: incompatible types: Object cannot be converted to LogRecord
+        for (final LogRecord current : this._allRecords) {
+                                           ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/lf5/viewer/FilteredLogTableModel.java:115: error: incompatible types: Object cannot be converted to LogRecord
+            return records.get(row);
+                              ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/lf5/viewer/FilteredLogTableModel.java:117: error: incompatible types: Object cannot be converted to LogRecord
+        return records.get(size - 1);
+                          ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/lf5/LogLevel.java:112: error: no suitable method found for register(Object)
+                register(it.next());
+                ^
+    method LogLevel.register(List) is not applicable
+      (argument mismatch; Object cannot be converted to List)
+    method LogLevel.register(LogLevel) is not applicable
+      (argument mismatch; Object cannot be converted to LogLevel)
+    method LogLevel.register(LogLevel[]) is not applicable
+      (argument mismatch; Object cannot be converted to LogLevel[])
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/lf5/LogLevel.java:122: error: incompatible types: Object cannot be converted to LogLevel
+            return LogLevel._registeredLogLevelMap.put(logLevel.getLabel(), logLevel);
+                                                      ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/lf5/LogLevel.java:158: error: incompatible types: Object cannot be converted to LogLevel
+            logLevel = LogLevel._logLevelMap.get(level);
+                                                ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/lf5/LogLevel.java:161: error: incompatible types: Object cannot be converted to LogLevel
+            logLevel = LogLevel._registeredLogLevelMap.get(level);
+                                                          ^
+Note: sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/lf5/viewer/FilteredLogTableModel.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+7 errors

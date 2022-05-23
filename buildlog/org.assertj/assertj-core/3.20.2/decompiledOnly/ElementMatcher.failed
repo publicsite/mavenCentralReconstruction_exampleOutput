@@ -1,0 +1,27 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:12: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:35: error: package HashCodeAndEqualsPlugin does not exist
+        @HashCodeAndEqualsPlugin.Enhance
+                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:92: error: package HashCodeAndEqualsPlugin does not exist
+        @HashCodeAndEqualsPlugin.Enhance
+                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:58: error: incompatible types: Object cannot be converted to CAP#1
+                    if (!matcher.matches((Object)target)) {
+                                         ^
+  where W is a type-variable:
+    W extends Object declared in class Conjunction
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: W from capture of ? super W
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:115: error: incompatible types: Object cannot be converted to CAP#1
+                    if (matcher.matches((Object)target)) {
+                                        ^
+  where W is a type-variable:
+    W extends Object declared in class Disjunction
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: W from capture of ? super W
+Note: sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+5 errors

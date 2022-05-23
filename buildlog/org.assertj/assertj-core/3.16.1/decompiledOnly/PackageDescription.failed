@@ -1,0 +1,37 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/description/type/PackageDescription.java:7: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationList;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/description/type/PackageDescription.java:8: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationSource;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/description/type/PackageDescription.java:11: error: cannot find symbol
+public interface PackageDescription extends NamedElement.WithRuntimeName, AnnotationSource
+                                                                          ^
+  symbol: class AnnotationSource
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/description/type/PackageDescription.java:17: error: cannot find symbol
+    boolean contains(final TypeDescription p0);
+                           ^
+  symbol:   class TypeDescription
+  location: interface PackageDescription
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/description/type/PackageDescription.java:29: error: cannot find symbol
+        public boolean contains(final TypeDescription typeDescription) {
+                                      ^
+  symbol:   class TypeDescription
+  location: class AbstractBase
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/description/type/PackageDescription.java:57: error: cannot find symbol
+        public AnnotationList getDeclaredAnnotations() {
+               ^
+  symbol:   class AnnotationList
+  location: class Simple
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/description/type/PackageDescription.java:74: error: cannot find symbol
+        public AnnotationList getDeclaredAnnotations() {
+               ^
+  symbol:   class AnnotationList
+  location: class ForLoadedPackage
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/description/type/PackageDescription.java:58: error: package AnnotationList does not exist
+            return new AnnotationList.Empty();
+                                     ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/description/type/PackageDescription.java:75: error: package AnnotationList does not exist
+            return new AnnotationList.ForLoadedAnnotations(this.aPackage.getDeclaredAnnotations());
+                                     ^
+9 errors

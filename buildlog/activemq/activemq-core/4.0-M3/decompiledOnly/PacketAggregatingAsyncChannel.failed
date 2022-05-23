@@ -1,0 +1,65 @@
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:8: error: package org.activeio does not exist
+import org.activeio.PacketData;
+                   ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:9: error: package org.activeio.packet does not exist
+import org.activeio.packet.AppendedPacket;
+                          ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:10: error: package org.activeio.packet does not exist
+import org.activeio.packet.EOSPacket;
+                          ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:11: error: package org.activeio does not exist
+import org.activeio.AsyncChannel;
+                   ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:12: error: package org.activeio does not exist
+import org.activeio.Packet;
+                   ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:13: error: package org.activeio does not exist
+import org.activeio.FilterAsyncChannel;
+                   ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:15: error: cannot find symbol
+public final class PacketAggregatingAsyncChannel extends FilterAsyncChannel
+                                                         ^
+  symbol: class FilterAsyncChannel
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:18: error: cannot find symbol
+    Packet incompleteUpPacket;
+    ^
+  symbol:   class Packet
+  location: class PacketAggregatingAsyncChannel
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:22: error: cannot find symbol
+    public PacketAggregatingAsyncChannel(final AsyncChannel next) {
+                                               ^
+  symbol:   class AsyncChannel
+  location: class PacketAggregatingAsyncChannel
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:26: error: cannot find symbol
+    public void onPacket(Packet packet) {
+                         ^
+  symbol:   class Packet
+  location: class PacketAggregatingAsyncChannel
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:28: error: cannot find symbol
+            if (packet == EOSPacket.EOS_PACKET) {
+                          ^
+  symbol:   variable EOSPacket
+  location: class PacketAggregatingAsyncChannel
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:29: error: cannot find symbol
+                this.channelListener.onPacket(packet);
+                    ^
+  symbol: variable channelListener
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:33: error: cannot find symbol
+                packet = AppendedPacket.join(this.incompleteUpPacket, packet);
+                         ^
+  symbol:   variable AppendedPacket
+  location: class PacketAggregatingAsyncChannel
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:41: error: cannot find symbol
+                        this.upPacketLength = PacketData.readIntBig(packet);
+                                              ^
+  symbol:   variable PacketData
+  location: class PacketAggregatingAsyncChannel
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:57: error: cannot find symbol
+                this.channelListener.onPacket(packet.slice());
+                    ^
+  symbol: variable channelListener
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/activeio/PacketAggregatingAsyncChannel.java:68: error: cannot find symbol
+            this.channelListener.onPacketError(e);
+                ^
+  symbol: variable channelListener
+16 errors

@@ -1,0 +1,27 @@
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationControlAssertionError.java:18: error: package org.powermock.core.spi.support does not exist
+import org.powermock.core.spi.support.InvocationSubstitute;
+                                     ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationControlAssertionError.java:19: error: package org.powermock.reflect does not exist
+import org.powermock.reflect.Whitebox;
+                            ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationControlAssertionError.java:66: error: cannot find symbol
+        Whitebox.setInternalState(errorToUpdate, "detailMessage", builder.toString());
+        ^
+  symbol:   variable Whitebox
+  location: class InvocationControlAssertionError
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationControlAssertionError.java:76: error: cannot find symbol
+        Whitebox.setInternalState(errorToUpdate, "detailMessage", "\n" + changeMessageContent(errorToUpdate.getMessage()));
+        ^
+  symbol:   variable Whitebox
+  location: class InvocationControlAssertionError
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationControlAssertionError.java:86: error: cannot find symbol
+        final String newSubsitutionClassName = InvocationSubstitute.class.getSimpleName();
+                                               ^
+  symbol:   class InvocationSubstitute
+  location: class InvocationControlAssertionError
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationControlAssertionError.java:90: error: cannot find symbol
+        final String newSubsitutionMethodName = InvocationSubstitute.class.getDeclaredMethods()[0].getName();
+                                                ^
+  symbol:   class InvocationSubstitute
+  location: class InvocationControlAssertionError
+6 errors

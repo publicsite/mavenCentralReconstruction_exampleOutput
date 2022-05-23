@@ -1,0 +1,83 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:8: error: cannot find symbol
+import groovy.lang.GroovyClassLoader;
+                  ^
+  symbol:   class GroovyClassLoader
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:11: error: package org.codehaus.groovy.tools.javac does not exist
+import org.codehaus.groovy.tools.javac.JavaStubCompilationUnit;
+                                      ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:13: error: cannot find symbol
+public class GenerateStubsTask extends CompileTaskSupport
+                                       ^
+  symbol: class CompileTaskSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:15: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:17: error: cannot find symbol
+        final GroovyClassLoader gcl = this.createClassLoader();
+              ^
+  symbol:   class GroovyClassLoader
+  location: class GenerateStubsTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:17: error: cannot find symbol
+        final GroovyClassLoader gcl = this.createClassLoader();
+                                          ^
+  symbol: method createClassLoader()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:18: error: cannot find symbol
+        final JavaStubCompilationUnit cu = new JavaStubCompilationUnit(this.config, gcl, this.destdir);
+              ^
+  symbol:   class JavaStubCompilationUnit
+  location: class GenerateStubsTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:18: error: cannot find symbol
+        final JavaStubCompilationUnit cu = new JavaStubCompilationUnit(this.config, gcl, this.destdir);
+                                               ^
+  symbol:   class JavaStubCompilationUnit
+  location: class GenerateStubsTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:18: error: cannot find symbol
+        final JavaStubCompilationUnit cu = new JavaStubCompilationUnit(this.config, gcl, this.destdir);
+                                                                           ^
+  symbol: variable config
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:18: error: cannot find symbol
+        final JavaStubCompilationUnit cu = new JavaStubCompilationUnit(this.config, gcl, this.destdir);
+                                                                                             ^
+  symbol: variable destdir
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:20: error: cannot find symbol
+        final String[] list = this.src.list();
+                                  ^
+  symbol: variable src
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:22: error: cannot find symbol
+            final File basedir = this.getProject().resolveFile(list[i]);
+                                     ^
+  symbol: method getProject()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:24: error: cannot find symbol
+                throw new BuildException("Source directory does not exist: " + basedir, this.getLocation());
+                                                                                            ^
+  symbol: method getLocation()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:26: error: cannot find symbol
+            final DirectoryScanner scanner = this.getDirectoryScanner(basedir);
+                                                 ^
+  symbol: method getDirectoryScanner(File)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:28: error: cannot find symbol
+            this.log.debug("Including files from: " + basedir);
+                ^
+  symbol: variable log
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:30: error: cannot find symbol
+                this.log.debug("    " + includes[j]);
+                    ^
+  symbol: variable log
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:39: error: cannot find symbol
+            this.log.info("Generating " + count + " Java stub" + ((count > 1) ? "s" : "") + " to " + this.destdir);
+                                                                                                         ^
+  symbol: variable destdir
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:39: error: cannot find symbol
+            this.log.info("Generating " + count + " Java stub" + ((count > 1) ? "s" : "") + " to " + this.destdir);
+                ^
+  symbol: variable log
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:41: error: cannot find symbol
+            this.log.info("Generated " + cu.getStubCount() + " Java stub(s)");
+                ^
+  symbol: variable log
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GenerateStubsTask.java:44: error: cannot find symbol
+            this.log.info("No sources found for stub generation");
+                ^
+  symbol: variable log
+20 errors

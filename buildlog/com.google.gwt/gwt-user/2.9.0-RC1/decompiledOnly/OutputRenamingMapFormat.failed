@@ -1,0 +1,66 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:7: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.Maps;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:8: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:10: error: package com.google.gson does not exist
+import com.google.gson.JsonElement;
+                      ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:11: error: package com.google.gson does not exist
+import com.google.gson.GsonBuilder;
+                      ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:12: error: package com.google.gson does not exist
+import com.google.gson.JsonObject;
+                      ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:15: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Preconditions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:16: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Splitter;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:68: error: cannot find symbol
+    private static final Splitter HYPHEN_SPLITTER;
+                         ^
+  symbol:   class Splitter
+  location: class OutputRenamingMapFormat
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:25: error: cannot find symbol
+            final Map<String, String> newSplitRenamingMap = (Map<String, String>)Maps.newHashMap();
+                                                                                 ^
+  symbol: variable Maps
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:72: error: cannot find symbol
+        Preconditions.checkNotNull((Object)formatString);
+        ^
+  symbol:   variable Preconditions
+  location: class OutputRenamingMapFormat
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:81: error: cannot find symbol
+        final JsonObject properties = new JsonObject();
+              ^
+  symbol:   class JsonObject
+  location: class OutputRenamingMapFormat
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:81: error: cannot find symbol
+        final JsonObject properties = new JsonObject();
+                                          ^
+  symbol:   class JsonObject
+  location: class OutputRenamingMapFormat
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:85: error: cannot find symbol
+        final Gson gson = new GsonBuilder().setPrettyPrinting().create();
+              ^
+  symbol:   class Gson
+  location: class OutputRenamingMapFormat
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:85: error: cannot find symbol
+        final Gson gson = new GsonBuilder().setPrettyPrinting().create();
+                              ^
+  symbol:   class GsonBuilder
+  location: class OutputRenamingMapFormat
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:86: error: cannot find symbol
+        renamingMapWriter.write(String.format(this.formatString, gson.toJson((JsonElement)properties)));
+                                                                              ^
+  symbol:   class JsonElement
+  location: class OutputRenamingMapFormat
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/OutputRenamingMapFormat.java:90: error: cannot find symbol
+        HYPHEN_SPLITTER = Splitter.on("-");
+                          ^
+  symbol:   variable Splitter
+  location: class OutputRenamingMapFormat
+16 errors

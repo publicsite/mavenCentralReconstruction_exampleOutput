@@ -1,0 +1,41 @@
+hybrids/org.springframework/spring/2.5.6/GlassFishLoadTimeWeaver.java:21: error: package com.sun.enterprise.loader does not exist
+import com.sun.enterprise.loader.InstrumentableClassLoader;
+                                ^
+hybrids/org.springframework/spring/2.5.6/GlassFishLoadTimeWeaver.java:38: error: cannot find symbol
+	private final InstrumentableClassLoader classLoader;
+	              ^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+hybrids/org.springframework/spring/2.5.6/GlassFishLoadTimeWeaver.java:72: error: cannot find symbol
+	protected InstrumentableClassLoader determineClassLoader(ClassLoader classLoader) {
+	          ^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+hybrids/org.springframework/spring/2.5.6/GlassFishLoadTimeWeaver.java:58: error: cannot find symbol
+		InstrumentableClassLoader icl = determineClassLoader(classLoader);
+		^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+hybrids/org.springframework/spring/2.5.6/GlassFishLoadTimeWeaver.java:61: error: cannot find symbol
+					"An [" + InstrumentableClassLoader.class.getName() + "] implementation is required.");
+					         ^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+hybrids/org.springframework/spring/2.5.6/GlassFishLoadTimeWeaver.java:76: error: cannot find symbol
+			if (cl instanceof InstrumentableClassLoader) {
+			                  ^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+hybrids/org.springframework/spring/2.5.6/GlassFishLoadTimeWeaver.java:77: error: cannot find symbol
+				return (InstrumentableClassLoader) cl;
+				        ^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/ClassTransformerAdapter.java:23: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.ClassTransformer;
+                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/ClassTransformerAdapter.java:33: error: cannot find symbol
+class ClassTransformerAdapter implements ClassTransformer {
+                                         ^
+  symbol: class ClassTransformer
+9 errors

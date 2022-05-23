@@ -1,0 +1,53 @@
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:8: error: cannot find symbol
+import javax.servlet.jsp.tagext.Tag;
+                               ^
+  symbol:   class Tag
+  location: package javax.servlet.jsp.tagext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:11: error: cannot find symbol
+import javax.servlet.jsp.jstl.core.ConditionalTagSupport;
+                                  ^
+  symbol:   class ConditionalTagSupport
+  location: package javax.servlet.jsp.jstl.core
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:13: error: cannot find symbol
+public abstract class WhenTagSupport extends ConditionalTagSupport
+                                             ^
+  symbol: class ConditionalTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:16: error: cannot find symbol
+        final Tag parent;
+              ^
+  symbol:   class Tag
+  location: class WhenTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:17: error: cannot find symbol
+        if (!((parent = this.getParent()) instanceof ChooseTag)) {
+                            ^
+  symbol: method getParent()
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:21: error: cannot find symbol
+import javax.servlet.jsp.tagext.TagSupport;
+                               ^
+  symbol:   class TagSupport
+  location: package javax.servlet.jsp.tagext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:37: error: cannot find symbol
+public class ChooseTag extends TagSupport {
+                               ^
+  symbol: class TagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:23: error: cannot find symbol
+        if (this.condition()) {
+                ^
+  symbol: method condition()
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:51: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:53: error: cannot find symbol
+        super.release();
+        ^
+  symbol:   variable super
+  location: class ChooseTag
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:95: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:98: error: cannot find symbol
+        return EVAL_BODY_INCLUDE;
+               ^
+  symbol:   variable EVAL_BODY_INCLUDE
+  location: class ChooseTag
+12 errors

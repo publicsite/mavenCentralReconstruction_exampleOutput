@@ -1,0 +1,18 @@
+sources/structure/org.hamcrest/hamcrest/2.2/Decompiled/org/hamcrest/collection/IsIterableContainingInAnyOrder.java:44: error: incompatible types: List<Matcher<? super T>> cannot be converted to Collection<Matcher<? super Object>>
+        return (Matcher<Iterable<? extends T>>)containsInAnyOrder((Collection<Matcher<? super Object>>)Arrays.asList(itemMatchers));
+                                                                                                                    ^
+  where T is a type-variable:
+    T extends Object declared in method <T>containsInAnyOrder(Matcher<? super T>...)
+sources/structure/org.hamcrest/hamcrest/2.2/Decompiled/org/hamcrest/collection/IsIterableContainingInAnyOrder.java:53: error: incompatible types: List<Matcher<? super T>> cannot be converted to Collection<Matcher<? super Object>>
+        return (Matcher<Iterable<? extends T>>)new IsIterableContainingInAnyOrder((Collection<Matcher<? super Object>>)matchers);
+                                                                                                                       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>containsInAnyOrder(T...)
+sources/structure/org.hamcrest/hamcrest/2.2/Decompiled/org/hamcrest/collection/IsIterableContainingInAnyOrder.java:57: error: incompatible types: Collection<Matcher<? super T>> cannot be converted to Collection<Matcher<? super Object>>
+        return (Matcher<Iterable<? extends T>>)new IsIterableContainingInAnyOrder((Collection<Matcher<? super Object>>)itemMatchers);
+                                                                                                                       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>containsInAnyOrder(Collection<Matcher<? super T>>)
+Note: sources/structure/org.hamcrest/hamcrest/2.2/Decompiled/org/hamcrest/collection/IsIterableContainingInAnyOrder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors

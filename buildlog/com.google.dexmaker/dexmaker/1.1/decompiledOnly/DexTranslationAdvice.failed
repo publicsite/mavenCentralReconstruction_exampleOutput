@@ -1,0 +1,88 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:7: error: cannot find symbol
+import com.google.dexmaker.dx.rop.cst.CstInteger;
+                                     ^
+  symbol:   class CstInteger
+  location: package com.google.dexmaker.dx.rop.cst
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:8: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Type;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:10: error: cannot find symbol
+public final class DexTranslationAdvice implements TranslationAdvice
+                                                   ^
+  symbol: class TranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:25: error: cannot find symbol
+    public boolean hasConstantOperation(final Rop opcode, final RegisterSpec sourceA, final RegisterSpec sourceB) {
+                                              ^
+  symbol:   class Rop
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:25: error: cannot find symbol
+    public boolean hasConstantOperation(final Rop opcode, final RegisterSpec sourceA, final RegisterSpec sourceB) {
+                                                                ^
+  symbol:   class RegisterSpec
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:25: error: cannot find symbol
+    public boolean hasConstantOperation(final Rop opcode, final RegisterSpec sourceA, final RegisterSpec sourceB) {
+                                                                                            ^
+  symbol:   class RegisterSpec
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:64: error: cannot find symbol
+    public boolean requiresSourcesInOrder(final Rop opcode, final RegisterSpecList sources) {
+                                                ^
+  symbol:   class Rop
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:64: error: cannot find symbol
+    public boolean requiresSourcesInOrder(final Rop opcode, final RegisterSpecList sources) {
+                                                                  ^
+  symbol:   class RegisterSpecList
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:68: error: cannot find symbol
+    private int totalRopWidth(final RegisterSpecList sources) {
+                                    ^
+  symbol:   class RegisterSpecList
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:26: error: cannot find symbol
+        if (sourceA.getType() != Type.INT) {
+                                 ^
+  symbol:   variable Type
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:29: error: cannot find symbol
+        if (!(sourceB.getTypeBearer() instanceof CstInteger)) {
+                                                 ^
+  symbol:   class CstInteger
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:30: error: cannot find symbol
+            if (sourceA.getTypeBearer() instanceof CstInteger && opcode.getOpcode() == 15) {
+                                                   ^
+  symbol:   class CstInteger
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:31: error: cannot find symbol
+                final CstInteger cst = (CstInteger)sourceA.getTypeBearer();
+                      ^
+  symbol:   class CstInteger
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:31: error: cannot find symbol
+                final CstInteger cst = (CstInteger)sourceA.getTypeBearer();
+                                        ^
+  symbol:   class CstInteger
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:37: error: cannot find symbol
+            final CstInteger cst = (CstInteger)sourceB.getTypeBearer();
+                  ^
+  symbol:   class CstInteger
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:37: error: cannot find symbol
+            final CstInteger cst = (CstInteger)sourceB.getTypeBearer();
+                                    ^
+  symbol:   class CstInteger
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:54: error: cannot find symbol
+                    final CstInteger cst2 = CstInteger.make(-cst.getValue());
+                          ^
+  symbol:   class CstInteger
+  location: class DexTranslationAdvice
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/DexTranslationAdvice.java:54: error: cannot find symbol
+                    final CstInteger cst2 = CstInteger.make(-cst.getValue());
+                                            ^
+  symbol:   variable CstInteger
+  location: class DexTranslationAdvice
+18 errors

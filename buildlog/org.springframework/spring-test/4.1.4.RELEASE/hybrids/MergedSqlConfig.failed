@@ -1,0 +1,84 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:19: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotatedElementUtils;
+                                          ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:20: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotationAttributes;
+                                          ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:21: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotationUtils;
+                                          ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:22: error: package org.springframework.core.style does not exist
+import org.springframework.core.style.ToStringCreator;
+                                     ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:23: error: package org.springframework.jdbc.datasource.init does not exist
+import org.springframework.jdbc.datasource.init.ScriptUtils;
+                                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:26: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:59: error: cannot find symbol
+	private static <E extends Enum<?>> E getEnum(AnnotationAttributes attributes, String attributeName,
+	                                             ^
+  symbol:   class AnnotationAttributes
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:68: error: cannot find symbol
+	private static String getString(AnnotationAttributes attributes, String attributeName, String defaultValue) {
+	                                ^
+  symbol:   class AnnotationAttributes
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:85: error: cannot find symbol
+		Assert.notNull(localSqlConfig, "Local @SqlConfig must not be null");
+		^
+  symbol:   variable Assert
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:86: error: cannot find symbol
+		Assert.notNull(testClass, "testClass must not be null");
+		^
+  symbol:   variable Assert
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:89: error: cannot find symbol
+		AnnotationAttributes attributes = AnnotatedElementUtils.getAnnotationAttributes(testClass,
+		^
+  symbol:   class AnnotationAttributes
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:89: error: cannot find symbol
+		AnnotationAttributes attributes = AnnotatedElementUtils.getAnnotationAttributes(testClass,
+		                                  ^
+  symbol:   variable AnnotatedElementUtils
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:95: error: cannot find symbol
+				Object value = AnnotationUtils.getValue(localSqlConfig, key);
+				               ^
+  symbol:   variable AnnotationUtils
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:106: error: cannot find symbol
+			attributes = AnnotationUtils.getAnnotationAttributes(localSqlConfig, false, false);
+			             ^
+  symbol:   variable AnnotationUtils
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:113: error: cannot find symbol
+		this.separator = getString(attributes, "separator", ScriptUtils.DEFAULT_STATEMENT_SEPARATOR);
+		                                                    ^
+  symbol:   variable ScriptUtils
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:114: error: cannot find symbol
+		this.commentPrefix = getString(attributes, "commentPrefix", ScriptUtils.DEFAULT_COMMENT_PREFIX);
+		                                                            ^
+  symbol:   variable ScriptUtils
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:116: error: cannot find symbol
+			ScriptUtils.DEFAULT_BLOCK_COMMENT_START_DELIMITER);
+			^
+  symbol:   variable ScriptUtils
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:118: error: cannot find symbol
+			ScriptUtils.DEFAULT_BLOCK_COMMENT_END_DELIMITER);
+			^
+  symbol:   variable ScriptUtils
+  location: class MergedSqlConfig
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MergedSqlConfig.java:190: error: cannot find symbol
+		return new ToStringCreator(this)//
+		           ^
+  symbol:   class ToStringCreator
+  location: class MergedSqlConfig
+19 errors

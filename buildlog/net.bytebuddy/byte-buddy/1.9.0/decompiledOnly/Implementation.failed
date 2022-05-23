@@ -1,0 +1,66 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3546: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3554: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/Implementation.java:117: error: cannot find symbol
+                        this.implementations.addAll(((Composable)implementation).implementations);
+                                                                                ^
+  symbol:   variable implementations
+  location: interface Composable
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/Implementation.java:118: error: cannot find symbol
+                        this.implementations.add(((Composable)implementation).composable);
+                                                                             ^
+  symbol:   variable composable
+  location: interface Composable
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/Implementation.java:128: error: cannot find symbol
+                    this.implementations.addAll(((Composable)composable).implementations);
+                                                                        ^
+  symbol:   variable implementations
+  location: interface Composable
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/Implementation.java:129: error: cannot find symbol
+                    this.composable = ((Composable)composable).composable;
+                                                              ^
+  symbol:   variable composable
+  location: interface Composable
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/Implementation.java:158: error: Composable is abstract; cannot be instantiated
+                return new Composable(this.implementations, this.composable.andThen(implementation));
+                       ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/Implementation.java:163: error: cannot find symbol
+                return this == o || (o != null && this.getClass() == o.getClass() && this.composable.equals(((Composable)o).composable) && this.implementations.equals(((Composable)o).implementations));
+                                                                                                                           ^
+  symbol:   variable composable
+  location: interface Composable
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/Implementation.java:163: error: cannot find symbol
+                return this == o || (o != null && this.getClass() == o.getClass() && this.composable.equals(((Composable)o).composable) && this.implementations.equals(((Composable)o).implementations));
+                                                                                                                                                                                      ^
+  symbol:   variable implementations
+  location: interface Composable
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+14 errors

@@ -1,0 +1,28 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/util/concurrent/testing/MockFutureListener.java:10: error: cannot find symbol
+import com.google.common.util.concurrent.MoreExecutors;
+                                        ^
+  symbol:   class MoreExecutors
+  location: package com.google.common.util.concurrent
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/util/concurrent/testing/MockFutureListener.java:11: error: cannot find symbol
+import com.google.common.util.concurrent.ListenableFuture;
+                                        ^
+  symbol:   class ListenableFuture
+  location: package com.google.common.util.concurrent
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/util/concurrent/testing/MockFutureListener.java:21: error: cannot find symbol
+    private final ListenableFuture<?> future;
+                  ^
+  symbol:   class ListenableFuture
+  location: class MockFutureListener
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/util/concurrent/testing/MockFutureListener.java:23: error: cannot find symbol
+    public MockFutureListener(final ListenableFuture<?> future) {
+                                    ^
+  symbol:   class ListenableFuture
+  location: class MockFutureListener
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/util/concurrent/testing/MockFutureListener.java:25: error: cannot find symbol
+        (this.future = future).addListener((Runnable)this, MoreExecutors.directExecutor());
+                                                           ^
+  symbol:   variable MoreExecutors
+  location: class MockFutureListener
+Note: sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/util/concurrent/testing/MockFutureListener.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+5 errors

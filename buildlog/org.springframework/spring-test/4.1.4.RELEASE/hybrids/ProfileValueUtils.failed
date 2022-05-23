@@ -1,0 +1,88 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:21: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:22: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:24: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotationUtils;
+                                          ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:25: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:26: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:27: error: package org.springframework.util does not exist
+import org.springframework.util.StringUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:29: error: package org.springframework.core.annotation does not exist
+import static org.springframework.core.annotation.AnnotationUtils.*;
+                                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:43: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(ProfileValueUtils.class);
+	                     ^
+  symbol:   class Log
+  location: class ProfileValueUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:43: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(ProfileValueUtils.class);
+	                                  ^
+  symbol:   variable LogFactory
+  location: class ProfileValueUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:66: error: cannot find symbol
+		Assert.notNull(testClass, "testClass must not be null");
+		^
+  symbol:   variable Assert
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/annotation/SystemProfileValueSource.java:19: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:69: error: cannot find symbol
+		ProfileValueSourceConfiguration config = findAnnotation(testClass, annotationType);
+		                                         ^
+  symbol:   method findAnnotation(Class<CAP#1>,Class<ProfileValueSourceConfiguration>)
+  location: class ProfileValueUtils
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:80: error: cannot find symbol
+			profileValueSourceType = (Class<? extends ProfileValueSource>) AnnotationUtils.getDefaultValue(annotationType);
+			                                                               ^
+  symbol:   variable AnnotationUtils
+  location: class ProfileValueUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:120: error: cannot find symbol
+		IfProfileValue ifProfileValue = findAnnotation(testClass, IfProfileValue.class);
+		                                ^
+  symbol:   method findAnnotation(Class<CAP#1>,Class<IfProfileValue>)
+  location: class ProfileValueUtils
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:163: error: cannot find symbol
+		IfProfileValue ifProfileValue = findAnnotation(testClass, IfProfileValue.class);
+		                                ^
+  symbol:   method findAnnotation(Class<CAP#1>,Class<IfProfileValue>)
+  location: class ProfileValueUtils
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:167: error: cannot find symbol
+			ifProfileValue = findAnnotation(testMethod, IfProfileValue.class);
+			                 ^
+  symbol:   method findAnnotation(Method,Class<IfProfileValue>)
+  location: class ProfileValueUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:196: error: cannot find symbol
+		if (StringUtils.hasLength(ifProfileValue.value())) {
+		    ^
+  symbol:   variable StringUtils
+  location: class ProfileValueUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java:205: error: cannot find symbol
+			if (ObjectUtils.nullSafeEquals(value, environmentValue)) {
+			    ^
+  symbol:   variable ObjectUtils
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/annotation/SystemProfileValueSource.java:55: error: cannot find symbol
+		Assert.hasText(key, "'key' must not be empty");
+		^
+  symbol:   variable Assert
+  location: class SystemProfileValueSource
+Note: hybrids/org.springframework/spring-test/4.1.4.RELEASE/ProfileValueUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+19 errors

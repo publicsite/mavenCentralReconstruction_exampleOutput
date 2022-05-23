@@ -1,0 +1,28 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/swing/binding/AbstractJComponentBinding.java:10: error: cannot find symbol
+import org.codehaus.groovy.binding.PropertyBinding;
+                                  ^
+  symbol:   class PropertyBinding
+  location: package org.codehaus.groovy.binding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/swing/binding/AbstractJComponentBinding.java:15: error: cannot find symbol
+abstract class AbstractJComponentBinding extends AbstractSyntheticBinding implements PropertyChangeListener, ComponentListener
+                                                 ^
+  symbol: class AbstractSyntheticBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/swing/binding/AbstractJComponentBinding.java:20: error: cannot find symbol
+    public AbstractJComponentBinding(final PropertyBinding source, final TargetBinding target, final String propertyName) {
+                                           ^
+  symbol:   class PropertyBinding
+  location: class AbstractJComponentBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/swing/binding/AbstractJComponentBinding.java:26: error: cannot find symbol
+        (this.boundComponent = (JComponent)((PropertyBinding)this.sourceBinding).getBean()).addPropertyChangeListener(this.propertyName, this);
+                                             ^
+  symbol:   class PropertyBinding
+  location: class AbstractJComponentBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/swing/binding/AbstractJComponentBinding.java:26: error: cannot find symbol
+        (this.boundComponent = (JComponent)((PropertyBinding)this.sourceBinding).getBean()).addPropertyChangeListener(this.propertyName, this);
+                                                                 ^
+  symbol: variable sourceBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/swing/binding/AbstractJComponentBinding.java:38: error: cannot find symbol
+        this.update();
+            ^
+  symbol: method update()
+6 errors

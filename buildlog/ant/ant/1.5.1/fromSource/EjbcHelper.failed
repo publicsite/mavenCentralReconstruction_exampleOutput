@@ -1,0 +1,35 @@
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java:64: error: package javax.ejb.deployment does not exist
+import javax.ejb.deployment.EntityDescriptor;
+                           ^
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java:65: error: package javax.ejb.deployment does not exist
+import javax.ejb.deployment.DeploymentDescriptor;
+                           ^
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java:178: error: cannot find symbol
+            DeploymentDescriptor dd = (DeploymentDescriptor) ois.readObject();
+            ^
+  symbol:   class DeploymentDescriptor
+  location: class EjbcHelper
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java:178: error: cannot find symbol
+            DeploymentDescriptor dd = (DeploymentDescriptor) ois.readObject();
+                                       ^
+  symbol:   class DeploymentDescriptor
+  location: class EjbcHelper
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java:184: error: cannot find symbol
+            if (dd instanceof EntityDescriptor) {
+                              ^
+  symbol:   class EntityDescriptor
+  location: class EjbcHelper
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java:185: error: cannot find symbol
+                primaryKeyClassPath = ((EntityDescriptor) dd).getPrimaryKeyClassName().replace('.', '/') + ".java";;
+                                        ^
+  symbol:   class EntityDescriptor
+  location: class EjbcHelper
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java:284: error: package weblogic does not exist
+            weblogic.ejbc.main(args);
+                    ^
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java:288: error: package weblogic does not exist
+            weblogic.ejbc.main(newArgs);
+                    ^
+Note: sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/ejb/EjbcHelper.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

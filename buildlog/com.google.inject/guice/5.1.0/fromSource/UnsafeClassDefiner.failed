@@ -1,0 +1,25 @@
+sources/structure/com.google.inject/guice/5.1.0/extractedSources/com/google/inject/internal/aop/UnsafeClassDefiner.java:33: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheBuilder;
+                              ^
+sources/structure/com.google.inject/guice/5.1.0/extractedSources/com/google/inject/internal/aop/UnsafeClassDefiner.java:34: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheLoader;
+                              ^
+sources/structure/com.google.inject/guice/5.1.0/extractedSources/com/google/inject/internal/aop/UnsafeClassDefiner.java:35: error: package com.google.common.cache does not exist
+import com.google.common.cache.LoadingCache;
+                              ^
+sources/structure/com.google.inject/guice/5.1.0/extractedSources/com/google/inject/internal/aop/UnsafeClassDefiner.java:89: error: cannot find symbol
+    static final LoadingCache<Class<?>, ClassDefiner> DEFINE_CLASS_CACHE =
+                 ^
+  symbol:   class LoadingCache
+  location: class DefineClassCacheHolder
+sources/structure/com.google.inject/guice/5.1.0/extractedSources/com/google/inject/internal/aop/UnsafeClassDefiner.java:90: error: cannot find symbol
+        CacheBuilder.newBuilder()
+        ^
+  symbol:   variable CacheBuilder
+  location: class DefineClassCacheHolder
+sources/structure/com.google.inject/guice/5.1.0/extractedSources/com/google/inject/internal/aop/UnsafeClassDefiner.java:92: error: cannot find symbol
+            .build(CacheLoader.from(UnsafeClassDefiner::tryAccessDefineClass));
+                   ^
+  symbol:   variable CacheLoader
+  location: class DefineClassCacheHolder
+6 errors

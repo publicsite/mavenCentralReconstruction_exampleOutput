@@ -1,0 +1,115 @@
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:5: error: package exists in another module: java.xml
+package javax.xml.parsers;
+^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:20: error: cannot find symbol
+    static SecuritySupport ss;
+           ^
+  symbol:   class SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:25: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+        if (FactoryFinder.debug) {
+            ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:25: error: illegal parenthesized expression
+        if (FactoryFinder.debug) {
+           ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:44: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+                    classLoader = FactoryFinder.class.getClassLoader();
+                                  ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:66: error: package FactoryFinder does not exist
+        ClassLoader classLoader = FactoryFinder.ss.getContextClassLoader();
+                                               ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:68: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            classLoader = FactoryFinder.class.getClassLoader();
+                          ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:72: error: package FactoryFinder does not exist
+            final String systemProperty = FactoryFinder.ss.getSystemProperty(str);
+                                                       ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:80: error: package FactoryFinder does not exist
+            final String string = FactoryFinder.ss.getSystemProperty("java.home") + File.separator + "lib" + File.separator + "jaxp.properties";
+                                               ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:81: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            if (FactoryFinder.firstTime) {
+                ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:81: error: illegal parenthesized expression
+            if (FactoryFinder.firstTime) {
+               ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:82: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+                synchronized (FactoryFinder.cacheProps) {
+                              ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:82: error: illegal parenthesized expression
+                synchronized (FactoryFinder.cacheProps) {
+                             ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:83: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+                    if (FactoryFinder.firstTime) {
+                        ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:83: error: illegal parenthesized expression
+                    if (FactoryFinder.firstTime) {
+                       ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:85: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+                        FactoryFinder.firstTime = false;
+                        ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:86: error: package FactoryFinder does not exist
+                        if (FactoryFinder.ss.doesFileExist(obj)) {
+                                         ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:88: error: package FactoryFinder does not exist
+                            FactoryFinder.cacheProps.load(FactoryFinder.ss.getFileInputStream(obj));
+                                         ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:88: error: package FactoryFinder does not exist
+                            FactoryFinder.cacheProps.load(FactoryFinder.ss.getFileInputStream(obj));
+                                                                       ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:93: error: package FactoryFinder does not exist
+            final String property = FactoryFinder.cacheProps.getProperty(str);
+                                                 ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:100: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            if (FactoryFinder.debug) {
+                ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:100: error: illegal parenthesized expression
+            if (FactoryFinder.debug) {
+               ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:117: error: package FactoryFinder does not exist
+        ClassLoader obj = FactoryFinder.ss.getContextClassLoader();
+                                       ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:120: error: package FactoryFinder does not exist
+            inputStream = FactoryFinder.ss.getResourceAsStream(obj, string);
+                                       ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:122: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+                obj = FactoryFinder.class.getClassLoader();
+                      ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:123: error: package FactoryFinder does not exist
+                inputStream = FactoryFinder.ss.getResourceAsStream(obj, string);
+                                           ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:127: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            obj = FactoryFinder.class.getClassLoader();
+                  ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:128: error: package FactoryFinder does not exist
+            inputStream = FactoryFinder.ss.getResourceAsStream(obj, string);
+                                       ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:162: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+        FactoryFinder.debug = false;
+        ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:163: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+        FactoryFinder.cacheProps = new Properties();
+        ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:164: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+        FactoryFinder.ss = new SecuritySupport();
+        ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:164: error: cannot find symbol
+        FactoryFinder.ss = new SecuritySupport();
+                               ^
+  symbol:   class SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:165: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+        FactoryFinder.firstTime = true;
+        ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:167: error: package FactoryFinder does not exist
+            final String systemProperty = FactoryFinder.ss.getSystemProperty("jaxp.debug");
+                                                       ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:168: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            FactoryFinder.debug = (systemProperty != null && !"false".equals(systemProperty));
+            ^
+sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java:171: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            FactoryFinder.debug = false;
+            ^
+Note: sources/structure/xml-apis/xml-apis/1.3.03/Decompiled/javax/xml/parsers/FactoryFinder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+36 errors

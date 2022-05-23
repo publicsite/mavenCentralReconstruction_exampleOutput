@@ -1,0 +1,44 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:8: error: package org.fusesource.jansi does not exist
+import org.fusesource.jansi.Ansi;
+                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:9: error: cannot find symbol
+import org.codehaus.groovy.tools.shell.IO;
+                                      ^
+  symbol:   class IO
+  location: package org.codehaus.groovy.tools.shell
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:13: error: cannot find symbol
+    public static IO io;
+                  ^
+  symbol:   class IO
+  location: class Logger
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:28: error: cannot find symbol
+            Logger.io = new IO();
+                            ^
+  symbol:   class IO
+  location: class Logger
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:34: error: package Ansi does not exist
+        Ansi.Color color = Ansi.Color.GREEN;
+            ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:34: error: package Ansi does not exist
+        Ansi.Color color = Ansi.Color.GREEN;
+                               ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:36: error: package Ansi does not exist
+            color = Ansi.Color.RED;
+                        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:38: error: package Ansi does not exist
+        Logger.io.out.println(Ansi.ansi().a(Ansi.Attribute.INTENSITY_BOLD).fg(color).a(level).reset().a(" [").a(this.name).a("] ").a(msg));
+                                                ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:38: error: cannot find symbol
+        Logger.io.out.println(Ansi.ansi().a(Ansi.Attribute.INTENSITY_BOLD).fg(color).a(level).reset().a(" [").a(this.name).a("] ").a(msg));
+                              ^
+  symbol:   variable Ansi
+  location: class Logger
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:51: error: cannot find symbol
+        return Preferences.verbosity == IO.Verbosity.DEBUG;
+               ^
+  symbol:   variable Preferences
+  location: class Logger
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/util/Logger.java:51: error: package IO does not exist
+        return Preferences.verbosity == IO.Verbosity.DEBUG;
+                                          ^
+11 errors

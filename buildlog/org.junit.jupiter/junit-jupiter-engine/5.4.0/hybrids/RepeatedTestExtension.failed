@@ -1,0 +1,41 @@
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/RepeatedTestExtension.java:13: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.AnnotationUtils.isAnnotated;
+                                             ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/RepeatedTestExtension.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.AnnotationUtils.isAnnotated;
+^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/RepeatedTestExtension.java:23: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.AnnotationUtils;
+                                      ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/RepeatedTestExtension.java:24: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/RepeatedTestExtension.java:36: error: cannot find symbol
+		return isAnnotated(context.getTestMethod(), RepeatedTest.class);
+		       ^
+  symbol:   method isAnnotated(Optional<Method>,Class<RepeatedTest>)
+  location: class RepeatedTestExtension
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/RepeatedTestExtension.java:43: error: cannot find symbol
+		RepeatedTest repeatedTest = AnnotationUtils.findAnnotation(testMethod, RepeatedTest.class).get();
+		                            ^
+  symbol:   variable AnnotationUtils
+  location: class RepeatedTestExtension
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/RepeatedTestExtension.java:56: error: cannot find symbol
+		Preconditions.condition(repetitions > 0, () -> String.format(
+		^
+  symbol:   variable Preconditions
+  location: class RepeatedTestExtension
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/RepeatedTestExtension.java:63: error: cannot find symbol
+		String pattern = Preconditions.notBlank(repeatedTest.name().trim(), () -> String.format(
+		                 ^
+  symbol:   variable Preconditions
+  location: class RepeatedTestExtension
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/RepetitionInfoParameterResolver.java:17: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ToStringBuilder;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/RepetitionInfoParameterResolver.java:68: error: cannot find symbol
+			return new ToStringBuilder(this)
+			           ^
+  symbol:   class ToStringBuilder
+  location: class DefaultRepetitionInfo
+10 errors

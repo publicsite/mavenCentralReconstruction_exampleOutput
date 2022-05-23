@@ -1,0 +1,28 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/time/BaseDuration.java:8: error: cannot find symbol
+import org.codehaus.groovy.runtime.StringGroovyMethods;
+                                  ^
+  symbol:   class StringGroovyMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/time/BaseDuration.java:9: error: cannot find symbol
+import org.codehaus.groovy.runtime.DefaultGroovyMethods;
+                                  ^
+  symbol:   class DefaultGroovyMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/time/BaseDuration.java:99: error: cannot find symbol
+            final int norm_seconds = this.seconds + DefaultGroovyMethods.intdiv(this.millis - norm_millis, 1000).intValue();
+                                                    ^
+  symbol:   variable DefaultGroovyMethods
+  location: class BaseDuration
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/time/BaseDuration.java:100: error: cannot find symbol
+            buffer.add(((norm_seconds == 0) ? ((norm_millis < 0) ? "-0" : "0") : Integer.valueOf(norm_seconds)) + "." + StringGroovyMethods.padLeft("" + Math.abs(norm_millis), 3, "0") + " seconds");
+                                                                                                                        ^
+  symbol:   variable StringGroovyMethods
+  location: class BaseDuration
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/time/BaseDuration.java:103: error: cannot find symbol
+            return DefaultGroovyMethods.join(buffer.iterator(), ", ");
+                   ^
+  symbol:   variable DefaultGroovyMethods
+  location: class BaseDuration
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/time/BaseDuration.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors

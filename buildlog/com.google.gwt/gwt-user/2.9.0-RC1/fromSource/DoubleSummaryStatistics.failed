@@ -1,0 +1,26 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/DoubleSummaryStatistics.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/DoubleSummaryStatistics.java:46: error: count has private access in DoubleSummaryStatistics
+    count += other.count;
+                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/DoubleSummaryStatistics.java:47: error: min has private access in DoubleSummaryStatistics
+    min = Math.min(min, other.min);
+                             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/DoubleSummaryStatistics.java:48: error: max has private access in DoubleSummaryStatistics
+    max = Math.max(max, other.max);
+                             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/DoubleSummaryStatistics.java:49: error: cannot find symbol
+    naiveSum += other.naiveSum;
+                     ^
+  symbol:   variable naiveSum
+  location: variable other of type DoubleSummaryStatistics
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/DoubleSummaryStatistics.java:50: error: sum has private access in DoubleSummaryStatistics
+    sum(other.sum);
+             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/DoubleSummaryStatistics.java:51: error: cannot find symbol
+    sum(other.sumError);
+             ^
+  symbol:   variable sumError
+  location: variable other of type DoubleSummaryStatistics
+7 errors

@@ -1,0 +1,68 @@
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:19: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssBooleanExpressionNode;
+                                                        ^
+  symbol:   class CssBooleanExpressionNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:20: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssConditionalRuleNode;
+                                                        ^
+  symbol:   class CssConditionalRuleNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:21: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssValueNode;
+                                                        ^
+  symbol:   class CssValueNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:22: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.DefaultTreeVisitor;
+                                                        ^
+  symbol:   class DefaultTreeVisitor
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:30: error: cannot find symbol
+public class ExtendedConditionalNodeVisitor  extends DefaultTreeVisitor {
+                                                     ^
+  symbol: class DefaultTreeVisitor
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:32: error: cannot find symbol
+  private final Stack<CssBooleanExpressionNode> childrenStack;
+                      ^
+  symbol:   class CssBooleanExpressionNode
+  location: class ExtendedConditionalNodeVisitor
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:39: error: cannot find symbol
+  public boolean enterConditionalRule(CssConditionalRuleNode node) {
+                                      ^
+  symbol:   class CssConditionalRuleNode
+  location: class ExtendedConditionalNodeVisitor
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:62: error: cannot find symbol
+  public void enterBooleanExpression(CssBooleanExpressionNode node) {
+                                     ^
+  symbol:   class CssBooleanExpressionNode
+  location: class ExtendedConditionalNodeVisitor
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:35: error: cannot find symbol
+    childrenStack = new Stack<CssBooleanExpressionNode>();
+                              ^
+  symbol:   class CssBooleanExpressionNode
+  location: class ExtendedConditionalNodeVisitor
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:38: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:41: error: cannot find symbol
+    for (CssValueNode children : node.getChildren()) {
+         ^
+  symbol:   class CssValueNode
+  location: class ExtendedConditionalNodeVisitor
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:42: error: cannot find symbol
+      if (children instanceof CssBooleanExpressionNode) {
+                              ^
+  symbol:   class CssBooleanExpressionNode
+  location: class ExtendedConditionalNodeVisitor
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:43: error: cannot find symbol
+        childrenStack.push((CssBooleanExpressionNode) children);
+                            ^
+  symbol:   class CssBooleanExpressionNode
+  location: class ExtendedConditionalNodeVisitor
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/ExtendedConditionalNodeVisitor.java:48: error: cannot find symbol
+      CssBooleanExpressionNode visitingNode = childrenStack.pop();
+      ^
+  symbol:   class CssBooleanExpressionNode
+  location: class ExtendedConditionalNodeVisitor
+14 errors

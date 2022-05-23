@@ -1,0 +1,46 @@
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/RequestEncodingSupport.java:24: error: cannot find symbol
+import javax.servlet.jsp.PageContext;
+                        ^
+  symbol:   class PageContext
+  location: package javax.servlet.jsp
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/RequestEncodingSupport.java:25: error: cannot find symbol
+import javax.servlet.jsp.tagext.TagSupport;
+                               ^
+  symbol:   class TagSupport
+  location: package javax.servlet.jsp.tagext
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/RequestEncodingSupport.java:35: error: cannot find symbol
+public abstract class RequestEncodingSupport extends TagSupport {
+                                                     ^
+  symbol: class TagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/RequestEncodingSupport.java:78: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/RequestEncodingSupport.java:82: error: cannot find symbol
+                && (pageContext.getRequest().getCharacterEncoding() == null)) {
+                    ^
+  symbol:   variable pageContext
+  location: class RequestEncodingSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/RequestEncodingSupport.java:86: error: cannot find symbol
+                            PageContext.SESSION_SCOPE);
+                            ^
+  symbol:   variable PageContext
+  location: class RequestEncodingSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/RequestEncodingSupport.java:85: error: cannot find symbol
+                    pageContext.getAttribute(REQUEST_CHAR_SET,
+                    ^
+  symbol:   variable pageContext
+  location: class RequestEncodingSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/RequestEncodingSupport.java:99: error: cannot find symbol
+                pageContext.getRequest().setCharacterEncoding(charEncoding);
+                ^
+  symbol:   variable pageContext
+  location: class RequestEncodingSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/RequestEncodingSupport.java:105: error: cannot find symbol
+        return EVAL_PAGE;
+               ^
+  symbol:   variable EVAL_PAGE
+  location: class RequestEncodingSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/RequestEncodingSupport.java:110: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+10 errors

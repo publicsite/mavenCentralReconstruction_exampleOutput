@@ -1,0 +1,69 @@
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:22: error: package com.sun.tools.doclets does not exist
+import com.sun.tools.doclets.Taglet;
+                            ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:24: error: cannot find symbol
+public class CATaglet implements Taglet
+                                 ^
+  symbol: class Taglet
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:153: error: cannot find symbol
+    private Object wrapTaglet(final Taglet taglet) {
+                                    ^
+  symbol:   class Taglet
+  location: class CATaglet
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:36: error: cannot find symbol
+            this.legacyTagletClassConstructor = legacyTagletClass.getConstructor(Taglet.class);
+                                                                                 ^
+  symbol:   class Taglet
+  location: class CATaglet
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:41: warning: [removal] Tag in com.sun.javadoc has been deprecated and marked for removal
+    public void addTags(final Tag[] tags) {
+                              ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:96: error: incompatible types: Object cannot be converted to String
+            for (final String name : tagNames) {
+                                     ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:102: error: cannot find symbol
+            tagletMap.put("org.apache.commons.attributes.CATaglet", this.wrapTaglet((Taglet)this));
+                                                                                     ^
+  symbol:   class Taglet
+  location: class CATaglet
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:146: error: cannot find symbol
+        final Taglet tag = (Taglet)new AttributeTaglet("@" + name, this);
+              ^
+  symbol:   class Taglet
+  location: class CATaglet
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:146: error: cannot find symbol
+        final Taglet tag = (Taglet)new AttributeTaglet("@" + name, this);
+                            ^
+  symbol:   class Taglet
+  location: class CATaglet
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:167: warning: [removal] Tag in com.sun.javadoc has been deprecated and marked for removal
+    public String toString(final Tag tag) {
+                                 ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:171: warning: [removal] Tag in com.sun.javadoc has been deprecated and marked for removal
+    public String toString(final Tag[] _t) {
+                                 ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:172: error: incompatible types: Object[] cannot be converted to String[]
+        final String[] tags = this.tagList.toArray(new String[0]);
+                                                  ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:190: error: incompatible types: Object cannot be converted to List
+            final List tagsForTarget = targets.get(target);
+                                                  ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:195: error: incompatible types: Object cannot be converted to List
+        List attrs = targets.remove("");
+                                   ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:207: error: incompatible types: Object cannot be converted to List
+        final List returnAttrs = targets.remove("return");
+                                               ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:210: error: incompatible types: Object cannot be converted to String
+            for (final String target2 : targets.keySet()) {
+                                                      ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:211: error: incompatible types: Object cannot be converted to List
+                attrs = targets.remove(target2);
+                                      ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java:253: warning: [removal] Tag in com.sun.javadoc has been deprecated and marked for removal
+        public String toString(final Tag[] tags) {
+                                     ^
+Note: sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/javadoc/CATaglet.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 errors
+4 warnings

@@ -1,0 +1,377 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:10: error: cannot find symbol
+import org.codehaus.groovy.runtime.memoize.LRUCache;
+                                          ^
+  symbol:   class LRUCache
+  location: package org.codehaus.groovy.runtime.memoize
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:12: error: cannot find symbol
+import org.codehaus.groovy.runtime.memoize.Memoize;
+                                          ^
+  symbol:   class Memoize
+  location: package org.codehaus.groovy.runtime.memoize
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:14: error: cannot find symbol
+import org.codehaus.groovy.runtime.ComposedClosure;
+                                  ^
+  symbol:   class ComposedClosure
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:15: error: cannot find symbol
+import org.codehaus.groovy.runtime.CurriedClosure;
+                                  ^
+  symbol:   class CurriedClosure
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:16: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerInvocationException;
+                                  ^
+  symbol:   class InvokerInvocationException
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:17: error: cannot find symbol
+import org.codehaus.groovy.runtime.ExceptionUtils;
+                                  ^
+  symbol:   class ExceptionUtils
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:18: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:19: error: cannot find symbol
+import org.codehaus.groovy.reflection.ReflectionCache;
+                                     ^
+  symbol:   class ReflectionCache
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:20: error: package org.codehaus.groovy.reflection.stdclasses does not exist
+import org.codehaus.groovy.reflection.stdclasses.CachedClosureClass;
+                                                ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:21: error: package org.codehaus.groovy.runtime.callsite does not exist
+import org.codehaus.groovy.runtime.callsite.BooleanClosureWrapper;
+                                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:24: error: cannot find symbol
+public abstract class Closure<V> extends GroovyObjectSupport implements Cloneable, Runnable, GroovyCallable<V>, Serializable
+                                         ^
+  symbol: class GroovyObjectSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:43: error: cannot find symbol
+    private BooleanClosureWrapper bcw;
+            ^
+  symbol:   class BooleanClosureWrapper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:50: error: cannot find symbol
+        final CachedClosureClass cachedClass = (CachedClosureClass)ReflectionCache.getCachedClass(this.getClass());
+              ^
+  symbol:   class CachedClosureClass
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:50: error: cannot find symbol
+        final CachedClosureClass cachedClass = (CachedClosureClass)ReflectionCache.getCachedClass(this.getClass());
+                                                ^
+  symbol:   class CachedClosureClass
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:50: error: cannot find symbol
+        final CachedClosureClass cachedClass = (CachedClosureClass)ReflectionCache.getCachedClass(this.getClass());
+                                                                   ^
+  symbol:   variable ReflectionCache
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:50: error: cannot find symbol
+        final CachedClosureClass cachedClass = (CachedClosureClass)ReflectionCache.getCachedClass(this.getClass());
+                                                                                                      ^
+  symbol: method getClass()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:71: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:86: error: cannot find symbol
+            return this.getMetaClass();
+                       ^
+  symbol: method getMetaClass()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:89: error: cannot find symbol
+            return this.getClass();
+                       ^
+  symbol: method getClass()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:105: error: cannot find symbol
+                return InvokerHelper.getProperty(this.delegate, property);
+                       ^
+  symbol:   variable InvokerHelper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:108: error: cannot find symbol
+                return InvokerHelper.getProperty(this.owner, property);
+                       ^
+  symbol:   variable InvokerHelper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:111: error: cannot find symbol
+                return super.getProperty(property);
+                       ^
+  symbol:   variable super
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:132: error: cannot find symbol
+            return InvokerHelper.getProperty(firstTry, property);
+                   ^
+  symbol:   variable InvokerHelper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:134: error: cannot find symbol
+        catch (MissingPropertyException e1) {
+               ^
+  symbol:   class MissingPropertyException
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:137: error: cannot find symbol
+                    return InvokerHelper.getProperty(secondTry, property);
+                           ^
+  symbol:   variable InvokerHelper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:139: error: cannot find symbol
+                catch (GroovyRuntimeException ex) {}
+                       ^
+  symbol:   class GroovyRuntimeException
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:143: error: cannot find symbol
+        catch (MissingFieldException e2) {
+               ^
+  symbol:   class MissingFieldException
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:146: error: cannot find symbol
+                    return InvokerHelper.getProperty(secondTry, property);
+                           ^
+  symbol:   variable InvokerHelper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:148: error: cannot find symbol
+                catch (GroovyRuntimeException ex2) {}
+                       ^
+  symbol:   class GroovyRuntimeException
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:154: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:160: error: cannot find symbol
+            this.setMetaClass((MetaClass)newValue);
+                               ^
+  symbol:   class MetaClass
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:175: error: cannot find symbol
+                    InvokerHelper.setProperty(this.delegate, property, newValue);
+                    ^
+  symbol:   variable InvokerHelper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:179: error: cannot find symbol
+                    InvokerHelper.setProperty(this.owner, property, newValue);
+                    ^
+  symbol:   variable InvokerHelper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:183: error: cannot find symbol
+                    super.setProperty(property, newValue);
+                    ^
+  symbol:   variable super
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:209: error: cannot find symbol
+            InvokerHelper.setProperty(firstTry, property, newValue);
+            ^
+  symbol:   variable InvokerHelper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:211: error: cannot find symbol
+        catch (GroovyRuntimeException e1) {
+               ^
+  symbol:   class GroovyRuntimeException
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:214: error: cannot find symbol
+                    InvokerHelper.setProperty(secondTry, property, newValue);
+                    ^
+  symbol:   variable InvokerHelper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:217: error: cannot find symbol
+                catch (GroovyRuntimeException ex) {}
+                       ^
+  symbol:   class GroovyRuntimeException
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:225: error: cannot find symbol
+            this.bcw = new BooleanClosureWrapper(this);
+                           ^
+  symbol:   class BooleanClosureWrapper
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:238: error: cannot find symbol
+            return (V)this.getMetaClass().invokeMethod(this, "doCall", args);
+                          ^
+  symbol: method getMetaClass()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:240: error: cannot find symbol
+        catch (InvokerInvocationException e) {
+               ^
+  symbol:   class InvokerInvocationException
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:241: error: cannot find symbol
+            ExceptionUtils.sneakyThrow(e.getCause());
+            ^
+  symbol:   variable ExceptionUtils
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:257: error: cannot find symbol
+        throw new GroovyRuntimeException(throwable.getMessage(), throwable);
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:290: error: cannot find symbol
+        return new CurriedClosure<V>(this, arguments);
+                   ^
+  symbol:   class CurriedClosure
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:298: error: cannot find symbol
+        return new CurriedClosure<V>(-arguments.length, this, arguments);
+                   ^
+  symbol:   class CurriedClosure
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:306: error: cannot find symbol
+        return new CurriedClosure<V>(n, this, arguments);
+                   ^
+  symbol:   class CurriedClosure
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:314: error: cannot find symbol
+        return new ComposedClosure<W>(this, other);
+                   ^
+  symbol:   class ComposedClosure
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:318: error: cannot find symbol
+        return new ComposedClosure<V>(other, this);
+                   ^
+  symbol:   class ComposedClosure
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:326: error: cannot find symbol
+        return Memoize.buildMemoizeFunction((MemoizeCache<Object, Object>)new UnlimitedConcurrentCache(), this);
+               ^
+  symbol:   variable Memoize
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:333: error: cannot find symbol
+        return Memoize.buildMemoizeFunction((MemoizeCache<Object, Object>)new LRUCache(maxCacheSize), this);
+                                                                              ^
+  symbol:   class LRUCache
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:333: error: cannot find symbol
+        return Memoize.buildMemoizeFunction((MemoizeCache<Object, Object>)new LRUCache(maxCacheSize), this);
+               ^
+  symbol:   variable Memoize
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:340: error: cannot find symbol
+        return Memoize.buildSoftReferenceMemoizeFunction(protectedCacheSize, (MemoizeCache<Object, Object>)new UnlimitedConcurrentCache(), this);
+               ^
+  symbol:   variable Memoize
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:353: error: cannot find symbol
+        return Memoize.buildSoftReferenceMemoizeFunction(protectedCacheSize, (MemoizeCache<Object, Object>)new LRUCache(maxCacheSize), this);
+                                                                                                               ^
+  symbol:   class LRUCache
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:353: error: cannot find symbol
+        return Memoize.buildSoftReferenceMemoizeFunction(protectedCacheSize, (MemoizeCache<Object, Object>)new LRUCache(maxCacheSize), this);
+               ^
+  symbol:   variable Memoize
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:357: error: cannot find symbol
+        return new TrampolineClosure<V>(this.curry(args));
+                   ^
+  symbol:   class TrampolineClosure
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:361: error: cannot find symbol
+        return new TrampolineClosure<V>(this);
+                   ^
+  symbol:   class TrampolineClosure
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:366: error: cannot find symbol
+            return super.clone();
+                   ^
+  symbol:   variable super
+  location: class Closure<V>
+  where V is a type-variable:
+    V extends Object declared in class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:418: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:429: error: cannot find symbol
+            return Closure.this.invokeMethod(method, arguments);
+                               ^
+  symbol: method invokeMethod(String,Object)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:498: error: cannot find symbol
+            return Closure.this.hashCode();
+                               ^
+  symbol: method hashCode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:503: error: cannot find symbol
+            return Closure.this.equals(arg0);
+                               ^
+  symbol: method equals(Object)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java:520: error: cannot find symbol
+            return new CurriedClosure(this, arguments).asWritable();
+                       ^
+  symbol:   class CurriedClosure
+  location: class Closure<V>.WritableClosure
+  where V is a type-variable:
+    V extends Object declared in class Closure
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/Closure.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+62 errors

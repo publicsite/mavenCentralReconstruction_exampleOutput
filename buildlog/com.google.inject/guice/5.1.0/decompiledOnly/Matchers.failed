@@ -1,0 +1,63 @@
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:10: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:32: error: cannot find symbol
+        Preconditions.checkArgument(retention != null && retention.value() == RetentionPolicy.RUNTIME, "Annotation %s is missing RUNTIME retention", (Object)annotationType.getSimpleName());
+        ^
+  symbol:   variable Preconditions
+  location: class Matchers
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:96: error: cannot find symbol
+            this.delegate = (Matcher<? super T>)Preconditions.checkNotNull((Object)delegate, (Object)"delegate");
+                                                ^
+  symbol:   variable Preconditions
+  location: class Not<T>
+  where T is a type-variable:
+    T extends Object declared in class Not
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:101: error: incompatible types: Object cannot be converted to CAP#1
+            return !this.delegate.matches((Object)t);
+                                          ^
+  where T is a type-variable:
+    T extends Object declared in class Not
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: T from capture of ? super T
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:126: error: cannot find symbol
+            this.annotationType = (Class<? extends Annotation>)Preconditions.checkNotNull((Object)annotationType, (Object)"annotation type");
+                                                               ^
+  symbol:   variable Preconditions
+  location: class AnnotatedWithType
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:157: error: cannot find symbol
+            this.annotation = (Annotation)Preconditions.checkNotNull((Object)annotation, (Object)"annotation");
+                                          ^
+  symbol:   variable Preconditions
+  location: class AnnotatedWith
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:189: error: cannot find symbol
+            this.superclass = (Class<?>)Preconditions.checkNotNull((Object)superclass, (Object)"superclass");
+                                        ^
+  symbol:   variable Preconditions
+  location: class SubclassesOf
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:219: error: cannot find symbol
+            this.value = Preconditions.checkNotNull(value, (Object)"value");
+                         ^
+  symbol:   variable Preconditions
+  location: class Only
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:249: error: cannot find symbol
+            this.value = Preconditions.checkNotNull(value, (Object)"value");
+                         ^
+  symbol:   variable Preconditions
+  location: class IdenticalTo
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:280: error: cannot find symbol
+            this.targetPackage = (Package)Preconditions.checkNotNull((Object)targetPackage, (Object)"package");
+                                          ^
+  symbol:   variable Preconditions
+  location: class InPackage
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java:346: error: cannot find symbol
+            this.returnType = (Matcher<? super Class<?>>)Preconditions.checkNotNull((Object)returnType, (Object)"return type matcher");
+                                                         ^
+  symbol:   variable Preconditions
+  location: class Returns
+Note: sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/matcher/Matchers.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+11 errors

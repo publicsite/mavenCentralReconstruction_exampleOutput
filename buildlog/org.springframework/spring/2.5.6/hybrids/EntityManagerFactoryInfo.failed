@@ -1,0 +1,92 @@
+hybrids/org.springframework/spring/2.5.6/EntityManagerFactoryInfo.java:19: error: package javax.persistence does not exist
+import javax.persistence.EntityManager;
+                        ^
+hybrids/org.springframework/spring/2.5.6/EntityManagerFactoryInfo.java:20: error: package javax.persistence does not exist
+import javax.persistence.EntityManagerFactory;
+                        ^
+hybrids/org.springframework/spring/2.5.6/EntityManagerFactoryInfo.java:21: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.PersistenceProvider;
+                            ^
+hybrids/org.springframework/spring/2.5.6/EntityManagerFactoryInfo.java:22: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.PersistenceUnitInfo;
+                            ^
+hybrids/org.springframework/spring/2.5.6/EntityManagerFactoryInfo.java:41: error: cannot find symbol
+	EntityManagerFactory getNativeEntityManagerFactory();
+	^
+  symbol:   class EntityManagerFactory
+  location: interface EntityManagerFactoryInfo
+hybrids/org.springframework/spring/2.5.6/EntityManagerFactoryInfo.java:50: error: cannot find symbol
+	PersistenceProvider getPersistenceProvider();
+	^
+  symbol:   class PersistenceProvider
+  location: interface EntityManagerFactoryInfo
+hybrids/org.springframework/spring/2.5.6/EntityManagerFactoryInfo.java:59: error: cannot find symbol
+	PersistenceUnitInfo getPersistenceUnitInfo();
+	^
+  symbol:   class PersistenceUnitInfo
+  location: interface EntityManagerFactoryInfo
+hybrids/org.springframework/spring/2.5.6/EntityManagerFactoryInfo.java:87: error: cannot find symbol
+	Class<? extends EntityManager> getEntityManagerInterface();
+	                ^
+  symbol:   class EntityManager
+  location: interface EntityManagerFactoryInfo
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:21: error: package javax.persistence does not exist
+import javax.persistence.EntityManager;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:22: error: package javax.persistence does not exist
+import javax.persistence.EntityManagerFactory;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:23: error: package javax.persistence does not exist
+import javax.persistence.PersistenceException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:85: error: cannot find symbol
+	EntityManagerFactoryPlusOperations getEntityManagerFactoryPlusOperations(EntityManagerFactory rawEntityManager);
+	                                                                         ^
+  symbol:   class EntityManagerFactory
+  location: interface JpaDialect
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:95: error: cannot find symbol
+	EntityManagerPlusOperations getEntityManagerPlusOperations(EntityManager rawEntityManager);
+	                                                           ^
+  symbol:   class EntityManager
+  location: interface JpaDialect
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:133: error: cannot find symbol
+	Object beginTransaction(EntityManager entityManager, TransactionDefinition definition)
+	                        ^
+  symbol:   class EntityManager
+  location: interface JpaDialect
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:134: error: cannot find symbol
+			throws PersistenceException, SQLException, TransactionException;
+			       ^
+  symbol:   class PersistenceException
+  location: interface JpaDialect
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:153: error: cannot find symbol
+	Object prepareTransaction(EntityManager entityManager, boolean readOnly, String name)
+	                          ^
+  symbol:   class EntityManager
+  location: interface JpaDialect
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:154: error: cannot find symbol
+			throws PersistenceException;
+			       ^
+  symbol:   class PersistenceException
+  location: interface JpaDialect
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:201: error: cannot find symbol
+	ConnectionHandle getJdbcConnection(EntityManager entityManager, boolean readOnly)
+	                                   ^
+  symbol:   class EntityManager
+  location: interface JpaDialect
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:202: error: cannot find symbol
+			throws PersistenceException, SQLException;
+			       ^
+  symbol:   class PersistenceException
+  location: interface JpaDialect
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:217: error: cannot find symbol
+	void releaseJdbcConnection(ConnectionHandle conHandle, EntityManager entityManager)
+	                                                       ^
+  symbol:   class EntityManager
+  location: interface JpaDialect
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/JpaDialect.java:218: error: cannot find symbol
+			throws PersistenceException, SQLException;
+			       ^
+  symbol:   class PersistenceException
+  location: interface JpaDialect
+21 errors

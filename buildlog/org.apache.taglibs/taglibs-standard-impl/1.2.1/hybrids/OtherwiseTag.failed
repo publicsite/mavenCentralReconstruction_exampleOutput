@@ -1,0 +1,76 @@
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:22: error: cannot find symbol
+import javax.servlet.jsp.jstl.core.ConditionalTagSupport;
+                                  ^
+  symbol:   class ConditionalTagSupport
+  location: package javax.servlet.jsp.jstl.core
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:23: error: cannot find symbol
+import javax.servlet.jsp.tagext.Tag;
+                               ^
+  symbol:   class Tag
+  location: package javax.servlet.jsp.tagext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:40: error: cannot find symbol
+public abstract class WhenTagSupport extends ConditionalTagSupport {
+                                             ^
+  symbol: class ConditionalTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:50: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:53: error: cannot find symbol
+        Tag parent;
+        ^
+  symbol:   class Tag
+  location: class WhenTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:56: error: cannot find symbol
+        if (!((parent = getParent()) instanceof ChooseTag)) {
+                        ^
+  symbol:   method getParent()
+  location: class WhenTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:21: error: cannot find symbol
+import javax.servlet.jsp.tagext.TagSupport;
+                               ^
+  symbol:   class TagSupport
+  location: package javax.servlet.jsp.tagext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:37: error: cannot find symbol
+public class ChooseTag extends TagSupport {
+                               ^
+  symbol: class TagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:63: error: cannot find symbol
+            return SKIP_BODY;
+                   ^
+  symbol:   variable SKIP_BODY
+  location: class WhenTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:67: error: cannot find symbol
+        if (condition()) {
+            ^
+  symbol:   method condition()
+  location: class WhenTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:69: error: cannot find symbol
+            return EVAL_BODY_INCLUDE;
+                   ^
+  symbol:   variable EVAL_BODY_INCLUDE
+  location: class WhenTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/WhenTagSupport.java:71: error: cannot find symbol
+            return SKIP_BODY;
+                   ^
+  symbol:   variable SKIP_BODY
+  location: class WhenTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/OtherwiseTag.java:36: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:51: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:53: error: cannot find symbol
+        super.release();
+        ^
+  symbol:   variable super
+  location: class ChooseTag
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:95: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/ChooseTag.java:98: error: cannot find symbol
+        return EVAL_BODY_INCLUDE;
+               ^
+  symbol:   variable EVAL_BODY_INCLUDE
+  location: class ChooseTag
+17 errors

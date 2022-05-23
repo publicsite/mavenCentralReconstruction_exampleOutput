@@ -1,0 +1,18 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/System.java:16: error: package exists in another module: java.base
+package java.lang;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/System.java:41: error: reference to PrintStream is ambiguous
+  public static PrintStream err = new PrintStream(null);
+                                  ^
+  both constructor PrintStream(String) in PrintStream and constructor PrintStream(File) in PrintStream match
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/System.java:47: error: reference to PrintStream is ambiguous
+  public static PrintStream out = new PrintStream(null);
+                                  ^
+  both constructor PrintStream(String) in PrintStream and constructor PrintStream(File) in PrintStream match
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/System.java:124: error: cannot assign a value to final variable err
+    System.err = err;
+          ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/System.java:128: error: cannot assign a value to final variable out
+    System.out = out;
+          ^
+5 errors

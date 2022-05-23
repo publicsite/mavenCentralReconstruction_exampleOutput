@@ -1,0 +1,25 @@
+hybrids/org.springframework/spring/2.5.6/TransactionFactory.java:19: error: package javax.transaction does not exist
+import javax.transaction.NotSupportedException;
+                        ^
+hybrids/org.springframework/spring/2.5.6/TransactionFactory.java:20: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+hybrids/org.springframework/spring/2.5.6/TransactionFactory.java:21: error: package javax.transaction does not exist
+import javax.transaction.Transaction;
+                        ^
+hybrids/org.springframework/spring/2.5.6/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	^
+  symbol:   class Transaction
+  location: interface TransactionFactory
+hybrids/org.springframework/spring/2.5.6/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	                                                               ^
+  symbol:   class NotSupportedException
+  location: interface TransactionFactory
+hybrids/org.springframework/spring/2.5.6/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	                                                                                      ^
+  symbol:   class SystemException
+  location: interface TransactionFactory
+6 errors

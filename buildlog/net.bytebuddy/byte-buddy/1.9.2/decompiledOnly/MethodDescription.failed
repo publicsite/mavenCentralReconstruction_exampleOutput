@@ -1,0 +1,210 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:43: error: cannot find symbol
+public interface MethodDescription extends TypeVariableSource, ModifierReviewable.ForMethodDescription, NamedElement.WithGenericName, ByteCodeElement, TypeDependant<InDefinedShape, Token>
+                                                                                                                                                       ^
+  symbol: class TypeDependant
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:43: error: cannot find symbol
+public interface MethodDescription extends TypeVariableSource, ModifierReviewable.ForMethodDescription, NamedElement.WithGenericName, ByteCodeElement, TypeDependant<InDefinedShape, Token>
+                                                                                                                                                                     ^
+  symbol: class InDefinedShape
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3546: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3554: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:158: error: incompatible types: ForSignatureVisitor cannot be converted to Visitor<Object>
+                        upperBound.accept((TypeDescription.Generic.Visitor<Object>)new TypeDescription.Generic.Visitor.ForSignatureVisitor(classBound ? signatureWriter.visitClassBound() : signatureWriter.visitInterfaceBound()));
+                                                                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:164: error: incompatible types: ForSignatureVisitor cannot be converted to Visitor<Object>
+                    parameterType.accept((TypeDescription.Generic.Visitor<Object>)new TypeDescription.Generic.Visitor.ForSignatureVisitor(signatureWriter.visitParameterType()));
+                                                                                  ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:168: error: incompatible types: ForSignatureVisitor cannot be converted to Visitor<Object>
+                returnType.accept((TypeDescription.Generic.Visitor<Object>)new TypeDescription.Generic.Visitor.ForSignatureVisitor(signatureWriter.visitReturnType()));
+                                                                           ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:171: error: type argument Generic is not within bounds of type-variable S
+                if (!((FilterableList<Object, TypeList.Generic>)exceptionTypes).filter(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.ofSort(TypeDefinition.Sort.NON_GENERIC))).isEmpty()) {
+                                                      ^
+  where S,T are type-variables:
+    S extends FilterableList<T,S> declared in interface FilterableList
+    T extends Object declared in interface FilterableList
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:171: error: incompatible types: Generic cannot be converted to FilterableList<Object,Generic>
+                if (!((FilterableList<Object, TypeList.Generic>)exceptionTypes).filter(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.ofSort(TypeDefinition.Sort.NON_GENERIC))).isEmpty()) {
+                                                                ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:171: error: incompatible types: Junction<TypeDefinition> cannot be converted to ElementMatcher<? super Object>
+                if (!((FilterableList<Object, TypeList.Generic>)exceptionTypes).filter(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.ofSort(TypeDefinition.Sort.NON_GENERIC))).isEmpty()) {
+                                                                                                                                                                 ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:173: error: incompatible types: ForSignatureVisitor cannot be converted to Visitor<Object>
+                        exceptionType.accept((TypeDescription.Generic.Visitor<Object>)new TypeDescription.Generic.Visitor.ForSignatureVisitor(signatureWriter.visitExceptionType()));
+                                                                                      ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:177: error: reference to AbstractBase is ambiguous
+                return generic ? signatureWriter.toString() : AbstractBase.NON_GENERIC_SIGNATURE;
+                                                              ^
+  both class net.bytebuddy.description.ModifierReviewable.AbstractBase in ModifierReviewable and class net.bytebuddy.description.TypeVariableSource.AbstractBase in TypeVariableSource match
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:180: error: reference to AbstractBase is ambiguous
+                return AbstractBase.NON_GENERIC_SIGNATURE;
+                       ^
+  both class net.bytebuddy.description.ModifierReviewable.AbstractBase in ModifierReviewable and class net.bytebuddy.description.TypeVariableSource.AbstractBase in TypeVariableSource match
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:237: error: cannot find symbol
+                    return ((FilterableList<TypeDescription, S>)parameterTypes).getOnly().represents(Object[].class);
+                                                             ^
+  symbol:   class S
+  location: class AbstractBase
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:267: error: cannot find symbol
+            for (final TypeDescription parameterType : ((FilterableList<T, TypeList>)parameterTypes).subList(3, parameterTypes.size())) {
+                                                                        ^
+  symbol:   class T
+  location: class AbstractBase
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:335: error: cannot find symbol
+            return visitor.onMethod(((TypeDependant<InDefinedShape, S>)this).asDefined());
+                                                                    ^
+  symbol:   class S
+  location: class AbstractBase
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:497: error: reference to ForLoadedConstructor is ambiguous
+                final ForLoadedConstructor this2 = this;
+                      ^
+  both class net.bytebuddy.description.method.MethodDescription.ForLoadedConstructor in MethodDescription and class net.bytebuddy.description.method.ParameterDescription.ForLoadedParameter.ParameterAnnotationSource.ForLoadedConstructor in ParameterAnnotationSource match
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:531: error: reference to ForLoadedConstructor is ambiguous
+            return this.constructor.equals(constructor) || this.equals(new ForLoadedConstructor(constructor));
+                                                                           ^
+  both class net.bytebuddy.description.method.MethodDescription.ForLoadedConstructor in MethodDescription and class net.bytebuddy.description.method.ParameterDescription.ForLoadedParameter.ParameterAnnotationSource.ForLoadedConstructor in ParameterAnnotationSource match
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:568: error: reference to ForLoadedConstructor is ambiguous
+                final ForLoadedConstructor this2 = this;
+                      ^
+  both class net.bytebuddy.description.method.MethodDescription.ForLoadedConstructor in MethodDescription and class net.bytebuddy.description.method.ParameterDescription.ForLoadedParameter.ParameterAnnotationSource.ForLoadedConstructor in ParameterAnnotationSource match
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:598: error: reference to ForLoadedConstructor is ambiguous
+                final ForLoadedConstructor this2 = this;
+                      ^
+  both class net.bytebuddy.description.method.MethodDescription.ForLoadedConstructor in MethodDescription and class net.bytebuddy.description.method.ParameterDescription.ForLoadedParameter.ParameterAnnotationSource.ForLoadedConstructor in ParameterAnnotationSource match
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:641: error: reference to ForLoadedMethod is ambiguous
+                final ForLoadedMethod this2 = this;
+                      ^
+  both class net.bytebuddy.description.method.MethodDescription.ForLoadedMethod in MethodDescription and class net.bytebuddy.description.method.ParameterDescription.ForLoadedParameter.ParameterAnnotationSource.ForLoadedMethod in ParameterAnnotationSource match
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:678: error: reference to ForLoadedMethod is ambiguous
+            return this.method.equals(method) || this.equals(new ForLoadedMethod(method));
+                                                                 ^
+  both class net.bytebuddy.description.method.MethodDescription.ForLoadedMethod in MethodDescription and class net.bytebuddy.description.method.ParameterDescription.ForLoadedParameter.ParameterAnnotationSource.ForLoadedMethod in ParameterAnnotationSource match
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:720: error: reference to ForLoadedMethod is ambiguous
+                final ForLoadedMethod this2 = this;
+                      ^
+  both class net.bytebuddy.description.method.MethodDescription.ForLoadedMethod in MethodDescription and class net.bytebuddy.description.method.ParameterDescription.ForLoadedParameter.ParameterAnnotationSource.ForLoadedMethod in ParameterAnnotationSource match
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:761: error: reference to ForLoadedMethod is ambiguous
+                final ForLoadedMethod this2 = this;
+                      ^
+  both class net.bytebuddy.description.method.MethodDescription.ForLoadedMethod in MethodDescription and class net.bytebuddy.description.method.ParameterDescription.ForLoadedParameter.ParameterAnnotationSource.ForLoadedMethod in ParameterAnnotationSource match
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:909: error: type argument Generic is not within bounds of type-variable S
+            return ((FilterableList<Object, TypeList.Generic>)this.methodDescription.getTypeVariables().accept(this.visitor)).filter(ElementMatchers.ofSort(TypeDefinition.Sort.VARIABLE));
+                                                    ^
+  where S,T are type-variables:
+    S extends FilterableList<T,S> declared in interface FilterableList
+    T extends Object declared in interface FilterableList
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:909: error: incompatible types: Generic cannot be converted to FilterableList<Object,Generic>
+            return ((FilterableList<Object, TypeList.Generic>)this.methodDescription.getTypeVariables().accept(this.visitor)).filter(ElementMatchers.ofSort(TypeDefinition.Sort.VARIABLE));
+                                                                                                              ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java:946: error: cannot find symbol
+            return ((TypeDependant<InDefinedShape, S>)this.methodDescription).asDefined();
+                                                   ^
+  symbol:   class S
+  location: class TypeSubstituting
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/matcher/ElementMatchers.java:191: error: type argument T#1 is not within bounds of type-variable T#2
+        return new DefinedShapeMatcher<T, MethodDescription.InDefinedShape>(matcher);
+                                       ^
+  where T#1,T#2,S are type-variables:
+    T#1 extends MethodDescription declared in method <T#1>definedMethod(ElementMatcher<? super InDefinedShape>)
+    T#2 extends TypeDependant<S,?> declared in class DefinedShapeMatcher
+    S extends TypeDependant<?,?> declared in class DefinedShapeMatcher
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/description/method/MethodList.java:55: error: cannot find symbol
+                tokens.add(methodDescription.asToken(matcher));
+                                            ^
+  symbol:   method asToken(ElementMatcher<CAP#1>)
+  location: variable methodDescription of type MethodDescription
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: TypeDescription from capture of ? super TypeDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/description/method/MethodList.java:66: error: cannot find symbol
+                declaredForms.add(methodDescription.asDefined());
+                                                   ^
+  symbol:   method asDefined()
+  location: variable methodDescription of type MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/Transformer.java:283: error: cannot find symbol
+                    transformer.transform(instrumentedType, methodDescription.asToken(none())),
+                                                                             ^
+  symbol:   method asToken(Junction<Object>)
+  location: variable methodDescription of type MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/Transformer.java:284: error: cannot find symbol
+                    methodDescription.asDefined());
+                                     ^
+  symbol:   method asDefined()
+  location: variable methodDescription of type MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:4467: error: cannot find symbol
+                            MethodRebaseResolver.Resolution resolution = methodRebaseResolver.resolve(implementedMethod.asDefined());
+                                                                                                                       ^
+  symbol:   method asDefined()
+  location: variable implementedMethod of type MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:4483: error: cannot find symbol
+                            return new CodePreservingMethodVisitor(methodVisitor, record, methodRebaseResolver.resolve(implementedMethod.asDefined()));
+                                                                                                                                        ^
+  symbol:   method asDefined()
+  location: variable implementedMethod of type MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/asm/Advice.java:2021: error: cannot find symbol
+                return Target.ForStackManipulation.of(instrumentedMethod.asDefined());
+                                                                        ^
+  symbol:   method asDefined()
+  location: variable instrumentedMethod of type MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/MethodGraph.java:1260: error: cannot find symbol
+                                return new Resolved<U>(key.extend(methodDescription.asDefined(), harmonizer),
+                                                                                   ^
+  symbol:   method asDefined()
+  location: variable methodDescription of type MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/MethodGraph.java:1393: error: cannot find symbol
+                                Harmonized<U> key = this.key.extend(methodDescription.asDefined(), harmonizer);
+                                                                                     ^
+  symbol:   method asDefined()
+  location: variable methodDescription of type MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/MethodGraph.java:1565: error: cannot find symbol
+                                Harmonized<U> key = this.key.extend(methodDescription.asDefined(), harmonizer);
+                                                                                     ^
+  symbol:   method asDefined()
+  location: variable methodDescription of type MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/inline/MethodRebaseResolver.java:506: error: cannot find symbol
+                if (rebaseableMethodTokens.contains(instrumentedMethod.asToken(is(instrumentedType)))) {
+                                                                      ^
+  symbol:   method asToken(Junction<Object>)
+  location: variable instrumentedMethod of type InDefinedShape
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java:125: error: cannot find symbol
+        MethodDescription.InDefinedShape declaredMethod = methodDescription.asDefined();
+                                                                           ^
+  symbol:   method asDefined()
+  location: variable methodDescription of type MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java:409: error: cannot find symbol
+                    ? new DynamicInvocation(methodName, returnType, new TypeList.Explicit(methodType), methodDescription.asDefined(), arguments)
+                                                                                                                        ^
+  symbol:   method asDefined()
+  location: variable methodDescription of type InDefinedShape
+Note: sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/description/method/MethodDescription.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+46 errors

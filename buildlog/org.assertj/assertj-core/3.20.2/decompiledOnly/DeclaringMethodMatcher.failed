@@ -1,0 +1,89 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.description.method does not exist
+import org.assertj.core.internal.bytebuddy.description.method.MethodDescription;
+                                                             ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:8: error: package org.assertj.core.internal.bytebuddy.description.method does not exist
+import org.assertj.core.internal.bytebuddy.description.method.MethodList;
+                                                             ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:9: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:10: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDefinition;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:13: error: package ElementMatcher.Junction does not exist
+public class DeclaringMethodMatcher<T extends TypeDefinition> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                             ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:12: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:13: error: cannot find symbol
+public class DeclaringMethodMatcher<T extends TypeDefinition> extends ElementMatcher.Junction.AbstractBase<T>
+                                              ^
+  symbol: class TypeDefinition
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:15: error: cannot find symbol
+    private final ElementMatcher<? super MethodList<?>> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class DeclaringMethodMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringMethodMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:15: error: cannot find symbol
+    private final ElementMatcher<? super MethodList<?>> matcher;
+                                         ^
+  symbol:   class MethodList
+  location: class DeclaringMethodMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringMethodMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:17: error: cannot find symbol
+    public DeclaringMethodMatcher(final ElementMatcher<? super MethodList<? extends MethodDescription>> matcher) {
+                                        ^
+  symbol:   class ElementMatcher
+  location: class DeclaringMethodMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringMethodMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:17: error: cannot find symbol
+    public DeclaringMethodMatcher(final ElementMatcher<? super MethodList<? extends MethodDescription>> matcher) {
+                                                               ^
+  symbol:   class MethodList
+  location: class DeclaringMethodMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringMethodMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:17: error: cannot find symbol
+    public DeclaringMethodMatcher(final ElementMatcher<? super MethodList<? extends MethodDescription>> matcher) {
+                                                                                    ^
+  symbol:   class MethodDescription
+  location: class DeclaringMethodMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringMethodMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:18: error: cannot find symbol
+        this.matcher = (ElementMatcher<? super MethodList<?>>)matcher;
+                        ^
+  symbol:   class ElementMatcher
+  location: class DeclaringMethodMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringMethodMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:18: error: cannot find symbol
+        this.matcher = (ElementMatcher<? super MethodList<?>>)matcher;
+                                               ^
+  symbol:   class MethodList
+  location: class DeclaringMethodMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringMethodMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:25: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:30: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:32: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((DeclaringMethodMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:35: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringMethodMatcher.java:37: error: cannot find symbol
+        return this.getClass().hashCode() * 31 + this.matcher.hashCode();
+                   ^
+  symbol: method getClass()
+19 errors

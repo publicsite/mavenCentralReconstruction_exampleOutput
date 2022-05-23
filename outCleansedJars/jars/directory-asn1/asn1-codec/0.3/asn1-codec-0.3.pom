@@ -1,0 +1,28 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>directory-asn1</groupId>
+  <artifactId>asn1-codec</artifactId>
+  <name>Stateful chunking codec API for ASN.1 runtime</name>
+  <version>0.3</version>
+  <description>API for stackable stateful encoders and decoders.  Such codec interfaces
+    allow for the efficient processing of data as it is made available while
+    maintaining small actively processing footprints.  Of course these aspects
+    depend on the implementation as well however this API standardizes the
+    minimum set of interfaces associated with codec's that are stateful.
+    Until this API is added to the commons-codec project several interfaces
+    and classes here are duplicated to minimize the number of dependencies:
+    namely a dependency on commons-codec will be avoided.</description>
+  <inceptionYear>2004</inceptionYear>
+  <dependencies>
+    <dependency>
+      <groupId>directory-network</groupId>
+      <artifactId>mina</artifactId>
+      <version>0.7</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,39 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ui/velocity/SpringResourceLoader.java:8: error: package org.apache.velocity.exception does not exist
+import org.apache.velocity.exception.ResourceNotFoundException;
+                                    ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ui/velocity/SpringResourceLoader.java:16: error: package org.apache.velocity.runtime.resource.loader does not exist
+import org.apache.velocity.runtime.resource.loader.ResourceLoader;
+                                                  ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ui/velocity/SpringResourceLoader.java:18: error: cannot find symbol
+public class SpringResourceLoader extends ResourceLoader
+                                          ^
+  symbol: class ResourceLoader
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ui/velocity/SpringResourceLoader.java:54: error: cannot find symbol
+    public InputStream getResourceStream(final String source) throws ResourceNotFoundException {
+                                                                     ^
+  symbol:   class ResourceNotFoundException
+  location: class SpringResourceLoader
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ui/velocity/SpringResourceLoader.java:76: error: package org.apache.velocity.runtime.resource does not exist
+    public boolean isSourceModified(final org.apache.velocity.runtime.resource.Resource resource) {
+                                                                              ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ui/velocity/SpringResourceLoader.java:80: error: package org.apache.velocity.runtime.resource does not exist
+    public long getLastModified(final org.apache.velocity.runtime.resource.Resource resource) {
+                                                                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ui/velocity/SpringResourceLoader.java:30: error: cannot find symbol
+        this.logger = LogFactory.getLog((Class)this.getClass());
+                                                   ^
+  symbol: method getClass()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ui/velocity/SpringResourceLoader.java:34: error: cannot find symbol
+        this.resourceLoader = (org.springframework.core.io.ResourceLoader)this.rsvc.getApplicationAttribute((Object)"spring.resource.loader");
+                                                                              ^
+  symbol: variable rsvc
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ui/velocity/SpringResourceLoader.java:35: error: cannot find symbol
+        final String resourceLoaderPath = (String)this.rsvc.getApplicationAttribute((Object)"spring.resource.loader.path");
+                                                      ^
+  symbol: variable rsvc
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ui/velocity/SpringResourceLoader.java:73: error: cannot find symbol
+        throw new ResourceNotFoundException("Could not find resource [" + source + "] in Spring resource loader path");
+                  ^
+  symbol:   class ResourceNotFoundException
+  location: class SpringResourceLoader
+10 errors

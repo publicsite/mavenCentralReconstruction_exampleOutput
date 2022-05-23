@@ -1,0 +1,133 @@
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:756: error: cannot find symbol
+                public enum ForJavaMethod implements Harmonizer<Token>
+                                                                ^
+  symbol:   class Token
+  location: interface Harmonizer<S>
+  where S is a type-variable:
+    S extends Object declared in interface Harmonizer
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:792: error: cannot find symbol
+                public enum ForJVMMethod implements Harmonizer<Token>
+                                                               ^
+  symbol:   class Token
+  location: interface Harmonizer<S>
+  where S is a type-variable:
+    S extends Object declared in interface Harmonizer
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3194: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3202: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:93: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                for (final MethodDescription methodDescription : typeDefinition.getDeclaredMethods().filter(ElementMatchers.isVirtual().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isBridge())).and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(viewPoint)))) {
+                                                                                                                                                                                                                                                                                            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:93: error: incompatible types: Junction<ForMethodDescription> cannot be converted to ElementMatcher<? super Object>
+                for (final MethodDescription methodDescription : typeDefinition.getDeclaredMethods().filter(ElementMatchers.isVirtual().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isBridge())).and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(viewPoint)))) {
+                                                                                                                                                                                                                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:122: error: incompatible types: Harmonizer<S> cannot be converted to Harmonizer<Object>
+                return new Default<Object>(harmonizer, merger, TypeDescription.Generic.Visitor.Reifying.INITIATING);
+                                           ^
+  where S is a type-variable:
+    S extends Object declared in method <S>of(Harmonizer<S>,Merger)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:126: error: incompatible types: Harmonizer<S> cannot be converted to Harmonizer<Object>
+                return new Default<Object>(harmonizer, merger, visitor);
+                                           ^
+  where S is a type-variable:
+    S extends Object declared in method <S>of(Harmonizer<S>,Merger,Visitor<? extends Generic>)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:140: error: incompatible types: Map<TypeDefinition,Store<T>> cannot be converted to Map<TypeDefinition,Store<?>>
+                final Key.Store<?> rootStore = this.doAnalyze(typeDefinition, (Map<TypeDefinition, Key.Store<?>>)snapshots, ElementMatchers.isVirtual().and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(viewPoint)));
+                                                                                                                 ^
+  where T is a type-variable:
+    T extends Object declared in class Default
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:140: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                final Key.Store<?> rootStore = this.doAnalyze(typeDefinition, (Map<TypeDefinition, Key.Store<?>>)snapshots, ElementMatchers.isVirtual().and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(viewPoint)));
+                                                                                                                                                                                                                       ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:160: error: incompatible types: Visitor<CAP#1> cannot be converted to Visitor<TypeDefinition>
+                return (typeDescription == null) ? new Key.Store<T>() : this.analyze(typeDescription.accept((TypeDescription.Generic.Visitor<TypeDefinition>)this.visitor), typeDescription, snapshots, relevanceMatcher);
+                                                                                                                                                                 ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Generic from capture of ? extends Generic
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:167: error: incompatible types: Visitor<CAP#1> cannot be converted to Visitor<TypeDefinition>
+                    interfaceStore = interfaceStore.combineWith(this.analyze(interfaceType.accept((TypeDescription.Generic.Visitor<TypeDefinition>)this.visitor), interfaceType, snapshots, relevanceMatcher));
+                                                                                                                                                       ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Generic from capture of ? extends Generic
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:222: error: incompatible types: Map<Q,Set<Object>> cannot be converted to Map<Q,Set<TypeToken>>
+                        return new Harmonized<Q>(methodDescription.getInternalName(), methodDescription.getParameters().size(), (Map<Q, Set<MethodDescription.TypeToken>>)Collections.singletonMap(harmonizer.harmonize(typeToken), Collections.emptySet()));
+                                                                                                                                                                                                  ^
+  where Q is a type-variable:
+    Q extends Object declared in method <Q>of(MethodDescription,Harmonizer<Q>)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:308: error: incompatible types: Collection<CAP#1> cannot be converted to Collection<? extends MethodDescription>
+                        combined.addAll((Collection<?>)leftMethods);
+                                        ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:309: error: incompatible types: Collection<CAP#1> cannot be converted to Collection<? extends MethodDescription>
+                        combined.addAll((Collection<?>)rightMethods);
+                                        ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:329: error: incompatible types: Harmonized<Object> cannot be converted to Harmonized<W>
+                        return (Entry<W>)((combined.size() == 1) ? new Entry.Resolved<W>((Harmonized<Object>)key, combined.iterator().next(), visibility, false) : new Entry.Ambiguous<W>((Harmonized<Object>)key, combined, visibility));
+                                                                                         ^
+  where W is a type-variable:
+    W extends Object declared in method <W>combine(Entry<W>,Entry<W>)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:329: error: incompatible types: Harmonized<Object> cannot be converted to Harmonized<W>
+                        return (Entry<W>)((combined.size() == 1) ? new Entry.Resolved<W>((Harmonized<Object>)key, combined.iterator().next(), visibility, false) : new Entry.Ambiguous<W>((Harmonized<Object>)key, combined, visibility));
+                                                                                                                                                                                          ^
+  where W is a type-variable:
+    W extends Object declared in method <W>combine(Entry<W>,Entry<W>)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:467: error: non-static type variable S cannot be referenced from a static context
+                                return new Resolved<U>(this.key.extend(((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)methodDescription).asDefined(), harmonizer), methodDescription, methodDescription.getVisibility(), false);
+                                                                                                                                         ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:537: error: non-static type variable S cannot be referenced from a static context
+                                final Harmonized<U> key = this.key.extend(((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)methodDescription).asDefined(), harmonizer);
+                                                                                                                                            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:626: error: incompatible types: Harmonized<Object> cannot be converted to Harmonized<Q>
+                                    o = new Resolved<Q>((Harmonized<Object>)key, left.isBridge() ? right : left, visibility, false);
+                                                        ^
+  where Q is a type-variable:
+    Q extends Object declared in method <Q>of(Harmonized<Q>,MethodDescription,MethodDescription,Visibility)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:630: error: incompatible types: Harmonized<Object> cannot be converted to Harmonized<Q>
+                                    o = new Ambiguous<Q>((Harmonized<Object>)key, methodDescriptions, visibility);
+                                                         ^
+  where Q is a type-variable:
+    Q extends Object declared in method <Q>of(Harmonized<Q>,MethodDescription,MethodDescription,Visibility)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:653: error: non-static type variable S cannot be referenced from a static context
+                                final Harmonized<U> key = this.key.extend(((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)methodDescription).asDefined(), harmonizer);
+                                                                                                                                            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/MethodGraph.java:888: error: type argument Object is not within bounds of type-variable S
+            return new MethodList.Explicit<Object>(methodDescriptions);
+                                           ^
+  where S is a type-variable:
+    S extends MethodDescription declared in class Explicit
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+28 errors

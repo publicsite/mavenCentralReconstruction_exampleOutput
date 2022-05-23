@@ -1,0 +1,438 @@
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:21: error: package javax.jms does not exist
+import javax.jms.Destination;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:22: error: package javax.jms does not exist
+import javax.jms.InvalidDestinationException;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:23: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:24: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:25: error: package javax.jms does not exist
+import javax.jms.MessageListener;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:26: error: package javax.jms does not exist
+import javax.jms.MessageProducer;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:27: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:137: error: cannot find symbol
+public class MessageListenerAdapter implements MessageListener, SessionAwareMessageListener, SubscriptionNameProvider {
+                                               ^
+  symbol: class MessageListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/SessionAwareMessageListener.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/SessionAwareMessageListener.java:20: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/SessionAwareMessageListener.java:21: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:19: error: package javax.jms does not exist
+import javax.jms.Destination;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:20: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:21: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/MessageConverter.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/MessageConverter.java:20: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/MessageConverter.java:21: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:225: error: cannot find symbol
+	public void setDefaultResponseDestination(Destination destination) {
+	                                          ^
+  symbol:   class Destination
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:309: error: cannot find symbol
+	public void onMessage(Message message) {
+	                      ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:327: error: cannot find symbol
+	public void onMessage(Message message, Session session) throws JMSException {
+	                      ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:327: error: cannot find symbol
+	public void onMessage(Message message, Session session) throws JMSException {
+	                                       ^
+  symbol:   class Session
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:327: error: cannot find symbol
+	public void onMessage(Message message, Session session) throws JMSException {
+	                                                               ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:407: error: cannot find symbol
+	protected Object extractMessage(Message message) throws JMSException {
+	                                ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:407: error: cannot find symbol
+	protected Object extractMessage(Message message) throws JMSException {
+	                                                        ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:427: error: cannot find symbol
+	protected String getListenerMethodName(Message originalMessage, Object extractedMessage) throws JMSException {
+	                                       ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:427: error: cannot find symbol
+	protected String getListenerMethodName(Message originalMessage, Object extractedMessage) throws JMSException {
+	                                                                                                ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:459: error: cannot find symbol
+	protected Object invokeListenerMethod(String methodName, Object[] arguments) throws JMSException {
+	                                                                                    ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:497: error: cannot find symbol
+	protected void handleResult(Object result, Message request, Session session) throws JMSException {
+	                                           ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:497: error: cannot find symbol
+	protected void handleResult(Object result, Message request, Session session) throws JMSException {
+	                                                            ^
+  symbol:   class Session
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:497: error: cannot find symbol
+	protected void handleResult(Object result, Message request, Session session) throws JMSException {
+	                                                                                    ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:524: error: cannot find symbol
+	protected Message buildMessage(Session session, Object result) throws JMSException {
+	                               ^
+  symbol:   class Session
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:524: error: cannot find symbol
+	protected Message buildMessage(Session session, Object result) throws JMSException {
+	          ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:524: error: cannot find symbol
+	protected Message buildMessage(Session session, Object result) throws JMSException {
+	                                                                      ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:548: error: cannot find symbol
+	protected void postProcessResponse(Message request, Message response) throws JMSException {
+	                                   ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:548: error: cannot find symbol
+	protected void postProcessResponse(Message request, Message response) throws JMSException {
+	                                                    ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:548: error: cannot find symbol
+	protected void postProcessResponse(Message request, Message response) throws JMSException {
+	                                                                             ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:573: error: cannot find symbol
+	protected Destination getResponseDestination(Message request, Message response, Session session)
+	                                             ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:573: error: cannot find symbol
+	protected Destination getResponseDestination(Message request, Message response, Session session)
+	                                                              ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:573: error: cannot find symbol
+	protected Destination getResponseDestination(Message request, Message response, Session session)
+	                                                                                ^
+  symbol:   class Session
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:573: error: cannot find symbol
+	protected Destination getResponseDestination(Message request, Message response, Session session)
+	          ^
+  symbol:   class Destination
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:574: error: cannot find symbol
+			throws JMSException {
+			       ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:597: error: cannot find symbol
+	protected Destination resolveDefaultResponseDestination(Session session) throws JMSException {
+	                                                        ^
+  symbol:   class Session
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:597: error: cannot find symbol
+	protected Destination resolveDefaultResponseDestination(Session session) throws JMSException {
+	          ^
+  symbol:   class Destination
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:597: error: cannot find symbol
+	protected Destination resolveDefaultResponseDestination(Session session) throws JMSException {
+	                                                                                ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:618: error: cannot find symbol
+	protected void sendResponse(Session session, Destination destination, Message response) throws JMSException {
+	                            ^
+  symbol:   class Session
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:618: error: cannot find symbol
+	protected void sendResponse(Session session, Destination destination, Message response) throws JMSException {
+	                                             ^
+  symbol:   class Destination
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:618: error: cannot find symbol
+	protected void sendResponse(Session session, Destination destination, Message response) throws JMSException {
+	                                                                      ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:618: error: cannot find symbol
+	protected void sendResponse(Session session, Destination destination, Message response) throws JMSException {
+	                                                                                               ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:636: error: cannot find symbol
+	protected void postProcessProducer(MessageProducer producer, Message response) throws JMSException {
+	                                   ^
+  symbol:   class MessageProducer
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:636: error: cannot find symbol
+	protected void postProcessProducer(MessageProducer producer, Message response) throws JMSException {
+	                                                             ^
+  symbol:   class Message
+  location: class MessageListenerAdapter
+hybrids/org.springframework/spring/2.5.6/MessageListenerAdapter.java:636: error: cannot find symbol
+	protected void postProcessProducer(MessageProducer producer, Message response) throws JMSException {
+	                                                                                      ^
+  symbol:   class JMSException
+  location: class MessageListenerAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/MessageConverter.java:48: error: cannot find symbol
+	Message toMessage(Object object, Session session) throws JMSException, MessageConversionException;
+	                                 ^
+  symbol:   class Session
+  location: interface MessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/MessageConverter.java:48: error: cannot find symbol
+	Message toMessage(Object object, Session session) throws JMSException, MessageConversionException;
+	^
+  symbol:   class Message
+  location: interface MessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/MessageConverter.java:48: error: cannot find symbol
+	Message toMessage(Object object, Session session) throws JMSException, MessageConversionException;
+	                                                         ^
+  symbol:   class JMSException
+  location: interface MessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/MessageConverter.java:57: error: cannot find symbol
+	Object fromMessage(Message message) throws JMSException, MessageConversionException;
+	                   ^
+  symbol:   class Message
+  location: interface MessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/MessageConverter.java:57: error: cannot find symbol
+	Object fromMessage(Message message) throws JMSException, MessageConversionException;
+	                                           ^
+  symbol:   class JMSException
+  location: interface MessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:54: error: cannot find symbol
+	Destination resolveDestinationName(Session session, String destinationName, boolean pubSubDomain)
+	                                   ^
+  symbol:   class Session
+  location: interface DestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:54: error: cannot find symbol
+	Destination resolveDestinationName(Session session, String destinationName, boolean pubSubDomain)
+	^
+  symbol:   class Destination
+  location: interface DestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:55: error: cannot find symbol
+			throws JMSException;
+			       ^
+  symbol:   class JMSException
+  location: interface DestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/SessionAwareMessageListener.java:54: error: cannot find symbol
+	void onMessage(Message message, Session session) throws JMSException;
+	               ^
+  symbol:   class Message
+  location: interface SessionAwareMessageListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/SessionAwareMessageListener.java:54: error: cannot find symbol
+	void onMessage(Message message, Session session) throws JMSException;
+	                                ^
+  symbol:   class Session
+  location: interface SessionAwareMessageListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/SessionAwareMessageListener.java:54: error: cannot find symbol
+	void onMessage(Message message, Session session) throws JMSException;
+	                                                        ^
+  symbol:   class JMSException
+  location: interface SessionAwareMessageListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:19: error: package javax.jms does not exist
+import javax.jms.Connection;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:20: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:21: error: package javax.jms does not exist
+import javax.jms.MessageConsumer;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:22: error: package javax.jms does not exist
+import javax.jms.MessageProducer;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:23: error: package javax.jms does not exist
+import javax.jms.QueueBrowser;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:24: error: package javax.jms does not exist
+import javax.jms.QueueRequestor;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:25: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:62: error: cannot find symbol
+	public static void closeConnection(Connection con) {
+	                                   ^
+  symbol:   class Connection
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:72: error: cannot find symbol
+	public static void closeConnection(Connection con, boolean stop) {
+	                                   ^
+  symbol:   class Connection
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:105: error: cannot find symbol
+	public static void closeSession(Session session) {
+	                                ^
+  symbol:   class Session
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:125: error: cannot find symbol
+	public static void closeMessageProducer(MessageProducer producer) {
+	                                        ^
+  symbol:   class MessageProducer
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:145: error: cannot find symbol
+	public static void closeMessageConsumer(MessageConsumer consumer) {
+	                                        ^
+  symbol:   class MessageConsumer
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:174: error: cannot find symbol
+	public static void closeQueueBrowser(QueueBrowser browser) {
+	                                     ^
+  symbol:   class QueueBrowser
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:194: error: cannot find symbol
+	public static void closeQueueRequestor(QueueRequestor requestor) {
+	                                       ^
+  symbol:   class QueueRequestor
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:214: error: cannot find symbol
+	public static void commitIfNecessary(Session session) throws JMSException {
+	                                     ^
+  symbol:   class Session
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:214: error: cannot find symbol
+	public static void commitIfNecessary(Session session) throws JMSException {
+	                                                             ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:232: error: cannot find symbol
+	public static void rollbackIfNecessary(Session session) throws JMSException {
+	                                       ^
+  symbol:   class Session
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:232: error: cannot find symbol
+	public static void rollbackIfNecessary(Session session) throws JMSException {
+	                                                               ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:252: error: cannot find symbol
+	public static String buildExceptionMessage(JMSException ex) {
+	                                           ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:267: error: cannot find symbol
+	public static JmsException convertJmsAccessException(JMSException ex) {
+	                                                     ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:25: error: package javax.jms does not exist
+import javax.jms.BytesMessage;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:26: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:27: error: package javax.jms does not exist
+import javax.jms.MapMessage;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:28: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:29: error: package javax.jms does not exist
+import javax.jms.ObjectMessage;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:30: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:31: error: package javax.jms does not exist
+import javax.jms.TextMessage;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:67: error: cannot find symbol
+	public Message toMessage(Object object, Session session) throws JMSException, MessageConversionException {
+	                                        ^
+  symbol:   class Session
+  location: class SimpleMessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:67: error: cannot find symbol
+	public Message toMessage(Object object, Session session) throws JMSException, MessageConversionException {
+	       ^
+  symbol:   class Message
+  location: class SimpleMessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:67: error: cannot find symbol
+	public Message toMessage(Object object, Session session) throws JMSException, MessageConversionException {
+	                                                                ^
+  symbol:   class JMSException
+  location: class SimpleMessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:100: error: cannot find symbol
+	public Object fromMessage(Message message) throws JMSException, MessageConversionException {
+	                          ^
+  symbol:   class Message
+  location: class SimpleMessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:100: error: cannot find symbol
+	public Object fromMessage(Message message) throws JMSException, MessageConversionException {
+	                                                  ^
+  symbol:   class JMSException
+  location: class SimpleMessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:127: error: cannot find symbol
+	protected TextMessage createMessageForString(String text, Session session) throws JMSException {
+	                                                          ^
+  symbol:   class Session
+  location: class SimpleMessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:127: error: cannot find symbol
+	protected TextMessage createMessageForString(String text, Session session) throws JMSException {
+	          ^
+  symbol:   class TextMessage
+  location: class SimpleMessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:127: error: cannot find symbol
+	protected TextMessage createMessageForString(String text, Session session) throws JMSException {
+	                                                                                  ^
+  symbol:   class JMSException
+  location: class SimpleMessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:139: error: cannot find symbol
+	protected BytesMessage createMessageForByteArray(byte[] bytes, Session session) throws JMSException {
+	                                                               ^
+  symbol:   class Session
+  location: class SimpleMessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/converter/SimpleMessageConverter.java:139: error: cannot find symbol
+	protected BytesMessage createMessageForByteArray(byte[] bytes, Session session) throws JMSException {
+	          ^
+  symbol:   class BytesMessage
+  location: class SimpleMessageConverter
+100 errors

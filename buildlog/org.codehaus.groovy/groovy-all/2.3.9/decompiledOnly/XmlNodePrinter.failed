@@ -1,0 +1,121 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:10: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:20: error: cannot find symbol
+    protected final IndentPrinter out;
+                    ^
+  symbol:   class IndentPrinter
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:38: error: cannot find symbol
+    public XmlNodePrinter(final IndentPrinter out) {
+                                ^
+  symbol:   class IndentPrinter
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:42: error: cannot find symbol
+    public XmlNodePrinter(final IndentPrinter out, final String quote) {
+                                ^
+  symbol:   class IndentPrinter
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:57: error: cannot find symbol
+    public void print(final Node node) {
+                            ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:93: error: cannot find symbol
+    protected void print(final Node node, final NamespaceContext ctx) {
+                               ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:183: error: cannot find symbol
+    protected void printName(final Node node, final NamespaceContext ctx, final boolean begin, final boolean preserve) {
+                                   ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:211: error: cannot find symbol
+    protected boolean printSpecialNode(final Node node) {
+                                             ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:264: error: cannot find symbol
+    private boolean isEmptyElement(final Node node) {
+                                         ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:27: error: reference to XmlNodePrinter is ambiguous
+        this(out, "  ");
+        ^
+  both constructor XmlNodePrinter(PrintWriter,String) in XmlNodePrinter and constructor XmlNodePrinter(IndentPrinter,String) in XmlNodePrinter match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:35: error: cannot find symbol
+        this(new IndentPrinter(out, indent), quote);
+                 ^
+  symbol:   class IndentPrinter
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:54: error: reference to XmlNodePrinter is ambiguous
+        this(new PrintWriter(new OutputStreamWriter(System.out)));
+        ^
+  both constructor XmlNodePrinter(PrintWriter) in XmlNodePrinter and constructor XmlNodePrinter(IndentPrinter) in XmlNodePrinter match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:134: error: cannot find symbol
+            if (p instanceof Node) {
+                             ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:162: error: no suitable constructor found for NamespaceContext(XmlNodePrinter.NamespaceContext)
+            final NamespaceContext context = new NamespaceContext(ctx);
+                                             ^
+    constructor XmlNodePrinter.NamespaceContext.XmlNodePrinter.NamespaceContext() is not applicable
+      (actual and formal argument lists differ in length)
+    constructor XmlNodePrinter.NamespaceContext.XmlNodePrinter.NamespaceContext(XmlNodePrinter,XmlNodePrinter.NamespaceContext) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:163: error: cannot find symbol
+            if (value instanceof Node) {
+                                 ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:164: error: cannot find symbol
+                this.print((Node)value, context);
+                            ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:177: error: cannot find symbol
+        this.printEscaped(InvokerHelper.toString(value), false);
+                          ^
+  symbol:   variable InvokerHelper
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:217: error: cannot find symbol
+            if (object instanceof Node) {
+                                  ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:218: error: cannot find symbol
+                this.printNamespace(((Node)object).name(), ctx);
+                                      ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:257: error: cannot find symbol
+                this.printEscaped(InvokerHelper.toString(value), true);
+                                  ^
+  symbol:   variable InvokerHelper
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:283: error: cannot find symbol
+            if (object instanceof Node) {
+                                  ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:284: error: cannot find symbol
+                final Object name = ((Node)object).name();
+                                      ^
+  symbol:   class Node
+  location: class XmlNodePrinter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:366: error: no suitable constructor found for NamespaceContext(XmlNodePrinter)
+            this(xmlNodePrinter);
+            ^
+    constructor XmlNodePrinter.NamespaceContext.XmlNodePrinter.NamespaceContext() is not applicable
+      (actual and formal argument lists differ in length)
+    constructor XmlNodePrinter.NamespaceContext.XmlNodePrinter.NamespaceContext(XmlNodePrinter,XmlNodePrinter.NamespaceContext) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/XmlNodePrinter.java:30: error: recursive constructor invocation
+    public XmlNodePrinter(final PrintWriter out, final String indent) {
+           ^
+24 errors

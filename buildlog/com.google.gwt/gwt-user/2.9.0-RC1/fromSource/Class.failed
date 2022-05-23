@@ -1,0 +1,125 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:16: error: package exists in another module: java.base
+package java.lang;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:56: error: constructor Class in class Class<T> cannot be applied to given types;
+    Class<T> clazz = new Class<T>();
+                     ^
+  required: ClassLoader,Class<?>
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Class
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:57: error: cannot find symbol
+    clazz.modifiers = ARRAY;
+         ^
+  symbol:   variable modifiers
+  location: variable clazz of type java.lang.Class<T>
+  where T is a type-variable:
+    T extends Object declared in method <T>createClassLiteralForArray(int)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:58: error: cannot find symbol
+    clazz.superclass = Object.class;
+         ^
+  symbol:   variable superclass
+  location: variable clazz of type java.lang.Class<T>
+  where T is a type-variable:
+    T extends Object declared in method <T>createClassLiteralForArray(int)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:60: error: componentType has private access in Class
+      clazz.componentType = getClassLiteralForArray(this, dimensions - 1);
+           ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:60: error: incompatible types: java.lang.Class<T> cannot be converted to java.lang.Class<?>
+      clazz.componentType = getClassLiteralForArray(this, dimensions - 1);
+                                                    ^
+  where T is a type-variable:
+    T extends Object declared in class java.lang.Class
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:62: error: componentType has private access in Class
+      clazz.componentType = this;
+           ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:62: error: incompatible types: java.lang.Class<T> cannot be converted to java.lang.Class<?>
+      clazz.componentType = this;
+                            ^
+  where T is a type-variable:
+    T extends Object declared in class java.lang.Class
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:77: error: cannot find symbol
+    clazz.superclass = superclass;
+         ^
+  symbol:   variable superclass
+  location: variable clazz of type java.lang.Class<T>
+  where T is a type-variable:
+    T extends Object declared in method <T>createForClass(String,String,JavaScriptObject,java.lang.Class<? super T>)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:92: error: cannot find symbol
+    clazz.modifiers = (enumConstantsFunc != null) ? ENUM : 0;
+         ^
+  symbol:   variable modifiers
+  location: variable clazz of type java.lang.Class<T>
+  where T is a type-variable:
+    T extends Object declared in method <T>createForEnum(String,String,JavaScriptObject,java.lang.Class<? super T>,JavaScriptObject,JavaScriptObject)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:93: error: cannot find symbol
+    clazz.superclass = clazz.enumSuperclass = superclass;
+         ^
+  symbol:   variable superclass
+  location: variable clazz of type java.lang.Class<T>
+  where T is a type-variable:
+    T extends Object declared in method <T>createForEnum(String,String,JavaScriptObject,java.lang.Class<? super T>,JavaScriptObject,JavaScriptObject)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:93: error: cannot find symbol
+    clazz.superclass = clazz.enumSuperclass = superclass;
+                            ^
+  symbol:   variable enumSuperclass
+  location: variable clazz of type java.lang.Class<T>
+  where T is a type-variable:
+    T extends Object declared in method <T>createForEnum(String,String,JavaScriptObject,java.lang.Class<? super T>,JavaScriptObject,JavaScriptObject)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:94: error: cannot find symbol
+    clazz.enumConstantsFunc = enumConstantsFunc;
+         ^
+  symbol:   variable enumConstantsFunc
+  location: variable clazz of type java.lang.Class<T>
+  where T is a type-variable:
+    T extends Object declared in method <T>createForEnum(String,String,JavaScriptObject,java.lang.Class<? super T>,JavaScriptObject,JavaScriptObject)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:95: error: cannot find symbol
+    clazz.enumValueOfFunc = enumValueOfFunc;
+         ^
+  symbol:   variable enumValueOfFunc
+  location: variable clazz of type java.lang.Class<T>
+  where T is a type-variable:
+    T extends Object declared in method <T>createForEnum(String,String,JavaScriptObject,java.lang.Class<? super T>,JavaScriptObject,JavaScriptObject)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:107: error: cannot find symbol
+    clazz.modifiers = INTERFACE;
+         ^
+  symbol:   variable modifiers
+  location: variable clazz of type java.lang.Class<T>
+  where T is a type-variable:
+    T extends Object declared in method <T>createForInterface(String,String)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:119: error: cannot find symbol
+    clazz.typeId = primitiveTypeId;
+         ^
+  symbol:   variable typeId
+  location: variable clazz of type Class<?>
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:120: error: cannot find symbol
+    clazz.modifiers = PRIMITIVE;
+         ^
+  symbol:   variable modifiers
+  location: variable clazz of type Class<?>
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:154: error: constructor Class in class Class<T> cannot be applied to given types;
+    Class<T> clazz = new Class<T>();
+                     ^
+  required: ClassLoader,Class<?>
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Class
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:156: error: packageName has private access in Class
+      clazz.packageName = packageName;
+           ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:157: error: cannot find symbol
+      clazz.compoundName = compoundClassName;
+           ^
+  symbol:   variable compoundName
+  location: variable clazz of type java.lang.Class<T>
+  where T is a type-variable:
+    T extends Object declared in method <T>createClassObject(String,String,JavaScriptObject)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Class.java:338: error: incompatible types: java.lang.Class<T> cannot be converted to java.lang.Class<?>
+    initializeNames(this);
+                    ^
+  where T is a type-variable:
+    T extends Object declared in class java.lang.Class
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+21 errors

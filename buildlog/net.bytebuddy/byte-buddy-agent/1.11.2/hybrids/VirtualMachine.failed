@@ -1,0 +1,34 @@
+hybrids/net.bytebuddy/byte-buddy-agent/1.11.2/VirtualMachine.java:23: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+hybrids/net.bytebuddy/byte-buddy-agent/1.11.2/VirtualMachine.java:2546: error: cannot find symbol
+                    @SuppressFBWarnings(value = {"URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD", "UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD"}, justification = "Field required by native implementation.")
+                     ^
+  symbol:   class SuppressFBWarnings
+  location: interface WindowsLibrary
+hybrids/net.bytebuddy/byte-buddy-agent/1.11.2/VirtualMachine.java:518: error: cannot find symbol
+                    @SuppressFBWarnings(value = "DMI_HARDCODED_ABSOLUTE_FILENAME", justification = "File name convention is specified.")
+                     ^
+  symbol:   class SuppressFBWarnings
+  location: class ForSocketFile
+hybrids/net.bytebuddy/byte-buddy-agent/1.11.2/VirtualMachine.java:827: error: cannot find symbol
+                        @SuppressFBWarnings(value = "URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD", justification = "Field required by native implementation.")
+                         ^
+  symbol:   class SuppressFBWarnings
+  location: class SocketAddress
+hybrids/net.bytebuddy/byte-buddy-agent/1.11.2/VirtualMachine.java:1323: error: cannot find symbol
+                @SuppressFBWarnings(value = {"UWF_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD", "URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD"}, justification = "This pattern is required for use of JNA.")
+                 ^
+  symbol:   class SuppressFBWarnings
+  location: class ForJnaSolarisDoor
+hybrids/net.bytebuddy/byte-buddy-agent/1.11.2/VirtualMachine.java:2048: error: cannot find symbol
+                @SuppressFBWarnings(value = "OS_OPEN_STREAM", justification = "The stream life-cycle is bound to its process.")
+                 ^
+  symbol:   class SuppressFBWarnings
+  location: class ForJnaPosixEnvironment
+hybrids/net.bytebuddy/byte-buddy-agent/1.11.2/VirtualMachine.java:2115: error: cannot find symbol
+                @SuppressFBWarnings(value = {"URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD", "UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD"}, justification = "Modifier is required by JNA.")
+                 ^
+  symbol:   class SuppressFBWarnings
+  location: class ForJnaPosixEnvironment
+7 errors

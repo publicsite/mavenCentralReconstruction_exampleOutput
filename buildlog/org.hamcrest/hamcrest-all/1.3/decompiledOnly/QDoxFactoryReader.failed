@@ -1,0 +1,102 @@
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:7: error: cannot find symbol
+import org.hamcrest.generator.qdox.model.DocletTag;
+                                        ^
+  symbol:   class DocletTag
+  location: package org.hamcrest.generator.qdox.model
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:8: error: cannot find symbol
+import org.hamcrest.generator.qdox.model.Type;
+                                        ^
+  symbol:   class Type
+  location: package org.hamcrest.generator.qdox.model
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:10: error: cannot find symbol
+import org.hamcrest.generator.qdox.model.JavaParameter;
+                                        ^
+  symbol:   class JavaParameter
+  location: package org.hamcrest.generator.qdox.model
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:11: error: cannot find symbol
+import org.hamcrest.generator.qdox.model.JavaMethod;
+                                        ^
+  symbol:   class JavaMethod
+  location: package org.hamcrest.generator.qdox.model
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:14: error: cannot find symbol
+import org.hamcrest.generator.qdox.model.JavaClass;
+                                        ^
+  symbol:   class JavaClass
+  location: package org.hamcrest.generator.qdox.model
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:19: error: cannot find symbol
+    private final JavaClass classSource;
+                  ^
+  symbol:   class JavaClass
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDox.java:3: error: package com.thoughtworks.qdox does not exist
+import com.thoughtworks.qdox.JavaDocBuilder;
+                            ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDox.java:4: error: package com.thoughtworks.qdox.model does not exist
+import com.thoughtworks.qdox.model.JavaClass;
+                                  ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:60: error: cannot find symbol
+    private JavaMethod findMethodInSource(final FactoryMethod factoryMethod) {
+            ^
+  symbol:   class JavaMethod
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:75: error: cannot find symbol
+    private static String createJavaDocComment(final JavaMethod methodSource) {
+                                                     ^
+  symbol:   class JavaMethod
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDox.java:19: error: cannot find symbol
+    private final JavaDocBuilder javaDocBuilder = new JavaDocBuilder();
+                  ^
+  symbol:   class JavaDocBuilder
+  location: class QDox
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDox.java:29: error: cannot find symbol
+    JavaClass getClassByName(String className) {
+    ^
+  symbol:   class JavaClass
+  location: class QDox
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:46: error: cannot find symbol
+        final JavaMethod methodSource = this.findMethodInSource(factoryMethod);
+              ^
+  symbol:   class JavaMethod
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:49: error: cannot find symbol
+            final JavaParameter[] parametersFromSource = methodSource.getParameters();
+                  ^
+  symbol:   class JavaParameter
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:62: error: cannot find symbol
+        final Type[] types = new Type[params.size()];
+              ^
+  symbol:   class Type
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:62: error: cannot find symbol
+        final Type[] types = new Type[params.size()];
+                                 ^
+  symbol:   class Type
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:69: error: cannot find symbol
+            types[i] = new Type(type);
+                           ^
+  symbol:   class Type
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:71: error: cannot find symbol
+        final JavaMethod[] methods = this.classSource.getMethodsBySignature(factoryMethod.getName(), types, false, varArgs);
+              ^
+  symbol:   class JavaMethod
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:77: error: cannot find symbol
+        final DocletTag[] tags = methodSource.getTags();
+              ^
+  symbol:   class DocletTag
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/QDoxFactoryReader.java:84: error: cannot find symbol
+        for (final DocletTag tag : tags) {
+                   ^
+  symbol:   class DocletTag
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDox.java:19: error: cannot find symbol
+    private final JavaDocBuilder javaDocBuilder = new JavaDocBuilder();
+                                                      ^
+  symbol:   class JavaDocBuilder
+  location: class QDox
+21 errors

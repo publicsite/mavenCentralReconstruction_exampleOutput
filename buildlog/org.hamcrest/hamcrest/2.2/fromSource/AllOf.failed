@@ -1,0 +1,17 @@
+sources/structure/org.hamcrest/hamcrest/2.2/extractedSources/org/hamcrest/core/AllOf.java:59: error: no suitable method found for allOf(List<Matcher<? super T#1>>)
+        return allOf(Arrays.asList(matchers));
+               ^
+    method AllOf.<T#2>allOf(Iterable<Matcher<? super T#2>>) is not applicable
+      (inference variable T#3 has incompatible bounds
+        equality constraints: Matcher<? super CAP#1>
+        lower bounds: Matcher<? super T#1>)
+    method AllOf.<T#1>allOf(Matcher<? super T#1>...) is not applicable
+      (cannot infer type-variable(s) T#1
+        (varargs mismatch; no instance(s) of type variable(s) T#3 exist so that List<T#3> conforms to Matcher<? super T#1>))
+  where T#1,T#2,T#3 are type-variables:
+    T#1 extends Object declared in method <T#1>allOf(Matcher<? super T#1>...)
+    T#2 extends Object declared in method <T#2>allOf(Iterable<Matcher<? super T#2>>)
+    T#3 extends Object declared in method <T#3>asList(T#3...)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: T#1 from capture of ? super T#1
+1 error

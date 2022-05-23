@@ -1,0 +1,70 @@
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:23: error: package net.bytebuddy.description.type does not exist
+import net.bytebuddy.description.type.TypeDescription;
+                                     ^
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:24: error: package net.bytebuddy.dynamic.loading does not exist
+import net.bytebuddy.dynamic.loading.ClassInjector;
+                                    ^
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:25: error: package net.bytebuddy.dynamic.loading does not exist
+import net.bytebuddy.dynamic.loading.ClassLoadingStrategy;
+                                    ^
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:75: error: cannot find symbol
+    private final ClassLoadingStrategy<ClassLoader> classLoadingStrategy;
+                  ^
+  symbol:   class ClassLoadingStrategy
+  location: class ClassLoadingStrategyPair
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:77: error: cannot find symbol
+    ClassLoadingStrategyPair(ClassLoader classLoader, ClassLoadingStrategy<ClassLoader> classLoadingStrategy) {
+                                                      ^
+  symbol:   class ClassLoadingStrategy
+  location: class ClassLoadingStrategyPair
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:86: error: cannot find symbol
+    ClassLoadingStrategy<ClassLoader> getClassLoadingStrategy() {
+    ^
+  symbol:   class ClassLoadingStrategy
+  location: class ClassLoadingStrategyPair
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:99: error: cannot find symbol
+  static class CompositeClassLoader extends ClassLoader implements ClassLoadingStrategy<ClassLoader> {
+                                                                   ^
+  symbol:   class ClassLoadingStrategy
+  location: class ClassLoadingStrategyFactory
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:120: error: cannot find symbol
+    public Map<TypeDescription, Class<?>> load(ClassLoader classLoader, Map<TypeDescription, byte[]> types) {
+                                                                            ^
+  symbol:   class TypeDescription
+  location: class CompositeClassLoader
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:120: error: cannot find symbol
+    public Map<TypeDescription, Class<?>> load(ClassLoader classLoader, Map<TypeDescription, byte[]> types) {
+               ^
+  symbol:   class TypeDescription
+  location: class CompositeClassLoader
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:57: error: package ClassInjector does not exist
+    if (ClassInjector.UsingReflection.isAvailable()) {
+                     ^
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:58: error: package ClassLoadingStrategy does not exist
+      return new ClassLoadingStrategyPair(assertClassLoader, ClassLoadingStrategy.Default.INJECTION);
+                                                                                 ^
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:59: error: package ClassInjector does not exist
+    } else if (ClassInjector.UsingLookup.isAvailable()) {
+                            ^
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:62: error: package ClassLoadingStrategy does not exist
+            ClassLoadingStrategy.UsingLookup.of(PRIVATE_LOOKUP_IN.invoke(null, assertClass, LOOKUP)));
+                                ^
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:119: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:121: error: cannot find symbol
+      Map<TypeDescription, Class<?>> result = new LinkedHashMap<>();
+          ^
+  symbol:   class TypeDescription
+  location: class CompositeClassLoader
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:122: error: cannot find symbol
+      for (Map.Entry<TypeDescription, byte[]> entry : types.entrySet()) {
+                     ^
+  symbol:   class TypeDescription
+  location: class CompositeClassLoader
+hybrids/org.assertj/assertj-core/3.20.2/ClassLoadingStrategyFactory.java:123: error: cannot find symbol
+        TypeDescription typeDescription = entry.getKey();
+        ^
+  symbol:   class TypeDescription
+  location: class CompositeClassLoader
+17 errors

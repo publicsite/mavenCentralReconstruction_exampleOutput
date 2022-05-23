@@ -1,0 +1,32 @@
+hybrids/com.jamonapi/jamon/2.82/JAMonInterceptor.java:8: error: package javax.interceptor does not exist
+import javax.interceptor.AroundInvoke;
+                        ^
+hybrids/com.jamonapi/jamon/2.82/JAMonInterceptor.java:9: error: package javax.interceptor does not exist
+import javax.interceptor.InvocationContext;
+                        ^
+hybrids/com.jamonapi/jamon/2.82/JAMonInterceptor.java:102: error: cannot find symbol
+    public Object intercept(InvocationContext ctx) throws Exception {
+                            ^
+  symbol:   class InvocationContext
+  location: class JAMonInterceptor
+hybrids/com.jamonapi/jamon/2.82/JAMonInterceptor.java:135: error: cannot find symbol
+    protected String getJamonLabel(InvocationContext ctx) {
+                                   ^
+  symbol:   class InvocationContext
+  location: class JAMonInterceptor
+hybrids/com.jamonapi/jamon/2.82/JAMonInterceptor.java:147: error: cannot find symbol
+    protected boolean isMonitored(InvocationContext ctx) {
+                                  ^
+  symbol:   class InvocationContext
+  location: class JAMonInterceptor
+hybrids/com.jamonapi/jamon/2.82/JAMonInterceptor.java:167: error: cannot find symbol
+    protected String onException(InvocationContext ctx, String label, Exception exception) throws Exception {
+                                 ^
+  symbol:   class InvocationContext
+  location: class JAMonInterceptor
+hybrids/com.jamonapi/jamon/2.82/JAMonInterceptor.java:101: error: cannot find symbol
+    @AroundInvoke
+     ^
+  symbol:   class AroundInvoke
+  location: class JAMonInterceptor
+7 errors

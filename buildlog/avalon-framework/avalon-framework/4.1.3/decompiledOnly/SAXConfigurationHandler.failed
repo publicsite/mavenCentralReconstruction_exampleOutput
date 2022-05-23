@@ -1,0 +1,31 @@
+sources/structure/avalon-framework/avalon-framework/4.1.3/Decompiled/org/apache/avalon/framework/configuration/SAXConfigurationHandler.java:47: error: incompatible types: Object cannot be converted to StringBuffer
+        final StringBuffer valueBuffer = this.m_values.get(depth);
+                                                          ^
+sources/structure/avalon-framework/avalon-framework/4.1.3/Decompiled/org/apache/avalon/framework/configuration/SAXConfigurationHandler.java:53: error: incompatible types: Object cannot be converted to DefaultConfiguration
+        final DefaultConfiguration finishedConfiguration = this.m_elements.remove(depth);
+                                                                                 ^
+sources/structure/avalon-framework/avalon-framework/4.1.3/Decompiled/org/apache/avalon/framework/configuration/SAXConfigurationHandler.java:88: error: incompatible types: Object cannot be converted to DefaultConfiguration
+            final DefaultConfiguration parent = this.m_elements.get(depth - 1);
+                                                                   ^
+sources/structure/avalon-framework/avalon-framework/4.1.3/Decompiled/org/apache/avalon/framework/configuration/DefaultConfiguration.java:81: error: incompatible types: Object[] cannot be converted to Configuration[]
+        return this.m_children.toArray(new Configuration[0]);
+                                      ^
+sources/structure/avalon-framework/avalon-framework/4.1.3/Decompiled/org/apache/avalon/framework/configuration/DefaultConfiguration.java:85: error: incompatible types: bad type in conditional expression
+        final String value = (null != this.m_attributes) ? this.m_attributes.get(name) : null;
+                                                                                ^
+    Object cannot be converted to String
+sources/structure/avalon-framework/avalon-framework/4.1.3/Decompiled/org/apache/avalon/framework/configuration/DefaultConfiguration.java:95: error: incompatible types: Object cannot be converted to Configuration
+                final Configuration configuration = this.m_children.get(i);
+                                                                       ^
+sources/structure/avalon-framework/avalon-framework/4.1.3/Decompiled/org/apache/avalon/framework/configuration/DefaultConfiguration.java:113: error: incompatible types: Object cannot be converted to Configuration
+            final Configuration configuration = this.m_children.get(i);
+                                                                   ^
+sources/structure/avalon-framework/avalon-framework/4.1.3/Decompiled/org/apache/avalon/framework/configuration/DefaultConfiguration.java:118: error: incompatible types: Object[] cannot be converted to Configuration[]
+        return children.toArray(new Configuration[0]);
+                               ^
+sources/structure/avalon-framework/avalon-framework/4.1.3/Decompiled/org/apache/avalon/framework/configuration/DefaultConfiguration.java:149: error: incompatible types: Object cannot be converted to String
+        return this.m_attributes.put(name, value);
+                                    ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

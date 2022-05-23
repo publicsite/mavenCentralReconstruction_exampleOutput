@@ -1,0 +1,40 @@
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IsPotentialJUnit4TestClass.java:13: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isAbstract;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IsPotentialJUnit4TestClass.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isAbstract;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IsPotentialJUnit4TestClass.java:14: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isInnerClass;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IsPotentialJUnit4TestClass.java:14: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isInnerClass;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IsPotentialJUnit4TestClass.java:15: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isPublic;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IsPotentialJUnit4TestClass.java:15: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isPublic;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IsPotentialJUnit4TestClass.java:27: error: cannot find symbol
+		if (!isPublic(candidate)) {
+		     ^
+  symbol:   method isPublic(Class<CAP#1>)
+  location: class IsPotentialJUnit4TestClass
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IsPotentialJUnit4TestClass.java:30: error: cannot find symbol
+		if (isAbstract(candidate)) {
+		    ^
+  symbol:   method isAbstract(Class<CAP#1>)
+  location: class IsPotentialJUnit4TestClass
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IsPotentialJUnit4TestClass.java:33: error: cannot find symbol
+		if (isInnerClass(candidate)) {
+		    ^
+  symbol:   method isInnerClass(Class<CAP#1>)
+  location: class IsPotentialJUnit4TestClass
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+9 errors

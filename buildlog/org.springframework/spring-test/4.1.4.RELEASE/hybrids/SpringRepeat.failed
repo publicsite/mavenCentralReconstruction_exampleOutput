@@ -1,0 +1,25 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SpringRepeat.java:21: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SpringRepeat.java:22: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SpringRepeat.java:26: error: package org.springframework.util does not exist
+import org.springframework.util.ClassUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SpringRepeat.java:39: error: cannot find symbol
+	protected static final Log logger = LogFactory.getLog(SpringRepeat.class);
+	                       ^
+  symbol:   class Log
+  location: class SpringRepeat
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SpringRepeat.java:39: error: cannot find symbol
+	protected static final Log logger = LogFactory.getLog(SpringRepeat.class);
+	                                    ^
+  symbol:   variable LogFactory
+  location: class SpringRepeat
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/SpringRepeat.java:71: error: cannot find symbol
+					ClassUtils.getShortName(this.testMethod.getDeclaringClass()), this.testMethod.getName()));
+					^
+  symbol:   variable ClassUtils
+  location: class SpringRepeat
+6 errors

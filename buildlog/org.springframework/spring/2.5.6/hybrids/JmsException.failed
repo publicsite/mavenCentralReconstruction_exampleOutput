@@ -1,0 +1,24 @@
+hybrids/org.springframework/spring/2.5.6/JmsException.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+hybrids/org.springframework/spring/2.5.6/JmsException.java:71: error: cannot find symbol
+		if (cause instanceof JMSException) {
+		                     ^
+  symbol:   class JMSException
+  location: class JmsException
+hybrids/org.springframework/spring/2.5.6/JmsException.java:72: error: cannot find symbol
+			return ((JMSException) cause).getErrorCode();
+			         ^
+  symbol:   class JMSException
+  location: class JmsException
+hybrids/org.springframework/spring/2.5.6/JmsException.java:85: error: cannot find symbol
+		if (cause instanceof JMSException) {
+		                     ^
+  symbol:   class JMSException
+  location: class JmsException
+hybrids/org.springframework/spring/2.5.6/JmsException.java:86: error: cannot find symbol
+			Exception linkedEx = ((JMSException) cause).getLinkedException();
+			                       ^
+  symbol:   class JMSException
+  location: class JmsException
+5 errors

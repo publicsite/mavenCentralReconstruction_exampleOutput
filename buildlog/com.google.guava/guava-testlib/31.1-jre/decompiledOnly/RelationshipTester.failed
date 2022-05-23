@@ -1,0 +1,115 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:8: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:9: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:10: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:12: error: package com.google.common.base does not exist
+import com.google.common.base.Equivalence;
+                             ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:18: error: cannot find symbol
+    private final Equivalence<? super T> equivalence;
+                  ^
+  symbol:   class Equivalence
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:22: error: cannot find symbol
+    private final List<ImmutableList<T>> groups;
+                       ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:24: error: cannot find symbol
+    RelationshipTester(final Equivalence<? super T> equivalence, final String relationshipName, final String hashName, final ItemReporter itemReporter) {
+                             ^
+  symbol:   class Equivalence
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:25: error: cannot find symbol
+        this.groups = (List<ImmutableList<T>>)Lists.newArrayList();
+                            ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:25: error: cannot find symbol
+        this.groups = (List<ImmutableList<T>>)Lists.newArrayList();
+                                              ^
+  symbol:   variable Lists
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:26: error: cannot find symbol
+        this.equivalence = (Equivalence<? super T>)Preconditions.checkNotNull((Object)equivalence);
+                            ^
+  symbol:   class Equivalence
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:26: error: cannot find symbol
+        this.equivalence = (Equivalence<? super T>)Preconditions.checkNotNull((Object)equivalence);
+                                                   ^
+  symbol:   variable Preconditions
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:27: error: cannot find symbol
+        this.relationshipName = (String)Preconditions.checkNotNull((Object)relationshipName);
+                                        ^
+  symbol:   variable Preconditions
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:28: error: cannot find symbol
+        this.hashName = (String)Preconditions.checkNotNull((Object)hashName);
+                                ^
+  symbol:   variable Preconditions
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:29: error: cannot find symbol
+        this.itemReporter = (ItemReporter)Preconditions.checkNotNull((Object)itemReporter);
+                                          ^
+  symbol:   variable Preconditions
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:33: error: cannot find symbol
+        this.groups.add((ImmutableList<T>)ImmutableList.copyOf((Iterable)group));
+                         ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:33: error: cannot find symbol
+        this.groups.add((ImmutableList<T>)ImmutableList.copyOf((Iterable)group));
+                                          ^
+  symbol:   variable ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:39: error: cannot find symbol
+            final ImmutableList<T> group = this.groups.get(groupNumber);
+                  ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/RelationshipTester.java:48: error: cannot find symbol
+                        final ImmutableList<T> unrelatedGroup = this.groups.get(unrelatedGroupNumber);
+                              ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+18 errors

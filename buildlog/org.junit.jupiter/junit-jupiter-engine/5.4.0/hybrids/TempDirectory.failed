@@ -1,0 +1,65 @@
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:15: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.AnnotationUtils.findAnnotatedFields;
+                                             ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:15: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.AnnotationUtils.findAnnotatedFields;
+^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:16: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isPrivate;
+                                             ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:16: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isPrivate;
+^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:17: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.makeAccessible;
+                                             ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:17: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.makeAccessible;
+^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:43: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ExceptionUtils;
+                                      ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:44: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:70: error: cannot find symbol
+		injectFields(context, null, ReflectionUtils::isStatic);
+		                            ^
+  symbol:   variable ReflectionUtils
+  location: class TempDirectory
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:80: error: cannot find symbol
+		injectFields(context, context.getRequiredTestInstance(), ReflectionUtils::isNotStatic);
+		                                                         ^
+  symbol:   variable ReflectionUtils
+  location: class TempDirectory
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:84: error: cannot find symbol
+		findAnnotatedFields(context.getRequiredTestClass(), TempDir.class, predicate).forEach(field -> {
+		^
+  symbol:   method findAnnotatedFields(Class<CAP#1>,Class<TempDir>,Predicate<Field>)
+  location: class TempDirectory
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:90: error: cannot find symbol
+				ExceptionUtils.throwAsUncheckedException(t);
+				^
+  symbol:   variable ExceptionUtils
+  location: class TempDirectory
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:97: error: cannot find symbol
+		if (isPrivate(field)) {
+		    ^
+  symbol:   method isPrivate(Field)
+  location: class TempDirectory
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:98: error: cannot access JUnitException
+			throw new ExtensionConfigurationException("@TempDir field [" + field + "] must not be private.");
+			^
+  class file for org.junit.platform.commons.JUnitException not found
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:110: error: incompatible types: ParameterResolutionException cannot be converted to Throwable
+			throw new ParameterResolutionException(
+			^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:129: error: incompatible types: ExtensionConfigurationException cannot be converted to Throwable
+			throw new ExtensionConfigurationException("Can only resolve @TempDir " + target + " of type "
+			^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/TempDirectory.java:147: error: incompatible types: ExtensionConfigurationException cannot be converted to Throwable
+			throw new ExtensionConfigurationException("Failed to create default temp directory", ex);
+			^
+17 errors

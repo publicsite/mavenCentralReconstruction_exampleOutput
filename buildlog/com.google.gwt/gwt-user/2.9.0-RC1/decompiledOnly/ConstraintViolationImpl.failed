@@ -1,0 +1,17 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/client/impl/ConstraintViolationImpl.java:14: error: ConstraintViolationImpl is not abstract and does not override abstract method <U>unwrap(Class<U>) in ConstraintViolation
+public final class ConstraintViolationImpl<T> implements ConstraintViolation<T>, Serializable
+             ^
+  where U is a type-variable:
+    U extends Object declared in method <U>unwrap(Class<U>)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/client/impl/ConstraintViolationImpl.java:116: error: constructor ConstraintViolationImpl in class ConstraintViolationImpl<T#2> cannot be applied to given types;
+            return new ConstraintViolationImpl<T>(this.message, this.messageTemplate, this.rootBean, this.rootBeanClass, this.leafBean, this.propertyPath, this.invalidValue, this.elementType, this.constraintDescriptor, null);
+                   ^
+  required: String,String,T#1,Class<T#1>,Object,Path,Object,ElementType,ConstraintDescriptor<?>
+  found: String,String,T#1,Class<T#1>,Object,Path,Object,ElementType,ConstraintDescriptor<CAP#1>,<null>
+  reason: actual and formal argument lists differ in length
+  where T#1,T#2 are type-variables:
+    T#1 extends Object declared in class Builder
+    T#2 extends Object declared in class ConstraintViolationImpl
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Annotation from capture of ?
+2 errors

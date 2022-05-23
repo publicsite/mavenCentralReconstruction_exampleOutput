@@ -1,0 +1,29 @@
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java:8: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java:58: error: cannot find symbol
+        catch (AssertionFailedError assertionFailedError2) {
+               ^
+  symbol:   class AssertionFailedError
+  location: class InvocationMocker
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java:59: error: cannot find symbol
+            final AssertionFailedError assertionFailedError = new AssertionFailedError(assertionFailedError2.getMessage() + ": " + this.toString());
+                  ^
+  symbol:   class AssertionFailedError
+  location: class InvocationMocker
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java:59: error: cannot find symbol
+            final AssertionFailedError assertionFailedError = new AssertionFailedError(assertionFailedError2.getMessage() + ": " + this.toString());
+                                                                  ^
+  symbol:   class AssertionFailedError
+  location: class InvocationMocker
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java:97: error: incompatible types: Object cannot be converted to InvocationMatcher
+                for (final InvocationMatcher invocationMatcher : list) {
+                                                                 ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/Invocation.java:22: error: cannot find symbol
+        this.parameterValues = ((a == null) ? Collections.EMPTY_LIST : Collections.unmodifiableList((List<?>)Arrays.asList((T[])a)));
+                                                                                                                            ^
+  symbol:   class T
+  location: class Invocation
+Note: sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+6 errors

@@ -1,0 +1,68 @@
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListeningExecutorService.java:18: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.DoNotMock;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListeningExecutorService.java:26: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListeningExecutorService.java:36: error: cannot find symbol
+@DoNotMock(
+ ^
+  symbol: class DoNotMock
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListeningExecutorService.java:47: error: cannot find symbol
+  <T extends @Nullable Object> ListenableFuture<T> submit(Callable<T> task);
+              ^
+  symbol:   class Nullable
+  location: interface ListeningExecutorService
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListenableFuture.java:17: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.DoNotMock;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListenableFuture.java:21: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListenableFuture.java:118: error: cannot find symbol
+@DoNotMock("Use the methods in Futures (like immediateFuture) or SettableFuture")
+ ^
+  symbol: class DoNotMock
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListenableFuture.java:120: error: cannot find symbol
+public interface ListenableFuture<V extends @Nullable Object> extends Future<V> {
+                                             ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListeningExecutorService.java:61: error: cannot find symbol
+  <T extends @Nullable Object> ListenableFuture<T> submit(
+              ^
+  symbol:   class Nullable
+  location: interface ListeningExecutorService
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListeningExecutorService.java:83: error: cannot find symbol
+  <T extends @Nullable Object> List<Future<T>> invokeAll(Collection<? extends Callable<T>> tasks)
+              ^
+  symbol:   class Nullable
+  location: interface ListeningExecutorService
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ListeningExecutorService.java:106: error: cannot find symbol
+  <T extends @Nullable Object> List<Future<T>> invokeAll(
+              ^
+  symbol:   class Nullable
+  location: interface ListeningExecutorService
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ParametricNullness.java:50: error: package javax.annotation.meta does not exist
+@javax.annotation.meta.TypeQualifierNickname
+                      ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ParametricNullness.java:51: error: package javax.annotation does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ParametricNullness.java:51: error: package javax.annotation.meta does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                                                      ^
+18 errors

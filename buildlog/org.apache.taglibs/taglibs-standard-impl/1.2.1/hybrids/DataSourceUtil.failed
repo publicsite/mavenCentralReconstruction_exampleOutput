@@ -1,0 +1,26 @@
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/DataSourceUtil.java:25: error: cannot find symbol
+import javax.servlet.jsp.PageContext;
+                        ^
+  symbol:   class PageContext
+  location: package javax.servlet.jsp
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/DataSourceUtil.java:26: error: cannot find symbol
+import javax.servlet.jsp.jstl.core.Config;
+                                  ^
+  symbol:   class Config
+  location: package javax.servlet.jsp.jstl.core
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/DataSourceUtil.java:50: error: cannot find symbol
+    static DataSource getDataSource(Object rawDataSource, PageContext pc)
+                                                          ^
+  symbol:   class PageContext
+  location: class DataSourceUtil
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/DataSourceUtil.java:55: error: cannot find symbol
+            rawDataSource = Config.find(pc, Config.SQL_DATA_SOURCE);
+                                            ^
+  symbol:   variable Config
+  location: class DataSourceUtil
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/DataSourceUtil.java:55: error: cannot find symbol
+            rawDataSource = Config.find(pc, Config.SQL_DATA_SOURCE);
+                            ^
+  symbol:   variable Config
+  location: class DataSourceUtil
+5 errors

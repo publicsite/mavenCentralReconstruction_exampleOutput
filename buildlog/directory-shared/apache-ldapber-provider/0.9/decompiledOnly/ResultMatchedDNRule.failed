@@ -1,0 +1,51 @@
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:10: error: cannot find symbol
+import org.apache.asn1.ber.TypeClass;
+                          ^
+  symbol:   class TypeClass
+  location: package org.apache.asn1.ber
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:12: error: cannot find symbol
+import org.apache.asn1.ber.digester.rules.PrimitiveOctetStringRule;
+                                         ^
+  symbol:   class PrimitiveOctetStringRule
+  location: package org.apache.asn1.ber.digester.rules
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:14: error: cannot find symbol
+public class ResultMatchedDNRule extends PrimitiveOctetStringRule
+                                         ^
+  symbol: class PrimitiveOctetStringRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:24: error: cannot find symbol
+    public void tag(final int id, final boolean isPrimitive, final TypeClass typeClass) {
+                                                                   ^
+  symbol:   class TypeClass
+  location: class ResultMatchedDNRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:25: error: cannot find symbol
+        final ResultResponse resp = (ResultResponse)this.getDigester().peek();
+                                                        ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:28: error: cannot find symbol
+            super.tag(id, isPrimitive, typeClass);
+            ^
+  symbol:   variable super
+  location: class ResultMatchedDNRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:34: error: cannot find symbol
+            super.length(length);
+            ^
+  symbol:   variable super
+  location: class ResultMatchedDNRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:40: error: cannot find symbol
+            super.value(buf);
+            ^
+  symbol:   variable super
+  location: class ResultMatchedDNRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:45: error: cannot find symbol
+        if (this.isConstructed() || this.byPass) {
+                ^
+  symbol: method isConstructed()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:48: error: cannot find symbol
+        final ByteBuffer buf = this.getAccumulator().drain(0);
+                                   ^
+  symbol: method getAccumulator()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultMatchedDNRule.java:51: error: cannot find symbol
+        this.setConstructed(false);
+            ^
+  symbol: method setConstructed(boolean)
+11 errors

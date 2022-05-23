@@ -1,0 +1,27 @@
+hybrids/junit/junit/4.8.1/SubstringMatcher.java:3: error: cannot find symbol
+import org.hamcrest.Description;
+                   ^
+  symbol:   class Description
+  location: package org.hamcrest
+sources/structure/junit/junit/4.8.1/extractedSources/org/junit/internal/matchers/TypeSafeMatcher.java:5: error: cannot find symbol
+import org.hamcrest.BaseMatcher;
+                   ^
+  symbol:   class BaseMatcher
+  location: package org.hamcrest
+sources/structure/junit/junit/4.8.1/extractedSources/org/junit/internal/matchers/TypeSafeMatcher.java:13: error: cannot find symbol
+public abstract class TypeSafeMatcher<T> extends BaseMatcher<T> {
+                                                 ^
+  symbol: class BaseMatcher
+hybrids/junit/junit/4.8.1/SubstringMatcher.java:18: error: cannot find symbol
+    public void describeTo(Description description) {
+                           ^
+  symbol:   class Description
+  location: class SubstringMatcher
+sources/structure/junit/junit/4.8.1/extractedSources/org/junit/internal/matchers/TypeSafeMatcher.java:24: error: cannot find symbol
+        expectedType = findExpectedType(getClass());
+                                        ^
+  symbol:   method getClass()
+  location: class TypeSafeMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class TypeSafeMatcher
+5 errors

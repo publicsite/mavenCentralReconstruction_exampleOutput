@@ -1,0 +1,67 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:7: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Type;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:8: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.TypeBearer;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:12: error: cannot find symbol
+    public static TypeBearer mergeType(final TypeBearer ft1, final TypeBearer ft2) {
+                                             ^
+  symbol:   class TypeBearer
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:12: error: cannot find symbol
+    public static TypeBearer mergeType(final TypeBearer ft1, final TypeBearer ft2) {
+                                                                   ^
+  symbol:   class TypeBearer
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:12: error: cannot find symbol
+    public static TypeBearer mergeType(final TypeBearer ft1, final TypeBearer ft2) {
+                  ^
+  symbol:   class TypeBearer
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:19: error: cannot find symbol
+        final Type type1 = ft1.getType();
+              ^
+  symbol:   class Type
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:20: error: cannot find symbol
+        final Type type2 = ft2.getType();
+              ^
+  symbol:   class Type
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:25: error: cannot find symbol
+            if (type1 == Type.KNOWN_NULL) {
+                         ^
+  symbol:   variable Type
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:28: error: cannot find symbol
+            if (type2 == Type.KNOWN_NULL) {
+                         ^
+  symbol:   variable Type
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:32: error: cannot find symbol
+                return Type.OBJECT;
+                       ^
+  symbol:   variable Type
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:34: error: cannot find symbol
+            final TypeBearer componentUnion = mergeType(type1.getComponentType(), type2.getComponentType());
+                  ^
+  symbol:   class TypeBearer
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:36: error: cannot find symbol
+                return Type.OBJECT;
+                       ^
+  symbol:   variable Type
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:38: error: cannot find symbol
+            return ((Type)componentUnion).getArrayType();
+                     ^
+  symbol:   class Type
+  location: class Merger
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/cf/code/Merger.java:42: error: cannot find symbol
+                return Type.INT;
+                       ^
+  symbol:   variable Type
+  location: class Merger
+14 errors

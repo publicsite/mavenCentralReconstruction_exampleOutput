@@ -1,0 +1,15 @@
+sources/structure/commons-collections/commons-collections/3.2/extractedSources/org/apache/commons/collections/MultiHashMap.java:333: error: remove(Object,Object) in MultiHashMap cannot implement remove(Object,Object) in Map
+    public Object remove(Object key, Object item) {
+                  ^
+  return type Object is not compatible with boolean
+sources/structure/commons-collections/commons-collections/3.2/extractedSources/org/apache/commons/collections/MultiHashMap.java:68: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public class MultiHashMap extends HashMap implements MultiMap {
+       ^
+sources/structure/commons-collections/commons-collections/3.2/extractedSources/org/apache/commons/collections/MultiMap.java:68: error: remove(Object,Object) in MultiMap clashes with remove(Object,Object) in Map
+    public Object remove(Object key, Object item);
+                  ^
+  return type Object is not compatible with boolean
+Note: sources/structure/commons-collections/commons-collections/3.2/extractedSources/org/apache/commons/collections/MultiHashMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+1 warning

@@ -1,0 +1,61 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/SessionReadCallback.java:7: error: package oracle.toplink.exceptions does not exist
+import oracle.toplink.exceptions.TopLinkException;
+                                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/SessionReadCallback.java:8: error: package oracle.toplink.sessions does not exist
+import oracle.toplink.sessions.UnitOfWork;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/SessionReadCallback.java:9: error: package oracle.toplink.sessions does not exist
+import oracle.toplink.sessions.Session;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/TopLinkCallback.java:19: error: package oracle.toplink.exceptions does not exist
+import oracle.toplink.exceptions.TopLinkException;
+                                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/TopLinkCallback.java:20: error: package oracle.toplink.sessions does not exist
+import oracle.toplink.sessions.Session;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/SessionReadCallback.java:23: error: cannot find symbol
+    public final Object doInTopLink(final Session session) throws TopLinkException {
+                                          ^
+  symbol:   class Session
+  location: class SessionReadCallback
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/SessionReadCallback.java:23: error: cannot find symbol
+    public final Object doInTopLink(final Session session) throws TopLinkException {
+                                                                  ^
+  symbol:   class TopLinkException
+  location: class SessionReadCallback
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/SessionReadCallback.java:34: error: cannot find symbol
+    protected abstract Object readFromSession(final Session p0) throws TopLinkException;
+                                                    ^
+  symbol:   class Session
+  location: class SessionReadCallback
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/SessionReadCallback.java:34: error: cannot find symbol
+    protected abstract Object readFromSession(final Session p0) throws TopLinkException;
+                                                                       ^
+  symbol:   class TopLinkException
+  location: class SessionReadCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/TopLinkCallback.java:75: error: cannot find symbol
+	Object doInTopLink(Session session) throws TopLinkException;
+	                   ^
+  symbol:   class Session
+  location: interface TopLinkCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/TopLinkCallback.java:75: error: cannot find symbol
+	Object doInTopLink(Session session) throws TopLinkException;
+	                                           ^
+  symbol:   class TopLinkException
+  location: interface TopLinkCallback
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/SessionReadCallback.java:24: error: cannot find symbol
+        Session sessionToUse = session;
+        ^
+  symbol:   class Session
+  location: class SessionReadCallback
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/SessionReadCallback.java:26: error: cannot find symbol
+            final UnitOfWork unitOfWork = session.getActiveUnitOfWork();
+                  ^
+  symbol:   class UnitOfWork
+  location: class SessionReadCallback
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/SessionReadCallback.java:28: error: cannot find symbol
+                sessionToUse = (Session)unitOfWork;
+                                ^
+  symbol:   class Session
+  location: class SessionReadCallback
+14 errors

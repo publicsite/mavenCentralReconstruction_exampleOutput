@@ -1,0 +1,108 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/XpathExpectationsHelper.java:31: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/XpathExpectationsHelper.java:37: error: package org.springframework.util does not exist
+import org.springframework.util.CollectionUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/XpathExpectationsHelper.java:38: error: package org.springframework.util.xml does not exist
+import org.springframework.util.xml.SimpleNamespaceContext;
+                                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/AssertionErrors.java:18: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:20: error: package org.hamcrest does not exist
+import org.hamcrest.Description;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:21: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:22: error: package org.hamcrest does not exist
+import org.hamcrest.StringDescription;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:24: error: package org.springframework.util does not exist
+import org.springframework.util.ClassUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:25: error: package org.springframework.util does not exist
+import org.springframework.util.ReflectionUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/XpathExpectationsHelper.java:96: error: cannot find symbol
+	public void assertNode(String content, final Matcher<? super Node> matcher) throws Exception {
+	                                             ^
+  symbol:   class Matcher
+  location: class XpathExpectationsHelper
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/XpathExpectationsHelper.java:155: error: cannot find symbol
+	public void assertNodeCount(String content, Matcher<Integer> matcher) throws Exception {
+	                                            ^
+  symbol:   class Matcher
+  location: class XpathExpectationsHelper
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/XpathExpectationsHelper.java:177: error: cannot find symbol
+	public void assertString(String content, Matcher<? super String> matcher) throws Exception {
+	                                         ^
+  symbol:   class Matcher
+  location: class XpathExpectationsHelper
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/XpathExpectationsHelper.java:199: error: cannot find symbol
+	public void assertNumber(String content, Matcher<? super Double> matcher) throws Exception {
+	                                         ^
+  symbol:   class Matcher
+  location: class XpathExpectationsHelper
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:52: error: cannot find symbol
+	public static <T> void assertThat(T actual, Matcher<T> matcher) {
+	                                            ^
+  symbol:   class Matcher
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:64: error: cannot find symbol
+	public static <T> void assertThat(String reason, T actual, Matcher<T> matcher) {
+	                                                           ^
+  symbol:   class Matcher
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/AssertionErrors.java:88: error: cannot find symbol
+		if (!ObjectUtils.nullSafeEquals(expected, actual)) {
+		     ^
+  symbol:   variable ObjectUtils
+  location: class AssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:39: error: cannot find symbol
+			ClassUtils.getMethodIfAvailable(Matcher.class, "describeMismatch", Object.class, Description.class);
+			                                ^
+  symbol:   class Matcher
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:39: error: cannot find symbol
+			ClassUtils.getMethodIfAvailable(Matcher.class, "describeMismatch", Object.class, Description.class);
+			                                                                                 ^
+  symbol:   class Description
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:39: error: cannot find symbol
+			ClassUtils.getMethodIfAvailable(Matcher.class, "describeMismatch", Object.class, Description.class);
+			^
+  symbol:   variable ClassUtils
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:66: error: cannot find symbol
+			Description description = new StringDescription();
+			^
+  symbol:   class Description
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:66: error: cannot find symbol
+			Description description = new StringDescription();
+			                              ^
+  symbol:   class StringDescription
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:73: error: cannot find symbol
+				ReflectionUtils.invokeMethod(describeMismatchMethod, matcher, actual, description);
+				^
+  symbol:   variable ReflectionUtils
+  location: class MatcherAssertionErrors
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/XpathExpectationsHelper.java:72: error: cannot find symbol
+		this.hasNamespaces = !CollectionUtils.isEmpty(namespaces);
+		                      ^
+  symbol:   variable CollectionUtils
+  location: class XpathExpectationsHelper
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/XpathExpectationsHelper.java:78: error: cannot find symbol
+		SimpleNamespaceContext namespaceContext = new SimpleNamespaceContext();
+		^
+  symbol:   class SimpleNamespaceContext
+  location: class XpathExpectationsHelper
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/XpathExpectationsHelper.java:78: error: cannot find symbol
+		SimpleNamespaceContext namespaceContext = new SimpleNamespaceContext();
+		                                              ^
+  symbol:   class SimpleNamespaceContext
+  location: class XpathExpectationsHelper
+25 errors

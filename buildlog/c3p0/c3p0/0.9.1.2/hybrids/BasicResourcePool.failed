@@ -1,0 +1,301 @@
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:482: error: ';' expected
+        PunchCard() {
+                   ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:490: error: class, interface, or enum expected
+            {
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:492: error: class, interface, or enum expected
+                if (Debug.DEBUG && Debug.TRACE == Debug.TRACE_MAX) trace();
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:494: error: class, interface, or enum expected
+                PunchCard card = (PunchCard) managed.get( resc );
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:495: error: class, interface, or enum expected
+                if (card == null) //the resource has been removed!
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:500: error: class, interface, or enum expected
+                    resc = null;
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:501: error: class, interface, or enum expected
+                }
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:505: error: class, interface, or enum expected
+                    if (debug_store_checkout_exceptions)
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:507: error: class, interface, or enum expected
+                }
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:515: error: class, interface, or enum expected
+        else
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:517: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:526: error: class, interface, or enum expected
+            int available = unused.size();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:527: error: class, interface, or enum expected
+            if (available == 0)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:531: error: class, interface, or enum expected
+                if (msz < max)
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:537: error: class, interface, or enum expected
+                    if (logger.isLoggable(MLevel.FINER))
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:540: error: class, interface, or enum expected
+                    if (desired_target >= target_pool_size)
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:546: error: class, interface, or enum expected
+                        target_pool_size = Math.max( Math.min( max, desired_target ), min );
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:548: error: class, interface, or enum expected
+                        _recheckResizePool();
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:549: error: class, interface, or enum expected
+                    }
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:555: error: class, interface, or enum expected
+                }
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:558: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:564: error: class, interface, or enum expected
+            if ( idleCheckResources.contains( resc ) )
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:575: error: class, interface, or enum expected
+                Thread t = Thread.currentThread();
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:576: error: class, interface, or enum expected
+                try
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:579: error: class, interface, or enum expected
+                    this.wait( timeout );
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:580: error: class, interface, or enum expected
+                    ensureNotBroken();
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:581: error: class, interface, or enum expected
+                }
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:583: error: class, interface, or enum expected
+                { otherWaiters.remove( t ); }
+                                            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:585: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:589: error: class, interface, or enum expected
+                ensureMinResources();
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:590: error: class, interface, or enum expected
+                return prelimCheckoutResource( timeout );
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:591: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:595: error: class, interface, or enum expected
+                return resc;
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:596: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:605: error: class, interface, or enum expected
+            this.unexpectedBreak();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:606: error: class, interface, or enum expected
+            throw e;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:607: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:620: error: class, interface, or enum expected
+                else if (logger.isLoggable( MLevel.INFO ))
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:624: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:633: error: class, interface, or enum expected
+                }
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:636: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:639: error: class, interface, or enum expected
+    public synchronized void checkinResource( Object resc ) 
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:648: error: class, interface, or enum expected
+            else if (excluded.contains(resc))
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:650: error: class, interface, or enum expected
+            else if ( isFormerResource(resc) )
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:655: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:658: error: class, interface, or enum expected
+            if (Debug.DEBUG && Debug.TRACE == Debug.TRACE_MAX) trace();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:659: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:671: error: class, interface, or enum expected
+            this.unexpectedBreak();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:672: error: class, interface, or enum expected
+            throw e;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:673: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:676: error: class, interface, or enum expected
+    public synchronized void checkinAll()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:682: error: class, interface, or enum expected
+            checkedOutNotExcluded.removeAll( unused );
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:683: error: class, interface, or enum expected
+            for (Iterator ii = checkedOutNotExcluded.iterator(); ii.hasNext(); )
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:683: error: class, interface, or enum expected
+            for (Iterator ii = checkedOutNotExcluded.iterator(); ii.hasNext(); )
+                                                                 ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:683: error: class, interface, or enum expected
+            for (Iterator ii = checkedOutNotExcluded.iterator(); ii.hasNext(); )
+                                                                               ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:685: error: class, interface, or enum expected
+            for (Iterator ii = excluded.iterator(); ii.hasNext(); )
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:685: error: class, interface, or enum expected
+            for (Iterator ii = excluded.iterator(); ii.hasNext(); )
+                                                    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:685: error: class, interface, or enum expected
+            for (Iterator ii = excluded.iterator(); ii.hasNext(); )
+                                                                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:687: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:699: error: class, interface, or enum expected
+            this.unexpectedBreak();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:700: error: class, interface, or enum expected
+            throw e;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:701: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:704: error: class, interface, or enum expected
+    public synchronized int statusInPool( Object resc )
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:711: error: class, interface, or enum expected
+            else if ( managed.keySet().contains( resc ) || excluded.contains( resc ) )
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:713: error: class, interface, or enum expected
+            else
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:715: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:721: error: class, interface, or enum expected
+            this.unexpectedBreak();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:722: error: class, interface, or enum expected
+            throw e;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:723: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:726: error: class, interface, or enum expected
+    public synchronized void markBroken(Object resc) 
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:733: error: class, interface, or enum expected
+            _markBroken( resc ); 
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:734: error: class, interface, or enum expected
+            ensureMinResources();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:735: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:741: error: class, interface, or enum expected
+            this.unexpectedBreak();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:742: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:746: error: class, interface, or enum expected
+    public int getMinPoolSize()
+           ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:747: error: class, interface, or enum expected
+    { return min; }
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:750: error: class, interface, or enum expected
+    public int getMaxPoolSize()
+           ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:751: error: class, interface, or enum expected
+    { return max; }
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:753: error: class, interface, or enum expected
+    public synchronized int getPoolSize()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:755: error: class, interface, or enum expected
+    { return managed.size(); }
+                             ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:771: error: class, interface, or enum expected
+    public synchronized int getAvailableCount()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:772: error: class, interface, or enum expected
+    { return unused.size(); }
+                            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:774: error: class, interface, or enum expected
+    public synchronized int getExcludedCount()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:775: error: class, interface, or enum expected
+    { return excluded.size(); }
+                              ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:777: error: class, interface, or enum expected
+    public synchronized int getAwaitingCheckinCount()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:778: error: class, interface, or enum expected
+    { return managed.size() - unused.size() + excluded.size(); }
+                                                               ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:780: error: class, interface, or enum expected
+    public synchronized void resetPool()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:784: error: class, interface, or enum expected
+            for (Iterator ii = cloneOfManaged().keySet().iterator(); ii.hasNext();)
+                                                                     ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:784: error: class, interface, or enum expected
+            for (Iterator ii = cloneOfManaged().keySet().iterator(); ii.hasNext();)
+                                                                                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:786: error: class, interface, or enum expected
+            ensureMinResources();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:787: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:793: error: class, interface, or enum expected
+            this.unexpectedBreak();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:794: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:797: error: class, interface, or enum expected
+    public synchronized void close() 
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:804: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:806: error: class, interface, or enum expected
+    public void finalize() throws Throwable
+           ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:814: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:817: error: class, interface, or enum expected
+    public void addResourcePoolListener(ResourcePoolListener rpl)
+           ^
+hybrids/c3p0/c3p0/0.9.1.2/BasicResourcePool.java:822: error: class, interface, or enum expected
+        else
+        ^
+100 errors

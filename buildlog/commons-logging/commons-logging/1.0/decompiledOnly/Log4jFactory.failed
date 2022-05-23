@@ -1,0 +1,132 @@
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:8: error: package org.apache.log4j does not exist
+import org.apache.log4j.Category;
+                       ^
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/LogFactory.java:46: error: incompatible types: Object cannot be converted to LogFactory
+        LogFactory factory = LogFactory.factories.get(classLoader);
+                                                     ^
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/LogFactory.java:107: error: incompatible types: Object cannot be converted to String
+                final String name = names.nextElement();
+                                                     ^
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/LogFactory.java:128: error: incompatible types: Object cannot be converted to LogFactory
+                final LogFactory element = elements.nextElement();
+                                                               ^
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:37: error: incompatible types: Object cannot be converted to String
+            results[i] = names.elementAt(i);
+                                        ^
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:43: error: incompatible types: Object cannot be converted to Log
+        Log instance = this.instances.get(clazz);
+                                         ^
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:7: error: package org.apache.log4j does not exist
+import org.apache.log4j.Priority;
+                       ^
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:8: error: package org.apache.log4j does not exist
+import org.apache.log4j.Category;
+                       ^
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:14: error: cannot find symbol
+    private Category category;
+            ^
+  symbol:   class Category
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:21: error: cannot find symbol
+    public Log4JCategoryLog(final Category category) {
+                                  ^
+  symbol:   class Category
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:47: error: cannot find symbol
+        instance = new Log4JCategoryLog(Category.getInstance(clazz));
+                                        ^
+  symbol:   variable Category
+  location: class Log4jFactory
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:53: error: incompatible types: Object cannot be converted to Log
+        Log instance = this.instances.get(name);
+                                         ^
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4jFactory.java:57: error: cannot find symbol
+        instance = new Log4JCategoryLog(Category.getInstance(name));
+                                        ^
+  symbol:   variable Category
+  location: class Log4jFactory
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:18: error: cannot find symbol
+        this.category = Category.getInstance(name);
+                        ^
+  symbol:   variable Category
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:27: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.DEBUG, message, (Throwable)null);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:31: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.DEBUG, message, t);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:35: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.DEBUG, message, (Throwable)null);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:39: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.DEBUG, message, t);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:43: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.INFO, message, (Throwable)null);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:47: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.INFO, message, t);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:51: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.WARN, message, (Throwable)null);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:55: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.WARN, message, t);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:59: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.ERROR, message, (Throwable)null);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:63: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.ERROR, message, t);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:67: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.FATAL, message, (Throwable)null);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:71: error: cannot find symbol
+        this.category.log(Log4JCategoryLog.FQCN, Priority.FATAL, message, t);
+                                                 ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:79: error: cannot find symbol
+        return this.category.isEnabledFor(Priority.ERROR);
+                                          ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:83: error: cannot find symbol
+        return this.category.isEnabledFor(Priority.FATAL);
+                                          ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/impl/Log4JCategoryLog.java:95: error: cannot find symbol
+        return this.category.isEnabledFor(Priority.WARN);
+                                          ^
+  symbol:   variable Priority
+  location: class Log4JCategoryLog
+Note: sources/structure/commons-logging/commons-logging/1.0/Decompiled/org/apache/commons/logging/LogFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+29 errors

@@ -1,0 +1,24 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Optional.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Optional.java:41: error: <T>Optional(T) has private access in Optional
+    return new Optional<>(checkCriticalNotNull(value));
+           ^
+  where T is a type-variable:
+    T extends Object declared in class Optional
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Optional.java:48: error: <T>Optional(T) has private access in Optional
+  private static final Optional<?> EMPTY = new Optional<>(null);
+                                           ^
+  where T is a type-variable:
+    T extends Object declared in class Optional
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Optional.java:74: error: incompatible types: java.util.Optional<T> cannot be converted to java.util.Optional<T>
+      return this;
+             ^
+  where T is a type-variable:
+    T extends Object declared in class java.util.Optional
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Optional.java:119: error: cannot find symbol
+    return Objects.equals(ref, other.ref);
+                                    ^
+  symbol:   variable ref
+  location: variable other of type Optional<?>
+5 errors

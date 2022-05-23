@@ -1,0 +1,78 @@
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java:32: error: package com.jcraft.jsch does not exist
+import com.jcraft.jsch.ChannelExec;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java:33: error: package com.jcraft.jsch does not exist
+import com.jcraft.jsch.JSchException;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java:34: error: package com.jcraft.jsch does not exist
+import com.jcraft.jsch.Session;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java:21: error: package com.jcraft.jsch does not exist
+import com.jcraft.jsch.JSchException;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java:22: error: package com.jcraft.jsch does not exist
+import com.jcraft.jsch.Session;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java:23: error: package com.jcraft.jsch does not exist
+import com.jcraft.jsch.JSch;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHUserInfo.java:21: error: package com.jcraft.jsch does not exist
+import com.jcraft.jsch.UserInfo;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHUserInfo.java:22: error: package com.jcraft.jsch does not exist
+import com.jcraft.jsch.UIKeyboardInteractive;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHUserInfo.java:27: error: cannot find symbol
+public class SSHUserInfo implements UserInfo, UIKeyboardInteractive {
+                                    ^
+  symbol: class UserInfo
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHUserInfo.java:27: error: cannot find symbol
+public class SSHUserInfo implements UserInfo, UIKeyboardInteractive {
+                                              ^
+  symbol: class UIKeyboardInteractive
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java:198: error: cannot find symbol
+    protected Session openSession() throws JSchException {
+              ^
+  symbol:   class Session
+  location: class SSHBase
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java:198: error: cannot find symbol
+    protected Session openSession() throws JSchException {
+                                           ^
+  symbol:   class JSchException
+  location: class SSHBase
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java:199: error: cannot find symbol
+        JSch jsch = new JSch();
+        ^
+  symbol:   class JSch
+  location: class SSHBase
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java:199: error: cannot find symbol
+        JSch jsch = new JSch();
+                        ^
+  symbol:   class JSch
+  location: class SSHBase
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java:209: error: cannot find symbol
+        Session session = jsch.getSession(userInfo.getName(), host, port);
+        ^
+  symbol:   class Session
+  location: class SSHBase
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java:138: error: cannot find symbol
+        Session session = null;
+        ^
+  symbol:   class Session
+  location: class SSHExec
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java:143: error: cannot find symbol
+            final ChannelExec channel = (ChannelExec) session.openChannel("exec");
+                  ^
+  symbol:   class ChannelExec
+  location: class SSHExec
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java:143: error: cannot find symbol
+            final ChannelExec channel = (ChannelExec) session.openChannel("exec");
+                                         ^
+  symbol:   class ChannelExec
+  location: class SSHExec
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java:200: error: cannot find symbol
+        } catch (JSchException e) {
+                 ^
+  symbol:   class JSchException
+  location: class SSHExec
+19 errors

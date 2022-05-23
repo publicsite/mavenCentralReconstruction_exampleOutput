@@ -1,0 +1,90 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:7: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.RegisterSpec;
+                                      ^
+  symbol:   class RegisterSpec
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:8: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.RegisterSpecList;
+                                      ^
+  symbol:   class RegisterSpecList
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:9: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.SourcePosition;
+                                      ^
+  symbol:   class SourcePosition
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:10: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.RegisterSpecSet;
+                                      ^
+  symbol:   class RegisterSpecSet
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:12: error: cannot find symbol
+public final class LocalSnapshot extends ZeroSizeInsn
+                                         ^
+  symbol: class ZeroSizeInsn
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:14: error: cannot find symbol
+    private final RegisterSpecSet locals;
+                  ^
+  symbol:   class RegisterSpecSet
+  location: class LocalSnapshot
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:16: error: cannot find symbol
+    public LocalSnapshot(final SourcePosition position, final RegisterSpecSet locals) {
+                               ^
+  symbol:   class SourcePosition
+  location: class LocalSnapshot
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:16: error: cannot find symbol
+    public LocalSnapshot(final SourcePosition position, final RegisterSpecSet locals) {
+                                                              ^
+  symbol:   class RegisterSpecSet
+  location: class LocalSnapshot
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:25: error: cannot find symbol
+    public DalvInsn withRegisterOffset(final int delta) {
+           ^
+  symbol:   class DalvInsn
+  location: class LocalSnapshot
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:30: error: cannot find symbol
+    public DalvInsn withRegisters(final RegisterSpecList registers) {
+                                        ^
+  symbol:   class RegisterSpecList
+  location: class LocalSnapshot
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:30: error: cannot find symbol
+    public DalvInsn withRegisters(final RegisterSpecList registers) {
+           ^
+  symbol:   class DalvInsn
+  location: class LocalSnapshot
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:34: error: cannot find symbol
+    public RegisterSpecSet getLocals() {
+           ^
+  symbol:   class RegisterSpecSet
+  location: class LocalSnapshot
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:26: error: cannot find symbol
+        return new LocalSnapshot(this.getPosition(), this.locals.withOffset(delta));
+                                     ^
+  symbol: method getPosition()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:31: error: cannot find symbol
+        return new LocalSnapshot(this.getPosition(), this.locals);
+                                     ^
+  symbol: method getPosition()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:38: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:43: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:50: error: cannot find symbol
+            final RegisterSpec spec = this.locals.get(i);
+                  ^
+  symbol:   class RegisterSpec
+  location: class LocalSnapshot
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalSnapshot.java:53: error: cannot find symbol
+                sb.append(LocalStart.localString(spec));
+                          ^
+  symbol:   variable LocalStart
+  location: class LocalSnapshot
+20 errors

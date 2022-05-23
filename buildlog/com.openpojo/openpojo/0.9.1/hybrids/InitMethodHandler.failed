@@ -1,0 +1,92 @@
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:26: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.MethodVisitor;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:27: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Opcodes;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:29: error: package org.objectweb.asm does not exist
+import static org.objectweb.asm.Opcodes.INVOKESPECIAL;
+                               ^
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:29: error: static import only from classes and interfaces
+import static org.objectweb.asm.Opcodes.INVOKESPECIAL;
+^
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:30: error: package org.objectweb.asm does not exist
+import static org.objectweb.asm.Opcodes.RETURN;
+                               ^
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:30: error: static import only from classes and interfaces
+import static org.objectweb.asm.Opcodes.RETURN;
+^
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/MethodHandler.java:21: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.MethodVisitor;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:36: error: cannot find symbol
+  public void generateMethod(MethodVisitor methodVisitor,
+                             ^
+  symbol:   class MethodVisitor
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:57: error: cannot find symbol
+  private void prepareParametersToPassToSuper(String description, MethodVisitor methodVisitor) {
+                                                                  ^
+  symbol:   class MethodVisitor
+  location: class InitMethodHandler
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/MethodHandler.java:28: error: cannot find symbol
+  void generateMethod(MethodVisitor methodVisitor,
+                      ^
+  symbol:   class MethodVisitor
+  location: interface MethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:47: error: cannot find symbol
+    methodVisitor.visitMethodInsn(INVOKESPECIAL,
+                                  ^
+  symbol:   variable INVOKESPECIAL
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:52: error: cannot find symbol
+    methodVisitor.visitInsn(RETURN);
+                            ^
+  symbol:   variable RETURN
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:62: error: cannot find symbol
+    methodVisitor.visitVarInsn(Opcodes.ALOAD, offset++);
+                               ^
+  symbol:   variable Opcodes
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:69: error: cannot find symbol
+      if (opcode == Opcodes.DLOAD || opcode == Opcodes.LLOAD) // Double and Long take two registers.
+                    ^
+  symbol:   variable Opcodes
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:69: error: cannot find symbol
+      if (opcode == Opcodes.DLOAD || opcode == Opcodes.LLOAD) // Double and Long take two registers.
+                                               ^
+  symbol:   variable Opcodes
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:90: error: cannot find symbol
+          opcodes.add(Opcodes.ILOAD);
+                      ^
+  symbol:   variable Opcodes
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:93: error: cannot find symbol
+          opcodes.add(Opcodes.LLOAD);
+                      ^
+  symbol:   variable Opcodes
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:96: error: cannot find symbol
+          opcodes.add(Opcodes.FLOAD);
+                      ^
+  symbol:   variable Opcodes
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:99: error: cannot find symbol
+          opcodes.add(Opcodes.ALOAD);
+                      ^
+  symbol:   variable Opcodes
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:104: error: cannot find symbol
+          opcodes.add(Opcodes.DLOAD);
+                      ^
+  symbol:   variable Opcodes
+  location: class InitMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/InitMethodHandler.java:107: error: cannot find symbol
+          opcodes.add(Opcodes.ALOAD);
+                      ^
+  symbol:   variable Opcodes
+  location: class InitMethodHandler
+21 errors

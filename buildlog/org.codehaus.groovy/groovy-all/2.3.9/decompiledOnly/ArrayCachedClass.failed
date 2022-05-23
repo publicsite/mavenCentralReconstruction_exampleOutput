@@ -1,0 +1,62 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:7: error: cannot find symbol
+import groovy.lang.GString;
+                  ^
+  symbol:   class GString
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:8: error: cannot find symbol
+import org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
+                                               ^
+  symbol:   class DefaultTypeTransformation
+  location: package org.codehaus.groovy.runtime.typehandling
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:9: error: cannot find symbol
+import org.codehaus.groovy.reflection.ClassInfo;
+                                     ^
+  symbol:   class ClassInfo
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:10: error: cannot find symbol
+import org.codehaus.groovy.reflection.CachedClass;
+                                     ^
+  symbol:   class CachedClass
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:12: error: cannot find symbol
+public class ArrayCachedClass extends CachedClass
+                                      ^
+  symbol: class CachedClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:14: error: cannot find symbol
+    public ArrayCachedClass(final Class klazz, final ClassInfo classInfo) {
+                                                     ^
+  symbol:   class ClassInfo
+  location: class ArrayCachedClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:18: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:25: error: cannot find symbol
+        final Class paramComponent = this.getTheClass().getComponentType();
+                                         ^
+  symbol: method getTheClass()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:27: error: cannot find symbol
+            argument = DefaultTypeTransformation.convertToPrimitiveArray(argument, paramComponent);
+                       ^
+  symbol:   variable DefaultTypeTransformation
+  location: class ArrayCachedClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:29: error: cannot find symbol
+        else if (paramComponent == String.class && argument instanceof GString[]) {
+                                                                       ^
+  symbol:   class GString
+  location: class ArrayCachedClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:30: error: cannot find symbol
+            final GString[] strings = (GString[])argument;
+                  ^
+  symbol:   class GString
+  location: class ArrayCachedClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:30: error: cannot find symbol
+            final GString[] strings = (GString[])argument;
+                                       ^
+  symbol:   class GString
+  location: class ArrayCachedClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/ArrayCachedClass.java:38: error: cannot find symbol
+            argument = DefaultTypeTransformation.primitiveArrayBox(argument);
+                       ^
+  symbol:   variable DefaultTypeTransformation
+  location: class ArrayCachedClass
+13 errors

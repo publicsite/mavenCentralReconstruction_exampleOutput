@@ -1,0 +1,70 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:7: error: cannot find symbol
+import org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
+                                               ^
+  symbol:   class DefaultTypeTransformation
+  location: package org.codehaus.groovy.runtime.typehandling
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:10: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:12: error: cannot find symbol
+public class FilteredNodeChildren extends NodeChildren
+                                          ^
+  symbol: class NodeChildren
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:14: error: cannot find symbol
+    private final Closure closure;
+                  ^
+  symbol:   class Closure
+  location: class FilteredNodeChildren
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:16: error: cannot find symbol
+    public FilteredNodeChildren(final GPathResult parent, final Closure closure, final Map<String, String> namespaceTagHints) {
+                                      ^
+  symbol:   class GPathResult
+  location: class FilteredNodeChildren
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:16: error: cannot find symbol
+    public FilteredNodeChildren(final GPathResult parent, final Closure closure, final Map<String, String> namespaceTagHints) {
+                                                                ^
+  symbol:   class Closure
+  location: class FilteredNodeChildren
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:22: error: cannot find symbol
+    public GPathResult pop() {
+           ^
+  symbol:   class GPathResult
+  location: class FilteredNodeChildren
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:21: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:23: error: cannot find symbol
+        return this.parent.parent;
+                   ^
+  symbol: variable parent
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:26: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:33: error: cannot find symbol
+                    if (FilteredNodeChildren.this.closureYieldsTrueForNode(new NodeChild((Node)node, FilteredNodeChildren.this.parent, FilteredNodeChildren.this.namespaceTagHints))) {
+                                                                               ^
+  symbol: class NodeChild
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:33: error: cannot find symbol
+                    if (FilteredNodeChildren.this.closureYieldsTrueForNode(new NodeChild((Node)node, FilteredNodeChildren.this.parent, FilteredNodeChildren.this.namespaceTagHints))) {
+                                                                                          ^
+  symbol: class Node
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:33: error: cannot find symbol
+                    if (FilteredNodeChildren.this.closureYieldsTrueForNode(new NodeChild((Node)node, FilteredNodeChildren.this.parent, FilteredNodeChildren.this.namespaceTagHints))) {
+                                                                                                                              ^
+  symbol: variable parent
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:33: error: cannot find symbol
+                    if (FilteredNodeChildren.this.closureYieldsTrueForNode(new NodeChild((Node)node, FilteredNodeChildren.this.parent, FilteredNodeChildren.this.namespaceTagHints))) {
+                                                                                                                                                                ^
+  symbol: variable namespaceTagHints
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:28: error: cannot find symbol
+        return new NodeIterator(this.parent.nodeIterator()) {
+                                    ^
+  symbol: variable parent
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/slurpersupport/FilteredNodeChildren.java:43: error: cannot find symbol
+        return DefaultTypeTransformation.castToBoolean(this.closure.call(new Object[] { childNode }));
+               ^
+  symbol:   variable DefaultTypeTransformation
+  location: class FilteredNodeChildren
+16 errors

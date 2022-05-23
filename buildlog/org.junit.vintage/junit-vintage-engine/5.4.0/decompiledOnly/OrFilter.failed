@@ -1,0 +1,14 @@
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/discovery/OrFilter.java:11: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/discovery/OrFilter.java:20: error: cannot find symbol
+        this.filters = (Collection<? extends Filter>)Preconditions.notEmpty((Collection)filters, "filters must not be empty");
+                                                     ^
+  symbol:   variable Preconditions
+  location: class OrFilter
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/discovery/OrFilter.java:28: error: incompatible types: Collector<CharSequence,CAP#1,String> cannot be converted to Collector<? super Object,?,String>
+        return this.filters.stream().map((Function<? super Filter, ?>)Filter::describe).collect((Collector<? super Object, ?, String>)Collectors.joining(" OR "));
+                                                                                                                                                        ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+3 errors

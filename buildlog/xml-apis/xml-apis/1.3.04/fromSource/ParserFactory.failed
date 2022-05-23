@@ -1,0 +1,24 @@
+sources/structure/xml-apis/xml-apis/1.3.04/extractedSources/org/xml/sax/helpers/ParserFactory.java:6: error: package exists in another module: java.xml
+package org.xml.sax.helpers;
+^
+sources/structure/xml-apis/xml-apis/1.3.04/extractedSources/org/xml/sax/helpers/ParserFactory.java:81: error: cannot find symbol
+        SecuritySupport ss = SecuritySupport.getInstance();
+        ^
+  symbol:   class SecuritySupport
+  location: class ParserFactory
+sources/structure/xml-apis/xml-apis/1.3.04/extractedSources/org/xml/sax/helpers/ParserFactory.java:81: error: cannot find symbol
+        SecuritySupport ss = SecuritySupport.getInstance();
+                             ^
+  symbol:   variable SecuritySupport
+  location: class ParserFactory
+sources/structure/xml-apis/xml-apis/1.3.04/extractedSources/org/xml/sax/helpers/ParserFactory.java:118: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+        return (Parser) NewInstance.newInstance (
+                        ^
+sources/structure/xml-apis/xml-apis/1.3.04/extractedSources/org/xml/sax/helpers/ParserFactory.java:119: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+                NewInstance.getClassLoader (), className);
+                ^
+sources/structure/xml-apis/xml-apis/1.3.04/extractedSources/org/xml/sax/helpers/ParserFactory.java:42: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public class ParserFactory {
+       ^
+5 errors
+1 warning

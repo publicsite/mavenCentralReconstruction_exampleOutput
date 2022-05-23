@@ -1,0 +1,75 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:7: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Type;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:9: error: cannot find symbol
+public final class CstFieldRef extends CstMemberRef
+                                       ^
+  symbol: class CstMemberRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:11: error: cannot find symbol
+    public static CstFieldRef forPrimitiveType(final Type primitiveType) {
+                                                     ^
+  symbol:   class Type
+  location: class CstFieldRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:15: error: cannot find symbol
+    public CstFieldRef(final CstType definingClass, final CstNat nat) {
+                             ^
+  symbol:   class CstType
+  location: class CstFieldRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:15: error: cannot find symbol
+    public CstFieldRef(final CstType definingClass, final CstNat nat) {
+                                                          ^
+  symbol:   class CstNat
+  location: class CstFieldRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:24: error: cannot find symbol
+    public Type getType() {
+           ^
+  symbol:   class Type
+  location: class CstFieldRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:12: error: cannot find symbol
+        return new CstFieldRef(CstType.forBoxedPrimitiveType(primitiveType), CstNat.PRIMITIVE_TYPE_NAT);
+                                                                             ^
+  symbol:   variable CstNat
+  location: class CstFieldRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:12: error: cannot find symbol
+        return new CstFieldRef(CstType.forBoxedPrimitiveType(primitiveType), CstNat.PRIMITIVE_TYPE_NAT);
+                               ^
+  symbol:   variable CstType
+  location: class CstFieldRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:19: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:25: error: cannot find symbol
+        return this.getNat().getFieldType();
+                   ^
+  symbol: method getNat()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:30: error: cannot find symbol
+        final int cmp = super.compareTo0(other);
+                        ^
+  symbol:   variable super
+  location: class CstFieldRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:34: error: incompatible types: Constant cannot be converted to CstFieldRef
+        final CstFieldRef otherField = (CstFieldRef)other;
+                                                    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:35: error: cannot find symbol
+        final CstString thisDescriptor = this.getNat().getDescriptor();
+              ^
+  symbol:   class CstString
+  location: class CstFieldRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:35: error: cannot find symbol
+        final CstString thisDescriptor = this.getNat().getDescriptor();
+                                             ^
+  symbol: method getNat()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:36: error: cannot find symbol
+        final CstString otherDescriptor = otherField.getNat().getDescriptor();
+              ^
+  symbol:   class CstString
+  location: class CstFieldRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFieldRef.java:36: error: cannot find symbol
+        final CstString otherDescriptor = otherField.getNat().getDescriptor();
+                                                    ^
+  symbol:   method getNat()
+  location: variable otherField of type CstFieldRef
+17 errors

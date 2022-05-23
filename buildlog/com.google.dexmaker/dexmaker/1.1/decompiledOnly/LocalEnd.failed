@@ -1,0 +1,80 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:7: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.RegisterSpecList;
+                                      ^
+  symbol:   class RegisterSpecList
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:8: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.SourcePosition;
+                                      ^
+  symbol:   class SourcePosition
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:9: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.RegisterSpec;
+                                      ^
+  symbol:   class RegisterSpec
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:11: error: cannot find symbol
+public final class LocalEnd extends ZeroSizeInsn
+                                    ^
+  symbol: class ZeroSizeInsn
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:13: error: cannot find symbol
+    private final RegisterSpec local;
+                  ^
+  symbol:   class RegisterSpec
+  location: class LocalEnd
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:15: error: cannot find symbol
+    public LocalEnd(final SourcePosition position, final RegisterSpec local) {
+                          ^
+  symbol:   class SourcePosition
+  location: class LocalEnd
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:15: error: cannot find symbol
+    public LocalEnd(final SourcePosition position, final RegisterSpec local) {
+                                                         ^
+  symbol:   class RegisterSpec
+  location: class LocalEnd
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:24: error: cannot find symbol
+    public DalvInsn withRegisterOffset(final int delta) {
+           ^
+  symbol:   class DalvInsn
+  location: class LocalEnd
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:29: error: cannot find symbol
+    public DalvInsn withRegisters(final RegisterSpecList registers) {
+                                        ^
+  symbol:   class RegisterSpecList
+  location: class LocalEnd
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:29: error: cannot find symbol
+    public DalvInsn withRegisters(final RegisterSpecList registers) {
+           ^
+  symbol:   class DalvInsn
+  location: class LocalEnd
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:33: error: cannot find symbol
+    public RegisterSpec getLocal() {
+           ^
+  symbol:   class RegisterSpec
+  location: class LocalEnd
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:25: error: cannot find symbol
+        return new LocalEnd(this.getPosition(), this.local.withOffset(delta));
+                                ^
+  symbol: method getPosition()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:30: error: cannot find symbol
+        return new LocalEnd(this.getPosition(), this.local);
+                                ^
+  symbol: method getPosition()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:37: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:42: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/LocalEnd.java:44: error: cannot find symbol
+        return "local-end " + LocalStart.localString(this.local);
+                              ^
+  symbol:   variable LocalStart
+  location: class LocalEnd
+18 errors

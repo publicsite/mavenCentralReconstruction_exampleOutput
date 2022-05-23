@@ -1,0 +1,225 @@
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:18: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkState;
+                                    ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:18: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkState;
+^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:26: error: cannot find symbol
+import com.google.common.collect.ImmutableSet;
+                                ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:27: error: cannot find symbol
+import com.google.common.collect.Iterators;
+                                ^
+  symbol:   class Iterators
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:28: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:29: error: cannot find symbol
+import com.google.common.collect.Multimap;
+                                ^
+  symbol:   class Multimap
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultimapTester.java:22: error: cannot find symbol
+import com.google.common.collect.Multimap;
+                                ^
+  symbol:   class Multimap
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:44: error: cannot find symbol
+public class MultimapPutIterableTester<K, V> extends AbstractMultimapTester<K, V, Multimap<K, V>> {
+                                                                                  ^
+  symbol: class Multimap
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultimapTester.java:39: error: cannot find symbol
+public abstract class AbstractMultimapTester<K, V, M extends Multimap<K, V>>
+                                                             ^
+  symbol: class Multimap
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultimapTester.java:129: error: cannot find symbol
+  protected Multimap<K, V> resetContainer(Entry<K, V>... newContents) {
+            ^
+  symbol:   class Multimap
+  location: class AbstractMultimapTester<K,V,M>
+  where K,V,M are type-variables:
+    K extends Object declared in class AbstractMultimapTester
+    V extends Object declared in class AbstractMultimapTester
+    M declared in class AbstractMultimapTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestMultimapGenerator.java:20: error: cannot find symbol
+import com.google.common.collect.Multimap;
+                                ^
+  symbol:   class Multimap
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestMultimapGenerator.java:32: error: cannot find symbol
+public interface TestMultimapGenerator<K, V, M extends Multimap<K, V>>
+                                                       ^
+  symbol: class Multimap
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultimapTester.java:106: error: cannot find symbol
+    return ((TestMultimapGenerator<K, V, ? extends Multimap<K, V>>)
+                                                   ^
+  symbol:   class Multimap
+  location: class AbstractMultimapTester<K,V,M>
+  where K,V,M are type-variables:
+    K extends Object declared in class AbstractMultimapTester
+    V extends Object declared in class AbstractMultimapTester
+    M declared in class AbstractMultimapTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultimapTester.java:112: error: cannot find symbol
+    return ((TestMultimapGenerator<K, V, ? extends Multimap<K, V>>)
+                                                   ^
+  symbol:   class Multimap
+  location: class AbstractMultimapTester<K,V,M>
+  where K,V,M are type-variables:
+    K extends Object declared in class AbstractMultimapTester
+    V extends Object declared in class AbstractMultimapTester
+    M declared in class AbstractMultimapTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultimapTester.java:124: error: name clash: resetContainer(M) in AbstractMultimapTester and resetContainer(Entry<K,V>[]) in AbstractMultimapTester have the same erasure, yet neither overrides the other
+  protected M resetContainer(M newContents) {
+              ^
+  where M,K,V are type-variables:
+    M declared in class AbstractMultimapTester
+    K extends Object declared in class AbstractMultimapTester
+    V extends Object declared in class AbstractMultimapTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:55: error: cannot find symbol
+                    return Lists.newArrayList(v3(), v4()).iterator();
+                           ^
+  symbol: variable Lists
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:64: error: cannot find symbol
+    assertTrue(multimap().putAll(k0(), Lists.newArrayList(v3(), v4())));
+                                       ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:77: error: cannot find symbol
+                    return Lists.newArrayList(v3(), v4()).iterator();
+                           ^
+  symbol: variable Lists
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:85: error: cannot find symbol
+    assertTrue(multimap().putAll(k3(), Lists.newArrayList(v3(), v4())));
+                                       ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:92: error: cannot find symbol
+    assertTrue(multimap().putAll(k0(), Lists.newArrayList(v3(), null)));
+                                       ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:98: error: cannot find symbol
+    assertTrue(multimap().putAll(k3(), Lists.newArrayList(v3(), null)));
+                                       ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:104: error: cannot find symbol
+    multimap().putAll(k1(), Lists.newArrayList((V) null));
+                            ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:115: error: cannot find symbol
+      multimap().putAll(k3(), Lists.newArrayList(v3(), null));
+                              ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:124: error: cannot find symbol
+      assertEquals(Lists.newArrayList(), Lists.newArrayList(values));
+                   ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:124: error: cannot find symbol
+      assertEquals(Lists.newArrayList(), Lists.newArrayList(values));
+                                         ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:127: error: cannot find symbol
+      assertEquals(Lists.newArrayList(v3()), Lists.newArrayList(values));
+                   ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:127: error: cannot find symbol
+      assertEquals(Lists.newArrayList(v3()), Lists.newArrayList(values));
+                                             ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:137: error: cannot find symbol
+      multimap().putAll(k3(), Lists.newArrayList(null, v3()));
+                              ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:149: error: cannot find symbol
+    assertEquals(Lists.newArrayList(), Lists.newArrayList(multimap().get(k3())));
+                 ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:149: error: cannot find symbol
+    assertEquals(Lists.newArrayList(), Lists.newArrayList(multimap().get(k3())));
+                                       ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:155: error: cannot find symbol
+    assertTrue(multimap().putAll(null, Lists.newArrayList(v3(), v4())));
+                                       ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:181: error: cannot find symbol
+            return ImmutableSet.<V>of().iterator();
+                   ^
+  symbol: variable ImmutableSet
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:204: error: cannot find symbol
+            checkState(!calledIteratorAlready);
+            ^
+  symbol: method checkState(boolean)
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:206: error: cannot find symbol
+            return Iterators.forArray(v3());
+                   ^
+  symbol: variable Iterators
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapPutIterableTester.java:217: error: cannot find symbol
+    assertTrue(multimap().putAll(k0(), Lists.newArrayList(v3(), v4())));
+                                       ^
+  symbol:   variable Lists
+  location: class MultimapPutIterableTester<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MultimapPutIterableTester
+    V extends Object declared in class MultimapPutIterableTester
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+35 errors

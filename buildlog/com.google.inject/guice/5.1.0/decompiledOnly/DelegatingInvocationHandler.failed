@@ -1,0 +1,18 @@
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DelegatingInvocationHandler.java:8: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DelegatingInvocationHandler.java:20: error: cannot find symbol
+            Preconditions.checkState(this.initialized, (Object)"This is a proxy used to support circular references. The object we're proxying is not constructed yet. Please wait until after injection has completed to use this object.");
+            ^
+  symbol:   variable Preconditions
+  location: class DelegatingInvocationHandler<T>
+  where T is a type-variable:
+    T extends Object declared in class DelegatingInvocationHandler
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DelegatingInvocationHandler.java:21: error: cannot find symbol
+            Preconditions.checkNotNull((Object)this.delegate, (Object)"This is a proxy used to support circular references. The object we're  proxying is initialized to null. No methods can be called.");
+            ^
+  symbol:   variable Preconditions
+  location: class DelegatingInvocationHandler<T>
+  where T is a type-variable:
+    T extends Object declared in class DelegatingInvocationHandler
+3 errors

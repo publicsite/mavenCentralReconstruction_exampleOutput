@@ -1,0 +1,79 @@
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:32: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:369: error: cannot find symbol
+                public static class Factory extends ForSocketFile
+                                                    ^
+  symbol:   class ForSocketFile
+  location: class ForJnaPosixSocket
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:729: error: cannot find symbol
+                public static class Factory extends ForSocketFile
+                                                    ^
+  symbol:   class ForSocketFile
+  location: class ForJnaSolarisDoor
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:1499: error: cannot find symbol
+                    @SuppressFBWarnings(value = { "URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD", "UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" }, justification = "Field required by native implementation.")
+                     ^
+  symbol:   class SuppressFBWarnings
+  location: interface WindowsLibrary
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:435: error: cannot find symbol
+                        @SuppressFBWarnings(value = { "URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" }, justification = "Field required by native implementation.")
+                         ^
+  symbol:   class SuppressFBWarnings
+  location: class SocketAddress
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:654: error: cannot find symbol
+                @SuppressFBWarnings(value = { "UWF_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD", "URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD" }, justification = "This pattern is required for use of JNA.")
+                 ^
+  symbol:   class SuppressFBWarnings
+  location: class ForJnaSolarisDoor
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:797: error: cannot find symbol
+                    @SuppressFBWarnings(value = { "DMI_HARDCODED_ABSOLUTE_FILENAME" }, justification = "File name convention is specified.")
+                     ^
+  symbol:   class SuppressFBWarnings
+  location: class ForSocketFile
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:1187: error: cannot find symbol
+                @SuppressFBWarnings(value = { "OS_OPEN_STREAM" }, justification = "The stream life-cycle is bound to its process.")
+                 ^
+  symbol:   class SuppressFBWarnings
+  location: class ForJnaPosixEnvironment
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:1239: error: cannot find symbol
+                @SuppressFBWarnings(value = { "URF_UNREAD_PUBLIC_OR_PROTECTED_FIELD", "UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD" }, justification = "Modifier is required by JNA.")
+                 ^
+  symbol:   class SuppressFBWarnings
+  location: class ForJnaPosixEnvironment
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:125: error: incompatible types: net.bytebuddy.agent.VirtualMachine.ForHotSpot.Connection.ForJnaSolarisDoor.Factory cannot be converted to net.bytebuddy.agent.VirtualMachine.ForHotSpot.Connection.Factory
+                return attach(processId, new Connection.ForJnaSolarisDoor.Factory(15, 100L, TimeUnit.MILLISECONDS));
+                                         ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:215: error: cannot find symbol
+                if (!(entry.getKey() instanceof String) || !entry.getKey().startsWith("com.sun.management.")) {
+                                                                          ^
+  symbol:   method startsWith(String)
+  location: class Object
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:224: error: cannot find symbol
+                stringBuilder.append(entry.getKey().substring("com.sun.management.".length())).append('=');
+                                                   ^
+  symbol:   method substring(int)
+  location: class Object
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:276: error: incompatible types: Object cannot be converted to T
+                        return new Response((Object)connection);
+                                            ^
+  where T is a type-variable:
+    T extends Object declared in class OnPersistentByteChannel
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:399: error: incompatible types: net.bytebuddy.agent.VirtualMachine.ForHotSpot.Connection.ForJnaPosixSocket.Factory cannot be converted to net.bytebuddy.agent.VirtualMachine.ForHotSpot.Connection.Factory
+                        return new Factory(temporaryDirectory, attempts, pause, timeUnit);
+                               ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:402: error: method does not override or implement a method from a supertype
+                    @Override
+                    ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:738: error: method does not override or implement a method from a supertype
+                    @Override
+                    ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java:743: error: method does not override or implement a method from a supertype
+                    @Override
+                    ^
+Note: sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/VirtualMachine.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+17 errors

@@ -1,0 +1,27 @@
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/data/CoverageData.java:46: error: incompatible types: Object cannot be converted to DataHolder
+        return this.m_coverageMap.get(cls.getClassVMName());
+                                     ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/data/CoverageData.java:63: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry entry : rhscoverageData.entrySet()) {
+                                                             ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/data/CoverageData.java:64: error: incompatible types: Object cannot be converted to String
+            final String classVMName = entry.getKey();
+                                                   ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/data/CoverageData.java:65: error: incompatible types: Object cannot be converted to DataHolder
+            final DataHolder rhsdata = entry.getValue();
+                                                     ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/data/CoverageData.java:66: error: incompatible types: Object cannot be converted to DataHolder
+            final DataHolder data = this.m_coverageMap.get(classVMName);
+                                                          ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/data/CoverageData.java:118: error: incompatible types: Object cannot be converted to Entry
+            final Map.Entry entry = entries.next();
+                                                ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/data/CoverageData.java:119: error: incompatible types: Object cannot be converted to String
+            final String classVMName = entry.getKey();
+                                                   ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/data/CoverageData.java:120: error: incompatible types: Object cannot be converted to DataHolder
+            final DataHolder data = entry.getValue();
+                                                  ^
+Note: sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/data/CoverageData.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

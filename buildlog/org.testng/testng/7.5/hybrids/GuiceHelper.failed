@@ -1,0 +1,126 @@
+hybrids/org.testng/testng/7.5/GuiceHelper.java:8: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+hybrids/org.testng/testng/7.5/GuiceHelper.java:9: error: cannot find symbol
+import com.google.inject.Module;
+                        ^
+  symbol:   class Module
+  location: package com.google.inject
+hybrids/org.testng/testng/7.5/GuiceHelper.java:34: error: cannot find symbol
+  private final Map<List<Module>, Injector> m_injectors = Maps.newHashMap();
+                                  ^
+  symbol:   class Injector
+  location: class GuiceHelper
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IInjectorFactory.java:3: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IInjectorFactory.java:4: error: cannot find symbol
+import com.google.inject.Module;
+                        ^
+  symbol:   class Module
+  location: package com.google.inject
+hybrids/org.testng/testng/7.5/GuiceHelper.java:59: error: cannot find symbol
+  Injector getInjector(IClass iClass, IInjectorFactory injectorFactory) {
+  ^
+  symbol:   class Injector
+  location: class GuiceHelper
+hybrids/org.testng/testng/7.5/GuiceHelper.java:63: error: cannot find symbol
+  Injector getInjector(Class<?> cls, IInjectorFactory injectorFactory) {
+  ^
+  symbol:   class Injector
+  location: class GuiceHelper
+hybrids/org.testng/testng/7.5/GuiceHelper.java:83: error: cannot find symbol
+  private Injector getParentInjector(IInjectorFactory factory) {
+          ^
+  symbol:   class Injector
+  location: class GuiceHelper
+hybrids/org.testng/testng/7.5/GuiceHelper.java:107: error: cannot find symbol
+  private void addInjector(List<Module> moduleInstances, Injector injector) {
+                                                         ^
+  symbol:   class Injector
+  location: class GuiceHelper
+hybrids/org.testng/testng/7.5/GuiceHelper.java:111: error: cannot find symbol
+  Injector getInjector(List<Module> moduleInstances) {
+  ^
+  symbol:   class Injector
+  location: class GuiceHelper
+hybrids/org.testng/testng/7.5/GuiceHelper.java:169: error: cannot find symbol
+      Injector parent, IInjectorFactory injectorFactory, List<Module> moduleInstances) {
+      ^
+  symbol:   class Injector
+  location: class GuiceHelper
+hybrids/org.testng/testng/7.5/GuiceHelper.java:168: error: cannot find symbol
+  private Injector createInjector(
+          ^
+  symbol:   class Injector
+  location: class GuiceHelper
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/annotations/Guice.java:5: error: cannot find symbol
+import com.google.inject.Module;
+                        ^
+  symbol:   class Module
+  location: package com.google.inject
+hybrids/org.testng/testng/7.5/GuiceHelper.java:186: error: cannot find symbol
+  private List<Module> getModules(Guice guice, Injector parentInjector, Class<?> testClass) {
+                                               ^
+  symbol:   class Injector
+  location: class GuiceHelper
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IModuleFactory.java:3: error: cannot find symbol
+import com.google.inject.Module;
+                        ^
+  symbol:   class Module
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IInjectorFactory.java:20: error: cannot find symbol
+  Injector getInjector(Stage stage, Module... modules);
+  ^
+  symbol:   class Injector
+  location: interface IInjectorFactory
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IInjectorFactory.java:33: error: cannot find symbol
+  default Injector getInjector(@Nullable Injector parent, Stage stage, Module... modules) {
+                                         ^
+  symbol:   class Injector
+  location: interface IInjectorFactory
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IInjectorFactory.java:33: error: cannot find symbol
+  default Injector getInjector(@Nullable Injector parent, Stage stage, Module... modules) {
+          ^
+  symbol:   class Injector
+  location: interface IInjectorFactory
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:3: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:85: error: cannot find symbol
+  Injector getParentInjector();
+  ^
+  symbol:   class Injector
+  location: interface ISuite
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:87: error: cannot find symbol
+  void setParentInjector(Injector injector);
+                         ^
+  symbol:   class Injector
+  location: interface ISuite
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IModule.java:3: error: cannot find symbol
+import com.google.inject.Module;
+                        ^
+  symbol:   class Module
+  location: package com.google.inject
+hybrids/org.testng/testng/7.5/GuiceHelper.java:68: error: cannot find symbol
+    Injector parentInjector = getParentInjector(injectorFactory);
+    ^
+  symbol:   class Injector
+  location: class GuiceHelper
+hybrids/org.testng/testng/7.5/GuiceHelper.java:75: error: cannot find symbol
+    Injector injector = getInjector(classLevelModules);
+    ^
+  symbol:   class Injector
+  location: class GuiceHelper
+hybrids/org.testng/testng/7.5/GuiceHelper.java:85: error: cannot find symbol
+    Injector injector = null;
+    ^
+  symbol:   class Injector
+  location: class GuiceHelper
+25 errors

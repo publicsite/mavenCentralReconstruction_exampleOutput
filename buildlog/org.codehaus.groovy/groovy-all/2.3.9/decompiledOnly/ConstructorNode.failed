@@ -1,0 +1,101 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:7: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.Expression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:8: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ConstructorCallExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:9: error: package org.codehaus.groovy.ast.stmt does not exist
+import org.codehaus.groovy.ast.stmt.ExpressionStatement;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:10: error: package org.codehaus.groovy.ast.stmt does not exist
+import org.codehaus.groovy.ast.stmt.Statement;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:12: error: cannot find symbol
+public class ConstructorNode extends MethodNode
+                                     ^
+  symbol: class MethodNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:14: error: cannot find symbol
+    public ConstructorNode(final int modifiers, final Statement code) {
+                                                      ^
+  symbol:   class Statement
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:18: error: cannot find symbol
+    public ConstructorNode(final int modifiers, final Parameter[] parameters, final ClassNode[] exceptions, final Statement code) {
+                                                      ^
+  symbol:   class Parameter
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:18: error: cannot find symbol
+    public ConstructorNode(final int modifiers, final Parameter[] parameters, final ClassNode[] exceptions, final Statement code) {
+                                                                                    ^
+  symbol:   class ClassNode
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:18: error: cannot find symbol
+    public ConstructorNode(final int modifiers, final Parameter[] parameters, final ClassNode[] exceptions, final Statement code) {
+                                                                                                                  ^
+  symbol:   class Statement
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:15: error: cannot find symbol
+        this(modifiers, Parameter.EMPTY_ARRAY, ClassNode.EMPTY_ARRAY, code);
+                        ^
+  symbol:   variable Parameter
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:15: error: cannot find symbol
+        this(modifiers, Parameter.EMPTY_ARRAY, ClassNode.EMPTY_ARRAY, code);
+                                               ^
+  symbol:   variable ClassNode
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:19: error: cannot find symbol
+        super("<init>", modifiers, ClassHelper.VOID_TYPE, parameters, exceptions, code);
+                                   ^
+  symbol:   variable ClassHelper
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:20: error: cannot find symbol
+        final VariableScope scope = new VariableScope();
+              ^
+  symbol:   class VariableScope
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:20: error: cannot find symbol
+        final VariableScope scope = new VariableScope();
+                                        ^
+  symbol:   class VariableScope
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:28: error: cannot find symbol
+        final Statement code = this.getFirstStatement();
+              ^
+  symbol:   class Statement
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:28: error: cannot find symbol
+        final Statement code = this.getFirstStatement();
+                                   ^
+  symbol: method getFirstStatement()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:29: error: cannot find symbol
+        if (code == null || !(code instanceof ExpressionStatement)) {
+                                              ^
+  symbol:   class ExpressionStatement
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:32: error: cannot find symbol
+        final Expression expression = ((ExpressionStatement)code).getExpression();
+              ^
+  symbol:   class Expression
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:32: error: cannot find symbol
+        final Expression expression = ((ExpressionStatement)code).getExpression();
+                                        ^
+  symbol:   class ExpressionStatement
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:33: error: cannot find symbol
+        if (!(expression instanceof ConstructorCallExpression)) {
+                                    ^
+  symbol:   class ConstructorCallExpression
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:36: error: cannot find symbol
+        final ConstructorCallExpression cce = (ConstructorCallExpression)expression;
+              ^
+  symbol:   class ConstructorCallExpression
+  location: class ConstructorNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/ConstructorNode.java:36: error: cannot find symbol
+        final ConstructorCallExpression cce = (ConstructorCallExpression)expression;
+                                               ^
+  symbol:   class ConstructorCallExpression
+  location: class ConstructorNode
+22 errors

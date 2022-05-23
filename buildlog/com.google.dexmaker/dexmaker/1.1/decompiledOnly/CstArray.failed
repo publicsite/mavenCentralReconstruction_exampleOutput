@@ -1,0 +1,62 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:7: error: cannot find symbol
+import com.google.dexmaker.dx.util.FixedSizeList;
+                                  ^
+  symbol:   class FixedSizeList
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:59: error: cannot find symbol
+    public static final class List extends FixedSizeList implements Comparable<List>
+                                           ^
+  symbol:   class FixedSizeList
+  location: class CstArray
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:17: error: cannot find symbol
+        list.throwIfMutable();
+            ^
+  symbol:   method throwIfMutable()
+  location: variable list of type List
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:23: error: cannot find symbol
+        return other instanceof CstArray && this.list.equals(((CstArray)other).list);
+                                                     ^
+  symbol:   method equals(List)
+  location: variable list of type List
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:28: error: cannot find symbol
+        return this.list.hashCode();
+                        ^
+  symbol:   method hashCode()
+  location: variable list of type List
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:38: error: cannot find symbol
+        return this.list.toString("array{", ", ", "}");
+                        ^
+  symbol:   method toString(String,String,String)
+  location: variable list of type List
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:52: error: cannot find symbol
+        return this.list.toHuman("{", ", ", "}");
+                        ^
+  symbol:   method toHuman(String,String,String)
+  location: variable list of type List
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:66: error: cannot find symbol
+            final int thisSize = this.size();
+                                     ^
+  symbol: method size()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:67: error: cannot find symbol
+            final int otherSize = other.size();
+                                       ^
+  symbol:   method size()
+  location: variable other of type List
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:69: error: cannot find symbol
+                final Constant thisItem = (Constant)this.get0(i);
+                                                        ^
+  symbol: method get0(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:70: error: cannot find symbol
+                final Constant otherItem = (Constant)other.get0(i);
+                                                          ^
+  symbol:   method get0(int)
+  location: variable other of type List
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:86: error: cannot find symbol
+            return (Constant)this.get0(n);
+                                 ^
+  symbol: method get0(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstArray.java:90: error: cannot find symbol
+            this.set0(n, a);
+                ^
+  symbol: method set0(int,Constant)
+13 errors

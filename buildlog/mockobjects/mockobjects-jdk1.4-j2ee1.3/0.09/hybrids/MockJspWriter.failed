@@ -1,0 +1,35 @@
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockJspWriter.java:3: error: cannot find symbol
+import com.mockobjects.ExpectationValue;
+                      ^
+  symbol:   class ExpectationValue
+  location: package com.mockobjects
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockJspWriter.java:4: error: package com.mockobjects.util does not exist
+import com.mockobjects.util.AssertMo;
+                           ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockJspWriter.java:6: error: package javax.servlet.jsp does not exist
+import javax.servlet.jsp.JspWriter;
+                        ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockJspWriter.java:10: error: cannot find symbol
+public class MockJspWriter extends JspWriter {
+                                   ^
+  symbol: class JspWriter
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockJspWriter.java:11: error: cannot find symbol
+    private final ExpectationValue expectedData = new ExpectationValue("data");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockJspWriter
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockJspWriter.java:11: error: cannot find symbol
+    private final ExpectationValue expectedData = new ExpectationValue("data");
+                                                      ^
+  symbol:   class ExpectationValue
+  location: class MockJspWriter
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockJspWriter.java:24: error: cannot find symbol
+        AssertMo.notImplemented(this.getClass().getName());
+        ^
+  symbol:   variable AssertMo
+  location: class MockJspWriter
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockJspWriter.java:24: error: cannot find symbol
+        AssertMo.notImplemented(this.getClass().getName());
+                                    ^
+  symbol: method getClass()
+8 errors

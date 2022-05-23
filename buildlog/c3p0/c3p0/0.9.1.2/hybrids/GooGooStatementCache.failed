@@ -1,0 +1,301 @@
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:158: error: illegal start of expression
+        protected DeathmarchConnectionStatementManager() {
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:158: error: invalid method declaration; return type required
+        protected DeathmarchConnectionStatementManager() {
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:183: error: class, interface, or enum expected
+}
+^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:188: error: class, interface, or enum expected
+                removeStatementFromDeathmarches( out, physicalConnection );
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:189: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:197: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:200: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:210: error: class, interface, or enum expected
+                throw new ResourceClosedException( npe );
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:211: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:214: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:217: error: class, interface, or enum expected
+    public synchronized void checkinStatement( Object pstmt )
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:224: error: class, interface, or enum expected
+            return;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:225: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:232: error: class, interface, or enum expected
+            return;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:233: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:236: error: class, interface, or enum expected
+        { refreshStatement( (PreparedStatement) pstmt ); }
+                                                         ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:245: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:253: error: class, interface, or enum expected
+            removeStatement( pstmt, DESTROY_ALWAYS ); //force destruction of the statement even though it appears checked-out
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:254: error: class, interface, or enum expected
+            return;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:255: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:258: error: class, interface, or enum expected
+        if (Debug.DEBUG && key == null)
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:262: error: class, interface, or enum expected
+        LinkedList l = checkoutQueue( key );
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:263: error: class, interface, or enum expected
+        l.add( pstmt );
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:264: error: class, interface, or enum expected
+        addStatementToDeathmarches( pstmt, key.physicalConnection );
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:266: error: class, interface, or enum expected
+        if (Debug.DEBUG && Debug.TRACE == Debug.TRACE_MAX)
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:272: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:276: error: class, interface, or enum expected
+    public synchronized void checkinAll(Connection pcon)
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:282: error: class, interface, or enum expected
+        if (stmtSet != null)
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:284: error: class, interface, or enum expected
+            for (Iterator ii = stmtSet.iterator(); ii.hasNext(); )
+                                                   ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:284: error: class, interface, or enum expected
+            for (Iterator ii = stmtSet.iterator(); ii.hasNext(); )
+                                                                 ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:287: error: class, interface, or enum expected
+                if (checkedOut.contains( stmt ))
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:289: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:298: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:306: error: class, interface, or enum expected
+    public void closeAll(Connection pcon) throws SQLException
+           ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:322: error: class, interface, or enum expected
+                }
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:326: error: class, interface, or enum expected
+            synchronized (this)
+                         ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:330: error: class, interface, or enum expected
+                if (cSet != null)
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:336: error: class, interface, or enum expected
+                    for (Iterator ii = stmtSet.iterator(); ii.hasNext(); )
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:336: error: class, interface, or enum expected
+                    for (Iterator ii = stmtSet.iterator(); ii.hasNext(); )
+                                                           ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:336: error: class, interface, or enum expected
+                    for (Iterator ii = stmtSet.iterator(); ii.hasNext(); )
+                                                                         ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:341: error: class, interface, or enum expected
+                        removeStatement( stmt, DESTROY_NEVER ); 
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:342: error: class, interface, or enum expected
+                    }
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:348: error: class, interface, or enum expected
+                for (Iterator ii = stmtSet.iterator(); ii.hasNext(); )
+                                                       ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:348: error: class, interface, or enum expected
+                for (Iterator ii = stmtSet.iterator(); ii.hasNext(); )
+                                                                     ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:351: error: class, interface, or enum expected
+                    synchronousDestroyStatement( stmt );
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:352: error: class, interface, or enum expected
+                }
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:359: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:370: error: class, interface, or enum expected
+    public synchronized void close() 
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:377: error: class, interface, or enum expected
+            for (Iterator ii = stmtToKey.keySet().iterator(); ii.hasNext(); )
+                                                              ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:377: error: class, interface, or enum expected
+            for (Iterator ii = stmtToKey.keySet().iterator(); ii.hasNext(); )
+                                                                            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:380: error: class, interface, or enum expected
+            cxnStmtMgr       = null;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:381: error: class, interface, or enum expected
+            stmtToKey        = null;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:382: error: class, interface, or enum expected
+            keyToKeyRec      = null;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:383: error: class, interface, or enum expected
+            checkedOut       = null;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:384: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:389: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:394: error: class, interface, or enum expected
+    public synchronized boolean isClosed()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:395: error: class, interface, or enum expected
+    { return cxnStmtMgr == null; }
+                                 ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:399: error: class, interface, or enum expected
+    private void destroyStatement( final Object pstmt )
+                                         ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:407: error: class, interface, or enum expected
+        Runnable r = new StatementCloseTask();
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:409: error: class, interface, or enum expected
+        blockingTaskAsyncRunner.postRunnable(r);
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:410: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:412: error: class, interface, or enum expected
+    private void synchronousDestroyStatement( final Object pstmt )
+                                                    ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:413: error: class, interface, or enum expected
+    { StatementUtils.attemptClose( (PreparedStatement) pstmt ); }
+                                                                ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:421: error: class, interface, or enum expected
+    abstract boolean prepareAssimilateNewStatement(Connection pcon);
+             ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:423: error: class, interface, or enum expected
+    abstract void addStatementToDeathmarches( Object pstmt, Connection physicalConnection );
+             ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:424: error: class, interface, or enum expected
+    abstract void removeStatementFromDeathmarches( Object pstmt, Connection physicalConnection );
+             ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:426: error: class, interface, or enum expected
+    final int countCachedStatements()
+          ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:427: error: class, interface, or enum expected
+    { return stmtToKey.size(); }
+                               ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:434: error: class, interface, or enum expected
+        HashSet ks = keySet( key );
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:435: error: class, interface, or enum expected
+        if (ks == null)
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:437: error: class, interface, or enum expected
+        else 
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:442: error: class, interface, or enum expected
+            if (Debug.DEBUG && logger.isLoggable(MLevel.FINE))
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:448: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:450: error: class, interface, or enum expected
+        cxnStmtMgr.addStatementForConnection( ps, pConn );
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:452: error: class, interface, or enum expected
+        if (Debug.DEBUG && Debug.TRACE == Debug.TRACE_MAX)
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:459: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:462: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:470: error: class, interface, or enum expected
+            else
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:472: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:475: error: class, interface, or enum expected
+        removeFromKeySet( sck, ps );
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:476: error: class, interface, or enum expected
+        Connection pConn = sck.physicalConnection;
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:478: error: class, interface, or enum expected
+        boolean checked_in = !checkedOut.contains( ps );
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:480: error: class, interface, or enum expected
+        if ( checked_in )
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:483: error: class, interface, or enum expected
+            removeFromCheckoutQueue( sck , ps );
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:484: error: class, interface, or enum expected
+            if ((destruction_policy & DESTROY_IF_CHECKED_IN) != 0)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:486: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:490: error: class, interface, or enum expected
+            if ((destruction_policy & DESTROY_IF_CHECKED_OUT) != 0)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:492: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:496: error: class, interface, or enum expected
+        if (Debug.DEBUG && check == false)
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:503: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:506: error: class, interface, or enum expected
+        { removalPending.remove(ps); }
+                                     ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:509: error: class, interface, or enum expected
+    private Object acquireStatement(final Connection pConn, 
+                                          ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:510: error: class, interface, or enum expected
+                    final Method stmtProducingMethod, 
+                          ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:511: error: class, interface, or enum expected
+                    final Object[] args )
+                          ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:516: error: class, interface, or enum expected
+            final Object[] outHolder = new Object[1];
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:517: error: class, interface, or enum expected
+            final SQLException[] exceptionHolder = new SQLException[1];
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:548: error: class, interface, or enum expected
+            Runnable r = new StmtAcquireTask();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:549: error: class, interface, or enum expected
+            blockingTaskAsyncRunner.postRunnable(r);
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/GooGooStatementCache.java:551: error: class, interface, or enum expected
+            while ( outHolder[0] == null && exceptionHolder[0] == null )
+            ^
+100 errors

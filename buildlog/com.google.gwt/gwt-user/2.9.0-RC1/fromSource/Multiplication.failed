@@ -1,0 +1,181 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:35: error: package exists in another module: java.base
+package java.math;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:109: error: cannot find symbol
+    if (op2.numberLength > op1.numberLength) {
+           ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:109: error: cannot find symbol
+    if (op2.numberLength > op1.numberLength) {
+                              ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:114: error: cannot find symbol
+    if (op2.numberLength < whenUseKaratsuba) {
+           ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:122: error: cannot find symbol
+    int ndiv2 = (op1.numberLength & 0xFFFFFFFE) << 4;
+                    ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:203: error: cannot find symbol
+    int resSign = val.sign;
+                     ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:207: error: cannot find symbol
+    int aNumberLength = val.numberLength;
+                           ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:208: error: cannot find symbol
+    int[] aDigits = val.digits;
+                       ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:214: error: no suitable constructor found for BigInteger(int,int)
+      return ((resHi == 0) ? new BigInteger(resSign, resLo) : new BigInteger(
+                             ^
+    constructor BigInteger.BigInteger(int,byte[]) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(int,int[]) is not applicable
+      (argument mismatch; int cannot be converted to int[])
+    constructor BigInteger.BigInteger(String,int) is not applicable
+      (argument mismatch; int cannot be converted to String)
+    constructor BigInteger.BigInteger(int,Random) is not applicable
+      (argument mismatch; int cannot be converted to Random)
+    constructor BigInteger.BigInteger(int[],int) is not applicable
+      (argument mismatch; int cannot be converted to int[])
+    constructor BigInteger.BigInteger(byte[],int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:214: error: no suitable constructor found for BigInteger(int,int,int[])
+      return ((resHi == 0) ? new BigInteger(resSign, resLo) : new BigInteger(
+                                                              ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:223: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger result = new BigInteger(resSign, resLength, resDigits);
+                        ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:224: error: cannot find symbol
+    result.cutOffLeadingZeroes();
+          ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:332: error: cannot find symbol
+    int aLen = a.numberLength;
+                ^
+  symbol:   variable numberLength
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:333: error: cannot find symbol
+    int bLen = b.numberLength;
+                ^
+  symbol:   variable numberLength
+  location: variable b of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:335: error: cannot find symbol
+    int resSign = (a.sign != b.sign) ? -1 : 1;
+                    ^
+  symbol:   variable sign
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:335: error: cannot find symbol
+    int resSign = (a.sign != b.sign) ? -1 : 1;
+                              ^
+  symbol:   variable sign
+  location: variable b of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:338: error: cannot find symbol
+      long val = unsignedMultAddAdd(a.digits[0], b.digits[0], 0, 0);
+                                     ^
+  symbol:   variable digits
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:338: error: cannot find symbol
+      long val = unsignedMultAddAdd(a.digits[0], b.digits[0], 0, 0);
+                                                  ^
+  symbol:   variable digits
+  location: variable b of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:341: error: no suitable constructor found for BigInteger(int,int)
+      return ((valueHi == 0) ? new BigInteger(resSign, valueLo)
+                               ^
+    constructor BigInteger.BigInteger(int,byte[]) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(int,int[]) is not applicable
+      (argument mismatch; int cannot be converted to int[])
+    constructor BigInteger.BigInteger(String,int) is not applicable
+      (argument mismatch; int cannot be converted to String)
+    constructor BigInteger.BigInteger(int,Random) is not applicable
+      (argument mismatch; int cannot be converted to Random)
+    constructor BigInteger.BigInteger(int[],int) is not applicable
+      (argument mismatch; int cannot be converted to int[])
+    constructor BigInteger.BigInteger(byte[],int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:342: error: no suitable constructor found for BigInteger(int,int,int[])
+          : new BigInteger(resSign, 2, new int[] {valueLo, valueHi}));
+            ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:344: error: cannot find symbol
+    int[] aDigits = a.digits;
+                     ^
+  symbol:   variable digits
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:345: error: cannot find symbol
+    int[] bDigits = b.digits;
+                     ^
+  symbol:   variable digits
+  location: variable b of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:349: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger result = new BigInteger(resSign, resLength, resDigits);
+                        ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:350: error: cannot find symbol
+    result.cutOffLeadingZeroes();
+          ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:385: error: cannot find symbol
+      if (acc.numberLength == 1) {
+             ^
+  symbol:   variable numberLength
+  location: variable acc of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:388: error: cannot find symbol
+        acc = new BigInteger(1, square(acc.digits, acc.numberLength,
+                                          ^
+  symbol:   variable digits
+  location: variable acc of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:388: error: cannot find symbol
+        acc = new BigInteger(1, square(acc.digits, acc.numberLength,
+                                                      ^
+  symbol:   variable numberLength
+  location: variable acc of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:389: error: cannot find symbol
+            new int[acc.numberLength << 1]));
+                       ^
+  symbol:   variable numberLength
+  location: variable acc of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Multiplication.java:478: error: cannot find symbol
+    BitLevel.shiftLeftOneBit(res, res, aLen << 1);
+    ^
+  symbol:   variable BitLevel
+  location: class Multiplication
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+29 errors

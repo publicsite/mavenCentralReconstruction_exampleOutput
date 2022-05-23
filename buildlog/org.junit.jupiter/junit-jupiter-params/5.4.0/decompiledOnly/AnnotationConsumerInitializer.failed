@@ -1,0 +1,35 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:7: error: package org.junit.platform.commons does not exist
+import org.junit.platform.commons.JUnitException;
+                                 ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:8: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.AnnotationUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:10: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:26: error: package ReflectionUtils does not exist
+            final Method method = ReflectionUtils.findMethods((Class)instance.getClass(), (Predicate)AnnotationConsumerInitializer.isAnnotationConsumerAcceptMethod, ReflectionUtils.HierarchyTraversalMode.BOTTOM_UP).get(0);
+                                                                                                                                                                                    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:26: error: cannot find symbol
+            final Method method = ReflectionUtils.findMethods((Class)instance.getClass(), (Predicate)AnnotationConsumerInitializer.isAnnotationConsumerAcceptMethod, ReflectionUtils.HierarchyTraversalMode.BOTTOM_UP).get(0);
+                                  ^
+  symbol:   variable ReflectionUtils
+  location: class AnnotationConsumerInitializer
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:30: error: cannot find symbol
+            final Annotation annotation = AnnotationUtils.findAnnotation(annotatedElement, (Class)annotationType).orElseThrow(() -> {
+                                          ^
+  symbol:   variable AnnotationUtils
+  location: class AnnotationConsumerInitializer
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:31: error: cannot find symbol
+                new JUnitException(instance.getClass().getName() + " must be used with an annotation of type " + clazz.getName());
+                    ^
+  symbol:   class JUnitException
+  location: class AnnotationConsumerInitializer
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:44: error: cannot find symbol
+            throw new JUnitException("Failed to initialize AnnotationConsumer: " + instance, (Throwable)ex);
+                      ^
+  symbol:   class JUnitException
+  location: class AnnotationConsumerInitializer
+Note: sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

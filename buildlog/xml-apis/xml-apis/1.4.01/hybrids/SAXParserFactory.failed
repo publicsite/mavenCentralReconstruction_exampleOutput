@@ -1,0 +1,21 @@
+hybrids/xml-apis/xml-apis/1.4.01/SAXParserFactory.java:20: error: package exists in another module: java.xml
+package javax.xml.parsers;
+^
+hybrids/xml-apis/xml-apis/1.4.01/SAXParserFactory.java:115: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            return (SAXParserFactory) FactoryFinder.find(
+                                      ^
+hybrids/xml-apis/xml-apis/1.4.01/SAXParserFactory.java:121: error: package FactoryFinder does not exist
+        catch (FactoryFinder.ConfigurationError e) {
+                            ^
+hybrids/xml-apis/xml-apis/1.4.01/SAXParserFactory.java:138: error: cannot find symbol
+            classLoader = SecuritySupport.getContextClassLoader();
+                          ^
+  symbol:   variable SecuritySupport
+  location: class SAXParserFactory
+hybrids/xml-apis/xml-apis/1.4.01/SAXParserFactory.java:141: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            return (SAXParserFactory) FactoryFinder.newInstance(factoryClassName, classLoader, false);
+                                      ^
+hybrids/xml-apis/xml-apis/1.4.01/SAXParserFactory.java:143: error: package FactoryFinder does not exist
+        catch (FactoryFinder.ConfigurationError e) {
+                            ^
+6 errors

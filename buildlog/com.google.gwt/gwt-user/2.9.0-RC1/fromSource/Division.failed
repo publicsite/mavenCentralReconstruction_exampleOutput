@@ -1,0 +1,536 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:35: error: package exists in another module: java.base
+package java.math;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:79: error: cannot find symbol
+      BitLevel.shiftLeft(normB, b, 0, divisorShift);
+      ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:80: error: cannot find symbol
+      BitLevel.shiftLeft(normA, a, 0, divisorShift);
+      ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:98: error: cannot find symbol
+        long res = Division.divideLongByInt(product, firstDivisorDigit);
+                   ^
+  symbol:   variable Division
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:139: error: cannot find symbol
+        int borrow = Division.multiplyAndSubtract(normA, j - normBLength,
+                     ^
+  symbol:   variable Division
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:166: error: cannot find symbol
+      BitLevel.shiftRight(normB, normBLength, normA, 0, divisorShift);
+      ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:182: error: cannot find symbol
+    int[] valDigits = val.digits;
+                         ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:183: error: cannot find symbol
+    int valLen = val.numberLength;
+                    ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:184: error: cannot find symbol
+    int valSign = val.sign;
+                     ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:202: error: cannot find symbol
+    remainderDigits = new int[] {Division.divideArrayByInt(quotientDigits,
+                                 ^
+  symbol:   variable Division
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:204: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger result0 = new BigInteger(quotientSign, quotientLength,
+                         ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:206: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger result1 = new BigInteger(valSign, 1, remainderDigits);
+                         ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:207: error: cannot find symbol
+    result0.cutOffLeadingZeroes();
+           ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result0 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:208: error: cannot find symbol
+    result1.cutOffLeadingZeroes();
+           ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:337: error: cannot find symbol
+    if (y.sign < 0) {
+         ^
+  symbol:   variable sign
+  location: variable y of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:338: error: cannot find symbol
+      y = y.add(BigInteger.getPowerOfTwo(j));
+                          ^
+  symbol:   method getPowerOfTwo(int)
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:353: error: cannot find symbol
+    int modulusLen = modulus.numberLength;
+                            ^
+  symbol:   variable numberLength
+  location: variable modulus of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:356: error: cannot find symbol
+      int modulusDigits[] = modulus.digits;
+                                   ^
+  symbol:   variable digits
+  location: variable modulus of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:367: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger result = new BigInteger(1, modulusLen + 1, res);
+                        ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:371: error: cannot find symbol
+      Elementary.inplaceSubtract(result, modulus);
+      ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:374: error: cannot find symbol
+    result.cutOffLeadingZeroes();
+          ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:398: error: cannot find symbol
+    BitLevel.inplaceShiftRight(op1, lsb1);
+    ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:399: error: cannot find symbol
+    BitLevel.inplaceShiftRight(op2, lsb2);
+    ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:403: error: cannot find symbol
+    if (op1.compareTo(op2) == BigInteger.GREATER) {
+                                        ^
+  symbol:   variable GREATER
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:413: error: cannot find symbol
+      if ((op2.numberLength == 1)
+              ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:414: error: cannot find symbol
+          || ((op2.numberLength == 2) && (op2.digits[1] > 0))) {
+                  ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:414: error: cannot find symbol
+          || ((op2.numberLength == 2) && (op2.digits[1] > 0))) {
+                                             ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:415: error: cannot find symbol
+        op2 = BigInteger.valueOf(Division.gcdBinary(op1.longValue(),
+                                 ^
+  symbol:   variable Division
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:422: error: cannot find symbol
+      if (op2.numberLength > op1.numberLength * 1.2) {
+             ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:422: error: cannot find symbol
+      if (op2.numberLength > op1.numberLength * 1.2) {
+                                ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:425: error: cannot find symbol
+          BitLevel.inplaceShiftRight(op2, op2.getLowestSetBit());
+          ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:431: error: cannot find symbol
+          Elementary.inplaceSubtract(op2, op1); // both are odd
+          ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:432: error: cannot find symbol
+          BitLevel.inplaceShiftRight(op2, op2.getLowestSetBit()); // op2 is even
+          ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:433: error: cannot find symbol
+        } while (op2.compareTo(op1) >= BigInteger.EQUALS);
+                                                 ^
+  symbol:   variable EQUALS
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:439: error: cannot find symbol
+    } while (op1.sign != 0);
+                ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:487: error: cannot find symbol
+    if ((x.numberLength < fd) || (x.bitLength() <= n)) {
+          ^
+  symbol:   variable numberLength
+  location: variable x of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:491: error: cannot find symbol
+    x.numberLength = fd + 1;
+     ^
+  symbol:   variable numberLength
+  location: variable x of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:492: error: cannot find symbol
+    x.digits[fd] &= (leadingZeros < 32) ? (-1 >>> leadingZeros) : 0;
+     ^
+  symbol:   variable digits
+  location: variable x of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:493: error: cannot find symbol
+    x.cutOffLeadingZeroes();
+     ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable x of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:506: error: cannot find symbol
+    int max = Math.max(a.numberLength, modulo.numberLength);
+                        ^
+  symbol:   variable numberLength
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:506: error: cannot find symbol
+    int max = Math.max(a.numberLength, modulo.numberLength);
+                                             ^
+  symbol:   variable numberLength
+  location: variable modulo of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:510: error: cannot find symbol
+    System.arraycopy(modulo.digits, 0, uDigits, 0, modulo.numberLength);
+                           ^
+  symbol:   variable digits
+  location: variable modulo of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:510: error: cannot find symbol
+    System.arraycopy(modulo.digits, 0, uDigits, 0, modulo.numberLength);
+                                                         ^
+  symbol:   variable numberLength
+  location: variable modulo of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:511: error: cannot find symbol
+    System.arraycopy(a.digits, 0, vDigits, 0, a.numberLength);
+                      ^
+  symbol:   variable digits
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:511: error: cannot find symbol
+    System.arraycopy(a.digits, 0, vDigits, 0, a.numberLength);
+                                               ^
+  symbol:   variable numberLength
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:512: error: cannot find symbol
+    BigInteger u = new BigInteger(modulo.sign, modulo.numberLength, uDigits);
+                                        ^
+  symbol:   variable sign
+  location: variable modulo of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:512: error: cannot find symbol
+    BigInteger u = new BigInteger(modulo.sign, modulo.numberLength, uDigits);
+                                                     ^
+  symbol:   variable numberLength
+  location: variable modulo of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:513: error: cannot find symbol
+    BigInteger v = new BigInteger(a.sign, a.numberLength, vDigits);
+                                   ^
+  symbol:   variable sign
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:513: error: cannot find symbol
+    BigInteger v = new BigInteger(a.sign, a.numberLength, vDigits);
+                                           ^
+  symbol:   variable numberLength
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:515: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger r = new BigInteger(0, 1, new int[max + 1]); // BigInteger.ZERO;
+                   ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:516: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger s = new BigInteger(1, 1, new int[max + 1]);
+                   ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:517: error: cannot find symbol
+    s.digits[0] = 1;
+     ^
+  symbol:   variable digits
+  location: variable s of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:530: error: cannot find symbol
+        BitLevel.inplaceShiftLeft(u, k);
+        ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:532: error: cannot find symbol
+          BitLevel.inplaceShiftLeft(r, k);
+          ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:534: error: cannot find symbol
+          BitLevel.inplaceShiftRight(s, Math.min(coefV - coefU, k));
+          ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:536: error: cannot find symbol
+            BitLevel.inplaceShiftLeft(r, k - coefV + coefU);
+            ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:544: error: cannot find symbol
+        BitLevel.inplaceShiftLeft(v, k);
+        ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:546: error: cannot find symbol
+          BitLevel.inplaceShiftLeft(s, k);
+          ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:548: error: cannot find symbol
+          BitLevel.inplaceShiftRight(r, Math.min(coefU - coefV, k));
+          ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:550: error: cannot find symbol
+            BitLevel.inplaceShiftLeft(s, k - coefU + coefV);
+            ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:558: error: cannot find symbol
+          Elementary.completeInPlaceSubtract(u, v);
+          ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:559: error: cannot find symbol
+          Elementary.completeInPlaceSubtract(r, s);
+          ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:561: error: cannot find symbol
+          Elementary.completeInPlaceSubtract(v, u);
+          ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:562: error: cannot find symbol
+          Elementary.completeInPlaceSubtract(s, r);
+          ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:566: error: cannot find symbol
+          Elementary.completeInPlaceAdd(u, v);
+          ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:567: error: cannot find symbol
+          Elementary.completeInPlaceAdd(r, s);
+          ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:569: error: cannot find symbol
+          Elementary.completeInPlaceAdd(v, u);
+          ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:570: error: cannot find symbol
+          Elementary.completeInPlaceAdd(s, r);
+          ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:604: error: cannot find symbol
+    if (a.sign == 0) {
+         ^
+  symbol:   variable sign
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:615: error: cannot find symbol
+    int m = p.numberLength * 32;
+             ^
+  symbol:   variable numberLength
+  location: variable p of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:618: error: cannot find symbol
+    u = p.copy(); // make copy to use inplace method
+         ^
+  symbol:   method copy()
+  location: variable p of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:619: error: cannot find symbol
+    v = a.copy();
+         ^
+  symbol:   method copy()
+  location: variable a of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:620: error: cannot find symbol
+    int max = Math.max(v.numberLength, u.numberLength);
+                        ^
+  symbol:   variable numberLength
+  location: variable v of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:620: error: cannot find symbol
+    int max = Math.max(v.numberLength, u.numberLength);
+                                        ^
+  symbol:   variable numberLength
+  location: variable u of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:621: error: no suitable constructor found for BigInteger(int,int,int[])
+    r = new BigInteger(1, 1, new int[max + 1]);
+        ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:622: error: no suitable constructor found for BigInteger(int,int,int[])
+    s = new BigInteger(1, 1, new int[max + 1]);
+        ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:623: error: cannot find symbol
+    s.digits[0] = 1;
+     ^
+  symbol:   variable digits
+  location: variable s of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:633: error: cannot find symbol
+      BitLevel.inplaceShiftRight(u, lsbu);
+      ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:634: error: cannot find symbol
+      BitLevel.inplaceShiftRight(v, lsbv);
+      ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:635: error: cannot find symbol
+      BitLevel.inplaceShiftLeft(r, lsbv);
+      ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:638: error: cannot find symbol
+      BitLevel.inplaceShiftRight(u, lsbu);
+      ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:639: error: cannot find symbol
+      BitLevel.inplaceShiftRight(v, lsbv);
+      ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:640: error: cannot find symbol
+      BitLevel.inplaceShiftLeft(s, lsbu);
+      ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:644: error: cannot find symbol
+    r.sign = 1;
+     ^
+  symbol:   variable sign
+  location: variable r of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:649: error: cannot find symbol
+      while (u.compareTo(v) > BigInteger.EQUALS) {
+                                        ^
+  symbol:   variable EQUALS
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:650: error: cannot find symbol
+        Elementary.inplaceSubtract(u, v);
+        ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:652: error: cannot find symbol
+        BitLevel.inplaceShiftRight(u, toShift);
+        ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:653: error: cannot find symbol
+        Elementary.inplaceAdd(r, s);
+        ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:654: error: cannot find symbol
+        BitLevel.inplaceShiftLeft(s, toShift);
+        ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:658: error: cannot find symbol
+      while (u.compareTo(v) <= BigInteger.EQUALS) {
+                                         ^
+  symbol:   variable EQUALS
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:659: error: cannot find symbol
+        Elementary.inplaceSubtract(v, u);
+        ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:664: error: cannot find symbol
+        BitLevel.inplaceShiftRight(v, toShift);
+        ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:665: error: cannot find symbol
+        Elementary.inplaceAdd(s, r);
+        ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:666: error: cannot find symbol
+        BitLevel.inplaceShiftLeft(r, toShift);
+        ^
+  symbol:   variable BitLevel
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:670: error: cannot find symbol
+    if (!u.isOne()) {
+          ^
+  symbol:   method isOne()
+  location: variable u of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:675: error: cannot find symbol
+    if (r.compareTo(p) >= BigInteger.EQUALS) {
+                                    ^
+  symbol:   variable EQUALS
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:676: error: cannot find symbol
+      Elementary.inplaceSubtract(r, p);
+      ^
+  symbol:   variable Elementary
+  location: class Division
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:689: error: cannot find symbol
+    r = monPro(r, BigInteger.getPowerOfTwo(m - k), p, n1);
+                            ^
+  symbol:   method getPowerOfTwo(int)
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:700: error: no suitable constructor found for BigInteger(int,int[])
+    BigInteger y = new BigInteger(1, new int[1 << n]);
+                   ^
+    constructor BigInteger.BigInteger(int,byte[]) is not applicable
+      (argument mismatch; int[] cannot be converted to byte[])
+    constructor BigInteger.BigInteger(String,int) is not applicable
+      (argument mismatch; int cannot be converted to String)
+    constructor BigInteger.BigInteger(int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+    constructor BigInteger.BigInteger(int[],int) is not applicable
+      (argument mismatch; int cannot be converted to int[])
+    constructor BigInteger.BigInteger(byte[],int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Division.java:701: error: cannot find symbol
+    y.numberLength = 1;
+     ^
+  symbol:   variable numberLength
+  location: variable y of type BigInteger
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors

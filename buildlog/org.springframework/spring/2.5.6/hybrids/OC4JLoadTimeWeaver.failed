@@ -1,0 +1,26 @@
+hybrids/org.springframework/spring/2.5.6/OC4JLoadTimeWeaver.java:21: error: package oracle.classloader.util does not exist
+import oracle.classloader.util.ClassLoaderUtilities;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/oc4j/OC4JClassPreprocessorAdapter.java:19: error: package oracle.classloader.util does not exist
+import oracle.classloader.util.ClassPreprocessor;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/oc4j/OC4JClassPreprocessorAdapter.java:36: error: cannot find symbol
+class OC4JClassPreprocessorAdapter implements ClassPreprocessor {
+                                              ^
+  symbol: class ClassPreprocessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/oc4j/OC4JClassPreprocessorAdapter.java:52: error: cannot find symbol
+	public ClassPreprocessor initialize(ClassLoader loader) {
+	       ^
+  symbol:   class ClassPreprocessor
+  location: class OC4JClassPreprocessorAdapter
+hybrids/org.springframework/spring/2.5.6/OC4JLoadTimeWeaver.java:69: error: cannot find symbol
+		ClassLoaderUtilities.addPreprocessor(this.classLoader, processor);
+		^
+  symbol:   variable ClassLoaderUtilities
+  location: class OC4JLoadTimeWeaver
+hybrids/org.springframework/spring/2.5.6/OC4JLoadTimeWeaver.java:77: error: cannot find symbol
+		return ClassLoaderUtilities.copy(this.classLoader);
+		       ^
+  symbol:   variable ClassLoaderUtilities
+  location: class OC4JLoadTimeWeaver
+6 errors

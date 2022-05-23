@@ -1,0 +1,296 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:9: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassHelper;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:11: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:13: error: cannot find symbol
+import org.codehaus.groovy.runtime.EncodingGroovyMethods;
+                                  ^
+  symbol:   class EncodingGroovyMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:18: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.GenericsType;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:19: error: package org.codehaus.groovy.classgen.asm does not exist
+import org.codehaus.groovy.classgen.asm.BytecodeHelper;
+                                       ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:20: error: package org.codehaus.groovy.ast.tools does not exist
+import org.codehaus.groovy.ast.tools.WideningCategories;
+                                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:22: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:24: error: cannot find symbol
+public class SignatureCodecVersion1 implements SignatureCodec
+                                               ^
+  symbol: class SignatureCodec
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:32: error: cannot find symbol
+    private void doEncode(final ClassNode node, final DataOutputStream dos) throws IOException {
+                                ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:101: error: cannot find symbol
+    public String encode(final ClassNode node) {
+                               ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:117: error: cannot find symbol
+    private ClassNode doDecode(final DataInputStream dis) throws IOException {
+            ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:228: error: cannot find symbol
+    public ClassNode decode(final String signature) {
+           ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:34: error: cannot find symbol
+        if (node instanceof UnionTypeClassNode) {
+                            ^
+  symbol:   class UnionTypeClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:35: error: cannot find symbol
+            final UnionTypeClassNode union = (UnionTypeClassNode)node;
+                  ^
+  symbol:   class UnionTypeClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:35: error: cannot find symbol
+            final UnionTypeClassNode union = (UnionTypeClassNode)node;
+                                              ^
+  symbol:   class UnionTypeClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:36: error: cannot find symbol
+            final ClassNode[] delegates = union.getDelegates();
+                  ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:38: error: cannot find symbol
+            for (final ClassNode delegate : delegates) {
+                       ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:43: error: package WideningCategories does not exist
+        if (node instanceof WideningCategories.LowestUpperBoundClassNode) {
+                                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:44: error: package WideningCategories does not exist
+            final WideningCategories.LowestUpperBoundClassNode lub = (WideningCategories.LowestUpperBoundClassNode)node;
+                                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:44: error: package WideningCategories does not exist
+            final WideningCategories.LowestUpperBoundClassNode lub = (WideningCategories.LowestUpperBoundClassNode)node;
+                                                                                        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:47: error: cannot find symbol
+            final ClassNode[] interfaces = lub.getInterfaces();
+                  ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:53: error: cannot find symbol
+                for (final ClassNode anInterface : interfaces) {
+                           ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:65: error: cannot find symbol
+            dos.writeUTF(BytecodeHelper.getTypeDescription(node));
+                         ^
+  symbol:   variable BytecodeHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:67: error: cannot find symbol
+            final GenericsType[] genericsTypes = node.getGenericsTypes();
+                  ^
+  symbol:   class GenericsType
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:73: error: cannot find symbol
+                for (final GenericsType type : genericsTypes) {
+                           ^
+  symbol:   class GenericsType
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:77: error: cannot find symbol
+                    final ClassNode lb = type.getLowerBound();
+                          ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:85: error: cannot find symbol
+                    final ClassNode[] upperBounds = type.getUpperBounds();
+                          ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:91: error: cannot find symbol
+                        for (final ClassNode bound : upperBounds) {
+                                   ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:100: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:108: error: cannot find symbol
+            EncodingGroovyMethods.encodeBase64(baos.toByteArray()).writeTo(wrt);
+            ^
+  symbol:   variable EncodingGroovyMethods
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:112: error: cannot find symbol
+            throw new GroovyRuntimeException("Unable to serialize type information", e);
+                      ^
+  symbol:   class GroovyRuntimeException
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:119: error: cannot find symbol
+        if (UnionTypeClassNode.class.getSimpleName().equals(classNodeType)) {
+            ^
+  symbol:   class UnionTypeClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:121: error: cannot find symbol
+            final ClassNode[] delegates = new ClassNode[len];
+                  ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:121: error: cannot find symbol
+            final ClassNode[] delegates = new ClassNode[len];
+                                              ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:125: error: cannot find symbol
+            return new UnionTypeClassNode(delegates);
+                       ^
+  symbol:   class UnionTypeClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:127: error: package WideningCategories does not exist
+        if (WideningCategories.LowestUpperBoundClassNode.class.getSimpleName().equals(classNodeType)) {
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:129: error: cannot find symbol
+            final ClassNode upper = this.doDecode(dis);
+                  ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:131: error: cannot find symbol
+            ClassNode[] interfaces = null;
+            ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:133: error: cannot find symbol
+                interfaces = new ClassNode[len2];
+                                 ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:138: error: package WideningCategories does not exist
+            return new WideningCategories.LowestUpperBoundClassNode(name, upper, interfaces);
+                                         ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:146: error: cannot find symbol
+        ClassNode result = ClassHelper.OBJECT_TYPE;
+        ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:146: error: cannot find symbol
+        ClassNode result = ClassHelper.OBJECT_TYPE;
+                           ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:150: error: cannot find symbol
+                result = ClassHelper.make(Class.forName(className, false, this.classLoader)).getPlainNodeReference();
+                         ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:153: error: cannot find symbol
+                result = ClassHelper.make(className);
+                         ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:158: error: cannot find symbol
+                final GenericsType[] gts = new GenericsType[len3];
+                      ^
+  symbol:   class GenericsType
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:158: error: cannot find symbol
+                final GenericsType[] gts = new GenericsType[len3];
+                                               ^
+  symbol:   class GenericsType
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:162: error: cannot find symbol
+                    final ClassNode type = this.doDecode(dis);
+                          ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:164: error: cannot find symbol
+                    ClassNode lb = null;
+                    ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:169: error: cannot find symbol
+                    ClassNode[] ups = null;
+                    ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:171: error: cannot find symbol
+                        ups = new ClassNode[upc];
+                                  ^
+  symbol:   class ClassNode
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:176: error: cannot find symbol
+                    final GenericsType gt = new GenericsType(type, ups, lb);
+                          ^
+  symbol:   class GenericsType
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:176: error: cannot find symbol
+                    final GenericsType gt = new GenericsType(type, ups, lb);
+                                                ^
+  symbol:   class GenericsType
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:187: error: cannot find symbol
+                    result = ClassHelper.int_TYPE;
+                             ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:191: error: cannot find symbol
+                    result = ClassHelper.boolean_TYPE;
+                             ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:195: error: cannot find symbol
+                    result = ClassHelper.byte_TYPE;
+                             ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:199: error: cannot find symbol
+                    result = ClassHelper.char_TYPE;
+                             ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:203: error: cannot find symbol
+                    result = ClassHelper.short_TYPE;
+                             ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:207: error: cannot find symbol
+                    result = ClassHelper.double_TYPE;
+                             ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:211: error: cannot find symbol
+                    result = ClassHelper.float_TYPE;
+                             ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:215: error: cannot find symbol
+                    result = ClassHelper.long_TYPE;
+                             ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:219: error: cannot find symbol
+                    result = ClassHelper.VOID_TYPE;
+                             ^
+  symbol:   variable ClassHelper
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:227: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:229: error: cannot find symbol
+        final DataInputStream dis = new DataInputStream(new ByteArrayInputStream(EncodingGroovyMethods.decodeBase64(signature)));
+                                                                                 ^
+  symbol:   variable EncodingGroovyMethods
+  location: class SignatureCodecVersion1
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SignatureCodecVersion1.java:234: error: cannot find symbol
+            throw new GroovyRuntimeException("Unable to read type information", e);
+                      ^
+  symbol:   class GroovyRuntimeException
+  location: class SignatureCodecVersion1
+64 errors

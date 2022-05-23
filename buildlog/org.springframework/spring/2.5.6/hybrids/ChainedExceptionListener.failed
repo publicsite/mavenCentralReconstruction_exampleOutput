@@ -1,0 +1,46 @@
+hybrids/org.springframework/spring/2.5.6/ChainedExceptionListener.java:23: error: package javax.jms does not exist
+import javax.jms.ExceptionListener;
+                ^
+hybrids/org.springframework/spring/2.5.6/ChainedExceptionListener.java:24: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+hybrids/org.springframework/spring/2.5.6/ChainedExceptionListener.java:35: error: cannot find symbol
+public class ChainedExceptionListener implements ExceptionListener {
+                                                 ^
+  symbol: class ExceptionListener
+hybrids/org.springframework/spring/2.5.6/ChainedExceptionListener.java:44: error: cannot find symbol
+	public final void addDelegate(ExceptionListener listener) {
+	                              ^
+  symbol:   class ExceptionListener
+  location: class ChainedExceptionListener
+hybrids/org.springframework/spring/2.5.6/ChainedExceptionListener.java:52: error: cannot find symbol
+	public final ExceptionListener[] getDelegates() {
+	             ^
+  symbol:   class ExceptionListener
+  location: class ChainedExceptionListener
+hybrids/org.springframework/spring/2.5.6/ChainedExceptionListener.java:57: error: cannot find symbol
+	public void onException(JMSException ex) {
+	                        ^
+  symbol:   class JMSException
+  location: class ChainedExceptionListener
+hybrids/org.springframework/spring/2.5.6/ChainedExceptionListener.java:53: error: cannot find symbol
+		return (ExceptionListener[]) this.delegates.toArray(new ExceptionListener[this.delegates.size()]);
+		        ^
+  symbol:   class ExceptionListener
+  location: class ChainedExceptionListener
+hybrids/org.springframework/spring/2.5.6/ChainedExceptionListener.java:53: error: cannot find symbol
+		return (ExceptionListener[]) this.delegates.toArray(new ExceptionListener[this.delegates.size()]);
+		                                                        ^
+  symbol:   class ExceptionListener
+  location: class ChainedExceptionListener
+hybrids/org.springframework/spring/2.5.6/ChainedExceptionListener.java:59: error: cannot find symbol
+			ExceptionListener listener = (ExceptionListener) it.next();
+			^
+  symbol:   class ExceptionListener
+  location: class ChainedExceptionListener
+hybrids/org.springframework/spring/2.5.6/ChainedExceptionListener.java:59: error: cannot find symbol
+			ExceptionListener listener = (ExceptionListener) it.next();
+			                              ^
+  symbol:   class ExceptionListener
+  location: class ChainedExceptionListener
+10 errors

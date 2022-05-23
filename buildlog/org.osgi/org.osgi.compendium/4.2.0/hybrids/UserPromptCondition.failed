@@ -1,0 +1,59 @@
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:22: error: package org.osgi.framework does not exist
+import org.osgi.framework.Bundle;
+                         ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:23: error: package org.osgi.service.condpermadmin does not exist
+import org.osgi.service.condpermadmin.Condition;
+                                     ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:24: error: package org.osgi.service.condpermadmin does not exist
+import org.osgi.service.condpermadmin.ConditionInfo;
+                                     ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:32: error: cannot find symbol
+public class UserPromptCondition implements Condition {
+                                            ^
+  symbol: class Condition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:42: error: cannot find symbol
+	Condition realUserPromptCondition;
+	^
+  symbol:   class Condition
+  location: class UserPromptCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:44: error: cannot find symbol
+	private final Bundle bundle;
+	              ^
+  symbol:   class Bundle
+  location: class UserPromptCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:80: error: cannot find symbol
+	public static Condition getCondition(Bundle bundle,ConditionInfo conditionInfo)
+	                                     ^
+  symbol:   class Bundle
+  location: class UserPromptCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:80: error: cannot find symbol
+	public static Condition getCondition(Bundle bundle,ConditionInfo conditionInfo)
+	                                                   ^
+  symbol:   class ConditionInfo
+  location: class UserPromptCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:80: error: cannot find symbol
+	public static Condition getCondition(Bundle bundle,ConditionInfo conditionInfo)
+	              ^
+  symbol:   class Condition
+  location: class UserPromptCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:129: error: cannot find symbol
+	private UserPromptCondition(Bundle bundle,String levels,String defaultLevel,String catalogName,String message) {
+	                            ^
+  symbol:   class Bundle
+  location: class UserPromptCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:245: error: cannot find symbol
+	public boolean isSatisfied(Condition[] conds, Dictionary context) {
+	                           ^
+  symbol:   class Condition
+  location: class UserPromptCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:102: error: cannot find symbol
+				return (Condition) factory.invoke(null,new Object[]{bundle,levels,defaultLevel,catalogName,message});
+				        ^
+  symbol:   class Condition
+  location: class UserPromptCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/UserPromptCondition.java:143: error: cannot find symbol
+				realUserPromptCondition = (Condition) factory.invoke(null,new Object[]{bundle,levels,defaultLevel,catalogName,message});
+				                           ^
+  symbol:   class Condition
+  location: class UserPromptCondition
+13 errors

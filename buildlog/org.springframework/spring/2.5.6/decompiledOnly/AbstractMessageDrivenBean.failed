@@ -1,0 +1,114 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ejb/support/AbstractMessageDrivenBean.java:8: error: package javax.ejb does not exist
+import javax.ejb.MessageDrivenContext;
+                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ejb/support/AbstractMessageDrivenBean.java:10: error: package javax.ejb does not exist
+import javax.ejb.MessageDrivenBean;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/ejb/support/AbstractEnterpriseBean.java:19: error: package javax.ejb does not exist
+import javax.ejb.EnterpriseBean;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/ejb/support/AbstractEnterpriseBean.java:55: error: cannot find symbol
+public abstract class AbstractEnterpriseBean implements EnterpriseBean {
+                                                        ^
+  symbol: class EnterpriseBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ejb/support/AbstractMessageDrivenBean.java:12: error: cannot find symbol
+public abstract class AbstractMessageDrivenBean extends AbstractEnterpriseBean implements MessageDrivenBean
+                                                                                          ^
+  symbol: class MessageDrivenBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ejb/support/AbstractMessageDrivenBean.java:15: error: cannot find symbol
+    private MessageDrivenContext messageDrivenContext;
+            ^
+  symbol:   class MessageDrivenContext
+  location: class AbstractMessageDrivenBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ejb/support/AbstractMessageDrivenBean.java:21: error: cannot find symbol
+    public void setMessageDrivenContext(final MessageDrivenContext messageDrivenContext) {
+                                              ^
+  symbol:   class MessageDrivenContext
+  location: class AbstractMessageDrivenBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/ejb/support/AbstractMessageDrivenBean.java:25: error: cannot find symbol
+    protected final MessageDrivenContext getMessageDrivenContext() {
+                    ^
+  symbol:   class MessageDrivenContext
+  location: class AbstractMessageDrivenBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:362: error: cannot find symbol
+			extends edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap
+			                                                      ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:24: error: cannot find symbol
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+  symbol:   class Enhancer
+  location: package net.sf.cglib.proxy
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:25: error: cannot find symbol
+import net.sf.cglib.proxy.MethodInterceptor;
+                         ^
+  symbol:   class MethodInterceptor
+  location: package net.sf.cglib.proxy
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:26: error: cannot find symbol
+import net.sf.cglib.proxy.MethodProxy;
+                         ^
+  symbol:   class MethodProxy
+  location: package net.sf.cglib.proxy
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:151: error: cannot find symbol
+		private class LookupOverrideMethodInterceptor extends CglibIdentitySupport implements MethodInterceptor {
+		                                                                                      ^
+  symbol:   class MethodInterceptor
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:153: error: cannot find symbol
+			public Object intercept(Object obj, Method method, Object[] args, MethodProxy mp) throws Throwable {
+			                                                                  ^
+  symbol:   class MethodProxy
+  location: class CglibSubclassCreator.LookupOverrideMethodInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:165: error: cannot find symbol
+		private class ReplaceOverrideMethodInterceptor extends CglibIdentitySupport implements MethodInterceptor {
+		                                                                                       ^
+  symbol:   class MethodInterceptor
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:167: error: cannot find symbol
+			public Object intercept(Object obj, Method method, Object[] args, MethodProxy mp) throws Throwable {
+			                                                                  ^
+  symbol:   class MethodProxy
+  location: class CglibSubclassCreator.ReplaceOverrideMethodInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:110: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Set createLinkedSetIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:147: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createLinkedMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:179: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createIdentityMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:342: error: cannot find symbol
+			return new edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap(initialCapacity);
+			                                                         ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:361: error: BackportConcurrentHashMap is not abstract and does not override abstract method replace(Object,Object) in ConcurrentMap
+	private static class BackportConcurrentHashMap
+	               ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/BeanWrapperImpl.java:355: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public Object doTypeConversionIfNecessary(Object value, Class requiredType) throws TypeMismatchException {
+	              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:107: error: cannot find symbol
+			Enhancer enhancer = new Enhancer();
+			^
+  symbol:   class Enhancer
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:107: error: cannot find symbol
+			Enhancer enhancer = new Enhancer();
+			                        ^
+  symbol:   class Enhancer
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:112: error: incompatible types: CglibSubclassCreator.LookupOverrideMethodInterceptor cannot be converted to Callback
+					new LookupOverrideMethodInterceptor(),
+					^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:113: error: incompatible types: CglibSubclassCreator.ReplaceOverrideMethodInterceptor cannot be converted to Callback
+					new ReplaceOverrideMethodInterceptor()
+					^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+22 errors
+4 warnings

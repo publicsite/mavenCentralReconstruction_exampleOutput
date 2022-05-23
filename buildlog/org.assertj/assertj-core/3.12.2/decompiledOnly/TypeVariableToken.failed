@@ -1,0 +1,73 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:7: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationList;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:8: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.ElementMatcher;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:10: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationDescription;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:12: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.description.ByteCodeElement;
+                                                      ^
+  symbol:   class ByteCodeElement
+  location: package org.assertj.core.internal.bytebuddy.description
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:14: error: package ByteCodeElement does not exist
+public class TypeVariableToken implements ByteCodeElement.Token<TypeVariableToken>
+                                                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:17: error: package TypeDescription does not exist
+    private final List<? extends TypeDescription.Generic> bounds;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:18: error: cannot find symbol
+    private final List<? extends AnnotationDescription> annotations;
+                                 ^
+  symbol:   class AnnotationDescription
+  location: class TypeVariableToken
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:20: error: package TypeDescription does not exist
+    public TypeVariableToken(final String symbol, final List<? extends TypeDescription.Generic> bounds) {
+                                                                                      ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:24: error: package TypeDescription does not exist
+    public TypeVariableToken(final String symbol, final List<? extends TypeDescription.Generic> bounds, final List<? extends AnnotationDescription> annotations) {
+                                                                                      ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:24: error: cannot find symbol
+    public TypeVariableToken(final String symbol, final List<? extends TypeDescription.Generic> bounds, final List<? extends AnnotationDescription> annotations) {
+                                                                                                                             ^
+  symbol:   class AnnotationDescription
+  location: class TypeVariableToken
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:30: error: package TypeDescription does not exist
+    public static TypeVariableToken of(final TypeDescription.Generic typeVariable, final ElementMatcher<? super TypeDescription> matcher) {
+                                                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:30: error: cannot find symbol
+    public static TypeVariableToken of(final TypeDescription.Generic typeVariable, final ElementMatcher<? super TypeDescription> matcher) {
+                                                                                         ^
+  symbol:   class ElementMatcher
+  location: class TypeVariableToken
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:30: error: cannot find symbol
+    public static TypeVariableToken of(final TypeDescription.Generic typeVariable, final ElementMatcher<? super TypeDescription> matcher) {
+                                                                                                                ^
+  symbol:   class TypeDescription
+  location: class TypeVariableToken
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:38: error: package TypeList does not exist
+    public TypeList.Generic getBounds() {
+                   ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:42: error: cannot find symbol
+    public AnnotationList getAnnotations() {
+           ^
+  symbol:   class AnnotationList
+  location: class TypeVariableToken
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:46: error: package TypeDescription.Generic does not exist
+    public TypeVariableToken accept(final TypeDescription.Generic.Visitor<? extends TypeDescription.Generic> visitor) {
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:46: error: package TypeDescription does not exist
+    public TypeVariableToken accept(final TypeDescription.Generic.Visitor<? extends TypeDescription.Generic> visitor) {
+                                                                                                   ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:31: error: package TypeDescription.Generic.Visitor.Substitutor does not exist
+        return new TypeVariableToken(typeVariable.getSymbol(), typeVariable.getUpperBounds().accept(new TypeDescription.Generic.Visitor.Substitutor.ForDetachment(matcher)), typeVariable.getDeclaredAnnotations());
+                                                                                                                                                   ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:39: error: package TypeList.Generic does not exist
+        return new TypeList.Generic.Explicit(this.bounds);
+                                   ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeVariableToken.java:43: error: package AnnotationList does not exist
+        return new AnnotationList.Explicit(this.annotations);
+                                 ^
+20 errors

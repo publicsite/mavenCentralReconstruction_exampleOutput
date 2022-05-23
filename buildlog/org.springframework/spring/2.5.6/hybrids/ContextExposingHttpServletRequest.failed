@@ -1,0 +1,41 @@
+hybrids/org.springframework/spring/2.5.6/ContextExposingHttpServletRequest.java:22: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletRequest;
+                         ^
+hybrids/org.springframework/spring/2.5.6/ContextExposingHttpServletRequest.java:23: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletRequestWrapper;
+                         ^
+hybrids/org.springframework/spring/2.5.6/ContextExposingHttpServletRequest.java:36: error: cannot find symbol
+public class ContextExposingHttpServletRequest extends HttpServletRequestWrapper {
+                                                       ^
+  symbol: class HttpServletRequestWrapper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/context/WebApplicationContext.java:19: error: package javax.servlet does not exist
+import javax.servlet.ServletContext;
+                    ^
+hybrids/org.springframework/spring/2.5.6/ContextExposingHttpServletRequest.java:50: error: cannot find symbol
+	public ContextExposingHttpServletRequest(HttpServletRequest originalRequest, WebApplicationContext context) {
+	                                         ^
+  symbol:   class HttpServletRequest
+  location: class ContextExposingHttpServletRequest
+hybrids/org.springframework/spring/2.5.6/ContextExposingHttpServletRequest.java:63: error: cannot find symbol
+			HttpServletRequest originalRequest, WebApplicationContext context, Set exposedContextBeanNames) {
+			^
+  symbol:   class HttpServletRequest
+  location: class ContextExposingHttpServletRequest
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/context/WebApplicationContext.java:79: error: cannot find symbol
+	ServletContext getServletContext();
+	^
+  symbol:   class ServletContext
+  location: interface WebApplicationContext
+hybrids/org.springframework/spring/2.5.6/ContextExposingHttpServletRequest.java:87: error: cannot find symbol
+			return super.getAttribute(name);
+			       ^
+  symbol:   variable super
+  location: class ContextExposingHttpServletRequest
+hybrids/org.springframework/spring/2.5.6/ContextExposingHttpServletRequest.java:92: error: cannot find symbol
+		super.setAttribute(name, value);
+		^
+  symbol:   variable super
+  location: class ContextExposingHttpServletRequest
+Note: hybrids/org.springframework/spring/2.5.6/ContextExposingHttpServletRequest.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

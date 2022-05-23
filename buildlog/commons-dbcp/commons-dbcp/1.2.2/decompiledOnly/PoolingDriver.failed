@@ -1,0 +1,70 @@
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/PoolingDriver.java:29: error: PoolingDriver is not abstract and does not override abstract method getParentLogger() in Driver
+public class PoolingDriver implements Driver
+       ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/PoolingDriver.java:56: error: incompatible types: Object cannot be converted to ObjectPool
+        ObjectPool pool = PoolingDriver._pools.get(name);
+                                                  ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/PoolingDriver.java:93: error: incompatible types: Object cannot be converted to ObjectPool
+        final ObjectPool pool = PoolingDriver._pools.get(name);
+                                                        ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/PoolingDriver.java:107: error: incompatible types: Object[] cannot be converted to String[]
+        return names.toArray(new String[names.size()]);
+                            ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/AbandonedTrace.java:124: error: incompatible types: Object cannot be converted to AbandonedTrace
+            for (final AbandonedTrace at : this.trace) {
+                                               ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingConnection.java:18: error: DelegatingConnection is not abstract and does not override abstract method getNetworkTimeout() in Connection
+public class DelegatingConnection extends AbandonedTrace implements Connection
+       ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/jocl/JOCLContentHandler.java:129: error: incompatible types: Object cannot be converted to Class
+        return this._typeList.get(i);
+                                 ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/jocl/JOCLContentHandler.java:151: error: no suitable constructor found for ConstructorDetails(String,JOCLContentHandler.ConstructorDetails,boolean)
+                    this._cur = new ConstructorDetails(cname, this._cur, isnull);
+                                ^
+    constructor JOCLContentHandler.ConstructorDetails.JOCLContentHandler.ConstructorDetails(JOCLContentHandler,String,JOCLContentHandler.ConstructorDetails) is not applicable
+      (argument mismatch; String cannot be converted to JOCLContentHandler)
+    constructor JOCLContentHandler.ConstructorDetails.JOCLContentHandler.ConstructorDetails(Class,JOCLContentHandler.ConstructorDetails,boolean) is not applicable
+      (argument mismatch; String cannot be converted to Class)
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/jocl/JOCLContentHandler.java:273: error: incompatible types: Class<CAP#1> cannot be converted to String
+            this(this$0, Class.forName(classname), parent, false);
+                                      ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/jocl/JOCLContentHandler.java:277: error: incompatible types: Class<CAP#1> cannot be converted to String
+            this(this$0, Class.forName(classname), parent, isnull);
+                                      ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/jocl/JOCLContentHandler.java:318: error: incompatible types: Object[] cannot be converted to Class[]
+            final Class[] argtypes = this._argTypes.toArray(new Class[0]);
+                                                           ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingStatement.java:14: error: DelegatingStatement is not abstract and does not override abstract method isCloseOnCompletion() in Statement
+public class DelegatingStatement extends AbandonedTrace implements Statement
+       ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingStatement.java:68: error: isClosed() in DelegatingStatement cannot implement isClosed() in Statement
+    protected boolean isClosed() {
+                      ^
+  attempting to assign weaker access privileges; was public
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingStatement.java:86: error: incompatible types: Object[] cannot be converted to ResultSet[]
+                final ResultSet[] set = resultSets.toArray(new ResultSet[resultSets.size()]);
+                                                          ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingPreparedStatement.java:26: error: DelegatingPreparedStatement is not abstract and does not override abstract method setNClob(int,Reader) in PreparedStatement
+public class DelegatingPreparedStatement extends DelegatingStatement implements PreparedStatement
+       ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingCallableStatement.java:24: error: DelegatingCallableStatement is not abstract and does not override abstract method <T>getObject(String,Class<T>) in CallableStatement
+public class DelegatingCallableStatement extends DelegatingPreparedStatement implements CallableStatement
+       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>getObject(String,Class<T>)
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingResultSet.java:26: error: DelegatingResultSet is not abstract and does not override abstract method <T>getObject(String,Class<T>) in ResultSet
+public class DelegatingResultSet extends AbandonedTrace implements ResultSet
+       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>getObject(String,Class<T>)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+17 errors

@@ -1,0 +1,90 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:8: error: cannot find symbol
+import org.easymock.cglib.core.ClassEmitter;
+                              ^
+  symbol:   class ClassEmitter
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:9: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:11: error: cannot find symbol
+import org.easymock.cglib.core.ReflectUtils;
+                              ^
+  symbol:   class ReflectUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:17: error: cannot find symbol
+import org.easymock.cglib.core.AbstractClassGenerator;
+                              ^
+  symbol:   class AbstractClassGenerator
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:19: error: cannot find symbol
+public class InterfaceMaker extends AbstractClassGenerator
+                                    ^
+  symbol: class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:21: error: cannot find symbol
+    private static final Source SOURCE;
+                         ^
+  symbol:   class Source
+  location: class InterfaceMaker
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:67: error: cannot find symbol
+    public void generateClass(final ClassVisitor v) throws Exception {
+                                    ^
+  symbol:   class ClassVisitor
+  location: class InterfaceMaker
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:34: error: cannot find symbol
+        this.add(ReflectUtils.getSignature(method), ReflectUtils.getExceptionTypes(method));
+                 ^
+  symbol:   variable ReflectUtils
+  location: class InterfaceMaker
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:34: error: cannot find symbol
+        this.add(ReflectUtils.getSignature(method), ReflectUtils.getExceptionTypes(method));
+                                                    ^
+  symbol:   variable ReflectUtils
+  location: class InterfaceMaker
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:48: error: cannot find symbol
+        this.setUseCache(false);
+            ^
+  symbol: method setUseCache(boolean)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:49: error: cannot find symbol
+        return (Class)super.create(this);
+                      ^
+  symbol:   variable super
+  location: class InterfaceMaker
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:52: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:57: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:62: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:68: error: cannot find symbol
+        final ClassEmitter ce = new ClassEmitter(v);
+              ^
+  symbol:   class ClassEmitter
+  location: class InterfaceMaker
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:68: error: cannot find symbol
+        final ClassEmitter ce = new ClassEmitter(v);
+                                    ^
+  symbol:   class ClassEmitter
+  location: class InterfaceMaker
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:69: error: cannot find symbol
+        ce.begin_class(52, 1537, this.getClassName(), null, null, "<generated>");
+                                     ^
+  symbol: method getClassName()
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:70: error: incompatible types: Object cannot be converted to Signature
+        for (final Signature sig : this.signatures.keySet()) {
+                                                         ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:71: error: incompatible types: Object cannot be converted to Type[]
+            final Type[] exceptions = this.signatures.get(sig);
+                                                         ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java:78: error: cannot find symbol
+        SOURCE = new Source(InterfaceMaker.class.getName());
+                     ^
+  symbol:   class Source
+  location: class InterfaceMaker
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/InterfaceMaker.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+20 errors

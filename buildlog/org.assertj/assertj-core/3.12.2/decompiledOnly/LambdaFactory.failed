@@ -1,0 +1,40 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:11: error: package org.assertj.core.internal.bytebuddy.dynamic does not exist
+import org.assertj.core.internal.bytebuddy.dynamic.ClassFileLocator;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:12: error: package org.assertj.core.internal.bytebuddy.dynamic.loading does not exist
+import org.assertj.core.internal.bytebuddy.dynamic.loading.ClassInjector;
+                                                          ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:13: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:15: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:18: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:20: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:24: error: cannot find symbol
+    @SuppressFBWarnings(value = { "MS_MUTABLE_COLLECTION_PKGPROTECT" }, justification = "The field must be accessible by different class loader instances")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class LambdaFactory
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:36: error: cannot find symbol
+            final TypeDescription typeDescription = TypeDescription.ForLoadedType.of(LambdaFactory.class);
+                  ^
+  symbol:   class TypeDescription
+  location: class LambdaFactory
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:36: error: package TypeDescription does not exist
+            final TypeDescription typeDescription = TypeDescription.ForLoadedType.of(LambdaFactory.class);
+                                                                   ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:37: error: package ClassInjector does not exist
+            final Class<?> lambdaFactory = ClassInjector.UsingReflection.ofSystemClassLoader().inject(Collections.singletonMap(typeDescription, ClassFileLocator.ForClassLoader.read(LambdaFactory.class))).get(typeDescription);
+                                                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java:37: error: package ClassFileLocator does not exist
+            final Class<?> lambdaFactory = ClassInjector.UsingReflection.ofSystemClassLoader().inject(Collections.singletonMap(typeDescription, ClassFileLocator.ForClassLoader.read(LambdaFactory.class))).get(typeDescription);
+                                                                                                                                                                ^
+Note: sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/agent/builder/LambdaFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors

@@ -1,0 +1,70 @@
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkArgument;
+                                    ^
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkArgument;
+^
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:20: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:20: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:71: error: cannot find symbol
+      this.delegate = checkNotNull(delegate, "delegate");
+                      ^
+  symbol:   method checkNotNull(Matcher<CAP#1>,String)
+  location: class Not<T>
+  where T is a type-variable:
+    T extends Object declared in class Not
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: T from capture of ? super T
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:99: error: cannot find symbol
+    checkArgument(
+    ^
+  symbol:   method checkArgument(boolean,String,String)
+  location: class Matchers
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:116: error: cannot find symbol
+      this.annotationType = checkNotNull(annotationType, "annotation type");
+                            ^
+  symbol:   method checkNotNull(Class<CAP#1>,String)
+  location: class AnnotatedWithType
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Annotation from capture of ? extends Annotation
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:154: error: cannot find symbol
+      this.annotation = checkNotNull(annotation, "annotation");
+                        ^
+  symbol:   method checkNotNull(Annotation,String)
+  location: class AnnotatedWith
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:192: error: cannot find symbol
+      this.superclass = checkNotNull(superclass, "superclass");
+                        ^
+  symbol:   method checkNotNull(Class<CAP#1>,String)
+  location: class SubclassesOf
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:227: error: cannot find symbol
+      this.value = checkNotNull(value, "value");
+                   ^
+  symbol:   method checkNotNull(Object,String)
+  location: class Only
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:262: error: cannot find symbol
+      this.value = checkNotNull(value, "value");
+                   ^
+  symbol:   method checkNotNull(Object,String)
+  location: class IdenticalTo
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:301: error: cannot find symbol
+      this.targetPackage = checkNotNull(targetPackage, "package");
+                           ^
+  symbol:   method checkNotNull(Package,String)
+  location: class InPackage
+hybrids/com.google.inject/guice/5.1.0/Matchers.java:384: error: cannot find symbol
+      this.returnType = checkNotNull(returnType, "return type matcher");
+                        ^
+  symbol:   method checkNotNull(Matcher<CAP#1>,String)
+  location: class Returns
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: Class<?> from capture of ? super Class<?>
+Note: hybrids/com.google.inject/guice/5.1.0/Matchers.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+13 errors

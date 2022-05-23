@@ -1,0 +1,296 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:22: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:25: error: package org.springframework.http does not exist
+import org.springframework.http.MediaType;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:26: error: package org.springframework.http.client does not exist
+import org.springframework.http.client.ClientHttpRequest;
+                                      ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/AssertionErrors.java:18: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:20: error: package org.hamcrest does not exist
+import org.hamcrest.Description;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:21: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:22: error: package org.hamcrest does not exist
+import org.hamcrest.StringDescription;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:24: error: package org.springframework.util does not exist
+import org.springframework.util.ClassUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:25: error: package org.springframework.util does not exist
+import org.springframework.util.ReflectionUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:26: error: package org.custommonkey.xmlunit does not exist
+import org.custommonkey.xmlunit.Diff;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:27: error: package org.custommonkey.xmlunit does not exist
+import org.custommonkey.xmlunit.XMLUnit;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:28: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/web/client/RequestMatcher.java:20: error: package org.springframework.http.client does not exist
+import org.springframework.http.client.ClientHttpRequest;
+                                      ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:64: error: cannot find symbol
+	public RequestMatcher contentType(final MediaType expectedContentType) {
+	                                        ^
+  symbol:   class MediaType
+  location: class ContentRequestMatchers
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:87: error: cannot find symbol
+	public RequestMatcher contentTypeCompatibleWith(final MediaType contentType) {
+	                                                      ^
+  symbol:   class MediaType
+  location: class ContentRequestMatchers
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:102: error: cannot find symbol
+	public RequestMatcher string(final Matcher<? super String> matcher) {
+	                                   ^
+  symbol:   class Matcher
+  location: class ContentRequestMatchers
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:160: error: cannot find symbol
+	public RequestMatcher node(final Matcher<? super Node> matcher) {
+	                                 ^
+  symbol:   class Matcher
+  location: class ContentRequestMatchers
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:173: error: cannot find symbol
+	public RequestMatcher source(final Matcher<? super Source> matcher) {
+	                                   ^
+  symbol:   class Matcher
+  location: class ContentRequestMatchers
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/web/client/RequestMatcher.java:37: error: cannot find symbol
+	void match(ClientHttpRequest request) throws IOException, AssertionError;
+	           ^
+  symbol:   class ClientHttpRequest
+  location: interface RequestMatcher
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:46: error: cannot find symbol
+	public void assertNode(String content, Matcher<? super Node> matcher) throws Exception {
+	                                       ^
+  symbol:   class Matcher
+  location: class XmlExpectationsHelper
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:63: error: cannot find symbol
+	public void assertSource(String content, Matcher<? super Source> matcher) throws Exception {
+	                                         ^
+  symbol:   class Matcher
+  location: class XmlExpectationsHelper
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:52: error: cannot find symbol
+	public static <T> void assertThat(T actual, Matcher<T> matcher) {
+	                                            ^
+  symbol:   class Matcher
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:64: error: cannot find symbol
+	public static <T> void assertThat(String reason, T actual, Matcher<T> matcher) {
+	                                                           ^
+  symbol:   class Matcher
+  location: class MatcherAssertionErrors
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:188: error: cannot find symbol
+		public final void match(ClientHttpRequest request) throws IOException, AssertionError {
+		                        ^
+  symbol:   class ClientHttpRequest
+  location: class AbstractXmlRequestMatcher
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:22: error: package org.springframework.http does not exist
+import org.springframework.http.HttpMethod;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:23: error: package org.springframework.http.client does not exist
+import org.springframework.http.client.ClientHttpRequest;
+                                      ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:24: error: package org.springframework.http.client does not exist
+import org.springframework.http.client.ClientHttpResponse;
+                                      ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpOutputMessage.java:25: error: package org.springframework.http does not exist
+import org.springframework.http.HttpHeaders;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpOutputMessage.java:26: error: package org.springframework.http does not exist
+import org.springframework.http.HttpOutputMessage;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpOutputMessage.java:34: error: cannot find symbol
+public class MockHttpOutputMessage implements HttpOutputMessage {
+                                              ^
+  symbol: class HttpOutputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:34: error: cannot find symbol
+public class MockClientHttpRequest extends MockHttpOutputMessage implements ClientHttpRequest {
+                                                                            ^
+  symbol: class ClientHttpRequest
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:38: error: cannot find symbol
+	private HttpMethod httpMethod;
+	        ^
+  symbol:   class HttpMethod
+  location: class MockClientHttpRequest
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:42: error: cannot find symbol
+	private ClientHttpResponse clientHttpResponse;
+	        ^
+  symbol:   class ClientHttpResponse
+  location: class MockClientHttpRequest
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:54: error: cannot find symbol
+	public MockClientHttpRequest(HttpMethod httpMethod, URI uri) {
+	                             ^
+  symbol:   class HttpMethod
+  location: class MockClientHttpRequest
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:69: error: cannot find symbol
+	public HttpMethod getMethod() {
+	       ^
+  symbol:   class HttpMethod
+  location: class MockClientHttpRequest
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:73: error: cannot find symbol
+	public void setMethod(HttpMethod httpMethod) {
+	                      ^
+  symbol:   class HttpMethod
+  location: class MockClientHttpRequest
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:77: error: cannot find symbol
+	public void setResponse(ClientHttpResponse clientHttpResponse) {
+	                        ^
+  symbol:   class ClientHttpResponse
+  location: class MockClientHttpRequest
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:91: error: cannot find symbol
+	public final ClientHttpResponse execute() throws IOException {
+	             ^
+  symbol:   class ClientHttpResponse
+  location: class MockClientHttpRequest
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:103: error: cannot find symbol
+	protected ClientHttpResponse executeInternal() throws IOException {
+	          ^
+  symbol:   class ClientHttpResponse
+  location: class MockClientHttpRequest
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpOutputMessage.java:38: error: cannot find symbol
+	private final HttpHeaders headers = new HttpHeaders();
+	              ^
+  symbol:   class HttpHeaders
+  location: class MockHttpOutputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpOutputMessage.java:47: error: cannot find symbol
+	public HttpHeaders getHeaders() {
+	       ^
+  symbol:   class HttpHeaders
+  location: class MockHttpOutputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/AssertionErrors.java:88: error: cannot find symbol
+		if (!ObjectUtils.nullSafeEquals(expected, actual)) {
+		     ^
+  symbol:   variable ObjectUtils
+  location: class AssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:39: error: cannot find symbol
+			ClassUtils.getMethodIfAvailable(Matcher.class, "describeMismatch", Object.class, Description.class);
+			                                ^
+  symbol:   class Matcher
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:39: error: cannot find symbol
+			ClassUtils.getMethodIfAvailable(Matcher.class, "describeMismatch", Object.class, Description.class);
+			                                                                                 ^
+  symbol:   class Description
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:39: error: cannot find symbol
+			ClassUtils.getMethodIfAvailable(Matcher.class, "describeMismatch", Object.class, Description.class);
+			^
+  symbol:   variable ClassUtils
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:66: error: cannot find symbol
+			Description description = new StringDescription();
+			^
+  symbol:   class Description
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:66: error: cannot find symbol
+			Description description = new StringDescription();
+			                              ^
+  symbol:   class StringDescription
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/MatcherAssertionErrors.java:73: error: cannot find symbol
+				ReflectionUtils.invokeMethod(describeMismatchMethod, matcher, actual, description);
+				^
+  symbol:   variable ReflectionUtils
+  location: class MatcherAssertionErrors
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:58: error: cannot find symbol
+		return contentType(MediaType.parseMediaType(expectedContentType));
+		                   ^
+  symbol:   variable MediaType
+  location: class ContentRequestMatchers
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:67: error: cannot find symbol
+			public void match(ClientHttpRequest request) throws IOException, AssertionError {
+			                  ^
+  symbol: class ClientHttpRequest
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:68: error: cannot find symbol
+				MediaType actualContentType = request.getHeaders().getContentType();
+				^
+  symbol: class MediaType
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:80: error: cannot find symbol
+		return contentTypeCompatibleWith(MediaType.parseMediaType(contentType));
+		                                 ^
+  symbol:   variable MediaType
+  location: class ContentRequestMatchers
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:90: error: cannot find symbol
+			public void match(ClientHttpRequest request) throws IOException, AssertionError {
+			                  ^
+  symbol: class ClientHttpRequest
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:91: error: cannot find symbol
+				MediaType actualContentType = request.getHeaders().getContentType();
+				^
+  symbol: class MediaType
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:105: error: cannot find symbol
+			public void match(ClientHttpRequest request) throws IOException, AssertionError {
+			                  ^
+  symbol: class ClientHttpRequest
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:118: error: cannot find symbol
+			public void match(ClientHttpRequest request) throws IOException, AssertionError {
+			                  ^
+  symbol: class ClientHttpRequest
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContentRequestMatchers.java:131: error: cannot find symbol
+			public void match(ClientHttpRequest request) throws IOException, AssertionError {
+			                  ^
+  symbol: class ClientHttpRequest
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:80: error: cannot find symbol
+		XMLUnit.setIgnoreWhitespace(true);
+		^
+  symbol:   variable XMLUnit
+  location: class XmlExpectationsHelper
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:81: error: cannot find symbol
+		XMLUnit.setIgnoreComments(true);
+		^
+  symbol:   variable XMLUnit
+  location: class XmlExpectationsHelper
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:82: error: cannot find symbol
+		XMLUnit.setIgnoreAttributeOrder(true);
+		^
+  symbol:   variable XMLUnit
+  location: class XmlExpectationsHelper
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:84: error: cannot find symbol
+		Document control = XMLUnit.buildControlDocument(expected);
+		                   ^
+  symbol:   variable XMLUnit
+  location: class XmlExpectationsHelper
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:85: error: cannot find symbol
+		Document test = XMLUnit.buildTestDocument(actual);
+		                ^
+  symbol:   variable XMLUnit
+  location: class XmlExpectationsHelper
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:86: error: cannot find symbol
+		Diff diff = new Diff(control, test);
+		^
+  symbol:   class Diff
+  location: class XmlExpectationsHelper
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/XmlExpectationsHelper.java:86: error: cannot find symbol
+		Diff diff = new Diff(control, test);
+		                ^
+  symbol:   class Diff
+  location: class XmlExpectationsHelper
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpOutputMessage.java:38: error: cannot find symbol
+	private final HttpHeaders headers = new HttpHeaders();
+	                                        ^
+  symbol:   class HttpHeaders
+  location: class MockHttpOutputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpOutputMessage.java:46: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpOutputMessage.java:54: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:59: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:68: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/client/MockClientHttpRequest.java:90: error: method does not override or implement a method from a supertype
+	@Override
+	^
+70 errors

@@ -1,0 +1,25 @@
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/LineNumberTableAttribute_info.java:18: error: incompatible types: Object cannot be converted to LineNumber_info
+        return this.m_lines.get(offset);
+                               ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/LineNumberTableAttribute_info.java:47: error: clone() has protected access in Object
+            _clone.m_lines.add(this.m_lines.get(e).clone());
+                                                  ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/LineNumberTableAttribute_info.java:57: error: cannot find symbol
+            this.m_lines.get(l).writeInClassFormat(out);
+                               ^
+  symbol:   method writeInClassFormat(UDataOutputStream)
+  location: class Object
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/InnerClassesAttribute_info.java:31: error: incompatible types: Object cannot be converted to InnerClass_info
+        return this.m_classes.get(offset);
+                                 ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/InnerClassesAttribute_info.java:61: error: clone() has protected access in Object
+            _clone.m_classes.add(classes.get(e).clone());
+                                               ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/InnerClassesAttribute_info.java:72: error: cannot find symbol
+            classes.get(l).writeInClassFormat(out);
+                          ^
+  symbol:   method writeInClassFormat(UDataOutputStream)
+  location: class Object
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+6 errors

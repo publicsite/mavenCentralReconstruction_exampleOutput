@@ -1,0 +1,40 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Throwable.java:16: error: package exists in another module: java.base
+package java.lang;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Throwable.java:176: error: cannot find symbol
+    return Arrays.stream(getSuppressed()).map(t -> t.backingJsObject).toArray();
+                                                    ^
+  symbol:   variable backingJsObject
+  location: variable t of type Throwable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Throwable.java:184: error: incomparable types: java.lang.Throwable and java.lang.Throwable
+    checkCriticalArgument(exception != this, "Exception can not suppress itself.");
+                                    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Throwable.java:217: error: incompatible types: java.lang.Throwable cannot be converted to java.lang.Throwable
+    return this;
+           ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Throwable.java:262: error: incomparable types: java.lang.Throwable and java.lang.Throwable
+    checkCriticalArgument(cause != this, "Self-causation not permitted");
+                                ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Throwable.java:264: error: incompatible types: java.lang.Throwable cannot be converted to java.lang.Throwable
+    return this;
+           ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Throwable.java:280: error: cannot find symbol
+      t.printStackTraceImpl(out, "Suppressed: ", "\t" + ident);
+       ^
+  symbol:   method printStackTraceImpl(PrintStream,String,String)
+  location: variable t of type Throwable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Throwable.java:285: error: cannot find symbol
+      theCause.printStackTraceImpl(out, "Caused by: ", ident);
+              ^
+  symbol:   method printStackTraceImpl(PrintStream,String,String)
+  location: variable theCause of type Throwable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Throwable.java:326: error: incompatible types: Object cannot be converted to String
+    return e instanceof NativeTypeError ? new NullPointerException(e) : new JsException(e);
+                                                                   ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Throwable.java:326: error: cannot find symbol
+    return e instanceof NativeTypeError ? new NullPointerException(e) : new JsException(e);
+                                                                            ^
+  symbol:   class JsException
+  location: class Throwable
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+10 errors

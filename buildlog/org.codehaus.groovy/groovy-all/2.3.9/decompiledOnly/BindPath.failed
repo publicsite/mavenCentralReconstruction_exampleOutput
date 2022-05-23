@@ -1,0 +1,133 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:9: error: cannot find symbol
+import groovy.lang.MetaClass;
+                  ^
+  symbol:   class MetaClass
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:10: error: cannot find symbol
+import groovy.lang.MissingPropertyException;
+                  ^
+  symbol:   class MissingPropertyException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:11: error: cannot find symbol
+import groovy.lang.Reference;
+                  ^
+  symbol:   class Reference
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:12: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:19: error: cannot find symbol
+    Map<String, TriggerBinding> localSynthetics;
+                ^
+  symbol:   class TriggerBinding
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:134: error: cannot find symbol
+    public synchronized void updateLocalSyntheticProperties(final Map<String, TriggerBinding> synthetics) {
+                                                                              ^
+  symbol:   class TriggerBinding
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:147: error: cannot find symbol
+    public TriggerBinding getSyntheticTriggerBinding(final Object newObject) {
+           ^
+  symbol:   class TriggerBinding
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:73: error: cannot find symbol
+            newValue = InvokerHelper.getProperty(newObject, this.propertyName);
+                       ^
+  symbol:   variable InvokerHelper
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:75: error: cannot find symbol
+        catch (MissingPropertyException mpe) {
+               ^
+  symbol:   class MissingPropertyException
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:77: error: cannot find symbol
+                newValue = InvokerHelper.getAttribute(newObject, this.propertyName);
+                           ^
+  symbol:   variable InvokerHelper
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:78: error: cannot find symbol
+                if (newValue instanceof Reference) {
+                                        ^
+  symbol:   class Reference
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:79: error: cannot find symbol
+                    newValue = ((Reference)newValue).get();
+                                 ^
+  symbol:   class Reference
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:92: error: cannot find symbol
+            final TriggerBinding syntheticTrigger = this.getSyntheticTriggerBinding(newObject);
+                  ^
+  symbol:   class TriggerBinding
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:93: error: cannot find symbol
+            final MetaClass mc = InvokerHelper.getMetaClass(newObject);
+                  ^
+  symbol:   class MetaClass
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:93: error: cannot find symbol
+            final MetaClass mc = InvokerHelper.getMetaClass(newObject);
+                                 ^
+  symbol:   variable InvokerHelper
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:95: error: cannot find symbol
+                final PropertyBinding psb = new PropertyBinding(newObject, this.propertyName);
+                      ^
+  symbol:   class PropertyBinding
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:95: error: cannot find symbol
+                final PropertyBinding psb = new PropertyBinding(newObject, this.propertyName);
+                                                ^
+  symbol:   class PropertyBinding
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:96: error: cannot find symbol
+                final PropertyChangeProxyTargetBinding proxytb = new PropertyChangeProxyTargetBinding(newObject, this.propertyName, listener);
+                      ^
+  symbol:   class PropertyChangeProxyTargetBinding
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:96: error: cannot find symbol
+                final PropertyChangeProxyTargetBinding proxytb = new PropertyChangeProxyTargetBinding(newObject, this.propertyName, listener);
+                                                                     ^
+  symbol:   class PropertyChangeProxyTargetBinding
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:101: error: cannot find symbol
+                InvokerHelper.invokeMethod(newObject, "addPropertyChangeListener", new Object[] { this.propertyName, listener });
+                ^
+  symbol:   variable InvokerHelper
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:106: error: cannot find symbol
+                InvokerHelper.invokeMethod(newObject, "addPropertyChangeListener", listener);
+                ^
+  symbol:   variable InvokerHelper
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:117: error: cannot find symbol
+                InvokerHelper.invokeMethod(this.currentObject, "removePropertyChangeListener", this.globalListener);
+                ^
+  symbol:   variable InvokerHelper
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:124: error: cannot find symbol
+                InvokerHelper.invokeMethod(this.currentObject, "removePropertyChangeListener", new Object[] { this.propertyName, this.localListener });
+                ^
+  symbol:   variable InvokerHelper
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:137: error: cannot find symbol
+        for (final Map.Entry<String, TriggerBinding> syntheticEntry : synthetics.entrySet()) {
+                                     ^
+  symbol:   class TriggerBinding
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:140: error: cannot find symbol
+                    this.localSynthetics = new TreeMap<String, TriggerBinding>();
+                                                               ^
+  symbol:   class TriggerBinding
+  location: class BindPath
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java:152: error: cannot find symbol
+            final TriggerBinding trigger = this.localSynthetics.get(currentClass.getName() + "#" + this.propertyName);
+                  ^
+  symbol:   class TriggerBinding
+  location: class BindPath
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/BindPath.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+26 errors

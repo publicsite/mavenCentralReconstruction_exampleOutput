@@ -1,0 +1,185 @@
+hybrids/org.springframework/spring/2.5.6/SpringBeanJobFactory.java:19: error: package org.quartz does not exist
+import org.quartz.SchedulerContext;
+                 ^
+hybrids/org.springframework/spring/2.5.6/SpringBeanJobFactory.java:20: error: package org.quartz.spi does not exist
+import org.quartz.spi.TriggerFiredBundle;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:19: error: package org.quartz does not exist
+import org.quartz.Job;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:20: error: package org.quartz does not exist
+import org.quartz.SchedulerException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:21: error: package org.quartz.spi does not exist
+import org.quartz.spi.JobFactory;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:22: error: package org.quartz.spi does not exist
+import org.quartz.spi.TriggerFiredBundle;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:33: error: cannot find symbol
+public class AdaptableJobFactory implements JobFactory {
+                                            ^
+  symbol: class JobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/SchedulerContextAware.java:19: error: package org.quartz does not exist
+import org.quartz.SchedulerContext;
+                 ^
+hybrids/org.springframework/spring/2.5.6/SpringBeanJobFactory.java:46: error: cannot find symbol
+	private SchedulerContext schedulerContext;
+	        ^
+  symbol:   class SchedulerContext
+  location: class SpringBeanJobFactory
+hybrids/org.springframework/spring/2.5.6/SpringBeanJobFactory.java:61: error: cannot find symbol
+	public void setSchedulerContext(SchedulerContext schedulerContext) {
+	                                ^
+  symbol:   class SchedulerContext
+  location: class SpringBeanJobFactory
+hybrids/org.springframework/spring/2.5.6/SpringBeanJobFactory.java:70: error: cannot find symbol
+	protected Object createJobInstance(TriggerFiredBundle bundle) {
+	                                   ^
+  symbol:   class TriggerFiredBundle
+  location: class SpringBeanJobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:35: error: cannot find symbol
+	public Job newJob(TriggerFiredBundle bundle) throws SchedulerException {
+	                  ^
+  symbol:   class TriggerFiredBundle
+  location: class AdaptableJobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:35: error: cannot find symbol
+	public Job newJob(TriggerFiredBundle bundle) throws SchedulerException {
+	       ^
+  symbol:   class Job
+  location: class AdaptableJobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:35: error: cannot find symbol
+	public Job newJob(TriggerFiredBundle bundle) throws SchedulerException {
+	                                                    ^
+  symbol:   class SchedulerException
+  location: class AdaptableJobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:53: error: cannot find symbol
+	protected Object createJobInstance(TriggerFiredBundle bundle) throws Exception {
+	                                   ^
+  symbol:   class TriggerFiredBundle
+  location: class AdaptableJobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:66: error: cannot find symbol
+	protected Job adaptJob(Object jobObject) throws Exception {
+	          ^
+  symbol:   class Job
+  location: class AdaptableJobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/SchedulerContextAware.java:40: error: cannot find symbol
+	void setSchedulerContext(SchedulerContext schedulerContext);
+	                         ^
+  symbol:   class SchedulerContext
+  location: interface SchedulerContextAware
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:41: error: cannot find symbol
+			throw new SchedulerException("Job instantiation failed", ex);
+			          ^
+  symbol:   class SchedulerException
+  location: class AdaptableJobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:67: error: cannot find symbol
+		if (jobObject instanceof Job) {
+		                         ^
+  symbol:   class Job
+  location: class AdaptableJobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/AdaptableJobFactory.java:68: error: cannot find symbol
+			return (Job) jobObject;
+			        ^
+  symbol:   class Job
+  location: class AdaptableJobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:19: error: package org.quartz does not exist
+import org.quartz.Job;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:20: error: package org.quartz does not exist
+import org.quartz.JobExecutionContext;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:21: error: package org.quartz does not exist
+import org.quartz.JobExecutionException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:38: error: cannot find symbol
+public class DelegatingJob implements Job {
+                                      ^
+  symbol: class Job
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:63: error: cannot find symbol
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+	                    ^
+  symbol:   class JobExecutionContext
+  location: class DelegatingJob
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:63: error: cannot find symbol
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+	                                                        ^
+  symbol:   class JobExecutionException
+  location: class DelegatingJob
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:19: error: package org.quartz does not exist
+import org.quartz.Job;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:20: error: package org.quartz does not exist
+import org.quartz.JobExecutionContext;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:21: error: package org.quartz does not exist
+import org.quartz.JobExecutionException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:22: error: package org.quartz does not exist
+import org.quartz.SchedulerException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:68: error: cannot find symbol
+public abstract class QuartzJobBean implements Job {
+                                               ^
+  symbol: class Job
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:75: error: cannot find symbol
+	public final void execute(JobExecutionContext context) throws JobExecutionException {
+	                          ^
+  symbol:   class JobExecutionContext
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:75: error: cannot find symbol
+	public final void execute(JobExecutionContext context) throws JobExecutionException {
+	                                                              ^
+  symbol:   class JobExecutionException
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:95: error: cannot find symbol
+	protected abstract void executeInternal(JobExecutionContext context) throws JobExecutionException;
+	                                        ^
+  symbol:   class JobExecutionContext
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:95: error: cannot find symbol
+	protected abstract void executeInternal(JobExecutionContext context) throws JobExecutionException;
+	                                                                            ^
+  symbol:   class JobExecutionException
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:362: error: cannot find symbol
+			extends edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap
+			                                                      ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:83: error: cannot find symbol
+		catch (SchedulerException ex) {
+		       ^
+  symbol:   class SchedulerException
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:84: error: cannot find symbol
+			throw new JobExecutionException(ex);
+			          ^
+  symbol:   class JobExecutionException
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/BeanWrapperImpl.java:355: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public Object doTypeConversionIfNecessary(Object value, Class requiredType) throws TypeMismatchException {
+	              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:110: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Set createLinkedSetIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:147: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createLinkedMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:179: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createIdentityMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:342: error: cannot find symbol
+			return new edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap(initialCapacity);
+			                                                         ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:361: error: BackportConcurrentHashMap is not abstract and does not override abstract method replace(Object,Object) in ConcurrentMap
+	private static class BackportConcurrentHashMap
+	               ^
+Note: sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/BeanWrapperImpl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+40 errors
+4 warnings

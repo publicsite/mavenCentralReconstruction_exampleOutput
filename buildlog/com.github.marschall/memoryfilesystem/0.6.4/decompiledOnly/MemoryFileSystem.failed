@@ -1,0 +1,46 @@
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:18: error: package javax.annotation does not exist
+import javax.annotation.PreDestroy;
+                       ^
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:846: error: cannot find symbol
+    @PreDestroy
+     ^
+  symbol:   class PreDestroy
+  location: class MemoryFileSystem
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:103: error: incompatible types: List<MemoryFileStore> cannot be converted to Iterable<FileStore>
+        this.stores = (Iterable<FileStore>)Collections.singletonList(store);
+                                                                    ^
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:398: error: incompatible types: <anonymous MemoryDirectoryBlock<Void>> cannot be converted to MemoryDirectoryBlock<Object>
+        this.withWriteLockOnLastDo(rootDirectory, (AbstractPath)elementPath.getParent(), true, (MemoryDirectoryBlock<Object>)new MemoryDirectoryBlock<Void>() {
+                                                                                                                             ^
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:496: error: type argument Object is not within bounds of type-variable V
+        final InvocationHandler handler = new LazyFileAttributeView<Object>(path, type, options);
+                                                                    ^
+  where V is a type-variable:
+    V extends FileAttributeView declared in class MemoryFileSystem.LazyFileAttributeView
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:496: error: incompatible types: Class<V> cannot be converted to Class<Object>
+        final InvocationHandler handler = new LazyFileAttributeView<Object>(path, type, options);
+                                                                                  ^
+  where V is a type-variable:
+    V extends FileAttributeView declared in method <V>getLazyFileAttributeView(AbstractPath,Class<V>,LinkOption...)
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:689: error: incompatible types: <anonymous MemoryDirectoryBlock<Void>> cannot be converted to MemoryDirectoryBlock<Object>
+                    MemoryFileSystem.this.withWriteLockOnLastDo(secondRoot, secondParent, copyContext.secondFollowSymLinks, (MemoryDirectoryBlock<Object>)new MemoryDirectoryBlock<Void>() {
+                                                                                                                                                          ^
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:686: error: incompatible types: <anonymous MemoryDirectoryBlock<Void>> cannot be converted to MemoryDirectoryBlock<Object>
+            this.withWriteLockOnLastDo(firstRoot, firstParent, copyContext.firstFollowSymLinks, (MemoryDirectoryBlock<Object>)new MemoryDirectoryBlock<Void>() {
+                                                                                                                              ^
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:717: error: incompatible types: <anonymous MemoryDirectoryBlock<Void>> cannot be converted to MemoryDirectoryBlock<Object>
+                copyContext.second.path.getMemoryFileSystem().withWriteLockOnLastDo(secondRoot, secondParent, copyContext.secondFollowSymLinks, (MemoryDirectoryBlock<Object>)new MemoryDirectoryBlock<Void>() {
+                                                                                                                                                                              ^
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:714: error: incompatible types: <anonymous MemoryDirectoryBlock<Void>> cannot be converted to MemoryDirectoryBlock<Object>
+        copyContext.first.path.getMemoryFileSystem().withWriteLockOnLastDo(firstRoot, firstParent, copyContext.firstFollowSymLinks, (MemoryDirectoryBlock<Object>)new MemoryDirectoryBlock<Void>() {
+                                                                                                                                                                  ^
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:813: error: incompatible types: <anonymous MemoryDirectoryBlock<Void>> cannot be converted to MemoryDirectoryBlock<Object>
+            this.withWriteLockOnLastDo(rootDirectory, (AbstractPath)elementPath.getParent(), true, (MemoryDirectoryBlock<Object>)new MemoryDirectoryBlock<Void>() {
+                                                                                                                                 ^
+sources/structure/com.github.marschall/memoryfilesystem/0.6.4/Decompiled/com/github/marschall/memoryfilesystem/MemoryFileSystem.java:873: error: incompatible types: Set<Root> cannot be converted to Iterable<Path>
+        return (Iterable<Path>)this.roots.keySet();
+                                                ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+12 errors

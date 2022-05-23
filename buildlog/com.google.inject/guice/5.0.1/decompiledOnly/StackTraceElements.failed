@@ -1,0 +1,116 @@
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/StackTraceElements.java:9: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheLoader;
+                              ^
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/StackTraceElements.java:10: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheBuilder;
+                              ^
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/StackTraceElements.java:14: error: package com.google.common.cache does not exist
+import com.google.common.cache.LoadingCache;
+                              ^
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/StackTraceElements.java:20: error: cannot find symbol
+    static final LoadingCache<Class<?>, LineNumbers> lineNumbersCache;
+                 ^
+  symbol:   class LoadingCache
+  location: class StackTraceElements
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/LineNumbers.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/LineNumbers.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/LineNumbers.java:21: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/LineNumbers.java:22: error: cannot find symbol
+import com.google.common.collect.Maps;
+                                ^
+  symbol:   class Maps
+  location: package com.google.common.collect
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/SourceProvider.java:19: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/SourceProvider.java:20: error: cannot find symbol
+import com.google.common.collect.ImmutableSet;
+                                ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/SourceProvider.java:21: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/SourceProvider.java:35: error: cannot find symbol
+  private final ImmutableSet<String> classNamesToSkip;
+                ^
+  symbol:   class ImmutableSet
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/Classes.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/Classes.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/StackTraceElements.java:101: error: cannot find symbol
+        lineNumbersCache = CacheBuilder.newBuilder().weakKeys().softValues().build((CacheLoader)new CacheLoader<Class<?>, LineNumbers>() {
+                                                                                    ^
+  symbol:   class CacheLoader
+  location: class StackTraceElements
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/StackTraceElements.java:101: error: cannot find symbol
+        lineNumbersCache = CacheBuilder.newBuilder().weakKeys().softValues().build((CacheLoader)new CacheLoader<Class<?>, LineNumbers>() {
+                                                                                                    ^
+  symbol:   class CacheLoader
+  location: class StackTraceElements
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/StackTraceElements.java:101: error: cannot find symbol
+        lineNumbersCache = CacheBuilder.newBuilder().weakKeys().softValues().build((CacheLoader)new CacheLoader<Class<?>, LineNumbers>() {
+                           ^
+  symbol:   variable CacheBuilder
+  location: class StackTraceElements
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/LineNumbers.java:48: error: cannot find symbol
+  private final Map<String, Integer> lines = Maps.newHashMap();
+                                             ^
+  symbol:   variable Maps
+  location: class LineNumbers
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/LineNumbers.java:102: error: cannot find symbol
+    Preconditions.checkArgument(
+    ^
+  symbol:   variable Preconditions
+  location: class LineNumbers
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/LineNumbers.java:117: error: cannot find symbol
+    checkNotNull(member, "member");
+    ^
+  symbol:   method checkNotNull(Member,String)
+  location: class LineNumbers
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/SourceProvider.java:38: error: cannot find symbol
+      new SourceProvider(ImmutableSet.of(SourceProvider.class.getName()));
+                         ^
+  symbol:   variable ImmutableSet
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/SourceProvider.java:47: error: package ImmutableSet does not exist
+    ImmutableSet.Builder<String> classNamesToSkipBuilder = ImmutableSet.builder();
+                ^
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/SourceProvider.java:47: error: cannot find symbol
+    ImmutableSet.Builder<String> classNamesToSkipBuilder = ImmutableSet.builder();
+                                                           ^
+  symbol:   variable ImmutableSet
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/SourceProvider.java:69: error: cannot find symbol
+    List<String> strings = Lists.newArrayList();
+                           ^
+  symbol:   variable Lists
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/SourceProvider.java:81: error: cannot find symbol
+    Preconditions.checkNotNull(stackTraceElements, "The stack trace elements cannot be null.");
+    ^
+  symbol:   variable Preconditions
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/SourceProvider.java:94: error: cannot find symbol
+    Preconditions.checkNotNull(moduleClassNames, "The list of module class names cannot be null.");
+    ^
+  symbol:   variable Preconditions
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/extractedSources/com/google/inject/internal/util/Classes.java:59: error: cannot find symbol
+    checkNotNull(member, "member");
+    ^
+  symbol:   method checkNotNull(Member,String)
+  location: class Classes
+27 errors

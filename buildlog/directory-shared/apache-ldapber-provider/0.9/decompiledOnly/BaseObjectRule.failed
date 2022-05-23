@@ -1,0 +1,47 @@
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/BaseObjectRule.java:9: error: cannot find symbol
+import org.apache.asn1.ber.TagEnum;
+                          ^
+  symbol:   class TagEnum
+  location: package org.apache.asn1.ber
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/BaseObjectRule.java:10: error: cannot find symbol
+import org.apache.asn1.ber.primitives.UniversalTag;
+                                     ^
+  symbol:   class UniversalTag
+  location: package org.apache.asn1.ber.primitives
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/BaseObjectRule.java:11: error: cannot find symbol
+import org.apache.asn1.ber.digester.rules.PrimitiveOctetStringRule;
+                                         ^
+  symbol:   class PrimitiveOctetStringRule
+  location: package org.apache.asn1.ber.digester.rules
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/BaseObjectRule.java:13: error: cannot find symbol
+public class BaseObjectRule extends PrimitiveOctetStringRule
+                                    ^
+  symbol: class PrimitiveOctetStringRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/BaseObjectRule.java:16: error: cannot find symbol
+        super((TagEnum)UniversalTag.OCTET_STRING);
+               ^
+  symbol:   class TagEnum
+  location: class BaseObjectRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/BaseObjectRule.java:16: error: cannot find symbol
+        super((TagEnum)UniversalTag.OCTET_STRING);
+                       ^
+  symbol:   variable UniversalTag
+  location: class BaseObjectRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/BaseObjectRule.java:20: error: cannot find symbol
+        super.finish();
+        ^
+  symbol:   variable super
+  location: class BaseObjectRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/BaseObjectRule.java:21: error: cannot find symbol
+        final ByteBuffer buf = (ByteBuffer)this.getDigester().pop();
+                                               ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/BaseObjectRule.java:22: error: cannot find symbol
+        final SearchRequestImpl req = (SearchRequestImpl)this.getDigester().peek(1);
+                                                             ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/BaseObjectRule.java:32: error: cannot find symbol
+        ((SearchRequestProcessing)this.getDigester().peek()).next();
+                                      ^
+  symbol: method getDigester()
+10 errors

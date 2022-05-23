@@ -1,0 +1,120 @@
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:7: error: cannot find symbol
+import org.apache.regexp.RE;
+                        ^
+  symbol:   class RE
+  location: package org.apache.regexp
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:18: error: cannot find symbol
+import jdbm.recman.CacheRecordManager;
+                  ^
+  symbol:   class CacheRecordManager
+  location: package jdbm.recman
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:19: error: cannot find symbol
+import jdbm.helper.MRU;
+                  ^
+  symbol:   class MRU
+  location: package jdbm.helper
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:20: error: cannot find symbol
+import jdbm.recman.BaseRecordManager;
+                  ^
+  symbol:   class BaseRecordManager
+  location: package jdbm.recman
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:23: error: cannot find symbol
+import org.apache.ldap.common.util.LRUMap;
+                                  ^
+  symbol:   class LRUMap
+  location: package org.apache.ldap.common.util
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/Index.java:7: error: cannot find symbol
+import org.apache.regexp.RE;
+                        ^
+  symbol:   class RE
+  location: package org.apache.regexp
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:36: error: cannot find symbol
+    private LRUMap keyCache;
+            ^
+  symbol:   class LRUMap
+  location: class JdbmIndex
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/IndexEnumeration.java:10: error: cannot find symbol
+import org.apache.regexp.RE;
+                        ^
+  symbol:   class RE
+  location: package org.apache.regexp
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:165: error: cannot find symbol
+    public IndexEnumeration listIndices(final RE regex) throws NamingException {
+                                              ^
+  symbol:   class RE
+  location: class JdbmIndex
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:169: error: cannot find symbol
+    public IndexEnumeration listIndices(final RE regex, final String prefix) throws NamingException {
+                                              ^
+  symbol:   class RE
+  location: class JdbmIndex
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:181: error: cannot find symbol
+    public boolean hasValue(final RE regex, final BigInteger id) throws NamingException {
+                                  ^
+  symbol:   class RE
+  location: class JdbmIndex
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/IndexEnumeration.java:15: error: cannot find symbol
+    private final RE re;
+                  ^
+  symbol:   class RE
+  location: class IndexEnumeration
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/IndexEnumeration.java:31: error: cannot find symbol
+    public IndexEnumeration(final NamingEnumeration list, final boolean swapKeyVal, final RE regex) throws NamingException {
+                                                                                          ^
+  symbol:   class RE
+  location: class IndexEnumeration
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/Index.java:52: error: cannot find symbol
+    IndexEnumeration listIndices(final RE p0) throws NamingException;
+                                       ^
+  symbol:   class RE
+  location: interface Index
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/Index.java:54: error: cannot find symbol
+    IndexEnumeration listIndices(final RE p0, final String p1) throws NamingException;
+                                       ^
+  symbol:   class RE
+  location: interface Index
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/Index.java:60: error: cannot find symbol
+    boolean hasValue(final RE p0, final BigInteger p1) throws NamingException;
+                           ^
+  symbol:   class RE
+  location: interface Index
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:44: error: cannot find symbol
+        this.keyCache = new LRUMap(1000);
+                            ^
+  symbol:   class LRUMap
+  location: class JdbmIndex
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:56: error: cannot find symbol
+        this.keyCache = new LRUMap(1000);
+                            ^
+  symbol:   class LRUMap
+  location: class JdbmIndex
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:59: error: cannot find symbol
+            final BaseRecordManager base = new BaseRecordManager(path);
+                  ^
+  symbol:   class BaseRecordManager
+  location: class JdbmIndex
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:59: error: cannot find symbol
+            final BaseRecordManager base = new BaseRecordManager(path);
+                                               ^
+  symbol:   class BaseRecordManager
+  location: class JdbmIndex
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:61: error: cannot find symbol
+            this.recMan = (RecordManager)new CacheRecordManager((RecordManager)base, (CachePolicy)new MRU(1000));
+                                             ^
+  symbol:   class CacheRecordManager
+  location: class JdbmIndex
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/jdbm/JdbmIndex.java:61: error: cannot find symbol
+            this.recMan = (RecordManager)new CacheRecordManager((RecordManager)base, (CachePolicy)new MRU(1000));
+                                                                                                      ^
+  symbol:   class MRU
+  location: class JdbmIndex
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/IndexEnumeration.java:76: error: incompatible types: Object cannot be converted to Tuple
+            final Tuple tuple = this.underlying.next();
+                                                    ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/IndexComparator.java:18: error: constructor SerializableComparator in class SerializableComparator cannot be applied to given types;
+        BIG_INTEGER_COMPARATOR = new SerializableComparator() {
+                                 ^
+  required: String
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+24 errors

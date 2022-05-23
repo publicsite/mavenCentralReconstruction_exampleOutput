@@ -1,0 +1,22 @@
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/fmt/RequestEncodingSupport.java:10: error: cannot find symbol
+import javax.servlet.jsp.tagext.TagSupport;
+                               ^
+  symbol:   class TagSupport
+  location: package javax.servlet.jsp.tagext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/fmt/RequestEncodingSupport.java:12: error: cannot find symbol
+public abstract class RequestEncodingSupport extends TagSupport
+                                                     ^
+  symbol: class TagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/fmt/RequestEncodingSupport.java:29: error: cannot find symbol
+        if (this.charEncoding == null && this.pageContext.getRequest().getCharacterEncoding() == null) {
+                                             ^
+  symbol: variable pageContext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/fmt/RequestEncodingSupport.java:30: error: cannot find symbol
+            this.charEncoding = (String)this.pageContext.getAttribute("javax.servlet.jsp.jstl.fmt.request.charset", 3);
+                                            ^
+  symbol: variable pageContext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/fmt/RequestEncodingSupport.java:37: error: cannot find symbol
+                this.pageContext.getRequest().setCharacterEncoding(this.charEncoding);
+                    ^
+  symbol: variable pageContext
+5 errors

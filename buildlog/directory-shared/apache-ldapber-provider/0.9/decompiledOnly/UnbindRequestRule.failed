@@ -1,0 +1,40 @@
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/unbind/UnbindRequestRule.java:9: error: cannot find symbol
+import org.apache.asn1.ber.TypeClass;
+                          ^
+  symbol:   class TypeClass
+  location: package org.apache.asn1.ber
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/unbind/UnbindRequestRule.java:10: error: package org.apache.asn1.ber.digester does not exist
+import org.apache.asn1.ber.digester.AbstractRule;
+                                   ^
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/unbind/UnbindRequestRule.java:12: error: cannot find symbol
+public class UnbindRequestRule extends AbstractRule
+                                       ^
+  symbol: class AbstractRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/unbind/UnbindRequestRule.java:14: error: cannot find symbol
+    public void tag(final int id, final boolean isPrimitive, final TypeClass typeClass) {
+                                                                   ^
+  symbol:   class TypeClass
+  location: class UnbindRequestRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/unbind/UnbindRequestRule.java:15: error: cannot find symbol
+        super.tag(id, isPrimitive, typeClass);
+        ^
+  symbol:   variable super
+  location: class UnbindRequestRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/unbind/UnbindRequestRule.java:16: error: cannot find symbol
+        final UnbindRequest req = (UnbindRequest)new UnbindRequestImpl(this.getDigester().popInt());
+                                                                           ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/unbind/UnbindRequestRule.java:17: error: cannot find symbol
+        this.getDigester().push((Object)req);
+            ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/unbind/UnbindRequestRule.java:21: error: cannot find symbol
+        super.finish();
+        ^
+  symbol:   variable super
+  location: class UnbindRequestRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/unbind/UnbindRequestRule.java:22: error: cannot find symbol
+        this.getDigester().pop();
+            ^
+  symbol: method getDigester()
+9 errors

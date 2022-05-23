@@ -1,0 +1,63 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:7: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:8: error: cannot find symbol
+import groovy.lang.MetaClass;
+                  ^
+  symbol:   class MetaClass
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:9: error: cannot find symbol
+import org.codehaus.groovy.runtime.MetaClassHelper;
+                                  ^
+  symbol:   class MetaClassHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:10: error: cannot find symbol
+import groovy.lang.GroovySystem;
+                  ^
+  symbol:   class GroovySystem
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:13: error: cannot find symbol
+public class MixedInMetaClass extends OwnedMetaClass
+                                      ^
+  symbol: class OwnedMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:29: error: cannot find symbol
+    protected MetaClass getOwnerMetaClass(final Object owner) {
+              ^
+  symbol:   class MetaClass
+  location: class MixedInMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:19: error: cannot find symbol
+        this.owner = new WeakReference((T)owner);
+                                        ^
+  symbol:   class T
+  location: class MixedInMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:20: error: cannot find symbol
+        MetaClassHelper.doSetMetaClass(instance, this);
+        ^
+  symbol:   variable MetaClassHelper
+  location: class MixedInMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:30: error: cannot find symbol
+        return InvokerHelper.getMetaClass(owner);
+               ^
+  symbol:   variable InvokerHelper
+  location: class MixedInMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:36: error: cannot find symbol
+            return this.delegate.invokeMethod(sender, receiver, methodName, arguments, true, fromInsideClass);
+                       ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/metaclass/MixedInMetaClass.java:38: error: cannot find symbol
+        return super.invokeMethod(sender, receiver, methodName, arguments, false, fromInsideClass);
+               ^
+  symbol:   variable super
+  location: class MixedInMetaClass
+14 errors

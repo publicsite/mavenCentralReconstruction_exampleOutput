@@ -1,0 +1,50 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:7: error: package oracle.toplink.sessions does not exist
+import oracle.toplink.sessions.Session;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:8: error: package oracle.toplink.sessions does not exist
+import oracle.toplink.sessions.SessionLogEntry;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:11: error: package oracle.toplink.sessions does not exist
+import oracle.toplink.sessions.DefaultSessionLog;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:13: error: cannot find symbol
+public class CommonsLoggingSessionLog904 extends DefaultSessionLog
+                                                 ^
+  symbol: class DefaultSessionLog
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:33: error: cannot find symbol
+    public void log(final SessionLogEntry entry) {
+                          ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog904
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:49: error: cannot find symbol
+    protected String getMessageString(final SessionLogEntry entry) {
+                                            ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog904
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:69: error: cannot find symbol
+    protected String getSessionName(final Session session) {
+                                          ^
+  symbol:   class Session
+  location: class CommonsLoggingSessionLog904
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:35: error: cannot find symbol
+            if (this.shouldLogExceptions() && this.logger.isWarnEnabled()) {
+                    ^
+  symbol: method shouldLogExceptions()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:40: error: cannot find symbol
+            if (this.shouldLogDebug() && this.logger.isTraceEnabled()) {
+                    ^
+  symbol: method shouldLogDebug()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:51: error: cannot find symbol
+        if (this.shouldPrintSession()) {
+                ^
+  symbol: method shouldPrintSession()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:52: error: cannot find symbol
+            buf.append(this.getSessionName((Session)entry.getSession()));
+                                            ^
+  symbol:   class Session
+  location: class CommonsLoggingSessionLog904
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/toplink/support/CommonsLoggingSessionLog904.java:58: error: cannot find symbol
+        if (this.shouldPrintConnection() && entry.getConnection() != null) {
+                ^
+  symbol: method shouldPrintConnection()
+12 errors

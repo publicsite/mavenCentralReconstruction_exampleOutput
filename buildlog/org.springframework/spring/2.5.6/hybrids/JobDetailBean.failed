@@ -1,0 +1,92 @@
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:21: error: package org.quartz does not exist
+import org.quartz.Job;
+                 ^
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:22: error: package org.quartz does not exist
+import org.quartz.JobDetail;
+                 ^
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:23: error: package org.quartz does not exist
+import org.quartz.Scheduler;
+                 ^
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:45: error: cannot find symbol
+public class JobDetailBean extends JobDetail
+                                   ^
+  symbol: class JobDetail
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:63: error: cannot find symbol
+		if (jobClass != null && !Job.class.isAssignableFrom(jobClass)) {
+		                         ^
+  symbol:   class Job
+  location: class JobDetailBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:19: error: package org.quartz does not exist
+import org.quartz.Job;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:20: error: package org.quartz does not exist
+import org.quartz.JobExecutionContext;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:21: error: package org.quartz does not exist
+import org.quartz.JobExecutionException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:38: error: cannot find symbol
+public class DelegatingJob implements Job {
+                                      ^
+  symbol: class Job
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:63: error: cannot find symbol
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+	                    ^
+  symbol:   class JobExecutionContext
+  location: class DelegatingJob
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:63: error: cannot find symbol
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+	                                                        ^
+  symbol:   class JobExecutionException
+  location: class DelegatingJob
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:64: error: cannot find symbol
+			super.setJobClass(DelegatingJob.class);
+			^
+  symbol:   variable super
+  location: class JobDetailBean
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:68: error: cannot find symbol
+			super.setJobClass(jobClass);
+			^
+  symbol:   variable super
+  location: class JobDetailBean
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:77: error: cannot find symbol
+		return (this.actualJobClass != null ? this.actualJobClass : super.getJobClass());
+		                                                            ^
+  symbol:   variable super
+  location: class JobDetailBean
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:92: error: cannot find symbol
+		getJobDataMap().putAll(jobDataAsMap);
+		^
+  symbol:   method getJobDataMap()
+  location: class JobDetailBean
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:105: error: cannot find symbol
+			addJobListener(names[i]);
+			^
+  symbol:   method addJobListener(String)
+  location: class JobDetailBean
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:139: error: cannot find symbol
+		if (getName() == null) {
+		    ^
+  symbol:   method getName()
+  location: class JobDetailBean
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:140: error: cannot find symbol
+			setName(this.beanName);
+			^
+  symbol:   method setName(String)
+  location: class JobDetailBean
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:142: error: cannot find symbol
+		if (getGroup() == null) {
+		    ^
+  symbol:   method getGroup()
+  location: class JobDetailBean
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:143: error: cannot find symbol
+			setGroup(Scheduler.DEFAULT_GROUP);
+			         ^
+  symbol:   variable Scheduler
+  location: class JobDetailBean
+hybrids/org.springframework/spring/2.5.6/JobDetailBean.java:151: error: cannot find symbol
+			getJobDataMap().put(this.applicationContextJobDataKey, this.applicationContext);
+			^
+  symbol:   method getJobDataMap()
+  location: class JobDetailBean
+21 errors

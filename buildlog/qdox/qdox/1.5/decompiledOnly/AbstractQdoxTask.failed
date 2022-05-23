@@ -1,0 +1,86 @@
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:7: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.ProjectComponent;
+                           ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:8: error: package org.apache.tools.ant.types does not exist
+import org.apache.tools.ant.types.AbstractFileSet;
+                                 ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:13: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.BuildException;
+                           ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:17: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.DirectoryScanner;
+                           ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:18: error: package org.apache.tools.ant.types does not exist
+import org.apache.tools.ant.types.FileSet;
+                                 ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:22: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.Task;
+                           ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:24: error: cannot find symbol
+public abstract class AbstractQdoxTask extends Task
+                                               ^
+  symbol: class Task
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:38: error: cannot find symbol
+    public void addFileset(final FileSet set) {
+                                 ^
+  symbol:   class FileSet
+  location: class AbstractQdoxTask
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:58: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class AbstractQdoxTask
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:94: error: cannot find symbol
+    protected void validateAttributes() throws BuildException {
+                                               ^
+  symbol:   class BuildException
+  location: class AbstractQdoxTask
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:44: error: cannot find symbol
+            final FileSet fs = this.filesets.elementAt(i);
+                  ^
+  symbol:   class FileSet
+  location: class AbstractQdoxTask
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:45: error: cannot find symbol
+            final DirectoryScanner ds = ((AbstractFileSet)fs).getDirectoryScanner(((ProjectComponent)this).getProject());
+                  ^
+  symbol:   class DirectoryScanner
+  location: class AbstractQdoxTask
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:45: error: cannot find symbol
+            final DirectoryScanner ds = ((AbstractFileSet)fs).getDirectoryScanner(((ProjectComponent)this).getProject());
+                                          ^
+  symbol:   class AbstractFileSet
+  location: class AbstractQdoxTask
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:45: error: cannot find symbol
+            final DirectoryScanner ds = ((AbstractFileSet)fs).getDirectoryScanner(((ProjectComponent)this).getProject());
+                                                                                    ^
+  symbol:   class ProjectComponent
+  location: class AbstractQdoxTask
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:47: error: cannot find symbol
+            this.buildFileMap(((AbstractFileSet)fs).getDir(((ProjectComponent)this).getProject()), srcFiles);
+                                ^
+  symbol:   class AbstractFileSet
+  location: class AbstractQdoxTask
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:47: error: cannot find symbol
+            this.buildFileMap(((AbstractFileSet)fs).getDir(((ProjectComponent)this).getProject()), srcFiles);
+                                                             ^
+  symbol:   class ProjectComponent
+  location: class AbstractQdoxTask
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:62: error: cannot find symbol
+        builder.getClassLibrary().addClassLoader(this.getClass().getClassLoader());
+                                                     ^
+  symbol: method getClass()
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:73: error: incompatible types: Object cannot be converted to String
+        for (final String sourceFile : this.fileMap.keySet()) {
+                                                          ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:74: error: incompatible types: Object cannot be converted to File
+            builder.addSourceTree(this.fileMap.get(sourceFile));
+                                                  ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java:96: error: cannot find symbol
+            throw new BuildException("Specify at least one source fileset.");
+                      ^
+  symbol:   class BuildException
+  location: class AbstractQdoxTask
+Note: sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/ant/AbstractQdoxTask.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+20 errors

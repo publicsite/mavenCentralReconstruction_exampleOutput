@@ -1,0 +1,52 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:8: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:65: error: incompatible types: Object cannot be converted to String
+                final String target = listener.get("target");
+                                                  ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:67: error: incompatible types: Object cannot be converted to String
+                final String listenerType = listener.get("type");
+                                                        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:71: error: incompatible types: Object cannot be converted to String
+                        this.addAttributeChangeNotificationListener(AttributeChangedListener.getListener(), listener.get("attribute"), listener);
+                                                                                                                        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:83: error: cannot find symbol
+                this.addNotificationListener(JmxEventListener.getListener(), filter, listener);
+                                             ^
+  symbol:   variable JmxEventListener
+  location: class JmxBuilderModelMBean
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:91: error: incompatible types: Object cannot be converted to ObjectName
+            final ObjectName broadcaster = listener.get("from");
+                                                       ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:93: error: incompatible types: Object cannot be converted to String
+                final String eventType = listener.get("event");
+                                                     ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:97: error: cannot find symbol
+                    server.addNotificationListener(broadcaster, JmxEventListener.getListener(), filter, listener);
+                                                                ^
+  symbol:   variable JmxEventListener
+  location: class JmxBuilderModelMBean
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:100: error: cannot find symbol
+                    server.addNotificationListener(broadcaster, JmxEventListener.getListener(), null, listener);
+                                                                ^
+  symbol:   variable JmxEventListener
+  location: class JmxBuilderModelMBean
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:157: error: cannot find symbol
+                if (callback != null && callback instanceof Closure) {
+                                                            ^
+  symbol:   class Closure
+  location: class AttributeChangedListener
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:158: error: cannot find symbol
+                    final Closure closure = (Closure)callback;
+                          ^
+  symbol:   class Closure
+  location: class AttributeChangedListener
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/jmx/builder/JmxBuilderModelMBean.java:158: error: cannot find symbol
+                    final Closure closure = (Closure)callback;
+                                             ^
+  symbol:   class Closure
+  location: class AttributeChangedListener
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+12 errors

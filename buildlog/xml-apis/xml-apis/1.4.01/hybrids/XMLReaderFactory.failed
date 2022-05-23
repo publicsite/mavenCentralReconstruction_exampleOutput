@@ -1,0 +1,40 @@
+hybrids/xml-apis/xml-apis/1.4.01/XMLReaderFactory.java:8: error: package exists in another module: java.xml
+package org.xml.sax.helpers;
+^
+hybrids/xml-apis/xml-apis/1.4.01/XMLReaderFactory.java:114: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+        ClassLoader	loader = NewInstance.getClassLoader ();
+                   	         ^
+hybrids/xml-apis/xml-apis/1.4.01/XMLReaderFactory.java:117: error: cannot find symbol
+        try { className = SecuritySupport.getSystemProperty (property); }
+                          ^
+  symbol:   variable SecuritySupport
+  location: class XMLReaderFactory
+hybrids/xml-apis/xml-apis/1.4.01/XMLReaderFactory.java:128: error: cannot find symbol
+            ClassLoader cl = SecuritySupport.getContextClassLoader();
+                             ^
+  symbol:   variable SecuritySupport
+  location: class XMLReaderFactory
+hybrids/xml-apis/xml-apis/1.4.01/XMLReaderFactory.java:130: error: cannot find symbol
+                is = SecuritySupport.getResourceAsStream(cl, service);
+                     ^
+  symbol:   variable SecuritySupport
+  location: class XMLReaderFactory
+hybrids/xml-apis/xml-apis/1.4.01/XMLReaderFactory.java:135: error: cannot find symbol
+                    is = SecuritySupport.getResourceAsStream(cl, service);
+                         ^
+  symbol:   variable SecuritySupport
+  location: class XMLReaderFactory
+hybrids/xml-apis/xml-apis/1.4.01/XMLReaderFactory.java:141: error: cannot find symbol
+                is = SecuritySupport.getResourceAsStream(cl, service);
+                     ^
+  symbol:   variable SecuritySupport
+  location: class XMLReaderFactory
+hybrids/xml-apis/xml-apis/1.4.01/XMLReaderFactory.java:232: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+        return loadClass (NewInstance.getClassLoader (), className);
+                          ^
+hybrids/xml-apis/xml-apis/1.4.01/XMLReaderFactory.java:239: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+            return (XMLReader) NewInstance.newInstance (loader, className);
+                               ^
+Note: hybrids/xml-apis/xml-apis/1.4.01/XMLReaderFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors

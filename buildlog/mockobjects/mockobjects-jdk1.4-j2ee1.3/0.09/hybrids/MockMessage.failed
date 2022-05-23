@@ -1,0 +1,479 @@
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:3: error: package alt.javax.mail does not exist
+import alt.javax.mail.Message;
+                     ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:5: error: package javax.mail does not exist
+import javax.mail.Address;
+                 ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:6: error: package javax.mail does not exist
+import javax.mail.MessagingException;
+                 ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:7: error: package javax.mail does not exist
+import javax.mail.Flags;
+                 ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:8: error: package javax.mail does not exist
+import javax.mail.Multipart;
+                 ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:9: error: package javax.activation does not exist
+import javax.activation.DataHandler;
+                       ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:16: error: cannot find symbol
+import com.mockobjects.MockObject;
+                      ^
+  symbol:   class MockObject
+  location: package com.mockobjects
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:17: error: cannot find symbol
+import com.mockobjects.ExpectationValue;
+                      ^
+  symbol:   class ExpectationValue
+  location: package com.mockobjects
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:19: error: cannot find symbol
+public class MockMessage extends MockObject implements Message {
+                                 ^
+  symbol: class MockObject
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:19: error: cannot find symbol
+public class MockMessage extends MockObject implements Message {
+                                                       ^
+  symbol: class Message
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:20: error: cannot find symbol
+    private final ExpectationValue myFrom = new ExpectationValue("from");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:21: error: cannot find symbol
+    private final ExpectationValue myRecipients = new ExpectationValue("recipients");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:22: error: cannot find symbol
+    private final ExpectationValue mySubject = new ExpectationValue("subject");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:23: error: cannot find symbol
+    private final ExpectationValue mySentDate = new ExpectationValue("sent date");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:24: error: cannot find symbol
+    private final ExpectationValue myText = new ExpectationValue("text");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:25: error: cannot find symbol
+    private final ExpectationValue myContent = new ExpectationValue("content");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:26: error: cannot find symbol
+    private final ExpectationValue myMimeType = new ExpectationValue("mime type");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:28: error: cannot find symbol
+    public Address[] getFrom() throws MessagingException {
+           ^
+  symbol:   class Address
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:28: error: cannot find symbol
+    public Address[] getFrom() throws MessagingException {
+                                      ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:33: error: cannot find symbol
+    public void setFrom() throws MessagingException {
+                                 ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:37: error: cannot find symbol
+    public void setExpectedFrom(Address anAddress){
+                                ^
+  symbol:   class Address
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:41: error: cannot find symbol
+    public void setFrom(Address anAddress) throws MessagingException {
+                        ^
+  symbol:   class Address
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:41: error: cannot find symbol
+    public void setFrom(Address anAddress) throws MessagingException {
+                                                  ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:45: error: cannot find symbol
+    public void addFrom(Address[] addresses) throws MessagingException {
+                        ^
+  symbol:   class Address
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:45: error: cannot find symbol
+    public void addFrom(Address[] addresses) throws MessagingException {
+                                                    ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:49: error: package javax.mail.Message does not exist
+    public Address[] getRecipients(javax.mail.Message.RecipientType type) throws MessagingException {
+                                                     ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:49: error: cannot find symbol
+    public Address[] getRecipients(javax.mail.Message.RecipientType type) throws MessagingException {
+           ^
+  symbol:   class Address
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:49: error: cannot find symbol
+    public Address[] getRecipients(javax.mail.Message.RecipientType type) throws MessagingException {
+                                                                                 ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:54: error: cannot find symbol
+    public void setExpectedRecipients(Address[] addresses){
+                                      ^
+  symbol:   class Address
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:58: error: package javax.mail.Message does not exist
+    public void setRecipients(javax.mail.Message.RecipientType type, Address[] addresses) throws MessagingException {
+                                                ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:58: error: cannot find symbol
+    public void setRecipients(javax.mail.Message.RecipientType type, Address[] addresses) throws MessagingException {
+                                                                     ^
+  symbol:   class Address
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:58: error: cannot find symbol
+    public void setRecipients(javax.mail.Message.RecipientType type, Address[] addresses) throws MessagingException {
+                                                                                                 ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:62: error: package javax.mail.Message does not exist
+    public void addRecipients(javax.mail.Message.RecipientType type, Address[] addresses) throws MessagingException {
+                                                ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:62: error: cannot find symbol
+    public void addRecipients(javax.mail.Message.RecipientType type, Address[] addresses) throws MessagingException {
+                                                                     ^
+  symbol:   class Address
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:62: error: cannot find symbol
+    public void addRecipients(javax.mail.Message.RecipientType type, Address[] addresses) throws MessagingException {
+                                                                                                 ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:66: error: cannot find symbol
+    public String getSubject() throws MessagingException {
+                                      ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:71: error: cannot find symbol
+    public void setSubject(String aSubject) throws MessagingException {
+                                                   ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:79: error: cannot find symbol
+    public Date getSentDate() throws MessagingException {
+                                     ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:88: error: cannot find symbol
+    public void setSentDate(Date aDate) throws MessagingException {
+                                               ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:92: error: cannot find symbol
+    public Date getReceivedDate() throws MessagingException {
+                                         ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:97: error: cannot find symbol
+    public Flags getFlags() throws MessagingException {
+           ^
+  symbol:   class Flags
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:97: error: cannot find symbol
+    public Flags getFlags() throws MessagingException {
+                                   ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:102: error: cannot find symbol
+    public void setFlags(Flags flags, boolean b) throws MessagingException {
+                         ^
+  symbol:   class Flags
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:102: error: cannot find symbol
+    public void setFlags(Flags flags, boolean b) throws MessagingException {
+                                                        ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:106: error: cannot find symbol
+    public Message reply(boolean b) throws MessagingException {
+           ^
+  symbol:   class Message
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:106: error: cannot find symbol
+    public Message reply(boolean b) throws MessagingException {
+                                           ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:111: error: cannot find symbol
+    public void saveChanges() throws MessagingException {
+                                     ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:115: error: cannot find symbol
+    public int getSize() throws MessagingException {
+                                ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:120: error: cannot find symbol
+    public int getLineCount() throws MessagingException {
+                                     ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:125: error: cannot find symbol
+    public String getContentType() throws MessagingException {
+                                          ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:130: error: cannot find symbol
+    public boolean isMimeType(String s) throws MessagingException {
+                                               ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:135: error: cannot find symbol
+    public String getDisposition() throws MessagingException {
+                                          ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:140: error: cannot find symbol
+    public void setDisposition(String s) throws MessagingException {
+                                                ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:144: error: cannot find symbol
+    public String getDescription() throws MessagingException {
+                                          ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:149: error: cannot find symbol
+    public void setDescription(String s) throws MessagingException {
+                                                ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:153: error: cannot find symbol
+    public String getFileName() throws MessagingException {
+                                       ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:158: error: cannot find symbol
+    public void setFileName(String s) throws MessagingException {
+                                             ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:162: error: cannot find symbol
+    public InputStream getInputStream() throws IOException, MessagingException {
+                                                            ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:167: error: cannot find symbol
+    public DataHandler getDataHandler() throws MessagingException {
+           ^
+  symbol:   class DataHandler
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:167: error: cannot find symbol
+    public DataHandler getDataHandler() throws MessagingException {
+                                               ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:172: error: cannot find symbol
+    public Object getContent() throws IOException, MessagingException {
+                                                   ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:177: error: cannot find symbol
+    public void setDataHandler(DataHandler handler) throws MessagingException {
+                               ^
+  symbol:   class DataHandler
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:177: error: cannot find symbol
+    public void setDataHandler(DataHandler handler) throws MessagingException {
+                                                           ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:187: error: cannot find symbol
+    public void setContent(Object aContent, String aMimeType) throws MessagingException {
+                                                                     ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:196: error: cannot find symbol
+    public void setText(String aText) throws MessagingException {
+                                             ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:200: error: cannot find symbol
+    public void setContent(Multipart multipart) throws MessagingException {
+                           ^
+  symbol:   class Multipart
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:200: error: cannot find symbol
+    public void setContent(Multipart multipart) throws MessagingException {
+                                                       ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:204: error: cannot find symbol
+    public void writeTo(OutputStream stream) throws IOException, MessagingException {
+                                                                 ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:208: error: package javax.mail does not exist
+    public javax.mail.Message getRealMessage() {
+                     ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:212: error: cannot find symbol
+    public String[] getHeader(String s) throws MessagingException {
+                                               ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:217: error: cannot find symbol
+    public void setHeader(String s, String s1) throws MessagingException {
+                                                      ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:221: error: cannot find symbol
+    public void addHeader(String s, String s1) throws MessagingException {
+                                                      ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:225: error: cannot find symbol
+    public void removeHeader(String s) throws MessagingException {
+                                              ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:229: error: cannot find symbol
+    public Enumeration getAllHeaders() throws MessagingException {
+                                              ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:234: error: cannot find symbol
+    public Enumeration getMatchingHeaders(String[] strings) throws MessagingException {
+                                                                   ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:239: error: cannot find symbol
+    public Enumeration getNonMatchingHeaders(String[] strings) throws MessagingException {
+                                                                      ^
+  symbol:   class MessagingException
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:20: error: cannot find symbol
+    private final ExpectationValue myFrom = new ExpectationValue("from");
+                                                ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:21: error: cannot find symbol
+    private final ExpectationValue myRecipients = new ExpectationValue("recipients");
+                                                      ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:22: error: cannot find symbol
+    private final ExpectationValue mySubject = new ExpectationValue("subject");
+                                                   ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:23: error: cannot find symbol
+    private final ExpectationValue mySentDate = new ExpectationValue("sent date");
+                                                    ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:24: error: cannot find symbol
+    private final ExpectationValue myText = new ExpectationValue("text");
+                                                ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:25: error: cannot find symbol
+    private final ExpectationValue myContent = new ExpectationValue("content");
+                                                   ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:26: error: cannot find symbol
+    private final ExpectationValue myMimeType = new ExpectationValue("mime type");
+                                                    ^
+  symbol:   class ExpectationValue
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:29: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:30: error: cannot find symbol
+        return new Address[0];
+                   ^
+  symbol:   class Address
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:34: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:46: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:50: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:51: error: cannot find symbol
+        return new Address[0];
+                   ^
+  symbol:   class Address
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:63: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:67: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:80: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:93: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:98: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:103: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:107: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:112: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:116: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:121: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockMessage.java:126: error: cannot find symbol
+        notImplemented();
+        ^
+  symbol:   method notImplemented()
+  location: class MockMessage
+100 errors

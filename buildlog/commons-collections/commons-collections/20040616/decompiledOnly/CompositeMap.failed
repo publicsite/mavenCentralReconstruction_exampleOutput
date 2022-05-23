@@ -1,0 +1,37 @@
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/collection/CompositeCollection.java:167: error: cannot find symbol
+        final ArrayList list = new ArrayList((Collection<? extends E>)Arrays.asList((Collection[])this.all));
+                                                                   ^
+  symbol:   class E
+  location: class CompositeCollection
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/collection/CompositeCollection.java:169: error: incompatible types: Object[] cannot be converted to Collection[]
+        this.all = list.toArray(new Collection[list.size()]);
+                               ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/collection/CompositeCollection.java:184: error: incompatible types: Object[] cannot be converted to Collection[]
+        this.all = list.toArray(new Collection[list.size()]);
+                               ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/set/CompositeSet.java:30: error: incompatible types: Object cannot be converted to Set
+        for (final Set set : this.getCollections()) {
+                                                ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/set/CompositeSet.java:70: error: incompatible types: Object cannot be converted to Set
+        for (final Set set : this.getCollections()) {
+                                                ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/CollectionUtils.java:104: error: incompatible types: Object cannot be converted to Integer
+            final Integer c = count.get(obj);
+                                       ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/CollectionUtils.java:485: error: incompatible types: Object cannot be converted to Integer
+        final Integer count = freqMap.get(obj);
+                                         ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/iterators/IteratorChain.java:65: error: incompatible types: Object cannot be converted to Iterator
+        for (final Iterator item : iterators) {
+                                   ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/iterators/IteratorChain.java:116: error: incompatible types: Object cannot be converted to Iterator
+                this.currentIterator = this.iteratorChain.get(0);
+                                                             ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/iterators/IteratorChain.java:122: error: incompatible types: Object cannot be converted to Iterator
+            this.currentIterator = this.iteratorChain.get(this.currentIteratorIndex);
+                                                         ^
+Note: sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/CollectionUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+10 errors

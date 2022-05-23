@@ -1,0 +1,13 @@
+sources/structure/commons-lang/commons-lang/2.4/extractedSources/org/apache/commons/lang/enums/Enum.java:662: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            Method mth = other.getClass().getMethod("getName", null);
+                                                               ^
+  cast to Class<?> for a varargs call
+  cast to Class<?>[] for a non-varargs call and to suppress this warning
+sources/structure/commons-lang/commons-lang/2.4/extractedSources/org/apache/commons/lang/enums/Enum.java:663: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            String name = (String) mth.invoke(other, null);
+                                                     ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: sources/structure/commons-lang/commons-lang/2.4/extractedSources/org/apache/commons/lang/enums/Enum.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings

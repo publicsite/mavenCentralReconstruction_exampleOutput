@@ -1,0 +1,119 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:38: error: package javax.annotation does not exist
+import javax.annotation.PostConstruct;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:39: error: package javax.annotation does not exist
+import javax.annotation.PreDestroy;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:40: error: package javax.annotation does not exist
+import javax.annotation.Resource;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:41: error: package javax.ejb does not exist
+import javax.ejb.EJB;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:43: error: package javax.xml.ws does not exist
+import javax.xml.ws.Service;
+                   ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:44: error: package javax.xml.ws does not exist
+import javax.xml.ws.WebServiceClient;
+                   ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:45: error: package javax.xml.ws does not exist
+import javax.xml.ws.WebServiceRef;
+                   ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:185: error: cannot find symbol
+		setInitAnnotationType(PostConstruct.class);
+		                      ^
+  symbol:   class PostConstruct
+  location: class CommonAnnotationBeanPostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:186: error: cannot find symbol
+		setDestroyAnnotationType(PreDestroy.class);
+		                         ^
+  symbol:   class PreDestroy
+  location: class CommonAnnotationBeanPostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:333: error: cannot find symbol
+							else if (field.isAnnotationPresent(Resource.class)) {
+							                                   ^
+  symbol: class Resource
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:367: error: cannot find symbol
+							else if (method.isAnnotationPresent(Resource.class) &&
+							                                    ^
+  symbol: class Resource
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:512: error: cannot find symbol
+			Resource resource = ae.getAnnotation(Resource.class);
+			^
+  symbol:   class Resource
+  location: class CommonAnnotationBeanPostProcessor.ResourceElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:512: error: cannot find symbol
+			Resource resource = ae.getAnnotation(Resource.class);
+			                                     ^
+  symbol:   class Resource
+  location: class CommonAnnotationBeanPostProcessor.ResourceElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:557: error: cannot find symbol
+			WebServiceRef resource = ae.getAnnotation(WebServiceRef.class);
+			^
+  symbol:   class WebServiceRef
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:557: error: cannot find symbol
+			WebServiceRef resource = ae.getAnnotation(WebServiceRef.class);
+			                                          ^
+  symbol:   class WebServiceRef
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:576: error: cannot find symbol
+			if (Service.class.isAssignableFrom(resourceType)) {
+			    ^
+  symbol:   class Service
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:580: error: cannot find symbol
+				this.lookupType = (!Object.class.equals(resource.value()) ? resource.value() : Service.class);
+				                                                                               ^
+  symbol:   class Service
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:588: error: cannot find symbol
+			Service service = null;
+			^
+  symbol:   class Service
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:590: error: cannot find symbol
+				service = (Service) getResource(this, requestingBeanName);
+				           ^
+  symbol:   class Service
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:594: error: cannot find symbol
+				if (Service.class.equals(this.lookupType)) {
+				    ^
+  symbol:   class Service
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:603: error: cannot find symbol
+						WebServiceClient clientAnn = this.lookupType.getAnnotation(WebServiceClient.class);
+						^
+  symbol:   class WebServiceClient
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:603: error: cannot find symbol
+						WebServiceClient clientAnn = this.lookupType.getAnnotation(WebServiceClient.class);
+						                                                           ^
+  symbol:   class WebServiceClient
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:608: error: cannot find symbol
+						service = (Service) BeanUtils.instantiateClass(ctor,
+						           ^
+  symbol:   class Service
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:622: error: cannot find symbol
+					service = (Service) BeanUtils.instantiateClass(this.lookupType);
+					           ^
+  symbol:   class Service
+  location: class CommonAnnotationBeanPostProcessor.WebServiceRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:643: error: cannot find symbol
+			EJB resource = ae.getAnnotation(EJB.class);
+			^
+  symbol:   class EJB
+  location: class CommonAnnotationBeanPostProcessor.EjbRefElement
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java:643: error: cannot find symbol
+			EJB resource = ae.getAnnotation(EJB.class);
+			                                ^
+  symbol:   class EJB
+  location: class CommonAnnotationBeanPostProcessor.EjbRefElement
+Note: hybrids/org.springframework/spring/2.5.6/AnnotationConfigUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+26 errors

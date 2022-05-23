@@ -1,0 +1,68 @@
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/ProxifyExtractingResult.java:10: error: cannot find symbol
+import org.assertj.core.internal.cglib.proxy.MethodProxy;
+                                            ^
+  symbol:   class MethodProxy
+  location: package org.assertj.core.internal.cglib.proxy
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/ProxifyExtractingResult.java:12: error: cannot find symbol
+import org.assertj.core.internal.cglib.proxy.MethodInterceptor;
+                                            ^
+  symbol:   class MethodInterceptor
+  location: package org.assertj.core.internal.cglib.proxy
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/ProxifyExtractingResult.java:14: error: cannot find symbol
+class ProxifyExtractingResult implements MethodInterceptor
+                                         ^
+  symbol: class MethodInterceptor
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/SoftProxies.java:17: error: cannot find symbol
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+  symbol:   class Enhancer
+  location: package net.sf.cglib.proxy
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/ProxifyExtractingResult.java:23: error: cannot find symbol
+    public Object intercept(final Object obj, final Method method, final Object[] args, final MethodProxy proxy) throws Throwable {
+                                                                                              ^
+  symbol:   class MethodProxy
+  location: class ProxifyExtractingResult
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ErrorCollector.java:15: error: cannot find symbol
+import net.sf.cglib.proxy.MethodInterceptor;
+                         ^
+  symbol:   class MethodInterceptor
+  location: package net.sf.cglib.proxy
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ErrorCollector.java:16: error: cannot find symbol
+import net.sf.cglib.proxy.MethodProxy;
+                         ^
+  symbol:   class MethodProxy
+  location: package net.sf.cglib.proxy
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ErrorCollector.java:24: error: cannot find symbol
+public class ErrorCollector implements MethodInterceptor {
+                                       ^
+  symbol: class MethodInterceptor
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ErrorCollector.java:29: error: cannot find symbol
+  public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
+                                                                    ^
+  symbol:   class MethodProxy
+  location: class ErrorCollector
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/ProxifyExtractingResult.java:22: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/SoftProxies.java:34: error: cannot find symbol
+    Enhancer enhancer = new Enhancer();
+    ^
+  symbol:   class Enhancer
+  location: class SoftProxies
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/SoftProxies.java:34: error: cannot find symbol
+    Enhancer enhancer = new Enhancer();
+                            ^
+  symbol:   class Enhancer
+  location: class SoftProxies
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/SoftProxies.java:37: error: incompatible types: ErrorCollector cannot be converted to Callback
+    enhancer.setCallbacks(new Callback[] { collector, new ProxifyExtractingResult(this) });
+                                           ^
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/SoftProxies.java:37: error: incompatible types: ProxifyExtractingResult cannot be converted to Callback
+    enhancer.setCallbacks(new Callback[] { collector, new ProxifyExtractingResult(this) });
+                                                      ^
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ErrorCollector.java:28: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+Note: sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/ProxifyExtractingResult.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+15 errors

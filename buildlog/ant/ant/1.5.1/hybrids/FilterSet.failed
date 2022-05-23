@@ -1,0 +1,130 @@
+hybrids/ant/ant/1.5.1/FilterSet.java:333: error: class, interface, or enum expected
+    public String replaceTokens(String line) {
+           ^
+hybrids/ant/ant/1.5.1/FilterSet.java:335: error: class, interface, or enum expected
+        String endToken = getEndToken();
+        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:336: error: class, interface, or enum expected
+        int index = line.indexOf(beginToken);
+        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:338: error: class, interface, or enum expected
+        if (index > -1) {
+        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:340: error: class, interface, or enum expected
+            try {
+            ^
+hybrids/ant/ant/1.5.1/FilterSet.java:342: error: class, interface, or enum expected
+                int i = 0;
+                ^
+hybrids/ant/ant/1.5.1/FilterSet.java:343: error: class, interface, or enum expected
+                String token = null;
+                ^
+hybrids/ant/ant/1.5.1/FilterSet.java:344: error: class, interface, or enum expected
+                String value = null;
+                ^
+hybrids/ant/ant/1.5.1/FilterSet.java:346: error: class, interface, or enum expected
+                do {
+                ^
+hybrids/ant/ant/1.5.1/FilterSet.java:349: error: class, interface, or enum expected
+                    if (endIndex == -1) {
+                    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:351: error: class, interface, or enum expected
+                    }
+                    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:354: error: class, interface, or enum expected
+                    b.append(line.substring(i, index));
+                    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:355: error: class, interface, or enum expected
+                    if (tokens.containsKey(token)) {
+                    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:357: error: class, interface, or enum expected
+                        log("Replacing: " + beginToken + token + endToken 
+                        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:359: error: class, interface, or enum expected
+                        b.append(value);
+                        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:360: error: class, interface, or enum expected
+                        i = index + beginToken.length() + token.length() 
+                        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:362: error: class, interface, or enum expected
+                    } else {
+                    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:365: error: class, interface, or enum expected
+                        i = index + beginToken.length();
+                        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:366: error: class, interface, or enum expected
+                    }
+                    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:369: error: class, interface, or enum expected
+                b.append(line.substring(i));
+                ^
+hybrids/ant/ant/1.5.1/FilterSet.java:370: error: class, interface, or enum expected
+                return b.toString();
+                ^
+hybrids/ant/ant/1.5.1/FilterSet.java:371: error: class, interface, or enum expected
+            } catch (StringIndexOutOfBoundsException e) {
+            ^
+hybrids/ant/ant/1.5.1/FilterSet.java:373: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/FilterSet.java:376: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:384: error: class, interface, or enum expected
+    public void addFilter(Filter filter) {
+           ^
+hybrids/ant/ant/1.5.1/FilterSet.java:387: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:389: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:396: error: class, interface, or enum expected
+    public FiltersFile createFiltersfile() {
+           ^
+hybrids/ant/ant/1.5.1/FilterSet.java:399: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:401: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:409: error: class, interface, or enum expected
+    public void addFilter(String token, String value) {
+           ^
+hybrids/ant/ant/1.5.1/FilterSet.java:412: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:414: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:421: error: class, interface, or enum expected
+    public void addConfiguredFilterSet(FilterSet filterSet) {
+           ^
+hybrids/ant/ant/1.5.1/FilterSet.java:424: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:425: error: class, interface, or enum expected
+        for (Enumeration e = filterSet.getFilters().elements(); e.hasMoreElements();) {
+                                                                ^
+hybrids/ant/ant/1.5.1/FilterSet.java:425: error: class, interface, or enum expected
+        for (Enumeration e = filterSet.getFilters().elements(); e.hasMoreElements();) {
+                                                                                    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:427: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:435: error: class, interface, or enum expected
+    public boolean hasFilters() {
+           ^
+hybrids/ant/ant/1.5.1/FilterSet.java:437: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/FilterSet.java:439: error: class, interface, or enum expected
+    public Object clone() throws BuildException {
+           ^
+hybrids/ant/ant/1.5.1/FilterSet.java:442: error: class, interface, or enum expected
+        } else {
+        ^
+hybrids/ant/ant/1.5.1/FilterSet.java:444: error: class, interface, or enum expected
+        }
+        ^
+43 errors

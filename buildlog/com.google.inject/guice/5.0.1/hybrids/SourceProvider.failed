@@ -1,0 +1,47 @@
+hybrids/com.google.inject/guice/5.0.1/SourceProvider.java:19: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+hybrids/com.google.inject/guice/5.0.1/SourceProvider.java:20: error: cannot find symbol
+import com.google.common.collect.ImmutableSet;
+                                ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+hybrids/com.google.inject/guice/5.0.1/SourceProvider.java:21: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+hybrids/com.google.inject/guice/5.0.1/SourceProvider.java:35: error: cannot find symbol
+  private final ImmutableSet<String> classNamesToSkip;
+                ^
+  symbol:   class ImmutableSet
+  location: class SourceProvider
+hybrids/com.google.inject/guice/5.0.1/SourceProvider.java:38: error: cannot find symbol
+      new SourceProvider(ImmutableSet.of(SourceProvider.class.getName()));
+                         ^
+  symbol:   variable ImmutableSet
+  location: class SourceProvider
+hybrids/com.google.inject/guice/5.0.1/SourceProvider.java:47: error: package ImmutableSet does not exist
+    ImmutableSet.Builder<String> classNamesToSkipBuilder = ImmutableSet.builder();
+                ^
+hybrids/com.google.inject/guice/5.0.1/SourceProvider.java:47: error: cannot find symbol
+    ImmutableSet.Builder<String> classNamesToSkipBuilder = ImmutableSet.builder();
+                                                           ^
+  symbol:   variable ImmutableSet
+  location: class SourceProvider
+hybrids/com.google.inject/guice/5.0.1/SourceProvider.java:69: error: cannot find symbol
+    List<String> strings = Lists.newArrayList();
+                           ^
+  symbol:   variable Lists
+  location: class SourceProvider
+hybrids/com.google.inject/guice/5.0.1/SourceProvider.java:81: error: cannot find symbol
+    Preconditions.checkNotNull(stackTraceElements, "The stack trace elements cannot be null.");
+    ^
+  symbol:   variable Preconditions
+  location: class SourceProvider
+hybrids/com.google.inject/guice/5.0.1/SourceProvider.java:94: error: cannot find symbol
+    Preconditions.checkNotNull(moduleClassNames, "The list of module class names cannot be null.");
+    ^
+  symbol:   variable Preconditions
+  location: class SourceProvider
+10 errors

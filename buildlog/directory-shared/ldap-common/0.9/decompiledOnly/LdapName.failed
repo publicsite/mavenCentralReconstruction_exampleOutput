@@ -1,0 +1,16 @@
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/name/LdapName.java:107: error: incompatible types: Object cannot be converted to String
+        return this.m_list.get(this.size() - a_posn - 1);
+                              ^
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/name/LdapName.java:215: error: no suitable constructor found for StringBuffer(Object)
+        final StringBuffer l_dnStr = new StringBuffer(this.m_list.get(0));
+                                     ^
+    constructor StringBuffer.StringBuffer(int) is not applicable
+      (argument mismatch; Object cannot be converted to int)
+    constructor StringBuffer.StringBuffer(String) is not applicable
+      (argument mismatch; Object cannot be converted to String)
+    constructor StringBuffer.StringBuffer(CharSequence) is not applicable
+      (argument mismatch; Object cannot be converted to CharSequence)
+Note: sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/name/LdapName.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors

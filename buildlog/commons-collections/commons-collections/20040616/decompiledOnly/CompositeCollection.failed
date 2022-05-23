@@ -1,0 +1,23 @@
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/collection/CompositeCollection.java:167: error: cannot find symbol
+        final ArrayList list = new ArrayList((Collection<? extends E>)Arrays.asList((Collection[])this.all));
+                                                                   ^
+  symbol:   class E
+  location: class CompositeCollection
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/collection/CompositeCollection.java:169: error: incompatible types: Object[] cannot be converted to Collection[]
+        this.all = list.toArray(new Collection[list.size()]);
+                               ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/collection/CompositeCollection.java:184: error: incompatible types: Object[] cannot be converted to Collection[]
+        this.all = list.toArray(new Collection[list.size()]);
+                               ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/iterators/IteratorChain.java:65: error: incompatible types: Object cannot be converted to Iterator
+        for (final Iterator item : iterators) {
+                                   ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/iterators/IteratorChain.java:116: error: incompatible types: Object cannot be converted to Iterator
+                this.currentIterator = this.iteratorChain.get(0);
+                                                             ^
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/iterators/IteratorChain.java:122: error: incompatible types: Object cannot be converted to Iterator
+            this.currentIterator = this.iteratorChain.get(this.currentIteratorIndex);
+                                                         ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+6 errors

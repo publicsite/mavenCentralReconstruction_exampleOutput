@@ -1,0 +1,43 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:18: error: package com.google.gwt.thirdparty.debugging.sourcemap does not exist
+import com.google.gwt.thirdparty.debugging.sourcemap.SourceMapConsumerFactory;
+                                                    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:19: error: package com.google.gwt.thirdparty.debugging.sourcemap does not exist
+import com.google.gwt.thirdparty.debugging.sourcemap.SourceMapping;
+                                                    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:20: error: package com.google.gwt.thirdparty.debugging.sourcemap.proto does not exist
+import com.google.gwt.thirdparty.debugging.sourcemap.proto.Mapping;
+                                                          ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:150: error: cannot find symbol
+  private final Map<String, SourceMapping> sourceMaps = new HashMap<String, SourceMapping>();
+                            ^
+  symbol:   class SourceMapping
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:350: error: cannot find symbol
+  private SourceMapping loadSourceMap(String permutationStrongName, int fragmentId) {
+          ^
+  symbol:   class SourceMapping
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:150: error: cannot find symbol
+  private final Map<String, SourceMapping> sourceMaps = new HashMap<String, SourceMapping>();
+                                                                            ^
+  symbol:   class SourceMapping
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:300: error: cannot find symbol
+      SourceMapping sourceMapping = loadSourceMap(strongName, fragmentId);
+      ^
+  symbol:   class SourceMapping
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:302: error: package Mapping does not exist
+        Mapping.OriginalMapping mappingForLine = sourceMapping
+               ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:351: error: cannot find symbol
+    SourceMapping toReturn = sourceMaps.get(permutationStrongName + fragmentId);
+    ^
+  symbol:   class SourceMapping
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:356: error: cannot find symbol
+        toReturn = SourceMapConsumerFactory.parse(sourceMapString);
+                   ^
+  symbol:   variable SourceMapConsumerFactory
+  location: class StackTraceDeobfuscator
+10 errors

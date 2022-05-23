@@ -1,0 +1,17 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/discovery/MethodFinder.java:8: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/discovery/MethodFinder.java:9: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/discovery/MethodFinder.java:20: error: cannot find symbol
+        Preconditions.condition(matcher.matches(), () -> String.format("Method [%s] does not match pattern [%s]", methodSpecPart, MethodFinder.METHOD_PATTERN));
+        ^
+  symbol:   variable Preconditions
+  location: class MethodFinder
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/discovery/MethodFinder.java:23: error: cannot find symbol
+        return (Optional<Method>)ReflectionUtils.findMethod((Class)clazz, methodName, parameterTypeNames);
+                                 ^
+  symbol:   variable ReflectionUtils
+  location: class MethodFinder
+4 errors

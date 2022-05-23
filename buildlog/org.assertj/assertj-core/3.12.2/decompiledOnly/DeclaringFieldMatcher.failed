@@ -1,0 +1,85 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.description.field does not exist
+import org.assertj.core.internal.bytebuddy.description.field.FieldDescription;
+                                                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:8: error: package org.assertj.core.internal.bytebuddy.description.field does not exist
+import org.assertj.core.internal.bytebuddy.description.field.FieldList;
+                                                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:9: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:10: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDefinition;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:13: error: package ElementMatcher.Junction does not exist
+public class DeclaringFieldMatcher<T extends TypeDefinition> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:12: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:13: error: cannot find symbol
+public class DeclaringFieldMatcher<T extends TypeDefinition> extends ElementMatcher.Junction.AbstractBase<T>
+                                             ^
+  symbol: class TypeDefinition
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:15: error: cannot find symbol
+    private final ElementMatcher<? super FieldList<?>> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class DeclaringFieldMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringFieldMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:15: error: cannot find symbol
+    private final ElementMatcher<? super FieldList<?>> matcher;
+                                         ^
+  symbol:   class FieldList
+  location: class DeclaringFieldMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringFieldMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:17: error: cannot find symbol
+    public DeclaringFieldMatcher(final ElementMatcher<? super FieldList<? extends FieldDescription>> matcher) {
+                                       ^
+  symbol:   class ElementMatcher
+  location: class DeclaringFieldMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringFieldMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:17: error: cannot find symbol
+    public DeclaringFieldMatcher(final ElementMatcher<? super FieldList<? extends FieldDescription>> matcher) {
+                                                              ^
+  symbol:   class FieldList
+  location: class DeclaringFieldMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringFieldMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:17: error: cannot find symbol
+    public DeclaringFieldMatcher(final ElementMatcher<? super FieldList<? extends FieldDescription>> matcher) {
+                                                                                  ^
+  symbol:   class FieldDescription
+  location: class DeclaringFieldMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringFieldMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:18: error: cannot find symbol
+        this.matcher = (ElementMatcher<? super FieldList<?>>)matcher;
+                        ^
+  symbol:   class ElementMatcher
+  location: class DeclaringFieldMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringFieldMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:18: error: cannot find symbol
+        this.matcher = (ElementMatcher<? super FieldList<?>>)matcher;
+                                               ^
+  symbol:   class FieldList
+  location: class DeclaringFieldMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringFieldMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:25: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:30: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:32: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((DeclaringFieldMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringFieldMatcher.java:35: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+18 errors

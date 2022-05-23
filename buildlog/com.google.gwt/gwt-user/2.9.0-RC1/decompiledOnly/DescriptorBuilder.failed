@@ -1,0 +1,37 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/apt/DescriptorBuilder.java:15: error: package com.google.gwt.dev.util does not exist
+import com.google.gwt.dev.util.Name;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/apt/DescriptorBuilder.java:31: error: package Name does not exist
+        return "L" + Name.BinaryName.toInternalName(state.elements.getBinaryName((TypeElement)x.asElement()).toString()) + ";";
+                         ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/requestfactory/apt/RequestContextScanner.java:18: error: package com.google.gwt.dev.util.Name does not exist
+import com.google.gwt.dev.util.Name.BinaryName;
+                                   ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/requestfactory/vm/impl/OperationKey.java:18: error: package com.google.gwt.dev.util does not exist
+import com.google.gwt.dev.util.StringKey;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/requestfactory/vm/impl/OperationKey.java:28: error: cannot find symbol
+public class OperationKey extends StringKey {
+                                  ^
+  symbol: class StringKey
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/requestfactory/apt/ProxyScanner.java:18: error: package com.google.gwt.dev.util.Name does not exist
+import com.google.gwt.dev.util.Name.BinaryName;
+                                   ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/requestfactory/apt/RequestContextScanner.java:111: error: cannot find symbol
+          state.elements.getTypeElement(BinaryName.toSourceName(serviceName.value()));
+                                        ^
+  symbol:   variable BinaryName
+  location: class RequestContextScanner
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/requestfactory/apt/DeobfuscatorBuilder.java:94: error: cannot find symbol
+        println("withOperation(new OperationKey(\"%s\"),", key.get());
+                                                              ^
+  symbol:   method get()
+  location: variable key of type OperationKey
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/requestfactory/apt/ProxyScanner.java:95: error: cannot find symbol
+          state.elements.getTypeElement(BinaryName.toSourceName(proxyForName.value()));
+                                        ^
+  symbol:   variable BinaryName
+  location: class ProxyScanner
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+9 errors

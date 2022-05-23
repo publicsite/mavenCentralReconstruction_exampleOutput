@@ -1,0 +1,35 @@
+hybrids/com.jamonapi/jamon/2.82/JamonAopKeyHelper.java:4: error: package org.aspectj.lang does not exist
+import org.aspectj.lang.ProceedingJoinPoint;
+                       ^
+hybrids/com.jamonapi/jamon/2.82/JamonAopKeyHelper.java:5: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Component;
+                                     ^
+hybrids/com.jamonapi/jamon/2.82/JamonAopKeyHelper.java:13: error: cannot find symbol
+@Component
+ ^
+  symbol: class Component
+hybrids/com.jamonapi/jamon/2.82/JamonAopKeyHelper.java:14: error: cannot find symbol
+public class JamonAopKeyHelper implements JamonAopKeyHelperInt<ProceedingJoinPoint> {
+                                                               ^
+  symbol: class ProceedingJoinPoint
+hybrids/com.jamonapi/jamon/2.82/JamonAopKeyHelper.java:52: error: cannot find symbol
+    public String getLabel(ProceedingJoinPoint proceedingJoinPoint) {
+                           ^
+  symbol:   class ProceedingJoinPoint
+  location: class JamonAopKeyHelper
+hybrids/com.jamonapi/jamon/2.82/JamonAopKeyHelper.java:75: error: cannot find symbol
+    public String getDetails(ProceedingJoinPoint proceedingJoinPoint) {
+                             ^
+  symbol:   class ProceedingJoinPoint
+  location: class JamonAopKeyHelper
+hybrids/com.jamonapi/jamon/2.82/JamonAopKeyHelper.java:88: error: cannot find symbol
+    public String getDetails(ProceedingJoinPoint proceedingJoinPoint, Throwable exception) {
+                             ^
+  symbol:   class ProceedingJoinPoint
+  location: class JamonAopKeyHelper
+hybrids/com.jamonapi/jamon/2.82/JamonAopKeyHelper.java:122: error: cannot find symbol
+    private String createDetailMessage(ProceedingJoinPoint proceedingJoinPoint, String baseMessage, boolean useArgsInDetails) {
+                                       ^
+  symbol:   class ProceedingJoinPoint
+  location: class JamonAopKeyHelper
+8 errors

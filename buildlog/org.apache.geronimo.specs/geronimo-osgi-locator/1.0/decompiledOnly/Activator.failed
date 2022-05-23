@@ -1,0 +1,30 @@
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-locator/1.0/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:39: error: cannot find symbol
+import org.osgi.util.tracker.ServiceTracker;
+                            ^
+  symbol:   class ServiceTracker
+  location: package org.osgi.util.tracker
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-locator/1.0/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:65: error: cannot find symbol
+            registryTracker = new ServiceTracker(c, "org.apache.geronimo.osgi.registry.api.ProviderRegistry", null);
+                                  ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-locator/1.0/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:66: error: cannot find symbol
+            ((ServiceTracker)registryTracker).open();
+              ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-locator/1.0/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:82: error: cannot find symbol
+            ((ServiceTracker)registryTracker).close();
+              ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-locator/1.0/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:628: error: cannot find symbol
+        return ((ServiceTracker)registryTracker).getService();
+                 ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+Note: sources/structure/org.apache.geronimo.specs/geronimo-osgi-locator/1.0/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.apache.geronimo.specs/geronimo-osgi-locator/1.0/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors

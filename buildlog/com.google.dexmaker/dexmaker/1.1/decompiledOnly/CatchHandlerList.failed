@@ -1,0 +1,72 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:8: error: cannot find symbol
+import com.google.dexmaker.dx.rop.cst.CstType;
+                                     ^
+  symbol:   class CstType
+  location: package com.google.dexmaker.dx.rop.cst
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:10: error: cannot find symbol
+import com.google.dexmaker.dx.util.FixedSizeList;
+                                  ^
+  symbol:   class FixedSizeList
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:12: error: cannot find symbol
+public final class CatchHandlerList extends FixedSizeList implements Comparable<CatchHandlerList>
+                                            ^
+  symbol: class FixedSizeList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:63: error: cannot find symbol
+    public void set(final int n, final CstType exceptionType, final int handler) {
+                                       ^
+  symbol:   class CstType
+  location: class CatchHandlerList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:100: error: cannot find symbol
+        private final CstType exceptionType;
+                      ^
+  symbol:   class CstType
+  location: class Entry
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:103: error: cannot find symbol
+        public Entry(final CstType exceptionType, final int handler) {
+                           ^
+  symbol:   class CstType
+  location: class Entry
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:134: error: cannot find symbol
+        public CstType getExceptionType() {
+               ^
+  symbol:   class CstType
+  location: class Entry
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:21: error: cannot find symbol
+        return (Entry)this.get0(n);
+                          ^
+  symbol: method get0(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:31: error: cannot find symbol
+        final int size = this.size();
+                             ^
+  symbol: method size()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:55: error: cannot find symbol
+        final int size = this.size();
+                             ^
+  symbol: method size()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:60: error: cannot find symbol
+        return last.getExceptionType().equals(CstType.OBJECT);
+                                              ^
+  symbol:   variable CstType
+  location: class CatchHandlerList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:64: error: cannot find symbol
+        this.set0(n, new Entry(exceptionType, handler));
+            ^
+  symbol: method set0(int,Entry)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:68: error: cannot find symbol
+        this.set0(n, entry);
+            ^
+  symbol: method set0(int,Entry)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:75: error: cannot find symbol
+        final int thisSize = this.size();
+                                 ^
+  symbol: method size()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/CatchHandlerList.java:76: error: cannot find symbol
+        final int otherSize = other.size();
+                                   ^
+  symbol:   method size()
+  location: variable other of type CatchHandlerList
+16 errors

@@ -1,0 +1,69 @@
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:15: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.BuildException;
+                           ^
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:16: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.DirectoryScanner;
+                           ^
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:17: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.Task;
+                           ^
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:18: error: package org.apache.tools.ant.types does not exist
+import org.apache.tools.ant.types.FileSet;
+                                 ^
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:20: error: cannot find symbol
+public abstract class AbstractQdoxTask extends Task {
+                                               ^
+  symbol: class Task
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:26: error: cannot find symbol
+    public void addFileset(FileSet set) {
+                           ^
+  symbol:   class FileSet
+  location: class AbstractQdoxTask
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:46: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class AbstractQdoxTask
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:86: error: cannot find symbol
+    protected void validateAttributes() throws BuildException {
+                                               ^
+  symbol:   class BuildException
+  location: class AbstractQdoxTask
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:32: error: cannot find symbol
+            FileSet fs = (FileSet) filesets.elementAt(i);
+            ^
+  symbol:   class FileSet
+  location: class AbstractQdoxTask
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:32: error: cannot find symbol
+            FileSet fs = (FileSet) filesets.elementAt(i);
+                          ^
+  symbol:   class FileSet
+  location: class AbstractQdoxTask
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:33: error: cannot find symbol
+            DirectoryScanner ds = fs.getDirectoryScanner(getProject());
+            ^
+  symbol:   class DirectoryScanner
+  location: class AbstractQdoxTask
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:33: error: cannot find symbol
+            DirectoryScanner ds = fs.getDirectoryScanner(getProject());
+                                                         ^
+  symbol:   method getProject()
+  location: class AbstractQdoxTask
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:35: error: cannot find symbol
+            buildFileMap(fs.getDir(getProject()), srcFiles);
+                                   ^
+  symbol:   method getProject()
+  location: class AbstractQdoxTask
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:52: error: cannot find symbol
+        builder.getClassLibrary().addClassLoader(getClass().getClassLoader());
+                                                 ^
+  symbol:   method getClass()
+  location: class AbstractQdoxTask
+hybrids/qdox/qdox/1.5/AbstractQdoxTask.java:88: error: cannot find symbol
+            throw new BuildException("Specify at least one source fileset.");
+                      ^
+  symbol:   class BuildException
+  location: class AbstractQdoxTask
+Note: hybrids/qdox/qdox/1.5/AbstractQdoxTask.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+15 errors

@@ -1,0 +1,463 @@
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:3: error: package org.eclipse.core.resources does not exist
+import org.eclipse.core.resources.ICommand;
+                                 ^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:4: error: package org.eclipse.core.resources does not exist
+import org.eclipse.core.resources.IProject;
+                                 ^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:5: error: package org.eclipse.core.resources does not exist
+import org.eclipse.core.resources.IProjectDescription;
+                                 ^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:6: error: package org.eclipse.core.resources does not exist
+import org.eclipse.core.resources.IProjectNature;
+                                 ^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:7: error: package org.eclipse.core.runtime does not exist
+import org.eclipse.core.runtime.CoreException;
+                               ^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:9: error: cannot find symbol
+public class BndNature implements IProjectNature {
+                                  ^
+  symbol: class IProjectNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:16: error: cannot find symbol
+	private IProject project;
+	        ^
+  symbol:   class IProject
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:23: error: cannot find symbol
+	public void configure() throws CoreException {
+	                               ^
+  symbol:   class CoreException
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:47: error: cannot find symbol
+	public void deconfigure() throws CoreException {
+	                                 ^
+  symbol:   class CoreException
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:67: error: cannot find symbol
+	public IProject getProject() {
+	       ^
+  symbol:   class IProject
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:76: error: cannot find symbol
+	public void setProject(IProject project) {
+	                       ^
+  symbol:   class IProject
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:24: error: cannot find symbol
+		IProjectDescription desc = project.getDescription();
+		^
+  symbol:   class IProjectDescription
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:25: error: cannot find symbol
+		ICommand[] commands = desc.getBuildSpec();
+		^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:12: error: cannot find symbol
+public class BndBuilder extends IncrementalProjectBuilder {
+                                ^
+  symbol: class IncrementalProjectBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:52: error: cannot find symbol
+	private void addMarker(IFile file, String message, int lineNumber,
+	                       ^
+  symbol:   class IFile
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:73: error: cannot find symbol
+    protected IProject[] build(int kind, Map args, IProgressMonitor monitor)
+                                                   ^
+  symbol:   class IProgressMonitor
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:73: error: cannot find symbol
+    protected IProject[] build(int kind, Map args, IProgressMonitor monitor)
+              ^
+  symbol:   class IProject
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:74: error: cannot find symbol
+			throws CoreException {
+			       ^
+  symbol:   class CoreException
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:88: error: cannot find symbol
+	void checkBnd(IResource resource) {
+	              ^
+  symbol:   class IResource
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:115: error: cannot find symbol
+	private void deleteMarkers(IFile file) {
+	                           ^
+  symbol:   class IFile
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:122: error: cannot find symbol
+	protected void fullBuild(final IProgressMonitor monitor)
+	                               ^
+  symbol:   class IProgressMonitor
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:123: error: cannot find symbol
+			throws CoreException {
+			       ^
+  symbol:   class CoreException
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:130: error: cannot find symbol
+	protected void incrementalBuild(IResourceDelta delta,
+	                                ^
+  symbol:   class IResourceDelta
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:131: error: cannot find symbol
+			IProgressMonitor monitor) throws CoreException {
+			^
+  symbol:   class IProgressMonitor
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:131: error: cannot find symbol
+			IProgressMonitor monitor) throws CoreException {
+			                                 ^
+  symbol:   class CoreException
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:5: error: package org.eclipse.core.resources does not exist
+import org.eclipse.core.resources.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:6: error: package org.eclipse.core.runtime does not exist
+import org.eclipse.core.runtime.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:14: error: cannot find symbol
+	class DeltaVisitor implements IResourceDeltaVisitor {
+	                              ^
+  symbol:   class IResourceDeltaVisitor
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:20: error: cannot find symbol
+		public boolean visit(IResourceDelta delta) throws CoreException {
+		                     ^
+  symbol:   class IResourceDelta
+  location: class BndBuilder.DeltaVisitor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:20: error: cannot find symbol
+		public boolean visit(IResourceDelta delta) throws CoreException {
+		                                                  ^
+  symbol:   class CoreException
+  location: class BndBuilder.DeltaVisitor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:40: error: cannot find symbol
+	class ResourceVisitor implements IResourceVisitor {
+	                                 ^
+  symbol:   class IResourceVisitor
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:41: error: cannot find symbol
+		public boolean visit(IResource resource) {
+		                     ^
+  symbol:   class IResource
+  location: class BndBuilder.ResourceVisitor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:33: error: cannot find symbol
+		ICommand[] newCommands = new ICommand[commands.length + 1];
+		^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:33: error: cannot find symbol
+		ICommand[] newCommands = new ICommand[commands.length + 1];
+		                             ^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:35: error: cannot find symbol
+		ICommand command = desc.newCommand();
+		^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:48: error: cannot find symbol
+		IProjectDescription description = getProject().getDescription();
+		^
+  symbol:   class IProjectDescription
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:49: error: cannot find symbol
+		ICommand[] commands = description.getBuildSpec();
+		^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:52: error: cannot find symbol
+				ICommand[] newCommands = new ICommand[commands.length - 1];
+				^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndNature.java:52: error: cannot find symbol
+				ICommand[] newCommands = new ICommand[commands.length - 1];
+				                             ^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:21: error: cannot find symbol
+			IResource resource = delta.getResource();
+			^
+  symbol:   class IResource
+  location: class BndBuilder.DeltaVisitor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:23: error: cannot find symbol
+			case IResourceDelta.ADDED:
+			     ^
+  symbol:   variable IResourceDelta
+  location: class BndBuilder.DeltaVisitor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:27: error: cannot find symbol
+			case IResourceDelta.REMOVED:
+			     ^
+  symbol:   variable IResourceDelta
+  location: class BndBuilder.DeltaVisitor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:30: error: cannot find symbol
+			case IResourceDelta.CHANGED:
+			     ^
+  symbol:   variable IResourceDelta
+  location: class BndBuilder.DeltaVisitor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:55: error: cannot find symbol
+			IMarker marker = file.createMarker(MARKER_TYPE);
+			^
+  symbol:   class IMarker
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:56: error: cannot find symbol
+			marker.setAttribute(IMarker.MESSAGE, message);
+			                    ^
+  symbol:   variable IMarker
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:57: error: cannot find symbol
+			marker.setAttribute(IMarker.SEVERITY, severity);
+			                    ^
+  symbol:   variable IMarker
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:61: error: cannot find symbol
+			marker.setAttribute(IMarker.LINE_NUMBER, lineNumber);
+			                    ^
+  symbol:   variable IMarker
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:62: error: cannot find symbol
+		} catch (CoreException e) {
+		         ^
+  symbol:   class CoreException
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:75: error: cannot find symbol
+		if (kind == FULL_BUILD) {
+		            ^
+  symbol:   variable FULL_BUILD
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:78: error: cannot find symbol
+			IResourceDelta delta = getDelta(getProject());
+			^
+  symbol:   class IResourceDelta
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:78: error: cannot find symbol
+			IResourceDelta delta = getDelta(getProject());
+			                                ^
+  symbol:   method getProject()
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:89: error: cannot find symbol
+		if (resource instanceof IFile && resource.getName().endsWith(".bnd")) {
+		                        ^
+  symbol:   class IFile
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:90: error: cannot find symbol
+			IFile file = (IFile) resource;
+			^
+  symbol:   class IFile
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:90: error: cannot find symbol
+			IFile file = (IFile) resource;
+			              ^
+  symbol:   class IFile
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:16: error: cannot find symbol
+public class MakeBundle implements IObjectActionDelegate {
+                                   ^
+  symbol: class IObjectActionDelegate
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:17: error: cannot find symbol
+    IFile[] locations;
+    ^
+  symbol:   class IFile
+  location: class MakeBundle
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:25: error: cannot find symbol
+    public void run(IAction action) {
+                    ^
+  symbol:   class IAction
+  location: class MakeBundle
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:113: error: cannot find symbol
+    static public Builder setBuilder(Activator activator, IProject project,
+                                                          ^
+  symbol:   class IProject
+  location: class MakeBundle
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:139: error: cannot find symbol
+    public void selectionChanged(IAction action, ISelection selection) {
+                                 ^
+  symbol:   class IAction
+  location: class MakeBundle
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:139: error: cannot find symbol
+    public void selectionChanged(IAction action, ISelection selection) {
+                                                 ^
+  symbol:   class ISelection
+  location: class MakeBundle
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:144: error: cannot find symbol
+    IFile[] getLocations(ISelection selection) {
+                         ^
+  symbol:   class ISelection
+  location: class MakeBundle
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:144: error: cannot find symbol
+    IFile[] getLocations(ISelection selection) {
+    ^
+  symbol:   class IFile
+  location: class MakeBundle
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:157: error: cannot find symbol
+    public void setActivePart(IAction action, IWorkbenchPart targetPart) {
+                              ^
+  symbol:   class IAction
+  location: class MakeBundle
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:157: error: cannot find symbol
+    public void setActivePart(IAction action, IWorkbenchPart targetPart) {
+                                              ^
+  symbol:   class IWorkbenchPart
+  location: class MakeBundle
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:6: error: package org.eclipse.core.resources does not exist
+import org.eclipse.core.resources.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:7: error: package org.eclipse.jface.action does not exist
+import org.eclipse.jface.action.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:8: error: package org.eclipse.jface.viewers does not exist
+import org.eclipse.jface.viewers.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/popup/actions/MakeBundle.java:9: error: package org.eclipse.ui does not exist
+import org.eclipse.ui.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:100: error: cannot find symbol
+							Status.ERROR);
+							^
+  symbol:   variable Status
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:103: error: cannot find symbol
+					addMarker(file, i.next(), 1, Status.ERROR);
+					                             ^
+  symbol:   variable Status
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:106: error: cannot find symbol
+					addMarker(file, i.next(), 1, Status.WARNING);
+					                             ^
+  symbol:   variable Status
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:110: error: cannot find symbol
+						Status.ERROR);
+						^
+  symbol:   variable Status
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:117: error: cannot find symbol
+			file.deleteMarkers(MARKER_TYPE, false, IResource.DEPTH_ZERO);
+			                                       ^
+  symbol:   variable IResource
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:118: error: cannot find symbol
+		} catch (CoreException ce) {
+		         ^
+  symbol:   class CoreException
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:125: error: cannot find symbol
+			getProject().accept(new ResourceVisitor());
+			^
+  symbol:   method getProject()
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/builder/BndBuilder.java:126: error: cannot find symbol
+		} catch (CoreException e) {
+		         ^
+  symbol:   class CoreException
+  location: class BndBuilder
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:44: error: cannot find symbol
+        super.start(context);
+        ^
+  symbol:   variable super
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:61: error: cannot find symbol
+        super.stop(context);
+        ^
+  symbol:   variable super
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:83: error: cannot find symbol
+        return imageDescriptorFromPlugin(PLUGIN_ID, path);
+               ^
+  symbol:   method imageDescriptorFromPlugin(String,String)
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:88: error: cannot find symbol
+        Status s = new Status(Status.ERROR, PLUGIN_ID, 0, msg, t);
+        ^
+  symbol:   class Status
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:88: error: cannot find symbol
+        Status s = new Status(Status.ERROR, PLUGIN_ID, 0, msg, t);
+                       ^
+  symbol:   class Status
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:88: error: cannot find symbol
+        Status s = new Status(Status.ERROR, PLUGIN_ID, 0, msg, t);
+                              ^
+  symbol:   variable Status
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:89: error: cannot find symbol
+        getLog().log(s);
+        ^
+  symbol:   method getLog()
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:97: error: cannot find symbol
+                Status s = new Status(Status.ERROR, PLUGIN_ID, 0, "", null);
+                ^
+  symbol: class Status
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:97: error: cannot find symbol
+                Status s = new Status(Status.ERROR, PLUGIN_ID, 0, "", null);
+                               ^
+  symbol: class Status
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:97: error: cannot find symbol
+                Status s = new Status(Status.ERROR, PLUGIN_ID, 0, "", null);
+                                      ^
+  symbol: variable Status
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:98: error: cannot find symbol
+                ErrorDialog.openError(null, "Errors during bundle generation",
+                ^
+  symbol: variable ErrorDialog
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:107: error: cannot find symbol
+        Status s = new Status(Status.INFO, PLUGIN_ID, 0, msg, null);
+        ^
+  symbol:   class Status
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:107: error: cannot find symbol
+        Status s = new Status(Status.INFO, PLUGIN_ID, 0, msg, null);
+                       ^
+  symbol:   class Status
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:107: error: cannot find symbol
+        Status s = new Status(Status.INFO, PLUGIN_ID, 0, msg, null);
+                              ^
+  symbol:   variable Status
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:108: error: cannot find symbol
+        getLog().log(s);
+        ^
+  symbol:   method getLog()
+  location: class Activator
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:120: error: cannot find symbol
+                Status s = new Status(Status.ERROR, PLUGIN_ID, 0, "", null);
+                ^
+  symbol: class Status
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:120: error: cannot find symbol
+                Status s = new Status(Status.ERROR, PLUGIN_ID, 0, "", null);
+                               ^
+  symbol: class Status
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:120: error: cannot find symbol
+                Status s = new Status(Status.ERROR, PLUGIN_ID, 0, "", null);
+                                      ^
+  symbol: variable Status
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:121: error: cannot find symbol
+                ErrorDialog.openError(null, "Errors during bundle generation",
+                ^
+  symbol: variable ErrorDialog
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:130: error: cannot find symbol
+                MessageDialog.openInformation(null, "Bnd", msg);
+                ^
+  symbol: variable MessageDialog
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:143: error: cannot find symbol
+                Status s = new Status(Status.WARNING, PLUGIN_ID, 0, "", null);
+                ^
+  symbol: class Status
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:143: error: cannot find symbol
+                Status s = new Status(Status.WARNING, PLUGIN_ID, 0, "", null);
+                               ^
+  symbol: class Status
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:143: error: cannot find symbol
+                Status s = new Status(Status.WARNING, PLUGIN_ID, 0, "", null);
+                                      ^
+  symbol: variable Status
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/Activator.java:144: error: cannot find symbol
+                ErrorDialog.openError(null,
+                ^
+  symbol: variable ErrorDialog
+100 errors

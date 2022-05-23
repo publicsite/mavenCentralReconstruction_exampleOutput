@@ -1,0 +1,60 @@
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:7: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:9: error: package org.newsclub.net.unix does not exist
+import org.newsclub.net.unix.AFUNIXSocketAddress;
+                            ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:13: error: package org.newsclub.net.unix does not exist
+import org.newsclub.net.unix.AFUNIXSocket;
+                            ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:140: error: cannot find symbol
+            @SuppressFBWarnings(value = { "DMI_HARDCODED_ABSOLUTE_FILENAME" }, justification = "This is a Unix-specific implementation")
+             ^
+  symbol:   class SuppressFBWarnings
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:115: error: cannot find symbol
+                    final Object otherModule = getModule.invoke(AFUNIXSocket.class, new Object[0]);
+                                                                ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:127: error: cannot find symbol
+                if (!AFUNIXSocket.isSupported()) {
+                     ^
+  symbol:   variable AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:137: error: cannot find symbol
+                return new OnUnix(processId, AFUNIXSocket.newInstance(), 10, 200L, 5000L, TimeUnit.MILLISECONDS);
+                                             ^
+  symbol:   variable AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:200: error: cannot find symbol
+                    ((AFUNIXSocket)this.socket).setSoTimeout((int)this.timeUnit.toMillis(this.timeout));
+                      ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:202: error: cannot find symbol
+                ((AFUNIXSocket)this.socket).connect((SocketAddress)new AFUNIXSocketAddress(socketFile));
+                                                                       ^
+  symbol:   class AFUNIXSocketAddress
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:202: error: cannot find symbol
+                ((AFUNIXSocket)this.socket).connect((SocketAddress)new AFUNIXSocketAddress(socketFile));
+                  ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:206: error: cannot find symbol
+                return ((AFUNIXSocket)this.socket).getInputStream().read(buffer);
+                         ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:210: error: cannot find symbol
+                ((AFUNIXSocket)this.socket).getOutputStream().write(buffer);
+                  ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/VirtualMachine.java:214: error: cannot find symbol
+                ((AFUNIXSocket)this.socket).close();
+                  ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+13 errors

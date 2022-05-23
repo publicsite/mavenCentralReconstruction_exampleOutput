@@ -1,0 +1,24 @@
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/InternalRunner.java:7: error: package org.junit.runner does not exist
+import org.junit.runner.Description;
+                       ^
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/InternalRunner.java:8: error: package org.junit.runner.manipulation does not exist
+import org.junit.runner.manipulation.Filterable;
+                                    ^
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/InternalRunner.java:9: error: package org.junit.runner.notification does not exist
+import org.junit.runner.notification.RunNotifier;
+                                    ^
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/InternalRunner.java:15: error: cannot find symbol
+public interface InternalRunner extends Filterable {
+                                        ^
+  symbol: class Filterable
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/InternalRunner.java:17: error: cannot find symbol
+    void run(RunNotifier notifier);
+             ^
+  symbol:   class RunNotifier
+  location: interface InternalRunner
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/InternalRunner.java:19: error: cannot find symbol
+    Description getDescription();
+    ^
+  symbol:   class Description
+  location: interface InternalRunner
+6 errors

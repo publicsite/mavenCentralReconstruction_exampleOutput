@@ -1,0 +1,99 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:13: error: cannot find symbol
+public final class Unknown extends Attribute
+                                   ^
+  symbol: class Attribute
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:35: error: cannot find symbol
+    public Unknown(final int name_index, final int length, final byte[] bytes, final ConstantPool constant_pool) {
+                                                                                     ^
+  symbol:   class ConstantPool
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:42: error: cannot find symbol
+    Unknown(final int name_index, final int length, final DataInputStream file, final ConstantPool constant_pool) throws IOException {
+                                                                                      ^
+  symbol:   class ConstantPool
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:49: error: cannot find symbol
+    public void accept(final Visitor v) {
+                             ^
+  symbol:   class Visitor
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:88: error: cannot find symbol
+    public Attribute copy(final ConstantPool constant_pool) {
+                                ^
+  symbol:   class ConstantPool
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:88: error: cannot find symbol
+    public Attribute copy(final ConstantPool constant_pool) {
+           ^
+  symbol:   class Attribute
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:24: error: incompatible types: Object cannot be converted to Unknown
+            unknowns[i] = entries.next();
+                                      ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:32: error: cannot find symbol
+        this(c.getNameIndex(), c.getLength(), c.getBytes(), c.getConstantPool());
+              ^
+  symbol:   method getNameIndex()
+  location: variable c of type Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:32: error: cannot find symbol
+        this(c.getNameIndex(), c.getLength(), c.getBytes(), c.getConstantPool());
+                                ^
+  symbol:   method getLength()
+  location: variable c of type Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:32: error: cannot find symbol
+        this(c.getNameIndex(), c.getLength(), c.getBytes(), c.getConstantPool());
+                                                             ^
+  symbol:   method getConstantPool()
+  location: variable c of type Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:38: error: cannot find symbol
+        this.name = ((ConstantUtf8)constant_pool.getConstant(name_index, (byte)1)).getBytes();
+                      ^
+  symbol:   class ConstantUtf8
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:54: error: cannot find symbol
+        super.dump(file);
+        ^
+  symbol:   variable super
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:55: error: cannot find symbol
+        if (super.length > 0) {
+            ^
+  symbol:   variable super
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:56: error: cannot find symbol
+            file.write(this.bytes, 0, super.length);
+                                      ^
+  symbol:   variable super
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:73: error: cannot find symbol
+        if (super.length == 0 || this.bytes == null) {
+            ^
+  symbol:   variable super
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:77: error: cannot find symbol
+        if (super.length > 10) {
+            ^
+  symbol:   variable super
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:80: error: cannot find symbol
+            hex = Utility.toHexString(tmp) + "... (truncated)";
+                  ^
+  symbol:   variable Utility
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:83: error: cannot find symbol
+            hex = Utility.toHexString(this.bytes);
+                  ^
+  symbol:   variable Utility
+  location: class Unknown
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:89: error: cannot find symbol
+        final Unknown c = (Unknown)this.clone();
+                                       ^
+  symbol: method clone()
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java:93: error: cannot find symbol
+        c.constant_pool = constant_pool;
+         ^
+  symbol:   variable constant_pool
+  location: variable c of type Unknown
+Note: sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Unknown.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+20 errors

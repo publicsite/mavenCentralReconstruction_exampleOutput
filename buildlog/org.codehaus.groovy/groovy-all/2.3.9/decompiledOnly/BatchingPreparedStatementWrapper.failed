@@ -1,0 +1,50 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:11: error: cannot find symbol
+import groovy.lang.Tuple;
+                  ^
+  symbol:   class Tuple
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:15: error: cannot find symbol
+public class BatchingPreparedStatementWrapper extends BatchingStatementWrapper
+                                                      ^
+  symbol: class BatchingStatementWrapper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:18: error: cannot find symbol
+    private List<Tuple> indexPropList;
+                 ^
+  symbol:   class Tuple
+  location: class BatchingPreparedStatementWrapper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:19: error: cannot find symbol
+    private Sql sql;
+            ^
+  symbol:   class Sql
+  location: class BatchingPreparedStatementWrapper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:21: error: cannot find symbol
+    public BatchingPreparedStatementWrapper(final PreparedStatement delegate, final List<Tuple> indexPropList, final int batchSize, final Logger log, final Sql sql) {
+                                                                                         ^
+  symbol:   class Tuple
+  location: class BatchingPreparedStatementWrapper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:21: error: cannot find symbol
+    public BatchingPreparedStatementWrapper(final PreparedStatement delegate, final List<Tuple> indexPropList, final int batchSize, final Logger log, final Sql sql) {
+                                                                                                                                                            ^
+  symbol:   class Sql
+  location: class BatchingPreparedStatementWrapper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:40: error: cannot find symbol
+        ++this.batchCount;
+              ^
+  symbol: variable batchCount
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:41: error: cannot find symbol
+        if (this.batchCount == this.batchSize) {
+                ^
+  symbol: variable batchCount
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:41: error: cannot find symbol
+        if (this.batchCount == this.batchSize) {
+                                   ^
+  symbol: variable batchSize
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:43: error: cannot find symbol
+            this.processResult(result);
+                ^
+  symbol: method processResult(int[])
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/sql/BatchingPreparedStatementWrapper.java:44: error: cannot find symbol
+            this.batchCount = 0;
+                ^
+  symbol: variable batchCount
+11 errors

@@ -1,0 +1,25 @@
+hybrids/org.springframework/spring/2.5.6/InteractionCallback.java:21: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/InteractionCallback.java:22: error: package javax.resource.cci does not exist
+import javax.resource.cci.ConnectionFactory;
+                         ^
+hybrids/org.springframework/spring/2.5.6/InteractionCallback.java:23: error: package javax.resource.cci does not exist
+import javax.resource.cci.Interaction;
+                         ^
+hybrids/org.springframework/spring/2.5.6/InteractionCallback.java:77: error: cannot find symbol
+	Object doInInteraction(Interaction interaction, ConnectionFactory connectionFactory)
+	                       ^
+  symbol:   class Interaction
+  location: interface InteractionCallback
+hybrids/org.springframework/spring/2.5.6/InteractionCallback.java:77: error: cannot find symbol
+	Object doInInteraction(Interaction interaction, ConnectionFactory connectionFactory)
+	                                                ^
+  symbol:   class ConnectionFactory
+  location: interface InteractionCallback
+hybrids/org.springframework/spring/2.5.6/InteractionCallback.java:78: error: cannot find symbol
+			throws ResourceException, SQLException, DataAccessException;
+			       ^
+  symbol:   class ResourceException
+  location: interface InteractionCallback
+6 errors

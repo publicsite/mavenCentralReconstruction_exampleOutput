@@ -1,0 +1,95 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:21: error: package org.springframework.http does not exist
+import org.springframework.http.HttpStatus;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:22: error: package org.springframework.http.client does not exist
+import org.springframework.http.client.ClientHttpResponse;
+                                      ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:24: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:22: error: package org.springframework.http does not exist
+import org.springframework.http.HttpHeaders;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:23: error: package org.springframework.http does not exist
+import org.springframework.http.HttpInputMessage;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:24: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:32: error: cannot find symbol
+public class MockHttpInputMessage implements HttpInputMessage {
+                                             ^
+  symbol: class HttpInputMessage
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:32: error: cannot find symbol
+public class MockClientHttpResponse extends MockHttpInputMessage implements ClientHttpResponse {
+                                                                            ^
+  symbol: class ClientHttpResponse
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:34: error: cannot find symbol
+	private final HttpStatus status;
+	              ^
+  symbol:   class HttpStatus
+  location: class MockClientHttpResponse
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:40: error: cannot find symbol
+	public MockClientHttpResponse(byte[] body, HttpStatus statusCode) {
+	                                           ^
+  symbol:   class HttpStatus
+  location: class MockClientHttpResponse
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:49: error: cannot find symbol
+	public MockClientHttpResponse(InputStream body, HttpStatus statusCode) {
+	                                                ^
+  symbol:   class HttpStatus
+  location: class MockClientHttpResponse
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:56: error: cannot find symbol
+	public HttpStatus getStatusCode() throws IOException {
+	       ^
+  symbol:   class HttpStatus
+  location: class MockClientHttpResponse
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:34: error: cannot find symbol
+	private final HttpHeaders headers = new HttpHeaders();
+	              ^
+  symbol:   class HttpHeaders
+  location: class MockHttpInputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:49: error: cannot find symbol
+	public HttpHeaders getHeaders() {
+	       ^
+  symbol:   class HttpHeaders
+  location: class MockHttpInputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:34: error: cannot find symbol
+	private final HttpHeaders headers = new HttpHeaders();
+	                                        ^
+  symbol:   class HttpHeaders
+  location: class MockHttpInputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:44: error: cannot find symbol
+		Assert.notNull(body, "'body' must not be null");
+		^
+  symbol:   variable Assert
+  location: class MockHttpInputMessage
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:48: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/http/MockHttpInputMessage.java:53: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:42: error: cannot find symbol
+		Assert.notNull(statusCode, "statisCode is required");
+		^
+  symbol:   variable Assert
+  location: class MockClientHttpResponse
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:51: error: cannot find symbol
+		Assert.notNull(statusCode, "statisCode is required");
+		^
+  symbol:   variable Assert
+  location: class MockClientHttpResponse
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:55: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:60: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:65: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockClientHttpResponse.java:70: error: method does not override or implement a method from a supertype
+	@Override
+	^
+24 errors

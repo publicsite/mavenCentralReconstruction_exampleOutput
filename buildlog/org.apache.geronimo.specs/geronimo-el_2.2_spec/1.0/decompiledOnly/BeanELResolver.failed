@@ -1,0 +1,26 @@
+sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0/Decompiled/javax/el/BeanELResolver.java:129: error: incompatible types: Iterator<PropertyDescriptor> cannot be converted to Iterator<FeatureDescriptor>
+            return (Iterator<FeatureDescriptor>)Arrays.asList((PropertyDescriptor[])pds).iterator();
+                                                                                                 ^
+sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0/extractedSources/javax/el/ExpressionFactory.java:26: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0/extractedSources/javax/el/ExpressionFactory.java:108: error: cannot find symbol
+        return ProviderLocator.getServiceClass(ExpressionFactory.class.getName(), ExpressionFactory.class, cl);
+               ^
+  symbol:   variable ProviderLocator
+  location: class ExpressionFactory
+sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0/extractedSources/javax/el/ExpressionFactory.java:113: error: cannot find symbol
+            return ProviderLocator.lookupByJREPropertyFile(JAVA_RUNTIME_PROPERTY_FILE_LOCATION, SYSTEM_PROPERTY_NAME);
+                   ^
+  symbol:   variable ProviderLocator
+  location: class ExpressionFactory
+sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0/extractedSources/javax/el/ExpressionFactory.java:135: error: cannot find symbol
+            return ProviderLocator.loadClass(implClassName, ExpressionFactory.class, cl);
+                   ^
+  symbol:   variable ProviderLocator
+  location: class ExpressionFactory
+Note: sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0/extractedSources/javax/el/ExpressionFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0/Decompiled/javax/el/BeanELResolver.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors

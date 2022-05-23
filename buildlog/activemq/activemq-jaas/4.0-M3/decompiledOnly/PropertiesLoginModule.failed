@@ -1,0 +1,26 @@
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/PropertiesLoginModule.java:7: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/PropertiesLoginModule.java:27: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/PropertiesLoginModule.java:34: error: cannot find symbol
+    private static final Log log;
+                         ^
+  symbol:   class Log
+  location: class PropertiesLoginModule
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/PropertiesLoginModule.java:62: error: incompatible types: Object cannot be converted to String
+        this.debug = "true".equalsIgnoreCase(options.get("debug"));
+                                                        ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/PropertiesLoginModule.java:118: error: incompatible types: Object cannot be converted to String
+            final String name = enumeration.nextElement();
+                                                       ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/PropertiesLoginModule.java:158: error: cannot find symbol
+        log = LogFactory.getLog(PropertiesLoginModule.class);
+              ^
+  symbol:   variable LogFactory
+  location: class PropertiesLoginModule
+Note: sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/PropertiesLoginModule.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+6 errors

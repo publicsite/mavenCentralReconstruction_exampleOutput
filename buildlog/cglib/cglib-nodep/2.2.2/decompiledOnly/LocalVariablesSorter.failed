@@ -1,0 +1,71 @@
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:7: error: cannot find symbol
+import net.sf.cglib.asm.Label;
+                       ^
+  symbol:   class Label
+  location: package net.sf.cglib.asm
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:8: error: cannot find symbol
+import net.sf.cglib.asm.Type;
+                       ^
+  symbol:   class Type
+  location: package net.sf.cglib.asm
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:9: error: cannot find symbol
+import net.sf.cglib.asm.MethodVisitor;
+                       ^
+  symbol:   class MethodVisitor
+  location: package net.sf.cglib.asm
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:10: error: cannot find symbol
+import net.sf.cglib.asm.MethodAdapter;
+                       ^
+  symbol:   class MethodAdapter
+  location: package net.sf.cglib.asm
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:12: error: cannot find symbol
+public class LocalVariablesSorter extends MethodAdapter
+                                          ^
+  symbol: class MethodAdapter
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:17: error: cannot find symbol
+    public LocalVariablesSorter(final int access, final String desc, final MethodVisitor mv) {
+                                                                           ^
+  symbol:   class MethodVisitor
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:61: error: cannot find symbol
+    public void visitLocalVariable(final String name, final String desc, final String signature, final Label start, final Label end, final int index) {
+                                                                                                       ^
+  symbol:   class Label
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:61: error: cannot find symbol
+    public void visitLocalVariable(final String name, final String desc, final String signature, final Label start, final Label end, final int index) {
+                                                                                                                          ^
+  symbol:   class Label
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:20: error: cannot find symbol
+        final Type[] args = Type.getArgumentTypes(desc);
+              ^
+  symbol:   class Type
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:20: error: cannot find symbol
+        final Type[] args = Type.getArgumentTypes(desc);
+                            ^
+  symbol:   variable Type
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:30: error: cannot find symbol
+        super(lvs.mv);
+                 ^
+  symbol:   variable mv
+  location: variable lvs of type LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:50: error: cannot find symbol
+        this.mv.visitVarInsn(opcode, this.remap(var, size));
+            ^
+  symbol: variable mv
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:54: error: cannot find symbol
+        this.mv.visitIincInsn(this.remap(var, 1), increment);
+            ^
+  symbol: variable mv
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:58: error: cannot find symbol
+        this.mv.visitMaxs(maxStack, this.state.nextLocal);
+            ^
+  symbol: variable mv
+sources/structure/cglib/cglib-nodep/2.2.2/Decompiled/net/sf/cglib/core/LocalVariablesSorter.java:62: error: cannot find symbol
+        this.mv.visitLocalVariable(name, desc, signature, start, end, this.remap(index));
+            ^
+  symbol: variable mv
+15 errors

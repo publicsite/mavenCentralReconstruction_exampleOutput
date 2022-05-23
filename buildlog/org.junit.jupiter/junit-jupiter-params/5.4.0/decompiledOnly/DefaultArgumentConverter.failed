@@ -1,0 +1,158 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:29: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:35: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/ArgumentConversionException.java:16: error: package org.junit.platform.commons does not exist
+import org.junit.platform.commons.JUnitException;
+                                 ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/ArgumentConversionException.java:27: error: cannot find symbol
+public class ArgumentConversionException extends JUnitException {
+                                                 ^
+  symbol: class JUnitException
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/SimpleArgumentConverter.java:29: error: incompatible types: ArgumentConversionException cannot be converted to Throwable
+	public final Object convert(Object source, ParameterContext context) throws ArgumentConversionException {
+	                                                                            ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/SimpleArgumentConverter.java:45: error: incompatible types: ArgumentConversionException cannot be converted to Throwable
+	protected abstract Object convert(Object source, Class<?> targetType) throws ArgumentConversionException;
+	                                                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:51: error: incompatible types: ArgumentConversionException cannot be converted to Throwable
+                throw new ArgumentConversionException("Cannot convert null to primitive value of type " + targetType.getName());
+                ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:56: error: cannot find symbol
+            if (ReflectionUtils.isAssignableTo(source, (Class)targetType)) {
+                ^
+  symbol:   variable ReflectionUtils
+  location: class DefaultArgumentConverter
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:71: error: incompatible types: Exception cannot be converted to ArgumentConversionException
+                    if (ex instanceof ArgumentConversionException) {
+                        ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:72: error: incompatible types: Exception cannot be converted to ArgumentConversionException
+                        throw (ArgumentConversionException)ex;
+                                                           ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:74: error: incompatible types: ArgumentConversionException cannot be converted to Throwable
+                    throw new ArgumentConversionException("Failed to convert String \"" + source + "\" to type " + targetType.getName(), ex);
+                    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:78: error: incompatible types: ArgumentConversionException cannot be converted to Throwable
+        throw new ArgumentConversionException("No implicit conversion to convert object of type " + source.getClass().getName() + " to type " + targetType.getName());
+        ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:82: error: cannot find symbol
+        final Class<?> wrapperType = (Class<?>)ReflectionUtils.getWrapperType((Class)targetType);
+                                               ^
+  symbol:   variable ReflectionUtils
+  location: class DefaultArgumentConverter
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:13: error: package org.junit.platform.commons.util.ReflectionUtils does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.HierarchyTraversalMode.BOTTOM_UP;
+                                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.HierarchyTraversalMode.BOTTOM_UP;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:14: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.findConstructors;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:14: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.findConstructors;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:15: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.findMethods;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:15: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.findMethods;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:16: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.invokeMethod;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:16: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.invokeMethod;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:17: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isNotPrivate;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:17: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isNotPrivate;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:18: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isNotStatic;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:18: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isNotStatic;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:19: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.newInstance;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:19: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.newInstance;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:30: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:109: error: cannot find symbol
+                Preconditions.condition(source.length() == 1, () -> "String must have length of 1: " + source);
+                ^
+  symbol:   variable Preconditions
+  location: class StringToPrimitiveConverter
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:135: error: method valueOf in class Enum<E> cannot be applied to given types;
+            return Enum.valueOf((Class<Object>)targetType, source);
+                       ^
+  required: Class<T>,String
+  found: Class<Object>,String
+  reason: inference variable T has incompatible bounds
+    equality constraints: Object
+    lower bounds: Enum<T>
+  where T,E are type-variables:
+    T extends Enum<T> declared in method <T>valueOf(Class<T>,String)
+    E extends Enum<E> declared in class Enum
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:184: error: cannot find symbol
+            return (Class<?>)ReflectionUtils.tryToLoadClass(type).getOrThrow(cause -> {
+                             ^
+  symbol:   variable ReflectionUtils
+  location: class StringToCommonJavaTypesConverter
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java:195: error: incompatible types: ArgumentConversionException cannot be converted to Throwable
+                throw new ArgumentConversionException("Failed to convert String \"" + url + "\" to type " + URL.class.getName(), ex);
+                ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/ArgumentConverter.java:57: error: incompatible types: ArgumentConversionException cannot be converted to Throwable
+	Object convert(Object source, ParameterContext context) throws ArgumentConversionException;
+	                                                               ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:81: error: cannot find symbol
+		Preconditions.condition(executable != NULL_EXECUTABLE,
+		^
+  symbol:   variable Preconditions
+  location: class FallbackStringToObjectConverter
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:91: error: cannot find symbol
+				return source -> invokeMethod(factoryMethod, null, source);
+				                 ^
+  symbol:   method invokeMethod(Method,<null>,String)
+  location: class FallbackStringToObjectConverter
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:95: error: cannot find symbol
+				return source -> newInstance(constructor, source);
+				                 ^
+  symbol:   method newInstance(Constructor<CAP#1>,String)
+  location: class FallbackStringToObjectConverter
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:102: error: cannot find symbol
+		List<Method> factoryMethods = findMethods(targetType, new IsFactoryMethod(targetType), BOTTOM_UP);
+		                                                                                       ^
+  symbol:   variable BOTTOM_UP
+  location: class FallbackStringToObjectConverter
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:110: error: cannot find symbol
+		List<Constructor<?>> constructors = findConstructors(targetType, new IsFactoryConstructor(targetType));
+		                                    ^
+  symbol:   method findConstructors(Class<CAP#1>,IsFactoryConstructor)
+  location: class FallbackStringToObjectConverter
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:136: error: cannot find symbol
+			if (isNotStatic(method)) {
+			    ^
+  symbol:   method isNotStatic(Method)
+  location: class IsFactoryMethod
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/converter/FallbackStringToObjectConverter.java:169: error: cannot find symbol
+		return isNotPrivate(executable) //
+		       ^
+  symbol:   method isNotPrivate(Executable)
+  location: class FallbackStringToObjectConverter
+Note: sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/converter/DefaultArgumentConverter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+40 errors

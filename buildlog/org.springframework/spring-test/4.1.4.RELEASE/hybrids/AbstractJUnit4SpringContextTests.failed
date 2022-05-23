@@ -1,0 +1,370 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/AbstractJUnit4SpringContextTests.java:19: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/AbstractJUnit4SpringContextTests.java:20: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/AbstractJUnit4SpringContextTests.java:23: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/AbstractJUnit4SpringContextTests.java:24: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContextAware;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/AbstractJUnit4SpringContextTests.java:81: error: cannot find symbol
+public abstract class AbstractJUnit4SpringContextTests implements ApplicationContextAware {
+                                                                  ^
+  symbol: class ApplicationContextAware
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/AbstractJUnit4SpringContextTests.java:86: error: cannot find symbol
+	protected final Log logger = LogFactory.getLog(getClass());
+	                ^
+  symbol:   class Log
+  location: class AbstractJUnit4SpringContextTests
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/AbstractJUnit4SpringContextTests.java:92: error: cannot find symbol
+	protected ApplicationContext applicationContext;
+	          ^
+  symbol:   class ApplicationContext
+  location: class AbstractJUnit4SpringContextTests
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/AbstractJUnit4SpringContextTests.java:101: error: cannot find symbol
+	public final void setApplicationContext(final ApplicationContext applicationContext) {
+	                                              ^
+  symbol:   class ApplicationContext
+  location: class AbstractJUnit4SpringContextTests
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:22: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:23: error: package org.springframework.core does not exist
+import org.springframework.core.AttributeAccessor;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:33: error: cannot find symbol
+public interface TestContext extends AttributeAccessor, Serializable {
+                                     ^
+  symbol: class AttributeAccessor
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:46: error: cannot find symbol
+	ApplicationContext getApplicationContext();
+	^
+  symbol:   class ApplicationContext
+  location: interface TestContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextConfiguration.java:26: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContextInitializer;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextConfiguration.java:27: error: package org.springframework.context does not exist
+import org.springframework.context.ConfigurableApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextConfiguration.java:169: error: cannot find symbol
+	Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>[] initializers() default {};
+	                ^
+  symbol:   class ApplicationContextInitializer
+  location: @interface ContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextConfiguration.java:169: error: cannot find symbol
+	Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>[] initializers() default {};
+	                                                        ^
+  symbol:   class ConfigurableApplicationContext
+  location: @interface ContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextLoader.java:19: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextLoader.java:93: error: cannot find symbol
+	ApplicationContext loadContext(String... locations) throws Exception;
+	^
+  symbol:   class ApplicationContext
+  location: interface ContextLoader
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContextManager.java:24: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContextManager.java:25: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContextManager.java:27: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContextManager.java:74: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(TestContextManager.class);
+	                     ^
+  symbol:   class Log
+  location: class TestContextManager
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextCache.java:27: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextCache.java:28: error: package org.springframework.context does not exist
+import org.springframework.context.ConfigurableApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextCache.java:29: error: package org.springframework.core.style does not exist
+import org.springframework.core.style.ToStringCreator;
+                                     ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextCache.java:31: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:26: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:27: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContextInitializer;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:28: error: package org.springframework.context does not exist
+import org.springframework.context.ConfigurableApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:29: error: package org.springframework.core.style does not exist
+import org.springframework.core.style.ToStringCreator;
+                                     ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:30: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:31: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:32: error: package org.springframework.util does not exist
+import org.springframework.util.StringUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:72: error: cannot find symbol
+	private static final Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> EMPTY_INITIALIZER_CLASSES = //
+	                                         ^
+  symbol:   class ApplicationContextInitializer
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:72: error: cannot find symbol
+	private static final Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> EMPTY_INITIALIZER_CLASSES = //
+	                                                                                 ^
+  symbol:   class ConfigurableApplicationContext
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:78: error: cannot find symbol
+	private final Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> contextInitializerClasses;
+	                                  ^
+  symbol:   class ApplicationContextInitializer
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:78: error: cannot find symbol
+	private final Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> contextInitializerClasses;
+	                                                                          ^
+  symbol:   class ConfigurableApplicationContext
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/CacheAwareContextLoaderDelegate.java:19: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/CacheAwareContextLoaderDelegate.java:20: error: package org.springframework.context does not exist
+import org.springframework.context.ConfigurableApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:97: error: cannot find symbol
+			Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> contextInitializerClasses) {
+			                    ^
+  symbol:   class ApplicationContextInitializer
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:97: error: cannot find symbol
+			Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> contextInitializerClasses) {
+			                                                            ^
+  symbol:   class ConfigurableApplicationContext
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:96: error: cannot find symbol
+	private static Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> processContextInitializerClasses(
+	                                   ^
+  symbol:   class ApplicationContextInitializer
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:96: error: cannot find symbol
+	private static Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> processContextInitializerClasses(
+	                                                                           ^
+  symbol:   class ConfigurableApplicationContext
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:158: error: cannot find symbol
+			Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> contextInitializerClasses,
+			                    ^
+  symbol:   class ApplicationContextInitializer
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:158: error: cannot find symbol
+			Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> contextInitializerClasses,
+			                                                            ^
+  symbol:   class ConfigurableApplicationContext
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:184: error: cannot find symbol
+			Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> contextInitializerClasses,
+			                    ^
+  symbol:   class ApplicationContextInitializer
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:184: error: cannot find symbol
+			Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> contextInitializerClasses,
+			                                                            ^
+  symbol:   class ConfigurableApplicationContext
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:232: error: cannot find symbol
+			Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> contextInitializerClasses,
+			                    ^
+  symbol:   class ApplicationContextInitializer
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:232: error: cannot find symbol
+			Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> contextInitializerClasses,
+			                                                            ^
+  symbol:   class ConfigurableApplicationContext
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:316: error: cannot find symbol
+	public Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> getContextInitializerClasses() {
+	                           ^
+  symbol:   class ApplicationContextInitializer
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:316: error: cannot find symbol
+	public Set<Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>> getContextInitializerClasses() {
+	                                                                   ^
+  symbol:   class ConfigurableApplicationContext
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/MergedContextConfiguration.java:381: error: cannot find symbol
+	public ApplicationContext getParentApplicationContext() {
+	       ^
+  symbol:   class ApplicationContext
+  location: class MergedContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/CacheAwareContextLoaderDelegate.java:49: error: cannot find symbol
+	ApplicationContext loadContext(MergedContextConfiguration mergedContextConfiguration);
+	^
+  symbol:   class ApplicationContext
+  location: interface CacheAwareContextLoaderDelegate
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextCache.java:54: error: cannot find symbol
+	private final Map<MergedContextConfiguration, ApplicationContext> contextMap =
+	                                              ^
+  symbol:   class ApplicationContext
+  location: class ContextCache
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextCache.java:106: error: cannot find symbol
+	public ApplicationContext get(MergedContextConfiguration key) {
+	       ^
+  symbol:   class ApplicationContext
+  location: class ContextCache
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextCache.java:141: error: cannot find symbol
+	public void put(MergedContextConfiguration key, ApplicationContext context) {
+	                                                ^
+  symbol:   class ApplicationContext
+  location: class ContextCache
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:19: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:20: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:22: error: package org.springframework.beans.factory.config does not exist
+import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
+                                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:23: error: package org.springframework.core does not exist
+import org.springframework.core.Conventions;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/AbstractTestExecutionListener.java:19: error: package org.springframework.core does not exist
+import org.springframework.core.Ordered;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/AbstractTestExecutionListener.java:32: error: cannot find symbol
+public abstract class AbstractTestExecutionListener implements TestExecutionListener, Ordered {
+                                                                                      ^
+  symbol: class Ordered
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:54: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(DependencyInjectionTestExecutionListener.class);
+	                     ^
+  symbol:   class Log
+  location: class DependencyInjectionTestExecutionListener
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DirtiesContextTestExecutionListener.java:21: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DirtiesContextTestExecutionListener.java:22: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DirtiesContextTestExecutionListener.java:24: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DirtiesContextTestExecutionListener.java:25: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotatedElementUtils;
+                                          ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DirtiesContextTestExecutionListener.java:26: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotationAttributes;
+                                          ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DirtiesContextTestExecutionListener.java:31: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DirtiesContextTestExecutionListener.java:48: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(DirtiesContextTestExecutionListener.class);
+	                     ^
+  symbol:   class Log
+  location: class DirtiesContextTestExecutionListener
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:21: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:22: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:24: error: package org.springframework.beans.factory.config does not exist
+import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
+                                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:25: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:26: error: package org.springframework.context does not exist
+import org.springframework.context.ConfigurableApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:27: error: package org.springframework.core does not exist
+import org.springframework.core.Conventions;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:28: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotationUtils;
+                                          ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:36: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:37: error: package org.springframework.web.context does not exist
+import org.springframework.web.context.WebApplicationContext;
+                                      ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:38: error: package org.springframework.web.context.request does not exist
+import org.springframework.web.context.request.RequestContextHolder;
+                                              ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:39: error: package org.springframework.web.context.request does not exist
+import org.springframework.web.context.request.ServletWebRequest;
+                                              ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/web/ServletTestExecutionListener.java:88: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(ServletTestExecutionListener.class);
+	                     ^
+  symbol:   class Log
+  location: class ServletTestExecutionListener
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockHttpServletRequest.java:53: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockHttpServletRequest.java:54: error: package org.springframework.util does not exist
+import org.springframework.util.LinkedCaseInsensitiveMap;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockHttpServletRequest.java:55: error: package org.springframework.util does not exist
+import org.springframework.util.StringUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockAsyncContext.java:31: error: package org.springframework.beans does not exist
+import org.springframework.beans.BeanUtils;
+                                ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockAsyncContext.java:32: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockAsyncContext.java:33: error: package org.springframework.web.util does not exist
+import org.springframework.web.util.WebUtils;
+                                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/HeaderValueHolder.java:26: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/HeaderValueHolder.java:27: error: package org.springframework.util does not exist
+import org.springframework.util.CollectionUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockHttpServletResponse.java:36: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockHttpServletResponse.java:37: error: package org.springframework.util does not exist
+import org.springframework.util.LinkedCaseInsensitiveMap;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockHttpServletResponse.java:38: error: package org.springframework.web.util does not exist
+import org.springframework.web.util.WebUtils;
+                                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/DelegatingServletOutputStream.java:23: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockServletContext.java:33: error: package javax.activation does not exist
+import javax.activation.FileTypeMap;
+                       ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockServletContext.java:45: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockServletContext.java:46: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockServletContext.java:48: error: package org.springframework.core.io does not exist
+import org.springframework.core.io.DefaultResourceLoader;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockServletContext.java:49: error: package org.springframework.core.io does not exist
+import org.springframework.core.io.Resource;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/mock/web/MockServletContext.java:50: error: package org.springframework.core.io does not exist
+import org.springframework.core.io.ResourceLoader;
+                                  ^
+Note: sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/annotation/ProfileValueUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+100 errors

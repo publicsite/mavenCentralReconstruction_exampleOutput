@@ -1,0 +1,105 @@
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/SoftProxies.java:17: error: cannot find symbol
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+  symbol:   class Enhancer
+  location: package net.sf.cglib.proxy
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ErrorCollector.java:15: error: cannot find symbol
+import net.sf.cglib.proxy.MethodInterceptor;
+                         ^
+  symbol:   class MethodInterceptor
+  location: package net.sf.cglib.proxy
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ErrorCollector.java:16: error: cannot find symbol
+import net.sf.cglib.proxy.MethodProxy;
+                         ^
+  symbol:   class MethodProxy
+  location: package net.sf.cglib.proxy
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ErrorCollector.java:24: error: cannot find symbol
+public class ErrorCollector implements MethodInterceptor {
+                                       ^
+  symbol: class MethodInterceptor
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ErrorCollector.java:29: error: cannot find symbol
+  public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
+                                                                    ^
+  symbol:   class MethodProxy
+  location: class ErrorCollector
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/AbstractStandardSoftAssertions.java:63: error: incompatible types: Class<IterableAssert> cannot be converted to Class<IterableAssert<T>>
+        return this.proxy((Class<IterableAssert<T>>)IterableAssert.class, Iterable.class, actual);
+                                                                  ^
+  where T is a type-variable:
+    T extends Object declared in method <T>assertThat(Iterable<? extends T>)
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/AbstractStandardSoftAssertions.java:67: error: incompatible types: Class<IterableAssert> cannot be converted to Class<IterableAssert<T>>
+        return this.proxy((Class<IterableAssert<T>>)IterableAssert.class, Iterator.class, actual);
+                                                                  ^
+  where T is a type-variable:
+    T extends Object declared in method <T>assertThat(Iterator<T>)
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/AbstractStandardSoftAssertions.java:119: error: incompatible types: Class<ListAssert> cannot be converted to Class<ListAssert<T>>
+        return this.proxy((Class<ListAssert<T>>)ListAssert.class, List.class, actual);
+                                                          ^
+  where T is a type-variable:
+    T extends Object declared in method <T>assertThat(List<? extends T>)
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/AbstractStandardSoftAssertions.java:135: error: incompatible types: Class<ObjectAssert> cannot be converted to Class<ObjectAssert<T>>
+        return this.proxy((Class<ObjectAssert<T>>)ObjectAssert.class, Object.class, actual);
+                                                              ^
+  where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T)
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/AbstractStandardSoftAssertions.java:139: error: incompatible types: Class<ObjectArrayAssert> cannot be converted to Class<ObjectArrayAssert<T>>
+        return this.proxy((Class<ObjectArrayAssert<T>>)ObjectArrayAssert.class, Object[].class, actual);
+                                                                        ^
+  where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T[])
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/AbstractStandardSoftAssertions.java:143: error: incompatible types: Class<SoftAssertionMapAssert> cannot be converted to Class<SoftAssertionMapAssert<K,V>>
+        return this.proxy((Class<SoftAssertionMapAssert<K, V>>)SoftAssertionMapAssert.class, Map.class, actual);
+                                                                                     ^
+  where K,V are type-variables:
+    K extends Object declared in method <K,V>assertThat(Map<K,V>)
+    V extends Object declared in method <K,V>assertThat(Map<K,V>)
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/AbstractStandardSoftAssertions.java:175: error: cannot find symbol
+        return ((AbstractThrowableAssert<AbstractThrowableAssert<?, ? extends Throwable>, A>)this.assertThat(Assertions.catchThrowable(shouldRaiseThrowable))).hasBeenThrown();
+                                                                                          ^
+  symbol:   class A
+  location: class AbstractStandardSoftAssertions
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/api/AbstractStandardSoftAssertions.java:175: error: incompatible types: ThrowableAssert cannot be converted to AbstractThrowableAssert<AbstractThrowableAssert<?,? extends Throwable>,A>
+        return ((AbstractThrowableAssert<AbstractThrowableAssert<?, ? extends Throwable>, A>)this.assertThat(Assertions.catchThrowable(shouldRaiseThrowable))).hasBeenThrown();
+                                                                                                            ^
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/SoftProxies.java:34: error: cannot find symbol
+    Enhancer enhancer = new Enhancer();
+    ^
+  symbol:   class Enhancer
+  location: class SoftProxies
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/SoftProxies.java:34: error: cannot find symbol
+    Enhancer enhancer = new Enhancer();
+                            ^
+  symbol:   class Enhancer
+  location: class SoftProxies
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/SoftProxies.java:37: error: incompatible types: ErrorCollector cannot be converted to Callback
+    enhancer.setCallbacks(new Callback[] { collector, new ProxifyExtractingResult(this) });
+                                           ^
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ProxifyExtractingResult.java:15: error: cannot find symbol
+import net.sf.cglib.proxy.MethodInterceptor;
+                         ^
+  symbol:   class MethodInterceptor
+  location: package net.sf.cglib.proxy
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ProxifyExtractingResult.java:16: error: cannot find symbol
+import net.sf.cglib.proxy.MethodProxy;
+                         ^
+  symbol:   class MethodProxy
+  location: package net.sf.cglib.proxy
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ProxifyExtractingResult.java:23: error: cannot find symbol
+class ProxifyExtractingResult implements MethodInterceptor {
+                                         ^
+  symbol: class MethodInterceptor
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ProxifyExtractingResult.java:33: error: cannot find symbol
+  public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
+                                                                    ^
+  symbol:   class MethodProxy
+  location: class ProxifyExtractingResult
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/SoftProxies.java:37: error: incompatible types: ProxifyExtractingResult cannot be converted to Callback
+    enhancer.setCallbacks(new Callback[] { collector, new ProxifyExtractingResult(this) });
+                                                      ^
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ErrorCollector.java:28: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/org.assertj/assertj-core/2.0.0/extractedSources/org/assertj/core/api/ProxifyExtractingResult.java:32: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+23 errors

@@ -1,0 +1,76 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:7: error: cannot find symbol
+import org.apache.bcel.verifier.exc.LocalVariableInfoInconsistentException;
+                                   ^
+  symbol:   class LocalVariableInfoInconsistentException
+  location: package org.apache.bcel.verifier.exc
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:8: error: cannot find symbol
+import org.apache.bcel.generic.Type;
+                              ^
+  symbol:   class Type
+  location: package org.apache.bcel.generic
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:9: error: cannot find symbol
+import org.apache.bcel.verifier.exc.AssertionViolatedException;
+                                   ^
+  symbol:   class AssertionViolatedException
+  location: package org.apache.bcel.verifier.exc
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:13: error: cannot find symbol
+    private LocalVariableInfo[] localVariableInfos;
+            ^
+  symbol:   class LocalVariableInfo
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:24: error: cannot find symbol
+    public LocalVariableInfo getLocalVariableInfo(final int slot) {
+           ^
+  symbol:   class LocalVariableInfo
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:31: error: cannot find symbol
+    public void add(final int slot, final String name, final int startpc, final int length, final Type t) throws LocalVariableInfoInconsistentException {
+                                                                                                  ^
+  symbol:   class Type
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:31: error: cannot find symbol
+    public void add(final int slot, final String name, final int startpc, final int length, final Type t) throws LocalVariableInfoInconsistentException {
+                                                                                                                 ^
+  symbol:   class LocalVariableInfoInconsistentException
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:18: error: cannot find symbol
+        this.localVariableInfos = new LocalVariableInfo[max_locals];
+                                      ^
+  symbol:   class LocalVariableInfo
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:20: error: cannot find symbol
+            this.localVariableInfos[i] = new LocalVariableInfo();
+                                             ^
+  symbol:   class LocalVariableInfo
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:26: error: cannot find symbol
+            throw new AssertionViolatedException("Slot number for local variable information out of range.");
+                      ^
+  symbol:   class AssertionViolatedException
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:33: error: cannot find symbol
+            throw new AssertionViolatedException("Slot number for local variable information out of range.");
+                      ^
+  symbol:   class AssertionViolatedException
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:36: error: cannot find symbol
+        if (t == Type.LONG) {
+                 ^
+  symbol:   variable Type
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:37: error: cannot find symbol
+            this.localVariableInfos[slot + 1].add(name, startpc, length, LONG_Upper.theInstance());
+                                                                         ^
+  symbol:   variable LONG_Upper
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:39: error: cannot find symbol
+        if (t == Type.DOUBLE) {
+                 ^
+  symbol:   variable Type
+  location: class LocalVariablesInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariablesInfo.java:40: error: cannot find symbol
+            this.localVariableInfos[slot + 1].add(name, startpc, length, DOUBLE_Upper.theInstance());
+                                                                         ^
+  symbol:   variable DOUBLE_Upper
+  location: class LocalVariablesInfo
+15 errors

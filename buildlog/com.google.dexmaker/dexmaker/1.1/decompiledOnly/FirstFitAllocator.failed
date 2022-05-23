@@ -1,0 +1,142 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:7: error: package com.google.dexmaker.dx.rop.cst does not exist
+import com.google.dexmaker.dx.rop.cst.CstInteger;
+                                     ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:8: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.CstInsn;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:10: error: cannot find symbol
+import com.google.dexmaker.dx.ssa.NormalSsaInsn;
+                                 ^
+  symbol:   class NormalSsaInsn
+  location: package com.google.dexmaker.dx.ssa
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:11: error: cannot find symbol
+import com.google.dexmaker.dx.util.BitIntSet;
+                                  ^
+  symbol:   class BitIntSet
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:12: error: cannot find symbol
+import com.google.dexmaker.dx.ssa.BasicRegisterMapper;
+                                 ^
+  symbol:   class BasicRegisterMapper
+  location: package com.google.dexmaker.dx.ssa
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:13: error: cannot find symbol
+import com.google.dexmaker.dx.ssa.RegisterMapper;
+                                 ^
+  symbol:   class RegisterMapper
+  location: package com.google.dexmaker.dx.ssa
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:14: error: cannot find symbol
+import com.google.dexmaker.dx.ssa.SsaMethod;
+                                 ^
+  symbol:   class SsaMethod
+  location: package com.google.dexmaker.dx.ssa
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:17: error: cannot find symbol
+public class FirstFitAllocator extends RegisterAllocator
+                                       ^
+  symbol: class RegisterAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:22: error: cannot find symbol
+    public FirstFitAllocator(final SsaMethod ssaMeth, final InterferenceGraph interference) {
+                                   ^
+  symbol:   class SsaMethod
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:22: error: cannot find symbol
+    public FirstFitAllocator(final SsaMethod ssaMeth, final InterferenceGraph interference) {
+                                                            ^
+  symbol:   class InterferenceGraph
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:33: error: cannot find symbol
+    public RegisterMapper allocateRegisters() {
+           ^
+  symbol:   class RegisterMapper
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:76: error: cannot find symbol
+    private int paramNumberFromMoveParam(final NormalSsaInsn ndefInsn) {
+                                               ^
+  symbol:   class NormalSsaInsn
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:32: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:34: error: cannot find symbol
+        final int oldRegCount = this.ssaMeth.getRegCount();
+                                    ^
+  symbol: variable ssaMeth
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:35: error: cannot find symbol
+        final BasicRegisterMapper mapper = new BasicRegisterMapper(oldRegCount);
+              ^
+  symbol:   class BasicRegisterMapper
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:35: error: cannot find symbol
+        final BasicRegisterMapper mapper = new BasicRegisterMapper(oldRegCount);
+                                               ^
+  symbol:   class BasicRegisterMapper
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:37: error: cannot find symbol
+        nextNewRegister = this.ssaMeth.getParamWidth();
+                              ^
+  symbol: variable ssaMeth
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:40: error: cannot find symbol
+                int maxCategory = this.getCategoryForSsaReg(i);
+                                      ^
+  symbol: method getCategoryForSsaReg(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:41: error: cannot find symbol
+                final IntSet current = new BitIntSet(oldRegCount);
+                                           ^
+  symbol:   class BitIntSet
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:42: error: cannot find symbol
+                this.interference.mergeInterferenceSet(i, current);
+                    ^
+  symbol: variable interference
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:45: error: cannot find symbol
+                if (this.isDefinitionMoveParam(i)) {
+                        ^
+  symbol: method isDefinitionMoveParam(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:46: error: cannot find symbol
+                    final NormalSsaInsn defInsn = (NormalSsaInsn)this.ssaMeth.getDefinitionForRegister(i);
+                          ^
+  symbol:   class NormalSsaInsn
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:46: error: cannot find symbol
+                    final NormalSsaInsn defInsn = (NormalSsaInsn)this.ssaMeth.getDefinitionForRegister(i);
+                                                   ^
+  symbol:   class NormalSsaInsn
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:46: error: cannot find symbol
+                    final NormalSsaInsn defInsn = (NormalSsaInsn)this.ssaMeth.getDefinitionForRegister(i);
+                                                                     ^
+  symbol: variable ssaMeth
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:57: error: cannot find symbol
+                        if (!this.isDefinitionMoveParam(j)) {
+                                 ^
+  symbol: method isDefinitionMoveParam(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:58: error: cannot find symbol
+                            if (!current.has(j) && (!isPreslotted || maxCategory >= this.getCategoryForSsaReg(j))) {
+                                                                                        ^
+  symbol: method getCategoryForSsaReg(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:59: error: cannot find symbol
+                                this.interference.mergeInterferenceSet(j, current);
+                                    ^
+  symbol: variable interference
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:60: error: cannot find symbol
+                                maxCategory = Math.max(maxCategory, this.getCategoryForSsaReg(j));
+                                                                        ^
+  symbol: method getCategoryForSsaReg(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:77: error: cannot find symbol
+        final CstInsn origInsn = (CstInsn)ndefInsn.getOriginalRopInsn();
+              ^
+  symbol:   class CstInsn
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:77: error: cannot find symbol
+        final CstInsn origInsn = (CstInsn)ndefInsn.getOriginalRopInsn();
+                                  ^
+  symbol:   class CstInsn
+  location: class FirstFitAllocator
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/FirstFitAllocator.java:78: error: cannot find symbol
+        return ((CstInteger)origInsn.getConstant()).getValue();
+                 ^
+  symbol:   class CstInteger
+  location: class FirstFitAllocator
+32 errors

@@ -1,0 +1,68 @@
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:21: error: package javax.jdo does not exist
+import javax.jdo.JDOException;
+                ^
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:22: error: package javax.jdo does not exist
+import javax.jdo.PersistenceManager;
+                ^
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:23: error: package javax.jdo does not exist
+import javax.jdo.Query;
+                ^
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:24: error: package javax.jdo does not exist
+import javax.jdo.Transaction;
+                ^
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:84: error: cannot find symbol
+	Object beginTransaction(Transaction transaction, TransactionDefinition definition)
+	                        ^
+  symbol:   class Transaction
+  location: interface JdoDialect
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:85: error: cannot find symbol
+			throws JDOException, SQLException, TransactionException;
+			       ^
+  symbol:   class JDOException
+  location: interface JdoDialect
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:129: error: cannot find symbol
+	ConnectionHandle getJdbcConnection(PersistenceManager pm, boolean readOnly)
+	                                   ^
+  symbol:   class PersistenceManager
+  location: interface JdoDialect
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:130: error: cannot find symbol
+			throws JDOException, SQLException;
+			       ^
+  symbol:   class JDOException
+  location: interface JdoDialect
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:145: error: cannot find symbol
+	void releaseJdbcConnection(ConnectionHandle conHandle, PersistenceManager pm)
+	                                                       ^
+  symbol:   class PersistenceManager
+  location: interface JdoDialect
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:146: error: cannot find symbol
+			throws JDOException, SQLException;
+			       ^
+  symbol:   class JDOException
+  location: interface JdoDialect
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:157: error: cannot find symbol
+	void flush(PersistenceManager pm) throws JDOException;
+	           ^
+  symbol:   class PersistenceManager
+  location: interface JdoDialect
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:157: error: cannot find symbol
+	void flush(PersistenceManager pm) throws JDOException;
+	                                         ^
+  symbol:   class JDOException
+  location: interface JdoDialect
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:167: error: cannot find symbol
+	void applyQueryTimeout(Query query, int timeout) throws JDOException;
+	                       ^
+  symbol:   class Query
+  location: interface JdoDialect
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:167: error: cannot find symbol
+	void applyQueryTimeout(Query query, int timeout) throws JDOException;
+	                                                        ^
+  symbol:   class JDOException
+  location: interface JdoDialect
+hybrids/org.springframework/spring/2.5.6/JdoDialect.java:192: error: cannot find symbol
+	DataAccessException translateException(JDOException ex);
+	                                       ^
+  symbol:   class JDOException
+  location: interface JdoDialect
+15 errors

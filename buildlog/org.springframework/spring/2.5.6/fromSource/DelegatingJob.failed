@@ -1,0 +1,24 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:19: error: package org.quartz does not exist
+import org.quartz.Job;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:20: error: package org.quartz does not exist
+import org.quartz.JobExecutionContext;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:21: error: package org.quartz does not exist
+import org.quartz.JobExecutionException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:38: error: cannot find symbol
+public class DelegatingJob implements Job {
+                                      ^
+  symbol: class Job
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:63: error: cannot find symbol
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+	                    ^
+  symbol:   class JobExecutionContext
+  location: class DelegatingJob
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:63: error: cannot find symbol
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+	                                                        ^
+  symbol:   class JobExecutionException
+  location: class DelegatingJob
+6 errors

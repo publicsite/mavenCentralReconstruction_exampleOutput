@@ -1,0 +1,19 @@
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/sqlmap/engine/exchange/JavaBeanDataExchange.java:48: error: incompatible types: Object[] cannot be converted to String[]
+                final String[] outParams = outParamList.toArray(new String[outParamList.size()]);
+                                                               ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/accessplan/EnhancedPropertyAccessPlan.java:18: error: package net.sf.cglib.beans does not exist
+import net.sf.cglib.beans.BulkBean;
+                         ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/accessplan/EnhancedPropertyAccessPlan.java:25: error: cannot find symbol
+  private BulkBean bulkBean;
+          ^
+  symbol:   class BulkBean
+  location: class EnhancedPropertyAccessPlan
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/accessplan/EnhancedPropertyAccessPlan.java:29: error: cannot find symbol
+    bulkBean = BulkBean.create(clazz, getGetterNames(propertyNames), getSetterNames(propertyNames), getTypes(propertyNames));
+               ^
+  symbol:   variable BulkBean
+  location: class EnhancedPropertyAccessPlan
+Note: sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/sqlmap/engine/exchange/JavaBeanDataExchange.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors

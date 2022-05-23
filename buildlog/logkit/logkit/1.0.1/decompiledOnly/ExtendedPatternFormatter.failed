@@ -1,0 +1,88 @@
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/Logger.java:276: error: unmappable character (0xA0) for encoding UTF-8
+     * Determine if messages of priority �will be logged.
+                                         ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/ContextMap.java:24: error: unmappable character (0xA0) for encoding UTF-8
+ * <li>caller � �-&gt;com.biz.MyCaller.method(MyCaller.java:18)</li>
+              ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/ContextMap.java:24: error: unmappable character (0xA0) for encoding UTF-8
+ * <li>caller � �-&gt;com.biz.MyCaller.method(MyCaller.java:18)</li>
+                ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/ContextMap.java:25: error: unmappable character (0xA0) for encoding UTF-8
+ * <li>source � �-&gt;1.6.3.2:33</li>
+              ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/ContextMap.java:25: error: unmappable character (0xA0) for encoding UTF-8
+ * <li>source � �-&gt;1.6.3.2:33</li>
+                ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/format/PatternFormatter.java:15: error: cannot find symbol
+import org.apache.log.ContextStack;
+                     ^
+  symbol:   class ContextStack
+  location: package org.apache.log
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/format/PatternFormatter.java:79: error: cannot find symbol
+    implements Formatter, org.apache.log.Formatter
+                                        ^
+  symbol:   class Formatter
+  location: package org.apache.log
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/LogEvent.java:48: error: cannot find symbol
+    private transient ContextStack  m_contextStack;
+                      ^
+  symbol:   class ContextStack
+  location: class LogEvent
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/LogEvent.java:96: error: cannot find symbol
+    public final ContextStack getContextStack()
+                 ^
+  symbol:   class ContextStack
+  location: class LogEvent
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/LogEvent.java:109: error: cannot find symbol
+    public final void setContextStack( final ContextStack contextStack )
+                                             ^
+  symbol:   class ContextStack
+  location: class LogEvent
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/format/PatternFormatter.java:467: error: cannot find symbol
+    protected String getContext( final ContextStack stack, final String format )
+                                       ^
+  symbol:   class ContextStack
+  location: class PatternFormatter
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/format/PatternFormatter.java:479: error: cannot find symbol
+    protected String getContextStack( final ContextStack stack, final String format )
+                                            ^
+  symbol:   class ContextStack
+  location: class PatternFormatter
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/format/PatternFormatter.java:131: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public PatternFormatter()
+           ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/format/PatternFormatter.java:467: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    protected String getContext( final ContextStack stack, final String format )
+                     ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/format/PatternFormatter.java:632: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public void setFormat( final String format )
+                ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/LogEvent.java:48: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    private transient ContextStack  m_contextStack;
+                                    ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/LogEvent.java:96: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public final ContextStack getContextStack()
+                              ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/LogEvent.java:109: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public final void setContextStack( final ContextStack contextStack )
+                      ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/Logger.java:485: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public final Priority getPriority()
+                          ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/Logger.java:498: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public final String getCategory()
+                        ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/Logger.java:511: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public LogTarget[] getLogTargets()
+                       ^
+sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/Logger.java:529: error: cannot find symbol
+        event.setContextStack( ContextStack.getCurrentContext( false ) );
+                               ^
+  symbol:   variable ContextStack
+  location: class Logger
+Note: sources/structure/logkit/logkit/1.0.1/extractedSources/org/apache/log/format/PatternFormatter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+13 errors
+9 warnings

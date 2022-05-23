@@ -1,0 +1,61 @@
+hybrids/com.openpojo/openpojo/0.9.1/FloatReturnTypeMethodHandler.java:22: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Opcodes;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/FloatReturnTypeMethodHandler.java:23: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Type;
+                        ^
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/impl/AbstractReturnTypeMethodHandler.java:22: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.MethodVisitor;
+                        ^
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/impl/AbstractReturnTypeMethodHandler.java:24: error: package org.objectweb.asm does not exist
+import static org.objectweb.asm.Opcodes.*;
+                               ^
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/MethodHandler.java:21: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.MethodVisitor;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/FloatReturnTypeMethodHandler.java:29: error: cannot find symbol
+  private static final Type HANDLER_TYPE = Type.getObjectType(Float.class.getName());
+                       ^
+  symbol:   class Type
+  location: class FloatReturnTypeMethodHandler
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/impl/AbstractReturnTypeMethodHandler.java:31: error: cannot find symbol
+  public void generateMethod(MethodVisitor methodVisitor,
+                             ^
+  symbol:   class MethodVisitor
+  location: class AbstractReturnTypeMethodHandler
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/MethodHandler.java:28: error: cannot find symbol
+  void generateMethod(MethodVisitor methodVisitor,
+                      ^
+  symbol:   class MethodVisitor
+  location: interface MethodHandler
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/impl/AbstractReturnTypeMethodHandler.java:39: error: cannot find symbol
+    methodVisitor.visitFieldInsn(GETSTATIC, getInternalName(), "TYPE", "Ljava/lang/Class;");
+                                 ^
+  symbol:   variable GETSTATIC
+  location: class AbstractReturnTypeMethodHandler
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/impl/AbstractReturnTypeMethodHandler.java:41: error: cannot find symbol
+    methodVisitor.visitMethodInsn(INVOKESTATIC,
+                                  ^
+  symbol:   variable INVOKESTATIC
+  location: class AbstractReturnTypeMethodHandler
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/impl/AbstractReturnTypeMethodHandler.java:47: error: cannot find symbol
+    methodVisitor.visitTypeInsn(CHECKCAST, getInternalName());
+                                ^
+  symbol:   variable CHECKCAST
+  location: class AbstractReturnTypeMethodHandler
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/impl/AbstractReturnTypeMethodHandler.java:48: error: cannot find symbol
+    methodVisitor.visitMethodInsn(INVOKEVIRTUAL,
+                                  ^
+  symbol:   variable INVOKEVIRTUAL
+  location: class AbstractReturnTypeMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/FloatReturnTypeMethodHandler.java:29: error: cannot find symbol
+  private static final Type HANDLER_TYPE = Type.getObjectType(Float.class.getName());
+                                           ^
+  symbol:   variable Type
+  location: class FloatReturnTypeMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/FloatReturnTypeMethodHandler.java:30: error: cannot find symbol
+  private static final int OPCODE = Opcodes.FRETURN;
+                                    ^
+  symbol:   variable Opcodes
+  location: class FloatReturnTypeMethodHandler
+14 errors

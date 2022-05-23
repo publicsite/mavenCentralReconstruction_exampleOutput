@@ -1,0 +1,44 @@
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/RegexParser.java:102: error: incompatible types: Object cannot be converted to ReferencePosition
+                final ReferencePosition referencePosition = this.references.elementAt(i);
+                                                                                     ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/ParserForXMLSchema.java:421: error: incompatible types: Object cannot be converted to Token
+            range4.mergeRanges(ParserForXMLSchema.ranges.get("xml:isDigit"));
+                                                            ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/ParserForXMLSchema.java:435: error: incompatible types: bad type in conditional expression
+        return b ? ParserForXMLSchema.ranges.get(s) : ParserForXMLSchema.ranges2.get(s);
+                                                ^
+    Object cannot be converted to RangeToken
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/ParserForXMLSchema.java:435: error: incompatible types: bad type in conditional expression
+        return b ? ParserForXMLSchema.ranges.get(s) : ParserForXMLSchema.ranges2.get(s);
+                                                                                    ^
+    Object cannot be converted to RangeToken
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/Token.java:785: error: incompatible types: bad type in conditional expression
+        return b ? Token.categories.get(s) : Token.categories2.get(s);
+                                       ^
+    Object cannot be converted to RangeToken
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/Token.java:785: error: incompatible types: bad type in conditional expression
+        return b ? Token.categories.get(s) : Token.categories2.get(s);
+                                                                  ^
+    Object cannot be converted to RangeToken
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/Token.java:808: error: incompatible types: Object cannot be converted to Token
+        final Token token = Token.categories.get(s2);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/Token.java:809: error: incompatible types: Object cannot be converted to Token
+        final Token token2 = Token.categories2.get(s2);
+                                                  ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/Token.java:920: error: incompatible types: Object cannot be converted to Token
+            Token string = this.children.elementAt(size - 1);
+                                                  ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/Token.java:963: error: incompatible types: Object cannot be converted to Token
+            return this.children.elementAt(index);
+                                          ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xpath/regex/Token.java:1000: error: method toString in class Object cannot be applied to given types;
+                buffer2.append(this.children.elementAt(0).toString(n));
+                                                         ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+11 errors

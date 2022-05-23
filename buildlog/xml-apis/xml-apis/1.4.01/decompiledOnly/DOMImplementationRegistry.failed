@@ -1,0 +1,24 @@
+sources/structure/xml-apis/xml-apis/1.4.01/Decompiled/org/w3c/dom/bootstrap/DOMImplementationRegistry.java:5: error: package exists in another module: java.xml
+package org.w3c.dom.bootstrap;
+^
+sources/structure/xml-apis/xml-apis/1.4.01/Decompiled/org/w3c/dom/bootstrap/DOMImplementationRegistry.java:55: error: DOMImplementationRegistry(List<DOMImplementationSource>) has private access in DOMImplementationRegistry
+        return new DOMImplementationRegistry(vector);
+               ^
+sources/structure/xml-apis/xml-apis/1.4.01/Decompiled/org/w3c/dom/bootstrap/DOMImplementationRegistry.java:60: error: cannot find symbol
+            final DOMImplementation domImplementation = this.sources.elementAt(i).getDOMImplementation(s);
+                                                                                 ^
+  symbol:   method getDOMImplementation(String)
+  location: class Object
+sources/structure/xml-apis/xml-apis/1.4.01/Decompiled/org/w3c/dom/bootstrap/DOMImplementationRegistry.java:71: error: cannot find symbol
+            final DOMImplementationList domImplementationList = this.sources.elementAt(i).getDOMImplementationList(s);
+                                                                                         ^
+  symbol:   method getDOMImplementationList(String)
+  location: class Object
+sources/structure/xml-apis/xml-apis/1.4.01/Decompiled/org/w3c/dom/bootstrap/DOMImplementationRegistry.java:82: error: incompatible types: Object cannot be converted to DOMImplementation
+                        return this.val$implementations.elementAt(index);
+                                                                 ^
+Note: sources/structure/xml-apis/xml-apis/1.4.01/Decompiled/org/w3c/dom/bootstrap/DOMImplementationRegistry.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/xml-apis/xml-apis/1.4.01/Decompiled/org/w3c/dom/bootstrap/DOMImplementationRegistry.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors

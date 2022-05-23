@@ -1,0 +1,50 @@
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:22: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.MethodVisitor;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:24: error: package org.objectweb.asm does not exist
+import static org.objectweb.asm.Opcodes.ALOAD;
+                               ^
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:24: error: static import only from classes and interfaces
+import static org.objectweb.asm.Opcodes.ALOAD;
+^
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:25: error: package org.objectweb.asm does not exist
+import static org.objectweb.asm.Opcodes.ARETURN;
+                               ^
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:25: error: static import only from classes and interfaces
+import static org.objectweb.asm.Opcodes.ARETURN;
+^
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:26: error: package org.objectweb.asm does not exist
+import static org.objectweb.asm.Opcodes.INVOKESTATIC;
+                               ^
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:26: error: static import only from classes and interfaces
+import static org.objectweb.asm.Opcodes.INVOKESTATIC;
+^
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/MethodHandler.java:21: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.MethodVisitor;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:32: error: cannot find symbol
+  public void generateMethod(MethodVisitor methodVisitor,
+                             ^
+  symbol:   class MethodVisitor
+  location: class ToStringMethodHandler
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/MethodHandler.java:28: error: cannot find symbol
+  void generateMethod(MethodVisitor methodVisitor,
+                      ^
+  symbol:   class MethodVisitor
+  location: interface MethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:41: error: cannot find symbol
+    methodVisitor.visitVarInsn(ALOAD, 0);
+                               ^
+  symbol:   variable ALOAD
+  location: class ToStringMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:42: error: cannot find symbol
+    methodVisitor.visitMethodInsn(INVOKESTATIC,
+                                  ^
+  symbol:   variable INVOKESTATIC
+  location: class ToStringMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/ToStringMethodHandler.java:47: error: cannot find symbol
+    methodVisitor.visitInsn(ARETURN);
+                            ^
+  symbol:   variable ARETURN
+  location: class ToStringMethodHandler
+13 errors

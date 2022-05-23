@@ -1,0 +1,75 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:10: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationDescription;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:11: error: package org.assertj.core.internal.bytebuddy.dynamic.scaffold.subclass does not exist
+import org.assertj.core.internal.bytebuddy.dynamic.scaffold.subclass.ConstructorStrategy;
+                                                                    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:12: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.dynamic.scaffold.MethodGraph;
+                                                           ^
+  symbol:   class MethodGraph
+  location: package org.assertj.core.internal.bytebuddy.dynamic.scaffold
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:14: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.ByteBuddy;
+                                          ^
+  symbol:   class ByteBuddy
+  location: package org.assertj.core.internal.bytebuddy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:15: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.dynamic.DynamicType;
+                                                  ^
+  symbol:   class DynamicType
+  location: package org.assertj.core.internal.bytebuddy.dynamic
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:16: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.implementation.MethodAccessorFactory;
+                                                         ^
+  symbol:   class MethodAccessorFactory
+  location: package org.assertj.core.internal.bytebuddy.implementation
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:17: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.ClassFileVersion;
+                                          ^
+  symbol:   class ClassFileVersion
+  location: package org.assertj.core.internal.bytebuddy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:19: error: cannot find symbol
+public enum TrivialType implements AuxiliaryType
+                                   ^
+  symbol: class AuxiliaryType
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:30: error: cannot find symbol
+    public DynamicType make(final String auxiliaryTypeName, final ClassFileVersion classFileVersion, final MethodAccessorFactory methodAccessorFactory) {
+                                                                  ^
+  symbol:   class ClassFileVersion
+  location: class TrivialType
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:30: error: cannot find symbol
+    public DynamicType make(final String auxiliaryTypeName, final ClassFileVersion classFileVersion, final MethodAccessorFactory methodAccessorFactory) {
+                                                                                                           ^
+  symbol:   class MethodAccessorFactory
+  location: class TrivialType
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:30: error: cannot find symbol
+    public DynamicType make(final String auxiliaryTypeName, final ClassFileVersion classFileVersion, final MethodAccessorFactory methodAccessorFactory) {
+           ^
+  symbol:   class DynamicType
+  location: class TrivialType
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:31: error: cannot find symbol
+        return new ByteBuddy(classFileVersion).with(TypeValidation.DISABLED).with(MethodGraph.Empty.INSTANCE).subclass(Object.class, ConstructorStrategy.Default.NO_CONSTRUCTORS).annotateType(this.eager ? Collections.singletonList(AnnotationDescription.Builder.ofType(SignatureRelevant.class).build()) : Collections.emptyList()).name(auxiliaryTypeName).modifiers(TrivialType.DEFAULT_TYPE_MODIFIER).make();
+                                                                                                                                                                                                                                                                                                                                                                                     ^
+  symbol:   variable DEFAULT_TYPE_MODIFIER
+  location: class TrivialType
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:31: error: package ConstructorStrategy does not exist
+        return new ByteBuddy(classFileVersion).with(TypeValidation.DISABLED).with(MethodGraph.Empty.INSTANCE).subclass(Object.class, ConstructorStrategy.Default.NO_CONSTRUCTORS).annotateType(this.eager ? Collections.singletonList(AnnotationDescription.Builder.ofType(SignatureRelevant.class).build()) : Collections.emptyList()).name(auxiliaryTypeName).modifiers(TrivialType.DEFAULT_TYPE_MODIFIER).make();
+                                                                                                                                                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:31: error: package MethodGraph does not exist
+        return new ByteBuddy(classFileVersion).with(TypeValidation.DISABLED).with(MethodGraph.Empty.INSTANCE).subclass(Object.class, ConstructorStrategy.Default.NO_CONSTRUCTORS).annotateType(this.eager ? Collections.singletonList(AnnotationDescription.Builder.ofType(SignatureRelevant.class).build()) : Collections.emptyList()).name(auxiliaryTypeName).modifiers(TrivialType.DEFAULT_TYPE_MODIFIER).make();
+                                                                                             ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:31: error: cannot find symbol
+        return new ByteBuddy(classFileVersion).with(TypeValidation.DISABLED).with(MethodGraph.Empty.INSTANCE).subclass(Object.class, ConstructorStrategy.Default.NO_CONSTRUCTORS).annotateType(this.eager ? Collections.singletonList(AnnotationDescription.Builder.ofType(SignatureRelevant.class).build()) : Collections.emptyList()).name(auxiliaryTypeName).modifiers(TrivialType.DEFAULT_TYPE_MODIFIER).make();
+                   ^
+  symbol:   class ByteBuddy
+  location: class TrivialType
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:31: error: cannot find symbol
+        return new ByteBuddy(classFileVersion).with(TypeValidation.DISABLED).with(MethodGraph.Empty.INSTANCE).subclass(Object.class, ConstructorStrategy.Default.NO_CONSTRUCTORS).annotateType(this.eager ? Collections.singletonList(AnnotationDescription.Builder.ofType(SignatureRelevant.class).build()) : Collections.emptyList()).name(auxiliaryTypeName).modifiers(TrivialType.DEFAULT_TYPE_MODIFIER).make();
+                                                                                                                                                                                                                                                                           ^
+  symbol:   class SignatureRelevant
+  location: class TrivialType
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/auxiliary/TrivialType.java:31: error: package AnnotationDescription does not exist
+        return new ByteBuddy(classFileVersion).with(TypeValidation.DISABLED).with(MethodGraph.Empty.INSTANCE).subclass(Object.class, ConstructorStrategy.Default.NO_CONSTRUCTORS).annotateType(this.eager ? Collections.singletonList(AnnotationDescription.Builder.ofType(SignatureRelevant.class).build()) : Collections.emptyList()).name(auxiliaryTypeName).modifiers(TrivialType.DEFAULT_TYPE_MODIFIER).make();
+                                                                                                                                                                                                                                                           ^
+17 errors

@@ -1,0 +1,68 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:29: error: cannot find symbol
+import groovy.lang.EmptyRange;
+                  ^
+  symbol:   class EmptyRange
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:30: error: cannot find symbol
+import org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
+                                               ^
+  symbol:   class DefaultTypeTransformation
+  location: package org.codehaus.groovy.runtime.typehandling
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:31: error: cannot find symbol
+import groovy.lang.IntRange;
+                  ^
+  symbol:   class IntRange
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:32: error: cannot find symbol
+import groovy.lang.Range;
+                  ^
+  symbol:   class Range
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:39: error: cannot find symbol
+    protected static RangeInfo subListBorders(final int size, final Range range) {
+                                                                    ^
+  symbol:   class Range
+  location: class DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:55: error: cannot find symbol
+    protected static RangeInfo subListBorders(final int size, final EmptyRange range) {
+                                                                    ^
+  symbol:   class EmptyRange
+  location: class DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:40: error: cannot find symbol
+        if (range instanceof IntRange) {
+                             ^
+  symbol:   class IntRange
+  location: class DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:41: error: cannot find symbol
+            return ((IntRange)range).subListBorders(size);
+                     ^
+  symbol:   class IntRange
+  location: class DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:43: error: cannot find symbol
+        int from = normaliseIndex(DefaultTypeTransformation.intUnbox(range.getFrom()), size);
+                                  ^
+  symbol:   variable DefaultTypeTransformation
+  location: class DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:44: error: cannot find symbol
+        int to = normaliseIndex(DefaultTypeTransformation.intUnbox(range.getTo()), size);
+                                ^
+  symbol:   variable DefaultTypeTransformation
+  location: class DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:56: error: cannot find symbol
+        final int from = normaliseIndex(DefaultTypeTransformation.intUnbox(range.getFrom()), size);
+                                        ^
+  symbol:   variable DefaultTypeTransformation
+  location: class DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:104: error: cannot find symbol
+                return InvokerHelper.invokeMethod(orig, "clone", new Object[0]);
+                       ^
+  symbol:   variable InvokerHelper
+  location: class DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java:206: error: cannot find symbol
+            baseClass = NullObject.class;
+                        ^
+  symbol:   class NullObject
+  location: class DefaultGroovyMethodsSupport
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/DefaultGroovyMethodsSupport.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+13 errors

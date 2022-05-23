@@ -1,0 +1,27 @@
+hybrids/org.springframework/spring/2.5.6/InternetAddressEditor.java:21: error: package javax.mail.internet does not exist
+import javax.mail.internet.AddressException;
+                          ^
+hybrids/org.springframework/spring/2.5.6/InternetAddressEditor.java:22: error: package javax.mail.internet does not exist
+import javax.mail.internet.InternetAddress;
+                          ^
+hybrids/org.springframework/spring/2.5.6/InternetAddressEditor.java:42: error: cannot find symbol
+				setValue(new InternetAddress(text));
+				             ^
+  symbol:   class InternetAddress
+  location: class InternetAddressEditor
+hybrids/org.springframework/spring/2.5.6/InternetAddressEditor.java:44: error: cannot find symbol
+			catch (AddressException ex) {
+			       ^
+  symbol:   class AddressException
+  location: class InternetAddressEditor
+hybrids/org.springframework/spring/2.5.6/InternetAddressEditor.java:54: error: cannot find symbol
+		InternetAddress value = (InternetAddress) getValue();
+		^
+  symbol:   class InternetAddress
+  location: class InternetAddressEditor
+hybrids/org.springframework/spring/2.5.6/InternetAddressEditor.java:54: error: cannot find symbol
+		InternetAddress value = (InternetAddress) getValue();
+		                         ^
+  symbol:   class InternetAddress
+  location: class InternetAddressEditor
+6 errors

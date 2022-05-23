@@ -1,0 +1,51 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/UnitOfWorkCallback.java:19: error: package oracle.toplink.exceptions does not exist
+import oracle.toplink.exceptions.TopLinkException;
+                                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/UnitOfWorkCallback.java:20: error: package oracle.toplink.sessions does not exist
+import oracle.toplink.sessions.Session;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/UnitOfWorkCallback.java:21: error: package oracle.toplink.sessions does not exist
+import oracle.toplink.sessions.UnitOfWork;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/TopLinkCallback.java:19: error: package oracle.toplink.exceptions does not exist
+import oracle.toplink.exceptions.TopLinkException;
+                                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/TopLinkCallback.java:20: error: package oracle.toplink.sessions does not exist
+import oracle.toplink.sessions.Session;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/UnitOfWorkCallback.java:43: error: cannot find symbol
+	public final Object doInTopLink(Session session) throws TopLinkException {
+	                                ^
+  symbol:   class Session
+  location: class UnitOfWorkCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/UnitOfWorkCallback.java:43: error: cannot find symbol
+	public final Object doInTopLink(Session session) throws TopLinkException {
+	                                                        ^
+  symbol:   class TopLinkException
+  location: class UnitOfWorkCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/UnitOfWorkCallback.java:75: error: cannot find symbol
+	protected abstract Object doInUnitOfWork(UnitOfWork unitOfWork) throws TopLinkException;
+	                                         ^
+  symbol:   class UnitOfWork
+  location: class UnitOfWorkCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/UnitOfWorkCallback.java:75: error: cannot find symbol
+	protected abstract Object doInUnitOfWork(UnitOfWork unitOfWork) throws TopLinkException;
+	                                                                       ^
+  symbol:   class TopLinkException
+  location: class UnitOfWorkCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/TopLinkCallback.java:75: error: cannot find symbol
+	Object doInTopLink(Session session) throws TopLinkException;
+	                   ^
+  symbol:   class Session
+  location: interface TopLinkCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/TopLinkCallback.java:75: error: cannot find symbol
+	Object doInTopLink(Session session) throws TopLinkException;
+	                                           ^
+  symbol:   class TopLinkException
+  location: interface TopLinkCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/UnitOfWorkCallback.java:45: error: cannot find symbol
+		UnitOfWork unitOfWork = session.getActiveUnitOfWork();
+		^
+  symbol:   class UnitOfWork
+  location: class UnitOfWorkCallback
+12 errors

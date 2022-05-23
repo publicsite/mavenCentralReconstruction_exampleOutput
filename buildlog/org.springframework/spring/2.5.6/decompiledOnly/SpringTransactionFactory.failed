@@ -1,0 +1,66 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:9: error: package org.hibernate.transaction does not exist
+import org.hibernate.transaction.JDBCTransaction;
+                                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:10: error: package org.hibernate does not exist
+import org.hibernate.Transaction;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:11: error: package org.hibernate.jdbc does not exist
+import org.hibernate.jdbc.JDBCContext;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:12: error: package org.hibernate does not exist
+import org.hibernate.ConnectionReleaseMode;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:13: error: package org.hibernate.transaction does not exist
+import org.hibernate.transaction.TransactionFactory;
+                                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:15: error: cannot find symbol
+public class SpringTransactionFactory implements TransactionFactory
+                                                 ^
+  symbol: class TransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:17: error: cannot find symbol
+    public ConnectionReleaseMode getDefaultReleaseMode() {
+           ^
+  symbol:   class ConnectionReleaseMode
+  location: class SpringTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:21: error: cannot find symbol
+    public Transaction createTransaction(final JDBCContext jdbcContext, final TransactionFactory.Context transactionContext) {
+                                               ^
+  symbol:   class JDBCContext
+  location: class SpringTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:21: error: package TransactionFactory does not exist
+    public Transaction createTransaction(final JDBCContext jdbcContext, final TransactionFactory.Context transactionContext) {
+                                                                                                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:21: error: cannot find symbol
+    public Transaction createTransaction(final JDBCContext jdbcContext, final TransactionFactory.Context transactionContext) {
+           ^
+  symbol:   class Transaction
+  location: class SpringTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:36: error: cannot find symbol
+    public boolean isTransactionInProgress(final JDBCContext jdbcContext, final TransactionFactory.Context transactionContext, final Transaction transaction) {
+                                                 ^
+  symbol:   class JDBCContext
+  location: class SpringTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:36: error: package TransactionFactory does not exist
+    public boolean isTransactionInProgress(final JDBCContext jdbcContext, final TransactionFactory.Context transactionContext, final Transaction transaction) {
+                                                                                                  ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:36: error: cannot find symbol
+    public boolean isTransactionInProgress(final JDBCContext jdbcContext, final TransactionFactory.Context transactionContext, final Transaction transaction) {
+                                                                                                                                     ^
+  symbol:   class Transaction
+  location: class SpringTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:18: error: cannot find symbol
+        return ConnectionReleaseMode.ON_CLOSE;
+               ^
+  symbol:   variable ConnectionReleaseMode
+  location: class SpringTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:22: error: cannot find symbol
+        return (Transaction)new JDBCTransaction(jdbcContext, transactionContext);
+                ^
+  symbol:   class Transaction
+  location: class SpringTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/SpringTransactionFactory.java:22: error: cannot find symbol
+        return (Transaction)new JDBCTransaction(jdbcContext, transactionContext);
+                                ^
+  symbol:   class JDBCTransaction
+  location: class SpringTransactionFactory
+16 errors

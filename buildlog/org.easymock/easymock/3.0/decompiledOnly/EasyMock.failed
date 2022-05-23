@@ -1,0 +1,387 @@
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:654: error: name clash: capture(Capture<Boolean>) and <T>capture(Capture<T>) have the same erasure
+    public static boolean capture(final Capture<Boolean> captured) {
+                          ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:659: error: name clash: capture(Capture<Integer>) and <T>capture(Capture<T>) have the same erasure
+    public static int capture(final Capture<Integer> captured) {
+                      ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:664: error: name clash: capture(Capture<Long>) and <T>capture(Capture<T>) have the same erasure
+    public static long capture(final Capture<Long> captured) {
+                       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:669: error: name clash: capture(Capture<Float>) and <T>capture(Capture<T>) have the same erasure
+    public static float capture(final Capture<Float> captured) {
+                        ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:674: error: name clash: capture(Capture<Double>) and <T>capture(Capture<T>) have the same erasure
+    public static double capture(final Capture<Double> captured) {
+                         ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:679: error: name clash: capture(Capture<Byte>) and <T>capture(Capture<T>) have the same erasure
+    public static byte capture(final Capture<Byte> captured) {
+                       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:684: error: name clash: capture(Capture<Character>) and <T>capture(Capture<T>) have the same erasure
+    public static char capture(final Capture<Character> captured) {
+                       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassExtensionHelper.java:21: error: cannot find symbol
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+  symbol:   class Enhancer
+  location: package net.sf.cglib.proxy
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:45: error: cannot find symbol
+    public static class MockMethodInterceptor implements MethodInterceptor, Serializable {
+                                                         ^
+  symbol:   class MethodInterceptor
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:58: error: cannot find symbol
+                final MethodProxy proxy) throws Throwable {
+                      ^
+  symbol:   class MethodProxy
+  location: class MockMethodInterceptor
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:257: error: cannot find symbol
+    private Enhancer createEnhancer(final Class<T> toMock) {
+            ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:210: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                         ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:210: error: incompatible types: Comparable<T> cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                                 ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in method <T>geq(Comparable<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:215: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                         ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:215: error: incompatible types: byte cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                                 ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:220: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                         ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:220: error: incompatible types: double cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                                 ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:225: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                         ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:225: error: incompatible types: float cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                                 ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:230: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                         ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:230: error: incompatible types: int cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                                 ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:235: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                         ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:235: error: incompatible types: long cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                                 ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:240: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                         ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:240: error: incompatible types: short cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterOrEqual<Object>(value));
+                                                 ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:245: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessOrEqual<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:245: error: incompatible types: Comparable<T> cannot be converted to Comparable<Object>
+        reportMatcher(new LessOrEqual<Object>(value));
+                                              ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in method <T>leq(Comparable<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:250: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessOrEqual<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:250: error: incompatible types: byte cannot be converted to Comparable<Object>
+        reportMatcher(new LessOrEqual<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:255: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessOrEqual<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:255: error: incompatible types: double cannot be converted to Comparable<Object>
+        reportMatcher(new LessOrEqual<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:260: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessOrEqual<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:260: error: incompatible types: float cannot be converted to Comparable<Object>
+        reportMatcher(new LessOrEqual<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:265: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessOrEqual<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:265: error: incompatible types: int cannot be converted to Comparable<Object>
+        reportMatcher(new LessOrEqual<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:270: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessOrEqual<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:270: error: incompatible types: long cannot be converted to Comparable<Object>
+        reportMatcher(new LessOrEqual<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:275: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessOrEqual<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessOrEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:275: error: incompatible types: short cannot be converted to Comparable<Object>
+        reportMatcher(new LessOrEqual<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:280: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterThan<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:280: error: incompatible types: Comparable<T> cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterThan<Object>(value));
+                                              ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in method <T>gt(Comparable<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:285: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterThan<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:285: error: incompatible types: byte cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterThan<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:290: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterThan<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:290: error: incompatible types: double cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterThan<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:295: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterThan<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:295: error: incompatible types: float cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterThan<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:300: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterThan<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:300: error: incompatible types: int cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterThan<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:305: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterThan<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:305: error: incompatible types: long cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterThan<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:310: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new GreaterThan<Object>(value));
+                                      ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class GreaterThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:310: error: incompatible types: short cannot be converted to Comparable<Object>
+        reportMatcher(new GreaterThan<Object>(value));
+                                              ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:315: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessThan<Object>(value));
+                                   ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:315: error: incompatible types: Comparable<T> cannot be converted to Comparable<Object>
+        reportMatcher(new LessThan<Object>(value));
+                                           ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in method <T>lt(Comparable<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:320: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessThan<Object>(value));
+                                   ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:320: error: incompatible types: byte cannot be converted to Comparable<Object>
+        reportMatcher(new LessThan<Object>(value));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:325: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessThan<Object>(value));
+                                   ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:325: error: incompatible types: double cannot be converted to Comparable<Object>
+        reportMatcher(new LessThan<Object>(value));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:330: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessThan<Object>(value));
+                                   ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:330: error: incompatible types: float cannot be converted to Comparable<Object>
+        reportMatcher(new LessThan<Object>(value));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:335: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessThan<Object>(value));
+                                   ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:335: error: incompatible types: int cannot be converted to Comparable<Object>
+        reportMatcher(new LessThan<Object>(value));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:340: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessThan<Object>(value));
+                                   ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:340: error: incompatible types: long cannot be converted to Comparable<Object>
+        reportMatcher(new LessThan<Object>(value));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:345: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new LessThan<Object>(value));
+                                   ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class LessThan
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:345: error: incompatible types: short cannot be converted to Comparable<Object>
+        reportMatcher(new LessThan<Object>(value));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:640: error: type argument Object is not within bounds of type-variable T
+        reportMatcher(new CompareEqual<Object>(value));
+                                       ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in class CompareEqual
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:640: error: incompatible types: Comparable<T> cannot be converted to Comparable<Object>
+        reportMatcher(new CompareEqual<Object>(value));
+                                               ^
+  where T is a type-variable:
+    T extends Comparable<T> declared in method <T>cmpEq(Comparable<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:645: error: incompatible types: Comparator<CAP#1> cannot be converted to Comparator<? super Object>
+        reportMatcher(new Compare<Object>(value, comparator, operator));
+                                                 ^
+  where T is a type-variable:
+    T extends Object declared in method <T>cmp(T,Comparator<? super T>,LogicalOperator)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: T from capture of ? super T
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:650: error: incompatible types: Capture<T> cannot be converted to Capture<Object>
+        reportMatcher(new Captures<Object>(captured));
+                                           ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:655: error: incompatible types: Capture<Boolean> cannot be converted to Capture<Object>
+        reportMatcher(new Captures<Object>(captured));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:660: error: incompatible types: Capture<Integer> cannot be converted to Capture<Object>
+        reportMatcher(new Captures<Object>(captured));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:665: error: incompatible types: Capture<Long> cannot be converted to Capture<Object>
+        reportMatcher(new Captures<Object>(captured));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:670: error: incompatible types: Capture<Float> cannot be converted to Capture<Object>
+        reportMatcher(new Captures<Object>(captured));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:675: error: incompatible types: Capture<Double> cannot be converted to Capture<Object>
+        reportMatcher(new Captures<Object>(captured));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:680: error: incompatible types: Capture<Byte> cannot be converted to Capture<Object>
+        reportMatcher(new Captures<Object>(captured));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java:685: error: incompatible types: Capture<Character> cannot be converted to Capture<Object>
+        reportMatcher(new Captures<Object>(captured));
+                                           ^
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:174: error: cannot find symbol
+        final Enhancer enhancer = createEnhancer(toMock);
+              ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:176: error: cannot find symbol
+        final MethodInterceptor interceptor = new MockMethodInterceptor(handler);
+              ^
+  symbol:   class MethodInterceptor
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:194: error: cannot find symbol
+        Enhancer.registerCallbacks(mockClass, new Callback[] { interceptor });
+        ^
+  symbol:   variable Enhancer
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:259: error: cannot find symbol
+        final Enhancer enhancer = new Enhancer() {
+              ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:259: error: cannot find symbol
+        final Enhancer enhancer = new Enhancer() {
+                                      ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:265: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:267: error: cannot find symbol
+                CollectionUtils.filter(constructors, new VisibilityPredicate(sc, true));
+                                                         ^
+  symbol: class VisibilityPredicate
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassExtensionHelper.java:57: error: cannot find symbol
+            if (Enhancer.isEnhanced(mock.getClass())) {
+                ^
+  symbol:   variable Enhancer
+  location: class ClassExtensionHelper
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/EasyMock.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+86 errors

@@ -1,0 +1,329 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:35: error: package exists in another module: java.base
+package java.math;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:57: error: cannot find symbol
+    if (val.sign == 0) {
+           ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:61: error: cannot find symbol
+    int i = val.getFirstNonzeroDigit();
+               ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:62: error: cannot find symbol
+    if (val.sign > 0) {
+           ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:63: error: cannot find symbol
+      for (; i < val.numberLength; i++) {
+                    ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:64: error: cannot find symbol
+        bCount += Integer.bitCount(val.digits[i]);
+                                      ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:69: error: cannot find symbol
+      bCount += Integer.bitCount(-val.digits[i]);
+                                     ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:70: error: cannot find symbol
+      for (i++; i < val.numberLength; i++) {
+                       ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:71: error: cannot find symbol
+        bCount += Integer.bitCount(~val.digits[i]);
+                                       ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:74: error: cannot find symbol
+      bCount = (val.numberLength << 5) - bCount;
+                   ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:85: error: cannot find symbol
+    if (val.sign == 0) {
+           ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:88: error: cannot find symbol
+    int bLength = (val.numberLength << 5);
+                      ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:89: error: cannot find symbol
+    int highDigit = val.digits[val.numberLength - 1];
+                       ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:89: error: cannot find symbol
+    int highDigit = val.digits[val.numberLength - 1];
+                                  ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:91: error: cannot find symbol
+    if (val.sign < 0) {
+           ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:92: error: cannot find symbol
+      int i = val.getFirstNonzeroDigit();
+                 ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:94: error: cannot find symbol
+      if (i == val.numberLength - 1) {
+                  ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:112: error: cannot find symbol
+    int resSign = (val.sign == 0) ? 1 : val.sign;
+                      ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:112: error: cannot find symbol
+    int resSign = (val.sign == 0) ? 1 : val.sign;
+                                           ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:115: error: cannot find symbol
+    int resLength = Math.max(intCount + 1, val.numberLength) + 1;
+                                              ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:120: error: cannot find symbol
+    System.arraycopy(val.digits, 0, resDigits, 0, val.numberLength);
+                        ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:120: error: cannot find symbol
+    System.arraycopy(val.digits, 0, resDigits, 0, val.numberLength);
+                                                     ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:122: error: cannot find symbol
+    if (val.sign < 0) {
+           ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:123: error: cannot find symbol
+      if (intCount >= val.numberLength) {
+                         ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:127: error: cannot find symbol
+        int firstNonZeroDigit = val.getFirstNonzeroDigit();
+                                   ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:151: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger result = new BigInteger(resSign, resLength, resDigits);
+                        ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:152: error: cannot find symbol
+    result.cutOffLeadingZeroes();
+          ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:162: error: cannot find symbol
+    val.numberLength += intCount
+       ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:163: error: cannot find symbol
+        + (Integer.numberOfLeadingZeros(val.digits[val.numberLength - 1])
+                                           ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:163: error: cannot find symbol
+        + (Integer.numberOfLeadingZeros(val.digits[val.numberLength - 1])
+                                                      ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:165: error: cannot find symbol
+    shiftLeft(val.digits, val.digits, intCount, count & 31);
+                 ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:165: error: cannot find symbol
+    shiftLeft(val.digits, val.digits, intCount, count & 31);
+                             ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:166: error: cannot find symbol
+    val.cutOffLeadingZeroes();
+       ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:167: error: cannot find symbol
+    val.unCache();
+       ^
+  symbol:   method unCache()
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:179: error: cannot find symbol
+    val.numberLength -= intCount;
+       ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:180: error: cannot find symbol
+    if (!shiftRight(val.digits, val.numberLength, val.digits, intCount,
+                       ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:180: error: cannot find symbol
+    if (!shiftRight(val.digits, val.numberLength, val.digits, intCount,
+                                   ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:180: error: cannot find symbol
+    if (!shiftRight(val.digits, val.numberLength, val.digits, intCount,
+                                                     ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:185: error: cannot find symbol
+      for (i = 0; (i < val.numberLength) && (val.digits[i] == -1); i++) {
+                          ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:185: error: cannot find symbol
+      for (i = 0; (i < val.numberLength) && (val.digits[i] == -1); i++) {
+                                                ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:186: error: cannot find symbol
+        val.digits[i] = 0;
+           ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:188: error: cannot find symbol
+      if (i == val.numberLength) {
+                  ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:189: error: cannot find symbol
+        val.numberLength++;
+           ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:191: error: cannot find symbol
+      val.digits[i]++;
+         ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:193: error: cannot find symbol
+    val.cutOffLeadingZeroes();
+       ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:194: error: cannot find symbol
+    val.unCache();
+       ^
+  symbol:   method unCache()
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:222: error: cannot find symbol
+    int resLength = source.numberLength + intCount + ((count == 0) ? 0 : 1);
+                          ^
+  symbol:   variable numberLength
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:225: error: cannot find symbol
+    shiftLeft(resDigits, source.digits, intCount, count);
+                               ^
+  symbol:   variable digits
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:226: error: cannot find symbol
+    BigInteger result = new BigInteger(source.sign, resLength, resDigits);
+                                             ^
+  symbol:   variable sign
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:227: error: cannot find symbol
+    result.cutOffLeadingZeroes();
+          ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:259: error: cannot find symbol
+    int srcLen = source.numberLength;
+                       ^
+  symbol:   variable numberLength
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:262: error: cannot find symbol
+    shiftLeftOneBit(resDigits, source.digits, srcLen);
+                                     ^
+  symbol:   variable digits
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:263: error: cannot find symbol
+    BigInteger result = new BigInteger(source.sign, resLen, resDigits);
+                                             ^
+  symbol:   variable sign
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:264: error: cannot find symbol
+    result.cutOffLeadingZeroes();
+          ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:301: error: cannot find symbol
+    if (intCount >= source.numberLength) {
+                          ^
+  symbol:   variable numberLength
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:302: error: cannot find symbol
+      return ((source.sign < 0) ? BigInteger.MINUS_ONE : BigInteger.ZERO);
+                     ^
+  symbol:   variable sign
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:302: error: cannot find symbol
+      return ((source.sign < 0) ? BigInteger.MINUS_ONE : BigInteger.ZERO);
+                                            ^
+  symbol:   variable MINUS_ONE
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:305: error: cannot find symbol
+    int resLength = source.numberLength - intCount;
+                          ^
+  symbol:   variable numberLength
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:308: error: cannot find symbol
+    shiftRight(resDigits, resLength, source.digits, intCount, count);
+                                           ^
+  symbol:   variable digits
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:309: error: cannot find symbol
+    if (source.sign < 0) {
+              ^
+  symbol:   variable sign
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:312: error: cannot find symbol
+      for (i = 0; (i < intCount) && (source.digits[i] == 0); i++) {
+                                           ^
+  symbol:   variable digits
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:316: error: cannot find symbol
+          || ((count > 0) && ((source.digits[i] << (32 - count)) != 0))) {
+                                     ^
+  symbol:   variable digits
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:326: error: cannot find symbol
+    BigInteger result = new BigInteger(source.sign, resLength, resDigits);
+                                             ^
+  symbol:   variable sign
+  location: variable source of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:327: error: cannot find symbol
+    result.cutOffLeadingZeroes();
+          ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/BitLevel.java:373: error: cannot find symbol
+    return ((val.digits[n >> 5] & (1 << (n & 31))) != 0);
+                ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+65 errors

@@ -1,0 +1,177 @@
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:82: error: cannot find symbol
+    public final void loadDepsFirst(final Stack beenthere, final HashMap notLoaded, final BootstrapSchema schema, final BootstrapRegistries registries) throws NamingException {
+                                                                                          ^
+  symbol:   class BootstrapSchema
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:106: error: cannot find symbol
+    public final void load(final BootstrapSchema schema, final BootstrapRegistries registries) throws NamingException {
+                                 ^
+  symbol:   class BootstrapSchema
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:117: error: cannot find symbol
+    private void register(final ProducerTypeEnum type, final String id, final Object schemaObject) throws NamingException {
+                                ^
+  symbol:   class ProducerTypeEnum
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:205: error: cannot find symbol
+    private BootstrapProducer getProducer(final BootstrapSchema schema, final String producerBase) throws NamingException {
+                                                ^
+  symbol:   class BootstrapSchema
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapProducer.java:11: error: cannot find symbol
+    ProducerTypeEnum getType();
+    ^
+  symbol:   class ProducerTypeEnum
+  location: interface BootstrapProducer
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:56: error: cannot find symbol
+        final BootstrapSchema[] schemas = new BootstrapSchema[schemaClasses.length];
+              ^
+  symbol:   class BootstrapSchema
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:56: error: cannot find symbol
+        final BootstrapSchema[] schemas = new BootstrapSchema[schemaClasses.length];
+                                              ^
+  symbol:   class BootstrapSchema
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:72: error: cannot find symbol
+        BootstrapSchema schema = notLoaded.get("system");
+        ^
+  symbol:   class BootstrapSchema
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:93: error: cannot find symbol
+                final BootstrapSchema dep = notLoaded.get(deps[ii]);
+                      ^
+  symbol:   class BootstrapSchema
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:109: error: cannot find symbol
+        final List producers = ProducerTypeEnum.list();
+                               ^
+  symbol:   variable ProducerTypeEnum
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:111: error: cannot find symbol
+            final ProducerTypeEnum producerType = producers.get(ii);
+                  ^
+  symbol:   class ProducerTypeEnum
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:118: error: cannot find symbol
+        final BootstrapSchema schema = this.schemas.get();
+              ^
+  symbol:   class BootstrapSchema
+  location: class BootstrapSchemaLoader
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:119: error: incompatible types: Object cannot be converted to BootstrapRegistries
+        final BootstrapRegistries registries = this.registries.get();
+                                                                  ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java:228: error: incompatible types: Object cannot be converted to BootstrapProducer
+            return clazz.newInstance();
+                                    ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapRegistries.java:125: error: incompatible types: Object cannot be converted to ObjectClass
+            final ObjectClass oc = list.next();
+                                            ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapRegistries.java:130: error: incompatible types: Object cannot be converted to AttributeType
+            final AttributeType at = list.next();
+                                              ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapRegistries.java:135: error: incompatible types: Object cannot be converted to MatchingRule
+            final MatchingRule mr = list.next();
+                                             ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapRegistries.java:140: error: incompatible types: Object cannot be converted to Syntax
+            final Syntax syntax = list.next();
+                                           ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapAttributeTypeRegistry.java:57: error: incompatible types: Object cannot be converted to AttributeType
+        final AttributeType attributeType = this.byOid.get(id);
+                                                          ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapAttributeTypeRegistry.java:77: error: incompatible types: Object cannot be converted to String
+            return this.oidToSchema.get(id);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapComparatorRegistry.java:46: error: incompatible types: Object cannot be converted to Comparator
+            final Comparator c = this.comparators.get(oid);
+                                                     ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapComparatorRegistry.java:64: error: incompatible types: Object cannot be converted to String
+            return this.oidToSchema.get(oid);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapDitContentRuleRegistry.java:54: error: incompatible types: Object cannot be converted to DITContentRule
+        final DITContentRule dITContentRule = this.byOid.get(id);
+                                                            ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapDitContentRuleRegistry.java:74: error: incompatible types: Object cannot be converted to String
+            return this.oidToSchema.get(id);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapDitStructureRuleRegistry.java:54: error: incompatible types: Object cannot be converted to DITStructureRule
+        final DITStructureRule dITStructureRule = this.byOid.get(id);
+                                                                ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapDitStructureRuleRegistry.java:74: error: incompatible types: Object cannot be converted to String
+            return this.oidToSchema.get(id);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapMatchingRuleRegistry.java:35: error: incompatible types: Object cannot be converted to MatchingRule
+            final MatchingRule MatchingRule = this.byOid.get(id);
+                                                            ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapMatchingRuleRegistry.java:74: error: incompatible types: Object cannot be converted to String
+            return this.oidToSchema.get(id);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapMatchingRuleUseRegistry.java:49: error: incompatible types: Object cannot be converted to MatchingRuleUse
+        final MatchingRuleUse matchingRuleUse = this.byName.get(name);
+                                                               ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapMatchingRuleUseRegistry.java:60: error: incompatible types: Object cannot be converted to String
+            return this.nameToSchema.get(id);
+                                        ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapNameFormRegistry.java:54: error: incompatible types: Object cannot be converted to NameForm
+        final NameForm nameForm = this.byOid.get(id);
+                                                ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapNameFormRegistry.java:74: error: incompatible types: Object cannot be converted to String
+            return this.oidToSchema.get(id);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapNormalizerRegistry.java:48: error: incompatible types: Object cannot be converted to Normalizer
+        final Normalizer normalizer = this.byOid.get(oid);
+                                                    ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapNormalizerRegistry.java:62: error: incompatible types: Object cannot be converted to String
+            return this.oidToSchema.get(oid);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapObjectClassRegistry.java:54: error: incompatible types: Object cannot be converted to ObjectClass
+        final ObjectClass objectClass = this.byOid.get(id);
+                                                      ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapObjectClassRegistry.java:74: error: incompatible types: Object cannot be converted to String
+            return this.oidToSchema.get(id);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapOidRegistry.java:38: error: incompatible types: Object cannot be converted to String
+            final String oid = this.byName.get(name);
+                                              ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapOidRegistry.java:44: error: incompatible types: Object cannot be converted to String
+            final String oid2 = this.byName.get(lowerCase);
+                                               ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapOidRegistry.java:69: error: incompatible types: Object cannot be converted to String
+        final String name = ((List)value).get(0);
+                                             ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapOidRegistry.java:123: error: incompatible types: Object cannot be converted to String
+                    if (!name.equalsIgnoreCase(list.get(ii))) {
+                                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSyntaxCheckerRegistry.java:48: error: incompatible types: Object cannot be converted to SyntaxChecker
+        final SyntaxChecker syntaxChecker = this.byOid.get(oid);
+                                                          ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSyntaxCheckerRegistry.java:62: error: incompatible types: Object cannot be converted to String
+            return this.oidToSchema.get(oid);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSyntaxRegistry.java:35: error: incompatible types: Object cannot be converted to Syntax
+            final Syntax syntax = this.byOid.get(id);
+                                                ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSyntaxRegistry.java:71: error: incompatible types: Object cannot be converted to String
+            return this.oidToSchema.get(id);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapObjectFactoryRegistry.java:34: error: incompatible types: Object cannot be converted to ServerDirObjectFactory
+                return this.byOid.get(noid);
+                                     ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapObjectFactoryRegistry.java:40: error: incompatible types: Object cannot be converted to ServerDirObjectFactory
+                return this.byOid.get(noid);
+                                     ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapStateFactoryRegistry.java:23: error: incompatible types: Object cannot be converted to ServerDirStateFactory
+            return this.byClass.get(c);
+                                   ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapStateFactoryRegistry.java:27: error: incompatible types: Object cannot be converted to ServerDirStateFactory
+                return this.byClass.get(c);
+                                       ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapStateFactoryRegistry.java:33: error: incompatible types: Object cannot be converted to ServerDirStateFactory
+                return this.byClass.get(interfaces[ii]);
+                                       ^
+Note: sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/schema/bootstrap/BootstrapSchemaLoader.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+49 errors

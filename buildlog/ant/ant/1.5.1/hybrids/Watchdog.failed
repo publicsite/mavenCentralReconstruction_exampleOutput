@@ -1,0 +1,55 @@
+hybrids/ant/ant/1.5.1/Watchdog.java:155: error: class, interface, or enum expected
+            ((TimeoutObserver) enum.nextElement()).timeoutOccured(this);
+            ^
+hybrids/ant/ant/1.5.1/Watchdog.java:155: error: <identifier> expected
+            ((TimeoutObserver) enum.nextElement()).timeoutOccured(this);
+                                   ^
+hybrids/ant/ant/1.5.1/Watchdog.java:155: error: '}' expected
+            ((TimeoutObserver) enum.nextElement()).timeoutOccured(this);
+                                    ^
+hybrids/ant/ant/1.5.1/Watchdog.java:156: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Watchdog.java:159: error: class, interface, or enum expected
+    public synchronized void start() {
+                        ^
+hybrids/ant/ant/1.5.1/Watchdog.java:161: error: class, interface, or enum expected
+        Thread t = new Thread(this, "WATCHDOG");
+        ^
+hybrids/ant/ant/1.5.1/Watchdog.java:162: error: class, interface, or enum expected
+        t.setDaemon(true);
+        ^
+hybrids/ant/ant/1.5.1/Watchdog.java:163: error: class, interface, or enum expected
+        t.start();
+        ^
+hybrids/ant/ant/1.5.1/Watchdog.java:164: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Watchdog.java:166: error: class, interface, or enum expected
+    public synchronized void stop() {
+                        ^
+hybrids/ant/ant/1.5.1/Watchdog.java:168: error: class, interface, or enum expected
+        notifyAll();
+        ^
+hybrids/ant/ant/1.5.1/Watchdog.java:169: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Watchdog.java:171: error: class, interface, or enum expected
+    public synchronized void run() {
+                        ^
+hybrids/ant/ant/1.5.1/Watchdog.java:172: error: class, interface, or enum expected
+        final long until = System.currentTimeMillis() + timeout;
+              ^
+hybrids/ant/ant/1.5.1/Watchdog.java:173: error: class, interface, or enum expected
+        long now;
+        ^
+hybrids/ant/ant/1.5.1/Watchdog.java:174: error: class, interface, or enum expected
+        while (!stopped && until > (now = System.currentTimeMillis())) {
+        ^
+hybrids/ant/ant/1.5.1/Watchdog.java:177: error: class, interface, or enum expected
+            } catch (InterruptedException e) {}
+            ^
+hybrids/ant/ant/1.5.1/Watchdog.java:181: error: class, interface, or enum expected
+        }
+        ^
+18 errors

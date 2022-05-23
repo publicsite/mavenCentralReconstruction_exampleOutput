@@ -1,0 +1,18 @@
+sources/structure/commons-collections/commons-collections/3.1/extractedSources/org/apache/commons/collections/functors/PrototypeFactory.java:62: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            Method method = prototype.getClass().getMethod("clone", null);
+                                                                    ^
+  cast to Class<?> for a varargs call
+  cast to Class<?>[] for a non-varargs call and to suppress this warning
+sources/structure/commons-collections/commons-collections/3.1/extractedSources/org/apache/commons/collections/functors/PrototypeFactory.java:119: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                iCloneMethod = iPrototype.getClass().getMethod("clone", null);
+                                                                        ^
+  cast to Class<?> for a varargs call
+  cast to Class<?>[] for a non-varargs call and to suppress this warning
+sources/structure/commons-collections/commons-collections/3.1/extractedSources/org/apache/commons/collections/functors/PrototypeFactory.java:138: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                return iCloneMethod.invoke(iPrototype, null);
+                                                       ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: sources/structure/commons-collections/commons-collections/3.1/extractedSources/org/apache/commons/collections/functors/InstantiateFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 warnings

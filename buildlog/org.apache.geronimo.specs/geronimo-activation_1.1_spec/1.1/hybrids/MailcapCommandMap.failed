@@ -1,0 +1,11 @@
+hybrids/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/MailcapCommandMap.java:40: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+hybrids/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/MailcapCommandMap.java:472: error: cannot find symbol
+            return (DataContentHandler) ProviderLocator.loadClass(info.getCommandClass(), this.getClass(), cl).newInstance();
+                                        ^
+  symbol:   variable ProviderLocator
+  location: class MailcapCommandMap
+Note: hybrids/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/MailcapCommandMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors

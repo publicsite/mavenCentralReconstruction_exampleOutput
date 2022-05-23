@@ -1,0 +1,54 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:8: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDefinition;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:11: error: package ElementMatcher.Junction does not exist
+public class TypeSortMatcher<T extends TypeDefinition> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                      ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:10: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:11: error: cannot find symbol
+public class TypeSortMatcher<T extends TypeDefinition> extends ElementMatcher.Junction.AbstractBase<T>
+                                       ^
+  symbol: class TypeDefinition
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:13: error: cannot find symbol
+    private final ElementMatcher<? super TypeDefinition.Sort> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class TypeSortMatcher<T>
+  where T is a type-variable:
+    T declared in class TypeSortMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:13: error: package TypeDefinition does not exist
+    private final ElementMatcher<? super TypeDefinition.Sort> matcher;
+                                                       ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:15: error: cannot find symbol
+    public TypeSortMatcher(final ElementMatcher<? super TypeDefinition.Sort> matcher) {
+                                 ^
+  symbol:   class ElementMatcher
+  location: class TypeSortMatcher<T>
+  where T is a type-variable:
+    T declared in class TypeSortMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:15: error: package TypeDefinition does not exist
+    public TypeSortMatcher(final ElementMatcher<? super TypeDefinition.Sort> matcher) {
+                                                                      ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:30: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((TypeSortMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/TypeSortMatcher.java:35: error: cannot find symbol
+        return this.getClass().hashCode() * 31 + this.matcher.hashCode();
+                   ^
+  symbol: method getClass()
+14 errors

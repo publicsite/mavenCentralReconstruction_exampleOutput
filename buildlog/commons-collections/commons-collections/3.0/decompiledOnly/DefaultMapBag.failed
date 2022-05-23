@@ -1,0 +1,34 @@
+sources/structure/commons-collections/commons-collections/3.0/extractedSources/org/apache/commons/collections/MapUtils.java:906: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+        Enumeration enum = resourceBundle.getKeys();
+                    ^
+sources/structure/commons-collections/commons-collections/3.0/extractedSources/org/apache/commons/collections/MapUtils.java:909: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+        while (enum.hasMoreElements()) {
+               ^
+sources/structure/commons-collections/commons-collections/3.0/extractedSources/org/apache/commons/collections/MapUtils.java:910: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+            String key = (String) enum.nextElement();
+                                  ^
+sources/structure/commons-collections/commons-collections/3.0/extractedSources/org/apache/commons/collections/HashBag.java:68: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public class HashBag extends DefaultMapBag implements Bag {
+       ^
+sources/structure/commons-collections/commons-collections/3.0/extractedSources/org/apache/commons/collections/iterators/EnumerationIterator.java:106: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+    public EnumerationIterator(final Enumeration enum, final Collection collection) {
+                                                 ^
+sources/structure/commons-collections/commons-collections/3.0/extractedSources/org/apache/commons/collections/iterators/EnumerationIterator.java:108: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+        this.enumeration = enum;
+                           ^
+sources/structure/commons-collections/commons-collections/3.0/extractedSources/org/apache/commons/collections/IteratorUtils.java:811: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                Method method = obj.getClass().getMethod("iterator", null);
+                                                                     ^
+  cast to Class<?> for a varargs call
+  cast to Class<?>[] for a non-varargs call and to suppress this warning
+sources/structure/commons-collections/commons-collections/3.0/extractedSources/org/apache/commons/collections/IteratorUtils.java:813: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                    Iterator it = (Iterator) method.invoke(obj, null);
+                                                                ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors
+3 warnings

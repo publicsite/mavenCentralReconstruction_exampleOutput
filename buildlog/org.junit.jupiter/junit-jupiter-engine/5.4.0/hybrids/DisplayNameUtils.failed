@@ -1,0 +1,64 @@
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:13: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.AnnotationUtils.findAnnotation;
+                                             ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.AnnotationUtils.findAnnotation;
+^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:25: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.Logger;
+                                         ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:26: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.LoggerFactory;
+                                         ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:27: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:28: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:29: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.StringUtils;
+                                      ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:41: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(DisplayNameUtils.class);
+	                     ^
+  symbol:   class Logger
+  location: class DisplayNameUtils
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:41: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(DisplayNameUtils.class);
+	                                     ^
+  symbol:   variable LoggerFactory
+  location: class DisplayNameUtils
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:54: error: cannot find symbol
+		Preconditions.notNull(element, "Annotated element must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class DisplayNameUtils
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:55: error: cannot find symbol
+		Optional<DisplayName> displayNameAnnotation = findAnnotation(element, DisplayName.class);
+		                                              ^
+  symbol:   method findAnnotation(AnnotatedElement,Class<DisplayName>)
+  location: class DisplayNameUtils
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:61: error: cannot find symbol
+			if (StringUtils.isBlank(displayName)) {
+			    ^
+  symbol:   variable StringUtils
+  location: class DisplayNameUtils
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:88: error: cannot find symbol
+		Preconditions.notNull(testClass, "Test class must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class DisplayNameUtils
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:103: error: cannot find symbol
+		return ReflectionUtils.newInstance(displayNameGeneratorClass);
+		       ^
+  symbol:   variable ReflectionUtils
+  location: class DisplayNameUtils
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/DisplayNameUtils.java:114: error: cannot find symbol
+			Optional<DisplayNameGeneration> generation = findAnnotation(candidate, DisplayNameGeneration.class);
+			                                             ^
+  symbol:   method findAnnotation(Class<CAP#1>,Class<DisplayNameGeneration>)
+  location: class DisplayNameUtils
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+15 errors

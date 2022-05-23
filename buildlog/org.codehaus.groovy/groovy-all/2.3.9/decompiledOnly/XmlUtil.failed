@@ -1,0 +1,152 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:9: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:19: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:20: error: cannot find symbol
+import groovy.util.XmlNodePrinter;
+                  ^
+  symbol:   class XmlNodePrinter
+  location: package groovy.util
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:23: error: cannot find symbol
+import org.codehaus.groovy.runtime.StringGroovyMethods;
+                                  ^
+  symbol:   class StringGroovyMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:24: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:33: error: cannot find symbol
+import groovy.util.slurpersupport.GPathResult;
+                                 ^
+  symbol:   class GPathResult
+  location: package groovy.util.slurpersupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:60: error: cannot find symbol
+    public static String serialize(final groovy.util.Node node) {
+                                                    ^
+  symbol:   class Node
+  location: package groovy.util
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:64: error: cannot find symbol
+    public static void serialize(final groovy.util.Node node, final OutputStream os) {
+                                                  ^
+  symbol:   class Node
+  location: package groovy.util
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:68: error: cannot find symbol
+    public static void serialize(final groovy.util.Node node, final Writer w) {
+                                                  ^
+  symbol:   class Node
+  location: package groovy.util
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:72: error: cannot find symbol
+    public static String serialize(final GPathResult node) {
+                                         ^
+  symbol:   class GPathResult
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:76: error: cannot find symbol
+    public static void serialize(final GPathResult node, final OutputStream os) {
+                                       ^
+  symbol:   class GPathResult
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:80: error: cannot find symbol
+    public static void serialize(final GPathResult node, final Writer w) {
+                                       ^
+  symbol:   class GPathResult
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:193: error: cannot find symbol
+    private static String asString(final groovy.util.Node node) {
+                                                    ^
+  symbol:   class Node
+  location: package groovy.util
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:202: error: cannot find symbol
+    private static String asString(final GPathResult node) {
+                                         ^
+  symbol:   class GPathResult
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:46: error: reference to serialize is ambiguous
+        serialize(new DOMSource(element), sw);
+        ^
+  both method serialize(Node,Writer) in XmlUtil and method serialize(GPathResult,Writer) in XmlUtil match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:52: error: reference to serialize is ambiguous
+        serialize(source, os);
+        ^
+  both method serialize(Node,OutputStream) in XmlUtil and method serialize(GPathResult,OutputStream) in XmlUtil match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:57: error: reference to serialize is ambiguous
+        serialize(source, w);
+        ^
+  both method serialize(Node,Writer) in XmlUtil and method serialize(GPathResult,Writer) in XmlUtil match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:85: error: reference to asString is ambiguous
+        return serialize(asString(writable));
+                         ^
+  both method asString(Node) in XmlUtil and method asString(GPathResult) in XmlUtil match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:89: error: reference to asString is ambiguous
+        serialize(asString(writable), os);
+                  ^
+  both method asString(Node) in XmlUtil and method asString(GPathResult) in XmlUtil match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:93: error: reference to asString is ambiguous
+        serialize(asString(writable), w);
+                  ^
+  both method asString(Node) in XmlUtil and method asString(GPathResult) in XmlUtil match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:148: error: cannot find symbol
+        return StringGroovyMethods.collectReplacements(orig, new Closure<String>(null) {
+                                                                 ^
+  symbol:   class Closure
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:148: error: cannot find symbol
+        return StringGroovyMethods.collectReplacements(orig, new Closure<String>(null) {
+               ^
+  symbol:   variable StringGroovyMethods
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:175: error: cannot find symbol
+        return StringGroovyMethods.collectReplacements(orig, new Closure<String>(null) {
+                                                                 ^
+  symbol:   class Closure
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:175: error: cannot find symbol
+        return StringGroovyMethods.collectReplacements(orig, new Closure<String>(null) {
+               ^
+  symbol:   variable StringGroovyMethods
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:196: error: cannot find symbol
+        final XmlNodePrinter nodePrinter = new XmlNodePrinter(pw);
+              ^
+  symbol:   class XmlNodePrinter
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:196: error: cannot find symbol
+        final XmlNodePrinter nodePrinter = new XmlNodePrinter(pw);
+                                               ^
+  symbol:   class XmlNodePrinter
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:205: error: cannot find symbol
+            InvokerHelper.setProperty(builder, "encoding", "UTF-8");
+            ^
+  symbol:   variable InvokerHelper
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:206: error: cannot find symbol
+            final Writable w = (Writable)InvokerHelper.invokeMethod(builder, "bindNode", node);
+                                         ^
+  symbol:   variable InvokerHelper
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:215: error: cannot find symbol
+        if (writable instanceof GPathResult) {
+                                ^
+  symbol:   class GPathResult
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:216: error: cannot find symbol
+            return asString((GPathResult)writable);
+                             ^
+  symbol:   class GPathResult
+  location: class XmlUtil
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java:252: error: cannot find symbol
+            throw new GroovyRuntimeException(e.getMessage());
+                      ^
+  symbol:   class GroovyRuntimeException
+  location: class XmlUtil
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/XmlUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+31 errors

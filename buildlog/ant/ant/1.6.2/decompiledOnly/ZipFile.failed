@@ -1,0 +1,45 @@
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ZipFile.java:68: error: incompatible types: Object cannot be converted to ZipEntry
+        return this.nameMap.get(name);
+                               ^
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ZipFile.java:72: error: incompatible types: Object cannot be converted to Long
+        final Long start = this.dataOffsets.get(ze);
+                                               ^
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ZipFile.java:173: error: incompatible types: Object cannot be converted to ZipEntry
+            final ZipEntry ze = e.nextElement();
+                                             ^
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ZipFile.java:174: error: incompatible types: Object cannot be converted to long
+            final long offset = this.entries.get(ze);
+                                                ^
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ZipEntry.java:167: error: cannot find symbol
+            if (this.extraFields.elementAt(i).getHeaderId().equals(type)) {
+                                             ^
+  symbol:   method getHeaderId()
+  location: class Object
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ZipEntry.java:181: error: cannot find symbol
+            if (this.extraFields.elementAt(i).getHeaderId().equals(type)) {
+                                             ^
+  symbol:   method getHeaderId()
+  location: class Object
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ZipOutputStream.java:119: error: incompatible types: Object cannot be converted to ZipEntry
+            this.writeCentralFileHeader(this.entries.elementAt(i));
+                                                              ^
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ZipOutputStream.java:347: error: cannot find symbol
+        this.writeOut(this.offsets.get(ze).getBytes());
+                                          ^
+  symbol:   method getBytes()
+  location: class Object
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:17: error: incompatible types: Object cannot be converted to ZipExtraField
+            final ZipExtraField ze = c.newInstance();
+                                                  ^
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:32: error: incompatible types: Object cannot be converted to Class
+        final Class c = ExtraFieldUtils.implementations.get(headerId);
+                                                           ^
+sources/structure/ant/ant/1.6.2/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:34: error: incompatible types: Object cannot be converted to ZipExtraField
+            return c.newInstance();
+                                ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+11 errors

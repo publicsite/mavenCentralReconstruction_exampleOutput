@@ -1,0 +1,111 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:7: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.helpers.AnnotationHelper;
+                                                                                ^
+  symbol:   class AnnotationHelper
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.helpers
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:8: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.DataProcessingException;
+                                                                   ^
+  symbol:   class DataProcessingException
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:12: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.ArgumentUtils;
+                                                                   ^
+  symbol:   class ArgumentUtils
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:16: error: cannot find symbol
+public abstract class NumericConversion<T extends Number> extends ObjectConversion<T> implements FormattedConversion<DecimalFormat>
+                                                                  ^
+  symbol: class ObjectConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:29: error: cannot find symbol
+        ArgumentUtils.noNulls("Numeric formats", numericFormats);
+        ^
+  symbol:   variable ArgumentUtils
+  location: class NumericConversion<T>
+  where T is a type-variable:
+    T extends Number declared in class NumericConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:44: error: cannot find symbol
+        ArgumentUtils.noNulls("Numeric formatters", numericFormatters);
+        ^
+  symbol:   variable ArgumentUtils
+  location: class NumericConversion<T>
+  where T is a type-variable:
+    T extends Number declared in class NumericConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:61: error: no suitable constructor found for NumericConversion(Number,<null>,String[])
+        this((Number)null, null, numericFormats);
+        ^
+    constructor NumericConversion.NumericConversion(T,String,String...) is not applicable
+      (argument mismatch; Number cannot be converted to T)
+    constructor NumericConversion.NumericConversion(T,String,DecimalFormat...) is not applicable
+      (argument mismatch; Number cannot be converted to T)
+    constructor NumericConversion.NumericConversion(String...) is not applicable
+      (varargs mismatch; Number cannot be converted to String)
+    constructor NumericConversion.NumericConversion(DecimalFormat...) is not applicable
+      (varargs mismatch; Number cannot be converted to DecimalFormat)
+  where T is a type-variable:
+    T extends Number declared in class NumericConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:65: error: no suitable constructor found for NumericConversion(Number,<null>,DecimalFormat[])
+        this((Number)null, null, numericFormatters);
+        ^
+    constructor NumericConversion.NumericConversion(T,String,String...) is not applicable
+      (argument mismatch; Number cannot be converted to T)
+    constructor NumericConversion.NumericConversion(T,String,DecimalFormat...) is not applicable
+      (argument mismatch; Number cannot be converted to T)
+    constructor NumericConversion.NumericConversion(String...) is not applicable
+      (varargs mismatch; Number cannot be converted to String)
+    constructor NumericConversion.NumericConversion(DecimalFormat...) is not applicable
+      (varargs mismatch; Number cannot be converted to DecimalFormat)
+  where T is a type-variable:
+    T extends Number declared in class NumericConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:90: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:138: error: cannot find symbol
+        final DataProcessingException exception = new DataProcessingException("Cannot parse '{value}' as a valid number. Supported formats are: " + Arrays.toString(this.formats));
+              ^
+  symbol:   class DataProcessingException
+  location: class NumericConversion<T>
+  where T is a type-variable:
+    T extends Number declared in class NumericConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:138: error: cannot find symbol
+        final DataProcessingException exception = new DataProcessingException("Cannot parse '{value}' as a valid number. Supported formats are: " + Arrays.toString(this.formats));
+                                                      ^
+  symbol:   class DataProcessingException
+  location: class NumericConversion<T>
+  where T is a type-variable:
+    T extends Number declared in class NumericConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:143: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:146: error: cannot find symbol
+            return super.revert((T)null);
+                   ^
+  symbol:   variable super
+  location: class NumericConversion<T>
+  where T is a type-variable:
+    T extends Number declared in class NumericConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:162: error: cannot find symbol
+        final DataProcessingException exception = new DataProcessingException("Cannot format '{value}'. No valid formatters were defined.");
+              ^
+  symbol:   class DataProcessingException
+  location: class NumericConversion<T>
+  where T is a type-variable:
+    T extends Number declared in class NumericConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:162: error: cannot find symbol
+        final DataProcessingException exception = new DataProcessingException("Cannot format '{value}'. No valid formatters were defined.");
+                                                      ^
+  symbol:   class DataProcessingException
+  location: class NumericConversion<T>
+  where T is a type-variable:
+    T extends Number declared in class NumericConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java:170: error: cannot find symbol
+        AnnotationHelper.applyFormatSettings(formatter, formatOptions);
+        ^
+  symbol:   variable AnnotationHelper
+  location: class NumericConversion<T>
+  where T is a type-variable:
+    T extends Number declared in class NumericConversion
+Note: sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/NumericConversion.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+16 errors

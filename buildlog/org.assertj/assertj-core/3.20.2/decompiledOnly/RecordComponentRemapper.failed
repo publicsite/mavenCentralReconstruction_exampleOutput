@@ -1,0 +1,69 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:9: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.jar.asm.RecordComponentVisitor;
+                                                  ^
+  symbol:   class RecordComponentVisitor
+  location: package org.assertj.core.internal.bytebuddy.jar.asm
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:11: error: cannot find symbol
+public class RecordComponentRemapper extends RecordComponentVisitor
+                                             ^
+  symbol: class RecordComponentVisitor
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:13: error: cannot find symbol
+    protected final Remapper remapper;
+                    ^
+  symbol:   class Remapper
+  location: class RecordComponentRemapper
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:15: error: cannot find symbol
+    public RecordComponentRemapper(final RecordComponentVisitor recordComponentVisitor, final Remapper remapper) {
+                                         ^
+  symbol:   class RecordComponentVisitor
+  location: class RecordComponentRemapper
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:15: error: cannot find symbol
+    public RecordComponentRemapper(final RecordComponentVisitor recordComponentVisitor, final Remapper remapper) {
+                                                                                              ^
+  symbol:   class Remapper
+  location: class RecordComponentRemapper
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:19: error: cannot find symbol
+    protected RecordComponentRemapper(final int api, final RecordComponentVisitor recordComponentVisitor, final Remapper remapper) {
+                                                           ^
+  symbol:   class RecordComponentVisitor
+  location: class RecordComponentRemapper
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:19: error: cannot find symbol
+    protected RecordComponentRemapper(final int api, final RecordComponentVisitor recordComponentVisitor, final Remapper remapper) {
+                                                                                                                ^
+  symbol:   class Remapper
+  location: class RecordComponentRemapper
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:26: error: cannot find symbol
+        final AnnotationVisitor annotationVisitor = super.visitAnnotation(this.remapper.mapDesc(descriptor), visible);
+                                                    ^
+  symbol:   variable super
+  location: class RecordComponentRemapper
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:30: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:32: error: cannot find symbol
+        final AnnotationVisitor annotationVisitor = super.visitTypeAnnotation(typeRef, typePath, this.remapper.mapDesc(descriptor), visible);
+                                                    ^
+  symbol:   variable super
+  location: class RecordComponentRemapper
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:38: error: cannot find symbol
+        return new AnnotationRemapper(this.api, null, annotationVisitor, this.remapper);
+                   ^
+  symbol:   class AnnotationRemapper
+  location: class RecordComponentRemapper
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:38: error: cannot find symbol
+        return new AnnotationRemapper(this.api, null, annotationVisitor, this.remapper);
+                                          ^
+  symbol: variable api
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:42: error: cannot find symbol
+        return new AnnotationRemapper(this.api, descriptor, annotationVisitor, this.remapper).orDeprecatedValue(this.createAnnotationRemapper(annotationVisitor));
+                   ^
+  symbol:   class AnnotationRemapper
+  location: class RecordComponentRemapper
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/commons/RecordComponentRemapper.java:42: error: cannot find symbol
+        return new AnnotationRemapper(this.api, descriptor, annotationVisitor, this.remapper).orDeprecatedValue(this.createAnnotationRemapper(annotationVisitor));
+                                          ^
+  symbol: variable api
+15 errors

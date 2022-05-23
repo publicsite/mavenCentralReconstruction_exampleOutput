@@ -1,0 +1,163 @@
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:7: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:8: error: package javax.jms does not exist
+import javax.jms.MessageProducer;
+                ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:9: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:10: error: package javax.jms does not exist
+import javax.jms.Destination;
+                ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:11: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:12: error: package edu.emory.mathcs.backport.java.util.concurrent.atomic does not exist
+import edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicBoolean;
+                                                            ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:13: error: package javax.jms does not exist
+import javax.jms.MessageConsumer;
+                ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:14: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:15: error: package javax.jms does not exist
+import javax.jms.MessageListener;
+                ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:18: error: cannot find symbol
+abstract class DestinationBridge implements Service, MessageListener
+                                                     ^
+  symbol: class MessageListener
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:20: error: cannot find symbol
+    private static final Log log;
+                         ^
+  symbol:   class Log
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:21: error: cannot find symbol
+    protected MessageConsumer consumer;
+              ^
+  symbol:   class MessageConsumer
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:22: error: cannot find symbol
+    protected AtomicBoolean started;
+              ^
+  symbol:   class AtomicBoolean
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/JmsMesageConvertor.java:7: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/JmsMesageConvertor.java:8: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:31: error: cannot find symbol
+    public MessageConsumer getConsumer() {
+           ^
+  symbol:   class MessageConsumer
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:35: error: cannot find symbol
+    public void setConsumer(final MessageConsumer consumer) {
+                                  ^
+  symbol:   class MessageConsumer
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:59: error: cannot find symbol
+    public void onMessage(final Message message) {
+                                ^
+  symbol:   class Message
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:96: error: cannot find symbol
+    protected abstract MessageConsumer createConsumer() throws JMSException;
+                       ^
+  symbol:   class MessageConsumer
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:96: error: cannot find symbol
+    protected abstract MessageConsumer createConsumer() throws JMSException;
+                                                               ^
+  symbol:   class JMSException
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:98: error: cannot find symbol
+    protected abstract MessageProducer createProducer() throws JMSException;
+                       ^
+  symbol:   class MessageProducer
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:98: error: cannot find symbol
+    protected abstract MessageProducer createProducer() throws JMSException;
+                                                               ^
+  symbol:   class JMSException
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:100: error: cannot find symbol
+    protected abstract void sendMessage(final Message p0) throws JMSException;
+                                              ^
+  symbol:   class Message
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:100: error: cannot find symbol
+    protected abstract void sendMessage(final Message p0) throws JMSException;
+                                                                 ^
+  symbol:   class JMSException
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:102: error: cannot find symbol
+    protected abstract Destination processReplyToDestination(final Destination p0);
+                                                                   ^
+  symbol:   class Destination
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:102: error: cannot find symbol
+    protected abstract Destination processReplyToDestination(final Destination p0);
+                       ^
+  symbol:   class Destination
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/JmsMesageConvertor.java:12: error: cannot find symbol
+    Message convert(final Message p0) throws JMSException;
+                          ^
+  symbol:   class Message
+  location: interface JmsMesageConvertor
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/JmsMesageConvertor.java:12: error: cannot find symbol
+    Message convert(final Message p0) throws JMSException;
+    ^
+  symbol:   class Message
+  location: interface JmsMesageConvertor
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/JmsMesageConvertor.java:12: error: cannot find symbol
+    Message convert(final Message p0) throws JMSException;
+                                             ^
+  symbol:   class JMSException
+  location: interface JmsMesageConvertor
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:27: error: cannot find symbol
+        this.started = new AtomicBoolean(false);
+                           ^
+  symbol:   class AtomicBoolean
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:49: error: cannot find symbol
+            final MessageConsumer consumer = this.createConsumer();
+                  ^
+  symbol:   class MessageConsumer
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:50: error: cannot find symbol
+            consumer.setMessageListener((MessageListener)this);
+                                         ^
+  symbol:   class MessageListener
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:63: error: cannot find symbol
+                    Destination replyTo = message.getJMSReplyTo();
+                    ^
+  symbol:   class Destination
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:70: error: cannot find symbol
+                    message.setJMSReplyTo((Destination)null);
+                                           ^
+  symbol:   class Destination
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:72: error: cannot find symbol
+                final Message converted = this.jmsMessageConvertor.convert(message);
+                      ^
+  symbol:   class Message
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:76: error: cannot find symbol
+            catch (JMSException e) {
+                   ^
+  symbol:   class JMSException
+  location: class DestinationBridge
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/network/jms/DestinationBridge.java:105: error: cannot find symbol
+        log = LogFactory.getLog(DestinationBridge.class);
+              ^
+  symbol:   variable LogFactory
+  location: class DestinationBridge
+37 errors

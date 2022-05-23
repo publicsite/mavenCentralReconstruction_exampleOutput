@@ -1,0 +1,44 @@
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingLogSystem.java:21: error: package org.apache.velocity.app does not exist
+import org.apache.velocity.app.VelocityEngine;
+                              ^
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingLogSystem.java:22: error: package org.apache.velocity.runtime does not exist
+import org.apache.velocity.runtime.RuntimeServices;
+                                  ^
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingLogSystem.java:23: error: package org.apache.velocity.runtime.log does not exist
+import org.apache.velocity.runtime.log.LogSystem;
+                                      ^
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingLogSystem.java:33: error: cannot find symbol
+public class CommonsLoggingLogSystem implements LogSystem {
+                                                ^
+  symbol: class LogSystem
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingLogSystem.java:37: error: cannot find symbol
+	public void init(RuntimeServices runtimeServices) {
+	                 ^
+  symbol:   class RuntimeServices
+  location: class CommonsLoggingLogSystem
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingLogSystem.java:35: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(VelocityEngine.class);
+	                                                    ^
+  symbol:   class VelocityEngine
+  location: class CommonsLoggingLogSystem
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingLogSystem.java:42: error: cannot find symbol
+			case ERROR_ID:
+			     ^
+  symbol:   variable ERROR_ID
+  location: class CommonsLoggingLogSystem
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingLogSystem.java:45: error: cannot find symbol
+			case WARN_ID:
+			     ^
+  symbol:   variable WARN_ID
+  location: class CommonsLoggingLogSystem
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingLogSystem.java:48: error: cannot find symbol
+			case INFO_ID:
+			     ^
+  symbol:   variable INFO_ID
+  location: class CommonsLoggingLogSystem
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingLogSystem.java:51: error: cannot find symbol
+			case DEBUG_ID:
+			     ^
+  symbol:   variable DEBUG_ID
+  location: class CommonsLoggingLogSystem
+10 errors

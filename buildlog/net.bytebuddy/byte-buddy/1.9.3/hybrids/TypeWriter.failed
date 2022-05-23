@@ -1,0 +1,33 @@
+hybrids/net.bytebuddy/byte-buddy/1.9.3/TypeWriter.java:59: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+hybrids/net.bytebuddy/byte-buddy/1.9.3/TypeWriter.java:60: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+hybrids/net.bytebuddy/byte-buddy/1.9.3/TypeWriter.java:61: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+hybrids/net.bytebuddy/byte-buddy/1.9.3/TypeWriter.java:3561: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+hybrids/net.bytebuddy/byte-buddy/1.9.3/TypeWriter.java:3569: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+hybrids/net.bytebuddy/byte-buddy/1.9.3/TypeWriter.java:3555: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+hybrids/net.bytebuddy/byte-buddy/1.9.3/TypeWriter.java:3555: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+7 errors

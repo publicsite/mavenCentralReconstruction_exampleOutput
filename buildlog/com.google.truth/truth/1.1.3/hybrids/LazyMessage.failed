@@ -1,0 +1,46 @@
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:18: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkArgument;
+                                    ^
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:18: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkArgument;
+^
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Strings.lenientFormat;
+                                    ^
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Strings.lenientFormat;
+^
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:22: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:58: error: cannot find symbol
+  static ImmutableList<String> evaluateAll(ImmutableList<LazyMessage> messages) {
+                                           ^
+  symbol:   class ImmutableList
+  location: class LazyMessage
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:58: error: cannot find symbol
+  static ImmutableList<String> evaluateAll(ImmutableList<LazyMessage> messages) {
+         ^
+  symbol:   class ImmutableList
+  location: class LazyMessage
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:35: error: cannot find symbol
+    checkArgument(placeholders == args.length, PLACEHOLDER_ERR, args.length, placeholders, format);
+    ^
+  symbol:   method checkArgument(boolean,String,int,int,String)
+  location: class LazyMessage
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:40: error: cannot find symbol
+    return lenientFormat(format, args);
+           ^
+  symbol:   method lenientFormat(String,Object[])
+  location: class LazyMessage
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:59: error: package ImmutableList does not exist
+    ImmutableList.Builder<String> result = ImmutableList.builder();
+                 ^
+hybrids/com.google.truth/truth/1.1.3/LazyMessage.java:59: error: cannot find symbol
+    ImmutableList.Builder<String> result = ImmutableList.builder();
+                                           ^
+  symbol:   variable ImmutableList
+  location: class LazyMessage
+11 errors

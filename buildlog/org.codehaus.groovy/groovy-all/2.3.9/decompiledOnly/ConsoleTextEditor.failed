@@ -1,0 +1,63 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:11: error: cannot find symbol
+import org.codehaus.groovy.runtime.StringGroovyMethods;
+                                  ^
+  symbol:   class StringGroovyMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:16: error: cannot find symbol
+import groovy.ui.text.StructuredSyntaxResources;
+                     ^
+  symbol:   class StructuredSyntaxResources
+  location: package groovy.ui.text
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:28: error: cannot find symbol
+import groovy.ui.text.GroovyFilter;
+                     ^
+  symbol:   class GroovyFilter
+  location: package groovy.ui.text
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:38: error: cannot find symbol
+import groovy.ui.text.TextEditor;
+                     ^
+  symbol:   class TextEditor
+  location: package groovy.ui.text
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:48: error: cannot find symbol
+    private TextEditor textEditor;
+            ^
+  symbol:   class TextEditor
+  location: class ConsoleTextEditor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:152: error: cannot find symbol
+    public TextEditor getTextEditor() {
+           ^
+  symbol:   class TextEditor
+  location: class ConsoleTextEditor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:67: error: cannot find symbol
+        this.textEditor = new TextEditor(true, true, true) {
+                              ^
+  symbol:   class TextEditor
+  location: class ConsoleTextEditor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:80: error: cannot find symbol
+        this.textEditor.setFont(new Font(this.defaultFamily, 0, Preferences.userNodeForPackage(Console.class).getInt("fontSize", 12)));
+                                                                                               ^
+  symbol:   class Console
+  location: class ConsoleTextEditor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:91: error: cannot find symbol
+        doc.setDocumentFilter(new GroovyFilter(doc));
+                                  ^
+  symbol:   class GroovyFilter
+  location: class ConsoleTextEditor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:107: error: cannot find symbol
+                final int width = 3 * Preferences.userNodeForPackage(Console.class).getInt("fontSize", 12);
+                                                                     ^
+  symbol: class Console
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:148: error: package StructuredSyntaxResources does not exist
+        final Transferable t = StructuredSyntaxResources.SYSTEM_CLIPBOARD.getContents(this);
+                                                        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:181: error: cannot find symbol
+            final int initialSize = 3 * Preferences.userNodeForPackage(Console.class).getInt("fontSize", 12);
+                                                                       ^
+  symbol:   class Console
+  location: class ConsoleTextEditor.LineNumbersPanel
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/ConsoleTextEditor.java:207: error: cannot find symbol
+                final String lineNumber = StringGroovyMethods.padLeft(Integer.toString(line), 4, " ");
+                                          ^
+  symbol:   variable StringGroovyMethods
+  location: class ConsoleTextEditor.LineNumbersPanel
+13 errors

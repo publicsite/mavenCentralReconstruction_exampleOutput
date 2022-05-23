@@ -1,0 +1,137 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>directory-protocols</groupId>
+  <artifactId>ldap-protocol</artifactId>
+  <name>ApacheDS LDAP Provider</name>
+  <version>0.9</version>
+  <description>The protocol provider used to snap in LDAP handlers and codecs into
+      the protocol framework.  These handlers are JNDI clients, specifically 
+      LDAP JNDI callers.  Any JNDI provider can be used for the provider but 
+      the primary target is the core's JNDI provider.</description>
+  <url>http://incubator.apache.org/directory/subprojects/provideres/ldap</url>
+  <issueManagement>
+    <url>http://issues.apache.org/jira/browse/DIREVE</url>
+  </issueManagement>
+  <ciManagement>
+    <notifiers>
+      <notifier>
+        <address>directory-dev@incubator.apache.org</address>
+      </notifier>
+    </notifiers>
+  </ciManagement>
+  <inceptionYear>2003</inceptionYear>
+  <mailingLists>
+    <mailingList>
+      <name>Apache Directory Developement - use [ldap] prefix</name>
+      <subscribe>directory-dev-subscribe@incubator.apache.org</subscribe>
+      <unsubscribe>directory-dev-unsubscribe@incubator.apache.org</unsubscribe>
+      <archive>http://issues.apache.org/eyebrowse/SummarizeList?listId=181</archive>
+    </mailingList>
+  </mailingLists>
+  <developers>
+    <developer>
+      <id>akarasulu</id>
+      <name>Alex Karasulu</name>
+      <email>akarasulu at apache.org</email>
+      <roles>
+        <role>Founder</role>
+        <role>Architect</role>
+        <role>Lead Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>erodriguez</id>
+      <name>Enrique Rodriguez</name>
+      <email>erodriguez at apache.org</email>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>Apache 2.0 License</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/directory:protocol-providers/ldap/trunk/${module.path}</connection>
+    <developerConnection>https://svn.apache.org/repos/asf/directory/protocol-providers/ldap/trunk/${module.path}</developerConnection>
+    <url>http://svn.apache.org/viewcvs.cgi/directory/protocol-providers/ldap/trunk/${module.path}/?root=Apache-SVN</url>
+  </scm>
+  <build>
+    <sourceDirectory>${basedir}/src/main/java</sourceDirectory>
+    <testSourceDirectory>${basedir}/src/test</testSourceDirectory>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/main/resources</directory>
+        <includes>
+          <include>**/*</include>
+        </includes>
+      </resource>
+      <resource>
+        <targetPath>META-INF</targetPath>
+        <directory>${basedir}</directory>
+        <includes>
+          <include>LICENSE.txt</include>
+          <include>NOTICE.txt</include>
+        </includes>
+      </resource>
+    </resources>
+    <testResources>
+      <testResource>
+        <directory>${basedir}/src/test/resources</directory>
+        <includes>
+          <include>**/*</include>
+        </includes>
+      </testResource>
+    </testResources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <includes>
+            <include>**/*Test*</include>
+          </includes>
+          <excludes>
+            <exclude>**/Abstract*Test*</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <groupId>directory-asn1</groupId>
+      <artifactId>asn1-codec</artifactId>
+      <version>0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>directory-shared</groupId>
+      <artifactId>ldap-common</artifactId>
+      <version>0.9</version>
+    </dependency>
+    <dependency>
+      <groupId>directory-network</groupId>
+      <artifactId>mina</artifactId>
+      <version>0.7</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+    </dependency>
+  </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>default</id>
+      <name>Default Repository</name>
+      <url>file:///www/cvs.apache.org/dist/directory</url>
+    </repository>
+    <site>
+      <id>default</id>
+      <name>Default Site</name>
+      <url>scp://minotaur.apache.org//www/incubator.apache.org/directory/subprojects/providers/ldap</url>
+    </site>
+  </distributionManagement>
+</project>

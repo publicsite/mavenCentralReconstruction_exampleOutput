@@ -1,0 +1,107 @@
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:21: error: package oracle.toplink.internal.databaseaccess does not exist
+import oracle.toplink.internal.databaseaccess.Accessor;
+                                             ^
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:22: error: package oracle.toplink.logging does not exist
+import oracle.toplink.logging.AbstractSessionLog;
+                             ^
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:23: error: package oracle.toplink.logging does not exist
+import oracle.toplink.logging.SessionLogEntry;
+                             ^
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:24: error: package oracle.toplink.publicinterface does not exist
+import oracle.toplink.publicinterface.Session;
+                                     ^
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:55: error: cannot find symbol
+public class CommonsLoggingSessionLog extends AbstractSessionLog {
+                                              ^
+  symbol: class AbstractSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:104: error: cannot find symbol
+	public void log(SessionLogEntry entry) {
+	                ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:168: error: cannot find symbol
+	protected String getCategory(SessionLogEntry entry) {
+	                             ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:181: error: cannot find symbol
+	protected String getMessageString(SessionLogEntry entry) {
+	                                  ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:203: error: cannot find symbol
+	protected Session getSession(SessionLogEntry entry) {
+	                             ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:203: error: cannot find symbol
+	protected Session getSession(SessionLogEntry entry) {
+	          ^
+  symbol:   class Session
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:213: error: cannot find symbol
+	protected Throwable getException(SessionLogEntry entry) {
+	                                 ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:70: error: cannot find symbol
+			getSessionMethod = SessionLogEntry.class.getMethod("getSession", new Class[0]);
+			                   ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:76: error: cannot find symbol
+			getExceptionMethod = SessionLogEntry.class.getMethod("getException", new Class[0]);
+			                     ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:107: error: cannot find symbol
+			case SEVERE:
+			     ^
+  symbol:   variable SEVERE
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:117: error: cannot find symbol
+			case WARNING:
+			     ^
+  symbol:   variable WARNING
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:127: error: cannot find symbol
+			case INFO:
+			     ^
+  symbol:   variable INFO
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:137: error: cannot find symbol
+			case CONFIG:
+			     ^
+  symbol:   variable CONFIG
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:138: error: cannot find symbol
+			case FINE:
+			     ^
+  symbol:   variable FINE
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:139: error: cannot find symbol
+			case FINER:
+			     ^
+  symbol:   variable FINER
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:149: error: cannot find symbol
+			case FINEST:
+			     ^
+  symbol:   variable FINEST
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:183: error: cannot find symbol
+		Session session = getSession(entry);
+		^
+  symbol:   class Session
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:188: error: cannot find symbol
+		Accessor connection = entry.getConnection();
+		^
+  symbol:   class Accessor
+  location: class CommonsLoggingSessionLog
+hybrids/org.springframework/spring/2.5.6/CommonsLoggingSessionLog.java:204: error: cannot find symbol
+		return (Session) ReflectionUtils.invokeMethod(getSessionMethod, entry);
+		        ^
+  symbol:   class Session
+  location: class CommonsLoggingSessionLog
+23 errors

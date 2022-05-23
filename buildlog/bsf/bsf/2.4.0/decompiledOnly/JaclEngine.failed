@@ -1,0 +1,233 @@
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:7: error: package tcl.lang does not exist
+import tcl.lang.Command;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:11: error: package tcl.lang does not exist
+import tcl.lang.TclObject;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:12: error: package tcl.lang does not exist
+import tcl.lang.TclException;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:13: error: package tcl.lang does not exist
+import tcl.lang.TclInteger;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:14: error: package tcl.lang does not exist
+import tcl.lang.TclDouble;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:15: error: package tcl.lang does not exist
+import tcl.lang.TclString;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:16: error: package tcl.lang does not exist
+import tcl.lang.ReflectObject;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:19: error: package tcl.lang does not exist
+import tcl.lang.Interp;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:24: error: cannot find symbol
+    private Interp interp;
+            ^
+  symbol:   class Interp
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:46: error: cannot find symbol
+            final TclObject result = this.interp.getResult();
+                  ^
+  symbol:   class TclObject
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:48: error: cannot find symbol
+            if (internalRep instanceof ReflectObject) {
+                                       ^
+  symbol:   class ReflectObject
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:49: error: cannot find symbol
+                return ReflectObject.get(this.interp, result);
+                       ^
+  symbol:   variable ReflectObject
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:51: error: cannot find symbol
+            if (internalRep instanceof TclString) {
+                                       ^
+  symbol:   class TclString
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:54: error: cannot find symbol
+            if (internalRep instanceof TclDouble) {
+                                       ^
+  symbol:   class TclDouble
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:55: error: cannot find symbol
+                return new Double(TclDouble.get(this.interp, result));
+                                  ^
+  symbol:   variable TclDouble
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:57: error: cannot find symbol
+            if (internalRep instanceof TclInteger) {
+                                       ^
+  symbol:   class TclInteger
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:58: error: cannot find symbol
+                return new Integer(TclInteger.get(this.interp, result));
+                                   ^
+  symbol:   variable TclInteger
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:62: error: cannot find symbol
+        catch (TclException e) {
+               ^
+  symbol:   class TclException
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:69: error: cannot find symbol
+        (this.interp = new Interp()).createCommand("bsf", (Command)new BSFCommand(mgr, this));
+                                                           ^
+  symbol:   class Command
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:9: error: package tcl.lang does not exist
+import tcl.lang.ReflectObject;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:10: error: package tcl.lang does not exist
+import tcl.lang.TclException;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:11: error: package tcl.lang does not exist
+import tcl.lang.TclObject;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:12: error: package tcl.lang does not exist
+import tcl.lang.Interp;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:15: error: package tcl.lang does not exist
+import tcl.lang.Command;
+               ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:17: error: cannot find symbol
+class BSFCommand implements Command
+                            ^
+  symbol: class Command
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:27: error: cannot find symbol
+    public void cmdProc(final Interp interp, final TclObject[] argv) throws TclException {
+                              ^
+  symbol:   class Interp
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:27: error: cannot find symbol
+    public void cmdProc(final Interp interp, final TclObject[] argv) throws TclException {
+                                                   ^
+  symbol:   class TclObject
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:27: error: cannot find symbol
+    public void cmdProc(final Interp interp, final TclObject[] argv) throws TclException {
+                                                                            ^
+  symbol:   class TclException
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:69: error: cannot find symbol
+        (this.interp = new Interp()).createCommand("bsf", (Command)new BSFCommand(mgr, this));
+                           ^
+  symbol:   class Interp
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:73: error: cannot find symbol
+        catch (TclException e) {
+               ^
+  symbol:   class TclException
+  location: class JaclEngine
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/JaclEngine.java:77: error: incompatible types: Object cannot be converted to BSFDeclaredBean
+            this.declareBean(declaredBeans.elementAt(i));
+                                                    ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:155: error: incompatible types: Object cannot be converted to BSFEngine
+            final BSFEngine engine = enginesEnum.nextElement();
+                                                            ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:246: error: incompatible types: Object cannot be converted to String
+            String langval = BSFManager.extn2Lang.get(extn);
+                                                     ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:256: error: incompatible types: Object cannot be converted to String
+                        final String engineName = BSFManager.registeredEngines.get(lang);
+                                                                                  ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:290: error: incompatible types: Object cannot be converted to BSFEngine
+        BSFEngine eng = this.loadedEngines.get(lang);
+                                              ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:294: error: incompatible types: Object cannot be converted to String
+        final String engineClassName = BSFManager.registeredEngines.get(lang);
+                                                                       ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:301: error: incompatible types: Object cannot be converted to BSFEngine
+            final BSFEngine engf = engineClass.newInstance();
+                                                          ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:353: error: incompatible types: Object cannot be converted to String
+                String langstr = BSFManager.extn2Lang.get(extensions[i]);
+                                                         ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:387: error: incompatible types: Object cannot be converted to BSFEngine
+            final BSFEngine engine = enginesEnum.nextElement();
+                                                            ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:400: error: incompatible types: Object cannot be converted to BSFDeclaredBean
+            tempBean = i.next();
+                             ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:410: error: incompatible types: Object cannot be converted to BSFEngine
+                final BSFEngine engine = enginesEnum.nextElement();
+                                                                ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:428: error: incompatible types: Object cannot be converted to URL
+                final URL url = e.nextElement();
+                                             ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/BSFManager.java:434: error: incompatible types: Object cannot be converted to String
+                    final String key = keys.nextElement();
+                                                       ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/util/CodeBuffer.java:250: error: incompatible types: Object cannot be converted to ObjInfo
+        ObjInfo ret = this.symbolTable.get(symbol);
+                                          ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/util/CodeBuffer.java:261: error: incompatible types: Object cannot be converted to Integer
+        return this.usedSymbolIndices.get(prefix);
+                                         ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/util/CodeBuffer.java:271: error: incompatible types: Object cannot be converted to String
+            this.addImport(otherImports.elementAt(i));
+                                                 ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/util/CodeBuffer.java:287: error: incompatible types: Object cannot be converted to Hashtable
+        this.symbolTable = this.symbolTableStack.peek();
+                                                     ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/util/CodeBuffer.java:301: error: incompatible types: Object cannot be converted to Hashtable
+        this.symbolTable = this.symbolTableStack.push(new ScriptSymbolTable(this.symbolTable));
+                                                     ^
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:30: error: cannot find symbol
+            throw new TclException(1);
+                      ^
+  symbol:   class TclException
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:36: error: cannot find symbol
+                throw new TclException(1);
+                          ^
+  symbol:   class TclException
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:42: error: cannot find symbol
+                throw new TclException(1);
+                          ^
+  symbol:   class TclException
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:44: error: cannot find symbol
+            interp.setResult(ReflectObject.newInstance(interp, (Class)bean.getClass(), bean));
+                             ^
+  symbol:   variable ReflectObject
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:49: error: cannot find symbol
+                throw new TclException(1);
+                          ^
+  symbol:   class TclException
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:51: error: cannot find symbol
+            this.mgr.registerBean(argv[2].toString(), ReflectObject.get(interp, argv[3]));
+                                                      ^
+  symbol:   variable ReflectObject
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:57: error: cannot find symbol
+                throw new TclException(1);
+                          ^
+  symbol:   class TclException
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:65: error: cannot find symbol
+                throw new TclException(1);
+                          ^
+  symbol:   class TclException
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:70: error: cannot find symbol
+                EngineUtils.addEventListener(ReflectObject.get(interp, argv[2]), argv[3].toString(), filter, this.jengine, this.mgr, "<event-script>", 0, 0, argv[5].toString());
+                                             ^
+  symbol:   variable ReflectObject
+  location: class BSFCommand
+sources/structure/bsf/bsf/2.4.0/Decompiled/org/apache/bsf/engines/jacl/BSFCommand.java:75: error: cannot find symbol
+                throw new TclException(1);
+                          ^
+  symbol:   class TclException
+  location: class BSFCommand
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+58 errors

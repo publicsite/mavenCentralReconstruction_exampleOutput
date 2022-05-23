@@ -1,0 +1,32 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:362: error: cannot find symbol
+			extends edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap
+			                                                      ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/core/SqlRowSetResultSetExtractor.java:24: error: package com.sun.rowset is not visible
+import com.sun.rowset.CachedRowSetImpl;
+              ^
+  (package com.sun.rowset is declared in module java.sql.rowset, which does not export it)
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:110: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Set createLinkedSetIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:147: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createLinkedMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:179: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createIdentityMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:342: error: cannot find symbol
+			return new edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap(initialCapacity);
+			                                                         ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:361: error: BackportConcurrentHashMap is not abstract and does not override abstract method replace(Object,Object) in ConcurrentMap
+	private static class BackportConcurrentHashMap
+	               ^
+Note: hybrids/org.springframework/spring/2.5.6/JdbcTemplate.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors
+3 warnings

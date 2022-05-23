@@ -1,0 +1,16 @@
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/apache/derby/iapi/jdbc/BrokeredStatement.java:16: error: BrokeredStatement is not abstract and does not override abstract method isCloseOnCompletion() in Statement
+public class BrokeredStatement implements Statement
+       ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/apache/derby/iapi/jdbc/BrokeredPreparedStatement.java:25: error: BrokeredPreparedStatement is not abstract and does not override abstract method setNClob(int,Reader) in PreparedStatement
+public class BrokeredPreparedStatement extends BrokeredStatement implements PreparedStatement
+       ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/apache/derby/iapi/jdbc/BrokeredCallableStatement.java:23: error: BrokeredCallableStatement is not abstract and does not override abstract method <T>getObject(String,Class<T>) in CallableStatement
+public class BrokeredCallableStatement extends BrokeredPreparedStatement implements CallableStatement
+       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>getObject(String,Class<T>)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/activemq/activemq/4.0-M3/Decompiled/org/apache/derby/iapi/jdbc/BrokeredCallableStatement.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors

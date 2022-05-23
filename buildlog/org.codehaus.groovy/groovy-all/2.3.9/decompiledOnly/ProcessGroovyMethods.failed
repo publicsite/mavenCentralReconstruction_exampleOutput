@@ -1,0 +1,82 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:11: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:13: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:22: error: cannot find symbol
+public class ProcessGroovyMethods extends DefaultGroovyMethodsSupport
+                                          ^
+  symbol: class DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:150: error: cannot find symbol
+    public static void withWriter(final Process self, final Closure closure) {
+                                                            ^
+  symbol:   class Closure
+  location: class ProcessGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:164: error: cannot find symbol
+    public static void withOutputStream(final Process self, final Closure closure) {
+                                                                  ^
+  symbol:   class Closure
+  location: class ProcessGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:29: error: cannot find symbol
+        final String text = IOGroovyMethods.getText(new BufferedReader(new InputStreamReader(self.getInputStream())));
+                            ^
+  symbol:   variable IOGroovyMethods
+  location: class ProcessGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:43: error: cannot find symbol
+        return IOGroovyMethods.leftShift(self.getOutputStream(), value);
+               ^
+  symbol:   variable IOGroovyMethods
+  location: class ProcessGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:47: error: cannot find symbol
+        return IOGroovyMethods.leftShift(self.getOutputStream(), value);
+               ^
+  symbol:   variable IOGroovyMethods
+  location: class ProcessGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:155: error: cannot find symbol
+                    IOGroovyMethods.withWriter(new BufferedOutputStream(ProcessGroovyMethods.getOut(self)), (Closure<Object>)closure);
+                                                                                                             ^
+  symbol: class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:155: error: cannot find symbol
+                    IOGroovyMethods.withWriter(new BufferedOutputStream(ProcessGroovyMethods.getOut(self)), (Closure<Object>)closure);
+                    ^
+  symbol: variable IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:158: error: cannot find symbol
+                    throw new GroovyRuntimeException("exception while reading process stream", e);
+                              ^
+  symbol: class GroovyRuntimeException
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:169: error: cannot find symbol
+                    IOGroovyMethods.withStream(new BufferedOutputStream(ProcessGroovyMethods.getOut(self)), (Closure<Object>)closure);
+                                                                                                             ^
+  symbol: class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:169: error: cannot find symbol
+                    IOGroovyMethods.withStream(new BufferedOutputStream(ProcessGroovyMethods.getOut(self)), (Closure<Object>)closure);
+                    ^
+  symbol: variable IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:172: error: cannot find symbol
+                    throw new GroovyRuntimeException("exception while reading process stream", e);
+                              ^
+  symbol: class GroovyRuntimeException
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:192: error: cannot find symbol
+                    throw new GroovyRuntimeException("exception while reading process stream", e);
+                              ^
+  symbol: class GroovyRuntimeException
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:195: error: cannot find symbol
+                    DefaultGroovyMethodsSupport.closeWithWarning(out);
+                    ^
+  symbol: variable DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:316: error: cannot find symbol
+                throw new GroovyRuntimeException("exception while reading process stream", e);
+                          ^
+  symbol:   class GroovyRuntimeException
+  location: class TextDumper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ProcessGroovyMethods.java:343: error: cannot find symbol
+                throw new GroovyRuntimeException("exception while dumping process stream", e);
+                          ^
+  symbol:   class GroovyRuntimeException
+  location: class ByteDumper
+18 errors

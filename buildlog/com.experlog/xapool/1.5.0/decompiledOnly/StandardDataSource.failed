@@ -1,0 +1,32 @@
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardDataSource.java:19: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/util/Logger.java:24: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/util/Logger.java:29: error: cannot find symbol
+    private Log log;
+            ^
+  symbol:   class Log
+  location: class Logger
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/util/Logger.java:31: error: cannot find symbol
+    public Logger(Log log) {
+                  ^
+  symbol:   class Log
+  location: class Logger
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardDataSource.java:24: error: StandardDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class StandardDataSource extends CoreDataSource implements DataSource
+       ^
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardDataSource.java:38: error: cannot find symbol
+        this.setLogger(new Logger(LogFactory.getLog("org.enhydra.jdbc.xapool")));
+                                  ^
+  symbol:   variable LogFactory
+  location: class StandardDataSource
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardDataSource.java:45: error: cannot find symbol
+        this.setLogger(new Logger(LogFactory.getLog("org.enhydra.jdbc.xapool")));
+                                  ^
+  symbol:   variable LogFactory
+  location: class StandardDataSource
+Note: sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardDataSource.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+7 errors

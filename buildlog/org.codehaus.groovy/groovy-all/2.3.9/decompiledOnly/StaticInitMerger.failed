@@ -1,0 +1,60 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:7: error: cannot find symbol
+import groovyjarjarasm.asm.MethodVisitor;
+                          ^
+  symbol:   class MethodVisitor
+  location: package groovyjarjarasm.asm
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:8: error: cannot find symbol
+import groovyjarjarasm.asm.ClassVisitor;
+                          ^
+  symbol:   class ClassVisitor
+  location: package groovyjarjarasm.asm
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:10: error: cannot find symbol
+public class StaticInitMerger extends ClassVisitor
+                                      ^
+  symbol: class ClassVisitor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:13: error: cannot find symbol
+    private MethodVisitor clinit;
+            ^
+  symbol:   class MethodVisitor
+  location: class StaticInitMerger
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:17: error: cannot find symbol
+    public StaticInitMerger(final String s, final ClassVisitor classVisitor) {
+                                                  ^
+  symbol:   class ClassVisitor
+  location: class StaticInitMerger
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:21: error: cannot find symbol
+    protected StaticInitMerger(final int n, final String prefix, final ClassVisitor classVisitor) {
+                                                                       ^
+  symbol:   class ClassVisitor
+  location: class StaticInitMerger
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:31: error: cannot find symbol
+    public MethodVisitor visitMethod(final int n, final String anObject, final String s, final String s2, final String[] array) {
+           ^
+  symbol:   class MethodVisitor
+  location: class StaticInitMerger
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:27: error: cannot find symbol
+        this.cv.visit(n, n2, name, s, s2, array);
+            ^
+  symbol: variable cv
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:32: error: cannot find symbol
+        MethodVisitor methodVisitor;
+        ^
+  symbol:   class MethodVisitor
+  location: class StaticInitMerger
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:36: error: cannot find symbol
+            methodVisitor = this.cv.visitMethod(n2, string, s, s2, array);
+                                ^
+  symbol: variable cv
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:38: error: cannot find symbol
+                this.clinit = this.cv.visitMethod(n2, anObject, s, null, null);
+                                  ^
+  symbol: variable cv
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:43: error: cannot find symbol
+            methodVisitor = this.cv.visitMethod(n, anObject, s, s2, array);
+                                ^
+  symbol: variable cv
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/StaticInitMerger.java:53: error: cannot find symbol
+        this.cv.visitEnd();
+            ^
+  symbol: variable cv
+13 errors

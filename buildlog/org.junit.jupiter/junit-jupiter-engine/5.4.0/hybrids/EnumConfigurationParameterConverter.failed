@@ -1,0 +1,31 @@
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/EnumConfigurationParameterConverter.java:15: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.Logger;
+                                         ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/EnumConfigurationParameterConverter.java:16: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.LoggerFactory;
+                                         ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/EnumConfigurationParameterConverter.java:17: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/EnumConfigurationParameterConverter.java:25: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(EnumConfigurationParameterConverter.class);
+	                     ^
+  symbol:   class Logger
+  location: class EnumConfigurationParameterConverter<E>
+  where E is a type-variable:
+    E extends Enum<E> declared in class EnumConfigurationParameterConverter
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/EnumConfigurationParameterConverter.java:25: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(EnumConfigurationParameterConverter.class);
+	                                     ^
+  symbol:   variable LoggerFactory
+  location: class EnumConfigurationParameterConverter<E>
+  where E is a type-variable:
+    E extends Enum<E> declared in class EnumConfigurationParameterConverter
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/EnumConfigurationParameterConverter.java:36: error: cannot find symbol
+		Preconditions.notNull(configParams, "ConfigurationParameters must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class EnumConfigurationParameterConverter<E>
+  where E is a type-variable:
+    E extends Enum<E> declared in class EnumConfigurationParameterConverter
+6 errors

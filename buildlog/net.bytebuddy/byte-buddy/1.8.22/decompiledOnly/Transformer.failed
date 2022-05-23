@@ -1,0 +1,90 @@
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:351: error: cannot find symbol
+            protected class AttachmentVisitor extends WithoutTypeSubstitution
+                                                      ^
+  symbol:   class WithoutTypeSubstitution
+  location: class TransformedMethod
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3194: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3202: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:70: error: non-static type variable T cannot be referenced from a static context
+            return new TransformedField(instrumentedType, fieldDescription.getDeclaringType(), this.transformer.transform(instrumentedType, ((ByteCodeElement.TypeDependant<T, FieldDescription.Token>)fieldDescription).asToken(ElementMatchers.none())), ((ByteCodeElement.TypeDependant<FieldDescription.InDefinedShape, S>)fieldDescription).asDefined());
+                                                                                                                                                                            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:70: error: cannot find symbol
+            return new TransformedField(instrumentedType, fieldDescription.getDeclaringType(), this.transformer.transform(instrumentedType, ((ByteCodeElement.TypeDependant<T, FieldDescription.Token>)fieldDescription).asToken(ElementMatchers.none())), ((ByteCodeElement.TypeDependant<FieldDescription.InDefinedShape, S>)fieldDescription).asDefined());
+                                                                                                                                                                                                                                                                                                                            ^
+  symbol:   class S
+  location: class ForField
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:173: error: non-static type variable T cannot be referenced from a static context
+            return new TransformedMethod(instrumentedType, methodDescription.getDeclaringType(), this.transformer.transform(instrumentedType, ((ByteCodeElement.TypeDependant<T, MethodDescription.Token>)methodDescription).asToken(ElementMatchers.none())), ((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)methodDescription).asDefined());
+                                                                                                                                                                              ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:173: error: cannot find symbol
+            return new TransformedMethod(instrumentedType, methodDescription.getDeclaringType(), this.transformer.transform(instrumentedType, ((ByteCodeElement.TypeDependant<T, MethodDescription.Token>)methodDescription).asToken(ElementMatchers.none())), ((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)methodDescription).asDefined());
+                                                                                                                                                                                                                                                                                                                                 ^
+  symbol:   class S
+  location: class ForMethod
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:227: error: incompatible types: TransformedMethod.AttachmentVisitor cannot be converted to Visitor<? extends Generic>
+                return new TypeList.Generic.ForDetachedTypes.OfTypeVariables(this, (List<? extends TypeVariableToken>)this.token.getTypeVariableTokens(), new AttachmentVisitor());
+                                                                                                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:242: error: incompatible types: TransformedMethod.AttachmentVisitor cannot be converted to Visitor<? extends Generic>
+                return new TypeList.Generic.ForDetachedTypes(this.token.getExceptionTypes(), new AttachmentVisitor());
+                                                                                             ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:355: error: method does not override or implement a method from a supertype
+                @Override
+                ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:357: error: type argument Generic is not within bounds of type-variable S
+                    final TypeList.Generic candidates = ((FilterableList<Object, TypeList.Generic>)TransformedMethod.this.getTypeVariables()).filter(ElementMatchers.named(typeVariable.getSymbol()));
+                                                                                         ^
+  where S,T are type-variables:
+    S extends FilterableList<T,S> declared in interface FilterableList
+    T extends Object declared in interface FilterableList
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:357: error: incompatible types: Generic cannot be converted to FilterableList<Object,Generic>
+                    final TypeList.Generic candidates = ((FilterableList<Object, TypeList.Generic>)TransformedMethod.this.getTypeVariables()).filter(ElementMatchers.named(typeVariable.getSymbol()));
+                                                                                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:358: error: cannot find symbol
+                    final TypeDescription.Generic attached = candidates.isEmpty() ? TransformedMethod.this.instrumentedType.findVariable(typeVariable.getSymbol()) : ((FilterableList<TypeDescription.Generic, S>)candidates).getOnly();
+                                                                                                                                                                                                               ^
+  symbol:   class S
+  location: class TransformedMethod.AttachmentVisitor
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:365: error: method does not override or implement a method from a supertype
+                @Override
+                ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:367: error: cannot find symbol
+                    return this == o || (o != null && this.getClass() == o.getClass() && TransformedMethod.this.equals(((AttachmentVisitor)o).this$0));
+                                                          ^
+  symbol: method getClass()
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/Transformer.java:370: error: method does not override or implement a method from a supertype
+                @Override
+                ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+21 errors

@@ -1,0 +1,59 @@
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:7: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheLoader;
+                              ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:8: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheBuilder;
+                              ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:9: error: package com.google.common.cache does not exist
+import com.google.common.cache.LoadingCache;
+                              ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:12: error: cannot find symbol
+import com.google.inject.internal.asm.$MethodVisitor;
+                                     ^
+  symbol:   class $MethodVisitor
+  location: package com.google.inject.internal.asm
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:13: error: cannot find symbol
+import com.google.inject.internal.asm.$ClassWriter;
+                                     ^
+  symbol:   class $ClassWriter
+  location: package com.google.inject.internal.asm
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:137: error: cannot find symbol
+        static final LoadingCache<Class<?>, ClassDefiner> DEFINE_CLASS_CACHE;
+                     ^
+  symbol:   class LoadingCache
+  location: class DefineClassCacheHolder
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:70: error: reference to doPrivileged is ambiguous
+            return AccessController.doPrivileged(() -> accessDefineClass(loaderClass));
+                                   ^
+  both method <T#1>doPrivileged(PrivilegedAction<T#1>) in AccessController and method <T#2>doPrivileged(PrivilegedExceptionAction<T#2>) in AccessController match
+  where T#1,T#2 are type-variables:
+    T#1 extends Object declared in method <T#1>doPrivileged(PrivilegedAction<T#1>)
+    T#2 extends Object declared in method <T#2>doPrivileged(PrivilegedExceptionAction<T#2>)
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:85: error: cannot find symbol
+        final $ClassWriter cw = new $ClassWriter(1);
+              ^
+  symbol:   class $ClassWriter
+  location: class UnsafeClassDefiner
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:85: error: cannot find symbol
+        final $ClassWriter cw = new $ClassWriter(1);
+                                    ^
+  symbol:   class $ClassWriter
+  location: class UnsafeClassDefiner
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:87: error: cannot find symbol
+        $MethodVisitor mv = cw.visitMethod(1, "<init>", "()V", null, null);
+        ^
+  symbol:   class $MethodVisitor
+  location: class UnsafeClassDefiner
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:140: error: cannot find symbol
+            DEFINE_CLASS_CACHE = CacheBuilder.newBuilder().weakKeys().build(CacheLoader.from(UnsafeClassDefiner::tryAccessDefineClass));
+                                 ^
+  symbol:   variable CacheBuilder
+  location: class DefineClassCacheHolder
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java:140: error: cannot find symbol
+            DEFINE_CLASS_CACHE = CacheBuilder.newBuilder().weakKeys().build(CacheLoader.from(UnsafeClassDefiner::tryAccessDefineClass));
+                                                                            ^
+  symbol:   variable CacheLoader
+  location: class DefineClassCacheHolder
+Note: sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/aop/UnsafeClassDefiner.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 errors

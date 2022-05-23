@@ -1,0 +1,65 @@
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/gui/EntryNode.java:7: error: cannot find symbol
+import org.apache.ldap.common.name.LdapName;
+                                  ^
+  symbol:   class LdapName
+  location: package org.apache.ldap.common.name
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/Index.java:7: error: cannot find symbol
+import org.apache.regexp.RE;
+                        ^
+  symbol:   class RE
+  location: package org.apache.regexp
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/IndexEnumeration.java:10: error: cannot find symbol
+import org.apache.regexp.RE;
+                        ^
+  symbol:   class RE
+  location: package org.apache.regexp
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/Index.java:52: error: cannot find symbol
+    IndexEnumeration listIndices(final RE p0) throws NamingException;
+                                       ^
+  symbol:   class RE
+  location: interface Index
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/Index.java:54: error: cannot find symbol
+    IndexEnumeration listIndices(final RE p0, final String p1) throws NamingException;
+                                       ^
+  symbol:   class RE
+  location: interface Index
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/Index.java:60: error: cannot find symbol
+    boolean hasValue(final RE p0, final BigInteger p1) throws NamingException;
+                           ^
+  symbol:   class RE
+  location: interface Index
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/IndexEnumeration.java:15: error: cannot find symbol
+    private final RE re;
+                  ^
+  symbol:   class RE
+  location: class IndexEnumeration
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/IndexEnumeration.java:31: error: cannot find symbol
+    public IndexEnumeration(final NamingEnumeration list, final boolean swapKeyVal, final RE regex) throws NamingException {
+                                                                                          ^
+  symbol:   class RE
+  location: class IndexEnumeration
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/gui/EntryNode.java:51: error: incompatible types: Object cannot be converted to IndexRecord
+                final IndexRecord old = childList.next();
+                                                      ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/gui/EntryNode.java:57: error: incompatible types: Object cannot be converted to IndexRecord
+            for (final IndexRecord rec : records) {
+                                         ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/gui/EntryNode.java:95: error: incompatible types: Object cannot be converted to TreeNode
+        return this.children.get(childIndex);
+                                ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/gui/EntryNode.java:121: error: cannot find symbol
+            final LdapName dn = new LdapName(this.db.getEntryDn(this.id));
+                  ^
+  symbol:   class LdapName
+  location: class EntryNode
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/gui/EntryNode.java:121: error: cannot find symbol
+            final LdapName dn = new LdapName(this.db.getEntryDn(this.id));
+                                    ^
+  symbol:   class LdapName
+  location: class EntryNode
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/IndexEnumeration.java:76: error: incompatible types: Object cannot be converted to Tuple
+            final Tuple tuple = this.underlying.next();
+                                                    ^
+Note: sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/gui/EntryNode.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 errors

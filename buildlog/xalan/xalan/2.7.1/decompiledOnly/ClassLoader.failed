@@ -1,0 +1,111 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:7: error: cannot find symbol
+import org.apache.bcel.classfile.ConstantPool;
+                                ^
+  symbol:   class ConstantPool
+  location: package org.apache.bcel.classfile
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:8: error: cannot find symbol
+import org.apache.bcel.classfile.ConstantUtf8;
+                                ^
+  symbol:   class ConstantUtf8
+  location: package org.apache.bcel.classfile
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:9: error: cannot find symbol
+import org.apache.bcel.classfile.ConstantClass;
+                                ^
+  symbol:   class ConstantClass
+  location: package org.apache.bcel.classfile
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:11: error: cannot find symbol
+import org.apache.bcel.classfile.ClassParser;
+                                ^
+  symbol:   class ClassParser
+  location: package org.apache.bcel.classfile
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:13: error: cannot find symbol
+import org.apache.bcel.classfile.Utility;
+                                ^
+  symbol:   class Utility
+  location: package org.apache.bcel.classfile
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:14: error: cannot find symbol
+import org.apache.bcel.classfile.JavaClass;
+                                ^
+  symbol:   class JavaClass
+  location: package org.apache.bcel.classfile
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:15: error: cannot find symbol
+import org.apache.bcel.Repository;
+                      ^
+  symbol:   class Repository
+  location: package org.apache.bcel
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:73: error: cannot find symbol
+    protected JavaClass modifyClass(final JavaClass clazz) {
+                                          ^
+  symbol:   class JavaClass
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:73: error: cannot find symbol
+    protected JavaClass modifyClass(final JavaClass clazz) {
+              ^
+  symbol:   class JavaClass
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:77: error: cannot find symbol
+    protected JavaClass createClass(final String class_name) {
+              ^
+  symbol:   class JavaClass
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:39: error: incompatible types: Object cannot be converted to Class
+        if ((cl = this.classes.get(class_name)) == null) {
+                                  ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:47: error: cannot find symbol
+                JavaClass clazz = null;
+                ^
+  symbol:   class JavaClass
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:52: error: cannot find symbol
+                    if ((clazz = Repository.lookupClass(class_name)) == null) {
+                                 ^
+  symbol:   variable Repository
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:80: error: cannot find symbol
+        JavaClass clazz = null;
+        ^
+  symbol:   class JavaClass
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:82: error: cannot find symbol
+            final byte[] bytes = Utility.decode(real_name, true);
+                                 ^
+  symbol:   variable Utility
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:83: error: cannot find symbol
+            final ClassParser parser = new ClassParser(new ByteArrayInputStream(bytes), "foo");
+                  ^
+  symbol:   class ClassParser
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:83: error: cannot find symbol
+            final ClassParser parser = new ClassParser(new ByteArrayInputStream(bytes), "foo");
+                                           ^
+  symbol:   class ClassParser
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:90: error: cannot find symbol
+        final ConstantPool cp = clazz.getConstantPool();
+              ^
+  symbol:   class ConstantPool
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:91: error: cannot find symbol
+        final ConstantClass cl = (ConstantClass)cp.getConstant(clazz.getClassNameIndex(), (byte)7);
+              ^
+  symbol:   class ConstantClass
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:91: error: cannot find symbol
+        final ConstantClass cl = (ConstantClass)cp.getConstant(clazz.getClassNameIndex(), (byte)7);
+                                  ^
+  symbol:   class ConstantClass
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:92: error: cannot find symbol
+        final ConstantUtf8 name = (ConstantUtf8)cp.getConstant(cl.getNameIndex(), (byte)1);
+              ^
+  symbol:   class ConstantUtf8
+  location: class ClassLoader
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java:92: error: cannot find symbol
+        final ConstantUtf8 name = (ConstantUtf8)cp.getConstant(cl.getNameIndex(), (byte)1);
+                                   ^
+  symbol:   class ConstantUtf8
+  location: class ClassLoader
+Note: sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/ClassLoader.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+22 errors

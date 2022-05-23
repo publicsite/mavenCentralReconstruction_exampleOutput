@@ -1,0 +1,35 @@
+hybrids/com.google.guava/guava/31.1-jre/Service.java:20: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+hybrids/com.google.guava/guava/31.1-jre/Service.java:21: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.DoNotMock;
+                                        ^
+hybrids/com.google.guava/guava/31.1-jre/Service.java:57: error: cannot find symbol
+@DoNotMock("Create an AbstractIdleService")
+ ^
+  symbol: class DoNotMock
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+hybrids/com.google.guava/guava/31.1-jre/Service.java:69: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: interface Service
+hybrids/com.google.guava/guava/31.1-jre/Service.java:88: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: interface Service
+9 errors

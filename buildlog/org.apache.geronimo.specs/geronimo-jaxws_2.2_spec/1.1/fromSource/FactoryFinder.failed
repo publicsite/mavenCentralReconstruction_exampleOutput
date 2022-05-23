@@ -1,0 +1,16 @@
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/FactoryFinder.java:32: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/FactoryFinder.java:128: error: cannot find symbol
+                        return ProviderLocator.loadClass(iClassName, FactoryFinder.class, iClassLoader).newInstance();
+                               ^
+  symbol: variable ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/FactoryFinder.java:176: error: cannot find symbol
+                        Object service = ProviderLocator.getService(iFactoryId, FactoryFinder.class, classLoader);
+                                         ^
+  symbol: variable ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/FactoryFinder.java:185: error: cannot find symbol
+                        String factoryClassName =  ProviderLocator.lookupByJREPropertyFile("lib" + File.separator + "jaxrpc.properties", iFactoryId);
+                                                   ^
+  symbol: variable ProviderLocator
+4 errors

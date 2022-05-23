@@ -1,0 +1,56 @@
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:19: error: package javax.faces.application does not exist
+import javax.faces.application.NavigationHandler;
+                              ^
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:20: error: package javax.faces.context does not exist
+import javax.faces.context.FacesContext;
+                          ^
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:37: error: cannot find symbol
+public abstract class DecoratingNavigationHandler extends NavigationHandler {
+                                                          ^
+  symbol: class NavigationHandler
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:39: error: cannot find symbol
+	private NavigationHandler decoratedNavigationHandler;
+	        ^
+  symbol:   class NavigationHandler
+  location: class DecoratingNavigationHandler
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:52: error: cannot find symbol
+	protected DecoratingNavigationHandler(NavigationHandler originalNavigationHandler) {
+	                                      ^
+  symbol:   class NavigationHandler
+  location: class DecoratingNavigationHandler
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:60: error: cannot find symbol
+	public final NavigationHandler getDecoratedNavigationHandler() {
+	             ^
+  symbol:   class NavigationHandler
+  location: class DecoratingNavigationHandler
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:71: error: cannot find symbol
+	public final void handleNavigation(FacesContext facesContext, String fromAction, String outcome) {
+	                                   ^
+  symbol:   class FacesContext
+  location: class DecoratingNavigationHandler
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:96: error: cannot find symbol
+			FacesContext facesContext, String fromAction, String outcome, NavigationHandler originalNavigationHandler);
+			^
+  symbol:   class FacesContext
+  location: class DecoratingNavigationHandler
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:96: error: cannot find symbol
+			FacesContext facesContext, String fromAction, String outcome, NavigationHandler originalNavigationHandler);
+			                                                              ^
+  symbol:   class NavigationHandler
+  location: class DecoratingNavigationHandler
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:128: error: cannot find symbol
+			FacesContext facesContext, String fromAction, String outcome, NavigationHandler originalNavigationHandler) {
+			^
+  symbol:   class FacesContext
+  location: class DecoratingNavigationHandler
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:128: error: cannot find symbol
+			FacesContext facesContext, String fromAction, String outcome, NavigationHandler originalNavigationHandler) {
+			                                                              ^
+  symbol:   class NavigationHandler
+  location: class DecoratingNavigationHandler
+hybrids/org.springframework/spring/2.5.6/DecoratingNavigationHandler.java:130: error: cannot find symbol
+		NavigationHandler decoratedNavigationHandler = getDecoratedNavigationHandler();
+		^
+  symbol:   class NavigationHandler
+  location: class DecoratingNavigationHandler
+12 errors

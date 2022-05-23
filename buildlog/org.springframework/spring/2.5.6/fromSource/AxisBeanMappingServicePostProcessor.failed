@@ -1,0 +1,66 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:26: error: package javax.xml.rpc does not exist
+import javax.xml.rpc.Service;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:27: error: package javax.xml.rpc.encoding does not exist
+import javax.xml.rpc.encoding.TypeMapping;
+                             ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:28: error: package javax.xml.rpc.encoding does not exist
+import javax.xml.rpc.encoding.TypeMappingRegistry;
+                             ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:30: error: package org.apache.axis.encoding.ser does not exist
+import org.apache.axis.encoding.ser.BeanDeserializerFactory;
+                                   ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:31: error: package org.apache.axis.encoding.ser does not exist
+import org.apache.axis.encoding.ser.BeanSerializerFactory;
+                                   ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/JaxRpcServicePostProcessor.java:19: error: package javax.xml.rpc does not exist
+import javax.xml.rpc.Service;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:142: error: cannot find symbol
+	public void postProcessJaxRpcService(Service service) {
+	                                     ^
+  symbol:   class Service
+  location: class AxisBeanMappingServicePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:162: error: cannot find symbol
+	protected void registerBeanMappings(TypeMapping mapping) {
+	                                    ^
+  symbol:   class TypeMapping
+  location: class AxisBeanMappingServicePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:186: error: cannot find symbol
+	protected void registerBeanMapping(TypeMapping mapping, Class javaType, String wsdlTypeName) {
+	                                   ^
+  symbol:   class TypeMapping
+  location: class AxisBeanMappingServicePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:196: error: cannot find symbol
+	protected void registerBeanMapping(TypeMapping mapping, Class javaType, QName wsdlType) {
+	                                   ^
+  symbol:   class TypeMapping
+  location: class AxisBeanMappingServicePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/JaxRpcServicePostProcessor.java:49: error: cannot find symbol
+	void postProcessJaxRpcService(Service service);
+	                              ^
+  symbol:   class Service
+  location: interface JaxRpcServicePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:143: error: cannot find symbol
+		TypeMappingRegistry registry = service.getTypeMappingRegistry();
+		^
+  symbol:   class TypeMappingRegistry
+  location: class AxisBeanMappingServicePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:144: error: cannot find symbol
+		TypeMapping mapping = registry.createTypeMapping();
+		^
+  symbol:   class TypeMapping
+  location: class AxisBeanMappingServicePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:198: error: cannot find symbol
+		    new BeanSerializerFactory(javaType, wsdlType),
+		        ^
+  symbol:   class BeanSerializerFactory
+  location: class AxisBeanMappingServicePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java:199: error: cannot find symbol
+		    new BeanDeserializerFactory(javaType, wsdlType));
+		        ^
+  symbol:   class BeanDeserializerFactory
+  location: class AxisBeanMappingServicePostProcessor
+Note: sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/support/AxisBeanMappingServicePostProcessor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+15 errors

@@ -1,0 +1,69 @@
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:18: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.Generator;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:19: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.SourceCodeLocation;
+                                           ^
+  symbol:   class SourceCodeLocation
+  location: package com.google.gwt.thirdparty.common.css
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:20: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssValueNode;
+                                                        ^
+  symbol:   class CssValueNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:21: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Strings;
+                                                  ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:29: error: cannot find symbol
+public class CssDotPathNode extends CssValueNode {
+                                    ^
+  symbol: class CssValueNode
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:54: error: cannot find symbol
+  public CssDotPathNode(String dotPath, String prefix, String suffix, SourceCodeLocation sourceCodeLocation) {
+                                                                      ^
+  symbol:   class SourceCodeLocation
+  location: class CssDotPathNode
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:59: error: cannot find symbol
+      SourceCodeLocation sourceCodeLocation) {
+      ^
+  symbol:   class SourceCodeLocation
+  location: class CssDotPathNode
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:69: error: cannot find symbol
+  public CssValueNode deepCopy() {
+         ^
+  symbol:   class CssValueNode
+  location: class CssDotPathNode
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:34: error: cannot find symbol
+    if (!Strings.isNullOrEmpty(instance)) {
+         ^
+  symbol:   variable Strings
+  location: class CssDotPathNode
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:38: error: cannot find symbol
+    if (!Strings.isNullOrEmpty(prefix)) {
+         ^
+  symbol:   variable Strings
+  location: class CssDotPathNode
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:39: error: cannot find symbol
+      expression = "\"" + Generator.escape(prefix) + "\" + " + expression;
+                          ^
+  symbol:   variable Generator
+  location: class CssDotPathNode
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:42: error: cannot find symbol
+    if (!Strings.isNullOrEmpty(suffix)) {
+         ^
+  symbol:   variable Strings
+  location: class CssDotPathNode
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:43: error: cannot find symbol
+      expression += " + \"" + Generator.escape(suffix) + "\"";
+                              ^
+  symbol:   variable Generator
+  location: class CssDotPathNode
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:68: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CssDotPathNode.java:70: error: cannot find symbol
+    return new CssDotPathNode(instance, path, prefix, suffix, getSourceCodeLocation());
+                                                              ^
+  symbol:   method getSourceCodeLocation()
+  location: class CssDotPathNode
+15 errors

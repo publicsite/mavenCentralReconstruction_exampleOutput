@@ -1,0 +1,54 @@
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipFile.java:108: error: incompatible types: Object cannot be converted to ZipEntry
+        return this.nameMap.get(name);
+                               ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipFile.java:112: error: incompatible types: Object cannot be converted to OffsetEntry
+        final OffsetEntry offsetEntry = this.entries.get(ze);
+                                                        ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipFile.java:235: error: incompatible types: Object cannot be converted to ZipEntry
+            final ZipEntry ze = e.nextElement();
+                                             ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipFile.java:236: error: incompatible types: Object cannot be converted to OffsetEntry
+            final OffsetEntry offsetEntry = this.entries.get(ze);
+                                                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipFile.java:256: error: incompatible types: Object cannot be converted to NameAndComment
+                this.setNameAndCommentFromExtraFields(ze, entriesWithoutUTF8Flag.get(ze));
+                                                                                    ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipEntry.java:138: error: incompatible types: Object[] cannot be converted to ZipExtraField[]
+        return result.toArray(new ZipExtraField[0]);
+                             ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipEntry.java:189: error: incompatible types: Object cannot be converted to ZipExtraField
+            return this.extraFields.get(type);
+                                       ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipEncodingHelper.java:46: error: incompatible types: Object cannot be converted to SimpleEncodingHolder
+        final SimpleEncodingHolder h = ZipEncodingHelper.simpleEncodings.get(name);
+                                                                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/Simple8BitZipEncoding.java:63: error: incompatible types: Object cannot be converted to Simple8BitChar
+            final Simple8BitChar m = this.reverseMapping.get(j);
+                                                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/Simple8BitZipEncoding.java:77: error: incompatible types: Object cannot be converted to Simple8BitChar
+        final Simple8BitChar r = this.reverseMapping.get(i0);
+                                                        ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipOutputStream.java:158: error: incompatible types: Object cannot be converted to ZipEntry
+            this.writeCentralFileHeader(i.next());
+                                              ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipOutputStream.java:418: error: incompatible types: Object cannot be converted to byte[]
+        this.writeOut(this.offsets.get(ze));
+                                      ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:20: error: incompatible types: Object cannot be converted to ZipExtraField
+            final ZipExtraField ze = c.newInstance();
+                                                  ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:35: error: incompatible types: Object cannot be converted to Class
+        final Class c = ExtraFieldUtils.implementations.get(headerId);
+                                                           ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:37: error: incompatible types: Object cannot be converted to ZipExtraField
+            return c.newInstance();
+                                ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:103: error: incompatible types: Object[] cannot be converted to ZipExtraField[]
+        return v.toArray(result);
+                        ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+16 errors

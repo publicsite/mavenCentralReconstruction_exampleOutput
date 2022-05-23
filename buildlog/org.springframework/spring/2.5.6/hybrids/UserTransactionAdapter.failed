@@ -1,0 +1,91 @@
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:19: error: package javax.transaction does not exist
+import javax.transaction.HeuristicMixedException;
+                        ^
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:20: error: package javax.transaction does not exist
+import javax.transaction.HeuristicRollbackException;
+                        ^
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:21: error: package javax.transaction does not exist
+import javax.transaction.NotSupportedException;
+                        ^
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:22: error: package javax.transaction does not exist
+import javax.transaction.RollbackException;
+                        ^
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:23: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:24: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:25: error: package javax.transaction does not exist
+import javax.transaction.UserTransaction;
+                        ^
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:46: error: cannot find symbol
+public class UserTransactionAdapter implements UserTransaction {
+                                               ^
+  symbol: class UserTransaction
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:48: error: cannot find symbol
+	private final TransactionManager transactionManager;
+	              ^
+  symbol:   class TransactionManager
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:55: error: cannot find symbol
+	public UserTransactionAdapter(TransactionManager transactionManager) {
+	                              ^
+  symbol:   class TransactionManager
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:63: error: cannot find symbol
+	public final TransactionManager getTransactionManager() {
+	             ^
+  symbol:   class TransactionManager
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:68: error: cannot find symbol
+	public void begin() throws NotSupportedException, SystemException {
+	                           ^
+  symbol:   class NotSupportedException
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:68: error: cannot find symbol
+	public void begin() throws NotSupportedException, SystemException {
+	                                                  ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:73: error: cannot find symbol
+			throws RollbackException, HeuristicMixedException, HeuristicRollbackException,
+			       ^
+  symbol:   class RollbackException
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:73: error: cannot find symbol
+			throws RollbackException, HeuristicMixedException, HeuristicRollbackException,
+			                          ^
+  symbol:   class HeuristicMixedException
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:73: error: cannot find symbol
+			throws RollbackException, HeuristicMixedException, HeuristicRollbackException,
+			                                                   ^
+  symbol:   class HeuristicRollbackException
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:74: error: cannot find symbol
+			SecurityException, IllegalStateException, SystemException {
+			                                          ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:79: error: cannot find symbol
+	public int getStatus() throws SystemException {
+	                              ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:83: error: cannot find symbol
+	public void rollback() throws IllegalStateException, SecurityException, SystemException {
+	                                                                        ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:87: error: cannot find symbol
+	public void setRollbackOnly() throws IllegalStateException, SystemException {
+	                                                            ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+hybrids/org.springframework/spring/2.5.6/UserTransactionAdapter.java:91: error: cannot find symbol
+	public void setTransactionTimeout(int timeout) throws SystemException {
+	                                                      ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+21 errors

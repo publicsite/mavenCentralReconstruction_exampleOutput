@@ -1,0 +1,501 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:7: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.Rops;
+                                      ^
+  symbol:   class Rops
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:9: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.RegisterSpec;
+                                      ^
+  symbol:   class RegisterSpec
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:10: error: cannot find symbol
+import com.google.dexmaker.dx.rop.cst.CstString;
+                                     ^
+  symbol:   class CstString
+  location: package com.google.dexmaker.dx.rop.cst
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:11: error: cannot find symbol
+import com.google.dexmaker.dx.rop.cst.CstType;
+                                     ^
+  symbol:   class CstType
+  location: package com.google.dexmaker.dx.rop.cst
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:12: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.ThrowingCstInsn;
+                                      ^
+  symbol:   class ThrowingCstInsn
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:13: error: cannot find symbol
+import com.google.dexmaker.dx.rop.cst.CstFieldRef;
+                                     ^
+  symbol:   class CstFieldRef
+  location: package com.google.dexmaker.dx.rop.cst
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:14: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.Insn;
+                                      ^
+  symbol:   class Insn
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:15: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.Rop;
+                                      ^
+  symbol:   class Rop
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:20: error: cannot find symbol
+    private static final HashMap<Rop, Dop> MAP;
+                                 ^
+  symbol:   class Rop
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:20: error: cannot find symbol
+    private static final HashMap<Rop, Dop> MAP;
+                                      ^
+  symbol:   class Dop
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:25: error: cannot find symbol
+    public static Dop dopFor(final Insn insn) {
+                                   ^
+  symbol:   class Insn
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:25: error: cannot find symbol
+    public static Dop dopFor(final Insn insn) {
+                  ^
+  symbol:   class Dop
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:26: error: cannot find symbol
+        final Rop rop = insn.getOpcode();
+              ^
+  symbol:   class Rop
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:27: error: cannot find symbol
+        final Dop result = RopToDop.MAP.get(rop);
+              ^
+  symbol:   class Dop
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:34: error: cannot find symbol
+                    return Dops.MOVE_EXCEPTION;
+                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:37: error: cannot find symbol
+                    return Dops.INVOKE_STATIC;
+                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:40: error: cannot find symbol
+                    return Dops.INVOKE_VIRTUAL;
+                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:43: error: cannot find symbol
+                    return Dops.INVOKE_SUPER;
+                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:46: error: cannot find symbol
+                    return Dops.INVOKE_DIRECT;
+                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:49: error: cannot find symbol
+                    return Dops.INVOKE_INTERFACE;
+                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:52: error: cannot find symbol
+                    return Dops.NEW_ARRAY;
+                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:55: error: cannot find symbol
+                    return Dops.FILLED_NEW_ARRAY;
+                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:58: error: cannot find symbol
+                    return Dops.FILL_ARRAY_DATA;
+                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:61: error: cannot find symbol
+                    final RegisterSpec resultReg = insn.getResult();
+                          ^
+  symbol:   class RegisterSpec
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:63: error: cannot find symbol
+                        return Dops.NOP;
+                               ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:72: error: cannot find symbol
+                            return Dops.MOVE_RESULT;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:76: error: cannot find symbol
+                            return Dops.MOVE_RESULT_WIDE;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:79: error: cannot find symbol
+                            return Dops.MOVE_RESULT_OBJECT;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:88: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                          ^
+  symbol:   class CstFieldRef
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:88: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                                             ^
+  symbol:   class CstFieldRef
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:88: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                                                           ^
+  symbol:   class ThrowingCstInsn
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:92: error: cannot find symbol
+                            return Dops.IGET_BOOLEAN;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:95: error: cannot find symbol
+                            return Dops.IGET_BYTE;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:98: error: cannot find symbol
+                            return Dops.IGET_CHAR;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:101: error: cannot find symbol
+                            return Dops.IGET_SHORT;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:104: error: cannot find symbol
+                            return Dops.IGET;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:113: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                          ^
+  symbol:   class CstFieldRef
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:113: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                                             ^
+  symbol:   class CstFieldRef
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:113: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                                                           ^
+  symbol:   class ThrowingCstInsn
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:117: error: cannot find symbol
+                            return Dops.IPUT_BOOLEAN;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:120: error: cannot find symbol
+                            return Dops.IPUT_BYTE;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:123: error: cannot find symbol
+                            return Dops.IPUT_CHAR;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:126: error: cannot find symbol
+                            return Dops.IPUT_SHORT;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:129: error: cannot find symbol
+                            return Dops.IPUT;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:138: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                          ^
+  symbol:   class CstFieldRef
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:138: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                                             ^
+  symbol:   class CstFieldRef
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:138: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                                                           ^
+  symbol:   class ThrowingCstInsn
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:142: error: cannot find symbol
+                            return Dops.SGET_BOOLEAN;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:145: error: cannot find symbol
+                            return Dops.SGET_BYTE;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:148: error: cannot find symbol
+                            return Dops.SGET_CHAR;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:151: error: cannot find symbol
+                            return Dops.SGET_SHORT;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:154: error: cannot find symbol
+                            return Dops.SGET;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:163: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                          ^
+  symbol:   class CstFieldRef
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:163: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                                             ^
+  symbol:   class CstFieldRef
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:163: error: cannot find symbol
+                    final CstFieldRef ref = (CstFieldRef)((ThrowingCstInsn)insn).getConstant();
+                                                           ^
+  symbol:   class ThrowingCstInsn
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:167: error: cannot find symbol
+                            return Dops.SPUT_BOOLEAN;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:170: error: cannot find symbol
+                            return Dops.SPUT_BYTE;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:173: error: cannot find symbol
+                            return Dops.SPUT_CHAR;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:176: error: cannot find symbol
+                            return Dops.SPUT_SHORT;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:179: error: cannot find symbol
+                            return Dops.SPUT;
+                                   ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:188: error: cannot find symbol
+                    final Constant cst = ((ThrowingCstInsn)insn).getConstant();
+                                           ^
+  symbol:   class ThrowingCstInsn
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:189: error: cannot find symbol
+                    if (cst instanceof CstType) {
+                                       ^
+  symbol:   class CstType
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:190: error: cannot find symbol
+                        return Dops.CONST_CLASS;
+                               ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:192: error: cannot find symbol
+                    if (cst instanceof CstString) {
+                                       ^
+  symbol:   class CstString
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:193: error: cannot find symbol
+                        return Dops.CONST_STRING;
+                               ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:203: error: cannot find symbol
+        (MAP = new HashMap<Rop, Dop>(400)).put(Rops.NOP, Dops.NOP);
+                                               ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:203: error: cannot find symbol
+        (MAP = new HashMap<Rop, Dop>(400)).put(Rops.NOP, Dops.NOP);
+                                                         ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:203: error: cannot find symbol
+        (MAP = new HashMap<Rop, Dop>(400)).put(Rops.NOP, Dops.NOP);
+                           ^
+  symbol:   class Rop
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:203: error: cannot find symbol
+        (MAP = new HashMap<Rop, Dop>(400)).put(Rops.NOP, Dops.NOP);
+                                ^
+  symbol:   class Dop
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:204: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_INT, Dops.MOVE);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:204: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_INT, Dops.MOVE);
+                                        ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:205: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_LONG, Dops.MOVE_WIDE);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:205: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_LONG, Dops.MOVE_WIDE);
+                                         ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:206: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_FLOAT, Dops.MOVE);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:206: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_FLOAT, Dops.MOVE);
+                                          ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:207: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_DOUBLE, Dops.MOVE_WIDE);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:207: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_DOUBLE, Dops.MOVE_WIDE);
+                                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:208: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_OBJECT, Dops.MOVE_OBJECT);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:208: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_OBJECT, Dops.MOVE_OBJECT);
+                                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:209: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_PARAM_INT, Dops.MOVE);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:209: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_PARAM_INT, Dops.MOVE);
+                                              ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:210: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_PARAM_LONG, Dops.MOVE_WIDE);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:210: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_PARAM_LONG, Dops.MOVE_WIDE);
+                                               ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:211: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_PARAM_FLOAT, Dops.MOVE);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:211: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_PARAM_FLOAT, Dops.MOVE);
+                                                ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:212: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_PARAM_DOUBLE, Dops.MOVE_WIDE);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:212: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_PARAM_DOUBLE, Dops.MOVE_WIDE);
+                                                 ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:213: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_PARAM_OBJECT, Dops.MOVE_OBJECT);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:213: error: cannot find symbol
+        RopToDop.MAP.put(Rops.MOVE_PARAM_OBJECT, Dops.MOVE_OBJECT);
+                                                 ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:214: error: cannot find symbol
+        RopToDop.MAP.put(Rops.CONST_INT, Dops.CONST_4);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:214: error: cannot find symbol
+        RopToDop.MAP.put(Rops.CONST_INT, Dops.CONST_4);
+                                         ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:215: error: cannot find symbol
+        RopToDop.MAP.put(Rops.CONST_LONG, Dops.CONST_WIDE_16);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:215: error: cannot find symbol
+        RopToDop.MAP.put(Rops.CONST_LONG, Dops.CONST_WIDE_16);
+                                          ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:216: error: cannot find symbol
+        RopToDop.MAP.put(Rops.CONST_FLOAT, Dops.CONST_4);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:216: error: cannot find symbol
+        RopToDop.MAP.put(Rops.CONST_FLOAT, Dops.CONST_4);
+                                           ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:217: error: cannot find symbol
+        RopToDop.MAP.put(Rops.CONST_DOUBLE, Dops.CONST_WIDE_16);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:217: error: cannot find symbol
+        RopToDop.MAP.put(Rops.CONST_DOUBLE, Dops.CONST_WIDE_16);
+                                            ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:218: error: cannot find symbol
+        RopToDop.MAP.put(Rops.CONST_OBJECT_NOTHROW, Dops.CONST_4);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:218: error: cannot find symbol
+        RopToDop.MAP.put(Rops.CONST_OBJECT_NOTHROW, Dops.CONST_4);
+                                                    ^
+  symbol:   variable Dops
+  location: class RopToDop
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/RopToDop.java:219: error: cannot find symbol
+        RopToDop.MAP.put(Rops.GOTO, Dops.GOTO);
+                         ^
+  symbol:   variable Rops
+  location: class RopToDop
+100 errors

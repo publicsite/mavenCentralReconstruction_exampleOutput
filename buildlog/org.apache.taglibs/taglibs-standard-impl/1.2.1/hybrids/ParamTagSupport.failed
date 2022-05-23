@@ -1,0 +1,33 @@
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ParamTagSupport.java:22: error: cannot find symbol
+import javax.servlet.jsp.tagext.BodyTagSupport;
+                               ^
+  symbol:   class BodyTagSupport
+  location: package javax.servlet.jsp.tagext
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ParamTagSupport.java:34: error: cannot find symbol
+public abstract class ParamTagSupport extends BodyTagSupport {
+                                              ^
+  symbol: class BodyTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ParamTagSupport.java:40: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ParamTagSupport.java:43: error: cannot find symbol
+                findAncestorWithClass(this, SQLExecutionTag.class);
+                ^
+  symbol:   method findAncestorWithClass(ParamTagSupport,Class<SQLExecutionTag>)
+  location: class ParamTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ParamTagSupport.java:52: error: cannot find symbol
+        } else if (bodyContent != null) {
+                   ^
+  symbol:   variable bodyContent
+  location: class ParamTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ParamTagSupport.java:53: error: cannot find symbol
+            paramValue = bodyContent.getString().trim();
+                         ^
+  symbol:   variable bodyContent
+  location: class ParamTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ParamTagSupport.java:60: error: cannot find symbol
+        return EVAL_PAGE;
+               ^
+  symbol:   variable EVAL_PAGE
+  location: class ParamTagSupport
+7 errors

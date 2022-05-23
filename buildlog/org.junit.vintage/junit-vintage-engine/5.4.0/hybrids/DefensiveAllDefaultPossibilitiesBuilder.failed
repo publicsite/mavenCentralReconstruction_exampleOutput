@@ -1,0 +1,41 @@
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/DefensiveAllDefaultPossibilitiesBuilder.java:22: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.Logger;
+                                         ^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/DefensiveAllDefaultPossibilitiesBuilder.java:23: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.LoggerFactory;
+                                         ^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/DefensiveAllDefaultPossibilitiesBuilder.java:24: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/DefensiveAllDefaultPossibilitiesBuilder.java:41: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(DefensiveAllDefaultPossibilitiesBuilder.class);
+	                     ^
+  symbol:   class Logger
+  location: class DefensiveAllDefaultPossibilitiesBuilder
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/DefensiveAllDefaultPossibilitiesBuilder.java:41: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(DefensiveAllDefaultPossibilitiesBuilder.class);
+	                                     ^
+  symbol:   variable LoggerFactory
+  location: class DefensiveAllDefaultPossibilitiesBuilder
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/FilterableIgnoringRunnerDecorator.java:13: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IgnoringRunnerDecorator.java:13: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/DefensiveAllDefaultPossibilitiesBuilder.java:134: error: cannot find symbol
+			return ReflectionUtils.isMethodPresent(testClass, isPotentialJUnit4TestMethod);
+			       ^
+  symbol:   variable ReflectionUtils
+  location: class DefensiveJUnit4Builder
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/IgnoringRunnerDecorator.java:31: error: cannot find symbol
+		this.runner = Preconditions.notNull(runner, "Runner must not be null");
+		              ^
+  symbol:   variable Preconditions
+  location: class IgnoringRunnerDecorator
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/FilterableIgnoringRunnerDecorator.java:28: error: cannot find symbol
+		Preconditions.condition(runner instanceof Filterable,
+		^
+  symbol:   variable Preconditions
+  location: class FilterableIgnoringRunnerDecorator
+10 errors

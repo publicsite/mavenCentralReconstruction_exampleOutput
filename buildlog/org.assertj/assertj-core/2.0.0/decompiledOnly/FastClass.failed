@@ -1,0 +1,128 @@
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:7: error: cannot find symbol
+import org.assertj.core.internal.cglib.core.ReflectUtils;
+                                           ^
+  symbol:   class ReflectUtils
+  location: package org.assertj.core.internal.cglib.core
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:8: error: cannot find symbol
+import org.assertj.core.internal.cglib.asm.ClassVisitor;
+                                          ^
+  symbol:   class ClassVisitor
+  location: package org.assertj.core.internal.cglib.asm
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:9: error: cannot find symbol
+import org.assertj.core.internal.cglib.core.AbstractClassGenerator;
+                                           ^
+  symbol:   class AbstractClassGenerator
+  location: package org.assertj.core.internal.cglib.core
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:10: error: cannot find symbol
+import org.assertj.core.internal.cglib.asm.Type;
+                                          ^
+  symbol:   class Type
+  location: package org.assertj.core.internal.cglib.asm
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:11: error: cannot find symbol
+import org.assertj.core.internal.cglib.core.Signature;
+                                           ^
+  symbol:   class Signature
+  location: package org.assertj.core.internal.cglib.core
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:14: error: cannot find symbol
+import org.assertj.core.internal.cglib.core.Constants;
+                                           ^
+  symbol:   class Constants
+  location: package org.assertj.core.internal.cglib.core
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:52: error: cannot find symbol
+    public FastMethod getMethod(final Method method) {
+           ^
+  symbol:   class FastMethod
+  location: class FastClass
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:56: error: cannot find symbol
+    public FastConstructor getConstructor(final Constructor constructor) {
+           ^
+  symbol:   class FastConstructor
+  location: class FastClass
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:60: error: cannot find symbol
+    public FastMethod getMethod(final String name, final Class[] parameterTypes) {
+           ^
+  symbol:   class FastMethod
+  location: class FastClass
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:69: error: cannot find symbol
+    public FastConstructor getConstructor(final Class[] parameterTypes) {
+           ^
+  symbol:   class FastConstructor
+  location: class FastClass
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:106: error: cannot find symbol
+    public abstract int getIndex(final Signature p0);
+                                       ^
+  symbol:   class Signature
+  location: class FastClass
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:121: error: cannot find symbol
+    public static class Generator extends AbstractClassGenerator
+                                          ^
+  symbol:   class AbstractClassGenerator
+  location: class FastClass
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:123: error: cannot find symbol
+        private static final Source SOURCE;
+                             ^
+  symbol:   class Source
+  location: class Generator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:143: error: cannot find symbol
+        public void generateClass(final ClassVisitor v) throws Exception {
+                                        ^
+  symbol:   class ClassVisitor
+  location: class Generator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:36: error: cannot find symbol
+        gen.setClassLoader(loader);
+           ^
+  symbol:   method setClassLoader(ClassLoader)
+  location: variable gen of type Generator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:45: error: cannot find symbol
+        return this.newInstance(this.getIndex(Constants.EMPTY_CLASS_ARRAY), null);
+                                              ^
+  symbol:   variable Constants
+  location: class FastClass
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:53: error: cannot find symbol
+        return new FastMethod(this, method);
+                   ^
+  symbol:   class FastMethod
+  location: class FastClass
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:57: error: cannot find symbol
+        return new FastConstructor(this, constructor);
+                   ^
+  symbol:   class FastConstructor
+  location: class FastClass
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:115: error: cannot find symbol
+            sb.append(Type.getDescriptor(parameterTypes[i]));
+                      ^
+  symbol:   variable Type
+  location: class FastClass
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:135: error: cannot find symbol
+            this.setNamePrefix(this.type.getName());
+                ^
+  symbol: method setNamePrefix(String)
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:136: error: non-static variable super cannot be referenced from a static context
+            return (FastClass)super.create(this.type.getName());
+                              ^
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:136: error: cannot find symbol
+            return (FastClass)super.create(this.type.getName());
+                                   ^
+  symbol: method create(String)
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:144: error: cannot find symbol
+            new FastClassEmitter(v, this.getClassName(), this.type);
+                ^
+  symbol:   class FastClassEmitter
+  location: class Generator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:144: error: cannot find symbol
+            new FastClassEmitter(v, this.getClassName(), this.type);
+                                        ^
+  symbol: method getClassName()
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:148: error: cannot find symbol
+            return ReflectUtils.newInstance(type, new Class[] { Class.class }, new Object[] { this.type });
+                   ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java:156: error: cannot find symbol
+            SOURCE = new Source(FastClass.class.getName());
+                         ^
+  symbol:   class Source
+  location: class Generator
+Note: sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/reflect/FastClass.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+26 errors

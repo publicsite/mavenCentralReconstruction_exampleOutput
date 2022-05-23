@@ -1,0 +1,35 @@
+sources/structure/com.jamonapi/jamon/2.82/Decompiled/com/jamonapi/distributed/HazelcastPersisterImp.java:11: error: package com.hazelcast.core does not exist
+import com.hazelcast.core.Hazelcast;
+                         ^
+sources/structure/com.jamonapi/jamon/2.82/Decompiled/com/jamonapi/distributed/HazelcastPersisterImp.java:12: error: package com.hazelcast.core does not exist
+import com.hazelcast.core.HazelcastInstance;
+                         ^
+sources/structure/com.jamonapi/jamon/2.82/Decompiled/com/jamonapi/distributed/HazelcastPersisterImp.java:14: error: package com.hazelcast.core does not exist
+import com.hazelcast.core.IMap;
+                         ^
+sources/structure/com.jamonapi/jamon/2.82/Decompiled/com/jamonapi/distributed/HazelcastPersisterImp.java:18: error: cannot find symbol
+    private IMap<String, MonitorComposite> jamonDataMap;
+            ^
+  symbol:   class IMap
+  location: class HazelcastPersisterImp
+sources/structure/com.jamonapi/jamon/2.82/Decompiled/com/jamonapi/distributed/HazelcastPersisterImp.java:19: error: cannot find symbol
+    private HazelcastInstance hazelCast;
+            ^
+  symbol:   class HazelcastInstance
+  location: class HazelcastPersisterImp
+sources/structure/com.jamonapi/jamon/2.82/Decompiled/com/jamonapi/distributed/HazelcastPersisterImp.java:25: error: cannot find symbol
+    public HazelcastPersisterImp(final HazelcastInstance hazelCast) {
+                                       ^
+  symbol:   class HazelcastInstance
+  location: class HazelcastPersisterImp
+sources/structure/com.jamonapi/jamon/2.82/Decompiled/com/jamonapi/distributed/HazelcastPersisterImp.java:22: error: cannot find symbol
+        this.hazelCast = Hazelcast.newHazelcastInstance();
+                         ^
+  symbol:   variable Hazelcast
+  location: class HazelcastPersisterImp
+sources/structure/com.jamonapi/jamon/2.82/Decompiled/com/jamonapi/distributed/HazelcastPersisterImp.java:71: error: cannot find symbol
+            this.jamonDataMap = (IMap<String, MonitorComposite>)this.hazelCast.getMap(MonitorComposite.class.getCanonicalName());
+                                 ^
+  symbol:   class IMap
+  location: class HazelcastPersisterImp
+8 errors

@@ -1,0 +1,93 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:9: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationList;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:10: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.PackageDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:12: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.ClassFileVersion;
+                                          ^
+  symbol:   class ClassFileVersion
+  location: package org.assertj.core.internal.bytebuddy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:14: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationSource;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:17: error: cannot find symbol
+public class JavaModule implements NamedElement.WithOptionalName, AnnotationSource
+                                                                  ^
+  symbol: class AnnotationSource
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:129: error: package JavaDispatcher does not exist
+    @JavaDispatcher.Proxied("java.lang.Class")
+                   ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:108: error: package JavaDispatcher does not exist
+    @JavaDispatcher.Proxied("java.lang.Module")
+                   ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:68: error: cannot find symbol
+    public boolean isExported(final PackageDescription packageDescription, final JavaModule module) {
+                                    ^
+  symbol:   class PackageDescription
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:72: error: cannot find symbol
+    public boolean isOpened(final PackageDescription packageDescription, final JavaModule module) {
+                                  ^
+  symbol:   class PackageDescription
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:76: error: cannot find symbol
+    public AnnotationList getDeclaredAnnotations() {
+           ^
+  symbol:   class AnnotationList
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:111: error: package JavaDispatcher does not exist
+        @JavaDispatcher.Instance
+                       ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:122: error: package JavaDispatcher does not exist
+        boolean isExported(final Object p0, final String p1, @JavaDispatcher.Proxied("java.lang.Module") final Object p2);
+                                                                            ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:124: error: package JavaDispatcher does not exist
+        boolean isOpen(final Object p0, final String p1, @JavaDispatcher.Proxied("java.lang.Module") final Object p2);
+                                                                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:126: error: package JavaDispatcher does not exist
+        boolean canRead(final Object p0, @JavaDispatcher.Proxied("java.lang.Module") final Object p1);
+                                                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:132: error: package JavaDispatcher does not exist
+        @JavaDispatcher.Defaults
+                       ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:41: error: cannot find symbol
+        return ClassFileVersion.ofThisVm(ClassFileVersion.JAVA_V5).isAtLeast(ClassFileVersion.JAVA_V9);
+                                                                             ^
+  symbol:   variable ClassFileVersion
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:41: error: cannot find symbol
+        return ClassFileVersion.ofThisVm(ClassFileVersion.JAVA_V5).isAtLeast(ClassFileVersion.JAVA_V9);
+                                         ^
+  symbol:   variable ClassFileVersion
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:41: error: cannot find symbol
+        return ClassFileVersion.ofThisVm(ClassFileVersion.JAVA_V5).isAtLeast(ClassFileVersion.JAVA_V9);
+               ^
+  symbol:   variable ClassFileVersion
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:77: error: package AnnotationList does not exist
+        return new AnnotationList.ForLoadedAnnotations(this.module.getDeclaredAnnotations());
+                                 ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:104: error: cannot find symbol
+        RESOLVER = AccessController.doPrivileged((PrivilegedAction<Resolver>)JavaDispatcher.of((Class<T>)Resolver.class));
+                                                                                                      ^
+  symbol:   class T
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:104: error: cannot find symbol
+        RESOLVER = AccessController.doPrivileged((PrivilegedAction<Resolver>)JavaDispatcher.of((Class<T>)Resolver.class));
+                                                                             ^
+  symbol:   variable JavaDispatcher
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:105: error: cannot find symbol
+        MODULE = AccessController.doPrivileged((PrivilegedAction<Module>)JavaDispatcher.of((Class<T>)Module.class));
+                                                                                                  ^
+  symbol:   class T
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:105: error: cannot find symbol
+        MODULE = AccessController.doPrivileged((PrivilegedAction<Module>)JavaDispatcher.of((Class<T>)Module.class));
+                                                                         ^
+  symbol:   variable JavaDispatcher
+  location: class JavaModule
+23 errors

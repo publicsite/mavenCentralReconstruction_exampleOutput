@@ -1,0 +1,50 @@
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:19: error: package javax.resource does not exist
+import javax.resource.NotSupportedException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:20: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:21: error: package javax.resource.cci does not exist
+import javax.resource.cci.IndexedRecord;
+                         ^
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:22: error: package javax.resource.cci does not exist
+import javax.resource.cci.MappedRecord;
+                         ^
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:23: error: package javax.resource.cci does not exist
+import javax.resource.cci.RecordFactory;
+                         ^
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:42: error: cannot find symbol
+public class NotSupportedRecordFactory implements RecordFactory {
+                                                  ^
+  symbol: class RecordFactory
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:44: error: cannot find symbol
+	public MappedRecord createMappedRecord(String name) throws ResourceException {
+	       ^
+  symbol:   class MappedRecord
+  location: class NotSupportedRecordFactory
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:44: error: cannot find symbol
+	public MappedRecord createMappedRecord(String name) throws ResourceException {
+	                                                           ^
+  symbol:   class ResourceException
+  location: class NotSupportedRecordFactory
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:48: error: cannot find symbol
+	public IndexedRecord createIndexedRecord(String name) throws ResourceException {
+	       ^
+  symbol:   class IndexedRecord
+  location: class NotSupportedRecordFactory
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:48: error: cannot find symbol
+	public IndexedRecord createIndexedRecord(String name) throws ResourceException {
+	                                                             ^
+  symbol:   class ResourceException
+  location: class NotSupportedRecordFactory
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:45: error: cannot find symbol
+		throw new NotSupportedException("The RecordFactory facility is not supported by the connector");
+		          ^
+  symbol:   class NotSupportedException
+  location: class NotSupportedRecordFactory
+hybrids/org.springframework/spring/2.5.6/NotSupportedRecordFactory.java:49: error: cannot find symbol
+		throw new NotSupportedException("The RecordFactory facility is not supported by the connector");
+		          ^
+  symbol:   class NotSupportedException
+  location: class NotSupportedRecordFactory
+12 errors

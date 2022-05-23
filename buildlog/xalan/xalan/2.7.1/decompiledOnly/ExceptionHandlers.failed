@@ -1,0 +1,71 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:7: error: cannot find symbol
+import org.apache.bcel.generic.InstructionHandle;
+                              ^
+  symbol:   class InstructionHandle
+  location: package org.apache.bcel.generic
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:8: error: cannot find symbol
+import org.apache.bcel.generic.CodeExceptionGen;
+                              ^
+  symbol:   class CodeExceptionGen
+  location: package org.apache.bcel.generic
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:10: error: cannot find symbol
+import org.apache.bcel.generic.MethodGen;
+                              ^
+  symbol:   class MethodGen
+  location: package org.apache.bcel.generic
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:17: error: cannot find symbol
+    public ExceptionHandlers(final MethodGen mg) {
+                                   ^
+  symbol:   class MethodGen
+  location: class ExceptionHandlers
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:33: error: cannot find symbol
+    public ExceptionHandler[] getExceptionHandlers(final InstructionHandle ih) {
+                                                         ^
+  symbol:   class InstructionHandle
+  location: class ExceptionHandlers
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:33: error: cannot find symbol
+    public ExceptionHandler[] getExceptionHandlers(final InstructionHandle ih) {
+           ^
+  symbol:   class ExceptionHandler
+  location: class ExceptionHandlers
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:19: error: cannot find symbol
+        final CodeExceptionGen[] cegs = mg.getExceptionHandlers();
+              ^
+  symbol:   class CodeExceptionGen
+  location: class ExceptionHandlers
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:21: error: cannot find symbol
+            final ExceptionHandler eh = new ExceptionHandler(cegs[i].getCatchType(), cegs[i].getHandlerPC());
+                  ^
+  symbol:   class ExceptionHandler
+  location: class ExceptionHandlers
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:21: error: cannot find symbol
+            final ExceptionHandler eh = new ExceptionHandler(cegs[i].getCatchType(), cegs[i].getHandlerPC());
+                                            ^
+  symbol:   class ExceptionHandler
+  location: class ExceptionHandlers
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:22: error: cannot find symbol
+            for (InstructionHandle ih = cegs[i].getStartPC(); ih != cegs[i].getEndPC().getNext(); ih = ih.getNext()) {
+                 ^
+  symbol:   class InstructionHandle
+  location: class ExceptionHandlers
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:36: error: cannot find symbol
+            return new ExceptionHandler[0];
+                       ^
+  symbol:   class ExceptionHandler
+  location: class ExceptionHandlers
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:38: error: cannot find symbol
+        final ExceptionHandler[] ret = new ExceptionHandler[hs.size()];
+              ^
+  symbol:   class ExceptionHandler
+  location: class ExceptionHandlers
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:38: error: cannot find symbol
+        final ExceptionHandler[] ret = new ExceptionHandler[hs.size()];
+                                           ^
+  symbol:   class ExceptionHandler
+  location: class ExceptionHandlers
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/ExceptionHandlers.java:39: error: cannot find symbol
+        return (ExceptionHandler[])hs.toArray(ret);
+                ^
+  symbol:   class ExceptionHandler
+  location: class ExceptionHandlers
+14 errors

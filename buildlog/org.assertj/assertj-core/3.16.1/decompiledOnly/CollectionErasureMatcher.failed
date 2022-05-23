@@ -1,0 +1,82 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:10: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:11: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:12: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDefinition;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:15: error: package ElementMatcher.Junction does not exist
+public class CollectionErasureMatcher<T extends Iterable<? extends TypeDefinition>> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                                                   ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:14: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:15: error: cannot find symbol
+public class CollectionErasureMatcher<T extends Iterable<? extends TypeDefinition>> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                   ^
+  symbol: class TypeDefinition
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:17: error: cannot find symbol
+    private final ElementMatcher<? super Iterable<? extends TypeDescription>> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class CollectionErasureMatcher<T>
+  where T is a type-variable:
+    T extends Iterable<? extends TypeDefinition> declared in class CollectionErasureMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:17: error: cannot find symbol
+    private final ElementMatcher<? super Iterable<? extends TypeDescription>> matcher;
+                                                            ^
+  symbol:   class TypeDescription
+  location: class CollectionErasureMatcher<T>
+  where T is a type-variable:
+    T extends Iterable<? extends TypeDefinition> declared in class CollectionErasureMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:19: error: cannot find symbol
+    public CollectionErasureMatcher(final ElementMatcher<? super Iterable<? extends TypeDescription>> matcher) {
+                                          ^
+  symbol:   class ElementMatcher
+  location: class CollectionErasureMatcher<T>
+  where T is a type-variable:
+    T extends Iterable<? extends TypeDefinition> declared in class CollectionErasureMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:19: error: cannot find symbol
+    public CollectionErasureMatcher(final ElementMatcher<? super Iterable<? extends TypeDescription>> matcher) {
+                                                                                    ^
+  symbol:   class TypeDescription
+  location: class CollectionErasureMatcher<T>
+  where T is a type-variable:
+    T extends Iterable<? extends TypeDefinition> declared in class CollectionErasureMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:24: error: cannot find symbol
+        final List<TypeDescription> typeDescriptions = new ArrayList<TypeDescription>();
+                   ^
+  symbol:   class TypeDescription
+  location: class CollectionErasureMatcher<T>
+  where T is a type-variable:
+    T extends Iterable<? extends TypeDefinition> declared in class CollectionErasureMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:24: error: cannot find symbol
+        final List<TypeDescription> typeDescriptions = new ArrayList<TypeDescription>();
+                                                                     ^
+  symbol:   class TypeDescription
+  location: class CollectionErasureMatcher<T>
+  where T is a type-variable:
+    T extends Iterable<? extends TypeDefinition> declared in class CollectionErasureMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:25: error: cannot find symbol
+        for (final TypeDefinition typeDefinition : target) {
+                   ^
+  symbol:   class TypeDefinition
+  location: class CollectionErasureMatcher<T>
+  where T is a type-variable:
+    T extends Iterable<? extends TypeDefinition> declared in class CollectionErasureMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:31: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:36: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:38: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((CollectionErasureMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionErasureMatcher.java:41: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+17 errors

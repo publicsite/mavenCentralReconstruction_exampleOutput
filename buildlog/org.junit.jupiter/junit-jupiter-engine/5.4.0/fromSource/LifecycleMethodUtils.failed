@@ -1,0 +1,87 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:13: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.AnnotationUtils.findAnnotatedMethods;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.AnnotationUtils.findAnnotatedMethods;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:14: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.returnsVoid;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:14: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.returnsVoid;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:24: error: package org.junit.platform.commons does not exist
+import org.junit.platform.commons.JUnitException;
+                                 ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:25: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:26: error: package org.junit.platform.commons.util.ReflectionUtils does not exist
+import org.junit.platform.commons.util.ReflectionUtils.HierarchyTraversalMode;
+                                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:78: error: cannot find symbol
+			Class<? extends Annotation> annotationType, HierarchyTraversalMode traversalMode) {
+			                                            ^
+  symbol:   class HierarchyTraversalMode
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:87: error: cannot find symbol
+			Class<? extends Annotation> annotationType, HierarchyTraversalMode traversalMode) {
+			                                            ^
+  symbol:   class HierarchyTraversalMode
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:94: error: cannot find symbol
+			Class<? extends Annotation> annotationType, HierarchyTraversalMode traversalMode) {
+			                                            ^
+  symbol:   class HierarchyTraversalMode
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:40: error: cannot find symbol
+		return findMethodsAndAssertStatic(testClass, requireStatic, BeforeAll.class, HierarchyTraversalMode.TOP_DOWN);
+		                                                                             ^
+  symbol:   variable HierarchyTraversalMode
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:44: error: cannot find symbol
+		return findMethodsAndAssertStatic(testClass, requireStatic, AfterAll.class, HierarchyTraversalMode.BOTTOM_UP);
+		                                                                            ^
+  symbol:   variable HierarchyTraversalMode
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:48: error: cannot find symbol
+		return findMethodsAndAssertNonStatic(testClass, BeforeEach.class, HierarchyTraversalMode.TOP_DOWN);
+		                                                                  ^
+  symbol:   variable HierarchyTraversalMode
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:52: error: cannot find symbol
+		return findMethodsAndAssertNonStatic(testClass, AfterEach.class, HierarchyTraversalMode.BOTTOM_UP);
+		                                                                 ^
+  symbol:   variable HierarchyTraversalMode
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:56: error: cannot find symbol
+		if (ReflectionUtils.isNotStatic(method)) {
+		    ^
+  symbol:   variable ReflectionUtils
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:57: error: cannot find symbol
+			throw new JUnitException(String.format(
+			          ^
+  symbol:   class JUnitException
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:64: error: cannot find symbol
+		if (ReflectionUtils.isStatic(method)) {
+		    ^
+  symbol:   variable ReflectionUtils
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:65: error: cannot find symbol
+			throw new JUnitException(String.format("@%s method '%s' must not be static.",
+			          ^
+  symbol:   class JUnitException
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:71: error: cannot find symbol
+		if (!returnsVoid(method)) {
+		     ^
+  symbol:   method returnsVoid(Method)
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:72: error: cannot find symbol
+			throw new JUnitException(String.format("@%s method '%s' must not return a value.",
+			          ^
+  symbol:   class JUnitException
+  location: class LifecycleMethodUtils
+20 errors

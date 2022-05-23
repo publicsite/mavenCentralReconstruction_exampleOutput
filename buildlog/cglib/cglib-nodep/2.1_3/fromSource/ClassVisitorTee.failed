@@ -1,0 +1,152 @@
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Attribute;
+                        ^
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.CodeVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:20: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:22: error: cannot find symbol
+public class ClassVisitorTee implements ClassVisitor {
+                                        ^
+  symbol: class ClassVisitor
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:23: error: cannot find symbol
+    private ClassVisitor cv1, cv2;
+            ^
+  symbol:   class ClassVisitor
+  location: class ClassVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:25: error: cannot find symbol
+    public ClassVisitorTee(ClassVisitor cv1, ClassVisitor cv2) {
+                           ^
+  symbol:   class ClassVisitor
+  location: class ClassVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:25: error: cannot find symbol
+    public ClassVisitorTee(ClassVisitor cv1, ClassVisitor cv2) {
+                                             ^
+  symbol:   class ClassVisitor
+  location: class ClassVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:41: error: cannot find symbol
+    public void visitField(int access, String name, String desc, Object value, Attribute attrs) {
+                                                                               ^
+  symbol:   class Attribute
+  location: class ClassVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:51: error: cannot find symbol
+    public CodeVisitor visitMethod(int access, String name, String desc, String[] exceptions, Attribute attrs) {
+                                                                                              ^
+  symbol:   class Attribute
+  location: class ClassVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:51: error: cannot find symbol
+    public CodeVisitor visitMethod(int access, String name, String desc, String[] exceptions, Attribute attrs) {
+           ^
+  symbol:   class CodeVisitor
+  location: class ClassVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:63: error: cannot find symbol
+    public void visitAttribute(Attribute attrs) {
+                               ^
+  symbol:   class Attribute
+  location: class ClassVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:52: error: cannot find symbol
+        CodeVisitor code1 = cv1.visitMethod(access, name, desc, exceptions, attrs);
+        ^
+  symbol:   class CodeVisitor
+  location: class ClassVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/ClassVisitorTee.java:53: error: cannot find symbol
+        CodeVisitor code2 = cv2.visitMethod(access, name, desc, exceptions, attrs);
+        ^
+  symbol:   class CodeVisitor
+  location: class ClassVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Attribute;
+                        ^
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.CodeVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:20: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Label;
+                        ^
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:22: error: cannot find symbol
+public class CodeVisitorTee implements CodeVisitor {
+                                       ^
+  symbol: class CodeVisitor
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:23: error: cannot find symbol
+    private CodeVisitor cv1, cv2;
+            ^
+  symbol:   class CodeVisitor
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:25: error: cannot find symbol
+    public CodeVisitorTee(CodeVisitor cv1, CodeVisitor cv2) {
+                          ^
+  symbol:   class CodeVisitor
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:25: error: cannot find symbol
+    public CodeVisitorTee(CodeVisitor cv1, CodeVisitor cv2) {
+                                           ^
+  symbol:   class CodeVisitor
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:50: error: cannot find symbol
+    public void visitJumpInsn(int opcode, Label label) {
+                                          ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:55: error: cannot find symbol
+    public void visitLabel(Label label) {
+                           ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:65: error: cannot find symbol
+    public void visitLineNumber(int line, Label start) {
+                                          ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:70: error: cannot find symbol
+    public void visitLocalVariable(String name, String desc, Label start, Label end, int index) {
+                                                             ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:70: error: cannot find symbol
+    public void visitLocalVariable(String name, String desc, Label start, Label end, int index) {
+                                                                          ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:75: error: cannot find symbol
+    public void visitLookupSwitchInsn(Label dflt, int[] keys, Label[] labels) {
+                                      ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:75: error: cannot find symbol
+    public void visitLookupSwitchInsn(Label dflt, int[] keys, Label[] labels) {
+                                                              ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:95: error: cannot find symbol
+    public void visitTableSwitchInsn(int min, int max, Label dflt, Label[] labels) {
+                                                       ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:95: error: cannot find symbol
+    public void visitTableSwitchInsn(int min, int max, Label dflt, Label[] labels) {
+                                                                   ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:100: error: cannot find symbol
+    public void visitTryCatchBlock(Label start, Label end, Label handler, String type) {
+                                   ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:100: error: cannot find symbol
+    public void visitTryCatchBlock(Label start, Label end, Label handler, String type) {
+                                                ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:100: error: cannot find symbol
+    public void visitTryCatchBlock(Label start, Label end, Label handler, String type) {
+                                                           ^
+  symbol:   class Label
+  location: class CodeVisitorTee
+sources/structure/cglib/cglib-nodep/2.1_3/extractedSources/net/sf/cglib/transform/CodeVisitorTee.java:115: error: cannot find symbol
+    public void visitAttribute(Attribute attrs) {
+                               ^
+  symbol:   class Attribute
+  location: class CodeVisitorTee
+33 errors

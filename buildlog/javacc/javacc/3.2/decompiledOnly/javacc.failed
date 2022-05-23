@@ -1,0 +1,341 @@
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/Main.java:126: error: incompatible types: Object cannot be converted to boolean
+            if (Options.optionValues.get("UNICODE_INPUT")) {
+                                        ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/Options.java:16: error: incompatible types: Object cannot be converted to Integer
+        final Integer i = Options.optionValues.get(s);
+                                                  ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/Options.java:21: error: incompatible types: Object cannot be converted to Boolean
+        final Boolean b = Options.optionValues.get(s);
+                                                  ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/Options.java:26: error: incompatible types: Object cannot be converted to String
+        return Options.optionValues.get(s);
+                                       ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/JavaCCParser.java:376: error: incompatible types: Object cannot be converted to String
+                                            p.lexStates[i] = states.elementAt(i);
+                                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/JavaCCParser.java:9383: error: incompatible types: Object cannot be converted to int[]
+                final int[] oldentry = enum1.nextElement();
+                                                        ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/JavaCCParser.java:9449: error: incompatible types: Object cannot be converted to int[]
+            exptokseq[m] = this.jj_expentries.elementAt(m);
+                                                       ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:124: error: cannot find symbol
+        for (j = 0; j < v.size() && v.elementAt(j).id <= s.id; ++j) {
+                                                  ^
+  symbol:   variable id
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:125: error: cannot find symbol
+            if (v.elementAt(j).id == s.id) {
+                              ^
+  symbol:   variable id
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:248: error: cannot find symbol
+            this.epsilonMoves.elementAt(i).EpsilonClosure();
+                                          ^
+  symbol:   method EpsilonClosure()
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:254: error: incompatible types: Object cannot be converted to NfaState
+            for (tmp = e.nextElement(), i = 0; i < tmp.epsilonMoves.size(); ++i) {
+                                    ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:255: error: incompatible types: Object cannot be converted to NfaState
+                tmp2 = tmp.epsilonMoves.elementAt(i);
+                                                 ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:321: error: cannot find symbol
+        final NfaState newState = states.elementAt(0).CreateClone();
+                                                     ^
+  symbol:   method CreateClone()
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:323: error: cannot find symbol
+        InsertInOrder(newState.next.epsilonMoves, states.elementAt(0).next);
+                                                                     ^
+  symbol:   variable next
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:325: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp2 = states.elementAt(i);
+                                                  ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:340: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState other = NfaState.allStates.elementAt(i);
+                                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:385: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp = NfaState.allStates.elementAt(i);
+                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:391: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp2 = NfaState.allStates.elementAt(j);
+                                                              ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:397: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp3 = NfaState.allStates.elementAt(k);
+                                                              ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:418: error: cannot find symbol
+            NfaState.allStates.elementAt(i).closureDone = NfaState.mark[NfaState.allStates.elementAt(i).id];
+                                           ^
+  symbol:   variable closureDone
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:418: error: cannot find symbol
+            NfaState.allStates.elementAt(i).closureDone = NfaState.mark[NfaState.allStates.elementAt(i).id];
+                                                                                                       ^
+  symbol:   variable id
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:425: error: variable i is already defined in method OptimizeEpsilonMoves(boolean)
+            for (int i = 0; optReqd && i < this.epsilonMoves.size(); ++i) {
+                     ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:427: error: incompatible types: Object cannot be converted to NfaState
+                if ((tmp1 = this.epsilonMoves.elementAt(i)).HasTransitions()) {
+                                                       ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:430: error: incompatible types: Object cannot be converted to NfaState
+                        if ((tmp2 = this.epsilonMoves.elementAt(j)).HasTransitions() && tmp1.asciiMoves[0] == tmp2.asciiMoves[0] && tmp1.asciiMoves[1] == tmp2.asciiMoves[1] && EqualCharArr(tmp1.charMoves, tmp2.charMoves) && EqualCharArr(tmp1.rangeMoves, tmp2.rangeMoves)) {
+                                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:444: error: cannot find symbol
+                        tmp3 = tmp3 + String.valueOf(equivStates.elementAt(l).id) + ", ";
+                                                                             ^
+  symbol:   variable id
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:446: error: incompatible types: Object cannot be converted to NfaState
+                    if ((newState = NfaState.equivStatesTable.get(tmp3)) == null) {
+                                                                 ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:456: error: variable i is already defined in method OptimizeEpsilonMoves(boolean)
+            for (int i = 0; i < this.epsilonMoves.size(); ++i) {
+                     ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:457: error: incompatible types: Object cannot be converted to NfaState
+                final NfaState tmp1 = this.epsilonMoves.elementAt(i);
+                                                                 ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:459: error: incompatible types: Object cannot be converted to NfaState
+                    final NfaState tmp2 = this.epsilonMoves.elementAt(j);
+                                                                     ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:478: error: variable i is already defined in method OptimizeEpsilonMoves(boolean)
+            for (int i = 0; i < this.epsilonMoves.size(); ++i) {
+                     ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:480: error: incompatible types: Object cannot be converted to NfaState
+                if ((tempState = this.epsilonMoves.elementAt(i)).HasTransitions()) {
+                                                            ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:506: error: incompatible types: Object cannot be converted to NfaState
+                if ((tempState = this.epsilonMoves.elementAt(i)).HasTransitions()) {
+                                                            ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:510: error: incompatible types: Object cannot be converted to NfaState
+                    final NfaState nfaState = NfaState.indexedAllStates.elementAt(tempState.stateName);
+                                                                                 ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:538: error: incompatible types: Object cannot be converted to int[]
+        final int[] states = NfaState.allNextStates.get(s);
+                                                       ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:540: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp = NfaState.indexedAllStates.elementAt(states[i]);
+                                                                    ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:602: error: incompatible types: Object cannot be converted to NfaState
+                InsertInOrder(newStates, this.next.epsilonMoves.elementAt(i));
+                                                                         ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:614: error: cannot find symbol
+            if (retVal > (tmp = states.elementAt(i).MoveFrom(c, newStates))) {
+                                                   ^
+  symbol:   method MoveFrom(char,Vector)
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:739: error: incompatible types: Object cannot be converted to Integer
+                        if ((ind = NfaState.lohiByteTab.get(tmp)) == null) {
+                                                           ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:748: error: incompatible types: Object cannot be converted to Integer
+                        if ((ind = NfaState.lohiByteTab.get(tmp)) == null) {
+                                                           ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:770: error: incompatible types: Object cannot be converted to Integer
+                if ((ind2 = NfaState.lohiByteTab.get(tmp2)) == null) {
+                                                    ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:789: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp = NfaState.nonAsciiTableForMethod.elementAt(i);
+                                                                          ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:810: error: bad operand types for binary operator '!='
+            if (vec1.elementAt(i) != (int)vec2.elementAt(i)) {
+                                  ^
+  first type:  Object
+  second type: int
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:845: error: incompatible types: Object cannot be converted to Integer
+        if ((stateNameToReturn = NfaState.stateNameForComposite.get(stateSetString)) != null) {
+                                                                   ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:849: error: incompatible types: Object cannot be converted to int[]
+        final int[] nameSet = NfaState.allNextStates.get(stateSetString);
+                                                        ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:863: error: incompatible types: Object cannot be converted to NfaState
+                final NfaState st = NfaState.indexedAllStates.elementAt(nameSet[i]);
+                                                                       ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:868: error: cannot find symbol
+        while (toRet < nameSet.length && starts && NfaState.indexedAllStates.elementAt(nameSet[toRet]).inNextOf > 1) {
+                                                                                                      ^
+  symbol:   variable inNextOf
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:873: error: incompatible types: Object cannot be converted to String
+            final String s = e.nextElement();
+                                          ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:875: error: incompatible types: Object cannot be converted to int[]
+                for (int[] other = NfaState.compositeStateTable.get(s); toRet < nameSet.length && ((starts && NfaState.indexedAllStates.elementAt(nameSet[toRet]).inNextOf > 1) || ElemOccurs(nameSet[toRet], other) >= 0); ++toRet) {}
+                                                                   ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:875: error: cannot find symbol
+                for (int[] other = NfaState.compositeStateTable.get(s); toRet < nameSet.length && ((starts && NfaState.indexedAllStates.elementAt(nameSet[toRet]).inNextOf > 1) || ElemOccurs(nameSet[toRet], other) >= 0); ++toRet) {}
+                                                                                                                                                                 ^
+  symbol:   variable inNextOf
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:897: error: incompatible types: Object cannot be converted to int
+        return NfaState.stateNameForComposite.get(stateSetString);
+                                                 ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:917: error: incompatible types: Object cannot be converted to int[]
+        final int[] set = NfaState.allNextStates.get(arrayString);
+                                                    ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:919: error: incompatible types: Object cannot be converted to int[]
+        if ((ret = NfaState.tableToDump.get(arrayString)) == null) {
+                                           ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:932: error: incompatible types: Object cannot be converted to int[]
+            final int[] set = NfaState.orderedStateSet.elementAt(i);
+                                                                ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:966: error: cannot find symbol
+            retVal = retVal + (k = states.elementAt(i).stateName) + ", ";
+                                                      ^
+  symbol:   variable stateName
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1018: error: incompatible types: Object cannot be converted to int[]
+        final int[] nameSet = NfaState.allNextStates.get(set);
+                                                        ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1037: error: incompatible types: Object cannot be converted to String
+            final int[] tmpSet = NfaState.allNextStates.get(s = e.nextElement());
+                                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1037: error: incompatible types: Object cannot be converted to int[]
+            final int[] tmpSet = NfaState.allNextStates.get(s = e.nextElement());
+                                                           ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1089: error: cannot find symbol
+                if (NfaState.indexedAllStates.elementAt(nameSet[i]).isComposite) {
+                                                                   ^
+  symbol:   variable isComposite
+  location: class Object
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1089: error: illegal parenthesized expression
+                if (NfaState.indexedAllStates.elementAt(nameSet[i]).isComposite) {
+                   ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1102: error: incompatible types: Object cannot be converted to String
+            final int[] setToFix = NfaState.allNextStates.get(stringToFix = e.nextElement());
+                                                                                         ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1102: error: incompatible types: Object cannot be converted to int[]
+            final int[] setToFix = NfaState.allNextStates.get(stringToFix = e.nextElement());
+                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1132: error: incompatible types: Object cannot be converted to int[]
+        final int[] nameSet = NfaState.allNextStates.get(set);
+                                                        ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1137: error: incompatible types: Object cannot be converted to NfaState
+        final NfaState tmp = NfaState.allStates.elementAt(nameSet[0]);
+                                                         ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1139: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp2 = NfaState.allStates.elementAt(nameSet[i]);
+                                                              ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1147: error: incompatible types: Object cannot be converted to String
+            final int[] tmpSet = NfaState.allNextStates.get(s = e.nextElement());
+                                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1147: error: incompatible types: Object cannot be converted to int[]
+            final int[] tmpSet = NfaState.allNextStates.get(s = e.nextElement());
+                                                           ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1180: error: incompatible types: Object cannot be converted to String
+            final int[] setToFix = occursIn.get(s = e.nextElement());
+                                                                 ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1180: error: incompatible types: Object cannot be converted to int[]
+            final int[] setToFix = occursIn.get(s = e.nextElement());
+                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1201: error: incompatible types: Object cannot be converted to String
+            final int[] toFix = NfaState.stateSetsToFix.get(s = e.nextElement());
+                                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1201: error: incompatible types: Object cannot be converted to int[]
+            final int[] toFix = NfaState.stateSetsToFix.get(s = e.nextElement());
+                                                           ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1214: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmpState = NfaState.allStates.elementAt(i);
+                                                                  ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1218: error: incompatible types: Object cannot be converted to int[]
+                    if ((newSet = fixedSets.get(tmpState.next.epsilonMovesString)) != null) {
+                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1234: error: incompatible types: Object cannot be converted to int[]
+        final int[] nameSet1 = NfaState.allNextStates.get(set1);
+                                                         ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1235: error: incompatible types: Object cannot be converted to int[]
+        final int[] nameSet2 = NfaState.allNextStates.get(set2);
+                                                         ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1283: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp = NfaState.allStates.elementAt(states[i]);
+                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1298: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp = original.elementAt(0);
+                                                   ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1304: error: incompatible types: Object cannot be converted to NfaState
+                final NfaState tmp2 = original.elementAt(l);
+                                                        ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1337: error: incompatible types: Object cannot be converted to int[]
+        final int[] nameSet = NfaState.allNextStates.get(key);
+                                                        ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1347: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp = NfaState.allStates.elementAt(nameSet[i]);
+                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1395: error: incompatible types: Object cannot be converted to Vector
+            final Vector subSet = partition.elementAt(i);
+                                                     ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1397: error: incompatible types: Object cannot be converted to NfaState
+                final NfaState tmp = subSet.elementAt(j);
+                                                     ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1416: error: incompatible types: Object cannot be converted to int[]
+        final int[] set = NfaState.allNextStates.get(this.next.epsilonMovesString);
+                                                    ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1423: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState temp1 = NfaState.allStates.elementAt(j);
+                                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1452: error: incompatible types: Object cannot be converted to int[]
+            final int[] stateNames = NfaState.allNextStates.get(this.next.epsilonMovesString);
+                                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1485: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState temp1 = NfaState.allStates.elementAt(j);
+                                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1549: error: incompatible types: Object cannot be converted to int[]
+            final int[] stateNames = NfaState.allNextStates.get(this.next.epsilonMovesString);
+                                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1586: error: incompatible types: Object cannot be converted to String
+            DumpCompositeStatesAsciiMoves(ostr, e.nextElement(), byteNum, dumped);
+                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1589: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState temp = NfaState.allStates.elementAt(i);
+                                                              ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1625: error: incompatible types: Object cannot be converted to int[]
+        final int[] nameSet = NfaState.allNextStates.get(key);
+                                                        ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1635: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp = NfaState.allStates.elementAt(nameSet[i]);
+                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1682: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp = NfaState.allStates.elementAt(nameSet[i]);
+                                                             ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1701: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState temp1 = NfaState.allStates.elementAt(j);
+                                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1725: error: incompatible types: Object cannot be converted to int[]
+            final int[] stateNames = NfaState.allNextStates.get(this.next.epsilonMovesString);
+                                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1757: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState temp1 = NfaState.allStates.elementAt(j);
+                                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1809: error: incompatible types: Object cannot be converted to int[]
+            final int[] stateNames = NfaState.allNextStates.get(this.next.epsilonMovesString);
+                                                               ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1841: error: incompatible types: Object cannot be converted to String
+            DumpCompositeStatesNonAsciiMoves(ostr, e.nextElement(), dumped);
+                                                                ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1844: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState temp = NfaState.allStates.elementAt(i);
+                                                              ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1887: error: incompatible types: Object cannot be converted to NfaState
+            final NfaState tmp = NfaState.nonAsciiTableForMethod.elementAt(i);
+                                                                          ^
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1900: error: no suitable method found for elementAt(Object)
+                if (!AllBitsSet(NfaState.allBitVectors.elementAt(this.loByteVec.elementAt(j + 1)))) {
+                                                      ^
+    method Vector.elementAt(int) is not applicable
+      (argument mismatch; Object cannot be converted to int)
+    method Vector.<E>elementAt(Object[],int) is not applicable
+      (cannot infer type-variable(s) E
+        (actual and formal argument lists differ in length))
+  where E is a type-variable:
+    E extends Object declared in method <E>elementAt(Object[],int)
+sources/structure/javacc/javacc/3.2/Decompiled/org/javacc/parser/NfaState.java:1912: error: incompatible types: Object cannot be converted to String
+                if (!AllBitsSet(NfaState.allBitVectors.elementAt(this.nonAsciiMoveIndices[j - 2]))) {
+                                                                ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors

@@ -1,0 +1,523 @@
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:8: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicate.java:18: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicate.java:19: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicate.java:20: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicate.java:47: error: cannot find symbol
+public interface Predicate<T extends @Nullable Object> extends java.util.function.Predicate<T> {
+                                      ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Function.java:18: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Function.java:19: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Function.java:20: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Function.java:46: error: cannot find symbol
+public interface Function<F extends @Nullable Object, T extends @Nullable Object>
+                                     ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Function.java:46: error: cannot find symbol
+public interface Function<F extends @Nullable Object, T extends @Nullable Object>
+                                                                 ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ParametricNullness.java:50: error: package javax.annotation.meta does not exist
+@javax.annotation.meta.TypeQualifierNickname
+                      ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ParametricNullness.java:51: error: package javax.annotation does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Function.java:49: error: cannot find symbol
+  @CanIgnoreReturnValue // TODO(kevinb): remove this
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: interface Function<F,T>
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Function.java:65: error: cannot find symbol
+  boolean equals(@CheckForNull Object object);
+                  ^
+  symbol:   class CheckForNull
+  location: interface Function<F,T>
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicate.java:63: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: interface Predicate<T>
+  where T is a type-variable:
+    T extends Object declared in interface Predicate
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicate.java:77: error: cannot find symbol
+  boolean equals(@CheckForNull Object object);
+                  ^
+  symbol:   class CheckForNull
+  location: interface Predicate<T>
+  where T is a type-variable:
+    T extends Object declared in interface Predicate
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:218: error: cannot find symbol
+        public boolean equals(@CheckForNull final Object obj) {
+                               ^
+  symbol:   class CheckForNull
+  location: class NotPredicate<T>
+  where T is a type-variable:
+    T extends Object declared in class NotPredicate
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:258: error: cannot find symbol
+        public boolean equals(@CheckForNull final Object obj) {
+                               ^
+  symbol:   class CheckForNull
+  location: class AndPredicate<T>
+  where T is a type-variable:
+    T extends Object declared in class AndPredicate
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:297: error: cannot find symbol
+        public boolean equals(@CheckForNull final Object obj) {
+                               ^
+  symbol:   class CheckForNull
+  location: class OrPredicate<T>
+  where T is a type-variable:
+    T extends Object declared in class OrPredicate
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:321: error: cannot find symbol
+        public boolean apply(@CheckForNull final Object o) {
+                              ^
+  symbol:   class CheckForNull
+  location: class IsEqualToPredicate
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:331: error: cannot find symbol
+        public boolean equals(@CheckForNull final Object obj) {
+                               ^
+  symbol:   class CheckForNull
+  location: class IsEqualToPredicate
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:371: error: cannot find symbol
+        public boolean equals(@CheckForNull final Object obj) {
+                               ^
+  symbol:   class CheckForNull
+  location: class InstanceOfPredicate<T>
+  where T is a type-variable:
+    T extends Object declared in class InstanceOfPredicate
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:407: error: cannot find symbol
+        public boolean equals(@CheckForNull final Object obj) {
+                               ^
+  symbol:   class CheckForNull
+  location: class SubtypeOfPredicate
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:444: error: cannot find symbol
+        public boolean equals(@CheckForNull final Object obj) {
+                               ^
+  symbol:   class CheckForNull
+  location: class InPredicate<T>
+  where T is a type-variable:
+    T extends Object declared in class InPredicate
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:481: error: cannot find symbol
+        public boolean equals(@CheckForNull final Object obj) {
+                               ^
+  symbol:   class CheckForNull
+  location: class CompositionPredicate<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class CompositionPredicate
+    B extends Object declared in class CompositionPredicate
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:523: error: cannot find symbol
+        public boolean equals(@CheckForNull final Object obj) {
+                               ^
+  symbol:   class CheckForNull
+  location: class ContainsPatternPredicate
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ParametricNullness.java:51: error: package javax.annotation.meta does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                                                      ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:140: error: constructor ObjectPredicate in enum ObjectPredicate cannot be applied to given types;
+        ALWAYS_TRUE(0) {
+                   ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:142: error: cannot find symbol
+            public boolean apply(@CheckForNull final Object o) {
+                                  ^
+  symbol: class CheckForNull
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:151: error: constructor ObjectPredicate in enum ObjectPredicate cannot be applied to given types;
+        ALWAYS_FALSE(1) {
+                    ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:153: error: cannot find symbol
+            public boolean apply(@CheckForNull final Object o) {
+                                  ^
+  symbol: class CheckForNull
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:162: error: constructor ObjectPredicate in enum ObjectPredicate cannot be applied to given types;
+        IS_NULL(2) {
+               ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:164: error: cannot find symbol
+            public boolean apply(@CheckForNull final Object o) {
+                                  ^
+  symbol: class CheckForNull
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:173: error: constructor ObjectPredicate in enum ObjectPredicate cannot be applied to given types;
+        NOT_NULL(3) {
+                ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:175: error: cannot find symbol
+            public boolean apply(@CheckForNull final Object o) {
+                                  ^
+  symbol: class CheckForNull
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java:194: error: cannot find symbol
+            $VALUES = $values();
+            ^
+  symbol:   variable $VALUES
+  location: class ObjectPredicate
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:19: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:20: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:53: error: cannot find symbol
+  public static boolean equal(@CheckForNull Object a, @CheckForNull Object b) {
+                               ^
+  symbol:   class CheckForNull
+  location: class Objects
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:53: error: cannot find symbol
+  public static boolean equal(@CheckForNull Object a, @CheckForNull Object b) {
+                                                       ^
+  symbol:   class CheckForNull
+  location: class Objects
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:78: error: cannot find symbol
+  public static int hashCode(@CheckForNull @Nullable Object... objects) {
+                              ^
+  symbol:   class CheckForNull
+  location: class Objects
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:78: error: cannot find symbol
+  public static int hashCode(@CheckForNull @Nullable Object... objects) {
+                                            ^
+  symbol:   class Nullable
+  location: class Objects
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:20: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:28: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:81: error: cannot find symbol
+  public static <T> T firstNonNull(@CheckForNull T first, T second) {
+                                    ^
+  symbol:   class CheckForNull
+  location: class MoreObjects
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:186: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:198: error: cannot find symbol
+    public ToStringHelper add(String name, @CheckForNull Object value) {
+                                            ^
+  symbol:   class CheckForNull
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:197: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:207: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:217: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:227: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:237: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:247: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:257: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:269: error: cannot find symbol
+    public ToStringHelper addValue(@CheckForNull Object value) {
+                                    ^
+  symbol:   class CheckForNull
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:268: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:281: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:294: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:307: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:320: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:333: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:346: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:422: error: cannot find symbol
+    private ToStringHelper addHolder(@CheckForNull Object value) {
+                                      ^
+  symbol:   class CheckForNull
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:428: error: cannot find symbol
+    private ToStringHelper addHolder(String name, @CheckForNull Object value) {
+                                                   ^
+  symbol:   class CheckForNull
+  location: class ToStringHelper
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:456: error: cannot find symbol
+      @CheckForNull String name;
+       ^
+  symbol:   class CheckForNull
+  location: class ValueHolder
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:457: error: cannot find symbol
+      @CheckForNull Object value;
+       ^
+  symbol:   class CheckForNull
+  location: class ValueHolder
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/MoreObjects.java:458: error: cannot find symbol
+      @CheckForNull ValueHolder next;
+       ^
+  symbol:   class CheckForNull
+  location: class ValueHolder
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Enums.java:28: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/NullnessCasts.java:18: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/NullnessCasts.java:19: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:21: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:22: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CheckReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:23: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.ForOverride;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:24: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.InlineMe;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:25: error: package com.google.errorprone.annotations.concurrent does not exist
+import com.google.errorprone.annotations.concurrent.LazyInit;
+                                                   ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:26: error: package com.google.j2objc.annotations does not exist
+import com.google.j2objc.annotations.RetainedWith;
+                                    ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:29: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/NullnessCasts.java:55: error: cannot find symbol
+  static <T extends @Nullable Object> T uncheckedCastNullableTToT(@CheckForNull T t) {
+                     ^
+  symbol:   class Nullable
+  location: class NullnessCasts
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:148: error: cannot find symbol
+  @LazyInit @RetainedWith @CheckForNull private transient Converter<B, A> reverse;
+   ^
+  symbol:   class LazyInit
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:148: error: cannot find symbol
+  @LazyInit @RetainedWith @CheckForNull private transient Converter<B, A> reverse;
+             ^
+  symbol:   class RetainedWith
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:148: error: cannot find symbol
+  @LazyInit @RetainedWith @CheckForNull private transient Converter<B, A> reverse;
+                           ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:169: error: cannot find symbol
+  @ForOverride
+   ^
+  symbol:   class ForOverride
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:184: error: cannot find symbol
+  @ForOverride
+   ^
+  symbol:   class ForOverride
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:196: error: cannot find symbol
+  public final B convert(@CheckForNull A a) {
+                          ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:194: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:195: error: cannot find symbol
+  @CheckForNull
+   ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:201: error: cannot find symbol
+  B correctedDoForward(@CheckForNull A a) {
+                        ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:200: error: cannot find symbol
+  @CheckForNull
+   ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:211: error: cannot find symbol
+  A correctedDoBackward(@CheckForNull B b) {
+                         ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:210: error: cannot find symbol
+  @CheckForNull
+   ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:247: error: cannot find symbol
+  private B unsafeDoForward(@CheckForNull A a) {
+                             ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:246: error: cannot find symbol
+  @CheckForNull
+   ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:252: error: cannot find symbol
+  private A unsafeDoBackward(@CheckForNull B b) {
+                              ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:251: error: cannot find symbol
+  @CheckForNull
+   ^
+  symbol:   class CheckForNull
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:264: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Converter.java:312: error: cannot find symbol
+  @CheckReturnValue
+   ^
+  symbol:   class CheckReturnValue
+  location: class Converter<A,B>
+  where A,B are type-variables:
+    A extends Object declared in class Converter
+    B extends Object declared in class Converter
+Note: sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/base/Predicates.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors

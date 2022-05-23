@@ -1,0 +1,42 @@
+hybrids/cglib/cglib-nodep/3.1/ClassNameReader.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassReader;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/ClassNameReader.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassVisitor;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/ClassNameReader.java:20: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Opcodes;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/ClassNameReader.java:32: error: cannot find symbol
+    public static String getClassName(ClassReader r) {
+                                      ^
+  symbol:   class ClassReader
+  location: class ClassNameReader
+hybrids/cglib/cglib-nodep/3.1/ClassNameReader.java:38: error: cannot find symbol
+    public static String[] getClassInfo(ClassReader r) {
+                                        ^
+  symbol:   class ClassReader
+  location: class ClassNameReader
+hybrids/cglib/cglib-nodep/3.1/ClassNameReader.java:41: error: cannot find symbol
+            r.accept(new ClassVisitor(Opcodes.ASM4, null) {
+                         ^
+  symbol:   class ClassVisitor
+  location: class ClassNameReader
+hybrids/cglib/cglib-nodep/3.1/ClassNameReader.java:41: error: cannot find symbol
+            r.accept(new ClassVisitor(Opcodes.ASM4, null) {
+                                      ^
+  symbol:   variable Opcodes
+  location: class ClassNameReader
+hybrids/cglib/cglib-nodep/3.1/ClassNameReader.java:58: error: cannot find symbol
+            }, ClassReader.SKIP_DEBUG | ClassReader.SKIP_FRAMES);
+               ^
+  symbol:   variable ClassReader
+  location: class ClassNameReader
+hybrids/cglib/cglib-nodep/3.1/ClassNameReader.java:58: error: cannot find symbol
+            }, ClassReader.SKIP_DEBUG | ClassReader.SKIP_FRAMES);
+                                        ^
+  symbol:   variable ClassReader
+  location: class ClassNameReader
+Note: hybrids/cglib/cglib-nodep/3.1/ClassNameReader.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

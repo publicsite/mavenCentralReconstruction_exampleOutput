@@ -1,0 +1,66 @@
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/NullnessCasts.java:18: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/NullnessCasts.java:19: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+hybrids/com.google.guava/guava/31.1-jre/InterruptibleTask.java:21: error: package com.google.j2objc.annotations does not exist
+import com.google.j2objc.annotations.ReflectionSupport;
+                                    ^
+hybrids/com.google.guava/guava/31.1-jre/InterruptibleTask.java:25: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+hybrids/com.google.guava/guava/31.1-jre/InterruptibleTask.java:28: error: cannot find symbol
+@ReflectionSupport(value = ReflectionSupport.Level.FULL)
+ ^
+  symbol: class ReflectionSupport
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+hybrids/com.google.guava/guava/31.1-jre/InterruptibleTask.java:36: error: cannot find symbol
+    extends AtomicReference<@Nullable Runnable> implements Runnable {
+                             ^
+  symbol: class Nullable
+hybrids/com.google.guava/guava/31.1-jre/InterruptibleTask.java:35: error: cannot find symbol
+abstract class InterruptibleTask<T extends @Nullable Object>
+                                            ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/NullnessCasts.java:55: error: cannot find symbol
+  static <T extends @Nullable Object> T uncheckedCastNullableTToT(@CheckForNull T t) {
+                     ^
+  symbol:   class Nullable
+  location: class NullnessCasts
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/NullnessCasts.java:71: error: cannot find symbol
+  static <T extends @Nullable Object> T uncheckedNull() {
+                     ^
+  symbol:   class Nullable
+  location: class NullnessCasts
+hybrids/com.google.guava/guava/31.1-jre/InterruptibleTask.java:28: error: package ReflectionSupport does not exist
+@ReflectionSupport(value = ReflectionSupport.Level.FULL)
+                                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ParametricNullness.java:50: error: package javax.annotation.meta does not exist
+@javax.annotation.meta.TypeQualifierNickname
+                      ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ParametricNullness.java:51: error: package javax.annotation does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/NullnessCasts.java:55: error: cannot find symbol
+  static <T extends @Nullable Object> T uncheckedCastNullableTToT(@CheckForNull T t) {
+                                                                   ^
+  symbol:   class CheckForNull
+  location: class NullnessCasts
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ParametricNullness.java:51: error: package javax.annotation.meta does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                                                      ^
+18 errors

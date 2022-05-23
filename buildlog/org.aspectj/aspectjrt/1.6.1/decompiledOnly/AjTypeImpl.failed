@@ -1,0 +1,16 @@
+sources/structure/org.aspectj/aspectjrt/1.6.1/Decompiled/org/aspectj/internal/lang/reflect/AjTypeImpl.java:105: error: incompatible types: Class<CAP#1> cannot be converted to Class<Object>
+        return (superclass == null) ? null : new AjTypeImpl<Object>(superclass);
+                                                                    ^
+  where T is a type-variable:
+    T extends Object declared in class AjTypeImpl
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: T from capture of ? super T
+sources/structure/org.aspectj/aspectjrt/1.6.1/Decompiled/org/aspectj/internal/lang/reflect/AjTypeImpl.java:122: error: incompatible types: Class<CAP#1> cannot be converted to Class<Object>
+        return (enc != null) ? new AjTypeImpl<Object>(enc) : null;
+                                                      ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+Note: sources/structure/org.aspectj/aspectjrt/1.6.1/Decompiled/org/aspectj/internal/lang/reflect/AjTypeImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors

@@ -1,0 +1,45 @@
+hybrids/junit/junit/4.10/AssumptionViolatedException.java:3: error: cannot find symbol
+import org.hamcrest.Description;
+                   ^
+  symbol:   class Description
+  location: package org.hamcrest
+hybrids/junit/junit/4.10/AssumptionViolatedException.java:4: error: cannot find symbol
+import org.hamcrest.Matcher;
+                   ^
+  symbol:   class Matcher
+  location: package org.hamcrest
+hybrids/junit/junit/4.10/AssumptionViolatedException.java:5: error: cannot find symbol
+import org.hamcrest.SelfDescribing;
+                   ^
+  symbol:   class SelfDescribing
+  location: package org.hamcrest
+hybrids/junit/junit/4.10/AssumptionViolatedException.java:6: error: cannot find symbol
+import org.hamcrest.StringDescription;
+                   ^
+  symbol:   class StringDescription
+  location: package org.hamcrest
+hybrids/junit/junit/4.10/AssumptionViolatedException.java:8: error: cannot find symbol
+public class AssumptionViolatedException extends RuntimeException implements SelfDescribing {
+                                                                             ^
+  symbol: class SelfDescribing
+hybrids/junit/junit/4.10/AssumptionViolatedException.java:13: error: cannot find symbol
+	private final Matcher<?> fMatcher;
+	              ^
+  symbol:   class Matcher
+  location: class AssumptionViolatedException
+hybrids/junit/junit/4.10/AssumptionViolatedException.java:15: error: cannot find symbol
+	public AssumptionViolatedException(Object value, Matcher<?> matcher) {
+	                                                 ^
+  symbol:   class Matcher
+  location: class AssumptionViolatedException
+hybrids/junit/junit/4.10/AssumptionViolatedException.java:30: error: cannot find symbol
+	public void describeTo(Description description) {
+	                       ^
+  symbol:   class Description
+  location: class AssumptionViolatedException
+hybrids/junit/junit/4.10/AssumptionViolatedException.java:27: error: cannot find symbol
+		return StringDescription.asString(this);
+		       ^
+  symbol:   variable StringDescription
+  location: class AssumptionViolatedException
+9 errors

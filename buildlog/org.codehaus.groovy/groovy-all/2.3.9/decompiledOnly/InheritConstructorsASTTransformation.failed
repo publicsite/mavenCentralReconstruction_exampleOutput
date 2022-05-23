@@ -1,0 +1,236 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:7: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassHelper;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:10: error: package org.codehaus.groovy.ast.stmt does not exist
+import org.codehaus.groovy.ast.stmt.Statement;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:11: error: package org.codehaus.groovy.ast.tools does not exist
+import org.codehaus.groovy.ast.tools.GeneralUtils;
+                                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:12: error: package org.codehaus.groovy.ast.tools does not exist
+import org.codehaus.groovy.ast.tools.GenericsUtils;
+                                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:13: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.Expression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:15: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.Parameter;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:18: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ConstructorNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:19: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.AnnotationNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:20: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.AnnotatedNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:21: error: cannot find symbol
+import org.codehaus.groovy.control.SourceUnit;
+                                  ^
+  symbol:   class SourceUnit
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:22: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ASTNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:23: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:27: error: cannot find symbol
+public class InheritConstructorsASTTransformation extends AbstractASTTransformation
+                                                          ^
+  symbol: class AbstractASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:30: error: cannot find symbol
+    private static final ClassNode MY_TYPE;
+                         ^
+  symbol:   class ClassNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:34: error: cannot find symbol
+    public void visit(final ASTNode[] nodes, final SourceUnit source) {
+                            ^
+  symbol:   class ASTNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:34: error: cannot find symbol
+    public void visit(final ASTNode[] nodes, final SourceUnit source) {
+                                                   ^
+  symbol:   class SourceUnit
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:46: error: cannot find symbol
+    private void processClass(final ClassNode cNode) {
+                                    ^
+  symbol:   class ClassNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:61: error: cannot find symbol
+    private void addConstructorUnlessAlreadyExisting(final ClassNode classNode, final ConstructorNode consNode) {
+                                                           ^
+  symbol:   class ClassNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:61: error: cannot find symbol
+    private void addConstructorUnlessAlreadyExisting(final ClassNode classNode, final ConstructorNode consNode) {
+                                                                                      ^
+  symbol:   class ConstructorNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:82: error: cannot find symbol
+    private boolean isExisting(final ClassNode classNode, final Parameter[] params) {
+                                     ^
+  symbol:   class ClassNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:82: error: cannot find symbol
+    private boolean isExisting(final ClassNode classNode, final Parameter[] params) {
+                                                                ^
+  symbol:   class Parameter
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:91: error: cannot find symbol
+    private boolean matchingTypes(final Parameter[] params, final Parameter[] existingParams) {
+                                        ^
+  symbol:   class Parameter
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:91: error: cannot find symbol
+    private boolean matchingTypes(final Parameter[] params, final Parameter[] existingParams) {
+                                                                  ^
+  symbol:   class Parameter
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:36: error: cannot find symbol
+        final AnnotatedNode parent = (AnnotatedNode)nodes[1];
+              ^
+  symbol:   class AnnotatedNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:36: error: cannot find symbol
+        final AnnotatedNode parent = (AnnotatedNode)nodes[1];
+                                      ^
+  symbol:   class AnnotatedNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:37: error: cannot find symbol
+        final AnnotationNode node = (AnnotationNode)nodes[0];
+              ^
+  symbol:   class AnnotationNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:37: error: cannot find symbol
+        final AnnotationNode node = (AnnotationNode)nodes[0];
+                                     ^
+  symbol:   class AnnotationNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:41: error: cannot find symbol
+        if (parent instanceof ClassNode) {
+                              ^
+  symbol:   class ClassNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:42: error: cannot find symbol
+            this.processClass((ClassNode)parent);
+                               ^
+  symbol:   class ClassNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:51: error: cannot find symbol
+        final ClassNode sNode = cNode.getSuperClass();
+              ^
+  symbol:   class ClassNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:52: error: cannot find symbol
+        final List<AnnotationNode> superAnnotations = sNode.getAnnotations(InheritConstructorsASTTransformation.MY_TYPE);
+                   ^
+  symbol:   class AnnotationNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:56: error: cannot find symbol
+        for (final ConstructorNode cn : sNode.getDeclaredConstructors()) {
+                   ^
+  symbol:   class ConstructorNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:62: error: cannot find symbol
+        final Parameter[] origParams = consNode.getParameters();
+              ^
+  symbol:   class Parameter
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:66: error: cannot find symbol
+        final Parameter[] params = new Parameter[origParams.length];
+              ^
+  symbol:   class Parameter
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:66: error: cannot find symbol
+        final Parameter[] params = new Parameter[origParams.length];
+                                       ^
+  symbol:   class Parameter
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:67: error: cannot find symbol
+        final List<Expression> theArgs = new ArrayList<Expression>();
+                   ^
+  symbol:   class Expression
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:67: error: cannot find symbol
+        final List<Expression> theArgs = new ArrayList<Expression>();
+                                                       ^
+  symbol:   class Expression
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:68: error: cannot find symbol
+        final Map<String, ClassNode> genericsSpec = GenericsUtils.createGenericsSpec(classNode);
+                          ^
+  symbol:   class ClassNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:68: error: cannot find symbol
+        final Map<String, ClassNode> genericsSpec = GenericsUtils.createGenericsSpec(classNode);
+                                                    ^
+  symbol:   variable GenericsUtils
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:69: error: cannot find symbol
+        GenericsUtils.extractSuperClassGenerics(classNode, classNode.getSuperClass(), genericsSpec);
+        ^
+  symbol:   variable GenericsUtils
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:71: error: cannot find symbol
+            final Parameter p = origParams[i];
+                  ^
+  symbol:   class Parameter
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:72: error: cannot find symbol
+            final ClassNode newType = GenericsUtils.correctToGenericsSpecRecurse(genericsSpec, p.getType());
+                  ^
+  symbol:   class ClassNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:72: error: cannot find symbol
+            final ClassNode newType = GenericsUtils.correctToGenericsSpecRecurse(genericsSpec, p.getType());
+                                      ^
+  symbol:   variable GenericsUtils
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:73: error: cannot find symbol
+            params[i] = (p.hasInitialExpression() ? GeneralUtils.param(newType, p.getName(), p.getInitialExpression()) : GeneralUtils.param(newType, p.getName()));
+                                                    ^
+  symbol:   variable GeneralUtils
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:73: error: cannot find symbol
+            params[i] = (p.hasInitialExpression() ? GeneralUtils.param(newType, p.getName(), p.getInitialExpression()) : GeneralUtils.param(newType, p.getName()));
+                                                                                                                         ^
+  symbol:   variable GeneralUtils
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:74: error: cannot find symbol
+            theArgs.add(GeneralUtils.varX(p.getName(), newType));
+                        ^
+  symbol:   variable GeneralUtils
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:79: error: cannot find symbol
+        classNode.addConstructor(consNode.getModifiers(), params, consNode.getExceptions(), GeneralUtils.block(GeneralUtils.ctorSuperS(GeneralUtils.args(theArgs))));
+                                                                                            ^
+  symbol:   variable GeneralUtils
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:79: error: cannot find symbol
+        classNode.addConstructor(consNode.getModifiers(), params, consNode.getExceptions(), GeneralUtils.block(GeneralUtils.ctorSuperS(GeneralUtils.args(theArgs))));
+                                                                                                               ^
+  symbol:   variable GeneralUtils
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:79: error: cannot find symbol
+        classNode.addConstructor(consNode.getModifiers(), params, consNode.getExceptions(), GeneralUtils.block(GeneralUtils.ctorSuperS(GeneralUtils.args(theArgs))));
+                                                                                                                                       ^
+  symbol:   variable GeneralUtils
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:83: error: cannot find symbol
+        for (final ConstructorNode consNode : classNode.getDeclaredConstructors()) {
+                   ^
+  symbol:   class ConstructorNode
+  location: class InheritConstructorsASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/InheritConstructorsASTTransformation.java:105: error: cannot find symbol
+        MY_TYPE = ClassHelper.make(InheritConstructorsASTTransformation.MY_CLASS);
+                  ^
+  symbol:   variable ClassHelper
+  location: class InheritConstructorsASTTransformation
+52 errors

@@ -1,0 +1,53 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:8: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:9: error: package org.assertj.core.internal.bytebuddy.description.field does not exist
+import org.assertj.core.internal.bytebuddy.description.field.FieldDescription;
+                                                            ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:12: error: package ElementMatcher.Junction does not exist
+public class FieldTypeMatcher<T extends FieldDescription> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                         ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:11: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:12: error: cannot find symbol
+public class FieldTypeMatcher<T extends FieldDescription> extends ElementMatcher.Junction.AbstractBase<T>
+                                        ^
+  symbol: class FieldDescription
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:14: error: cannot find symbol
+    private final ElementMatcher<? super TypeDescription.Generic> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class FieldTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class FieldTypeMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:14: error: package TypeDescription does not exist
+    private final ElementMatcher<? super TypeDescription.Generic> matcher;
+                                                        ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:16: error: cannot find symbol
+    public FieldTypeMatcher(final ElementMatcher<? super TypeDescription.Generic> matcher) {
+                                  ^
+  symbol:   class ElementMatcher
+  location: class FieldTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class FieldTypeMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:16: error: package TypeDescription does not exist
+    public FieldTypeMatcher(final ElementMatcher<? super TypeDescription.Generic> matcher) {
+                                                                        ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:31: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((FieldTypeMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FieldTypeMatcher.java:34: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+14 errors

@@ -1,0 +1,64 @@
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/MockTypeValidatorFactory.java:4: error: package org.powermock.core.agent does not exist
+import org.powermock.core.agent.JavaAgentClassRegister;
+                               ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/MockTypeValidatorFactory.java:5: error: package org.powermock.core.classloader does not exist
+import org.powermock.core.classloader.PowerMockModified;
+                                     ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/MockTypeValidatorFactory.java:6: error: package org.powermock.core.reporter does not exist
+import org.powermock.core.reporter.PowerMockReporter;
+                                  ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/MockTypeValidatorFactory.java:13: error: cannot find symbol
+    public static <T> MockTypeValidator<T> createValidator(Class<T> type, boolean isStatic, boolean isSpy, JavaAgentClassRegister agentClassRegister) {
+                                                                                                           ^
+  symbol:   class JavaAgentClassRegister
+  location: class MockTypeValidatorFactory
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/MockTypeValidatorFactory.java:68: error: cannot find symbol
+        final PowerMockReporter reporter;
+              ^
+  symbol:   class PowerMockReporter
+  location: class AbstractMockTypeValidator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractMockTypeValidator
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/MockTypeValidatorFactory.java:48: error: cannot find symbol
+        private final JavaAgentClassRegister agentClassRegister;
+                      ^
+  symbol:   class JavaAgentClassRegister
+  location: class JavaAgentMockTypeValidator<T>
+  where T is a type-variable:
+    T extends Object declared in class JavaAgentMockTypeValidator
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/MockTypeValidatorFactory.java:50: error: cannot find symbol
+        private JavaAgentMockTypeValidator(Class<T> type, JavaAgentClassRegister agentClassRegister) {
+                                                          ^
+  symbol:   class JavaAgentClassRegister
+  location: class JavaAgentMockTypeValidator<T>
+  where T is a type-variable:
+    T extends Object declared in class JavaAgentMockTypeValidator
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:21: error: package org.powermock.core.reporter does not exist
+import org.powermock.core.reporter.PowerMockReporter;
+                                  ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:23: error: package org.powermock.utils does not exist
+import static org.powermock.utils.StringJoiner.join;
+                                 ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:23: error: static import only from classes and interfaces
+import static org.powermock.utils.StringJoiner.join;
+^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:25: error: cannot find symbol
+public class MockitoPowerMockReporter implements PowerMockReporter {
+                                                 ^
+  symbol: class PowerMockReporter
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/MockTypeValidatorFactory.java:42: error: cannot find symbol
+            return PowerMockModified.class.isAssignableFrom(type);
+                   ^
+  symbol:   class PowerMockModified
+  location: class DefaultMockTypeValidator<T>
+  where T is a type-variable:
+    T extends Object declared in class DefaultMockTypeValidator
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:29: error: cannot find symbol
+        throw new ClassNotPreparedException(join(String.format("The class %s not prepared for test.", type.getName()),
+                                            ^
+  symbol:   method join(String,String,String)
+  location: class MockitoPowerMockReporter
+14 errors

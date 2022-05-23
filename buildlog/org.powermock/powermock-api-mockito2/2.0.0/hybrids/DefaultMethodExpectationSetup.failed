@@ -1,0 +1,27 @@
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/DefaultMethodExpectationSetup.java:19: error: cannot find symbol
+import org.mockito.Mockito;
+                  ^
+  symbol:   class Mockito
+  location: package org.mockito
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/DefaultMethodExpectationSetup.java:53: error: cannot find symbol
+            return (OngoingStubbing<T>) Mockito.when(method.invoke(object, firstArgument));
+                                        ^
+  symbol:   variable Mockito
+  location: class DefaultMethodExpectationSetup<T>
+  where T is a type-variable:
+    T extends Object declared in class DefaultMethodExpectationSetup
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/DefaultMethodExpectationSetup.java:55: error: cannot find symbol
+            return (OngoingStubbing<T>) Mockito.when(method.invoke(object, join(firstArgument, additionalArguments)));
+                                        ^
+  symbol:   variable Mockito
+  location: class DefaultMethodExpectationSetup<T>
+  where T is a type-variable:
+    T extends Object declared in class DefaultMethodExpectationSetup
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/DefaultMethodExpectationSetup.java:62: error: cannot find symbol
+        return (OngoingStubbing<T>) Mockito.when(method.invoke(object));
+                                    ^
+  symbol:   variable Mockito
+  location: class DefaultMethodExpectationSetup<T>
+  where T is a type-variable:
+    T extends Object declared in class DefaultMethodExpectationSetup
+4 errors

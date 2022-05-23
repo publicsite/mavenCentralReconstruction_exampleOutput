@@ -1,0 +1,45 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3546: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3554: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/dynamic/scaffold/inline/DecoratingDynamicTypeBuilder.java:158: error: no suitable constructor found for Disjunction(LatentMatcher<? super MethodDescription>[])
+        return new DecoratingDynamicTypeBuilder(this.instrumentedType, this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.auxiliaryTypeNamingStrategy, this.annotationValueFilterFactory, this.annotationRetention, this.implementationContextFactory, this.methodGraphCompiler, this.typeValidation, this.classWriterStrategy, new LatentMatcher.Disjunction<Object>((LatentMatcher<? super MethodDescription>[])new LatentMatcher[] { this.ignoredMethods, ignoredMethods }), this.auxiliaryTypes, this.classFileLocator);
+                                                                                                                                                                                                                                                                                                                                                             ^
+    constructor Disjunction.Disjunction(LatentMatcher<? super Object>...) is not applicable
+      (varargs mismatch; LatentMatcher<? super MethodDescription>[] cannot be converted to LatentMatcher<? super Object>)
+    constructor Disjunction.Disjunction(List<? extends LatentMatcher<? super Object>>) is not applicable
+      (argument mismatch; LatentMatcher<? super MethodDescription>[] cannot be converted to List<? extends LatentMatcher<? super Object>>)
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/dynamic/scaffold/inline/DecoratingDynamicTypeBuilder.java:182: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+        return TypeWriter.Default.forDecoration(this.instrumentedType, this.classFileVersion, this.auxiliaryTypes, CompoundList.of(this.methodGraphCompiler.compile(this.instrumentedType).listNodes().asMethodList().filter(ElementMatchers.not((ElementMatcher<? super Object>)this.ignoredMethods.resolve(this.instrumentedType))), this.instrumentedType.getDeclaredMethods().filter(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isVirtual()))), this.typeAttributeAppender, this.asmVisitorWrapper, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool, this.classFileLocator).make(typeResolutionStrategy.resolve());
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/dynamic/scaffold/inline/DecoratingDynamicTypeBuilder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

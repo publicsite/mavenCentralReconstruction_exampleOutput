@@ -1,0 +1,126 @@
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/util/LogMonitorAdapter.java:23: error: incompatible types: Object cannot be converted to LogLevel
+        this._defaultLevel = userDefinedLevels.get(0);
+                                                  ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java:297: error: incompatible types: Object cannot be converted to LogRecord
+            if (this.matches(records.get(i), searchText)) {
+                                        ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java:302: error: incompatible types: Object cannot be converted to LogRecord
+            if (this.matches(records.get(j), searchText)) {
+                                        ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java:512: error: incompatible types: Object cannot be converted to LogLevel
+            result.add(this.getMenuItem(levels.next()));
+                                                   ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java:554: error: incompatible types: Object cannot be converted to LogLevel
+            colorMenu.add(this.createSubMenuItem(levels.next()));
+                                                            ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java:574: error: incompatible types: Object cannot be converted to LogLevel
+            this.getMenuItem(levels.next()).setSelected(selected);
+                                        ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java:579: error: incompatible types: Object cannot be converted to JCheckBoxMenuItem
+        JCheckBoxMenuItem result = this._logLevelMenuItems.get(level);
+                                                              ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java:626: error: incompatible types: Object cannot be converted to LogTableColumn
+            result.add(this.getLogTableColumnMenuItem(columns.next()));
+                                                                  ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java:635: error: incompatible types: Object cannot be converted to JCheckBoxMenuItem
+        JCheckBoxMenuItem result = this._logTableColumnMenuItems.get(column);
+                                                                    ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java:658: error: incompatible types: Object cannot be converted to LogTableColumn
+        for (final LogTableColumn column : this._columns) {
+                                               ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogBrokerMonitor.java:696: error: incompatible types: Object cannot be converted to LogTableColumn
+            this.getLogTableColumnMenuItem(columns.next()).setSelected(selected);
+                                                       ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/LogLevel.java:54: error: incompatible types: Object cannot be converted to LogLevel
+            logLevel = LogLevel._logLevelMap.get(level);
+                                                ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/LogLevel.java:57: error: incompatible types: Object cannot be converted to LogLevel
+            logLevel = LogLevel._registeredLogLevelMap.get(level);
+                                                          ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/LogLevel.java:73: error: incompatible types: Object cannot be converted to LogLevel
+            return LogLevel._registeredLogLevelMap.put(logLevel.getLabel(), logLevel);
+                                                      ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/LogLevel.java:90: error: no suitable method found for register(Object)
+                register(it.next());
+                ^
+    method LogLevel.register(LogLevel) is not applicable
+      (argument mismatch; Object cannot be converted to LogLevel)
+    method LogLevel.register(LogLevel[]) is not applicable
+      (argument mismatch; Object cannot be converted to LogLevel[])
+    method LogLevel.register(List) is not applicable
+      (argument mismatch; Object cannot be converted to List)
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogTable.java:66: error: incompatible types: Object cannot be converted to TableColumn
+            final TableColumn col = columns.nextElement();
+                                                       ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java:156: error: incompatible types: Object cannot be converted to JCheckBoxMenuItem
+                final JCheckBoxMenuItem item = menuItems.get(LogLevel.valueOf(name));
+                                                            ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java:200: error: incompatible types: Object cannot be converted to JCheckBoxMenuItem
+                final JCheckBoxMenuItem item = menuItems.get(column);
+                                                            ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java:234: error: incompatible types: Object cannot be converted to CategoryNode
+            n = all.nextElement();
+                               ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java:273: error: incompatible types: Object cannot be converted to CategoryNode
+            n = all.nextElement();
+                               ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java:280: error: incompatible types: Object cannot be converted to LogLevel
+        for (final LogLevel level : logLevelMenuItems.keySet()) {
+                                                            ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java:281: error: incompatible types: Object cannot be converted to JCheckBoxMenuItem
+            final JCheckBoxMenuItem item = logLevelMenuItems.get(level);
+                                                                ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java:289: error: incompatible types: Object cannot be converted to LogLevel
+        for (final LogLevel level : logLevelMenuItems.keySet()) {
+                                                            ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java:290: error: incompatible types: Object cannot be converted to Color
+            final Color color = logLevelColors.get(level);
+                                                  ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/configure/ConfigurationManager.java:298: error: incompatible types: Object cannot be converted to LogTableColumn
+        for (final LogTableColumn column : logTableColumnMenuItems) {
+                                           ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogTableColumn.java:40: error: incompatible types: Object cannot be converted to LogTableColumn
+            tableColumn = LogTableColumn._logTableColumnMap.get(column);
+                                                               ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNode.java:45: error: incompatible types: Object cannot be converted to CategoryNode
+            final CategoryNode node = children.nextElement();
+                                                          ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryNode.java:54: error: incompatible types: Object cannot be converted to CategoryNode
+            final CategoryNode node = children.nextElement();
+                                                          ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/FilteredLogTableModel.java:102: error: incompatible types: Object cannot be converted to LogRecord
+        for (final LogRecord current : this._allRecords) {
+                                           ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/FilteredLogTableModel.java:114: error: incompatible types: Object cannot be converted to LogRecord
+            return records.get(row);
+                              ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/FilteredLogTableModel.java:116: error: incompatible types: Object cannot be converted to LogRecord
+        return records.get(size - 1);
+                          ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryPath.java:55: error: incompatible types: Object cannot be converted to CategoryElement
+        return this._categoryElements.get(index);
+                                         ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.java:65: error: incompatible types: Object cannot be converted to CategoryNode
+                final CategoryNode node = children.nextElement();
+                                                              ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.java:91: error: incompatible types: Object cannot be converted to CategoryNode
+                final CategoryNode node = children.nextElement();
+                                                              ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.java:119: error: incompatible types: Object cannot be converted to CategoryNode
+                final CategoryNode node = children.nextElement();
+                                                              ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.java:153: error: incompatible types: Object cannot be converted to CategoryNode
+            final CategoryNode current = descendants.nextElement();
+                                                                ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/categoryexplorer/CategoryExplorerModel.java:185: error: incompatible types: Object cannot be converted to CategoryNode
+            final CategoryNode current = nodes.nextElement();
+                                                          ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/lf5/viewer/LogTableRowRenderer.java:38: error: incompatible types: Object cannot be converted to Color
+        return LogLevel.getLogLevelColorMap().get(level);
+                                                 ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+38 errors

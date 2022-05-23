@@ -1,0 +1,71 @@
+hybrids/junit/junit/4.10/CombinableMatcher.java:3: error: cannot find symbol
+import static org.hamcrest.CoreMatchers.allOf;
+                          ^
+  symbol:   class CoreMatchers
+  location: package org.hamcrest
+hybrids/junit/junit/4.10/CombinableMatcher.java:3: error: static import only from classes and interfaces
+import static org.hamcrest.CoreMatchers.allOf;
+^
+hybrids/junit/junit/4.10/CombinableMatcher.java:4: error: cannot find symbol
+import static org.hamcrest.CoreMatchers.anyOf;
+                          ^
+  symbol:   class CoreMatchers
+  location: package org.hamcrest
+hybrids/junit/junit/4.10/CombinableMatcher.java:4: error: static import only from classes and interfaces
+import static org.hamcrest.CoreMatchers.anyOf;
+^
+hybrids/junit/junit/4.10/CombinableMatcher.java:5: error: cannot find symbol
+import org.hamcrest.BaseMatcher;
+                   ^
+  symbol:   class BaseMatcher
+  location: package org.hamcrest
+hybrids/junit/junit/4.10/CombinableMatcher.java:6: error: cannot find symbol
+import org.hamcrest.Description;
+                   ^
+  symbol:   class Description
+  location: package org.hamcrest
+hybrids/junit/junit/4.10/CombinableMatcher.java:7: error: cannot find symbol
+import org.hamcrest.Matcher;
+                   ^
+  symbol:   class Matcher
+  location: package org.hamcrest
+hybrids/junit/junit/4.10/CombinableMatcher.java:9: error: cannot find symbol
+public class CombinableMatcher<T> extends BaseMatcher<T> {
+                                          ^
+  symbol: class BaseMatcher
+hybrids/junit/junit/4.10/CombinableMatcher.java:11: error: cannot find symbol
+	private final Matcher<? extends T> fMatcher;
+	              ^
+  symbol:   class Matcher
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+hybrids/junit/junit/4.10/CombinableMatcher.java:13: error: cannot find symbol
+	public CombinableMatcher(Matcher<? extends T> matcher) {
+	                         ^
+  symbol:   class Matcher
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+hybrids/junit/junit/4.10/CombinableMatcher.java:21: error: cannot find symbol
+	public void describeTo(Description description) {
+	                       ^
+  symbol:   class Description
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+hybrids/junit/junit/4.10/CombinableMatcher.java:26: error: cannot find symbol
+	public CombinableMatcher<T> and(Matcher<? extends T> matcher) {
+	                                ^
+  symbol:   class Matcher
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+hybrids/junit/junit/4.10/CombinableMatcher.java:31: error: cannot find symbol
+	public CombinableMatcher<T> or(Matcher<? extends T> matcher) {
+	                               ^
+  symbol:   class Matcher
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+13 errors

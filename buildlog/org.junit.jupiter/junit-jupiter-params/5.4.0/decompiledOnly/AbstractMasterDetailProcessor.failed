@@ -1,0 +1,64 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:10: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.ArgumentUtils;
+                                                                   ^
+  symbol:   class ArgumentUtils
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:15: error: cannot find symbol
+public abstract class AbstractMasterDetailProcessor<T extends Context> extends AbstractObjectProcessor<T>
+                                                                               ^
+  symbol: class AbstractObjectProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:17: error: cannot find symbol
+    private final AbstractObjectListProcessor detailProcessor;
+                  ^
+  symbol:   class AbstractObjectListProcessor
+  location: class AbstractMasterDetailProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractMasterDetailProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:21: error: cannot find symbol
+    public AbstractMasterDetailProcessor(final RowPlacement rowPlacement, final AbstractObjectListProcessor detailProcessor) {
+                                                                                ^
+  symbol:   class AbstractObjectListProcessor
+  location: class AbstractMasterDetailProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractMasterDetailProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:27: error: cannot find symbol
+    public AbstractMasterDetailProcessor(final AbstractObjectListProcessor detailProcessor) {
+                                               ^
+  symbol:   class AbstractObjectListProcessor
+  location: class AbstractMasterDetailProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractMasterDetailProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:22: error: cannot find symbol
+        ArgumentUtils.noNulls("Row processor for reading detail rows", detailProcessor);
+        ^
+  symbol:   variable ArgumentUtils
+  location: class AbstractMasterDetailProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractMasterDetailProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:31: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:36: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:39: error: cannot find symbol
+            super.rowProcessed(row, context);
+            ^
+  symbol:   variable super
+  location: class AbstractMasterDetailProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractMasterDetailProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:49: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:76: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMasterDetailProcessor.java:78: error: cannot find symbol
+        super.processEnded(context);
+        ^
+  symbol:   variable super
+  location: class AbstractMasterDetailProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractMasterDetailProcessor
+12 errors

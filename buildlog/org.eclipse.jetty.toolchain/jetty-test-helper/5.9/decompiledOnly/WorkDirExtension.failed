@@ -1,0 +1,359 @@
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:7: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ParameterResolutionException;
+                                      ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:8: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ParameterContext;
+                                      ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:12: error: package org.junit.jupiter.api.condition does not exist
+import org.junit.jupiter.api.condition.OS;
+                                      ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:16: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionConfigurationException;
+                                      ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:20: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ExceptionUtils;
+                                      ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:24: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:25: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:26: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ParameterResolver;
+                                      ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:27: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.BeforeEachCallback;
+                                      ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:28: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.BeforeAllCallback;
+                                      ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:30: error: cannot find symbol
+public class WorkDirExtension implements BeforeAllCallback, BeforeEachCallback, ParameterResolver
+                                         ^
+  symbol: class BeforeAllCallback
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:30: error: cannot find symbol
+public class WorkDirExtension implements BeforeAllCallback, BeforeEachCallback, ParameterResolver
+                                                            ^
+  symbol: class BeforeEachCallback
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:30: error: cannot find symbol
+public class WorkDirExtension implements BeforeAllCallback, BeforeEachCallback, ParameterResolver
+                                                                                ^
+  symbol: class ParameterResolver
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:32: error: cannot find symbol
+    public void beforeAll(final ExtensionContext context) {
+                                ^
+  symbol:   class ExtensionContext
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:36: error: cannot find symbol
+    public void beforeEach(final ExtensionContext context) {
+                                 ^
+  symbol:   class ExtensionContext
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:40: error: cannot find symbol
+    private void injectStaticFields(final ExtensionContext context, final Class<?> testClass) {
+                                          ^
+  symbol:   class ExtensionContext
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:44: error: cannot find symbol
+    private void injectInstanceFields(final ExtensionContext context, final Object instance) {
+                                            ^
+  symbol:   class ExtensionContext
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:48: error: cannot find symbol
+    private void injectFields(final ExtensionContext context, final Object testInstance, final Class<?> testClass, final Predicate<Field> fieldPredicate) {
+                                    ^
+  symbol:   class ExtensionContext
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:79: error: cannot find symbol
+    private Path toPath(final Class<?> classContext, final ExtensionContext context) throws IOException {
+                                                           ^
+  symbol:   class ExtensionContext
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:102: error: cannot find symbol
+    public boolean supportsParameter(final ParameterContext parameterContext, final ExtensionContext extensionContext) throws ParameterResolutionException {
+                                           ^
+  symbol:   class ParameterContext
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:102: error: cannot find symbol
+    public boolean supportsParameter(final ParameterContext parameterContext, final ExtensionContext extensionContext) throws ParameterResolutionException {
+                                                                                    ^
+  symbol:   class ExtensionContext
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:102: error: cannot find symbol
+    public boolean supportsParameter(final ParameterContext parameterContext, final ExtensionContext extensionContext) throws ParameterResolutionException {
+                                                                                                                              ^
+  symbol:   class ParameterResolutionException
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:106: error: cannot find symbol
+    public Object resolveParameter(final ParameterContext parameterContext, final ExtensionContext extensionContext) throws ParameterResolutionException {
+                                         ^
+  symbol:   class ParameterContext
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:106: error: cannot find symbol
+    public Object resolveParameter(final ParameterContext parameterContext, final ExtensionContext extensionContext) throws ParameterResolutionException {
+                                                                                  ^
+  symbol:   class ExtensionContext
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:106: error: cannot find symbol
+    public Object resolveParameter(final ParameterContext parameterContext, final ExtensionContext extensionContext) throws ParameterResolutionException {
+                                                                                                                            ^
+  symbol:   class ParameterResolutionException
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:29: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.TestInfo;
+                            ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:31: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.fail;
+                                   ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:31: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.fail;
+^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:223: error: cannot find symbol
+    public static File getTargetTestingDir(TestInfo testInfo)
+                                           ^
+  symbol:   class TestInfo
+  location: class MavenTestingUtils
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:238: error: cannot find symbol
+    public static Path getTargetTestingPath(TestInfo testInfo)
+                                            ^
+  symbol:   class TestInfo
+  location: class MavenTestingUtils
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:41: error: cannot find symbol
+        this.injectFields(context, null, testClass, ReflectionUtils::isStatic);
+                                                    ^
+  symbol:   variable ReflectionUtils
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:45: error: cannot find symbol
+        this.injectFields(context, instance, instance.getClass(), ReflectionUtils::isNotStatic);
+                                                                  ^
+  symbol:   variable ReflectionUtils
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:34: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.assertTrue;
+                                   ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:34: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.assertTrue;
+^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:35: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.fail;
+                                   ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:35: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.fail;
+^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:58: error: package ReflectionUtils does not exist
+            ReflectionUtils.findFields((Class)testClass, (Predicate)fieldPredicate.and(isWorkDirAssignable), ReflectionUtils.HierarchyTraversalMode.TOP_DOWN).forEach(field -> {
+                                                                                                                            ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:58: error: cannot find symbol
+            ReflectionUtils.findFields((Class)testClass, (Predicate)fieldPredicate.and(isWorkDirAssignable), ReflectionUtils.HierarchyTraversalMode.TOP_DOWN).forEach(field -> {
+            ^
+  symbol:   variable ReflectionUtils
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:61: error: cannot find symbol
+                    ((Field)ReflectionUtils.makeAccessible((AccessibleObject)field)).set(testInstance, value);
+                            ^
+  symbol:   variable ReflectionUtils
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:64: error: cannot find symbol
+                    ExceptionUtils.throwAsUncheckedException(t);
+                    ^
+  symbol:   variable ExceptionUtils
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:74: error: cannot find symbol
+        if (ReflectionUtils.isPrivate((Member)field)) {
+            ^
+  symbol:   variable ReflectionUtils
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:75: error: cannot find symbol
+            throw new ExtensionConfigurationException("WorkDir field [" + field + "] must not be private.");
+                      ^
+  symbol:   class ExtensionConfigurationException
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:86: error: package OS does not exist
+            if (OS.WINDOWS.isCurrentOs()) {
+                  ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/jupiter/WorkDirExtension.java:112: error: cannot find symbol
+            throw new ParameterResolutionException("Unable to resolve work dir", (Throwable)e);
+                      ^
+  symbol:   class ParameterResolutionException
+  location: class WorkDirExtension
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:25: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.assertFalse;
+                                   ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:25: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.assertFalse;
+^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:26: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.assertTrue;
+                                   ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:26: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.assertTrue;
+^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:199: error: reference to getTargetTestingPath is ambiguous
+        return getTargetTestingPath(testname).toFile();
+               ^
+  both method getTargetTestingPath(String) in MavenTestingUtils and method getTargetTestingPath(TestInfo) in MavenTestingUtils match
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:285: error: package org.junit.jupiter.api.condition.OS does not exist
+        if (org.junit.jupiter.api.condition.OS.WINDOWS.isCurrentOs())
+                                              ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:405: error: cannot find symbol
+        fail(err.toString());
+        ^
+  symbol:   method fail(String)
+  location: class MavenTestingUtils
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:71: error: cannot find symbol
+            fail("Not able to delete path, not a file or directory? : " + path.toAbsolutePath());
+            ^
+  symbol:   method fail(String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:120: error: cannot find symbol
+        assertTrue(path.isFile(), "Path must be a file: " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:121: error: cannot find symbol
+        assertTrue(FS.isTestingDir(path.getParentFile()), "Can only delete content within the /target/tests/ directory: " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:123: error: cannot find symbol
+        assertTrue(path.delete(), "Failed to delete file: " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:139: error: cannot find symbol
+            assertTrue(Files.isRegularFile(path) || Files.isSymbolicLink(path), "Path must be a file or link: " + location);
+            ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:140: error: cannot find symbol
+            assertTrue(FS.isTestingDir(path.getParent()), "Can only delete content within the /target/tests/ directory: " + location);
+            ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:143: error: cannot find symbol
+                assertTrue(Files.deleteIfExists(path), "Failed to delete file: " + location);
+                ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:147: error: cannot find symbol
+                fail("Unable to delete file: " + location, e);
+                ^
+  symbol:   method fail(String,IOException)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:165: error: cannot find symbol
+            assertTrue(Files.isDirectory(path), "Path must be a file: " + location);
+            ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:166: error: cannot find symbol
+            assertTrue(FS.isTestingDir(path.getParent()), "Can only delete content within the /target/tests/ directory: " + location);
+            ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:169: error: cannot find symbol
+                assertTrue(Files.deleteIfExists(path), "Failed to delete directory: " + location);
+                ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:173: error: cannot find symbol
+                fail("Unable to delete directory: " + location, e);
+                ^
+  symbol:   method fail(String,IOException)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:181: error: cannot find symbol
+        assertTrue(FS.isTestingDir(path), "Can only delete content within the /target/tests/ directory: " + location);
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:200: error: cannot find symbol
+            fail("Unable to (recursively) delete path: " + location, e);
+            ^
+  symbol:   method fail(String,DirectoryIteratorException)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:204: error: cannot find symbol
+            fail("Unable to (recursively) delete path: " + location, e);
+            ^
+  symbol:   method fail(String,IOException)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:295: error: cannot find symbol
+            assertTrue(dir.isDirectory(), "Path exists, but should be a Dir : " + dir.getAbsolutePath());
+            ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:299: error: cannot find symbol
+            assertTrue(dir.mkdirs(), "Creating dir: " + dir);
+            ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:312: error: cannot find symbol
+            assertTrue(Files.isDirectory(dir), "Path exists, but should be a Dir : " + dir.toAbsolutePath());
+            ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:319: error: cannot find symbol
+                assertTrue(Files.exists(dir), "Failed to create dir: " + dir);
+                ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:323: error: cannot find symbol
+                fail("Failed to create directory: " + dir, e);
+                ^
+  symbol:   method fail(String,IOException)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:372: error: cannot find symbol
+            assertTrue(file.setLastModified(System.currentTimeMillis()), "Updating last modified timestamp");
+            ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:376: error: cannot find symbol
+            assertTrue(file.createNewFile(), "Creating file: " + file);
+            ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/FS.java:399: error: cannot find symbol
+            assertTrue(Files.exists(file), "Created new file?: " + file);
+            ^
+  symbol:   method assertTrue(boolean,String)
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:47: error: cannot find symbol
+        assertTrue(path.isDirectory(), msg + " path should be a Dir : " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:59: error: cannot find symbol
+        assertTrue(Files.isDirectory(path), msg + " path should be a Dir : " + path);
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:71: error: cannot find symbol
+        assertTrue(path.isFile(), msg + " path should be a File : " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:83: error: cannot find symbol
+        assertTrue(Files.isRegularFile(path), msg + " path should be a File : " + path);
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:94: error: cannot find symbol
+        assertTrue(path.exists(), msg + " path should exist: " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:105: error: cannot find symbol
+        assertTrue(Files.exists(path), msg + " path should exist: " + path);
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:116: error: cannot find symbol
+        assertFalse(path.exists(), msg + " path should not exist: " + path.getAbsolutePath());
+        ^
+  symbol:   method assertFalse(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:127: error: cannot find symbol
+        assertFalse(Files.exists(path), msg + " path should not exist: " + path);
+        ^
+  symbol:   method assertFalse(boolean,String)
+  location: class PathAssert
+82 errors

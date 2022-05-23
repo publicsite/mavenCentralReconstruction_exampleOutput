@@ -1,0 +1,67 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:7: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.RegisterSpecList;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:8: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.RegisterSpec;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:10: error: package com.google.dexmaker.dx.ssa.back does not exist
+import com.google.dexmaker.dx.ssa.back.InterferenceGraph;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:11: error: cannot find symbol
+import com.google.dexmaker.dx.util.BitIntSet;
+                                  ^
+  symbol:   class BitIntSet
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:14: error: cannot find symbol
+public class InterferenceRegisterMapper extends BasicRegisterMapper
+                                                ^
+  symbol: class BasicRegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:16: error: cannot find symbol
+    private final ArrayList<BitIntSet> newRegInterference;
+                            ^
+  symbol:   class BitIntSet
+  location: class InterferenceRegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:17: error: cannot find symbol
+    private final InterferenceGraph oldRegInterference;
+                  ^
+  symbol:   class InterferenceGraph
+  location: class InterferenceRegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:19: error: cannot find symbol
+    public InterferenceRegisterMapper(final InterferenceGraph oldRegInterference, final int countOldRegisters) {
+                                            ^
+  symbol:   class InterferenceGraph
+  location: class InterferenceRegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:48: error: cannot find symbol
+    public boolean interferes(final RegisterSpec oldSpec, final int newReg) {
+                                    ^
+  symbol:   class RegisterSpec
+  location: class InterferenceRegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:60: error: cannot find symbol
+    public boolean areAnyPinned(final RegisterSpecList oldSpecs, final int newReg, final int targetCategory) {
+                                      ^
+  symbol:   class RegisterSpecList
+  location: class InterferenceRegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:21: error: cannot find symbol
+        this.newRegInterference = new ArrayList<BitIntSet>();
+                                                ^
+  symbol:   class BitIntSet
+  location: class InterferenceRegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:25: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:27: error: cannot find symbol
+        super.addMapping(oldReg, newReg, category);
+        ^
+  symbol:   variable super
+  location: class InterferenceRegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:55: error: cannot find symbol
+            this.newRegInterference.add(new BitIntSet(newReg + 1));
+                                            ^
+  symbol:   class BitIntSet
+  location: class InterferenceRegisterMapper
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/InterferenceRegisterMapper.java:62: error: cannot find symbol
+            final RegisterSpec oldSpec = oldSpecs.get(i);
+                  ^
+  symbol:   class RegisterSpec
+  location: class InterferenceRegisterMapper
+15 errors

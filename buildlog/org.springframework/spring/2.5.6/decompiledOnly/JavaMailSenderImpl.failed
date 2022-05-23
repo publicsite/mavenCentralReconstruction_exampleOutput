@@ -1,0 +1,445 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:7: error: package javax.mail does not exist
+import javax.mail.NoSuchProviderException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:8: error: package javax.mail does not exist
+import javax.mail.Transport;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:11: error: package javax.mail does not exist
+import javax.mail.AuthenticationFailedException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:13: error: package javax.mail does not exist
+import javax.mail.Message;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:18: error: package javax.mail does not exist
+import javax.mail.MessagingException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:22: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMessage;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:28: error: package javax.activation does not exist
+import javax.activation.FileTypeMap;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:29: error: package javax.mail does not exist
+import javax.mail.Session;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/JavaMailSender.java:21: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMessage;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:38: error: cannot find symbol
+    private Session session;
+            ^
+  symbol:   class Session
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:45: error: cannot find symbol
+    private FileTypeMap defaultFileTypeMap;
+            ^
+  symbol:   class FileTypeMap
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:67: error: cannot find symbol
+    public synchronized void setSession(final Session session) {
+                                              ^
+  symbol:   class Session
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:72: error: cannot find symbol
+    public synchronized Session getSession() {
+                        ^
+  symbol:   class Session
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:127: error: cannot find symbol
+    public void setDefaultFileTypeMap(final FileTypeMap defaultFileTypeMap) {
+                                            ^
+  symbol:   class FileTypeMap
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:131: error: cannot find symbol
+    public FileTypeMap getDefaultFileTypeMap() {
+           ^
+  symbol:   class FileTypeMap
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:150: error: cannot find symbol
+    public MimeMessage createMimeMessage() {
+           ^
+  symbol:   class MimeMessage
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:154: error: cannot find symbol
+    public MimeMessage createMimeMessage(final InputStream contentStream) throws MailException {
+           ^
+  symbol:   class MimeMessage
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:163: error: cannot find symbol
+    public void send(final MimeMessage mimeMessage) throws MailException {
+                           ^
+  symbol:   class MimeMessage
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:167: error: cannot find symbol
+    public void send(final MimeMessage[] mimeMessages) throws MailException {
+                           ^
+  symbol:   class MimeMessage
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessagePreparator.java:19: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMessage;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:199: error: cannot find symbol
+    protected void doSend(final MimeMessage[] mimeMessages, final Object[] originalMessages) throws MailException {
+                                ^
+  symbol:   class MimeMessage
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:239: error: cannot find symbol
+    protected Transport getTransport(final Session session) throws NoSuchProviderException {
+                                           ^
+  symbol:   class Session
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:239: error: cannot find symbol
+    protected Transport getTransport(final Session session) throws NoSuchProviderException {
+              ^
+  symbol:   class Transport
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:239: error: cannot find symbol
+    protected Transport getTransport(final Session session) throws NoSuchProviderException {
+                                                                   ^
+  symbol:   class NoSuchProviderException
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessagePreparator.java:51: error: cannot find symbol
+	void prepare(MimeMessage mimeMessage) throws Exception;
+	             ^
+  symbol:   class MimeMessage
+  location: interface MimeMessagePreparator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/JavaMailSender.java:73: error: cannot find symbol
+	MimeMessage createMimeMessage();
+	^
+  symbol:   class MimeMessage
+  location: interface JavaMailSender
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/JavaMailSender.java:83: error: cannot find symbol
+	MimeMessage createMimeMessage(InputStream contentStream) throws MailException;
+	^
+  symbol:   class MimeMessage
+  location: interface JavaMailSender
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/JavaMailSender.java:95: error: cannot find symbol
+	void send(MimeMessage mimeMessage) throws MailException;
+	          ^
+  symbol:   class MimeMessage
+  location: interface JavaMailSender
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/JavaMailSender.java:107: error: cannot find symbol
+	void send(MimeMessage[] mimeMessages) throws MailException;
+	          ^
+  symbol:   class MimeMessage
+  location: interface JavaMailSender
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:23: error: package javax.activation does not exist
+import javax.activation.FileTypeMap;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:24: error: package javax.activation does not exist
+import javax.activation.MimetypesFileTypeMap;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:62: error: cannot find symbol
+public class ConfigurableMimeFileTypeMap extends FileTypeMap implements InitializingBean {
+                                                 ^
+  symbol: class FileTypeMap
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:78: error: cannot find symbol
+	private FileTypeMap fileTypeMap;
+	        ^
+  symbol:   class FileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:116: error: cannot find symbol
+	protected final FileTypeMap getFileTypeMap() {
+	                ^
+  symbol:   class FileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:144: error: cannot find symbol
+	protected FileTypeMap createFileTypeMap(Resource mappingLocation, String[] mappings) throws IOException {
+	          ^
+  symbol:   class FileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:74: error: cannot find symbol
+            this.session = Session.getInstance(this.javaMailProperties);
+                           ^
+  symbol:   variable Session
+  location: class JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:135: error: name clash: class JavaMailSenderImpl has two methods with the same erasure, yet neither overrides the other
+    public void send(final SimpleMailMessage simpleMessage) throws MailException {
+                ^
+  first method:  send(MimeMessage) in JavaMailSenderImpl
+  second method: send(MimeMessage[]) in JavaMailSenderImpl
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:136: error: reference to send is ambiguous
+        this.send(new SimpleMailMessage[] { simpleMessage });
+            ^
+  both method send(MimeMessage) in JavaMailSenderImpl and method send(MimeMessage[]) in JavaMailSenderImpl match
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/JavaMailSenderImpl.java:139: error: name clash: class JavaMailSenderImpl has two methods with the same erasure, yet neither overrides the other
+    public void send(final SimpleMailMessage[] simpleMessages) throws MailException {
+                ^
+  first method:  send(MimeMessage) in JavaMailSenderImpl
+  second method: send(SimpleMailMessage) in MailSender
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMailMessage.java:21: error: package javax.mail does not exist
+import javax.mail.MessagingException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMailMessage.java:22: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMessage;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:26: error: package javax.activation does not exist
+import javax.activation.DataHandler;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:27: error: package javax.activation does not exist
+import javax.activation.DataSource;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:28: error: package javax.activation does not exist
+import javax.activation.FileDataSource;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:29: error: package javax.activation does not exist
+import javax.activation.FileTypeMap;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:30: error: package javax.mail does not exist
+import javax.mail.BodyPart;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:31: error: package javax.mail does not exist
+import javax.mail.Message;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:32: error: package javax.mail does not exist
+import javax.mail.MessagingException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:33: error: package javax.mail.internet does not exist
+import javax.mail.internet.AddressException;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:34: error: package javax.mail.internet does not exist
+import javax.mail.internet.InternetAddress;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:35: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeBodyPart;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:36: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMessage;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:37: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMultipart;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:38: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimePart;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMailMessage.java:57: error: cannot find symbol
+	public MimeMailMessage(MimeMessage mimeMessage) {
+	                       ^
+  symbol:   class MimeMessage
+  location: class MimeMailMessage
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMailMessage.java:71: error: cannot find symbol
+	public final MimeMessage getMimeMessage() {
+	             ^
+  symbol:   class MimeMessage
+  location: class MimeMailMessage
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:163: error: cannot find symbol
+	private final MimeMessage mimeMessage;
+	              ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:165: error: cannot find symbol
+	private MimeMultipart rootMimeMultipart;
+	        ^
+  symbol:   class MimeMultipart
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:167: error: cannot find symbol
+	private MimeMultipart mimeMultipart;
+	        ^
+  symbol:   class MimeMultipart
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:171: error: cannot find symbol
+	private FileTypeMap fileTypeMap;
+	        ^
+  symbol:   class FileTypeMap
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:188: error: cannot find symbol
+	public MimeMessageHelper(MimeMessage mimeMessage) {
+	                         ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:200: error: cannot find symbol
+	public MimeMessageHelper(MimeMessage mimeMessage, String encoding) {
+	                         ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:225: error: cannot find symbol
+	public MimeMessageHelper(MimeMessage mimeMessage, boolean multipart) throws MessagingException {
+	                         ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:225: error: cannot find symbol
+	public MimeMessageHelper(MimeMessage mimeMessage, boolean multipart) throws MessagingException {
+	                                                                            ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:244: error: cannot find symbol
+	public MimeMessageHelper(MimeMessage mimeMessage, boolean multipart, String encoding)
+	                         ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:245: error: cannot find symbol
+	    throws MessagingException {
+	           ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:268: error: cannot find symbol
+	public MimeMessageHelper(MimeMessage mimeMessage, int multipartMode) throws MessagingException {
+	                         ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:268: error: cannot find symbol
+	public MimeMessageHelper(MimeMessage mimeMessage, int multipartMode) throws MessagingException {
+	                                                                            ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:286: error: cannot find symbol
+	public MimeMessageHelper(MimeMessage mimeMessage, int multipartMode, String encoding)
+	                         ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:287: error: cannot find symbol
+	    throws MessagingException {
+	           ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:299: error: cannot find symbol
+	public final MimeMessage getMimeMessage() {
+	             ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:327: error: cannot find symbol
+	protected void createMimeMultiparts(MimeMessage mimeMessage, int multipartMode) throws MessagingException {
+	                                    ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:327: error: cannot find symbol
+	protected void createMimeMultiparts(MimeMessage mimeMessage, int multipartMode) throws MessagingException {
+	                                                                                       ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:364: error: cannot find symbol
+	protected final void setMimeMultiparts(MimeMultipart root, MimeMultipart main) {
+	                                       ^
+  symbol:   class MimeMultipart
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:364: error: cannot find symbol
+	protected final void setMimeMultiparts(MimeMultipart root, MimeMultipart main) {
+	                                                           ^
+  symbol:   class MimeMultipart
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:399: error: cannot find symbol
+	public final MimeMultipart getRootMimeMultipart() throws IllegalStateException {
+	             ^
+  symbol:   class MimeMultipart
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:414: error: cannot find symbol
+	public final MimeMultipart getMimeMultipart() throws IllegalStateException {
+	             ^
+  symbol:   class MimeMultipart
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:426: error: cannot find symbol
+	protected String getDefaultEncoding(MimeMessage mimeMessage) {
+	                                    ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:447: error: cannot find symbol
+	protected FileTypeMap getDefaultFileTypeMap(MimeMessage mimeMessage) {
+	                                            ^
+  symbol:   class MimeMessage
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:447: error: cannot find symbol
+	protected FileTypeMap getDefaultFileTypeMap(MimeMessage mimeMessage) {
+	          ^
+  symbol:   class FileTypeMap
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:473: error: cannot find symbol
+	public void setFileTypeMap(FileTypeMap fileTypeMap) {
+	                           ^
+  symbol:   class FileTypeMap
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:480: error: cannot find symbol
+	public FileTypeMap getFileTypeMap() {
+	       ^
+  symbol:   class FileTypeMap
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:516: error: cannot find symbol
+	protected void validateAddress(InternetAddress address) throws AddressException {
+	                               ^
+  symbol:   class InternetAddress
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:516: error: cannot find symbol
+	protected void validateAddress(InternetAddress address) throws AddressException {
+	                                                               ^
+  symbol:   class AddressException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:529: error: cannot find symbol
+	protected void validateAddresses(InternetAddress[] addresses) throws AddressException {
+	                                 ^
+  symbol:   class InternetAddress
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:529: error: cannot find symbol
+	protected void validateAddresses(InternetAddress[] addresses) throws AddressException {
+	                                                                     ^
+  symbol:   class AddressException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:536: error: cannot find symbol
+	public void setFrom(InternetAddress from) throws MessagingException {
+	                    ^
+  symbol:   class InternetAddress
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:536: error: cannot find symbol
+	public void setFrom(InternetAddress from) throws MessagingException {
+	                                                 ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:542: error: cannot find symbol
+	public void setFrom(String from) throws MessagingException {
+	                                        ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:547: error: cannot find symbol
+	public void setFrom(String from, String personal) throws MessagingException, UnsupportedEncodingException {
+	                                                         ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:553: error: cannot find symbol
+	public void setReplyTo(InternetAddress replyTo) throws MessagingException {
+	                       ^
+  symbol:   class InternetAddress
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:553: error: cannot find symbol
+	public void setReplyTo(InternetAddress replyTo) throws MessagingException {
+	                                                       ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:559: error: cannot find symbol
+	public void setReplyTo(String replyTo) throws MessagingException {
+	                                              ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:564: error: cannot find symbol
+	public void setReplyTo(String replyTo, String personal) throws MessagingException, UnsupportedEncodingException {
+	                                                               ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:572: error: cannot find symbol
+	public void setTo(InternetAddress to) throws MessagingException {
+	                  ^
+  symbol:   class InternetAddress
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:572: error: cannot find symbol
+	public void setTo(InternetAddress to) throws MessagingException {
+	                                             ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:578: error: cannot find symbol
+	public void setTo(InternetAddress[] to) throws MessagingException {
+	                  ^
+  symbol:   class InternetAddress
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:578: error: cannot find symbol
+	public void setTo(InternetAddress[] to) throws MessagingException {
+	                                               ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:584: error: cannot find symbol
+	public void setTo(String to) throws MessagingException {
+	                                    ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessageHelper.java:589: error: cannot find symbol
+	public void setTo(String[] to) throws MessagingException {
+	                                      ^
+  symbol:   class MessagingException
+  location: class MimeMessageHelper
+100 errors

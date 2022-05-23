@@ -1,0 +1,67 @@
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:14: error: cannot find symbol
+import net.sf.cglib.proxy.MethodProxy;
+                         ^
+  symbol:   class MethodProxy
+  location: package net.sf.cglib.proxy
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:17: error: cannot find symbol
+import net.sf.cglib.proxy.MethodInterceptor;
+                         ^
+  symbol:   class MethodInterceptor
+  location: package net.sf.cglib.proxy
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:22: error: cannot find symbol
+import net.sf.cglib.core.VisibilityPredicate;
+                        ^
+  symbol:   class VisibilityPredicate
+  location: package net.sf.cglib.core
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:27: error: cannot find symbol
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+  symbol:   class Enhancer
+  location: package net.sf.cglib.proxy
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:100: error: cannot find symbol
+    private Enhancer createEnhancer(final Class<?> toMock) {
+            ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:126: error: cannot find symbol
+    public static class MockMethodInterceptor implements MethodInterceptor, Serializable
+                                                         ^
+  symbol:   class MethodInterceptor
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:136: error: cannot find symbol
+        public Object intercept(final Object obj, Method method, final Object[] args, final MethodProxy proxy) throws Throwable {
+                                                                                            ^
+  symbol:   class MethodProxy
+  location: class MockMethodInterceptor
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:45: error: cannot find symbol
+        final Enhancer enhancer = this.createEnhancer(toMock);
+              ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:60: error: cannot find symbol
+            Enhancer.registerCallbacks((Class)mockClass, new Callback[] { (Callback)interceptor });
+            ^
+  symbol:   variable Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:96: error: cannot find symbol
+            Enhancer.registerCallbacks((Class)mockClass, (Callback[])null);
+            ^
+  symbol:   variable Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:101: error: cannot find symbol
+        final Enhancer enhancer = new Enhancer() {
+              ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:101: error: cannot find symbol
+        final Enhancer enhancer = new Enhancer() {
+                                      ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java:103: error: cannot find symbol
+                CollectionUtils.filter((Collection)constructors, (Predicate)new VisibilityPredicate(sc, true));
+                                                                                ^
+  symbol: class VisibilityPredicate
+Note: sources/structure/org.easymock/easymock/3.3/Decompiled/org/easymock/internal/ClassProxyFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+13 errors

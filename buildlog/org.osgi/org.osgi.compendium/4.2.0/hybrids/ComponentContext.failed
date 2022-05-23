@@ -1,0 +1,30 @@
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ComponentContext.java:21: error: package org.osgi.framework does not exist
+import org.osgi.framework.Bundle;
+                         ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ComponentContext.java:22: error: package org.osgi.framework does not exist
+import org.osgi.framework.BundleContext;
+                         ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ComponentContext.java:23: error: package org.osgi.framework does not exist
+import org.osgi.framework.ServiceReference;
+                         ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ComponentContext.java:104: error: cannot find symbol
+	public Object locateService(String name, ServiceReference reference);
+	                                         ^
+  symbol:   class ServiceReference
+  location: interface ComponentContext
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ComponentContext.java:129: error: cannot find symbol
+	public BundleContext getBundleContext();
+	       ^
+  symbol:   class BundleContext
+  location: interface ComponentContext
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ComponentContext.java:151: error: cannot find symbol
+	public Bundle getUsingBundle();
+	       ^
+  symbol:   class Bundle
+  location: interface ComponentContext
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ComponentContext.java:190: error: cannot find symbol
+	public ServiceReference getServiceReference();
+	       ^
+  symbol:   class ServiceReference
+  location: interface ComponentContext
+7 errors

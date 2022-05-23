@@ -1,0 +1,178 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:9: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.Expression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:10: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.Variable;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:11: error: package org.codehaus.groovy.ast.stmt does not exist
+import org.codehaus.groovy.ast.stmt.Statement;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:12: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.Parameter;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:13: error: package org.codehaus.groovy.ast.tools does not exist
+import org.codehaus.groovy.ast.tools.GenericsUtils;
+                                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:14: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.FieldNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:15: error: package org.codehaus.groovy.ast.tools does not exist
+import org.codehaus.groovy.ast.tools.GeneralUtils;
+                                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:16: error: cannot find symbol
+import org.codehaus.groovy.transform.AbstractASTTransformation;
+                                    ^
+  symbol:   class AbstractASTTransformation
+  location: package org.codehaus.groovy.transform
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:18: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ASTNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:19: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:20: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.AnnotationNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:21: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.AnnotatedNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:22: error: cannot find symbol
+import org.codehaus.groovy.transform.BuilderASTTransformation;
+                                    ^
+  symbol:   class BuilderASTTransformation
+  location: package org.codehaus.groovy.transform
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:24: error: package BuilderASTTransformation does not exist
+public class SimpleStrategy extends BuilderASTTransformation.AbstractBuilderStrategy
+                                                            ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:27: error: cannot find symbol
+    public void build(final BuilderASTTransformation transform, final AnnotatedNode annotatedNode, final AnnotationNode anno) {
+                            ^
+  symbol:   class BuilderASTTransformation
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:27: error: cannot find symbol
+    public void build(final BuilderASTTransformation transform, final AnnotatedNode annotatedNode, final AnnotationNode anno) {
+                                                                      ^
+  symbol:   class AnnotatedNode
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:27: error: cannot find symbol
+    public void build(final BuilderASTTransformation transform, final AnnotatedNode annotatedNode, final AnnotationNode anno) {
+                                                                                                         ^
+  symbol:   class AnnotationNode
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:26: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:28: error: cannot find symbol
+        if (!(annotatedNode instanceof ClassNode)) {
+                                       ^
+  symbol:   class ClassNode
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:29: error: cannot find symbol
+            transform.addError("Error during " + BuilderASTTransformation.MY_TYPE_NAME + " processing: building for " + annotatedNode.getClass().getSimpleName() + " not supported by " + this.getClass().getSimpleName(), annotatedNode);
+                                                 ^
+  symbol:   variable BuilderASTTransformation
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:29: error: cannot find symbol
+            transform.addError("Error during " + BuilderASTTransformation.MY_TYPE_NAME + " processing: building for " + annotatedNode.getClass().getSimpleName() + " not supported by " + this.getClass().getSimpleName(), annotatedNode);
+                                                                                                                                                                                              ^
+  symbol: method getClass()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:32: error: cannot find symbol
+        final ClassNode buildee = (ClassNode)annotatedNode;
+              ^
+  symbol:   class ClassNode
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:32: error: cannot find symbol
+        final ClassNode buildee = (ClassNode)annotatedNode;
+                                   ^
+  symbol:   class ClassNode
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:50: error: cannot find symbol
+        final String prefix = AbstractASTTransformation.getMemberStringValue(anno, "prefix", "set");
+                              ^
+  symbol:   variable AbstractASTTransformation
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:51: error: cannot find symbol
+        final List<FieldNode> fields = GeneralUtils.getInstancePropertyFields(buildee);
+                   ^
+  symbol:   class FieldNode
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:51: error: cannot find symbol
+        final List<FieldNode> fields = GeneralUtils.getInstancePropertyFields(buildee);
+                                       ^
+  symbol:   variable GeneralUtils
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:55: error: cannot find symbol
+        for (final FieldNode field : fields) {
+                   ^
+  symbol:   class FieldNode
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:57: error: cannot find symbol
+            if (!AbstractASTTransformation.shouldSkip(fieldName, excludes, includes)) {
+                 ^
+  symbol:   variable AbstractASTTransformation
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:58: error: cannot find symbol
+                final String methodName = this.getSetterName(prefix, fieldName);
+                                              ^
+  symbol: method getSetterName(String,String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:59: error: cannot find symbol
+                final Parameter parameter = GeneralUtils.param(field.getType(), fieldName);
+                      ^
+  symbol:   class Parameter
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:59: error: cannot find symbol
+                final Parameter parameter = GeneralUtils.param(field.getType(), fieldName);
+                                            ^
+  symbol:   variable GeneralUtils
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:60: error: cannot find symbol
+                buildee.addMethod(methodName, 1, GenericsUtils.newClass(buildee), GeneralUtils.params(parameter), BuilderASTTransformation.NO_EXCEPTIONS, GeneralUtils.block(GeneralUtils.stmt(GeneralUtils.assignX(GeneralUtils.fieldX(field), GeneralUtils.varX(parameter))), GeneralUtils.returnS(GeneralUtils.varX("this"))));
+                                                                                                                  ^
+  symbol:   variable BuilderASTTransformation
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:60: error: cannot find symbol
+                buildee.addMethod(methodName, 1, GenericsUtils.newClass(buildee), GeneralUtils.params(parameter), BuilderASTTransformation.NO_EXCEPTIONS, GeneralUtils.block(GeneralUtils.stmt(GeneralUtils.assignX(GeneralUtils.fieldX(field), GeneralUtils.varX(parameter))), GeneralUtils.returnS(GeneralUtils.varX("this"))));
+                                                 ^
+  symbol:   variable GenericsUtils
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:60: error: cannot find symbol
+                buildee.addMethod(methodName, 1, GenericsUtils.newClass(buildee), GeneralUtils.params(parameter), BuilderASTTransformation.NO_EXCEPTIONS, GeneralUtils.block(GeneralUtils.stmt(GeneralUtils.assignX(GeneralUtils.fieldX(field), GeneralUtils.varX(parameter))), GeneralUtils.returnS(GeneralUtils.varX("this"))));
+                                                                                  ^
+  symbol:   variable GeneralUtils
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:60: error: cannot find symbol
+                buildee.addMethod(methodName, 1, GenericsUtils.newClass(buildee), GeneralUtils.params(parameter), BuilderASTTransformation.NO_EXCEPTIONS, GeneralUtils.block(GeneralUtils.stmt(GeneralUtils.assignX(GeneralUtils.fieldX(field), GeneralUtils.varX(parameter))), GeneralUtils.returnS(GeneralUtils.varX("this"))));
+                                                                                                                                                          ^
+  symbol:   variable GeneralUtils
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:60: error: cannot find symbol
+                buildee.addMethod(methodName, 1, GenericsUtils.newClass(buildee), GeneralUtils.params(parameter), BuilderASTTransformation.NO_EXCEPTIONS, GeneralUtils.block(GeneralUtils.stmt(GeneralUtils.assignX(GeneralUtils.fieldX(field), GeneralUtils.varX(parameter))), GeneralUtils.returnS(GeneralUtils.varX("this"))));
+                                                                                                                                                                             ^
+  symbol:   variable GeneralUtils
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:60: error: cannot find symbol
+                buildee.addMethod(methodName, 1, GenericsUtils.newClass(buildee), GeneralUtils.params(parameter), BuilderASTTransformation.NO_EXCEPTIONS, GeneralUtils.block(GeneralUtils.stmt(GeneralUtils.assignX(GeneralUtils.fieldX(field), GeneralUtils.varX(parameter))), GeneralUtils.returnS(GeneralUtils.varX("this"))));
+                                                                                                                                                                                               ^
+  symbol:   variable GeneralUtils
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:60: error: cannot find symbol
+                buildee.addMethod(methodName, 1, GenericsUtils.newClass(buildee), GeneralUtils.params(parameter), BuilderASTTransformation.NO_EXCEPTIONS, GeneralUtils.block(GeneralUtils.stmt(GeneralUtils.assignX(GeneralUtils.fieldX(field), GeneralUtils.varX(parameter))), GeneralUtils.returnS(GeneralUtils.varX("this"))));
+                                                                                                                                                                                                                    ^
+  symbol:   variable GeneralUtils
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:60: error: cannot find symbol
+                buildee.addMethod(methodName, 1, GenericsUtils.newClass(buildee), GeneralUtils.params(parameter), BuilderASTTransformation.NO_EXCEPTIONS, GeneralUtils.block(GeneralUtils.stmt(GeneralUtils.assignX(GeneralUtils.fieldX(field), GeneralUtils.varX(parameter))), GeneralUtils.returnS(GeneralUtils.varX("this"))));
+                                                                                                                                                                                                                                                ^
+  symbol:   variable GeneralUtils
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:60: error: cannot find symbol
+                buildee.addMethod(methodName, 1, GenericsUtils.newClass(buildee), GeneralUtils.params(parameter), BuilderASTTransformation.NO_EXCEPTIONS, GeneralUtils.block(GeneralUtils.stmt(GeneralUtils.assignX(GeneralUtils.fieldX(field), GeneralUtils.varX(parameter))), GeneralUtils.returnS(GeneralUtils.varX("this"))));
+                                                                                                                                                                                                                                                                                ^
+  symbol:   variable GeneralUtils
+  location: class SimpleStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/builder/SimpleStrategy.java:60: error: cannot find symbol
+                buildee.addMethod(methodName, 1, GenericsUtils.newClass(buildee), GeneralUtils.params(parameter), BuilderASTTransformation.NO_EXCEPTIONS, GeneralUtils.block(GeneralUtils.stmt(GeneralUtils.assignX(GeneralUtils.fieldX(field), GeneralUtils.varX(parameter))), GeneralUtils.returnS(GeneralUtils.varX("this"))));
+                                                                                                                                                                                                                                                                                                     ^
+  symbol:   variable GeneralUtils
+  location: class SimpleStrategy
+41 errors

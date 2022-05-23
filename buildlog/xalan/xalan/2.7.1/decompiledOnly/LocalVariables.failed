@@ -1,0 +1,161 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:7: error: cannot find symbol
+import org.apache.bcel.generic.ReferenceType;
+                              ^
+  symbol:   class ReferenceType
+  location: package org.apache.bcel.generic
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:8: error: cannot find symbol
+import org.apache.bcel.verifier.exc.StructuralCodeConstraintException;
+                                   ^
+  symbol:   class StructuralCodeConstraintException
+  location: package org.apache.bcel.verifier.exc
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:9: error: cannot find symbol
+import org.apache.bcel.verifier.exc.AssertionViolatedException;
+                                   ^
+  symbol:   class AssertionViolatedException
+  location: package org.apache.bcel.verifier.exc
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:10: error: cannot find symbol
+import org.apache.bcel.generic.Type;
+                              ^
+  symbol:   class Type
+  location: package org.apache.bcel.generic
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:14: error: cannot find symbol
+    private Type[] locals;
+            ^
+  symbol:   class Type
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:31: error: cannot find symbol
+    public Type get(final int i) {
+           ^
+  symbol:   class Type
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:43: error: cannot find symbol
+    public void set(final int i, final Type type) {
+                                       ^
+  symbol:   class Type
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:107: error: cannot find symbol
+    public void initializeObject(final UninitializedObjectType u) {
+                                       ^
+  symbol:   class UninitializedObjectType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:17: error: cannot find symbol
+        this.locals = new Type[maxLocals];
+                          ^
+  symbol:   class Type
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:19: error: cannot find symbol
+            this.locals[i] = Type.UNKNOWN;
+                             ^
+  symbol:   variable Type
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:44: error: cannot find symbol
+        if (type == Type.BYTE || type == Type.SHORT || type == Type.BOOLEAN || type == Type.CHAR) {
+                    ^
+  symbol:   variable Type
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:44: error: cannot find symbol
+        if (type == Type.BYTE || type == Type.SHORT || type == Type.BOOLEAN || type == Type.CHAR) {
+                                         ^
+  symbol:   variable Type
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:44: error: cannot find symbol
+        if (type == Type.BYTE || type == Type.SHORT || type == Type.BOOLEAN || type == Type.CHAR) {
+                                                               ^
+  symbol:   variable Type
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:44: error: cannot find symbol
+        if (type == Type.BYTE || type == Type.SHORT || type == Type.BOOLEAN || type == Type.CHAR) {
+                                                                                       ^
+  symbol:   variable Type
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:45: error: cannot find symbol
+            throw new AssertionViolatedException("LocalVariables do not know about '" + type + "'. Use Type.INT instead.");
+                      ^
+  symbol:   class AssertionViolatedException
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:68: error: cannot find symbol
+            throw new AssertionViolatedException("Merging LocalVariables of different size?!? From different methods or what?!?");
+                      ^
+  symbol:   class AssertionViolatedException
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:76: error: cannot find symbol
+        if (!(this.locals[i] instanceof UninitializedObjectType) && lv.locals[i] instanceof UninitializedObjectType) {
+                                        ^
+  symbol:   class UninitializedObjectType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:76: error: cannot find symbol
+        if (!(this.locals[i] instanceof UninitializedObjectType) && lv.locals[i] instanceof UninitializedObjectType) {
+                                                                                            ^
+  symbol:   class UninitializedObjectType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:77: error: cannot find symbol
+            throw new StructuralCodeConstraintException("Backwards branch with an uninitialized object in the local variables detected.");
+                      ^
+  symbol:   class StructuralCodeConstraintException
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:79: error: cannot find symbol
+        if (!this.locals[i].equals(lv.locals[i]) && this.locals[i] instanceof UninitializedObjectType && lv.locals[i] instanceof UninitializedObjectType) {
+                                                                              ^
+  symbol:   class UninitializedObjectType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:79: error: cannot find symbol
+        if (!this.locals[i].equals(lv.locals[i]) && this.locals[i] instanceof UninitializedObjectType && lv.locals[i] instanceof UninitializedObjectType) {
+                                                                                                                                 ^
+  symbol:   class UninitializedObjectType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:80: error: cannot find symbol
+            throw new StructuralCodeConstraintException("Backwards branch with an uninitialized object in the local variables detected.");
+                      ^
+  symbol:   class StructuralCodeConstraintException
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:82: error: cannot find symbol
+        if (this.locals[i] instanceof UninitializedObjectType && !(lv.locals[i] instanceof UninitializedObjectType)) {
+                                      ^
+  symbol:   class UninitializedObjectType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:82: error: cannot find symbol
+        if (this.locals[i] instanceof UninitializedObjectType && !(lv.locals[i] instanceof UninitializedObjectType)) {
+                                                                                           ^
+  symbol:   class UninitializedObjectType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:83: error: cannot find symbol
+            this.locals[i] = ((UninitializedObjectType)this.locals[i]).getInitialized();
+                               ^
+  symbol:   class UninitializedObjectType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:85: error: cannot find symbol
+        if (this.locals[i] instanceof ReferenceType && lv.locals[i] instanceof ReferenceType) {
+                                      ^
+  symbol:   class ReferenceType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:85: error: cannot find symbol
+        if (this.locals[i] instanceof ReferenceType && lv.locals[i] instanceof ReferenceType) {
+                                                                               ^
+  symbol:   class ReferenceType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:87: error: cannot find symbol
+                final Type sup = ((ReferenceType)this.locals[i]).firstCommonSuperclass((ReferenceType)lv.locals[i]);
+                      ^
+  symbol:   class Type
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:87: error: cannot find symbol
+                final Type sup = ((ReferenceType)this.locals[i]).firstCommonSuperclass((ReferenceType)lv.locals[i]);
+                                                                                        ^
+  symbol:   class ReferenceType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:87: error: cannot find symbol
+                final Type sup = ((ReferenceType)this.locals[i]).firstCommonSuperclass((ReferenceType)lv.locals[i]);
+                                   ^
+  symbol:   class ReferenceType
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:89: error: cannot find symbol
+                    throw new AssertionViolatedException("Could not load all the super classes of '" + this.locals[i] + "' and '" + lv.locals[i] + "'.");
+                              ^
+  symbol:   class AssertionViolatedException
+  location: class LocalVariables
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/structurals/LocalVariables.java:95: error: cannot find symbol
+            this.locals[i] = Type.UNKNOWN;
+                             ^
+  symbol:   variable Type
+  location: class LocalVariables
+32 errors

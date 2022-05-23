@@ -1,0 +1,301 @@
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:143: error: illegal start of expression
+        public void run() {
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:149: error: class, interface, or enum expected
+}
+^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:155: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:157: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:160: error: class, interface, or enum expected
+    public synchronized int getThreadCount()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:161: error: class, interface, or enum expected
+    { return managed.size(); }
+                             ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:163: error: class, interface, or enum expected
+    public void close( boolean skip_remaining_tasks )
+           ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:168: error: class, interface, or enum expected
+            deadlockDetector.cancel();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:170: error: class, interface, or enum expected
+            if (should_cancel_timer)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:172: error: class, interface, or enum expected
+            myTimer = null;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:173: error: class, interface, or enum expected
+            for (Iterator ii = managed.iterator(); ii.hasNext(); )
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:173: error: class, interface, or enum expected
+            for (Iterator ii = managed.iterator(); ii.hasNext(); )
+                                                   ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:173: error: class, interface, or enum expected
+            for (Iterator ii = managed.iterator(); ii.hasNext(); )
+                                                                 ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:176: error: class, interface, or enum expected
+                stopMe.gentleStop();
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:177: error: class, interface, or enum expected
+                if (skip_remaining_tasks)
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:179: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:182: error: class, interface, or enum expected
+            if (!skip_remaining_tasks)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:184: error: class, interface, or enum expected
+                for (Iterator ii = pendingTasks.iterator(); ii.hasNext(); )
+                                                            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:184: error: class, interface, or enum expected
+                for (Iterator ii = pendingTasks.iterator(); ii.hasNext(); )
+                                                                          ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:187: error: class, interface, or enum expected
+                    new Thread(r).start();
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:188: error: class, interface, or enum expected
+                    ii.remove();
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:189: error: class, interface, or enum expected
+                }
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:192: error: class, interface, or enum expected
+            pendingTasks = null;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:193: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:196: error: class, interface, or enum expected
+    public void close()
+           ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:197: error: class, interface, or enum expected
+    { close( true ); }
+                     ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:199: error: class, interface, or enum expected
+    public synchronized int getActiveCount()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:200: error: class, interface, or enum expected
+    { return managed.size() - available.size(); }
+                                                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:202: error: class, interface, or enum expected
+    public synchronized int getIdleCount()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:203: error: class, interface, or enum expected
+    { return available.size(); }
+                               ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:205: error: class, interface, or enum expected
+    public synchronized int getPendingTaskCount()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:206: error: class, interface, or enum expected
+    { return pendingTasks.size(); }
+                                  ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:208: error: class, interface, or enum expected
+    public synchronized String getStatus()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:219: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:222: error: class, interface, or enum expected
+    public synchronized String getStackTraces()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:223: error: class, interface, or enum expected
+    { return getStackTraces(0); }
+                                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:232: error: class, interface, or enum expected
+        try
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:234: error: <identifier> expected
+            Method m = Thread.class.getMethod("getStackTrace", null);
+                                   ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:238: error: illegal start of type
+            for (int i = 0; i < initial_indent; ++i)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:238: error: > expected
+            for (int i = 0; i < initial_indent; ++i)
+                                              ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:238: error: illegal start of type
+            for (int i = 0; i < initial_indent; ++i)
+                                                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:238: error: <identifier> expected
+            for (int i = 0; i < initial_indent; ++i)
+                                                   ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:239: error: <identifier> expected
+                iw.upIndent();
+                           ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:240: error: illegal start of type
+            for (Iterator ii = managed.iterator(); ii.hasNext(); )
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:240: error: <identifier> expected
+            for (Iterator ii = managed.iterator(); ii.hasNext(); )
+                                                             ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:240: error: illegal start of type
+            for (Iterator ii = managed.iterator(); ii.hasNext(); )
+                                                                 ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:250: error: illegal start of type
+            for (int i = 0; i < initial_indent; ++i)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:250: error: > expected
+            for (int i = 0; i < initial_indent; ++i)
+                                              ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:250: error: illegal start of type
+            for (int i = 0; i < initial_indent; ++i)
+                                                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:250: error: <identifier> expected
+            for (int i = 0; i < initial_indent; ++i)
+                                                   ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:251: error: <identifier> expected
+                iw.downIndent();
+                             ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:252: error: <identifier> expected
+            iw.flush(); // useless, but I feel better
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:254: error: <identifier> expected
+            iw.close(); // useless, but I feel better;
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:255: error: illegal start of type
+            return out;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:255: error: <identifier> expected
+            return out;
+                      ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:257: error: class, interface, or enum expected
+        catch (NoSuchMethodException e)
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:261: error: class, interface, or enum expected
+            return null;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:262: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:267: error: class, interface, or enum expected
+            return null;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:268: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:271: error: class, interface, or enum expected
+    public synchronized String getMultiLineStatusString()
+                        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:272: error: class, interface, or enum expected
+    { return this.getMultiLineStatusString(0); }
+                                               ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:281: error: class, interface, or enum expected
+            IndentedWriter iw = new IndentedWriter( sw );
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:283: error: class, interface, or enum expected
+            for (int i = 0; i < initial_indent; ++i)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:283: error: class, interface, or enum expected
+            for (int i = 0; i < initial_indent; ++i)
+                            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:283: error: class, interface, or enum expected
+            for (int i = 0; i < initial_indent; ++i)
+                                                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:286: error: class, interface, or enum expected
+            if (managed == null)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:289: error: class, interface, or enum expected
+                iw.print( this );
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:290: error: class, interface, or enum expected
+                iw.println(" closed.]");
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:291: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:295: error: class, interface, or enum expected
+                active.removeAll( available );
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:297: error: class, interface, or enum expected
+                iw.print("Managed Threads: ");
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:298: error: class, interface, or enum expected
+                iw.println( managed.size() );
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:299: error: class, interface, or enum expected
+                iw.print("Active Threads: ");
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:300: error: class, interface, or enum expected
+                iw.println( active.size() );
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:301: error: class, interface, or enum expected
+                iw.println("Active Tasks: ");
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:302: error: class, interface, or enum expected
+                iw.upIndent();
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:303: error: class, interface, or enum expected
+                for (Iterator ii = active.iterator(); ii.hasNext(); )
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:303: error: class, interface, or enum expected
+                for (Iterator ii = active.iterator(); ii.hasNext(); )
+                                                      ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:303: error: class, interface, or enum expected
+                for (Iterator ii = active.iterator(); ii.hasNext(); )
+                                                                    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:306: error: class, interface, or enum expected
+                    iw.print( pt.getCurrentTask() );
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:307: error: class, interface, or enum expected
+                    iw.print( " (");
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:308: error: class, interface, or enum expected
+                    iw.print( pt.getName() );
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:309: error: class, interface, or enum expected
+                    iw.println(')');
+                    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:310: error: class, interface, or enum expected
+                }
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:312: error: class, interface, or enum expected
+                iw.println("Pending Tasks: ");
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:313: error: class, interface, or enum expected
+                iw.upIndent();
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:314: error: class, interface, or enum expected
+                for (int i = 0, len = pendingTasks.size(); i < len; ++i)
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:314: error: class, interface, or enum expected
+                for (int i = 0, len = pendingTasks.size(); i < len; ++i)
+                                                           ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:314: error: class, interface, or enum expected
+                for (int i = 0, len = pendingTasks.size(); i < len; ++i)
+                                                                    ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:316: error: class, interface, or enum expected
+                iw.downIndent();
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:317: error: class, interface, or enum expected
+            }
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:319: error: class, interface, or enum expected
+            for (int i = 0; i < initial_indent; ++i)
+                            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:319: error: class, interface, or enum expected
+            for (int i = 0; i < initial_indent; ++i)
+                                                ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:321: error: class, interface, or enum expected
+            iw.flush(); // useless, but I feel better
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:322: error: class, interface, or enum expected
+            String out = sw.toString();
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:323: error: class, interface, or enum expected
+            iw.close(); // useless, but I feel better;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:324: error: class, interface, or enum expected
+            return out;
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:325: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/ThreadPoolAsynchronousRunner.java:330: error: class, interface, or enum expected
+            throw new RuntimeException("Huh? An IOException when working with a StringWriter?!? " + e);
+            ^
+100 errors

@@ -1,0 +1,68 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:7: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:9: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:12: error: cannot find symbol
+import groovy.lang.GroovyClassLoader;
+                  ^
+  symbol:   class GroovyClassLoader
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:16: error: cannot find symbol
+    static Boolean realIsJUnit4Test(final Class scriptClass, final GroovyClassLoader loader) {
+                                                                   ^
+  symbol:   class GroovyClassLoader
+  location: class JUnit4Utils
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:44: error: cannot find symbol
+    static Object realRunJUnit4Test(final Class scriptClass, final GroovyClassLoader loader) {
+                                                                   ^
+  symbol:   class GroovyClassLoader
+  location: class JUnit4Utils
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:47: error: cannot find symbol
+            final Object result = InvokerHelper.invokeStaticMethod(junitCoreClass, "runClasses", new Object[] { scriptClass });
+                                  ^
+  symbol:   variable InvokerHelper
+  location: class JUnit4Utils
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:48: error: cannot find symbol
+            System.out.print("JUnit 4 Runner, Tests: " + InvokerHelper.getProperty(result, "runCount"));
+                                                         ^
+  symbol:   variable InvokerHelper
+  location: class JUnit4Utils
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:49: error: cannot find symbol
+            System.out.print(", Failures: " + InvokerHelper.getProperty(result, "failureCount"));
+                                              ^
+  symbol:   variable InvokerHelper
+  location: class JUnit4Utils
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:50: error: cannot find symbol
+            System.out.println(", Time: " + InvokerHelper.getProperty(result, "runTime"));
+                                            ^
+  symbol:   variable InvokerHelper
+  location: class JUnit4Utils
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:51: error: cannot find symbol
+            final List failures = (List)InvokerHelper.getProperty(result, "failures");
+                                        ^
+  symbol:   variable InvokerHelper
+  location: class JUnit4Utils
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:54: error: cannot find symbol
+                System.out.println("Test Failure: " + InvokerHelper.getProperty(f, "description"));
+                                                      ^
+  symbol:   variable InvokerHelper
+  location: class JUnit4Utils
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:55: error: cannot find symbol
+                System.out.println(InvokerHelper.getProperty(f, "trace"));
+                                   ^
+  symbol:   variable InvokerHelper
+  location: class JUnit4Utils
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java:60: error: cannot find symbol
+            throw new GroovyRuntimeException("Error running JUnit 4 test.", e);
+                      ^
+  symbol:   class GroovyRuntimeException
+  location: class JUnit4Utils
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v5/JUnit4Utils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+13 errors

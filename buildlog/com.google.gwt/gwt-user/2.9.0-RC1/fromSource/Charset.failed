@@ -1,0 +1,16 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/nio/charset/Charset.java:17: error: package exists in another module: java.base
+package java.nio.charset;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/nio/charset/Charset.java:79: error: name has private access in Charset
+    return this.name.compareToIgnoreCase(that.name);
+                                             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/nio/charset/Charset.java:96: error: name has private access in Charset
+    return this.name.equals(that.name);
+                                ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/javaemul/internal/EmulatedCharset.java:31: error: LatinCharset is not abstract and does not override abstract method newEncoder() in Charset
+  private static class LatinCharset extends EmulatedCharset {
+                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/javaemul/internal/EmulatedCharset.java:56: error: UtfCharset is not abstract and does not override abstract method newEncoder() in Charset
+  private static class UtfCharset extends EmulatedCharset {
+                 ^
+5 errors

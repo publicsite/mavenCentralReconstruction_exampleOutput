@@ -1,0 +1,60 @@
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:14: error: package org.junit.jupiter.params does not exist
+import static org.junit.jupiter.params.ParameterizedTest.ARGUMENTS_PLACEHOLDER;
+                                      ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:14: error: static import only from classes and interfaces
+import static org.junit.jupiter.params.ParameterizedTest.ARGUMENTS_PLACEHOLDER;
+^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:15: error: package org.junit.jupiter.params does not exist
+import static org.junit.jupiter.params.ParameterizedTest.DISPLAY_NAME_PLACEHOLDER;
+                                      ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:15: error: static import only from classes and interfaces
+import static org.junit.jupiter.params.ParameterizedTest.DISPLAY_NAME_PLACEHOLDER;
+^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:16: error: package org.junit.jupiter.params does not exist
+import static org.junit.jupiter.params.ParameterizedTest.INDEX_PLACEHOLDER;
+                                      ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:16: error: static import only from classes and interfaces
+import static org.junit.jupiter.params.ParameterizedTest.INDEX_PLACEHOLDER;
+^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:22: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionConfigurationException;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerUtils.java:13: error: package org.junit.platform.commons.support does not exist
+import static org.junit.platform.commons.support.ReflectionSupport.findMethod;
+                                                ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerUtils.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.support.ReflectionSupport.findMethod;
+^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:42: error: cannot find symbol
+			throw new ExtensionConfigurationException(message, ex);
+			          ^
+  symbol:   class ExtensionConfigurationException
+  location: class CartesianProductTestNameFormatter
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:56: error: cannot find symbol
+				.replace(INDEX_PLACEHOLDER, String.valueOf(invocationIndex));
+				         ^
+  symbol:   variable INDEX_PLACEHOLDER
+  location: class CartesianProductTestNameFormatter
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:55: error: cannot find symbol
+				.replace(DISPLAY_NAME_PLACEHOLDER, this.displayName)//
+				         ^
+  symbol:   variable DISPLAY_NAME_PLACEHOLDER
+  location: class CartesianProductTestNameFormatter
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:58: error: cannot find symbol
+		if (result.contains(ARGUMENTS_PLACEHOLDER)) {
+		                    ^
+  symbol:   variable ARGUMENTS_PLACEHOLDER
+  location: class CartesianProductTestNameFormatter
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/CartesianProductTestNameFormatter.java:63: error: cannot find symbol
+			result = result.replace(ARGUMENTS_PLACEHOLDER, replacement);
+			                        ^
+  symbol:   variable ARGUMENTS_PLACEHOLDER
+  location: class CartesianProductTestNameFormatter
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerUtils.java:76: error: cannot find symbol
+			method = findMethod(current, methodName, parameterTypes);
+			         ^
+  symbol:   method findMethod(Class<CAP#1>,String,Class<?>[])
+  location: class PioneerUtils
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+15 errors

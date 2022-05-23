@@ -1,0 +1,80 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:8: error: cannot find symbol
+import org.codehaus.groovy.runtime.StringGroovyMethods;
+                                  ^
+  symbol:   class StringGroovyMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:17: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:20: error: cannot find symbol
+public abstract class GString extends GroovyObjectSupport implements Comparable, CharSequence, Writable, Buildable, Serializable
+                                      ^
+  symbol: class GroovyObjectSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:20: error: cannot find symbol
+public abstract class GString extends GroovyObjectSupport implements Comparable, CharSequence, Writable, Buildable, Serializable
+                                                                                                         ^
+  symbol: class Buildable
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:157: error: cannot find symbol
+    public void build(final GroovyObject builder) {
+                            ^
+  symbol:   class GroovyObject
+  location: class GString
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:36: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:39: error: cannot find symbol
+            return super.invokeMethod(name, args);
+                   ^
+  symbol:   variable super
+  location: class GString
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:41: error: cannot find symbol
+        catch (MissingMethodException e) {
+               ^
+  symbol:   class MissingMethodException
+  location: class GString
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:42: error: cannot find symbol
+            return InvokerHelper.invokeMethod(this.toString(), name, args);
+                   ^
+  symbol:   variable InvokerHelper
+  location: class GString
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:136: error: cannot find symbol
+                if (value instanceof Closure) {
+                                     ^
+  symbol:   class Closure
+  location: class GString
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:137: error: cannot find symbol
+                    final Closure c = (Closure)value;
+                          ^
+  symbol:   class Closure
+  location: class GString
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:137: error: cannot find symbol
+                    final Closure c = (Closure)value;
+                                       ^
+  symbol:   class Closure
+  location: class GString
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:139: error: cannot find symbol
+                        InvokerHelper.write(out, c.call());
+                        ^
+  symbol:   variable InvokerHelper
+  location: class GString
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:143: error: cannot find symbol
+                            throw new GroovyRuntimeException("Trying to evaluate a GString containing a Closure taking " + c.getMaximumNumberOfParameters() + " parameters");
+                                      ^
+  symbol:   class GroovyRuntimeException
+  location: class GString
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:149: error: cannot find symbol
+                    InvokerHelper.write(out, value);
+                    ^
+  symbol:   variable InvokerHelper
+  location: class GString
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:156: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/GString.java:205: error: cannot find symbol
+        return StringGroovyMethods.bitwiseNegate(this.toString());
+               ^
+  symbol:   variable StringGroovyMethods
+  location: class GString
+17 errors

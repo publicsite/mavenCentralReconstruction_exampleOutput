@@ -1,0 +1,43 @@
+hybrids/ant/ant/1.5.1/JavaClassHelper.java:59: error: package org.apache.bcel.classfile does not exist
+import org.apache.bcel.classfile.ClassParser;
+                                ^
+hybrids/ant/ant/1.5.1/JavaClassHelper.java:60: error: package org.apache.bcel.classfile does not exist
+import org.apache.bcel.classfile.ConstantValue;
+                                ^
+hybrids/ant/ant/1.5.1/JavaClassHelper.java:61: error: package org.apache.bcel.classfile does not exist
+import org.apache.bcel.classfile.Field;
+                                ^
+hybrids/ant/ant/1.5.1/JavaClassHelper.java:62: error: package org.apache.bcel.classfile does not exist
+import org.apache.bcel.classfile.JavaClass;
+                                ^
+hybrids/ant/ant/1.5.1/JavaClassHelper.java:81: error: cannot find symbol
+        final ClassParser parser = new ClassParser(bis, "");
+              ^
+  symbol:   class ClassParser
+  location: class JavaClassHelper
+hybrids/ant/ant/1.5.1/JavaClassHelper.java:81: error: cannot find symbol
+        final ClassParser parser = new ClassParser(bis, "");
+                                       ^
+  symbol:   class ClassParser
+  location: class JavaClassHelper
+hybrids/ant/ant/1.5.1/JavaClassHelper.java:82: error: cannot find symbol
+        final JavaClass javaClass = parser.parse();
+              ^
+  symbol:   class JavaClass
+  location: class JavaClassHelper
+hybrids/ant/ant/1.5.1/JavaClassHelper.java:83: error: cannot find symbol
+        final Field[] fields = javaClass.getFields();
+              ^
+  symbol:   class Field
+  location: class JavaClassHelper
+hybrids/ant/ant/1.5.1/JavaClassHelper.java:85: error: cannot find symbol
+            final Field field = fields[i];
+                  ^
+  symbol:   class Field
+  location: class JavaClassHelper
+hybrids/ant/ant/1.5.1/JavaClassHelper.java:87: error: cannot find symbol
+                final ConstantValue cv = field.getConstantValue();
+                      ^
+  symbol:   class ConstantValue
+  location: class JavaClassHelper
+10 errors

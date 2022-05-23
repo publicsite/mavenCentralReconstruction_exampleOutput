@@ -1,0 +1,79 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/ScriptExecutionCondition.java:14: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.AnnotationUtils.findAnnotation;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/ScriptExecutionCondition.java:14: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.AnnotationUtils.findAnnotation;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/ScriptExecutionCondition.java:28: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.BlacklistedExceptions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/script/ScriptExecutionManager.java:27: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/script/Script.java:19: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/ScriptExecutionEvaluator.java:77: error: cannot access JUnitException
+			throw new ScriptEvaluationException("Script evaluation failed for: " + script.getAnnotationAsString(), e);
+			^
+  class file for org.junit.platform.commons.JUnitException not found
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/ScriptExecutionEvaluator.java:84: error: incompatible types: ScriptEvaluationException cannot be converted to Throwable
+			throw new ScriptEvaluationException("Script returned `null`: " + script.getAnnotationAsString());
+			^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/ScriptExecutionEvaluator.java:113: error: incompatible types: ScriptEvaluationException cannot be converted to Throwable
+		throw new ScriptEvaluationException("Unsupported annotation type: " + script.getAnnotationType());
+		^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/ScriptExecutionCondition.java:90: error: cannot find symbol
+		Optional<DisabledIf> disabled = findAnnotation(annotatedElement, DisabledIf.class);
+		                                ^
+  symbol:   method findAnnotation(AnnotatedElement,Class<DisabledIf>)
+  location: class ScriptExecutionCondition
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/ScriptExecutionCondition.java:100: error: cannot find symbol
+		Optional<EnabledIf> enabled = findAnnotation(annotatedElement, EnabledIf.class);
+		                              ^
+  symbol:   method findAnnotation(AnnotatedElement,Class<EnabledIf>)
+  location: class ScriptExecutionCondition
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/ScriptExecutionCondition.java:142: error: cannot find symbol
+				BlacklistedExceptions.rethrowIfBlacklisted(cause);
+				^
+  symbol:   variable BlacklistedExceptions
+  location: interface Evaluator
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/ScriptExecutionCondition.java:177: error: incompatible types: ExtensionConfigurationException cannot be converted to Throwable
+			throw exception;
+			^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/script/ScriptExecutionManager.java:83: error: cannot find symbol
+		Preconditions.notNull(scriptEngine, () -> "Script engine not found: " + engine);
+		^
+  symbol:   variable Preconditions
+  location: class ScriptExecutionManager
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/script/Script.java:121: error: cannot find symbol
+		this(Preconditions.notNull(annotation, "annotation must not be null").annotationType(), annotation.toString(),
+		     ^
+  symbol:   variable Preconditions
+  location: class Script
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/script/Script.java:128: error: cannot find symbol
+		Preconditions.notNull(annotationType, "annotationType must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class Script
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/script/Script.java:129: error: cannot find symbol
+		Preconditions.notNull(annotationAsString, "annotationAsString must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class Script
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/script/Script.java:130: error: cannot find symbol
+		Preconditions.notBlank(engine, "engine must not be blank");
+		^
+  symbol:   variable Preconditions
+  location: class Script
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/script/Script.java:131: error: cannot find symbol
+		Preconditions.notBlank(source, "source must not be blank");
+		^
+  symbol:   variable Preconditions
+  location: class Script
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/script/Script.java:132: error: cannot find symbol
+		Preconditions.notNull(reason, "reason must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class Script
+19 errors

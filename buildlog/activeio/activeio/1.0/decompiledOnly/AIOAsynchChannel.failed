@@ -1,0 +1,85 @@
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:10: error: package com.ibm.io.async does not exist
+import com.ibm.io.async.IAbstractAsyncFuture;
+                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:11: error: package com.ibm.io.async does not exist
+import com.ibm.io.async.IAsyncFuture;
+                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:17: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.Latch;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:18: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.SynchronizedBoolean;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:22: error: package com.ibm.io.async does not exist
+import com.ibm.io.async.AsyncSocketChannel;
+                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:23: error: package com.ibm.io.async does not exist
+import com.ibm.io.async.ICompletionListener;
+                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:26: error: cannot find symbol
+public final class AIOAsynchChannel implements AsynchChannel, ICompletionListener, SocketMetadata
+                                                              ^
+  symbol: class ICompletionListener
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:29: error: cannot find symbol
+    private final AsyncSocketChannel socketChannel;
+                  ^
+  symbol:   class AsyncSocketChannel
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:33: error: cannot find symbol
+    private final SynchronizedBoolean running;
+                  ^
+  symbol:   class SynchronizedBoolean
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:34: error: cannot find symbol
+    private Latch doneLatch;
+            ^
+  symbol:   class Latch
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:36: error: cannot find symbol
+    protected AIOAsynchChannel(final AsyncSocketChannel socketChannel) throws IOException {
+                                     ^
+  symbol:   class AsyncSocketChannel
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:119: error: cannot find symbol
+    public void futureCompleted(final IAbstractAsyncFuture abstractFuture, final Object attribute) {
+                                      ^
+  symbol:   class IAbstractAsyncFuture
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:37: error: cannot find symbol
+        this.running = new SynchronizedBoolean(false);
+                           ^
+  symbol:   class SynchronizedBoolean
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:79: error: cannot find symbol
+            this.doneLatch = new Latch();
+                                 ^
+  symbol:   class Latch
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:106: error: cannot find symbol
+            final IAsyncFuture future = this.socketChannel.write(data);
+                  ^
+  symbol:   class IAsyncFuture
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:120: error: cannot find symbol
+        final IAsyncFuture future = (IAsyncFuture)abstractFuture;
+              ^
+  symbol:   class IAsyncFuture
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:120: error: cannot find symbol
+        final IAsyncFuture future = (IAsyncFuture)abstractFuture;
+                                     ^
+  symbol:   class IAsyncFuture
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:147: error: cannot find symbol
+            final IAsyncFuture future = this.socketChannel.read(this.inputByteBuffer);
+                  ^
+  symbol:   class IAsyncFuture
+  location: class AIOAsynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java:148: error: cannot find symbol
+            future.addCompletionListener((ICompletionListener)this, (Object)null, false);
+                                          ^
+  symbol:   class ICompletionListener
+  location: class AIOAsynchChannel
+Note: sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/net/AIOAsynchChannel.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors

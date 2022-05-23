@@ -1,0 +1,49 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:9: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:10: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:20: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationList;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:21: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.PackageDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:24: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationSource;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:27: error: cannot find symbol
+public class JavaModule implements NamedElement.WithOptionalName, AnnotationSource
+                                                                  ^
+  symbol: class AnnotationSource
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:76: error: cannot find symbol
+    public boolean isExported(final PackageDescription packageDescription, final JavaModule module) {
+                                    ^
+  symbol:   class PackageDescription
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:80: error: cannot find symbol
+    public boolean isOpened(final PackageDescription packageDescription, final JavaModule module) {
+                                  ^
+  symbol:   class PackageDescription
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:84: error: cannot find symbol
+    public AnnotationList getDeclaredAnnotations() {
+           ^
+  symbol:   class AnnotationList
+  location: class JavaModule
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:186: error: package HashCodeAndEqualsPlugin does not exist
+        @HashCodeAndEqualsPlugin.Enhance
+                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:165: error: cannot find symbol
+            @SuppressFBWarnings(value = { "REC_CATCH_EXCEPTION" }, justification = "Exception should not be rethrown but trigger a fallback")
+             ^
+  symbol:   class SuppressFBWarnings
+  location: class CreationAction
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:42: error: package JavaType does not exist
+        if (!JavaType.MODULE.isInstance(module)) {
+                     ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/utility/JavaModule.java:85: error: package AnnotationList does not exist
+        return new AnnotationList.ForLoadedAnnotations(this.module.getDeclaredAnnotations());
+                                 ^
+13 errors

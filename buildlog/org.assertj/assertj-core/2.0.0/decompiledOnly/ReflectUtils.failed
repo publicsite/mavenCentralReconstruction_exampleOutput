@@ -1,0 +1,185 @@
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:10: error: cannot find symbol
+import org.assertj.core.internal.cglib.asm.Attribute;
+                                          ^
+  symbol:   class Attribute
+  location: package org.assertj.core.internal.cglib.asm
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:24: error: cannot find symbol
+import org.assertj.core.internal.cglib.asm.Type;
+                                          ^
+  symbol:   class Type
+  location: package org.assertj.core.internal.cglib.asm
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:42: error: cannot find symbol
+    public static Type[] getExceptionTypes(final Member member) {
+                  ^
+  symbol:   class Type
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:52: error: cannot find symbol
+    public static Signature getSignature(final Member member) {
+                  ^
+  symbol:   class Signature
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:355: error: cannot find symbol
+    public static MethodInfo getMethodInfo(final Member member, final int modifiers) {
+                  ^
+  symbol:   class MethodInfo
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:385: error: cannot find symbol
+    public static MethodInfo getMethodInfo(final Member member) {
+                  ^
+  symbol:   class MethodInfo
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:389: error: cannot find symbol
+    public static ClassInfo getClassInfo(final Class clazz) {
+                  ^
+  symbol:   class ClassInfo
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:44: error: cannot find symbol
+            return TypeUtils.getTypes(((Method)member).getExceptionTypes());
+                   ^
+  symbol:   variable TypeUtils
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:47: error: cannot find symbol
+            return TypeUtils.getTypes(((Constructor)member).getExceptionTypes());
+                   ^
+  symbol:   variable TypeUtils
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:54: error: cannot find symbol
+            return new Signature(member.getName(), Type.getMethodDescriptor((Method)member));
+                       ^
+  symbol:   class Signature
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:54: error: cannot find symbol
+            return new Signature(member.getName(), Type.getMethodDescriptor((Method)member));
+                                                   ^
+  symbol:   variable Type
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:57: error: cannot find symbol
+            final Type[] types = TypeUtils.getTypes(((Constructor)member).getParameterTypes());
+                  ^
+  symbol:   class Type
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:57: error: cannot find symbol
+            final Type[] types = TypeUtils.getTypes(((Constructor)member).getParameterTypes());
+                                 ^
+  symbol:   variable TypeUtils
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:58: error: cannot find symbol
+            return new Signature("<init>", Type.getMethodDescriptor(Type.VOID_TYPE, types));
+                       ^
+  symbol:   class Signature
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:58: error: cannot find symbol
+            return new Signature("<init>", Type.getMethodDescriptor(Type.VOID_TYPE, types));
+                                                                    ^
+  symbol:   variable Type
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:58: error: cannot find symbol
+            return new Signature("<init>", Type.getMethodDescriptor(Type.VOID_TYPE, types));
+                                           ^
+  symbol:   variable Type
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:119: error: incompatible types: Object cannot be converted to String
+            types[i] = getClass(params.get(i), loader);
+                                          ^
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:158: error: incompatible types: Object cannot be converted to Class
+                final Class c = ReflectUtils.primitives.get(className);
+                                                           ^
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:164: error: incompatible types: Object cannot be converted to String
+                final String transform = ReflectUtils.transforms.get(className);
+                                                                    ^
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:177: error: cannot find symbol
+        return newInstance(type, Constants.EMPTY_CLASS_ARRAY, null);
+                                 ^
+  symbol:   variable Constants
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:255: error: incompatible types: Object[] cannot be converted to Method[]
+        return methods.toArray(new Method[methods.size()]);
+                              ^
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:284: error: incompatible types: Object[] cannot be converted to PropertyDescriptor[]
+            return properties.toArray(new PropertyDescriptor[properties.size()]);
+                                     ^
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:356: error: cannot find symbol
+        final Signature sig = getSignature(member);
+              ^
+  symbol:   class Signature
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:357: error: cannot find symbol
+        return new MethodInfo() {
+                   ^
+  symbol:   class MethodInfo
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:358: error: cannot find symbol
+            private ClassInfo ci;
+                    ^
+  symbol: class ClassInfo
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:360: error: cannot find symbol
+            public ClassInfo getClassInfo() {
+                   ^
+  symbol: class ClassInfo
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:371: error: cannot find symbol
+            public Signature getSignature() {
+                   ^
+  symbol: class Signature
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:375: error: cannot find symbol
+            public Type[] getExceptionTypes() {
+                   ^
+  symbol: class Type
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:379: error: cannot find symbol
+            public Attribute getAttribute() {
+                   ^
+  symbol: class Attribute
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:390: error: cannot find symbol
+        final Type type = Type.getType(clazz);
+              ^
+  symbol:   class Type
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:390: error: cannot find symbol
+        final Type type = Type.getType(clazz);
+                          ^
+  symbol:   variable Type
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:391: error: cannot find symbol
+        final Type sc = (clazz.getSuperclass() == null) ? null : Type.getType(clazz.getSuperclass());
+              ^
+  symbol:   class Type
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:391: error: cannot find symbol
+        final Type sc = (clazz.getSuperclass() == null) ? null : Type.getType(clazz.getSuperclass());
+                                                                 ^
+  symbol:   variable Type
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:392: error: cannot find symbol
+        return new ClassInfo() {
+                   ^
+  symbol:   class ClassInfo
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:393: error: cannot find symbol
+            public Type getType() {
+                   ^
+  symbol: class Type
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:397: error: cannot find symbol
+            public Type getSuperType() {
+                   ^
+  symbol: class Type
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:401: error: cannot find symbol
+            public Type[] getInterfaces() {
+                   ^
+  symbol: class Type
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:402: error: cannot find symbol
+                return TypeUtils.getTypes(clazz.getInterfaces());
+                       ^
+  symbol: variable TypeUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:415: error: cannot find symbol
+            map.put(method.getName() + Type.getMethodDescriptor(method), method);
+                                       ^
+  symbol:   variable Type
+  location: class ReflectUtils
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java:419: error: incompatible types: Object cannot be converted to Method
+            result[j] = map.get(namesAndDescriptors[j * 2] + namesAndDescriptors[j * 2 + 1]);
+                               ^
+Note: sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/ReflectUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+40 errors

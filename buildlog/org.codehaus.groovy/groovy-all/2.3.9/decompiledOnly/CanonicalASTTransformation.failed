@@ -1,0 +1,128 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:7: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassHelper;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:10: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.AnnotationNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:11: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.AnnotatedNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:12: error: cannot find symbol
+import org.codehaus.groovy.control.SourceUnit;
+                                  ^
+  symbol:   class SourceUnit
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:13: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ASTNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:14: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:18: error: cannot find symbol
+public class CanonicalASTTransformation extends AbstractASTTransformation
+                                                ^
+  symbol: class AbstractASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:21: error: cannot find symbol
+    static final ClassNode MY_TYPE;
+                 ^
+  symbol:   class ClassNode
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:25: error: cannot find symbol
+    public void visit(final ASTNode[] nodes, final SourceUnit source) {
+                            ^
+  symbol:   class ASTNode
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:25: error: cannot find symbol
+    public void visit(final ASTNode[] nodes, final SourceUnit source) {
+                                                   ^
+  symbol:   class SourceUnit
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:27: error: cannot find symbol
+        final AnnotatedNode parent = (AnnotatedNode)nodes[1];
+              ^
+  symbol:   class AnnotatedNode
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:27: error: cannot find symbol
+        final AnnotatedNode parent = (AnnotatedNode)nodes[1];
+                                      ^
+  symbol:   class AnnotatedNode
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:28: error: cannot find symbol
+        final AnnotationNode anno = (AnnotationNode)nodes[0];
+              ^
+  symbol:   class AnnotationNode
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:28: error: cannot find symbol
+        final AnnotationNode anno = (AnnotationNode)nodes[0];
+                                     ^
+  symbol:   class AnnotationNode
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:32: error: cannot find symbol
+        if (parent instanceof ClassNode) {
+                              ^
+  symbol:   class ClassNode
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:33: error: cannot find symbol
+            final ClassNode cNode = (ClassNode)parent;
+                  ^
+  symbol:   class ClassNode
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:33: error: cannot find symbol
+            final ClassNode cNode = (ClassNode)parent;
+                                     ^
+  symbol:   class ClassNode
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:34: error: cannot find symbol
+            if (this.hasAnnotation(cNode, ImmutableASTTransformation.MY_TYPE)) {
+                                          ^
+  symbol:   variable ImmutableASTTransformation
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:35: error: cannot find symbol
+                this.addError(CanonicalASTTransformation.MY_TYPE_NAME + " class '" + cNode.getName() + "' can't also be " + ImmutableASTTransformation.MY_TYPE_NAME, parent);
+                                                                                                                            ^
+  symbol:   variable ImmutableASTTransformation
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:45: error: cannot find symbol
+            if (!this.hasAnnotation(cNode, TupleConstructorASTTransformation.MY_TYPE)) {
+                                           ^
+  symbol:   variable TupleConstructorASTTransformation
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:46: error: cannot find symbol
+                TupleConstructorASTTransformation.createConstructor(cNode, false, true, false, false, false, false, excludes, includes);
+                ^
+  symbol:   variable TupleConstructorASTTransformation
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:48: error: cannot find symbol
+            if (!this.hasAnnotation(cNode, EqualsAndHashCodeASTTransformation.MY_TYPE)) {
+                                           ^
+  symbol:   variable EqualsAndHashCodeASTTransformation
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:49: error: cannot find symbol
+                EqualsAndHashCodeASTTransformation.createHashCode(cNode, false, false, false, excludes, includes);
+                ^
+  symbol:   variable EqualsAndHashCodeASTTransformation
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:50: error: cannot find symbol
+                EqualsAndHashCodeASTTransformation.createEquals(cNode, false, false, true, excludes, includes);
+                ^
+  symbol:   variable EqualsAndHashCodeASTTransformation
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:52: error: cannot find symbol
+            if (!this.hasAnnotation(cNode, ToStringASTTransformation.MY_TYPE)) {
+                                           ^
+  symbol:   variable ToStringASTTransformation
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:53: error: cannot find symbol
+                ToStringASTTransformation.createToString(cNode, false, false, excludes, includes, false);
+                ^
+  symbol:   variable ToStringASTTransformation
+  location: class CanonicalASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/CanonicalASTTransformation.java:60: error: cannot find symbol
+        MY_TYPE = ClassHelper.make(CanonicalASTTransformation.MY_CLASS);
+                  ^
+  symbol:   variable ClassHelper
+  location: class CanonicalASTTransformation
+28 errors

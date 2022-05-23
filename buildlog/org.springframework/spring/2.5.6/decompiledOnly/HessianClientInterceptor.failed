@@ -1,0 +1,55 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:13: error: package com.caucho.hessian.client does not exist
+import com.caucho.hessian.client.HessianRuntimeException;
+                                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:18: error: package com.caucho.hessian.io does not exist
+import com.caucho.hessian.io.SerializerFactory;
+                            ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:19: error: package com.caucho.hessian.client does not exist
+import com.caucho.hessian.client.HessianProxyFactory;
+                                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:25: error: cannot find symbol
+    private HessianProxyFactory proxyFactory;
+            ^
+  symbol:   class HessianProxyFactory
+  location: class HessianClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:32: error: cannot find symbol
+    public void setProxyFactory(final HessianProxyFactory proxyFactory) {
+                                      ^
+  symbol:   class HessianProxyFactory
+  location: class HessianClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:36: error: cannot find symbol
+    public void setSerializerFactory(final SerializerFactory serializerFactory) {
+                                           ^
+  symbol:   class SerializerFactory
+  location: class HessianClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:95: error: cannot find symbol
+    protected Object createHessianProxy(final HessianProxyFactory proxyFactory) throws MalformedURLException {
+                                              ^
+  symbol:   class HessianProxyFactory
+  location: class HessianClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:29: error: cannot find symbol
+        this.proxyFactory = new HessianProxyFactory();
+                                ^
+  symbol:   class HessianProxyFactory
+  location: class HessianClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:33: error: cannot find symbol
+        this.proxyFactory = ((proxyFactory != null) ? proxyFactory : new HessianProxyFactory());
+                                                                         ^
+  symbol:   class HessianProxyFactory
+  location: class HessianClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:109: error: cannot find symbol
+            if (ex.getTargetException() instanceof HessianRuntimeException) {
+                                                   ^
+  symbol:   class HessianRuntimeException
+  location: class HessianClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:110: error: cannot find symbol
+                final HessianRuntimeException hre = (HessianRuntimeException)ex.getTargetException();
+                      ^
+  symbol:   class HessianRuntimeException
+  location: class HessianClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/caucho/HessianClientInterceptor.java:110: error: cannot find symbol
+                final HessianRuntimeException hre = (HessianRuntimeException)ex.getTargetException();
+                                                     ^
+  symbol:   class HessianRuntimeException
+  location: class HessianClientInterceptor
+12 errors

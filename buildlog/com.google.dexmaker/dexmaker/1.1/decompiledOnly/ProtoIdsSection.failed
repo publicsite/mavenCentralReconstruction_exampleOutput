@@ -1,0 +1,113 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:9: error: cannot find symbol
+import com.google.dexmaker.dx.util.AnnotatedOutput;
+                                  ^
+  symbol:   class AnnotatedOutput
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:12: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Prototype;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:15: error: cannot find symbol
+public final class ProtoIdsSection extends UniformItemSection
+                                           ^
+  symbol: class UniformItemSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:17: error: cannot find symbol
+    private final TreeMap<Prototype, ProtoIdItem> protoIds;
+                          ^
+  symbol:   class Prototype
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:17: error: cannot find symbol
+    private final TreeMap<Prototype, ProtoIdItem> protoIds;
+                                     ^
+  symbol:   class ProtoIdItem
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:19: error: cannot find symbol
+    public ProtoIdsSection(final DexFile file) {
+                                 ^
+  symbol:   class DexFile
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:25: error: cannot find symbol
+    public Collection<? extends Item> items() {
+                                ^
+  symbol:   class Item
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:30: error: cannot find symbol
+    public IndexedItem get(final Constant cst) {
+           ^
+  symbol:   class IndexedItem
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:34: error: cannot find symbol
+    public void writeHeaderPart(final AnnotatedOutput out) {
+                                      ^
+  symbol:   class AnnotatedOutput
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:49: error: cannot find symbol
+    public ProtoIdItem intern(final Prototype prototype) {
+                                    ^
+  symbol:   class Prototype
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:49: error: cannot find symbol
+    public ProtoIdItem intern(final Prototype prototype) {
+           ^
+  symbol:   class ProtoIdItem
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:62: error: cannot find symbol
+    public int indexOf(final Prototype prototype) {
+                             ^
+  symbol:   class Prototype
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:21: error: cannot find symbol
+        this.protoIds = new TreeMap<Prototype, ProtoIdItem>();
+                                    ^
+  symbol:   class Prototype
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:21: error: cannot find symbol
+        this.protoIds = new TreeMap<Prototype, ProtoIdItem>();
+                                               ^
+  symbol:   class ProtoIdItem
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:35: error: cannot find symbol
+        this.throwIfNotPrepared();
+            ^
+  symbol: method throwIfNotPrepared()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:37: error: cannot find symbol
+        final int offset = (sz == 0) ? 0 : this.getFileOffset();
+                                               ^
+  symbol: method getFileOffset()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:53: error: cannot find symbol
+        this.throwIfPrepared();
+            ^
+  symbol: method throwIfPrepared()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:54: error: cannot find symbol
+        ProtoIdItem result = this.protoIds.get(prototype);
+        ^
+  symbol:   class ProtoIdItem
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:56: error: cannot find symbol
+            result = new ProtoIdItem(prototype);
+                         ^
+  symbol:   class ProtoIdItem
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:66: error: cannot find symbol
+        this.throwIfNotPrepared();
+            ^
+  symbol: method throwIfNotPrepared()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:67: error: cannot find symbol
+        final ProtoIdItem item = this.protoIds.get(prototype);
+              ^
+  symbol:   class ProtoIdItem
+  location: class ProtoIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:74: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ProtoIdsSection.java:78: error: cannot find symbol
+            ((ProtoIdItem)i).setIndex(idx);
+              ^
+  symbol:   class ProtoIdItem
+  location: class ProtoIdsSection
+25 errors

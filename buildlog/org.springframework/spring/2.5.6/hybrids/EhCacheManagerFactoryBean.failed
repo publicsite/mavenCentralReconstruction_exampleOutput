@@ -1,0 +1,42 @@
+hybrids/org.springframework/spring/2.5.6/EhCacheManagerFactoryBean.java:21: error: package net.sf.ehcache does not exist
+import net.sf.ehcache.CacheException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/EhCacheManagerFactoryBean.java:22: error: package net.sf.ehcache does not exist
+import net.sf.ehcache.CacheManager;
+                     ^
+hybrids/org.springframework/spring/2.5.6/EhCacheManagerFactoryBean.java:65: error: cannot find symbol
+	private CacheManager cacheManager;
+	        ^
+  symbol:   class CacheManager
+  location: class EhCacheManagerFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheManagerFactoryBean.java:99: error: cannot find symbol
+	public void afterPropertiesSet() throws IOException, CacheException {
+	                                                     ^
+  symbol:   class CacheException
+  location: class EhCacheManagerFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheManagerFactoryBean.java:104: error: cannot find symbol
+				this.cacheManager = CacheManager.create(this.configLocation.getInputStream());
+				                    ^
+  symbol:   variable CacheManager
+  location: class EhCacheManagerFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheManagerFactoryBean.java:107: error: cannot find symbol
+				this.cacheManager = CacheManager.create();
+				                    ^
+  symbol:   variable CacheManager
+  location: class EhCacheManagerFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheManagerFactoryBean.java:113: error: cannot find symbol
+				this.cacheManager = new CacheManager(this.configLocation.getInputStream());
+				                        ^
+  symbol:   class CacheManager
+  location: class EhCacheManagerFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheManagerFactoryBean.java:116: error: cannot find symbol
+				this.cacheManager = new CacheManager();
+				                        ^
+  symbol:   class CacheManager
+  location: class EhCacheManagerFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheManagerFactoryBean.java:130: error: cannot find symbol
+		return (this.cacheManager != null ? this.cacheManager.getClass() : CacheManager.class);
+		                                                                   ^
+  symbol:   class CacheManager
+  location: class EhCacheManagerFactoryBean
+9 errors

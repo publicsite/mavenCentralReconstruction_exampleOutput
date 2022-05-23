@@ -1,0 +1,74 @@
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:11: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.BuildException;
+                           ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:19: error: package org.apache.tools.ant.types does not exist
+import org.apache.tools.ant.types.Path;
+                                 ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:22: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.Task;
+                           ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:24: error: cannot find symbol
+public class AttributeIndexer extends Task
+                                      ^
+  symbol: class Task
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:28: error: cannot find symbol
+    private Path classPath;
+            ^
+  symbol:   class Path
+  location: class AttributeIndexer
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:48: error: cannot find symbol
+    public Path createClasspath() {
+           ^
+  symbol:   class Path
+  location: class AttributeIndexer
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:72: error: cannot find symbol
+    protected void findJarFile() throws BuildException {
+                                        ^
+  symbol:   class BuildException
+  location: class AttributeIndexer
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:90: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class AttributeIndexer
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:49: error: cannot find symbol
+        return this.classPath = new Path(this.project);
+                                    ^
+  symbol:   class Path
+  location: class AttributeIndexer
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:49: error: cannot find symbol
+        return this.classPath = new Path(this.project);
+                                             ^
+  symbol: variable project
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:75: error: cannot find symbol
+            throw new BuildException("Unable to find any file with base name " + this.baseName.getName() + " in " + this.baseName.getParentFile().getPath());
+                      ^
+  symbol:   class BuildException
+  location: class AttributeIndexer
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:86: error: cannot find symbol
+            throw new BuildException("Unable to find any file with base name " + this.baseName.getName() + " in " + this.baseName.getParentFile().getPath());
+                      ^
+  symbol:   class BuildException
+  location: class AttributeIndexer
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:95: error: cannot find symbol
+            this.log("Can't find " + this.jarFile.getPath());
+                ^
+  symbol: method log(String)
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:99: error: cannot find symbol
+            this.log("Creating attribute index for " + this.jarFile.getPath());
+                ^
+  symbol: method log(String)
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:106: error: incompatible types: Object cannot be converted to JarEntry
+                    final JarEntry entry = e.nextElement();
+                                                        ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:121: error: incompatible types: Object cannot be converted to String
+                    final String className = attrs.next();
+                                                       ^
+sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java:134: error: cannot find symbol
+            throw new BuildException(e2.toString());
+                      ^
+  symbol:   class BuildException
+  location: class AttributeIndexer
+Note: sources/structure/commons-attributes/commons-attributes-compiler/2.2/Decompiled/org/apache/commons/attributes/compiler/AttributeIndexer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+17 errors

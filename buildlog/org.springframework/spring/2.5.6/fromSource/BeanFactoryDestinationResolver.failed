@@ -1,0 +1,82 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/BeanFactoryDestinationResolver.java:19: error: package javax.jms does not exist
+import javax.jms.Destination;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/BeanFactoryDestinationResolver.java:20: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/BeanFactoryDestinationResolver.java:21: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:19: error: package javax.jms does not exist
+import javax.jms.Destination;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:20: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:21: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/BeanFactoryDestinationResolver.java:71: error: cannot find symbol
+	public Destination resolveDestinationName(Session session, String destinationName, boolean pubSubDomain)
+	                                          ^
+  symbol:   class Session
+  location: class BeanFactoryDestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/BeanFactoryDestinationResolver.java:71: error: cannot find symbol
+	public Destination resolveDestinationName(Session session, String destinationName, boolean pubSubDomain)
+	       ^
+  symbol:   class Destination
+  location: class BeanFactoryDestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/BeanFactoryDestinationResolver.java:72: error: cannot find symbol
+			throws JMSException {
+			       ^
+  symbol:   class JMSException
+  location: class BeanFactoryDestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:54: error: cannot find symbol
+	Destination resolveDestinationName(Session session, String destinationName, boolean pubSubDomain)
+	                                   ^
+  symbol:   class Session
+  location: interface DestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:54: error: cannot find symbol
+	Destination resolveDestinationName(Session session, String destinationName, boolean pubSubDomain)
+	^
+  symbol:   class Destination
+  location: interface DestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/DestinationResolver.java:55: error: cannot find symbol
+			throws JMSException;
+			       ^
+  symbol:   class JMSException
+  location: interface DestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/BeanFactoryDestinationResolver.java:76: error: cannot find symbol
+			return (Destination) this.beanFactory.getBean(destinationName, Destination.class);
+			        ^
+  symbol:   class Destination
+  location: class BeanFactoryDestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/destination/BeanFactoryDestinationResolver.java:76: error: cannot find symbol
+			return (Destination) this.beanFactory.getBean(destinationName, Destination.class);
+			                                                               ^
+  symbol:   class Destination
+  location: class BeanFactoryDestinationResolver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:71: error: cannot find symbol
+		if (cause instanceof JMSException) {
+		                     ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:72: error: cannot find symbol
+			return ((JMSException) cause).getErrorCode();
+			         ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:85: error: cannot find symbol
+		if (cause instanceof JMSException) {
+		                     ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:86: error: cannot find symbol
+			Exception linkedEx = ((JMSException) cause).getLinkedException();
+			                       ^
+  symbol:   class JMSException
+  location: class JmsException
+19 errors

@@ -1,0 +1,77 @@
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:7: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:56: error: incompatible types: Object cannot be converted to URL
+                this.url = e.nextElement();
+                                        ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:159: error: incompatible types: Object cannot be converted to ArrayList
+            ArrayList nativeCommandList = this.nativeCommands.get(mimeType);
+                                                                 ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:203: error: incompatible types: Object cannot be converted to CommandInfo
+        for (final CommandInfo info : commands) {
+                                      ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:206: error: incompatible types: Object cannot be converted to List
+                List cmdList = this.allCommands.get(mimeType);
+                                                   ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:217: error: incompatible types: Object cannot be converted to Map
+        Map commands = commandList.get(mimeType);
+                                      ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:256: error: incompatible types: Object cannot be converted to Map
+        Map commands = this.preferredCommands.get(mimeType);
+                                                 ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:258: error: incompatible types: Object cannot be converted to Map
+            commands = this.preferredCommands.get(this.getWildcardMimeType(mimeType));
+                                                 ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:276: error: incompatible types: Object cannot be converted to Map
+        final Map commands = this.fallbackCommands.get(mimeType);
+                                                      ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:277: error: incompatible types: Object cannot be converted to Map
+        final Map wildcardCommands = this.fallbackCommands.get(this.getWildcardMimeType(mimeType));
+                                                              ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:293: error: incompatible types: Object cannot be converted to List
+        List exactCommands = this.allCommands.get(mimeType);
+                                                 ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:297: error: incompatible types: Object cannot be converted to List
+        List wildCommands = this.allCommands.get(this.getWildcardMimeType(mimeType));
+                                                ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:308: error: incompatible types: Object cannot be converted to CommandInfo
+            result[j++] = exactCommands.get(i);
+                                           ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:311: error: incompatible types: Object cannot be converted to CommandInfo
+            result[j++] = wildCommands.get(i);
+                                          ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:315: error: incompatible types: Object cannot be converted to CommandInfo
+            result[j++] = fallbackCommands.get(k.next());
+                                              ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:327: error: incompatible types: Object cannot be converted to Map
+        Map commands = this.preferredCommands.get(mimeType);
+                                                 ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:329: error: incompatible types: Object cannot be converted to Map
+            commands = this.preferredCommands.get(this.getWildcardMimeType(mimeType));
+                                                 ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:331: error: incompatible types: Object cannot be converted to Map
+                commands = this.fallbackCommands.get(mimeType);
+                                                    ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:333: error: incompatible types: Object cannot be converted to Map
+                    commands = this.fallbackCommands.get(this.getWildcardMimeType(mimeType));
+                                                        ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:340: error: incompatible types: Object cannot be converted to CommandInfo
+        return commands.get(cmdName.toLowerCase());
+                           ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:362: error: cannot find symbol
+            return (DataContentHandler)ProviderLocator.loadClass(info.getCommandClass(), this.getClass(), cl).newInstance();
+                                       ^
+  symbol:   variable ProviderLocator
+  location: class MailcapCommandMap
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:378: error: incompatible types: Object[] cannot be converted to String[]
+        return types.toArray(new String[types.size()]);
+                            ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:382: error: incompatible types: Object cannot be converted to ArrayList
+        final ArrayList commands = this.nativeCommands.get(mimeType.toLowerCase());
+                                                          ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java:386: error: incompatible types: Object[] cannot be converted to String[]
+        return commands.toArray(new String[commands.size()]);
+                               ^
+Note: sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/javax/activation/MailcapCommandMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+24 errors

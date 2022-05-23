@@ -1,0 +1,27 @@
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:58: error: package junit.framework does not exist
+import junit.framework.Test;
+                      ^
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:59: error: package junit.framework does not exist
+import junit.framework.TestCase;
+                      ^
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:92: error: cannot find symbol
+    public static String getTestCaseName(Test t) {
+                                         ^
+  symbol:   class Test
+  location: class JUnitVersionHelper
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:73: error: cannot find symbol
+            testCaseName = TestCase.class.getMethod("getName", new Class[0]);
+                           ^
+  symbol:   class TestCase
+  location: class JUnitVersionHelper
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:77: error: cannot find symbol
+                testCaseName = TestCase.class.getMethod("name", new Class[0]);
+                               ^
+  symbol:   class TestCase
+  location: class JUnitVersionHelper
+sources/structure/ant/ant/1.5.1/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:93: error: cannot find symbol
+        if (t instanceof TestCase && testCaseName != null) {
+                         ^
+  symbol:   class TestCase
+  location: class JUnitVersionHelper
+6 errors

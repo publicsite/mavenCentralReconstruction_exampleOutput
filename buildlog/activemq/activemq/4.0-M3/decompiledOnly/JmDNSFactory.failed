@@ -1,0 +1,34 @@
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/rendezvous/JmDNSFactory.java:10: error: package javax.jmdns does not exist
+import javax.jmdns.JmDNS;
+                  ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/rendezvous/JmDNSFactory.java:18: error: cannot find symbol
+    static synchronized JmDNS create(final InetAddress address) throws IOException {
+                        ^
+  symbol:   class JmDNS
+  location: class JmDNSFactory
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/rendezvous/JmDNSFactory.java:51: error: cannot find symbol
+        JmDNS jmDNS;
+        ^
+  symbol:   class JmDNS
+  location: class UsageTracker
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/rendezvous/JmDNSFactory.java:19: error: incompatible types: Object cannot be converted to UsageTracker
+        UsageTracker tracker = JmDNSFactory.registry.get(address);
+                                                        ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/rendezvous/JmDNSFactory.java:22: error: cannot find symbol
+            tracker.jmDNS = new JmDNS(address) {
+                                ^
+  symbol:   class JmDNS
+  location: class JmDNSFactory
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/rendezvous/JmDNSFactory.java:25: error: non-static variable super cannot be referenced from a static context
+                        super.close();
+                        ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/rendezvous/JmDNSFactory.java:25: error: cannot find symbol
+                        super.close();
+                             ^
+  symbol: method close()
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/rendezvous/JmDNSFactory.java:36: error: incompatible types: Object cannot be converted to UsageTracker
+        final UsageTracker tracker = JmDNSFactory.registry.get(address);
+                                                              ^
+Note: sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/rendezvous/JmDNSFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

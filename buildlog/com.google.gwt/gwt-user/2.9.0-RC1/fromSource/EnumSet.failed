@@ -1,0 +1,21 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/EnumSet.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/EnumSet.java:45: error: EnumSetImpl is not abstract and does not override abstract method complement() in EnumSet
+  static final class EnumSetImpl<E extends Enum<E>> extends EnumSet<E> {
+               ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/EnumSet.java:111: error: constructor EnumSet in class EnumSet<E#2> cannot be applied to given types;
+    public EnumSetImpl(E[] all, E[] set, int size) {
+                                                   ^
+  required: Class<E#1>,Enum<?>[]
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+  where E#1,E#2 are type-variables:
+    E#1 extends Enum<E#1> declared in class EnumSetImpl
+    E#2 extends Enum<E#2> declared in class EnumSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/EnumSet.java:171: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/EnumSet.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors

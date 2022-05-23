@@ -1,0 +1,128 @@
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/JettyHttpMonItem.java:6: error: package org.mortbay.jetty does not exist
+import org.mortbay.jetty.Request;
+                        ^
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:9: error: package javax.servlet does not exist
+import javax.servlet.ServletException;
+                    ^
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:10: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletRequest;
+                         ^
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMon.java:3: error: package javax.servlet does not exist
+import javax.servlet.ServletException;
+                    ^
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:126: error: cannot find symbol
+    public void throwException(Throwable t) throws IOException, ServletException {
+                                                                ^
+  symbol:   class ServletException
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMon.java:23: error: cannot find symbol
+    public void throwException(Throwable t) throws IOException, ServletException;
+                                                                ^
+  symbol:   class ServletException
+  location: interface HttpMon
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/JettyHttpMonItem.java:32: error: cannot find symbol
+        if (httpMonBase.getRequest() instanceof Request)
+                                                ^
+  symbol:   class Request
+  location: class JettyHttpMonItem
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/JettyHttpMonItem.java:41: error: cannot find symbol
+        if (httpMonBase.getRequest() instanceof Request)  {
+                                                ^
+  symbol:   class Request
+  location: class JettyHttpMonItem
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/JettyHttpMonItem.java:42: error: cannot find symbol
+            Request request=(Request)httpMonBase.getRequest();
+            ^
+  symbol:   class Request
+  location: class JettyHttpMonItem
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/JettyHttpMonItem.java:42: error: cannot find symbol
+            Request request=(Request)httpMonBase.getRequest();
+                             ^
+  symbol:   class Request
+  location: class JettyHttpMonItem
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonNull.java:3: error: package javax.servlet does not exist
+import javax.servlet.ServletException;
+                    ^
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonNull.java:36: error: cannot find symbol
+    public void throwException(Throwable t) throws IOException, ServletException {
+                                                                ^
+  symbol:   class ServletException
+  location: class HttpMonNull
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:108: error: cannot find symbol
+        if (requestException==null && request instanceof HttpServletRequest) {
+                                                         ^
+  symbol:   class HttpServletRequest
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:109: error: cannot find symbol
+            Object exc=((HttpServletRequest)request).getAttribute(EXCEPTION_ATTR);// defined by all containers
+                         ^
+  symbol:   class HttpServletRequest
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:116: error: cannot find symbol
+            if (requestException instanceof ServletException && ((ServletException)requestException).getRootCause()!=null)
+                                            ^
+  symbol:   class ServletException
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:116: error: cannot find symbol
+            if (requestException instanceof ServletException && ((ServletException)requestException).getRootCause()!=null)
+                                                                  ^
+  symbol:   class ServletException
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:117: error: cannot find symbol
+                trace.append("\nrootCause=").append(Misc.getExceptionTrace(((ServletException)requestException).getRootCause()));
+                                                                             ^
+  symbol:   class ServletException
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:129: error: cannot find symbol
+        if (t instanceof ServletException)
+                         ^
+  symbol:   class ServletException
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:130: error: cannot find symbol
+            throw (ServletException)t;
+                   ^
+  symbol:   class ServletException
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:134: error: cannot find symbol
+            throw new ServletException(t);
+                      ^
+  symbol:   class ServletException
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:144: error: cannot find symbol
+        else if (request instanceof HttpServletRequest) {
+                                    ^
+  symbol:   class HttpServletRequest
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:145: error: cannot find symbol
+            return ((HttpServletRequest)request).getRequestURI();
+                     ^
+  symbol:   class HttpServletRequest
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:163: error: cannot find symbol
+        if (request instanceof HttpServletRequest) {
+                               ^
+  symbol:   class HttpServletRequest
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonRequest.java:164: error: cannot find symbol
+            return ((HttpServletRequest)request).getContextPath();
+                     ^
+  symbol:   class HttpServletRequest
+  location: class HttpMonRequest
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonNull.java:37: error: cannot find symbol
+        if (t instanceof ServletException)
+                         ^
+  symbol:   class ServletException
+  location: class HttpMonNull
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonNull.java:38: error: cannot find symbol
+            throw (ServletException)t;
+                   ^
+  symbol:   class ServletException
+  location: class HttpMonNull
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonNull.java:42: error: cannot find symbol
+            throw new ServletException(t);
+                      ^
+  symbol:   class ServletException
+  location: class HttpMonNull
+Note: sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+27 errors

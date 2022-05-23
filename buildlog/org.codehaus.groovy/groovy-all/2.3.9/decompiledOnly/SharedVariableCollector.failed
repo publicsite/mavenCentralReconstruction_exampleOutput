@@ -1,0 +1,67 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:9: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.VariableExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:11: error: cannot find symbol
+import org.codehaus.groovy.control.SourceUnit;
+                                  ^
+  symbol:   class SourceUnit
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:12: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassCodeVisitorSupport;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:14: error: cannot find symbol
+public class SharedVariableCollector extends ClassCodeVisitorSupport
+                                             ^
+  symbol: class ClassCodeVisitorSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:16: error: cannot find symbol
+    private final SourceUnit unit;
+                  ^
+  symbol:   class SourceUnit
+  location: class SharedVariableCollector
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:17: error: cannot find symbol
+    private final Set<VariableExpression> closureSharedExpressions;
+                      ^
+  symbol:   class VariableExpression
+  location: class SharedVariableCollector
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:20: error: cannot find symbol
+    public SharedVariableCollector(final SourceUnit unit) {
+                                         ^
+  symbol:   class SourceUnit
+  location: class SharedVariableCollector
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:27: error: cannot find symbol
+    protected SourceUnit getSourceUnit() {
+              ^
+  symbol:   class SourceUnit
+  location: class SharedVariableCollector
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:31: error: cannot find symbol
+    public Set<VariableExpression> getClosureSharedExpressions() {
+               ^
+  symbol:   class VariableExpression
+  location: class SharedVariableCollector
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:36: error: cannot find symbol
+    public void visitVariableExpression(final VariableExpression expression) {
+                                              ^
+  symbol:   class VariableExpression
+  location: class SharedVariableCollector
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:21: error: cannot find symbol
+        this.closureSharedExpressions = new LinkedHashSet<VariableExpression>();
+                                                          ^
+  symbol:   class VariableExpression
+  location: class SharedVariableCollector
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:26: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:32: error: cannot find symbol
+        return Collections.unmodifiableSet((Set<? extends VariableExpression>)this.closureSharedExpressions);
+                                                          ^
+  symbol:   class VariableExpression
+  location: class SharedVariableCollector
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:35: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/stc/SharedVariableCollector.java:44: error: cannot find symbol
+        super.visitVariableExpression(expression);
+        ^
+  symbol:   variable super
+  location: class SharedVariableCollector
+15 errors

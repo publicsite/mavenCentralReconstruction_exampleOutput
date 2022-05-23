@@ -1,0 +1,132 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java:19: error: package javax.transaction does not exist
+import javax.transaction.Status;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java:20: error: package javax.transaction does not exist
+import javax.transaction.Synchronization;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java:21: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java:22: error: package javax.transaction does not exist
+import javax.transaction.UserTransaction;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java:45: error: cannot find symbol
+public class SpringJtaSynchronizationAdapter implements Synchronization {
+                                                        ^
+  symbol: class Synchronization
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java:51: error: cannot find symbol
+	private UserTransaction jtaTransaction;
+	        ^
+  symbol:   class UserTransaction
+  location: class SpringJtaSynchronizationAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java:80: error: cannot find symbol
+			TransactionSynchronization springSynchronization, UserTransaction jtaUserTransaction) {
+			                                                  ^
+  symbol:   class UserTransaction
+  location: class SpringJtaSynchronizationAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java:102: error: cannot find symbol
+			TransactionSynchronization springSynchronization, TransactionManager jtaTransactionManager) {
+			                                                  ^
+  symbol:   class TransactionManager
+  location: class SpringJtaSynchronizationAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:19: error: package javax.transaction does not exist
+import javax.transaction.HeuristicMixedException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:20: error: package javax.transaction does not exist
+import javax.transaction.HeuristicRollbackException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:21: error: package javax.transaction does not exist
+import javax.transaction.NotSupportedException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:22: error: package javax.transaction does not exist
+import javax.transaction.RollbackException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:23: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:24: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:25: error: package javax.transaction does not exist
+import javax.transaction.UserTransaction;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:46: error: cannot find symbol
+public class UserTransactionAdapter implements UserTransaction {
+                                               ^
+  symbol: class UserTransaction
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:48: error: cannot find symbol
+	private final TransactionManager transactionManager;
+	              ^
+  symbol:   class TransactionManager
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:55: error: cannot find symbol
+	public UserTransactionAdapter(TransactionManager transactionManager) {
+	                              ^
+  symbol:   class TransactionManager
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:63: error: cannot find symbol
+	public final TransactionManager getTransactionManager() {
+	             ^
+  symbol:   class TransactionManager
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:68: error: cannot find symbol
+	public void begin() throws NotSupportedException, SystemException {
+	                           ^
+  symbol:   class NotSupportedException
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:68: error: cannot find symbol
+	public void begin() throws NotSupportedException, SystemException {
+	                                                  ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:73: error: cannot find symbol
+			throws RollbackException, HeuristicMixedException, HeuristicRollbackException,
+			       ^
+  symbol:   class RollbackException
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:73: error: cannot find symbol
+			throws RollbackException, HeuristicMixedException, HeuristicRollbackException,
+			                          ^
+  symbol:   class HeuristicMixedException
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:73: error: cannot find symbol
+			throws RollbackException, HeuristicMixedException, HeuristicRollbackException,
+			                                                   ^
+  symbol:   class HeuristicRollbackException
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:74: error: cannot find symbol
+			SecurityException, IllegalStateException, SystemException {
+			                                          ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:79: error: cannot find symbol
+	public int getStatus() throws SystemException {
+	                              ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:83: error: cannot find symbol
+	public void rollback() throws IllegalStateException, SecurityException, SystemException {
+	                                                                        ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:87: error: cannot find symbol
+	public void setRollbackOnly() throws IllegalStateException, SystemException {
+	                                                            ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/UserTransactionAdapter.java:91: error: cannot find symbol
+	public void setTransactionTimeout(int timeout) throws SystemException {
+	                                                      ^
+  symbol:   class SystemException
+  location: class UserTransactionAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java:179: error: cannot find symbol
+			case Status.STATUS_COMMITTED:
+			     ^
+  symbol:   variable Status
+  location: class SpringJtaSynchronizationAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SpringJtaSynchronizationAdapter.java:182: error: cannot find symbol
+			case Status.STATUS_ROLLEDBACK:
+			     ^
+  symbol:   variable Status
+  location: class SpringJtaSynchronizationAdapter
+31 errors

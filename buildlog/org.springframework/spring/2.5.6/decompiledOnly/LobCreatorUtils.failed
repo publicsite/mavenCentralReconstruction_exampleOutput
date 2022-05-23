@@ -1,0 +1,24 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jdbc/support/lob/LobCreatorUtils.java:9: error: package javax.transaction does not exist
+import javax.transaction.Synchronization;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jdbc/support/lob/LobCreatorUtils.java:12: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jdbc/support/lob/LobCreatorUtils.java:19: error: cannot find symbol
+    public static void registerTransactionSynchronization(final LobCreator lobCreator, final TransactionManager jtaTransactionManager) throws IllegalStateException {
+                                                                                             ^
+  symbol:   class TransactionManager
+  location: class LobCreatorUtils
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jdbc/support/lob/LobCreatorUtils.java:30: error: cannot find symbol
+                    jtaTransactionManager.getTransaction().registerSynchronization((Synchronization)new JtaLobCreatorSynchronization(lobCreator));
+                                                                                    ^
+  symbol:   class Synchronization
+  location: class LobCreatorUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/support/lob/JtaLobCreatorSynchronization.java:19: error: package javax.transaction does not exist
+import javax.transaction.Synchronization;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/support/lob/JtaLobCreatorSynchronization.java:33: error: cannot find symbol
+public class JtaLobCreatorSynchronization implements Synchronization {
+                                                     ^
+  symbol: class Synchronization
+6 errors

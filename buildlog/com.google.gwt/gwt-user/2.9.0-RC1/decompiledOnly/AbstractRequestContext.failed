@@ -1,0 +1,133 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/autobean/super/com/google/web/bindery/autobean/shared/impl/StringQuoter.java:18: error: cannot find symbol
+import com.google.gwt.core.client.GwtScriptOnly;
+                                 ^
+  symbol:   class GwtScriptOnly
+  location: package com.google.gwt.core.client
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/autobean/super/com/google/web/bindery/autobean/shared/impl/StringQuoter.java:30: error: cannot find symbol
+@GwtScriptOnly
+ ^
+  symbol: class GwtScriptOnly
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/autobean/gwt/client/impl/JsoSplittable.java:18: error: cannot find symbol
+import com.google.gwt.core.client.GwtScriptOnly;
+                                 ^
+  symbol:   class GwtScriptOnly
+  location: package com.google.gwt.core.client
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/autobean/gwt/client/impl/JsoSplittable.java:36: error: cannot find symbol
+@GwtScriptOnly
+ ^
+  symbol: class GwtScriptOnly
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/client/GWT.java:308: error: cannot find symbol
+  static void setBridge(GWTBridge bridge) {
+                        ^
+  symbol:   class GWTBridge
+  location: class GWT
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/client/impl/Impl.java:21: error: cannot find symbol
+import com.google.gwt.core.client.GwtScriptOnly;
+                                 ^
+  symbol:   class GwtScriptOnly
+  location: package com.google.gwt.core.client
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/client/impl/Impl.java:192: error: cannot find symbol
+  @GwtScriptOnly
+   ^
+  symbol:   class GwtScriptOnly
+  location: class Impl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:335: error: method createProxy in class AbstractRequestContext cannot be applied to given types;
+            parent = this.createProxy(stableId.getProxyClass(), (SimpleProxyId<?>)stableId, true);
+                         ^
+  required: Class<T>,SimpleProxyId<T>,boolean
+  found: Class<BaseProxy>,SimpleProxyId<CAP#1>,boolean
+  reason: inference variable T has incompatible equality constraints CAP#1,BaseProxy
+  where T is a type-variable:
+    T extends BaseProxy declared in method <T>createProxy(Class<T>,SimpleProxyId<T>,boolean)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends BaseProxy from capture of ?
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:341: error: method createProxy in class AbstractRequestContext cannot be applied to given types;
+            parent = this.createProxy(stableId.getProxyClass(), (SimpleProxyId<?>)stableId, true);
+                         ^
+  required: Class<T>,SimpleProxyId<T>,boolean
+  found: Class<BaseProxy>,SimpleProxyId<CAP#1>,boolean
+  reason: inference variable T has incompatible equality constraints CAP#1,BaseProxy
+  where T is a type-variable:
+    T extends BaseProxy declared in method <T>createProxy(Class<T>,SimpleProxyId<T>,boolean)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends BaseProxy from capture of ?
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:418: error: type argument Object is not within bounds of type-variable P
+                    this.state.requestFactory.getEventBus().fireEventFromSource(new EntityProxyChange<Object>(proxy, writeOperation), id.getProxyClass());
+                                                                                                      ^
+  where P is a type-variable:
+    P extends EntityProxy declared in class EntityProxyChange
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:463: error: incompatible types: inference variable T has incompatible bounds
+                value = AutoBeanUtils.getAutoBean(this.values.get(propertyName));
+                                                 ^
+    equality constraints: Collection<?>
+    lower bounds: U,Object
+  where T,U are type-variables:
+    T extends Object declared in method <T,U>getAutoBean(U)
+    U extends T declared in method <T,U>getAutoBean(U)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:481: error: method editProxy in class AbstractRequestContext cannot be applied to given types;
+                                collection.add(AbstractRequestContext.this.editProxy(o));
+                                                                          ^
+  required: T
+  found: Object
+  reason: inference variable T has incompatible bounds
+    lower bounds: BaseProxy
+    lower bounds: Object
+  where T is a type-variable:
+    T extends BaseProxy declared in method <T>editProxy(T)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:645: error: method edit in class AbstractRequestContext cannot be applied to given types;
+            this.edit(arg);
+                ^
+  required: T
+  found: Object
+  reason: inference variable T has incompatible bounds
+    lower bounds: BaseProxy
+    lower bounds: Object
+  where T is a type-variable:
+    T extends BaseProxy declared in method <T>edit(T)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:659: error: method stableId in class BaseProxyCategory cannot be applied to given types;
+        this.state.editedProxies.put(BaseProxyCategory.stableId((AutoBean<?>)bean), bean);
+                                                      ^
+  required: AutoBean<? extends T>
+  found: AutoBean<CAP#1>
+  reason: inference variable T has incompatible bounds
+    lower bounds: BaseProxy
+    lower bounds: CAP#1
+  where T is a type-variable:
+    T extends BaseProxy declared in method <T>stableId(AutoBean<? extends T>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:673: error: constructor Dialect in enum Dialect cannot be applied to given types;
+        STANDARD(0) {
+                ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:680: error: constructor Dialect in enum Dialect cannot be applied to given types;
+        JSON_RPC(1) {
+                ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:924: error: AbstractRequestContext.MyConstraintViolation is not abstract and does not override abstract method <U>unwrap(Class<U>) in ConstraintViolation
+    private class MyConstraintViolation implements ConstraintViolation<BaseProxy>
+            ^
+  where U is a type-variable:
+    U extends Object declared in method <U>unwrap(Class<U>)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java:967: error: incompatible types: Iterator<Object> cannot be converted to Iterator<Node>
+                    return Collections.emptyList().iterator();
+                                                           ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/shared/GWT.java:31: error: cannot find symbol
+  private static GWTBridge sGWTBridge = null;
+                 ^
+  symbol:   class GWTBridge
+  location: class GWT
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/shared/GWT.java:177: error: cannot find symbol
+  public static void setBridge(GWTBridge bridge) {
+                               ^
+  symbol:   class GWTBridge
+  location: class GWT
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/autobean/shared/impl/AbstractAutoBean.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/requestfactory/shared/impl/AbstractRequestContext.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+20 errors

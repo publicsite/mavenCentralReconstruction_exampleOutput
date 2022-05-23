@@ -1,0 +1,47 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:59: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:60: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:61: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3561: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3569: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/description/TypeVariableSource.java:31: error: type argument Generic is not within bounds of type-variable S
+            final TypeList.Generic typeVariables = ((FilterableList<Object, TypeList.Generic>)this.getTypeVariables()).filter(ElementMatchers.named(symbol));
+                                                                                    ^
+  where S,T are type-variables:
+    S extends FilterableList<T,S> declared in interface FilterableList
+    T extends Object declared in interface FilterableList
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/description/TypeVariableSource.java:31: error: incompatible types: Generic cannot be converted to FilterableList<Object,Generic>
+            final TypeList.Generic typeVariables = ((FilterableList<Object, TypeList.Generic>)this.getTypeVariables()).filter(ElementMatchers.named(symbol));
+                                                                                                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/description/TypeVariableSource.java:36: error: cannot find symbol
+            return ((FilterableList<TypeDescription.Generic, S>)typeVariables).getOnly();
+                                                             ^
+  symbol:   class S
+  location: class AbstractBase
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3555: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3555: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+10 errors

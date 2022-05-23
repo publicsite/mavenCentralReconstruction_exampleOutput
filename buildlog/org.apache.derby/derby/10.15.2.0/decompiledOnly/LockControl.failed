@@ -1,0 +1,35 @@
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/locks/LockTable.java:9: error: cannot find symbol
+import org.apache.derby.shared.common.error.StandardException;
+                                           ^
+  symbol:   class StandardException
+  location: package org.apache.derby.shared.common.error
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/locks/ActiveLock.java:10: error: cannot find symbol
+import org.apache.derby.shared.common.error.StandardException;
+                                           ^
+  symbol:   class StandardException
+  location: package org.apache.derby.shared.common.error
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/locks/ActiveLock.java:32: error: cannot find symbol
+    protected synchronized byte waitForGrant(final int n) throws StandardException {
+                                                                 ^
+  symbol:   class StandardException
+  location: class ActiveLock
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/locks/LockTable.java:15: error: cannot find symbol
+    Lock lockObject(final CompatibilitySpace p0, final Lockable p1, final Object p2, final int p3) throws StandardException;
+                                                                                                          ^
+  symbol:   class StandardException
+  location: interface LockTable
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/locks/LockTable.java:27: error: cannot find symbol
+    boolean zeroDurationLockObject(final CompatibilitySpace p0, final Lockable p1, final Object p2, final int p3) throws StandardException;
+                                                                                                                         ^
+  symbol:   class StandardException
+  location: interface LockTable
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/locks/LockControl.java:210: error: incompatible types: Lock cannot be converted to ActiveLock
+        return this.waiting.get(0);
+                               ^
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/locks/LockControl.java:225: error: incompatible types: Lock cannot be converted to ActiveLock
+                    final ActiveLock activeLock2 = listIterator.next();
+                                                                    ^
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/services/locks/LockControl.java:281: error: incompatible types: ListIterator<Lock> cannot be converted to ListIterator<ActiveLock>
+        final ListIterator<ActiveLock> listIterator = (ListIterator<ActiveLock>)this.waiting.listIterator();
+                                                                                                         ^
+8 errors

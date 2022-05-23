@@ -1,0 +1,172 @@
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:36: error: cannot find symbol
+public class SubclassDynamicTypeBuilder<T> extends Adapter<T>
+                                                   ^
+  symbol: class Adapter
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3194: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3202: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:49: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:51: error: incompatible types: SubclassDynamicTypeBuilder cannot be converted to Builder<T>
+        return new SubclassDynamicTypeBuilder(instrumentedType, fieldRegistry, methodRegistry, typeAttributeAppender, asmVisitorWrapper, classFileVersion, auxiliaryTypeNamingStrategy, annotationValueFilterFactory, annotationRetention, implementationContextFactory, methodGraphCompiler, typeValidation, classWriterStrategy, ignoredMethods, auxiliaryTypes, this.constructorStrategy);
+               ^
+  where T is a type-variable:
+    T extends Object declared in class SubclassDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:54: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:59: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:61: error: cannot find symbol
+        final MethodRegistry.Compiled methodRegistry = this.constructorStrategy.inject(this.instrumentedType, this.methodRegistry).prepare(this.applyConstructorStrategy(this.instrumentedType), this.methodGraphCompiler, this.typeValidation, new InstrumentableMatcher(this.ignoredMethods)).compile(SubclassImplementationTarget.Factory.SUPER_CLASS, this.classFileVersion);
+                                                                                                                                                                                                                                                                                                                                                              ^
+  symbol: variable classFileVersion
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:61: error: cannot find symbol
+        final MethodRegistry.Compiled methodRegistry = this.constructorStrategy.inject(this.instrumentedType, this.methodRegistry).prepare(this.applyConstructorStrategy(this.instrumentedType), this.methodGraphCompiler, this.typeValidation, new InstrumentableMatcher(this.ignoredMethods)).compile(SubclassImplementationTarget.Factory.SUPER_CLASS, this.classFileVersion);
+                                                                                                                                                                                                     ^
+  symbol: variable methodGraphCompiler
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:61: error: cannot find symbol
+        final MethodRegistry.Compiled methodRegistry = this.constructorStrategy.inject(this.instrumentedType, this.methodRegistry).prepare(this.applyConstructorStrategy(this.instrumentedType), this.methodGraphCompiler, this.typeValidation, new InstrumentableMatcher(this.ignoredMethods)).compile(SubclassImplementationTarget.Factory.SUPER_CLASS, this.classFileVersion);
+                                                                                                                                                                                                                               ^
+  symbol: variable typeValidation
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:61: error: cannot find symbol
+        final MethodRegistry.Compiled methodRegistry = this.constructorStrategy.inject(this.instrumentedType, this.methodRegistry).prepare(this.applyConstructorStrategy(this.instrumentedType), this.methodGraphCompiler, this.typeValidation, new InstrumentableMatcher(this.ignoredMethods)).compile(SubclassImplementationTarget.Factory.SUPER_CLASS, this.classFileVersion);
+                                                                                                                                                                                                                                                                              ^
+  symbol: variable ignoredMethods
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:61: error: cannot find symbol
+        final MethodRegistry.Compiled methodRegistry = this.constructorStrategy.inject(this.instrumentedType, this.methodRegistry).prepare(this.applyConstructorStrategy(this.instrumentedType), this.methodGraphCompiler, this.typeValidation, new InstrumentableMatcher(this.ignoredMethods)).compile(SubclassImplementationTarget.Factory.SUPER_CLASS, this.classFileVersion);
+                                                                                           ^
+  symbol: variable instrumentedType
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:61: error: cannot find symbol
+        final MethodRegistry.Compiled methodRegistry = this.constructorStrategy.inject(this.instrumentedType, this.methodRegistry).prepare(this.applyConstructorStrategy(this.instrumentedType), this.methodGraphCompiler, this.typeValidation, new InstrumentableMatcher(this.ignoredMethods)).compile(SubclassImplementationTarget.Factory.SUPER_CLASS, this.classFileVersion);
+                                                                                                                  ^
+  symbol: variable methodRegistry
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:61: error: cannot find symbol
+        final MethodRegistry.Compiled methodRegistry = this.constructorStrategy.inject(this.instrumentedType, this.methodRegistry).prepare(this.applyConstructorStrategy(this.instrumentedType), this.methodGraphCompiler, this.typeValidation, new InstrumentableMatcher(this.ignoredMethods)).compile(SubclassImplementationTarget.Factory.SUPER_CLASS, this.classFileVersion);
+                                                                                                                                                                             ^
+  symbol: variable instrumentedType
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                  ^
+  symbol: variable auxiliaryTypes
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                                                                                                         ^
+  symbol: variable typeAttributeAppender
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                                                                                                                                     ^
+  symbol: variable asmVisitorWrapper
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                                                                                                                                                             ^
+  symbol: variable classFileVersion
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                                                                                                                                                                                    ^
+  symbol: variable annotationValueFilterFactory
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                                                                                                                                                                                                                       ^
+  symbol: variable annotationRetention
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                                                                                                                                                                                                                                                 ^
+  symbol: variable auxiliaryTypeNamingStrategy
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                                                                                                                                                                                                                                                                                   ^
+  symbol: variable implementationContextFactory
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                                                                                                                                                                                                                                                                                                                      ^
+  symbol: variable typeValidation
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                                                                                                                                                                                                                                                                                                                                           ^
+  symbol: variable classWriterStrategy
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:62: error: cannot find symbol
+        return TypeWriter.Default.forCreation(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool).make(typeResolutionStrategy.resolve());
+                                                                                       ^
+  symbol: variable fieldRegistry
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:74: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:76: error: cannot find symbol
+        return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.constructorStrategy.equals(((SubclassDynamicTypeBuilder)o).constructorStrategy)));
+               ^
+  symbol:   variable super
+  location: class SubclassDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class SubclassDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:76: error: cannot find symbol
+        return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.constructorStrategy.equals(((SubclassDynamicTypeBuilder)o).constructorStrategy)));
+                                                                  ^
+  symbol: method getClass()
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:79: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:81: error: cannot find symbol
+        return super.hashCode() * 31 + this.constructorStrategy.hashCode();
+               ^
+  symbol:   variable super
+  location: class SubclassDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class SubclassDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:95: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+            return ElementMatchers.isVirtual().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isFinal())).and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(typeDescription)).and(ElementMatchers.not((ElementMatcher<? super Object>)this.ignoredMethods.resolve(typeDescription))).or((ElementMatcher<? super Object>)ElementMatchers.isDeclaredBy(typeDescription));
+                                                                                                                                                                                                                                                                                                                                                                                           ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:95: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+            return ElementMatchers.isVirtual().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isFinal())).and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(typeDescription)).and(ElementMatchers.not((ElementMatcher<? super Object>)this.ignoredMethods.resolve(typeDescription))).or((ElementMatcher<? super Object>)ElementMatchers.isDeclaredBy(typeDescription));
+                                                                                                                                                                                                  ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/SubclassDynamicTypeBuilder.java:95: error: incompatible types: Junction<ModifierReviewable> cannot be converted to ElementMatcher<? super Object>
+            return ElementMatchers.isVirtual().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isFinal())).and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(typeDescription)).and(ElementMatchers.not((ElementMatcher<? super Object>)this.ignoredMethods.resolve(typeDescription))).or((ElementMatcher<? super Object>)ElementMatchers.isDeclaredBy(typeDescription));
+                                                                                                                              ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/ByteBuddy.java:389: error: incompatible types: SubclassDynamicTypeBuilder<Object> cannot be converted to Builder<?>
+        return new SubclassDynamicTypeBuilder<Object>(instrumentedTypeFactory.subclass(namingStrategy.subclass(superType.asGenericType()),
+               ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/ByteBuddy.java:543: error: incompatible types: SubclassDynamicTypeBuilder<Object> cannot be converted to Builder<?>
+        return new SubclassDynamicTypeBuilder<Object>(instrumentedTypeFactory.subclass(name + "." + PackageDescription.PACKAGE_CLASS_NAME,
+               ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/ByteBuddy.java:571: error: incompatible types: SubclassDynamicTypeBuilder<Annotation> cannot be converted to Builder<? extends Annotation>
+        return new SubclassDynamicTypeBuilder<Annotation>(instrumentedTypeFactory.subclass(namingStrategy.subclass(TypeDescription.Generic.ANNOTATION),
+               ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/ByteBuddy.java:632: error: cannot find symbol
+                .defineConstructor(Visibility.PRIVATE).withParameters(String.class, int.class)
+                ^
+  symbol:   method defineConstructor(Visibility)
+  location: class SubclassDynamicTypeBuilder<Enum<?>>
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+42 errors

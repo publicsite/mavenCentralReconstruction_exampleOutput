@@ -1,0 +1,41 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/VerifierFactory.java:19: error: cannot find symbol
+    public static Verifier getVerifier(String fully_qualified_classname) {
+                  ^
+  symbol:   class Verifier
+  location: class VerifierFactory
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/VerifierFactory.java:36: error: cannot find symbol
+    public static Verifier[] getVerifiers() {
+                  ^
+  symbol:   class Verifier
+  location: class VerifierFactory
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/VerifierFactory.java:21: error: cannot find symbol
+        Verifier v = VerifierFactory.hashMap.get(fully_qualified_classname);
+        ^
+  symbol:   class Verifier
+  location: class VerifierFactory
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/VerifierFactory.java:23: error: cannot find symbol
+            v = new Verifier(fully_qualified_classname);
+                    ^
+  symbol:   class Verifier
+  location: class VerifierFactory
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/VerifierFactory.java:31: error: incompatible types: Object cannot be converted to VerifierFactoryObserver
+        for (final VerifierFactoryObserver vfo : VerifierFactory.observers) {
+                                                                ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/VerifierFactory.java:37: error: cannot find symbol
+        final Verifier[] vs = new Verifier[VerifierFactory.hashMap.values().size()];
+              ^
+  symbol:   class Verifier
+  location: class VerifierFactory
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/VerifierFactory.java:37: error: cannot find symbol
+        final Verifier[] vs = new Verifier[VerifierFactory.hashMap.values().size()];
+                                  ^
+  symbol:   class Verifier
+  location: class VerifierFactory
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/VerifierFactory.java:38: error: cannot find symbol
+        return (Verifier[])VerifierFactory.hashMap.values().toArray(vs);
+                ^
+  symbol:   class Verifier
+  location: class VerifierFactory
+Note: sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/VerifierFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

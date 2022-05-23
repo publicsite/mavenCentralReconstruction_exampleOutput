@@ -1,0 +1,457 @@
+hybrids/org.springframework/spring/2.5.6/GlassFishWorkManagerTaskExecutor.java:21: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkManager;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:20: error: package javax.resource.spi does not exist
+import javax.resource.spi.BootstrapContext;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:21: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.ExecutionContext;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:22: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.Work;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:23: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkException;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:24: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkListener;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:25: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkManager;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:26: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkRejectedException;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:70: error: cannot find symbol
+		implements SchedulingTaskExecutor, AsyncTaskExecutor, WorkManager, BootstrapContextAware, InitializingBean {
+		                                                      ^
+  symbol: class WorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/context/BootstrapContextAware.java:19: error: package javax.resource.spi does not exist
+import javax.resource.spi.BootstrapContext;
+                         ^
+hybrids/org.springframework/spring/2.5.6/GlassFishWorkManagerTaskExecutor.java:76: error: cannot find symbol
+	protected WorkManager getDefaultWorkManager() {
+	          ^
+  symbol:   class WorkManager
+  location: class GlassFishWorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:72: error: cannot find symbol
+	private WorkManager workManager;
+	        ^
+  symbol:   class WorkManager
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:80: error: cannot find symbol
+	private WorkListener workListener;
+	        ^
+  symbol:   class WorkListener
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:94: error: cannot find symbol
+	public WorkManagerTaskExecutor(WorkManager workManager) {
+	                               ^
+  symbol:   class WorkManager
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:102: error: cannot find symbol
+	public void setWorkManager(WorkManager workManager) {
+	                           ^
+  symbol:   class WorkManager
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:123: error: cannot find symbol
+	public void setBootstrapContext(BootstrapContext bootstrapContext) {
+	                                ^
+  symbol:   class BootstrapContext
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:157: error: cannot find symbol
+	public void setWorkListener(WorkListener workListener) {
+	                            ^
+  symbol:   class WorkListener
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:178: error: cannot find symbol
+	protected WorkManager getDefaultWorkManager() {
+	          ^
+  symbol:   class WorkManager
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:245: error: cannot find symbol
+	public void doWork(Work work) throws WorkException {
+	                   ^
+  symbol:   class Work
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:245: error: cannot find symbol
+	public void doWork(Work work) throws WorkException {
+	                                     ^
+  symbol:   class WorkException
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:249: error: cannot find symbol
+	public void doWork(Work work, long delay, ExecutionContext executionContext, WorkListener workListener)
+	                   ^
+  symbol:   class Work
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:249: error: cannot find symbol
+	public void doWork(Work work, long delay, ExecutionContext executionContext, WorkListener workListener)
+	                                          ^
+  symbol:   class ExecutionContext
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:249: error: cannot find symbol
+	public void doWork(Work work, long delay, ExecutionContext executionContext, WorkListener workListener)
+	                                                                             ^
+  symbol:   class WorkListener
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:250: error: cannot find symbol
+			throws WorkException {
+			       ^
+  symbol:   class WorkException
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:255: error: cannot find symbol
+	public long startWork(Work work) throws WorkException {
+	                      ^
+  symbol:   class Work
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:255: error: cannot find symbol
+	public long startWork(Work work) throws WorkException {
+	                                        ^
+  symbol:   class WorkException
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:259: error: cannot find symbol
+	public long startWork(Work work, long delay, ExecutionContext executionContext, WorkListener workListener)
+	                      ^
+  symbol:   class Work
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:259: error: cannot find symbol
+	public long startWork(Work work, long delay, ExecutionContext executionContext, WorkListener workListener)
+	                                             ^
+  symbol:   class ExecutionContext
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:259: error: cannot find symbol
+	public long startWork(Work work, long delay, ExecutionContext executionContext, WorkListener workListener)
+	                                                                                ^
+  symbol:   class WorkListener
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:260: error: cannot find symbol
+			throws WorkException {
+			       ^
+  symbol:   class WorkException
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:265: error: cannot find symbol
+	public void scheduleWork(Work work) throws WorkException {
+	                         ^
+  symbol:   class Work
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:265: error: cannot find symbol
+	public void scheduleWork(Work work) throws WorkException {
+	                                           ^
+  symbol:   class WorkException
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:269: error: cannot find symbol
+	public void scheduleWork(Work work, long delay, ExecutionContext executionContext, WorkListener workListener)
+	                         ^
+  symbol:   class Work
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:269: error: cannot find symbol
+	public void scheduleWork(Work work, long delay, ExecutionContext executionContext, WorkListener workListener)
+	                                                ^
+  symbol:   class ExecutionContext
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:269: error: cannot find symbol
+	public void scheduleWork(Work work, long delay, ExecutionContext executionContext, WorkListener workListener)
+	                                                                                   ^
+  symbol:   class WorkListener
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:270: error: cannot find symbol
+			throws WorkException {
+			       ^
+  symbol:   class WorkException
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/context/BootstrapContextAware.java:42: error: cannot find symbol
+	void setBootstrapContext(BootstrapContext bootstrapContext);
+	                         ^
+  symbol:   class BootstrapContext
+  location: interface BootstrapContextAware
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:164: error: cannot find symbol
+				this.workManager = (WorkManager) lookup(this.workManagerName, WorkManager.class);
+				                    ^
+  symbol:   class WorkManager
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:164: error: cannot find symbol
+				this.workManager = (WorkManager) lookup(this.workManagerName, WorkManager.class);
+				                                                              ^
+  symbol:   class WorkManager
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:19: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.ExecutionContext;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:20: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.Work;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:21: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkAdapter;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:22: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkCompletedException;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:23: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkEvent;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:24: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkException;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:25: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkListener;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:26: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkManager;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:27: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkRejectedException;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:63: error: cannot find symbol
+public class SimpleTaskWorkManager implements WorkManager {
+                                              ^
+  symbol: class WorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:91: error: cannot find symbol
+	public void doWork(Work work) throws WorkException {
+	                   ^
+  symbol:   class Work
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:91: error: cannot find symbol
+	public void doWork(Work work) throws WorkException {
+	                                     ^
+  symbol:   class WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:95: error: cannot find symbol
+	public void doWork(Work work, long startTimeout, ExecutionContext executionContext, WorkListener workListener)
+	                   ^
+  symbol:   class Work
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:95: error: cannot find symbol
+	public void doWork(Work work, long startTimeout, ExecutionContext executionContext, WorkListener workListener)
+	                                                 ^
+  symbol:   class ExecutionContext
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:95: error: cannot find symbol
+	public void doWork(Work work, long startTimeout, ExecutionContext executionContext, WorkListener workListener)
+	                                                                                    ^
+  symbol:   class WorkListener
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:96: error: cannot find symbol
+			throws WorkException {
+			       ^
+  symbol:   class WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:102: error: cannot find symbol
+	public long startWork(Work work) throws WorkException {
+	                      ^
+  symbol:   class Work
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:102: error: cannot find symbol
+	public long startWork(Work work) throws WorkException {
+	                                        ^
+  symbol:   class WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:106: error: cannot find symbol
+	public long startWork(Work work, long startTimeout, ExecutionContext executionContext, WorkListener workListener)
+	                      ^
+  symbol:   class Work
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:106: error: cannot find symbol
+	public long startWork(Work work, long startTimeout, ExecutionContext executionContext, WorkListener workListener)
+	                                                    ^
+  symbol:   class ExecutionContext
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:106: error: cannot find symbol
+	public long startWork(Work work, long startTimeout, ExecutionContext executionContext, WorkListener workListener)
+	                                                                                       ^
+  symbol:   class WorkListener
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:107: error: cannot find symbol
+			throws WorkException {
+			       ^
+  symbol:   class WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:113: error: cannot find symbol
+	public void scheduleWork(Work work) throws WorkException {
+	                         ^
+  symbol:   class Work
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:113: error: cannot find symbol
+	public void scheduleWork(Work work) throws WorkException {
+	                                           ^
+  symbol:   class WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:117: error: cannot find symbol
+	public void scheduleWork(Work work, long startTimeout, ExecutionContext executionContext, WorkListener workListener)
+	                         ^
+  symbol:   class Work
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:117: error: cannot find symbol
+	public void scheduleWork(Work work, long startTimeout, ExecutionContext executionContext, WorkListener workListener)
+	                                                       ^
+  symbol:   class ExecutionContext
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:117: error: cannot find symbol
+	public void scheduleWork(Work work, long startTimeout, ExecutionContext executionContext, WorkListener workListener)
+	                                                                                          ^
+  symbol:   class WorkListener
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:118: error: cannot find symbol
+			throws WorkException {
+			       ^
+  symbol:   class WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:137: error: cannot find symbol
+	protected long executeWork(TaskExecutor taskExecutor, Work work, long startTimeout,
+	                                                      ^
+  symbol:   class Work
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:138: error: cannot find symbol
+			boolean blockUntilStarted, ExecutionContext executionContext, WorkListener workListener)
+			                           ^
+  symbol:   class ExecutionContext
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:138: error: cannot find symbol
+			boolean blockUntilStarted, ExecutionContext executionContext, WorkListener workListener)
+			                                                              ^
+  symbol:   class WorkListener
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:139: error: cannot find symbol
+			throws WorkException {
+			       ^
+  symbol:   class WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:204: error: cannot find symbol
+	private static class DelegatingWorkAdapter implements Work {
+	                                                      ^
+  symbol:   class Work
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:206: error: cannot find symbol
+		private final Work work;
+		              ^
+  symbol:   class Work
+  location: class DelegatingWorkAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:208: error: cannot find symbol
+		private final WorkListener workListener;
+		              ^
+  symbol:   class WorkListener
+  location: class DelegatingWorkAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:216: error: cannot find symbol
+		public DelegatingWorkAdapter(Work work, WorkListener workListener, boolean acceptOnExecution) {
+		                             ^
+  symbol:   class Work
+  location: class DelegatingWorkAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:216: error: cannot find symbol
+		public DelegatingWorkAdapter(Work work, WorkListener workListener, boolean acceptOnExecution) {
+		                                        ^
+  symbol:   class WorkListener
+  location: class DelegatingWorkAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:193: error: cannot find symbol
+		Work work = new DelegatingWork(task);
+		^
+  symbol:   class Work
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/DelegatingWork.java:19: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.Work;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/DelegatingWork.java:31: error: cannot find symbol
+public class DelegatingWork implements Work {
+                                       ^
+  symbol: class Work
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:220: error: cannot find symbol
+		catch (WorkRejectedException ex) {
+		       ^
+  symbol:   class WorkRejectedException
+  location: class WorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:221: error: package WorkException does not exist
+			if (WorkException.START_TIMED_OUT.equals(ex.getErrorCode())) {
+			                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/WorkManagerTaskExecutor.java:228: error: cannot find symbol
+		catch (WorkException ex) {
+		       ^
+  symbol:   class WorkException
+  location: class WorkManagerTaskExecutor
+hybrids/org.springframework/spring/2.5.6/GlassFishWorkManagerTaskExecutor.java:64: error: cannot find symbol
+		WorkManager wm = (WorkManager)
+		^
+  symbol:   class WorkManager
+  location: class GlassFishWorkManagerTaskExecutor
+hybrids/org.springframework/spring/2.5.6/GlassFishWorkManagerTaskExecutor.java:64: error: cannot find symbol
+		WorkManager wm = (WorkManager)
+		                  ^
+  symbol:   class WorkManager
+  location: class GlassFishWorkManagerTaskExecutor
+hybrids/org.springframework/spring/2.5.6/GlassFishWorkManagerTaskExecutor.java:77: error: cannot find symbol
+		return (WorkManager) ReflectionUtils.invokeMethod(this.getWorkManagerMethod, null, new Object[] {null});
+		        ^
+  symbol:   class WorkManager
+  location: class GlassFishWorkManagerTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:92: error: cannot find symbol
+		doWork(work, WorkManager.INDEFINITE, null, null);
+		             ^
+  symbol:   variable WorkManager
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:103: error: cannot find symbol
+		return startWork(work, WorkManager.INDEFINITE, null, null);
+		                       ^
+  symbol:   variable WorkManager
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:114: error: cannot find symbol
+		scheduleWork(work, WorkManager.INDEFINITE, null, null);
+		                   ^
+  symbol:   variable WorkManager
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:142: error: cannot find symbol
+			throw new WorkException("SimpleTaskWorkManager does not supported imported XIDs: " + executionContext.getXid());
+			          ^
+  symbol:   class WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:144: error: cannot find symbol
+		WorkListener workListenerToUse = workListener;
+		^
+  symbol:   class WorkListener
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:146: error: cannot find symbol
+			workListenerToUse = new WorkAdapter();
+			                        ^
+  symbol:   class WorkAdapter
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:153: error: incompatible types: DelegatingWorkAdapter cannot be converted to Runnable
+				((AsyncTaskExecutor) taskExecutor).execute(workHandle, startTimeout);
+				                                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:156: error: incompatible types: DelegatingWorkAdapter cannot be converted to Runnable
+				taskExecutor.execute(workHandle);
+				                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:160: error: cannot find symbol
+			WorkException wex = new WorkRejectedException("TaskExecutor rejected Work because of timeout: " + work, ex);
+			^
+  symbol:   class WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:160: error: cannot find symbol
+			WorkException wex = new WorkRejectedException("TaskExecutor rejected Work because of timeout: " + work, ex);
+			                        ^
+  symbol:   class WorkRejectedException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:161: error: cannot find symbol
+			wex.setErrorCode(WorkException.START_TIMED_OUT);
+			                 ^
+  symbol:   variable WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:162: error: cannot find symbol
+			workListenerToUse.workRejected(new WorkEvent(this, WorkEvent.WORK_REJECTED, work, wex));
+			                                   ^
+  symbol:   class WorkEvent
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:162: error: cannot find symbol
+			workListenerToUse.workRejected(new WorkEvent(this, WorkEvent.WORK_REJECTED, work, wex));
+			                                                   ^
+  symbol:   variable WorkEvent
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:166: error: cannot find symbol
+			WorkException wex = new WorkRejectedException("TaskExecutor rejected Work: " + work, ex);
+			^
+  symbol:   class WorkException
+  location: class SimpleTaskWorkManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/SimpleTaskWorkManager.java:166: error: cannot find symbol
+			WorkException wex = new WorkRejectedException("TaskExecutor rejected Work: " + work, ex);
+			                        ^
+  symbol:   class WorkRejectedException
+  location: class SimpleTaskWorkManager
+Note: hybrids/org.springframework/spring/2.5.6/GlassFishWorkManagerTaskExecutor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors

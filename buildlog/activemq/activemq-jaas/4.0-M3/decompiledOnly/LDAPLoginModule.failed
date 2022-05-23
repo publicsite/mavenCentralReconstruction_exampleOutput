@@ -1,0 +1,76 @@
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:7: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:36: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:41: error: cannot find symbol
+    private static Log log;
+                   ^
+  symbol:   class Log
+  location: class LDAPLoginModule
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:86: error: incompatible types: Object cannot be converted to String
+        this.initialContextFactory = options.get("initialContextFactory");
+                                                ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:87: error: incompatible types: Object cannot be converted to String
+        this.connectionURL = options.get("connectionURL");
+                                        ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:88: error: incompatible types: Object cannot be converted to String
+        this.connectionUsername = options.get("connectionUsername");
+                                             ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:89: error: incompatible types: Object cannot be converted to String
+        this.connectionPassword = options.get("connectionPassword");
+                                             ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:90: error: incompatible types: Object cannot be converted to String
+        this.connectionProtocol = options.get("connectionProtocol");
+                                             ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:91: error: incompatible types: Object cannot be converted to String
+        this.authentication = options.get("authentication");
+                                         ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:92: error: incompatible types: Object cannot be converted to String
+        this.userBase = options.get("userBase");
+                                   ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:93: error: incompatible types: Object cannot be converted to String
+        final String userSearchMatching = options.get("userSearchMatching");
+                                                     ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:94: error: incompatible types: Object cannot be converted to String
+        final String userSearchSubtree = options.get("userSearchSubtree");
+                                                    ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:95: error: incompatible types: Object cannot be converted to String
+        this.roleBase = options.get("roleBase");
+                                   ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:96: error: incompatible types: Object cannot be converted to String
+        this.roleName = options.get("roleName");
+                                   ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:97: error: incompatible types: Object cannot be converted to String
+        final String roleSearchMatching = options.get("roleSearchMatching");
+                                                     ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:98: error: incompatible types: Object cannot be converted to String
+        final String roleSearchSubtree = options.get("roleSearchSubtree");
+                                                    ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:99: error: incompatible types: Object cannot be converted to String
+        this.userRoleName = options.get("userRoleName");
+                                       ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:186: error: incompatible types: Object cannot be converted to SearchResult
+            final SearchResult result = results.next();
+                                                    ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:208: error: incompatible types: Object cannot be converted to String
+                this.groups.add(new GroupPrincipal(roles.get(i)));
+                                                            ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:239: error: incompatible types: Object cannot be converted to SearchResult
+            final SearchResult result = results.next();
+                                                    ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:323: error: incompatible types: Object cannot be converted to String
+            final String value = e.next();
+                                       ^
+sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java:355: error: cannot find symbol
+        LDAPLoginModule.log = LogFactory.getLog(LDAPLoginModule.class);
+                              ^
+  symbol:   variable LogFactory
+  location: class LDAPLoginModule
+Note: sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/activemq/activemq-jaas/4.0-M3/Decompiled/org/activemq/jaas/LDAPLoginModule.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+22 errors

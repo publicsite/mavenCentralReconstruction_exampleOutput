@@ -1,0 +1,47 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>directory-asn1</groupId>
+  <artifactId>asn1-ber</artifactId>
+  <name>ASN.1 BER Runtime</name>
+  <version>0.3</version>
+  <description>API containing functionality used for encoding and decoding BER 
+    streams both in blocking and non-blocking modes.</description>
+  <inceptionYear>2004</inceptionYear>
+  <dependencies>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-test</groupId>
+      <artifactId>commons-test</artifactId>
+      <version>0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-collections</groupId>
+      <artifactId>commons-collections</artifactId>
+      <version>3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-primitives</groupId>
+      <artifactId>commons-primitives</artifactId>
+      <version>20041207.202534</version>
+    </dependency>
+    <dependency>
+      <groupId>regexp</groupId>
+      <artifactId>regexp</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>${pom.groupId}</groupId>
+      <artifactId>asn1-codec</artifactId>
+      <version>${pom.version}</version>
+    </dependency>
+  </dependencies>
+</project>

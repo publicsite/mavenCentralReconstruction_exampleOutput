@@ -1,0 +1,112 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:9: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.Lists;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:10: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.ImmutableList;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:11: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.Sets;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:12: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Functions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:13: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.ImmutableSet;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:17: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.Iterables;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:18: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Predicate;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:19: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Function;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:23: error: cannot find symbol
+    static <T> Predicate<T> createMostSpecificMatchPredicate(final Iterable<T> source, final Function<T, Class<?>> toClass) {
+                                                                                             ^
+  symbol:   class Function
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:23: error: cannot find symbol
+    static <T> Predicate<T> createMostSpecificMatchPredicate(final Iterable<T> source, final Function<T, Class<?>> toClass) {
+               ^
+  symbol:   class Predicate
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:51: error: cannot find symbol
+    static <T> ImmutableList<T> sortMostSpecificFirst(final Iterable<T> classes, final Function<T, Class<?>> toClass) {
+                                                                                       ^
+  symbol:   class Function
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:51: error: cannot find symbol
+    static <T> ImmutableList<T> sortMostSpecificFirst(final Iterable<T> classes, final Function<T, Class<?>> toClass) {
+               ^
+  symbol:   class ImmutableList
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:24: error: cannot find symbol
+        return (Predicate<T>)new Predicate<T>() {
+                ^
+  symbol:   class Predicate
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:24: error: cannot find symbol
+        return (Predicate<T>)new Predicate<T>() {
+                                 ^
+  symbol:   class Predicate
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:27: error: cannot find symbol
+                for (final Class<?> match : Iterables.transform(source, toClass)) {
+                                            ^
+  symbol: variable Iterables
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:40: error: cannot find symbol
+            return (Set<Class<?>>)ImmutableSet.of((Object)target);
+                                  ^
+  symbol:   variable ImmutableSet
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:47: error: cannot find symbol
+        final Predicate<Class<?>> moreSpecificClassPredicate = createMostSpecificMatchPredicate(matches, (com.google.gwt.thirdparty.guava.common.base.Function<Class<?>, Class<?>>)Functions.identity());
+              ^
+  symbol:   class Predicate
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:47: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+        final Predicate<Class<?>> moreSpecificClassPredicate = createMostSpecificMatchPredicate(matches, (com.google.gwt.thirdparty.guava.common.base.Function<Class<?>, Class<?>>)Functions.identity());
+                                                                                                                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:47: error: cannot find symbol
+        final Predicate<Class<?>> moreSpecificClassPredicate = createMostSpecificMatchPredicate(matches, (com.google.gwt.thirdparty.guava.common.base.Function<Class<?>, Class<?>>)Functions.identity());
+                                                                                                                                                                                   ^
+  symbol:   variable Functions
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:48: error: cannot find symbol
+        return (Set<Class<?>>)Sets.filter((Set)matches, (Predicate)moreSpecificClassPredicate);
+                                                         ^
+  symbol:   class Predicate
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:48: error: cannot find symbol
+        return (Set<Class<?>>)Sets.filter((Set)matches, (Predicate)moreSpecificClassPredicate);
+                              ^
+  symbol:   variable Sets
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:52: error: cannot find symbol
+        final List<T> working = (List<T>)Lists.newArrayList();
+                                         ^
+  symbol:   variable Lists
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:58: error: cannot find symbol
+        final List<T> sorted = (List<T>)Lists.newArrayList();
+                                        ^
+  symbol:   variable Lists
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:59: error: cannot find symbol
+        final Predicate<T> mostSpecific = createMostSpecificMatchPredicate(working, toClass);
+              ^
+  symbol:   class Predicate
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:76: error: cannot find symbol
+        return (ImmutableList<T>)ImmutableList.copyOf((Collection)sorted);
+                ^
+  symbol:   class ImmutableList
+  location: class Util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/rebind/Util.java:76: error: cannot find symbol
+        return (ImmutableList<T>)ImmutableList.copyOf((Collection)sorted);
+                                 ^
+  symbol:   variable ImmutableList
+  location: class Util
+26 errors

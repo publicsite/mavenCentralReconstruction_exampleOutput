@@ -1,0 +1,75 @@
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:21: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:22: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogConfigurationException;
+                                 ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:23: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:59: error: cannot find symbol
+    private LogFactory logFactory;
+            ^
+  symbol:   class LogFactory
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:77: error: cannot find symbol
+    private Log getLog(String cat, String suffix) {
+            ^
+  symbol:   class Log
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:252: error: cannot find symbol
+    private void realLog(Log log, String message, int priority, Throwable t) {
+                         ^
+  symbol:   class Log
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:90: error: cannot find symbol
+                logFactory = LogFactory.getFactory();
+                             ^
+  symbol:   variable LogFactory
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:91: error: cannot find symbol
+            } catch (LogConfigurationException e) {
+                     ^
+  symbol:   class LogConfigurationException
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:98: error: cannot find symbol
+        Log log = logFactory.getInstance(cat);
+        ^
+  symbol:   class Log
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:107: error: cannot find symbol
+        Log log = getLog(categoryString, null);
+        ^
+  symbol:   class Log
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:118: error: cannot find symbol
+            Log log = getLog(categoryString, event.getProject().getName());
+            ^
+  symbol:   class Log
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:135: error: cannot find symbol
+            Log log = getLog(TARGET_LOG,
+            ^
+  symbol:   class Log
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:151: error: cannot find symbol
+            Log log = getLog(TARGET_LOG,
+            ^
+  symbol:   class Log
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:177: error: cannot find symbol
+            Log log = getLog(real.getClass().getName(), null);
+            ^
+  symbol:   class Log
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:199: error: cannot find symbol
+            Log log = getLog(real.getClass().getName(), null);
+            ^
+  symbol:   class Log
+  location: class CommonsLoggingListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/listener/CommonsLoggingListener.java:245: error: cannot find symbol
+            Log log = getLog(categoryString, categoryDetail);
+            ^
+  symbol:   class Log
+  location: class CommonsLoggingListener
+16 errors

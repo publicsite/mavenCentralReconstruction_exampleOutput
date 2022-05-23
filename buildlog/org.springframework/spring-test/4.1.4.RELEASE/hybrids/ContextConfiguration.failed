@@ -1,0 +1,25 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContextConfiguration.java:26: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContextInitializer;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContextConfiguration.java:27: error: package org.springframework.context does not exist
+import org.springframework.context.ConfigurableApplicationContext;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContextConfiguration.java:169: error: cannot find symbol
+	Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>[] initializers() default {};
+	                ^
+  symbol:   class ApplicationContextInitializer
+  location: @interface ContextConfiguration
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ContextConfiguration.java:169: error: cannot find symbol
+	Class<? extends ApplicationContextInitializer<? extends ConfigurableApplicationContext>>[] initializers() default {};
+	                                                        ^
+  symbol:   class ConfigurableApplicationContext
+  location: @interface ContextConfiguration
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextLoader.java:19: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/ContextLoader.java:93: error: cannot find symbol
+	ApplicationContext loadContext(String... locations) throws Exception;
+	^
+  symbol:   class ApplicationContext
+  location: interface ContextLoader
+6 errors

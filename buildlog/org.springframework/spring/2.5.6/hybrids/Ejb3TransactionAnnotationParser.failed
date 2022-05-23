@@ -1,0 +1,31 @@
+hybrids/org.springframework/spring/2.5.6/Ejb3TransactionAnnotationParser.java:22: error: package javax.ejb does not exist
+import javax.ejb.ApplicationException;
+                ^
+hybrids/org.springframework/spring/2.5.6/Ejb3TransactionAnnotationParser.java:23: error: package javax.ejb does not exist
+import javax.ejb.TransactionAttributeType;
+                ^
+hybrids/org.springframework/spring/2.5.6/Ejb3TransactionAnnotationParser.java:47: error: package javax.ejb does not exist
+	public TransactionAttribute parseTransactionAnnotation(javax.ejb.TransactionAttribute ann) {
+	                                                                ^
+hybrids/org.springframework/spring/2.5.6/Ejb3TransactionAnnotationParser.java:59: error: cannot find symbol
+		public Ejb3TransactionAttribute(TransactionAttributeType type) {
+		                                ^
+  symbol:   class TransactionAttributeType
+  location: class Ejb3TransactionAttribute
+hybrids/org.springframework/spring/2.5.6/Ejb3TransactionAnnotationParser.java:38: error: package javax.ejb does not exist
+		javax.ejb.TransactionAttribute ann = ae.getAnnotation(javax.ejb.TransactionAttribute.class);
+		         ^
+hybrids/org.springframework/spring/2.5.6/Ejb3TransactionAnnotationParser.java:38: error: package javax.ejb does not exist
+		javax.ejb.TransactionAttribute ann = ae.getAnnotation(javax.ejb.TransactionAttribute.class);
+		                                                               ^
+hybrids/org.springframework/spring/2.5.6/Ejb3TransactionAnnotationParser.java:64: error: cannot find symbol
+			ApplicationException ann = ex.getClass().getAnnotation(ApplicationException.class);
+			^
+  symbol:   class ApplicationException
+  location: class Ejb3TransactionAttribute
+hybrids/org.springframework/spring/2.5.6/Ejb3TransactionAnnotationParser.java:64: error: cannot find symbol
+			ApplicationException ann = ex.getClass().getAnnotation(ApplicationException.class);
+			                                                       ^
+  symbol:   class ApplicationException
+  location: class Ejb3TransactionAttribute
+8 errors

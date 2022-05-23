@@ -1,0 +1,189 @@
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:70: error: package Kernel32 does not exist
+    public static Kernel32.INPUT_RECORD[] readConsoleInput(final int count) throws IOException {
+                          ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:78: error: package Kernel32 does not exist
+    public static Kernel32.INPUT_RECORD[] peekConsoleInput(final int count) throws IOException {
+                          ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:12: error: cannot find symbol
+        final int errorCode = Kernel32.GetLastError();
+                              ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:15: error: cannot find symbol
+        Kernel32.FormatMessageW(Kernel32.FORMAT_MESSAGE_FROM_SYSTEM, 0L, errorCode, 0, data, bufferSize, null);
+                                ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:15: error: cannot find symbol
+        Kernel32.FormatMessageW(Kernel32.FORMAT_MESSAGE_FROM_SYSTEM, 0L, errorCode, 0, data, bufferSize, null);
+        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:20: error: cannot find symbol
+        return Kernel32._getch();
+               ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:24: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_INPUT_HANDLE);
+                                                    ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:24: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_INPUT_HANDLE);
+                              ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:25: error: cannot find symbol
+        if (hConsole == Kernel32.INVALID_HANDLE_VALUE) {
+                        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:29: error: cannot find symbol
+        if (Kernel32.GetConsoleMode(hConsole, mode) == 0) {
+            ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:36: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_INPUT_HANDLE);
+                                                    ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:36: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_INPUT_HANDLE);
+                              ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:37: error: cannot find symbol
+        if (hConsole == Kernel32.INVALID_HANDLE_VALUE) {
+                        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:40: error: cannot find symbol
+        Kernel32.SetConsoleMode(hConsole, mode);
+        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:44: error: cannot find symbol
+        final long outputHandle = Kernel32.GetStdHandle(Kernel32.STD_OUTPUT_HANDLE);
+                                                        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:44: error: cannot find symbol
+        final long outputHandle = Kernel32.GetStdHandle(Kernel32.STD_OUTPUT_HANDLE);
+                                  ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:45: error: package Kernel32 does not exist
+        final Kernel32.CONSOLE_SCREEN_BUFFER_INFO info = new Kernel32.CONSOLE_SCREEN_BUFFER_INFO();
+                      ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:45: error: package Kernel32 does not exist
+        final Kernel32.CONSOLE_SCREEN_BUFFER_INFO info = new Kernel32.CONSOLE_SCREEN_BUFFER_INFO();
+                                                                     ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:46: error: cannot find symbol
+        Kernel32.GetConsoleScreenBufferInfo(outputHandle, info);
+        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:51: error: cannot find symbol
+        final long outputHandle = Kernel32.GetStdHandle(Kernel32.STD_OUTPUT_HANDLE);
+                                                        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:51: error: cannot find symbol
+        final long outputHandle = Kernel32.GetStdHandle(Kernel32.STD_OUTPUT_HANDLE);
+                                  ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:52: error: package Kernel32 does not exist
+        final Kernel32.CONSOLE_SCREEN_BUFFER_INFO info = new Kernel32.CONSOLE_SCREEN_BUFFER_INFO();
+                      ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:52: error: package Kernel32 does not exist
+        final Kernel32.CONSOLE_SCREEN_BUFFER_INFO info = new Kernel32.CONSOLE_SCREEN_BUFFER_INFO();
+                                                                     ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:53: error: cannot find symbol
+        Kernel32.GetConsoleScreenBufferInfo(outputHandle, info);
+        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:58: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_OUTPUT_HANDLE);
+                                                    ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:58: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_OUTPUT_HANDLE);
+                              ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:59: error: cannot find symbol
+        if (hConsole == Kernel32.INVALID_HANDLE_VALUE) {
+                        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:64: error: cannot find symbol
+        if (Kernel32.WriteConsoleW(hConsole, chars, chars.length, written, 0L) != 0) {
+            ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:71: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_INPUT_HANDLE);
+                                                    ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:71: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_INPUT_HANDLE);
+                              ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:72: error: cannot find symbol
+        if (hConsole == Kernel32.INVALID_HANDLE_VALUE) {
+                        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:75: error: cannot find symbol
+        return Kernel32.readConsoleKeyInput(hConsole, count, false);
+               ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:79: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_INPUT_HANDLE);
+                                                    ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:79: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_INPUT_HANDLE);
+                              ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:80: error: cannot find symbol
+        if (hConsole == Kernel32.INVALID_HANDLE_VALUE) {
+                        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:83: error: cannot find symbol
+        return Kernel32.readConsoleKeyInput(hConsole, count, true);
+               ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:87: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_INPUT_HANDLE);
+                                                    ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:87: error: cannot find symbol
+        final long hConsole = Kernel32.GetStdHandle(Kernel32.STD_INPUT_HANDLE);
+                              ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:88: error: cannot find symbol
+        if (hConsole == Kernel32.INVALID_HANDLE_VALUE) {
+                        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/internal/WindowsSupport.java:91: error: cannot find symbol
+        Kernel32.FlushConsoleInputBuffer(hConsole);
+        ^
+  symbol:   variable Kernel32
+  location: class WindowsSupport
+40 errors

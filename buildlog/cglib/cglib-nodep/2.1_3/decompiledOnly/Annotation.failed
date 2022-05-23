@@ -1,0 +1,85 @@
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:7: error: cannot find symbol
+import net.sf.cglib.asm.Type;
+                       ^
+  symbol:   class Type
+  location: package net.sf.cglib.asm
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:8: error: cannot find symbol
+import net.sf.cglib.asm.ClassWriter;
+                       ^
+  symbol:   class ClassWriter
+  location: package net.sf.cglib.asm
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:10: error: cannot find symbol
+import net.sf.cglib.asm.ClassReader;
+                       ^
+  symbol:   class ClassReader
+  location: package net.sf.cglib.asm
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:32: error: cannot find symbol
+    public int read(final ClassReader classReader, int n, final char[] array) {
+                          ^
+  symbol:   class ClassReader
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:47: error: cannot find symbol
+    public void write(final ByteVector byteVector, final ClassWriter classWriter) {
+                                                         ^
+  symbol:   class ClassWriter
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:57: error: cannot find symbol
+    public static int readAnnotations(final List list, final ClassReader classReader, int read, final char[] array) {
+                                                             ^
+  symbol:   class ClassReader
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:68: error: cannot find symbol
+    public static void readParameterAnnotations(final List list, final ClassReader classReader, int annotations, final char[] array) {
+                                                                       ^
+  symbol:   class ClassReader
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:76: error: cannot find symbol
+    public static ByteVector writeAnnotations(final ByteVector byteVector, final List list, final ClassWriter classWriter) {
+                                                                                                  ^
+  symbol:   class ClassWriter
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:84: error: cannot find symbol
+    public static ByteVector writeParametersAnnotations(final ByteVector byteVector, final List list, final ClassWriter classWriter) {
+                                                                                                            ^
+  symbol:   class ClassWriter
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:115: error: cannot find symbol
+    protected static Object readValue(final ClassReader classReader, final int[] array, final char[] array2) {
+                                            ^
+  symbol:   class ClassReader
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:291: error: cannot find symbol
+    protected static ByteVector writeValue(final ByteVector byteVector, final Object o, final ClassWriter classWriter) {
+                                                                                              ^
+  symbol:   class ClassWriter
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:51: error: incompatible types: Object cannot be converted to Object[]
+            final Object[] array = this.elementValues.get(i);
+                                                         ^
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:109: error: incompatible types: Object cannot be converted to List
+            sb.append(str).append(stringAnnotations(list.get(i)));
+                                                            ^
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:165: error: cannot find symbol
+                    o = Type.getType(classReader.readUTF8(array[0], array2));
+                        ^
+  symbol:   variable Type
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:301: error: cannot find symbol
+        else if (o instanceof Type) {
+                              ^
+  symbol:   class Type
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:303: error: cannot find symbol
+            byteVector.putShort(classWriter.newUTF8(((Type)o).getDescriptor()));
+                                                      ^
+  symbol:   class Type
+  location: class Annotation
+sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java:427: error: incompatible types: Object cannot be converted to Object[]
+                final Object[] array = this.elementValues.get(i);
+                                                             ^
+Note: sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/cglib/cglib-nodep/2.1_3/Decompiled/net/sf/cglib/asm/attrs/Annotation.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+17 errors

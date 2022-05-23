@@ -1,0 +1,26 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:20: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:48: error: cannot find symbol
+	Session createListenerSession() throws JMSException;
+	^
+  symbol:   class Session
+  location: interface ListenerSessionManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:48: error: cannot find symbol
+	Session createListenerSession() throws JMSException;
+	                                       ^
+  symbol:   class JMSException
+  location: interface ListenerSessionManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:56: error: cannot find symbol
+	void executeListenerSession(Session session);
+	                            ^
+  symbol:   class Session
+  location: interface ListenerSessionManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:39: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public interface ListenerSessionManager {
+       ^
+5 errors
+1 warning

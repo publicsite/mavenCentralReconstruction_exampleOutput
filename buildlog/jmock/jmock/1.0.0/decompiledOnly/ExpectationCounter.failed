@@ -1,0 +1,19 @@
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/ExpectationCounter.java:7: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AbstractExpectation.java:7: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AbstractExpectation.java:36: error: cannot find symbol
+        Assert.fail(this.myName + " " + str + "\nExpected: " + obj + "\nReceived: " + o);
+        ^
+  symbol:   variable Assert
+  location: class AbstractExpectation
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/ExpectationCounter.java:27: error: cannot find symbol
+            Assert.assertTrue(this.myName + " should not be called more than " + this.myExpectedCalls + " times", this.myActualCalls <= this.myExpectedCalls);
+            ^
+  symbol:   variable Assert
+  location: class ExpectationCounter
+Note: sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AbstractExpectation.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 errors

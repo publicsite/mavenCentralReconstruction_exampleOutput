@@ -1,0 +1,28 @@
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/UniqueIdReader.java:15: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.tryToReadFieldValue;
+                                             ^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/UniqueIdReader.java:15: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.tryToReadFieldValue;
+^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/UniqueIdReader.java:21: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.Logger;
+                                         ^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/UniqueIdReader.java:22: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.LoggerFactory;
+                                         ^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/UniqueIdReader.java:31: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(UniqueIdReader.class);
+	                     ^
+  symbol:   class Logger
+  location: class UniqueIdReader
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/UniqueIdReader.java:31: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(UniqueIdReader.class);
+	                                     ^
+  symbol:   variable LoggerFactory
+  location: class UniqueIdReader
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/UniqueIdReader.java:47: error: cannot find symbol
+		return tryToReadFieldValue(Description.class, fieldName, description)
+		       ^
+  symbol:   method tryToReadFieldValue(Class<Description>,String,Description)
+  location: class UniqueIdReader
+7 errors

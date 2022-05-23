@@ -1,0 +1,50 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:19: error: package javax.resource does not exist
+import javax.resource.NotSupportedException;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:20: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:21: error: package javax.resource.cci does not exist
+import javax.resource.cci.IndexedRecord;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:22: error: package javax.resource.cci does not exist
+import javax.resource.cci.MappedRecord;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:23: error: package javax.resource.cci does not exist
+import javax.resource.cci.RecordFactory;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:42: error: cannot find symbol
+public class NotSupportedRecordFactory implements RecordFactory {
+                                                  ^
+  symbol: class RecordFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:44: error: cannot find symbol
+	public MappedRecord createMappedRecord(String name) throws ResourceException {
+	       ^
+  symbol:   class MappedRecord
+  location: class NotSupportedRecordFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:44: error: cannot find symbol
+	public MappedRecord createMappedRecord(String name) throws ResourceException {
+	                                                           ^
+  symbol:   class ResourceException
+  location: class NotSupportedRecordFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:48: error: cannot find symbol
+	public IndexedRecord createIndexedRecord(String name) throws ResourceException {
+	       ^
+  symbol:   class IndexedRecord
+  location: class NotSupportedRecordFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:48: error: cannot find symbol
+	public IndexedRecord createIndexedRecord(String name) throws ResourceException {
+	                                                             ^
+  symbol:   class ResourceException
+  location: class NotSupportedRecordFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:45: error: cannot find symbol
+		throw new NotSupportedException("The RecordFactory facility is not supported by the connector");
+		          ^
+  symbol:   class NotSupportedException
+  location: class NotSupportedRecordFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/NotSupportedRecordFactory.java:49: error: cannot find symbol
+		throw new NotSupportedException("The RecordFactory facility is not supported by the connector");
+		          ^
+  symbol:   class NotSupportedException
+  location: class NotSupportedRecordFactory
+12 errors

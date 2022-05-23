@@ -1,0 +1,11 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/VisibilityPredicate.java:20: error: cannot find symbol
+        this.pkg = TypeUtils.getPackageName(Type.getType(source));
+                   ^
+  symbol:   variable TypeUtils
+  location: class VisibilityPredicate
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/VisibilityPredicate.java:26: error: cannot find symbol
+        return !Modifier.isPrivate(mod) && (Modifier.isPublic(mod) || (Modifier.isProtected(mod) && this.protectedOk) || (this.samePackageOk && this.pkg.equals(TypeUtils.getPackageName(Type.getType(member.getDeclaringClass())))));
+                                                                                                                                                                ^
+  symbol:   variable TypeUtils
+  location: class VisibilityPredicate
+2 errors

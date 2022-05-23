@@ -1,0 +1,41 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/EnumConversion.java:7: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.DataProcessingException;
+                                                                   ^
+  symbol:   class DataProcessingException
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/EnumConversion.java:32: error: incompatible types: Class<T> cannot be converted to Class<Enum>
+        this((Class<Enum>)enumType, (Enum)null, null, null, selectors);
+                          ^
+  where T is a type-variable:
+    T extends Enum<T> declared in class EnumConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/EnumConversion.java:36: error: incompatible types: Class<T> cannot be converted to Class<Enum>
+        this((Class<Enum>)enumType, (Enum)null, null, customEnumElement, new EnumSelector[0]);
+                          ^
+  where T is a type-variable:
+    T extends Enum<T> declared in class EnumConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/EnumConversion.java:192: error: cannot find symbol
+        DataProcessingException exception = null;
+        ^
+  symbol:   class DataProcessingException
+  location: class EnumConversion<T>
+  where T is a type-variable:
+    T extends Enum<T> declared in class EnumConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/EnumConversion.java:199: error: cannot find symbol
+                exception = new DataProcessingException("Cannot convert '{value}' to enumeration of type " + this.enumType.getName() + " using method " + this.customEnumMethod.getName(), e);
+                                ^
+  symbol:   class DataProcessingException
+  location: class EnumConversion<T>
+  where T is a type-variable:
+    T extends Enum<T> declared in class EnumConversion
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/EnumConversion.java:203: error: cannot find symbol
+            exception = new DataProcessingException("Cannot convert '{value}' to enumeration of type " + this.enumType.getName());
+                            ^
+  symbol:   class DataProcessingException
+  location: class EnumConversion<T>
+  where T is a type-variable:
+    T extends Enum<T> declared in class EnumConversion
+Note: sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/EnumConversion.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/conversions/EnumConversion.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+6 errors

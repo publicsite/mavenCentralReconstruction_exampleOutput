@@ -1,0 +1,71 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/TreeSet.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/TreeSet.java:97: error: no suitable constructor found for TreeSet(NavigableMap<E,Boolean>)
+    return new TreeSet<E>(map.descendingMap());
+           ^
+    constructor java.util.TreeSet.java.util.TreeSet(NavigableMap<E,Object>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to NavigableMap<E,Object>)
+    constructor java.util.TreeSet.java.util.TreeSet(Comparator<? super E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to Comparator<? super E>)
+    constructor java.util.TreeSet.java.util.TreeSet(Collection<? extends E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to Collection<? extends E>)
+    constructor java.util.TreeSet.java.util.TreeSet(SortedSet<E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to SortedSet<E>)
+  where E is a type-variable:
+    E extends Object declared in class java.util.TreeSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/TreeSet.java:117: error: no suitable constructor found for TreeSet(NavigableMap<E,Boolean>)
+    return new TreeSet<E>(map.headMap(toElement, inclusive));
+           ^
+    constructor java.util.TreeSet.java.util.TreeSet(NavigableMap<E,Object>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to NavigableMap<E,Object>)
+    constructor java.util.TreeSet.java.util.TreeSet(Comparator<? super E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to Comparator<? super E>)
+    constructor java.util.TreeSet.java.util.TreeSet(Collection<? extends E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to Collection<? extends E>)
+    constructor java.util.TreeSet.java.util.TreeSet(SortedSet<E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to SortedSet<E>)
+  where E is a type-variable:
+    E extends Object declared in class java.util.TreeSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/TreeSet.java:142: error: cannot find symbol
+    return AbstractMap.getEntryKeyOrNull(map.pollFirstEntry());
+                      ^
+  symbol:   method getEntryKeyOrNull(Entry<E,Boolean>)
+  location: class AbstractMap
+  where E is a type-variable:
+    E extends Object declared in class TreeSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/TreeSet.java:147: error: cannot find symbol
+    return AbstractMap.getEntryKeyOrNull(map.pollLastEntry());
+                      ^
+  symbol:   method getEntryKeyOrNull(Entry<E,Boolean>)
+  location: class AbstractMap
+  where E is a type-variable:
+    E extends Object declared in class TreeSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/TreeSet.java:163: error: no suitable constructor found for TreeSet(NavigableMap<E,Boolean>)
+    return new TreeSet<E>(map.subMap(fromElement, fromInclusive, toElement, toInclusive));
+           ^
+    constructor java.util.TreeSet.java.util.TreeSet(NavigableMap<E,Object>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to NavigableMap<E,Object>)
+    constructor java.util.TreeSet.java.util.TreeSet(Comparator<? super E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to Comparator<? super E>)
+    constructor java.util.TreeSet.java.util.TreeSet(Collection<? extends E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to Collection<? extends E>)
+    constructor java.util.TreeSet.java.util.TreeSet(SortedSet<E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to SortedSet<E>)
+  where E is a type-variable:
+    E extends Object declared in class java.util.TreeSet
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/TreeSet.java:178: error: no suitable constructor found for TreeSet(NavigableMap<E,Boolean>)
+    return new TreeSet<E>(map.tailMap(fromElement, inclusive));
+           ^
+    constructor java.util.TreeSet.java.util.TreeSet(NavigableMap<E,Object>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to NavigableMap<E,Object>)
+    constructor java.util.TreeSet.java.util.TreeSet(Comparator<? super E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to Comparator<? super E>)
+    constructor java.util.TreeSet.java.util.TreeSet(Collection<? extends E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to Collection<? extends E>)
+    constructor java.util.TreeSet.java.util.TreeSet(SortedSet<E>) is not applicable
+      (argument mismatch; NavigableMap<E,Boolean> cannot be converted to SortedSet<E>)
+  where E is a type-variable:
+    E extends Object declared in class java.util.TreeSet
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+7 errors

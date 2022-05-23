@@ -1,0 +1,247 @@
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:19: error: package javax.jms does not exist
+import javax.jms.Destination;
+                ^
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:20: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:21: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:22: error: package javax.jms does not exist
+import javax.jms.MessageProducer;
+                ^
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:23: error: package javax.jms does not exist
+import javax.jms.Queue;
+                ^
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:24: error: package javax.jms does not exist
+import javax.jms.QueueSender;
+                ^
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:25: error: package javax.jms does not exist
+import javax.jms.Topic;
+                ^
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:26: error: package javax.jms does not exist
+import javax.jms.TopicPublisher;
+                ^
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:35: error: cannot find symbol
+class CachedMessageProducer implements MessageProducer, QueueSender, TopicPublisher {
+                                       ^
+  symbol: class MessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:35: error: cannot find symbol
+class CachedMessageProducer implements MessageProducer, QueueSender, TopicPublisher {
+                                                        ^
+  symbol: class QueueSender
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:35: error: cannot find symbol
+class CachedMessageProducer implements MessageProducer, QueueSender, TopicPublisher {
+                                                                     ^
+  symbol: class TopicPublisher
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:37: error: cannot find symbol
+	private final MessageProducer target;
+	              ^
+  symbol:   class MessageProducer
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:50: error: cannot find symbol
+	public CachedMessageProducer(MessageProducer target) throws JMSException {
+	                             ^
+  symbol:   class MessageProducer
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:50: error: cannot find symbol
+	public CachedMessageProducer(MessageProducer target) throws JMSException {
+	                                                            ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:58: error: cannot find symbol
+	public void setDisableMessageID(boolean disableMessageID) throws JMSException {
+	                                                                 ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:65: error: cannot find symbol
+	public boolean getDisableMessageID() throws JMSException {
+	                                            ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:69: error: cannot find symbol
+	public void setDisableMessageTimestamp(boolean disableMessageTimestamp) throws JMSException {
+	                                                                               ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:76: error: cannot find symbol
+	public boolean getDisableMessageTimestamp() throws JMSException {
+	                                                   ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:104: error: cannot find symbol
+	public Destination getDestination() throws JMSException {
+	       ^
+  symbol:   class Destination
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:104: error: cannot find symbol
+	public Destination getDestination() throws JMSException {
+	                                           ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:108: error: cannot find symbol
+	public Queue getQueue() throws JMSException {
+	       ^
+  symbol:   class Queue
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:108: error: cannot find symbol
+	public Queue getQueue() throws JMSException {
+	                               ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:112: error: cannot find symbol
+	public Topic getTopic() throws JMSException {
+	       ^
+  symbol:   class Topic
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:112: error: cannot find symbol
+	public Topic getTopic() throws JMSException {
+	                               ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:116: error: cannot find symbol
+	public void send(Message message) throws JMSException {
+	                 ^
+  symbol:   class Message
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:116: error: cannot find symbol
+	public void send(Message message) throws JMSException {
+	                                         ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:120: error: cannot find symbol
+	public void send(Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                 ^
+  symbol:   class Message
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:120: error: cannot find symbol
+	public void send(Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                                                                                          ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:124: error: cannot find symbol
+	public void send(Destination destination, Message message) throws JMSException {
+	                 ^
+  symbol:   class Destination
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:124: error: cannot find symbol
+	public void send(Destination destination, Message message) throws JMSException {
+	                                          ^
+  symbol:   class Message
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:124: error: cannot find symbol
+	public void send(Destination destination, Message message) throws JMSException {
+	                                                                  ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:128: error: cannot find symbol
+	public void send(Destination destination, Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                 ^
+  symbol:   class Destination
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:128: error: cannot find symbol
+	public void send(Destination destination, Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                                          ^
+  symbol:   class Message
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:128: error: cannot find symbol
+	public void send(Destination destination, Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                                                                                                                   ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:132: error: cannot find symbol
+	public void send(Queue queue, Message message) throws JMSException {
+	                 ^
+  symbol:   class Queue
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:132: error: cannot find symbol
+	public void send(Queue queue, Message message) throws JMSException {
+	                              ^
+  symbol:   class Message
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:132: error: cannot find symbol
+	public void send(Queue queue, Message message) throws JMSException {
+	                                                      ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:136: error: cannot find symbol
+	public void send(Queue queue, Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                 ^
+  symbol:   class Queue
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:136: error: cannot find symbol
+	public void send(Queue queue, Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                              ^
+  symbol:   class Message
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:136: error: cannot find symbol
+	public void send(Queue queue, Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                                                                                                       ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:140: error: cannot find symbol
+	public void publish(Message message) throws JMSException {
+	                    ^
+  symbol:   class Message
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:140: error: cannot find symbol
+	public void publish(Message message) throws JMSException {
+	                                            ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:144: error: cannot find symbol
+	public void publish(Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                    ^
+  symbol:   class Message
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:144: error: cannot find symbol
+	public void publish(Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                                                                                             ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:148: error: cannot find symbol
+	public void publish(Topic topic, Message message) throws JMSException {
+	                    ^
+  symbol:   class Topic
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:148: error: cannot find symbol
+	public void publish(Topic topic, Message message) throws JMSException {
+	                                 ^
+  symbol:   class Message
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:148: error: cannot find symbol
+	public void publish(Topic topic, Message message) throws JMSException {
+	                                                         ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:152: error: cannot find symbol
+	public void publish(Topic topic, Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                    ^
+  symbol:   class Topic
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:152: error: cannot find symbol
+	public void publish(Topic topic, Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                                 ^
+  symbol:   class Message
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:152: error: cannot find symbol
+	public void publish(Topic topic, Message message, int deliveryMode, int priority, long timeToLive) throws JMSException {
+	                                                                                                          ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:156: error: cannot find symbol
+	public void close() throws JMSException {
+	                           ^
+  symbol:   class JMSException
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:109: error: cannot find symbol
+		return (Queue) this.target.getDestination();
+		        ^
+  symbol:   class Queue
+  location: class CachedMessageProducer
+hybrids/org.springframework/spring/2.5.6/CachedMessageProducer.java:113: error: cannot find symbol
+		return (Topic) this.target.getDestination();
+		        ^
+  symbol:   class Topic
+  location: class CachedMessageProducer
+53 errors

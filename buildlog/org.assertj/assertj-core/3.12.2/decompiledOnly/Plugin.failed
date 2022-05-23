@@ -1,0 +1,441 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:15: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:25: error: package org.assertj.core.internal.bytebuddy.pool does not exist
+import org.assertj.core.internal.bytebuddy.pool.TypePool;
+                                               ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:26: error: package org.assertj.core.internal.bytebuddy.implementation does not exist
+import org.assertj.core.internal.bytebuddy.implementation.LoadedTypeInitializer;
+                                                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:28: error: package org.assertj.core.internal.bytebuddy.dynamic.scaffold.inline does not exist
+import org.assertj.core.internal.bytebuddy.dynamic.scaffold.inline.MethodNameTransformer;
+                                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:29: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.ClassFileVersion;
+                                          ^
+  symbol:   class ClassFileVersion
+  location: package org.assertj.core.internal.bytebuddy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:30: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.ElementMatchers;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:32: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.ByteBuddy;
+                                          ^
+  symbol:   class ByteBuddy
+  location: package org.assertj.core.internal.bytebuddy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:53: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.dynamic.ClassFileLocator;
+                                                  ^
+  symbol:   class ClassFileLocator
+  location: package org.assertj.core.internal.bytebuddy.dynamic
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:54: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.dynamic.DynamicType;
+                                                  ^
+  symbol:   class DynamicType
+  location: package org.assertj.core.internal.bytebuddy.dynamic
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:56: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:57: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.ElementMatcher;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:59: error: cannot find symbol
+public interface Plugin extends ElementMatcher<TypeDescription>, Closeable
+                                ^
+  symbol: class ElementMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:59: error: cannot find symbol
+public interface Plugin extends ElementMatcher<TypeDescription>, Closeable
+                                               ^
+  symbol: class TypeDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:61: error: package DynamicType does not exist
+    DynamicType.Builder<?> apply(final DynamicType.Builder<?> p0, final TypeDescription p1, final ClassFileLocator p2);
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:61: error: cannot find symbol
+    DynamicType.Builder<?> apply(final DynamicType.Builder<?> p0, final TypeDescription p1, final ClassFileLocator p2);
+                                                                        ^
+  symbol:   class TypeDescription
+  location: interface Plugin
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:61: error: cannot find symbol
+    DynamicType.Builder<?> apply(final DynamicType.Builder<?> p0, final TypeDescription p1, final ClassFileLocator p2);
+                                                                                                  ^
+  symbol:   class ClassFileLocator
+  location: interface Plugin
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:61: error: package DynamicType does not exist
+    DynamicType.Builder<?> apply(final DynamicType.Builder<?> p0, final TypeDescription p1, final ClassFileLocator p2);
+               ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:63: error: package HashCodeAndEqualsPlugin does not exist
+    @HashCodeAndEqualsPlugin.Enhance
+                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:70: error: cannot find symbol
+        public boolean matches(final TypeDescription target) {
+                                     ^
+  symbol:   class TypeDescription
+  location: class NoOp
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:74: error: package DynamicType does not exist
+        public DynamicType.Builder<?> apply(final DynamicType.Builder<?> builder, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                                                             ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:74: error: cannot find symbol
+        public DynamicType.Builder<?> apply(final DynamicType.Builder<?> builder, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                                                                                        ^
+  symbol:   class TypeDescription
+  location: class NoOp
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:74: error: cannot find symbol
+        public DynamicType.Builder<?> apply(final DynamicType.Builder<?> builder, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                                                                                                                               ^
+  symbol:   class ClassFileLocator
+  location: class NoOp
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:74: error: package DynamicType does not exist
+        public DynamicType.Builder<?> apply(final DynamicType.Builder<?> builder, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                          ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:92: error: package HashCodeAndEqualsPlugin does not exist
+    @HashCodeAndEqualsPlugin.Enhance
+                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:95: error: cannot find symbol
+        private final ElementMatcher<? super TypeDescription> matcher;
+                      ^
+  symbol:   class ElementMatcher
+  location: class ForElementMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:95: error: cannot find symbol
+        private final ElementMatcher<? super TypeDescription> matcher;
+                                             ^
+  symbol:   class TypeDescription
+  location: class ForElementMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:97: error: cannot find symbol
+        protected ForElementMatcher(final ElementMatcher<? super TypeDescription> matcher) {
+                                          ^
+  symbol:   class ElementMatcher
+  location: class ForElementMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:97: error: cannot find symbol
+        protected ForElementMatcher(final ElementMatcher<? super TypeDescription> matcher) {
+                                                                 ^
+  symbol:   class TypeDescription
+  location: class ForElementMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:101: error: cannot find symbol
+        public boolean matches(final TypeDescription target) {
+                                     ^
+  symbol:   class TypeDescription
+  location: class ForElementMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:116: error: package HashCodeAndEqualsPlugin does not exist
+    @HashCodeAndEqualsPlugin.Enhance
+                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:140: error: cannot find symbol
+        public boolean matches(final TypeDescription target) {
+                                     ^
+  symbol:   class TypeDescription
+  location: class Compound
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:149: error: package DynamicType does not exist
+        public DynamicType.Builder<?> apply(DynamicType.Builder<?> builder, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                                                       ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:149: error: cannot find symbol
+        public DynamicType.Builder<?> apply(DynamicType.Builder<?> builder, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                                                                                  ^
+  symbol:   class TypeDescription
+  location: class Compound
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:149: error: cannot find symbol
+        public DynamicType.Builder<?> apply(DynamicType.Builder<?> builder, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                                                                                                                         ^
+  symbol:   class ClassFileLocator
+  location: class Compound
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:149: error: package DynamicType does not exist
+        public DynamicType.Builder<?> apply(DynamicType.Builder<?> builder, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                          ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:179: error: package HashCodeAndEqualsPlugin does not exist
+        @HashCodeAndEqualsPlugin.Enhance
+                                ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:203: error: package HashCodeAndEqualsPlugin does not exist
+        @HashCodeAndEqualsPlugin.Enhance
+                                ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:277: error: package HashCodeAndEqualsPlugin does not exist
+                @HashCodeAndEqualsPlugin.Enhance
+                                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:307: error: package HashCodeAndEqualsPlugin does not exist
+                @HashCodeAndEqualsPlugin.Enhance
+                                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:350: error: package HashCodeAndEqualsPlugin does not exist
+                    @HashCodeAndEqualsPlugin.Enhance
+                                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:433: error: package HashCodeAndEqualsPlugin does not exist
+                    @HashCodeAndEqualsPlugin.Enhance
+                                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:536: error: package HashCodeAndEqualsPlugin does not exist
+                @HashCodeAndEqualsPlugin.Enhance
+                                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:508: error: package HashCodeAndEqualsPlugin does not exist
+                @HashCodeAndEqualsPlugin.Enhance
+                                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:594: error: cannot find symbol
+        Engine with(final ByteBuddy p0);
+                          ^
+  symbol:   class ByteBuddy
+  location: interface Engine
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:600: error: cannot find symbol
+        Engine with(final ClassFileLocator p0);
+                          ^
+  symbol:   class ClassFileLocator
+  location: interface Engine
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:610: error: cannot find symbol
+        Engine ignore(final ElementMatcher<? super TypeDescription> p0);
+                            ^
+  symbol:   class ElementMatcher
+  location: interface Engine
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:610: error: cannot find symbol
+        Engine ignore(final ElementMatcher<? super TypeDescription> p0);
+                                                   ^
+  symbol:   class TypeDescription
+  location: interface Engine
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:2372: error: cannot find symbol
+                void store(final Map<TypeDescription, byte[]> p0) throws IOException;
+                                     ^
+  symbol:   class TypeDescription
+  location: interface Sink
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:1666: error: cannot find symbol
+                ClassFileLocator getClassFileLocator();
+                ^
+  symbol:   class ClassFileLocator
+  location: interface Origin
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:622: error: cannot find symbol
+            private final List<TypeDescription> transformed;
+                               ^
+  symbol:   class TypeDescription
+  location: class Summary
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:623: error: cannot find symbol
+            private final Map<TypeDescription, List<Throwable>> failed;
+                              ^
+  symbol:   class TypeDescription
+  location: class Summary
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:626: error: cannot find symbol
+            public Summary(final List<TypeDescription> transformed, final Map<TypeDescription, List<Throwable>> failed, final List<String> unresolved) {
+                                      ^
+  symbol:   class TypeDescription
+  location: class Summary
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:626: error: cannot find symbol
+            public Summary(final List<TypeDescription> transformed, final Map<TypeDescription, List<Throwable>> failed, final List<String> unresolved) {
+                                                                              ^
+  symbol:   class TypeDescription
+  location: class Summary
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:632: error: cannot find symbol
+            public List<TypeDescription> getTransformed() {
+                        ^
+  symbol:   class TypeDescription
+  location: class Summary
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:636: error: cannot find symbol
+            public Map<TypeDescription, List<Throwable>> getFailed() {
+                       ^
+  symbol:   class TypeDescription
+  location: class Summary
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:990: error: cannot find symbol
+            void onTransformation(final TypeDescription p0, final Plugin p1);
+                                        ^
+  symbol:   class TypeDescription
+  location: interface Listener
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:992: error: cannot find symbol
+            void onTransformation(final TypeDescription p0, final List<Plugin> p1);
+                                        ^
+  symbol:   class TypeDescription
+  location: interface Listener
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:994: error: cannot find symbol
+            void onIgnored(final TypeDescription p0, final Plugin p1);
+                                 ^
+  symbol:   class TypeDescription
+  location: interface Listener
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:996: error: cannot find symbol
+            void onIgnored(final TypeDescription p0, final List<Plugin> p1);
+                                 ^
+  symbol:   class TypeDescription
+  location: interface Listener
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:998: error: cannot find symbol
+            void onComplete(final TypeDescription p0);
+                                  ^
+  symbol:   class TypeDescription
+  location: interface Listener
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:1457: error: cannot find symbol
+            void onError(final TypeDescription p0, final Plugin p1, final Throwable p2);
+                               ^
+  symbol:   class TypeDescription
+  location: interface ErrorHandler
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:1459: error: cannot find symbol
+            void onError(final TypeDescription p0, final List<Throwable> p1);
+                               ^
+  symbol:   class TypeDescription
+  location: interface ErrorHandler
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:1461: error: cannot find symbol
+            void onError(final Map<TypeDescription, List<Throwable>> p0);
+                                   ^
+  symbol:   class TypeDescription
+  location: interface ErrorHandler
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:1465: error: cannot find symbol
+            void onLiveInitializer(final TypeDescription p0, final TypeDescription p1);
+                                         ^
+  symbol:   class TypeDescription
+  location: interface ErrorHandler
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:1465: error: cannot find symbol
+            void onLiveInitializer(final TypeDescription p0, final TypeDescription p1);
+                                                                   ^
+  symbol:   class TypeDescription
+  location: interface ErrorHandler
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:951: error: cannot find symbol
+            TypePool typePool(final ClassFileLocator p0);
+                                    ^
+  symbol:   class ClassFileLocator
+  location: interface PoolStrategy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:951: error: cannot find symbol
+            TypePool typePool(final ClassFileLocator p0);
+            ^
+  symbol:   class TypePool
+  location: interface PoolStrategy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:901: error: cannot find symbol
+            DynamicType.Builder<?> builder(final ByteBuddy p0, final TypeDescription p1, final ClassFileLocator p2);
+                                                 ^
+  symbol:   class ByteBuddy
+  location: interface TypeStrategy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:901: error: cannot find symbol
+            DynamicType.Builder<?> builder(final ByteBuddy p0, final TypeDescription p1, final ClassFileLocator p2);
+                                                                     ^
+  symbol:   class TypeDescription
+  location: interface TypeStrategy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:901: error: cannot find symbol
+            DynamicType.Builder<?> builder(final ByteBuddy p0, final TypeDescription p1, final ClassFileLocator p2);
+                                                                                               ^
+  symbol:   class ClassFileLocator
+  location: interface TypeStrategy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:901: error: package DynamicType does not exist
+            DynamicType.Builder<?> builder(final ByteBuddy p0, final TypeDescription p1, final ClassFileLocator p2);
+                       ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:684: error: package HashCodeAndEqualsPlugin does not exist
+        @HashCodeAndEqualsPlugin.Enhance
+                                ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:687: error: cannot find symbol
+            private final ByteBuddy byteBuddy;
+                          ^
+  symbol:   class ByteBuddy
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:690: error: cannot find symbol
+            private final ClassFileLocator classFileLocator;
+                          ^
+  symbol:   class ClassFileLocator
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:693: error: cannot find symbol
+            private final Junction<? super TypeDescription> ignoredTypeMatcher;
+                          ^
+  symbol:   class Junction
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:693: error: cannot find symbol
+            private final Junction<? super TypeDescription> ignoredTypeMatcher;
+                                           ^
+  symbol:   class TypeDescription
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:699: error: cannot find symbol
+            public Default(final ByteBuddy byteBuddy) {
+                                 ^
+  symbol:   class ByteBuddy
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:703: error: cannot find symbol
+            protected Default(final ByteBuddy byteBuddy, final TypeStrategy typeStrategy) {
+                                    ^
+  symbol:   class ByteBuddy
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:707: error: cannot find symbol
+            protected Default(final ByteBuddy byteBuddy, final TypeStrategy typeStrategy, final PoolStrategy poolStrategy, final ClassFileLocator classFileLocator, final Listener listener, final ErrorHandler errorHandler, final Junction<? super TypeDescription> ignoredTypeMatcher) {
+                                    ^
+  symbol:   class ByteBuddy
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:707: error: cannot find symbol
+            protected Default(final ByteBuddy byteBuddy, final TypeStrategy typeStrategy, final PoolStrategy poolStrategy, final ClassFileLocator classFileLocator, final Listener listener, final ErrorHandler errorHandler, final Junction<? super TypeDescription> ignoredTypeMatcher) {
+                                                                                                                                 ^
+  symbol:   class ClassFileLocator
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:707: error: cannot find symbol
+            protected Default(final ByteBuddy byteBuddy, final TypeStrategy typeStrategy, final PoolStrategy poolStrategy, final ClassFileLocator classFileLocator, final Listener listener, final ErrorHandler errorHandler, final Junction<? super TypeDescription> ignoredTypeMatcher) {
+                                                                                                                                                                                                                                    ^
+  symbol:   class Junction
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:707: error: cannot find symbol
+            protected Default(final ByteBuddy byteBuddy, final TypeStrategy typeStrategy, final PoolStrategy poolStrategy, final ClassFileLocator classFileLocator, final Listener listener, final ErrorHandler errorHandler, final Junction<? super TypeDescription> ignoredTypeMatcher) {
+                                                                                                                                                                                                                                                     ^
+  symbol:   class TypeDescription
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:717: error: cannot find symbol
+            public static Engine of(final EntryPoint entryPoint, final ClassFileVersion classFileVersion, final MethodNameTransformer methodNameTransformer) {
+                                          ^
+  symbol:   class EntryPoint
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:717: error: cannot find symbol
+            public static Engine of(final EntryPoint entryPoint, final ClassFileVersion classFileVersion, final MethodNameTransformer methodNameTransformer) {
+                                                                       ^
+  symbol:   class ClassFileVersion
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:717: error: cannot find symbol
+            public static Engine of(final EntryPoint entryPoint, final ClassFileVersion classFileVersion, final MethodNameTransformer methodNameTransformer) {
+                                                                                                                ^
+  symbol:   class MethodNameTransformer
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:732: error: cannot find symbol
+            public Engine with(final ByteBuddy byteBuddy) {
+                                     ^
+  symbol:   class ByteBuddy
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:744: error: cannot find symbol
+            public Engine with(final ClassFileLocator classFileLocator) {
+                                     ^
+  symbol:   class ClassFileLocator
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:760: error: cannot find symbol
+            public Engine ignore(final ElementMatcher<? super TypeDescription> matcher) {
+                                       ^
+  symbol:   class ElementMatcher
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:760: error: cannot find symbol
+            public Engine ignore(final ElementMatcher<? super TypeDescription> matcher) {
+                                                              ^
+  symbol:   class TypeDescription
+  location: class Default
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:922: error: package HashCodeAndEqualsPlugin does not exist
+            @HashCodeAndEqualsPlugin.Enhance
+                                    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:925: error: cannot find symbol
+                private final EntryPoint entryPoint;
+                              ^
+  symbol:   class EntryPoint
+  location: class ForEntryPoint
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:926: error: cannot find symbol
+                private final MethodNameTransformer methodNameTransformer;
+                              ^
+  symbol:   class MethodNameTransformer
+  location: class ForEntryPoint
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:928: error: cannot find symbol
+                public ForEntryPoint(final EntryPoint entryPoint, final MethodNameTransformer methodNameTransformer) {
+                                           ^
+  symbol:   class EntryPoint
+  location: class ForEntryPoint
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:928: error: cannot find symbol
+                public ForEntryPoint(final EntryPoint entryPoint, final MethodNameTransformer methodNameTransformer) {
+                                                                        ^
+  symbol:   class MethodNameTransformer
+  location: class ForEntryPoint
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:933: error: cannot find symbol
+                public DynamicType.Builder<?> builder(final ByteBuddy byteBuddy, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                                                            ^
+  symbol:   class ByteBuddy
+  location: class ForEntryPoint
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:933: error: cannot find symbol
+                public DynamicType.Builder<?> builder(final ByteBuddy byteBuddy, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                                                                                       ^
+  symbol:   class TypeDescription
+  location: class ForEntryPoint
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:933: error: cannot find symbol
+                public DynamicType.Builder<?> builder(final ByteBuddy byteBuddy, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                                                                                                                              ^
+  symbol:   class ClassFileLocator
+  location: class ForEntryPoint
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:933: error: package DynamicType does not exist
+                public DynamicType.Builder<?> builder(final ByteBuddy byteBuddy, final TypeDescription typeDescription, final ClassFileLocator classFileLocator) {
+                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:958: error: package TypePool.Default does not exist
+                private final TypePool.Default.ReaderMode readerMode;
+                                              ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java:960: error: package TypePool.Default does not exist
+                private Default(final TypePool.Default.ReaderMode readerMode) {
+                                                      ^
+Note: sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/build/Plugin.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors

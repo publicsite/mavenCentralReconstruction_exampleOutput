@@ -1,0 +1,26 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Enum.java:16: error: package exists in another module: java.base
+package java.lang;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Enum.java:39: error: cannot find symbol
+    JavaScriptObject enumValueOfFunc = checkNotNull(enumType).enumValueOfFunc;
+                                                             ^
+  symbol:   variable enumValueOfFunc
+  location: class Class<T>
+  where T is a type-variable:
+    T extends java.lang.Enum<T> declared in method <T>valueOf(Class<T>,String)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Enum.java:57: error: cannot find symbol
+    T result = Enum.<T> get0(map, ":" + name);
+                   ^
+  symbol:   method <T>get0(JavaScriptObject,String)
+  location: class java.lang.Enum
+  where T is a type-variable:
+    T extends java.lang.Enum<T> declared in method <T>valueOf(JavaScriptObject,String)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Enum.java:92: error: ordinal has private access in Enum
+    return this.ordinal - ((Enum) other).ordinal;
+                                        ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/Enum.java:108: error: cannot find symbol
+    Class superclass = clazz.getEnumSuperclass();
+                            ^
+  symbol:   method getEnumSuperclass()
+  location: variable clazz of type Class
+5 errors

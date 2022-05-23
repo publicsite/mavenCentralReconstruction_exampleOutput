@@ -1,0 +1,28 @@
+hybrids/org.apache.openejb/javaee-api/6.0-6/XMLEventFactory.java:20: error: package exists in another module: java.xml
+package javax.xml.stream;
+^
+hybrids/org.apache.openejb/javaee-api/6.0-6/XMLEventFactory.java:45: error: cannot find symbol
+            return (XMLEventFactory)FactoryLocator.locate("javax.xml.stream.XMLEventFactory", "com.ctc.wstx.stax.WstxEventFactory");
+                                    ^
+  symbol:   variable FactoryLocator
+  location: class XMLEventFactory
+hybrids/org.apache.openejb/javaee-api/6.0-6/XMLEventFactory.java:49: error: cannot find symbol
+            return (XMLEventFactory)FactoryLocator.locate("javax.xml.stream.XMLEventFactory", "com.ctc.wstx.stax.WstxEventFactory");
+                                    ^
+  symbol:   variable FactoryLocator
+  location: class XMLEventFactory
+hybrids/org.apache.openejb/javaee-api/6.0-6/XMLEventFactory.java:60: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static XMLEventFactory newInstance(String factoryId,
+	                              ^
+hybrids/org.apache.openejb/javaee-api/6.0-6/XMLEventFactory.java:62: error: cannot find symbol
+            return (XMLEventFactory)FactoryLocator.locate(factoryId, "com.ctc.wstx.stax.WstxEventFactory", classLoader);
+                                    ^
+  symbol:   variable FactoryLocator
+  location: class XMLEventFactory
+hybrids/org.apache.openejb/javaee-api/6.0-6/XMLEventFactory.java:68: error: cannot find symbol
+            return (XMLEventFactory)FactoryLocator.locate(factoryId, "com.ctc.wstx.stax.WstxEventFactory", classLoader);
+                                    ^
+  symbol:   variable FactoryLocator
+  location: class XMLEventFactory
+5 errors
+1 warning

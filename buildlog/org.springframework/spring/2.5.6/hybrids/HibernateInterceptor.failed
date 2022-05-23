@@ -1,0 +1,442 @@
+hybrids/org.springframework/spring/2.5.6/HibernateInterceptor.java:21: error: package org.hibernate does not exist
+import org.hibernate.FlushMode;
+                    ^
+hybrids/org.springframework/spring/2.5.6/HibernateInterceptor.java:22: error: package org.hibernate does not exist
+import org.hibernate.HibernateException;
+                    ^
+hybrids/org.springframework/spring/2.5.6/HibernateInterceptor.java:23: error: package org.hibernate does not exist
+import org.hibernate.Session;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:23: error: package org.hibernate does not exist
+import org.hibernate.FlushMode;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:24: error: package org.hibernate does not exist
+import org.hibernate.HibernateException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:25: error: package org.hibernate does not exist
+import org.hibernate.Interceptor;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:26: error: package org.hibernate does not exist
+import org.hibernate.JDBCException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:27: error: package org.hibernate does not exist
+import org.hibernate.Session;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:28: error: package org.hibernate does not exist
+import org.hibernate.SessionFactory;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:29: error: package org.hibernate.exception does not exist
+import org.hibernate.exception.GenericJDBCException;
+                              ^
+hybrids/org.springframework/spring/2.5.6/HibernateInterceptor.java:144: error: cannot find symbol
+	protected Session getSession() {
+	          ^
+  symbol:   class Session
+  location: class HibernateInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:126: error: cannot find symbol
+	private SessionFactory sessionFactory;
+	        ^
+  symbol:   class SessionFactory
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:149: error: cannot find symbol
+	public void setSessionFactory(SessionFactory sessionFactory) {
+	                              ^
+  symbol:   class SessionFactory
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:157: error: cannot find symbol
+	public SessionFactory getSessionFactory() {
+	       ^
+  symbol:   class SessionFactory
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:192: error: cannot find symbol
+	public void setEntityInterceptor(Interceptor entityInterceptor) {
+	                                 ^
+  symbol:   class Interceptor
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:206: error: cannot find symbol
+	public Interceptor getEntityInterceptor() throws IllegalStateException, BeansException {
+	       ^
+  symbol:   class Interceptor
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:329: error: cannot find symbol
+	protected FlushMode applyFlushMode(Session session, boolean existingTransaction) {
+	                                   ^
+  symbol:   class Session
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:329: error: cannot find symbol
+	protected FlushMode applyFlushMode(Session session, boolean existingTransaction) {
+	          ^
+  symbol:   class FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:387: error: cannot find symbol
+	protected void flushIfNecessary(Session session, boolean existingTransaction) throws HibernateException {
+	                                ^
+  symbol:   class Session
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:387: error: cannot find symbol
+	protected void flushIfNecessary(Session session, boolean existingTransaction) throws HibernateException {
+	                                                                                     ^
+  symbol:   class HibernateException
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:405: error: cannot find symbol
+	public DataAccessException convertHibernateAccessException(HibernateException ex) {
+	                                                           ^
+  symbol:   class HibernateException
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:423: error: cannot find symbol
+	protected DataAccessException convertJdbcAccessException(JDBCException ex, SQLExceptionTranslator translator) {
+	                                                         ^
+  symbol:   class JDBCException
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:465: error: cannot find symbol
+	protected void enableFilters(Session session) {
+	                             ^
+  symbol:   class Session
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:480: error: cannot find symbol
+	protected void disableFilters(Session session) {
+	                              ^
+  symbol:   class Session
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:211: error: cannot find symbol
+			return (Interceptor) this.beanFactory.getBean((String) this.entityInterceptor, Interceptor.class);
+			        ^
+  symbol:   class Interceptor
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:211: error: cannot find symbol
+			return (Interceptor) this.beanFactory.getBean((String) this.entityInterceptor, Interceptor.class);
+			                                                                               ^
+  symbol:   class Interceptor
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:213: error: cannot find symbol
+		return (Interceptor) this.entityInterceptor;
+		        ^
+  symbol:   class Interceptor
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:332: error: cannot find symbol
+				FlushMode previousFlushMode = session.getFlushMode();
+				^
+  symbol:   class FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:333: error: cannot find symbol
+				if (!previousFlushMode.lessThan(FlushMode.COMMIT)) {
+				                                ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:334: error: cannot find symbol
+					session.setFlushMode(FlushMode.NEVER);
+					                     ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:339: error: cannot find symbol
+				session.setFlushMode(FlushMode.NEVER);
+				                     ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:344: error: cannot find symbol
+				FlushMode previousFlushMode = session.getFlushMode();
+				^
+  symbol:   class FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:345: error: cannot find symbol
+				if (!previousFlushMode.equals(FlushMode.AUTO)) {
+				                              ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:346: error: cannot find symbol
+					session.setFlushMode(FlushMode.AUTO);
+					                     ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:356: error: cannot find symbol
+				FlushMode previousFlushMode = session.getFlushMode();
+				^
+  symbol:   class FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:357: error: cannot find symbol
+				if (previousFlushMode.equals(FlushMode.AUTO) || previousFlushMode.equals(FlushMode.ALWAYS)) {
+				                             ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:357: error: cannot find symbol
+				if (previousFlushMode.equals(FlushMode.AUTO) || previousFlushMode.equals(FlushMode.ALWAYS)) {
+				                                                                         ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:358: error: cannot find symbol
+					session.setFlushMode(FlushMode.COMMIT);
+					                     ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:363: error: cannot find symbol
+				session.setFlushMode(FlushMode.COMMIT);
+				                     ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:368: error: cannot find symbol
+				FlushMode previousFlushMode = session.getFlushMode();
+				^
+  symbol:   class FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:369: error: cannot find symbol
+				if (!previousFlushMode.equals(FlushMode.ALWAYS)) {
+				                              ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:370: error: cannot find symbol
+					session.setFlushMode(FlushMode.ALWAYS);
+					                     ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:375: error: cannot find symbol
+				session.setFlushMode(FlushMode.ALWAYS);
+				                     ^
+  symbol:   variable FlushMode
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:406: error: cannot find symbol
+		if (getJdbcExceptionTranslator() != null && ex instanceof JDBCException) {
+		                                                          ^
+  symbol:   class JDBCException
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:407: error: cannot find symbol
+			return convertJdbcAccessException((JDBCException) ex, getJdbcExceptionTranslator());
+			                                   ^
+  symbol:   class JDBCException
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:409: error: cannot find symbol
+		else if (GenericJDBCException.class.equals(ex.getClass())) {
+		         ^
+  symbol:   class GenericJDBCException
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateAccessor.java:410: error: cannot find symbol
+			return convertJdbcAccessException((GenericJDBCException) ex, getDefaultJdbcExceptionTranslator());
+			                                   ^
+  symbol:   class GenericJDBCException
+  location: class HibernateAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:26: error: package javax.transaction does not exist
+import javax.transaction.Status;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:27: error: package javax.transaction does not exist
+import javax.transaction.Transaction;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:28: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:32: error: package org.hibernate does not exist
+import org.hibernate.Criteria;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:33: error: package org.hibernate does not exist
+import org.hibernate.FlushMode;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:34: error: package org.hibernate does not exist
+import org.hibernate.HibernateException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:35: error: package org.hibernate does not exist
+import org.hibernate.Interceptor;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:36: error: package org.hibernate does not exist
+import org.hibernate.JDBCException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:37: error: package org.hibernate does not exist
+import org.hibernate.NonUniqueResultException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:38: error: package org.hibernate does not exist
+import org.hibernate.ObjectDeletedException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:39: error: package org.hibernate does not exist
+import org.hibernate.PersistentObjectException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:40: error: package org.hibernate does not exist
+import org.hibernate.PropertyValueException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:41: error: package org.hibernate does not exist
+import org.hibernate.Query;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:42: error: package org.hibernate does not exist
+import org.hibernate.QueryException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:43: error: package org.hibernate does not exist
+import org.hibernate.Session;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:44: error: package org.hibernate does not exist
+import org.hibernate.SessionFactory;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:45: error: package org.hibernate does not exist
+import org.hibernate.StaleObjectStateException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:46: error: package org.hibernate does not exist
+import org.hibernate.StaleStateException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:47: error: package org.hibernate does not exist
+import org.hibernate.TransientObjectException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:48: error: package org.hibernate does not exist
+import org.hibernate.UnresolvableObjectException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:49: error: package org.hibernate does not exist
+import org.hibernate.WrongClassException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:50: error: package org.hibernate.connection does not exist
+import org.hibernate.connection.ConnectionProvider;
+                               ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:51: error: package org.hibernate.engine does not exist
+import org.hibernate.engine.SessionFactoryImplementor;
+                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:52: error: package org.hibernate.exception does not exist
+import org.hibernate.exception.ConstraintViolationException;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:53: error: package org.hibernate.exception does not exist
+import org.hibernate.exception.DataException;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:54: error: package org.hibernate.exception does not exist
+import org.hibernate.exception.JDBCConnectionException;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:55: error: package org.hibernate.exception does not exist
+import org.hibernate.exception.LockAcquisitionException;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:56: error: package org.hibernate.exception does not exist
+import org.hibernate.exception.SQLGrammarException;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:122: error: cannot find symbol
+	public static DataSource getDataSource(SessionFactory sessionFactory) {
+	                                       ^
+  symbol:   class SessionFactory
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:142: error: cannot find symbol
+	public static SQLExceptionTranslator newJdbcExceptionTranslator(SessionFactory sessionFactory) {
+	                                                                ^
+  symbol:   class SessionFactory
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:163: error: cannot find symbol
+	public static TransactionManager getJtaTransactionManager(SessionFactory sessionFactory, Session session) {
+	                                                          ^
+  symbol:   class SessionFactory
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:163: error: cannot find symbol
+	public static TransactionManager getJtaTransactionManager(SessionFactory sessionFactory, Session session) {
+	                                                                                         ^
+  symbol:   class Session
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:163: error: cannot find symbol
+	public static TransactionManager getJtaTransactionManager(SessionFactory sessionFactory, Session session) {
+	              ^
+  symbol:   class TransactionManager
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:198: error: cannot find symbol
+	public static Session getSession(SessionFactory sessionFactory, boolean allowCreate)
+	                                 ^
+  symbol:   class SessionFactory
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:198: error: cannot find symbol
+	public static Session getSession(SessionFactory sessionFactory, boolean allowCreate)
+	              ^
+  symbol:   class Session
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:231: error: cannot find symbol
+			SessionFactory sessionFactory, Interceptor entityInterceptor,
+			^
+  symbol:   class SessionFactory
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:231: error: cannot find symbol
+			SessionFactory sessionFactory, Interceptor entityInterceptor,
+			                               ^
+  symbol:   class Interceptor
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:230: error: cannot find symbol
+	public static Session getSession(
+	              ^
+  symbol:   class Session
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:255: error: cannot find symbol
+	public static Session doGetSession(SessionFactory sessionFactory, boolean allowCreate)
+	                                   ^
+  symbol:   class SessionFactory
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:255: error: cannot find symbol
+	public static Session doGetSession(SessionFactory sessionFactory, boolean allowCreate)
+	              ^
+  symbol:   class Session
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:256: error: cannot find symbol
+	    throws HibernateException, IllegalStateException {
+	           ^
+  symbol:   class HibernateException
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:279: error: cannot find symbol
+			SessionFactory sessionFactory, Interceptor entityInterceptor,
+			^
+  symbol:   class SessionFactory
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:279: error: cannot find symbol
+			SessionFactory sessionFactory, Interceptor entityInterceptor,
+			                               ^
+  symbol:   class Interceptor
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:278: error: cannot find symbol
+	private static Session doGetSession(
+	               ^
+  symbol:   class Session
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:281: error: cannot find symbol
+			throws HibernateException, IllegalStateException {
+			       ^
+  symbol:   class HibernateException
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:23: error: package org.hibernate does not exist
+import org.hibernate.FlushMode;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:24: error: package org.hibernate does not exist
+import org.hibernate.Session;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:25: error: package org.hibernate does not exist
+import org.hibernate.Transaction;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:370: error: cannot find symbol
+	    SessionHolder sessionHolder, SessionFactory sessionFactory,
+	                                 ^
+  symbol:   class SessionFactory
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:369: error: cannot find symbol
+	private static Session getJtaSynchronizedSession(
+	               ^
+  symbol:   class Session
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:439: error: cannot find symbol
+	private static void registerJtaSynchronization(Session session, SessionFactory sessionFactory,
+	                                               ^
+  symbol:   class Session
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:439: error: cannot find symbol
+	private static void registerJtaSynchronization(Session session, SessionFactory sessionFactory,
+	                                                                ^
+  symbol:   class SessionFactory
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionFactoryUtils.java:491: error: cannot find symbol
+	public static Session getNewSession(SessionFactory sessionFactory) {
+	                                    ^
+  symbol:   class SessionFactory
+  location: class SessionFactoryUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:110: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Set createLinkedSetIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:147: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createLinkedMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:179: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createIdentityMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/BeanWrapperImpl.java:355: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public Object doTypeConversionIfNecessary(Object value, Class requiredType) throws TypeMismatchException {
+	              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateTemplate.java:386: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public Object execute(HibernateCallback action, boolean enforceNativeSession) throws DataAccessException {
+	              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateOperations.java:448: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	void saveOrUpdateAll(Collection entities) throws DataAccessException;
+	     ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors
+6 warnings

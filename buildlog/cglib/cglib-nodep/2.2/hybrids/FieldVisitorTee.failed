@@ -1,0 +1,39 @@
+hybrids/cglib/cglib-nodep/2.2/FieldVisitorTee.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.AnnotationVisitor;
+                        ^
+hybrids/cglib/cglib-nodep/2.2/FieldVisitorTee.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Attribute;
+                        ^
+hybrids/cglib/cglib-nodep/2.2/FieldVisitorTee.java:20: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.FieldVisitor;
+                        ^
+hybrids/cglib/cglib-nodep/2.2/FieldVisitorTee.java:22: error: cannot find symbol
+public class FieldVisitorTee implements FieldVisitor {
+                                        ^
+  symbol: class FieldVisitor
+hybrids/cglib/cglib-nodep/2.2/FieldVisitorTee.java:23: error: cannot find symbol
+    private FieldVisitor fv1, fv2;
+            ^
+  symbol:   class FieldVisitor
+  location: class FieldVisitorTee
+hybrids/cglib/cglib-nodep/2.2/FieldVisitorTee.java:25: error: cannot find symbol
+    public FieldVisitorTee(FieldVisitor fv1, FieldVisitor fv2) {
+                           ^
+  symbol:   class FieldVisitor
+  location: class FieldVisitorTee
+hybrids/cglib/cglib-nodep/2.2/FieldVisitorTee.java:25: error: cannot find symbol
+    public FieldVisitorTee(FieldVisitor fv1, FieldVisitor fv2) {
+                                             ^
+  symbol:   class FieldVisitor
+  location: class FieldVisitorTee
+hybrids/cglib/cglib-nodep/2.2/FieldVisitorTee.java:30: error: cannot find symbol
+    public AnnotationVisitor visitAnnotation(String desc, boolean visible) {
+           ^
+  symbol:   class AnnotationVisitor
+  location: class FieldVisitorTee
+hybrids/cglib/cglib-nodep/2.2/FieldVisitorTee.java:35: error: cannot find symbol
+    public void visitAttribute(Attribute attr) {
+                               ^
+  symbol:   class Attribute
+  location: class FieldVisitorTee
+9 errors

@@ -1,0 +1,61 @@
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:7: error: cannot find symbol
+import org.apache.ldap.common.message.ResultCodeEnum;
+                                     ^
+  symbol:   class ResultCodeEnum
+  location: package org.apache.ldap.common.message
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:13: error: cannot find symbol
+import org.apache.asn1.ber.TypeClass;
+                          ^
+  symbol:   class TypeClass
+  location: package org.apache.asn1.ber
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:15: error: package org.apache.asn1.ber.digester does not exist
+import org.apache.asn1.ber.digester.AbstractRule;
+                                   ^
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:17: error: cannot find symbol
+public class ResultRule extends AbstractRule
+                                ^
+  symbol: class AbstractRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:25: error: cannot find symbol
+    public void tag(final int id, final boolean isPrimitive, final TypeClass typeClass) {
+                                                                   ^
+  symbol:   class TypeClass
+  location: class ResultRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:26: error: cannot find symbol
+        super.tag(id, isPrimitive, typeClass);
+        ^
+  symbol:   variable super
+  location: class ResultRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:27: error: cannot find symbol
+        final ResultResponse resp = (ResultResponse)this.getDigester().peek();
+                                                        ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:29: error: cannot find symbol
+        this.getDigester().push((Object)this.result);
+            ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:33: error: cannot find symbol
+        super.finish();
+        ^
+  symbol:   variable super
+  location: class ResultRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:34: error: cannot find symbol
+        ByteBuffer buf = (ByteBuffer)this.getDigester().pop();
+                                         ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:36: error: cannot find symbol
+        buf = (ByteBuffer)this.getDigester().pop();
+                              ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:38: error: cannot find symbol
+        final int resultCode = this.getDigester().popInt();
+                                   ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:39: error: cannot access ResultCodeEnum
+        this.result.setResultCode(ResultCodeEnum.getResultCodeEnum(resultCode));
+                   ^
+  class file for org.apache.ldap.common.message.ResultCodeEnum not found
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/ResultRule.java:40: error: cannot find symbol
+        this.getDigester().pop();
+            ^
+  symbol: method getDigester()
+14 errors

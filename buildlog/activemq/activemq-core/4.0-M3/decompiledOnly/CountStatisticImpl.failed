@@ -1,0 +1,28 @@
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/CountStatisticImpl.java:7: error: package edu.emory.mathcs.backport.java.util.concurrent.atomic does not exist
+import edu.emory.mathcs.backport.java.util.concurrent.atomic.AtomicLong;
+                                                            ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/CountStatisticImpl.java:8: error: package javax.management.j2ee.statistics does not exist
+import javax.management.j2ee.statistics.CountStatistic;
+                                       ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatisticImpl.java:7: error: package javax.management.j2ee.statistics does not exist
+import javax.management.j2ee.statistics.Statistic;
+                                       ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatisticImpl.java:9: error: cannot find symbol
+public class StatisticImpl implements Statistic, Resettable
+                                      ^
+  symbol: class Statistic
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/CountStatisticImpl.java:10: error: cannot find symbol
+public class CountStatisticImpl extends StatisticImpl implements CountStatistic
+                                                                 ^
+  symbol: class CountStatistic
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/CountStatisticImpl.java:12: error: cannot find symbol
+    private final AtomicLong counter;
+                  ^
+  symbol:   class AtomicLong
+  location: class CountStatisticImpl
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/CountStatisticImpl.java:26: error: cannot find symbol
+        this.counter = new AtomicLong(0L);
+                           ^
+  symbol:   class AtomicLong
+  location: class CountStatisticImpl
+7 errors

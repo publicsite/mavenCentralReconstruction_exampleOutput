@@ -1,0 +1,150 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:8: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.RegisterSpec;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:9: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.RegisterSpecList;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:17: error: cannot find symbol
+    private final SsaMethod ssaMeth;
+                  ^
+  symbol:   class SsaMethod
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:20: error: cannot find symbol
+    private final ArrayList<SsaInsn>[] useList;
+                            ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:22: error: cannot find symbol
+    public static void process(final SsaMethod ssaMethod) {
+                                     ^
+  symbol:   class SsaMethod
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:27: error: cannot find symbol
+    private DeadCodeRemover(final SsaMethod ssaMethod) {
+                                  ^
+  symbol:   class SsaMethod
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:114: error: cannot find symbol
+    private static boolean hasSideEffect(final SsaInsn insn) {
+                                               ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:118: error: package SsaInsn does not exist
+    private static class NoSideEffectVisitor implements SsaInsn.Visitor
+                                                               ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:126: error: cannot find symbol
+        public void visitMoveInsn(final NormalSsaInsn insn) {
+                                        ^
+  symbol:   class NormalSsaInsn
+  location: class NoSideEffectVisitor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:132: error: cannot find symbol
+        public void visitPhiInsn(final PhiInsn phi) {
+                                       ^
+  symbol:   class PhiInsn
+  location: class NoSideEffectVisitor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:138: error: cannot find symbol
+        public void visitNonMoveInsn(final NormalSsaInsn insn) {
+                                           ^
+  symbol:   class NormalSsaInsn
+  location: class NoSideEffectVisitor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:36: error: cannot find symbol
+        final HashSet<SsaInsn> deletedInsns = new HashSet<SsaInsn>();
+                      ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:36: error: cannot find symbol
+        final HashSet<SsaInsn> deletedInsns = new HashSet<SsaInsn>();
+                                                          ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:42: error: cannot find symbol
+                final SsaInsn insnS = this.ssaMeth.getDefinitionForRegister(regV);
+                      ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:46: error: cannot find symbol
+                final RegisterSpecList sources = insnS.getSources();
+                      ^
+  symbol:   class RegisterSpecList
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:48: error: cannot find symbol
+                    final RegisterSpec source = sources.get(i);
+                          ^
+  symbol:   class RegisterSpec
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:61: error: cannot find symbol
+        final HashSet<SsaInsn> deletedInsns = new HashSet<SsaInsn>();
+                      ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:61: error: cannot find symbol
+        final HashSet<SsaInsn> deletedInsns = new HashSet<SsaInsn>();
+                                                          ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:63: error: cannot find symbol
+        for (final SsaBasicBlock block : this.ssaMeth.getBlocks()) {
+                   ^
+  symbol:   class SsaBasicBlock
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:68: error: cannot find symbol
+                final SsaInsn insn = block.getInsns().get(i);
+                      ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:69: error: cannot find symbol
+                final RegisterSpecList sources = insn.getSources();
+                      ^
+  symbol:   class RegisterSpecList
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:75: error: cannot find symbol
+                    final RegisterSpec source = sources.get(j);
+                          ^
+  symbol:   class RegisterSpec
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:78: error: cannot find symbol
+                final RegisterSpec result = insn.getResult();
+                      ^
+  symbol:   class RegisterSpec
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:80: error: cannot find symbol
+                    for (final SsaInsn use : this.useList[result.getReg()]) {
+                               ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:81: error: cannot find symbol
+                        if (use instanceof PhiInsn) {
+                                           ^
+  symbol:   class PhiInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:82: error: cannot find symbol
+                            final PhiInsn phiUse = (PhiInsn)use;
+                                  ^
+  symbol:   class PhiInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:82: error: cannot find symbol
+                            final PhiInsn phiUse = (PhiInsn)use;
+                                                    ^
+  symbol:   class PhiInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:96: error: cannot find symbol
+        for (final SsaInsn use : this.useList[regV]) {
+                   ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:105: error: cannot find symbol
+        for (final SsaInsn use : this.useList[regV]) {
+                   ^
+  symbol:   class SsaInsn
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:106: error: cannot find symbol
+            final RegisterSpec result = use.getResult();
+                  ^
+  symbol:   class RegisterSpec
+  location: class DeadCodeRemover
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DeadCodeRemover.java:139: error: cannot find symbol
+            final RegisterSpec result = insn.getResult();
+                  ^
+  symbol:   class RegisterSpec
+  location: class NoSideEffectVisitor
+31 errors

@@ -1,0 +1,52 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:12: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:16: error: package org.assertj.core.internal.bytebuddy.utility.privilege does not exist
+import org.assertj.core.internal.bytebuddy.utility.privilege.SetAccessibleAction;
+                                                            ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:17: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:18: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.utility.JavaModule;
+                                                  ^
+  symbol:   class JavaModule
+  location: package org.assertj.core.internal.bytebuddy.utility
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:20: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:41: error: package HashCodeAndEqualsPlugin does not exist
+    @HashCodeAndEqualsPlugin.Enhance
+                            ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:89: error: package HashCodeAndEqualsPlugin does not exist
+    @HashCodeAndEqualsPlugin.Enhance
+                            ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:90: error: cannot find symbol
+    @SuppressFBWarnings(value = { "SE_BAD_FIELD" }, justification = "Serialization is considered opt-in for a rare use case")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: interface LoadedTypeInitializer
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:57: error: cannot find symbol
+                if (!Modifier.isPublic(field.getModifiers()) || !Modifier.isPublic(field.getDeclaringClass().getModifiers()) || (JavaModule.isSupported() && !JavaModule.ofType(type).isExported(new TypeDescription.ForLoadedType(type).getPackage(), JavaModule.ofType(ForStaticField.class)))) {
+                                                                                                                                 ^
+  symbol:   variable JavaModule
+  location: class ForStaticField
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:57: error: cannot find symbol
+                if (!Modifier.isPublic(field.getModifiers()) || !Modifier.isPublic(field.getDeclaringClass().getModifiers()) || (JavaModule.isSupported() && !JavaModule.ofType(type).isExported(new TypeDescription.ForLoadedType(type).getPackage(), JavaModule.ofType(ForStaticField.class)))) {
+                                                                                                                                                              ^
+  symbol:   variable JavaModule
+  location: class ForStaticField
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:57: error: package TypeDescription does not exist
+                if (!Modifier.isPublic(field.getModifiers()) || !Modifier.isPublic(field.getDeclaringClass().getModifiers()) || (JavaModule.isSupported() && !JavaModule.ofType(type).isExported(new TypeDescription.ForLoadedType(type).getPackage(), JavaModule.ofType(ForStaticField.class)))) {
+                                                                                                                                                                                                                    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:57: error: cannot find symbol
+                if (!Modifier.isPublic(field.getModifiers()) || !Modifier.isPublic(field.getDeclaringClass().getModifiers()) || (JavaModule.isSupported() && !JavaModule.ofType(type).isExported(new TypeDescription.ForLoadedType(type).getPackage(), JavaModule.ofType(ForStaticField.class)))) {
+                                                                                                                                                                                                                                                       ^
+  symbol:   variable JavaModule
+  location: class ForStaticField
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/LoadedTypeInitializer.java:58: error: cannot find symbol
+                    AccessController.doPrivileged(new SetAccessibleAction<Object>(field));
+                                                      ^
+  symbol:   class SetAccessibleAction
+  location: class ForStaticField
+13 errors

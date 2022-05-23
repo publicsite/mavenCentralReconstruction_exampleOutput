@@ -1,0 +1,27 @@
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/CartesianProductTestNameFormatter.java:13: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionConfigurationException;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerUtils.java:13: error: package org.junit.platform.commons.support does not exist
+import static org.junit.platform.commons.support.ReflectionSupport.findMethod;
+                                                ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerUtils.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.support.ReflectionSupport.findMethod;
+^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/CartesianProductTestNameFormatter.java:31: error: cannot find symbol
+            throw new ExtensionConfigurationException(message, (Throwable)ex);
+                      ^
+  symbol:   class ExtensionConfigurationException
+  location: class CartesianProductTestNameFormatter
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/CartesianProductTestNameFormatter.java:45: error: incompatible types: Collector<CharSequence,CAP#1,String> cannot be converted to Collector<? super Object,?,String>
+            final String replacement = IntStream.range(0, arguments.length).mapToObj(index -> "{" + index + "}").collect((Collector<? super Object, ?, String>)Collectors.joining(", "));
+                                                                                                                                                                                 ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerUtils.java:76: error: cannot find symbol
+			method = findMethod(current, methodName, parameterTypes);
+			         ^
+  symbol:   method findMethod(Class<CAP#1>,String,Class<?>[])
+  location: class PioneerUtils
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+6 errors

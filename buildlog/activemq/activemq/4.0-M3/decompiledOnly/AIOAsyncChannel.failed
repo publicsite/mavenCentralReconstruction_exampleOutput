@@ -1,0 +1,83 @@
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:10: error: package com.ibm.io.async does not exist
+import com.ibm.io.async.IAbstractAsyncFuture;
+                       ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:11: error: package com.ibm.io.async does not exist
+import com.ibm.io.async.IAsyncFuture;
+                       ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:23: error: package com.ibm.io.async does not exist
+import com.ibm.io.async.AsyncSocketChannel;
+                       ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:24: error: package com.ibm.io.async does not exist
+import com.ibm.io.async.ICompletionListener;
+                       ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:27: error: cannot find symbol
+public final class AIOAsyncChannel implements AsyncChannel, ICompletionListener, SocketMetadata
+                                                            ^
+  symbol: class ICompletionListener
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:30: error: cannot find symbol
+    private final AsyncSocketChannel socketChannel;
+                  ^
+  symbol:   class AsyncSocketChannel
+  location: class AIOAsyncChannel
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:37: error: cannot find symbol
+    protected AIOAsyncChannel(final AsyncSocketChannel socketChannel) throws IOException {
+                                    ^
+  symbol:   class AsyncSocketChannel
+  location: class AIOAsyncChannel
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:120: error: cannot find symbol
+    public void futureCompleted(final IAbstractAsyncFuture abstractFuture, final Object attribute) {
+                                      ^
+  symbol:   class IAbstractAsyncFuture
+  location: class AIOAsyncChannel
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:7: error: cannot find symbol
+import sun.misc.Perf;
+               ^
+  symbol:   class Perf
+  location: package sun.misc
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:74: error: cannot find symbol
+        final Perf perf;
+              ^
+  symbol:   class Perf
+  location: class SunPerfProvider
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:107: error: cannot find symbol
+            final IAsyncFuture future = this.socketChannel.write(data);
+                  ^
+  symbol:   class IAsyncFuture
+  location: class AIOAsyncChannel
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:121: error: cannot find symbol
+        final IAsyncFuture future = (IAsyncFuture)abstractFuture;
+              ^
+  symbol:   class IAsyncFuture
+  location: class AIOAsyncChannel
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:121: error: cannot find symbol
+        final IAsyncFuture future = (IAsyncFuture)abstractFuture;
+                                     ^
+  symbol:   class IAsyncFuture
+  location: class AIOAsyncChannel
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:148: error: cannot find symbol
+            final IAsyncFuture future = this.socketChannel.read(this.inputByteBuffer);
+                  ^
+  symbol:   class IAsyncFuture
+  location: class AIOAsyncChannel
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/net/AIOAsyncChannel.java:149: error: cannot find symbol
+            future.addCompletionListener((ICompletionListener)this, (Object)null, false);
+                                          ^
+  symbol:   class ICompletionListener
+  location: class AIOAsyncChannel
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:53: error: incompatible types: Object cannot be converted to NanoTimer
+                timer = cls.newInstance();
+                                       ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:79: error: cannot find symbol
+            this.perf = AccessController.doPrivileged((PrivilegedAction<Perf>)new PrivilegedAction() {
+                                                                        ^
+  symbol:   class Perf
+  location: class SunPerfProvider
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:81: error: cannot find symbol
+                    return Perf.getPerf();
+                           ^
+  symbol: variable Perf
+Note: sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+18 errors

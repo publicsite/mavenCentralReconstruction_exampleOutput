@@ -1,0 +1,163 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:21: error: cannot find symbol
+import org.easymock.asm.ClassReader;
+                       ^
+  symbol:   class ClassReader
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:23: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:24: error: cannot find symbol
+import org.easymock.cglib.core.ClassGenerator;
+                              ^
+  symbol:   class ClassGenerator
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:25: error: cannot find symbol
+import org.easymock.cglib.core.DebuggingClassWriter;
+                              ^
+  symbol:   class DebuggingClassWriter
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:26: error: cannot find symbol
+import org.easymock.cglib.core.ClassNameReader;
+                              ^
+  symbol:   class ClassNameReader
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:28: error: cannot find symbol
+import org.easymock.asm.Attribute;
+                       ^
+  symbol:   class Attribute
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:30: error: cannot find symbol
+public abstract class AbstractTransformTask extends AbstractProcessTask
+                                                    ^
+  symbol: class AbstractProcessTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:40: error: cannot find symbol
+    protected abstract ClassTransformer getClassTransformer(final String[] p0);
+                       ^
+  symbol:   class ClassTransformer
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:42: error: cannot find symbol
+    protected Attribute[] attributes() {
+              ^
+  symbol:   class Attribute
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:83: error: cannot find symbol
+    private static ClassReader getClassReader(final File file) throws Exception {
+                   ^
+  symbol:   class ClassReader
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:46: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:55: error: cannot find symbol
+            this.log("ignoring " + file.toURI(), 1);
+                ^
+  symbol: method log(String,int)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:60: error: cannot find symbol
+        final ClassReader reader = getClassReader(file);
+              ^
+  symbol:   class ClassReader
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:61: error: cannot find symbol
+        final String[] name = ClassNameReader.getClassInfo(reader);
+                              ^
+  symbol:   variable ClassNameReader
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:62: error: cannot find symbol
+        final DebuggingClassWriter w = new DebuggingClassWriter(2);
+              ^
+  symbol:   class DebuggingClassWriter
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:62: error: cannot find symbol
+        final DebuggingClassWriter w = new DebuggingClassWriter(2);
+                                           ^
+  symbol:   class DebuggingClassWriter
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:63: error: cannot find symbol
+        final ClassTransformer t = this.getClassTransformer(name);
+              ^
+  symbol:   class ClassTransformer
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:66: error: cannot find symbol
+                this.log("processing " + file.toURI());
+                    ^
+  symbol: method log(String)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:68: error: cannot find symbol
+            new TransformingClassGenerator(new ClassReaderGenerator(getClassReader(file), this.attributes(), this.getFlags()), t).generateClass(w);
+                ^
+  symbol:   class TransformingClassGenerator
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:68: error: cannot find symbol
+            new TransformingClassGenerator(new ClassReaderGenerator(getClassReader(file), this.attributes(), this.getFlags()), t).generateClass(w);
+                                               ^
+  symbol:   class ClassReaderGenerator
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:86: error: cannot find symbol
+            final ClassReader r = new ClassReader(in);
+                  ^
+  symbol:   class ClassReader
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:86: error: cannot find symbol
+            final ClassReader r = new ClassReader(in);
+                                      ^
+  symbol:   class ClassReader
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:100: error: cannot find symbol
+            this.log("processing " + file.toURI());
+                ^
+  symbol: method log(String)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:118: error: cannot find symbol
+                                this.log("ignoring " + entry.toString());
+                                    ^
+  symbol: method log(String)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:159: error: cannot find symbol
+        final ClassReader reader = new ClassReader(new ByteArrayInputStream(bytes));
+              ^
+  symbol:   class ClassReader
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:159: error: cannot find symbol
+        final ClassReader reader = new ClassReader(new ByteArrayInputStream(bytes));
+                                       ^
+  symbol:   class ClassReader
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:160: error: cannot find symbol
+        final String[] name = ClassNameReader.getClassInfo(reader);
+                              ^
+  symbol:   variable ClassNameReader
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:161: error: cannot find symbol
+        final DebuggingClassWriter w = new DebuggingClassWriter(2);
+              ^
+  symbol:   class DebuggingClassWriter
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:161: error: cannot find symbol
+        final DebuggingClassWriter w = new DebuggingClassWriter(2);
+                                           ^
+  symbol:   class DebuggingClassWriter
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:162: error: cannot find symbol
+        final ClassTransformer t = this.getClassTransformer(name);
+              ^
+  symbol:   class ClassTransformer
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:165: error: cannot find symbol
+                this.log("processing " + name[0]);
+                    ^
+  symbol: method log(String)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:167: error: cannot find symbol
+            new TransformingClassGenerator(new ClassReaderGenerator(new ClassReader(new ByteArrayInputStream(bytes)), this.attributes(), this.getFlags()), t).generateClass(w);
+                ^
+  symbol:   class TransformingClassGenerator
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:167: error: cannot find symbol
+            new TransformingClassGenerator(new ClassReaderGenerator(new ClassReader(new ByteArrayInputStream(bytes)), this.attributes(), this.getFlags()), t).generateClass(w);
+                                               ^
+  symbol:   class ClassReaderGenerator
+  location: class AbstractTransformTask
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/AbstractTransformTask.java:167: error: cannot find symbol
+            new TransformingClassGenerator(new ClassReaderGenerator(new ClassReader(new ByteArrayInputStream(bytes)), this.attributes(), this.getFlags()), t).generateClass(w);
+                                                                        ^
+  symbol:   class ClassReader
+  location: class AbstractTransformTask
+34 errors

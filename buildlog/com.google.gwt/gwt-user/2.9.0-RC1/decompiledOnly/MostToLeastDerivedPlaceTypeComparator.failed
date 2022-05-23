@@ -1,0 +1,26 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/place/rebind/MostToLeastDerivedPlaceTypeComparator.java:7: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.ComparisonChain;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/place/rebind/MostToLeastDerivedPlaceTypeComparator.java:8: error: package com.google.gwt.core.ext.typeinfo does not exist
+import com.google.gwt.core.ext.typeinfo.JClassType;
+                                       ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/place/rebind/MostToLeastDerivedPlaceTypeComparator.java:11: error: cannot find symbol
+class MostToLeastDerivedPlaceTypeComparator implements Comparator<JClassType>
+                                                                  ^
+  symbol: class JClassType
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/place/rebind/MostToLeastDerivedPlaceTypeComparator.java:14: error: cannot find symbol
+    public int compare(final JClassType o1, final JClassType o2) {
+                             ^
+  symbol:   class JClassType
+  location: class MostToLeastDerivedPlaceTypeComparator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/place/rebind/MostToLeastDerivedPlaceTypeComparator.java:14: error: cannot find symbol
+    public int compare(final JClassType o1, final JClassType o2) {
+                                                  ^
+  symbol:   class JClassType
+  location: class MostToLeastDerivedPlaceTypeComparator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/place/rebind/MostToLeastDerivedPlaceTypeComparator.java:18: error: cannot find symbol
+        return ComparisonChain.start().compare(o2.getFlattenedSupertypeHierarchy().size(), o1.getFlattenedSupertypeHierarchy().size()).compare((Comparable)o1.getQualifiedSourceName(), (Comparable)o2.getQualifiedSourceName()).result();
+               ^
+  symbol:   variable ComparisonChain
+  location: class MostToLeastDerivedPlaceTypeComparator
+6 errors

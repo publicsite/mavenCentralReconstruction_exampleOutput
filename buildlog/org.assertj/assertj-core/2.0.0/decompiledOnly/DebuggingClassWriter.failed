@@ -1,0 +1,58 @@
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:9: error: cannot find symbol
+import org.assertj.core.internal.cglib.asm.ClassVisitor;
+                                          ^
+  symbol:   class ClassVisitor
+  location: package org.assertj.core.internal.cglib.asm
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:10: error: package org.assertj.core.internal.cglib.asm.util does not exist
+import org.assertj.core.internal.cglib.asm.util.TraceClassVisitor;
+                                               ^
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:14: error: cannot find symbol
+import org.assertj.core.internal.cglib.asm.ClassReader;
+                                          ^
+  symbol:   class ClassReader
+  location: package org.assertj.core.internal.cglib.asm
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:20: error: cannot find symbol
+import org.assertj.core.internal.cglib.asm.ClassWriter;
+                                          ^
+  symbol:   class ClassWriter
+  location: package org.assertj.core.internal.cglib.asm
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:22: error: cannot find symbol
+public class DebuggingClassWriter extends ClassWriter
+                                          ^
+  symbol: class ClassWriter
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:37: error: cannot find symbol
+        super.visit(version, access, name, signature, superName, interfaces);
+        ^
+  symbol:   variable super
+  location: class DebuggingClassWriter
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:51: error: cannot find symbol
+                final byte[] b = ClassWriter.this.toByteArray();
+                                 ^
+  symbol: class ClassWriter
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:68: error: cannot find symbol
+                                final ClassReader cr = new ClassReader(b);
+                                      ^
+  symbol: class ClassReader
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:68: error: cannot find symbol
+                                final ClassReader cr = new ClassReader(b);
+                                                           ^
+  symbol: class ClassReader
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:70: error: cannot find symbol
+                                final TraceClassVisitor tcv = new TraceClassVisitor((ClassVisitor)null, pw);
+                                      ^
+  symbol: class TraceClassVisitor
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:70: error: cannot find symbol
+                                final TraceClassVisitor tcv = new TraceClassVisitor((ClassVisitor)null, pw);
+                                                                  ^
+  symbol: class TraceClassVisitor
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:70: error: cannot find symbol
+                                final TraceClassVisitor tcv = new TraceClassVisitor((ClassVisitor)null, pw);
+                                                                                     ^
+  symbol: class ClassVisitor
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java:71: error: cannot find symbol
+                                cr.accept((ClassVisitor)tcv, 0);
+                                           ^
+  symbol: class ClassVisitor
+Note: sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/DebuggingClassWriter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+13 errors

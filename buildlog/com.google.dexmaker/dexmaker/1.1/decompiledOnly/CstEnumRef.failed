@@ -1,0 +1,53 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:7: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Type;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:9: error: cannot find symbol
+public final class CstEnumRef extends CstMemberRef
+                                      ^
+  symbol: class CstMemberRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:11: error: cannot find symbol
+    private CstFieldRef fieldRef;
+            ^
+  symbol:   class CstFieldRef
+  location: class CstEnumRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:13: error: cannot find symbol
+    public CstEnumRef(final CstNat nat) {
+                            ^
+  symbol:   class CstNat
+  location: class CstEnumRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:23: error: cannot find symbol
+    public Type getType() {
+           ^
+  symbol:   class Type
+  location: class CstEnumRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:27: error: cannot find symbol
+    public CstFieldRef getFieldRef() {
+           ^
+  symbol:   class CstFieldRef
+  location: class CstEnumRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:14: error: cannot find symbol
+        super(new CstType(nat.getFieldType()), nat);
+                  ^
+  symbol:   class CstType
+  location: class CstEnumRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:18: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:24: error: cannot find symbol
+        return this.getDefiningClass().getClassType();
+                   ^
+  symbol: method getDefiningClass()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:29: error: cannot find symbol
+            this.fieldRef = new CstFieldRef(this.getDefiningClass(), this.getNat());
+                                ^
+  symbol:   class CstFieldRef
+  location: class CstEnumRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:29: error: cannot find symbol
+            this.fieldRef = new CstFieldRef(this.getDefiningClass(), this.getNat());
+                                                ^
+  symbol: method getDefiningClass()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstEnumRef.java:29: error: cannot find symbol
+            this.fieldRef = new CstFieldRef(this.getDefiningClass(), this.getNat());
+                                                                         ^
+  symbol: method getNat()
+12 errors

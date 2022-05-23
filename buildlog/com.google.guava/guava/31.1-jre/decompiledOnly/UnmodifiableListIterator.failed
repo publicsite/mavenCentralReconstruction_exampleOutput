@@ -1,0 +1,58 @@
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/collect/UnmodifiableListIterator.java:7: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.DoNotCall;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/UnmodifiableIterator.java:20: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.DoNotCall;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/UnmodifiableIterator.java:22: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/UnmodifiableIterator.java:36: error: cannot find symbol
+public abstract class UnmodifiableIterator<E extends @Nullable Object> implements Iterator<E> {
+                                                      ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ParametricNullness.java:50: error: package javax.annotation.meta does not exist
+@javax.annotation.meta.TypeQualifierNickname
+                      ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ParametricNullness.java:51: error: package javax.annotation does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                 ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/collect/UnmodifiableListIterator.java:19: error: cannot find symbol
+    @DoNotCall("Always throws UnsupportedOperationException")
+     ^
+  symbol:   class DoNotCall
+  location: class UnmodifiableListIterator<E>
+  where E is a type-variable:
+    E extends Object declared in class UnmodifiableListIterator
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/collect/UnmodifiableListIterator.java:26: error: cannot find symbol
+    @DoNotCall("Always throws UnsupportedOperationException")
+     ^
+  symbol:   class DoNotCall
+  location: class UnmodifiableListIterator<E>
+  where E is a type-variable:
+    E extends Object declared in class UnmodifiableListIterator
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/UnmodifiableIterator.java:48: error: cannot find symbol
+  @DoNotCall("Always throws UnsupportedOperationException")
+   ^
+  symbol:   class DoNotCall
+  location: class UnmodifiableIterator<E>
+  where E is a type-variable:
+    E extends Object declared in class UnmodifiableIterator
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ParametricNullness.java:51: error: package javax.annotation.meta does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                                                      ^
+14 errors

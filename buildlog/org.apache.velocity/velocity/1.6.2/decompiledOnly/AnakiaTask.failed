@@ -1,0 +1,170 @@
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:22: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.DirectoryScanner;
+                           ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:26: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.BuildException;
+                           ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:33: error: package org.apache.tools.ant.taskdefs does not exist
+import org.apache.tools.ant.taskdefs.MatchingTask;
+                                    ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:35: error: cannot find symbol
+public class AnakiaTask extends MatchingTask
+                                ^
+  symbol: class MatchingTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:108: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:163: error: cannot find symbol
+    private void process(final String xmlFile, final Document projectDocument) throws BuildException {
+                                                                                      ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:261: error: cannot find symbol
+    private void ensureDirectoryFor(final File targetFile) throws BuildException {
+                                                                  ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:94: error: cannot find symbol
+            throw new BuildException((Throwable)ioe);
+                      ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:110: error: cannot find symbol
+            this.baseDir = this.project.resolveFile(".");
+                               ^
+  symbol: variable project
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:114: error: cannot find symbol
+            throw new BuildException(msg);
+                      ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:117: error: cannot find symbol
+            throw new BuildException("style attribute must be set!");
+                      ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:123: error: cannot find symbol
+            throw new BuildException("No template path and could not locate velocity.properties file: " + this.velocityPropertiesFile.getAbsolutePath());
+                      ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:125: error: cannot find symbol
+        this.log("Transforming into: " + this.destDir.getAbsolutePath(), 2);
+            ^
+  symbol: method log(String,int)
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:132: error: cannot find symbol
+                this.log("Project file is defined, but could not be located: " + this.projectFile.getAbsolutePath(), 2);
+                    ^
+  symbol: method log(String,int)
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:153: error: cannot find symbol
+            this.log("Error: " + e.toString(), 2);
+                ^
+  symbol: method log(String,int)
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:154: error: cannot find symbol
+            throw new BuildException((Throwable)e);
+                      ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:156: error: cannot find symbol
+        final DirectoryScanner scanner = this.getDirectoryScanner(this.baseDir);
+              ^
+  symbol:   class DirectoryScanner
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:156: error: cannot find symbol
+        final DirectoryScanner scanner = this.getDirectoryScanner(this.baseDir);
+                                             ^
+  symbol: method getDirectoryScanner(File)
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:172: error: cannot find symbol
+                this.log("Input:  " + xmlFile, 2);
+                    ^
+  symbol: method log(String,int)
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:192: error: incompatible types: Object cannot be converted to AnakiaTask.Context
+                for (final Context subContext : this.contexts) {
+                                                    ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:194: error: cannot find symbol
+                        throw new BuildException("Found an undefined SubContext!");
+                                  ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:197: error: cannot find symbol
+                        throw new BuildException("Could not build a subContext for " + subContext.getName());
+                                  ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:204: error: cannot find symbol
+                this.log("Output: " + outFile, 2);
+                    ^
+  symbol: method log(String,int)
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:264: error: cannot find symbol
+            throw new BuildException("Unable to create directory: " + directory.getAbsolutePath());
+                      ^
+  symbol:   class BuildException
+  location: class AnakiaTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:269: error: incompatible types: Object cannot be converted to AnakiaTask.Context
+        for (final Context ctx : this.contexts) {
+                                     ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/AnakiaTask.java:319: error: cannot find symbol
+                    throw new BuildException((Throwable)e);
+                              ^
+  symbol:   class BuildException
+  location: class AnakiaTask.Context
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/StringUtils.java:80: error: incompatible types: Object[] cannot be converted to String[]
+        return list.toArray(new String[list.size()]);
+                           ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/StringUtils.java:127: error: incompatible types: Object cannot be converted to String
+                        final String value = vars.get(nameBuf.toString());
+                                                     ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/StringUtils.java:293: error: incompatible types: Object cannot be converted to String
+            list.set(i, nullTrim(list.get(i)));
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/Template.java:100: error: incompatible types: Object cannot be converted to String
+                        this.rsvc.getTemplate(macroLibraries.get(i));
+                                                                ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/context/InternalContextBase.java:47: error: incompatible types: Object cannot be converted to String
+        return this.templateNameStack.peek();
+                                          ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/context/InternalContextBase.java:66: error: incompatible types: Object cannot be converted to String
+        return this.macroNameStack.peek();
+                                       ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/context/InternalContextBase.java:78: error: incompatible types: Object cannot be converted to IntrospectionCacheData
+        return this.introspectionCache.get(key);
+                                          ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/app/event/EventCartridge.java:136: error: incompatible types: Object cannot be converted to EventHandler
+        for (final EventHandler eh : this.referenceHandlers) {
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/app/event/EventCartridge.java:142: error: incompatible types: Object cannot be converted to EventHandler
+        for (final EventHandler eh : this.nullSetHandlers) {
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/app/event/EventCartridge.java:148: error: incompatible types: Object cannot be converted to EventHandler
+        for (final EventHandler eh : this.methodExceptionHandlers) {
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/app/event/EventCartridge.java:154: error: incompatible types: Object cannot be converted to EventHandler
+        for (final EventHandler eh : this.includeHandlers) {
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/app/event/EventCartridge.java:160: error: incompatible types: Object cannot be converted to EventHandler
+        for (final EventHandler eh : this.invalidReferenceHandlers) {
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/TreeWalker.java:22: error: incompatible types: Object cannot be converted to Element
+        for (final Element child : e.getChildren()) {
+                                                ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/NodeList.java:119: error: incompatible types: Object cannot be converted to List
+            final List clonedNodes = listClass.newInstance();
+                                                          ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/XPathCache.java:19: error: cannot find symbol
+        XPath xpath = null;
+        ^
+  symbol:   class XPath
+  location: class XPathCache
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/XPathCache.java:23: error: cannot find symbol
+                xpath = new XPath(xpathString);
+                            ^
+  symbol:   class XPath
+  location: class XPathCache
+Note: sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/anakia/NodeList.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+42 errors

@@ -1,0 +1,32 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/streamhtmlparser/util/EntityResolver.java:7: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.ImmutableMap;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/streamhtmlparser/util/EntityResolver.java:8: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Preconditions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/streamhtmlparser/util/EntityResolver.java:47: error: cannot find symbol
+        Preconditions.checkState(this.status != Status.NOT_STARTED || this.sb.length() == 0);
+        ^
+  symbol:   variable Preconditions
+  location: class EntityResolver
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/streamhtmlparser/util/EntityResolver.java:55: error: cannot find symbol
+            if (input == ';' || HtmlUtils.isHtmlSpace(input)) {
+                                ^
+  symbol:   variable HtmlUtils
+  location: class EntityResolver
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/streamhtmlparser/util/EntityResolver.java:71: error: cannot find symbol
+        Preconditions.checkArgument(this.sb.length() > 0);
+        ^
+  symbol:   variable Preconditions
+  location: class EntityResolver
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/streamhtmlparser/util/EntityResolver.java:72: error: cannot find symbol
+        Preconditions.checkArgument(this.sb.charAt(0) == '&');
+        ^
+  symbol:   variable Preconditions
+  location: class EntityResolver
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/streamhtmlparser/util/EntityResolver.java:101: error: package ImmutableMap does not exist
+        HTML_ENTITIES_MAP = (Map)new ImmutableMap.Builder().put((Object)"&lt", (Object)"<").put((Object)"&gt", (Object)">").put((Object)"&amp", (Object)"&").put((Object)"&apos", (Object)"'").build();
+                                                 ^
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/streamhtmlparser/util/EntityResolver.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+7 errors

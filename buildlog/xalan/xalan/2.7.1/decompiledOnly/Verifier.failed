@@ -1,0 +1,116 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:7: error: cannot find symbol
+import org.apache.bcel.classfile.JavaClass;
+                                ^
+  symbol:   class JavaClass
+  location: package org.apache.bcel.classfile
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:9: error: cannot find symbol
+import org.apache.bcel.Repository;
+                      ^
+  symbol:   class Repository
+  location: package org.apache.bcel
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:11: error: cannot find symbol
+import org.apache.bcel.verifier.structurals.Pass3bVerifier;
+                                           ^
+  symbol:   class Pass3bVerifier
+  location: package org.apache.bcel.verifier.structurals
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:12: error: cannot find symbol
+import org.apache.bcel.verifier.statics.Pass3aVerifier;
+                                       ^
+  symbol:   class Pass3aVerifier
+  location: package org.apache.bcel.verifier.statics
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:14: error: cannot find symbol
+import org.apache.bcel.verifier.statics.Pass2Verifier;
+                                       ^
+  symbol:   class Pass2Verifier
+  location: package org.apache.bcel.verifier.statics
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:15: error: cannot find symbol
+import org.apache.bcel.verifier.statics.Pass1Verifier;
+                                       ^
+  symbol:   class Pass1Verifier
+  location: package org.apache.bcel.verifier.statics
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:20: error: cannot find symbol
+    private Pass1Verifier p1v;
+            ^
+  symbol:   class Pass1Verifier
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:21: error: cannot find symbol
+    private Pass2Verifier p2v;
+            ^
+  symbol:   class Pass2Verifier
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:27: error: cannot find symbol
+            this.p1v = new Pass1Verifier(this);
+                           ^
+  symbol:   class Pass1Verifier
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:34: error: cannot find symbol
+            this.p2v = new Pass2Verifier(this);
+                           ^
+  symbol:   class Pass2Verifier
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:41: error: cannot find symbol
+        Pass3aVerifier p3av = this.p3avs.get(key);
+        ^
+  symbol:   class Pass3aVerifier
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:43: error: cannot find symbol
+            p3av = new Pass3aVerifier(this, method_no);
+                       ^
+  symbol:   class Pass3aVerifier
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:51: error: cannot find symbol
+        Pass3bVerifier p3bv = this.p3bvs.get(key);
+        ^
+  symbol:   class Pass3bVerifier
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:53: error: cannot find symbol
+            p3bv = new Pass3bVerifier(this, method_no);
+                       ^
+  symbol:   class Pass3bVerifier
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:97: error: cannot find symbol
+        for (final Pass3aVerifier pv : this.p3avs.values()) {
+                   ^
+  symbol:   class Pass3aVerifier
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:101: error: cannot find symbol
+                messages.add("Pass 3a, method " + meth + " ('" + Repository.lookupClass(this.classname).getMethods()[meth] + "'): " + p3am[j]);
+                                                                 ^
+  symbol:   variable Repository
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:104: error: cannot find symbol
+        for (final Pass3bVerifier pv2 : this.p3bvs.values()) {
+                   ^
+  symbol:   class Pass3bVerifier
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:108: error: cannot find symbol
+                messages.add("Pass 3b, method " + meth2 + " ('" + Repository.lookupClass(this.classname).getMethods()[meth2] + "'): " + p3bm[k]);
+                                                                  ^
+  symbol:   variable Repository
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:113: error: incompatible types: Object cannot be converted to String
+            ret[l] = messages.get(l);
+                                 ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:129: error: cannot find symbol
+            final Verifier v = VerifierFactory.getVerifier(args[k]);
+                               ^
+  symbol:   variable VerifierFactory
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:135: error: cannot find symbol
+                final JavaClass jc = Repository.lookupClass(args[k]);
+                      ^
+  symbol:   class JavaClass
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:135: error: cannot find symbol
+                final JavaClass jc = Repository.lookupClass(args[k]);
+                                     ^
+  symbol:   variable Repository
+  location: class Verifier
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java:153: error: cannot find symbol
+            Repository.clearCache();
+            ^
+  symbol:   variable Repository
+  location: class Verifier
+Note: sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/Verifier.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+23 errors

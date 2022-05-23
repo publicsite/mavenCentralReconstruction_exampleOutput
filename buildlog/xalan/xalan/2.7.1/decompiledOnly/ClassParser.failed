@@ -1,0 +1,66 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:26: error: cannot find symbol
+    private ConstantPool constant_pool;
+            ^
+  symbol:   class ConstantPool
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:27: error: cannot find symbol
+    private Field[] fields;
+            ^
+  symbol:   class Field
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:28: error: cannot find symbol
+    private Method[] methods;
+            ^
+  symbol:   class Method
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:29: error: cannot find symbol
+    private Attribute[] attributes;
+            ^
+  symbol:   class Attribute
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:59: error: cannot find symbol
+    public JavaClass parse() throws IOException, ClassFormatError {
+           ^
+  symbol:   class JavaClass
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:72: error: cannot find symbol
+        return new JavaClass(this.class_name_index, this.superclass_name_index, this.file_name, this.major, this.minor, this.access_flags, this.constant_pool, this.interfaces, this.fields, this.methods, this.attributes, (byte)(this.is_zip ? 3 : 2));
+                   ^
+  symbol:   class JavaClass
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:77: error: cannot find symbol
+        this.attributes = new Attribute[attributes_count];
+                              ^
+  symbol:   class Attribute
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:79: error: cannot find symbol
+            this.attributes[i] = Attribute.readAttribute(this.file, this.constant_pool);
+                                 ^
+  symbol:   variable Attribute
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:96: error: cannot find symbol
+        this.constant_pool = new ConstantPool(this.file);
+                                 ^
+  symbol:   class ConstantPool
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:101: error: cannot find symbol
+        this.fields = new Field[fields_count];
+                          ^
+  symbol:   class Field
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:103: error: cannot find symbol
+            this.fields[i] = new Field(this.file, this.constant_pool);
+                                 ^
+  symbol:   class Field
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:124: error: cannot find symbol
+        this.methods = new Method[methods_count];
+                           ^
+  symbol:   class Method
+  location: class ClassParser
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ClassParser.java:126: error: cannot find symbol
+            this.methods[i] = new Method(this.file, this.constant_pool);
+                                  ^
+  symbol:   class Method
+  location: class ClassParser
+13 errors

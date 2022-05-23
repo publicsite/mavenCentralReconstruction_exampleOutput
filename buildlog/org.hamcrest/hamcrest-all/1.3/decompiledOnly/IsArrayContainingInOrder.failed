@@ -1,0 +1,17 @@
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/collection/IsArrayContainingInOrder.java:56: error: incompatible types: List<Matcher<? super E>> cannot be converted to List<Matcher<? super Object>>
+        return (Matcher<E[]>)new IsArrayContainingInOrder((List<Matcher<? super Object>>)itemMatchers);
+                                                                                         ^
+  where E is a type-variable:
+    E extends Object declared in method <E>arrayContaining(List<Matcher<? super E>>)
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/collection/IsIterableContainingInOrder.java:141: error: incompatible types: inference variable E#1 has incompatible bounds
+        return contains(asList(itemMatchers));
+                       ^
+    equality constraints: E#2
+    lower bounds: List<T>
+  where E#1,E#2,T are type-variables:
+    E#1 extends Object declared in method <E#1>contains(E#1...)
+    E#2 extends Object declared in method <E#2>contains(Matcher<? super E#2>...)
+    T extends Object declared in method <T>asList(T...)
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors

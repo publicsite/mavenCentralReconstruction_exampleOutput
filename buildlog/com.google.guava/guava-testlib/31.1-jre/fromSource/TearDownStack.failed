@@ -1,0 +1,22 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/TearDownStack.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/TearDownStack.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/TearDownStack.java:23: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/TearDownStack.java:60: error: cannot find symbol
+      stack.addFirst(checkNotNull(tearDown));
+                     ^
+  symbol:   method checkNotNull(TearDown)
+  location: class TearDownStack
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/TearDownStack.java:69: error: cannot find symbol
+      stackCopy = Lists.newArrayList(stack);
+                  ^
+  symbol:   variable Lists
+  location: class TearDownStack
+5 errors

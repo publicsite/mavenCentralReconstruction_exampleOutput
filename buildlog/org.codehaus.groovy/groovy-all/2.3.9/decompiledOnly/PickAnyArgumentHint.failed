@@ -1,0 +1,67 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:7: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:8: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ASTNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:9: error: cannot find symbol
+import org.codehaus.groovy.control.CompilationUnit;
+                                  ^
+  symbol:   class CompilationUnit
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:10: error: cannot find symbol
+import org.codehaus.groovy.control.SourceUnit;
+                                  ^
+  symbol:   class SourceUnit
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:11: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.MethodNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:13: error: cannot find symbol
+public class PickAnyArgumentHint extends SingleSignatureClosureHint
+                                         ^
+  symbol: class SingleSignatureClosureHint
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:28: error: cannot find symbol
+    public ClassNode[] getParameterTypes(final MethodNode node, final String[] options, final SourceUnit sourceUnit, final CompilationUnit unit, final ASTNode usage) {
+                                               ^
+  symbol:   class MethodNode
+  location: class PickAnyArgumentHint
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:28: error: cannot find symbol
+    public ClassNode[] getParameterTypes(final MethodNode node, final String[] options, final SourceUnit sourceUnit, final CompilationUnit unit, final ASTNode usage) {
+                                                                                              ^
+  symbol:   class SourceUnit
+  location: class PickAnyArgumentHint
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:28: error: cannot find symbol
+    public ClassNode[] getParameterTypes(final MethodNode node, final String[] options, final SourceUnit sourceUnit, final CompilationUnit unit, final ASTNode usage) {
+                                                                                                                           ^
+  symbol:   class CompilationUnit
+  location: class PickAnyArgumentHint
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:28: error: cannot find symbol
+    public ClassNode[] getParameterTypes(final MethodNode node, final String[] options, final SourceUnit sourceUnit, final CompilationUnit unit, final ASTNode usage) {
+                                                                                                                                                       ^
+  symbol:   class ASTNode
+  location: class PickAnyArgumentHint
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:28: error: cannot find symbol
+    public ClassNode[] getParameterTypes(final MethodNode node, final String[] options, final SourceUnit sourceUnit, final CompilationUnit unit, final ASTNode usage) {
+           ^
+  symbol:   class ClassNode
+  location: class PickAnyArgumentHint
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:29: error: cannot find symbol
+        ClassNode type = node.getParameters()[this.parameterIndex].getOriginType();
+        ^
+  symbol:   class ClassNode
+  location: class PickAnyArgumentHint
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:31: error: cannot find symbol
+            type = ClosureSignatureHint.pickGenericType(type, this.genericTypeIndex);
+                   ^
+  symbol:   variable ClosureSignatureHint
+  location: class PickAnyArgumentHint
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/transform/stc/PickAnyArgumentHint.java:33: error: cannot find symbol
+        return new ClassNode[] { type };
+                   ^
+  symbol:   class ClassNode
+  location: class PickAnyArgumentHint
+15 errors

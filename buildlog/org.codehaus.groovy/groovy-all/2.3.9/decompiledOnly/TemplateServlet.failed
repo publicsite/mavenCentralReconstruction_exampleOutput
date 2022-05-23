@@ -1,0 +1,196 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:12: error: cannot find symbol
+import groovy.text.SimpleTemplateEngine;
+                  ^
+  symbol:   class SimpleTemplateEngine
+  location: package groovy.text
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:23: error: cannot find symbol
+import groovy.text.TemplateEngine;
+                  ^
+  symbol:   class TemplateEngine
+  location: package groovy.text
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:26: error: cannot find symbol
+public class TemplateServlet extends AbstractHttpServlet
+                                     ^
+  symbol: class AbstractHttpServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:29: error: cannot find symbol
+    private TemplateEngine engine;
+            ^
+  symbol:   class TemplateEngine
+  location: class TemplateServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:138: error: cannot find symbol
+    protected TemplateEngine initTemplateEngine(final ServletConfig config) {
+              ^
+  symbol:   class TemplateEngine
+  location: class TemplateServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:43: error: cannot find symbol
+        if (this.verbose) {
+                ^
+  symbol: variable verbose
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:43: error: illegal parenthesized expression
+        if (this.verbose) {
+           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:44: error: cannot find symbol
+            this.log("Looking for cached template by key \"" + key + "\"");
+                ^
+  symbol: method log(String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:49: error: cannot find symbol
+                if (this.verbose) {
+                        ^
+  symbol: variable verbose
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:49: error: illegal parenthesized expression
+                if (this.verbose) {
+                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:50: error: cannot find symbol
+                    this.log("Cache hit! " + entry);
+                        ^
+  symbol: method log(String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:54: error: cannot find symbol
+            else if (this.verbose) {
+                         ^
+  symbol: variable verbose
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:54: error: illegal parenthesized expression
+            else if (this.verbose) {
+                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:55: error: cannot find symbol
+                this.log("Cached template " + key + " needs recompiliation! " + entry);
+                    ^
+  symbol: method log(String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:58: error: cannot find symbol
+        else if (this.verbose) {
+                     ^
+  symbol: variable verbose
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:58: error: illegal parenthesized expression
+        else if (this.verbose) {
+                ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:59: error: cannot find symbol
+            this.log("Cache miss for " + key);
+                ^
+  symbol: method log(String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:65: error: cannot find symbol
+        if (this.verbose) {
+                ^
+  symbol: variable verbose
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:65: error: illegal parenthesized expression
+        if (this.verbose) {
+           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:66: error: cannot find symbol
+            this.log("Creating new template from " + key + "...");
+                ^
+  symbol: method log(String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:73: error: cannot find symbol
+            this.cache.put(key, new TemplateCacheEntry(file, template, this.verbose));
+                                                                           ^
+  symbol: variable verbose
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:74: error: cannot find symbol
+            if (this.verbose) {
+                    ^
+  symbol: variable verbose
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:74: error: illegal parenthesized expression
+            if (this.verbose) {
+               ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:75: error: cannot find symbol
+                this.log("Created and added template to cache. [key=" + key + "] " + this.cache.get(key));
+                    ^
+  symbol: method log(String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:120: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:122: error: cannot find symbol
+        super.init(config);
+        ^
+  symbol:   variable super
+  location: class TemplateServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:135: error: cannot find symbol
+        this.log("Servlet " + this.getClass().getName() + " initialized on " + this.engine.getClass());
+                                  ^
+  symbol: method getClass()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:141: error: cannot find symbol
+            return new SimpleTemplateEngine();
+                       ^
+  symbol:   class SimpleTemplateEngine
+  location: class TemplateServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:144: error: cannot find symbol
+            return (TemplateEngine)Class.forName(name).newInstance();
+                    ^
+  symbol:   class TemplateEngine
+  location: class TemplateServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:147: error: cannot find symbol
+            this.log("Could not instantiate template engine: " + name, (Throwable)e);
+                ^
+  symbol: method log(String,Throwable)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:150: error: cannot find symbol
+            this.log("Could not access template engine class: " + name, (Throwable)e2);
+                ^
+  symbol: method log(String,Throwable)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:153: error: cannot find symbol
+            this.log("Could not find template engine class: " + name, (Throwable)e3);
+                ^
+  symbol: method log(String,Throwable)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:159: error: cannot find symbol
+        if (this.verbose) {
+                ^
+  symbol: variable verbose
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:159: error: illegal parenthesized expression
+        if (this.verbose) {
+           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:160: error: cannot find symbol
+            this.log("Creating/getting cached template...");
+                ^
+  symbol: method log(String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:162: error: cannot find symbol
+        final File file = super.getScriptUriAsFile(request);
+                          ^
+  symbol:   variable super
+  location: class TemplateServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:181: error: cannot find symbol
+            name = super.getScriptUri(request);
+                   ^
+  symbol:   variable super
+  location: class TemplateServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:182: error: cannot find symbol
+            final URL url = this.servletContext.getResource(name);
+                                ^
+  symbol: variable servletContext
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:187: error: cannot find symbol
+        final ServletBinding binding = new ServletBinding(request, response, this.servletContext);
+              ^
+  symbol:   class ServletBinding
+  location: class TemplateServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:187: error: cannot find symbol
+        final ServletBinding binding = new ServletBinding(request, response, this.servletContext);
+                                           ^
+  symbol:   class ServletBinding
+  location: class TemplateServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:187: error: cannot find symbol
+        final ServletBinding binding = new ServletBinding(request, response, this.servletContext);
+                                                                                 ^
+  symbol: variable servletContext
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:189: error: cannot find symbol
+        response.setContentType("text/html; charset=" + this.encoding);
+                                                            ^
+  symbol: variable encoding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:195: error: cannot find symbol
+        if (this.verbose) {
+                ^
+  symbol: variable verbose
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:195: error: illegal parenthesized expression
+        if (this.verbose) {
+           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:196: error: cannot find symbol
+            this.log("Making template \"" + name + "\"...");
+                ^
+  symbol: method log(String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:211: error: cannot find symbol
+        if (this.verbose) {
+                ^
+  symbol: variable verbose
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:211: error: illegal parenthesized expression
+        if (this.verbose) {
+           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java:212: error: cannot find symbol
+            this.log("Template \"" + name + "\" request responded. [create/get=" + getMillis + " ms, make=" + makeMillis + " ms]");
+                ^
+  symbol: method log(String)
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/TemplateServlet.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+48 errors

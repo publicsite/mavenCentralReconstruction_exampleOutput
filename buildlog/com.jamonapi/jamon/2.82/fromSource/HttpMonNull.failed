@@ -1,0 +1,32 @@
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonNull.java:3: error: package javax.servlet does not exist
+import javax.servlet.ServletException;
+                    ^
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMon.java:3: error: package javax.servlet does not exist
+import javax.servlet.ServletException;
+                    ^
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonNull.java:36: error: cannot find symbol
+    public void throwException(Throwable t) throws IOException, ServletException {
+                                                                ^
+  symbol:   class ServletException
+  location: class HttpMonNull
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMon.java:23: error: cannot find symbol
+    public void throwException(Throwable t) throws IOException, ServletException;
+                                                                ^
+  symbol:   class ServletException
+  location: interface HttpMon
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonNull.java:37: error: cannot find symbol
+        if (t instanceof ServletException)
+                         ^
+  symbol:   class ServletException
+  location: class HttpMonNull
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonNull.java:38: error: cannot find symbol
+            throw (ServletException)t;
+                   ^
+  symbol:   class ServletException
+  location: class HttpMonNull
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/http/HttpMonNull.java:42: error: cannot find symbol
+            throw new ServletException(t);
+                      ^
+  symbol:   class ServletException
+  location: class HttpMonNull
+7 errors

@@ -1,0 +1,148 @@
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:28: error: cannot find symbol
+import javax.servlet.jsp.PageContext;
+                        ^
+  symbol:   class PageContext
+  location: package javax.servlet.jsp
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:30: error: cannot find symbol
+import javax.servlet.jsp.tagext.BodyTagSupport;
+                               ^
+  symbol:   class BodyTagSupport
+  location: package javax.servlet.jsp.tagext
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:44: error: cannot find symbol
+public abstract class UpdateTagSupport extends BodyTagSupport
+                                               ^
+  symbol: class BodyTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/Util.java:26: error: cannot find symbol
+import javax.servlet.jsp.PageContext;
+                        ^
+  symbol:   class PageContext
+  location: package javax.servlet.jsp
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:81: error: cannot find symbol
+        scope = PageContext.PAGE_SCOPE;
+                ^
+  symbol:   variable PageContext
+  location: class UpdateTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:113: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:122: error: cannot find symbol
+        return EVAL_BODY_BUFFERED;
+               ^
+  symbol:   variable EVAL_BODY_BUFFERED
+  location: class UpdateTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:137: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:146: error: cannot find symbol
+        } else if (bodyContent != null) {
+                   ^
+  symbol:   variable bodyContent
+  location: class UpdateTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:147: error: cannot find symbol
+            sqlStatement = bodyContent.getString();
+                           ^
+  symbol:   variable bodyContent
+  location: class UpdateTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:173: error: cannot find symbol
+            pageContext.setAttribute(var, new Integer(result), scope);
+            ^
+  symbol:   variable pageContext
+  location: class UpdateTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:175: error: cannot find symbol
+        return EVAL_PAGE;
+               ^
+  symbol:   variable EVAL_PAGE
+  location: class UpdateTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:25: error: cannot find symbol
+import javax.servlet.jsp.tagext.TagSupport;
+                               ^
+  symbol:   class TagSupport
+  location: package javax.servlet.jsp.tagext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:38: error: cannot find symbol
+public abstract class TransactionTagSupport extends TagSupport
+                                                    ^
+  symbol: class TagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:227: error: cannot find symbol
+                findAncestorWithClass(this, TransactionTagSupport.class);
+                ^
+  symbol:   method findAncestorWithClass(UpdateTagSupport,Class<TransactionTagSupport>)
+  location: class UpdateTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java:241: error: cannot find symbol
+                    pageContext);
+                    ^
+  symbol:   variable pageContext
+  location: class UpdateTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.java:25: error: cannot find symbol
+import javax.servlet.jsp.PageContext;
+                        ^
+  symbol:   class PageContext
+  location: package javax.servlet.jsp
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.java:26: error: cannot find symbol
+import javax.servlet.jsp.jstl.core.Config;
+                                  ^
+  symbol:   class Config
+  location: package javax.servlet.jsp.jstl.core
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.java:50: error: cannot find symbol
+    static DataSource getDataSource(Object rawDataSource, PageContext pc)
+                                                          ^
+  symbol:   class PageContext
+  location: class DataSourceUtil
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/Util.java:59: error: cannot find symbol
+        int ret = PageContext.PAGE_SCOPE; // default
+                  ^
+  symbol:   variable PageContext
+  location: class Util
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/Util.java:62: error: cannot find symbol
+            ret = PageContext.REQUEST_SCOPE;
+                  ^
+  symbol:   variable PageContext
+  location: class Util
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/Util.java:64: error: cannot find symbol
+            ret = PageContext.SESSION_SCOPE;
+                  ^
+  symbol:   variable PageContext
+  location: class Util
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/core/Util.java:66: error: cannot find symbol
+            ret = PageContext.APPLICATION_SCOPE;
+                  ^
+  symbol:   variable PageContext
+  location: class Util
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:89: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:98: error: cannot find symbol
+                pageContext);
+                ^
+  symbol:   variable pageContext
+  location: class TransactionTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:118: error: cannot find symbol
+        return EVAL_BODY_INCLUDE;
+               ^
+  symbol:   variable EVAL_BODY_INCLUDE
+  location: class TransactionTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:124: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:133: error: cannot find symbol
+        return EVAL_PAGE;
+               ^
+  symbol:   variable EVAL_PAGE
+  location: class TransactionTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:173: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.java:55: error: cannot find symbol
+            rawDataSource = Config.find(pc, Config.SQL_DATA_SOURCE);
+                                            ^
+  symbol:   variable Config
+  location: class DataSourceUtil
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.java:55: error: cannot find symbol
+            rawDataSource = Config.find(pc, Config.SQL_DATA_SOURCE);
+                            ^
+  symbol:   variable Config
+  location: class DataSourceUtil
+Note: hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/UpdateTagSupport.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+31 errors

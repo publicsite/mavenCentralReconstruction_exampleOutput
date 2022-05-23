@@ -1,0 +1,27 @@
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/LogFileManager.java:21: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.SynchronizedInt;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/LogFileManager.java:36: error: cannot find symbol
+    private final SynchronizedInt activeLogFileCount;
+                  ^
+  symbol:   class SynchronizedInt
+  location: class LogFileManager
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/BatchedWrite.java:7: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.Latch;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/BatchedWrite.java:17: error: cannot find symbol
+    private Latch writeDoneLatch;
+            ^
+  symbol:   class Latch
+  location: class BatchedWrite
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/LogFileManager.java:52: error: cannot find symbol
+        this.activeLogFileCount = new SynchronizedInt(0);
+                                      ^
+  symbol:   class SynchronizedInt
+  location: class LogFileManager
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/journal/active/BatchedWrite.java:40: error: cannot find symbol
+            this.writeDoneLatch = new Latch();
+                                      ^
+  symbol:   class Latch
+  location: class BatchedWrite
+6 errors

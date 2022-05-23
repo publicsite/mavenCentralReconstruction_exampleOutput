@@ -1,0 +1,109 @@
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:20: error: package javax.servlet does not exist
+import javax.servlet.ServletException;
+                    ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:21: error: package javax.servlet.http does not exist
+import javax.servlet.http.Cookie;
+                         ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:22: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServlet;
+                         ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:23: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletRequest;
+                         ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:24: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletResponse;
+                         ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:33: error: cannot find symbol
+public class GwtServletBase extends HttpServlet {
+                                    ^
+  symbol: class HttpServlet
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:44: error: cannot find symbol
+  public void init() throws ServletException {
+                            ^
+  symbol:   class ServletException
+  location: class GwtServletBase
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:55: error: cannot find symbol
+  protected final String getCookie(HttpServletRequest req, String cookieName) {
+                                   ^
+  symbol:   class HttpServletRequest
+  location: class GwtServletBase
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:74: error: cannot find symbol
+  protected String getGwtLocale(HttpServletRequest req) {
+                                ^
+  symbol:   class HttpServletRequest
+  location: class GwtServletBase
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:101: error: cannot find symbol
+  protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException,
+                         ^
+  symbol:   class HttpServletRequest
+  location: class GwtServletBase
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:101: error: cannot find symbol
+  protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException,
+                                                 ^
+  symbol:   class HttpServletResponse
+  location: class GwtServletBase
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:101: error: cannot find symbol
+  protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException,
+                                                                                  ^
+  symbol:   class ServletException
+  location: class GwtServletBase
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:115: error: cannot find symbol
+  protected void setGwtProperties(HttpServletRequest req) {
+                                  ^
+  symbol:   class HttpServletRequest
+  location: class GwtServletBase
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:43: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:56: error: cannot find symbol
+    Cookie[] cookies = req.getCookies();
+    ^
+  symbol:   class Cookie
+  location: class GwtServletBase
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:60: error: cannot find symbol
+    for (Cookie cookie : cookies) {
+         ^
+  symbol:   class Cookie
+  location: class GwtServletBase
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:100: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtServletBase.java:104: error: cannot find symbol
+    super.service(req, resp);
+    ^
+  symbol:   variable super
+  location: class GwtServletBase
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/ServerGwtBridge.java:19: error: cannot find symbol
+import com.google.gwt.core.shared.GWTBridge;
+                                 ^
+  symbol:   class GWTBridge
+  location: package com.google.gwt.core.shared
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/ServerGwtBridge.java:35: error: cannot find symbol
+public class ServerGwtBridge extends GWTBridge {
+                                     ^
+  symbol: class GWTBridge
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/shared/GWT.java:31: error: cannot find symbol
+  private static GWTBridge sGWTBridge = null;
+                 ^
+  symbol:   class GWTBridge
+  location: class GWT
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/shared/GWT.java:177: error: cannot find symbol
+  public static void setBridge(GWTBridge bridge) {
+                               ^
+  symbol:   class GWTBridge
+  location: class GWT
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/ServerGwtBridge.java:219: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/ServerGwtBridge.java:266: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/ServerGwtBridge.java:271: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/ServerGwtBridge.java:276: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/ServerGwtBridge.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+26 errors

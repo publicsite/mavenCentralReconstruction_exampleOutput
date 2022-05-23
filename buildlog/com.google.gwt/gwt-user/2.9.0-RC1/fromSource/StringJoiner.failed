@@ -1,0 +1,31 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/StringJoiner.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/StringJoiner.java:45: error: incompatible types: java.util.StringJoiner cannot be converted to java.util.StringJoiner
+    return this;
+           ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/StringJoiner.java:56: error: cannot find symbol
+    if (other.builder != null) {
+             ^
+  symbol:   variable builder
+  location: variable other of type StringJoiner
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/StringJoiner.java:59: error: cannot find symbol
+      int otherLength = other.builder.length();
+                             ^
+  symbol:   variable builder
+  location: variable other of type StringJoiner
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/StringJoiner.java:61: error: cannot find symbol
+      builder.append(other.builder, other.prefix.length(), otherLength);
+                          ^
+  symbol:   variable builder
+  location: variable other of type StringJoiner
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/StringJoiner.java:61: error: prefix has private access in StringJoiner
+      builder.append(other.builder, other.prefix.length(), otherLength);
+                                         ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/StringJoiner.java:63: error: incompatible types: java.util.StringJoiner cannot be converted to java.util.StringJoiner
+    return this;
+           ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/StringJoiner.java:68: error: incompatible types: java.util.StringJoiner cannot be converted to java.util.StringJoiner
+    return this;
+           ^
+8 errors

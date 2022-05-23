@@ -1,0 +1,26 @@
+hybrids/com.google.inject/guice/5.0.1/MethodAspect.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+hybrids/com.google.inject/guice/5.0.1/MethodAspect.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+hybrids/com.google.inject/guice/5.0.1/MethodAspect.java:49: error: cannot find symbol
+    this.classMatcher = checkNotNull(classMatcher, "class matcher");
+                        ^
+  symbol:   method checkNotNull(Matcher<CAP#1>,String)
+  location: class MethodAspect
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: Class<?> from capture of ? super Class<?>
+hybrids/com.google.inject/guice/5.0.1/MethodAspect.java:50: error: cannot find symbol
+    this.methodMatcher = checkNotNull(methodMatcher, "method matcher");
+                         ^
+  symbol:   method checkNotNull(Matcher<CAP#1>,String)
+  location: class MethodAspect
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: Method from capture of ? super Method
+hybrids/com.google.inject/guice/5.0.1/MethodAspect.java:51: error: cannot find symbol
+    this.interceptors = checkNotNull(interceptors, "interceptors");
+                        ^
+  symbol:   method checkNotNull(List<MethodInterceptor>,String)
+  location: class MethodAspect
+5 errors

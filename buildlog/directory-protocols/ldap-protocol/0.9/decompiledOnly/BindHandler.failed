@@ -1,0 +1,54 @@
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/BindHandler.java:10: error: cannot find symbol
+import org.apache.ldap.common.util.ExceptionUtils;
+                                  ^
+  symbol:   class ExceptionUtils
+  location: package org.apache.ldap.common.util
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/BindHandler.java:16: error: cannot find symbol
+import org.apache.ldap.common.message.ResultCodeEnum;
+                                     ^
+  symbol:   class ResultCodeEnum
+  location: package org.apache.ldap.common.message
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/BindHandler.java:36: error: cannot find symbol
+            result.setResultCode(ResultCodeEnum.AUTHMETHODNOTSUPPORTED);
+                                 ^
+  symbol:   variable ResultCodeEnum
+  location: class BindHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/BindHandler.java:48: error: cannot find symbol
+            result.setResultCode(ResultCodeEnum.INSUFFICIENTACCESSRIGHTS);
+                                 ^
+  symbol:   variable ResultCodeEnum
+  location: class BindHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/BindHandler.java:60: error: incompatible types: Object[] cannot be converted to Control[]
+        final Control[] connCtls = req.getControls().toArray(BindHandler.EMPTY);
+                                                            ^
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/BindHandler.java:64: error: incompatible types: Object cannot be converted to InitialContextFactory
+                final InitialContextFactory factory = cloned.get("server.use.factory.instance");
+                                                                ^
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/BindHandler.java:79: error: cannot access MessageTypeEnum
+                result.setResultCode(ResultCodeEnum.getBestEstimate((Throwable)e, req.getType()));
+                                                                                             ^
+  class file for org.apache.ldap.common.message.MessageTypeEnum not found
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/BindHandler.java:79: error: cannot find symbol
+                result.setResultCode(ResultCodeEnum.getBestEstimate((Throwable)e, req.getType()));
+                                     ^
+  symbol:   variable ResultCodeEnum
+  location: class BindHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/BindHandler.java:81: error: cannot find symbol
+            String msg2 = "Bind failure:\n" + ExceptionUtils.getStackTrace((Throwable)e);
+                                              ^
+  symbol:   variable ExceptionUtils
+  location: class BindHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/BindHandler.java:88: error: cannot find symbol
+        result.setResultCode(ResultCodeEnum.SUCCESS);
+                             ^
+  symbol:   variable ResultCodeEnum
+  location: class BindHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SessionRegistry.java:55: error: incompatible types: Object cannot be converted to LdapContext
+            ctx = this.contexts.get(session);
+                                   ^
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SessionRegistry.java:63: error: incompatible types: Object cannot be converted to InitialContextFactory
+                final InitialContextFactory factory = this.env.get("server.use.factory.instance");
+                                                                  ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 errors

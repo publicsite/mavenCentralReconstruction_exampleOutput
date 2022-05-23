@@ -1,0 +1,18 @@
+sources/structure/org.hamcrest/hamcrest/2.2-rc1/extractedSources/org/hamcrest/core/CombinableMatcher.java:60: error: incompatible types: Matcher<CAP#1> cannot be converted to Matcher<? super CAP#2>
+      return new CombinableMatcher<>(first).and(other);
+                                                ^
+  where X is a type-variable:
+    X extends Object declared in class CombinableBothMatcher
+  where CAP#1,CAP#2 are fresh type-variables:
+    CAP#1 extends Object super: X from capture of ? super X
+    CAP#2 extends Object super: X from capture of ? super X
+sources/structure/org.hamcrest/hamcrest/2.2-rc1/extractedSources/org/hamcrest/core/CombinableMatcher.java:79: error: incompatible types: Matcher<CAP#1> cannot be converted to Matcher<? super CAP#2>
+      return new CombinableMatcher<>(first).or(other);
+                                               ^
+  where X is a type-variable:
+    X extends Object declared in class CombinableEitherMatcher
+  where CAP#1,CAP#2 are fresh type-variables:
+    CAP#1 extends Object super: X from capture of ? super X
+    CAP#2 extends Object super: X from capture of ? super X
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors

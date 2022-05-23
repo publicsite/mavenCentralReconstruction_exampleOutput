@@ -1,0 +1,45 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdsSection.java:8: error: cannot find symbol
+import com.google.dexmaker.dx.util.DexException;
+                                  ^
+  symbol:   class DexException
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdsSection.java:10: error: cannot find symbol
+public abstract class MemberIdsSection extends UniformItemSection
+                                               ^
+  symbol: class UniformItemSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdsSection.java:14: error: cannot find symbol
+    public MemberIdsSection(final String name, final DexFile file) {
+                                                     ^
+  symbol:   class DexFile
+  location: class MemberIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdsSection.java:18: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdsSection.java:21: error: cannot find symbol
+        if (this.items().size() > 65536) {
+                ^
+  symbol: method items()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdsSection.java:22: error: cannot find symbol
+            final String memberType = (this instanceof MethodIdsSection) ? "methods" : "fields";
+                                                       ^
+  symbol:   class MethodIdsSection
+  location: class MemberIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdsSection.java:23: error: cannot find symbol
+            throw new DexException("Too many " + memberType + ": " + this.items().size() + "; max is " + 65536);
+                      ^
+  symbol:   class DexException
+  location: class MemberIdsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdsSection.java:23: error: cannot find symbol
+            throw new DexException("Too many " + memberType + ": " + this.items().size() + "; max is " + 65536);
+                                                                         ^
+  symbol: method items()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdsSection.java:25: error: cannot find symbol
+        for (final Object i : this.items()) {
+                                  ^
+  symbol: method items()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdsSection.java:26: error: cannot find symbol
+            ((MemberIdItem)i).setIndex(idx);
+              ^
+  symbol:   class MemberIdItem
+  location: class MemberIdsSection
+10 errors

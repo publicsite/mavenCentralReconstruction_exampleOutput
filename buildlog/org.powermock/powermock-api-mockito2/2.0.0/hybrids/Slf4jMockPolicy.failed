@@ -1,0 +1,68 @@
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:20: error: cannot find symbol
+import org.mockito.Mockito;
+                  ^
+  symbol:   class Mockito
+  location: package org.mockito
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:21: error: package org.powermock.core.spi does not exist
+import org.powermock.core.spi.PowerMockPolicy;
+                             ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:22: error: package org.powermock.mockpolicies does not exist
+import org.powermock.mockpolicies.MockPolicyClassLoadingSettings;
+                                 ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:23: error: package org.powermock.mockpolicies does not exist
+import org.powermock.mockpolicies.MockPolicyInterceptionSettings;
+                                 ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:24: error: package org.powermock.mockpolicies.support does not exist
+import org.powermock.mockpolicies.support.LogPolicySupport;
+                                         ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:40: error: cannot find symbol
+public class Slf4jMockPolicy implements PowerMockPolicy {
+                                        ^
+  symbol: class PowerMockPolicy
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:50: error: cannot find symbol
+    public void applyClassLoadingPolicy(MockPolicyClassLoadingSettings mockPolicyClassLoadingSettings) {
+                                        ^
+  symbol:   class MockPolicyClassLoadingSettings
+  location: class Slf4jMockPolicy
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:58: error: cannot find symbol
+    public void applyInterceptionPolicy(MockPolicyInterceptionSettings mockPolicyInterceptionSettings) {
+                                        ^
+  symbol:   class MockPolicyInterceptionSettings
+  location: class Slf4jMockPolicy
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:71: error: cannot find symbol
+    private void initializeMockForThread(LogPolicySupport logPolicySupport) {
+                                         ^
+  symbol:   class LogPolicySupport
+  location: class Slf4jMockPolicy
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:93: error: cannot find symbol
+    private Class<?> getLoggerClass(LogPolicySupport logPolicySupport) {
+                                    ^
+  symbol:   class LogPolicySupport
+  location: class Slf4jMockPolicy
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:49: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:57: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:59: error: cannot find symbol
+        LogPolicySupport logPolicySupport = new LogPolicySupport();
+        ^
+  symbol:   class LogPolicySupport
+  location: class Slf4jMockPolicy
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:59: error: cannot find symbol
+        LogPolicySupport logPolicySupport = new LogPolicySupport();
+                                                ^
+  symbol:   class LogPolicySupport
+  location: class Slf4jMockPolicy
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:80: error: cannot find symbol
+            final ClassLoader classLoader = Mockito.class.getClassLoader();
+                                            ^
+  symbol:   class Mockito
+  location: class Slf4jMockPolicy
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/Slf4jMockPolicy.java:84: error: cannot find symbol
+                 mock = Mockito.mock(loggerClass);
+                        ^
+  symbol:   variable Mockito
+  location: class Slf4jMockPolicy
+16 errors

@@ -1,0 +1,55 @@
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:7: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:8: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:11: error: cannot find symbol
+import com.google.common.collect.ImmutableSet;
+                                ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:17: error: cannot find symbol
+    private final ImmutableSet<String> classNamesToSkip;
+                  ^
+  symbol:   class ImmutableSet
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:26: error: package ImmutableSet does not exist
+        final ImmutableSet.Builder<String> classNamesToSkipBuilder = (ImmutableSet.Builder<String>)ImmutableSet.builder();
+                          ^
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:26: error: package ImmutableSet does not exist
+        final ImmutableSet.Builder<String> classNamesToSkipBuilder = (ImmutableSet.Builder<String>)ImmutableSet.builder();
+                                                                                  ^
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:26: error: cannot find symbol
+        final ImmutableSet.Builder<String> classNamesToSkipBuilder = (ImmutableSet.Builder<String>)ImmutableSet.builder();
+                                                                                                   ^
+  symbol:   variable ImmutableSet
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:32: error: cannot find symbol
+        this.classNamesToSkip = (ImmutableSet<String>)classNamesToSkipBuilder.build();
+                                 ^
+  symbol:   class ImmutableSet
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:44: error: cannot find symbol
+        final List<String> strings = (List<String>)Lists.newArrayList();
+                                                   ^
+  symbol:   variable Lists
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:52: error: cannot find symbol
+        Preconditions.checkNotNull((Object)stackTraceElements, (Object)"The stack trace elements cannot be null.");
+        ^
+  symbol:   variable Preconditions
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:63: error: cannot find symbol
+        Preconditions.checkNotNull((Object)moduleClassNames, (Object)"The list of module class names cannot be null.");
+        ^
+  symbol:   variable Preconditions
+  location: class SourceProvider
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/util/SourceProvider.java:74: error: cannot find symbol
+        DEFAULT_INSTANCE = new SourceProvider((Iterable<String>)ImmutableSet.of((Object)SourceProvider.class.getName()));
+                                                                ^
+  symbol:   variable ImmutableSet
+  location: class SourceProvider
+12 errors

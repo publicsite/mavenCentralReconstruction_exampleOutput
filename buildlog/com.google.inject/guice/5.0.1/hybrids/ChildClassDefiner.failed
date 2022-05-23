@@ -1,0 +1,25 @@
+hybrids/com.google.inject/guice/5.0.1/ChildClassDefiner.java:19: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheBuilder;
+                              ^
+hybrids/com.google.inject/guice/5.0.1/ChildClassDefiner.java:20: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheLoader;
+                              ^
+hybrids/com.google.inject/guice/5.0.1/ChildClassDefiner.java:21: error: package com.google.common.cache does not exist
+import com.google.common.cache.LoadingCache;
+                              ^
+hybrids/com.google.inject/guice/5.0.1/ChildClassDefiner.java:42: error: cannot find symbol
+    static final LoadingCache<ClassLoader, ChildLoader> CHILD_LOADER_CACHE =
+                 ^
+  symbol:   class LoadingCache
+  location: class ChildLoaderCacheHolder
+hybrids/com.google.inject/guice/5.0.1/ChildClassDefiner.java:43: error: cannot find symbol
+        CacheBuilder.newBuilder()
+        ^
+  symbol:   variable CacheBuilder
+  location: class ChildLoaderCacheHolder
+hybrids/com.google.inject/guice/5.0.1/ChildClassDefiner.java:46: error: cannot find symbol
+            .build(CacheLoader.from(ChildClassDefiner::childLoader));
+                   ^
+  symbol:   variable CacheLoader
+  location: class ChildLoaderCacheHolder
+6 errors

@@ -1,0 +1,50 @@
+hybrids/com.jamonapi/jamon/2.82/JamonAspect.java:4: error: package org.aspectj.lang does not exist
+import org.aspectj.lang.ProceedingJoinPoint;
+                       ^
+hybrids/com.jamonapi/jamon/2.82/JamonAspect.java:5: error: package org.aspectj.lang.annotation does not exist
+import org.aspectj.lang.annotation.Aspect;
+                                  ^
+hybrids/com.jamonapi/jamon/2.82/JamonAspect.java:28: error: cannot find symbol
+@Aspect
+ ^
+  symbol: class Aspect
+hybrids/com.jamonapi/jamon/2.82/JamonAspect.java:52: error: cannot find symbol
+    public Object monitor(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
+                          ^
+  symbol:   class ProceedingJoinPoint
+  location: class JamonAspect
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/aop/spring/JamonAopKeyHelper.java:4: error: package org.aspectj.lang does not exist
+import org.aspectj.lang.ProceedingJoinPoint;
+                       ^
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/aop/spring/JamonAopKeyHelper.java:5: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Component;
+                                     ^
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/aop/spring/JamonAopKeyHelper.java:13: error: cannot find symbol
+@Component
+ ^
+  symbol: class Component
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/aop/spring/JamonAopKeyHelper.java:14: error: cannot find symbol
+public class JamonAopKeyHelper implements JamonAopKeyHelperInt<ProceedingJoinPoint> {
+                                                               ^
+  symbol: class ProceedingJoinPoint
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/aop/spring/JamonAopKeyHelper.java:52: error: cannot find symbol
+    public String getLabel(ProceedingJoinPoint proceedingJoinPoint) {
+                           ^
+  symbol:   class ProceedingJoinPoint
+  location: class JamonAopKeyHelper
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/aop/spring/JamonAopKeyHelper.java:75: error: cannot find symbol
+    public String getDetails(ProceedingJoinPoint proceedingJoinPoint) {
+                             ^
+  symbol:   class ProceedingJoinPoint
+  location: class JamonAopKeyHelper
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/aop/spring/JamonAopKeyHelper.java:88: error: cannot find symbol
+    public String getDetails(ProceedingJoinPoint proceedingJoinPoint, Throwable exception) {
+                             ^
+  symbol:   class ProceedingJoinPoint
+  location: class JamonAopKeyHelper
+sources/structure/com.jamonapi/jamon/2.82/extractedSources/com/jamonapi/aop/spring/JamonAopKeyHelper.java:122: error: cannot find symbol
+    private String createDetailMessage(ProceedingJoinPoint proceedingJoinPoint, String baseMessage, boolean useArgsInDetails) {
+                                       ^
+  symbol:   class ProceedingJoinPoint
+  location: class JamonAopKeyHelper
+12 errors

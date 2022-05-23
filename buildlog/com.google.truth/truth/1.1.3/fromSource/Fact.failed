@@ -1,0 +1,38 @@
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:20: error: package com.google.common.base does not exist
+import static com.google.common.base.Strings.padEnd;
+                                    ^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:20: error: static import only from classes and interfaces
+import static com.google.common.base.Strings.padEnd;
+^
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:23: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:87: error: cannot find symbol
+  static String makeMessage(ImmutableList<String> messages, ImmutableList<Fact> facts) {
+                            ^
+  symbol:   class ImmutableList
+  location: class Fact
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:87: error: cannot find symbol
+  static String makeMessage(ImmutableList<String> messages, ImmutableList<Fact> facts) {
+                                                            ^
+  symbol:   class ImmutableList
+  location: class Fact
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:69: error: cannot find symbol
+    this.key = checkNotNull(key);
+               ^
+  symbol:   method checkNotNull(String)
+  location: class Fact
+sources/structure/com.google.truth/truth/1.1.3/extractedSources/com/google/common/truth/Fact.java:122: error: cannot find symbol
+        builder.append(padEnd(fact.key, longestKeyLength, ' '));
+                       ^
+  symbol:   method padEnd(String,int,char)
+  location: class Fact
+9 errors

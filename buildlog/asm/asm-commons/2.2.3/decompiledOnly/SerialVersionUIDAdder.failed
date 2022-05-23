@@ -1,0 +1,70 @@
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:13: error: cannot find symbol
+import org.objectweb.asm.FieldVisitor;
+                        ^
+  symbol:   class FieldVisitor
+  location: package org.objectweb.asm
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:14: error: cannot find symbol
+import org.objectweb.asm.MethodVisitor;
+                        ^
+  symbol:   class MethodVisitor
+  location: package org.objectweb.asm
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:16: error: cannot find symbol
+import org.objectweb.asm.ClassVisitor;
+                        ^
+  symbol:   class ClassVisitor
+  location: package org.objectweb.asm
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:18: error: cannot find symbol
+import org.objectweb.asm.ClassAdapter;
+                        ^
+  symbol:   class ClassAdapter
+  location: package org.objectweb.asm
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:20: error: cannot find symbol
+public class SerialVersionUIDAdder extends ClassAdapter
+                                           ^
+  symbol: class ClassAdapter
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:32: error: cannot find symbol
+    public SerialVersionUIDAdder(final ClassVisitor classVisitor) {
+                                       ^
+  symbol:   class ClassVisitor
+  location: class SerialVersionUIDAdder
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:49: error: cannot find symbol
+    public MethodVisitor visitMethod(final int n, final String s, final String s2, final String s3, final String[] array) {
+           ^
+  symbol:   class MethodVisitor
+  location: class SerialVersionUIDAdder
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:67: error: cannot find symbol
+    public FieldVisitor visitField(final int n, final String s, final String s2, final String s3, final Object o) {
+           ^
+  symbol:   class FieldVisitor
+  location: class SerialVersionUIDAdder
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:46: error: cannot find symbol
+        super.visit(n, access, name, s, s2, interfaces);
+        ^
+  symbol:   variable super
+  location: class SerialVersionUIDAdder
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:64: error: cannot find symbol
+        return this.cv.visitMethod(n, s, s2, s3, array);
+                   ^
+  symbol: variable cv
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:78: error: cannot find symbol
+        return super.visitField(n, s, s2, s3, o);
+               ^
+  symbol:   variable super
+  location: class SerialVersionUIDAdder
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:84: error: cannot find symbol
+                this.cv.visitField(24, "serialVersionUID", "J", (String)null, (Object)new Long(this.computeSVUID()));
+                    ^
+  symbol: variable cv
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:90: error: cannot find symbol
+        super.visitEnd();
+        ^
+  symbol:   variable super
+  location: class SerialVersionUIDAdder
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java:141: error: incompatible types: Object[] cannot be converted to SerialVersionUIDAdder$Item[]
+        final SerialVersionUIDAdder$Item[] a = collection.toArray(new SerialVersionUIDAdder$Item[size]);
+                                                                 ^
+Note: sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/SerialVersionUIDAdder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 errors

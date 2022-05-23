@@ -1,0 +1,12 @@
+sources/structure/org.hamcrest/hamcrest-library/1.3/extractedSources/org/hamcrest/collection/IsIterableContainingInOrder.java:141: error: incompatible types: inference variable E#1 has incompatible bounds
+        return contains(asList(itemMatchers));
+                       ^
+    equality constraints: E#2
+    lower bounds: List<T>
+  where E#1,E#2,T are type-variables:
+    E#1 extends Object declared in method <E#1>contains(E#1...)
+    E#2 extends Object declared in method <E#2>contains(Matcher<? super E#2>...)
+    T extends Object declared in method <T>asList(T...)
+Note: sources/structure/org.hamcrest/hamcrest-library/1.3/extractedSources/org/hamcrest/collection/IsIterableContainingInOrder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error

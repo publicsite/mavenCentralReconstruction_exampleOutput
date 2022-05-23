@@ -1,0 +1,205 @@
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:3: error: package javax.mail.event does not exist
+import javax.mail.event.TransportListener;
+                       ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:4: error: package alt.javax.mail does not exist
+import alt.javax.mail.Message;
+                     ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:5: error: package javax.mail does not exist
+import javax.mail.Address;
+                 ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:7: error: package alt.javax.mail does not exist
+import alt.javax.mail.Transport;
+                     ^
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:3: error: package javax.mail does not exist
+import javax.mail.URLName;
+                 ^
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:4: error: package javax.mail.event does not exist
+import javax.mail.event.ConnectionListener;
+                       ^
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:6: error: package alt.javax.mail does not exist
+import alt.javax.mail.Service;
+                     ^
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:8: error: cannot find symbol
+public class MockService extends MockObject implements Service {
+                                 ^
+  symbol: class MockObject
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:8: error: cannot find symbol
+public class MockService extends MockObject implements Service {
+                                                       ^
+  symbol: class Service
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:9: error: cannot find symbol
+public class MockTransport extends MockService implements Transport {
+                                                          ^
+  symbol: class Transport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:11: error: cannot find symbol
+    private final ExpectationValue myMessage = new ExpectationValue("message");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:13: error: cannot find symbol
+    public void setExpectedMessage(Message aMessage){
+                                   ^
+  symbol:   class Message
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:17: error: cannot find symbol
+    public void send(Message aMessage){
+                     ^
+  symbol:   class Message
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:21: error: cannot find symbol
+    public void send(Message msg, Address[] address){
+                     ^
+  symbol:   class Message
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:21: error: cannot find symbol
+    public void send(Message msg, Address[] address){
+                                  ^
+  symbol:   class Address
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:25: error: cannot find symbol
+    public void sendMessage(Message msg, Address[] address){
+                            ^
+  symbol:   class Message
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:25: error: cannot find symbol
+    public void sendMessage(Message msg, Address[] address){
+                                         ^
+  symbol:   class Address
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:29: error: cannot find symbol
+    public void addTransportListener(TransportListener transportListener){
+                                     ^
+  symbol:   class TransportListener
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:33: error: cannot find symbol
+    public void removeTransportListener(TransportListener transportListener){
+                                        ^
+  symbol:   class TransportListener
+  location: class MockTransport
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:9: error: cannot find symbol
+    private final ExpectationCounter myCloseCalls = 
+                  ^
+  symbol:   class ExpectationCounter
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:11: error: cannot find symbol
+    private final ExpectationValue myHost = new ExpectationValue("host");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:12: error: cannot find symbol
+    private final ExpectationValue myPort = new ExpectationValue("port");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:13: error: cannot find symbol
+    private final ExpectationValue myUser = new ExpectationValue("user");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:14: error: cannot find symbol
+    private final ExpectationValue myPassword =
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:46: error: cannot find symbol
+    public URLName getURLName(){
+           ^
+  symbol:   class URLName
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:51: error: cannot find symbol
+    public void addConnectionListener(ConnectionListener connectionListener){
+                                      ^
+  symbol:   class ConnectionListener
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:55: error: cannot find symbol
+    public void removeConnectionListener(ConnectionListener connectionListener){
+                                         ^
+  symbol:   class ConnectionListener
+  location: class MockService
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:6: error: package com.mockobjects does not exist
+import com.mockobjects.*;
+^
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:5: error: package com.mockobjects does not exist
+import com.mockobjects.*;
+^
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:10: error: cannot find symbol
+        new ExpectationCounter("close");
+            ^
+  symbol:   class ExpectationCounter
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:11: error: cannot find symbol
+    private final ExpectationValue myHost = new ExpectationValue("host");
+                                                ^
+  symbol:   class ExpectationValue
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:12: error: cannot find symbol
+    private final ExpectationValue myPort = new ExpectationValue("port");
+                                                ^
+  symbol:   class ExpectationValue
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:13: error: cannot find symbol
+    private final ExpectationValue myUser = new ExpectationValue("user");
+                                                ^
+  symbol:   class ExpectationValue
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:15: error: cannot find symbol
+        new ExpectationValue("password");
+            ^
+  symbol:   class ExpectationValue
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:26: error: cannot find symbol
+		notImplemented();
+		^
+  symbol:   method notImplemented()
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:38: error: cannot find symbol
+		notImplemented();
+		^
+  symbol:   method notImplemented()
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:42: error: cannot find symbol
+		notImplemented();
+		^
+  symbol:   method notImplemented()
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:47: error: cannot find symbol
+		notImplemented();
+		^
+  symbol:   method notImplemented()
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:52: error: cannot find symbol
+		notImplemented();
+		^
+  symbol:   method notImplemented()
+  location: class MockService
+sources/structure/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/extractedSources/com/mockobjects/mail/MockService.java:56: error: cannot find symbol
+		notImplemented();
+		^
+  symbol:   method notImplemented()
+  location: class MockService
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:11: error: cannot find symbol
+    private final ExpectationValue myMessage = new ExpectationValue("message");
+                                                   ^
+  symbol:   class ExpectationValue
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:22: error: cannot find symbol
+		notImplemented();
+		^
+  symbol:   method notImplemented()
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:26: error: cannot find symbol
+		notImplemented();
+		^
+  symbol:   method notImplemented()
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:30: error: cannot find symbol
+		notImplemented();
+		^
+  symbol:   method notImplemented()
+  location: class MockTransport
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTransport.java:34: error: cannot find symbol
+		notImplemented();
+		^
+  symbol:   method notImplemented()
+  location: class MockTransport
+45 errors

@@ -1,0 +1,142 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:7: error: cannot find symbol
+import org.easymock.cglib.core.KeyFactory;
+                              ^
+  symbol:   class KeyFactory
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:10: error: cannot find symbol
+import org.easymock.cglib.core.EmitUtils;
+                              ^
+  symbol:   class EmitUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:11: error: cannot find symbol
+import org.easymock.cglib.core.Constants;
+                              ^
+  symbol:   class Constants
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:12: error: cannot find symbol
+import org.easymock.cglib.core.ClassEmitter;
+                              ^
+  symbol:   class ClassEmitter
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:13: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:14: error: cannot find symbol
+import org.easymock.cglib.core.ReflectUtils;
+                              ^
+  symbol:   class ReflectUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:19: error: cannot find symbol
+import org.easymock.cglib.core.AbstractClassGenerator;
+                              ^
+  symbol:   class AbstractClassGenerator
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:21: error: cannot find symbol
+public class BeanGenerator extends AbstractClassGenerator
+                                   ^
+  symbol: class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:23: error: cannot find symbol
+    private static final Source SOURCE;
+                         ^
+  symbol:   class Source
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:80: error: cannot find symbol
+    public void generateClass(final ClassVisitor v) throws Exception {
+                                    ^
+  symbol:   class ClassVisitor
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:48: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:56: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:58: error: cannot find symbol
+        return ReflectUtils.getProtectionDomain(this.superclass);
+               ^
+  symbol:   variable ReflectUtils
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:73: error: cannot find symbol
+            this.setNamePrefix(this.superclass.getName());
+                ^
+  symbol: method setNamePrefix(String)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:77: error: cannot find symbol
+        return super.create(key);
+               ^
+  symbol:   variable super
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:85: error: incompatible types: Object cannot be converted to Type
+            types[i] = this.props.get(names[i]);
+                                     ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:87: error: cannot find symbol
+        final ClassEmitter ce = new ClassEmitter(v);
+              ^
+  symbol:   class ClassEmitter
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:87: error: cannot find symbol
+        final ClassEmitter ce = new ClassEmitter(v);
+                                    ^
+  symbol:   class ClassEmitter
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:88: error: cannot find symbol
+        ce.begin_class(52, 1, this.getClassName(), (this.superclass != null) ? Type.getType(this.superclass) : Constants.TYPE_OBJECT, null, null);
+                                  ^
+  symbol: method getClassName()
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:88: error: cannot find symbol
+        ce.begin_class(52, 1, this.getClassName(), (this.superclass != null) ? Type.getType(this.superclass) : Constants.TYPE_OBJECT, null, null);
+                                                                                                               ^
+  symbol:   variable Constants
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:89: error: cannot find symbol
+        EmitUtils.null_constructor(ce);
+        ^
+  symbol:   variable EmitUtils
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:90: error: cannot find symbol
+        EmitUtils.add_properties(ce, names, types);
+        ^
+  symbol:   variable EmitUtils
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:94: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:99: error: cannot find symbol
+        return ReflectUtils.newInstance(type);
+               ^
+  symbol:   variable ReflectUtils
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:102: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:108: error: cannot find symbol
+        return ReflectUtils.newInstance(protoclass);
+               ^
+  symbol:   variable ReflectUtils
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:112: error: incompatible types: Object cannot be converted to String
+        for (final String name : props.keySet()) {
+                                             ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:113: error: incompatible types: Object cannot be converted to Class
+            gen.addProperty(name, props.get(name));
+                                           ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:118: error: cannot find symbol
+        addProperties(gen, ReflectUtils.getBeanProperties(type));
+                           ^
+  symbol:   variable ReflectUtils
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:128: error: cannot find symbol
+        SOURCE = new Source(BeanGenerator.class.getName());
+                     ^
+  symbol:   class Source
+  location: class BeanGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java:129: error: cannot find symbol
+        KEY_FACTORY = (BeanGeneratorKey)KeyFactory.create(BeanGeneratorKey.class);
+                                        ^
+  symbol:   variable KeyFactory
+  location: class BeanGenerator
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/BeanGenerator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+31 errors

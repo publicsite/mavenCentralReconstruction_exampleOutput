@@ -1,0 +1,22 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/ParameterizedTestNameFormatter.java:8: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.StringUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/ParameterizedTestNameFormatter.java:14: error: package org.junit.platform.commons does not exist
+import org.junit.platform.commons.JUnitException;
+                                 ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/ParameterizedTestNameFormatter.java:32: error: cannot find symbol
+            throw new JUnitException(message, (Throwable)ex);
+                      ^
+  symbol:   class JUnitException
+  location: class ParameterizedTestNameFormatter
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/ParameterizedTestNameFormatter.java:46: error: incompatible types: Collector<CharSequence,CAP#1,String> cannot be converted to Collector<? super Object,?,String>
+            final String replacement = IntStream.range(0, arguments.length).mapToObj(index -> "{" + index + "}").collect((Collector<? super Object, ?, String>)Collectors.joining(", "));
+                                                                                                                                                                                 ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/ParameterizedTestNameFormatter.java:57: error: cannot find symbol
+                result[i] = StringUtils.nullSafeToString(arguments[i]);
+                            ^
+  symbol:   variable StringUtils
+  location: class ParameterizedTestNameFormatter
+5 errors

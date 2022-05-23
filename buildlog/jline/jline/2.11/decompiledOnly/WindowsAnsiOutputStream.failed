@@ -1,0 +1,307 @@
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:7: error: package org.fusesource.jansi.internal does not exist
+import org.fusesource.jansi.internal.WindowsSupport;
+                                    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:10: error: package org.fusesource.jansi.internal does not exist
+import org.fusesource.jansi.internal.Kernel32;
+                                    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:12: error: cannot find symbol
+public final class WindowsAnsiOutputStream extends AnsiOutputStream
+                                                   ^
+  symbol: class AnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:27: error: package Kernel32 does not exist
+    private final Kernel32.CONSOLE_SCREEN_BUFFER_INFO info;
+                          ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:35: error: package Kernel32 does not exist
+        this.info = new Kernel32.CONSOLE_SCREEN_BUFFER_INFO();
+                                ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:43: error: cannot find symbol
+        this.out.flush();
+            ^
+  symbol: variable out
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:44: error: cannot find symbol
+        if (Kernel32.GetConsoleScreenBufferInfo(WindowsAnsiOutputStream.console, this.info) == 0) {
+            ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:45: error: cannot find symbol
+            throw new IOException("Could not get the screen info: " + WindowsSupport.getLastErrorMessage());
+                                                                      ^
+  symbol:   variable WindowsSupport
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:53: error: cannot find symbol
+        this.out.flush();
+            ^
+  symbol: variable out
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:58: error: cannot find symbol
+        if (Kernel32.SetConsoleTextAttribute(WindowsAnsiOutputStream.console, attributes) == 0) {
+            ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:59: error: cannot find symbol
+            throw new IOException(WindowsSupport.getLastErrorMessage());
+                                  ^
+  symbol:   variable WindowsSupport
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:73: error: cannot find symbol
+        if (Kernel32.SetConsoleCursorPosition(WindowsAnsiOutputStream.console, this.info.cursorPosition.copy()) == 0) {
+            ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:74: error: cannot find symbol
+            throw new IOException(WindowsSupport.getLastErrorMessage());
+                                  ^
+  symbol:   variable WindowsSupport
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:78: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:84: error: package Kernel32 does not exist
+                final Kernel32.COORD topLeft = new Kernel32.COORD();
+                              ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:84: error: package Kernel32 does not exist
+                final Kernel32.COORD topLeft = new Kernel32.COORD();
+                                                           ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:88: error: cannot find symbol
+                Kernel32.FillConsoleOutputCharacterW(WindowsAnsiOutputStream.console, ' ', screenLength, topLeft, written);
+                ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:92: error: package Kernel32 does not exist
+                final Kernel32.COORD topLeft2 = new Kernel32.COORD();
+                              ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:92: error: package Kernel32 does not exist
+                final Kernel32.COORD topLeft2 = new Kernel32.COORD();
+                                                            ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:96: error: cannot find symbol
+                Kernel32.FillConsoleOutputCharacterW(WindowsAnsiOutputStream.console, ' ', lengthToCursor, topLeft2, written);
+                ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:101: error: cannot find symbol
+                Kernel32.FillConsoleOutputCharacterW(WindowsAnsiOutputStream.console, ' ', lengthToEnd, this.info.cursorPosition.copy(), written);
+                ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:107: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:113: error: package Kernel32 does not exist
+                final Kernel32.COORD leftColCurrRow = this.info.cursorPosition.copy();
+                              ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:115: error: cannot find symbol
+                Kernel32.FillConsoleOutputCharacterW(WindowsAnsiOutputStream.console, ' ', this.info.size.x, leftColCurrRow, written);
+                ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:119: error: package Kernel32 does not exist
+                final Kernel32.COORD leftColCurrRow2 = this.info.cursorPosition.copy();
+                              ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:121: error: cannot find symbol
+                Kernel32.FillConsoleOutputCharacterW(WindowsAnsiOutputStream.console, ' ', this.info.cursorPosition.x, leftColCurrRow2, written);
+                ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:126: error: cannot find symbol
+                Kernel32.FillConsoleOutputCharacterW(WindowsAnsiOutputStream.console, ' ', lengthToLastCol, this.info.cursorPosition.copy(), written);
+                ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:132: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:139: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:146: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:153: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:160: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:168: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:175: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:181: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:187: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:194: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:198: error: cannot find symbol
+                this.info.attributes |= Kernel32.FOREGROUND_INTENSITY;
+                                        ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:203: error: cannot find symbol
+                this.info.attributes &= (short)~Kernel32.FOREGROUND_INTENSITY;
+                                                ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:208: error: cannot find symbol
+                this.info.attributes |= Kernel32.BACKGROUND_INTENSITY;
+                                        ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:213: error: cannot find symbol
+                this.info.attributes &= (short)~Kernel32.BACKGROUND_INTENSITY;
+                                                ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:230: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:237: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:240: error: cannot find symbol
+            this.out.flush();
+                ^
+  symbol: variable out
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:247: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:249: error: cannot find symbol
+        Kernel32.SetConsoleTitle(label);
+        ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:253: error: cannot find symbol
+        console = Kernel32.GetStdHandle(Kernel32.STD_OUTPUT_HANDLE);
+                                        ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:253: error: cannot find symbol
+        console = Kernel32.GetStdHandle(Kernel32.STD_OUTPUT_HANDLE);
+                  ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:254: error: cannot find symbol
+        FOREGROUND_YELLOW = (short)(Kernel32.FOREGROUND_RED | Kernel32.FOREGROUND_GREEN);
+                                    ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:254: error: cannot find symbol
+        FOREGROUND_YELLOW = (short)(Kernel32.FOREGROUND_RED | Kernel32.FOREGROUND_GREEN);
+                                                              ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:255: error: cannot find symbol
+        FOREGROUND_MAGENTA = (short)(Kernel32.FOREGROUND_BLUE | Kernel32.FOREGROUND_RED);
+                                     ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:255: error: cannot find symbol
+        FOREGROUND_MAGENTA = (short)(Kernel32.FOREGROUND_BLUE | Kernel32.FOREGROUND_RED);
+                                                                ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:256: error: cannot find symbol
+        FOREGROUND_CYAN = (short)(Kernel32.FOREGROUND_BLUE | Kernel32.FOREGROUND_GREEN);
+                                  ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:256: error: cannot find symbol
+        FOREGROUND_CYAN = (short)(Kernel32.FOREGROUND_BLUE | Kernel32.FOREGROUND_GREEN);
+                                                             ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:257: error: cannot find symbol
+        FOREGROUND_WHITE = (short)(Kernel32.FOREGROUND_RED | Kernel32.FOREGROUND_GREEN | Kernel32.FOREGROUND_BLUE);
+                                   ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:257: error: cannot find symbol
+        FOREGROUND_WHITE = (short)(Kernel32.FOREGROUND_RED | Kernel32.FOREGROUND_GREEN | Kernel32.FOREGROUND_BLUE);
+                                                             ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:257: error: cannot find symbol
+        FOREGROUND_WHITE = (short)(Kernel32.FOREGROUND_RED | Kernel32.FOREGROUND_GREEN | Kernel32.FOREGROUND_BLUE);
+                                                                                         ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:258: error: cannot find symbol
+        BACKGROUND_YELLOW = (short)(Kernel32.BACKGROUND_RED | Kernel32.BACKGROUND_GREEN);
+                                    ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:258: error: cannot find symbol
+        BACKGROUND_YELLOW = (short)(Kernel32.BACKGROUND_RED | Kernel32.BACKGROUND_GREEN);
+                                                              ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:259: error: cannot find symbol
+        BACKGROUND_MAGENTA = (short)(Kernel32.BACKGROUND_BLUE | Kernel32.BACKGROUND_RED);
+                                     ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:259: error: cannot find symbol
+        BACKGROUND_MAGENTA = (short)(Kernel32.BACKGROUND_BLUE | Kernel32.BACKGROUND_RED);
+                                                                ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:260: error: cannot find symbol
+        BACKGROUND_CYAN = (short)(Kernel32.BACKGROUND_BLUE | Kernel32.BACKGROUND_GREEN);
+                                  ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:260: error: cannot find symbol
+        BACKGROUND_CYAN = (short)(Kernel32.BACKGROUND_BLUE | Kernel32.BACKGROUND_GREEN);
+                                                             ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:261: error: cannot find symbol
+        BACKGROUND_WHITE = (short)(Kernel32.BACKGROUND_RED | Kernel32.BACKGROUND_GREEN | Kernel32.BACKGROUND_BLUE);
+                                   ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:261: error: cannot find symbol
+        BACKGROUND_WHITE = (short)(Kernel32.BACKGROUND_RED | Kernel32.BACKGROUND_GREEN | Kernel32.BACKGROUND_BLUE);
+                                                             ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:261: error: cannot find symbol
+        BACKGROUND_WHITE = (short)(Kernel32.BACKGROUND_RED | Kernel32.BACKGROUND_GREEN | Kernel32.BACKGROUND_BLUE);
+                                                                                         ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:262: error: cannot find symbol
+        ANSI_FOREGROUND_COLOR_MAP = new short[] { 0, Kernel32.FOREGROUND_RED, Kernel32.FOREGROUND_GREEN, WindowsAnsiOutputStream.FOREGROUND_YELLOW, Kernel32.FOREGROUND_BLUE, WindowsAnsiOutputStream.FOREGROUND_MAGENTA, WindowsAnsiOutputStream.FOREGROUND_CYAN, WindowsAnsiOutputStream.FOREGROUND_WHITE };
+                                                     ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:262: error: cannot find symbol
+        ANSI_FOREGROUND_COLOR_MAP = new short[] { 0, Kernel32.FOREGROUND_RED, Kernel32.FOREGROUND_GREEN, WindowsAnsiOutputStream.FOREGROUND_YELLOW, Kernel32.FOREGROUND_BLUE, WindowsAnsiOutputStream.FOREGROUND_MAGENTA, WindowsAnsiOutputStream.FOREGROUND_CYAN, WindowsAnsiOutputStream.FOREGROUND_WHITE };
+                                                                              ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:262: error: cannot find symbol
+        ANSI_FOREGROUND_COLOR_MAP = new short[] { 0, Kernel32.FOREGROUND_RED, Kernel32.FOREGROUND_GREEN, WindowsAnsiOutputStream.FOREGROUND_YELLOW, Kernel32.FOREGROUND_BLUE, WindowsAnsiOutputStream.FOREGROUND_MAGENTA, WindowsAnsiOutputStream.FOREGROUND_CYAN, WindowsAnsiOutputStream.FOREGROUND_WHITE };
+                                                                                                                                                    ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:263: error: cannot find symbol
+        ANSI_BACKGROUND_COLOR_MAP = new short[] { 0, Kernel32.BACKGROUND_RED, Kernel32.BACKGROUND_GREEN, WindowsAnsiOutputStream.BACKGROUND_YELLOW, Kernel32.BACKGROUND_BLUE, WindowsAnsiOutputStream.BACKGROUND_MAGENTA, WindowsAnsiOutputStream.BACKGROUND_CYAN, WindowsAnsiOutputStream.BACKGROUND_WHITE };
+                                                     ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:263: error: cannot find symbol
+        ANSI_BACKGROUND_COLOR_MAP = new short[] { 0, Kernel32.BACKGROUND_RED, Kernel32.BACKGROUND_GREEN, WindowsAnsiOutputStream.BACKGROUND_YELLOW, Kernel32.BACKGROUND_BLUE, WindowsAnsiOutputStream.BACKGROUND_MAGENTA, WindowsAnsiOutputStream.BACKGROUND_CYAN, WindowsAnsiOutputStream.BACKGROUND_WHITE };
+                                                                              ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+sources/structure/jline/jline/2.11/Decompiled/org/fusesource/jansi/WindowsAnsiOutputStream.java:263: error: cannot find symbol
+        ANSI_BACKGROUND_COLOR_MAP = new short[] { 0, Kernel32.BACKGROUND_RED, Kernel32.BACKGROUND_GREEN, WindowsAnsiOutputStream.BACKGROUND_YELLOW, Kernel32.BACKGROUND_BLUE, WindowsAnsiOutputStream.BACKGROUND_MAGENTA, WindowsAnsiOutputStream.BACKGROUND_CYAN, WindowsAnsiOutputStream.BACKGROUND_WHITE };
+                                                                                                                                                    ^
+  symbol:   variable Kernel32
+  location: class WindowsAnsiOutputStream
+72 errors

@@ -1,0 +1,28 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedColumnProcessor.java:11: error: cannot find symbol
+public abstract class AbstractBatchedColumnProcessor<T extends Context> implements Processor<T>, BatchedColumnReader<String>
+                                                                                   ^
+  symbol: class Processor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedColumnProcessor.java:13: error: cannot find symbol
+    private final ColumnSplitter<String> splitter;
+                  ^
+  symbol:   class ColumnSplitter
+  location: class AbstractBatchedColumnProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractBatchedColumnProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedColumnProcessor.java:19: error: cannot find symbol
+        this.splitter = new ColumnSplitter<String>(rowsPerBatch);
+                            ^
+  symbol:   class ColumnSplitter
+  location: class AbstractBatchedColumnProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractBatchedColumnProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedColumnProcessor.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedColumnProcessor.java:30: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedColumnProcessor.java:42: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+6 errors

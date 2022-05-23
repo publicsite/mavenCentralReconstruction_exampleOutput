@@ -1,0 +1,46 @@
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModifyRequestAttributeValueRule.java:9: error: cannot find symbol
+import org.apache.asn1.ber.TagEnum;
+                          ^
+  symbol:   class TagEnum
+  location: package org.apache.asn1.ber
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModifyRequestAttributeValueRule.java:10: error: cannot find symbol
+import org.apache.asn1.ber.primitives.UniversalTag;
+                                     ^
+  symbol:   class UniversalTag
+  location: package org.apache.asn1.ber.primitives
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModifyRequestAttributeValueRule.java:11: error: cannot find symbol
+import org.apache.asn1.ber.digester.rules.PrimitiveOctetStringRule;
+                                         ^
+  symbol:   class PrimitiveOctetStringRule
+  location: package org.apache.asn1.ber.digester.rules
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModifyRequestAttributeValueRule.java:13: error: cannot find symbol
+public class ModifyRequestAttributeValueRule extends PrimitiveOctetStringRule
+                                                     ^
+  symbol: class PrimitiveOctetStringRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModifyRequestAttributeValueRule.java:16: error: cannot find symbol
+        super((TagEnum)UniversalTag.OCTET_STRING);
+               ^
+  symbol:   class TagEnum
+  location: class ModifyRequestAttributeValueRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModifyRequestAttributeValueRule.java:16: error: cannot find symbol
+        super((TagEnum)UniversalTag.OCTET_STRING);
+                       ^
+  symbol:   variable UniversalTag
+  location: class ModifyRequestAttributeValueRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModifyRequestAttributeValueRule.java:20: error: cannot find symbol
+        if (this.isConstructed()) {
+                ^
+  symbol: method isConstructed()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModifyRequestAttributeValueRule.java:23: error: cannot find symbol
+        final ByteBuffer buf = this.getAccumulator().drain(0);
+                                   ^
+  symbol: method getAccumulator()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModifyRequestAttributeValueRule.java:24: error: cannot find symbol
+        final ModificationItem mods = (ModificationItem)this.getDigester().peek();
+                                                            ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/modify/ModifyRequestAttributeValueRule.java:34: error: cannot find symbol
+        this.setConstructed(false);
+            ^
+  symbol: method setConstructed(boolean)
+10 errors

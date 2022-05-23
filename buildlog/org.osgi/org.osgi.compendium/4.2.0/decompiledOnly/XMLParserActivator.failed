@@ -1,0 +1,82 @@
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:7: error: package org.osgi.framework does not exist
+import org.osgi.framework.ServiceReference;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:8: error: package org.osgi.framework does not exist
+import org.osgi.framework.ServiceRegistration;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:24: error: package org.osgi.framework does not exist
+import org.osgi.framework.Bundle;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:25: error: package org.osgi.framework does not exist
+import org.osgi.framework.BundleContext;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:26: error: package org.osgi.framework does not exist
+import org.osgi.framework.ServiceFactory;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:27: error: package org.osgi.framework does not exist
+import org.osgi.framework.BundleActivator;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:29: error: cannot find symbol
+public class XMLParserActivator implements BundleActivator, ServiceFactory
+                                           ^
+  symbol: class BundleActivator
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:29: error: cannot find symbol
+public class XMLParserActivator implements BundleActivator, ServiceFactory
+                                                            ^
+  symbol: class ServiceFactory
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:31: error: cannot find symbol
+    private volatile BundleContext context;
+                     ^
+  symbol:   class BundleContext
+  location: class XMLParserActivator
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:43: error: cannot find symbol
+    public void start(final BundleContext context) throws Exception {
+                            ^
+  symbol:   class BundleContext
+  location: class XMLParserActivator
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:50: error: cannot find symbol
+    public void stop(final BundleContext context) throws Exception {
+                           ^
+  symbol:   class BundleContext
+  location: class XMLParserActivator
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:186: error: cannot find symbol
+    public Object getService(final Bundle bundle, final ServiceRegistration registration) {
+                                   ^
+  symbol:   class Bundle
+  location: class XMLParserActivator
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:186: error: cannot find symbol
+    public Object getService(final Bundle bundle, final ServiceRegistration registration) {
+                                                        ^
+  symbol:   class ServiceRegistration
+  location: class XMLParserActivator
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:201: error: cannot find symbol
+    public void ungetService(final Bundle bundle, final ServiceRegistration registration, final Object service) {
+                                   ^
+  symbol:   class Bundle
+  location: class XMLParserActivator
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:201: error: cannot find symbol
+    public void ungetService(final Bundle bundle, final ServiceRegistration registration, final Object service) {
+                                                        ^
+  symbol:   class ServiceRegistration
+  location: class XMLParserActivator
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:45: error: cannot find symbol
+        final Bundle parserBundle = context.getBundle();
+              ^
+  symbol:   class Bundle
+  location: class XMLParserActivator
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:88: error: incompatible types: Object cannot be converted to String
+            final String parserFactoryClassName = e.next();
+                                                        ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:133: error: incompatible types: Object cannot be converted to String
+            final String parserFactoryClassName = e.next();
+                                                        ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java:187: error: cannot find symbol
+        final ServiceReference sref = registration.getReference();
+              ^
+  symbol:   class ServiceReference
+  location: class XMLParserActivator
+Note: sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/util/xml/XMLParserActivator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors

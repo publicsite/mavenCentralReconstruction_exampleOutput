@@ -1,0 +1,83 @@
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:21: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:22: error: package javax.resource.cci does not exist
+import javax.resource.cci.Connection;
+                         ^
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:23: error: package javax.resource.cci does not exist
+import javax.resource.cci.ConnectionFactory;
+                         ^
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:24: error: package javax.resource.cci does not exist
+import javax.resource.cci.ConnectionSpec;
+                         ^
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:25: error: package javax.resource.cci does not exist
+import javax.resource.cci.RecordFactory;
+                         ^
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:26: error: package javax.resource.cci does not exist
+import javax.resource.cci.ResourceAdapterMetaData;
+                         ^
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:42: error: cannot find symbol
+public class DelegatingConnectionFactory implements ConnectionFactory, InitializingBean {
+                                                    ^
+  symbol: class ConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:44: error: cannot find symbol
+	private ConnectionFactory targetConnectionFactory;
+	        ^
+  symbol:   class ConnectionFactory
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:50: error: cannot find symbol
+	public void setTargetConnectionFactory(ConnectionFactory targetConnectionFactory) {
+	                                       ^
+  symbol:   class ConnectionFactory
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:57: error: cannot find symbol
+	public ConnectionFactory getTargetConnectionFactory() {
+	       ^
+  symbol:   class ConnectionFactory
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:69: error: cannot find symbol
+	public Connection getConnection() throws ResourceException {
+	       ^
+  symbol:   class Connection
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:69: error: cannot find symbol
+	public Connection getConnection() throws ResourceException {
+	                                         ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:73: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	                                ^
+  symbol:   class ConnectionSpec
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:73: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	       ^
+  symbol:   class Connection
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:73: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	                                                                      ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:77: error: cannot find symbol
+	public RecordFactory getRecordFactory() throws ResourceException {
+	       ^
+  symbol:   class RecordFactory
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:77: error: cannot find symbol
+	public RecordFactory getRecordFactory() throws ResourceException {
+	                                               ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:81: error: cannot find symbol
+	public ResourceAdapterMetaData getMetaData() throws ResourceException {
+	       ^
+  symbol:   class ResourceAdapterMetaData
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/DelegatingConnectionFactory.java:81: error: cannot find symbol
+	public ResourceAdapterMetaData getMetaData() throws ResourceException {
+	                                                    ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+19 errors

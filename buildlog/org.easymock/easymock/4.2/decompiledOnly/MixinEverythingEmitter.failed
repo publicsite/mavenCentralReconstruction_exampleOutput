@@ -1,0 +1,59 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:8: error: cannot find symbol
+import org.easymock.cglib.core.CollectionUtils;
+                              ^
+  symbol:   class CollectionUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:9: error: cannot find symbol
+import org.easymock.cglib.core.RejectModifierPredicate;
+                              ^
+  symbol:   class RejectModifierPredicate
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:14: error: cannot find symbol
+import org.easymock.cglib.core.ReflectUtils;
+                              ^
+  symbol:   class ReflectUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:16: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:18: error: cannot find symbol
+class MixinEverythingEmitter extends MixinEmitter
+                                     ^
+  symbol: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:20: error: cannot find symbol
+    public MixinEverythingEmitter(final ClassVisitor v, final String className, final Class[] classes) {
+                                        ^
+  symbol:   class ClassVisitor
+  location: class MixinEverythingEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:28: error: cannot find symbol
+            ReflectUtils.addAllInterfaces(classes[i], list);
+            ^
+  symbol:   variable ReflectUtils
+  location: class MixinEverythingEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:30: error: incompatible types: Object[] cannot be converted to Class[]
+        return list.toArray(new Class[list.size()]);
+                           ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:36: error: cannot find symbol
+        CollectionUtils.filter(methods, new RejectModifierPredicate(24));
+                                            ^
+  symbol:   class RejectModifierPredicate
+  location: class MixinEverythingEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:36: error: cannot find symbol
+        CollectionUtils.filter(methods, new RejectModifierPredicate(24));
+        ^
+  symbol:   variable CollectionUtils
+  location: class MixinEverythingEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java:37: error: incompatible types: Object[] cannot be converted to Method[]
+        return methods.toArray(new Method[methods.size()]);
+                              ^
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEverythingEmitter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+13 errors

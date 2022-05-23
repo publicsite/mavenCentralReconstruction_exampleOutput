@@ -1,0 +1,60 @@
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/accessplan/EnhancedPropertyAccessPlan.java:18: error: package net.sf.cglib.beans does not exist
+import net.sf.cglib.beans.BulkBean;
+                         ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/accessplan/EnhancedPropertyAccessPlan.java:25: error: cannot find symbol
+  private BulkBean bulkBean;
+          ^
+  symbol:   class BulkBean
+  location: class EnhancedPropertyAccessPlan
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/transaction/jta/JtaTransaction.java:26: error: package javax.transaction does not exist
+import javax.transaction.Status;
+                        ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/transaction/jta/JtaTransaction.java:27: error: package javax.transaction does not exist
+import javax.transaction.UserTransaction;
+                        ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/transaction/jta/JtaTransaction.java:35: error: cannot find symbol
+  private UserTransaction userTransaction;
+          ^
+  symbol:   class UserTransaction
+  location: class JtaTransaction
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/transaction/jta/JtaTransaction.java:43: error: cannot find symbol
+  public JtaTransaction(UserTransaction utx, DataSource ds, int isolationLevel) throws TransactionException {
+                        ^
+  symbol:   class UserTransaction
+  location: class JtaTransaction
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/transaction/jta/JtaTransactionConfig.java:47: error: cannot find symbol
+      userTransaction = (UserTransaction) initCtx.lookup(utxName);
+                         ^
+  symbol:   class UserTransaction
+  location: class JtaTransactionConfig
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/common/jdbc/DbcpConfiguration.java:65: error: cannot find symbol
+    BasicDataSource basicDataSource = new BasicDataSource();
+    ^
+  symbol:   class BasicDataSource
+  location: class DbcpConfiguration
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/common/jdbc/DbcpConfiguration.java:65: error: cannot find symbol
+    BasicDataSource basicDataSource = new BasicDataSource();
+                                          ^
+  symbol:   class BasicDataSource
+  location: class DbcpConfiguration
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/common/jdbc/DbcpConfiguration.java:95: error: cannot find symbol
+    BasicDataSource basicDataSource = null;
+    ^
+  symbol:   class BasicDataSource
+  location: class DbcpConfiguration
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/common/jdbc/DbcpConfiguration.java:97: error: cannot find symbol
+      basicDataSource = new BasicDataSource();
+                            ^
+  symbol:   class BasicDataSource
+  location: class DbcpConfiguration
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/accessplan/EnhancedPropertyAccessPlan.java:29: error: cannot find symbol
+    bulkBean = BulkBean.create(clazz, getGetterNames(propertyNames), getSetterNames(propertyNames), getTypes(propertyNames));
+               ^
+  symbol:   variable BulkBean
+  location: class EnhancedPropertyAccessPlan
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/transaction/jta/JtaTransaction.java:59: error: cannot find symbol
+      newTransaction = userTransaction.getStatus() == Status.STATUS_NO_TRANSACTION;
+                                                      ^
+  symbol:   variable Status
+  location: class JtaTransaction
+13 errors

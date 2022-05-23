@@ -1,0 +1,25 @@
+hybrids/xml-apis/xml-apis/1.3.04/XMLReaderFactory.java:8: error: package exists in another module: java.xml
+package org.xml.sax.helpers;
+^
+hybrids/xml-apis/xml-apis/1.3.04/XMLReaderFactory.java:114: error: cannot find symbol
+        SecuritySupport ss = SecuritySupport.getInstance();
+        ^
+  symbol:   class SecuritySupport
+  location: class XMLReaderFactory
+hybrids/xml-apis/xml-apis/1.3.04/XMLReaderFactory.java:114: error: cannot find symbol
+        SecuritySupport ss = SecuritySupport.getInstance();
+                             ^
+  symbol:   variable SecuritySupport
+  location: class XMLReaderFactory
+hybrids/xml-apis/xml-apis/1.3.04/XMLReaderFactory.java:115: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+        ClassLoader	loader = NewInstance.getClassLoader ();
+                   	         ^
+hybrids/xml-apis/xml-apis/1.3.04/XMLReaderFactory.java:232: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+        return loadClass (NewInstance.getClassLoader (), className);
+                          ^
+hybrids/xml-apis/xml-apis/1.3.04/XMLReaderFactory.java:239: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+            return (XMLReader) NewInstance.newInstance (loader, className);
+                               ^
+Note: hybrids/xml-apis/xml-apis/1.3.04/XMLReaderFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+6 errors

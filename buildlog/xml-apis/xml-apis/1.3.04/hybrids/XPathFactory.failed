@@ -1,0 +1,12 @@
+hybrids/xml-apis/xml-apis/1.3.04/XPathFactory.java:19: error: package exists in another module: java.xml
+package javax.xml.xpath;
+^
+hybrids/xml-apis/xml-apis/1.3.04/XPathFactory.java:147: error: cannot find symbol
+		ClassLoader classLoader = SecuritySupport.getContextClassLoader();
+		                          ^
+  symbol:   variable SecuritySupport
+  location: class XPathFactory
+hybrids/xml-apis/xml-apis/1.3.04/XPathFactory.java:154: error: XPathFactoryFinder is not public in javax.xml.xpath; cannot be accessed from outside package
+		XPathFactory xpathFactory = new XPathFactoryFinder(classLoader).newFactory(uri);
+		                                ^
+3 errors

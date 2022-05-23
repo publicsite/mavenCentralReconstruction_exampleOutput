@@ -1,0 +1,28 @@
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.0/extractedSources/javax/xml/stream/XMLEventFactory.java:20: error: package exists in another module: java.xml
+package javax.xml.stream;
+^
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.0/extractedSources/javax/xml/stream/XMLEventFactory.java:45: error: cannot find symbol
+            return (XMLEventFactory)FactoryLocator.locate("javax.xml.stream.XMLEventFactory", "com.ctc.wstx.stax.WstxEventFactory");
+                                    ^
+  symbol:   variable FactoryLocator
+  location: class XMLEventFactory
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.0/extractedSources/javax/xml/stream/XMLEventFactory.java:49: error: cannot find symbol
+            return (XMLEventFactory)FactoryLocator.locate("javax.xml.stream.XMLEventFactory", "com.ctc.wstx.stax.WstxEventFactory");
+                                    ^
+  symbol:   variable FactoryLocator
+  location: class XMLEventFactory
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.0/extractedSources/javax/xml/stream/XMLEventFactory.java:60: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static XMLEventFactory newInstance(String factoryId,
+	                              ^
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.0/extractedSources/javax/xml/stream/XMLEventFactory.java:62: error: cannot find symbol
+            return (XMLEventFactory)FactoryLocator.locate(factoryId, "com.ctc.wstx.stax.WstxEventFactory", classLoader);
+                                    ^
+  symbol:   variable FactoryLocator
+  location: class XMLEventFactory
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.0/extractedSources/javax/xml/stream/XMLEventFactory.java:68: error: cannot find symbol
+            return (XMLEventFactory)FactoryLocator.locate(factoryId, "com.ctc.wstx.stax.WstxEventFactory", classLoader);
+                                    ^
+  symbol:   variable FactoryLocator
+  location: class XMLEventFactory
+5 errors
+1 warning

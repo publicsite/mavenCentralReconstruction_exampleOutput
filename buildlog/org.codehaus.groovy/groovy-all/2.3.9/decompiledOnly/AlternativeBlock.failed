@@ -1,0 +1,182 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:7: error: cannot find symbol
+import groovyjarjarantlr.collections.impl.Vector;
+                                         ^
+  symbol:   class Vector
+  location: package groovyjarjarantlr.collections.impl
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:9: error: cannot find symbol
+class AlternativeBlock extends AlternativeElement
+                               ^
+  symbol: class AlternativeElement
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:12: error: cannot find symbol
+    protected Vector alternatives;
+              ^
+  symbol:   class Vector
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:28: error: cannot find symbol
+    public AlternativeBlock(final Grammar grammar) {
+                                  ^
+  symbol:   class Grammar
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:46: error: cannot find symbol
+    public AlternativeBlock(final Grammar grammar, final Token token, final boolean not) {
+                                  ^
+  symbol:   class Grammar
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:64: error: cannot find symbol
+    public void addAlternative(final Alternative alternative) {
+                                     ^
+  symbol:   class Alternative
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:72: error: cannot find symbol
+    public Alternative getAlternativeAt(final int n) {
+           ^
+  symbol:   class Alternative
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:76: error: cannot find symbol
+    public Vector getAlternatives() {
+           ^
+  symbol:   class Vector
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:92: error: cannot find symbol
+    public Lookahead look(final int n) {
+           ^
+  symbol:   class Lookahead
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:104: error: cannot find symbol
+    public void removeTrackingOfRuleRefs(final Grammar grammar) {
+                                               ^
+  symbol:   class Grammar
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:124: error: cannot find symbol
+    public void setAlternatives(final Vector alternatives) {
+                                      ^
+  symbol:   class Vector
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:40: error: cannot find symbol
+        this.alternatives = new Vector(5);
+                                ^
+  symbol:   class Vector
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:58: error: cannot find symbol
+        this.alternatives = new Vector(5);
+                                ^
+  symbol:   class Vector
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:69: error: cannot find symbol
+        this.grammar.generator.gen(this);
+            ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:73: error: cannot find symbol
+        return (Alternative)this.alternatives.elementAt(n);
+                ^
+  symbol:   class Alternative
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:93: error: cannot find symbol
+        return this.grammar.theLLkAnalyzer.look(n, this);
+                   ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:98: error: cannot find symbol
+            final Alternative alternative = (Alternative)this.alternatives.elementAt(i);
+                  ^
+  symbol:   class Alternative
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:98: error: cannot find symbol
+            final Alternative alternative = (Alternative)this.alternatives.elementAt(i);
+                                             ^
+  symbol:   class Alternative
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:99: error: cannot find symbol
+            alternative.cache = new Lookahead[this.grammar.maxk + 1];
+                                    ^
+  symbol:   class Lookahead
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:99: error: cannot find symbol
+            alternative.cache = new Lookahead[this.grammar.maxk + 1];
+                                                  ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:106: error: cannot find symbol
+            for (AlternativeElement alternativeElement = this.getAlternativeAt(i).head; alternativeElement != null; alternativeElement = alternativeElement.next) {
+                 ^
+  symbol:   class AlternativeElement
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:107: error: cannot find symbol
+                if (alternativeElement instanceof RuleRefElement) {
+                                                  ^
+  symbol:   class RuleRefElement
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:108: error: cannot find symbol
+                    final RuleRefElement ruleRefElement = (RuleRefElement)alternativeElement;
+                          ^
+  symbol:   class RuleRefElement
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:108: error: cannot find symbol
+                    final RuleRefElement ruleRefElement = (RuleRefElement)alternativeElement;
+                                                           ^
+  symbol:   class RuleRefElement
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:109: error: cannot find symbol
+                    final RuleSymbol ruleSymbol = (RuleSymbol)grammar.getSymbol(ruleRefElement.targetRule);
+                          ^
+  symbol:   class RuleSymbol
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:109: error: cannot find symbol
+                    final RuleSymbol ruleSymbol = (RuleSymbol)grammar.getSymbol(ruleRefElement.targetRule);
+                                                   ^
+  symbol:   class RuleSymbol
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:111: error: cannot find symbol
+                        this.grammar.antlrTool.error("rule " + ruleRefElement.targetRule + " referenced in (...)=>, but not defined");
+                            ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:149: error: cannot find symbol
+                this.grammar.antlrTool.error("Value for warnWhenFollowAmbig must be true or false", this.grammar.getFilename(), token.getLine(), token.getColumn());
+                    ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:149: error: cannot find symbol
+                this.grammar.antlrTool.error("Value for warnWhenFollowAmbig must be true or false", this.grammar.getFilename(), token.getLine(), token.getColumn());
+                                                                                                        ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:160: error: cannot find symbol
+                this.grammar.antlrTool.error("Value for generateAmbigWarnings must be true or false", this.grammar.getFilename(), token.getLine(), token.getColumn());
+                    ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:160: error: cannot find symbol
+                this.grammar.antlrTool.error("Value for generateAmbigWarnings must be true or false", this.grammar.getFilename(), token.getLine(), token.getColumn());
+                                                                                                          ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:173: error: cannot find symbol
+                this.grammar.antlrTool.error("Value for greedy must be true or false", this.grammar.getFilename(), token.getLine(), token.getColumn());
+                    ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:173: error: cannot find symbol
+                this.grammar.antlrTool.error("Value for greedy must be true or false", this.grammar.getFilename(), token.getLine(), token.getColumn());
+                                                                                           ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:177: error: cannot find symbol
+            this.grammar.antlrTool.error("Invalid subrule option: " + token.getText(), this.grammar.getFilename(), token.getLine(), token.getColumn());
+                ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:177: error: cannot find symbol
+            this.grammar.antlrTool.error("Invalid subrule option: " + token.getText(), this.grammar.getFilename(), token.getLine(), token.getColumn());
+                                                                                           ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:187: error: cannot find symbol
+            final Alternative alternative = this.getAlternativeAt(i);
+                  ^
+  symbol:   class Alternative
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:188: error: cannot find symbol
+            final Lookahead[] cache = alternative.cache;
+                  ^
+  symbol:   class Lookahead
+  location: class AlternativeBlock
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:197: error: cannot find symbol
+                        str2 += cache[j].toString(",", this.grammar.tokenManager.getVocabulary());
+                                                           ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/AlternativeBlock.java:205: error: cannot find symbol
+            AlternativeElement obj = alternative.head;
+            ^
+  symbol:   class AlternativeElement
+  location: class AlternativeBlock
+39 errors

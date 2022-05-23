@@ -1,0 +1,97 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:7: error: cannot find symbol
+import com.google.dexmaker.dx.rop.cst.CstNat;
+                                     ^
+  symbol:   class CstNat
+  location: package com.google.dexmaker.dx.rop.cst
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:9: error: cannot find symbol
+import com.google.dexmaker.dx.util.AnnotatedOutput;
+                                  ^
+  symbol:   class AnnotatedOutput
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:10: error: cannot find symbol
+import com.google.dexmaker.dx.rop.cst.CstMemberRef;
+                                     ^
+  symbol:   class CstMemberRef
+  location: package com.google.dexmaker.dx.rop.cst
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:12: error: cannot find symbol
+public abstract class MemberIdItem extends IdItem
+                                           ^
+  symbol: class IdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:14: error: cannot find symbol
+    private final CstMemberRef cst;
+                  ^
+  symbol:   class CstMemberRef
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:16: error: cannot find symbol
+    public MemberIdItem(final CstMemberRef cst) {
+                              ^
+  symbol:   class CstMemberRef
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:27: error: cannot find symbol
+    public void addContents(final DexFile file) {
+                                  ^
+  symbol:   class DexFile
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:34: error: cannot find symbol
+    public final void writeTo(final DexFile file, final AnnotatedOutput out) {
+                                    ^
+  symbol:   class DexFile
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:34: error: cannot find symbol
+    public final void writeTo(final DexFile file, final AnnotatedOutput out) {
+                                                        ^
+  symbol:   class AnnotatedOutput
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:52: error: cannot find symbol
+    protected abstract int getTypoidIdx(final DexFile p0);
+                                              ^
+  symbol:   class DexFile
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:56: error: cannot find symbol
+    public final CstMemberRef getRef() {
+                 ^
+  symbol:   class CstMemberRef
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:21: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:26: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:28: error: cannot find symbol
+        super.addContents(file);
+        ^
+  symbol:   variable super
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:29: error: cannot find symbol
+        final StringIdsSection stringIds = file.getStringIds();
+              ^
+  symbol:   class StringIdsSection
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:35: error: cannot find symbol
+        final TypeIdsSection typeIds = file.getTypeIds();
+              ^
+  symbol:   class TypeIdsSection
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:36: error: cannot find symbol
+        final StringIdsSection stringIds = file.getStringIds();
+              ^
+  symbol:   class StringIdsSection
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:37: error: cannot find symbol
+        final CstNat nat = this.cst.getNat();
+              ^
+  symbol:   class CstNat
+  location: class MemberIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:38: error: cannot find symbol
+        final int classIdx = typeIds.indexOf(this.getDefiningClass());
+                                                 ^
+  symbol: method getDefiningClass()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/MemberIdItem.java:42: error: cannot find symbol
+            out.annotate(0, this.indexString() + ' ' + this.cst.toHuman());
+                                ^
+  symbol: method indexString()
+21 errors

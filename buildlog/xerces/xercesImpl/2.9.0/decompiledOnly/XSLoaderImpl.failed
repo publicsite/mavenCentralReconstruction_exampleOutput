@@ -1,0 +1,316 @@
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/util/XSGrammarPool.java:29: error: incompatible types: Object[] cannot be converted to SchemaGrammar[]
+        return new XSModelImpl(list.toArray(new SchemaGrammar[size]));
+                                           ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/XMLSchemaLoader.java:297: error: incompatible types: Object cannot be converted to LocationArray
+            final LocationArray locationArray = hashtable.get((targetNamespace == null) ? XMLSymbols.EMPTY_STRING : targetNamespace);
+                                                             ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/XMLSchemaLoader.java:329: error: incompatible types: Object cannot be converted to LocationArray
+                LocationArray value = hashtable.get(XMLSymbols.EMPTY_STRING);
+                                                   ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/XMLSchemaLoader.java:351: error: incompatible types: Object cannot be converted to LocationArray
+                LocationArray value = hashtable.get(nextToken);
+                                                   ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/XMLSchemaLoader.java:370: error: incompatible types: Object cannot be converted to SchemaGrammar
+                final SchemaGrammar schemaGrammar = this.fJAXPCache.get(this.fJAXPSource);
+                                                                       ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/XMLSchemaLoader.java:405: error: incompatible types: Object cannot be converted to SchemaGrammar
+                final SchemaGrammar schemaGrammar2 = this.fJAXPCache.get(array[i]);
+                                                                        ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/util/ParserConfigurationSettings.java:62: error: incompatible types: Object cannot be converted to Boolean
+        final Boolean b = this.fFeatures.get(key);
+                                            ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLErrorReporter.java:62: error: incompatible types: Object cannot be converted to MessageFormatter
+        return this.fMessageFormatters.get(key);
+                                          ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLErrorReporter.java:66: error: incompatible types: Object cannot be converted to MessageFormatter
+        return this.fMessageFormatters.remove(key);
+                                             ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:193: error: incompatible types: Object cannot be converted to Entity
+        final Entity entity = this.fEntities.get(key);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:198: error: incompatible types: Object cannot be converted to Entity
+        final Entity entity = this.fEntities.get(key);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:212: error: incompatible types: Object cannot be converted to Entity
+        final Entity entity = this.fEntities.get(key);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:251: error: incompatible types: Object cannot be converted to Entity
+        final Entity entity = this.fEntities.get(str);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:386: error: cannot find symbol
+                            final Map.Entry<String, V> entry = httpRequestProperties.next();
+                                                    ^
+  symbol:   class V
+  location: class XMLEntityManager
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:574: error: cannot find symbol
+                this.fReaderStack.pop().close();
+                                       ^
+  symbol:   method close()
+  location: class Object
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:954: error: incompatible types: bad type in conditional expression
+        this.fCurrentEntity = ((this.fEntityStack.size() > 0) ? this.fEntityStack.pop() : null);
+                                                                                     ^
+    Object cannot be converted to XMLEntityManager.ScannedEntity
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:188: error: incompatible types: bad type in conditional expression
+        return (documentURI != null) ? documentURI : this.fDoc2SystemId.get(key);
+                                                                           ^
+    Object cannot be converted to String
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:367: error: incompatible types: Object cannot be converted to String
+            final String key = this.fAllTNSs.elementAt(i);
+                                                      ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:368: error: incompatible types: Object cannot be converted to Vector<String>
+            final Vector<String> importedGrammars = this.fImportMap.get(key);
+                                                                       ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:375: error: incompatible types: SchemaGrammar cannot be converted to String
+                        importedGrammars.setElementAt((String)grammar3, size++);
+                                                              ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:396: error: incompatible types: Object cannot be converted to String
+            xmlInputSource.setSystemId(list.get(i));
+                                               ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:492: error: incompatible types: Object cannot be converted to String
+        schemaGrammar.addDocument(null, this.fDoc2SystemId.get(xsDocumentInfo.fSchemaElement));
+                                                              ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:539: error: incompatible types: Object cannot be converted to Vector<String>
+                    final Vector<String> vector = this.fImportMap.get(null2EmptyString);
+                                                                     ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:626: error: incompatible types: bad type in conditional expression
+                    constructTrees = ((key2 == null) ? null : this.fDoc2XSDocumentMap.get(key2));
+                                                                                         ^
+    Object cannot be converted to XSDocumentInfo
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:662: error: incompatible types: Object cannot be converted to XSDocumentInfo
+            final XSDocumentInfo key = stack.pop();
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:736: error: incompatible types: Object cannot be converted to Vector<XSDocumentInfo>
+            final Vector<XSDocumentInfo> vector = this.fDependencyMap.get(key);
+                                                                         ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:748: error: incompatible types: Object cannot be converted to XSDocumentInfo
+            final XSDocumentInfo key = stack.pop();
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:826: error: incompatible types: Object cannot be converted to Vector<XSDocumentInfo>
+            final Vector<XSDocumentInfo> vector = this.fDependencyMap.get(key);
+                                                                         ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:1009: error: incompatible types: Object cannot be converted to String
+                s2 = this.fRedefinedRestrictedAttributeGroupRegistry.get(s);
+                                                                        ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:1013: error: incompatible types: Object cannot be converted to String
+                s2 = this.fRedefinedRestrictedGroupRegistry.get(s);
+                                                               ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:1173: error: incompatible types: Object cannot be converted to Element
+                    if ((element2 = this.fTraversed.get(xsdKey)) != null) {
+                                                       ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:1420: error: incompatible types: Object cannot be converted to Element
+        if ((value3 = hashtable.get(s)) == null) {
+                                   ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:1426: error: incompatible types: Object cannot be converted to XSDocumentInfo
+            final XSDocumentInfo xsDocumentInfo = hashtable2.get(s);
+                                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:1665: error: incompatible types: Object cannot be converted to Vector<XSDocumentInfo>
+            final Vector<XSDocumentInfo> vector = this.fDependencyMap.get(key);
+                                                                         ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDHandler.java:1686: error: incompatible types: Object cannot be converted to String
+            final String s = this.fDoc2SystemId.get(DOMUtil.getRoot(elementImpl.getOwnerDocument()));
+                                                   ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/XSGrammarBucket.java:25: error: incompatible types: Object cannot be converted to SchemaGrammar
+        return this.fGrammarRegistry.get(key);
+                                        ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/XSGrammarBucket.java:53: error: incompatible types: Object cannot be converted to SchemaGrammar
+            final SchemaGrammar schemaGrammar2 = vector.elementAt(i);
+                                                                 ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/XSGrammarBucket.java:59: error: incompatible types: Object cannot be converted to SchemaGrammar
+                        final SchemaGrammar schemaGrammar3 = importedGrammars2.elementAt(j);
+                                                                                        ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/XSGrammarBucket.java:72: error: incompatible types: Object cannot be converted to SchemaGrammar
+            this.putGrammar(vector.elementAt(k));
+                                            ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/SubstitutionGroupHandler.java:96: error: incompatible types: Object cannot be converted to Vector<XSElementDecl>
+            Vector<XSElementDecl> value = this.fSubGroupsB.get(fSubGroup);
+                                                              ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/SubstitutionGroupHandler.java:106: error: incompatible types: Object cannot be converted to XSElementDecl[]
+        final XSElementDecl[] value = this.fSubGroups.get(key);
+                                                         ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/SubstitutionGroupHandler.java:133: error: incompatible types: Object cannot be converted to Vector<XSElementDecl>
+        final Vector<XSElementDecl> value = this.fSubGroupsB.get(key);
+                                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/SubstitutionGroupHandler.java:138: error: incompatible types: Vector<XSElementDecl> cannot be converted to OneSubGroup[]
+        if (value instanceof OneSubGroup[]) {
+            ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/SubstitutionGroupHandler.java:161: error: incompatible types: Object cannot be converted to OneSubGroup
+            value2[k] = vector2.elementAt(k);
+                                         ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/util/DOMErrorHandlerWrapper.java:174: error: incompatible types: Object cannot be converted to String
+            return DOMErrorTypeMap.fgDOMErrorTypeTable.get(key);
+                                                          ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/SchemaGrammar.java:335: error: incompatible types: Object cannot be converted to DOMParser
+            final DOMParser domParser = this.fDOMParser.get();
+                                                           ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/SchemaGrammar.java:354: error: incompatible types: Object cannot be converted to SAXParser
+            final SAXParser saxParser = this.fSAXParser.get();
+                                                           ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/parsers/AbstractDOMParser.java:352: error: incompatible types: Object cannot be converted to Document
+                    this.fDocument = providerClass.newInstance();
+                                                              ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/parsers/AbstractDOMParser.java:1001: error: incompatible types: Object cannot be converted to String
+                namedItem.setBaseURI(this.fBaseURIStack.peek());
+                                                            ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/parsers/AbstractDOMParser.java:1014: error: incompatible types: Object cannot be converted to String
+                this.fDeferredDocumentImpl.appendChild(this.fDocumentTypeIndex, this.fDeferredDocumentImpl.createDeferredEntity(s, null, null, null, this.fBaseURIStack.peek()));
+                                                                                                                                                                            ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/CoreDocumentImpl.java:598: error: incompatible types: Object cannot be converted to Integer
+            final Integer n = this.nodeTable.get(key);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/CoreDocumentImpl.java:945: error: incompatible types: Object cannot be converted to Element
+        final Element element = this.identifiers.get(key);
+                                                    ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/CoreDocumentImpl.java:1066: error: incompatible types: Object cannot be converted to Hashtable<Object,Object>
+                final Hashtable<Object, Object> hashtable = this.userData.get(node);
+                                                                             ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/CoreDocumentImpl.java:1083: error: incompatible types: Object cannot be converted to Hashtable<String,ParentNode.UserDataRecord>
+            hashtable2 = this.userData.get(node);
+                                          ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/CoreDocumentImpl.java:1100: error: incompatible types: Object cannot be converted to Hashtable<Object,Object>
+        final Hashtable<Object, Object> hashtable = this.userData.get(key);
+                                                                     ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/CoreDocumentImpl.java:1115: error: incompatible types: Object cannot be converted to Hashtable
+        final Hashtable hashtable = this.userData.get(key);
+                                                     ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/CoreDocumentImpl.java:1126: error: incompatible types: Object cannot be converted to Hashtable
+        return this.userData.get(key);
+                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/CoreDocumentImpl.java:1158: error: incompatible types: Object cannot be converted to ParentNode.UserDataRecord
+            final UserDataRecord userDataRecord = hashtable.get(key);
+                                                               ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DocumentImpl.java:213: error: incompatible types: Object cannot be converted to Vector
+        return this.eventListeners.get(key);
+                                      ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DocumentImpl.java:252: error: incompatible types: Object cannot be converted to DocumentImpl.LEntry
+            final LEntry lEntry = eventListeners.elementAt(i);
+                                                          ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DocumentImpl.java:317: error: incompatible types: Object cannot be converted to DocumentImpl.LEntry
+                        final LEntry o = vector.elementAt(j);
+                                                         ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DocumentImpl.java:335: error: incompatible types: Object cannot be converted to DocumentImpl.LEntry
+                    final LEntry o2 = vector2.elementAt(k);
+                                                       ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DocumentImpl.java:356: error: incompatible types: Object cannot be converted to DocumentImpl.LEntry
+                            final LEntry o3 = vector3.elementAt(index);
+                                                               ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DocumentTypeImpl.java:211: error: incompatible types: Object cannot be converted to ParentNode.UserDataRecord
+                final UserDataRecord remove = this.userData.remove(s);
+                                                                  ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DocumentTypeImpl.java:218: error: incompatible types: Object cannot be converted to ParentNode.UserDataRecord
+        final UserDataRecord put = this.userData.put(s, new UserDataRecord(o, userDataHandler));
+                                                    ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DocumentTypeImpl.java:229: error: incompatible types: Object cannot be converted to ParentNode.UserDataRecord
+        final UserDataRecord value = this.userData.get(key);
+                                                      ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DOMNormalizer.java:512: error: incompatible types: Object cannot be converted to Attr
+                final Attr fRelatedNode2 = this.fAttributeList.elementAt(j);
+                                                                        ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DOMNormalizer.java:1085: error: incompatible types: Object cannot be converted to Augmentations
+            return this.fAugmentations.elementAt(index);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DOMConfigurationImpl.java:206: error: incompatible types: Object cannot be converted to XMLEntityResolver
+        return super.fProperties.get("http://apache.org/xml/properties/internal/entity-resolver");
+                                    ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/DOMConfigurationImpl.java:216: error: incompatible types: Object cannot be converted to XMLErrorHandler
+        return super.fProperties.get("http://apache.org/xml/properties/internal/error-handler");
+                                    ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/NamedNodeMapImpl.java:32: error: incompatible types: bad type in conditional expression
+        return (this.nodes != null && index < this.nodes.size()) ? this.nodes.elementAt(index) : null;
+                                                                                       ^
+    Object cannot be converted to Node
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/NamedNodeMapImpl.java:58: error: incompatible types: Object cannot be converted to Node
+            node2 = this.nodes.elementAt(namePoint);
+                                        ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/NamedNodeMapImpl.java:84: error: incompatible types: Object cannot be converted to Node
+            node = this.nodes.elementAt(namePoint);
+                                       ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/NamedNodeMapImpl.java:112: error: incompatible types: Object cannot be converted to NodeImpl
+        final NodeImpl nodeImpl = this.nodes.elementAt(namePoint);
+                                                      ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/NamedNodeMapImpl.java:125: error: incompatible types: Object cannot be converted to NodeImpl
+        final NodeImpl nodeImpl = this.nodes.elementAt(namePoint);
+                                                      ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/NamedNodeMapImpl.java:146: error: incompatible types: Object cannot be converted to NodeImpl
+                    final NodeImpl nodeImpl = namedNodeMapImpl.nodes.elementAt(i);
+                                                                              ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/NamedNodeMapImpl.java:207: error: cannot find symbol
+                final int compareTo = s.compareTo(this.nodes.elementAt(index).getNodeName());
+                                                                             ^
+  symbol:   method getNodeName()
+  location: class Object
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/NamedNodeMapImpl.java:233: error: incompatible types: Object cannot be converted to NodeImpl
+            final NodeImpl nodeImpl = this.nodes.elementAt(i);
+                                                          ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/NamedNodeMapImpl.java:251: error: incompatible types: Object cannot be converted to Node
+                final Node node3 = this.nodes.elementAt(i);
+                                                       ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/AttributeMap.java:46: error: incompatible types: Object cannot be converted to AttrImpl
+                attrImpl2 = super.nodes.elementAt(namePoint);
+                                                 ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/AttributeMap.java:91: error: incompatible types: Object cannot be converted to AttrImpl
+                attrImpl2 = super.nodes.elementAt(namePoint);
+                                                 ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/AttributeMap.java:213: error: incompatible types: Object cannot be converted to AttrImpl
+            final AttrImpl attrImpl = super.nodes.elementAt(namePoint);
+                                                           ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/AttributeMap.java:277: error: incompatible types: Object cannot be converted to NodeImpl
+                    final NodeImpl nodeImpl = nodes.elementAt(i);
+                                                             ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/AttributeMap.java:290: error: incompatible types: Object cannot be converted to AttrImpl
+            final AttrImpl attrImpl = attributeMap.nodes.elementAt(i);
+                                                                  ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/AttributeMap.java:305: error: incompatible types: Object cannot be converted to AttrImpl
+            final AttrImpl attrImpl = super.nodes.elementAt(i);
+                                                           ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/dom/AttributeMap.java:318: error: incompatible types: Object cannot be converted to AttrImpl
+                final AttrImpl attrImpl2 = namedNodeMapImpl.nodes.elementAt(j);
+                                                                           ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDocumentInfo.java:78: error: incompatible types: Object cannot be converted to SchemaNamespaceSupport
+        this.fNamespaceSupport = this.SchemaNamespaceSupportStack.pop();
+                                                                     ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSAttributeChecker.java:189: error: incompatible types: Object cannot be converted to Container
+        final Container container = hashtable.get(key);
+                                                 ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSAttributeChecker.java:609: error: incompatible types: Object cannot be converted to Vector<String>
+            final Vector<String> vector = this.fNonSchemaAttrs.get(key);
+                                                                  ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDAbstractTraverser.java:103: error: incompatible types: Object cannot be converted to String
+            final String str = vector.elementAt(i++);
+                                               ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDAbstractTraverser.java:120: error: incompatible types: Object cannot be converted to String
+                sb.append(processAttValue(vector.elementAt(i++))).append("\" ");
+                                                          ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDAbstractTraverser.java:152: error: incompatible types: Object cannot be converted to String
+            final String str = vector.elementAt(i++);
+                                               ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDAbstractTraverser.java:164: error: incompatible types: Object cannot be converted to String
+            sb.append(processAttValue(vector.elementAt(i++))).append("\" ");
+                                                      ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDAbstractTraverser.java:303: error: incompatible types: Object cannot be converted to boolean
+                    if (array[XSAttributeChecker.ATTIDX_FIXED]) {
+                             ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/xs/traversers/XSDSimpleTypeTraverser.java:167: error: incompatible types: Object cannot be converted to QName
+                final XSSimpleType dtValidator = this.findDTValidator(element2, s, vector.elementAt(i), (short)8, xsDocumentInfo);
+                                                                                                   ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/parsers/XML11Configuration.java:283: error: incompatible types: Object cannot be converted to XMLEntityResolver
+        return super.fProperties.get("http://apache.org/xml/properties/internal/entity-resolver");
+                                    ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/parsers/XML11Configuration.java:291: error: incompatible types: Object cannot be converted to XMLErrorHandler
+        return super.fProperties.get("http://apache.org/xml/properties/internal/error-handler");
+                                    ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/parsers/XML11Configuration.java:394: error: incompatible types: Object cannot be converted to XMLComponent
+            final XMLComponent xmlComponent = this.fXML11Components.get(k);
+                                                                       ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/parsers/XML11Configuration.java:412: error: incompatible types: Object cannot be converted to XMLComponent
+            final XMLComponent xmlComponent = this.fXML11Components.get(k);
+                                                                       ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/dtd/XMLDTDProcessor.java:523: error: incompatible types: Object cannot be converted to String
+                final String s = this.fNDataDeclNotations.get(key);
+                                                             ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors

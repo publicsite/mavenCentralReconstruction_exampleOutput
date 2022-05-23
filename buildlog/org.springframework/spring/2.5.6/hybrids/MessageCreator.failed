@@ -1,0 +1,25 @@
+hybrids/org.springframework/spring/2.5.6/MessageCreator.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageCreator.java:20: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageCreator.java:21: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+hybrids/org.springframework/spring/2.5.6/MessageCreator.java:47: error: cannot find symbol
+	Message createMessage(Session session) throws JMSException;
+	                      ^
+  symbol:   class Session
+  location: interface MessageCreator
+hybrids/org.springframework/spring/2.5.6/MessageCreator.java:47: error: cannot find symbol
+	Message createMessage(Session session) throws JMSException;
+	^
+  symbol:   class Message
+  location: interface MessageCreator
+hybrids/org.springframework/spring/2.5.6/MessageCreator.java:47: error: cannot find symbol
+	Message createMessage(Session session) throws JMSException;
+	                                              ^
+  symbol:   class JMSException
+  location: interface MessageCreator
+6 errors

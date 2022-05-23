@@ -1,0 +1,34 @@
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockMultipartFile.java:9: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockMultipartFile.java:11: error: package org.springframework.util does not exist
+import org.springframework.util.FileCopyUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockMultipartFile.java:13: error: package org.springframework.web.multipart does not exist
+import org.springframework.web.multipart.MultipartFile;
+                                        ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockMultipartFile.java:15: error: cannot find symbol
+public class MockMultipartFile implements MultipartFile
+                                          ^
+  symbol: class MultipartFile
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockMultipartFile.java:27: error: cannot find symbol
+        this(name, "", null, FileCopyUtils.copyToByteArray(contentStream));
+                             ^
+  symbol:   variable FileCopyUtils
+  location: class MockMultipartFile
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockMultipartFile.java:31: error: cannot find symbol
+        Assert.hasLength(name, "Name must not be null");
+        ^
+  symbol:   variable Assert
+  location: class MockMultipartFile
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockMultipartFile.java:39: error: cannot find symbol
+        this(name, originalFilename, contentType, FileCopyUtils.copyToByteArray(contentStream));
+                                                  ^
+  symbol:   variable FileCopyUtils
+  location: class MockMultipartFile
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockMultipartFile.java:71: error: cannot find symbol
+        FileCopyUtils.copy(this.content, dest);
+        ^
+  symbol:   variable FileCopyUtils
+  location: class MockMultipartFile
+8 errors

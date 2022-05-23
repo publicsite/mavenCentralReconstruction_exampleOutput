@@ -1,0 +1,125 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:7: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:8: error: cannot find symbol
+import org.easymock.cglib.core.ReflectUtils;
+                              ^
+  symbol:   class ReflectUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:10: error: cannot find symbol
+import org.easymock.cglib.core.AbstractClassGenerator;
+                              ^
+  symbol:   class AbstractClassGenerator
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:15: error: cannot find symbol
+import org.easymock.cglib.core.Constants;
+                              ^
+  symbol:   class Constants
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:53: error: cannot find symbol
+    public FastMethod getMethod(final Method method) {
+           ^
+  symbol:   class FastMethod
+  location: class FastClass
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:57: error: cannot find symbol
+    public FastConstructor getConstructor(final Constructor constructor) {
+           ^
+  symbol:   class FastConstructor
+  location: class FastClass
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:61: error: cannot find symbol
+    public FastMethod getMethod(final String name, final Class[] parameterTypes) {
+           ^
+  symbol:   class FastMethod
+  location: class FastClass
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:70: error: cannot find symbol
+    public FastConstructor getConstructor(final Class[] parameterTypes) {
+           ^
+  symbol:   class FastConstructor
+  location: class FastClass
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:125: error: cannot find symbol
+    public static class Generator extends AbstractClassGenerator
+                                          ^
+  symbol:   class AbstractClassGenerator
+  location: class FastClass
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:127: error: cannot find symbol
+        private static final Source SOURCE;
+                             ^
+  symbol:   class Source
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:153: error: cannot find symbol
+        public void generateClass(final ClassVisitor v) throws Exception {
+                                        ^
+  symbol:   class ClassVisitor
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:37: error: cannot find symbol
+        gen.setClassLoader(loader);
+           ^
+  symbol:   method setClassLoader(ClassLoader)
+  location: variable gen of type Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:46: error: cannot find symbol
+        return this.newInstance(this.getIndex(Constants.EMPTY_CLASS_ARRAY), null);
+                                              ^
+  symbol:   variable Constants
+  location: class FastClass
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:54: error: cannot find symbol
+        return new FastMethod(this, method);
+                   ^
+  symbol:   class FastMethod
+  location: class FastClass
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:58: error: cannot find symbol
+        return new FastConstructor(this, constructor);
+                   ^
+  symbol:   class FastConstructor
+  location: class FastClass
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:139: error: cannot find symbol
+            this.setNamePrefix(this.type.getName());
+                ^
+  symbol: method setNamePrefix(String)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:140: error: non-static variable super cannot be referenced from a static context
+            return (FastClass)super.create(this.type.getName());
+                              ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:140: error: cannot find symbol
+            return (FastClass)super.create(this.type.getName());
+                                   ^
+  symbol: method create(String)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:143: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:148: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:150: error: cannot find symbol
+            return ReflectUtils.getProtectionDomain(this.type);
+                   ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:154: error: cannot find symbol
+            new FastClassEmitter(v, this.getClassName(), this.type);
+                ^
+  symbol:   class FastClassEmitter
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:154: error: cannot find symbol
+            new FastClassEmitter(v, this.getClassName(), this.type);
+                                        ^
+  symbol: method getClassName()
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:157: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:159: error: cannot find symbol
+            return ReflectUtils.newInstance(type, new Class[] { Class.class }, new Object[] { this.type });
+                   ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:162: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java:168: error: cannot find symbol
+            SOURCE = new Source(FastClass.class.getName());
+                         ^
+  symbol:   class Source
+  location: class Generator
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/reflect/FastClass.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+27 errors

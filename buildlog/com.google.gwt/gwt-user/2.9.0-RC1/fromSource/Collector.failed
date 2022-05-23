@@ -1,0 +1,22 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/Collector.java:16: error: package exists in another module: java.base
+package java.util.stream;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/Collector.java:54: error: cannot find symbol
+    return new CollectorImpl<>(supplier, accumulator, combiner, finisher, characteristics);
+               ^
+  symbol:   class CollectorImpl
+  location: interface Collector<T,A,R>
+  where T,A,R are type-variables:
+    T extends Object declared in interface Collector
+    A extends Object declared in interface Collector
+    R extends Object declared in interface Collector
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/Collector.java:66: error: cannot find symbol
+    return new CollectorImpl<T, R, R>(
+               ^
+  symbol:   class CollectorImpl
+  location: interface Collector<T,A,R>
+  where T,A,R are type-variables:
+    T extends Object declared in interface Collector
+    A extends Object declared in interface Collector
+    R extends Object declared in interface Collector
+3 errors

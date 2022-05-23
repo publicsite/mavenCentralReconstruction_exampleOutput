@@ -1,0 +1,66 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/ast/CssNode.java:18: error: package com.google.gwt.dev.util does not exist
+import com.google.gwt.dev.util.DefaultTextOutput;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/ast/CssProperty.java:18: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.Generator;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/CssGenerationVisitor.java:18: error: package com.google.gwt.dev.util does not exist
+import com.google.gwt.dev.util.TextOutput;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/CssGenerationVisitor.java:51: error: cannot find symbol
+  private final TextOutput out;
+                ^
+  symbol:   class TextOutput
+  location: class CssGenerationVisitor
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/CssGenerationVisitor.java:61: error: cannot find symbol
+  public CssGenerationVisitor(TextOutput out) {
+                              ^
+  symbol:   class TextOutput
+  location: class CssGenerationVisitor
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/CssGenerationVisitor.java:74: error: cannot find symbol
+  public CssGenerationVisitor(TextOutput out, boolean substituteDots) {
+                              ^
+  symbol:   class TextOutput
+  location: class CssGenerationVisitor
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/resources/css/ast/CssModVisitor.java:73: error: incompatible types: Object cannot be converted to CssNode
+            CssModVisitor.checkReplacement(this.list.get(this.index), node);
+                                                        ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/ast/CssNode.java:34: error: cannot find symbol
+    DefaultTextOutput out = new DefaultTextOutput(false);
+    ^
+  symbol:   class DefaultTextOutput
+  location: class CssNode
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/ast/CssNode.java:34: error: cannot find symbol
+    DefaultTextOutput out = new DefaultTextOutput(false);
+                                ^
+  symbol:   class DefaultTextOutput
+  location: class CssNode
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/ast/CssProperty.java:59: error: cannot find symbol
+        toReturn.append(Generator.escape(suffix));
+                        ^
+  symbol:   variable Generator
+  location: class DotPathValue
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/ast/CssProperty.java:149: error: cannot find symbol
+          Generator.escape(name), values.getExpression());
+          ^
+  symbol:   variable Generator
+  location: class FunctionValue
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/ast/CssProperty.java:188: error: cannot find symbol
+      return '"' + Generator.escape(ident) + '"';
+                   ^
+  symbol:   variable Generator
+  location: class IdentValue
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/ast/CssProperty.java:304: error: cannot find symbol
+        expression = '"' + s + Generator.escape(units) + '"';
+                               ^
+  symbol:   variable Generator
+  location: class NumberValue
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/resources/css/ast/CssProperty.java:390: error: cannot find symbol
+      return "\"" + Generator.escape(toCss()) + "\"";
+                    ^
+  symbol:   variable Generator
+  location: class StringValue
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/resources/css/ast/CssModVisitor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+14 errors

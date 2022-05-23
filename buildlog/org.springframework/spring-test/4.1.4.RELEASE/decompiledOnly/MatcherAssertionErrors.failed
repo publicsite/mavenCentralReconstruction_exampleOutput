@@ -1,0 +1,69 @@
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:7: error: package org.springframework.util does not exist
+import org.springframework.util.ClassUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:8: error: package org.hamcrest does not exist
+import org.hamcrest.Description;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:9: error: package org.springframework.util does not exist
+import org.springframework.util.ReflectionUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:10: error: package org.hamcrest does not exist
+import org.hamcrest.SelfDescribing;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:11: error: package org.hamcrest does not exist
+import org.hamcrest.StringDescription;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:12: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:22: error: cannot find symbol
+    public static <T> void assertThat(final T actual, final Matcher<T> matcher) {
+                                                            ^
+  symbol:   class Matcher
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:26: error: cannot find symbol
+    public static <T> void assertThat(final String reason, final T actual, final Matcher<T> matcher) {
+                                                                                 ^
+  symbol:   class Matcher
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:28: error: cannot find symbol
+            final Description description = (Description)new StringDescription();
+                  ^
+  symbol:   class Description
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:28: error: cannot find symbol
+            final Description description = (Description)new StringDescription();
+                                             ^
+  symbol:   class Description
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:28: error: cannot find symbol
+            final Description description = (Description)new StringDescription();
+                                                             ^
+  symbol:   class StringDescription
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:31: error: cannot find symbol
+            description.appendDescriptionOf((SelfDescribing)matcher);
+                                             ^
+  symbol:   class SelfDescribing
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:34: error: cannot find symbol
+                ReflectionUtils.invokeMethod(MatcherAssertionErrors.describeMismatchMethod, (Object)matcher, new Object[] { actual, description });
+                ^
+  symbol:   variable ReflectionUtils
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:46: error: cannot find symbol
+        describeMismatchMethod = ClassUtils.getMethodIfAvailable((Class)Matcher.class, "describeMismatch", new Class[] { Object.class, Description.class });
+                                                                        ^
+  symbol:   class Matcher
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:46: error: cannot find symbol
+        describeMismatchMethod = ClassUtils.getMethodIfAvailable((Class)Matcher.class, "describeMismatch", new Class[] { Object.class, Description.class });
+                                                                                                                                       ^
+  symbol:   class Description
+  location: class MatcherAssertionErrors
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MatcherAssertionErrors.java:46: error: cannot find symbol
+        describeMismatchMethod = ClassUtils.getMethodIfAvailable((Class)Matcher.class, "describeMismatch", new Class[] { Object.class, Description.class });
+                                 ^
+  symbol:   variable ClassUtils
+  location: class MatcherAssertionErrors
+16 errors

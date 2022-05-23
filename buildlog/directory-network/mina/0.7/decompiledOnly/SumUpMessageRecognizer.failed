@@ -1,0 +1,90 @@
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/SumUpMessageRecognizer.java:7: error: package net.gleamynode.netty2 does not exist
+import net.gleamynode.netty2.MessageParseException;
+                            ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/SumUpMessageRecognizer.java:8: error: package net.gleamynode.netty2 does not exist
+import net.gleamynode.netty2.Message;
+                            ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/SumUpMessageRecognizer.java:10: error: package net.gleamynode.netty2 does not exist
+import net.gleamynode.netty2.MessageRecognizer;
+                            ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/SumUpMessageRecognizer.java:12: error: cannot find symbol
+public class SumUpMessageRecognizer implements MessageRecognizer
+                                               ^
+  symbol: class MessageRecognizer
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/SumUpMessageRecognizer.java:30: error: cannot find symbol
+    public Message recognize(final ByteBuffer buf) throws MessageParseException {
+           ^
+  symbol:   class Message
+  location: class SumUpMessageRecognizer
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/SumUpMessageRecognizer.java:30: error: cannot find symbol
+    public Message recognize(final ByteBuffer buf) throws MessageParseException {
+                                                          ^
+  symbol:   class MessageParseException
+  location: class SumUpMessageRecognizer
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/SumUpMessageRecognizer.java:39: error: cannot find symbol
+                        return (Message)new AddMessage();
+                                ^
+  symbol:   class Message
+  location: class SumUpMessageRecognizer
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/AddMessage.java:7: error: package net.gleamynode.netty2 does not exist
+import net.gleamynode.netty2.MessageParseException;
+                            ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/AbstractMessage.java:7: error: package net.gleamynode.netty2 does not exist
+import net.gleamynode.netty2.MessageParseException;
+                            ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/AbstractMessage.java:9: error: package net.gleamynode.netty2 does not exist
+import net.gleamynode.netty2.Message;
+                            ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/AbstractMessage.java:11: error: cannot find symbol
+public abstract class AbstractMessage implements Message
+                                                 ^
+  symbol: class Message
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/AddMessage.java:26: error: cannot find symbol
+    protected boolean readBody(final ByteBuffer buf) throws MessageParseException {
+                                                            ^
+  symbol:   class MessageParseException
+  location: class AddMessage
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/AbstractMessage.java:30: error: cannot find symbol
+    public final boolean read(final ByteBuffer buf) throws MessageParseException {
+                                                           ^
+  symbol:   class MessageParseException
+  location: class AbstractMessage
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/AbstractMessage.java:41: error: cannot find symbol
+    private boolean readHeader(final ByteBuffer buf) throws MessageParseException {
+                                                            ^
+  symbol:   class MessageParseException
+  location: class AbstractMessage
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/AbstractMessage.java:53: error: cannot find symbol
+    protected abstract boolean readBody(final ByteBuffer p0) throws MessageParseException;
+                                                                    ^
+  symbol:   class MessageParseException
+  location: class AbstractMessage
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/SumUpMessageRecognizer.java:42: error: cannot find symbol
+                        throw new MessageParseException("unknown type: " + type);
+                                  ^
+  symbol:   class MessageParseException
+  location: class SumUpMessageRecognizer
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/SumUpMessageRecognizer.java:50: error: cannot find symbol
+                        return (Message)new ResultMessage();
+                                ^
+  symbol:   class Message
+  location: class SumUpMessageRecognizer
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/ResultMessage.java:7: error: package net.gleamynode.netty2 does not exist
+import net.gleamynode.netty2.MessageParseException;
+                            ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/ResultMessage.java:36: error: cannot find symbol
+    protected boolean readBody(final ByteBuffer buf) throws MessageParseException {
+                                                            ^
+  symbol:   class MessageParseException
+  location: class ResultMessage
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/SumUpMessageRecognizer.java:53: error: cannot find symbol
+                        throw new MessageParseException("unknown type: " + type);
+                                  ^
+  symbol:   class MessageParseException
+  location: class SumUpMessageRecognizer
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/sumup/AbstractMessage.java:47: error: cannot find symbol
+            throw new MessageParseException("type mismatches: " + readType + " (expected: " + this.type + ')');
+                      ^
+  symbol:   class MessageParseException
+  location: class AbstractMessage
+21 errors

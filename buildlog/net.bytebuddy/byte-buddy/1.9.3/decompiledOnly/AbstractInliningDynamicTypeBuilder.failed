@@ -1,0 +1,327 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/dynamic/scaffold/inline/AbstractInliningDynamicTypeBuilder.java:32: error: cannot find symbol
+public abstract class AbstractInliningDynamicTypeBuilder<T> extends Adapter<T>
+                                                                    ^
+  symbol: class Adapter
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:59: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:60: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:61: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3561: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3569: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/dynamic/scaffold/inline/AbstractInliningDynamicTypeBuilder.java:44: error: method make in class AbstractInliningDynamicTypeBuilder<T> cannot be applied to given types;
+        return this.make(typeResolutionStrategy, TypePool.Default.of(this.classFileLocator));
+                   ^
+  required: TypeResolutionStrategy
+  found: TypeResolutionStrategy,TypePool
+  reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class AbstractInliningDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/dynamic/scaffold/inline/AbstractInliningDynamicTypeBuilder.java:47: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/dynamic/scaffold/inline/AbstractInliningDynamicTypeBuilder.java:49: error: cannot find symbol
+        return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.originalType.equals(((AbstractInliningDynamicTypeBuilder)o).originalType) && this.classFileLocator.equals(((AbstractInliningDynamicTypeBuilder)o).classFileLocator)));
+               ^
+  symbol:   variable super
+  location: class AbstractInliningDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractInliningDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/dynamic/scaffold/inline/AbstractInliningDynamicTypeBuilder.java:49: error: cannot find symbol
+        return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.originalType.equals(((AbstractInliningDynamicTypeBuilder)o).originalType) && this.classFileLocator.equals(((AbstractInliningDynamicTypeBuilder)o).classFileLocator)));
+                                                                  ^
+  symbol: method getClass()
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/dynamic/scaffold/inline/AbstractInliningDynamicTypeBuilder.java:52: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/dynamic/scaffold/inline/AbstractInliningDynamicTypeBuilder.java:54: error: cannot find symbol
+        return (super.hashCode() * 31 + this.originalType.hashCode()) * 31 + this.classFileLocator.hashCode();
+                ^
+  symbol:   variable super
+  location: class AbstractInliningDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractInliningDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3555: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3555: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/ByteBuddy.java:731: error: incompatible types: RedefinitionDynamicTypeBuilder<T> cannot be converted to Builder<T>
+        return new RedefinitionDynamicTypeBuilder<T>(instrumentedTypeFactory.represent(type),
+               ^
+  where T is a type-variable:
+    T extends Object declared in method <T>redefine(TypeDescription,ClassFileLocator)
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/ByteBuddy.java:836: error: incompatible types: RebaseDynamicTypeBuilder<T> cannot be converted to Builder<T>
+        return new RebaseDynamicTypeBuilder<T>(instrumentedTypeFactory.represent(type),
+               ^
+  where T is a type-variable:
+    T extends Object declared in method <T>rebase(TypeDescription,ClassFileLocator,MethodNameTransformer)
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:169: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:185: error: incompatible types: RebaseDynamicTypeBuilder<T> cannot be converted to Builder<T>
+        return new RebaseDynamicTypeBuilder<T>(instrumentedType,
+               ^
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:209: error: cannot find symbol
+        MethodRegistry.Prepared methodRegistry = this.methodRegistry.prepare(instrumentedType,
+                                                                             ^
+  symbol:   variable instrumentedType
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:210: error: cannot find symbol
+                methodGraphCompiler,
+                ^
+  symbol:   variable methodGraphCompiler
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:211: error: cannot find symbol
+                typeValidation,
+                ^
+  symbol:   variable typeValidation
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:209: error: cannot find symbol
+        MethodRegistry.Prepared methodRegistry = this.methodRegistry.prepare(instrumentedType,
+                                                     ^
+  symbol: variable methodRegistry
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:212: error: cannot find symbol
+                InliningImplementationMatcher.of(ignoredMethods, originalType));
+                                                 ^
+  symbol:   variable ignoredMethods
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:217: error: cannot find symbol
+                classFileVersion,
+                ^
+  symbol:   variable classFileVersion
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:218: error: cannot find symbol
+                auxiliaryTypeNamingStrategy,
+                ^
+  symbol:   variable auxiliaryTypeNamingStrategy
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:221: error: cannot find symbol
+                auxiliaryTypes,
+                ^
+  symbol:   variable auxiliaryTypes
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:223: error: cannot find symbol
+                typeAttributeAppender,
+                ^
+  symbol:   variable typeAttributeAppender
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:224: error: cannot find symbol
+                asmVisitorWrapper,
+                ^
+  symbol:   variable asmVisitorWrapper
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:225: error: cannot find symbol
+                classFileVersion,
+                ^
+  symbol:   variable classFileVersion
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:226: error: cannot find symbol
+                annotationValueFilterFactory,
+                ^
+  symbol:   variable annotationValueFilterFactory
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:227: error: cannot find symbol
+                annotationRetention,
+                ^
+  symbol:   variable annotationRetention
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:228: error: cannot find symbol
+                auxiliaryTypeNamingStrategy,
+                ^
+  symbol:   variable auxiliaryTypeNamingStrategy
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:229: error: cannot find symbol
+                implementationContextFactory,
+                ^
+  symbol:   variable implementationContextFactory
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:230: error: cannot find symbol
+                typeValidation,
+                ^
+  symbol:   variable typeValidation
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:231: error: cannot find symbol
+                classWriterStrategy,
+                ^
+  symbol:   variable classWriterStrategy
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:222: error: cannot find symbol
+                fieldRegistry.compile(methodRegistry.getInstrumentedType()),
+                ^
+  symbol:   variable fieldRegistry
+  location: class RebaseDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:150: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:166: error: incompatible types: RedefinitionDynamicTypeBuilder<T> cannot be converted to Builder<T>
+        return new RedefinitionDynamicTypeBuilder<T>(instrumentedType,
+               ^
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:189: error: cannot find symbol
+        MethodRegistry.Prepared methodRegistry = this.methodRegistry.prepare(instrumentedType,
+                                                                             ^
+  symbol:   variable instrumentedType
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:190: error: cannot find symbol
+                methodGraphCompiler,
+                ^
+  symbol:   variable methodGraphCompiler
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:191: error: cannot find symbol
+                typeValidation,
+                ^
+  symbol:   variable typeValidation
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:189: error: cannot find symbol
+        MethodRegistry.Prepared methodRegistry = this.methodRegistry.prepare(instrumentedType,
+                                                     ^
+  symbol: variable methodRegistry
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:192: error: cannot find symbol
+                InliningImplementationMatcher.of(ignoredMethods, originalType));
+                                                 ^
+  symbol:   variable ignoredMethods
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:194: error: cannot find symbol
+                auxiliaryTypes,
+                ^
+  symbol:   variable auxiliaryTypes
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:196: error: cannot find symbol
+                typeAttributeAppender,
+                ^
+  symbol:   variable typeAttributeAppender
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:197: error: cannot find symbol
+                asmVisitorWrapper,
+                ^
+  symbol:   variable asmVisitorWrapper
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:198: error: cannot find symbol
+                classFileVersion,
+                ^
+  symbol:   variable classFileVersion
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:199: error: cannot find symbol
+                annotationValueFilterFactory,
+                ^
+  symbol:   variable annotationValueFilterFactory
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:200: error: cannot find symbol
+                annotationRetention,
+                ^
+  symbol:   variable annotationRetention
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:201: error: cannot find symbol
+                auxiliaryTypeNamingStrategy,
+                ^
+  symbol:   variable auxiliaryTypeNamingStrategy
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:202: error: cannot find symbol
+                implementationContextFactory,
+                ^
+  symbol:   variable implementationContextFactory
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:203: error: cannot find symbol
+                typeValidation,
+                ^
+  symbol:   variable typeValidation
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:204: error: cannot find symbol
+                classWriterStrategy,
+                ^
+  symbol:   variable classWriterStrategy
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/inline/RedefinitionDynamicTypeBuilder.java:195: error: cannot find symbol
+                fieldRegistry.compile(methodRegistry.getInstrumentedType()),
+                ^
+  symbol:   variable fieldRegistry
+  location: class RedefinitionDynamicTypeBuilder<T>
+  where T is a type-variable:
+    T extends Object declared in class RedefinitionDynamicTypeBuilder
+54 errors

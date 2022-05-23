@@ -1,0 +1,21 @@
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/introspection/Introspector.java:22: error: cannot access AmbiguousException
+    public Method getMethod(final Class c, final String name, final Object[] params) throws IllegalArgumentException {
+                  ^
+  class file for org.apache.velocity.util.introspection.MethodMap$AmbiguousException not found
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/introspection/MethodMap.java:36: error: incompatible types: Object cannot be converted to List
+        return this.methodByNameMap.get(key);
+                                       ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/introspection/MethodMap.java:57: error: incompatible types: Object cannot be converted to Method
+        for (final Method method : methods) {
+                                   ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/introspection/MethodMap.java:73: error: incompatible types: Object cannot be converted to Method
+                                final Method other = equivalentMatches.get(a);
+                                                                          ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/introspection/MethodMap.java:102: error: cannot find symbol
+            throw new AmbiguousException();
+                      ^
+  symbol:   class AmbiguousException
+  location: class MethodMap
+Note: sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/introspection/MethodMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors

@@ -1,0 +1,32 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Collection.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Collection.java:79: error: no suitable method found for spliterator(java.util.Collection<E>,int)
+    return Spliterators.spliterator(this, 0);
+                       ^
+    method Spliterators.<T#1>spliterator(Object[],int) is not applicable
+      (cannot infer type-variable(s) T#1
+        (argument mismatch; java.util.Collection<E> cannot be converted to Object[]))
+    method Spliterators.<T#2>spliterator(Object[],int,int,int) is not applicable
+      (cannot infer type-variable(s) T#2
+        (actual and formal argument lists differ in length))
+    method Spliterators.spliterator(int[],int) is not applicable
+      (argument mismatch; java.util.Collection<E> cannot be converted to int[])
+    method Spliterators.spliterator(long[],int) is not applicable
+      (argument mismatch; java.util.Collection<E> cannot be converted to long[])
+    method Spliterators.spliterator(double[],int) is not applicable
+      (argument mismatch; java.util.Collection<E> cannot be converted to double[])
+    method Spliterators.<T#3>spliterator(java.util.Collection<? extends T#3>,int) is not applicable
+      (cannot infer type-variable(s) T#3
+        (argument mismatch; java.util.Collection<E> cannot be converted to java.util.Collection<? extends T#3>))
+    method Spliterators.<T#4>spliterator(Iterator<? extends T#4>,long,int) is not applicable
+      (cannot infer type-variable(s) T#4
+        (actual and formal argument lists differ in length))
+  where E,T#1,T#2,T#3,T#4 are type-variables:
+    E extends Object declared in interface java.util.Collection
+    T#1 extends Object declared in method <T#1>spliterator(Object[],int)
+    T#2 extends Object declared in method <T#2>spliterator(Object[],int,int,int)
+    T#3 extends Object declared in method <T#3>spliterator(java.util.Collection<? extends T#3>,int)
+    T#4 extends Object declared in method <T#4>spliterator(Iterator<? extends T#4>,long,int)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors

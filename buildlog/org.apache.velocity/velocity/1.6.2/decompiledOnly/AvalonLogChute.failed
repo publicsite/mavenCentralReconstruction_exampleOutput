@@ -1,0 +1,103 @@
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:9: error: package org.apache.log does not exist
+import org.apache.log.LogTarget;
+                     ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:10: error: package org.apache.log.format does not exist
+import org.apache.log.format.Formatter;
+                            ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:11: error: package org.apache.log.output.io does not exist
+import org.apache.log.output.io.FileTarget;
+                               ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:13: error: package org.apache.log does not exist
+import org.apache.log.Priority;
+                     ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:15: error: package org.apache.log does not exist
+import org.apache.log.Hierarchy;
+                     ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:18: error: package org.apache.log does not exist
+import org.apache.log.Logger;
+                     ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:25: error: cannot find symbol
+    private Logger logger;
+            ^
+  symbol:   class Logger
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:38: error: cannot find symbol
+            this.logger = Hierarchy.getDefaultHierarchy().getLoggerFor(name);
+                          ^
+  symbol:   variable Hierarchy
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:41: error: cannot find symbol
+            this.logger = Hierarchy.getDefaultHierarchy().getLoggerFor(this.rsvc.toString());
+                          ^
+  symbol:   variable Hierarchy
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:52: error: cannot find symbol
+            Priority level = null;
+            ^
+  symbol:   class Priority
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/VelocityFormatter.java:8: error: package org.apache.log.format does not exist
+import org.apache.log.format.PatternFormatter;
+                            ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/VelocityFormatter.java:10: error: cannot find symbol
+public class VelocityFormatter extends PatternFormatter
+                                       ^
+  symbol: class PatternFormatter
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:58: error: cannot find symbol
+            final FileTarget target = new FileTarget(new File(file), false, (Formatter)vf);
+                  ^
+  symbol:   class FileTarget
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:58: error: cannot find symbol
+            final FileTarget target = new FileTarget(new File(file), false, (Formatter)vf);
+                                          ^
+  symbol:   class FileTarget
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:58: error: cannot find symbol
+            final FileTarget target = new FileTarget(new File(file), false, (Formatter)vf);
+                                                                             ^
+  symbol:   class Formatter
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:60: error: cannot find symbol
+            this.logger.setLogTargets(new LogTarget[] { (LogTarget)target });
+                                          ^
+  symbol:   class LogTarget
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:60: error: cannot find symbol
+            this.logger.setLogTargets(new LogTarget[] { (LogTarget)target });
+                                                         ^
+  symbol:   class LogTarget
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:70: error: cannot find symbol
+        this.logger = Hierarchy.getDefaultHierarchy().getLoggerFor(this.rsvc.toString());
+                      ^
+  symbol:   variable Hierarchy
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:163: error: cannot find symbol
+        (logLevels = new HashMap()).put("trace", Priority.DEBUG);
+                                                 ^
+  symbol:   variable Priority
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:164: error: cannot find symbol
+        AvalonLogChute.logLevels.put("debug", Priority.DEBUG);
+                                              ^
+  symbol:   variable Priority
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:165: error: cannot find symbol
+        AvalonLogChute.logLevels.put("info", Priority.INFO);
+                                             ^
+  symbol:   variable Priority
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:166: error: cannot find symbol
+        AvalonLogChute.logLevels.put("warn", Priority.WARN);
+                                             ^
+  symbol:   variable Priority
+  location: class AvalonLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java:167: error: cannot find symbol
+        AvalonLogChute.logLevels.put("error", Priority.ERROR);
+                                              ^
+  symbol:   variable Priority
+  location: class AvalonLogChute
+Note: sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/AvalonLogChute.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+23 errors

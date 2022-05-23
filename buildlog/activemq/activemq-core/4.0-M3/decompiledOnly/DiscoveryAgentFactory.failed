@@ -1,0 +1,35 @@
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/discovery/DiscoveryAgentFactory.java:14: error: package org.activeio does not exist
+import org.activeio.FactoryFinder;
+                   ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/discovery/DiscoveryAgentFactory.java:18: error: cannot find symbol
+    private static final FactoryFinder discoveryAgentFinder;
+                         ^
+  symbol:   class FactoryFinder
+  location: class DiscoveryAgentFactory
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/transport/discovery/DiscoveryAgentFactory.java:47: error: cannot find symbol
+        discoveryAgentFinder = new FactoryFinder("META-INF/services/org/activemq/transport/discoveryagent/");
+                                   ^
+  symbol:   class FactoryFinder
+  location: class DiscoveryAgentFactory
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/util/IntrospectionSupport.java:28: error: incompatible types: Object cannot be converted to String
+            String name = iter.next();
+                                   ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/util/IntrospectionSupport.java:49: error: incompatible types: Object cannot be converted to String
+            String name = iter.next();
+                                   ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/util/IntrospectionSupport.java:69: error: incompatible types: Object cannot be converted to Entry
+            final Map.Entry entry = iter.next();
+                                             ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/util/IntrospectionSupport.java:70: error: incompatible types: Object cannot be converted to String
+            if (setProperty(target, entry.getKey(), entry.getValue())) {
+                                                ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/util/URISupport.java:166: error: incompatible types: Object cannot be converted to String
+                    final String key = iter.next();
+                                                ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/util/URISupport.java:167: error: incompatible types: Object cannot be converted to String
+                    final String value = options.get(key);
+                                                    ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+9 errors

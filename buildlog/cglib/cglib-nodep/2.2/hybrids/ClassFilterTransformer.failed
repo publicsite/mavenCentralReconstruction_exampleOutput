@@ -1,0 +1,74 @@
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassTransformer.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassAdapter;
+                        ^
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassTransformer.java:20: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassTransformer.java:22: error: cannot find symbol
+abstract public class AbstractClassTransformer extends ClassAdapter implements ClassTransformer {
+                                                       ^
+  symbol: class ClassAdapter
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/ClassTransformer.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/ClassTransformer.java:20: error: cannot find symbol
+public interface ClassTransformer extends ClassVisitor {
+                                          ^
+  symbol: class ClassVisitor
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassFilterTransformer.java:22: error: cannot find symbol
+    private ClassVisitor target;
+            ^
+  symbol:   class ClassVisitor
+  location: class AbstractClassFilterTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassFilterTransformer.java:24: error: cannot find symbol
+    public void setTarget(ClassVisitor target) {
+                          ^
+  symbol:   class ClassVisitor
+  location: class AbstractClassFilterTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassFilterTransformer.java:53: error: cannot find symbol
+    public AnnotationVisitor visitAnnotation(String desc, boolean visible) {
+           ^
+  symbol:   class AnnotationVisitor
+  location: class AbstractClassFilterTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassFilterTransformer.java:57: error: cannot find symbol
+    public void visitAttribute(Attribute attr) {
+                               ^
+  symbol:   class Attribute
+  location: class AbstractClassFilterTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassFilterTransformer.java:65: error: cannot find symbol
+    public FieldVisitor visitField(int access,
+           ^
+  symbol:   class FieldVisitor
+  location: class AbstractClassFilterTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassFilterTransformer.java:73: error: cannot find symbol
+    public MethodVisitor visitMethod(int access,
+           ^
+  symbol:   class MethodVisitor
+  location: class AbstractClassFilterTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassTransformer.java:27: error: cannot find symbol
+    public void setTarget(ClassVisitor target) {
+                          ^
+  symbol:   class ClassVisitor
+  location: class AbstractClassTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/ClassTransformer.java:21: error: cannot find symbol
+    public void setTarget(ClassVisitor target);
+                          ^
+  symbol:   class ClassVisitor
+  location: interface ClassTransformer
+hybrids/cglib/cglib-nodep/2.2/ClassFilterTransformer.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.*;
+^
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassFilterTransformer.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.*;
+^
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassTransformer.java:28: error: cannot find symbol
+        cv = target;
+        ^
+  symbol:   variable cv
+  location: class AbstractClassTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassFilterTransformer.java:41: error: cannot find symbol
+        target = accept(version, access, name, signature, superName, interfaces) ? pass : cv;
+                                                                                          ^
+  symbol:   variable cv
+  location: class AbstractClassFilterTransformer
+17 errors

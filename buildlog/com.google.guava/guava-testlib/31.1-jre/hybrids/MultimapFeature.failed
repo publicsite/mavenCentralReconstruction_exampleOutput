@@ -1,0 +1,25 @@
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapFeature.java:20: error: cannot find symbol
+import com.google.common.collect.Multimap;
+                                ^
+  symbol:   class Multimap
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapFeature.java:37: error: cannot find symbol
+public enum MultimapFeature implements Feature<Multimap> {
+                                               ^
+  symbol: class Multimap
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapFeature.java:40: error: cannot find symbol
+  private final Set<Feature<? super Multimap>> implied;
+                                    ^
+  symbol:   class Multimap
+  location: class MultimapFeature
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapFeature.java:42: error: cannot find symbol
+  MultimapFeature(Feature<? super Multimap>... implied) {
+                                  ^
+  symbol:   class Multimap
+  location: class MultimapFeature
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultimapFeature.java:47: error: cannot find symbol
+  public Set<Feature<? super Multimap>> getImpliedFeatures() {
+                             ^
+  symbol:   class Multimap
+  location: class MultimapFeature
+5 errors

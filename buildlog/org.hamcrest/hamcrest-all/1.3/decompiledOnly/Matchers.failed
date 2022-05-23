@@ -1,0 +1,101 @@
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:162: error: incompatible types: Matcher<Iterable<? super Object>> cannot be converted to Matcher<Iterable<? super T>>
+        return (Matcher<Iterable<? super T>>)IsCollectionContaining.hasItem((Matcher<? super Object>)itemMatcher);
+                                                                           ^
+  where T is a type-variable:
+    T extends Object declared in method <T>hasItem(Matcher<? super T>)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:278: error: incompatible types: Matcher<Collection<? extends Object>> cannot be converted to Matcher<Collection<? extends E>>
+        return (Matcher<Collection<? extends E>>)IsCollectionWithSize.hasSize(sizeMatcher);
+                                                                             ^
+  where E is a type-variable:
+    E extends Object declared in method <E>hasSize(Matcher<? super Integer>)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:282: error: incompatible types: Matcher<Collection<? extends Object>> cannot be converted to Matcher<Collection<? extends E>>
+        return (Matcher<Collection<? extends E>>)IsCollectionWithSize.hasSize(size);
+                                                                             ^
+  where E is a type-variable:
+    E extends Object declared in method <E>hasSize(int)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:286: error: incompatible types: Matcher<Collection<? extends Object>> cannot be converted to Matcher<Collection<? extends E>>
+        return (Matcher<Collection<? extends E>>)IsEmptyCollection.empty();
+                                                                        ^
+  where E is a type-variable:
+    E extends Object declared in method <E>empty()
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:294: error: incompatible types: Matcher<Iterable<? extends Object>> cannot be converted to Matcher<Iterable<? extends E>>
+        return (Matcher<Iterable<? extends E>>)IsEmptyIterable.emptyIterable();
+                                                                            ^
+  where E is a type-variable:
+    E extends Object declared in method <E>emptyIterable()
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:302: error: incompatible types: Matcher<Iterable<? extends Object>> cannot be converted to Matcher<Iterable<? extends E>>
+        return (Matcher<Iterable<? extends E>>)IsIterableContainingInOrder.contains((Matcher<? super Object>[])itemMatchers);
+                                                                                   ^
+  where E is a type-variable:
+    E extends Object declared in method <E>contains(Matcher<? super E>...)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:310: error: incompatible types: Matcher<Iterable<? extends Object>> cannot be converted to Matcher<Iterable<? extends E>>
+        return (Matcher<Iterable<? extends E>>)IsIterableContainingInOrder.contains((Matcher<? super Object>)itemMatcher);
+                                                                                   ^
+  where E is a type-variable:
+    E extends Object declared in method <E>contains(Matcher<? super E>)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:314: error: incompatible types: List<Matcher<? super E>> cannot be converted to List<Matcher<? super Object>>
+        return (Matcher<Iterable<? extends E>>)IsIterableContainingInOrder.contains((List<Matcher<? super Object>>)itemMatchers);
+                                                                                                                   ^
+  where E is a type-variable:
+    E extends Object declared in method <E>contains(List<Matcher<? super E>>)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:322: error: incompatible types: Collection<Matcher<? super T>> cannot be converted to Collection<Matcher<? super Object>>
+        return (Matcher<Iterable<? extends T>>)IsIterableContainingInAnyOrder.containsInAnyOrder((Collection<Matcher<? super Object>>)itemMatchers);
+                                                                                                                                      ^
+  where T is a type-variable:
+    T extends Object declared in method <T>containsInAnyOrder(Collection<Matcher<? super T>>)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:326: error: incompatible types: Matcher<Iterable<? extends Object>> cannot be converted to Matcher<Iterable<? extends T>>
+        return (Matcher<Iterable<? extends T>>)IsIterableContainingInAnyOrder.containsInAnyOrder((Matcher<? super Object>[])itemMatchers);
+                                                                                                ^
+  where T is a type-variable:
+    T extends Object declared in method <T>containsInAnyOrder(Matcher<? super T>...)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:331: error: incompatible types: Matcher<Iterable<? extends Object>> cannot be converted to Matcher<Iterable<? extends E>>
+        return (Matcher<Iterable<? extends E>>)IsIterableContainingInAnyOrder.containsInAnyOrder((Matcher<? super Object>)itemMatcher);
+                                                                                                ^
+  where E is a type-variable:
+    E extends Object declared in method <E>containsInAnyOrder(Matcher<? super E>)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:347: error: incompatible types: Matcher<Map<? extends Object,? extends Object>> cannot be converted to Matcher<Map<? extends K,? extends V>>
+        return (Matcher<Map<? extends K, ? extends V>>)IsMapContaining.hasEntry((Matcher<? super Object>)keyMatcher, (Matcher<? super Object>)valueMatcher);
+                                                                               ^
+  where K,V are type-variables:
+    K extends Object declared in method <K,V>hasEntry(Matcher<? super K>,Matcher<? super V>)
+    V extends Object declared in method <K,V>hasEntry(Matcher<? super K>,Matcher<? super V>)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:351: error: incompatible types: Matcher<Map<? extends Object,?>> cannot be converted to Matcher<Map<? extends K,?>>
+        return (Matcher<Map<? extends K, ?>>)IsMapContaining.hasKey((Matcher<? super Object>)keyMatcher);
+                                                                   ^
+  where K is a type-variable:
+    K extends Object declared in method <K>hasKey(Matcher<? super K>)
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/Matchers.java:363: error: incompatible types: Matcher<Map<?,? extends Object>> cannot be converted to Matcher<Map<?,? extends V>>
+        return (Matcher<Map<?, ? extends V>>)IsMapContaining.hasValue((Matcher<? super Object>)valueMatcher);
+                                                                     ^
+  where V is a type-variable:
+    V extends Object declared in method <V>hasValue(Matcher<? super V>)
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/collection/IsIterableContainingInAnyOrder.java:125: error: incompatible types: inference variable T#1 has incompatible bounds
+        return containsInAnyOrder(Arrays.asList(itemMatchers));
+                                 ^
+    equality constraints: T#2
+    lower bounds: List<T#3>
+  where T#1,T#2,T#3 are type-variables:
+    T#1 extends Object declared in method <T#1>containsInAnyOrder(T#1...)
+    T#2 extends Object declared in method <T#2>containsInAnyOrder(Matcher<? super T#2>...)
+    T#3 extends Object declared in method <T#3>asList(T#3...)
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/collection/IsIterableContainingInOrder.java:141: error: incompatible types: inference variable E#1 has incompatible bounds
+        return contains(asList(itemMatchers));
+                       ^
+    equality constraints: E#2
+    lower bounds: List<T>
+  where E#1,E#2,T are type-variables:
+    E#1 extends Object declared in method <E#1>contains(E#1...)
+    E#2 extends Object declared in method <E#2>contains(Matcher<? super E#2>...)
+    T extends Object declared in method <T>asList(T...)
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/collection/IsArrayContainingInOrder.java:72: error: incompatible types: inference variable E#1 has incompatible bounds
+        return arrayContaining(asList(itemMatchers));
+                              ^
+    equality constraints: E#2
+    lower bounds: List<T>
+  where E#1,E#2,T are type-variables:
+    E#1 extends Object declared in method <E#1>arrayContaining(E#1...)
+    E#2 extends Object declared in method <E#2>arrayContaining(Matcher<? super E#2>...)
+    T extends Object declared in method <T>asList(T...)
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+17 errors

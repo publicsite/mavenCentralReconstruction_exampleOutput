@@ -1,0 +1,21 @@
+sources/structure/org.assertj/assertj-core/3.16.1/extractedSources/org/assertj/core/error/AssertJMultipleFailuresError.java:19: error: package org.opentest4j does not exist
+import org.opentest4j.MultipleFailuresError;
+                     ^
+sources/structure/org.assertj/assertj-core/3.16.1/extractedSources/org/assertj/core/error/AssertJMultipleFailuresError.java:24: error: cannot find symbol
+public class AssertJMultipleFailuresError extends MultipleFailuresError {
+                                                  ^
+  symbol: class MultipleFailuresError
+sources/structure/org.assertj/assertj-core/3.16.1/extractedSources/org/assertj/core/error/AssertJMultipleFailuresError.java:35: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/org.assertj/assertj-core/3.16.1/extractedSources/org/assertj/core/error/AssertJMultipleFailuresError.java:38: error: cannot find symbol
+    List<Throwable> failures = getFailures();
+                               ^
+  symbol:   method getFailures()
+  location: class AssertJMultipleFailuresError
+sources/structure/org.assertj/assertj-core/3.16.1/extractedSources/org/assertj/core/error/AssertJMultipleFailuresError.java:41: error: cannot find symbol
+    if (failureCount == 0) return super.getMessage();
+                                  ^
+  symbol:   variable super
+  location: class AssertJMultipleFailuresError
+5 errors

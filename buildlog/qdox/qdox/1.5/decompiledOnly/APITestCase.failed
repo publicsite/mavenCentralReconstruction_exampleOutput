@@ -1,0 +1,120 @@
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:12: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:23: error: package junit.framework does not exist
+import junit.framework.TestCase;
+                      ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:25: error: cannot find symbol
+public abstract class APITestCase extends TestCase
+                                          ^
+  symbol: class TestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:43: error: cannot find symbol
+        Assert.assertEquals("Number of classes should be equal", expectedClasses.size(), actualClasses.size());
+        ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:45: error: incompatible types: Object cannot be converted to JavaClass
+            assertClassesEqual(expectedClasses.get(i), actualClasses.get(i));
+                                                  ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:50: error: cannot find symbol
+        Assert.assertEquals("Package names should be equal", expected.getPackage(), actual.getPackage());
+        ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:52: error: cannot find symbol
+        Assert.assertEquals("Class names should be equal", expected.getName(), actual.getName());
+        ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:54: error: cannot find symbol
+            Assert.assertEquals("Super class should be equal", expected.getSuperJavaClass().getName(), actual.getSuperJavaClass().getName());
+            ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:57: error: cannot find symbol
+            Assert.fail("Super class should be equal");
+            ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:72: error: cannot find symbol
+        Assert.assertEquals(message.toString() + "Field types should be equal", (Object)expected.getType(), (Object)actual.getType());
+        ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:73: error: cannot find symbol
+        Assert.assertEquals(message.toString() + "Field names should be equal", expected.getName(), actual.getName());
+        ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:88: error: cannot find symbol
+        Assert.assertEquals(message.toString() + "Number of fields should be equal", expectedFields.size(), actualFields.size());
+        ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:90: error: incompatible types: Object cannot be converted to JavaField
+            assertFieldEquals(expectedFields.get(i), actualFields.get(i));
+                                                ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:105: error: cannot find symbol
+        Assert.assertEquals(message.toString() + "Number of inner classes should be equal", expectedInnerClasses.size(), actualInnerClasses.size());
+        ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:107: error: incompatible types: Object cannot be converted to JavaClass
+            assertClassesEqual(expectedInnerClasses.get(i), actualInnerClasses.get(i));
+                                                       ^
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:122: error: cannot find symbol
+        Assert.assertEquals(message.toString() + "Number of implemented interface should be equal", expectedImplements.size(), actualImplements.size());
+        ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:124: error: cannot find symbol
+            Assert.assertEquals("Implemented interface should be equal", expectedImplements.get(i), actualImplements.get(i));
+            ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:139: error: cannot find symbol
+        Assert.assertEquals(message.toString() + "Number of methods should be equal", expectedMethods.size(), actualMethods.size());
+        ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:141: error: cannot find symbol
+            Assert.assertEquals("Method should be equal", expectedMethods.get(i), actualMethods.get(i));
+            ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:156: error: cannot find symbol
+        Assert.assertEquals(message.toString() + msg + "\nNumber of modifiers should be equal", expectedModifiers.size(), actualModifiers.size());
+        ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:158: error: cannot find symbol
+            Assert.assertEquals(msg + "\n" + message.toString() + "\nModifier should be equal", expectedModifiers.get(i), actualModifiers.get(i));
+            ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:164: error: cannot find symbol
+            Assert.fail(expected.getAbsolutePath() + " - should not have been a directory");
+            ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:167: error: cannot find symbol
+            Assert.fail(actual.getAbsolutePath() + " - should not have been a directory");
+            ^
+  symbol:   variable Assert
+  location: class APITestCase
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:172: error: cannot find symbol
+        return new File(this.getClass().getResource("/" + this.getClass().getName().replace('.', '/') + ".class").getFile()).getParentFile();
+                                                              ^
+  symbol: method getClass()
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:172: error: cannot find symbol
+        return new File(this.getClass().getResource("/" + this.getClass().getName().replace('.', '/') + ".class").getFile()).getParentFile();
+                            ^
+  symbol: method getClass()
+sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java:177: error: cannot find symbol
+        final StringTokenizer st = new StringTokenizer(this.getClass().getName(), ".");
+                                                           ^
+  symbol: method getClass()
+Note: sources/structure/qdox/qdox/1.5/Decompiled/com/thoughtworks/qdox/junit/APITestCase.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+26 errors

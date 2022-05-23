@@ -1,0 +1,77 @@
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:9: error: package net.bytebuddy.implementation.bytecode does not exist
+import net.bytebuddy.implementation.bytecode.StackSize;
+                                            ^
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:10: error: package net.bytebuddy.description.method does not exist
+import net.bytebuddy.description.method.ParameterList;
+                                       ^
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:14: error: package net.bytebuddy.description.type does not exist
+import net.bytebuddy.description.type.TypeDescription;
+                                     ^
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:17: error: package net.bytebuddy.description.method does not exist
+import net.bytebuddy.description.method.ParameterDescription;
+                                       ^
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:26: error: cannot find symbol
+    public static Frame beforeConstructorCall(final Iterable<? extends ParameterDescription> constructorParameters) {
+                                                                       ^
+  symbol:   class ParameterDescription
+  location: class Frame
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:55: error: cannot find symbol
+    public Frame addLocalVariables(final ParameterList<ParameterDescription.InDefinedShape> types) {
+                                         ^
+  symbol:   class ParameterList
+  location: class Frame
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:55: error: package ParameterDescription does not exist
+    public Frame addLocalVariables(final ParameterList<ParameterDescription.InDefinedShape> types) {
+                                                                           ^
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:90: error: cannot find symbol
+        private final StackSize stackSize;
+                      ^
+  symbol:   class StackSize
+  location: class LocalVariable
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:92: error: package TypeDescription does not exist
+        public static LocalVariable from(final TypeDescription.Generic type) {
+                                                              ^
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:99: error: cannot find symbol
+        private LocalVariable(final Object type, final StackSize size) {
+                                                       ^
+  symbol:   class StackSize
+  location: class LocalVariable
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:108: error: cannot find symbol
+        public StackSize getStackSize() {
+               ^
+  symbol:   class StackSize
+  location: class LocalVariable
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:30: error: cannot find symbol
+        for (final ParameterDescription sourceParameter : constructorParameters) {
+                   ^
+  symbol:   class ParameterDescription
+  location: class Frame
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:31: error: package TypeDescription does not exist
+            final TypeDescription.Generic type = sourceParameter.getType();
+                                 ^
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:57: error: cannot find symbol
+        for (final ParameterDescription parameter : types) {
+                   ^
+  symbol:   class ParameterDescription
+  location: class Frame
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:58: error: package TypeDescription does not exist
+            final TypeDescription.Generic type = parameter.getType();
+                                 ^
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:113: error: cannot find symbol
+            UNINITIALIZED_THIS = new LocalVariable(Opcodes.UNINITIALIZED_THIS, StackSize.SINGLE);
+                                                                               ^
+  symbol:   variable StackSize
+  location: class LocalVariable
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:114: error: cannot find symbol
+            TOP = new LocalVariable(Opcodes.TOP, StackSize.SINGLE);
+                                                 ^
+  symbol:   variable StackSize
+  location: class LocalVariable
+sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java:115: error: cannot find symbol
+            DOUBLE = new LocalVariable(Opcodes.DOUBLE, StackSize.DOUBLE);
+                                                       ^
+  symbol:   variable StackSize
+  location: class LocalVariable
+Note: sources/structure/org.powermock/powermock-core/2.0.0/Decompiled/org/powermock/core/bytebuddy/Frame.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+18 errors

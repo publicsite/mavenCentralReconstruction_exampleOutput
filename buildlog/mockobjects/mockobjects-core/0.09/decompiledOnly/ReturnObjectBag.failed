@@ -1,0 +1,96 @@
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:4: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:5: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:8: error: cannot find symbol
+public class AssertMo extends Assert {
+                              ^
+  symbol: class Assert
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/ReturnObjectBag.java:26: error: incompatible types: Object cannot be converted to ReturnObjectList
+        ReturnObjectList returnObjectList = this.returnObjectLists.get(key);
+                                                                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/ReturnObjectBag.java:49: error: cannot find symbol
+            it.next().verify();
+                     ^
+  symbol:   method verify()
+  location: class Object
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/ReturnObjectBag.java:57: error: incompatible types: Object cannot be converted to ReturnObjectList
+        final ReturnObjectList returnObjectList = this.returnObjectLists.get(key);
+                                                                            ^
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/ReturnObjectBag.java:58: error: cannot find symbol
+        AssertMo.assertNotNull(this.name + " does not contain " + key.toString(), (Object)returnObjectList);
+                ^
+  symbol:   method assertNotNull(String,Object)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:20: error: incompatible types: int cannot be converted to Object[]
+            expectedArray.length,
+                         ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:25: error: incompatible types: Object cannot be converted to Object[]
+                expectedArray[i],
+                             ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:34: error: cannot find symbol
+        assertTrue(
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:47: error: cannot find symbol
+        assertTrue(
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:60: error: cannot find symbol
+        assertTrue(
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:73: error: cannot find symbol
+        } catch (AssertionFailedError ex) {
+                 ^
+  symbol:   class AssertionFailedError
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:77: error: cannot find symbol
+        assertTrue("Should not have verified", threwException);
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:87: error: cannot find symbol
+        fail(
+        ^
+  symbol:   method fail(String)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/NotImplementedException.java:3: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/NotImplementedException.java:5: error: cannot find symbol
+public class NotImplementedException extends AssertionFailedError {
+                                             ^
+  symbol: class AssertionFailedError
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:92: error: incompatible types: NotImplementedException cannot be converted to Throwable
+        throw new NotImplementedException("Not Implemented in " + mockName);
+        ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:98: error: cannot find symbol
+        } catch (AssertionFailedError expected) {
+                 ^
+  symbol:   class AssertionFailedError
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/AssertMo.java:101: error: cannot find symbol
+        fail(message);
+        ^
+  symbol:   method fail(String)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/ReturnObjectList.java:61: error: cannot find symbol
+        AssertMo.assertTrue(myName + " has run out of objects.",
+                ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/ReturnObjectList.java:70: error: incompatible types: int cannot be converted to Object[]
+        AssertMo.assertEquals(myName + " has un-used objects.", 0,
+                                                                ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+22 errors

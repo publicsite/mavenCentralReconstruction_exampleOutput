@@ -1,0 +1,46 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedObjectColumnProcessor.java:11: error: cannot find symbol
+public abstract class AbstractBatchedObjectColumnProcessor<T extends Context> extends AbstractObjectProcessor<T> implements Processor<T>, BatchedColumnReader<Object>
+                                                                                      ^
+  symbol: class AbstractObjectProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedObjectColumnProcessor.java:11: error: cannot find symbol
+public abstract class AbstractBatchedObjectColumnProcessor<T extends Context> extends AbstractObjectProcessor<T> implements Processor<T>, BatchedColumnReader<Object>
+                                                                                                                            ^
+  symbol: class Processor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedObjectColumnProcessor.java:13: error: cannot find symbol
+    private final ColumnSplitter<Object> splitter;
+                  ^
+  symbol:   class ColumnSplitter
+  location: class AbstractBatchedObjectColumnProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractBatchedObjectColumnProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedObjectColumnProcessor.java:19: error: cannot find symbol
+        this.splitter = new ColumnSplitter<Object>(rowsPerBatch);
+                            ^
+  symbol:   class ColumnSplitter
+  location: class AbstractBatchedObjectColumnProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractBatchedObjectColumnProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedObjectColumnProcessor.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedObjectColumnProcessor.java:25: error: cannot find symbol
+        super.processStarted(context);
+        ^
+  symbol:   variable super
+  location: class AbstractBatchedObjectColumnProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractBatchedObjectColumnProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedObjectColumnProcessor.java:31: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedObjectColumnProcessor.java:43: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractBatchedObjectColumnProcessor.java:45: error: cannot find symbol
+        super.processEnded(context);
+        ^
+  symbol:   variable super
+  location: class AbstractBatchedObjectColumnProcessor<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractBatchedObjectColumnProcessor
+9 errors

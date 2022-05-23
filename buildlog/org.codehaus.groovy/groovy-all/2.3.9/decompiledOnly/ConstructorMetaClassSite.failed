@@ -1,0 +1,56 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:7: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:8: error: cannot find symbol
+import org.codehaus.groovy.runtime.ScriptBytecodeAdapter;
+                                  ^
+  symbol:   class ScriptBytecodeAdapter
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:9: error: cannot find symbol
+import groovy.lang.MetaClass;
+                  ^
+  symbol:   class MetaClass
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:11: error: cannot find symbol
+public class ConstructorMetaClassSite extends MetaClassSite
+                                              ^
+  symbol: class MetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:13: error: cannot find symbol
+    public ConstructorMetaClassSite(final CallSite site, final MetaClass metaClass) {
+                                          ^
+  symbol:   class CallSite
+  location: class ConstructorMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:13: error: cannot find symbol
+    public ConstructorMetaClassSite(final CallSite site, final MetaClass metaClass) {
+                                                               ^
+  symbol:   class MetaClass
+  location: class ConstructorMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:17: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:19: error: cannot find symbol
+        if (receiver == this.metaClass.getTheClass()) {
+                            ^
+  symbol: variable metaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:21: error: cannot find symbol
+                return this.metaClass.invokeConstructor(args);
+                           ^
+  symbol: variable metaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:23: error: cannot find symbol
+            catch (GroovyRuntimeException gre) {
+                   ^
+  symbol:   class GroovyRuntimeException
+  location: class ConstructorMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:24: error: cannot find symbol
+                throw ScriptBytecodeAdapter.unwrap(gre);
+                      ^
+  symbol:   variable ScriptBytecodeAdapter
+  location: class ConstructorMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/ConstructorMetaClassSite.java:27: error: cannot find symbol
+        return CallSiteArray.defaultCallConstructor(this, receiver, args);
+               ^
+  symbol:   variable CallSiteArray
+  location: class ConstructorMetaClassSite
+12 errors

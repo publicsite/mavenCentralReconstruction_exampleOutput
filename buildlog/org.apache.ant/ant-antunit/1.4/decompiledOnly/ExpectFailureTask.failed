@@ -1,0 +1,61 @@
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/ExpectFailureTask.java:7: error: cannot find symbol
+import org.apache.tools.ant.BuildException;
+                           ^
+  symbol:   class BuildException
+  location: package org.apache.tools.ant
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/ExpectFailureTask.java:8: error: cannot find symbol
+import org.apache.tools.ant.taskdefs.Sequential;
+                                    ^
+  symbol:   class Sequential
+  location: package org.apache.tools.ant.taskdefs
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/ExpectFailureTask.java:10: error: cannot find symbol
+public class ExpectFailureTask extends Sequential
+                                       ^
+  symbol: class Sequential
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/ExpectFailureTask.java:26: error: cannot find symbol
+            super.execute();
+            ^
+  symbol:   variable super
+  location: class ExpectFailureTask
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/ExpectFailureTask.java:28: error: cannot find symbol
+        catch (BuildException e) {
+               ^
+  symbol:   class BuildException
+  location: class ExpectFailureTask
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/AssertionFailedException.java:23: error: cannot find symbol
+import org.apache.tools.ant.BuildException;
+                           ^
+  symbol:   class BuildException
+  location: package org.apache.tools.ant
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/AssertionFailedException.java:24: error: cannot find symbol
+import org.apache.tools.ant.Location;
+                           ^
+  symbol:   class Location
+  location: package org.apache.tools.ant
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/AssertionFailedException.java:29: error: cannot find symbol
+public class AssertionFailedException extends BuildException {
+                                              ^
+  symbol: class BuildException
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/AssertionFailedException.java:38: error: cannot find symbol
+    public AssertionFailedException(String message, Location loc) {
+                                                    ^
+  symbol:   class Location
+  location: class AssertionFailedException
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/AssertionFailedException.java:42: error: cannot find symbol
+    public AssertionFailedException(String message, BuildException e) {
+                                                    ^
+  symbol:   class BuildException
+  location: class AssertionFailedException
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/ExpectFailureTask.java:33: error: incompatible types: AssertionFailedException cannot be converted to Throwable
+                    throw new AssertionFailedException("Expected build failure with message '" + this.expectedMessage + "' but was '" + caughtMessage + "'", e);
+                    ^
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/ExpectFailureTask.java:35: error: incompatible types: AssertionFailedException cannot be converted to Throwable
+                throw new AssertionFailedException(this.message, e);
+                ^
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/ExpectFailureTask.java:42: error: incompatible types: AssertionFailedException cannot be converted to Throwable
+            throw new AssertionFailedException("Expected build failure");
+            ^
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/ExpectFailureTask.java:44: error: incompatible types: AssertionFailedException cannot be converted to Throwable
+        throw new AssertionFailedException(this.message);
+        ^
+14 errors

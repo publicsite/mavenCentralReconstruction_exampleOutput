@@ -1,0 +1,43 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/context/request/RequestContextHolder.java:19: error: package javax.faces.context does not exist
+import javax.faces.context.FacesContext;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/context/request/RequestContextHolder.java:140: error: cannot find symbol
+			FacesContext facesContext = FacesContext.getCurrentInstance();
+			^
+  symbol:   class FacesContext
+  location: class FacesRequestAttributesFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/context/request/RequestContextHolder.java:140: error: cannot find symbol
+			FacesContext facesContext = FacesContext.getCurrentInstance();
+			                            ^
+  symbol:   variable FacesContext
+  location: class FacesRequestAttributesFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/WebUtils.java:249: error: cannot find symbol
+		HttpSession session = request.getSession(false);
+		^
+  symbol:   class HttpSession
+  location: class WebUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/WebUtils.java:263: error: cannot find symbol
+		HttpSession session = request.getSession(false);
+		^
+  symbol:   class HttpSession
+  location: class WebUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/WebUtils.java:300: error: cannot find symbol
+			HttpSession session = request.getSession(false);
+			^
+  symbol:   class HttpSession
+  location: class WebUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/WebUtils.java:424: error: cannot find symbol
+		exposeRequestAttributeIfNotPresent(request, ERROR_STATUS_CODE_ATTRIBUTE, new Integer(HttpServletResponse.SC_OK));
+		                                                                                     ^
+  symbol:   variable HttpServletResponse
+  location: class WebUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/WebUtils.java:492: error: cannot find symbol
+		Cookie cookies[] = request.getCookies();
+		^
+  symbol:   class Cookie
+  location: class WebUtils
+Note: sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/WebUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

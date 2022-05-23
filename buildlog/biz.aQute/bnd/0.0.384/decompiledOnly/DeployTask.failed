@@ -1,0 +1,65 @@
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:7: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.DirectoryScanner;
+                           ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:10: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.BuildException;
+                           ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:15: error: package org.apache.tools.ant.types does not exist
+import org.apache.tools.ant.types.FileSet;
+                                 ^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/ant/BaseTask.java:10: error: cannot find symbol
+public class BaseTask extends Task implements Reporter {
+                              ^
+  symbol: class Task
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:20: error: cannot find symbol
+    List<FileSet> filesets;
+         ^
+  symbol:   class FileSet
+  location: class DeployTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:26: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class DeployTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:61: error: cannot find symbol
+    public void addFileset(final FileSet files) {
+                                 ^
+  symbol:   class FileSet
+  location: class DeployTask
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/ant/BaseTask.java:6: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:23: error: cannot find symbol
+        this.filesets = new ArrayList<FileSet>();
+                                      ^
+  symbol:   class FileSet
+  location: class DeployTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:28: error: cannot find symbol
+            final Project project = Workspace.getProject(this.getProject().getBaseDir());
+                                                             ^
+  symbol: method getProject()
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:29: error: cannot find symbol
+            for (final FileSet fileset : this.filesets) {
+                       ^
+  symbol:   class FileSet
+  location: class DeployTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:30: error: cannot find symbol
+                final DirectoryScanner ds = fileset.getDirectoryScanner(this.getProject());
+                      ^
+  symbol:   class DirectoryScanner
+  location: class DeployTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:30: error: cannot find symbol
+                final DirectoryScanner ds = fileset.getDirectoryScanner(this.getProject());
+                                                                            ^
+  symbol: method getProject()
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:52: error: cannot find symbol
+                throw new BuildException("Deploy failed");
+                          ^
+  symbol:   class BuildException
+  location: class DeployTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/DeployTask.java:57: error: cannot find symbol
+            throw new BuildException(t);
+                      ^
+  symbol:   class BuildException
+  location: class DeployTask
+15 errors

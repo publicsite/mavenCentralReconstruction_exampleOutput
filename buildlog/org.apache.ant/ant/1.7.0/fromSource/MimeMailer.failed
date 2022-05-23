@@ -1,0 +1,210 @@
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:38: error: package javax.activation does not exist
+import javax.activation.DataHandler;
+                       ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:39: error: package javax.activation does not exist
+import javax.activation.FileDataSource;
+                       ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:41: error: package javax.mail does not exist
+import javax.mail.Message;
+                 ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:42: error: package javax.mail does not exist
+import javax.mail.Session;
+                 ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:43: error: package javax.mail does not exist
+import javax.mail.Transport;
+                 ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:44: error: package javax.mail does not exist
+import javax.mail.Authenticator;
+                 ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:45: error: package javax.mail does not exist
+import javax.mail.MessagingException;
+                 ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:46: error: package javax.mail does not exist
+import javax.mail.PasswordAuthentication;
+                 ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:47: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMessage;
+                          ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:48: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeBodyPart;
+                          ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:49: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMultipart;
+                          ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:50: error: package javax.mail.internet does not exist
+import javax.mail.internet.InternetAddress;
+                          ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:51: error: package javax.mail.internet does not exist
+import javax.mail.internet.AddressException;
+                          ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:247: error: cannot find symbol
+    private static InternetAddress[] internetAddresses(Vector list)
+                   ^
+  symbol:   class InternetAddress
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:248: error: cannot find symbol
+        throws AddressException, UnsupportedEncodingException {
+               ^
+  symbol:   class AddressException
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:73: error: package javax.activation does not exist
+    class StringDataSource implements javax.activation.DataSource {
+                                                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:273: error: cannot find symbol
+    static class SimpleAuthenticator extends Authenticator {
+                                             ^
+  symbol:   class Authenticator
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:280: error: cannot find symbol
+        public PasswordAuthentication getPasswordAuthentication() {
+               ^
+  symbol:   class PasswordAuthentication
+  location: class SimpleAuthenticator
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:138: error: cannot find symbol
+            Session sesh;
+            ^
+  symbol:   class Session
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:139: error: cannot find symbol
+            Authenticator auth;
+            ^
+  symbol:   class Authenticator
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:155: error: cannot find symbol
+                sesh = Session.getDefaultInstance(props, null);
+                       ^
+  symbol:   variable Session
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:159: error: cannot find symbol
+                sesh = Session.getInstance(props, auth);
+                       ^
+  symbol:   variable Session
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:162: error: cannot find symbol
+            MimeMessage msg = new MimeMessage(sesh);
+            ^
+  symbol:   class MimeMessage
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:162: error: cannot find symbol
+            MimeMessage msg = new MimeMessage(sesh);
+                                  ^
+  symbol:   class MimeMessage
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:163: error: cannot find symbol
+            MimeMultipart attachments = new MimeMultipart();
+            ^
+  symbol:   class MimeMultipart
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:163: error: cannot find symbol
+            MimeMultipart attachments = new MimeMultipart();
+                                            ^
+  symbol:   class MimeMultipart
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:167: error: cannot find symbol
+                msg.setFrom(new InternetAddress(from.getAddress()));
+                                ^
+  symbol:   class InternetAddress
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:169: error: cannot find symbol
+                msg.setFrom(new InternetAddress(from.getAddress(),
+                                ^
+  symbol:   class InternetAddress
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:174: error: cannot find symbol
+            msg.setRecipients(Message.RecipientType.TO,
+                                     ^
+  symbol:   variable RecipientType
+  location: class Message
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:176: error: cannot find symbol
+            msg.setRecipients(Message.RecipientType.CC,
+                                     ^
+  symbol:   variable RecipientType
+  location: class Message
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:178: error: cannot find symbol
+            msg.setRecipients(Message.RecipientType.BCC,
+                                     ^
+  symbol:   variable RecipientType
+  location: class Message
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:214: error: cannot find symbol
+            MimeBodyPart textbody = new MimeBodyPart();
+            ^
+  symbol:   class MimeBodyPart
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:214: error: cannot find symbol
+            MimeBodyPart textbody = new MimeBodyPart();
+                                        ^
+  symbol:   class MimeBodyPart
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:215: error: cannot find symbol
+            textbody.setDataHandler(new DataHandler(sds));
+                                        ^
+  symbol:   class DataHandler
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:223: error: cannot find symbol
+                MimeBodyPart body;
+                ^
+  symbol:   class MimeBodyPart
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:225: error: cannot find symbol
+                body = new MimeBodyPart();
+                           ^
+  symbol:   class MimeBodyPart
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:231: error: cannot find symbol
+                FileDataSource fileData = new FileDataSource(file);
+                ^
+  symbol:   class FileDataSource
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:231: error: cannot find symbol
+                FileDataSource fileData = new FileDataSource(file);
+                                              ^
+  symbol:   class FileDataSource
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:232: error: cannot find symbol
+                DataHandler fileDataHandler = new DataHandler(fileData);
+                ^
+  symbol:   class DataHandler
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:232: error: cannot find symbol
+                DataHandler fileDataHandler = new DataHandler(fileData);
+                                                  ^
+  symbol:   class DataHandler
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:239: error: cannot find symbol
+            Transport.send(msg);
+            ^
+  symbol:   variable Transport
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:240: error: cannot find symbol
+        } catch (MessagingException e) {
+                 ^
+  symbol:   class MessagingException
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:249: error: cannot find symbol
+        InternetAddress[] addrs = new InternetAddress[list.size()];
+        ^
+  symbol:   class InternetAddress
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:249: error: cannot find symbol
+        InternetAddress[] addrs = new InternetAddress[list.size()];
+                                      ^
+  symbol:   class InternetAddress
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:256: error: cannot find symbol
+                ? new InternetAddress(addr.getAddress())
+                      ^
+  symbol:   class InternetAddress
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:257: error: cannot find symbol
+                : new InternetAddress(addr.getAddress(), name);
+                      ^
+  symbol:   class InternetAddress
+  location: class MimeMailer
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java:282: error: cannot find symbol
+            return new PasswordAuthentication(user, password);
+                       ^
+  symbol:   class PasswordAuthentication
+  location: class SimpleAuthenticator
+Note: sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/email/MimeMailer.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+47 errors

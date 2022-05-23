@@ -1,0 +1,69 @@
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/Stopwatch.java:18: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtendWith;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/Stopwatch.java:30: error: cannot find symbol
+@ExtendWith(StopwatchExtension.class)
+ ^
+  symbol: class ExtendWith
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:15: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.AfterTestExecutionCallback;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:16: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.BeforeTestExecutionCallback;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:17: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:18: error: package org.junit.jupiter.api.extension.ExtensionContext does not exist
+import org.junit.jupiter.api.extension.ExtensionContext.Namespace;
+                                                       ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:23: error: cannot find symbol
+class StopwatchExtension implements BeforeTestExecutionCallback, AfterTestExecutionCallback {
+                                    ^
+  symbol: class BeforeTestExecutionCallback
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:23: error: cannot find symbol
+class StopwatchExtension implements BeforeTestExecutionCallback, AfterTestExecutionCallback {
+                                                                 ^
+  symbol: class AfterTestExecutionCallback
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:26: error: cannot find symbol
+	private static final Namespace NAMESPACE = Namespace.create(StopwatchExtension.class);
+	                     ^
+  symbol:   class Namespace
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:30: error: cannot find symbol
+	public void beforeTestExecution(ExtensionContext context) {
+	                                ^
+  symbol:   class ExtensionContext
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:35: error: cannot find symbol
+	public void afterTestExecution(ExtensionContext context) {
+	                               ^
+  symbol:   class ExtensionContext
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:44: error: cannot find symbol
+	void storeNowAsLaunchTime(ExtensionContext context) {
+	                          ^
+  symbol:   class ExtensionContext
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:53: error: cannot find symbol
+	long loadLaunchTime(ExtensionContext context) {
+	                    ^
+  symbol:   class ExtensionContext
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:62: error: cannot find symbol
+	void calculateAndReportElapsedTime(ExtensionContext context) {
+	                                   ^
+  symbol:   class ExtensionContext
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:26: error: cannot find symbol
+	private static final Namespace NAMESPACE = Namespace.create(StopwatchExtension.class);
+	                                           ^
+  symbol:   variable Namespace
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:29: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/StopwatchExtension.java:34: error: method does not override or implement a method from a supertype
+	@Override
+	^
+17 errors

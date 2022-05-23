@@ -1,0 +1,479 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:7: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.PlainInsn;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:8: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.Rops;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:9: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.TypeBearer;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:10: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.Insn;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:11: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.CstInsn;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:12: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.RegisterSpec;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:13: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.Rop;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:14: error: package com.google.dexmaker.dx.rop.cst does not exist
+import com.google.dexmaker.dx.rop.cst.CstInteger;
+                                     ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:15: error: package com.google.dexmaker.dx.rop.cst does not exist
+import com.google.dexmaker.dx.rop.cst.TypedConstant;
+                                     ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:16: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.RegisterSpecList;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:20: error: package com.google.dexmaker.dx.rop.cst does not exist
+import com.google.dexmaker.dx.rop.cst.Constant;
+                                     ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:27: error: cannot find symbol
+    private SsaMethod ssaMeth;
+            ^
+  symbol:   class SsaMethod
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:30: error: cannot find symbol
+    private Constant[] latticeConstants;
+            ^
+  symbol:   class Constant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:31: error: cannot find symbol
+    private ArrayList<SsaBasicBlock> cfgWorklist;
+                      ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:32: error: cannot find symbol
+    private ArrayList<SsaBasicBlock> cfgPhiWorklist;
+                      ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:34: error: cannot find symbol
+    private ArrayList<SsaInsn> ssaWorklist;
+                      ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:35: error: cannot find symbol
+    private ArrayList<SsaInsn> varyingWorklist;
+                      ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:36: error: cannot find symbol
+    private ArrayList<SsaInsn> branchWorklist;
+                      ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:38: error: cannot find symbol
+    private SCCP(final SsaMethod ssaMeth) {
+                       ^
+  symbol:   class SsaMethod
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:55: error: cannot find symbol
+    public static void process(final SsaMethod ssaMethod) {
+                                     ^
+  symbol:   class SsaMethod
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:59: error: cannot find symbol
+    private void addBlockToWorklist(final SsaBasicBlock ssaBlock) {
+                                          ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:82: error: cannot find symbol
+    private boolean setLatticeValueTo(final int reg, final int value, final Constant cst) {
+                                                                            ^
+  symbol:   class Constant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:100: error: cannot find symbol
+    private void simulatePhi(final PhiInsn insn) {
+                                   ^
+  symbol:   class PhiInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:132: error: cannot find symbol
+    private void simulateBlock(final SsaBasicBlock block) {
+                                     ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:143: error: cannot find symbol
+    private void simulatePhiBlock(final SsaBasicBlock block) {
+                                        ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:169: error: cannot find symbol
+    private void simulateBranch(final SsaInsn insn) {
+                                      ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:291: error: cannot find symbol
+    private Constant simulateMath(final SsaInsn insn, final int resultType) {
+                                        ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:291: error: cannot find symbol
+    private Constant simulateMath(final SsaInsn insn, final int resultType) {
+            ^
+  symbol:   class Constant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:397: error: cannot find symbol
+    private void simulateStmt(final SsaInsn insn) {
+                                    ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:42: error: cannot find symbol
+        this.latticeConstants = new Constant[this.regCount];
+                                    ^
+  symbol:   class Constant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:43: error: cannot find symbol
+        this.cfgWorklist = new ArrayList<SsaBasicBlock>();
+                                         ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:44: error: cannot find symbol
+        this.cfgPhiWorklist = new ArrayList<SsaBasicBlock>();
+                                            ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:46: error: cannot find symbol
+        this.ssaWorklist = new ArrayList<SsaInsn>();
+                                         ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:47: error: cannot find symbol
+        this.varyingWorklist = new ArrayList<SsaInsn>();
+                                             ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:48: error: cannot find symbol
+        this.branchWorklist = new ArrayList<SsaInsn>();
+                                            ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:71: error: cannot find symbol
+            for (final SsaInsn insn : this.ssaMeth.getUseListForRegister(reg)) {
+                       ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:76: error: cannot find symbol
+            for (final SsaInsn insn : this.ssaMeth.getUseListForRegister(reg)) {
+                       ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:105: error: cannot find symbol
+        final RegisterSpecList sources = insn.getSources();
+              ^
+  symbol:   class RegisterSpecList
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:107: error: cannot find symbol
+        Constant phiConstant = null;
+        ^
+  symbol:   class Constant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:133: error: cannot find symbol
+        for (final SsaInsn insn : block.getInsns()) {
+                   ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:134: error: cannot find symbol
+            if (insn instanceof PhiInsn) {
+                                ^
+  symbol:   class PhiInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:135: error: cannot find symbol
+                this.simulatePhi((PhiInsn)insn);
+                                  ^
+  symbol:   class PhiInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:144: error: cannot find symbol
+        for (final SsaInsn insn : block.getInsns()) {
+                   ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:145: error: cannot find symbol
+            if (!(insn instanceof PhiInsn)) {
+                                  ^
+  symbol:   class PhiInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:148: error: cannot find symbol
+            this.simulatePhi((PhiInsn)insn);
+                              ^
+  symbol:   class PhiInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:170: error: cannot find symbol
+        final Rop opcode = insn.getOpcode();
+              ^
+  symbol:   class Rop
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:171: error: cannot find symbol
+        final RegisterSpecList sources = insn.getSources();
+              ^
+  symbol:   class RegisterSpecList
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:176: error: cannot find symbol
+                Constant cA = null;
+                ^
+  symbol:   class Constant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:177: error: cannot find symbol
+                Constant cB = null;
+                ^
+  symbol:   class Constant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:178: error: cannot find symbol
+                final RegisterSpec specA = sources.get(0);
+                      ^
+  symbol:   class RegisterSpec
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:184: error: cannot find symbol
+                    final RegisterSpec specB = sources.get(1);
+                          ^
+  symbol:   class RegisterSpec
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:192: error: cannot find symbol
+                        switch (((TypedConstant)cA).getBasicType()) {
+                                  ^
+  symbol:   class TypedConstant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:195: error: cannot find symbol
+                                final int vA = ((CstInteger)cA).getValue();
+                                                 ^
+  symbol:   class CstInteger
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:231: error: cannot find symbol
+                    switch (((TypedConstant)cA).getBasicType()) {
+                              ^
+  symbol:   class TypedConstant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:234: error: cannot find symbol
+                            final int vA = ((CstInteger)cA).getValue();
+                                             ^
+  symbol:   class CstInteger
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:235: error: cannot find symbol
+                            final int vB = ((CstInteger)cB).getValue();
+                                             ^
+  symbol:   class CstInteger
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:271: error: cannot find symbol
+        final SsaBasicBlock block = insn.getBlock();
+              ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:292: error: cannot find symbol
+        final Insn ropInsn = insn.getOriginalRopInsn();
+              ^
+  symbol:   class Insn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:294: error: cannot find symbol
+        final RegisterSpecList sources = insn.getSources();
+              ^
+  symbol:   class RegisterSpecList
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:296: error: cannot find symbol
+        Constant cA;
+        ^
+  symbol:   class Constant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:303: error: cannot find symbol
+        Constant cB;
+        ^
+  symbol:   class Constant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:305: error: cannot find symbol
+            final CstInsn cstInsn = (CstInsn)ropInsn;
+                  ^
+  symbol:   class CstInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:305: error: cannot find symbol
+            final CstInsn cstInsn = (CstInsn)ropInsn;
+                                     ^
+  symbol:   class CstInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:323: error: cannot find symbol
+                final int vA = ((CstInteger)cA).getValue();
+                                 ^
+  symbol:   class CstInteger
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:324: error: cannot find symbol
+                final int vB = ((CstInteger)cB).getValue();
+                                 ^
+  symbol:   class CstInteger
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:389: error: cannot find symbol
+                return skip ? null : CstInteger.make(vR);
+                                     ^
+  symbol:   variable CstInteger
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:398: error: cannot find symbol
+        final Insn ropInsn = insn.getOriginalRopInsn();
+              ^
+  symbol:   class Insn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:403: error: cannot find symbol
+        RegisterSpec result = insn.getResult();
+        ^
+  symbol:   class RegisterSpec
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:408: error: cannot find symbol
+            final SsaBasicBlock succ = insn.getBlock().getPrimarySuccessor();
+                  ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:413: error: cannot find symbol
+        Constant resultConstant = null;
+        ^
+  symbol:   class Constant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:416: error: cannot find symbol
+                final CstInsn cstInsn = (CstInsn)ropInsn;
+                      ^
+  symbol:   class CstInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:416: error: cannot find symbol
+                final CstInsn cstInsn = (CstInsn)ropInsn;
+                                         ^
+  symbol:   class CstInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:463: error: cannot find symbol
+        final SsaBasicBlock firstBlock = this.ssaMeth.getEntryBlock();
+              ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:468: error: cannot find symbol
+                final SsaBasicBlock block = this.cfgWorklist.remove(listSize);
+                      ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:473: error: cannot find symbol
+                final SsaBasicBlock block = this.cfgPhiWorklist.remove(listSize);
+                      ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:478: error: cannot find symbol
+                final SsaInsn insn = this.varyingWorklist.remove(listSize);
+                      ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:482: error: cannot find symbol
+                if (insn instanceof PhiInsn) {
+                                    ^
+  symbol:   class PhiInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:483: error: cannot find symbol
+                    this.simulatePhi((PhiInsn)insn);
+                                      ^
+  symbol:   class PhiInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:491: error: cannot find symbol
+                final SsaInsn insn = this.ssaWorklist.remove(listSize);
+                      ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:495: error: cannot find symbol
+                if (insn instanceof PhiInsn) {
+                                    ^
+  symbol:   class PhiInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:496: error: cannot find symbol
+                    this.simulatePhi((PhiInsn)insn);
+                                      ^
+  symbol:   class PhiInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:510: error: cannot find symbol
+                if (this.latticeConstants[reg] instanceof TypedConstant) {
+                                                          ^
+  symbol:   class TypedConstant
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:511: error: cannot find symbol
+                    final SsaInsn defn = this.ssaMeth.getDefinitionForRegister(reg);
+                          ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:512: error: cannot find symbol
+                    final TypeBearer typeBearer = defn.getResult().getTypeBearer();
+                          ^
+  symbol:   class TypeBearer
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:514: error: cannot find symbol
+                        final RegisterSpec dest = defn.getResult();
+                              ^
+  symbol:   class RegisterSpec
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:515: error: cannot find symbol
+                        final RegisterSpec newDest = dest.withType((TypeBearer)this.latticeConstants[reg]);
+                              ^
+  symbol:   class RegisterSpec
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:515: error: cannot find symbol
+                        final RegisterSpec newDest = dest.withType((TypeBearer)this.latticeConstants[reg]);
+                                                                    ^
+  symbol:   class TypeBearer
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:517: error: cannot find symbol
+                        for (final SsaInsn insn : this.ssaMeth.getUseListForRegister(reg)) {
+                                   ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:521: error: cannot find symbol
+                            final NormalSsaInsn nInsn = (NormalSsaInsn)insn;
+                                  ^
+  symbol:   class NormalSsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:521: error: cannot find symbol
+                            final NormalSsaInsn nInsn = (NormalSsaInsn)insn;
+                                                         ^
+  symbol:   class NormalSsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:522: error: cannot find symbol
+                            final RegisterSpecList sources = insn.getSources();
+                                  ^
+  symbol:   class RegisterSpecList
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:524: error: cannot find symbol
+                            final RegisterSpec spec = sources.get(index);
+                                  ^
+  symbol:   class RegisterSpec
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:525: error: cannot find symbol
+                            final RegisterSpec newSpec = spec.withType((TypeBearer)this.latticeConstants[reg]);
+                                  ^
+  symbol:   class RegisterSpec
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:525: error: cannot find symbol
+                            final RegisterSpec newSpec = spec.withType((TypeBearer)this.latticeConstants[reg]);
+                                                                        ^
+  symbol:   class TypeBearer
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:535: error: cannot find symbol
+        for (final SsaInsn insn : this.branchWorklist) {
+                   ^
+  symbol:   class SsaInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:537: error: cannot find symbol
+            final SsaBasicBlock block = insn.getBlock();
+                  ^
+  symbol:   class SsaBasicBlock
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:549: error: cannot find symbol
+                final Insn originalRopInsn = insn.getOriginalRopInsn();
+                      ^
+  symbol:   class Insn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:550: error: cannot find symbol
+                block.replaceLastInsn(new PlainInsn(Rops.GOTO, originalRopInsn.getPosition(), null, RegisterSpecList.EMPTY));
+                                          ^
+  symbol:   class PlainInsn
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:550: error: cannot find symbol
+                block.replaceLastInsn(new PlainInsn(Rops.GOTO, originalRopInsn.getPosition(), null, RegisterSpecList.EMPTY));
+                                                    ^
+  symbol:   variable Rops
+  location: class SCCP
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/SCCP.java:550: error: cannot find symbol
+                block.replaceLastInsn(new PlainInsn(Rops.GOTO, originalRopInsn.getPosition(), null, RegisterSpecList.EMPTY));
+                                                                                                    ^
+  symbol:   variable RegisterSpecList
+  location: class SCCP
+100 errors

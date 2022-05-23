@@ -1,0 +1,37 @@
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockFilterChain.java:11: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockFilterChain.java:12: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockFilterChain.java:38: error: cannot find symbol
+        Assert.notNull((Object)filters, "filters cannot be null");
+        ^
+  symbol:   variable Assert
+  location: class MockFilterChain
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockFilterChain.java:39: error: cannot find symbol
+        Assert.noNullElements((Object[])filters, "filters cannot contain null values");
+        ^
+  symbol:   variable Assert
+  location: class MockFilterChain
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockFilterChain.java:44: error: cannot find symbol
+        final Filter[] allFilters = (Filter[])ObjectUtils.addObjectToArray((Object[])filters, (Object)new ServletFilterProxy(servlet));
+                                              ^
+  symbol:   variable ObjectUtils
+  location: class MockFilterChain
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockFilterChain.java:57: error: cannot find symbol
+        Assert.notNull((Object)request, "Request must not be null");
+        ^
+  symbol:   variable Assert
+  location: class MockFilterChain
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockFilterChain.java:58: error: cannot find symbol
+        Assert.notNull((Object)response, "Response must not be null");
+        ^
+  symbol:   variable Assert
+  location: class MockFilterChain
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/mock/web/MockFilterChain.java:84: error: cannot find symbol
+            Assert.notNull((Object)servlet, "servlet cannot be null");
+            ^
+  symbol:   variable Assert
+  location: class ServletFilterProxy
+8 errors

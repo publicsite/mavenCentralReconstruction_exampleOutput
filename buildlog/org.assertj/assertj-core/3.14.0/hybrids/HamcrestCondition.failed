@@ -1,0 +1,45 @@
+hybrids/org.assertj/assertj-core/3.14.0/HamcrestCondition.java:15: error: package org.hamcrest does not exist
+import org.hamcrest.Description;
+                   ^
+hybrids/org.assertj/assertj-core/3.14.0/HamcrestCondition.java:16: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+hybrids/org.assertj/assertj-core/3.14.0/HamcrestCondition.java:17: error: package org.hamcrest does not exist
+import org.hamcrest.StringDescription;
+                   ^
+hybrids/org.assertj/assertj-core/3.14.0/HamcrestCondition.java:38: error: cannot find symbol
+  private Matcher<? extends T> matcher;
+          ^
+  symbol:   class Matcher
+  location: class HamcrestCondition<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestCondition
+hybrids/org.assertj/assertj-core/3.14.0/HamcrestCondition.java:45: error: cannot find symbol
+  public HamcrestCondition(Matcher<? extends T> matcher) {
+                           ^
+  symbol:   class Matcher
+  location: class HamcrestCondition<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestCondition
+hybrids/org.assertj/assertj-core/3.14.0/HamcrestCondition.java:64: error: cannot find symbol
+  public static <T> HamcrestCondition<T> matching(Matcher<? extends T> matcher) {
+                                                  ^
+  symbol:   class Matcher
+  location: class HamcrestCondition<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestCondition
+hybrids/org.assertj/assertj-core/3.14.0/HamcrestCondition.java:77: error: cannot find symbol
+    Description d = new StringDescription();
+    ^
+  symbol:   class Description
+  location: class HamcrestCondition<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestCondition
+hybrids/org.assertj/assertj-core/3.14.0/HamcrestCondition.java:77: error: cannot find symbol
+    Description d = new StringDescription();
+                        ^
+  symbol:   class StringDescription
+  location: class HamcrestCondition<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestCondition
+8 errors

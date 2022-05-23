@@ -1,0 +1,81 @@
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:27: error: package javax.activation does not exist
+import javax.activation.DataHandler;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:33: error: package javax.activation does not exist
+import javax.activation.DataSource;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:57: error: cannot find symbol
+    public static String getEncoding(final DataSource ds) {
+                                           ^
+  symbol:   class DataSource
+  location: class MimeUtility
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:133: error: cannot find symbol
+    public static String getEncoding(final DataHandler dh) {
+                                           ^
+  symbol:   class DataHandler
+  location: class MimeUtility
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Part.java:45: error: package javax.activation does not exist
+import javax.activation.DataHandler;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Part.java:278: error: cannot find symbol
+    public DataHandler getDataHandler() throws MessagingException;
+           ^
+  symbol:   class DataHandler
+  location: interface Part
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Part.java:312: error: cannot find symbol
+    public void setDataHandler(DataHandler dh) throws MessagingException;
+                               ^
+  symbol:   class DataHandler
+  location: interface Part
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Multipart.java:47: error: package javax.activation does not exist
+import javax.activation.DataSource;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/MultipartDataSource.java:47: error: package javax.activation does not exist
+import javax.activation.DataSource;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/MultipartDataSource.java:66: error: cannot find symbol
+public interface MultipartDataSource extends DataSource {
+                                             ^
+  symbol: class DataSource
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Session.java:54: error: package javax.activation does not exist
+import javax.activation.*;
+^
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:113: error: incompatible types: Object cannot be converted to Boolean
+            bool = MimeUtility.nonAsciiCharsetMap.get(charset);
+                                                     ^
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:146: error: cannot find symbol
+            final AsciiOutputStream aos = new AsciiOutputStream(false, false);
+                  ^
+  symbol:   class AsciiOutputStream
+  location: class MimeUtility
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:146: error: cannot find symbol
+            final AsciiOutputStream aos = new AsciiOutputStream(false, false);
+                                              ^
+  symbol:   class AsciiOutputStream
+  location: class MimeUtility
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:167: error: cannot find symbol
+            final AsciiOutputStream aos = new AsciiOutputStream(true, MimeUtility.encodeEolStrict);
+                  ^
+  symbol:   class AsciiOutputStream
+  location: class MimeUtility
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:167: error: cannot find symbol
+            final AsciiOutputStream aos = new AsciiOutputStream(true, MimeUtility.encodeEolStrict);
+                                              ^
+  symbol:   class AsciiOutputStream
+  location: class MimeUtility
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:654: error: incompatible types: Object cannot be converted to String
+        final String alias = MimeUtility.mime2java.get(charset.toLowerCase(Locale.ENGLISH));
+                                                      ^
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/javax/mail/internet/MimeUtility.java:662: error: incompatible types: Object cannot be converted to String
+        final String alias = MimeUtility.java2mime.get(charset.toLowerCase(Locale.ENGLISH));
+                                                      ^
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Multipart.java:109: error: cannot find symbol
+	contentType = mp.getContentType();
+	                ^
+  symbol:   method getContentType()
+  location: variable mp of type MultipartDataSource
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors

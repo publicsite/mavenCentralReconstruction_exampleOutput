@@ -1,0 +1,75 @@
+sources/structure/jline/jline/2.11/extractedSources/jline/console/ConsoleReader.java:55: error: package org.fusesource.jansi does not exist
+import org.fusesource.jansi.AnsiOutputStream;
+                           ^
+sources/structure/jline/jline/2.11/extractedSources/jline/console/ConsoleReader.java:506: error: cannot find symbol
+            AnsiOutputStream aos = new AnsiOutputStream(baos);
+            ^
+  symbol:   class AnsiOutputStream
+  location: class ConsoleReader
+sources/structure/jline/jline/2.11/extractedSources/jline/console/ConsoleReader.java:506: error: cannot find symbol
+            AnsiOutputStream aos = new AnsiOutputStream(baos);
+                                       ^
+  symbol:   class AnsiOutputStream
+  location: class ConsoleReader
+sources/structure/jline/jline/2.11/extractedSources/jline/AnsiWindowsTerminal.java:12: error: package org.fusesource.jansi does not exist
+import org.fusesource.jansi.AnsiConsole;
+                           ^
+sources/structure/jline/jline/2.11/extractedSources/jline/AnsiWindowsTerminal.java:13: error: package org.fusesource.jansi does not exist
+import org.fusesource.jansi.AnsiOutputStream;
+                           ^
+sources/structure/jline/jline/2.11/extractedSources/jline/AnsiWindowsTerminal.java:14: error: package org.fusesource.jansi does not exist
+import org.fusesource.jansi.WindowsAnsiOutputStream;
+                           ^
+sources/structure/jline/jline/2.11/extractedSources/jline/WindowsTerminal.java:18: error: package org.fusesource.jansi.internal does not exist
+import org.fusesource.jansi.internal.WindowsSupport;
+                                    ^
+sources/structure/jline/jline/2.11/extractedSources/jline/WindowsTerminal.java:177: error: cannot find symbol
+        return WindowsSupport.getConsoleMode();
+               ^
+  symbol:   variable WindowsSupport
+  location: class WindowsTerminal
+sources/structure/jline/jline/2.11/extractedSources/jline/WindowsTerminal.java:181: error: cannot find symbol
+        WindowsSupport.setConsoleMode(mode);
+        ^
+  symbol:   variable WindowsSupport
+  location: class WindowsTerminal
+sources/structure/jline/jline/2.11/extractedSources/jline/WindowsTerminal.java:185: error: cannot find symbol
+        return WindowsSupport.readByte();
+               ^
+  symbol:   variable WindowsSupport
+  location: class WindowsTerminal
+sources/structure/jline/jline/2.11/extractedSources/jline/WindowsTerminal.java:189: error: cannot find symbol
+        return WindowsSupport.getWindowsTerminalWidth();
+               ^
+  symbol:   variable WindowsSupport
+  location: class WindowsTerminal
+sources/structure/jline/jline/2.11/extractedSources/jline/WindowsTerminal.java:193: error: cannot find symbol
+        return WindowsSupport.getWindowsTerminalHeight();
+               ^
+  symbol:   variable WindowsSupport
+  location: class WindowsTerminal
+sources/structure/jline/jline/2.11/extractedSources/jline/AnsiWindowsTerminal.java:45: error: cannot find symbol
+                return new WindowsAnsiOutputStream(stream);
+                           ^
+  symbol:   class WindowsAnsiOutputStream
+  location: class AnsiWindowsTerminal
+sources/structure/jline/jline/2.11/extractedSources/jline/AnsiWindowsTerminal.java:51: error: cannot find symbol
+            return new AnsiOutputStream(stream);
+                       ^
+  symbol:   class AnsiOutputStream
+  location: class AnsiWindowsTerminal
+sources/structure/jline/jline/2.11/extractedSources/jline/AnsiWindowsTerminal.java:57: error: cannot find symbol
+        OutputStream out = AnsiConsole.wrapOutputStream(new ByteArrayOutputStream());
+                           ^
+  symbol:   variable AnsiConsole
+  location: class AnsiWindowsTerminal
+sources/structure/jline/jline/2.11/extractedSources/jline/AnsiWindowsTerminal.java:64: error: cannot find symbol
+        return out instanceof WindowsAnsiOutputStream;
+                              ^
+  symbol:   class WindowsAnsiOutputStream
+  location: class AnsiWindowsTerminal
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+16 errors

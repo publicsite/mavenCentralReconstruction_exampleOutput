@@ -1,0 +1,153 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:10: error: cannot find symbol
+import org.easymock.cglib.core.CodeEmitter;
+                              ^
+  symbol:   class CodeEmitter
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:11: error: cannot find symbol
+import org.easymock.cglib.core.EmitUtils;
+                              ^
+  symbol:   class EmitUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:13: error: cannot find symbol
+import org.easymock.cglib.core.ClassEmitter;
+                              ^
+  symbol:   class ClassEmitter
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:14: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:15: error: cannot find symbol
+import org.easymock.cglib.core.ReflectUtils;
+                              ^
+  symbol:   class ReflectUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:17: error: cannot find symbol
+import org.easymock.cglib.core.AbstractClassGenerator;
+                              ^
+  symbol:   class AbstractClassGenerator
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:18: error: cannot find symbol
+import org.easymock.cglib.core.TypeUtils;
+                              ^
+  symbol:   class TypeUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:44: error: cannot find symbol
+    public static class Generator extends AbstractClassGenerator
+                                          ^
+  symbol:   class AbstractClassGenerator
+  location: class ImmutableBean
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:46: error: cannot find symbol
+        private static final Source SOURCE;
+                             ^
+  symbol:   class Source
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:75: error: cannot find symbol
+        public void generateClass(final ClassVisitor v) {
+                                        ^
+  symbol:   class ClassVisitor
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:39: error: cannot find symbol
+        ILLEGAL_STATE_EXCEPTION = TypeUtils.parseType("IllegalStateException");
+                                  ^
+  symbol:   variable TypeUtils
+  location: class ImmutableBean
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:40: error: cannot find symbol
+        CSTRUCT_OBJECT = TypeUtils.parseConstructor("Object");
+                         ^
+  symbol:   variable TypeUtils
+  location: class ImmutableBean
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:59: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:64: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:66: error: cannot find symbol
+            return ReflectUtils.getProtectionDomain(this.target);
+                   ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:71: error: cannot find symbol
+            this.setNamePrefix(name);
+                ^
+  symbol: method setNamePrefix(String)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:72: error: non-static variable super cannot be referenced from a static context
+            return super.create(name);
+                   ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:72: error: cannot find symbol
+            return super.create(name);
+                        ^
+  symbol: method create(String)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:77: error: cannot find symbol
+            final ClassEmitter ce = new ClassEmitter(v);
+                  ^
+  symbol:   class ClassEmitter
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:77: error: cannot find symbol
+            final ClassEmitter ce = new ClassEmitter(v);
+                                        ^
+  symbol:   class ClassEmitter
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:78: error: cannot find symbol
+            ce.begin_class(52, 1, this.getClassName(), targetType, null, "<generated>");
+                                      ^
+  symbol: method getClassName()
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:80: error: cannot find symbol
+            CodeEmitter e = ce.begin_method(1, ImmutableBean.CSTRUCT_OBJECT, null);
+            ^
+  symbol:   class CodeEmitter
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:89: error: cannot find symbol
+            final PropertyDescriptor[] descriptors = ReflectUtils.getBeanProperties(this.target);
+                                                     ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:90: error: cannot find symbol
+            final Method[] getters = ReflectUtils.getPropertyMethods(descriptors, true, false);
+                                     ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:91: error: cannot find symbol
+            final Method[] setters = ReflectUtils.getPropertyMethods(descriptors, false, true);
+                                     ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:93: error: cannot find symbol
+                final MethodInfo getter = ReflectUtils.getMethodInfo(getters[i]);
+                                          ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:94: error: cannot find symbol
+                e = EmitUtils.begin_method(ce, getter, 1);
+                    ^
+  symbol:   variable EmitUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:102: error: cannot find symbol
+                final MethodInfo setter = ReflectUtils.getMethodInfo(setters[i]);
+                                          ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:103: error: cannot find symbol
+                e = EmitUtils.begin_method(ce, setter, 1);
+                    ^
+  symbol:   variable EmitUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:110: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:112: error: cannot find symbol
+            return ReflectUtils.newInstance(type, ImmutableBean.OBJECT_CLASSES, new Object[] { this.bean });
+                   ^
+  symbol:   variable ReflectUtils
+  location: class Generator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:115: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/beans/ImmutableBean.java:121: error: cannot find symbol
+            SOURCE = new Source(ImmutableBean.class.getName());
+                         ^
+  symbol:   class Source
+  location: class Generator
+33 errors

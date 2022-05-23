@@ -1,0 +1,66 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:7: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.AnnotationUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:8: error: package org.junit.platform.commons does not exist
+import org.junit.platform.commons.JUnitException;
+                                 ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:14: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:58: error: package ReflectionUtils does not exist
+    private static List<Method> findMethodsAndAssertStatic(final Class<?> testClass, final boolean requireStatic, final Class<? extends Annotation> annotationType, final ReflectionUtils.HierarchyTraversalMode traversalMode) {
+                                                                                                                                                                                         ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:66: error: package ReflectionUtils does not exist
+    private static List<Method> findMethodsAndAssertNonStatic(final Class<?> testClass, final Class<? extends Annotation> annotationType, final ReflectionUtils.HierarchyTraversalMode traversalMode) {
+                                                                                                                                                               ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:72: error: package ReflectionUtils does not exist
+    private static List<Method> findMethodsAndCheckVoidReturnType(final Class<?> testClass, final Class<? extends Annotation> annotationType, final ReflectionUtils.HierarchyTraversalMode traversalMode) {
+                                                                                                                                                                   ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:25: error: package ReflectionUtils does not exist
+        return findMethodsAndAssertStatic(testClass, requireStatic, (Class<? extends Annotation>)BeforeAll.class, ReflectionUtils.HierarchyTraversalMode.TOP_DOWN);
+                                                                                                                                 ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:29: error: package ReflectionUtils does not exist
+        return findMethodsAndAssertStatic(testClass, requireStatic, (Class<? extends Annotation>)AfterAll.class, ReflectionUtils.HierarchyTraversalMode.BOTTOM_UP);
+                                                                                                                                ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:33: error: package ReflectionUtils does not exist
+        return findMethodsAndAssertNonStatic(testClass, (Class<? extends Annotation>)BeforeEach.class, ReflectionUtils.HierarchyTraversalMode.TOP_DOWN);
+                                                                                                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:37: error: package ReflectionUtils does not exist
+        return findMethodsAndAssertNonStatic(testClass, (Class<? extends Annotation>)AfterEach.class, ReflectionUtils.HierarchyTraversalMode.BOTTOM_UP);
+                                                                                                                     ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:41: error: cannot find symbol
+        if (ReflectionUtils.isNotStatic((Member)method)) {
+            ^
+  symbol:   variable ReflectionUtils
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:42: error: cannot find symbol
+            throw new JUnitException(String.format("@%s method '%s' must be static unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).", annotationType.getSimpleName(), method.toGenericString()));
+                      ^
+  symbol:   class JUnitException
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:47: error: cannot find symbol
+        if (ReflectionUtils.isStatic((Member)method)) {
+            ^
+  symbol:   variable ReflectionUtils
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:48: error: cannot find symbol
+            throw new JUnitException(String.format("@%s method '%s' must not be static.", annotationType.getSimpleName(), method.toGenericString()));
+                      ^
+  symbol:   class JUnitException
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:53: error: cannot find symbol
+        if (!ReflectionUtils.returnsVoid(method)) {
+             ^
+  symbol:   variable ReflectionUtils
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:54: error: cannot find symbol
+            throw new JUnitException(String.format("@%s method '%s' must not return a value.", annotationType.getSimpleName(), method.toGenericString()));
+                      ^
+  symbol:   class JUnitException
+  location: class LifecycleMethodUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/LifecycleMethodUtils.java:73: error: cannot find symbol
+        final List<Method> methods = (List<Method>)AnnotationUtils.findAnnotatedMethods((Class)testClass, (Class)annotationType, traversalMode);
+                                                   ^
+  symbol:   variable AnnotationUtils
+  location: class LifecycleMethodUtils
+17 errors

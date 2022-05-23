@@ -1,0 +1,106 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:11: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.utility.JavaDispatcher;
+                                                  ^
+  symbol:   class JavaDispatcher
+  location: package org.assertj.core.internal.bytebuddy.utility
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:18: error: package org.assertj.core.internal.bytebuddy.implementation.bytecode does not exist
+import org.assertj.core.internal.bytebuddy.implementation.bytecode.StackSize;
+                                                                  ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:19: error: package org.assertj.core.internal.bytebuddy.description.method does not exist
+import org.assertj.core.internal.bytebuddy.description.method.MethodList;
+                                                             ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:20: error: package org.assertj.core.internal.bytebuddy.description.field does not exist
+import org.assertj.core.internal.bytebuddy.description.field.FieldList;
+                                                            ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:21: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.description.ModifierReviewable;
+                                                      ^
+  symbol:   class ModifierReviewable
+  location: package org.assertj.core.internal.bytebuddy.description
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:24: error: package ModifierReviewable does not exist
+public interface TypeDefinition extends NamedElement, ModifierReviewable.ForTypeDefinition, Iterable<TypeDefinition>
+                                                                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:28: error: package TypeDescription does not exist
+    TypeDescription.Generic asGenericType();
+                   ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:30: error: cannot find symbol
+    TypeDescription asErasure();
+    ^
+  symbol:   class TypeDescription
+  location: interface TypeDefinition
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:32: error: package TypeDescription does not exist
+    TypeDescription.Generic getSuperClass();
+                   ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:34: error: package TypeList does not exist
+    TypeList.Generic getInterfaces();
+            ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:36: error: cannot find symbol
+    FieldList<?> getDeclaredFields();
+    ^
+  symbol:   class FieldList
+  location: interface TypeDefinition
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:38: error: cannot find symbol
+    MethodList<?> getDeclaredMethods();
+    ^
+  symbol:   class MethodList
+  location: interface TypeDefinition
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:42: error: cannot find symbol
+    RecordComponentList<?> getRecordComponents();
+    ^
+  symbol:   class RecordComponentList
+  location: interface TypeDefinition
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:48: error: cannot find symbol
+    StackSize getStackSize();
+    ^
+  symbol:   class StackSize
+  location: interface TypeDefinition
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:123: error: package JavaDispatcher does not exist
+        @JavaDispatcher.Proxied("java.lang.reflect.AnnotatedType")
+                       ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:69: error: package TypeDescription does not exist
+        public static TypeDescription.Generic describe(final Type type) {
+                                     ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:73: error: package TypeDescription does not exist
+        public static TypeDescription.Generic describeAnnotated(final AnnotatedElement annotatedType) {
+                                     ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:80: error: package TypeDescription.Generic does not exist
+        protected static TypeDescription.Generic describe(final Type type, final TypeDescription.Generic.AnnotationReader annotationReader) {
+                                                                                                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:80: error: package TypeDescription does not exist
+        protected static TypeDescription.Generic describe(final Type type, final TypeDescription.Generic.AnnotationReader annotationReader) {
+                                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:126: error: package JavaDispatcher does not exist
+            @JavaDispatcher.Instance
+                           ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:70: error: package TypeDescription.Generic.AnnotationReader does not exist
+            return describe(type, TypeDescription.Generic.AnnotationReader.NoOp.INSTANCE);
+                                                                          ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:77: error: package TypeDescription.Generic.AnnotationReader.Delegator does not exist
+            return describe(Sort.ANNOTATED_TYPE.getType(annotatedType), new TypeDescription.Generic.AnnotationReader.Delegator.Simple(annotatedType));
+                                                                                                                              ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:82: error: package TypeDescription.Generic.OfNonGenericType does not exist
+                return new TypeDescription.Generic.OfNonGenericType.ForLoadedType((Class<?>)type, annotationReader);
+                                                                   ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:85: error: package TypeDescription.Generic.OfGenericArray does not exist
+                return new TypeDescription.Generic.OfGenericArray.ForLoadedType((GenericArrayType)type, annotationReader);
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:88: error: package TypeDescription.Generic.OfParameterizedType does not exist
+                return new TypeDescription.Generic.OfParameterizedType.ForLoadedType((ParameterizedType)type, annotationReader);
+                                                                      ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:91: error: package TypeDescription.Generic.OfTypeVariable does not exist
+                return new TypeDescription.Generic.OfTypeVariable.ForLoadedType((TypeVariable<?>)type, annotationReader);
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:94: error: package TypeDescription.Generic.OfWildcardType does not exist
+                return new TypeDescription.Generic.OfWildcardType.ForLoadedType((WildcardType)type, annotationReader);
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:120: error: cannot find symbol
+            ANNOTATED_TYPE = AccessController.doPrivileged((PrivilegedAction<AnnotatedType>)JavaDispatcher.of((Class<T>)AnnotatedType.class));
+                                                                                                                     ^
+  symbol:   class T
+  location: class Sort
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/type/TypeDefinition.java:120: error: cannot find symbol
+            ANNOTATED_TYPE = AccessController.doPrivileged((PrivilegedAction<AnnotatedType>)JavaDispatcher.of((Class<T>)AnnotatedType.class));
+                                                                                            ^
+  symbol:   variable JavaDispatcher
+  location: class Sort
+29 errors

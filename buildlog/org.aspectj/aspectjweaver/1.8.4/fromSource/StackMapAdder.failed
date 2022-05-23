@@ -1,0 +1,76 @@
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:50: error: cannot find symbol
+	private static class AspectJClassVisitor extends ClassVisitor {
+	                                                 ^
+  symbol:   class ClassVisitor
+  location: class StackMapAdder
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:52: error: cannot find symbol
+		public AspectJClassVisitor(ClassVisitor classwriter) {
+		                           ^
+  symbol:   class ClassVisitor
+  location: class AspectJClassVisitor
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:57: error: cannot find symbol
+		public MethodVisitor visitMethod(int access, String name, String desc, String signature, String[] exceptions) {
+		       ^
+  symbol:   class MethodVisitor
+  location: class AspectJClassVisitor
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:64: error: cannot find symbol
+		static class AJMethodVisitor extends MethodVisitor {
+		                                     ^
+  symbol:   class MethodVisitor
+  location: class AspectJClassVisitor
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:65: error: cannot find symbol
+			public AJMethodVisitor(MethodVisitor mv) {
+			                       ^
+  symbol:   class MethodVisitor
+  location: class AJMethodVisitor
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:72: error: cannot find symbol
+	private static class AspectJConnectClassWriter extends ClassWriter {
+	                                                       ^
+  symbol:   class ClassWriter
+  location: class StackMapAdder
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:75: error: cannot find symbol
+		public AspectJConnectClassWriter(ClassReader cr, World w) {
+		                                 ^
+  symbol:   class ClassReader
+  location: class AspectJConnectClassWriter
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:38: error: cannot find symbol
+			ClassReader cr = new ClassReader(data);
+			^
+  symbol:   class ClassReader
+  location: class StackMapAdder
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:38: error: cannot find symbol
+			ClassReader cr = new ClassReader(data);
+			                     ^
+  symbol:   class ClassReader
+  location: class StackMapAdder
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:39: error: cannot find symbol
+			ClassWriter cw = new AspectJConnectClassWriter(cr, world);
+			^
+  symbol:   class ClassWriter
+  location: class StackMapAdder
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:40: error: cannot find symbol
+			ClassVisitor cv = new AspectJClassVisitor(cw);
+			^
+  symbol:   class ClassVisitor
+  location: class StackMapAdder
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:56: error: method does not override or implement a method from a supertype
+		@Override
+		^
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:58: error: cannot find symbol
+			MethodVisitor mv = super.visitMethod(access, name, desc, signature, exceptions);
+			^
+  symbol:   class MethodVisitor
+  location: class AspectJClassVisitor
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:58: error: non-static variable super cannot be referenced from a static context
+			MethodVisitor mv = super.visitMethod(access, name, desc, signature, exceptions);
+			                   ^
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:58: error: cannot find symbol
+			MethodVisitor mv = super.visitMethod(access, name, desc, signature, exceptions);
+			                        ^
+  symbol: method visitMethod(int,String,String,String,String[])
+sources/structure/org.aspectj/aspectjweaver/1.8.4/extractedSources/org/aspectj/weaver/bcel/asm/StackMapAdder.java:76: error: cannot find symbol
+			super(cr, ClassWriter.COMPUTE_FRAMES); // passing in cr is necessary so cpool isnt modified (see 2.2.4 of asm doc)
+			          ^
+  symbol:   variable ClassWriter
+  location: class AspectJConnectClassWriter
+16 errors

@@ -1,0 +1,53 @@
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/extractedSources/src/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:206: error: cannot find symbol
+        final sun.misc.Perf perf;
+                      ^
+  symbol:   class Perf
+  location: package sun.misc
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/AbstractExecutorService.java:64: error: incompatible types: Object cannot be converted to Callable
+            futures.add(ecs.submit(it.next()));
+                                          ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/AbstractExecutorService.java:72: error: incompatible types: Object cannot be converted to Callable
+                        futures.add(ecs.submit(it.next()));
+                                                      ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/AbstractExecutorService.java:116: error: cannot find symbol
+                f2.next().cancel(true);
+                         ^
+  symbol:   method cancel(boolean)
+  location: class Object
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/AbstractExecutorService.java:144: error: incompatible types: Object cannot be converted to Callable
+                final RunnableFuture f = this.newTaskFor(t.next());
+                                                               ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/AbstractExecutorService.java:148: error: incompatible types: Object cannot be converted to Future
+            for (final Future f2 : futures) {
+                                   ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/AbstractExecutorService.java:162: error: incompatible types: Object cannot be converted to Future
+                for (final Future f3 : futures) {
+                                       ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/AbstractExecutorService.java:179: error: incompatible types: Object cannot be converted to Callable
+                futures.add(this.newTaskFor(t.next()));
+                                                  ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/AbstractExecutorService.java:184: error: incompatible types: Object cannot be converted to Runnable
+                this.execute(it.next());
+                                    ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/AbstractExecutorService.java:192: error: incompatible types: Object cannot be converted to Future
+            for (final Future f : futures) {
+                                  ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/AbstractExecutorService.java:215: error: incompatible types: Object cannot be converted to Future
+                for (final Future f2 : futures) {
+                                       ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/extractedSources/src/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:209: error: cannot find symbol
+            perf = (sun.misc.Perf)
+                            ^
+  symbol:   class Perf
+  location: package sun.misc
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/extractedSources/src/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:212: error: cannot find symbol
+                        return sun.misc.Perf.getPerf();
+                                       ^
+  symbol:   class Perf
+  location: package sun.misc
+Note: sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/extractedSources/src/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+13 errors

@@ -1,0 +1,45 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/type/classreading/SimpleMetadataReader.java:19: error: cannot find symbol
+import org.objectweb.asm.ClassReader;
+                        ^
+  symbol:   class ClassReader
+  location: package org.objectweb.asm
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/type/classreading/SimpleMetadataReader.java:36: error: cannot find symbol
+	private final ClassReader classReader;
+	              ^
+  symbol:   class ClassReader
+  location: class SimpleMetadataReader
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/type/classreading/SimpleMetadataReader.java:41: error: cannot find symbol
+	public SimpleMetadataReader(ClassReader classReader, ClassLoader classLoader) {
+	                            ^
+  symbol:   class ClassReader
+  location: class SimpleMetadataReader
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/type/classreading/ClassMetadataReadingVisitor.java:20: error: cannot find symbol
+import org.objectweb.asm.commons.EmptyVisitor;
+                                ^
+  symbol:   class EmptyVisitor
+  location: package org.objectweb.asm.commons
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/type/classreading/ClassMetadataReadingVisitor.java:36: error: cannot find symbol
+class ClassMetadataReadingVisitor extends EmptyVisitor implements ClassMetadata {
+                                          ^
+  symbol: class EmptyVisitor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/type/classreading/AnnotationMetadataReadingVisitor.java:28: error: cannot find symbol
+import org.objectweb.asm.Type;
+                        ^
+  symbol:   class Type
+  location: package org.objectweb.asm
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/type/classreading/AnnotationMetadataReadingVisitor.java:29: error: cannot find symbol
+import org.objectweb.asm.commons.EmptyVisitor;
+                                ^
+  symbol:   class EmptyVisitor
+  location: package org.objectweb.asm.commons
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/type/classreading/AnnotationMetadataReadingVisitor.java:58: error: cannot find symbol
+		final String className = Type.getType(desc).getClassName();
+		                         ^
+  symbol:   variable Type
+  location: class AnnotationMetadataReadingVisitor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/type/classreading/AnnotationMetadataReadingVisitor.java:60: error: cannot find symbol
+		return new EmptyVisitor() {
+		           ^
+  symbol:   class EmptyVisitor
+  location: class AnnotationMetadataReadingVisitor
+9 errors

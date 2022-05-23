@@ -1,0 +1,67 @@
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:7: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.DirectoryScanner;
+                           ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:8: error: package org.apache.tools.ant.types does not exist
+import org.apache.tools.ant.types.FileSet;
+                                 ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:13: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.BuildException;
+                           ^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/ant/BaseTask.java:10: error: cannot find symbol
+public class BaseTask extends Task implements Reporter {
+                              ^
+  symbol: class Task
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:36: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class WrapTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:116: error: cannot find symbol
+    public void addConfiguredFileSet(final FileSet list) {
+                                           ^
+  symbol:   class FileSet
+  location: class WrapTask
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/ant/BaseTask.java:6: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:40: error: cannot find symbol
+                throw new BuildException("No files set");
+                          ^
+  symbol:   class BuildException
+  location: class WrapTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:43: error: cannot find symbol
+                this.output = this.getProject().getBaseDir();
+                                  ^
+  symbol: method getProject()
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:46: error: cannot find symbol
+                this.definitions = this.getProject().getBaseDir();
+                                       ^
+  symbol: method getProject()
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:56: error: cannot find symbol
+                bnd.doWrap(bndFile.exists() ? bndFile : null, file, this.output, null, 0, this.getProject().getProperties());
+                                                                                              ^
+  symbol: method getProject()
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:65: error: cannot find symbol
+                throw new BuildException("Failed to build jar file: " + e, (Throwable)e);
+                          ^
+  symbol:   class BuildException
+  location: class WrapTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:69: error: cannot find symbol
+            throw new BuildException("Failed to wrap jar file");
+                      ^
+  symbol:   class BuildException
+  location: class WrapTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:80: error: cannot find symbol
+        final File project = this.getProject().getBaseDir();
+                                 ^
+  symbol: method getProject()
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:117: error: cannot find symbol
+        final DirectoryScanner scanner = list.getDirectoryScanner(this.getProject());
+              ^
+  symbol:   class DirectoryScanner
+  location: class WrapTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/WrapTask.java:117: error: cannot find symbol
+        final DirectoryScanner scanner = list.getDirectoryScanner(this.getProject());
+                                                                      ^
+  symbol: method getProject()
+16 errors

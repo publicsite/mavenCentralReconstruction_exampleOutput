@@ -1,0 +1,53 @@
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:25: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.assertFalse;
+                                   ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:25: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.assertFalse;
+^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:26: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.assertTrue;
+                                   ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:26: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.assertTrue;
+^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:47: error: cannot find symbol
+        assertTrue(path.isDirectory(), msg + " path should be a Dir : " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:59: error: cannot find symbol
+        assertTrue(Files.isDirectory(path), msg + " path should be a Dir : " + path);
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:71: error: cannot find symbol
+        assertTrue(path.isFile(), msg + " path should be a File : " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:83: error: cannot find symbol
+        assertTrue(Files.isRegularFile(path), msg + " path should be a File : " + path);
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:94: error: cannot find symbol
+        assertTrue(path.exists(), msg + " path should exist: " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:105: error: cannot find symbol
+        assertTrue(Files.exists(path), msg + " path should exist: " + path);
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:116: error: cannot find symbol
+        assertFalse(path.exists(), msg + " path should not exist: " + path.getAbsolutePath());
+        ^
+  symbol:   method assertFalse(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:127: error: cannot find symbol
+        assertFalse(Files.exists(path), msg + " path should not exist: " + path);
+        ^
+  symbol:   method assertFalse(boolean,String)
+  location: class PathAssert
+12 errors

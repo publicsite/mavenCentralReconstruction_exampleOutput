@@ -1,0 +1,35 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/InnerClass.java:11: error: cannot find symbol
+public final class InnerClass implements Cloneable, Node
+                                                    ^
+  symbol: class Node
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/InnerClass.java:33: error: cannot find symbol
+    public void accept(final Visitor v) {
+                             ^
+  symbol:   class Visitor
+  location: class InnerClass
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/InnerClass.java:80: error: cannot find symbol
+    public final String toString(final ConstantPool constant_pool) {
+                                       ^
+  symbol:   class ConstantPool
+  location: class InnerClass
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/InnerClass.java:82: error: cannot find symbol
+        inner_class_name = Utility.compactClassName(inner_class_name);
+                           ^
+  symbol:   variable Utility
+  location: class InnerClass
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/InnerClass.java:86: error: cannot find symbol
+            outer_class_name = Utility.compactClassName(outer_class_name);
+                               ^
+  symbol:   variable Utility
+  location: class InnerClass
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/InnerClass.java:93: error: cannot find symbol
+            inner_name = ((ConstantUtf8)constant_pool.getConstant(this.inner_name_index, (byte)1)).getBytes();
+                           ^
+  symbol:   class ConstantUtf8
+  location: class InnerClass
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/InnerClass.java:98: error: cannot find symbol
+        String access = Utility.accessToString(this.inner_access_flags, true);
+                        ^
+  symbol:   variable Utility
+  location: class InnerClass
+7 errors

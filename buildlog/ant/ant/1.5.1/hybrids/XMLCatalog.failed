@@ -1,0 +1,301 @@
+hybrids/ant/ant/1.5.1/XMLCatalog.java:300: error: invalid method declaration; return type required
+        createClasspath().append(nestedClasspath);
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:300: error: ';' expected
+        createClasspath().append(nestedClasspath);
+                         ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:301: error: <identifier> expected
+        checked = false;
+               ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:316: error: class, interface, or enum expected
+    public void setRefid(Reference r) throws BuildException {
+           ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:319: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:323: error: class, interface, or enum expected
+        if (o instanceof XMLCatalog) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:326: error: class, interface, or enum expected
+            setElements(catalog.getElements());
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:327: error: class, interface, or enum expected
+        } else {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:329: error: class, interface, or enum expected
+            throw new BuildException(msg);
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:330: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:332: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:339: error: class, interface, or enum expected
+    public InputSource resolveEntity(String publicId, String systemId)
+           ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:345: error: class, interface, or enum expected
+          stk.push(this);
+          ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:346: error: class, interface, or enum expected
+          dieOnCircularReference(stk, getProject());
+          ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:347: error: class, interface, or enum expected
+       }
+       ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:352: error: class, interface, or enum expected
+        InputSource inputSource = resolveEntityImpl(publicId, systemId);
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:354: error: class, interface, or enum expected
+        if (inputSource == null) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:357: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:360: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:367: error: class, interface, or enum expected
+    public Source resolve(String href, String base)
+           ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:373: error: class, interface, or enum expected
+          stk.push(this);
+          ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:374: error: class, interface, or enum expected
+          dieOnCircularReference(stk, getProject());
+          ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:375: error: class, interface, or enum expected
+       }
+       ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:379: error: class, interface, or enum expected
+        String uri = removeFragment(href);
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:381: error: class, interface, or enum expected
+        log("resolve: '" + uri + "' with base: '" + base + "'", Project.MSG_DEBUG);
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:383: error: class, interface, or enum expected
+        source = resolveImpl(uri, base);
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:385: error: class, interface, or enum expected
+        if (source == null) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:392: error: class, interface, or enum expected
+            source = new SAXSource();
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:393: error: class, interface, or enum expected
+            try
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:396: error: class, interface, or enum expected
+                URL url = (uri.length() == 0 ? baseURL : new URL(baseURL, uri));
+                ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:397: error: class, interface, or enum expected
+                source.setInputSource(new InputSource(url.toString()));
+                ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:398: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:403: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:407: error: class, interface, or enum expected
+        return source;
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:408: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:420: error: class, interface, or enum expected
+        DTDLocation element = null;
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:421: error: class, interface, or enum expected
+        while (elements.hasMoreElements()) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:423: error: class, interface, or enum expected
+            if (element.getPublicId().equals(publicId)) {
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:425: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:428: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:452: error: class, interface, or enum expected
+        if (reader == null) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:454: error: class, interface, or enum expected
+            spFactory.setNamespaceAware(true);
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:455: error: class, interface, or enum expected
+            try {
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:457: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:460: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:463: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:466: error: class, interface, or enum expected
+        source.setXMLReader(reader);
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:467: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:481: error: class, interface, or enum expected
+        String fragment = null;
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:482: error: class, interface, or enum expected
+        int hashPos = uri.indexOf("#");
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:483: error: class, interface, or enum expected
+        if (hashPos >= 0) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:485: error: class, interface, or enum expected
+            fragment = uri.substring(hashPos+1);
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:486: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:488: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:505: error: class, interface, or enum expected
+        File resFile = project.resolveFile(uri);
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:506: error: class, interface, or enum expected
+        InputSource source = null;
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:508: error: class, interface, or enum expected
+        if (resFile.exists() && resFile.canRead()) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:511: error: class, interface, or enum expected
+                URL resFileURL = fileUtils.getFileURL(resFile);
+                ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:512: error: class, interface, or enum expected
+                String sysid = resFileURL.toExternalForm();
+                ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:513: error: class, interface, or enum expected
+                source.setSystemId(sysid);
+                ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:514: error: class, interface, or enum expected
+                log("catalog entry matched a readable file: '" +
+                ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:516: error: class, interface, or enum expected
+            } catch(FileNotFoundException ex) {
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:526: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:538: error: class, interface, or enum expected
+        AntClassLoader loader = null;
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:539: error: class, interface, or enum expected
+        if (classpath != null) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:541: error: class, interface, or enum expected
+        } else {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:543: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:551: error: class, interface, or enum expected
+        if (is != null) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:553: error: class, interface, or enum expected
+            URL entryURL = loader.getResource(matchingEntry.getLocation());
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:554: error: class, interface, or enum expected
+            String sysid = entryURL.toExternalForm();
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:555: error: class, interface, or enum expected
+            source.setSystemId(sysid);
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:556: error: class, interface, or enum expected
+            log("catalog entry matched a resource in the classpath: '" +
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:558: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:561: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:572: error: class, interface, or enum expected
+        URL url = null;
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:574: error: class, interface, or enum expected
+        try {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:577: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:580: error: class, interface, or enum expected
+                url = (uri.length() == 0 ? baseURL : new URL(baseURL, uri));
+                ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:581: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:590: error: class, interface, or enum expected
+                if (is != null) {
+                ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:592: error: class, interface, or enum expected
+                    String sysid = url.toExternalForm();
+                    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:593: error: class, interface, or enum expected
+                    source.setSystemId(sysid);
+                    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:594: error: class, interface, or enum expected
+                    log("catalog entry matched as a URL: '" +
+                    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:596: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:604: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:614: error: class, interface, or enum expected
+        DTDLocation matchingEntry = findMatchingEntry(publicId);
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:616: error: class, interface, or enum expected
+        if (matchingEntry != null) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:623: error: class, interface, or enum expected
+            result = filesystemLookup(matchingEntry);
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:625: error: class, interface, or enum expected
+            if (result == null) {
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:627: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:631: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:634: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:643: error: class, interface, or enum expected
+        InputSource source = null;
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:645: error: class, interface, or enum expected
+        DTDLocation matchingEntry = findMatchingEntry(href);
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:647: error: class, interface, or enum expected
+        if (matchingEntry != null) {
+        ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:654: error: class, interface, or enum expected
+            source = filesystemLookup(matchingEntry);
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:656: error: class, interface, or enum expected
+            if (source == null) {
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:658: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:662: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/XMLCatalog.java:666: error: class, interface, or enum expected
+            }
+            ^
+100 errors

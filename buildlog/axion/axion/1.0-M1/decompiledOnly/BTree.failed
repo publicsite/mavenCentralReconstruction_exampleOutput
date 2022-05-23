@@ -1,0 +1,96 @@
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:9: error: cannot find symbol
+import org.apache.commons.logging.LogFactory;
+                                 ^
+  symbol:   class LogFactory
+  location: package org.apache.commons.logging
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:26: error: cannot find symbol
+import org.apache.commons.collections.primitives.IntArrayList;
+                                                ^
+  symbol:   class IntArrayList
+  location: package org.apache.commons.collections.primitives
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:37: error: cannot find symbol
+    private IntArrayList _keys;
+            ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:38: error: cannot find symbol
+    private IntArrayList _vals;
+            ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:39: error: cannot find symbol
+    private IntArrayList _childIds;
+            ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:181: error: cannot find symbol
+    public IntArrayList getKeys() {
+           ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:185: error: cannot find symbol
+    public void setKeys(final IntArrayList keys) {
+                              ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:189: error: cannot find symbol
+    public IntArrayList getValues() {
+           ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:193: error: cannot find symbol
+    public void setValues(final IntArrayList vals) {
+                                ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:205: error: cannot find symbol
+    public IntArrayList getChildIds() {
+           ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:209: error: cannot find symbol
+    public void setChildIds(final IntArrayList childIds) {
+                                  ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:66: error: cannot find symbol
+        this._keys = new IntArrayList(this._maxCap);
+                         ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:67: error: cannot find symbol
+        this._vals = new IntArrayList(this._maxCap);
+                         ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:68: error: cannot find symbol
+        this._childIds = new IntArrayList(this._maxCap + 1);
+                             ^
+  symbol:   class IntArrayList
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:716: error: incompatible types: Object cannot be converted to BTree
+        return this._loadedChildren.get(fileid);
+                                       ^
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:734: error: incompatible types: Object cannot be converted to int
+        for (final int fileid : childIds) {
+                                ^
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:735: error: incompatible types: Object cannot be converted to BTree
+            this.addChild(children.get(new Integer(fileid)));
+                                      ^
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java:918: error: cannot find symbol
+        BTree._log = LogFactory.getLog(BTree.class);
+                     ^
+  symbol:   variable LogFactory
+  location: class BTree
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/ListIteratorChain.java:31: error: incompatible types: Object cannot be converted to ListIterator
+            this._cur = this._it.next();
+                                     ^
+sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/ListIteratorChain.java:42: error: incompatible types: Object cannot be converted to ListIterator
+            this._cur = this._it.previous();
+                                         ^
+Note: sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/axion/axion/1.0-M1/Decompiled/org/axiondb/util/BTree.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+20 errors

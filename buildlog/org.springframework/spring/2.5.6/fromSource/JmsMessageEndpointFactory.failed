@@ -1,0 +1,194 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:19: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:20: error: package javax.jms does not exist
+import javax.jms.MessageListener;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:21: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:22: error: package javax.resource.spi does not exist
+import javax.resource.spi.UnavailableException;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:21: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:22: error: package javax.resource.spi does not exist
+import javax.resource.spi.ApplicationServerInternalException;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:23: error: package javax.resource.spi does not exist
+import javax.resource.spi.UnavailableException;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:24: error: package javax.resource.spi.endpoint does not exist
+import javax.resource.spi.endpoint.MessageEndpoint;
+                                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:25: error: package javax.resource.spi.endpoint does not exist
+import javax.resource.spi.endpoint.MessageEndpointFactory;
+                                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:26: error: package javax.transaction does not exist
+import javax.transaction.Transaction;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:27: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:46: error: cannot find symbol
+public abstract class AbstractMessageEndpointFactory implements MessageEndpointFactory {
+                                                                ^
+  symbol: class MessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:49: error: cannot find symbol
+	private MessageListener messageListener;
+	        ^
+  symbol:   class MessageListener
+  location: class JmsMessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:55: error: cannot find symbol
+	public void setMessageListener(MessageListener messageListener) {
+	                               ^
+  symbol:   class MessageListener
+  location: class JmsMessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:155: error: cannot find symbol
+	protected abstract class AbstractMessageEndpoint implements MessageEndpoint {
+	                                                            ^
+  symbol:   class MessageEndpoint
+  location: class AbstractMessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:62: error: cannot find symbol
+	protected AbstractMessageEndpoint createEndpointInternal() throws UnavailableException {
+	                                                                  ^
+  symbol:   class UnavailableException
+  location: class JmsMessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:181: error: cannot find symbol
+		public void beforeDelivery(Method method) throws ResourceException {
+		                                                 ^
+  symbol:   class ResourceException
+  location: class AbstractMessageEndpointFactory.AbstractMessageEndpoint
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:228: error: cannot find symbol
+		public void afterDelivery() throws ResourceException {
+		                                   ^
+  symbol:   class ResourceException
+  location: class AbstractMessageEndpointFactory.AbstractMessageEndpoint
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:260: error: cannot find symbol
+		private Transaction transaction;
+		        ^
+  symbol:   class Transaction
+  location: class AbstractMessageEndpointFactory.TransactionDelegate
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:19: error: package javax.transaction does not exist
+import javax.transaction.NotSupportedException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:20: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:21: error: package javax.transaction does not exist
+import javax.transaction.Transaction;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:135: error: cannot find symbol
+	public MessageEndpoint createEndpoint(XAResource xaResource) throws UnavailableException {
+	       ^
+  symbol:   class MessageEndpoint
+  location: class AbstractMessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:135: error: cannot find symbol
+	public MessageEndpoint createEndpoint(XAResource xaResource) throws UnavailableException {
+	                                                                    ^
+  symbol:   class UnavailableException
+  location: class AbstractMessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:148: error: cannot find symbol
+			throws UnavailableException;
+			       ^
+  symbol:   class UnavailableException
+  location: class AbstractMessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	^
+  symbol:   class Transaction
+  location: interface TransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	                                                               ^
+  symbol:   class NotSupportedException
+  location: interface TransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	                                                                                      ^
+  symbol:   class SystemException
+  location: interface TransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:70: error: cannot find symbol
+	private class JmsMessageEndpoint extends AbstractMessageEndpoint implements MessageListener {
+	                                                                            ^
+  symbol:   class MessageListener
+  location: class JmsMessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:72: error: cannot find symbol
+		public void onMessage(Message message) {
+		                      ^
+  symbol:   class Message
+  location: class JmsMessageEndpointFactory.JmsMessageEndpoint
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:121: error: cannot find symbol
+		public JmsResourceException(ResourceException cause) {
+		                            ^
+  symbol:   class ResourceException
+  location: class JmsResourceException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SimpleTransactionFactory.java:19: error: package javax.transaction does not exist
+import javax.transaction.NotSupportedException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SimpleTransactionFactory.java:20: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SimpleTransactionFactory.java:21: error: package javax.transaction does not exist
+import javax.transaction.Transaction;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SimpleTransactionFactory.java:22: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SimpleTransactionFactory.java:40: error: cannot find symbol
+	private final TransactionManager transactionManager;
+	              ^
+  symbol:   class TransactionManager
+  location: class SimpleTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SimpleTransactionFactory.java:47: error: cannot find symbol
+	public SimpleTransactionFactory(TransactionManager transactionManager) {
+	                                ^
+  symbol:   class TransactionManager
+  location: class SimpleTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SimpleTransactionFactory.java:53: error: cannot find symbol
+	public Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException {
+	       ^
+  symbol:   class Transaction
+  location: class SimpleTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SimpleTransactionFactory.java:53: error: cannot find symbol
+	public Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException {
+	                                                                      ^
+  symbol:   class NotSupportedException
+  location: class SimpleTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/SimpleTransactionFactory.java:53: error: cannot find symbol
+	public Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException {
+	                                                                                             ^
+  symbol:   class SystemException
+  location: class SimpleTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:75: error: cannot find symbol
+		else if (transactionManager instanceof TransactionManager) {
+		                                       ^
+  symbol:   class TransactionManager
+  location: class AbstractMessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:76: error: cannot find symbol
+			this.transactionFactory = new SimpleTransactionFactory((TransactionManager) transactionManager);
+			                                                        ^
+  symbol:   class TransactionManager
+  location: class AbstractMessageEndpointFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:187: error: cannot find symbol
+				throw new ApplicationServerInternalException("Failed to begin transaction", ex);
+				          ^
+  symbol:   class ApplicationServerInternalException
+  location: class AbstractMessageEndpointFactory.AbstractMessageEndpoint
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/endpoint/AbstractMessageEndpointFactory.java:236: error: cannot find symbol
+				throw new ApplicationServerInternalException("Failed to complete transaction", ex);
+				          ^
+  symbol:   class ApplicationServerInternalException
+  location: class AbstractMessageEndpointFactory.AbstractMessageEndpoint
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:78: error: cannot find symbol
+				catch (ResourceException ex) {
+				       ^
+  symbol:   class ResourceException
+  location: class JmsMessageEndpointFactory.JmsMessageEndpoint
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/endpoint/JmsMessageEndpointFactory.java:98: error: cannot find symbol
+					catch (ResourceException ex) {
+					       ^
+  symbol:   class ResourceException
+  location: class JmsMessageEndpointFactory.JmsMessageEndpoint
+46 errors

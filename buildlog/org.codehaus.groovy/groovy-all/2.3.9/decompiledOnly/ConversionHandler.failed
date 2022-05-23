@@ -1,0 +1,39 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConversionHandler.java:8: error: package org.codehaus.groovy.vmplugin does not exist
+import org.codehaus.groovy.vmplugin.VMPlugin;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConversionHandler.java:10: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConversionHandler.java:12: error: package org.codehaus.groovy.vmplugin does not exist
+import org.codehaus.groovy.vmplugin.VMPluginFactory;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConversionHandler.java:24: error: cannot find symbol
+        if (VMPluginFactory.getPlugin().getVersion() >= 7) {
+            ^
+  symbol:   variable VMPluginFactory
+  location: class ConversionHandler
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConversionHandler.java:39: error: cannot find symbol
+        final VMPlugin plugin = VMPluginFactory.getPlugin();
+              ^
+  symbol:   class VMPlugin
+  location: class ConversionHandler
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConversionHandler.java:39: error: cannot find symbol
+        final VMPlugin plugin = VMPluginFactory.getPlugin();
+                                ^
+  symbol:   variable VMPluginFactory
+  location: class ConversionHandler
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConversionHandler.java:52: error: cannot find symbol
+            catch (GroovyRuntimeException gre) {
+                   ^
+  symbol:   class GroovyRuntimeException
+  location: class ConversionHandler
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConversionHandler.java:53: error: cannot find symbol
+                throw ScriptBytecodeAdapter.unwrap(gre);
+                      ^
+  symbol:   variable ScriptBytecodeAdapter
+  location: class ConversionHandler
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConversionHandler.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

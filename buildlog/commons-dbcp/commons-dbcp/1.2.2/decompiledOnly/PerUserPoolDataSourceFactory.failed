@@ -1,0 +1,46 @@
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/InstanceKeyObjectFactory.java:48: error: cannot find symbol
+            instanceIterator.next().getValue().close();
+                                   ^
+  symbol:   method getValue()
+  location: class Object
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:27: error: PerUserPoolDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class PerUserPoolDataSource extends InstanceKeyDataSource
+       ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:61: error: cannot find symbol
+                poolIter.next().close();
+                               ^
+  symbol:   method close()
+  location: class Object
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:98: error: incompatible types: Object cannot be converted to Boolean
+            value = this.perUserDefaultAutoCommit.get(key);
+                                                     ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:114: error: incompatible types: Object cannot be converted to Integer
+            value = this.perUserDefaultTransactionIsolation.get(username);
+                                                               ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:130: error: incompatible types: Object cannot be converted to Integer
+            value = this.perUserMaxActive.get(username);
+                                             ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:146: error: incompatible types: Object cannot be converted to Integer
+            value = this.perUserMaxIdle.get(username);
+                                           ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:162: error: incompatible types: Object cannot be converted to Integer
+            value = this.perUserMaxWait.get(username);
+                                           ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:178: error: incompatible types: Object cannot be converted to Boolean
+            value = this.perUserDefaultReadOnly.get(username);
+                                                   ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:196: error: incompatible types: Object cannot be converted to ObjectPool
+        final ObjectPool pool = this.pools.get(this.getPoolKey(username));
+                                              ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:205: error: incompatible types: Object cannot be converted to ObjectPool
+        final ObjectPool pool = this.pools.get(this.getPoolKey(username));
+                                              ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:269: error: incompatible types: Object cannot be converted to Map
+        Map dsMap = PerUserPoolDataSource.poolKeys.get(dsName);
+                                                      ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/PerUserPoolDataSource.java:271: error: incompatible types: Object cannot be converted to PoolKey
+            key = dsMap.get(username);
+                           ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+13 errors

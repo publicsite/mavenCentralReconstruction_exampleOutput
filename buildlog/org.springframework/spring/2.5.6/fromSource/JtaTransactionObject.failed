@@ -1,0 +1,40 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/JtaTransactionObject.java:19: error: package javax.transaction does not exist
+import javax.transaction.Status;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/JtaTransactionObject.java:20: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/JtaTransactionObject.java:21: error: package javax.transaction does not exist
+import javax.transaction.UserTransaction;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/JtaTransactionObject.java:39: error: cannot find symbol
+	private final UserTransaction userTransaction;
+	              ^
+  symbol:   class UserTransaction
+  location: class JtaTransactionObject
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/JtaTransactionObject.java:47: error: cannot find symbol
+	public JtaTransactionObject(UserTransaction userTransaction) {
+	                            ^
+  symbol:   class UserTransaction
+  location: class JtaTransactionObject
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/JtaTransactionObject.java:54: error: cannot find symbol
+	public final UserTransaction getUserTransaction() {
+	             ^
+  symbol:   class UserTransaction
+  location: class JtaTransactionObject
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/JtaTransactionObject.java:68: error: cannot find symbol
+			return (jtaStatus == Status.STATUS_MARKED_ROLLBACK || jtaStatus == Status.STATUS_ROLLEDBACK);
+			                     ^
+  symbol:   variable Status
+  location: class JtaTransactionObject
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/JtaTransactionObject.java:68: error: cannot find symbol
+			return (jtaStatus == Status.STATUS_MARKED_ROLLBACK || jtaStatus == Status.STATUS_ROLLEDBACK);
+			                                                                   ^
+  symbol:   variable Status
+  location: class JtaTransactionObject
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/JtaTransactionObject.java:70: error: cannot find symbol
+		catch (SystemException ex) {
+		       ^
+  symbol:   class SystemException
+  location: class JtaTransactionObject
+9 errors

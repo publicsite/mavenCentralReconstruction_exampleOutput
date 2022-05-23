@@ -1,0 +1,56 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:15: error: cannot find symbol
+    private final SsaMethod meth;
+                  ^
+  symbol:   class SsaMethod
+  location: class DomFront
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:16: error: cannot find symbol
+    private final ArrayList<SsaBasicBlock> nodes;
+                            ^
+  symbol:   class SsaBasicBlock
+  location: class DomFront
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:19: error: cannot find symbol
+    public DomFront(final SsaMethod meth) {
+                          ^
+  symbol:   class SsaMethod
+  location: class DomFront
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:33: error: cannot find symbol
+                final SsaBasicBlock node = this.nodes.get(i);
+                      ^
+  symbol:   class SsaBasicBlock
+  location: class DomFront
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:37: error: cannot find symbol
+        final Dominators methDom = Dominators.make(this.meth, this.domInfos, false);
+              ^
+  symbol:   class Dominators
+  location: class DomFront
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:37: error: cannot find symbol
+        final Dominators methDom = Dominators.make(this.meth, this.domInfos, false);
+                                   ^
+  symbol:   variable Dominators
+  location: class DomFront
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:49: error: cannot find symbol
+            this.domInfos[j].dominanceFrontiers = SetFactory.makeDomFrontSet(szNodes);
+                                                  ^
+  symbol:   variable SetFactory
+  location: class DomFront
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:62: error: cannot find symbol
+            final SsaBasicBlock node = this.nodes.get(i);
+                  ^
+  symbol:   class SsaBasicBlock
+  location: class DomFront
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:66: error: cannot find symbol
+            for (final SsaBasicBlock child : node.getDomChildren()) {
+                       ^
+  symbol:   class SsaBasicBlock
+  location: class DomFront
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:82: error: cannot find symbol
+                final SsaBasicBlock domParent = this.nodes.get(info.idom);
+                      ^
+  symbol:   class SsaBasicBlock
+  location: class DomFront
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/DomFront.java:90: error: cannot find symbol
+            final SsaBasicBlock nb = this.nodes.get(b);
+                  ^
+  symbol:   class SsaBasicBlock
+  location: class DomFront
+11 errors

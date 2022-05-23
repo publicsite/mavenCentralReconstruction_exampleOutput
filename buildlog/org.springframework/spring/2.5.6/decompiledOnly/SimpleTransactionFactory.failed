@@ -1,0 +1,62 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/SimpleTransactionFactory.java:7: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/SimpleTransactionFactory.java:8: error: package javax.transaction does not exist
+import javax.transaction.NotSupportedException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/SimpleTransactionFactory.java:9: error: package javax.transaction does not exist
+import javax.transaction.Transaction;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/SimpleTransactionFactory.java:11: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:19: error: package javax.transaction does not exist
+import javax.transaction.NotSupportedException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:20: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:21: error: package javax.transaction does not exist
+import javax.transaction.Transaction;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/SimpleTransactionFactory.java:15: error: cannot find symbol
+    private final TransactionManager transactionManager;
+                  ^
+  symbol:   class TransactionManager
+  location: class SimpleTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/SimpleTransactionFactory.java:17: error: cannot find symbol
+    public SimpleTransactionFactory(final TransactionManager transactionManager) {
+                                          ^
+  symbol:   class TransactionManager
+  location: class SimpleTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/SimpleTransactionFactory.java:22: error: cannot find symbol
+    public Transaction createTransaction(final String name, final int timeout) throws NotSupportedException, SystemException {
+           ^
+  symbol:   class Transaction
+  location: class SimpleTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/SimpleTransactionFactory.java:22: error: cannot find symbol
+    public Transaction createTransaction(final String name, final int timeout) throws NotSupportedException, SystemException {
+                                                                                      ^
+  symbol:   class NotSupportedException
+  location: class SimpleTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/transaction/jta/SimpleTransactionFactory.java:22: error: cannot find symbol
+    public Transaction createTransaction(final String name, final int timeout) throws NotSupportedException, SystemException {
+                                                                                                             ^
+  symbol:   class SystemException
+  location: class SimpleTransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	^
+  symbol:   class Transaction
+  location: interface TransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	                                                               ^
+  symbol:   class NotSupportedException
+  location: interface TransactionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/transaction/jta/TransactionFactory.java:50: error: cannot find symbol
+	Transaction createTransaction(String name, int timeout) throws NotSupportedException, SystemException;
+	                                                                                      ^
+  symbol:   class SystemException
+  location: interface TransactionFactory
+15 errors

@@ -1,0 +1,47 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/TagUtils.java:19: error: package javax.servlet.jsp does not exist
+import javax.servlet.jsp.PageContext;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/TagUtils.java:20: error: package javax.servlet.jsp.tagext does not exist
+import javax.servlet.jsp.tagext.Tag;
+                               ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/TagUtils.java:95: error: cannot find symbol
+	public static boolean hasAncestorOfType(Tag tag, Class ancestorTagClass) {
+	                                        ^
+  symbol:   class Tag
+  location: class TagUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/TagUtils.java:128: error: cannot find symbol
+	public static void assertHasAncestorOfType(Tag tag, Class ancestorTagClass, String tagName, String ancestorTagName) {
+	                                           ^
+  symbol:   class Tag
+  location: class TagUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/TagUtils.java:71: error: cannot find symbol
+			return PageContext.REQUEST_SCOPE;
+			       ^
+  symbol:   variable PageContext
+  location: class TagUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/TagUtils.java:74: error: cannot find symbol
+			return PageContext.SESSION_SCOPE;
+			       ^
+  symbol:   variable PageContext
+  location: class TagUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/TagUtils.java:77: error: cannot find symbol
+			return PageContext.APPLICATION_SCOPE;
+			       ^
+  symbol:   variable PageContext
+  location: class TagUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/TagUtils.java:80: error: cannot find symbol
+			return PageContext.PAGE_SCOPE;
+			       ^
+  symbol:   variable PageContext
+  location: class TagUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/TagUtils.java:98: error: cannot find symbol
+		if (!Tag.class.isAssignableFrom(ancestorTagClass)) {
+		     ^
+  symbol:   class Tag
+  location: class TagUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/TagUtils.java:102: error: cannot find symbol
+		Tag ancestor = tag.getParent();
+		^
+  symbol:   class Tag
+  location: class TagUtils
+10 errors

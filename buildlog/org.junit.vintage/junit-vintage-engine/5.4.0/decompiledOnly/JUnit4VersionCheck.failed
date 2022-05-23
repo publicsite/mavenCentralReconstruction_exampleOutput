@@ -1,0 +1,32 @@
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/JUnit4VersionCheck.java:7: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.BlacklistedExceptions;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/JUnit4VersionCheck.java:9: error: package org.junit.platform.commons does not exist
+import org.junit.platform.commons.JUnitException;
+                                 ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/JUnit4VersionCheck.java:28: error: cannot find symbol
+            throw new JUnitException("Unsupported version of junit:junit: " + versionString + ". Please upgrade to version " + JUnit4VersionCheck.minVersion + " or later.");
+                      ^
+  symbol:   class JUnitException
+  location: class JUnit4VersionCheck
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/JUnit4VersionCheck.java:40: error: cannot find symbol
+            throw new JUnitException("Failed to parse version of junit:junit: " + versionString, (Throwable)e);
+                      ^
+  symbol:   class JUnitException
+  location: class JUnit4VersionCheck
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/JUnit4VersionCheck.java:42: error: cannot find symbol
+        throw new JUnitException("Failed to parse version of junit:junit: " + versionString);
+                  ^
+  symbol:   class JUnitException
+  location: class JUnit4VersionCheck
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/JUnit4VersionCheck.java:50: error: cannot find symbol
+            BlacklistedExceptions.rethrowIfBlacklisted(t);
+            ^
+  symbol:   variable BlacklistedExceptions
+  location: class JUnit4VersionCheck
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/JUnit4VersionCheck.java:51: error: cannot find symbol
+            throw new JUnitException("Failed to read version of junit:junit", t);
+                      ^
+  symbol:   class JUnitException
+  location: class JUnit4VersionCheck
+7 errors

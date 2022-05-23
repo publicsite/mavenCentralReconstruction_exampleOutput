@@ -1,0 +1,72 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:23: error: cannot find symbol
+import com.google.common.collect.ImmutableSortedMap;
+                                ^
+  symbol:   class ImmutableSortedMap
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:24: error: cannot find symbol
+import com.google.common.collect.Ordering;
+                                ^
+  symbol:   class Ordering
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:49: error: package ImmutableSortedMap does not exist
+      ImmutableSortedMap.Builder<String, String> builder = ImmutableSortedMap.naturalOrder();
+                        ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:49: error: cannot find symbol
+      ImmutableSortedMap.Builder<String, String> builder = ImmutableSortedMap.naturalOrder();
+                                                           ^
+  symbol:   variable ImmutableSortedMap
+  location: class ImmutableSortedMapGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:51: error: cannot find symbol
+        checkNotNull(entry);
+        ^
+  symbol:   method checkNotNull(Entry<String,String>)
+  location: class ImmutableSortedMapGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:62: error: cannot find symbol
+      return ImmutableSortedMap.copyOf(Arrays.asList(entries));
+             ^
+  symbol:   variable ImmutableSortedMap
+  location: class ImmutableSortedMapCopyOfEntriesGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:87: error: cannot find symbol
+      return new Ordering<Entry<String, Integer>>() {
+                 ^
+  symbol:   class Ordering
+  location: class ImmutableSortedMapEntryListGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:88: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:97: error: package ImmutableSortedMap does not exist
+      ImmutableSortedMap.Builder<String, Integer> builder = ImmutableSortedMap.naturalOrder();
+                        ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:97: error: cannot find symbol
+      ImmutableSortedMap.Builder<String, Integer> builder = ImmutableSortedMap.naturalOrder();
+                                                            ^
+  symbol:   variable ImmutableSortedMap
+  location: class ImmutableSortedMapEntryListGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:110: error: package ImmutableSortedMap does not exist
+      ImmutableSortedMap.Builder<String, Integer> builder = ImmutableSortedMap.naturalOrder();
+                        ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:110: error: cannot find symbol
+      ImmutableSortedMap.Builder<String, Integer> builder = ImmutableSortedMap.naturalOrder();
+                                                            ^
+  symbol:   variable ImmutableSortedMap
+  location: class ImmutableSortedMapKeyListGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:119: error: cannot find symbol
+      return Ordering.natural().sortedCopy(insertionOrder);
+             ^
+  symbol:   variable Ordering
+  location: class ImmutableSortedMapKeyListGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:126: error: package ImmutableSortedMap does not exist
+      ImmutableSortedMap.Builder<Integer, String> builder = ImmutableSortedMap.naturalOrder();
+                        ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/SortedMapGenerators.java:126: error: cannot find symbol
+      ImmutableSortedMap.Builder<Integer, String> builder = ImmutableSortedMap.naturalOrder();
+                                                            ^
+  symbol:   variable ImmutableSortedMap
+  location: class ImmutableSortedMapValueListGenerator
+17 errors

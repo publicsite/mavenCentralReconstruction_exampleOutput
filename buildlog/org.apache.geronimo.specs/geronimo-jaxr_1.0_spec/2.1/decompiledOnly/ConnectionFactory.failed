@@ -1,0 +1,14 @@
+sources/structure/org.apache.geronimo.specs/geronimo-jaxr_1.0_spec/2.1/Decompiled/javax/xml/registry/ConnectionFactory.java:7: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-jaxr_1.0_spec/2.1/Decompiled/javax/xml/registry/ConnectionFactory.java:28: error: cannot find symbol
+            final Class factoryClass = ProviderLocator.loadClass(className, ConnectionFactory.class, cl);
+                                       ^
+  symbol:   variable ProviderLocator
+  location: class ConnectionFactory
+sources/structure/org.apache.geronimo.specs/geronimo-jaxr_1.0_spec/2.1/Decompiled/javax/xml/registry/ConnectionFactory.java:29: error: incompatible types: Object cannot be converted to ConnectionFactory
+            return factoryClass.newInstance();
+                                           ^
+Note: sources/structure/org.apache.geronimo.specs/geronimo-jaxr_1.0_spec/2.1/Decompiled/javax/xml/registry/ConnectionFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+3 errors

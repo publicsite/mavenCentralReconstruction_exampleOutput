@@ -1,0 +1,117 @@
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:7: error: package org.apache.log4j does not exist
+import org.apache.log4j.Priority;
+                       ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:10: error: package org.apache.log4j does not exist
+import org.apache.log4j.Appender;
+                       ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:11: error: package org.apache.log4j does not exist
+import org.apache.log4j.Layout;
+                       ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:12: error: package org.apache.log4j does not exist
+import org.apache.log4j.PatternLayout;
+                       ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:14: error: package org.apache.log4j does not exist
+import org.apache.log4j.Level;
+                       ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:15: error: package org.apache.log4j does not exist
+import org.apache.log4j.Logger;
+                       ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:16: error: package org.apache.log4j does not exist
+import org.apache.log4j.RollingFileAppender;
+                       ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:25: error: cannot find symbol
+    private RollingFileAppender appender;
+            ^
+  symbol:   class RollingFileAppender
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:26: error: cannot find symbol
+    protected Logger logger;
+              ^
+  symbol:   class Logger
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:39: error: cannot find symbol
+            this.logger = Logger.getLogger(name);
+                          ^
+  symbol:   variable Logger
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:43: error: cannot find symbol
+            this.logger = Logger.getLogger(this.getClass().getName());
+                          ^
+  symbol:   variable Logger
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:51: error: cannot find symbol
+            final Level level = Level.toLevel(lvl);
+                  ^
+  symbol:   class Level
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:51: error: cannot find symbol
+            final Level level = Level.toLevel(lvl);
+                                ^
+  symbol:   variable Level
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:55: error: cannot find symbol
+            final Field traceLevel = Level.class.getField("TRACE");
+                                     ^
+  symbol:   class Level
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:65: error: cannot find symbol
+            final PatternLayout layout = new PatternLayout("%d - %m%n");
+                  ^
+  symbol:   class PatternLayout
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:65: error: cannot find symbol
+            final PatternLayout layout = new PatternLayout("%d - %m%n");
+                                             ^
+  symbol:   class PatternLayout
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:66: error: cannot find symbol
+            (this.appender = new RollingFileAppender((Layout)layout, file, true)).setMaxBackupIndex(1);
+                                 ^
+  symbol:   class RollingFileAppender
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:66: error: cannot find symbol
+            (this.appender = new RollingFileAppender((Layout)layout, file, true)).setMaxBackupIndex(1);
+                                                      ^
+  symbol:   class Layout
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:69: error: cannot find symbol
+            this.logger.addAppender((Appender)this.appender);
+                                     ^
+  symbol:   class Appender
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:151: error: cannot find symbol
+                return this.logger.isEnabledFor((Priority)Level.WARN);
+                                                 ^
+  symbol:   class Priority
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:151: error: cannot find symbol
+                return this.logger.isEnabledFor((Priority)Level.WARN);
+                                                          ^
+  symbol:   variable Level
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:154: error: cannot find symbol
+                return this.logger.isEnabledFor((Priority)Level.ERROR);
+                                                 ^
+  symbol:   class Priority
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:154: error: cannot find symbol
+                return this.logger.isEnabledFor((Priority)Level.ERROR);
+                                                          ^
+  symbol:   variable Level
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java:168: error: cannot find symbol
+            this.logger.removeAppender((Appender)this.appender);
+                                        ^
+  symbol:   class Appender
+  location: class Log4JLogChute
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/ExceptionUtils.java:23: error: incompatible types: Object cannot be converted to Throwable
+                re = constructor.newInstance(message, cause);
+                                            ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/ExceptionUtils.java:35: error: incompatible types: Object cannot be converted to Throwable
+                re = constructor.newInstance(message + " caused by " + cause);
+                                            ^
+Note: sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/log/Log4JLogChute.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/ExceptionUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+26 errors

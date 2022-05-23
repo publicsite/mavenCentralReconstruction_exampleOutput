@@ -1,0 +1,111 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:10: error: package com.google.dexmaker.dx.rop.cst does not exist
+import com.google.dexmaker.dx.rop.cst.CstType;
+                                     ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:12: error: cannot find symbol
+import com.google.dexmaker.dx.util.MutabilityControl;
+                                  ^
+  symbol:   class MutabilityControl
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:14: error: cannot find symbol
+public final class Annotations extends MutabilityControl implements Comparable<Annotations>
+                                       ^
+  symbol: class MutabilityControl
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:17: error: cannot find symbol
+    private final TreeMap<CstType, Annotation> annotations;
+                          ^
+  symbol:   class CstType
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:17: error: cannot find symbol
+    private final TreeMap<CstType, Annotation> annotations;
+                                   ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:27: error: cannot find symbol
+    public static Annotations combine(final Annotations annotations, final Annotation annotation) {
+                                                                           ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:95: error: cannot find symbol
+    public void add(final Annotation annotation) {
+                          ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:117: error: cannot find symbol
+    public Collection<Annotation> getAnnotations() {
+                      ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:23: error: cannot find symbol
+        result.setImmutable();
+              ^
+  symbol:   method setImmutable()
+  location: variable result of type Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:31: error: cannot find symbol
+        result.setImmutable();
+              ^
+  symbol:   method setImmutable()
+  location: variable result of type Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:36: error: cannot find symbol
+        this.annotations = new TreeMap<CstType, Annotation>();
+                                       ^
+  symbol:   class CstType
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:36: error: cannot find symbol
+        this.annotations = new TreeMap<CstType, Annotation>();
+                                                ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:54: error: cannot find symbol
+        final Iterator<Annotation> thisIter = this.annotations.values().iterator();
+                       ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:55: error: cannot find symbol
+        final Iterator<Annotation> otherIter = other.annotations.values().iterator();
+                       ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:57: error: cannot find symbol
+            final Annotation thisOne = thisIter.next();
+                  ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:58: error: cannot find symbol
+            final Annotation otherOne = otherIter.next();
+                  ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:78: error: cannot find symbol
+        for (final Annotation a : this.annotations.values()) {
+                   ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:96: error: cannot find symbol
+        this.throwIfImmutable();
+            ^
+  symbol: method throwIfImmutable()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:100: error: cannot find symbol
+        final CstType type = annotation.getType();
+              ^
+  symbol:   class CstType
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:108: error: cannot find symbol
+        this.throwIfImmutable();
+            ^
+  symbol: method throwIfImmutable()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:112: error: cannot find symbol
+        for (final Annotation a : toAdd.annotations.values()) {
+                   ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:118: error: cannot find symbol
+        return Collections.unmodifiableCollection((Collection<? extends Annotation>)this.annotations.values());
+                                                                        ^
+  symbol:   class Annotation
+  location: class Annotations
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotations.java:122: error: cannot find symbol
+        (EMPTY = new Annotations()).setImmutable();
+                                   ^
+  symbol:   method setImmutable()
+  location: class Annotations
+23 errors

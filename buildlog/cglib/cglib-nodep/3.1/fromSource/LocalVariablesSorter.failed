@@ -1,0 +1,102 @@
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:32: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Label;
+                        ^
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:33: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.MethodVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:34: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Opcodes;
+                        ^
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:35: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Type;
+                        ^
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:45: error: cannot find symbol
+public class LocalVariablesSorter extends MethodVisitor {
+                                          ^
+  symbol: class MethodVisitor
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:64: error: cannot find symbol
+        final MethodVisitor mv)
+              ^
+  symbol:   class MethodVisitor
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:109: error: cannot find symbol
+        final Label start,
+              ^
+  symbol:   class Label
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:110: error: cannot find symbol
+        final Label end,
+              ^
+  symbol:   class Label
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:66: error: cannot find symbol
+        super(Opcodes.ASM4, mv);
+              ^
+  symbol:   variable Opcodes
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:68: error: cannot find symbol
+        Type[] args = Type.getArgumentTypes(desc);
+        ^
+  symbol:   class Type
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:68: error: cannot find symbol
+        Type[] args = Type.getArgumentTypes(desc);
+                      ^
+  symbol:   variable Type
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:69: error: cannot find symbol
+        state.nextLocal = ((Opcodes.ACC_STATIC & access) != 0) ? 0 : 1;
+                            ^
+  symbol:   variable Opcodes
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:77: error: cannot find symbol
+        super(Opcodes.ASM4, lvs.mv);
+              ^
+  symbol:   variable Opcodes
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:77: error: cannot find symbol
+        super(Opcodes.ASM4, lvs.mv);
+                               ^
+  symbol:   variable mv
+  location: variable lvs of type LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:85: error: cannot find symbol
+            case Opcodes.LLOAD:
+                 ^
+  symbol:   variable Opcodes
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:86: error: cannot find symbol
+            case Opcodes.LSTORE:
+                 ^
+  symbol:   variable Opcodes
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:87: error: cannot find symbol
+            case Opcodes.DLOAD:
+                 ^
+  symbol:   variable Opcodes
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:88: error: cannot find symbol
+            case Opcodes.DSTORE:
+                 ^
+  symbol:   variable Opcodes
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:94: error: cannot find symbol
+        mv.visitVarInsn(opcode, remap(var, size));
+        ^
+  symbol:   variable mv
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:98: error: cannot find symbol
+        mv.visitIincInsn(remap(var, 1), increment);
+        ^
+  symbol:   variable mv
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:102: error: cannot find symbol
+        mv.visitMaxs(maxStack, state.nextLocal);
+        ^
+  symbol:   variable mv
+  location: class LocalVariablesSorter
+sources/structure/cglib/cglib-nodep/3.1/extractedSources/src/proxy/net/sf/cglib/core/LocalVariablesSorter.java:113: error: cannot find symbol
+        mv.visitLocalVariable(name, desc, signature, start, end, remap(index));
+        ^
+  symbol:   variable mv
+  location: class LocalVariablesSorter
+22 errors

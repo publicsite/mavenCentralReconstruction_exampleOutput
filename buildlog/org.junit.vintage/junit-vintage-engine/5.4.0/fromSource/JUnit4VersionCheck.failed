@@ -1,0 +1,32 @@
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/JUnit4VersionCheck.java:20: error: package org.junit.platform.commons does not exist
+import org.junit.platform.commons.JUnitException;
+                                 ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/JUnit4VersionCheck.java:21: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.BlacklistedExceptions;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/JUnit4VersionCheck.java:39: error: cannot find symbol
+			throw new JUnitException("Unsupported version of junit:junit: " + versionString
+			          ^
+  symbol:   class JUnitException
+  location: class JUnit4VersionCheck
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/JUnit4VersionCheck.java:52: error: cannot find symbol
+			throw new JUnitException("Failed to parse version of junit:junit: " + versionString, e);
+			          ^
+  symbol:   class JUnitException
+  location: class JUnit4VersionCheck
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/JUnit4VersionCheck.java:54: error: cannot find symbol
+		throw new JUnitException("Failed to parse version of junit:junit: " + versionString);
+		          ^
+  symbol:   class JUnitException
+  location: class JUnit4VersionCheck
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/JUnit4VersionCheck.java:62: error: cannot find symbol
+			BlacklistedExceptions.rethrowIfBlacklisted(t);
+			^
+  symbol:   variable BlacklistedExceptions
+  location: class JUnit4VersionCheck
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/JUnit4VersionCheck.java:63: error: cannot find symbol
+			throw new JUnitException("Failed to read version of junit:junit", t);
+			          ^
+  symbol:   class JUnitException
+  location: class JUnit4VersionCheck
+7 errors

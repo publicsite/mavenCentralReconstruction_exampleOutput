@@ -1,0 +1,37 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/web/context/request/Log4jNestedDiagnosticContextInterceptor.java:8: error: package org.apache.log4j does not exist
+import org.apache.log4j.NDC;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/web/context/request/Log4jNestedDiagnosticContextInterceptor.java:9: error: package org.apache.log4j does not exist
+import org.apache.log4j.Logger;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/web/context/request/Log4jNestedDiagnosticContextInterceptor.java:13: error: cannot find symbol
+    protected final Logger log4jLogger;
+                    ^
+  symbol:   class Logger
+  location: class Log4jNestedDiagnosticContextInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/web/context/request/Log4jNestedDiagnosticContextInterceptor.java:17: error: cannot find symbol
+        this.log4jLogger = Logger.getLogger((Class)this.getClass());
+                           ^
+  symbol:   variable Logger
+  location: class Log4jNestedDiagnosticContextInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/web/context/request/Log4jNestedDiagnosticContextInterceptor.java:30: error: cannot find symbol
+        NDC.push(this.getNestedDiagnosticContextMessage(request));
+        ^
+  symbol:   variable NDC
+  location: class Log4jNestedDiagnosticContextInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/web/context/request/Log4jNestedDiagnosticContextInterceptor.java:41: error: cannot find symbol
+        NDC.pop();
+        ^
+  symbol:   variable NDC
+  location: class Log4jNestedDiagnosticContextInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/web/context/request/Log4jNestedDiagnosticContextInterceptor.java:42: error: cannot find symbol
+        if (NDC.getDepth() == 0) {
+            ^
+  symbol:   variable NDC
+  location: class Log4jNestedDiagnosticContextInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/web/context/request/Log4jNestedDiagnosticContextInterceptor.java:43: error: cannot find symbol
+            NDC.remove();
+            ^
+  symbol:   variable NDC
+  location: class Log4jNestedDiagnosticContextInterceptor
+8 errors

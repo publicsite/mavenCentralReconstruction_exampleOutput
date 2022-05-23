@@ -1,0 +1,187 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:22: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:23: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:25: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:26: error: package org.springframework.util does not exist
+import org.springframework.util.MethodInvoker;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:27: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:28: error: package org.springframework.util does not exist
+import org.springframework.util.ReflectionUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:29: error: package org.springframework.util does not exist
+import org.springframework.util.StringUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:65: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(ReflectionTestUtils.class);
+	                     ^
+  symbol:   class Log
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:65: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(ReflectionTestUtils.class);
+	                                  ^
+  symbol:   variable LogFactory
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:106: error: cannot find symbol
+		Assert.notNull(target, "Target object must not be null");
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:107: error: cannot find symbol
+		Field field = ReflectionUtils.findField(target.getClass(), name, type);
+		              ^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:121: error: cannot find symbol
+		ReflectionUtils.makeAccessible(field);
+		^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:122: error: cannot find symbol
+		ReflectionUtils.setField(field, target, value);
+		^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:141: error: cannot find symbol
+		Assert.notNull(target, "Target object must not be null");
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:142: error: cannot find symbol
+		Field field = ReflectionUtils.findField(target.getClass(), name);
+		              ^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:143: error: cannot find symbol
+		Assert.notNull(field, "Could not find field [" + name + "] on target [" + target + "]");
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:148: error: cannot find symbol
+		ReflectionUtils.makeAccessible(field);
+		^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:149: error: cannot find symbol
+		return ReflectionUtils.getField(field, target);
+		       ^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:204: error: cannot find symbol
+		Assert.notNull(target, "Target object must not be null");
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:205: error: cannot find symbol
+		Assert.hasText(name, "Method name must not be empty");
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:210: error: cannot find symbol
+			setterMethodName = SETTER_PREFIX + StringUtils.capitalize(name);
+			                                   ^
+  symbol:   variable StringUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:212: error: cannot find symbol
+		Method method = ReflectionUtils.findMethod(target.getClass(), setterMethodName, paramTypes);
+		                ^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:215: error: cannot find symbol
+			method = ReflectionUtils.findMethod(target.getClass(), setterMethodName, paramTypes);
+			         ^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:217: error: cannot find symbol
+		Assert.notNull(method, "Could not find setter method [" + setterMethodName + "] on target [" + target
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:223: error: cannot find symbol
+		ReflectionUtils.makeAccessible(method);
+		^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:224: error: cannot find symbol
+		ReflectionUtils.invokeMethod(method, target, new Object[] { value });
+		^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:251: error: cannot find symbol
+		Assert.notNull(target, "Target object must not be null");
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:252: error: cannot find symbol
+		Assert.hasText(name, "Method name must not be empty");
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:256: error: cannot find symbol
+			getterMethodName = GETTER_PREFIX + StringUtils.capitalize(name);
+			                                   ^
+  symbol:   variable StringUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:258: error: cannot find symbol
+		Method method = ReflectionUtils.findMethod(target.getClass(), getterMethodName);
+		                ^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:261: error: cannot find symbol
+			method = ReflectionUtils.findMethod(target.getClass(), getterMethodName);
+			         ^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:263: error: cannot find symbol
+		Assert.notNull(method, "Could not find getter method [" + getterMethodName + "] on target [" + target + "]");
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:268: error: cannot find symbol
+		ReflectionUtils.makeAccessible(method);
+		^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:269: error: cannot find symbol
+		return ReflectionUtils.invokeMethod(method, target);
+		       ^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:292: error: cannot find symbol
+		Assert.notNull(target, "Target object must not be null");
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:293: error: cannot find symbol
+		Assert.hasText(name, "Method name must not be empty");
+		^
+  symbol:   variable Assert
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:296: error: cannot find symbol
+			MethodInvoker methodInvoker = new MethodInvoker();
+			^
+  symbol:   class MethodInvoker
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:296: error: cannot find symbol
+			MethodInvoker methodInvoker = new MethodInvoker();
+			                                  ^
+  symbol:   class MethodInvoker
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:304: error: cannot find symbol
+						+ ObjectUtils.nullSafeToString(args) + "]");
+						  ^
+  symbol:   variable ObjectUtils
+  location: class ReflectionTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/ReflectionTestUtils.java:310: error: cannot find symbol
+			ReflectionUtils.handleReflectionException(e);
+			^
+  symbol:   variable ReflectionUtils
+  location: class ReflectionTestUtils
+40 errors

@@ -1,0 +1,10 @@
+hybrids/xml-apis/xml-apis/1.3.04/SAXParserFactory.java:20: error: package exists in another module: java.xml
+package javax.xml.parsers;
+^
+hybrids/xml-apis/xml-apis/1.3.04/SAXParserFactory.java:115: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            return (SAXParserFactory) FactoryFinder.find(
+                                      ^
+hybrids/xml-apis/xml-apis/1.3.04/SAXParserFactory.java:120: error: package FactoryFinder does not exist
+        } catch (FactoryFinder.ConfigurationError e) {
+                              ^
+3 errors

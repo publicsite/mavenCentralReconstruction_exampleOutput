@@ -1,0 +1,54 @@
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceTracker.java:20: error: package org.osgi.util.tracker does not exist
+import org.osgi.util.tracker.ServiceTrackerCustomizer;
+                            ^
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceTracker.java:27: error: cannot find symbol
+public class PersistenceTracker implements ServiceTrackerCustomizer {
+                                           ^
+  symbol: class ServiceTrackerCustomizer
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceActivator.java:33: error: package org.osgi.util.tracker does not exist
+import org.osgi.util.tracker.ServiceTracker;
+                            ^
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceActivator.java:34: error: package org.osgi.util.tracker does not exist
+import org.osgi.util.tracker.ServiceTrackerCustomizer;
+                            ^
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceActivator.java:35: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.Activator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceActivator.java:42: error: cannot find symbol
+public class PersistenceActivator extends Activator implements BundleActivator, PersistenceProviderResolver {
+                                          ^
+  symbol: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceActivator.java:48: error: cannot find symbol
+    private ServiceTracker tracker = null;
+            ^
+  symbol:   class ServiceTracker
+  location: class PersistenceActivator
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/javax/persistence/spi/PersistenceProviderResolverHolder.java:42: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceActivator.java:54: error: cannot find symbol
+        super.start(arg0);
+        ^
+  symbol:   variable super
+  location: class PersistenceActivator
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceActivator.java:59: error: cannot find symbol
+        ServiceTrackerCustomizer customizer = new PersistenceTracker(this);
+        ^
+  symbol:   class ServiceTrackerCustomizer
+  location: class PersistenceActivator
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceActivator.java:60: error: cannot find symbol
+        tracker = new ServiceTracker(ctx, PERSISTENCE_PROVIDER, customizer);
+                      ^
+  symbol:   class ServiceTracker
+  location: class PersistenceActivator
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/org/apache/geronimo/specs/jpa/PersistenceActivator.java:82: error: cannot find symbol
+        super.stop(arg0);
+        ^
+  symbol:   variable super
+  location: class PersistenceActivator
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/javax/persistence/spi/PersistenceProviderResolverHolder.java:108: error: cannot find symbol
+                    List<Object> serviceProviders = ProviderLocator.getServices(PersistenceProvider.class.getName(), this.getClass(), cl);
+                                                    ^
+  symbol:   variable ProviderLocator
+  location: class DefaultPersistenceProviderResolver
+13 errors

@@ -1,0 +1,48 @@
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java:21: error: package org.apache.commons.net.bsd does not exist
+import org.apache.commons.net.bsd.RExecClient;
+                                 ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java:183: error: cannot find symbol
+    public class AntRExecClient extends RExecClient {
+                                        ^
+  symbol:   class RExecClient
+  location: class RExecTask
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java:63: error: cannot find symbol
+    private int port = RExecClient.DEFAULT_PORT;
+                       ^
+  symbol:   variable RExecClient
+  location: class RExecTask
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java:200: error: cannot find symbol
+            InputStream is = this.getInputStream();
+                                 ^
+  symbol: method getInputStream()
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java:237: error: cannot find symbol
+            OutputStream os = this.getOutputStream();
+                                  ^
+  symbol: method getOutputStream()
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java:254: error: cannot find symbol
+            InputStream is = this.getInputStream();
+                                 ^
+  symbol: method getInputStream()
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java:352: error: cannot find symbol
+                rexec.connect(server, port);
+                     ^
+  symbol:   method connect(String,int)
+  location: variable rexec of type RExecTask.AntRExecClient
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java:359: error: cannot find symbol
+                rexec.rexec(userid, password, command);
+                     ^
+  symbol:   method rexec(String,String,String)
+  location: variable rexec of type RExecTask.AntRExecClient
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java:370: error: cannot find symbol
+            if (rexec != null && rexec.isConnected()) {
+                                      ^
+  symbol:   method isConnected()
+  location: variable rexec of type RExecTask.AntRExecClient
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java:372: error: cannot find symbol
+                    rexec.disconnect();
+                         ^
+  symbol:   method disconnect()
+  location: variable rexec of type RExecTask.AntRExecClient
+Note: sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/RExecTask.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+10 errors

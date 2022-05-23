@@ -1,0 +1,129 @@
+hybrids/org.springframework/spring/2.5.6/DefaultPersistenceUnitManager.java:26: error: package javax.persistence does not exist
+import javax.persistence.PersistenceException;
+                        ^
+hybrids/org.springframework/spring/2.5.6/DefaultPersistenceUnitManager.java:27: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.PersistenceUnitInfo;
+                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/PersistenceUnitManager.java:19: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.PersistenceUnitInfo;
+                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo.java:24: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.ClassTransformer;
+                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo.java:25: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.PersistenceUnitInfo;
+                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo.java:26: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.PersistenceUnitTransactionType;
+                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo.java:44: error: cannot find symbol
+public class MutablePersistenceUnitInfo implements PersistenceUnitInfo {
+                                                   ^
+  symbol: class PersistenceUnitInfo
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/SpringPersistenceUnitInfo.java:19: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.ClassTransformer;
+                            ^
+hybrids/org.springframework/spring/2.5.6/DefaultPersistenceUnitManager.java:357: error: cannot find symbol
+	public PersistenceUnitInfo obtainDefaultPersistenceUnitInfo() {
+	       ^
+  symbol:   class PersistenceUnitInfo
+  location: class DefaultPersistenceUnitManager
+hybrids/org.springframework/spring/2.5.6/DefaultPersistenceUnitManager.java:375: error: cannot find symbol
+	public PersistenceUnitInfo obtainPersistenceUnitInfo(String persistenceUnitName) {
+	       ^
+  symbol:   class PersistenceUnitInfo
+  location: class DefaultPersistenceUnitManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/SpringPersistenceUnitInfo.java:76: error: cannot find symbol
+	public void addTransformer(ClassTransformer classTransformer) {
+	                           ^
+  symbol:   class ClassTransformer
+  location: class SpringPersistenceUnitInfo
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo.java:50: error: cannot find symbol
+	private PersistenceUnitTransactionType transactionType;
+	        ^
+  symbol:   class PersistenceUnitTransactionType
+  location: class MutablePersistenceUnitInfo
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo.java:87: error: cannot find symbol
+	public void setTransactionType(PersistenceUnitTransactionType transactionType) {
+	                               ^
+  symbol:   class PersistenceUnitTransactionType
+  location: class MutablePersistenceUnitInfo
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo.java:91: error: cannot find symbol
+	public PersistenceUnitTransactionType getTransactionType() {
+	       ^
+  symbol:   class PersistenceUnitTransactionType
+  location: class MutablePersistenceUnitInfo
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo.java:192: error: cannot find symbol
+	public void addTransformer(ClassTransformer classTransformer) {
+	                           ^
+  symbol:   class ClassTransformer
+  location: class MutablePersistenceUnitInfo
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/PersistenceUnitManager.java:45: error: cannot find symbol
+	PersistenceUnitInfo obtainDefaultPersistenceUnitInfo() throws IllegalStateException;
+	^
+  symbol:   class PersistenceUnitInfo
+  location: interface PersistenceUnitManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/PersistenceUnitManager.java:56: error: cannot find symbol
+	PersistenceUnitInfo obtainPersistenceUnitInfo(String persistenceUnitName)
+	^
+  symbol:   class PersistenceUnitInfo
+  location: interface PersistenceUnitManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/InstrumentationLoadTimeWeaver.java:26: error: cannot find symbol
+import org.springframework.instrument.InstrumentationSavingAgent;
+                                     ^
+  symbol:   class InstrumentationSavingAgent
+  location: package org.springframework.instrument
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/PersistenceUnitReader.java:25: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.PersistenceUnitTransactionType;
+                            ^
+hybrids/org.springframework/spring/2.5.6/DefaultPersistenceUnitManager.java:321: error: cannot find symbol
+			throw new PersistenceException("Unable to resolve persistence unit root URL", ex);
+			          ^
+  symbol:   class PersistenceException
+  location: class DefaultPersistenceUnitManager
+hybrids/org.springframework/spring/2.5.6/DefaultPersistenceUnitManager.java:370: error: cannot find symbol
+		PersistenceUnitInfo pui = this.persistenceUnitInfos.values().iterator().next();
+		^
+  symbol:   class PersistenceUnitInfo
+  location: class DefaultPersistenceUnitManager
+hybrids/org.springframework/spring/2.5.6/DefaultPersistenceUnitManager.java:376: error: cannot find symbol
+		PersistenceUnitInfo pui = this.persistenceUnitInfos.remove(persistenceUnitName);
+		^
+  symbol:   class PersistenceUnitInfo
+  location: class DefaultPersistenceUnitManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo.java:97: error: cannot find symbol
+					PersistenceUnitTransactionType.JTA : PersistenceUnitTransactionType.RESOURCE_LOCAL);
+					^
+  symbol:   variable PersistenceUnitTransactionType
+  location: class MutablePersistenceUnitInfo
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/MutablePersistenceUnitInfo.java:97: error: cannot find symbol
+					PersistenceUnitTransactionType.JTA : PersistenceUnitTransactionType.RESOURCE_LOCAL);
+					                                     ^
+  symbol:   variable PersistenceUnitTransactionType
+  location: class MutablePersistenceUnitInfo
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/ClassFileTransformerAdapter.java:22: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.ClassTransformer;
+                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/ClassFileTransformerAdapter.java:42: error: cannot find symbol
+	private final ClassTransformer classTransformer;
+	              ^
+  symbol:   class ClassTransformer
+  location: class ClassFileTransformerAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/ClassFileTransformerAdapter.java:45: error: cannot find symbol
+	public ClassFileTransformerAdapter(ClassTransformer classTransformer) {
+	                                   ^
+  symbol:   class ClassTransformer
+  location: class ClassFileTransformerAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/InstrumentationLoadTimeWeaver.java:156: error: cannot find symbol
+			return InstrumentationSavingAgent.getInstrumentation();
+			       ^
+  symbol:   variable InstrumentationSavingAgent
+  location: class InstrumentationAccessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/PersistenceUnitReader.java:275: error: cannot find symbol
+			unitInfo.setTransactionType(PersistenceUnitTransactionType.valueOf(txType));
+			                            ^
+  symbol:   variable PersistenceUnitTransactionType
+  location: class PersistenceUnitReader
+Note: sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jpa/persistenceunit/PersistenceUnitReader.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+29 errors

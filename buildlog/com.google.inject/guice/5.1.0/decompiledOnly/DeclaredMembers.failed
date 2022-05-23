@@ -1,0 +1,79 @@
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:8: error: cannot find symbol
+import com.google.common.collect.Ordering;
+                                ^
+  symbol:   class Ordering
+  location: package com.google.common.collect
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:21: error: incompatible types: invalid method reference
+        return Arrays.stream(type.getDeclaredFields()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Field::getName).thenComparing((Function<? super Object, ?>)Field::getType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName))).toArray(Field[]::new);
+                                                                                                                                                                                              ^
+    method getType in class Field cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:21: error: incompatible types: invalid method reference
+        return Arrays.stream(type.getDeclaredFields()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Field::getName).thenComparing((Function<? super Object, ?>)Field::getType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName))).toArray(Field[]::new);
+                                                                                                                                   ^
+    method getName in class Field cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:21: error: incompatible types: invalid method reference
+        return Arrays.stream(type.getDeclaredFields()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Field::getName).thenComparing((Function<? super Object, ?>)Field::getType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName))).toArray(Field[]::new);
+                                                                                                                                                                                                                                                                                   ^
+    method getName in class Class<T> cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Class
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:21: error: incompatible types: Object[] cannot be converted to Field[]
+        return Arrays.stream(type.getDeclaredFields()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Field::getName).thenComparing((Function<? super Object, ?>)Field::getType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName))).toArray(Field[]::new);
+                                                                                                                                                                                                                                                                                                            ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:25: error: incompatible types: invalid method reference
+        return Arrays.stream(type.getDeclaredMethods()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Method::getName).thenComparing((Function<? super Object, ?>)Method::getReturnType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).thenComparing(method -> Arrays.asList(method.getParameterTypes()), (Comparator<? super Object>)Ordering.from((Comparator)Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).lexicographical())).toArray(Method[]::new);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+    method getName in class Class<T> cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Class
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:25: error: cannot find symbol
+        return Arrays.stream(type.getDeclaredMethods()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Method::getName).thenComparing((Function<? super Object, ?>)Method::getReturnType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).thenComparing(method -> Arrays.asList(method.getParameterTypes()), (Comparator<? super Object>)Ordering.from((Comparator)Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).lexicographical())).toArray(Method[]::new);
+                                                                                                                                                                                                                                                                                                                                                                                                            ^
+  symbol:   variable Ordering
+  location: class DeclaredMembers
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:25: error: incompatible types: invalid method reference
+        return Arrays.stream(type.getDeclaredMethods()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Method::getName).thenComparing((Function<? super Object, ?>)Method::getReturnType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).thenComparing(method -> Arrays.asList(method.getParameterTypes()), (Comparator<? super Object>)Ordering.from((Comparator)Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).lexicographical())).toArray(Method[]::new);
+                                                                                                                                                                                                ^
+    method getReturnType in class Method cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:25: error: incompatible types: invalid method reference
+        return Arrays.stream(type.getDeclaredMethods()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Method::getName).thenComparing((Function<? super Object, ?>)Method::getReturnType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).thenComparing(method -> Arrays.asList(method.getParameterTypes()), (Comparator<? super Object>)Ordering.from((Comparator)Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).lexicographical())).toArray(Method[]::new);
+                                                                                                                                    ^
+    method getName in class Method cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:25: error: incompatible types: invalid method reference
+        return Arrays.stream(type.getDeclaredMethods()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Method::getName).thenComparing((Function<? super Object, ?>)Method::getReturnType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).thenComparing(method -> Arrays.asList(method.getParameterTypes()), (Comparator<? super Object>)Ordering.from((Comparator)Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).lexicographical())).toArray(Method[]::new);
+                                                                                                                                                                                                                                                                                            ^
+    method getName in class Class<T> cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Class
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:25: error: cannot find symbol
+        return Arrays.stream(type.getDeclaredMethods()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Method::getName).thenComparing((Function<? super Object, ?>)Method::getReturnType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).thenComparing(method -> Arrays.asList(method.getParameterTypes()), (Comparator<? super Object>)Ordering.from((Comparator)Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).lexicographical())).toArray(Method[]::new);
+                                                                                                                                                                                                                                                                                                                                                         ^
+  symbol:   method getParameterTypes()
+  location: variable method of type Object
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java:25: error: incompatible types: Object[] cannot be converted to Method[]
+        return Arrays.stream(type.getDeclaredMethods()).sorted(Comparator.comparing((Function<? super Object, ? extends Comparable>)Method::getName).thenComparing((Function<? super Object, ?>)Method::getReturnType, Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).thenComparing(method -> Arrays.asList(method.getParameterTypes()), (Comparator<? super Object>)Ordering.from((Comparator)Comparator.comparing((Function<? super Object, ? extends Comparable>)Class::getName)).lexicographical())).toArray(Method[]::new);
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+Note: sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/DeclaredMembers.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 errors

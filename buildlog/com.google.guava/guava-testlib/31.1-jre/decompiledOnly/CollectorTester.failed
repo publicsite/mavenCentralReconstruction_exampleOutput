@@ -1,0 +1,63 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java:14: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java:35: error: cannot find symbol
+        this.collector = (Collector<T, A, R>)Preconditions.checkNotNull((Object)collector);
+                                             ^
+  symbol:   variable Preconditions
+  location: class CollectorTester<T,A,R>
+  where T,A,R are type-variables:
+    T extends Object declared in class CollectorTester
+    A extends Object declared in class CollectorTester
+    R extends Object declared in class CollectorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java:36: error: cannot find symbol
+        this.equivalence = (BiPredicate<? super R, ? super R>)Preconditions.checkNotNull((Object)equivalence);
+                                                              ^
+  symbol:   variable Preconditions
+  location: class CollectorTester<T,A,R>
+  where T,A,R are type-variables:
+    T extends Object declared in class CollectorTester
+    A extends Object declared in class CollectorTester
+    R extends Object declared in class CollectorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java:54: error: incompatible types: A cannot be converted to R
+                this.assertEquivalent((A)expectedResult, finalAccum);
+                                      ^
+  where A,R are type-variables:
+    A extends Object declared in class CollectorTester
+    R extends Object declared in class CollectorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java:64: error: incompatible types: Object cannot be converted to CAP#1
+        Assert.assertTrue(new StringBuilder(34 + String.valueOf(value).length() + String.valueOf(value2).length() + String.valueOf(value3).length()).append("Expected ").append(value).append(" got ").append(value2).append(" modulo equivalence ").append(value3).toString(), this.equivalence.test((Object)expected, (Object)actual));
+                                                                                                                                                                                                                                                                                                      ^
+  where R is a type-variable:
+    R extends Object declared in class CollectorTester
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: R from capture of ? super R
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java:69: error: constructor CollectStrategy in enum CollectStrategy cannot be applied to given types;
+        SEQUENTIAL(0) {
+                  ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java:79: error: constructor CollectStrategy in enum CollectStrategy cannot be applied to given types;
+        MERGE_LEFT_ASSOCIATIVE(1) {
+                              ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java:91: error: constructor CollectStrategy in enum CollectStrategy cannot be applied to given types;
+        MERGE_RIGHT_ASSOCIATIVE(2) {
+                               ^
+  required: no arguments
+  found: int
+  reason: actual and formal argument lists differ in length
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java:125: error: cannot find symbol
+            $VALUES = $values();
+            ^
+  symbol:   variable $VALUES
+  location: class CollectStrategy
+Note: sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/CollectorTester.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+9 errors

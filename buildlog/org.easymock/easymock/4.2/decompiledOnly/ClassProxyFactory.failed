@@ -1,0 +1,103 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:14: error: cannot find symbol
+import org.easymock.cglib.proxy.MethodProxy;
+                               ^
+  symbol:   class MethodProxy
+  location: package org.easymock.cglib.proxy
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:17: error: cannot find symbol
+import org.easymock.cglib.proxy.MethodInterceptor;
+                               ^
+  symbol:   class MethodInterceptor
+  location: package org.easymock.cglib.proxy
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:18: error: cannot find symbol
+import org.easymock.cglib.core.DefaultNamingPolicy;
+                              ^
+  symbol:   class DefaultNamingPolicy
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:21: error: cannot find symbol
+import org.easymock.cglib.core.CollectionUtils;
+                              ^
+  symbol:   class CollectionUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:22: error: cannot find symbol
+import org.easymock.cglib.core.VisibilityPredicate;
+                              ^
+  symbol:   class VisibilityPredicate
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:25: error: cannot find symbol
+import org.easymock.cglib.proxy.Enhancer;
+                               ^
+  symbol:   class Enhancer
+  location: package org.easymock.cglib.proxy
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:100: error: cannot find symbol
+    private Enhancer createEnhancer(final Class<?> toMock) {
+            ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:129: error: cannot find symbol
+    public static class MockMethodInterceptor implements MethodInterceptor, Serializable
+                                                         ^
+  symbol:   class MethodInterceptor
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:140: error: cannot find symbol
+        public Object intercept(final Object obj, Method method, final Object[] args, final MethodProxy proxy) throws Throwable {
+                                                                                            ^
+  symbol:   class MethodProxy
+  location: class MockMethodInterceptor
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:47: error: cannot find symbol
+        final Enhancer enhancer = this.createEnhancer(toMock);
+              ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:59: error: reference to doPrivileged is ambiguous
+            final LinkedClassLoader linkedClassLoader = AccessController.doPrivileged(() -> {
+                                                                        ^
+  both method <T#1>doPrivileged(PrivilegedAction<T#1>) in AccessController and method <T#2>doPrivileged(PrivilegedExceptionAction<T#2>) in AccessController match
+  where T#1,T#2 are type-variables:
+    T#1 extends Object declared in method <T#1>doPrivileged(PrivilegedAction<T#1>)
+    T#2 extends Object declared in method <T#2>doPrivileged(PrivilegedExceptionAction<T#2>)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:96: error: incompatible types: MockMethodInterceptor cannot be converted to Callback
+        mock.setCallback(0, interceptor);
+                            ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:101: error: cannot find symbol
+        final Enhancer enhancer = new Enhancer() {
+              ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:101: error: cannot find symbol
+        final Enhancer enhancer = new Enhancer() {
+                                      ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:102: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:104: error: cannot find symbol
+                CollectionUtils.filter(constructors, new VisibilityPredicate(sc, true));
+                                                         ^
+  symbol: class VisibilityPredicate
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:104: error: cannot find symbol
+                CollectionUtils.filter(constructors, new VisibilityPredicate(sc, true));
+                ^
+  symbol: variable CollectionUtils
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:121: error: cannot find symbol
+        ALLOWS_MOCKING_CLASSES_IN_SIGNED_PACKAGES = new DefaultNamingPolicy() {
+                                                        ^
+  symbol:   class DefaultNamingPolicy
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:122: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:124: error: non-static variable super cannot be referenced from a static context
+                return "codegen." + super.getClassName(prefix, source, key, names);
+                                    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:124: error: cannot find symbol
+                return "codegen." + super.getClassName(prefix, source, key, names);
+                                         ^
+  symbol: method getClassName(String,String,Object,Predicate)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java:139: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/internal/ClassProxyFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+22 errors

@@ -1,0 +1,17 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/DisabledCondition.java:9: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.StringUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/DisabledCondition.java:12: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.AnnotationUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/DisabledCondition.java:24: error: cannot find symbol
+        final Optional<Disabled> disabled = (Optional<Disabled>)AnnotationUtils.findAnnotation((Optional)element, (Class)Disabled.class);
+                                                                ^
+  symbol:   variable AnnotationUtils
+  location: class DisabledCondition
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/DisabledCondition.java:26: error: cannot find symbol
+            final String reason = disabled.map((Function<? super Disabled, ? extends String>)Disabled::value).filter(StringUtils::isNotBlank).orElseGet(() -> element.get() + " is @Disabled");
+                                                                                                                     ^
+  symbol:   variable StringUtils
+  location: class DisabledCondition
+4 errors

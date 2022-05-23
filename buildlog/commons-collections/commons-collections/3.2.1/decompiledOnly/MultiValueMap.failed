@@ -1,0 +1,34 @@
+sources/structure/commons-collections/commons-collections/3.2.1/Decompiled/org/apache/commons/collections/map/MultiValueMap.java:53: error: remove(Object,Object) in MultiValueMap cannot implement remove(Object,Object) in Map
+    public Object remove(final Object key, final Object value) {
+                  ^
+  return type Object is not compatible with boolean
+sources/structure/commons-collections/commons-collections/3.2.1/Decompiled/org/apache/commons/collections/map/MultiValueMap.java:73: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry keyValuePair : pairs) {
+                                            ^
+sources/structure/commons-collections/commons-collections/3.2.1/Decompiled/org/apache/commons/collections/map/MultiValueMap.java:74: error: incompatible types: Object cannot be converted to Collection
+            final Collection coll = keyValuePair.getValue();
+                                                         ^
+sources/structure/commons-collections/commons-collections/3.2.1/Decompiled/org/apache/commons/collections/map/MultiValueMap.java:101: error: incompatible types: Object cannot be converted to Entry
+            for (final Map.Entry entry : map.entrySet()) {
+                                                     ^
+sources/structure/commons-collections/commons-collections/3.2.1/Decompiled/org/apache/commons/collections/map/MultiValueMap.java:102: error: incompatible types: Object cannot be converted to Collection
+                final Collection coll = entry.getValue();
+                                                      ^
+sources/structure/commons-collections/commons-collections/3.2.1/Decompiled/org/apache/commons/collections/map/MultiValueMap.java:107: error: incompatible types: Object cannot be converted to Entry
+            for (final Map.Entry entry : map.entrySet()) {
+                                                     ^
+sources/structure/commons-collections/commons-collections/3.2.1/Decompiled/org/apache/commons/collections/map/MultiValueMap.java:124: error: incompatible types: Object cannot be converted to Collection
+        return this.getMap().get(key);
+                                ^
+sources/structure/commons-collections/commons-collections/3.2.1/Decompiled/org/apache/commons/collections/map/MultiValueMap.java:162: error: incompatible types: Object cannot be converted to Collection
+        for (final Collection coll : values) {
+                                     ^
+sources/structure/commons-collections/commons-collections/3.2.1/extractedSources/org/apache/commons/collections/MultiMap.java:69: error: remove(Object,Object) in MultiMap clashes with remove(Object,Object) in Map
+    public Object remove(Object key, Object item);
+                  ^
+  return type Object is not compatible with boolean
+Note: sources/structure/commons-collections/commons-collections/3.2.1/Decompiled/org/apache/commons/collections/map/MultiValueMap.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/commons-collections/commons-collections/3.2.1/Decompiled/org/apache/commons/collections/map/MultiValueMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

@@ -1,0 +1,19 @@
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/application/ApplicationServiceEvent.java:19: error: package org.osgi.framework does not exist
+import org.osgi.framework.ServiceEvent;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/application/ApplicationServiceEvent.java:20: error: package org.osgi.framework does not exist
+import org.osgi.framework.ServiceReference;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/application/ApplicationServiceEvent.java:43: error: cannot find symbol
+public class ApplicationServiceEvent extends ServiceEvent {
+                                             ^
+  symbol: class ServiceEvent
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/application/ApplicationServiceEvent.java:61: error: cannot find symbol
+	public ApplicationServiceEvent(int type, ServiceReference reference, Object serviceObject) {
+	                                         ^
+  symbol:   class ServiceReference
+  location: class ApplicationServiceEvent
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ApplicationServiceListener.java:21: error: package org.osgi.framework does not exist
+import org.osgi.framework.*;
+^
+5 errors

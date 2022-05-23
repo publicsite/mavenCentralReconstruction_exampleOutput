@@ -1,0 +1,63 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:13: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isInnerClass;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isInnerClass;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:24: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.AnnotationUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:25: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:26: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ToStringBuilder;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:38: error: cannot find symbol
+		Preconditions.condition(index >= 0, "index must be greater than or equal to zero");
+		^
+  symbol:   variable Preconditions
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:39: error: cannot find symbol
+		this.parameter = Preconditions.notNull(parameter, "parameter must not be null");
+		                 ^
+  symbol:   variable Preconditions
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:41: error: cannot find symbol
+		this.target = Preconditions.notNull(target, "target must not be null");
+		              ^
+  symbol:   variable Preconditions
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:61: error: cannot find symbol
+		return AnnotationUtils.isAnnotated(getEffectiveAnnotatedParameter(), annotationType);
+		       ^
+  symbol:   variable AnnotationUtils
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:66: error: cannot find symbol
+		return AnnotationUtils.findAnnotation(getEffectiveAnnotatedParameter(), annotationType);
+		       ^
+  symbol:   variable AnnotationUtils
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:71: error: cannot find symbol
+		return AnnotationUtils.findRepeatableAnnotations(getEffectiveAnnotatedParameter(), annotationType);
+		       ^
+  symbol:   variable AnnotationUtils
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:107: error: cannot find symbol
+		if (executable instanceof Constructor && isInnerClass(executable.getDeclaringClass())
+		                                         ^
+  symbol:   method isInnerClass(Class<CAP#1>)
+  location: class DefaultParameterContext
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:110: error: cannot find symbol
+			Preconditions.condition(this.index != 0,
+			^
+  symbol:   variable Preconditions
+  location: class DefaultParameterContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/DefaultParameterContext.java:122: error: cannot find symbol
+		return new ToStringBuilder(this)
+		           ^
+  symbol:   class ToStringBuilder
+  location: class DefaultParameterContext
+14 errors

@@ -1,0 +1,60 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:11: error: cannot find symbol
+import org.codehaus.groovy.ast.ClassHelper;
+                              ^
+  symbol:   class ClassHelper
+  location: package org.codehaus.groovy.ast
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:12: error: cannot find symbol
+import org.codehaus.groovy.ast.ClassNode;
+                              ^
+  symbol:   class ClassNode
+  location: package org.codehaus.groovy.ast
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:13: error: cannot find symbol
+import org.codehaus.groovy.ast.AnnotatedNode;
+                              ^
+  symbol:   class AnnotatedNode
+  location: package org.codehaus.groovy.ast
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:15: error: cannot find symbol
+public abstract class Expression extends AnnotatedNode
+                                         ^
+  symbol: class AnnotatedNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:17: error: cannot find symbol
+    private ClassNode type;
+            ^
+  symbol:   class ClassNode
+  location: class Expression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:23: error: cannot find symbol
+    public abstract Expression transformExpression(final ExpressionTransformer p0);
+                                                         ^
+  symbol:   class ExpressionTransformer
+  location: class Expression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:25: error: cannot find symbol
+    protected List<Expression> transformExpressions(final List<? extends Expression> expressions, final ExpressionTransformer transformer) {
+                                                                                                        ^
+  symbol:   class ExpressionTransformer
+  location: class Expression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:33: error: cannot find symbol
+    protected <T extends Expression> List<T> transformExpressions(final List<? extends Expression> expressions, final ExpressionTransformer transformer, final Class<T> transformedType) {
+                                                                                                                      ^
+  symbol:   class ExpressionTransformer
+  location: class Expression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:45: error: cannot find symbol
+    public ClassNode getType() {
+           ^
+  symbol:   class ClassNode
+  location: class Expression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:49: error: cannot find symbol
+    public void setType(final ClassNode t) {
+                              ^
+  symbol:   class ClassNode
+  location: class Expression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:20: error: cannot find symbol
+        this.type = ClassHelper.DYNAMIC_TYPE;
+                    ^
+  symbol:   variable ClassHelper
+  location: class Expression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/Expression.java:38: error: cannot find symbol
+                throw new GroovyBugError(String.format("Transformed expression should have type %s but has type %s", transformedType, transformed.getClass()));
+                                                                                                                                                 ^
+  symbol:   method getClass()
+  location: variable transformed of type Expression
+12 errors

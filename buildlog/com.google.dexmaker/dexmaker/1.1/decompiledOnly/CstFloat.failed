@@ -1,0 +1,36 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFloat.java:7: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Type;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFloat.java:10: error: cannot find symbol
+public final class CstFloat extends CstLiteral32
+                                    ^
+  symbol: class CstLiteral32
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFloat.java:30: error: cannot find symbol
+    public Type getType() {
+           ^
+  symbol:   class Type
+  location: class CstFloat
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFloat.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFloat.java:26: error: cannot find symbol
+        final int bits = this.getIntBits();
+                             ^
+  symbol: method getIntBits()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFloat.java:31: error: cannot find symbol
+        return Type.FLOAT;
+               ^
+  symbol:   variable Type
+  location: class CstFloat
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFloat.java:34: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFloat.java:40: error: cannot find symbol
+        return Float.toString(Float.intBitsToFloat(this.getIntBits()));
+                                                       ^
+  symbol: method getIntBits()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstFloat.java:44: error: cannot find symbol
+        return Float.intBitsToFloat(this.getIntBits());
+                                        ^
+  symbol: method getIntBits()
+9 errors

@@ -1,0 +1,125 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:7: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.BasicBlock;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:8: error: cannot find symbol
+import com.google.dexmaker.dx.util.IntList;
+                                  ^
+  symbol:   class IntList
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:10: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.BasicBlockList;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:11: error: package com.google.dexmaker.dx.rop.code does not exist
+import com.google.dexmaker.dx.rop.code.RopMethod;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:15: error: cannot find symbol
+    private final RopMethod ropMethod;
+                  ^
+  symbol:   class RopMethod
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:16: error: cannot find symbol
+    private final BasicBlockList blocks;
+                  ^
+  symbol:   class BasicBlockList
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:17: error: cannot find symbol
+    private final BasicBlockList newBlocks;
+                  ^
+  symbol:   class BasicBlockList
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:19: error: cannot find symbol
+    public IdenticalBlockCombiner(final RopMethod rm) {
+                                        ^
+  symbol:   class RopMethod
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:25: error: cannot find symbol
+    public RopMethod process() {
+           ^
+  symbol:   class RopMethod
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:62: error: cannot find symbol
+    private static boolean compareInsns(final BasicBlock a, final BasicBlock b) {
+                                              ^
+  symbol:   class BasicBlock
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:62: error: cannot find symbol
+    private static boolean compareInsns(final BasicBlock a, final BasicBlock b) {
+                                                                  ^
+  symbol:   class BasicBlock
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:66: error: cannot find symbol
+    private void combineBlocks(final int alphaLabel, final IntList betaLabels) {
+                                                           ^
+  symbol:   class IntList
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:78: error: cannot find symbol
+    private void replaceSucc(final BasicBlock block, final int oldLabel, final int newLabel) {
+                                   ^
+  symbol:   class BasicBlock
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:29: error: cannot find symbol
+            final BasicBlock b = this.blocks.get(bindex);
+                  ^
+  symbol:   class BasicBlock
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:31: error: cannot find symbol
+                final IntList preds = this.ropMethod.labelToPredecessors(b.getLabel());
+                      ^
+  symbol:   class IntList
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:34: error: cannot find symbol
+                    final BasicBlock iBlock = this.blocks.labelToBlock(iLabel);
+                          ^
+  symbol:   class BasicBlock
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:37: error: cannot find symbol
+                            final IntList toCombine = new IntList();
+                                  ^
+  symbol:   class IntList
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:37: error: cannot find symbol
+                            final IntList toCombine = new IntList();
+                                                          ^
+  symbol:   class IntList
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:40: error: cannot find symbol
+                                final BasicBlock jBlock = this.blocks.labelToBlock(jLabel);
+                                      ^
+  symbol:   class BasicBlock
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:59: error: cannot find symbol
+        return new RopMethod(this.newBlocks, this.ropMethod.getFirstLabel());
+                   ^
+  symbol:   class RopMethod
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:69: error: cannot find symbol
+            final BasicBlock bb = this.blocks.labelToBlock(betaLabel);
+                  ^
+  symbol:   class BasicBlock
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:70: error: cannot find symbol
+            final IntList preds = this.ropMethod.labelToPredecessors(bb.getLabel());
+                  ^
+  symbol:   class IntList
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:72: error: cannot find symbol
+                final BasicBlock predBlock = this.newBlocks.labelToBlock(preds.get(j));
+                      ^
+  symbol:   class BasicBlock
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:79: error: cannot find symbol
+        final IntList newSuccessors = block.getSuccessors().mutableCopy();
+              ^
+  symbol:   class IntList
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:86: error: cannot find symbol
+        final BasicBlock newBB = new BasicBlock(block.getLabel(), block.getInsns(), newSuccessors, newPrimarySuccessor);
+              ^
+  symbol:   class BasicBlock
+  location: class IdenticalBlockCombiner
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/ssa/back/IdenticalBlockCombiner.java:86: error: cannot find symbol
+        final BasicBlock newBB = new BasicBlock(block.getLabel(), block.getInsns(), newSuccessors, newPrimarySuccessor);
+                                     ^
+  symbol:   class BasicBlock
+  location: class IdenticalBlockCombiner
+26 errors

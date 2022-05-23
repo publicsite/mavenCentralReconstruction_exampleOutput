@@ -1,0 +1,591 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:16: error: package exists in another module: java.base
+package java.util.stream;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:52: error: cannot find symbol
+final class StreamImpl<T> extends TerminatableStream<StreamImpl<T>> implements Stream<T> {
+                                  ^
+  symbol: class TerminatableStream
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:52: error: cannot find symbol
+final class StreamImpl<T> extends TerminatableStream<StreamImpl<T>> implements Stream<T> {
+                                                     ^
+  symbol: class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:523: error: cannot find symbol
+  public StreamImpl(TerminatableStream<?> prev, Spliterator<T> spliterator) {
+                    ^
+  symbol:   class TerminatableStream
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:57: error: cannot find symbol
+  static class Empty<T> extends TerminatableStream<Empty<T>> implements Stream<T> {
+                                ^
+  symbol:   class TerminatableStream
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:59: error: cannot find symbol
+    public Empty(TerminatableStream<?> previous) {
+                 ^
+  symbol:   class TerminatableStream
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:52: error: StreamImpl is not abstract and does not override abstract method close() in BaseStream
+final class StreamImpl<T> extends TerminatableStream<StreamImpl<T>> implements Stream<T> {
+      ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:57: error: Empty is not abstract and does not override abstract method close() in BaseStream
+  static class Empty<T> extends TerminatableStream<Empty<T>> implements Stream<T> {
+         ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:65: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:71: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:77: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:78: error: package IntStreamImpl does not exist
+      return new IntStreamImpl.Empty(this);
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:83: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:84: error: package LongStreamImpl does not exist
+      return new LongStreamImpl.Empty(this);
+                               ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:89: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:90: error: package DoubleStreamImpl does not exist
+      return new DoubleStreamImpl.Empty(this);
+                                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:95: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:101: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:102: error: package IntStreamImpl does not exist
+      return new IntStreamImpl.Empty(this);
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:107: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:108: error: package LongStreamImpl does not exist
+      return new LongStreamImpl.Empty(this);
+                               ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:113: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:114: error: package DoubleStreamImpl does not exist
+      return new DoubleStreamImpl.Empty(this);
+                                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:119: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:125: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:131: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:137: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:143: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:150: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:157: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:163: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:169: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:175: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:181: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:187: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:194: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:201: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:207: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:213: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:219: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:225: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:231: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:237: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:243: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:249: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:255: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:261: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:267: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:273: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:279: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:285: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:291: error: cannot find symbol
+      throwIfTerminated();
+      ^
+  symbol:   method throwIfTerminated()
+  location: class Empty<T>
+  where T is a type-variable:
+    T extends Object declared in class Empty
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:531: error: cannot find symbol
+    terminate();
+    ^
+  symbol:   method terminate()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:542: error: cannot find symbol
+    terminate();
+    ^
+  symbol:   method terminate()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:557: error: cannot find symbol
+    terminate();
+    ^
+  symbol:   method terminate()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:601: error: cannot find symbol
+    terminate();
+    ^
+  symbol:   method terminate()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:650: error: cannot find symbol
+      terminate();
+      ^
+  symbol:   method terminate()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:660: error: cannot find symbol
+    terminate();
+    ^
+  symbol:   method terminate()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:674: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:675: error: cannot find symbol
+    return new StreamImpl<>(this, new FilterSpliterator<>(predicate, spliterator));
+               ^
+  symbol:   class StreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:680: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:681: error: cannot find symbol
+    return new StreamImpl<>(this, new MapToObjSpliterator<>(mapper, spliterator));
+               ^
+  symbol:   class StreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:686: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:687: error: cannot find symbol
+    return new IntStreamImpl(this, new MapToIntSpliterator<>(mapper, spliterator));
+               ^
+  symbol:   class IntStreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:692: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:693: error: cannot find symbol
+    return new LongStreamImpl(this, new MapToLongSpliterator<>(mapper, spliterator));
+               ^
+  symbol:   class LongStreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:698: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:699: error: cannot find symbol
+    return new DoubleStreamImpl(this, new MapToDoubleSpliterator<>(mapper, spliterator));
+               ^
+  symbol:   class DoubleStreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:704: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:746: error: cannot find symbol
+    return new StreamImpl<R>(this, flatMapSpliterator);
+               ^
+  symbol:   class StreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:751: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:793: error: cannot find symbol
+    return new IntStreamImpl(this, flatMapSpliterator);
+               ^
+  symbol:   class IntStreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:798: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:840: error: cannot find symbol
+    return new LongStreamImpl(this, flatMapSpliterator);
+               ^
+  symbol:   class LongStreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:845: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:887: error: cannot find symbol
+    return new DoubleStreamImpl(this, flatMapSpliterator);
+               ^
+  symbol:   class DoubleStreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:892: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:899: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:906: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:930: error: cannot find symbol
+    return new StreamImpl<>(this, sortedSpliterator);
+               ^
+  symbol:   class StreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:936: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:951: error: cannot find symbol
+    return new StreamImpl<>(this, peekSpliterator);
+               ^
+  symbol:   class StreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:956: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:958: error: cannot find symbol
+    return new StreamImpl<>(this, new LimitSpliterator<>(maxSize, spliterator));
+               ^
+  symbol:   class StreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:963: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:968: error: cannot find symbol
+    return new StreamImpl<>(this, new SkipSpliterator<>(n, spliterator));
+               ^
+  symbol:   class StreamImpl
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:973: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:979: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:985: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java:992: error: cannot find symbol
+    throwIfTerminated();
+    ^
+  symbol:   method throwIfTerminated()
+  location: class StreamImpl<T>
+  where T is a type-variable:
+    T extends Object declared in class StreamImpl
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/stream/StreamImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+90 errors

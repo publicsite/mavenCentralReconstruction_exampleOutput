@@ -1,0 +1,123 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:19: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:20: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:22: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotationAttributes;
+                                          ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:23: error: package org.springframework.core.io does not exist
+import org.springframework.core.io.ClassPathResource;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:24: error: package org.springframework.core.style does not exist
+import org.springframework.core.style.ToStringCreator;
+                                     ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:26: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:27: error: package org.springframework.util does not exist
+import org.springframework.util.ClassUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:28: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:29: error: package org.springframework.util does not exist
+import org.springframework.util.ResourceUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:46: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(TestPropertySourceAttributes.class);
+	                     ^
+  symbol:   class Log
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:69: error: cannot find symbol
+	TestPropertySourceAttributes(Class<?> declaringClass, AnnotationAttributes annAttrs) {
+	                                                      ^
+  symbol:   class AnnotationAttributes
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:46: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(TestPropertySourceAttributes.class);
+	                                  ^
+  symbol:   variable LogFactory
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:77: error: cannot find symbol
+		Assert.notNull(declaringClass, "declaringClass must not be null");
+		^
+  symbol:   variable Assert
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:79: error: cannot find symbol
+		if (ObjectUtils.isEmpty(locations) && ObjectUtils.isEmpty(properties)) {
+		    ^
+  symbol:   variable ObjectUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:79: error: cannot find symbol
+		if (ObjectUtils.isEmpty(locations) && ObjectUtils.isEmpty(properties)) {
+		                                      ^
+  symbol:   variable ObjectUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:150: error: cannot find symbol
+		return new ToStringCreator(this)//
+		           ^
+  symbol:   class ToStringCreator
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:152: error: cannot find symbol
+		.append("locations", ObjectUtils.nullSafeToString(locations))//
+		                     ^
+  symbol:   variable ObjectUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:154: error: cannot find symbol
+		.append("properties", ObjectUtils.nullSafeToString(properties))//
+		                      ^
+  symbol:   variable ObjectUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:167: error: cannot find symbol
+		Assert.notNull(declaringClass, "declaringClass must not be null");
+		^
+  symbol:   variable Assert
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:169: error: cannot find symbol
+		if (!ObjectUtils.isEmpty(value) && !ObjectUtils.isEmpty(locations)) {
+		     ^
+  symbol:   variable ObjectUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:169: error: cannot find symbol
+		if (!ObjectUtils.isEmpty(value) && !ObjectUtils.isEmpty(locations)) {
+		                                    ^
+  symbol:   variable ObjectUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:173: error: cannot find symbol
+				ObjectUtils.nullSafeToString(value), ObjectUtils.nullSafeToString(locations));
+				^
+  symbol:   variable ObjectUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:173: error: cannot find symbol
+				ObjectUtils.nullSafeToString(value), ObjectUtils.nullSafeToString(locations));
+				                                     ^
+  symbol:   variable ObjectUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:177: error: cannot find symbol
+		else if (!ObjectUtils.isEmpty(value)) {
+		          ^
+  symbol:   variable ObjectUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:189: error: cannot find symbol
+		String resourcePath = ClassUtils.convertClassNameToResourcePath(testClass.getName()) + ".properties";
+		                      ^
+  symbol:   variable ClassUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:190: error: cannot find symbol
+		String prefixedResourcePath = ResourceUtils.CLASSPATH_URL_PREFIX + resourcePath;
+		                              ^
+  symbol:   variable ResourceUtils
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:191: error: cannot find symbol
+		ClassPathResource classPathResource = new ClassPathResource(resourcePath);
+		^
+  symbol:   class ClassPathResource
+  location: class TestPropertySourceAttributes
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestPropertySourceAttributes.java:191: error: cannot find symbol
+		ClassPathResource classPathResource = new ClassPathResource(resourcePath);
+		                                          ^
+  symbol:   class ClassPathResource
+  location: class TestPropertySourceAttributes
+28 errors

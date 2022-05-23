@@ -1,0 +1,103 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:10: error: cannot find symbol
+public final class Field extends FieldOrMethod
+                                 ^
+  symbol: class FieldOrMethod
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:16: error: cannot find symbol
+    Field(final DataInputStream file, final ConstantPool constant_pool) throws IOException, ClassFormatError {
+                                            ^
+  symbol:   class ConstantPool
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:20: error: cannot find symbol
+    public Field(final int access_flags, final int name_index, final int signature_index, final Attribute[] attributes, final ConstantPool constant_pool) {
+                                                                                                ^
+  symbol:   class Attribute
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:20: error: cannot find symbol
+    public Field(final int access_flags, final int name_index, final int signature_index, final Attribute[] attributes, final ConstantPool constant_pool) {
+                                                                                                                              ^
+  symbol:   class ConstantPool
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:24: error: cannot find symbol
+    public void accept(final Visitor v) {
+                             ^
+  symbol:   class Visitor
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:28: error: cannot find symbol
+    public final ConstantValue getConstantValue() {
+                 ^
+  symbol:   class ConstantValue
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:56: error: cannot find symbol
+    public final Field copy(final ConstantPool constant_pool) {
+                                  ^
+  symbol:   class ConstantPool
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:29: error: cannot find symbol
+        for (int i = 0; i < super.attributes_count; ++i) {
+                            ^
+  symbol:   variable super
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:30: error: cannot find symbol
+            if (super.attributes[i].getTag() == 1) {
+                ^
+  symbol:   variable super
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:31: error: cannot find symbol
+                return (ConstantValue)super.attributes[i];
+                        ^
+  symbol:   class ConstantValue
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:31: error: cannot find symbol
+                return (ConstantValue)super.attributes[i];
+                                      ^
+  symbol:   variable super
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:38: error: cannot find symbol
+        String access = Utility.accessToString(super.access_flags);
+                                               ^
+  symbol:   variable super
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:38: error: cannot find symbol
+        String access = Utility.accessToString(super.access_flags);
+                        ^
+  symbol:   variable Utility
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:40: error: cannot find symbol
+        final String signature = Utility.signatureToString(this.getSignature());
+                                 ^
+  symbol:   variable Utility
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:40: error: cannot find symbol
+        final String signature = Utility.signatureToString(this.getSignature());
+                                                               ^
+  symbol: method getSignature()
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:41: error: cannot find symbol
+        final String name = this.getName();
+                                ^
+  symbol: method getName()
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:43: error: cannot find symbol
+        final ConstantValue cv = this.getConstantValue();
+              ^
+  symbol:   class ConstantValue
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:47: error: cannot find symbol
+        for (int i = 0; i < super.attributes_count; ++i) {
+                            ^
+  symbol:   variable super
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:48: error: cannot find symbol
+            final Attribute a = super.attributes[i];
+                  ^
+  symbol:   class Attribute
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:48: error: cannot find symbol
+            final Attribute a = super.attributes[i];
+                                ^
+  symbol:   variable super
+  location: class Field
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/Field.java:49: error: cannot find symbol
+            if (!(a instanceof ConstantValue)) {
+                               ^
+  symbol:   class ConstantValue
+  location: class Field
+21 errors

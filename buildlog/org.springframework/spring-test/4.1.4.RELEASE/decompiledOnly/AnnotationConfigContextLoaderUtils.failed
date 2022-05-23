@@ -1,0 +1,38 @@
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/support/AnnotationConfigContextLoaderUtils.java:7: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/support/AnnotationConfigContextLoaderUtils.java:10: error: package org.springframework.context.annotation does not exist
+import org.springframework.context.annotation.Configuration;
+                                             ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/support/AnnotationConfigContextLoaderUtils.java:13: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/support/AnnotationConfigContextLoaderUtils.java:14: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/support/AnnotationConfigContextLoaderUtils.java:18: error: cannot find symbol
+    private static final Log logger;
+                         ^
+  symbol:   class Log
+  location: class AnnotationConfigContextLoaderUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/support/AnnotationConfigContextLoaderUtils.java:21: error: cannot find symbol
+        Assert.notNull((Object)declaringClass, "Declaring class must not be null");
+        ^
+  symbol:   variable Assert
+  location: class AnnotationConfigContextLoaderUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/support/AnnotationConfigContextLoaderUtils.java:38: error: cannot find symbol
+        return clazz != null && isStaticNonPrivateAndNonFinal(clazz) && clazz.isAnnotationPresent((Class<? extends Annotation>)Configuration.class);
+                                                                                                                               ^
+  symbol:   class Configuration
+  location: class AnnotationConfigContextLoaderUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/support/AnnotationConfigContextLoaderUtils.java:42: error: cannot find symbol
+        Assert.notNull((Object)clazz, "Class must not be null");
+        ^
+  symbol:   variable Assert
+  location: class AnnotationConfigContextLoaderUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/support/AnnotationConfigContextLoaderUtils.java:48: error: cannot find symbol
+        logger = LogFactory.getLog((Class)AnnotationConfigContextLoaderUtils.class);
+                 ^
+  symbol:   variable LogFactory
+  location: class AnnotationConfigContextLoaderUtils
+9 errors

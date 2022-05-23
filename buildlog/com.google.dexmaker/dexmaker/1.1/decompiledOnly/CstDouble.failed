@@ -1,0 +1,36 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstDouble.java:7: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Type;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstDouble.java:10: error: cannot find symbol
+public final class CstDouble extends CstLiteral64
+                                     ^
+  symbol: class CstLiteral64
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstDouble.java:29: error: cannot find symbol
+    public Type getType() {
+           ^
+  symbol:   class Type
+  location: class CstDouble
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstDouble.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstDouble.java:25: error: cannot find symbol
+        final long bits = this.getLongBits();
+                              ^
+  symbol: method getLongBits()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstDouble.java:30: error: cannot find symbol
+        return Type.DOUBLE;
+               ^
+  symbol:   variable Type
+  location: class CstDouble
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstDouble.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstDouble.java:39: error: cannot find symbol
+        return Double.toString(Double.longBitsToDouble(this.getLongBits()));
+                                                           ^
+  symbol: method getLongBits()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstDouble.java:43: error: cannot find symbol
+        return Double.longBitsToDouble(this.getLongBits());
+                                           ^
+  symbol: method getLongBits()
+9 errors

@@ -1,0 +1,57 @@
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java:10: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java:17: error: package org.springframework.web.servlet does not exist
+import org.springframework.web.servlet.ModelAndView;
+                                      ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java:21: error: cannot find symbol
+    public static <T> T assertAndReturnModelAttributeOfType(final ModelAndView mav, final String modelName, final Class<T> expectedType) {
+                                                                  ^
+  symbol:   class ModelAndView
+  location: class ModelAndViewAssert
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java:30: error: cannot find symbol
+    public static void assertCompareListModelAttribute(final ModelAndView mav, final String modelName, final List expectedList) {
+                                                             ^
+  symbol:   class ModelAndView
+  location: class ModelAndViewAssert
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java:37: error: cannot find symbol
+    public static void assertModelAttributeAvailable(final ModelAndView mav, final String modelName) {
+                                                           ^
+  symbol:   class ModelAndView
+  location: class ModelAndViewAssert
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java:43: error: cannot find symbol
+    public static void assertModelAttributeValue(final ModelAndView mav, final String modelName, final Object expectedValue) {
+                                                       ^
+  symbol:   class ModelAndView
+  location: class ModelAndViewAssert
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java:49: error: cannot find symbol
+    public static void assertModelAttributeValues(final ModelAndView mav, final Map<String, Object> expectedModel) {
+                                                        ^
+  symbol:   class ModelAndView
+  location: class ModelAndViewAssert
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java:71: error: cannot find symbol
+    public static void assertSortAndCompareListModelAttribute(final ModelAndView mav, final String modelName, final List expectedList, final Comparator comparator) {
+                                                                    ^
+  symbol:   class ModelAndView
+  location: class ModelAndViewAssert
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java:86: error: cannot find symbol
+    public static void assertViewName(final ModelAndView mav, final String expectedName) {
+                                            ^
+  symbol:   class ModelAndView
+  location: class ModelAndViewAssert
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/AssertionErrors.java:18: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java:88: error: cannot find symbol
+        AssertionErrors.assertTrue("View name is not equal to '" + expectedName + "' but was '" + mav.getViewName() + "'", ObjectUtils.nullSafeEquals((Object)expectedName, (Object)mav.getViewName()));
+                                                                                                                           ^
+  symbol:   variable ObjectUtils
+  location: class ModelAndViewAssert
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/util/AssertionErrors.java:88: error: cannot find symbol
+		if (!ObjectUtils.nullSafeEquals(expected, actual)) {
+		     ^
+  symbol:   variable ObjectUtils
+  location: class AssertionErrors
+Note: sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/web/ModelAndViewAssert.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 errors

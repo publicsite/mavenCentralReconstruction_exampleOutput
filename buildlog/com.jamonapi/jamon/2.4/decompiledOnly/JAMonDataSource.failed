@@ -1,0 +1,29 @@
+sources/structure/com.jamonapi/jamon/2.4/Decompiled/com/jamonapi/proxy/JAMonDataSource.java:16: error: JAMonDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class JAMonDataSource implements DataSource, Referenceable, Serializable
+       ^
+sources/structure/com.jamonapi/jamon/2.4/Decompiled/com/jamonapi/proxy/MonProxyFactory.java:90: error: incompatible types: Object[] cannot be converted to Class[]
+        return coll.toArray(MonProxyFactory.CLASS_ARRAY);
+                           ^
+sources/structure/com.jamonapi/jamon/2.4/Decompiled/com/jamonapi/proxy/JDBCMonProxy.java:52: error: incompatible types: Object cannot be converted to SQLDeArgMon
+                    sqlMon = JDBCMonProxy.statementsMap.get(this.getMonitoredObject());
+                                                           ^
+sources/structure/com.jamonapi/jamon/2.4/Decompiled/com/jamonapi/MonitorComposite.java:57: error: incompatible types: Object[] cannot be converted to String[]
+            return header.toArray(new String[0]);
+                                 ^
+sources/structure/com.jamonapi/jamon/2.4/Decompiled/com/jamonapi/MonitorComposite.java:66: error: incompatible types: Object[] cannot be converted to String[]
+            return header.toArray(new String[0]);
+                                 ^
+sources/structure/com.jamonapi/jamon/2.4/Decompiled/com/jamonapi/MonitorComposite.java:75: error: incompatible types: Object[] cannot be converted to String[]
+            return header.toArray(new String[0]);
+                                 ^
+sources/structure/com.jamonapi/jamon/2.4/Decompiled/com/jamonapi/proxy/SQLDeArger.java:128: error: incompatible types: Object[] cannot be converted to String[]
+            this.matches = matchesList.toArray(new String[0]);
+                                              ^
+sources/structure/com.jamonapi/jamon/2.4/Decompiled/com/jamonapi/proxy/SQLDeArger.java:141: error: incompatible types: Object cannot be converted to String
+        this.sqlType = SQLDeArger.sqlTypes.get(type);
+                                              ^
+Note: sources/structure/com.jamonapi/jamon/2.4/Decompiled/com/jamonapi/proxy/JDBCMonProxy.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

@@ -1,0 +1,109 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:8: error: cannot find symbol
+import org.aspectj.weaver.ResolvedType;
+                         ^
+  symbol:   class ResolvedType
+  location: package org.aspectj.weaver
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:11: error: cannot find symbol
+import org.aspectj.weaver.patterns.IScope;
+                                  ^
+  symbol:   class IScope
+  location: package org.aspectj.weaver.patterns
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:12: error: cannot find symbol
+import org.aspectj.weaver.patterns.Bindings;
+                                  ^
+  symbol:   class Bindings
+  location: package org.aspectj.weaver.patterns
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:13: error: cannot find symbol
+import org.aspectj.weaver.patterns.SimpleScope;
+                                  ^
+  symbol:   class SimpleScope
+  location: package org.aspectj.weaver.patterns
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:14: error: cannot find symbol
+import org.aspectj.weaver.patterns.FormalBinding;
+                                  ^
+  symbol:   class FormalBinding
+  location: package org.aspectj.weaver.patterns
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:15: error: cannot find symbol
+import org.aspectj.weaver.patterns.PatternParser;
+                                  ^
+  symbol:   class PatternParser
+  location: package org.aspectj.weaver.patterns
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:17: error: package org.aspectj.weaver.bcel does not exist
+import org.aspectj.weaver.bcel.BcelWorld;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:19: error: cannot find symbol
+import org.aspectj.weaver.patterns.TypePattern;
+                                  ^
+  symbol:   class TypePattern
+  location: package org.aspectj.weaver.patterns
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:20: error: cannot find symbol
+import org.aspectj.weaver.World;
+                         ^
+  symbol:   class World
+  location: package org.aspectj.weaver
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:24: error: cannot find symbol
+    private final World world;
+                  ^
+  symbol:   class World
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:25: error: cannot find symbol
+    private final TypePattern typePattern;
+                  ^
+  symbol:   class TypePattern
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:28: error: cannot find symbol
+        (this.world = (World)new BcelWorld(classLoader, IMessageHandler.THROW, (ICrossReferenceHandler)null)).setBehaveInJava5Way(true);
+                       ^
+  symbol:   class World
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:28: error: cannot find symbol
+        (this.world = (World)new BcelWorld(classLoader, IMessageHandler.THROW, (ICrossReferenceHandler)null)).setBehaveInJava5Way(true);
+                                 ^
+  symbol:   class BcelWorld
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:29: error: cannot find symbol
+        final PatternParser patternParser = new PatternParser(typePatternExpression);
+              ^
+  symbol:   class PatternParser
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:29: error: cannot find symbol
+        final PatternParser patternParser = new PatternParser(typePatternExpression);
+                                                ^
+  symbol:   class PatternParser
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:30: error: cannot find symbol
+        final TypePattern typePattern = patternParser.parseTypePattern();
+              ^
+  symbol:   class TypePattern
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:32: error: cannot find symbol
+        final IScope scope = (IScope)new SimpleScope(this.world, new FormalBinding[0]);
+              ^
+  symbol:   class IScope
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:32: error: cannot find symbol
+        final IScope scope = (IScope)new SimpleScope(this.world, new FormalBinding[0]);
+                              ^
+  symbol:   class IScope
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:32: error: cannot find symbol
+        final IScope scope = (IScope)new SimpleScope(this.world, new FormalBinding[0]);
+                                         ^
+  symbol:   class SimpleScope
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:32: error: cannot find symbol
+        final IScope scope = (IScope)new SimpleScope(this.world, new FormalBinding[0]);
+                                                                     ^
+  symbol:   class FormalBinding
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:33: error: cannot find symbol
+        this.typePattern = typePattern.resolveBindings(scope, Bindings.NONE, false, false);
+                                                              ^
+  symbol:   variable Bindings
+  location: class AspectJTypeFilter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/core/type/filter/AspectJTypeFilter.java:38: error: cannot find symbol
+        final ResolvedType resolvedType = this.world.resolve(className);
+              ^
+  symbol:   class ResolvedType
+  location: class AspectJTypeFilter
+22 errors

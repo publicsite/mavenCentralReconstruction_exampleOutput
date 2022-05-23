@@ -1,0 +1,179 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:35: error: package exists in another module: java.base
+package java.math;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:112: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger n = new BigInteger(1, last, new int[last]);
+                   ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:117: error: cannot find symbol
+      for (int i = 0; i < n.numberLength; i++) {
+                           ^
+  symbol:   variable numberLength
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:118: error: cannot find symbol
+        n.digits[i] = rnd.nextInt();
+         ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:121: error: cannot find symbol
+      n.digits[last] |= 0x80000000;
+       ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:122: error: cannot find symbol
+      n.digits[last] >>>= shiftCount;
+       ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:124: error: cannot find symbol
+      n.digits[0] |= 1;
+       ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:137: error: cannot find symbol
+    if ((certainty <= 0) || ((n.numberLength == 1) && (n.digits[0] == 2))) {
+                               ^
+  symbol:   variable numberLength
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:137: error: cannot find symbol
+    if ((certainty <= 0) || ((n.numberLength == 1) && (n.digits[0] == 2))) {
+                                                        ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:145: error: cannot find symbol
+    if ((n.numberLength == 1) && ((n.digits[0] & 0XFFFFFC00) == 0)) {
+          ^
+  symbol:   variable numberLength
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:145: error: cannot find symbol
+    if ((n.numberLength == 1) && ((n.digits[0] & 0XFFFFFC00) == 0)) {
+                                    ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:146: error: cannot find symbol
+      return (Arrays.binarySearch(primes, n.digits[0]) >= 0);
+                                           ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:150: error: cannot find symbol
+      if (Division.remainderArrayByInt(n.digits, n.numberLength, primes[i]) == 0) {
+                                        ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:150: error: cannot find symbol
+      if (Division.remainderArrayByInt(n.digits, n.numberLength, primes[i]) == 0) {
+                                                  ^
+  symbol:   variable numberLength
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:150: error: cannot find symbol
+      if (Division.remainderArrayByInt(n.digits, n.numberLength, primes[i]) == 0) {
+          ^
+  symbol:   variable Division
+  location: class Primality
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:185: error: cannot find symbol
+    if ((n.numberLength == 1) && (n.digits[0] >= 0)
+          ^
+  symbol:   variable numberLength
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:185: error: cannot find symbol
+    if ((n.numberLength == 1) && (n.digits[0] >= 0)
+                                   ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:186: error: cannot find symbol
+        && (n.digits[0] < primes[primes.length - 1])) {
+             ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:187: error: cannot find symbol
+      for (i = 0; n.digits[0] >= primes[i]; i++) {
+                   ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:196: error: cannot find symbol
+    startPoint = new BigInteger(1, n.numberLength, new int[n.numberLength + 1]);
+                                    ^
+  symbol:   variable numberLength
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:196: error: cannot find symbol
+    startPoint = new BigInteger(1, n.numberLength, new int[n.numberLength + 1]);
+                                                            ^
+  symbol:   variable numberLength
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:197: error: cannot find symbol
+    System.arraycopy(n.digits, 0, startPoint.digits, 0, n.numberLength);
+                      ^
+  symbol:   variable digits
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:197: error: cannot find symbol
+    System.arraycopy(n.digits, 0, startPoint.digits, 0, n.numberLength);
+                                            ^
+  symbol:   variable digits
+  location: variable startPoint of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:197: error: cannot find symbol
+    System.arraycopy(n.digits, 0, startPoint.digits, 0, n.numberLength);
+                                                         ^
+  symbol:   variable numberLength
+  location: variable n of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:200: error: cannot find symbol
+      Elementary.inplaceAdd(startPoint, 2);
+      ^
+  symbol:   variable Elementary
+  location: class Primality
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:202: error: cannot find symbol
+      startPoint.digits[0] |= 1;
+                ^
+  symbol:   variable digits
+  location: variable startPoint of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:211: error: cannot find symbol
+      modules[i] = Division.remainder(startPoint, primes[i]) - gapSize;
+                   ^
+  symbol:   variable Division
+  location: class Primality
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:229: error: cannot find symbol
+          probPrime = startPoint.copy();
+                                ^
+  symbol:   method copy()
+  location: variable startPoint of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:230: error: cannot find symbol
+          Elementary.inplaceAdd(probPrime, j);
+          ^
+  symbol:   variable Elementary
+  location: class Primality
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:237: error: cannot find symbol
+      Elementary.inplaceAdd(startPoint, gapSize);
+      ^
+  symbol:   variable Elementary
+  location: class Primality
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:274: error: cannot find symbol
+        } while ((x.compareTo(n) >= BigInteger.EQUALS) || (x.sign == 0)
+                                              ^
+  symbol:   variable EQUALS
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:274: error: cannot find symbol
+        } while ((x.compareTo(n) >= BigInteger.EQUALS) || (x.sign == 0)
+                                                            ^
+  symbol:   variable sign
+  location: variable x of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:275: error: cannot find symbol
+            || x.isOne());
+                ^
+  symbol:   method isOne()
+  location: variable x of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:278: error: cannot find symbol
+      if (y.isOne() || y.equals(nMinus1)) {
+           ^
+  symbol:   method isOne()
+  location: variable y of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Primality.java:286: error: cannot find symbol
+        if (y.isOne()) {
+             ^
+  symbol:   method isOne()
+  location: variable y of type BigInteger
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+35 errors

@@ -1,0 +1,92 @@
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDox.java:3: error: package com.thoughtworks.qdox does not exist
+import com.thoughtworks.qdox.JavaDocBuilder;
+                            ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDox.java:4: error: package com.thoughtworks.qdox.model does not exist
+import com.thoughtworks.qdox.model.JavaClass;
+                                  ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDox.java:19: error: cannot find symbol
+    private final JavaDocBuilder javaDocBuilder = new JavaDocBuilder();
+                  ^
+  symbol:   class JavaDocBuilder
+  location: class QDox
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDox.java:29: error: cannot find symbol
+    JavaClass getClassByName(String className) {
+    ^
+  symbol:   class JavaClass
+  location: class QDox
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:3: error: package com.thoughtworks.qdox.model does not exist
+import com.thoughtworks.qdox.model.DocletTag;
+                                  ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:4: error: package com.thoughtworks.qdox.model does not exist
+import com.thoughtworks.qdox.model.JavaClass;
+                                  ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:5: error: package com.thoughtworks.qdox.model does not exist
+import com.thoughtworks.qdox.model.JavaMethod;
+                                  ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:6: error: package com.thoughtworks.qdox.model does not exist
+import com.thoughtworks.qdox.model.JavaParameter;
+                                  ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:7: error: package com.thoughtworks.qdox.model does not exist
+import com.thoughtworks.qdox.model.Type;
+                                  ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:24: error: cannot find symbol
+    private final JavaClass classSource;
+                  ^
+  symbol:   class JavaClass
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:78: error: cannot find symbol
+    private JavaMethod findMethodInSource(FactoryMethod factoryMethod) {
+            ^
+  symbol:   class JavaMethod
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:99: error: cannot find symbol
+    private static String createJavaDocComment(JavaMethod methodSource) {
+                                               ^
+  symbol:   class JavaMethod
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDox.java:19: error: cannot find symbol
+    private final JavaDocBuilder javaDocBuilder = new JavaDocBuilder();
+                                                      ^
+  symbol:   class JavaDocBuilder
+  location: class QDox
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:56: error: cannot find symbol
+        JavaMethod methodSource = findMethodInSource(factoryMethod);
+        ^
+  symbol:   class JavaMethod
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:59: error: cannot find symbol
+            JavaParameter[] parametersFromSource
+            ^
+  symbol:   class JavaParameter
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:82: error: cannot find symbol
+        Type[] types = new Type[params.size()];
+        ^
+  symbol:   class Type
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:82: error: cannot find symbol
+        Type[] types = new Type[params.size()];
+                           ^
+  symbol:   class Type
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:90: error: cannot find symbol
+            types[i] = new Type(type);
+                           ^
+  symbol:   class Type
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:92: error: cannot find symbol
+        JavaMethod[] methods = classSource.getMethodsBySignature(factoryMethod.getName(), types, false, varArgs);
+        ^
+  symbol:   class JavaMethod
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:101: error: cannot find symbol
+        DocletTag[] tags = methodSource.getTags();
+        ^
+  symbol:   class DocletTag
+  location: class QDoxFactoryReader
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/generator/QDoxFactoryReader.java:108: error: cannot find symbol
+        for (DocletTag tag : tags) {
+             ^
+  symbol:   class DocletTag
+  location: class QDoxFactoryReader
+21 errors

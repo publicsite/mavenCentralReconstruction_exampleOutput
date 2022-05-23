@@ -1,0 +1,159 @@
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardXADataSource.java:16: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardXADataSource.java:17: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardConnectionPoolDataSource.java:94: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+			Enumeration enum = masterPrepStmtCache.elements();
+			            ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardConnectionPoolDataSource.java:95: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+			while (enum.hasMoreElements()) {
+			       ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardConnectionPoolDataSource.java:96: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+				((LRUCache) enum.nextElement()).resize(value);
+				            ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/util/LRUCache.java:153: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+        for (Enumeration enum = cache.keys();enum.hasMoreElements();) {
+                         ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/util/LRUCache.java:153: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+        for (Enumeration enum = cache.keys();enum.hasMoreElements();) {
+                                             ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/util/LRUCache.java:155: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+            Object o = remove(enum.nextElement());
+                              ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardDataSource.java:38: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardXADataSource.java:32: error: cannot find symbol
+    public transient TransactionManager transactionManager;
+                     ^
+  symbol:   class TransactionManager
+  location: class StandardXADataSource
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardXADataSource.java:71: error: cannot find symbol
+    public void setTransactionManager(final TransactionManager tm) {
+                                            ^
+  symbol:   class TransactionManager
+  location: class StandardXADataSource
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardXADataSource.java:76: error: cannot find symbol
+    public TransactionManager getTransactionManager() {
+           ^
+  symbol:   class TransactionManager
+  location: class StandardXADataSource
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAStatefulConnection.java:26: error: package javax.transaction does not exist
+import javax.transaction.Status;
+                        ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/util/Logger.java:24: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/util/Logger.java:29: error: cannot find symbol
+    private Log log;
+            ^
+  symbol:   class Log
+  location: class Logger
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/util/Logger.java:31: error: cannot find symbol
+    public Logger(Log log) {
+                  ^
+  symbol:   class Log
+  location: class Logger
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardDataSource.java:49: error: StandardDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class StandardDataSource extends CoreDataSource implements DataSource {
+       ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardDataSource.java:68: error: cannot find symbol
+                setLogger(new Logger(LogFactory.getLog("org.enhydra.jdbc.xapool")));
+                                     ^
+  symbol:   variable LogFactory
+  location: class StandardDataSource
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardDataSource.java:75: error: cannot find symbol
+                setLogger(new Logger(LogFactory.getLog("org.enhydra.jdbc.xapool")));
+                                     ^
+  symbol:   variable LogFactory
+  location: class StandardDataSource
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardConnectionPoolDataSource.java:34: error: StandardConnectionPoolDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class StandardConnectionPoolDataSource
+       ^
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardXADataSource.java:22: error: StandardXADataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class StandardXADataSource extends StandardConnectionPoolDataSource implements XADataSource
+       ^
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardXADataSource.java:46: error: cannot find symbol
+        (this.log = new Logger(LogFactory.getLog("org.enhydra.jdbc.xapool"))).debug("StandardXADataSource is created");
+                               ^
+  symbol:   variable LogFactory
+  location: class StandardXADataSource
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnection.java:34: error: package javax.transaction does not exist
+import javax.transaction.Status;
+                        ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnection.java:35: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnection.java:68: error: cannot find symbol
+	public TransactionManager transactionManager;
+	       ^
+  symbol:   class TransactionManager
+  location: class StandardXAConnection
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnectionHandle.java:29: error: package javax.transaction does not exist
+import javax.transaction.Transaction;
+                        ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnectionHandle.java:30: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnectionHandle.java:31: error: package javax.transaction does not exist
+import javax.transaction.RollbackException;
+                        ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnectionHandle.java:32: error: package javax.transaction does not exist
+import javax.transaction.SystemException;
+                        ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnection.java:161: error: cannot find symbol
+	public void setTransactionManager(TransactionManager tm) {
+	                                  ^
+  symbol:   class TransactionManager
+  location: class StandardXAConnection
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnectionHandle.java:38: error: cannot find symbol
+	public TransactionManager transactionManager;
+	       ^
+  symbol:   class TransactionManager
+  location: class StandardXAConnectionHandle
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnectionHandle.java:39: error: cannot find symbol
+	public Transaction tx;
+	       ^
+  symbol:   class Transaction
+  location: class StandardXAConnectionHandle
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnectionHandle.java:50: error: cannot find symbol
+		TransactionManager tm) {
+		^
+  symbol:   class TransactionManager
+  location: class StandardXAConnectionHandle
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnectionHandle.java:61: error: cannot find symbol
+	public void setTransactionManager(TransactionManager tm) {
+	                                  ^
+  symbol:   class TransactionManager
+  location: class StandardXAConnectionHandle
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnectionHandle.java:483: error: cannot find symbol
+	private Transaction getTransaction() throws SystemException {
+	        ^
+  symbol:   class Transaction
+  location: class StandardXAConnectionHandle
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAConnectionHandle.java:483: error: cannot find symbol
+	private Transaction getTransaction() throws SystemException {
+	                                            ^
+  symbol:   class SystemException
+  location: class StandardXAConnectionHandle
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardXADataSource.java:133: error: incompatible types: Object cannot be converted to StandardXAStatefulConnection
+            final StandardXAStatefulConnection xasc = enum1.nextElement();
+                                                                       ^
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardXADataSource.java:152: error: incompatible types: Object cannot be converted to StandardXAStatefulConnection
+                final StandardXAStatefulConnection cur = this.xidConnections.remove(key);
+                                                                                   ^
+sources/structure/com.experlog/xapool/1.5.0/Decompiled/org/enhydra/jdbc/standard/StandardXADataSource.java:160: error: incompatible types: Object cannot be converted to StandardXAStatefulConnection
+                final StandardXAStatefulConnection cur = connIterator.next();
+                                                                          ^
+sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardXAStatefulConnection.java:56: error: cannot find symbol
+		this.state = Status.STATUS_NO_TRANSACTION;
+		             ^
+  symbol:   variable Status
+  location: class StandardXAStatefulConnection
+Note: sources/structure/com.experlog/xapool/1.5.0/extractedSources/org/enhydra/jdbc/standard/StandardDataSource.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+40 errors

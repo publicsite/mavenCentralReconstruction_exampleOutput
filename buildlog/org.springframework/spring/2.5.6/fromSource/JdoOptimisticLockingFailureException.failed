@@ -1,0 +1,17 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jdo/JdoOptimisticLockingFailureException.java:19: error: package javax.jdo does not exist
+import javax.jdo.JDOHelper;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jdo/JdoOptimisticLockingFailureException.java:20: error: package javax.jdo does not exist
+import javax.jdo.JDOOptimisticVerificationException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jdo/JdoOptimisticLockingFailureException.java:34: error: cannot find symbol
+	public JdoOptimisticLockingFailureException(JDOOptimisticVerificationException ex) {
+	                                            ^
+  symbol:   class JDOOptimisticVerificationException
+  location: class JdoOptimisticLockingFailureException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/jdo/JdoOptimisticLockingFailureException.java:37: error: cannot find symbol
+				(ex.getFailedObject() != null ? JDOHelper.getObjectId(ex.getFailedObject()) : null),
+				                                ^
+  symbol:   variable JDOHelper
+  location: class JdoOptimisticLockingFailureException
+4 errors

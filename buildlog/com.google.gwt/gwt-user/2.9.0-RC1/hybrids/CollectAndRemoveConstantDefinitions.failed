@@ -1,0 +1,57 @@
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:20: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssDefinitionNode;
+                                                        ^
+  symbol:   class CssDefinitionNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:21: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssTree;
+                                                        ^
+  symbol:   class CssTree
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:22: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.MutatingVisitController;
+                                                        ^
+  symbol:   class MutatingVisitController
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:23: error: package com.google.gwt.thirdparty.common.css.compiler.passes does not exist
+import com.google.gwt.thirdparty.common.css.compiler.passes.CollectConstantDefinitions;
+                                                           ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:29: error: cannot find symbol
+public class CollectAndRemoveConstantDefinitions extends CollectConstantDefinitions
+                                                         ^
+  symbol: class CollectConstantDefinitions
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:32: error: cannot find symbol
+  private final MutatingVisitController visitController;
+                ^
+  symbol:   class MutatingVisitController
+  location: class CollectAndRemoveConstantDefinitions
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:34: error: cannot find symbol
+  public CollectAndRemoveConstantDefinitions(CssTree tree) {
+                                             ^
+  symbol:   class CssTree
+  location: class CollectAndRemoveConstantDefinitions
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:38: error: cannot find symbol
+  public CollectAndRemoveConstantDefinitions(MutatingVisitController visitController) {
+                                             ^
+  symbol:   class MutatingVisitController
+  location: class CollectAndRemoveConstantDefinitions
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:45: error: cannot find symbol
+  public boolean enterDefinition(CssDefinitionNode node) {
+                                 ^
+  symbol:   class CssDefinitionNode
+  location: class CollectAndRemoveConstantDefinitions
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:29: error: CollectAndRemoveConstantDefinitions is not abstract and does not override abstract method runPass() in CssCompilerPass
+public class CollectAndRemoveConstantDefinitions extends CollectConstantDefinitions
+       ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:44: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:46: error: cannot find symbol
+    super.enterDefinition(node);
+    ^
+  symbol:   variable super
+  location: class CollectAndRemoveConstantDefinitions
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/CollectAndRemoveConstantDefinitions.java:34: error: recursive constructor invocation
+  public CollectAndRemoveConstantDefinitions(CssTree tree) {
+         ^
+13 errors

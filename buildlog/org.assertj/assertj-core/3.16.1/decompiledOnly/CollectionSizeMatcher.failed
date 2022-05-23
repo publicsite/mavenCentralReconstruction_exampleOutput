@@ -1,0 +1,33 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionSizeMatcher.java:7: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionSizeMatcher.java:10: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionSizeMatcher.java:13: error: package ElementMatcher.Junction does not exist
+public class CollectionSizeMatcher<T extends Iterable<?>> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                         ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionSizeMatcher.java:12: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionSizeMatcher.java:21: error: cannot find symbol
+    @SuppressFBWarnings(value = { "DLS_DEAD_LOCAL_STORE" }, justification = "Iteration required to count size of an iterable")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class CollectionSizeMatcher<T>
+  where T is a type-variable:
+    T extends Iterable<?> declared in class CollectionSizeMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionSizeMatcher.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionSizeMatcher.java:38: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionSizeMatcher.java:40: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.size == ((CollectionSizeMatcher)o).size);
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionSizeMatcher.java:43: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+9 errors

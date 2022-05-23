@@ -1,0 +1,222 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:7: error: cannot find symbol
+import org.easymock.cglib.core.Constants;
+                              ^
+  symbol:   class Constants
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:9: error: cannot find symbol
+import org.easymock.asm.Label;
+                       ^
+  symbol:   class Label
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:10: error: cannot find symbol
+import org.easymock.cglib.core.CodeEmitter;
+                              ^
+  symbol:   class CodeEmitter
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:11: error: cannot find symbol
+import org.easymock.cglib.core.TypeUtils;
+                              ^
+  symbol:   class TypeUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:14: error: cannot find symbol
+import org.easymock.cglib.transform.ClassEmitterTransformer;
+                                   ^
+  symbol:   class ClassEmitterTransformer
+  location: package org.easymock.cglib.transform
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:16: error: cannot find symbol
+public class InterceptFieldTransformer extends ClassEmitterTransformer
+                                               ^
+  symbol: class ClassEmitterTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:118: error: cannot find symbol
+    public CodeEmitter begin_method(final int access, final Signature sig, final Type[] exceptions) {
+           ^
+  symbol:   class CodeEmitter
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:31: error: cannot find symbol
+        if (!TypeUtils.isInterface(access)) {
+             ^
+  symbol:   variable TypeUtils
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:32: error: cannot find symbol
+            super.begin_class(version, access, className, superType, TypeUtils.add(interfaces, InterceptFieldTransformer.ENABLED), sourceFile);
+            ^
+  symbol:   variable super
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:32: error: cannot find symbol
+            super.begin_class(version, access, className, superType, TypeUtils.add(interfaces, InterceptFieldTransformer.ENABLED), sourceFile);
+                                                                     ^
+  symbol:   variable TypeUtils
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:33: error: cannot find symbol
+            super.declare_field(130, "$CGLIB_READ_WRITE_CALLBACK", InterceptFieldTransformer.CALLBACK, null);
+            ^
+  symbol:   variable super
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:34: error: cannot find symbol
+            CodeEmitter e = super.begin_method(1, InterceptFieldTransformer.ENABLED_GET, null);
+            ^
+  symbol:   class CodeEmitter
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:34: error: cannot find symbol
+            CodeEmitter e = super.begin_method(1, InterceptFieldTransformer.ENABLED_GET, null);
+                            ^
+  symbol:   variable super
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:39: error: cannot find symbol
+            e = super.begin_method(1, InterceptFieldTransformer.ENABLED_SET, null);
+                ^
+  symbol:   variable super
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:47: error: cannot find symbol
+            super.begin_class(version, access, className, superType, interfaces, sourceFile);
+            ^
+  symbol:   variable super
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:51: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:53: error: cannot find symbol
+        super.declare_field(access, name, type, value);
+        ^
+  symbol:   variable super
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:54: error: cannot find symbol
+        if (!TypeUtils.isStatic(access)) {
+             ^
+  symbol:   variable TypeUtils
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:55: error: cannot find symbol
+            if (this.filter.acceptRead(this.getClassType(), name)) {
+                                           ^
+  symbol: method getClassType()
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:58: error: cannot find symbol
+            if (this.filter.acceptWrite(this.getClassType(), name)) {
+                                            ^
+  symbol: method getClassType()
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:65: error: cannot find symbol
+        final CodeEmitter e = super.begin_method(1, readMethodSig(name, type.getDescriptor()), null);
+              ^
+  symbol:   class CodeEmitter
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:65: error: cannot find symbol
+        final CodeEmitter e = super.begin_method(1, readMethodSig(name, type.getDescriptor()), null);
+                              ^
+  symbol:   variable super
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:70: error: cannot find symbol
+        final Label intercept = e.make_label();
+              ^
+  symbol:   class Label
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:82: error: cannot find symbol
+        if (!TypeUtils.isPrimitive(type)) {
+             ^
+  symbol:   variable TypeUtils
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:90: error: cannot find symbol
+        final CodeEmitter e = super.begin_method(1, writeMethodSig(name, type.getDescriptor()), null);
+              ^
+  symbol:   class CodeEmitter
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:90: error: cannot find symbol
+        final CodeEmitter e = super.begin_method(1, writeMethodSig(name, type.getDescriptor()), null);
+                              ^
+  symbol:   variable super
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:94: error: cannot find symbol
+        final Label skip = e.make_label();
+              ^
+  symbol:   class Label
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:104: error: cannot find symbol
+        if (!TypeUtils.isPrimitive(type)) {
+             ^
+  symbol:   variable TypeUtils
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:107: error: cannot find symbol
+        final Label go = e.make_label();
+              ^
+  symbol:   class Label
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:117: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:119: error: cannot find symbol
+        return new CodeEmitter(super.begin_method(access, sig, exceptions)) {
+                   ^
+  symbol:   class CodeEmitter
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:120: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:122: error: cannot find symbol
+                final Type towner = TypeUtils.fromInternalName(owner);
+                                    ^
+  symbol: variable TypeUtils
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:139: error: cannot find symbol
+                super.visitFieldInsn(opcode, owner, name, desc);
+                ^
+  symbol: variable super
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:143: error: cannot find symbol
+                this.invoke_virtual(owner, sig);
+                    ^
+  symbol: method invoke_virtual(Type,Signature)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:119: error: cannot find symbol
+        return new CodeEmitter(super.begin_method(access, sig, exceptions)) {
+                               ^
+  symbol:   variable super
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:158: error: cannot find symbol
+        return new Signature("read" + callbackName(remap), remap, new Type[] { Constants.TYPE_OBJECT, Constants.TYPE_STRING, remap });
+                                                                               ^
+  symbol:   variable Constants
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:158: error: cannot find symbol
+        return new Signature("read" + callbackName(remap), remap, new Type[] { Constants.TYPE_OBJECT, Constants.TYPE_STRING, remap });
+                                                                                                      ^
+  symbol:   variable Constants
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:163: error: cannot find symbol
+        return new Signature("write" + callbackName(remap), remap, new Type[] { Constants.TYPE_OBJECT, Constants.TYPE_STRING, remap, remap });
+                                                                                ^
+  symbol:   variable Constants
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:163: error: cannot find symbol
+        return new Signature("write" + callbackName(remap), remap, new Type[] { Constants.TYPE_OBJECT, Constants.TYPE_STRING, remap, remap });
+                                                                                                       ^
+  symbol:   variable Constants
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:170: error: cannot find symbol
+                return Constants.TYPE_OBJECT;
+                       ^
+  symbol:   variable Constants
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:179: error: cannot find symbol
+        return (type == Constants.TYPE_OBJECT) ? "Object" : TypeUtils.upperFirst(TypeUtils.getClassName(type));
+                        ^
+  symbol:   variable Constants
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:179: error: cannot find symbol
+        return (type == Constants.TYPE_OBJECT) ? "Object" : TypeUtils.upperFirst(TypeUtils.getClassName(type));
+                                                            ^
+  symbol:   variable TypeUtils
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:179: error: cannot find symbol
+        return (type == Constants.TYPE_OBJECT) ? "Object" : TypeUtils.upperFirst(TypeUtils.getClassName(type));
+                                                                                 ^
+  symbol:   variable TypeUtils
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:183: error: cannot find symbol
+        CALLBACK = TypeUtils.parseType("org.easymock.cglib.transform.impl.InterceptFieldCallback");
+                   ^
+  symbol:   variable TypeUtils
+  location: class InterceptFieldTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/InterceptFieldTransformer.java:184: error: cannot find symbol
+        ENABLED = TypeUtils.parseType("org.easymock.cglib.transform.impl.InterceptFieldEnabled");
+                  ^
+  symbol:   variable TypeUtils
+  location: class InterceptFieldTransformer
+47 errors

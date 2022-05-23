@@ -1,0 +1,99 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:7: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.ElementMatchers;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:8: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.ElementMatcher;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:14: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:15: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:26: error: cannot find symbol
+public class MultipleParentClassLoader extends InjectionClassLoader
+                                               ^
+  symbol: class InjectionClassLoader
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:121: error: package HashCodeAndEqualsPlugin does not exist
+    @HashCodeAndEqualsPlugin.Enhance
+                            ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:219: error: cannot find symbol
+        public Builder filter(final ElementMatcher<? super ClassLoader> matcher) {
+                                    ^
+  symbol:   class ElementMatcher
+  location: class Builder
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:112: error: cannot find symbol
+        @SuppressFBWarnings(value = { "UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR" }, justification = "Null reference is impossible due to element check")
+         ^
+  symbol:   class SuppressFBWarnings
+  location: class CompoundEnumeration
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:229: error: cannot find symbol
+        @SuppressFBWarnings(value = { "DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED" }, justification = "Privilege is explicit user responsibility")
+         ^
+  symbol:   class SuppressFBWarnings
+  location: class Builder
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:238: error: cannot find symbol
+        @SuppressFBWarnings(value = { "DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED" }, justification = "Privilege is explicit user responsibility")
+         ^
+  symbol:   class SuppressFBWarnings
+  location: class Builder
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:31: error: cannot find symbol
+        this(ClassLoadingStrategy.BOOTSTRAP_LOADER, parents);
+             ^
+  symbol:   variable ClassLoadingStrategy
+  location: class MultipleParentClassLoader
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:43: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:49: error: cannot find symbol
+                    this.resolveClass(type);
+                        ^
+  symbol: method resolveClass(Class<CAP#1>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:58: error: cannot find symbol
+        return super.loadClass(name, resolve);
+               ^
+  symbol:   variable super
+  location: class MultipleParentClassLoader
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:61: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:69: error: cannot find symbol
+        return super.getResource(name);
+               ^
+  symbol:   variable super
+  location: class MultipleParentClassLoader
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:72: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:78: error: cannot find symbol
+        enumerations.add(super.getResources(name));
+                         ^
+  symbol:   variable super
+  location: class MultipleParentClassLoader
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:82: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:86: error: cannot find symbol
+            types.put(entry.getKey(), this.defineClass(entry.getKey(), entry.getValue(), 0, entry.getValue().length));
+                                          ^
+  symbol: method defineClass(String,byte[],int,int)
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:231: error: incompatible types: bad type in conditional expression
+            return (this.classLoaders.size() == 1) ? ((ClassLoader)this.classLoaders.get(0)) : new MultipleParentClassLoader(this.classLoaders);
+                                                                                               ^
+    MultipleParentClassLoader cannot be converted to ClassLoader
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:235: error: cannot find symbol
+            return (this.classLoaders.isEmpty() || (this.classLoaders.size() == 1 && this.classLoaders.contains(parent))) ? parent : this.filter(ElementMatchers.not(ElementMatchers.is(parent))).doBuild(parent);
+                                                                                                                                                 ^
+  symbol:   variable ElementMatchers
+  location: class Builder
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:235: error: cannot find symbol
+            return (this.classLoaders.isEmpty() || (this.classLoaders.size() == 1 && this.classLoaders.contains(parent))) ? parent : this.filter(ElementMatchers.not(ElementMatchers.is(parent))).doBuild(parent);
+                                                                                                                                                                     ^
+  symbol:   variable ElementMatchers
+  location: class Builder
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/MultipleParentClassLoader.java:240: error: incompatible types: MultipleParentClassLoader cannot be converted to ClassLoader
+            return new MultipleParentClassLoader(parent, this.classLoaders, this.sealed);
+                   ^
+24 errors

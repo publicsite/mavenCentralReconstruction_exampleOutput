@@ -1,0 +1,46 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:9: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:13: error: cannot find symbol
+    AnnotationList getDeclaredAnnotations();
+    ^
+  symbol:   class AnnotationList
+  location: interface AnnotationSource
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:19: error: cannot find symbol
+        public AnnotationList getDeclaredAnnotations() {
+               ^
+  symbol:   class AnnotationList
+  location: class Empty
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:24: error: package HashCodeAndEqualsPlugin does not exist
+    @HashCodeAndEqualsPlugin.Enhance
+                            ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:27: error: cannot find symbol
+        private final List<? extends AnnotationDescription> annotations;
+                                     ^
+  symbol:   class AnnotationDescription
+  location: class Explicit
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:29: error: cannot find symbol
+        public Explicit(final AnnotationDescription... annotation) {
+                              ^
+  symbol:   class AnnotationDescription
+  location: class Explicit
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:33: error: cannot find symbol
+        public Explicit(final List<? extends AnnotationDescription> annotations) {
+                                             ^
+  symbol:   class AnnotationDescription
+  location: class Explicit
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:37: error: cannot find symbol
+        public AnnotationList getDeclaredAnnotations() {
+               ^
+  symbol:   class AnnotationList
+  location: class Explicit
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:20: error: package AnnotationList does not exist
+            return new AnnotationList.Empty();
+                                     ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:38: error: package AnnotationList does not exist
+            return new AnnotationList.Explicit(this.annotations);
+                                     ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationSource.java:29: error: recursive constructor invocation
+        public Explicit(final AnnotationDescription... annotation) {
+               ^
+11 errors

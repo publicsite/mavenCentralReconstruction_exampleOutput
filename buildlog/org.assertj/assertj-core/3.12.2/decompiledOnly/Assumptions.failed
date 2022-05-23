@@ -1,0 +1,259 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:7: error: package org.assertj.core.internal.bytebuddy.implementation.bind.annotation does not exist
+import org.assertj.core.internal.bytebuddy.implementation.bind.annotation.RuntimeType;
+                                                                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:8: error: package org.assertj.core.internal.bytebuddy.implementation.bind.annotation does not exist
+import org.assertj.core.internal.bytebuddy.implementation.bind.annotation.SuperCall;
+                                                                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:10: error: package org.assertj.core.internal.bytebuddy.implementation.bind.annotation does not exist
+import org.assertj.core.internal.bytebuddy.implementation.bind.annotation.This;
+                                                                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:11: error: package org.assertj.core.internal.bytebuddy.implementation does not exist
+import org.assertj.core.internal.bytebuddy.implementation.MethodDelegation;
+                                                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:12: error: package org.assertj.core.internal.bytebuddy.implementation.auxiliary does not exist
+import org.assertj.core.internal.bytebuddy.implementation.auxiliary.AuxiliaryType;
+                                                                   ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:15: error: package org.assertj.core.internal.bytebuddy.dynamic.loading does not exist
+import org.assertj.core.internal.bytebuddy.dynamic.loading.ClassLoadingStrategy;
+                                                          ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:16: error: package org.assertj.core.internal.bytebuddy.description.method does not exist
+import org.assertj.core.internal.bytebuddy.description.method.MethodDescription;
+                                                             ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:17: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.ElementMatcher;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:18: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.ElementMatchers;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:67: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.TypeCache;
+                                          ^
+  symbol:   class TypeCache
+  location: package org.assertj.core.internal.bytebuddy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:68: error: package org.assertj.core.internal.bytebuddy.implementation does not exist
+import org.assertj.core.internal.bytebuddy.implementation.Implementation;
+                                                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:69: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.ByteBuddy;
+                                          ^
+  symbol:   class ByteBuddy
+  location: package org.assertj.core.internal.bytebuddy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:75: error: cannot find symbol
+    private static ByteBuddy BYTE_BUDDY;
+                   ^
+  symbol:   class ByteBuddy
+  location: class Assumptions
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:76: error: cannot find symbol
+    private static final Implementation ASSUMPTION;
+                         ^
+  symbol:   class Implementation
+  location: class Assumptions
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:77: error: cannot find symbol
+    private static final TypeCache<TypeCache.SimpleKey> CACHE;
+                         ^
+  symbol:   class TypeCache
+  location: class Assumptions
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:77: error: package TypeCache does not exist
+    private static final TypeCache<TypeCache.SimpleKey> CACHE;
+                                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:525: error: cannot find symbol
+        public static Object intercept(@This final AbstractAssert<?, ?> assertion, @SuperCall final Callable<Object> proxy) throws Exception {
+                                        ^
+  symbol:   class This
+  location: class AssumptionMethodInterceptor
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:525: error: cannot find symbol
+        public static Object intercept(@This final AbstractAssert<?, ?> assertion, @SuperCall final Callable<Object> proxy) throws Exception {
+                                                                                    ^
+  symbol:   class SuperCall
+  location: class AssumptionMethodInterceptor
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:524: error: cannot find symbol
+        @RuntimeType
+         ^
+  symbol:   class RuntimeType
+  location: class AssumptionMethodInterceptor
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:80: error: incompatible types: Class<ProxyableObjectAssert> cannot be converted to Class<ProxyableObjectAssert<T>>
+        return asAssumption((Class<ProxyableObjectAssert<T>>)ProxyableObjectAssert.class, Object.class, actual);
+                                                                                  ^
+  where T is a type-variable:
+    T extends Object declared in method <T>assumeThat(T)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:224: error: incompatible types: Class<AtomicIntegerFieldUpdaterAssert> cannot be converted to Class<AtomicIntegerFieldUpdaterAssert<OBJECT>>
+        return asAssumption((Class<AtomicIntegerFieldUpdaterAssert<OBJECT>>)AtomicIntegerFieldUpdaterAssert.class, AtomicIntegerFieldUpdater.class, actual);
+                                                                                                           ^
+  where OBJECT is a type-variable:
+    OBJECT extends Object declared in method <OBJECT>assumeThat(AtomicIntegerFieldUpdater<OBJECT>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:236: error: incompatible types: Class<AtomicLongFieldUpdaterAssert> cannot be converted to Class<AtomicLongFieldUpdaterAssert<OBJECT>>
+        return asAssumption((Class<AtomicLongFieldUpdaterAssert<OBJECT>>)AtomicLongFieldUpdaterAssert.class, AtomicLongFieldUpdater.class, actual);
+                                                                                                     ^
+  where OBJECT is a type-variable:
+    OBJECT extends Object declared in method <OBJECT>assumeThat(AtomicLongFieldUpdater<OBJECT>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:240: error: incompatible types: Class<AtomicReferenceAssert> cannot be converted to Class<AtomicReferenceAssert<VALUE>>
+        return asAssumption((Class<AtomicReferenceAssert<VALUE>>)AtomicReferenceAssert.class, AtomicReference.class, actual);
+                                                                                      ^
+  where VALUE is a type-variable:
+    VALUE extends Object declared in method <VALUE>assumeThat(AtomicReference<VALUE>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:244: error: incompatible types: Class<AtomicReferenceArrayAssert> cannot be converted to Class<AtomicReferenceArrayAssert<ELEMENT>>
+        return asAssumption((Class<AtomicReferenceArrayAssert<ELEMENT>>)AtomicReferenceArrayAssert.class, AtomicReferenceArray.class, actual);
+                                                                                                  ^
+  where ELEMENT is a type-variable:
+    ELEMENT extends Object declared in method <ELEMENT>assumeThat(AtomicReferenceArray<ELEMENT>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:248: error: incompatible types: Class<AtomicReferenceFieldUpdaterAssert> cannot be converted to Class<AtomicReferenceFieldUpdaterAssert<FIELD,OBJECT>>
+        return asAssumption((Class<AtomicReferenceFieldUpdaterAssert<FIELD, OBJECT>>)AtomicReferenceFieldUpdaterAssert.class, AtomicReferenceFieldUpdater.class, actual);
+                                                                                                                      ^
+  where FIELD,OBJECT are type-variables:
+    FIELD extends Object declared in method <FIELD,OBJECT>assumeThat(AtomicReferenceFieldUpdater<OBJECT,FIELD>)
+    OBJECT extends Object declared in method <FIELD,OBJECT>assumeThat(AtomicReferenceFieldUpdater<OBJECT,FIELD>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:252: error: incompatible types: Class<AtomicMarkableReferenceAssert> cannot be converted to Class<AtomicMarkableReferenceAssert<VALUE>>
+        return asAssumption((Class<AtomicMarkableReferenceAssert<VALUE>>)AtomicMarkableReferenceAssert.class, AtomicMarkableReference.class, actual);
+                                                                                                      ^
+  where VALUE is a type-variable:
+    VALUE extends Object declared in method <VALUE>assumeThat(AtomicMarkableReference<VALUE>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:256: error: incompatible types: Class<AtomicStampedReferenceAssert> cannot be converted to Class<AtomicStampedReferenceAssert<VALUE>>
+        return asAssumption((Class<AtomicStampedReferenceAssert<VALUE>>)AtomicStampedReferenceAssert.class, AtomicStampedReference.class, actual);
+                                                                                                    ^
+  where VALUE is a type-variable:
+    VALUE extends Object declared in method <VALUE>assumeThat(AtomicStampedReference<VALUE>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:280: error: incompatible types: Class<FutureAssert> cannot be converted to Class<AbstractFutureAssert<?,? extends Future<? extends RESULT>,RESULT>>
+        return asAssumption((Class<AbstractFutureAssert<?, ? extends Future<? extends RESULT>, RESULT>>)FutureAssert.class, Future.class, future);
+                                                                                                                    ^
+  where RESULT is a type-variable:
+    RESULT extends Object declared in method <RESULT>assumeThat(Future<RESULT>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:284: error: incompatible types: Class<ProxyableIterableAssert> cannot be converted to Class<ProxyableIterableAssert<ELEMENT>>
+        return asAssumption((Class<ProxyableIterableAssert<ELEMENT>>)ProxyableIterableAssert.class, Iterable.class, actual);
+                                                                                            ^
+  where ELEMENT is a type-variable:
+    ELEMENT extends Object declared in method <ELEMENT>assumeThat(Iterable<? extends ELEMENT>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:288: error: incompatible types: Class<IteratorAssert> cannot be converted to Class<IteratorAssert<ELEMENT>>
+        return asAssumption((Class<IteratorAssert<ELEMENT>>)IteratorAssert.class, Iterator.class, actual);
+                                                                          ^
+  where ELEMENT is a type-variable:
+    ELEMENT extends Object declared in method <ELEMENT>assumeThat(Iterator<? extends ELEMENT>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:292: error: incompatible types: Class<ProxyableListAssert> cannot be converted to Class<FactoryBasedNavigableListAssert<ProxyableListAssert<ELEMENT>,List<? extends ELEMENT>,ELEMENT,ObjectAssert<ELEMENT>>>
+        return asAssumption((Class<FactoryBasedNavigableListAssert<ProxyableListAssert<ELEMENT>, List<? extends ELEMENT>, ELEMENT, ObjectAssert<ELEMENT>>>)ProxyableListAssert.class, List.class, actual);
+                                                                                                                                                                              ^
+  where ELEMENT is a type-variable:
+    ELEMENT extends Object declared in method <ELEMENT>assumeThat(List<? extends ELEMENT>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:296: error: incompatible types: Class<ProxyableObjectArrayAssert> cannot be converted to Class<ProxyableObjectArrayAssert<T>>
+        return asAssumption((Class<ProxyableObjectArrayAssert<T>>)ProxyableObjectArrayAssert.class, Object[].class, actual);
+                                                                                            ^
+  where T is a type-variable:
+    T extends Object declared in method <T>assumeThat(T[])
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:300: error: incompatible types: Class<ProxyableMapAssert> cannot be converted to Class<AbstractMapAssert<?,?,K,V>>
+        return asAssumption((Class<AbstractMapAssert<?, ?, K, V>>)ProxyableMapAssert.class, Map.class, actual);
+                                                                                    ^
+  where K,V are type-variables:
+    K extends Object declared in method <K,V>assumeThat(Map<K,V>)
+    V extends Object declared in method <K,V>assumeThat(Map<K,V>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:304: error: incompatible types: Class<GenericComparableAssert> cannot be converted to Class<AbstractComparableAssert<?,T>>
+        return asAssumption((Class<AbstractComparableAssert<?, T>>)GenericComparableAssert.class, Comparable.class, actual);
+                                                                                          ^
+  where T is a type-variable:
+    T extends Comparable<? super T> declared in method <T>assumeThat(T)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:324: error: incompatible types: Class<ProxyablePredicateAssert> cannot be converted to Class<ProxyablePredicateAssert<T>>
+        return asAssumption((Class<ProxyablePredicateAssert<T>>)ProxyablePredicateAssert.class, Predicate.class, actual);
+                                                                                        ^
+  where T is a type-variable:
+    T extends Object declared in method <T>assumeThat(Predicate<T>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:340: error: incompatible types: Class<CompletableFutureAssert> cannot be converted to Class<CompletableFutureAssert<RESULT>>
+        return asAssumption((Class<CompletableFutureAssert<RESULT>>)CompletableFutureAssert.class, CompletableFuture.class, actual);
+                                                                                           ^
+  where RESULT is a type-variable:
+    RESULT extends Object declared in method <RESULT>assumeThat(CompletableFuture<RESULT>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:344: error: incompatible types: Class<CompletableFutureAssert> cannot be converted to Class<CompletableFutureAssert<RESULT>>
+        return asAssumption((Class<CompletableFutureAssert<RESULT>>)CompletableFutureAssert.class, CompletionStage.class, actual);
+                                                                                           ^
+  where RESULT is a type-variable:
+    RESULT extends Object declared in method <RESULT>assumeThat(CompletionStage<RESULT>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:348: error: incompatible types: Class<OptionalAssert> cannot be converted to Class<OptionalAssert<VALUE>>
+        return asAssumption((Class<OptionalAssert<VALUE>>)OptionalAssert.class, Optional.class, actual);
+                                                                        ^
+  where VALUE is a type-variable:
+    VALUE extends Object declared in method <VALUE>assumeThat(Optional<VALUE>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:392: error: incompatible types: Class<ProxyableListAssert> cannot be converted to Class<AbstractListAssert<?,List<? extends ELEMENT>,ELEMENT,ObjectAssert<ELEMENT>>>
+        return asAssumption((Class<AbstractListAssert<?, List<? extends ELEMENT>, ELEMENT, ObjectAssert<ELEMENT>>>)ProxyableListAssert.class, Stream.class, actual);
+                                                                                                                                      ^
+  where ELEMENT is a type-variable:
+    ELEMENT extends Object declared in method <ELEMENT>assumeThat(Stream<? extends ELEMENT>)
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:396: error: incompatible types: Class<ProxyableListAssert> cannot be converted to Class<AbstractListAssert<?,List<? extends Double>,Double,ObjectAssert<Double>>>
+        return asAssumption((Class<AbstractListAssert<?, List<? extends Double>, Double, ObjectAssert<Double>>>)ProxyableListAssert.class, DoubleStream.class, actual);
+                                                                                                                                   ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:400: error: incompatible types: Class<ProxyableListAssert> cannot be converted to Class<AbstractListAssert<?,List<? extends Long>,Long,ObjectAssert<Long>>>
+        return asAssumption((Class<AbstractListAssert<?, List<? extends Long>, Long, ObjectAssert<Long>>>)ProxyableListAssert.class, LongStream.class, actual);
+                                                                                                                             ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:404: error: incompatible types: Class<ProxyableListAssert> cannot be converted to Class<AbstractListAssert<?,List<? extends Integer>,Integer,ObjectAssert<Integer>>>
+        return asAssumption((Class<AbstractListAssert<?, List<? extends Integer>, Integer, ObjectAssert<Integer>>>)ProxyableListAssert.class, IntStream.class, actual);
+                                                                                                                                      ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:425: error: package TypeCache does not exist
+        final TypeCache.SimpleKey cacheKey = new TypeCache.SimpleKey(assertClass, (Class<?>[])new Class[0]);
+                       ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:425: error: package TypeCache does not exist
+        final TypeCache.SimpleKey cacheKey = new TypeCache.SimpleKey(assertClass, (Class<?>[])new Class[0]);
+                                                          ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:430: error: cannot find symbol
+        return (Class<? extends ASSERTION>)Assumptions.BYTE_BUDDY.subclass(assertionType).method(ElementMatchers.any()).intercept(Assumptions.ASSUMPTION).make().load(Assumptions.class.getClassLoader(), ClassLoadingStrategyFactory.classLoadingStrategy(assertionType)).getLoaded();
+                                                                                                 ^
+  symbol:   variable ElementMatchers
+  location: class Assumptions
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:468: error: incompatible types: Class<ProxyableListAssert> cannot be converted to Class<AbstractAssert<?,?>>
+            return asAssumption((Class<AbstractAssert<?, ?>>)ProxyableListAssert.class, List.class, actual);
+                                                                                ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:471: error: incompatible types: Class<ProxyableIterableAssert> cannot be converted to Class<AbstractAssert<?,?>>
+            return asAssumption((Class<AbstractAssert<?, ?>>)ProxyableIterableAssert.class, Iterable.class, actual);
+                                                                                    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:474: error: incompatible types: Class<ProxyableMapAssert> cannot be converted to Class<AbstractAssert<?,?>>
+            return asAssumption((Class<AbstractAssert<?, ?>>)ProxyableMapAssert.class, Map.class, actual);
+                                                                               ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:477: error: incompatible types: Class<ProxyableObjectArrayAssert> cannot be converted to Class<AbstractAssert<?,?>>
+            return asAssumption((Class<AbstractAssert<?, ?>>)ProxyableObjectArrayAssert.class, Object[].class, actual);
+                                                                                       ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:486: error: incompatible types: Class<ObjectAssert> cannot be converted to Class<AbstractAssert<?,?>>
+            return asAssumption((Class<AbstractAssert<?, ?>>)ObjectAssert.class, Object.class, actual);
+                                                                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:489: error: incompatible types: Class<ObjectAssert> cannot be converted to Class<AbstractAssert<?,?>>
+            return asAssumption((Class<AbstractAssert<?, ?>>)ObjectAssert.class, Object.class, actual);
+                                                                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:501: error: incompatible types: Class<RecursiveComparisonAssert> cannot be converted to Class<AbstractAssert<?,?>>
+        return asAssumption((Class<AbstractAssert<?, ?>>)RecursiveComparisonAssert.class, constructorTypes, assertion.actual, recursiveComparisonConfiguration);
+                                                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:507: error: incompatible types: Class<MapSizeAssert> cannot be converted to Class<AbstractAssert<?,?>>
+        return asAssumption((Class<AbstractAssert<?, ?>>)MapSizeAssert.class, constructorTypes, mapSizeAssert.returnToMap(), assertion.actual);
+                                                                      ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:513: error: incompatible types: Class<IterableSizeAssert> cannot be converted to Class<AbstractAssert<?,?>>
+        return asAssumption((Class<AbstractAssert<?, ?>>)IterableSizeAssert.class, constructorTypes, iterableSizeAssert.returnToIterable(), assertion.actual);
+                                                                           ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:517: error: package AuxiliaryType.NamingStrategy does not exist
+        Assumptions.BYTE_BUDDY = new ByteBuddy().with(TypeValidation.DISABLED).with(new AuxiliaryType.NamingStrategy.SuffixingRandom("Assertj$Assumptions"));
+                                                                                                                    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:517: error: cannot find symbol
+        Assumptions.BYTE_BUDDY = new ByteBuddy().with(TypeValidation.DISABLED).with(new AuxiliaryType.NamingStrategy.SuffixingRandom("Assertj$Assumptions"));
+                                     ^
+  symbol:   class ByteBuddy
+  location: class Assumptions
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:518: error: cannot find symbol
+        ASSUMPTION = MethodDelegation.to(AssumptionMethodInterceptor.class);
+                     ^
+  symbol:   variable MethodDelegation
+  location: class Assumptions
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:519: error: package TypeCache does not exist
+        CACHE = new TypeCache.WithInlineExpunction<TypeCache.SimpleKey>(TypeCache.Sort.SOFT);
+                             ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:519: error: package TypeCache does not exist
+        CACHE = new TypeCache.WithInlineExpunction<TypeCache.SimpleKey>(TypeCache.Sort.SOFT);
+                                                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java:519: error: package TypeCache does not exist
+        CACHE = new TypeCache.WithInlineExpunction<TypeCache.SimpleKey>(TypeCache.Sort.SOFT);
+                                                                                 ^
+sources/structure/org.assertj/assertj-core/3.12.2/extractedSources/org/assertj/core/api/ClassLoadingStrategyFactory.java:37: error: package ClassInjector does not exist
+    if (ClassInjector.UsingReflection.isAvailable()) {
+                     ^
+sources/structure/org.assertj/assertj-core/3.12.2/extractedSources/org/assertj/core/api/ClassLoadingStrategyFactory.java:38: error: package ClassLoadingStrategy does not exist
+      return ClassLoadingStrategy.Default.INJECTION;
+                                 ^
+sources/structure/org.assertj/assertj-core/3.12.2/extractedSources/org/assertj/core/api/ClassLoadingStrategyFactory.java:39: error: package ClassInjector does not exist
+    } else if (ClassInjector.UsingLookup.isAvailable()) {
+                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/extractedSources/org/assertj/core/api/ClassLoadingStrategyFactory.java:41: error: package ClassLoadingStrategy does not exist
+        return ClassLoadingStrategy.UsingLookup.of(PRIVATE_LOOKUP_IN.invoke(null, assertClass, LOOKUP));
+                                   ^
+Note: sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/Assumptions.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+64 errors

@@ -1,0 +1,60 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:7: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:10: error: cannot find symbol
+public class StandardPropertiesModuleFactory extends PropertiesModuleFactory
+                                                     ^
+  symbol: class PropertiesModuleFactory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:15: error: cannot find symbol
+    public ExtensionModule newModule(final Properties properties, final ClassLoader classLoader) {
+           ^
+  symbol:   class ExtensionModule
+  location: class StandardPropertiesModuleFactory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:14: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:19: error: cannot find symbol
+                final Class<? extends PropertiesModuleFactory> factoryClass = (Class<? extends PropertiesModuleFactory>)classLoader.loadClass(factoryName);
+                                      ^
+  symbol:   class PropertiesModuleFactory
+  location: class StandardPropertiesModuleFactory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:19: error: cannot find symbol
+                final Class<? extends PropertiesModuleFactory> factoryClass = (Class<? extends PropertiesModuleFactory>)classLoader.loadClass(factoryName);
+                                                                                               ^
+  symbol:   class PropertiesModuleFactory
+  location: class StandardPropertiesModuleFactory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:20: error: cannot find symbol
+                final PropertiesModuleFactory delegate = (PropertiesModuleFactory)factoryClass.newInstance();
+                      ^
+  symbol:   class PropertiesModuleFactory
+  location: class StandardPropertiesModuleFactory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:20: error: cannot find symbol
+                final PropertiesModuleFactory delegate = (PropertiesModuleFactory)factoryClass.newInstance();
+                                                          ^
+  symbol:   class PropertiesModuleFactory
+  location: class StandardPropertiesModuleFactory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:24: error: cannot find symbol
+                throw new GroovyRuntimeException("Unable to load module factory [" + factoryName + "]", e);
+                          ^
+  symbol:   class GroovyRuntimeException
+  location: class StandardPropertiesModuleFactory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:27: error: cannot find symbol
+                throw new GroovyRuntimeException("Unable to instantiate module factory [" + factoryName + "]", e2);
+                          ^
+  symbol:   class GroovyRuntimeException
+  location: class StandardPropertiesModuleFactory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:30: error: cannot find symbol
+                throw new GroovyRuntimeException("Unable to instantiate module factory [" + factoryName + "]", e3);
+                          ^
+  symbol:   class GroovyRuntimeException
+  location: class StandardPropertiesModuleFactory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java:33: error: cannot find symbol
+        return MetaInfExtensionModule.newModule(properties, classLoader);
+               ^
+  symbol:   variable MetaInfExtensionModule
+  location: class StandardPropertiesModuleFactory
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/StandardPropertiesModuleFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+12 errors

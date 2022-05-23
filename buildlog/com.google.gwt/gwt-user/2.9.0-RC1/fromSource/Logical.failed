@@ -1,0 +1,520 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:35: error: package exists in another module: java.base
+package java.math;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:51: error: cannot find symbol
+    if (that.sign == 0 || val.sign == 0) {
+            ^
+  symbol:   variable sign
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:51: error: cannot find symbol
+    if (that.sign == 0 || val.sign == 0) {
+                             ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:54: error: cannot find symbol
+    if (that.equals(BigInteger.MINUS_ONE)) {
+                              ^
+  symbol:   variable MINUS_ONE
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:57: error: cannot find symbol
+    if (val.equals(BigInteger.MINUS_ONE)) {
+                             ^
+  symbol:   variable MINUS_ONE
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:61: error: cannot find symbol
+    if (val.sign > 0) {
+           ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:62: error: cannot find symbol
+      if (that.sign > 0) {
+              ^
+  symbol:   variable sign
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:68: error: cannot find symbol
+      if (that.sign > 0) {
+              ^
+  symbol:   variable sign
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:70: error: cannot find symbol
+      } else if (val.numberLength > that.numberLength) {
+                    ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:70: error: cannot find symbol
+      } else if (val.numberLength > that.numberLength) {
+                                        ^
+  symbol:   variable numberLength
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:86: error: cannot find symbol
+    int iPos = positive.getFirstNonzeroDigit();
+                       ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:87: error: cannot find symbol
+    int iNeg = negative.getFirstNonzeroDigit();
+                       ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:91: error: cannot find symbol
+    if (iNeg >= positive.numberLength) {
+                        ^
+  symbol:   variable numberLength
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:94: error: cannot find symbol
+    int resLength = positive.numberLength;
+                            ^
+  symbol:   variable numberLength
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:100: error: cannot find symbol
+      resDigits[i] = -negative.digits[i] & positive.digits[i];
+                              ^
+  symbol:   variable digits
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:100: error: cannot find symbol
+      resDigits[i] = -negative.digits[i] & positive.digits[i];
+                                                   ^
+  symbol:   variable digits
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:103: error: cannot find symbol
+    int limit = Math.min(negative.numberLength, positive.numberLength);
+                                 ^
+  symbol:   variable numberLength
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:103: error: cannot find symbol
+    int limit = Math.min(negative.numberLength, positive.numberLength);
+                                                        ^
+  symbol:   variable numberLength
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:105: error: cannot find symbol
+      resDigits[i] = ~negative.digits[i] & positive.digits[i];
+                              ^
+  symbol:   variable digits
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:105: error: cannot find symbol
+      resDigits[i] = ~negative.digits[i] & positive.digits[i];
+                                                   ^
+  symbol:   variable digits
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:109: error: cannot find symbol
+    if (i >= negative.numberLength) {
+                     ^
+  symbol:   variable numberLength
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:110: error: cannot find symbol
+      for (; i < positive.numberLength; i++) {
+                         ^
+  symbol:   variable numberLength
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:111: error: cannot find symbol
+        resDigits[i] = positive.digits[i];
+                               ^
+  symbol:   variable digits
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:115: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger result = new BigInteger(1, resLength, resDigits);
+                        ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:116: error: cannot find symbol
+    result.cutOffLeadingZeroes();
+          ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:129: error: cannot find symbol
+    int iLonger = longer.getFirstNonzeroDigit();
+                        ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:130: error: cannot find symbol
+    int iShorter = shorter.getFirstNonzeroDigit();
+                          ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable shorter of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:133: error: cannot find symbol
+    if (iLonger >= shorter.numberLength) {
+                          ^
+  symbol:   variable numberLength
+  location: variable shorter of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:142: error: cannot find symbol
+      digit = -shorter.digits[i] & ~longer.digits[i];
+                      ^
+  symbol:   variable digits
+  location: variable shorter of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:142: error: cannot find symbol
+      digit = -shorter.digits[i] & ~longer.digits[i];
+                                          ^
+  symbol:   variable digits
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:144: error: cannot find symbol
+      digit = ~shorter.digits[i] & -longer.digits[i];
+                      ^
+  symbol:   variable digits
+  location: variable shorter of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:144: error: cannot find symbol
+      digit = ~shorter.digits[i] & -longer.digits[i];
+                                          ^
+  symbol:   variable digits
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:146: error: cannot find symbol
+      digit = -shorter.digits[i] & -longer.digits[i];
+                      ^
+  symbol:   variable digits
+  location: variable shorter of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:146: error: cannot find symbol
+      digit = -shorter.digits[i] & -longer.digits[i];
+                                          ^
+  symbol:   variable digits
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:149: error: cannot find symbol
+      for (i++; i < shorter.numberLength
+                           ^
+  symbol:   variable numberLength
+  location: variable shorter of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:150: error: cannot find symbol
+          && (digit = ~(longer.digits[i] | shorter.digits[i])) == 0; i++) {
+                              ^
+  symbol:   variable digits
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:150: error: cannot find symbol
+          && (digit = ~(longer.digits[i] | shorter.digits[i])) == 0; i++) {
+                                                  ^
+  symbol:   variable digits
+  location: variable shorter of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:156: error: cannot find symbol
+        for (; i < longer.numberLength && (digit = ~longer.digits[i]) == 0; i++) {
+                         ^
+  symbol:   variable numberLength
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:156: error: cannot find symbol
+        for (; i < longer.numberLength && (digit = ~longer.digits[i]) == 0; i++) {
+                                                          ^
+  symbol:   variable digits
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:160: error: cannot find symbol
+          resLength = longer.numberLength + 1;
+                            ^
+  symbol:   variable numberLength
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:164: error: no suitable constructor found for BigInteger(int,int,int[])
+          BigInteger result = new BigInteger(-1, resLength, resDigits);
+                              ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:169: error: cannot find symbol
+    resLength = longer.numberLength;
+                      ^
+  symbol:   variable numberLength
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:172: error: cannot find symbol
+    for (i++; i < shorter.numberLength; i++) {
+                         ^
+  symbol:   variable numberLength
+  location: variable shorter of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:174: error: cannot find symbol
+      resDigits[i] = longer.digits[i] | shorter.digits[i];
+                           ^
+  symbol:   variable digits
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:174: error: cannot find symbol
+      resDigits[i] = longer.digits[i] | shorter.digits[i];
+                                               ^
+  symbol:   variable digits
+  location: variable shorter of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:177: error: cannot find symbol
+    for (; i < longer.numberLength; i++) {
+                     ^
+  symbol:   variable numberLength
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:178: error: cannot find symbol
+      resDigits[i] = longer.digits[i];
+                           ^
+  symbol:   variable digits
+  location: variable longer of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:181: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger result = new BigInteger(-1, resLength, resDigits);
+                        ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:192: error: cannot find symbol
+    if (that.sign == 0) {
+            ^
+  symbol:   variable sign
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:195: error: cannot find symbol
+    if (val.sign == 0) {
+           ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:198: error: cannot find symbol
+    if (val.equals(BigInteger.MINUS_ONE)) {
+                             ^
+  symbol:   variable MINUS_ONE
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:201: error: cannot find symbol
+    if (that.equals(BigInteger.MINUS_ONE)) {
+                              ^
+  symbol:   variable MINUS_ONE
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:207: error: cannot find symbol
+    if (val.sign > 0) {
+           ^
+  symbol:   variable sign
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:208: error: cannot find symbol
+      if (that.sign > 0) {
+              ^
+  symbol:   variable sign
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:214: error: cannot find symbol
+      if (that.sign > 0) {
+              ^
+  symbol:   variable sign
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:230: error: cannot find symbol
+    int iVal = val.getFirstNonzeroDigit();
+                  ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:231: error: cannot find symbol
+    int iThat = that.getFirstNonzeroDigit();
+                    ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:233: error: cannot find symbol
+    if (iVal >= that.numberLength) {
+                    ^
+  symbol:   variable numberLength
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:237: error: cannot find symbol
+    int resLength = that.numberLength;
+                        ^
+  symbol:   variable numberLength
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:243: error: cannot find symbol
+      resDigits[i] = -val.digits[i];
+                         ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:244: error: cannot find symbol
+      limit = Math.min(val.numberLength, iThat);
+                          ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:247: error: cannot find symbol
+        resDigits[i] = ~val.digits[i];
+                           ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:249: error: cannot find symbol
+      if (i == val.numberLength) {
+                  ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:255: error: cannot find symbol
+        resDigits[i] = that.digits[i] - 1;
+                           ^
+  symbol:   variable digits
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:258: error: cannot find symbol
+        resDigits[i] = ~val.digits[i] & (that.digits[i] - 1);
+                           ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:258: error: cannot find symbol
+        resDigits[i] = ~val.digits[i] & (that.digits[i] - 1);
+                                             ^
+  symbol:   variable digits
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:262: error: cannot find symbol
+      resDigits[i] = -val.digits[i] & that.digits[i];
+                         ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:262: error: cannot find symbol
+      resDigits[i] = -val.digits[i] & that.digits[i];
+                                          ^
+  symbol:   variable digits
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:265: error: cannot find symbol
+      resDigits[i] = -val.digits[i] & (that.digits[i] - 1);
+                         ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:265: error: cannot find symbol
+      resDigits[i] = -val.digits[i] & (that.digits[i] - 1);
+                                           ^
+  symbol:   variable digits
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:268: error: cannot find symbol
+    limit = Math.min(val.numberLength, that.numberLength);
+                        ^
+  symbol:   variable numberLength
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:268: error: cannot find symbol
+    limit = Math.min(val.numberLength, that.numberLength);
+                                           ^
+  symbol:   variable numberLength
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:271: error: cannot find symbol
+      resDigits[i] = ~val.digits[i] & that.digits[i];
+                         ^
+  symbol:   variable digits
+  location: variable val of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:271: error: cannot find symbol
+      resDigits[i] = ~val.digits[i] & that.digits[i];
+                                          ^
+  symbol:   variable digits
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:273: error: cannot find symbol
+    for (; i < that.numberLength; i++) {
+                   ^
+  symbol:   variable numberLength
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:275: error: cannot find symbol
+      resDigits[i] = that.digits[i];
+                         ^
+  symbol:   variable digits
+  location: variable that of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:278: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger result = new BigInteger(1, resLength, resDigits);
+                        ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:279: error: cannot find symbol
+    result.cutOffLeadingZeroes();
+          ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable result of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:297: error: cannot find symbol
+    int iNeg = negative.getFirstNonzeroDigit();
+                       ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:298: error: cannot find symbol
+    int iPos = positive.getFirstNonzeroDigit();
+                       ^
+  symbol:   method getFirstNonzeroDigit()
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:300: error: cannot find symbol
+    if (iNeg >= positive.numberLength) {
+                        ^
+  symbol:   variable numberLength
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:304: error: cannot find symbol
+    resLength = Math.max(negative.numberLength, positive.numberLength);
+                                 ^
+  symbol:   variable numberLength
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:304: error: cannot find symbol
+    resLength = Math.max(negative.numberLength, positive.numberLength);
+                                                        ^
+  symbol:   variable numberLength
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:308: error: cannot find symbol
+      limit = Math.min(negative.numberLength, iPos);
+                               ^
+  symbol:   variable numberLength
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:312: error: cannot find symbol
+        resDigits[i] = negative.digits[i];
+                               ^
+  symbol:   variable digits
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:314: error: cannot find symbol
+      if (i == negative.numberLength) {
+                       ^
+  symbol:   variable numberLength
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:315: error: cannot find symbol
+        for (i = iPos; i < positive.numberLength; i++) {
+                                   ^
+  symbol:   variable numberLength
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:317: error: cannot find symbol
+          resDigits[i] = positive.digits[i];
+                                 ^
+  symbol:   variable digits
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:321: error: cannot find symbol
+      digit = -negative.digits[i] & ~positive.digits[i];
+                       ^
+  symbol:   variable digits
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:321: error: cannot find symbol
+      digit = -negative.digits[i] & ~positive.digits[i];
+                                             ^
+  symbol:   variable digits
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:323: error: cannot find symbol
+        limit = Math.min(positive.numberLength, negative.numberLength);
+                                 ^
+  symbol:   variable numberLength
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:323: error: cannot find symbol
+        limit = Math.min(positive.numberLength, negative.numberLength);
+                                                        ^
+  symbol:   variable numberLength
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:325: error: cannot find symbol
+            && (digit = ~(negative.digits[i] | positive.digits[i])) == 0; i++) {
+                                  ^
+  symbol:   variable digits
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:325: error: cannot find symbol
+            && (digit = ~(negative.digits[i] | positive.digits[i])) == 0; i++) {
+                                                       ^
+  symbol:   variable digits
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:331: error: cannot find symbol
+          for (; i < positive.numberLength
+                             ^
+  symbol:   variable numberLength
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:332: error: cannot find symbol
+              && (digit = ~positive.digits[i]) == 0; i++) {
+                                   ^
+  symbol:   variable digits
+  location: variable positive of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:335: error: cannot find symbol
+          for (; i < negative.numberLength
+                             ^
+  symbol:   variable numberLength
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:336: error: cannot find symbol
+              && (digit = ~negative.digits[i]) == 0; i++) {
+                                   ^
+  symbol:   variable digits
+  location: variable negative of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:345: error: no suitable constructor found for BigInteger(int,int,int[])
+            BigInteger result = new BigInteger(-1, resLength, resDigits);
+                                ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Logical.java:355: error: cannot find symbol
+    limit = Math.min(positive.numberLength, negative.numberLength);
+                             ^
+  symbol:   variable numberLength
+  location: variable positive of type BigInteger
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors

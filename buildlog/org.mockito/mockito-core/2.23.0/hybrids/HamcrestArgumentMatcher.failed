@@ -1,0 +1,28 @@
+hybrids/org.mockito/mockito-core/2.23.0/HamcrestArgumentMatcher.java:7: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+hybrids/org.mockito/mockito-core/2.23.0/HamcrestArgumentMatcher.java:8: error: package org.hamcrest does not exist
+import org.hamcrest.StringDescription;
+                   ^
+hybrids/org.mockito/mockito-core/2.23.0/HamcrestArgumentMatcher.java:14: error: cannot find symbol
+    private final Matcher matcher;
+                  ^
+  symbol:   class Matcher
+  location: class HamcrestArgumentMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestArgumentMatcher
+hybrids/org.mockito/mockito-core/2.23.0/HamcrestArgumentMatcher.java:16: error: cannot find symbol
+    public HamcrestArgumentMatcher(Matcher<T> matcher) {
+                                   ^
+  symbol:   class Matcher
+  location: class HamcrestArgumentMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestArgumentMatcher
+hybrids/org.mockito/mockito-core/2.23.0/HamcrestArgumentMatcher.java:30: error: cannot find symbol
+        return StringDescription.toString(matcher);
+               ^
+  symbol:   variable StringDescription
+  location: class HamcrestArgumentMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestArgumentMatcher
+5 errors

@@ -1,0 +1,12 @@
+sources/structure/org.objenesis/objenesis/2.6/extractedSources/org/objenesis/instantiator/util/ClassDefinitionUtils.java:29: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+sources/structure/org.objenesis/objenesis/2.6/extractedSources/org/objenesis/instantiator/util/ClassDefinitionUtils.java:100: error: cannot find symbol
+      Class<T> c = (Class<T>) UnsafeUtils.getUnsafe().defineClass(className, b, 0, b.length, loader, PROTECTION_DOMAIN);
+                                                     ^
+  symbol:   method defineClass(String,byte[],int,int,ClassLoader,ProtectionDomain)
+  location: class Unsafe
+Note: sources/structure/org.objenesis/objenesis/2.6/extractedSources/org/objenesis/instantiator/sun/MagicInstantiator.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 error
+1 warning

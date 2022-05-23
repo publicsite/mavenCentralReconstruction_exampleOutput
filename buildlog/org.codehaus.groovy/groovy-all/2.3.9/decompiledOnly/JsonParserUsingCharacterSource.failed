@@ -1,0 +1,101 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:13: error: cannot find symbol
+public class JsonParserUsingCharacterSource extends BaseJsonParser
+                                                    ^
+  symbol: class BaseJsonParser
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:19: error: cannot find symbol
+    private CharBuf builder;
+            ^
+  symbol:   class CharBuf
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:22: error: cannot find symbol
+        this.builder = CharBuf.create(20);
+                       ^
+  symbol:   variable CharBuf
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:40: error: cannot find symbol
+                    if (JsonParserUsingCharacterSource.internKeys) {
+                                                      ^
+  symbol:   variable internKeys
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:40: error: illegal parenthesized expression
+                    if (JsonParserUsingCharacterSource.internKeys) {
+                       ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:41: error: cannot find symbol
+                        final String keyPrime = JsonParserUsingCharacterSource.internedKeysCache.get(key);
+                                                                              ^
+  symbol:   variable internedKeysCache
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:44: error: cannot find symbol
+                            JsonParserUsingCharacterSource.internedKeysCache.put(key, key);
+                                                          ^
+  symbol:   variable internedKeysCache
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:52: error: cannot find symbol
+                        this.complain("expecting current character to be : but was " + this.charDescription(characterSource.currentChar()) + "\n");
+                                                                                           ^
+  symbol: method charDescription(int)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:69: error: cannot find symbol
+                    this.complain("expecting '}' or ',' but got current char " + this.charDescription(ch));
+                                                                                     ^
+  symbol: method charDescription(int)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:139: error: cannot find symbol
+        if (CharScanner.hasDecimalChar(chars, negative)) {
+            ^
+  symbol:   variable CharScanner
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:140: error: cannot find symbol
+            value = CharScanner.parseBigDecimal(chars);
+                    ^
+  symbol:   variable CharScanner
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:142: error: cannot find symbol
+        else if (CharScanner.isInteger(chars)) {
+                 ^
+  symbol:   variable CharScanner
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:143: error: cannot find symbol
+            value = CharScanner.parseInt(chars);
+                    ^
+  symbol:   variable CharScanner
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:145: error: cannot find symbol
+        else if (CharScanner.isLong(chars)) {
+                 ^
+  symbol:   variable CharScanner
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:146: error: cannot find symbol
+            value = CharScanner.parseLong(chars);
+                    ^
+  symbol:   variable CharScanner
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:216: error: cannot find symbol
+                    final String charString = this.charDescription(c);
+                                                  ^
+  symbol: method charDescription(int)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:230: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:232: error: cannot find symbol
+        this.characterSource = new ReaderCharacterSource(reader);
+                                   ^
+  symbol:   class ReaderCharacterSource
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:236: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:242: error: cannot find symbol
+        NULL = Chr.chars("null");
+               ^
+  symbol:   variable Chr
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:243: error: cannot find symbol
+        TRUE = Chr.chars("true");
+               ^
+  symbol:   variable Chr
+  location: class JsonParserUsingCharacterSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserUsingCharacterSource.java:244: error: cannot find symbol
+        JsonParserUsingCharacterSource.FALSE = Chr.chars("false");
+                                               ^
+  symbol:   variable Chr
+  location: class JsonParserUsingCharacterSource
+22 errors

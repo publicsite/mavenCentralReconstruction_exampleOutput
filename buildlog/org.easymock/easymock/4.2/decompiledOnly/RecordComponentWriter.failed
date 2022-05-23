@@ -1,0 +1,100 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:7: error: cannot find symbol
+final class RecordComponentWriter extends RecordComponentVisitor
+                                          ^
+  symbol: class RecordComponentVisitor
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:9: error: cannot find symbol
+    private final SymbolTable symbolTable;
+                  ^
+  symbol:   class SymbolTable
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:14: error: cannot find symbol
+    private AnnotationWriter lastRuntimeVisibleAnnotation;
+            ^
+  symbol:   class AnnotationWriter
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:15: error: cannot find symbol
+    private AnnotationWriter lastRuntimeInvisibleAnnotation;
+            ^
+  symbol:   class AnnotationWriter
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:16: error: cannot find symbol
+    private AnnotationWriter lastRuntimeVisibleTypeAnnotation;
+            ^
+  symbol:   class AnnotationWriter
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:17: error: cannot find symbol
+    private AnnotationWriter lastRuntimeInvisibleTypeAnnotation;
+            ^
+  symbol:   class AnnotationWriter
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:18: error: cannot find symbol
+    private Attribute firstAttribute;
+            ^
+  symbol:   class Attribute
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:20: error: cannot find symbol
+    RecordComponentWriter(final SymbolTable symbolTable, final int accessFlags, final String name, final String descriptor, final String signature) {
+                                ^
+  symbol:   class SymbolTable
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:48: error: cannot find symbol
+    public void visitAttributeExperimental(final Attribute attribute) {
+                                                 ^
+  symbol:   class Attribute
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:99: error: package Attribute does not exist
+    final void collectAttributePrototypes(final Attribute.Set attributePrototypes) {
+                                                         ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:31: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:34: error: cannot find symbol
+            return this.lastRuntimeVisibleAnnotation = AnnotationWriter.create(this.symbolTable, descriptor, this.lastRuntimeVisibleAnnotation);
+                                                       ^
+  symbol:   variable AnnotationWriter
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:36: error: cannot find symbol
+        return this.lastRuntimeInvisibleAnnotation = AnnotationWriter.create(this.symbolTable, descriptor, this.lastRuntimeInvisibleAnnotation);
+                                                     ^
+  symbol:   variable AnnotationWriter
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:39: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:42: error: cannot find symbol
+            return this.lastRuntimeVisibleTypeAnnotation = AnnotationWriter.create(this.symbolTable, typeRef, typePath, descriptor, this.lastRuntimeVisibleTypeAnnotation);
+                                                           ^
+  symbol:   variable AnnotationWriter
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:44: error: cannot find symbol
+        return this.lastRuntimeInvisibleTypeAnnotation = AnnotationWriter.create(this.symbolTable, typeRef, typePath, descriptor, this.lastRuntimeInvisibleTypeAnnotation);
+                                                         ^
+  symbol:   variable AnnotationWriter
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:47: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:53: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:59: error: cannot find symbol
+        size += Attribute.computeAttributesSize(this.symbolTable, this.accessFlags & 0x20000, this.signatureIndex);
+                ^
+  symbol:   variable Attribute
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:60: error: cannot find symbol
+        size += AnnotationWriter.computeAnnotationsSize(this.lastRuntimeVisibleAnnotation, this.lastRuntimeInvisibleAnnotation, this.lastRuntimeVisibleTypeAnnotation, this.lastRuntimeInvisibleTypeAnnotation);
+                ^
+  symbol:   variable AnnotationWriter
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:92: error: cannot find symbol
+        Attribute.putAttributes(this.symbolTable, this.accessFlags, this.signatureIndex, output);
+        ^
+  symbol:   variable Attribute
+  location: class RecordComponentWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/asm/RecordComponentWriter.java:93: error: cannot find symbol
+        AnnotationWriter.putAnnotations(this.symbolTable, this.lastRuntimeVisibleAnnotation, this.lastRuntimeInvisibleAnnotation, this.lastRuntimeVisibleTypeAnnotation, this.lastRuntimeInvisibleTypeAnnotation, output);
+        ^
+  symbol:   variable AnnotationWriter
+  location: class RecordComponentWriter
+22 errors

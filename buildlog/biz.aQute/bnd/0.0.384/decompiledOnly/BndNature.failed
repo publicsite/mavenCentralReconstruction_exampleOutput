@@ -1,0 +1,98 @@
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:7: error: package org.eclipse.core.runtime does not exist
+import org.eclipse.core.runtime.CoreException;
+                               ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:8: error: package org.eclipse.core.resources does not exist
+import org.eclipse.core.resources.IProjectDescription;
+                                 ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:9: error: package org.eclipse.core.runtime does not exist
+import org.eclipse.core.runtime.IProgressMonitor;
+                               ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:10: error: package org.eclipse.core.resources does not exist
+import org.eclipse.core.resources.ICommand;
+                                 ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:11: error: package org.eclipse.core.resources does not exist
+import org.eclipse.core.resources.IProject;
+                                 ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:12: error: package org.eclipse.core.resources does not exist
+import org.eclipse.core.resources.IProjectNature;
+                                 ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:14: error: cannot find symbol
+public class BndNature implements IProjectNature
+                                  ^
+  symbol: class IProjectNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:17: error: cannot find symbol
+    private IProject project;
+            ^
+  symbol:   class IProject
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:19: error: cannot find symbol
+    public void configure() throws CoreException {
+                                   ^
+  symbol:   class CoreException
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:36: error: cannot find symbol
+    public void deconfigure() throws CoreException {
+                                     ^
+  symbol:   class CoreException
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:50: error: cannot find symbol
+    public IProject getProject() {
+           ^
+  symbol:   class IProject
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:54: error: cannot find symbol
+    public void setProject(final IProject project) {
+                                 ^
+  symbol:   class IProject
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:20: error: cannot find symbol
+        final IProjectDescription desc = this.project.getDescription();
+              ^
+  symbol:   class IProjectDescription
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:21: error: cannot find symbol
+        final ICommand[] commands = desc.getBuildSpec();
+              ^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:27: error: cannot find symbol
+        final ICommand[] newCommands = new ICommand[commands.length + 1];
+              ^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:27: error: cannot find symbol
+        final ICommand[] newCommands = new ICommand[commands.length + 1];
+                                           ^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:29: error: cannot find symbol
+        final ICommand command = desc.newCommand();
+              ^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:33: error: cannot find symbol
+        this.project.setDescription(desc, (IProgressMonitor)null);
+                                           ^
+  symbol:   class IProgressMonitor
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:37: error: cannot find symbol
+        final IProjectDescription description = this.getProject().getDescription();
+              ^
+  symbol:   class IProjectDescription
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:38: error: cannot find symbol
+        final ICommand[] commands = description.getBuildSpec();
+              ^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:41: error: cannot find symbol
+                final ICommand[] newCommands = new ICommand[commands.length - 1];
+                      ^
+  symbol:   class ICommand
+  location: class BndNature
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/builder/BndNature.java:41: error: cannot find symbol
+                final ICommand[] newCommands = new ICommand[commands.length - 1];
+                                                   ^
+  symbol:   class ICommand
+  location: class BndNature
+22 errors

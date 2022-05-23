@@ -1,0 +1,28 @@
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/hamcrest/HamcrestArgumentMatcher.java:7: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/hamcrest/HamcrestArgumentMatcher.java:8: error: package org.hamcrest does not exist
+import org.hamcrest.StringDescription;
+                   ^
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/hamcrest/HamcrestArgumentMatcher.java:14: error: cannot find symbol
+    private final Matcher matcher;
+                  ^
+  symbol:   class Matcher
+  location: class HamcrestArgumentMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestArgumentMatcher
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/hamcrest/HamcrestArgumentMatcher.java:16: error: cannot find symbol
+    public HamcrestArgumentMatcher(Matcher<T> matcher) {
+                                   ^
+  symbol:   class Matcher
+  location: class HamcrestArgumentMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestArgumentMatcher
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/hamcrest/HamcrestArgumentMatcher.java:32: error: cannot find symbol
+        return StringDescription.toString(matcher);
+               ^
+  symbol:   variable StringDescription
+  location: class HamcrestArgumentMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class HamcrestArgumentMatcher
+5 errors

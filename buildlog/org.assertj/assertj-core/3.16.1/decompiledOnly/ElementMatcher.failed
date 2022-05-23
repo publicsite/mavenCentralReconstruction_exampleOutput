@@ -1,0 +1,39 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:30: error: package HashCodeAndEqualsPlugin does not exist
+        @HashCodeAndEqualsPlugin.Enhance
+                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:61: error: package HashCodeAndEqualsPlugin does not exist
+        @HashCodeAndEqualsPlugin.Enhance
+                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:42: error: incompatible types: Object cannot be converted to CAP#1
+                return this.left.matches((Object)target) && this.right.matches((Object)target);
+                                         ^
+  where W is a type-variable:
+    W extends Object declared in class Conjunction
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: W from capture of ? super W
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:42: error: incompatible types: Object cannot be converted to CAP#1
+                return this.left.matches((Object)target) && this.right.matches((Object)target);
+                                                                               ^
+  where W is a type-variable:
+    W extends Object declared in class Conjunction
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: W from capture of ? super W
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:73: error: incompatible types: Object cannot be converted to CAP#1
+                return this.left.matches((Object)target) || this.right.matches((Object)target);
+                                         ^
+  where W is a type-variable:
+    W extends Object declared in class Disjunction
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: W from capture of ? super W
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ElementMatcher.java:73: error: incompatible types: Object cannot be converted to CAP#1
+                return this.left.matches((Object)target) || this.right.matches((Object)target);
+                                                                               ^
+  where W is a type-variable:
+    W extends Object declared in class Disjunction
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: W from capture of ? super W
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+7 errors

@@ -1,0 +1,72 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:362: error: cannot find symbol
+			extends edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap
+			                                                      ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:247: error: incompatible types: Object cannot be converted to BeanFactoryPostProcessor
+        for (final BeanFactoryPostProcessor factoryProcessor : this.getBeanFactoryPostProcessors()) {
+                                                                                                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:268: error: incompatible types: Object cannot be converted to String
+        for (final String postProcessorName : orderedPostProcessorNames) {
+                                              ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:274: error: incompatible types: Object cannot be converted to String
+        for (final String postProcessorName2 : nonOrderedPostProcessorNames) {
+                                               ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:281: error: incompatible types: Object cannot be converted to BeanFactoryPostProcessor
+        for (final BeanFactoryPostProcessor postProcessor : postProcessors) {
+                                                            ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:307: error: incompatible types: Object cannot be converted to String
+        for (final String postProcessorName : orderedPostProcessorNames) {
+                                              ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:313: error: incompatible types: Object cannot be converted to String
+        for (final String postProcessorName2 : nonOrderedPostProcessorNames) {
+                                               ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:320: error: incompatible types: Object cannot be converted to BeanPostProcessor
+        for (final BeanPostProcessor postProcessor : postProcessors) {
+                                                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:371: error: incompatible types: Object cannot be converted to ApplicationListener
+            this.addListener(it.next());
+                                    ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:376: error: incompatible types: Object cannot be converted to ApplicationListener
+            this.addListener(it2.next());
+                                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:436: error: incompatible types: Object cannot be converted to String
+            for (final String beanName : new LinkedHashSet(lifecycleBeans.keySet())) {
+                                         ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:566: error: incompatible types: Object cannot be converted to String
+        for (final String beanName : new LinkedHashSet(lifecycleBeans.keySet())) {
+                                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:574: error: incompatible types: Object cannot be converted to String
+        for (final String beanName : new LinkedHashSet(lifecycleBeans.keySet())) {
+                                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:581: error: incompatible types: Object cannot be converted to Lifecycle
+        for (final Lifecycle lifecycle : this.getLifecycleBeans().values()) {
+                                                                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:603: error: incompatible types: Object cannot be converted to Lifecycle
+        final Lifecycle bean = lifecycleBeans.get(beanName);
+                                                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/support/AbstractApplicationContext.java:617: error: incompatible types: Object cannot be converted to Lifecycle
+        final Lifecycle bean = lifecycleBeans.get(beanName);
+                                                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:110: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Set createLinkedSetIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:147: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createLinkedMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:179: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createIdentityMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:342: error: cannot find symbol
+			return new edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap(initialCapacity);
+			                                                         ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:361: error: BackportConcurrentHashMap is not abstract and does not override abstract method replace(Object,Object) in ConcurrentMap
+	private static class BackportConcurrentHashMap
+	               ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+18 errors
+3 warnings

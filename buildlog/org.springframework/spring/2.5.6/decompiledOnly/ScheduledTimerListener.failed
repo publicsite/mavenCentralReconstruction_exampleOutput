@@ -1,0 +1,54 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/commonj/ScheduledTimerListener.java:7: error: package commonj.timers does not exist
+import commonj.timers.TimerListener;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/commonj/ScheduledTimerListener.java:11: error: cannot find symbol
+    private TimerListener timerListener;
+            ^
+  symbol:   class TimerListener
+  location: class ScheduledTimerListener
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/commonj/ScheduledTimerListener.java:22: error: cannot find symbol
+    public ScheduledTimerListener(final TimerListener timerListener) {
+                                        ^
+  symbol:   class TimerListener
+  location: class ScheduledTimerListener
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/commonj/ScheduledTimerListener.java:29: error: cannot find symbol
+    public ScheduledTimerListener(final TimerListener timerListener, final long delay) {
+                                        ^
+  symbol:   class TimerListener
+  location: class ScheduledTimerListener
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/commonj/ScheduledTimerListener.java:37: error: cannot find symbol
+    public ScheduledTimerListener(final TimerListener timerListener, final long delay, final long period, final boolean fixedRate) {
+                                        ^
+  symbol:   class TimerListener
+  location: class ScheduledTimerListener
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/commonj/ScheduledTimerListener.java:76: error: cannot find symbol
+    public void setTimerListener(final TimerListener timerListener) {
+                                       ^
+  symbol:   class TimerListener
+  location: class ScheduledTimerListener
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/commonj/ScheduledTimerListener.java:80: error: cannot find symbol
+    public TimerListener getTimerListener() {
+           ^
+  symbol:   class TimerListener
+  location: class ScheduledTimerListener
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/commonj/ScheduledTimerListener.java:73: error: cannot find symbol
+        this.timerListener = (TimerListener)new DelegatingTimerListener(timerTask);
+                              ^
+  symbol:   class TimerListener
+  location: class ScheduledTimerListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/commonj/DelegatingTimerListener.java:19: error: package commonj.timers does not exist
+import commonj.timers.Timer;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/commonj/DelegatingTimerListener.java:20: error: package commonj.timers does not exist
+import commonj.timers.TimerListener;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/commonj/DelegatingTimerListener.java:32: error: cannot find symbol
+public class DelegatingTimerListener implements TimerListener {
+                                                ^
+  symbol: class TimerListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/commonj/DelegatingTimerListener.java:50: error: cannot find symbol
+	public void timerExpired(Timer timer) {
+	                         ^
+  symbol:   class Timer
+  location: class DelegatingTimerListener
+12 errors

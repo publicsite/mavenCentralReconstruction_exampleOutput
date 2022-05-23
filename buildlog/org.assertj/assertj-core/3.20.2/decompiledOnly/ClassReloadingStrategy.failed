@@ -1,0 +1,137 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:7: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:13: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.utility.JavaDispatcher;
+                                                  ^
+  symbol:   class JavaDispatcher
+  location: package org.assertj.core.internal.bytebuddy.utility
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:17: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.dynamic.ClassFileLocator;
+                                                  ^
+  symbol:   class ClassFileLocator
+  location: package org.assertj.core.internal.bytebuddy.dynamic
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:24: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:28: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:31: error: cannot find symbol
+public class ClassReloadingStrategy implements ClassLoadingStrategy<ClassLoader>
+                                               ^
+  symbol: class ClassLoadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:30: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:326: error: package JavaDispatcher does not exist
+    @JavaDispatcher.Proxied("java.lang.instrument.Instrumentation")
+                   ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:87: error: cannot find symbol
+    public Map<TypeDescription, Class<?>> load(final ClassLoader classLoader, final Map<TypeDescription, byte[]> types) {
+                                                                                        ^
+  symbol:   class TypeDescription
+  location: class ClassReloadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:87: error: cannot find symbol
+    public Map<TypeDescription, Class<?>> load(final ClassLoader classLoader, final Map<TypeDescription, byte[]> types) {
+               ^
+  symbol:   class TypeDescription
+  location: class ClassReloadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:124: error: cannot find symbol
+    public ClassReloadingStrategy reset(final ClassFileLocator classFileLocator, final Class<?>... type) throws IOException {
+                                              ^
+  symbol:   class ClassFileLocator
+  location: class ClassReloadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:290: error: cannot find symbol
+        ClassInjector make(final Instrumentation p0);
+        ^
+  symbol:   class ClassInjector
+  location: interface BootstrapInjection
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:248: error: cannot find symbol
+        public abstract void reset(final Instrumentation p0, final ClassFileLocator p1, final List<Class<?>> p2) throws IOException, UnmodifiableClassException, ClassNotFoundException;
+                                                                   ^
+  symbol:   class ClassFileLocator
+  location: class Strategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:296: error: cannot find symbol
+            public ClassInjector make(final Instrumentation instrumentation) {
+                   ^
+  symbol:   class ClassInjector
+  location: class Disabled
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:301: error: package HashCodeAndEqualsPlugin does not exist
+        @HashCodeAndEqualsPlugin.Enhance
+                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:310: error: cannot find symbol
+            public ClassInjector make(final Instrumentation instrumentation) {
+                   ^
+  symbol:   class ClassInjector
+  location: class Enabled
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:262: error: cannot find symbol
+            @SuppressFBWarnings(value = { "EI_EXPOSE_REP" }, justification = "Value is always null")
+             ^
+  symbol:   class SuppressFBWarnings
+  location: class ClassRedefinitionTransformer
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:90: error: package TypeDescription does not exist
+            availableTypes.put(TypeDescription.ForLoadedType.getName(type), type);
+                                              ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:93: error: cannot find symbol
+        final Map<TypeDescription, Class<?>> loadedClasses = new HashMap<TypeDescription, Class<?>>();
+                  ^
+  symbol:   class TypeDescription
+  location: class ClassReloadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:93: error: cannot find symbol
+        final Map<TypeDescription, Class<?>> loadedClasses = new HashMap<TypeDescription, Class<?>>();
+                                                                         ^
+  symbol:   class TypeDescription
+  location: class ClassReloadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:94: error: cannot find symbol
+        final Map<TypeDescription, byte[]> unloadedClasses = new LinkedHashMap<TypeDescription, byte[]>();
+                  ^
+  symbol:   class TypeDescription
+  location: class ClassReloadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:94: error: cannot find symbol
+        final Map<TypeDescription, byte[]> unloadedClasses = new LinkedHashMap<TypeDescription, byte[]>();
+                                                                               ^
+  symbol:   class TypeDescription
+  location: class ClassReloadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:95: error: cannot find symbol
+        for (final Map.Entry<TypeDescription, byte[]> entry : types.entrySet()) {
+                             ^
+  symbol:   class TypeDescription
+  location: class ClassReloadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:108: error: package ClassInjector does not exist
+                loadedClasses.putAll(((classLoader == null) ? this.bootstrapInjection.make(this.instrumentation) : new ClassInjector.UsingReflection(classLoader)).inject(unloadedClasses));
+                                                                                                                                    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:121: error: package ClassFileLocator does not exist
+        return (type.length == 0) ? this : this.reset(ClassFileLocator.ForClassLoader.of(type[0].getClassLoader()), type);
+                                                                      ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:146: error: package TypeDescription does not exist
+            preregisteredTypes.put(TypeDescription.ForLoadedType.getName(aType), aType);
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:153: error: cannot find symbol
+        DISPATCHER = AccessController.doPrivileged((PrivilegedAction<Dispatcher>)JavaDispatcher.of((Class<T>)Dispatcher.class));
+                                                                                                          ^
+  symbol:   class T
+  location: class ClassReloadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:153: error: cannot find symbol
+        DISPATCHER = AccessController.doPrivileged((PrivilegedAction<Dispatcher>)JavaDispatcher.of((Class<T>)Dispatcher.class));
+                                                                                 ^
+  symbol:   variable JavaDispatcher
+  location: class ClassReloadingStrategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:183: error: cannot find symbol
+            public void reset(final Instrumentation instrumentation, final ClassFileLocator classFileLocator, final List<Class<?>> types) throws IOException, UnmodifiableClassException, ClassNotFoundException {
+                                                                           ^
+  symbol: class ClassFileLocator
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:186: error: package TypeDescription does not exist
+                    classDefinitions.put(type, new ClassDefinition(type, classFileLocator.locate(TypeDescription.ForLoadedType.getName(type)).resolve()));
+                                                                                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:216: error: cannot find symbol
+            public void reset(final Instrumentation instrumentation, final ClassFileLocator classFileLocator, final List<Class<?>> types) throws UnmodifiableClassException, ClassNotFoundException {
+                                                                           ^
+  symbol: class ClassFileLocator
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:311: error: package ClassInjector.UsingInstrumentation does not exist
+                return ClassInjector.UsingInstrumentation.of(this.folder, ClassInjector.UsingInstrumentation.Target.BOOTSTRAP, instrumentation);
+                                                                                                            ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/ClassReloadingStrategy.java:311: error: package ClassInjector does not exist
+                return ClassInjector.UsingInstrumentation.of(this.folder, ClassInjector.UsingInstrumentation.Target.BOOTSTRAP, instrumentation);
+                                    ^
+33 errors

@@ -1,0 +1,98 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:23: error: package javax.xml.rpc does not exist
+import javax.xml.rpc.Service;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:24: error: package javax.xml.rpc does not exist
+import javax.xml.rpc.ServiceException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:25: error: package javax.xml.rpc does not exist
+import javax.xml.rpc.ServiceFactory;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:52: error: cannot find symbol
+	private ServiceFactory serviceFactory;
+	        ^
+  symbol:   class ServiceFactory
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/JaxRpcServicePostProcessor.java:19: error: package javax.xml.rpc does not exist
+import javax.xml.rpc.Service;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:75: error: cannot find symbol
+	public void setServiceFactory(ServiceFactory serviceFactory) {
+	                              ^
+  symbol:   class ServiceFactory
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:82: error: cannot find symbol
+	public ServiceFactory getServiceFactory() {
+	       ^
+  symbol:   class ServiceFactory
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:224: error: cannot find symbol
+	public Service createJaxRpcService() throws ServiceException {
+	       ^
+  symbol:   class Service
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:224: error: cannot find symbol
+	public Service createJaxRpcService() throws ServiceException {
+	                                            ^
+  symbol:   class ServiceException
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:255: error: cannot find symbol
+	protected ServiceFactory createServiceFactory() throws ServiceException {
+	          ^
+  symbol:   class ServiceFactory
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:255: error: cannot find symbol
+	protected ServiceFactory createServiceFactory() throws ServiceException {
+	                                                       ^
+  symbol:   class ServiceException
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:273: error: cannot find symbol
+	protected Service createService(ServiceFactory serviceFactory) throws ServiceException {
+	                                ^
+  symbol:   class ServiceFactory
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:273: error: cannot find symbol
+	protected Service createService(ServiceFactory serviceFactory) throws ServiceException {
+	          ^
+  symbol:   class Service
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:273: error: cannot find symbol
+	protected Service createService(ServiceFactory serviceFactory) throws ServiceException {
+	                                                                      ^
+  symbol:   class ServiceException
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:312: error: cannot find symbol
+	protected void postProcessJaxRpcService(Service service) {
+	                                        ^
+  symbol:   class Service
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/JaxRpcServicePostProcessor.java:49: error: cannot find symbol
+	void postProcessJaxRpcService(Service service);
+	                              ^
+  symbol:   class Service
+  location: interface JaxRpcServicePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:94: error: cannot find symbol
+		if (serviceFactoryClass != null && !ServiceFactory.class.isAssignableFrom(serviceFactoryClass)) {
+		                                    ^
+  symbol:   class ServiceFactory
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:225: error: cannot find symbol
+		ServiceFactory serviceFactory = getServiceFactory();
+		^
+  symbol:   class ServiceFactory
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:231: error: cannot find symbol
+		Service service = createService(serviceFactory);
+		^
+  symbol:   class Service
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:257: error: cannot find symbol
+			return (ServiceFactory) BeanUtils.instantiateClass(getServiceFactoryClass());
+			        ^
+  symbol:   class ServiceFactory
+  location: class LocalJaxRpcServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxrpc/LocalJaxRpcServiceFactory.java:260: error: cannot find symbol
+			return ServiceFactory.newInstance();
+			       ^
+  symbol:   variable ServiceFactory
+  location: class LocalJaxRpcServiceFactory
+21 errors

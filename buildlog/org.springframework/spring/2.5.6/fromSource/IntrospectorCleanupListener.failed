@@ -1,0 +1,21 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/IntrospectorCleanupListener.java:21: error: package javax.servlet does not exist
+import javax.servlet.ServletContextEvent;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/IntrospectorCleanupListener.java:22: error: package javax.servlet does not exist
+import javax.servlet.ServletContextListener;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/IntrospectorCleanupListener.java:72: error: cannot find symbol
+public class IntrospectorCleanupListener implements ServletContextListener {
+                                                    ^
+  symbol: class ServletContextListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/IntrospectorCleanupListener.java:74: error: cannot find symbol
+	public void contextInitialized(ServletContextEvent event) {
+	                               ^
+  symbol:   class ServletContextEvent
+  location: class IntrospectorCleanupListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/web/util/IntrospectorCleanupListener.java:78: error: cannot find symbol
+	public void contextDestroyed(ServletContextEvent event) {
+	                             ^
+  symbol:   class ServletContextEvent
+  location: class IntrospectorCleanupListener
+5 errors

@@ -1,0 +1,301 @@
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:131: error: invalid method declaration; return type required
+				defineClass(loaderRef.getClassLoader(), name, wovenBytes, activeProtectionDomain);
+				^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:131: error: <identifier> expected
+				defineClass(loaderRef.getClassLoader(), name, wovenBytes, activeProtectionDomain);
+				                                    ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:132: error: class, interface, or enum expected
+			} else {
+			  ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:135: error: class, interface, or enum expected
+			}
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:139: error: class, interface, or enum expected
+	public void initialize(final ClassLoader classLoader, IWeavingContext context) {
+	       ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:139: error: class, interface, or enum expected
+	public void initialize(final ClassLoader classLoader, IWeavingContext context) {
+	                             ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:142: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:146: error: class, interface, or enum expected
+		this.weavingContext = context;
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:147: error: class, interface, or enum expected
+		if (weavingContext == null) {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:149: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:153: error: class, interface, or enum expected
+		this.generatedClassHandler = new SimpleGeneratedClassHandler(classLoader);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:155: error: class, interface, or enum expected
+		List definitions = weavingContext.getDefinitions(classLoader, this);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:156: error: class, interface, or enum expected
+		if (definitions.isEmpty()) {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:158: error: class, interface, or enum expected
+			if (trace.isTraceEnabled()) {
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:160: error: class, interface, or enum expected
+			}
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:162: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:167: error: class, interface, or enum expected
+		weaver = new BcelWeaver(bcelWorld);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:170: error: class, interface, or enum expected
+		success = registerDefinitions(weaver, classLoader, definitions);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:171: error: class, interface, or enum expected
+		if (success) {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:176: error: class, interface, or enum expected
+			enable(); // TODO maw Needed to ensure messages are flushed
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:177: error: class, interface, or enum expected
+			success = weaveAndDefineConceteAspects();
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:178: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:182: error: class, interface, or enum expected
+		} else {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:184: error: class, interface, or enum expected
+			bcelWorld = null;
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:185: error: class, interface, or enum expected
+			weaver = null;
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:186: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:189: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:192: error: class, interface, or enum expected
+		if (trace.isTraceEnabled()) {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:194: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:204: error: class, interface, or enum expected
+		for (Iterator<Definition> it = definitions.iterator(); it.hasNext(); ) {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:204: error: class, interface, or enum expected
+		for (Iterator<Definition> it = definitions.iterator(); it.hasNext(); ) {
+		                                                       ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:204: error: class, interface, or enum expected
+		for (Iterator<Definition> it = definitions.iterator(); it.hasNext(); ) {
+		                                                                     ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:206: error: class, interface, or enum expected
+			List<String> defAspects = def.getAspectClassNames();
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:207: error: class, interface, or enum expected
+			if (defAspects != null) {
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:209: error: class, interface, or enum expected
+			}
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:212: error: class, interface, or enum expected
+	}
+	^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:219: error: class, interface, or enum expected
+	List<Definition> parseDefinitions(final ClassLoader loader) {
+	                                        ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:222: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:225: error: class, interface, or enum expected
+		try {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:230: error: class, interface, or enum expected
+			if (loader.equals(ClassLoader.getSystemClassLoader())) {
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:232: error: class, interface, or enum expected
+				if (file != null) {
+				^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:234: error: class, interface, or enum expected
+					definitions.add(DocumentParser.parse((new File(file)).toURL()));
+					^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:235: error: class, interface, or enum expected
+				}
+				^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:239: error: class, interface, or enum expected
+			if (trace.isTraceEnabled()) {
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:241: error: class, interface, or enum expected
+			}
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:245: error: class, interface, or enum expected
+			while (st.hasMoreTokens()) {
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:247: error: class, interface, or enum expected
+				if (nextDefinition.startsWith("file:")) {
+				^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:250: error: class, interface, or enum expected
+						File configFile = new File(fpath);
+						^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:251: error: class, interface, or enum expected
+						if (!configFile.exists()) {
+						^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:253: error: class, interface, or enum expected
+						} else {
+						^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:255: error: class, interface, or enum expected
+						}
+						^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:258: error: class, interface, or enum expected
+					}
+					^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:263: error: class, interface, or enum expected
+					Set<URL> seenBefore = new HashSet<URL>();
+					^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:264: error: class, interface, or enum expected
+					while (xmls.hasMoreElements()) {
+					^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:266: error: class, interface, or enum expected
+						if (trace.isTraceEnabled()) {
+						^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:268: error: class, interface, or enum expected
+						}
+						^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:271: error: class, interface, or enum expected
+							definitions.add(DocumentParser.parse(xml));
+							^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:272: error: class, interface, or enum expected
+							seenBefore.add(xml);
+							^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:273: error: class, interface, or enum expected
+						} else {
+						^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:275: error: class, interface, or enum expected
+						}
+						^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:281: error: class, interface, or enum expected
+			}
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:284: error: class, interface, or enum expected
+			warn("parse definitions failed", e);
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:285: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:289: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:291: error: class, interface, or enum expected
+	}
+	^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:293: error: class, interface, or enum expected
+	private boolean registerDefinitions(final BcelWeaver weaver, final ClassLoader loader, List<Definition> definitions) {
+	                                          ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:293: error: class, interface, or enum expected
+	private boolean registerDefinitions(final BcelWeaver weaver, final ClassLoader loader, List<Definition> definitions) {
+	                                                                   ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:296: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:299: error: class, interface, or enum expected
+		try {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:301: error: class, interface, or enum expected
+			registerAspectExclude(weaver, loader, definitions);
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:302: error: class, interface, or enum expected
+			registerAspectInclude(weaver, loader, definitions);
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:303: error: class, interface, or enum expected
+			success = registerAspects(weaver, loader, definitions);
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:304: error: class, interface, or enum expected
+			registerIncludeExclude(weaver, loader, definitions);
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:305: error: class, interface, or enum expected
+			registerDump(weaver, loader, definitions);
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:306: error: class, interface, or enum expected
+		} catch (Exception ex) {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:308: error: class, interface, or enum expected
+			success = false;
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:309: error: class, interface, or enum expected
+			warn("register definition failed", (ex instanceof AbortException) ? null : ex);
+			^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:310: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:314: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:316: error: class, interface, or enum expected
+	}
+	^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:320: error: class, interface, or enum expected
+	}
+	^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:330: error: class, interface, or enum expected
+	private void registerOptions(final BcelWeaver weaver, final ClassLoader loader, final List<Definition> definitions) {
+	                                   ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:330: error: class, interface, or enum expected
+	private void registerOptions(final BcelWeaver weaver, final ClassLoader loader, final List<Definition> definitions) {
+	                                                            ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:330: error: class, interface, or enum expected
+	private void registerOptions(final BcelWeaver weaver, final ClassLoader loader, final List<Definition> definitions) {
+	                                                                                      ^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:332: error: class, interface, or enum expected
+		for (Definition definition : definitions) {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:334: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:340: error: class, interface, or enum expected
+		World world = weaver.getWorld();
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:341: error: class, interface, or enum expected
+		setMessageHandler(weaverOption.messageHandler);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:342: error: class, interface, or enum expected
+		world.setXlazyTjp(weaverOption.lazyTjp);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:343: error: class, interface, or enum expected
+		world.setXHasMemberSupportEnabled(weaverOption.hasMember);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:344: error: class, interface, or enum expected
+		world.setTiming(weaverOption.timers, true);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:345: error: class, interface, or enum expected
+		world.setOptionalJoinpoints(weaverOption.optionalJoinpoints);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:346: error: class, interface, or enum expected
+		world.setPinpointMode(weaverOption.pinpoint);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:347: error: class, interface, or enum expected
+		weaver.setReweavableMode(weaverOption.notReWeavable);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:348: error: class, interface, or enum expected
+		if (weaverOption.loadersToSkip != null && weaverOption.loadersToSkip.length() > 0) {
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:350: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:353: error: class, interface, or enum expected
+		}
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:355: error: class, interface, or enum expected
+		world.setXnoInline(weaverOption.noInline);
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:357: error: class, interface, or enum expected
+		world.setBehaveInJava5Way(LangUtil.is15VMOrGreater());
+		^
+hybrids/org.aspectj/aspectjweaver/1.8.4/ClassLoaderWeavingAdaptor.java:358: error: class, interface, or enum expected
+		world.setAddSerialVerUID(weaverOption.addSerialVersionUID);
+		^
+100 errors

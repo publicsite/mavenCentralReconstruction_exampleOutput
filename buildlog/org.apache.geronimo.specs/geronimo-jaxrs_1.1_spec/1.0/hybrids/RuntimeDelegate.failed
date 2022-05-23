@@ -1,0 +1,28 @@
+hybrids/org.apache.geronimo.specs/geronimo-jaxrs_1.1_spec/1.0/RuntimeDelegate.java:31: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+hybrids/org.apache.geronimo.specs/geronimo-jaxrs_1.1_spec/1.0/RuntimeDelegate.java:84: error: cannot find symbol
+                Object service = ProviderLocator.getService(RuntimeDelegate.class.getName(), RuntimeDelegate.class, classLoader);
+                                 ^
+  symbol:   variable ProviderLocator
+  location: class RuntimeDelegate
+hybrids/org.apache.geronimo.specs/geronimo-jaxrs_1.1_spec/1.0/RuntimeDelegate.java:99: error: cannot find symbol
+                className =  ProviderLocator.lookupByJREPropertyFile("lib" + File.separator + "jaxrpc.properties", RuntimeDelegate.class.getName());
+                             ^
+  symbol:   variable ProviderLocator
+  location: class RuntimeDelegate
+hybrids/org.apache.geronimo.specs/geronimo-jaxrs_1.1_spec/1.0/RuntimeDelegate.java:101: error: cannot find symbol
+                    Class<?> delegateClass = ProviderLocator.loadClass(className,
+                                             ^
+  symbol:   variable ProviderLocator
+  location: class RuntimeDelegate
+hybrids/org.apache.geronimo.specs/geronimo-jaxrs_1.1_spec/1.0/RuntimeDelegate.java:135: error: cannot find symbol
+                Class<?> delegateClass = ProviderLocator.loadClass(className,
+                                         ^
+  symbol:   variable ProviderLocator
+  location: class RuntimeDelegate
+Note: hybrids/org.apache.geronimo.specs/geronimo-jaxrs_1.1_spec/1.0/RuntimeDelegate.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.apache.geronimo.specs/geronimo-jaxrs_1.1_spec/1.0/extractedSources/javax/ws/rs/core/Response.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors

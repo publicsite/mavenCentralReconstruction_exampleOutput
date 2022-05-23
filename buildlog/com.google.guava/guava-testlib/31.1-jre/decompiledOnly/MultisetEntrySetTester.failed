@@ -1,0 +1,198 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:7: error: cannot find symbol
+import com.google.common.collect.Iterables;
+                                ^
+  symbol:   class Iterables
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:11: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:13: error: cannot find symbol
+import com.google.common.collect.Multisets;
+                                ^
+  symbol:   class Multisets
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultisetTester.java:20: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultisetTester.java:32: error: cannot find symbol
+  protected final Multiset<E> getMultiset() {
+                  ^
+  symbol:   class Multiset
+  location: class AbstractMultisetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class AbstractMultisetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetFeature.java:20: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetFeature.java:35: error: cannot find symbol
+public enum MultisetFeature implements Feature<Multiset> {
+                                               ^
+  symbol: class Multiset
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetFeature.java:43: error: cannot find symbol
+  public Set<Feature<? super Multiset>> getImpliedFeatures() {
+                             ^
+  symbol:   class Multiset
+  location: class MultisetFeature
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultisetTester.java:33: error: cannot find symbol
+    return (Multiset<E>) collection;
+            ^
+  symbol:   class Multiset
+  location: class AbstractMultisetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class AbstractMultisetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:31: error: package Multiset does not exist
+        final Iterator<Multiset.Entry<E>> iterator = this.getMultiset().entrySet().iterator();
+                               ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:33: error: cannot find symbol
+        assertEquals("multiset.entrySet() iterator.next() returned incorrect entry", (Object)Multisets.immutableEntry(this.e0(), 1), (Object)iterator.next());
+                                                                                             ^
+  symbol:   variable Multisets
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:42: error: cannot find symbol
+        assertTrue("multiset.entrySet.remove(presentEntry) returned false", this.getMultiset().entrySet().remove(Multisets.immutableEntry(this.e0(), 1)));
+                                                                                                                 ^
+  symbol:   variable Multisets
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:49: error: cannot find symbol
+        assertFalse("multiset.entrySet.remove(missingEntry) returned true", this.getMultiset().entrySet().remove(Multisets.immutableEntry(this.e0(), 2)));
+                                                                                                                 ^
+  symbol:   variable Multisets
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:56: error: cannot find symbol
+        assertTrue("multiset.entrySet.removeAll(presentEntry) returned false", this.getMultiset().entrySet().removeAll(Collections.singleton(Multisets.immutableEntry(this.e0(), 1))));
+                                                                                                                                             ^
+  symbol:   variable Multisets
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:63: error: cannot find symbol
+        assertFalse("multiset.entrySet.remove(missingEntry) returned true", this.getMultiset().entrySet().removeAll(Collections.singleton(Multisets.immutableEntry(this.e0(), 2))));
+                                                                                                                                          ^
+  symbol:   variable Multisets
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:70: error: cannot find symbol
+        assertFalse("multiset.entrySet.retainAll(presentEntry) returned false", this.getMultiset().entrySet().retainAll(Collections.singleton(Multisets.immutableEntry(this.e0(), 1))));
+                                                                                                                                              ^
+  symbol:   variable Multisets
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:77: error: cannot find symbol
+        assertTrue("multiset.entrySet.retainAll(missingEntry) returned true", this.getMultiset().entrySet().retainAll(Collections.singleton(Multisets.immutableEntry(this.e0(), 2))));
+                                                                                                                                            ^
+  symbol:   variable Multisets
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:87: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                      ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:87: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                 ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:87: error: cannot find symbol
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                           ^
+  symbol:   variable Iterables
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:101: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                      ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:101: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                 ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:101: error: cannot find symbol
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                           ^
+  symbol:   variable Iterables
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:120: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                      ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:120: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                 ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:120: error: cannot find symbol
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                           ^
+  symbol:   variable Iterables
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:132: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                      ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:132: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                 ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:132: error: cannot find symbol
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                           ^
+  symbol:   variable Iterables
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:144: error: package Multiset does not exist
+        final Iterator<Multiset.Entry<E>> entryItr = this.getMultiset().entrySet().iterator();
+                               ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:145: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = entryItr.next();
+                      ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:156: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                      ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:156: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                 ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:156: error: cannot find symbol
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                           ^
+  symbol:   variable Iterables
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:168: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                      ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:168: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                 ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:168: error: cannot find symbol
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                           ^
+  symbol:   variable Iterables
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:182: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                      ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:182: error: package Multiset does not exist
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                 ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/MultisetEntrySetTester.java:182: error: cannot find symbol
+        final Multiset.Entry<E> entry = (Multiset.Entry<E>)Iterables.getOnlyElement((Iterable)this.getMultiset().entrySet());
+                                                           ^
+  symbol:   variable Iterables
+  location: class MultisetEntrySetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetEntrySetTester
+40 errors

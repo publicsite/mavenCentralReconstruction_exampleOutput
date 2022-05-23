@@ -1,0 +1,167 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:7: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:8: error: cannot find symbol
+import org.codehaus.groovy.runtime.ScriptBytecodeAdapter;
+                                  ^
+  symbol:   class ScriptBytecodeAdapter
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:9: error: cannot find symbol
+import groovy.lang.GroovyObject;
+                  ^
+  symbol:   class GroovyObject
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:10: error: cannot find symbol
+import groovy.lang.MissingMethodException;
+                  ^
+  symbol:   class MissingMethodException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:11: error: cannot find symbol
+import org.codehaus.groovy.runtime.metaclass.MissingMethodExecutionFailed;
+                                            ^
+  symbol:   class MissingMethodExecutionFailed
+  location: package org.codehaus.groovy.runtime.metaclass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:12: error: cannot find symbol
+import groovy.lang.MetaClass;
+                  ^
+  symbol:   class MetaClass
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:14: error: cannot find symbol
+public class PogoMetaClassSite extends MetaClassSite
+                                       ^
+  symbol: class MetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:16: error: cannot find symbol
+    public PogoMetaClassSite(final CallSite site, final MetaClass metaClass) {
+                                   ^
+  symbol:   class CallSite
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:16: error: cannot find symbol
+    public PogoMetaClassSite(final CallSite site, final MetaClass metaClass) {
+                                                        ^
+  symbol:   class MetaClass
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:49: error: cannot find symbol
+    public final Object callCurrent(final GroovyObject receiver, final Object[] args) throws Throwable {
+                                          ^
+  symbol:   class GroovyObject
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:20: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:25: error: cannot find symbol
+                    return this.metaClass.invokeMethod(receiver, this.name, args);
+                                                                     ^
+  symbol: variable name
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:25: error: cannot find symbol
+                    return this.metaClass.invokeMethod(receiver, this.name, args);
+                               ^
+  symbol: variable metaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:27: error: cannot find symbol
+                catch (MissingMethodException e) {
+                       ^
+  symbol:   class MissingMethodException
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:28: error: cannot find symbol
+                    if (e instanceof MissingMethodExecutionFailed) {
+                                     ^
+  symbol:   class MissingMethodExecutionFailed
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:29: error: cannot find symbol
+                        throw (MissingMethodException)e.getCause();
+                               ^
+  symbol:   class MissingMethodException
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:31: error: cannot find symbol
+                    if (receiver.getClass() == e.getType() && e.getMethod().equals(this.name)) {
+                                                                                       ^
+  symbol: variable name
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:32: error: cannot find symbol
+                        return ((GroovyObject)receiver).invokeMethod(this.name, args);
+                                                                         ^
+  symbol: variable name
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:32: error: cannot find symbol
+                        return ((GroovyObject)receiver).invokeMethod(this.name, args);
+                                 ^
+  symbol:   class GroovyObject
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:37: error: cannot find symbol
+            catch (GroovyRuntimeException gre) {
+                   ^
+  symbol:   class GroovyRuntimeException
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:38: error: cannot find symbol
+                throw ScriptBytecodeAdapter.unwrap(gre);
+                      ^
+  symbol:   variable ScriptBytecodeAdapter
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:41: error: cannot find symbol
+        return CallSiteArray.defaultCall(this, receiver, args);
+               ^
+  symbol:   variable CallSiteArray
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:45: error: cannot find symbol
+        return receiver instanceof GroovyObject && ((GroovyObject)receiver).getMetaClass() == this.metaClass;
+                                   ^
+  symbol:   class GroovyObject
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:45: error: cannot find symbol
+        return receiver instanceof GroovyObject && ((GroovyObject)receiver).getMetaClass() == this.metaClass;
+                                                     ^
+  symbol:   class GroovyObject
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:45: error: cannot find symbol
+        return receiver instanceof GroovyObject && ((GroovyObject)receiver).getMetaClass() == this.metaClass;
+                                                                                                  ^
+  symbol: variable metaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:48: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:53: error: cannot find symbol
+                    return this.metaClass.invokeMethod(receiver, this.name, args);
+                                                                     ^
+  symbol: variable name
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:53: error: cannot find symbol
+                    return this.metaClass.invokeMethod(receiver, this.name, args);
+                               ^
+  symbol: variable metaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:55: error: cannot find symbol
+                catch (MissingMethodException e) {
+                       ^
+  symbol:   class MissingMethodException
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:56: error: cannot find symbol
+                    if (e instanceof MissingMethodExecutionFailed) {
+                                     ^
+  symbol:   class MissingMethodExecutionFailed
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:57: error: cannot find symbol
+                        throw (MissingMethodException)e.getCause();
+                               ^
+  symbol:   class MissingMethodException
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:59: error: cannot find symbol
+                    if (receiver.getClass() == e.getType() && e.getMethod().equals(this.name)) {
+                                                                                       ^
+  symbol: variable name
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:60: error: cannot find symbol
+                        return receiver.invokeMethod(this.name, args);
+                                                         ^
+  symbol: variable name
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:65: error: cannot find symbol
+            catch (GroovyRuntimeException gre) {
+                   ^
+  symbol:   class GroovyRuntimeException
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:66: error: cannot find symbol
+                throw ScriptBytecodeAdapter.unwrap(gre);
+                      ^
+  symbol:   variable ScriptBytecodeAdapter
+  location: class PogoMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/PogoMetaClassSite.java:69: error: cannot find symbol
+        return CallSiteArray.defaultCallCurrent(this, receiver, args);
+               ^
+  symbol:   variable CallSiteArray
+  location: class PogoMetaClassSite
+36 errors

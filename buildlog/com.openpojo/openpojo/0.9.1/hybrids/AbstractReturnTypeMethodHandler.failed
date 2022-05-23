@@ -1,0 +1,40 @@
+hybrids/com.openpojo/openpojo/0.9.1/AbstractReturnTypeMethodHandler.java:22: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.MethodVisitor;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/AbstractReturnTypeMethodHandler.java:24: error: package org.objectweb.asm does not exist
+import static org.objectweb.asm.Opcodes.*;
+                               ^
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/MethodHandler.java:21: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.MethodVisitor;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/AbstractReturnTypeMethodHandler.java:31: error: cannot find symbol
+  public void generateMethod(MethodVisitor methodVisitor,
+                             ^
+  symbol:   class MethodVisitor
+  location: class AbstractReturnTypeMethodHandler
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/method/MethodHandler.java:28: error: cannot find symbol
+  void generateMethod(MethodVisitor methodVisitor,
+                      ^
+  symbol:   class MethodVisitor
+  location: interface MethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/AbstractReturnTypeMethodHandler.java:39: error: cannot find symbol
+    methodVisitor.visitFieldInsn(GETSTATIC, getInternalName(), "TYPE", "Ljava/lang/Class;");
+                                 ^
+  symbol:   variable GETSTATIC
+  location: class AbstractReturnTypeMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/AbstractReturnTypeMethodHandler.java:41: error: cannot find symbol
+    methodVisitor.visitMethodInsn(INVOKESTATIC,
+                                  ^
+  symbol:   variable INVOKESTATIC
+  location: class AbstractReturnTypeMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/AbstractReturnTypeMethodHandler.java:47: error: cannot find symbol
+    methodVisitor.visitTypeInsn(CHECKCAST, getInternalName());
+                                ^
+  symbol:   variable CHECKCAST
+  location: class AbstractReturnTypeMethodHandler
+hybrids/com.openpojo/openpojo/0.9.1/AbstractReturnTypeMethodHandler.java:48: error: cannot find symbol
+    methodVisitor.visitMethodInsn(INVOKEVIRTUAL,
+                                  ^
+  symbol:   variable INVOKEVIRTUAL
+  location: class AbstractReturnTypeMethodHandler
+9 errors

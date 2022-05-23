@@ -1,0 +1,60 @@
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:7: error: cannot find symbol
+import org.objectweb.asm.ClassVisitor;
+                        ^
+  symbol:   class ClassVisitor
+  location: package org.objectweb.asm
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:8: error: cannot find symbol
+import org.objectweb.asm.MethodVisitor;
+                        ^
+  symbol:   class MethodVisitor
+  location: package org.objectweb.asm
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:9: error: cannot find symbol
+import org.objectweb.asm.ClassAdapter;
+                        ^
+  symbol:   class ClassAdapter
+  location: package org.objectweb.asm
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:11: error: cannot find symbol
+public class StaticInitMerger extends ClassAdapter
+                                      ^
+  symbol: class ClassAdapter
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:14: error: cannot find symbol
+    private MethodVisitor clinit;
+            ^
+  symbol:   class MethodVisitor
+  location: class StaticInitMerger
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:18: error: cannot find symbol
+    public StaticInitMerger(final String prefix, final ClassVisitor classVisitor) {
+                                                       ^
+  symbol:   class ClassVisitor
+  location: class StaticInitMerger
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:28: error: cannot find symbol
+    public MethodVisitor visitMethod(final int n, final String s, final String s2, final String s3, final String[] array) {
+           ^
+  symbol:   class MethodVisitor
+  location: class StaticInitMerger
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:24: error: cannot find symbol
+        this.cv.visit(n, n2, name, s, s2, array);
+            ^
+  symbol: variable cv
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:29: error: cannot find symbol
+        MethodVisitor methodVisitor;
+        ^
+  symbol:   class MethodVisitor
+  location: class StaticInitMerger
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:33: error: cannot find symbol
+            methodVisitor = this.cv.visitMethod(n2, string, s2, s3, array);
+                                ^
+  symbol: variable cv
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:35: error: cannot find symbol
+                this.clinit = this.cv.visitMethod(n2, s, s2, (String)null, (String[])null);
+                                  ^
+  symbol: variable cv
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:40: error: cannot find symbol
+            methodVisitor = this.cv.visitMethod(n, s, s2, s3, array);
+                                ^
+  symbol: variable cv
+sources/structure/asm/asm-commons/2.2.3/Decompiled/org/objectweb/asm/commons/StaticInitMerger.java:50: error: cannot find symbol
+        this.cv.visitEnd();
+            ^
+  symbol: variable cv
+13 errors

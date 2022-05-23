@@ -1,0 +1,202 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:7: error: package com.google.gwt.thirdparty.streamhtmlparser does not exist
+import com.google.gwt.thirdparty.streamhtmlparser.ParseException;
+                                                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:8: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Preconditions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:10: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.UnableToCompleteException;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:11: error: package com.google.gwt.thirdparty.streamhtmlparser does not exist
+import com.google.gwt.thirdparty.streamhtmlparser.HtmlParserFactory;
+                                                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:12: error: package com.google.gwt.thirdparty.streamhtmlparser does not exist
+import com.google.gwt.thirdparty.streamhtmlparser.HtmlParser;
+                                                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:13: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:19: error: cannot find symbol
+    private final TreeLogger logger;
+                  ^
+  symbol:   class TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/safehtml/rebind/ParsedHtmlTemplate.java:18: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Preconditions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:21: error: cannot find symbol
+    private final HtmlParser streamHtmlParser;
+                  ^
+  symbol:   class HtmlParser
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:27: error: cannot find symbol
+    public HtmlTemplateParser(final TreeLogger logger) {
+                                    ^
+  symbol:   class TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:37: error: cannot find symbol
+    void parseTemplate(final String template) throws UnableToCompleteException {
+                                                     ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:70: error: cannot find symbol
+    private ParsedHtmlTemplate.HtmlContext getHtmlContextFromParseState() throws UnableToCompleteException {
+                                                                                 ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:133: error: cannot find symbol
+    private void parseAndAppendTemplateSegment(final String segment) throws UnableToCompleteException {
+                                                                            ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:30: error: cannot find symbol
+        this.streamHtmlParser = HtmlParserFactory.createParser();
+                                ^
+  symbol:   variable HtmlParserFactory
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:64: error: cannot find symbol
+        if (!this.streamHtmlParser.getState().equals(HtmlParser.STATE_TEXT)) {
+                                                     ^
+  symbol:   variable HtmlParser
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:65: error: cannot find symbol
+            this.logger.log(TreeLogger.ERROR, "Template does not end in inner-HTML context: " + template);
+                            ^
+  symbol:   variable TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:66: error: cannot find symbol
+            throw new UnableToCompleteException();
+                      ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:71: error: cannot find symbol
+        if (this.streamHtmlParser.getState().equals(HtmlParser.STATE_ERROR)) {
+                                                    ^
+  symbol:   variable HtmlParser
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:72: error: cannot find symbol
+            this.logger.log(TreeLogger.ERROR, "Parsing template resulted in parse error: " + this.getTemplateParsedSoFar());
+                            ^
+  symbol:   variable TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:73: error: cannot find symbol
+            throw new UnableToCompleteException();
+                      ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:76: error: cannot find symbol
+            this.logger.log(TreeLogger.ERROR, "Template variables in javascript context are not supported: " + this.getTemplateParsedSoFar());
+                            ^
+  symbol:   variable TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:77: error: cannot find symbol
+            throw new UnableToCompleteException();
+                      ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:79: error: cannot find symbol
+        if (this.streamHtmlParser.getState().equals(HtmlParser.STATE_COMMENT)) {
+                                                    ^
+  symbol:   variable HtmlParser
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:80: error: cannot find symbol
+            this.logger.log(TreeLogger.ERROR, "Template variables inside HTML comments are not supported: " + this.getTemplateParsedSoFar());
+                            ^
+  symbol:   variable TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:81: error: cannot find symbol
+            throw new UnableToCompleteException();
+                      ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:83: error: cannot find symbol
+        if (this.streamHtmlParser.getState().equals(HtmlParser.STATE_TEXT) && !this.streamHtmlParser.inCss()) {
+                                                    ^
+  symbol:   variable HtmlParser
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:86: error: cannot find symbol
+        if (this.streamHtmlParser.getState().equals(HtmlParser.STATE_VALUE)) {
+                                                    ^
+  symbol:   variable HtmlParser
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:89: error: cannot find symbol
+            Preconditions.checkState(!tag.equals(""), "streamHtmlParser.getTag() should not be empty  while in attribute value context; at %s", new Object[] { this.getTemplateParsedSoFar() });
+            ^
+  symbol:   variable Preconditions
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:90: error: cannot find symbol
+            Preconditions.checkState(!attribute.equals(""), "streamHtmlParser.getAttribute() should not be empty while in attribute value context; at %s", new Object[] { this.getTemplateParsedSoFar() });
+            ^
+  symbol:   variable Preconditions
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:92: error: cannot find symbol
+                this.logger.log(TreeLogger.ERROR, "Template variable in unquoted attribute value: " + this.getTemplateParsedSoFar());
+                                ^
+  symbol:   variable TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:93: error: cannot find symbol
+                throw new UnableToCompleteException();
+                          ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:96: error: cannot find symbol
+                this.logger.log(TreeLogger.ERROR, "Template variables in content attribute of meta tag are not supported: " + this.getTemplateParsedSoFar());
+                                ^
+  symbol:   variable TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:97: error: cannot find symbol
+                throw new UnableToCompleteException();
+                          ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:100: error: cannot find symbol
+                Preconditions.checkState(this.lookBehind == '\"' || this.lookBehind == '\'', "At the start of a quoted attribute, lookBehind should be a quote character; at %s", new Object[] { this.getTemplateParsedSoFar() });
+                ^
+  symbol:   variable Preconditions
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:120: error: cannot find symbol
+            if (this.streamHtmlParser.getState().equals(HtmlParser.STATE_TAG) || this.streamHtmlParser.inAttribute()) {
+                                                        ^
+  symbol:   variable HtmlParser
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:121: error: cannot find symbol
+                this.logger.log(TreeLogger.ERROR, "Template variables in tags or in attribute names are not supported: " + this.getTemplateParsedSoFar());
+                                ^
+  symbol:   variable TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:122: error: cannot find symbol
+                throw new UnableToCompleteException();
+                          ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:124: error: cannot find symbol
+            this.logger.log(TreeLogger.ERROR, "unhandeled/illegal parse state" + this.streamHtmlParser.getState());
+                            ^
+  symbol:   variable TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:125: error: cannot find symbol
+            throw new UnableToCompleteException();
+                      ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:137: error: cannot find symbol
+        catch (ParseException cause) {
+               ^
+  symbol:   class ParseException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:138: error: cannot find symbol
+            this.logger.log(TreeLogger.ERROR, "Parse exception when parsing segment '" + segment + "' of template '" + this.template + "'", (Throwable)cause);
+                            ^
+  symbol:   variable TreeLogger
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/rebind/HtmlTemplateParser.java:139: error: cannot find symbol
+            throw new UnableToCompleteException();
+                      ^
+  symbol:   class UnableToCompleteException
+  location: class HtmlTemplateParser
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/safehtml/rebind/ParsedHtmlTemplate.java:101: error: cannot find symbol
+      Preconditions.checkArgument((type != Type.TEXT)
+      ^
+  symbol:   variable Preconditions
+  location: class HtmlContext
+43 errors

@@ -1,0 +1,330 @@
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/ComponentHelper.java:10: error: cannot find symbol
+import org.apache.tools.ant.launch.Launcher;
+                                  ^
+  symbol:   class Launcher
+  location: package org.apache.tools.ant.launch
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:113: error: incompatible types: Object cannot be converted to Stack
+        Stack threadStack = this.threadStacks.get(Thread.currentThread());
+                                                 ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:133: error: incompatible types: Object cannot be converted to TimedElement
+        final TimedElement targetElement = this.targets.get(target);
+                                                           ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:140: error: incompatible types: Object cannot be converted to TimedElement
+                final TimedElement poppedStack = threadStack.pop();
+                                                                ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:145: error: incompatible types: Object cannot be converted to TimedElement
+                    parentElement = threadStack.peek();
+                                                    ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:175: error: incompatible types: Object cannot be converted to TimedElement
+        final TimedElement taskElement = this.tasks.get(task);
+                                                       ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:184: error: incompatible types: Object cannot be converted to TimedElement
+            targetElement = this.targets.get(target);
+                                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:194: error: incompatible types: Object cannot be converted to TimedElement
+            final TimedElement poppedStack = threadStack.pop();
+                                                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:203: error: incompatible types: Object cannot be converted to TimedElement
+        final TimedElement element = this.tasks.get(task);
+                                                   ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:209: error: incompatible types: Object cannot be converted to Task
+            final Task key = e.nextElement();
+                                          ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:211: error: incompatible types: Object cannot be converted to TimedElement
+                return this.tasks.get(key);
+                                     ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/XmlLogger.java:259: error: incompatible types: Object cannot be converted to TimedElement
+            parentElement = this.targets.get(target);
+                                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Task.java:185: error: incompatible types: Object cannot be converted to RuntimeConfigurable
+            final RuntimeConfigurable childWrapper = e.nextElement();
+                                                                  ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Target.java:73: error: incompatible types: Object cannot be converted to String
+            this.addDependency(iter.next());
+                                        ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Target.java:122: error: incompatible types: Object[] cannot be converted to Task[]
+        return tasks.toArray(new Task[tasks.size()]);
+                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/RuntimeConfigurable.java:124: error: incompatible types: Object cannot be converted to RuntimeConfigurable
+        return this.children.get(index);
+                                ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/RuntimeConfigurable.java:168: error: incompatible types: Object cannot be converted to Entry
+            for (final Map.Entry entry : this.attributeMap.entrySet()) {
+                                                                   ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/RuntimeConfigurable.java:169: error: incompatible types: Object cannot be converted to String
+                final String name = entry.getKey();
+                                                ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/RuntimeConfigurable.java:170: error: incompatible types: Object cannot be converted to String
+                final String value = entry.getValue();
+                                                   ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/RuntimeConfigurable.java:208: error: incompatible types: Object cannot be converted to String
+            for (final String name : r.attributeMap.keySet()) {
+                                                          ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/RuntimeConfigurable.java:210: error: incompatible types: Object cannot be converted to String
+                    this.setAttribute(name, r.attributeMap.get(name));
+                                                              ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/UnknownElement.java:170: error: incompatible types: Object cannot be converted to UnknownElement
+                final UnknownElement child = it.next();
+                                                    ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/UnknownElement.java:350: error: incompatible types: Object cannot be converted to UnknownElement
+            final UnknownElement child = this.children.get(i);
+                                                          ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/UnknownElement.java:381: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry entry : m.entrySet()) {
+                                               ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/UnknownElement.java:382: error: incompatible types: Object cannot be converted to String
+            copyRC.setAttribute(entry.getKey(), entry.getValue());
+                                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/UnknownElement.java:387: error: incompatible types: Object cannot be converted to RuntimeConfigurable
+            final RuntimeConfigurable r = e.nextElement();
+                                                       ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/FilterSetCollection.java:31: error: incompatible types: Object cannot be converted to FilterSet
+            final FilterSet filterSet = e.nextElement();
+                                                     ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/FilterSetCollection.java:40: error: incompatible types: Object cannot be converted to FilterSet
+            final FilterSet filterSet = e.nextElement();
+                                                     ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:395: error: incompatible types: Object cannot be converted to String
+            final String propertyName = e.nextElement();
+                                                     ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:531: error: incompatible types: Object[] cannot be converted to String[]
+        this.getExecutor().executeTargets(this, names.toArray(new String[names.size()]));
+                                                             ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:589: error: incompatible types: Object cannot be converted to Target
+            final Target curtarget = iter.nextElement();
+                                                     ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:593: error: incompatible types: Object cannot be converted to String
+                final String dependencyName = depIter.nextElement();
+                                                                 ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:723: error: incompatible types: Object cannot be converted to String
+            final String st = state.get(root[i]);
+                                       ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:740: error: incompatible types: Object cannot be converted to String
+            final String curTarget = en.nextElement();
+                                                   ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:741: error: incompatible types: Object cannot be converted to String
+            final String st2 = state.get(curTarget);
+                                        ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:759: error: incompatible types: Object cannot be converted to Target
+        final Target target = targetTable.get(root);
+                                             ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:768: error: incompatible types: Object cannot be converted to String
+                final String parent = visiting.peek();
+                                                   ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:777: error: incompatible types: Object cannot be converted to String
+            final String cur = en.nextElement();
+                                             ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:778: error: incompatible types: Object cannot be converted to String
+            final String m = state.get(cur);
+                                      ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:789: error: incompatible types: Object cannot be converted to String
+        final String p = visiting.pop();
+                                     ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:802: error: incompatible types: Object cannot be converted to String
+            c = stk.pop();
+                       ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:1009: error: incompatible types: Object cannot be converted to Task
+            Task task = this.threadTasks.get(thread);
+                                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Project.java:1011: error: incompatible types: Object cannot be converted to Task
+                for (ThreadGroup group = thread.getThreadGroup(); task == null && group != null; task = this.threadGroupTasks.get(group), group = group.getParent()) {}
+                                                                                                                                 ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/FilterSet.java:69: error: incompatible types: Object cannot be converted to File
+                this.readFiltersFromFile(this.filtersFiles.get(i));
+                                                              ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/FilterSet.java:90: error: incompatible types: Object cannot be converted to Filter
+                final Filter filter = e.nextElement();
+                                                   ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/FilterSet.java:163: error: incompatible types: Object cannot be converted to String
+                    final String strPropName = e.nextElement();
+                                                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/FilterSet.java:213: error: incompatible types: Object cannot be converted to Filter
+            this.addFilter(e.nextElement());
+                                        ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/FilterSet.java:263: error: incompatible types: Object cannot be converted to String
+                        value = tokens.get(token);
+                                          ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/FilterSet.java:307: error: incompatible types: Object cannot be converted to String
+                value = this.passedTokens.remove(this.passedTokens.size() - 1);
+                                                ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/EnumeratedAttribute.java:26: error: incompatible types: Object cannot be converted to EnumeratedAttribute
+            ea = clazz.newInstance();
+                                  ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:212: error: incompatible types: Object cannot be converted to String
+        String classpath = AntClassLoader.pathMap.get(absPathPlusTimeAndLength);
+                                                     ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:265: error: cannot find symbol
+            sb.append(componentEnum.nextElement().getAbsolutePath());
+                                                 ^
+  symbol:   method getAbsolutePath()
+  location: class Object
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:346: error: incompatible types: Object cannot be converted to File
+            pathComponent = e.nextElement();
+                                         ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:357: error: incompatible types: Object cannot be converted to JarFile
+            JarFile jarFile = this.jarFiles.get(file);
+                                               ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:371: error: incompatible types: Object cannot be converted to JarFile
+                    jarFile = this.jarFiles.get(file);
+                                               ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:389: error: incompatible types: Object cannot be converted to String
+            final String packageName = e.nextElement();
+                                                    ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:397: error: incompatible types: Object cannot be converted to String
+            final String packageName = e.nextElement();
+                                                    ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:423: error: incompatible types: Object cannot be converted to File
+                final File pathComponent = e.nextElement();
+                                                        ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:475: error: incompatible types: Object cannot be converted to JarFile
+            JarFile jarFile = this.jarFiles.get(file);
+                                               ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:494: error: incompatible types: Object cannot be converted to JarFile
+                    jarFile = this.jarFiles.get(file);
+                                               ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:585: error: incompatible types: Object cannot be converted to JarFile
+        final JarFile jarFile = this.jarFiles.get(container);
+                                                 ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:596: error: incompatible types: Object cannot be converted to JarFile
+        final JarFile jarFile = this.jarFiles.get(container);
+                                                 ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:683: error: incompatible types: Object cannot be converted to File
+                final File pathComponent = e.nextElement();
+                                                        ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:713: error: incompatible types: Object cannot be converted to JarFile
+            final JarFile jarFile = e.nextElement();
+                                                 ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:765: error: incompatible types: Object cannot be converted to String
+            final String packageName = e.nextElement();
+                                                    ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/AntClassLoader.java:820: error: incompatible types: Object cannot be converted to File
+                    final File pathComponent = AntClassLoader.this.pathComponents.elementAt(this.pathElementsIndex);
+                                                                                           ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java:83: error: incompatible types: Object cannot be converted to ResourceCollection
+                this.add(i.next());
+                               ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java:113: error: cannot find symbol
+        for (Iterator i = this.rc.iterator(); goEarly && i.hasNext(); goEarly = i.next().isFilesystemOnly()) {}
+                                                                                        ^
+  symbol:   method isFilesystemOnly()
+  location: class Object
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java:117: error: incompatible types: Object cannot be converted to Resource
+        for (final Resource r : this.cacheCollection()) {
+                                                    ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/resources/Union.java:43: error: incompatible types: Object[] cannot be converted to String[]
+        return result.toArray(new String[result.size()]);
+                             ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/resources/Union.java:51: error: incompatible types: Object[] cannot be converted to Resource[]
+        return result.toArray(new Resource[result.size()]);
+                             ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/resources/Union.java:66: error: for-each not applicable to expression type
+            for (Object o : nextRC(rcIter)) {
+                                  ^
+  required: array or java.lang.Iterable
+  found:    ResourceCollection
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/resources/Union.java:77: error: incompatible types: Object cannot be converted to ResourceCollection
+        return i.next();
+                     ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/AbstractFileSet.java:373: error: incompatible types: Object cannot be converted to PatternSet
+            final PatternSet ps = e.nextElement();
+                                               ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/AbstractFileSet.java:394: error: incompatible types: Object[] cannot be converted to FileSelector[]
+        return this.selectors.toArray(new FileSelector[this.selectors.size()]);
+                                     ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/AbstractFileSet.java:525: error: clone() has protected access in Object
+                fs.additionalPatterns.addElement(e.nextElement().clone());
+                                                                ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/AbstractFileSet.java:569: error: incompatible types: Object cannot be converted to PatternSet
+            for (final PatternSet ps : this.additionalPatterns) {
+                                           ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/FileList.java:90: error: incompatible types: Object[] cannot be converted to String[]
+        return new FileResourceIterator(this.getProject(), this.dir, this.filenames.toArray(new String[this.filenames.size()]));
+                                                                                           ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/PatternSet.java:206: error: incompatible types: Object cannot be converted to PatternSet.NameEntry
+            final NameEntry ne = e.nextElement();
+                                              ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/PatternSet.java:221: error: incompatible types: Object cannot be converted to PatternSet.NameEntry
+                final NameEntry ne = e.nextElement();
+                                                  ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/PatternSet.java:236: error: incompatible types: Object cannot be converted to PatternSet.NameEntry
+                final NameEntry ne = e.nextElement();
+                                                  ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:118: error: incompatible types: Object[] cannot be converted to String[]
+        return DirectoryScanner.defaultExcludes.toArray(new String[DirectoryScanner.defaultExcludes.size()]);
+                                                       ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:321: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry entry : this.includeNonPatterns.entrySet()) {
+                                                                     ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:322: error: incompatible types: Object cannot be converted to String
+            final String pattern2 = entry.getKey();
+                                                ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:342: error: incompatible types: Object cannot be converted to Entry
+                final Map.Entry entry2 = it.next();
+                                                ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:343: error: incompatible types: Object cannot be converted to TokenizedPath
+                TokenizedPath currentPath = entry2.getKey();
+                                                         ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:392: error: incompatible types: Object cannot be converted to String
+                    final String originalpattern = entry2.getValue();
+                                                                  ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:533: error: incompatible types: Object[] cannot be converted to String[]
+            newfiles = noLinks.toArray(new String[noLinks.size()]);
+                                      ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:651: error: cannot find symbol
+            if (this.couldHoldIncluded(tokenizedName, iter.next().toPattern())) {
+                                                                 ^
+  symbol:   method toPattern()
+  location: class Object
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:806: error: incompatible types: Object[] cannot be converted to String[]
+            links = this.notFollowedSymlinks.toArray(new String[this.notFollowedSymlinks.size()]);
+                                                    ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:864: error: incompatible types: Object[] cannot be converted to TokenizedPattern[]
+        return al.toArray(new TokenizedPattern[al.size()]);
+                         ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/DirectoryScanner.java:878: error: incompatible types: Object cannot be converted to String
+                    final String dir = i.next();
+                                             ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/selectors/SelectSelector.java:113: error: incompatible types: Object cannot be converted to FileSelector
+        final FileSelector f = e.nextElement();
+                                            ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/selectors/AndSelector.java:26: error: cannot find symbol
+            final boolean result = e.nextElement().isSelected(basedir, filename, file);
+                                                  ^
+  symbol:   method isSelected(File,String,File)
+  location: class Object
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/selectors/OrSelector.java:26: error: cannot find symbol
+            final boolean result = e.nextElement().isSelected(basedir, filename, file);
+                                                  ^
+  symbol:   method isSelected(File,String,File)
+  location: class Object
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/selectors/NoneSelector.java:26: error: cannot find symbol
+            final boolean result = e.nextElement().isSelected(basedir, filename, file);
+                                                  ^
+  symbol:   method isSelected(File,String,File)
+  location: class Object
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/selectors/MajoritySelector.java:38: error: cannot find symbol
+            final boolean result = e.nextElement().isSelected(basedir, filename, file);
+                                                  ^
+  symbol:   method isSelected(File,String,File)
+  location: class Object
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/selectors/ExtendSelector.java:45: error: incompatible types: Object cannot be converted to FileSelector
+                this.dynselector = c.newInstance();
+                                                ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java:105: error: incompatible types: Object cannot be converted to Parameter
+        for (final Parameter par : this.configParameter) {
+                                       ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java:156: error: incompatible types: Object cannot be converted to Parameter
+        for (final Parameter par : this.specialParameter) {
+                                       ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/ant/Diagnostics.java:314: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            method.invoke(null, new String[0]);
+                                ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors
+1 warning

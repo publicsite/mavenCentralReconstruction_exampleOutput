@@ -1,0 +1,107 @@
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:23: error: cannot find symbol
+import org.apache.tools.ant.BuildException;
+                           ^
+  symbol:   class BuildException
+  location: package org.apache.tools.ant
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:24: error: cannot find symbol
+import org.apache.tools.ant.Project;
+                           ^
+  symbol:   class Project
+  location: package org.apache.tools.ant
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:25: error: cannot find symbol
+import org.apache.tools.ant.ProjectComponent;
+                           ^
+  symbol:   class ProjectComponent
+  location: package org.apache.tools.ant
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:26: error: package org.apache.tools.ant.taskdefs.condition does not exist
+import org.apache.tools.ant.taskdefs.condition.Condition;
+                                              ^
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:27: error: cannot find symbol
+import org.apache.tools.ant.types.Resource;
+                                 ^
+  symbol:   class Resource
+  location: package org.apache.tools.ant.types
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:35: error: cannot find symbol
+public class ResourceExists extends ProjectComponent implements Condition {
+                                    ^
+  symbol: class ProjectComponent
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:35: error: cannot find symbol
+public class ResourceExists extends ProjectComponent implements Condition {
+                                                                ^
+  symbol: class Condition
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:36: error: cannot find symbol
+    private Resource resource;
+            ^
+  symbol:   class Resource
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:46: error: cannot find symbol
+    public void setResource(Resource r) {
+                            ^
+  symbol:   class Resource
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:68: error: cannot find symbol
+    public void add(Resource r) {
+                    ^
+  symbol:   class Resource
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:88: error: cannot find symbol
+    private Resource expandRefId() {
+            ^
+  symbol:   class Resource
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:74: error: cannot find symbol
+            throw new BuildException("You must specify a resource.");
+                      ^
+  symbol:   class BuildException
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:76: error: cannot find symbol
+        Resource r = resource != null ? resource : expandRefId();
+        ^
+  symbol:   class Resource
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:77: error: cannot find symbol
+        log("Checking: " + r, Project.MSG_VERBOSE);
+                              ^
+  symbol:   variable Project
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:83: error: cannot find symbol
+            throw new BuildException("Only one resource can be tested.");
+                      ^
+  symbol:   class BuildException
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:89: error: cannot find symbol
+        if (getProject() == null) {
+            ^
+  symbol:   method getProject()
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:90: error: cannot find symbol
+            throw new BuildException("Cannot retrieve refid; project unset");
+                      ^
+  symbol:   class BuildException
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:92: error: cannot find symbol
+        Object o = getProject().getReference(refid);
+                   ^
+  symbol:   method getProject()
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:93: error: cannot find symbol
+        if (!(o instanceof Resource)) {
+                           ^
+  symbol:   class Resource
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:99: error: cannot find symbol
+                    throw new BuildException("Referred resource collection must"
+                              ^
+  symbol:   class BuildException
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:103: error: cannot find symbol
+                throw new BuildException("'" + refid + "' is not a resource but "
+                          ^
+  symbol:   class BuildException
+  location: class ResourceExists
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/ResourceExists.java:107: error: cannot find symbol
+        return (Resource) o;
+                ^
+  symbol:   class Resource
+  location: class ResourceExists
+22 errors

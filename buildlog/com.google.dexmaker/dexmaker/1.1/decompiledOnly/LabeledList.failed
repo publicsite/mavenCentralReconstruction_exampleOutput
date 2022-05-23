@@ -1,0 +1,51 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:9: error: cannot find symbol
+public class LabeledList extends FixedSizeList
+                                 ^
+  symbol: class FixedSizeList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:21: error: cannot find symbol
+        for (int sz = old.size(), i = 0; i < sz; ++i) {
+                         ^
+  symbol:   method size()
+  location: variable old of type LabeledList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:22: error: cannot find symbol
+            final Object one = old.get0(i);
+                                  ^
+  symbol:   method get0(int)
+  location: variable old of type LabeledList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:24: error: cannot find symbol
+                this.set0(i, one);
+                    ^
+  symbol: method set0(int,Object)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:57: error: cannot find symbol
+        final int sz = this.size();
+                           ^
+  symbol: method size()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:60: error: cannot find symbol
+            final LabeledItem li = (LabeledItem)this.get0(i);
+                                                    ^
+  symbol: method get0(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:70: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:72: error: cannot find symbol
+        super.shrinkToFit();
+        ^
+  symbol:   variable super
+  location: class LabeledList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:77: error: cannot find symbol
+        for (int szItems = this.size(), i = 0; i < szItems; ++i) {
+                               ^
+  symbol: method size()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:78: error: cannot find symbol
+            final LabeledItem li = (LabeledItem)this.get0(i);
+                                                    ^
+  symbol: method get0(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:86: error: cannot find symbol
+        final LabeledItem old = (LabeledItem)this.getOrNull0(n);
+                                                 ^
+  symbol: method getOrNull0(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/util/LabeledList.java:87: error: cannot find symbol
+        this.set0(n, item);
+            ^
+  symbol: method set0(int,LabeledItem)
+12 errors

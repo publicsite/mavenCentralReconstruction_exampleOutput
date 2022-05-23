@@ -1,0 +1,53 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3546: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3554: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/ByteBuddy.java:87: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+        this(classFileVersion, new NamingStrategy.SuffixingRandom("ByteBuddy"), new AuxiliaryType.NamingStrategy.SuffixingRandom("auxiliary"), AnnotationValueFilter.Default.APPEND_DEFAULTS, AnnotationRetention.ENABLED, Implementation.Context.Default.Factory.INSTANCE, MethodGraph.Compiler.DEFAULT, InstrumentedType.Factory.Default.MODIFIABLE, TypeValidation.ENABLED, ClassWriterStrategy.Default.CONSTANT_POOL_RETAINING, new LatentMatcher.Resolved<Object>(ElementMatchers.isSynthetic().or((ElementMatcher<? super Object>)ElementMatchers.isDefaultFinalizer())));
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/ByteBuddy.java:142: error: incompatible types: List<Object> cannot be converted to Collection<? extends TypeDefinition>
+        return this.makeInterface((Collection<? extends TypeDefinition>)Collections.emptyList());
+                                                                                             ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/ByteBuddy.java:182: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+        return (DynamicType.Builder<? extends Enum<?>>)new SubclassDynamicTypeBuilder(this.instrumentedTypeFactory.subclass(this.namingStrategy.subclass(enumType), ModifierContributor.Resolver.of(Visibility.PUBLIC, TypeManifestation.FINAL, EnumerationState.ENUMERATION).resolve(), enumType), this.classFileVersion, this.auxiliaryTypeNamingStrategy, this.annotationValueFilterFactory, this.annotationRetention, this.implementationContextFactory, this.methodGraphCompiler, this.typeValidation, this.classWriterStrategy, this.ignoredMethods, ConstructorStrategy.Default.NO_CONSTRUCTORS).defineConstructor(Visibility.PRIVATE).withParameters(String.class, Integer.TYPE).intercept(SuperMethodCall.INSTANCE).defineMethod("valueOf", TargetType.class, Visibility.PUBLIC, Ownership.STATIC).withParameters(String.class).intercept(MethodCall.invoke((MethodDescription)enumType.getDeclaredMethods().filter(ElementMatchers.named("valueOf").and((ElementMatcher<? super Object>)ElementMatchers.takesArguments(Class.class, String.class))).getOnly()).withOwnType().withArgument(0).withAssigner(Assigner.DEFAULT, Assigner.Typing.DYNAMIC)).defineMethod("values", TargetType[].class, Visibility.PUBLIC, Ownership.STATIC).intercept(new EnumerationImplementation(new ArrayList<String>(values)));
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/ByteBuddy.java:287: error: incompatible types: ElementMatcher<CAP#1> cannot be converted to ElementMatcher<? super Object>
+        return this.ignore(new LatentMatcher.Resolved<Object>(ignoredMethods));
+                                                              ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: MethodDescription from capture of ? super MethodDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/ByteBuddy.java:376: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+                final MethodDescription enumConstructor = (MethodDescription)instrumentedType.getDeclaredMethods().filter(ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.takesArguments(String.class, Integer.TYPE))).getOnly();
+                                                                                                                                                                                                                            ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/ByteBuddy.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+12 errors

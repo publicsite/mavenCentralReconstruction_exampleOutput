@@ -1,0 +1,74 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:22: error: package org.springframework.core.io does not exist
+import org.springframework.core.io.Resource;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:23: error: package org.springframework.core.io does not exist
+import org.springframework.core.io.ResourceLoader;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:24: error: package org.springframework.core.io.support does not exist
+import org.springframework.core.io.support.ResourcePatternUtils;
+                                          ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:25: error: package org.springframework.util does not exist
+import org.springframework.util.ClassUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:26: error: package org.springframework.util does not exist
+import org.springframework.util.ResourceUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:27: error: package org.springframework.util does not exist
+import org.springframework.util.StringUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:99: error: cannot find symbol
+	public static Resource[] convertToResources(ResourceLoader resourceLoader, String... paths) {
+	                                            ^
+  symbol:   class ResourceLoader
+  location: class TestContextResourceUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:99: error: cannot find symbol
+	public static Resource[] convertToResources(ResourceLoader resourceLoader, String... paths) {
+	              ^
+  symbol:   class Resource
+  location: class TestContextResourceUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:77: error: cannot find symbol
+				convertedPaths[i] = ResourceUtils.CLASSPATH_URL_PREFIX + path;
+				                    ^
+  symbol:   variable ResourceUtils
+  location: class TestContextResourceUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:79: error: cannot find symbol
+			else if (!ResourcePatternUtils.isUrl(path)) {
+			          ^
+  symbol:   variable ResourcePatternUtils
+  location: class TestContextResourceUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:80: error: cannot find symbol
+				convertedPaths[i] = ResourceUtils.CLASSPATH_URL_PREFIX + SLASH
+				                    ^
+  symbol:   variable ResourceUtils
+  location: class TestContextResourceUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:81: error: cannot find symbol
+						+ StringUtils.cleanPath(ClassUtils.classPackageAsResourcePath(clazz) + SLASH + path);
+						                        ^
+  symbol:   variable ClassUtils
+  location: class TestContextResourceUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:81: error: cannot find symbol
+						+ StringUtils.cleanPath(ClassUtils.classPackageAsResourcePath(clazz) + SLASH + path);
+						  ^
+  symbol:   variable StringUtils
+  location: class TestContextResourceUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:84: error: cannot find symbol
+				convertedPaths[i] = StringUtils.cleanPath(path);
+				                    ^
+  symbol:   variable StringUtils
+  location: class TestContextResourceUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:100: error: cannot find symbol
+		List<Resource> list = new ArrayList<Resource>();
+		     ^
+  symbol:   class Resource
+  location: class TestContextResourceUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:100: error: cannot find symbol
+		List<Resource> list = new ArrayList<Resource>();
+		                                    ^
+  symbol:   class Resource
+  location: class TestContextResourceUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/TestContextResourceUtils.java:104: error: cannot find symbol
+		return list.toArray(new Resource[list.size()]);
+		                        ^
+  symbol:   class Resource
+  location: class TestContextResourceUtils
+17 errors

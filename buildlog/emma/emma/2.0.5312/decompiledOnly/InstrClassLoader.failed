@@ -1,0 +1,45 @@
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/rt/InstrClassLoader.java:122: error: incompatible types: bad type in conditional expression
+        final ClassPathCacheEntry entry = useClassCache ? this.m_cache.remove(name) : null;
+                                                                             ^
+    Object cannot be converted to ClassPathCacheEntry
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/filter/IInclExclFilter.java:136: error: incompatible types: Object cannot be converted to String
+                    for (final String pattern : inclusions) {
+                                                ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/filter/IInclExclFilter.java:147: error: incompatible types: Object cannot be converted to String
+                    for (final String pattern : exclusions) {
+                                                ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/logging/Logger.java:123: error: incompatible types: Object cannot be converted to LinkedList
+        final LinkedList stack = Logger.THREAD_LOCAL_STACK.get();
+                                                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/logging/Logger.java:127: error: incompatible types: Object cannot be converted to Logger
+        return stack.getLast();
+                            ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/logging/Logger.java:134: error: incompatible types: Object cannot be converted to LinkedList
+        final LinkedList stack = Logger.THREAD_LOCAL_STACK.get();
+                                                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/logging/Logger.java:139: error: incompatible types: Object cannot be converted to LinkedList
+        final LinkedList stack = Logger.THREAD_LOCAL_STACK.get();
+                                                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/logging/Logger.java:141: error: incompatible types: Object cannot be converted to Logger
+            final Logger current = stack.getLast();
+                                                ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/Property.java:42: error: incompatible types: Object cannot be converted to String
+                final String n = overrideNames.nextElement();
+                                                          ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/XProperties.java:30: error: incompatible types: Object cannot be converted to String
+        for (final String n : _propertyNames) {
+                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/XProperties.java:42: error: incompatible types: Object cannot be converted to String
+        for (final String n : _propertyNames) {
+                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/Property.java:272: error: incompatible types: Object cannot be converted to String
+                        final String n = e.nextElement();
+                                                      ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/util/Property.java:311: error: incompatible types: Object cannot be converted to String
+                final String redirect = this.m_systemRedirects.get(key);
+                                                                  ^
+Note: sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/emma/rt/InstrClassLoader.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+13 errors

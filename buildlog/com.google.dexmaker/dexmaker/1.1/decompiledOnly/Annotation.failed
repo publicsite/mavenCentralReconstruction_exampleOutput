@@ -1,0 +1,132 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:10: error: package com.google.dexmaker.dx.rop.cst does not exist
+import com.google.dexmaker.dx.rop.cst.Constant;
+                                     ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:11: error: package com.google.dexmaker.dx.rop.cst does not exist
+import com.google.dexmaker.dx.rop.cst.CstString;
+                                     ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:13: error: package com.google.dexmaker.dx.rop.cst does not exist
+import com.google.dexmaker.dx.rop.cst.CstType;
+                                     ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:15: error: cannot find symbol
+import com.google.dexmaker.dx.util.MutabilityControl;
+                                  ^
+  symbol:   class MutabilityControl
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:17: error: cannot find symbol
+public final class Annotation extends MutabilityControl implements Comparable<Annotation>, ToHuman
+                                      ^
+  symbol: class MutabilityControl
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:19: error: cannot find symbol
+    private final CstType type;
+                  ^
+  symbol:   class CstType
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:20: error: cannot find symbol
+    private final AnnotationVisibility visibility;
+                  ^
+  symbol:   class AnnotationVisibility
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:21: error: cannot find symbol
+    private final TreeMap<CstString, NameValuePair> elements;
+                          ^
+  symbol:   class CstString
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:21: error: cannot find symbol
+    private final TreeMap<CstString, NameValuePair> elements;
+                                     ^
+  symbol:   class NameValuePair
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:23: error: cannot find symbol
+    public Annotation(final CstType type, final AnnotationVisibility visibility) {
+                            ^
+  symbol:   class CstType
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:23: error: cannot find symbol
+    public Annotation(final CstType type, final AnnotationVisibility visibility) {
+                                                ^
+  symbol:   class AnnotationVisibility
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:107: error: cannot find symbol
+    public CstType getType() {
+           ^
+  symbol:   class CstType
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:111: error: cannot find symbol
+    public AnnotationVisibility getVisibility() {
+           ^
+  symbol:   class AnnotationVisibility
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:115: error: cannot find symbol
+    public void put(final NameValuePair pair) {
+                          ^
+  symbol:   class NameValuePair
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:123: error: cannot find symbol
+    public void add(final NameValuePair pair) {
+                          ^
+  symbol:   class NameValuePair
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:135: error: cannot find symbol
+    public Collection<NameValuePair> getNameValuePairs() {
+                      ^
+  symbol:   class NameValuePair
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:32: error: cannot find symbol
+        this.elements = new TreeMap<CstString, NameValuePair>();
+                                    ^
+  symbol:   class CstString
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:32: error: cannot find symbol
+        this.elements = new TreeMap<CstString, NameValuePair>();
+                                               ^
+  symbol:   class NameValuePair
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:53: error: cannot find symbol
+        int result = this.type.compareTo((Constant)other.type);
+                                          ^
+  symbol:   class Constant
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:61: error: cannot find symbol
+        final Iterator<NameValuePair> thisIter = this.elements.values().iterator();
+                       ^
+  symbol:   class NameValuePair
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:62: error: cannot find symbol
+        final Iterator<NameValuePair> otherIter = other.elements.values().iterator();
+                       ^
+  symbol:   class NameValuePair
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:64: error: cannot find symbol
+            final NameValuePair thisOne = thisIter.next();
+                  ^
+  symbol:   class NameValuePair
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:65: error: cannot find symbol
+            final NameValuePair otherOne = otherIter.next();
+                  ^
+  symbol:   class NameValuePair
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:92: error: cannot find symbol
+        for (final NameValuePair pair : this.elements.values()) {
+                   ^
+  symbol:   class NameValuePair
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:116: error: cannot find symbol
+        this.throwIfImmutable();
+            ^
+  symbol: method throwIfImmutable()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:124: error: cannot find symbol
+        this.throwIfImmutable();
+            ^
+  symbol: method throwIfImmutable()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:128: error: cannot find symbol
+        final CstString name = pair.getName();
+              ^
+  symbol:   class CstString
+  location: class Annotation
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/Annotation.java:136: error: cannot find symbol
+        return Collections.unmodifiableCollection((Collection<? extends NameValuePair>)this.elements.values());
+                                                                        ^
+  symbol:   class NameValuePair
+  location: class Annotation
+28 errors

@@ -1,0 +1,58 @@
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:7: error: package edu.emory.mathcs.backport.java.util.concurrent does not exist
+import edu.emory.mathcs.backport.java.util.concurrent.ThreadFactory;
+                                                     ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:8: error: package edu.emory.mathcs.backport.java.util.concurrent does not exist
+import edu.emory.mathcs.backport.java.util.concurrent.ScheduledFuture;
+                                                     ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:9: error: package edu.emory.mathcs.backport.java.util.concurrent does not exist
+import edu.emory.mathcs.backport.java.util.concurrent.TimeUnit;
+                                                     ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:11: error: package edu.emory.mathcs.backport.java.util.concurrent does not exist
+import edu.emory.mathcs.backport.java.util.concurrent.ScheduledThreadPoolExecutor;
+                                                     ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:15: error: cannot find symbol
+    public static ScheduledThreadPoolExecutor clockDaemon;
+                  ^
+  symbol:   class ScheduledThreadPoolExecutor
+  location: class Scheduler
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:19: error: cannot find symbol
+        final ScheduledFuture ticket = Scheduler.clockDaemon.scheduleAtFixedRate(task, period, period, TimeUnit.MILLISECONDS);
+              ^
+  symbol:   class ScheduledFuture
+  location: class Scheduler
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:19: error: cannot find symbol
+        final ScheduledFuture ticket = Scheduler.clockDaemon.scheduleAtFixedRate(task, period, period, TimeUnit.MILLISECONDS);
+                                                                                                       ^
+  symbol:   variable TimeUnit
+  location: class Scheduler
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:24: error: cannot find symbol
+        final ScheduledFuture ticket = Scheduler.clockTickets.remove(task);
+              ^
+  symbol:   class ScheduledFuture
+  location: class Scheduler
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:31: error: cannot find symbol
+        Scheduler.clockDaemon.schedule(task, redeliveryDelay, TimeUnit.MILLISECONDS);
+                                                              ^
+  symbol:   variable TimeUnit
+  location: class Scheduler
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:41: error: cannot find symbol
+        })).setKeepAliveTime(5L, TimeUnit.SECONDS);
+                                 ^
+  symbol:   variable TimeUnit
+  location: class Scheduler
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:35: error: cannot find symbol
+        (Scheduler.clockDaemon = new ScheduledThreadPoolExecutor(5, (ThreadFactory)new ThreadFactory() {
+                                     ^
+  symbol:   class ScheduledThreadPoolExecutor
+  location: class Scheduler
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:35: error: cannot find symbol
+        (Scheduler.clockDaemon = new ScheduledThreadPoolExecutor(5, (ThreadFactory)new ThreadFactory() {
+                                                                     ^
+  symbol:   class ThreadFactory
+  location: class Scheduler
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/thread/Scheduler.java:35: error: cannot find symbol
+        (Scheduler.clockDaemon = new ScheduledThreadPoolExecutor(5, (ThreadFactory)new ThreadFactory() {
+                                                                                       ^
+  symbol:   class ThreadFactory
+  location: class Scheduler
+13 errors

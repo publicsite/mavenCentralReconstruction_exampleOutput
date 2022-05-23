@@ -1,0 +1,80 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:10: error: package org.quartz does not exist
+import org.quartz.JobDetail;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:14: error: package org.quartz does not exist
+import org.quartz.SimpleTrigger;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:16: error: cannot find symbol
+public class SimpleTriggerBean extends SimpleTrigger implements JobDetailAwareTrigger, BeanNameAware, InitializingBean
+                                       ^
+  symbol: class SimpleTrigger
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/JobDetailAwareTrigger.java:19: error: package org.quartz does not exist
+import org.quartz.JobDetail;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:20: error: cannot find symbol
+    private JobDetail jobDetail;
+            ^
+  symbol:   class JobDetail
+  location: class SimpleTriggerBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:46: error: cannot find symbol
+    public void setJobDetail(final JobDetail jobDetail) {
+                                   ^
+  symbol:   class JobDetail
+  location: class SimpleTriggerBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:50: error: cannot find symbol
+    public JobDetail getJobDetail() {
+           ^
+  symbol:   class JobDetail
+  location: class SimpleTriggerBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/JobDetailAwareTrigger.java:45: error: cannot find symbol
+	JobDetail getJobDetail();
+	^
+  symbol:   class JobDetail
+  location: interface JobDetailAwareTrigger
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:25: error: cannot find symbol
+        this.setRepeatCount(SimpleTriggerBean.REPEAT_INDEFINITELY);
+                                             ^
+  symbol:   variable REPEAT_INDEFINITELY
+  location: class SimpleTriggerBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:29: error: cannot find symbol
+        this.getJobDataMap().putAll(jobDataAsMap);
+            ^
+  symbol: method getJobDataMap()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:33: error: cannot find symbol
+        this.setMisfireInstruction(SimpleTriggerBean.constants.asNumber(constantName).intValue());
+            ^
+  symbol: method setMisfireInstruction(int)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:38: error: cannot find symbol
+            this.addTriggerListener(names[i]);
+                ^
+  symbol: method addTriggerListener(String)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:59: error: cannot find symbol
+        if (this.getName() == null) {
+                ^
+  symbol: method getName()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:60: error: cannot find symbol
+            this.setName(this.beanName);
+                ^
+  symbol: method setName(String)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:62: error: cannot find symbol
+        if (this.getGroup() == null) {
+                ^
+  symbol: method getGroup()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:63: error: cannot find symbol
+            this.setGroup("DEFAULT");
+                ^
+  symbol: method setGroup(String)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:65: error: cannot find symbol
+        if (this.getStartTime() == null) {
+                ^
+  symbol: method getStartTime()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:66: error: cannot find symbol
+            this.setStartTime(new Date(System.currentTimeMillis() + this.startDelay));
+                ^
+  symbol: method setStartTime(Date)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleTriggerBean.java:75: error: cannot find symbol
+        constants = new Constants(SimpleTrigger.class);
+                                  ^
+  symbol:   class SimpleTrigger
+  location: class SimpleTriggerBean
+19 errors

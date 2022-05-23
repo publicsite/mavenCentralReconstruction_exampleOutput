@@ -1,0 +1,10 @@
+sources/structure/org.hamcrest/hamcrest/2.2-rc1/extractedSources/org/hamcrest/collection/IsIterableContainingInRelativeOrder.java:102: error: incompatible types: inference variable E#1 has incompatible bounds
+        return containsInRelativeOrder(asList(itemMatchers));
+                                      ^
+    equality constraints: E#2
+    lower bounds: List<T>
+  where E#1,E#2,T are type-variables:
+    E#1 extends Object declared in method <E#1>containsInRelativeOrder(E#1...)
+    E#2 extends Object declared in method <E#2>containsInRelativeOrder(Matcher<? super E#2>...)
+    T extends Object declared in method <T>asList(T...)
+1 error

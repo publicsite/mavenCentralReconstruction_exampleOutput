@@ -1,0 +1,74 @@
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:32: error: SimpleDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class SimpleDataSource implements DataSource
+       ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:102: error: incompatible types: Object cannot be converted to String
+            this.jdbcDriver = props.get("JDBC.Driver");
+                                       ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:103: error: incompatible types: Object cannot be converted to String
+            this.jdbcUrl = props.get("JDBC.ConnectionURL");
+                                    ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:104: error: incompatible types: Object cannot be converted to String
+            this.jdbcUsername = props.get("JDBC.Username");
+                                         ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:105: error: incompatible types: Object cannot be converted to String
+            this.jdbcPassword = props.get("JDBC.Password");
+                                         ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:106: error: incompatible types: Object cannot be converted to String
+            this.poolMaximumActiveConnections = (props.containsKey("Pool.MaximumActiveConnections") ? Integer.parseInt(props.get("Pool.MaximumActiveConnections")) : 10);
+                                                                                                                                ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:107: error: incompatible types: Object cannot be converted to String
+            this.poolMaximumIdleConnections = (props.containsKey("Pool.MaximumIdleConnections") ? Integer.parseInt(props.get("Pool.MaximumIdleConnections")) : 5);
+                                                                                                                            ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:108: error: incompatible types: Object cannot be converted to String
+            this.poolMaximumCheckoutTime = (props.containsKey("Pool.MaximumCheckoutTime") ? Integer.parseInt(props.get("Pool.MaximumCheckoutTime")) : 20000);
+                                                                                                                      ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:109: error: incompatible types: Object cannot be converted to String
+            this.poolTimeToWait = (props.containsKey("Pool.TimeToWait") ? Integer.parseInt(props.get("Pool.TimeToWait")) : 20000);
+                                                                                                    ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:110: error: no suitable method found for valueOf(Object)
+            this.poolPingEnabled = (props.containsKey("Pool.PingEnabled") && Boolean.valueOf(props.get("Pool.PingEnabled")));
+                                                                                    ^
+    method Boolean.valueOf(boolean) is not applicable
+      (argument mismatch; Object cannot be converted to boolean)
+    method Boolean.valueOf(String) is not applicable
+      (argument mismatch; Object cannot be converted to String)
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:111: error: incompatible types: Object cannot be converted to String
+            prop_pool_ping_query = props.get("Pool.PingQuery");
+                                            ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:113: error: incompatible types: Object cannot be converted to String
+            this.poolPingConnectionsOlderThan = (props.containsKey("Pool.PingConnectionsOlderThan") ? Integer.parseInt(props.get("Pool.PingConnectionsOlderThan")) : 0);
+                                                                                                                                ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:114: error: incompatible types: Object cannot be converted to String
+            this.poolPingConnectionsNotUsedFor = (props.containsKey("Pool.PingConnectionsNotUsedFor") ? Integer.parseInt(props.get("Pool.PingConnectionsNotUsedFor")) : 0);
+                                                                                                                                  ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:115: error: no suitable method found for valueOf(Object)
+            this.jdbcDefaultAutoCommit = (props.containsKey("JDBC.DefaultAutoCommit") && Boolean.valueOf(props.get("JDBC.DefaultAutoCommit")));
+                                                                                                ^
+    method Boolean.valueOf(boolean) is not applicable
+      (argument mismatch; Object cannot be converted to boolean)
+    method Boolean.valueOf(String) is not applicable
+      (argument mismatch; Object cannot be converted to String)
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:121: error: incompatible types: Object cannot be converted to String
+                final String name = propIter.next();
+                                                 ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:122: error: incompatible types: Object cannot be converted to String
+                final String value = props.get(name);
+                                              ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:302: error: incompatible types: Object cannot be converted to SimplePooledConnection
+                    final SimplePooledConnection conn = this.activeConnections.remove(i - 1);
+                                                                                     ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:314: error: incompatible types: Object cannot be converted to SimplePooledConnection
+                    final SimplePooledConnection conn = this.idleConnections.remove(i - 1);
+                                                                                   ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:378: error: incompatible types: Object cannot be converted to SimplePooledConnection
+                    conn = this.idleConnections.remove(0);
+                                                      ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java:399: error: incompatible types: Object cannot be converted to SimplePooledConnection
+                    final SimplePooledConnection oldestActiveConnection = this.activeConnections.get(0);
+                                                                                                    ^
+Note: sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/common/jdbc/SimpleDataSource.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+20 errors

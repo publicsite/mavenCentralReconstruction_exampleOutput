@@ -1,0 +1,159 @@
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:21: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.BuildException;
+                           ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:25: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.Task;
+                           ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:27: error: cannot find symbol
+public class TexenTask extends Task
+                               ^
+  symbol: class Task
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:164: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:59: error: cannot find symbol
+            final File fullPath = this.project.resolveFile(st.nextToken());
+                                      ^
+  symbol: variable project
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:78: error: cannot find symbol
+            throw new BuildException((Throwable)ioe);
+                      ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:116: error: cannot find symbol
+                final File fullPath = this.project.resolveFile(sources[i]);
+                                          ^
+  symbol: variable project
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:117: error: cannot find symbol
+                this.log("Using contextProperties file: " + fullPath);
+                    ^
+  symbol: method log(String)
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:121: error: cannot find symbol
+                final ClassLoader classLoader = this.getClass().getClassLoader();
+                                                    ^
+  symbol: method getClass()
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:125: error: cannot find symbol
+                        throw new BuildException("Context properties file " + sources[i] + " could not be found in the file system or on the classpath!");
+                                  ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:136: error: incompatible types: Object cannot be converted to String
+                    final String name = j.next();
+                                              ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:166: error: cannot find symbol
+            throw new BuildException("The template path needs to be defined if you are not using the classpath for locating templates!");
+                      ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:169: error: cannot find symbol
+            throw new BuildException("The control template needs to be defined!");
+                      ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:172: error: cannot find symbol
+            throw new BuildException("The output directory needs to be defined!");
+                      ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:175: error: cannot find symbol
+            throw new BuildException("The output file needs to be defined!");
+                      ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:180: error: cannot find symbol
+                this.log("Using templatePath: " + this.templatePath, 3);
+                    ^
+  symbol: method log(String,int)
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:184: error: cannot find symbol
+                this.log("Using classpath");
+                    ^
+  symbol: method log(String)
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:207: error: cannot find symbol
+            this.log("Generating to file " + path, 2);
+                ^
+  symbol: method log(String,int)
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:214: error: incompatible types: Object cannot be converted to String
+                    String property = i.next();
+                                            ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:226: error: cannot find symbol
+                                value = StringUtils.fileContentsToString(this.project.resolveFile(value).getCanonicalPath());
+                                                                             ^
+  symbol: variable project
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:240: error: cannot find symbol
+        catch (BuildException e) {
+               ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:244: error: cannot find symbol
+            throw new BuildException("Exception thrown by '" + e2.getReferenceName() + "." + e2.getMethodName() + "'" + ". For more information consult the velocity log, or invoke ant with the -debug flag.", e2.getWrappedThrowable());
+                      ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:247: error: cannot find symbol
+            throw new BuildException("Velocity syntax error. For more information consult the velocity log, or invoke ant with the -debug flag.", (Throwable)e3);
+                      ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:250: error: cannot find symbol
+            throw new BuildException("Resource not found. For more information consult the velocity log, or invoke ant with the -debug flag.", (Throwable)e4);
+                      ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java:253: error: cannot find symbol
+            throw new BuildException("Generation failed. For more information consult the velocity log, or invoke ant with the -debug flag.", (Throwable)e5);
+                      ^
+  symbol:   class BuildException
+  location: class TexenTask
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/Generator.java:172: error: incompatible types: Object cannot be converted to Writer
+            writer = this.writers.get(outputFile);
+                                     ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/Generator.java:209: error: incompatible types: Object cannot be converted to String
+            final String nm = enumeration.nextElement();
+                                                     ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/Generator.java:226: error: incompatible types: Object cannot be converted to Writer
+        for (final Writer writer : this.writers.values()) {
+                                                      ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/Template.java:100: error: incompatible types: Object cannot be converted to String
+                        this.rsvc.getTemplate(macroLibraries.get(i));
+                                                                ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/context/InternalContextBase.java:47: error: incompatible types: Object cannot be converted to String
+        return this.templateNameStack.peek();
+                                          ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/context/InternalContextBase.java:66: error: incompatible types: Object cannot be converted to String
+        return this.macroNameStack.peek();
+                                       ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/context/InternalContextBase.java:78: error: incompatible types: Object cannot be converted to IntrospectionCacheData
+        return this.introspectionCache.get(key);
+                                          ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/app/event/EventCartridge.java:136: error: incompatible types: Object cannot be converted to EventHandler
+        for (final EventHandler eh : this.referenceHandlers) {
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/app/event/EventCartridge.java:142: error: incompatible types: Object cannot be converted to EventHandler
+        for (final EventHandler eh : this.nullSetHandlers) {
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/app/event/EventCartridge.java:148: error: incompatible types: Object cannot be converted to EventHandler
+        for (final EventHandler eh : this.methodExceptionHandlers) {
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/app/event/EventCartridge.java:154: error: incompatible types: Object cannot be converted to EventHandler
+        for (final EventHandler eh : this.includeHandlers) {
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/app/event/EventCartridge.java:160: error: incompatible types: Object cannot be converted to EventHandler
+        for (final EventHandler eh : this.invalidReferenceHandlers) {
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/StringUtils.java:80: error: incompatible types: Object[] cannot be converted to String[]
+        return list.toArray(new String[list.size()]);
+                           ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/StringUtils.java:127: error: incompatible types: Object cannot be converted to String
+                        final String value = vars.get(nameBuf.toString());
+                                                     ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/StringUtils.java:293: error: incompatible types: Object cannot be converted to String
+            list.set(i, nullTrim(list.get(i)));
+                                         ^
+Note: sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/texen/ant/TexenTask.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+40 errors

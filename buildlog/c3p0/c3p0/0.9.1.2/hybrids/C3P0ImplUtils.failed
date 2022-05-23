@@ -1,0 +1,103 @@
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:208: error: ';' expected
+	throws SQLException
+	                   ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:219: error: illegal start of type
+	try
+	^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:257: error: illegal start of type
+	catch (Exception e)
+	^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:257: error: ';' expected
+	catch (Exception e)
+	                  ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:265: error: class, interface, or enum expected
+    static void resetTxnState( Connection pCon, 
+           ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:276: error: class, interface, or enum expected
+		    }	
+		    ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:278: error: class, interface, or enum expected
+	    }
+	    ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:281: error: class, interface, or enum expected
+    public synchronized static ConnectionTester defaultConnectionTester()
+                               ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:284: error: class, interface, or enum expected
+	if ( connectionTesterClassName != null && connectionTesterClassName.equals(dfltCxnTesterClassName) )
+	^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:286: error: class, interface, or enum expected
+	else
+	^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:291: error: class, interface, or enum expected
+			connectionTesterClassName = cachedTester.getClass().getName();
+			^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:292: error: class, interface, or enum expected
+		    }
+		    ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:300: error: class, interface, or enum expected
+			cachedTester = C3P0Defaults.connectionTester();
+			^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:301: error: class, interface, or enum expected
+			connectionTesterClassName = cachedTester.getClass().getName();
+			^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:302: error: class, interface, or enum expected
+		    }
+		    ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:304: error: class, interface, or enum expected
+	    }
+	    ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:307: error: class, interface, or enum expected
+    public static boolean supportsMethod(Object target, String mname, Class[] argTypes)
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:309: error: class, interface, or enum expected
+	try {return (target.getClass().getMethod( mname, argTypes ) != null); }
+	                                                                      ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:311: error: class, interface, or enum expected
+	    { return false; }
+	                    ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:319: error: class, interface, or enum expected
+		return false;
+		^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:320: error: class, interface, or enum expected
+	    }
+	    ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:323: error: class, interface, or enum expected
+    private final static String HASM_HEADER = "HexAsciiSerializedMap";
+                         ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:325: error: class, interface, or enum expected
+    public static String createUserOverridesAsString( Map userOverrides ) throws IOException
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:328: error: class, interface, or enum expected
+	sb.append(HASM_HEADER);
+	^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:329: error: class, interface, or enum expected
+	sb.append('[');
+	^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:330: error: class, interface, or enum expected
+	sb.append( ByteUtils.toHexAscii( SerializableUtils.toByteArray( userOverrides ) ) );
+	^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:331: error: class, interface, or enum expected
+	sb.append(']');
+	^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:332: error: class, interface, or enum expected
+	return sb.toString();
+	^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:333: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:335: error: class, interface, or enum expected
+    public static Map parseUserOverridesAsString( String userOverridesAsString ) throws IOException, ClassNotFoundException
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:340: error: class, interface, or enum expected
+		byte[] serBytes = ByteUtils.fromHexAscii( hexAscii );
+		^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:341: error: class, interface, or enum expected
+		return Collections.unmodifiableMap( (Map) SerializableUtils.fromByteArray( serBytes ) );
+		^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:342: error: class, interface, or enum expected
+	    }
+	    ^
+hybrids/c3p0/c3p0/0.9.1.2/C3P0ImplUtils.java:345: error: class, interface, or enum expected
+    }
+    ^
+34 errors

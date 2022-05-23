@@ -1,0 +1,135 @@
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:8: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+import org.apache.commons.lang.enum.EnumUtils;
+                               ^
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:10: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+import org.apache.commons.lang.enum.ValuedEnum;
+                               ^
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:8: error: package org.apache.commons.lang.<error> does not exist
+import org.apache.commons.lang.enum.EnumUtils;
+                                   ^
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:10: error: package org.apache.commons.lang.<error> does not exist
+import org.apache.commons.lang.enum.ValuedEnum;
+                                   ^
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:12: error: cannot find symbol
+public class TypeClass extends ValuedEnum
+                               ^
+  symbol: class ValuedEnum
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TagEnum.java:7: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+import org.apache.commons.lang.enum.ValuedEnum;
+                               ^
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TagEnum.java:7: error: package org.apache.commons.lang.<error> does not exist
+import org.apache.commons.lang.enum.ValuedEnum;
+                                   ^
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TagEnum.java:9: error: cannot find symbol
+public abstract class TagEnum extends ValuedEnum
+                                      ^
+  symbol: class ValuedEnum
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/DeterminateLengthVisitor.java:22: error: incompatible types: Object cannot be converted to TupleNode
+            final TupleNode childTuple = children.next();
+                                                      ^
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/Tuple.java:121: error: cannot find symbol
+        this.rawTag = tag.getValue();
+                         ^
+  symbol:   method getValue()
+  location: variable tag of type TagEnum
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/Tuple.java:123: error: cannot find symbol
+        this.isPrimitive = !Tag.isRawTagConstructed(tag.getValue());
+                                                       ^
+  symbol:   method getValue()
+  location: variable tag of type TagEnum
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/Tuple.java:128: error: cannot find symbol
+        this.rawTag = tag.getValue();
+                         ^
+  symbol:   method getValue()
+  location: variable tag of type TagEnum
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/Tuple.java:143: error: cannot find symbol
+        return this.isPrimitive && this.id == 0 && this.length <= 0 && this.typeClass.equals((Object)TypeClass.UNIVERSAL);
+                                                                                     ^
+  symbol:   method equals(Object)
+  location: variable typeClass of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/Tuple.java:233: error: no suitable method found for put(Object)
+                octets.put(valueChunks.get(ii));
+                      ^
+    method ByteBuffer.put(byte) is not applicable
+      (argument mismatch; Object cannot be converted to byte)
+    method ByteBuffer.put(ByteBuffer) is not applicable
+      (argument mismatch; Object cannot be converted to ByteBuffer)
+    method ByteBuffer.put(byte[]) is not applicable
+      (argument mismatch; Object cannot be converted to byte[])
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/Tuple.java:243: error: cannot find symbol
+        byte octet = (byte)this.typeClass.getValue();
+                                         ^
+  symbol:   method getValue()
+  location: variable typeClass of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:28: error: cannot find symbol
+        if (className == TypeClass.APPLICATION.getName()) {
+                                              ^
+  symbol:   method getName()
+  location: variable APPLICATION of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:31: error: cannot find symbol
+        if (className == TypeClass.CONTEXT_SPECIFIC.getName()) {
+                                                   ^
+  symbol:   method getName()
+  location: variable CONTEXT_SPECIFIC of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:34: error: cannot find symbol
+        if (className == TypeClass.PRIVATE.getName()) {
+                                          ^
+  symbol:   method getName()
+  location: variable PRIVATE of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:37: error: cannot find symbol
+        if (className == TypeClass.UNIVERSAL.getName()) {
+                                            ^
+  symbol:   method getName()
+  location: variable UNIVERSAL of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:40: error: cannot find symbol
+        if (className.equalsIgnoreCase(TypeClass.PRIVATE.getName())) {
+                                                        ^
+  symbol:   method getName()
+  location: variable PRIVATE of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:43: error: cannot find symbol
+        if (className.equalsIgnoreCase(TypeClass.UNIVERSAL.getName())) {
+                                                          ^
+  symbol:   method getName()
+  location: variable UNIVERSAL of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:46: error: cannot find symbol
+        if (className.equalsIgnoreCase(TypeClass.APPLICATION.getName())) {
+                                                            ^
+  symbol:   method getName()
+  location: variable APPLICATION of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:49: error: cannot find symbol
+        if (className.equalsIgnoreCase(TypeClass.CONTEXT_SPECIFIC.getName())) {
+                                                                 ^
+  symbol:   method getName()
+  location: variable CONTEXT_SPECIFIC of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:56: error: cannot find symbol
+        return EnumUtils.getEnumList(TypeClass.class);
+               ^
+  symbol:   variable EnumUtils
+  location: class TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TypeClass.java:60: error: cannot find symbol
+        return EnumUtils.getEnumMap(TypeClass.class);
+               ^
+  symbol:   variable EnumUtils
+  location: class TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TagEnum.java:23: error: cannot find symbol
+        return this.getValue() & 0xDFFFFFFF;
+                   ^
+  symbol: method getValue()
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TagEnum.java:27: error: cannot find symbol
+        return this.getValue() | 0x20000000;
+                   ^
+  symbol: method getValue()
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TagEnum.java:31: error: cannot find symbol
+        return TypeClass.getTypeClass(this.getValue() >> 24);
+                                          ^
+  symbol: method getValue()
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/Tag.java:120: error: cannot find symbol
+        int value = type.getValue() << 24;
+                        ^
+  symbol:   method getValue()
+  location: variable type of type TypeClass
+sources/structure/directory-asn1/asn1-ber/0.3/Decompiled/org/apache/asn1/ber/TagOctetCollector.java:122: error: incompatible types: missing return value
+        return;
+        ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+30 errors

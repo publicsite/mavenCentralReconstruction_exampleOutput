@@ -1,0 +1,45 @@
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:18: error: package org.junit.runners does not exist
+import org.junit.runners.BlockJUnit4ClassRunner;
+                        ^
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:19: error: package org.junit.runners.model does not exist
+import org.junit.runners.model.FrameworkMethod;
+                              ^
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:20: error: package org.junit.runners.model does not exist
+import org.junit.runners.model.InitializationError;
+                              ^
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:21: error: package org.junit.runners.model does not exist
+import org.junit.runners.model.Statement;
+                              ^
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:30: error: cannot find symbol
+public class EasyMockRunner extends BlockJUnit4ClassRunner {
+                                    ^
+  symbol: class BlockJUnit4ClassRunner
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:32: error: cannot find symbol
+    public EasyMockRunner(final Class<?> klass) throws InitializationError {
+                                                       ^
+  symbol:   class InitializationError
+  location: class EasyMockRunner
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:48: error: cannot find symbol
+    protected Statement withBefores(FrameworkMethod method, Object target,
+                                    ^
+  symbol:   class FrameworkMethod
+  location: class EasyMockRunner
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:49: error: cannot find symbol
+            Statement statement) {
+            ^
+  symbol:   class Statement
+  location: class EasyMockRunner
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:48: error: cannot find symbol
+    protected Statement withBefores(FrameworkMethod method, Object target,
+              ^
+  symbol:   class Statement
+  location: class EasyMockRunner
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:47: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.easymock/easymock/3.3/EasyMockRunner.java:51: error: cannot find symbol
+        return super.withBefores(method, target, statement);
+               ^
+  symbol:   variable super
+  location: class EasyMockRunner
+11 errors

@@ -1,0 +1,140 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:7: error: cannot find symbol
+import org.codehaus.groovy.runtime.MetaClassHelper;
+                                  ^
+  symbol:   class MetaClassHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:9: error: package org.codehaus.groovy.classgen.asm does not exist
+import org.codehaus.groovy.classgen.asm.BytecodeHelper;
+                                       ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:10: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:11: error: cannot find symbol
+import org.codehaus.groovy.reflection.CachedClass;
+                                     ^
+  symbol:   class CachedClass
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:12: error: cannot find symbol
+import org.codehaus.groovy.reflection.ParameterTypes;
+                                     ^
+  symbol:   class ParameterTypes
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:14: error: cannot find symbol
+public abstract class MetaMethod extends ParameterTypes implements Cloneable
+                                         ^
+  symbol: class ParameterTypes
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:32: error: cannot find symbol
+    public abstract CachedClass getDeclaringClass();
+                    ^
+  symbol:   class CachedClass
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:46: error: cannot find symbol
+    protected static boolean equal(final CachedClass[] a, final Class[] b) {
+                                         ^
+  symbol:   class CachedClass
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:58: error: cannot find symbol
+    protected static boolean equal(final CachedClass[] a, final CachedClass[] b) {
+                                         ^
+  symbol:   class CachedClass
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:58: error: cannot find symbol
+    protected static boolean equal(final CachedClass[] a, final CachedClass[] b) {
+                                                                ^
+  symbol:   class CachedClass
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:37: error: cannot find symbol
+        if (!this.isValidMethod(arguments)) {
+                 ^
+  symbol: method isValidMethod(Class[])
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:38: error: cannot find symbol
+            throw new IllegalArgumentException("Parameters to method: " + this.getName() + " do not match types: " + InvokerHelper.toString(this.getParameterTypes()) + " for arguments: " + InvokerHelper.toString(arguments));
+                                                                                                                     ^
+  symbol:   variable InvokerHelper
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:38: error: cannot find symbol
+            throw new IllegalArgumentException("Parameters to method: " + this.getName() + " do not match types: " + InvokerHelper.toString(this.getParameterTypes()) + " for arguments: " + InvokerHelper.toString(arguments));
+                                                                                                                                                ^
+  symbol: method getParameterTypes()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:38: error: cannot find symbol
+            throw new IllegalArgumentException("Parameters to method: " + this.getName() + " do not match types: " + InvokerHelper.toString(this.getParameterTypes()) + " for arguments: " + InvokerHelper.toString(arguments));
+                                                                                                                                                                                             ^
+  symbol:   variable InvokerHelper
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:43: error: cannot find symbol
+        return this.getName().equals(method.getName()) && this.getModifiers() == method.getModifiers() && this.getReturnType().equals(method.getReturnType()) && equal(this.getParameterTypes(), method.getParameterTypes());
+                                                                                                                                                                           ^
+  symbol: method getParameterTypes()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:43: error: cannot find symbol
+        return this.getName().equals(method.getName()) && this.getModifiers() == method.getModifiers() && this.getReturnType().equals(method.getReturnType()) && equal(this.getParameterTypes(), method.getParameterTypes());
+                                                                                                                                                                                                       ^
+  symbol:   method getParameterTypes()
+  location: variable method of type MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:72: error: cannot find symbol
+        return super.toString() + "[name: " + this.getName() + " params: " + InvokerHelper.toString(this.getParameterTypes()) + " returns: " + this.getReturnType() + " owner: " + this.getDeclaringClass() + "]";
+               ^
+  symbol:   variable super
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:72: error: cannot find symbol
+        return super.toString() + "[name: " + this.getName() + " params: " + InvokerHelper.toString(this.getParameterTypes()) + " returns: " + this.getReturnType() + " owner: " + this.getDeclaringClass() + "]";
+                                                                             ^
+  symbol:   variable InvokerHelper
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:72: error: cannot find symbol
+        return super.toString() + "[name: " + this.getName() + " params: " + InvokerHelper.toString(this.getParameterTypes()) + " returns: " + this.getReturnType() + " owner: " + this.getDeclaringClass() + "]";
+                                                                                                        ^
+  symbol: method getParameterTypes()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:77: error: cannot find symbol
+            return super.clone();
+                   ^
+  symbol:   variable super
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:80: error: cannot find symbol
+            throw new GroovyRuntimeException("This should never happen", e);
+                      ^
+  symbol:   class GroovyRuntimeException
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:105: error: cannot find symbol
+        return this.getName().equals(method.getName()) && compatibleModifiers(this.getModifiers(), method.getModifiers()) && this.getReturnType().equals(method.getReturnType()) && equal(this.getParameterTypes(), method.getParameterTypes());
+                                                                                                                                                                                              ^
+  symbol: method getParameterTypes()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:105: error: cannot find symbol
+        return this.getName().equals(method.getName()) && compatibleModifiers(this.getModifiers(), method.getModifiers()) && this.getReturnType().equals(method.getReturnType()) && equal(this.getParameterTypes(), method.getParameterTypes());
+                                                                                                                                                                                                                          ^
+  symbol:   method getParameterTypes()
+  location: variable method of type MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:118: error: cannot find symbol
+        return BytecodeHelper.getMethodDescriptor(this.getReturnType(), this.getNativeParameterTypes());
+               ^
+  symbol:   variable BytecodeHelper
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:118: error: cannot find symbol
+        return BytecodeHelper.getMethodDescriptor(this.getReturnType(), this.getNativeParameterTypes());
+                                                                            ^
+  symbol: method getNativeParameterTypes()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:123: error: cannot find symbol
+            final CachedClass[] parameters = this.getParameterTypes();
+                  ^
+  symbol:   class CachedClass
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:123: error: cannot find symbol
+            final CachedClass[] parameters = this.getParameterTypes();
+                                                 ^
+  symbol: method getParameterTypes()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:145: error: cannot find symbol
+            final CachedClass declaringClass = this.getDeclaringClass();
+                  ^
+  symbol:   class CachedClass
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:160: error: cannot find symbol
+        return MetaClassHelper.createExceptionText("failed to invoke method: ", this, object, argumentArray, e, true);
+               ^
+  symbol:   variable MetaClassHelper
+  location: class MetaMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaMethod.java:164: error: cannot find symbol
+        argumentArray = this.coerceArgumentsToClasses(argumentArray);
+                            ^
+  symbol: method coerceArgumentsToClasses(Object[])
+30 errors

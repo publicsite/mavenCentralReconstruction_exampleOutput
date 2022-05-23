@@ -1,0 +1,81 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:8: error: cannot find symbol
+import com.google.dexmaker.dx.util.AnnotatedOutput;
+                                  ^
+  symbol:   class AnnotatedOutput
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:10: error: cannot find symbol
+import com.google.dexmaker.dx.rop.cst.CstString;
+                                     ^
+  symbol:   class CstString
+  location: package com.google.dexmaker.dx.rop.cst
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:12: error: cannot find symbol
+public final class StringIdItem extends IndexedItem implements Comparable
+                                        ^
+  symbol: class IndexedItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:14: error: cannot find symbol
+    private final CstString value;
+                  ^
+  symbol:   class CstString
+  location: class StringIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:15: error: cannot find symbol
+    private StringDataItem data;
+            ^
+  symbol:   class StringDataItem
+  location: class StringIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:17: error: cannot find symbol
+    public StringIdItem(final CstString value) {
+                              ^
+  symbol:   class CstString
+  location: class StringIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:55: error: cannot find symbol
+    public void addContents(final DexFile file) {
+                                  ^
+  symbol:   class DexFile
+  location: class StringIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:63: error: cannot find symbol
+    public void writeTo(final DexFile file, final AnnotatedOutput out) {
+                              ^
+  symbol:   class DexFile
+  location: class StringIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:63: error: cannot find symbol
+    public void writeTo(final DexFile file, final AnnotatedOutput out) {
+                                                  ^
+  symbol:   class AnnotatedOutput
+  location: class StringIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:72: error: cannot find symbol
+    public CstString getValue() {
+           ^
+  symbol:   class CstString
+  location: class StringIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:76: error: cannot find symbol
+    public StringDataItem getData() {
+           ^
+  symbol:   class StringDataItem
+  location: class StringIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:44: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:49: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:54: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:57: error: cannot find symbol
+            final MixedItemSection stringData = file.getStringData();
+                  ^
+  symbol:   class MixedItemSection
+  location: class StringIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:58: error: cannot find symbol
+            stringData.add(this.data = new StringDataItem(this.value));
+                                           ^
+  symbol:   class StringDataItem
+  location: class StringIdItem
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:62: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/StringIdItem.java:66: error: cannot find symbol
+            out.annotate(0, this.indexString() + ' ' + this.value.toQuoted(100));
+                                ^
+  symbol: method indexString()
+18 errors

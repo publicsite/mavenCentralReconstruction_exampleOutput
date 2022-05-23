@@ -1,0 +1,22 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsSoapFaultException.java:8: error: package javax.xml.soap does not exist
+import javax.xml.soap.SOAPFault;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsSoapFaultException.java:9: error: package javax.xml.ws.soap does not exist
+import javax.xml.ws.soap.SOAPFaultException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsSoapFaultException.java:14: error: cannot find symbol
+    public JaxWsSoapFaultException(final SOAPFaultException original) {
+                                         ^
+  symbol:   class SOAPFaultException
+  location: class JaxWsSoapFaultException
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsSoapFaultException.java:18: error: cannot find symbol
+    public final SOAPFault getFault() {
+                 ^
+  symbol:   class SOAPFault
+  location: class JaxWsSoapFaultException
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsSoapFaultException.java:19: error: cannot find symbol
+        return ((SOAPFaultException)this.getCause()).getFault();
+                 ^
+  symbol:   class SOAPFaultException
+  location: class JaxWsSoapFaultException
+5 errors

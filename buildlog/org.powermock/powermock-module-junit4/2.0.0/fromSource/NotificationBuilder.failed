@@ -1,0 +1,81 @@
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:20: error: package org.powermock.core.spi.testresult does not exist
+import org.powermock.core.spi.testresult.Result;
+                                        ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:21: error: package org.powermock.core.spi.testresult does not exist
+import org.powermock.core.spi.testresult.TestMethodResult;
+                                        ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:22: error: package org.powermock.tests.utils does not exist
+import org.powermock.tests.utils.PowerMockTestNotifier;
+                                ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:23: error: package org.powermock.tests.utils.impl does not exist
+import org.powermock.tests.utils.impl.MockPolicyInitializerImpl;
+                                     ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:53: error: cannot find symbol
+    private final PowerMockTestNotifier powerMockTestNotifier;
+                  ^
+  symbol:   class PowerMockTestNotifier
+  location: class NotificationBuilder
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:77: error: cannot find symbol
+    private class OngoingTestRun implements TestMethodResult {
+                                            ^
+  symbol:   class TestMethodResult
+  location: class NotificationBuilder
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:132: error: cannot find symbol
+            PowerMockTestNotifier notifier,
+            ^
+  symbol:   class PowerMockTestNotifier
+  location: class NotificationBuilder
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:304: error: cannot find symbol
+    private boolean notify(Description d, Result result) {
+                                          ^
+  symbol:   class Result
+  location: class NotificationBuilder
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:81: error: cannot find symbol
+        private Result result;
+                ^
+  symbol:   class Result
+  location: class NotificationBuilder.OngoingTestRun
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:108: error: cannot find symbol
+        void report(Result result) {
+                    ^
+  symbol:   class Result
+  location: class NotificationBuilder.OngoingTestRun
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:126: error: cannot find symbol
+        public Result getResult() {
+               ^
+  symbol:   class Result
+  location: class NotificationBuilder.OngoingTestRun
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:89: error: cannot find symbol
+            new MockPolicyInitializerImpl(testClass).initialize(testClass.getClassLoader());
+                ^
+  symbol:   class MockPolicyInitializerImpl
+  location: class NotificationBuilder.OngoingTestRun
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:109: error: cannot find symbol
+            if (null != this.result && Result.SUCCESSFUL == result
+                                       ^
+  symbol:   variable Result
+  location: class NotificationBuilder.OngoingTestRun
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:125: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:277: error: cannot find symbol
+        if (!notify(d, Result.IGNORED)
+                       ^
+  symbol:   variable Result
+  location: class NotificationBuilder
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:289: error: cannot find symbol
+        notify(d, Result.IGNORED);
+                  ^
+  symbol:   variable Result
+  location: class NotificationBuilder
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:293: error: cannot find symbol
+        notify(f.getDescription(), Result.FAILED);
+                                   ^
+  symbol:   variable Result
+  location: class NotificationBuilder
+sources/structure/org.powermock/powermock-module-junit4/2.0.0/extractedSources/org/powermock/modules/junit4/internal/impl/NotificationBuilder.java:297: error: cannot find symbol
+        notify(d, Result.SUCCESSFUL);
+                  ^
+  symbol:   variable Result
+  location: class NotificationBuilder
+18 errors

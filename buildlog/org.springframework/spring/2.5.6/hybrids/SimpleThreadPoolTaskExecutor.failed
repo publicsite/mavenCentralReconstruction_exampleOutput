@@ -1,0 +1,31 @@
+hybrids/org.springframework/spring/2.5.6/SimpleThreadPoolTaskExecutor.java:19: error: package org.quartz does not exist
+import org.quartz.SchedulerConfigException;
+                 ^
+hybrids/org.springframework/spring/2.5.6/SimpleThreadPoolTaskExecutor.java:20: error: package org.quartz.simpl does not exist
+import org.quartz.simpl.SimpleThreadPool;
+                       ^
+hybrids/org.springframework/spring/2.5.6/SimpleThreadPoolTaskExecutor.java:44: error: cannot find symbol
+public class SimpleThreadPoolTaskExecutor extends SimpleThreadPool
+                                                  ^
+  symbol: class SimpleThreadPool
+hybrids/org.springframework/spring/2.5.6/SimpleThreadPoolTaskExecutor.java:59: error: cannot find symbol
+	public void afterPropertiesSet() throws SchedulerConfigException {
+	                                        ^
+  symbol:   class SchedulerConfigException
+  location: class SimpleThreadPoolTaskExecutor
+hybrids/org.springframework/spring/2.5.6/SimpleThreadPoolTaskExecutor.java:60: error: cannot find symbol
+		initialize();
+		^
+  symbol:   method initialize()
+  location: class SimpleThreadPoolTaskExecutor
+hybrids/org.springframework/spring/2.5.6/SimpleThreadPoolTaskExecutor.java:66: error: cannot find symbol
+		if (!runInThread(task)) {
+		     ^
+  symbol:   method runInThread(Runnable)
+  location: class SimpleThreadPoolTaskExecutor
+hybrids/org.springframework/spring/2.5.6/SimpleThreadPoolTaskExecutor.java:80: error: cannot find symbol
+		shutdown(this.waitForJobsToCompleteOnShutdown);
+		^
+  symbol:   method shutdown(boolean)
+  location: class SimpleThreadPoolTaskExecutor
+7 errors

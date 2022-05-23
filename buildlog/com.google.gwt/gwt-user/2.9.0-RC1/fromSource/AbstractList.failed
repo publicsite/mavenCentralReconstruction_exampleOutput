@@ -1,0 +1,33 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractList.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractList.java:48: error: not an enclosing class: AbstractList
+      return i < AbstractList.this.size();
+                             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractList.java:55: error: not an enclosing class: AbstractList
+      return AbstractList.this.get(last = i++);
+                         ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractList.java:62: error: not an enclosing class: AbstractList
+      AbstractList.this.remove(last);
+                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractList.java:84: error: not an enclosing class: AbstractList
+      checkPositionIndex(start, AbstractList.this.size());
+                                            ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractList.java:91: error: not an enclosing class: AbstractList
+      AbstractList.this.add(i, o);
+                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractList.java:110: error: not an enclosing class: AbstractList
+      return AbstractList.this.get(last = --i);
+                         ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractList.java:122: error: not an enclosing class: AbstractList
+      AbstractList.this.set(last, o);
+                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractList.java:237: error: method hashCode in class Object cannot be applied to given types;
+    return Collections.hashCode(this);
+                      ^
+  required: no arguments
+  found: AbstractList<E>
+  reason: actual and formal argument lists differ in length
+  where E is a type-variable:
+    E extends Object declared in class AbstractList
+9 errors

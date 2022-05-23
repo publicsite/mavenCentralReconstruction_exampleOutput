@@ -1,0 +1,65 @@
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDefinition;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:8: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:9: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:10: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.description.DeclaredByType;
+                                                      ^
+  symbol:   class DeclaredByType
+  location: package org.assertj.core.internal.bytebuddy.description
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:13: error: package ElementMatcher.Junction does not exist
+public class DeclaringTypeMatcher<T extends DeclaredByType> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                           ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:12: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:13: error: cannot find symbol
+public class DeclaringTypeMatcher<T extends DeclaredByType> extends ElementMatcher.Junction.AbstractBase<T>
+                                            ^
+  symbol: class DeclaredByType
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:15: error: cannot find symbol
+    private final ElementMatcher<? super TypeDescription.Generic> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class DeclaringTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringTypeMatcher
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:15: error: package TypeDescription does not exist
+    private final ElementMatcher<? super TypeDescription.Generic> matcher;
+                                                        ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:17: error: cannot find symbol
+    public DeclaringTypeMatcher(final ElementMatcher<? super TypeDescription.Generic> matcher) {
+                                      ^
+  symbol:   class ElementMatcher
+  location: class DeclaringTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringTypeMatcher
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:17: error: package TypeDescription does not exist
+    public DeclaringTypeMatcher(final ElementMatcher<? super TypeDescription.Generic> matcher) {
+                                                                            ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:22: error: cannot find symbol
+        final TypeDefinition declaringType = target.getDeclaringType();
+              ^
+  symbol:   class TypeDefinition
+  location: class DeclaringTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class DeclaringTypeMatcher
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:26: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:31: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:33: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((DeclaringTypeMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DeclaringTypeMatcher.java:36: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+16 errors

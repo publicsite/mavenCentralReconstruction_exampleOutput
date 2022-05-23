@@ -1,0 +1,16 @@
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/ExpectationList.java:8: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/AbstractExpectation.java:39: error: package junit.framework does not exist
+        junit.framework.Assert.fail(
+                       ^
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/ExpectationList.java:24: error: cannot find symbol
+        Assert.assertTrue(this.myName + " had different sizes\nExpected Size:" + this.myExpectedItems.size() + "\nReceived size: " + size + " when adding:" + actualItem, this.myExpectedItems.size() >= size);
+        ^
+  symbol:   variable Assert
+  location: class ExpectationList
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/AbstractExpectationCollection.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors

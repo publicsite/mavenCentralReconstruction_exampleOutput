@@ -1,0 +1,101 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:7: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:8: error: cannot find symbol
+import org.codehaus.groovy.runtime.ScriptBytecodeAdapter;
+                                  ^
+  symbol:   class ScriptBytecodeAdapter
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:9: error: cannot find symbol
+import groovy.lang.MetaClass;
+                  ^
+  symbol:   class MetaClass
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:10: error: cannot find symbol
+import org.codehaus.groovy.reflection.ClassInfo;
+                                     ^
+  symbol:   class ClassInfo
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:12: error: cannot find symbol
+public class StaticMetaClassSite extends MetaClassSite
+                                         ^
+  symbol: class MetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:14: error: cannot find symbol
+    private final ClassInfo classInfo;
+                  ^
+  symbol:   class ClassInfo
+  location: class StaticMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:17: error: cannot find symbol
+    public StaticMetaClassSite(final CallSite site, final MetaClass metaClass) {
+                                     ^
+  symbol:   class CallSite
+  location: class StaticMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:17: error: cannot find symbol
+    public StaticMetaClassSite(final CallSite site, final MetaClass metaClass) {
+                                                          ^
+  symbol:   class MetaClass
+  location: class StaticMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:19: error: cannot find symbol
+        this.classInfo = ClassInfo.getClassInfo(metaClass.getTheClass());
+                         ^
+  symbol:   variable ClassInfo
+  location: class StaticMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:24: error: cannot find symbol
+        return receiver == this.metaClass.getTheClass() && this.version == this.classInfo.getVersion();
+                               ^
+  symbol: variable metaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:31: error: cannot find symbol
+                return this.metaClass.invokeStaticMethod(receiver, this.name, args);
+                                                                       ^
+  symbol: variable name
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:31: error: cannot find symbol
+                return this.metaClass.invokeStaticMethod(receiver, this.name, args);
+                           ^
+  symbol: variable metaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:33: error: cannot find symbol
+            catch (GroovyRuntimeException gre) {
+                   ^
+  symbol:   class GroovyRuntimeException
+  location: class StaticMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:34: error: cannot find symbol
+                throw ScriptBytecodeAdapter.unwrap(gre);
+                      ^
+  symbol:   variable ScriptBytecodeAdapter
+  location: class StaticMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:37: error: cannot find symbol
+        return CallSiteArray.defaultCall(this, receiver, args);
+               ^
+  symbol:   variable CallSiteArray
+  location: class StaticMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:40: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:44: error: cannot find symbol
+                return this.metaClass.invokeStaticMethod(receiver, this.name, args);
+                                                                       ^
+  symbol: variable name
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:44: error: cannot find symbol
+                return this.metaClass.invokeStaticMethod(receiver, this.name, args);
+                           ^
+  symbol: variable metaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:46: error: cannot find symbol
+            catch (GroovyRuntimeException gre) {
+                   ^
+  symbol:   class GroovyRuntimeException
+  location: class StaticMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:47: error: cannot find symbol
+                throw ScriptBytecodeAdapter.unwrap(gre);
+                      ^
+  symbol:   variable ScriptBytecodeAdapter
+  location: class StaticMetaClassSite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/callsite/StaticMetaClassSite.java:50: error: cannot find symbol
+        return CallSiteArray.defaultCallStatic(this, receiver, args);
+               ^
+  symbol:   variable CallSiteArray
+  location: class StaticMetaClassSite
+22 errors

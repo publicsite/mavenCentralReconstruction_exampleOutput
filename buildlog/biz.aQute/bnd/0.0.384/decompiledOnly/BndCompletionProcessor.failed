@@ -1,0 +1,94 @@
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:7: error: package org.eclipse.jface.text.contentassist does not exist
+import org.eclipse.jface.text.contentassist.IContextInformationValidator;
+                                           ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:8: error: package org.eclipse.jface.text.contentassist does not exist
+import org.eclipse.jface.text.contentassist.IContextInformation;
+                                           ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:10: error: package org.eclipse.swt.graphics does not exist
+import org.eclipse.swt.graphics.Image;
+                               ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:11: error: package org.eclipse.jface.text.contentassist does not exist
+import org.eclipse.jface.text.contentassist.CompletionProposal;
+                                           ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:12: error: package org.eclipse.jface.text.contentassist does not exist
+import org.eclipse.jface.text.contentassist.ContextInformation;
+                                           ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:14: error: package org.eclipse.jface.text.contentassist does not exist
+import org.eclipse.jface.text.contentassist.ICompletionProposal;
+                                           ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:15: error: package org.eclipse.jface.text does not exist
+import org.eclipse.jface.text.ITextViewer;
+                             ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:16: error: package org.eclipse.jface.text.contentassist does not exist
+import org.eclipse.jface.text.contentassist.IContentAssistProcessor;
+                                           ^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:18: error: cannot find symbol
+public class BndCompletionProcessor implements IContentAssistProcessor
+                                               ^
+  symbol: class IContentAssistProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:20: error: cannot find symbol
+    public ICompletionProposal[] computeCompletionProposals(final ITextViewer viewer, final int offset) {
+                                                                  ^
+  symbol:   class ITextViewer
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:20: error: cannot find symbol
+    public ICompletionProposal[] computeCompletionProposals(final ITextViewer viewer, final int offset) {
+           ^
+  symbol:   class ICompletionProposal
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:30: error: cannot find symbol
+    public IContextInformation[] computeContextInformation(final ITextViewer viewer, final int offset) {
+                                                                 ^
+  symbol:   class ITextViewer
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:30: error: cannot find symbol
+    public IContextInformation[] computeContextInformation(final ITextViewer viewer, final int offset) {
+           ^
+  symbol:   class IContextInformation
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:42: error: cannot find symbol
+    public IContextInformationValidator getContextInformationValidator() {
+           ^
+  symbol:   class IContextInformationValidator
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:21: error: cannot find symbol
+        final ICompletionProposal[] result = new ICompletionProposal[Syntax.HELP.size()];
+              ^
+  symbol:   class ICompletionProposal
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:21: error: cannot find symbol
+        final ICompletionProposal[] result = new ICompletionProposal[Syntax.HELP.size()];
+                                                 ^
+  symbol:   class ICompletionProposal
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:24: error: cannot find symbol
+            final IContextInformation info = (IContextInformation)new ContextInformation(s.getHeader(), s.getHeader());
+                  ^
+  symbol:   class IContextInformation
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:24: error: cannot find symbol
+            final IContextInformation info = (IContextInformation)new ContextInformation(s.getHeader(), s.getHeader());
+                                              ^
+  symbol:   class IContextInformation
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:24: error: cannot find symbol
+            final IContextInformation info = (IContextInformation)new ContextInformation(s.getHeader(), s.getHeader());
+                                                                      ^
+  symbol:   class ContextInformation
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:25: error: cannot find symbol
+            result[i++] = (ICompletionProposal)new CompletionProposal(String.valueOf(s.getHeader()) + ": ", offset - 1, 1, s.getHeader().length() + 2, (Image)null, s.getHeader(), info, s.getLead());
+                           ^
+  symbol:   class ICompletionProposal
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:25: error: cannot find symbol
+            result[i++] = (ICompletionProposal)new CompletionProposal(String.valueOf(s.getHeader()) + ": ", offset - 1, 1, s.getHeader().length() + 2, (Image)null, s.getHeader(), info, s.getLead());
+                                                   ^
+  symbol:   class CompletionProposal
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/plugin/editors/BndCompletionProcessor.java:25: error: cannot find symbol
+            result[i++] = (ICompletionProposal)new CompletionProposal(String.valueOf(s.getHeader()) + ": ", offset - 1, 1, s.getHeader().length() + 2, (Image)null, s.getHeader(), info, s.getLead());
+                                                                                                                                                        ^
+  symbol:   class Image
+  location: class BndCompletionProcessor
+22 errors

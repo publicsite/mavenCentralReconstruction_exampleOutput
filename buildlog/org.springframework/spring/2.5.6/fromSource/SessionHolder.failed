@@ -1,0 +1,122 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:23: error: package org.hibernate does not exist
+import org.hibernate.FlushMode;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:24: error: package org.hibernate does not exist
+import org.hibernate.Session;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:25: error: package org.hibernate does not exist
+import org.hibernate.Transaction;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:52: error: cannot find symbol
+	private Transaction transaction;
+	        ^
+  symbol:   class Transaction
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:54: error: cannot find symbol
+	private FlushMode previousFlushMode;
+	        ^
+  symbol:   class FlushMode
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:57: error: cannot find symbol
+	public SessionHolder(Session session) {
+	                     ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:61: error: cannot find symbol
+	public SessionHolder(Object key, Session session) {
+	                                 ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:66: error: cannot find symbol
+	public Session getSession() {
+	       ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:70: error: cannot find symbol
+	public Session getSession(Object key) {
+	       ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:74: error: cannot find symbol
+	public Session getValidatedSession() {
+	       ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:78: error: cannot find symbol
+	public Session getValidatedSession(Object key) {
+	       ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:91: error: cannot find symbol
+	public Session getAnySession() {
+	       ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:100: error: cannot find symbol
+	public void addSession(Session session) {
+	                       ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:104: error: cannot find symbol
+	public void addSession(Object key, Session session) {
+	                                   ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:110: error: cannot find symbol
+	public Session removeSession(Object key) {
+	       ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:114: error: cannot find symbol
+	public boolean containsSession(Session session) {
+	                               ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:130: error: cannot find symbol
+	public void setTransaction(Transaction transaction) {
+	                           ^
+  symbol:   class Transaction
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:134: error: cannot find symbol
+	public Transaction getTransaction() {
+	       ^
+  symbol:   class Transaction
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:138: error: cannot find symbol
+	public void setPreviousFlushMode(FlushMode previousFlushMode) {
+	                                 ^
+  symbol:   class FlushMode
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:142: error: cannot find symbol
+	public FlushMode getPreviousFlushMode() {
+	       ^
+  symbol:   class FlushMode
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:71: error: cannot find symbol
+		return (Session) this.sessionMap.get(key);
+		        ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:79: error: cannot find symbol
+		Session session = (Session) this.sessionMap.get(key);
+		^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:79: error: cannot find symbol
+		Session session = (Session) this.sessionMap.get(key);
+		                   ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:94: error: cannot find symbol
+				return (Session) this.sessionMap.values().iterator().next();
+				        ^
+  symbol:   class Session
+  location: class SessionHolder
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java:111: error: cannot find symbol
+		return (Session) this.sessionMap.remove(key);
+		        ^
+  symbol:   class Session
+  location: class SessionHolder
+Note: sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/SessionHolder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+25 errors

@@ -1,0 +1,26 @@
+hybrids/com.jamonapi/jamon/2.82/SystemAopPointcutDefinitions.java:3: error: package org.aspectj.lang.annotation does not exist
+import org.aspectj.lang.annotation.Aspect;
+                                  ^
+hybrids/com.jamonapi/jamon/2.82/SystemAopPointcutDefinitions.java:4: error: package org.aspectj.lang.annotation does not exist
+import org.aspectj.lang.annotation.Pointcut;
+                                  ^
+hybrids/com.jamonapi/jamon/2.82/SystemAopPointcutDefinitions.java:14: error: cannot find symbol
+@Aspect
+ ^
+  symbol: class Aspect
+hybrids/com.jamonapi/jamon/2.82/SystemAopPointcutDefinitions.java:18: error: cannot find symbol
+    @Pointcut("execution(public * *(..))")
+     ^
+  symbol:   class Pointcut
+  location: class SystemAopPointcutDefinitions
+hybrids/com.jamonapi/jamon/2.82/SystemAopPointcutDefinitions.java:28: error: cannot find symbol
+    @Pointcut("within(@com.jamonapi.aop.spring.MonitorAnnotation *)")
+     ^
+  symbol:   class Pointcut
+  location: class SystemAopPointcutDefinitions
+hybrids/com.jamonapi/jamon/2.82/SystemAopPointcutDefinitions.java:33: error: cannot find symbol
+    @Pointcut("anyPublicMethod() && @annotation(com.jamonapi.aop.spring.MonitorAnnotation)")
+     ^
+  symbol:   class Pointcut
+  location: class SystemAopPointcutDefinitions
+6 errors

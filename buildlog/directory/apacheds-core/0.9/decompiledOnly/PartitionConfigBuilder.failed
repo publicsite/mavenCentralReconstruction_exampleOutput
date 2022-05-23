@@ -1,0 +1,67 @@
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:12: error: cannot find symbol
+import org.apache.ldap.common.util.StringTools;
+                                  ^
+  symbol:   class StringTools
+  location: package org.apache.ldap.common.util
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:14: error: cannot find symbol
+import org.apache.ldap.common.name.LdapName;
+                                  ^
+  symbol:   class LdapName
+  location: package org.apache.ldap.common.name
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:16: error: cannot find symbol
+import org.apache.ldap.common.message.LockableAttributesImpl;
+                                     ^
+  symbol:   class LockableAttributesImpl
+  location: package org.apache.ldap.common.message
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:31: error: cannot find symbol
+        final LockableAttributesImpl attrs = new LockableAttributesImpl();
+              ^
+  symbol:   class LockableAttributesImpl
+  location: class PartitionConfigBuilder
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:31: error: cannot find symbol
+        final LockableAttributesImpl attrs = new LockableAttributesImpl();
+                                                 ^
+  symbol:   class LockableAttributesImpl
+  location: class PartitionConfigBuilder
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:35: error: incompatible types: Object cannot be converted to String
+        String suffix = env.get(buf.toString());
+                               ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:37: error: cannot find symbol
+            suffix = new LdapName(suffix).toString();
+                         ^
+  symbol:   class LdapName
+  location: class PartitionConfigBuilder
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:42: error: incompatible types: Object cannot be converted to String
+        final String partitionClass = env.get(buf.toString());
+                                             ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:48: error: incompatible types: Object cannot be converted to String
+        final String properties = env.get(buf.toString());
+                                         ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:54: error: incompatible types: Object cannot be converted to String
+        String indexList = env.get(buf.toString());
+                                  ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:59: error: cannot find symbol
+            indexList = StringTools.deepTrim(indexList);
+                        ^
+  symbol:   variable StringTools
+  location: class PartitionConfigBuilder
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:73: error: incompatible types: Object cannot be converted to String
+            final String attrKey = list.nextElement();
+                                                   ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:76: error: incompatible types: Object cannot be converted to String
+                String valueList = env.get(attrKey);
+                                          ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:81: error: cannot find symbol
+                    valueList = StringTools.deepTrim(valueList);
+                                ^
+  symbol:   variable StringTools
+  location: class PartitionConfigBuilder
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:94: error: incompatible types: Object cannot be converted to String
+        String idList = env.get("server.db.partitions");
+                               ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/jndi/PartitionConfigBuilder.java:98: error: cannot find symbol
+        idList = StringTools.deepTrim(idList);
+                 ^
+  symbol:   variable StringTools
+  location: class PartitionConfigBuilder
+16 errors

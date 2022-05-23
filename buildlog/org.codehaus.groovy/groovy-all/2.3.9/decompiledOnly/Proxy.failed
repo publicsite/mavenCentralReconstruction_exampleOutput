@@ -1,0 +1,43 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/Proxy.java:8: error: cannot find symbol
+import groovy.lang.MissingMethodException;
+                  ^
+  symbol:   class MissingMethodException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/Proxy.java:9: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/Proxy.java:10: error: cannot find symbol
+import groovy.lang.GroovyObjectSupport;
+                  ^
+  symbol:   class GroovyObjectSupport
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/Proxy.java:12: error: cannot find symbol
+public class Proxy extends GroovyObjectSupport
+                           ^
+  symbol: class GroovyObjectSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/Proxy.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/Proxy.java:36: error: cannot find symbol
+            return super.invokeMethod(name, args);
+                   ^
+  symbol:   variable super
+  location: class Proxy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/Proxy.java:38: error: cannot find symbol
+        catch (MissingMethodException e) {
+               ^
+  symbol:   class MissingMethodException
+  location: class Proxy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/Proxy.java:39: error: cannot find symbol
+            return InvokerHelper.invokeMethod(this.adaptee, name, args);
+                   ^
+  symbol:   variable InvokerHelper
+  location: class Proxy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/Proxy.java:44: error: cannot find symbol
+        return InvokerHelper.asIterator(this.adaptee);
+               ^
+  symbol:   variable InvokerHelper
+  location: class Proxy
+9 errors

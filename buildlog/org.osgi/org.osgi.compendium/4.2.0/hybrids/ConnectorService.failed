@@ -1,0 +1,37 @@
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ConnectorService.java:20: error: package javax.microedition.io does not exist
+import javax.microedition.io.Connection;
+                            ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ConnectorService.java:21: error: package javax.microedition.io does not exist
+import javax.microedition.io.Connector;
+                            ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ConnectorService.java:76: error: cannot find symbol
+	public Connection open(String name) throws IOException;
+	       ^
+  symbol:   class Connection
+  location: interface ConnectorService
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ConnectorService.java:91: error: cannot find symbol
+	public Connection open(String name, int mode) throws IOException;
+	       ^
+  symbol:   class Connection
+  location: interface ConnectorService
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ConnectorService.java:108: error: cannot find symbol
+	public Connection open(String name, int mode, boolean timeouts)
+	       ^
+  symbol:   class Connection
+  location: interface ConnectorService
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ConnectorService.java:51: error: cannot find symbol
+	public static final int	READ		= Connector.READ;
+	                       	    		  ^
+  symbol:   variable Connector
+  location: interface ConnectorService
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ConnectorService.java:57: error: cannot find symbol
+	public static final int	WRITE		= Connector.WRITE;
+	                       	     		  ^
+  symbol:   variable Connector
+  location: interface ConnectorService
+hybrids/org.osgi/org.osgi.compendium/4.2.0/ConnectorService.java:63: error: cannot find symbol
+	public static final int	READ_WRITE	= Connector.READ_WRITE;
+	                       	          	  ^
+  symbol:   variable Connector
+  location: interface ConnectorService
+8 errors

@@ -1,0 +1,36 @@
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/JSTLVariableStack.java:24: error: cannot find symbol
+import javax.servlet.jsp.PageContext;
+                        ^
+  symbol:   class PageContext
+  location: package javax.servlet.jsp
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/JSTLVariableStack.java:73: error: cannot find symbol
+    private final PageContext pageContext;
+                  ^
+  symbol:   class PageContext
+  location: class JSTLVariableStack
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/JSTLVariableStack.java:75: error: cannot find symbol
+    public JSTLVariableStack(PageContext pageContext) {
+                             ^
+  symbol:   class PageContext
+  location: class JSTLVariableStack
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/JSTLVariableStack.java:121: error: cannot find symbol
+                return pageContext.getAttribute(name, PageContext.PAGE_SCOPE);
+                                                      ^
+  symbol:   variable PageContext
+  location: class JSTLVariableStack
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/JSTLVariableStack.java:123: error: cannot find symbol
+                return pageContext.getAttribute(name, PageContext.REQUEST_SCOPE);
+                                                      ^
+  symbol:   variable PageContext
+  location: class JSTLVariableStack
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/JSTLVariableStack.java:125: error: cannot find symbol
+                return pageContext.getAttribute(name, PageContext.SESSION_SCOPE);
+                                                      ^
+  symbol:   variable PageContext
+  location: class JSTLVariableStack
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/JSTLVariableStack.java:127: error: cannot find symbol
+                return pageContext.getAttribute(name, PageContext.APPLICATION_SCOPE);
+                                                      ^
+  symbol:   variable PageContext
+  location: class JSTLVariableStack
+7 errors

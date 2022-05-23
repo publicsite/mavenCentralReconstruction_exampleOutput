@@ -1,0 +1,27 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/IO.java:8: error: package org.codehaus.groovy.tools.shell.util does not exist
+import org.codehaus.groovy.tools.shell.util.Preferences;
+                                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/IO.java:9: error: package org.fusesource.jansi does not exist
+import org.fusesource.jansi.AnsiRenderWriter;
+                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/IO.java:33: error: cannot find symbol
+        this.out = (PrintWriter)new AnsiRenderWriter(outputStream, true);
+                                    ^
+  symbol:   class AnsiRenderWriter
+  location: class IO
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/IO.java:34: error: cannot find symbol
+        this.err = (PrintWriter)new AnsiRenderWriter(errorStream, true);
+                                    ^
+  symbol:   class AnsiRenderWriter
+  location: class IO
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/IO.java:43: error: cannot find symbol
+        Preferences.verbosity = verbosity;
+        ^
+  symbol:   variable Preferences
+  location: class IO
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/shell/IO.java:47: error: cannot find symbol
+        return Preferences.verbosity;
+               ^
+  symbol:   variable Preferences
+  location: class IO
+6 errors

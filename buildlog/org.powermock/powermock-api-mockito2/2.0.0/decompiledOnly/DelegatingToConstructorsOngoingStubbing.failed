@@ -1,0 +1,59 @@
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/internal/expectation/DelegatingToConstructorsOngoingStubbing.java:7: error: cannot find symbol
+import org.mockito.Mockito;
+                  ^
+  symbol:   class Mockito
+  location: package org.mockito
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/internal/expectation/DelegatingToConstructorsOngoingStubbing.java:8: error: cannot find symbol
+import org.mockito.ArgumentMatchers;
+                  ^
+  symbol:   class ArgumentMatchers
+  location: package org.mockito
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/internal/expectation/DelegatingToConstructorsOngoingStubbing.java:9: error: package org.powermock.core.spi.support does not exist
+import org.powermock.core.spi.support.InvocationSubstitute;
+                                     ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/internal/expectation/DelegatingToConstructorsOngoingStubbing.java:28: error: no suitable method found for thenReturn(Object)
+        this.stubbing.thenReturn((Object)value);
+                     ^
+    method OngoingStubbing.thenReturn(T) is not applicable
+      (argument mismatch; Object cannot be converted to T)
+    method OngoingStubbing.thenReturn(T,T...) is not applicable
+      (argument mismatch; Object cannot be converted to T)
+  where T is a type-variable:
+    T extends Object declared in class DelegatingToConstructorsOngoingStubbing
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/internal/expectation/DelegatingToConstructorsOngoingStubbing.java:114: error: cannot find symbol
+            final InvocationSubstitute<T> mock = (InvocationSubstitute<T>)DelegatingToConstructorsOngoingStubbing.this.stubbing.getMock();
+                  ^
+  symbol:   class InvocationSubstitute
+  location: class DelegatingToConstructorsOngoingStubbing<T>.InvokeStubMethod
+  where T is a type-variable:
+    T extends Object declared in class DelegatingToConstructorsOngoingStubbing
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/internal/expectation/DelegatingToConstructorsOngoingStubbing.java:114: error: cannot find symbol
+            final InvocationSubstitute<T> mock = (InvocationSubstitute<T>)DelegatingToConstructorsOngoingStubbing.this.stubbing.getMock();
+                                                  ^
+  symbol:   class InvocationSubstitute
+  location: class DelegatingToConstructorsOngoingStubbing<T>.InvokeStubMethod
+  where T is a type-variable:
+    T extends Object declared in class DelegatingToConstructorsOngoingStubbing
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/internal/expectation/DelegatingToConstructorsOngoingStubbing.java:120: error: cannot find symbol
+                    paramArgs[i] = ArgumentMatchers.nullable((Class)paramType);
+                                   ^
+  symbol:   variable ArgumentMatchers
+  location: class DelegatingToConstructorsOngoingStubbing<T>.InvokeStubMethod
+  where T is a type-variable:
+    T extends Object declared in class DelegatingToConstructorsOngoingStubbing
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/internal/expectation/DelegatingToConstructorsOngoingStubbing.java:123: error: cannot find symbol
+                    final OngoingStubbing<T> when = (OngoingStubbing<T>)Mockito.when(mock.performSubstitutionLogic(paramArgs));
+                                                                        ^
+  symbol:   variable Mockito
+  location: class DelegatingToConstructorsOngoingStubbing<T>.InvokeStubMethod
+  where T is a type-variable:
+    T extends Object declared in class DelegatingToConstructorsOngoingStubbing
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/internal/expectation/DelegatingToConstructorsOngoingStubbing.java:38: error: incompatible types: Object cannot be converted to T
+        this.stubbing.thenReturn((Object)value, (Object[])values);
+                                 ^
+  where T is a type-variable:
+    T extends Object declared in class DelegatingToConstructorsOngoingStubbing
+Note: sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/internal/expectation/DelegatingToConstructorsOngoingStubbing.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+9 errors

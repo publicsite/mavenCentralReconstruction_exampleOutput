@@ -1,0 +1,50 @@
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/FinalizableWeakReference.java:20: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/FinalizableReference.java:18: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.DoNotMock;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/FinalizableReference.java:27: error: cannot find symbol
+@DoNotMock("Use an instance of one of the Finalizable*Reference classes")
+ ^
+  symbol: class DoNotMock
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/FinalizableReferenceQueue.java:30: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/FinalizableWeakReference.java:40: error: cannot find symbol
+  protected FinalizableWeakReference(@CheckForNull T referent, FinalizableReferenceQueue queue) {
+                                      ^
+  symbol:   class CheckForNull
+  location: class FinalizableWeakReference<T>
+  where T is a type-variable:
+    T extends Object declared in class FinalizableWeakReference
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/FinalizableReferenceQueue.java:232: error: cannot find symbol
+    @CheckForNull
+     ^
+  symbol:   class CheckForNull
+  location: interface FinalizerLoader
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/FinalizableReferenceQueue.java:246: error: cannot find symbol
+    @CheckForNull
+     ^
+  symbol:   class CheckForNull
+  location: class SystemLoader
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/FinalizableReferenceQueue.java:284: error: cannot find symbol
+    @CheckForNull
+     ^
+  symbol:   class CheckForNull
+  location: class DecoupledLoader
+12 errors

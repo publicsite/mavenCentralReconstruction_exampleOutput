@@ -1,0 +1,28 @@
+hybrids/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/XMLInputFactory.java:20: error: package exists in another module: java.xml
+package javax.xml.stream;
+^
+hybrids/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/XMLInputFactory.java:41: error: cannot find symbol
+		return (XMLInputFactory)FactoryLocator.locate("javax.xml.stream.XMLInputFactory", "com.ctc.wstx.stax.WstxInputFactory");
+		                        ^
+  symbol:   variable FactoryLocator
+  location: class XMLInputFactory
+hybrids/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/XMLInputFactory.java:47: error: cannot find symbol
+		return (XMLInputFactory)FactoryLocator.locate("javax.xml.stream.XMLInputFactory", "com.ctc.wstx.stax.WstxInputFactory");
+		                        ^
+  symbol:   variable FactoryLocator
+  location: class XMLInputFactory
+hybrids/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/XMLInputFactory.java:59: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static XMLInputFactory newInstance(java.lang.String factoryId,
+	                              ^
+hybrids/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/XMLInputFactory.java:62: error: cannot find symbol
+		return (XMLInputFactory)FactoryLocator.locate(factoryId, "com.ctc.wstx.stax.WstxInputFactory", classLoader);
+		                        ^
+  symbol:   variable FactoryLocator
+  location: class XMLInputFactory
+hybrids/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/XMLInputFactory.java:69: error: cannot find symbol
+		return (XMLInputFactory)FactoryLocator.locate(factoryId, "com.ctc.wstx.stax.WstxInputFactory", classLoader);
+		                        ^
+  symbol:   variable FactoryLocator
+  location: class XMLInputFactory
+5 errors
+1 warning

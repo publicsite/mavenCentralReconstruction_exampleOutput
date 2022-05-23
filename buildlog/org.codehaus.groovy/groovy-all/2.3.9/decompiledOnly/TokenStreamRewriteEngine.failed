@@ -1,0 +1,104 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:8: error: cannot find symbol
+import groovyjarjarantlr.ASdebug.ASDebugStream;
+                                ^
+  symbol:   class ASDebugStream
+  location: package groovyjarjarantlr.ASdebug
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:13: error: cannot find symbol
+import groovyjarjarantlr.collections.impl.BitSet;
+                                         ^
+  symbol:   class BitSet
+  location: package groovyjarjarantlr.collections.impl
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:18: error: cannot find symbol
+public class TokenStreamRewriteEngine implements TokenStream, IASDebugStream
+                                                 ^
+  symbol: class TokenStream
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:27: error: cannot find symbol
+    protected TokenStream stream;
+              ^
+  symbol:   class TokenStream
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:28: error: cannot find symbol
+    protected BitSet discardMask;
+              ^
+  symbol:   class BitSet
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:30: error: cannot find symbol
+    public TokenStreamRewriteEngine(final TokenStream tokenStream) {
+                                          ^
+  symbol:   class TokenStream
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:34: error: cannot find symbol
+    public TokenStreamRewriteEngine(final TokenStream stream, final int initialCapacity) {
+                                          ^
+  symbol:   class TokenStream
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:214: error: cannot find symbol
+    public TokenWithIndex getToken(final int n) {
+           ^
+  symbol:   class TokenWithIndex
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:38: error: cannot find symbol
+        this.discardMask = new BitSet();
+                               ^
+  symbol:   class BitSet
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:46: error: cannot find symbol
+        TokenWithIndex tokenWithIndex;
+        ^
+  symbol:   class TokenWithIndex
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:48: error: cannot find symbol
+            tokenWithIndex = (TokenWithIndex)this.stream.nextToken();
+                              ^
+  symbol:   class TokenWithIndex
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:65: error: incompatible types: Object cannot be converted to List
+        final List list = this.programs.get(s);
+                                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:107: error: incompatible types: Object cannot be converted to RewriteOperation
+                    final RewriteOperation rewriteOperation = program.get(binarySearch);
+                                                                         ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:139: error: cannot find symbol
+        this.insertAfter(s, ((TokenWithIndex)token).getIndex(), s2);
+                              ^
+  symbol:   class TokenWithIndex
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:155: error: cannot find symbol
+        this.insertBefore(s, ((TokenWithIndex)token).getIndex(), s2);
+                               ^
+  symbol:   class TokenWithIndex
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:183: error: cannot find symbol
+        this.replace(s, ((TokenWithIndex)token).getIndex(), ((TokenWithIndex)token2).getIndex(), s2);
+                          ^
+  symbol:   class TokenWithIndex
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:183: error: cannot find symbol
+        this.replace(s, ((TokenWithIndex)token).getIndex(), ((TokenWithIndex)token2).getIndex(), s2);
+                                                              ^
+  symbol:   class TokenWithIndex
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:247: error: incompatible types: Object cannot be converted to List<RewriteOperation>
+        final List<RewriteOperation> list = this.programs.get(s);
+                                                             ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:296: error: incompatible types: Object cannot be converted to Integer
+        final Integer n = this.lastRewriteTokenIndexes.get(s);
+                                                          ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:308: error: incompatible types: Object cannot be converted to List
+        List initializeProgram = this.programs.get(s);
+                                                  ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:330: error: cannot find symbol
+        return ASDebugStream.getEntireText(this.stream);
+               ^
+  symbol:   variable ASDebugStream
+  location: class TokenStreamRewriteEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java:334: error: cannot find symbol
+        return ASDebugStream.getOffsetInfo(this.stream, token);
+               ^
+  symbol:   variable ASDebugStream
+  location: class TokenStreamRewriteEngine
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/TokenStreamRewriteEngine.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+22 errors

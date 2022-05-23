@@ -1,0 +1,57 @@
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:16: error: cannot find symbol
+import org.apache.tools.ant.DirectoryScanner;
+                           ^
+  symbol:   class DirectoryScanner
+  location: package org.apache.tools.ant
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:17: error: cannot find symbol
+import org.apache.tools.ant.Task;
+                           ^
+  symbol:   class Task
+  location: package org.apache.tools.ant
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:18: error: cannot find symbol
+import org.apache.tools.ant.types.FileSet;
+                                 ^
+  symbol:   class FileSet
+  location: package org.apache.tools.ant.types
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:20: error: cannot find symbol
+public abstract class AbstractQdoxTask extends Task {
+                                               ^
+  symbol: class Task
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:26: error: cannot find symbol
+    public void addFileset(FileSet set) {
+                           ^
+  symbol:   class FileSet
+  location: class AbstractQdoxTask
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:32: error: cannot find symbol
+            FileSet fs = (FileSet) filesets.elementAt(i);
+            ^
+  symbol:   class FileSet
+  location: class AbstractQdoxTask
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:32: error: cannot find symbol
+            FileSet fs = (FileSet) filesets.elementAt(i);
+                          ^
+  symbol:   class FileSet
+  location: class AbstractQdoxTask
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:33: error: cannot find symbol
+            DirectoryScanner ds = fs.getDirectoryScanner(getProject());
+            ^
+  symbol:   class DirectoryScanner
+  location: class AbstractQdoxTask
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:33: error: cannot find symbol
+            DirectoryScanner ds = fs.getDirectoryScanner(getProject());
+                                                         ^
+  symbol:   method getProject()
+  location: class AbstractQdoxTask
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:35: error: cannot find symbol
+            buildFileMap(fs.getDir(getProject()), srcFiles);
+                                   ^
+  symbol:   method getProject()
+  location: class AbstractQdoxTask
+hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java:52: error: cannot find symbol
+        builder.getClassLibrary().addClassLoader(getClass().getClassLoader());
+                                                 ^
+  symbol:   method getClass()
+  location: class AbstractQdoxTask
+Note: hybrids/com.thoughtworks.qdox/qdox/1.12.1/AbstractQdoxTask.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors

@@ -1,0 +1,49 @@
+hybrids/org.easymock/easymock/3.3/EasyMockRule.java:19: error: package org.junit.rules does not exist
+import org.junit.rules.TestRule;
+                      ^
+hybrids/org.easymock/easymock/3.3/EasyMockRule.java:20: error: package org.junit.runner does not exist
+import org.junit.runner.Description;
+                       ^
+hybrids/org.easymock/easymock/3.3/EasyMockRule.java:21: error: package org.junit.runners.model does not exist
+import org.junit.runners.model.Statement;
+                              ^
+hybrids/org.easymock/easymock/3.3/EasyMockRule.java:29: error: cannot find symbol
+public class EasyMockRule implements TestRule {
+                                     ^
+  symbol: class TestRule
+hybrids/org.easymock/easymock/3.3/EasyMockRule.java:37: error: cannot find symbol
+    public Statement apply(final Statement base, final Description description) {
+                                 ^
+  symbol:   class Statement
+  location: class EasyMockRule
+hybrids/org.easymock/easymock/3.3/EasyMockRule.java:37: error: cannot find symbol
+    public Statement apply(final Statement base, final Description description) {
+                                                       ^
+  symbol:   class Description
+  location: class EasyMockRule
+hybrids/org.easymock/easymock/3.3/EasyMockRule.java:37: error: cannot find symbol
+    public Statement apply(final Statement base, final Description description) {
+           ^
+  symbol:   class Statement
+  location: class EasyMockRule
+sources/structure/org.easymock/easymock/3.3/extractedSources/org/easymock/internal/EasyMockStatement.java:21: error: package org.junit.runners.model does not exist
+import org.junit.runners.model.Statement;
+                              ^
+sources/structure/org.easymock/easymock/3.3/extractedSources/org/easymock/internal/EasyMockStatement.java:29: error: cannot find symbol
+public class EasyMockStatement extends Statement {
+                                       ^
+  symbol: class Statement
+sources/structure/org.easymock/easymock/3.3/extractedSources/org/easymock/internal/EasyMockStatement.java:31: error: cannot find symbol
+    private final Statement originalStatement;
+                  ^
+  symbol:   class Statement
+  location: class EasyMockStatement
+sources/structure/org.easymock/easymock/3.3/extractedSources/org/easymock/internal/EasyMockStatement.java:35: error: cannot find symbol
+    public EasyMockStatement(final Statement originalStatement, final Object test) {
+                                   ^
+  symbol:   class Statement
+  location: class EasyMockStatement
+sources/structure/org.easymock/easymock/3.3/extractedSources/org/easymock/internal/EasyMockStatement.java:40: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+12 errors

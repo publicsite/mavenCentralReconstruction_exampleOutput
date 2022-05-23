@@ -1,0 +1,35 @@
+hybrids/org.springframework/spring/2.5.6/Log4jConfigurer.java:23: error: package org.apache.log4j does not exist
+import org.apache.log4j.LogManager;
+                       ^
+hybrids/org.springframework/spring/2.5.6/Log4jConfigurer.java:24: error: package org.apache.log4j does not exist
+import org.apache.log4j.PropertyConfigurator;
+                       ^
+hybrids/org.springframework/spring/2.5.6/Log4jConfigurer.java:25: error: package org.apache.log4j.xml does not exist
+import org.apache.log4j.xml.DOMConfigurator;
+                           ^
+hybrids/org.springframework/spring/2.5.6/Log4jConfigurer.java:70: error: cannot find symbol
+			DOMConfigurator.configure(url);
+			^
+  symbol:   variable DOMConfigurator
+  location: class Log4jConfigurer
+hybrids/org.springframework/spring/2.5.6/Log4jConfigurer.java:73: error: cannot find symbol
+			PropertyConfigurator.configure(url);
+			^
+  symbol:   variable PropertyConfigurator
+  location: class Log4jConfigurer
+hybrids/org.springframework/spring/2.5.6/Log4jConfigurer.java:103: error: cannot find symbol
+			DOMConfigurator.configureAndWatch(file.getAbsolutePath(), refreshInterval);
+			^
+  symbol:   variable DOMConfigurator
+  location: class Log4jConfigurer
+hybrids/org.springframework/spring/2.5.6/Log4jConfigurer.java:106: error: cannot find symbol
+			PropertyConfigurator.configureAndWatch(file.getAbsolutePath(), refreshInterval);
+			^
+  symbol:   variable PropertyConfigurator
+  location: class Log4jConfigurer
+hybrids/org.springframework/spring/2.5.6/Log4jConfigurer.java:117: error: cannot find symbol
+		LogManager.shutdown();
+		^
+  symbol:   variable LogManager
+  location: class Log4jConfigurer
+8 errors

@@ -1,0 +1,56 @@
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:19: error: cannot find symbol
+import static com.google.common.escape.Escapers.computeReplacement;
+                                      ^
+  symbol:   class Escapers
+  location: package com.google.common.escape
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:19: error: static import only from classes and interfaces
+import static com.google.common.escape.Escapers.computeReplacement;
+^
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:22: error: cannot find symbol
+import com.google.common.escape.CharEscaper;
+                               ^
+  symbol:   class CharEscaper
+  location: package com.google.common.escape
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:23: error: cannot find symbol
+import com.google.common.escape.Escaper;
+                               ^
+  symbol:   class Escaper
+  location: package com.google.common.escape
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:24: error: cannot find symbol
+import com.google.common.escape.UnicodeEscaper;
+                               ^
+  symbol:   class UnicodeEscaper
+  location: package com.google.common.escape
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:43: error: cannot find symbol
+  public static void assertBasic(Escaper escaper) throws IOException {
+                                 ^
+  symbol:   class Escaper
+  location: class EscaperAsserts
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:62: error: cannot find symbol
+  public static void assertEscaping(CharEscaper escaper, String expected, char c) {
+                                    ^
+  symbol:   class CharEscaper
+  location: class EscaperAsserts
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:76: error: cannot find symbol
+  public static void assertEscaping(UnicodeEscaper escaper, String expected, int cp) {
+                                    ^
+  symbol:   class UnicodeEscaper
+  location: class EscaperAsserts
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:89: error: cannot find symbol
+  public static void assertUnescaped(CharEscaper escaper, char c) {
+                                     ^
+  symbol:   class CharEscaper
+  location: class EscaperAsserts
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:99: error: cannot find symbol
+  public static void assertUnescaped(UnicodeEscaper escaper, int cp) {
+                                     ^
+  symbol:   class UnicodeEscaper
+  location: class EscaperAsserts
+hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java:112: error: cannot find symbol
+      UnicodeEscaper escaper, String expected, char hi, char lo) {
+      ^
+  symbol:   class UnicodeEscaper
+  location: class EscaperAsserts
+Note: hybrids/com.google.guava/guava-testlib/31.1-jre/EscaperAsserts.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+11 errors

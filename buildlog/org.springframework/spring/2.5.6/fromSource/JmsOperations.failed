@@ -1,0 +1,222 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:19: error: package javax.jms does not exist
+import javax.jms.Destination;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:20: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:21: error: package javax.jms does not exist
+import javax.jms.Queue;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/SessionCallback.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/SessionCallback.java:20: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/ProducerCallback.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/ProducerCallback.java:20: error: package javax.jms does not exist
+import javax.jms.MessageProducer;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/ProducerCallback.java:21: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:75: error: cannot find symbol
+	Object execute(Destination destination, ProducerCallback action) throws JmsException;
+	               ^
+  symbol:   class Destination
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessageCreator.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessageCreator.java:20: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessageCreator.java:21: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:108: error: cannot find symbol
+	void send(Destination destination, MessageCreator messageCreator) throws JmsException;
+	          ^
+  symbol:   class Destination
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:141: error: cannot find symbol
+	void convertAndSend(Destination destination, Object message) throws JmsException;
+	                    ^
+  symbol:   class Destination
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessagePostProcessor.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessagePostProcessor.java:20: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:174: error: cannot find symbol
+	void convertAndSend(Destination destination, Object message, MessagePostProcessor postProcessor)
+	                    ^
+  symbol:   class Destination
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:204: error: cannot find symbol
+	Message receive() throws JmsException;
+	^
+  symbol:   class Message
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:215: error: cannot find symbol
+	Message receive(Destination destination) throws JmsException;
+	                ^
+  symbol:   class Destination
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:215: error: cannot find symbol
+	Message receive(Destination destination) throws JmsException;
+	^
+  symbol:   class Message
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:227: error: cannot find symbol
+	Message receive(String destinationName) throws JmsException;
+	^
+  symbol:   class Message
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:240: error: cannot find symbol
+	Message receiveSelected(String messageSelector) throws JmsException;
+	^
+  symbol:   class Message
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:253: error: cannot find symbol
+	Message receiveSelected(Destination destination, String messageSelector) throws JmsException;
+	                        ^
+  symbol:   class Destination
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:253: error: cannot find symbol
+	Message receiveSelected(Destination destination, String messageSelector) throws JmsException;
+	^
+  symbol:   class Message
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:267: error: cannot find symbol
+	Message receiveSelected(String destinationName, String messageSelector) throws JmsException;
+	^
+  symbol:   class Message
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:296: error: cannot find symbol
+	Object receiveAndConvert(Destination destination) throws JmsException;
+	                         ^
+  symbol:   class Destination
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:337: error: cannot find symbol
+	Object receiveSelectedAndConvert(Destination destination, String messageSelector) throws JmsException;
+	                                 ^
+  symbol:   class Destination
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/BrowserCallback.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/BrowserCallback.java:20: error: package javax.jms does not exist
+import javax.jms.QueueBrowser;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/BrowserCallback.java:21: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:376: error: cannot find symbol
+	Object browse(Queue queue, BrowserCallback action) throws JmsException;
+	              ^
+  symbol:   class Queue
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/JmsOperations.java:410: error: cannot find symbol
+	Object browseSelected(Queue queue, String messageSelector, BrowserCallback action) throws JmsException;
+	                      ^
+  symbol:   class Queue
+  location: interface JmsOperations
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/BrowserCallback.java:44: error: cannot find symbol
+	Object doInJms(Session session, QueueBrowser browser) throws JMSException;
+	               ^
+  symbol:   class Session
+  location: interface BrowserCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/BrowserCallback.java:44: error: cannot find symbol
+	Object doInJms(Session session, QueueBrowser browser) throws JMSException;
+	                                ^
+  symbol:   class QueueBrowser
+  location: interface BrowserCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/BrowserCallback.java:44: error: cannot find symbol
+	Object doInJms(Session session, QueueBrowser browser) throws JMSException;
+	                                                             ^
+  symbol:   class JMSException
+  location: interface BrowserCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessagePostProcessor.java:44: error: cannot find symbol
+	Message postProcessMessage(Message message) throws JMSException;
+	                           ^
+  symbol:   class Message
+  location: interface MessagePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessagePostProcessor.java:44: error: cannot find symbol
+	Message postProcessMessage(Message message) throws JMSException;
+	^
+  symbol:   class Message
+  location: interface MessagePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessagePostProcessor.java:44: error: cannot find symbol
+	Message postProcessMessage(Message message) throws JMSException;
+	                                                   ^
+  symbol:   class JMSException
+  location: interface MessagePostProcessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessageCreator.java:47: error: cannot find symbol
+	Message createMessage(Session session) throws JMSException;
+	                      ^
+  symbol:   class Session
+  location: interface MessageCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessageCreator.java:47: error: cannot find symbol
+	Message createMessage(Session session) throws JMSException;
+	^
+  symbol:   class Message
+  location: interface MessageCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/MessageCreator.java:47: error: cannot find symbol
+	Message createMessage(Session session) throws JMSException;
+	                                              ^
+  symbol:   class JMSException
+  location: interface MessageCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/ProducerCallback.java:52: error: cannot find symbol
+	Object doInJms(Session session, MessageProducer producer) throws JMSException;
+	               ^
+  symbol:   class Session
+  location: interface ProducerCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/ProducerCallback.java:52: error: cannot find symbol
+	Object doInJms(Session session, MessageProducer producer) throws JMSException;
+	                                ^
+  symbol:   class MessageProducer
+  location: interface ProducerCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/ProducerCallback.java:52: error: cannot find symbol
+	Object doInJms(Session session, MessageProducer producer) throws JMSException;
+	                                                                 ^
+  symbol:   class JMSException
+  location: interface ProducerCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/SessionCallback.java:42: error: cannot find symbol
+	Object doInJms(Session session) throws JMSException;
+	               ^
+  symbol:   class Session
+  location: interface SessionCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/core/SessionCallback.java:42: error: cannot find symbol
+	Object doInJms(Session session) throws JMSException;
+	                                       ^
+  symbol:   class JMSException
+  location: interface SessionCallback
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:71: error: cannot find symbol
+		if (cause instanceof JMSException) {
+		                     ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:72: error: cannot find symbol
+			return ((JMSException) cause).getErrorCode();
+			         ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:85: error: cannot find symbol
+		if (cause instanceof JMSException) {
+		                     ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:86: error: cannot find symbol
+			Exception linkedEx = ((JMSException) cause).getLinkedException();
+			                       ^
+  symbol:   class JMSException
+  location: class JmsException
+51 errors

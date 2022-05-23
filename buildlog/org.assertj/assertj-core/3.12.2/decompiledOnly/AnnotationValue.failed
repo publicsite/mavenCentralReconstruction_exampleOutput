@@ -1,0 +1,521 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:7: error: package org.assertj.core.internal.bytebuddy.description.enumeration does not exist
+import org.assertj.core.internal.bytebuddy.description.enumeration.EnumerationDescription;
+                                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:13: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.ClassFileVersion;
+                                          ^
+  symbol:   class ClassFileVersion
+  location: package org.assertj.core.internal.bytebuddy
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:16: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:137: error: cannot find symbol
+        public abstract String toSourceString(final TypeDescription p0);
+                                                    ^
+  symbol:   class TypeDescription
+  location: class RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:647: error: cannot find symbol
+    public static class ForAnnotationDescription<U extends Annotation> extends AbstractBase<AnnotationDescription, U>
+                                                                                            ^
+  symbol:   class AnnotationDescription
+  location: interface AnnotationValue<T,S>
+  where T,S are type-variables:
+    T extends Object declared in interface AnnotationValue
+    S extends Object declared in interface AnnotationValue
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:649: error: cannot find symbol
+        private final AnnotationDescription annotationDescription;
+                      ^
+  symbol:   class AnnotationDescription
+  location: class ForAnnotationDescription<U>
+  where U is a type-variable:
+    U extends Annotation declared in class ForAnnotationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:651: error: cannot find symbol
+        public ForAnnotationDescription(final AnnotationDescription annotationDescription) {
+                                              ^
+  symbol:   class AnnotationDescription
+  location: class ForAnnotationDescription<U>
+  where U is a type-variable:
+    U extends Annotation declared in class ForAnnotationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:655: error: cannot find symbol
+        public static <V extends Annotation> AnnotationValue<AnnotationDescription, V> of(final TypeDescription annotationType, final Map<String, ? extends AnnotationValue<?, ?>> annotationValues) {
+                                                                                                ^
+  symbol:   class TypeDescription
+  location: class ForAnnotationDescription<U>
+  where U is a type-variable:
+    U extends Annotation declared in class ForAnnotationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:655: error: cannot find symbol
+        public static <V extends Annotation> AnnotationValue<AnnotationDescription, V> of(final TypeDescription annotationType, final Map<String, ? extends AnnotationValue<?, ?>> annotationValues) {
+                                                             ^
+  symbol:   class AnnotationDescription
+  location: class ForAnnotationDescription<U>
+  where U is a type-variable:
+    U extends Annotation declared in class ForAnnotationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:659: error: cannot find symbol
+        public AnnotationDescription resolve() {
+               ^
+  symbol:   class AnnotationDescription
+  location: class ForAnnotationDescription<U>
+  where U is a type-variable:
+    U extends Annotation declared in class ForAnnotationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:748: error: cannot find symbol
+    public static class ForEnumerationDescription<U extends Enum<U>> extends AbstractBase<EnumerationDescription, U>
+                                                                                          ^
+  symbol:   class EnumerationDescription
+  location: interface AnnotationValue<T,S>
+  where T,S are type-variables:
+    T extends Object declared in interface AnnotationValue
+    S extends Object declared in interface AnnotationValue
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:750: error: cannot find symbol
+        private final EnumerationDescription enumerationDescription;
+                      ^
+  symbol:   class EnumerationDescription
+  location: class ForEnumerationDescription<U>
+  where U is a type-variable:
+    U extends Enum<U> declared in class ForEnumerationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:752: error: cannot find symbol
+        protected ForEnumerationDescription(final EnumerationDescription enumerationDescription) {
+                                                  ^
+  symbol:   class EnumerationDescription
+  location: class ForEnumerationDescription<U>
+  where U is a type-variable:
+    U extends Enum<U> declared in class ForEnumerationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:756: error: cannot find symbol
+        public static <V extends Enum<V>> AnnotationValue<EnumerationDescription, V> of(final EnumerationDescription value) {
+                                                                                              ^
+  symbol:   class EnumerationDescription
+  location: class ForEnumerationDescription<U>
+  where U is a type-variable:
+    U extends Enum<U> declared in class ForEnumerationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:756: error: cannot find symbol
+        public static <V extends Enum<V>> AnnotationValue<EnumerationDescription, V> of(final EnumerationDescription value) {
+                                                          ^
+  symbol:   class EnumerationDescription
+  location: class ForEnumerationDescription<U>
+  where U is a type-variable:
+    U extends Enum<U> declared in class ForEnumerationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:760: error: cannot find symbol
+        public EnumerationDescription resolve() {
+               ^
+  symbol:   class EnumerationDescription
+  location: class ForEnumerationDescription<U>
+  where U is a type-variable:
+    U extends Enum<U> declared in class ForEnumerationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:872: error: cannot find symbol
+    public static class ForTypeDescription<U extends Class<U>> extends AbstractBase<TypeDescription, U>
+                                                                                    ^
+  symbol:   class TypeDescription
+  location: interface AnnotationValue<T,S>
+  where T,S are type-variables:
+    T extends Object declared in interface AnnotationValue
+    S extends Object declared in interface AnnotationValue
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:875: error: cannot find symbol
+        private final TypeDescription typeDescription;
+                      ^
+  symbol:   class TypeDescription
+  location: class ForTypeDescription<U>
+  where U is a type-variable:
+    U extends Class<U> declared in class ForTypeDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:877: error: cannot find symbol
+        protected ForTypeDescription(final TypeDescription typeDescription) {
+                                           ^
+  symbol:   class TypeDescription
+  location: class ForTypeDescription<U>
+  where U is a type-variable:
+    U extends Class<U> declared in class ForTypeDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:881: error: cannot find symbol
+        public static <V extends Class<V>> AnnotationValue<TypeDescription, V> of(final TypeDescription typeDescription) {
+                                                                                        ^
+  symbol:   class TypeDescription
+  location: class ForTypeDescription<U>
+  where U is a type-variable:
+    U extends Class<U> declared in class ForTypeDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:881: error: cannot find symbol
+        public static <V extends Class<V>> AnnotationValue<TypeDescription, V> of(final TypeDescription typeDescription) {
+                                                           ^
+  symbol:   class TypeDescription
+  location: class ForTypeDescription<U>
+  where U is a type-variable:
+    U extends Class<U> declared in class ForTypeDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:885: error: cannot find symbol
+        public TypeDescription resolve() {
+               ^
+  symbol:   class TypeDescription
+  location: class ForTypeDescription<U>
+  where U is a type-variable:
+    U extends Class<U> declared in class ForTypeDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:955: error: cannot find symbol
+        private final TypeDescription componentType;
+                      ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:958: error: cannot find symbol
+        protected ForDescriptionArray(final Class<?> unloadedComponentType, final TypeDescription componentType, final List<? extends AnnotationValue<?, ?>> values) {
+                                                                                  ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:964: error: cannot find symbol
+        public static <W extends Enum<W>> AnnotationValue<EnumerationDescription[], W[]> of(final TypeDescription enumerationType, final EnumerationDescription[] enumerationDescription) {
+                                                                                                  ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:964: error: cannot find symbol
+        public static <W extends Enum<W>> AnnotationValue<EnumerationDescription[], W[]> of(final TypeDescription enumerationType, final EnumerationDescription[] enumerationDescription) {
+                                                                                                                                         ^
+  symbol:   class EnumerationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:964: error: cannot find symbol
+        public static <W extends Enum<W>> AnnotationValue<EnumerationDescription[], W[]> of(final TypeDescription enumerationType, final EnumerationDescription[] enumerationDescription) {
+                                                          ^
+  symbol:   class EnumerationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:975: error: cannot find symbol
+        public static <W extends Annotation> AnnotationValue<AnnotationDescription[], W[]> of(final TypeDescription annotationType, final AnnotationDescription[] annotationDescription) {
+                                                                                                    ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:975: error: cannot find symbol
+        public static <W extends Annotation> AnnotationValue<AnnotationDescription[], W[]> of(final TypeDescription annotationType, final AnnotationDescription[] annotationDescription) {
+                                                                                                                                          ^
+  symbol:   class AnnotationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:975: error: cannot find symbol
+        public static <W extends Annotation> AnnotationValue<AnnotationDescription[], W[]> of(final TypeDescription annotationType, final AnnotationDescription[] annotationDescription) {
+                                                             ^
+  symbol:   class AnnotationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:986: error: cannot find symbol
+        public static AnnotationValue<TypeDescription[], Class<?>[]> of(final TypeDescription[] typeDescription) {
+                                                                              ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:986: error: cannot find symbol
+        public static AnnotationValue<TypeDescription[], Class<?>[]> of(final TypeDescription[] typeDescription) {
+                                      ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:59: error: cannot find symbol
+            public String toSourceString(final TypeDescription value) {
+                                               ^
+  symbol: class TypeDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:34: error: name clash: class  has two methods with the same erasure, yet neither overrides the other
+            public String toSourceString(final char value) {
+                          ^
+  first method:  toSourceString(TypeDescription) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$1>
+  second method: toSourceString(String) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$1>
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:39: error: name clash: class  has two methods with the same erasure, yet neither overrides the other
+            public String toSourceString(final long value) {
+                          ^
+  first method:  toSourceString(TypeDescription) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$1>
+  second method: toSourceString(String) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$1>
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:44: error: name clash: class  has two methods with the same erasure, yet neither overrides the other
+            public String toSourceString(final float value) {
+                          ^
+  first method:  toSourceString(TypeDescription) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$1>
+  second method: toSourceString(String) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$1>
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:49: error: name clash: class  has two methods with the same erasure, yet neither overrides the other
+            public String toSourceString(final double value) {
+                          ^
+  first method:  toSourceString(TypeDescription) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$1>
+  second method: toSourceString(String) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$1>
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:54: error: name clash: class  has two methods with the same erasure, yet neither overrides the other
+            public String toSourceString(final String value) {
+                          ^
+  first method:  toSourceString(TypeDescription) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$1>
+  second method: toSourceString(double) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:97: error: cannot find symbol
+            public String toSourceString(final TypeDescription value) {
+                                               ^
+  symbol: class TypeDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:65: error: name clash: class  has two methods with the same erasure, yet neither overrides the other
+            public String toSourceString(final char value) {
+                          ^
+  first method:  toSourceString(TypeDescription) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$2>
+  second method: toSourceString(String) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$2>
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:77: error: name clash: class  has two methods with the same erasure, yet neither overrides the other
+            public String toSourceString(final long value) {
+                          ^
+  first method:  toSourceString(TypeDescription) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$2>
+  second method: toSourceString(String) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$2>
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:82: error: name clash: class  has two methods with the same erasure, yet neither overrides the other
+            public String toSourceString(final float value) {
+                          ^
+  first method:  toSourceString(TypeDescription) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$2>
+  second method: toSourceString(String) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$2>
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:87: error: name clash: class  has two methods with the same erasure, yet neither overrides the other
+            public String toSourceString(final double value) {
+                          ^
+  first method:  toSourceString(TypeDescription) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$2>
+  second method: toSourceString(String) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$2>
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:92: error: name clash: class  has two methods with the same erasure, yet neither overrides the other
+            public String toSourceString(final String value) {
+                          ^
+  first method:  toSourceString(TypeDescription) in <anonymous org.assertj.core.internal.bytebuddy.description.annotation.AnnotationValue$RenderingDispatcher$2>
+  second method: toSourceString(double) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:111: error: name clash: class RenderingDispatcher has two methods with the same erasure, yet neither overrides the other
+        public String toSourceString(final boolean value) {
+                      ^
+  first method:  toSourceString(TypeDescription) in RenderingDispatcher
+  second method: toSourceString(String) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:115: error: name clash: class RenderingDispatcher has two methods with the same erasure, yet neither overrides the other
+        public String toSourceString(final byte value) {
+                      ^
+  first method:  toSourceString(TypeDescription) in RenderingDispatcher
+  second method: toSourceString(String) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:119: error: name clash: class RenderingDispatcher has two methods with the same erasure, yet neither overrides the other
+        public String toSourceString(final short value) {
+                      ^
+  first method:  toSourceString(TypeDescription) in RenderingDispatcher
+  second method: toSourceString(String) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:123: error: name clash: class RenderingDispatcher has two methods with the same erasure, yet neither overrides the other
+        public abstract String toSourceString(final char p0);
+                               ^
+  first method:  toSourceString(TypeDescription) in RenderingDispatcher
+  second method: toSourceString(String) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:125: error: name clash: class RenderingDispatcher has two methods with the same erasure, yet neither overrides the other
+        public String toSourceString(final int value) {
+                      ^
+  first method:  toSourceString(TypeDescription) in RenderingDispatcher
+  second method: toSourceString(String) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:129: error: name clash: class RenderingDispatcher has two methods with the same erasure, yet neither overrides the other
+        public abstract String toSourceString(final long p0);
+                               ^
+  first method:  toSourceString(TypeDescription) in RenderingDispatcher
+  second method: toSourceString(String) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:131: error: name clash: class RenderingDispatcher has two methods with the same erasure, yet neither overrides the other
+        public abstract String toSourceString(final float p0);
+                               ^
+  first method:  toSourceString(TypeDescription) in RenderingDispatcher
+  second method: toSourceString(String) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:133: error: name clash: class RenderingDispatcher has two methods with the same erasure, yet neither overrides the other
+        public abstract String toSourceString(final double p0);
+                               ^
+  first method:  toSourceString(TypeDescription) in RenderingDispatcher
+  second method: toSourceString(String) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:139: error: name clash: class RenderingDispatcher has two methods with the same erasure, yet neither overrides the other
+        public String toSourceString(final List<?> values) {
+                      ^
+  first method:  toSourceString(TypeDescription) in RenderingDispatcher
+  second method: toSourceString(String) in RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:155: error: cannot find symbol
+            CURRENT = (ClassFileVersion.ofThisVm(ClassFileVersion.JAVA_V6).isAtLeast(ClassFileVersion.JAVA_V9) ? RenderingDispatcher.JAVA_9_CAPABLE_VM : RenderingDispatcher.LEGACY_VM);
+                                                                                     ^
+  symbol:   variable ClassFileVersion
+  location: class RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:155: error: cannot find symbol
+            CURRENT = (ClassFileVersion.ofThisVm(ClassFileVersion.JAVA_V6).isAtLeast(ClassFileVersion.JAVA_V9) ? RenderingDispatcher.JAVA_9_CAPABLE_VM : RenderingDispatcher.LEGACY_VM);
+                                                 ^
+  symbol:   variable ClassFileVersion
+  location: class RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:155: error: cannot find symbol
+            CURRENT = (ClassFileVersion.ofThisVm(ClassFileVersion.JAVA_V6).isAtLeast(ClassFileVersion.JAVA_V9) ? RenderingDispatcher.JAVA_9_CAPABLE_VM : RenderingDispatcher.LEGACY_VM);
+                       ^
+  symbol:   variable ClassFileVersion
+  location: class RenderingDispatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:656: error: cannot find symbol
+            return (AnnotationValue<AnnotationDescription, V>)new ForAnnotationDescription(new AnnotationDescription.Latent(annotationType, annotationValues));
+                                    ^
+  symbol:   class AnnotationDescription
+  location: class ForAnnotationDescription<U>
+  where U is a type-variable:
+    U extends Annotation declared in class ForAnnotationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:656: error: package AnnotationDescription does not exist
+            return (AnnotationValue<AnnotationDescription, V>)new ForAnnotationDescription(new AnnotationDescription.Latent(annotationType, annotationValues));
+                                                                                                                    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:757: error: cannot find symbol
+            return (AnnotationValue<EnumerationDescription, V>)new ForEnumerationDescription(value);
+                                    ^
+  symbol:   class EnumerationDescription
+  location: class ForEnumerationDescription<U>
+  where U is a type-variable:
+    U extends Enum<U> declared in class ForEnumerationDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:882: error: cannot find symbol
+            return (AnnotationValue<TypeDescription, V>)new ForTypeDescription(typeDescription);
+                                    ^
+  symbol:   class TypeDescription
+  location: class ForTypeDescription<U>
+  where U is a type-variable:
+    U extends Class<U> declared in class ForTypeDescription
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:947: error: package TypeDescription does not exist
+                return RenderingDispatcher.CURRENT.toSourceString(TypeDescription.ForLoadedType.of(this.type));
+                                                                                 ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:964: error: name clash: <W#1>of(TypeDescription,EnumerationDescription[]) in ForDescriptionArray and <W#2>of(TypeDescription,AnnotationDescription[]) in ForDescriptionArray have the same erasure, yet neither hides the other
+        public static <W extends Enum<W>> AnnotationValue<EnumerationDescription[], W[]> of(final TypeDescription enumerationType, final EnumerationDescription[] enumerationDescription) {
+                                                                                         ^
+  where W#1,W#2 are type-variables:
+    W#1 extends Enum<W#1> declared in method <W#1>of(TypeDescription,EnumerationDescription[])
+    W#2 extends Annotation declared in method <W#2>of(TypeDescription,AnnotationDescription[])
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:965: error: cannot find symbol
+            final List<AnnotationValue<EnumerationDescription, W>> values = new ArrayList<AnnotationValue<EnumerationDescription, W>>(enumerationDescription.length);
+                                       ^
+  symbol:   class EnumerationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:965: error: cannot find symbol
+            final List<AnnotationValue<EnumerationDescription, W>> values = new ArrayList<AnnotationValue<EnumerationDescription, W>>(enumerationDescription.length);
+                                                                                                          ^
+  symbol:   class EnumerationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:966: error: cannot find symbol
+            for (final EnumerationDescription value : enumerationDescription) {
+                       ^
+  symbol:   class EnumerationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:972: error: cannot find symbol
+            return (AnnotationValue<EnumerationDescription[], W[]>)new ForDescriptionArray(EnumerationDescription.class, enumerationType, values);
+                                    ^
+  symbol:   class EnumerationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:972: error: cannot find symbol
+            return (AnnotationValue<EnumerationDescription[], W[]>)new ForDescriptionArray(EnumerationDescription.class, enumerationType, values);
+                                                                                           ^
+  symbol:   class EnumerationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:975: error: name clash: <W#1>of(TypeDescription,AnnotationDescription[]) in ForDescriptionArray and <W#2>of(TypeDescription,EnumerationDescription[]) in ForDescriptionArray have the same erasure, yet neither hides the other
+        public static <W extends Annotation> AnnotationValue<AnnotationDescription[], W[]> of(final TypeDescription annotationType, final AnnotationDescription[] annotationDescription) {
+                                                                                           ^
+  where W#1,W#2 are type-variables:
+    W#1 extends Annotation declared in method <W#1>of(TypeDescription,AnnotationDescription[])
+    W#2 extends Enum<W#2> declared in method <W#2>of(TypeDescription,EnumerationDescription[])
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:976: error: cannot find symbol
+            final List<AnnotationValue<AnnotationDescription, W>> values = new ArrayList<AnnotationValue<AnnotationDescription, W>>(annotationDescription.length);
+                                       ^
+  symbol:   class AnnotationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:976: error: cannot find symbol
+            final List<AnnotationValue<AnnotationDescription, W>> values = new ArrayList<AnnotationValue<AnnotationDescription, W>>(annotationDescription.length);
+                                                                                                         ^
+  symbol:   class AnnotationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:977: error: cannot find symbol
+            for (final AnnotationDescription value : annotationDescription) {
+                       ^
+  symbol:   class AnnotationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:981: error: cannot find symbol
+                values.add((AnnotationValue<AnnotationDescription, W>)new ForAnnotationDescription(value));
+                                            ^
+  symbol:   class AnnotationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:983: error: cannot find symbol
+            return (AnnotationValue<AnnotationDescription[], W[]>)new ForDescriptionArray(AnnotationDescription.class, annotationType, values);
+                                    ^
+  symbol:   class AnnotationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:983: error: cannot find symbol
+            return (AnnotationValue<AnnotationDescription[], W[]>)new ForDescriptionArray(AnnotationDescription.class, annotationType, values);
+                                                                                          ^
+  symbol:   class AnnotationDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:987: error: cannot find symbol
+            final List<AnnotationValue<TypeDescription, Class<?>>> values = new ArrayList<AnnotationValue<TypeDescription, Class<?>>>(typeDescription.length);
+                                       ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:987: error: cannot find symbol
+            final List<AnnotationValue<TypeDescription, Class<?>>> values = new ArrayList<AnnotationValue<TypeDescription, Class<?>>>(typeDescription.length);
+                                                                                                          ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:988: error: cannot find symbol
+            for (final TypeDescription value : typeDescription) {
+                       ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:991: error: cannot find symbol
+            return (AnnotationValue<TypeDescription[], Class<?>[]>)new ForDescriptionArray(TypeDescription.class, TypeDescription.CLASS, values);
+                                    ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:991: error: cannot find symbol
+            return (AnnotationValue<TypeDescription[], Class<?>[]>)new ForDescriptionArray(TypeDescription.class, TypeDescription.CLASS, values);
+                                                                                           ^
+  symbol:   class TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java:991: error: cannot find symbol
+            return (AnnotationValue<TypeDescription[], Class<?>[]>)new ForDescriptionArray(TypeDescription.class, TypeDescription.CLASS, values);
+                                                                                                                  ^
+  symbol:   variable TypeDescription
+  location: class ForDescriptionArray<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class ForDescriptionArray
+    V extends Object declared in class ForDescriptionArray
+Note: sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/annotation/AnnotationValue.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+80 errors

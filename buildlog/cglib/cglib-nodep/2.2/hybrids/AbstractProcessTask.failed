@@ -1,0 +1,77 @@
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:20: error: cannot find symbol
+import org.apache.tools.ant.BuildException;
+                           ^
+  symbol:   class BuildException
+  location: package org.apache.tools.ant
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:21: error: cannot find symbol
+import org.apache.tools.ant.DirectoryScanner;
+                           ^
+  symbol:   class DirectoryScanner
+  location: package org.apache.tools.ant
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:22: error: cannot find symbol
+import org.apache.tools.ant.Project;
+                           ^
+  symbol:   class Project
+  location: package org.apache.tools.ant
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:23: error: cannot find symbol
+import org.apache.tools.ant.Task;
+                           ^
+  symbol:   class Task
+  location: package org.apache.tools.ant
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:24: error: cannot find symbol
+import org.apache.tools.ant.types.FileSet;
+                                 ^
+  symbol:   class FileSet
+  location: package org.apache.tools.ant.types
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:26: error: cannot find symbol
+abstract public class AbstractProcessTask extends Task {
+                                                  ^
+  symbol: class Task
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:29: error: cannot find symbol
+    public void addFileset(FileSet set) {
+                           ^
+  symbol:   class FileSet
+  location: class AbstractProcessTask
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:51: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class AbstractProcessTask
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:62: error: cannot find symbol
+    protected void beforeExecute() throws BuildException { }
+                                          ^
+  symbol:   class BuildException
+  location: class AbstractProcessTask
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:35: error: cannot find symbol
+        Project p = getProject();
+        ^
+  symbol:   class Project
+  location: class AbstractProcessTask
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:35: error: cannot find symbol
+        Project p = getProject();
+                    ^
+  symbol:   method getProject()
+  location: class AbstractProcessTask
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:37: error: cannot find symbol
+            FileSet fs = (FileSet)filesets.elementAt(i);
+            ^
+  symbol:   class FileSet
+  location: class AbstractProcessTask
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:37: error: cannot find symbol
+            FileSet fs = (FileSet)filesets.elementAt(i);
+                          ^
+  symbol:   class FileSet
+  location: class AbstractProcessTask
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:38: error: cannot find symbol
+            DirectoryScanner ds = fs.getDirectoryScanner(p);
+            ^
+  symbol:   class DirectoryScanner
+  location: class AbstractProcessTask
+hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java:57: error: cannot find symbol
+                 throw new BuildException(e);
+                           ^
+  symbol:   class BuildException
+  location: class AbstractProcessTask
+Note: hybrids/cglib/cglib-nodep/2.2/AbstractProcessTask.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+15 errors

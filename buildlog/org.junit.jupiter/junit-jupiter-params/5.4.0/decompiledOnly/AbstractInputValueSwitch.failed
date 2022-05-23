@@ -1,0 +1,54 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java:7: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.ArgumentUtils;
+                                                                   ^
+  symbol:   class ArgumentUtils
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java:8: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.DataProcessingException;
+                                                                   ^
+  symbol:   class DataProcessingException
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java:14: error: cannot find symbol
+public abstract class AbstractInputValueSwitch<T extends Context> extends AbstractProcessorSwitch<T>
+                                                                          ^
+  symbol: class AbstractProcessorSwitch
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java:105: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java:110: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java:115: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java:120: error: cannot find symbol
+                throw new DataProcessingException("Unable to determine position of column named '" + this.columnName + "' as no headers have been defined nor extracted from the input");
+                          ^
+  symbol:   class DataProcessingException
+  location: class AbstractInputValueSwitch<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractInputValueSwitch
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java:122: error: cannot find symbol
+            this.columnIndex = ArgumentUtils.indexOf(headers, this.columnName);
+                               ^
+  symbol:   variable ArgumentUtils
+  location: class AbstractInputValueSwitch<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractInputValueSwitch
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java:124: error: cannot find symbol
+                throw new DataProcessingException("Unable to determine position of column named '" + this.columnName + "' as it does not exist in the headers. Available headers are " + Arrays.toString(headers));
+                          ^
+  symbol:   class DataProcessingException
+  location: class AbstractInputValueSwitch<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractInputValueSwitch
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java:148: error: cannot find symbol
+        throw new DataProcessingException("Unable to process input row. No switches activated and no default switch defined.", this.columnIndex, row, null);
+                  ^
+  symbol:   class DataProcessingException
+  location: class AbstractInputValueSwitch<T>
+  where T is a type-variable:
+    T extends Context declared in class AbstractInputValueSwitch
+Note: sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractInputValueSwitch.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+10 errors

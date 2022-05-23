@@ -1,0 +1,30 @@
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java:11: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java:13: error: cannot find symbol
+public class ReturnStub extends Assert implements Stub
+                                ^
+  symbol: class Assert
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java:60: error: cannot find symbol
+        fail("tried to return an incompatible value: expected a " + obj + " but returned a " + obj2);
+        ^
+  symbol:   method fail(String)
+  location: class ReturnStub
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java:64: error: cannot find symbol
+        fail("tried to return null value from invokedMethod returning " + obj);
+        ^
+  symbol:   method fail(String)
+  location: class ReturnStub
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java:68: error: cannot find symbol
+        fail("tried to return a value from a void method");
+        ^
+  symbol:   method fail(String)
+  location: class ReturnStub
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/Invocation.java:22: error: cannot find symbol
+        this.parameterValues = ((a == null) ? Collections.EMPTY_LIST : Collections.unmodifiableList((List<?>)Arrays.asList((T[])a)));
+                                                                                                                            ^
+  symbol:   class T
+  location: class Invocation
+Note: sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+6 errors

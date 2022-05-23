@@ -1,0 +1,17 @@
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/org/xml/sax/helpers/NewInstance.java:8: error: package exists in another module: java.xml
+package org.xml.sax.helpers;
+^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/org/xml/sax/helpers/NewInstance.java:71: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+                    classLoader = NewInstance.class.getClassLoader();
+                                  ^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/org/xml/sax/helpers/NewInstance.java:95: error: cannot find symbol
+        ClassLoader cl = SecuritySupport.getContextClassLoader();
+                         ^
+  symbol:   variable SecuritySupport
+  location: class NewInstance
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/org/xml/sax/helpers/NewInstance.java:99: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+            cl = NewInstance.class.getClassLoader();
+                 ^
+Note: sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/org/xml/sax/helpers/NewInstance.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 errors

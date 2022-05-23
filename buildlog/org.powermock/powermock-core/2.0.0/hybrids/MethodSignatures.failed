@@ -1,0 +1,20 @@
+hybrids/org.powermock/powermock-core/2.0.0/MethodSignatures.java:6: error: package net.bytebuddy.description.method does not exist
+import net.bytebuddy.description.method.MethodDescription;
+                                       ^
+hybrids/org.powermock/powermock-core/2.0.0/MethodSignatures.java:29: error: cannot find symbol
+    private static class ByteBuddyMethodSignatureWriterWriter implements MethodSignatureWriter<MethodDescription> {
+                                                                                               ^
+  symbol:   class MethodDescription
+  location: class MethodSignatures
+hybrids/org.powermock/powermock-core/2.0.0/MethodSignatures.java:32: error: cannot find symbol
+        public String signatureFor(final MethodDescription method) {
+                                         ^
+  symbol:   class MethodDescription
+  location: class ByteBuddyMethodSignatureWriterWriter
+hybrids/org.powermock/powermock-core/2.0.0/MethodSignatures.java:15: error: cannot find symbol
+        public MethodSignatureWriter<MethodDescription> methodSignatureWriter() {
+                                     ^
+  symbol: class MethodDescription
+Note: hybrids/org.powermock/powermock-core/2.0.0/MethodSignatures.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors

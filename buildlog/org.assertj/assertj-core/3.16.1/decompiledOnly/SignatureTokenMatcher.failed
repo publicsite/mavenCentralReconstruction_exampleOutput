@@ -1,0 +1,50 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:8: error: package org.assertj.core.internal.bytebuddy.description.method does not exist
+import org.assertj.core.internal.bytebuddy.description.method.MethodDescription;
+                                                             ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:11: error: package ElementMatcher.Junction does not exist
+public class SignatureTokenMatcher<T extends MethodDescription> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                               ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:10: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:11: error: cannot find symbol
+public class SignatureTokenMatcher<T extends MethodDescription> extends ElementMatcher.Junction.AbstractBase<T>
+                                             ^
+  symbol: class MethodDescription
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:13: error: cannot find symbol
+    private final ElementMatcher<? super MethodDescription.SignatureToken> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class SignatureTokenMatcher<T>
+  where T is a type-variable:
+    T declared in class SignatureTokenMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:13: error: package MethodDescription does not exist
+    private final ElementMatcher<? super MethodDescription.SignatureToken> matcher;
+                                                          ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:15: error: cannot find symbol
+    public SignatureTokenMatcher(final ElementMatcher<? super MethodDescription.SignatureToken> matcher) {
+                                       ^
+  symbol:   class ElementMatcher
+  location: class SignatureTokenMatcher<T>
+  where T is a type-variable:
+    T declared in class SignatureTokenMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:15: error: package MethodDescription does not exist
+    public SignatureTokenMatcher(final ElementMatcher<? super MethodDescription.SignatureToken> matcher) {
+                                                                               ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:30: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((SignatureTokenMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SignatureTokenMatcher.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+13 errors

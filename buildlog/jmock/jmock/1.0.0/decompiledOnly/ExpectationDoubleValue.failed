@@ -1,0 +1,83 @@
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AbstractExpectation.java:7: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AbstractExpectation.java:36: error: cannot find symbol
+        Assert.fail(this.myName + " " + str + "\nExpected: " + obj + "\nReceived: " + o);
+        ^
+  symbol:   variable Assert
+  location: class AbstractExpectation
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:8: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:10: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:12: error: cannot find symbol
+public class AssertMo extends Assert
+                              ^
+  symbol: class Assert
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/ExpectationDoubleValue.java:48: error: cannot find symbol
+            AssertMo.assertNull(this.myName + " expected no value", (Object)this.actualValue);
+                    ^
+  symbol:   method assertNull(String,Object)
+  location: class AssertMo
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/ExpectationDoubleValue.java:51: error: cannot find symbol
+            AssertMo.assertNotNull(this.myName + " expected a value", (Object)this.actualValue);
+                    ^
+  symbol:   method assertNotNull(String,Object)
+  location: class AssertMo
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/ExpectationDoubleValue.java:52: error: cannot find symbol
+            AssertMo.assertTrue(this.myName + " expected a value within " + this.expectedError + " of " + this.expectedValue + ", was " + this.actualValue, Math.abs(this.actualValue - this.expectedValue) <= this.expectedError);
+                    ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:18: error: incompatible types: int cannot be converted to Object[]
+        assertEquals(s + " (different lengths)", array.length, array2.length);
+                                                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:20: error: incompatible types: Object cannot be converted to Object[]
+            assertEquals(s + " (element " + i + ")", array[i], array2[i]);
+                                                          ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:25: error: cannot find symbol
+        assertTrue(str + "\nExclude String: " + s + "\n Target String: " + str2, str2.indexOf(s) == -1);
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:29: error: cannot find symbol
+        assertTrue(str + "\nInclude String: " + s + "\n Target String: " + str2, str2.indexOf(s) != -1);
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:33: error: cannot find symbol
+        assertTrue(str + "\n Start String: " + s + "\nTarget String: " + str2, str2.startsWith(s));
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:41: error: cannot find symbol
+        catch (AssertionFailedError assertionFailedError) {
+               ^
+  symbol:   class AssertionFailedError
+  location: class AssertMo
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:44: error: cannot find symbol
+        assertTrue("Should not have verified", b);
+        ^
+  symbol:   method assertTrue(String,boolean)
+  location: class AssertMo
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:52: error: cannot find symbol
+        fail(string + "\nExpected:<" + obj + ">\nReceived:<" + obj2 + ">");
+        ^
+  symbol:   method fail(String)
+  location: class AssertMo
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:63: error: cannot find symbol
+        catch (AssertionFailedError assertionFailedError) {
+               ^
+  symbol:   class AssertionFailedError
+  location: class AssertMo
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/expectation/AssertMo.java:66: error: cannot find symbol
+        fail(s);
+        ^
+  symbol:   method fail(String)
+  location: class AssertMo
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+18 errors

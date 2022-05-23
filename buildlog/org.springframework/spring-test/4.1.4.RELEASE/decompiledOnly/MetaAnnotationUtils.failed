@@ -1,0 +1,93 @@
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:7: error: package org.springframework.core.style does not exist
+import org.springframework.core.style.ToStringCreator;
+                                     ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:9: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotatedElementUtils;
+                                          ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:10: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotationAttributes;
+                                          ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:11: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:12: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotationUtils;
+                                          ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:13: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:85: error: cannot find symbol
+        private final AnnotationAttributes annotationAttributes;
+                      ^
+  symbol:   class AnnotationAttributes
+  location: class AnnotationDescriptor<T>
+  where T is a type-variable:
+    T extends Annotation declared in class AnnotationDescriptor
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:117: error: cannot find symbol
+        public AnnotationAttributes getAnnotationAttributes() {
+               ^
+  symbol:   class AnnotationAttributes
+  location: class AnnotationDescriptor<T>
+  where T is a type-variable:
+    T extends Annotation declared in class AnnotationDescriptor
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:25: error: cannot find symbol
+        Assert.notNull((Object)annotationType, "Annotation type must not be null");
+        ^
+  symbol:   variable Assert
+  location: class MetaAnnotationUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:29: error: cannot find symbol
+        if (AnnotationUtils.isAnnotationDeclaredLocally((Class)annotationType, (Class)clazz)) {
+            ^
+  symbol:   variable AnnotationUtils
+  location: class MetaAnnotationUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:33: error: cannot find symbol
+            if (!AnnotationUtils.isInJavaLangAnnotationPackage(composedAnnotation) && visited.add(composedAnnotation)) {
+                 ^
+  symbol:   variable AnnotationUtils
+  location: class MetaAnnotationUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:53: error: cannot find symbol
+            if (AnnotationUtils.isAnnotationDeclaredLocally((Class)annotationType, (Class)clazz)) {
+                ^
+  symbol:   variable AnnotationUtils
+  location: class MetaAnnotationUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:58: error: cannot find symbol
+            if (!AnnotationUtils.isInJavaLangAnnotationPackage(composedAnnotation) && visited.add(composedAnnotation)) {
+                 ^
+  symbol:   variable AnnotationUtils
+  location: class MetaAnnotationUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:69: error: cannot find symbol
+        if (ObjectUtils.isEmpty((Object[])annotationTypes)) {
+            ^
+  symbol:   variable ObjectUtils
+  location: class MetaAnnotationUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:92: error: cannot find symbol
+            Assert.notNull((Object)rootDeclaringClass, "rootDeclaringClass must not be null");
+            ^
+  symbol:   variable Assert
+  location: class AnnotationDescriptor<T>
+  where T is a type-variable:
+    T extends Annotation declared in class AnnotationDescriptor
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:93: error: cannot find symbol
+            Assert.notNull((Object)annotation, "annotation must not be null");
+            ^
+  symbol:   variable Assert
+  location: class AnnotationDescriptor<T>
+  where T is a type-variable:
+    T extends Annotation declared in class AnnotationDescriptor
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:98: error: cannot find symbol
+            this.annotationAttributes = AnnotatedElementUtils.getAnnotationAttributes((AnnotatedElement)rootDeclaringClass, annotation.annotationType().getName());
+                                        ^
+  symbol:   variable AnnotatedElementUtils
+  location: class AnnotationDescriptor<T>
+  where T is a type-variable:
+    T extends Annotation declared in class AnnotationDescriptor
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java:131: error: cannot find symbol
+            return new ToStringCreator((Object)this).append("rootDeclaringClass", (Object)this.rootDeclaringClass).append("declaringClass", (Object)this.declaringClass).append("composedAnnotation", (Object)this.composedAnnotation).append("annotation", (Object)this.annotation).toString();
+                       ^
+  symbol:   class ToStringCreator
+  location: class AnnotationDescriptor<T>
+  where T is a type-variable:
+    T extends Annotation declared in class AnnotationDescriptor
+Note: sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/util/MetaAnnotationUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+18 errors

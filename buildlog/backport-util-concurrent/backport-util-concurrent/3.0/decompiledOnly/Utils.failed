@@ -1,0 +1,27 @@
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:7: error: cannot find symbol
+import sun.misc.Perf;
+               ^
+  symbol:   class Perf
+  location: package sun.misc
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:141: error: cannot find symbol
+        final Perf perf;
+              ^
+  symbol:   class Perf
+  location: class SunPerfProvider
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:120: error: incompatible types: Object cannot be converted to NanoTimer
+                timer = cls.newInstance();
+                                       ^
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:146: error: cannot find symbol
+            this.perf = AccessController.doPrivileged((PrivilegedAction<Perf>)new PrivilegedAction() {
+                                                                        ^
+  symbol:   class Perf
+  location: class SunPerfProvider
+sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:148: error: cannot find symbol
+                    return Perf.getPerf();
+                           ^
+  symbol: variable Perf
+Note: sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/backport-util-concurrent/backport-util-concurrent/3.0/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors

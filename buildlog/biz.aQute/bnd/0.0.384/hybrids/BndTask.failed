@@ -1,0 +1,301 @@
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:30: error: class, interface, or enum expected
+        if ( basedir == null )
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:33: error: class, interface, or enum expected
+        try {
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:35: error: class, interface, or enum expected
+            project.setProperty("in.ant", "true");
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:36: error: class, interface, or enum expected
+            project.setProperty("environment", "ant");
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:37: error: class, interface, or enum expected
+            project.setExceptions(true);
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:38: error: class, interface, or enum expected
+            project.action(command);
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:40: error: class, interface, or enum expected
+            if ( report(project) )
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:42: error: class, interface, or enum expected
+        } catch (Throwable e) {
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:45: error: class, interface, or enum expected
+            throw new BuildException(e);
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:46: error: class, interface, or enum expected
+        }
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:50: error: class, interface, or enum expected
+    public void setCommand(String command) {
+           ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:52: error: class, interface, or enum expected
+    }
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:59: error: class, interface, or enum expected
+    public void setBasedir(File basedir) {
+           ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:61: error: class, interface, or enum expected
+    }
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:66: error: class, interface, or enum expected
+    List<File> classpath  = new ArrayList<File>();
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:67: error: class, interface, or enum expected
+    List<File> sourcepath = new ArrayList<File>();
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:68: error: class, interface, or enum expected
+    File       output     = null;
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:69: error: class, interface, or enum expected
+    File       testDir    = null;
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:70: error: class, interface, or enum expected
+    boolean    eclipse;
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:71: error: class, interface, or enum expected
+    boolean    inherit    = true;
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:73: error: class, interface, or enum expected
+    private void executeBackwardCompatible() throws BuildException {
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:78: error: class, interface, or enum expected
+            if (eclipse) {
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:80: error: class, interface, or enum expected
+                EclipseClasspath cp = new EclipseClasspath(this, project
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:82: error: class, interface, or enum expected
+                classpath.addAll(cp.getClasspath());
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:83: error: class, interface, or enum expected
+                classpath.addAll(cp.getBootclasspath());
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:84: error: class, interface, or enum expected
+                sourcepath.addAll(cp.getSourcepath());
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:86: error: class, interface, or enum expected
+                if (report())
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:90: error: class, interface, or enum expected
+            }
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:95: error: class, interface, or enum expected
+            for (Iterator<File> f = files.iterator(); f.hasNext();) {
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:95: error: class, interface, or enum expected
+            for (Iterator<File> f = files.iterator(); f.hasNext();) {
+                                                      ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:95: error: class, interface, or enum expected
+            for (Iterator<File> f = files.iterator(); f.hasNext();) {
+                                                                  ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:97: error: class, interface, or enum expected
+                Builder builder = new Builder();
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:100: error: class, interface, or enum expected
+                if (inherit) {
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:102: error: class, interface, or enum expected
+                    p.putAll((Map<?, ?>) getProject().getProperties());
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:103: error: class, interface, or enum expected
+                    builder.setProperties(p);
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:104: error: class, interface, or enum expected
+                }
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:107: error: class, interface, or enum expected
+                if (file.exists()) {
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:111: error: class, interface, or enum expected
+                }
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:116: error: class, interface, or enum expected
+                projectProperties.putAll((Map<?, ?>) getProject()
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:118: error: class, interface, or enum expected
+                projectProperties.putAll(builder.getProperties());
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:119: error: class, interface, or enum expected
+                builder.setProperties(projectProperties);
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:120: error: class, interface, or enum expected
+                builder.setClasspath(toFiles(classpath, "classpath"));
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:121: error: class, interface, or enum expected
+                builder.setSourcepath(toFiles(sourcepath, "sourcepath"));
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:122: error: class, interface, or enum expected
+                Jar jars[] = builder.builds();
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:124: error: class, interface, or enum expected
+                if (!failok && report(builder)) {
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:127: error: class, interface, or enum expected
+                }
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:129: error: class, interface, or enum expected
+                for (int i = 0; i < jars.length; i++) {
+                                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:129: error: class, interface, or enum expected
+                for (int i = 0; i < jars.length; i++) {
+                                                 ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:131: error: class, interface, or enum expected
+                    String bsn = jar.getName();
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:133: error: class, interface, or enum expected
+                    File base = file.getParentFile();
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:134: error: class, interface, or enum expected
+                    File output = this.output;
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:136: error: class, interface, or enum expected
+                    String path = builder.getProperty("-output");
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:138: error: class, interface, or enum expected
+                    if (output == null) {
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:141: error: class, interface, or enum expected
+                        else {
+                        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:143: error: class, interface, or enum expected
+                        }
+                        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:147: error: class, interface, or enum expected
+                        else
+                        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:149: error: class, interface, or enum expected
+                    } else if (output.isFile()) {
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:153: error: class, interface, or enum expected
+                    }
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:156: error: class, interface, or enum expected
+                    if (!output.exists()
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:159: error: class, interface, or enum expected
+                    } else {
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:161: error: class, interface, or enum expected
+                    }
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:164: error: class, interface, or enum expected
+                    report();
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:165: error: class, interface, or enum expected
+                    jar.close();
+                    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:166: error: class, interface, or enum expected
+                }
+                ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:168: error: class, interface, or enum expected
+            }
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:172: error: class, interface, or enum expected
+            if (!failok)
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:174: error: class, interface, or enum expected
+        }
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:177: error: class, interface, or enum expected
+    public void setFiles(String files) {
+           ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:179: error: class, interface, or enum expected
+        addAll(this.files, files, ",");
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:180: error: class, interface, or enum expected
+    }
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:184: error: class, interface, or enum expected
+        String entries[] = qt.getTokens();
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:185: error: class, interface, or enum expected
+        File project = getProject().getBaseDir();
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:186: error: class, interface, or enum expected
+        for (int i = 0; i < entries.length; i++) {
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:186: error: class, interface, or enum expected
+        for (int i = 0; i < entries.length; i++) {
+                        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:186: error: class, interface, or enum expected
+        for (int i = 0; i < entries.length; i++) {
+                                            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:188: error: class, interface, or enum expected
+            if (f.exists())
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:190: error: class, interface, or enum expected
+            else
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:193: error: class, interface, or enum expected
+        }
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:196: error: class, interface, or enum expected
+    public void setClasspath(String value) {
+           ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:198: error: class, interface, or enum expected
+        if (p == null)
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:200: error: class, interface, or enum expected
+        else {
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:202: error: class, interface, or enum expected
+            for (int i = 0; i < path.length; i++)
+            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:202: error: class, interface, or enum expected
+            for (int i = 0; i < path.length; i++)
+                            ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:202: error: class, interface, or enum expected
+            for (int i = 0; i < path.length; i++)
+                                             ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:204: error: class, interface, or enum expected
+        }
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:207: error: class, interface, or enum expected
+    public void setClasspath(Path p) {
+           ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:209: error: class, interface, or enum expected
+        for (int i = 0; i < path.length; i++)
+        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:209: error: class, interface, or enum expected
+        for (int i = 0; i < path.length; i++)
+                        ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:209: error: class, interface, or enum expected
+        for (int i = 0; i < path.length; i++)
+                                         ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:211: error: class, interface, or enum expected
+    }
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:213: error: class, interface, or enum expected
+    public void setEclipse(boolean eclipse) {
+           ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:215: error: class, interface, or enum expected
+    }
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:219: error: class, interface, or enum expected
+    }
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:221: error: class, interface, or enum expected
+    public void setFailok(boolean failok) {
+           ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:223: error: class, interface, or enum expected
+    }
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:227: error: class, interface, or enum expected
+    }
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:229: error: class, interface, or enum expected
+    public void setExceptions(boolean exceptions) {
+           ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:231: error: class, interface, or enum expected
+    }
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:235: error: class, interface, or enum expected
+    }
+    ^
+hybrids/biz.aQute/bnd/0.0.384/BndTask.java:239: error: class, interface, or enum expected
+    }
+    ^
+100 errors

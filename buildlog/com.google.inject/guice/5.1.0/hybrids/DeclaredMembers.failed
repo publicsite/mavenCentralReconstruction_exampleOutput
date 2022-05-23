@@ -1,0 +1,23 @@
+hybrids/com.google.inject/guice/5.1.0/DeclaredMembers.java:18: error: cannot find symbol
+import com.google.common.collect.Ordering;
+                                ^
+  symbol:   class Ordering
+  location: package com.google.common.collect
+hybrids/com.google.inject/guice/5.1.0/DeclaredMembers.java:55: error: cannot find symbol
+                    Ordering.<Class<?>>from(Comparator.comparing(Class::getName))
+                    ^
+  symbol:   variable Ordering
+  location: class DeclaredMembers
+hybrids/com.google.inject/guice/5.1.0/DeclaredMembers.java:55: error: incompatible types: cannot infer type-variable(s) T#1,U
+                    Ordering.<Class<?>>from(Comparator.comparing(Class::getName))
+                                                                ^
+    (argument mismatch; invalid method reference
+      method getName in class Class<T#2> cannot be applied to given types
+        required: no arguments
+        found: Object
+        reason: actual and formal argument lists differ in length)
+  where T#1,U,T#2 are type-variables:
+    T#1 extends Object declared in method <T#1,U>comparing(Function<? super T#1,? extends U>)
+    U extends Comparable<? super U> declared in method <T#1,U>comparing(Function<? super T#1,? extends U>)
+    T#2 extends Object declared in class Class
+3 errors

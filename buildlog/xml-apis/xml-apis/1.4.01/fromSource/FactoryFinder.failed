@@ -1,0 +1,68 @@
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:20: error: package exists in another module: java.xml
+package javax.xml.parsers;
+^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:67: error: cannot find symbol
+            String val = SecuritySupport.getSystemProperty("jaxp.debug");
+                         ^
+  symbol:   variable SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:115: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+                        cl = FactoryFinder.class.getClassLoader();
+                             ^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:161: error: cannot find symbol
+        ClassLoader classLoader = SecuritySupport.getContextClassLoader();
+                                  ^
+  symbol:   variable SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:166: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            classLoader = FactoryFinder.class.getClassLoader();
+                          ^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:173: error: cannot find symbol
+            String systemProp = SecuritySupport.getSystemProperty(factoryId);
+                                ^
+  symbol:   variable SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:185: error: cannot find symbol
+            String javah = SecuritySupport.getSystemProperty("java.home");
+                           ^
+  symbol:   variable SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:194: error: cannot find symbol
+                        if(SecuritySupport.doesFileExist(f)){
+                           ^
+  symbol:   variable SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:197: error: cannot find symbol
+                            cacheProps.load(SecuritySupport.getFileInputStream(f));
+                                            ^
+  symbol:   variable SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:239: error: cannot find symbol
+        ClassLoader cl = SecuritySupport.getContextClassLoader();
+                         ^
+  symbol:   variable SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:241: error: cannot find symbol
+            is = SecuritySupport.getResourceAsStream(cl, serviceId);
+                 ^
+  symbol:   variable SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:245: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+                cl = FactoryFinder.class.getClassLoader();
+                     ^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:246: error: cannot find symbol
+                is = SecuritySupport.getResourceAsStream(cl, serviceId);
+                     ^
+  symbol:   variable SecuritySupport
+  location: class FactoryFinder
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:251: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            cl = FactoryFinder.class.getClassLoader();
+                 ^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java:252: error: cannot find symbol
+            is = SecuritySupport.getResourceAsStream(cl, serviceId);
+                 ^
+  symbol:   variable SecuritySupport
+  location: class FactoryFinder
+Note: sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/FactoryFinder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+15 errors

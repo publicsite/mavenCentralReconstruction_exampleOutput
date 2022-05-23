@@ -1,0 +1,42 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConvertedMap.java:7: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConvertedMap.java:11: error: cannot find symbol
+public class ConvertedMap extends ConversionHandler
+                                  ^
+  symbol: class ConversionHandler
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConvertedMap.java:17: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConvertedMap.java:19: error: cannot find symbol
+        final Map m = (Map)this.getDelegate();
+                               ^
+  symbol: method getDelegate()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConvertedMap.java:20: error: cannot find symbol
+        final Closure cl = m.get(method.getName());
+              ^
+  symbol:   class Closure
+  location: class ConvertedMap
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConvertedMap.java:30: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConvertedMap.java:32: error: cannot find symbol
+        return DefaultGroovyMethods.toString(this.getDelegate());
+               ^
+  symbol:   variable DefaultGroovyMethods
+  location: class ConvertedMap
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConvertedMap.java:32: error: cannot find symbol
+        return DefaultGroovyMethods.toString(this.getDelegate());
+                                                 ^
+  symbol: method getDelegate()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConvertedMap.java:35: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ConvertedMap.java:41: error: cannot find symbol
+        return ConversionHandler.isCoreObjectMethod(method) && !"toString".equals(method.getName());
+               ^
+  symbol:   variable ConversionHandler
+  location: class ConvertedMap
+10 errors

@@ -1,0 +1,301 @@
+hybrids/ant/ant/1.5.1/AntClassLoader.java:442: error: illegal start of expression
+        private String resourceName;
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:446: error: invalid method declaration; return type required
+        ResourceEnumeration(final String name) {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:475: error: class, interface, or enum expected
+}
+^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:476: error: class, interface, or enum expected
+    public static void initializeClass(Class theClass) {
+                  ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:482: error: class, interface, or enum expected
+        final Constructor[] cons = theClass.getDeclaredConstructors();
+              ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:484: error: class, interface, or enum expected
+        if (cons != null) {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:486: error: class, interface, or enum expected
+                final String[] strs = new String[256];
+                      ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:487: error: class, interface, or enum expected
+                try {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:491: error: class, interface, or enum expected
+                } catch (Throwable t) {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:518: error: class, interface, or enum expected
+    public void addSystemPackageRoot(String packageRoot) {
+           ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:520: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:531: error: class, interface, or enum expected
+    public void addLoaderPackageRoot(String packageRoot) {
+           ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:533: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:550: error: class, interface, or enum expected
+    public Class forceLoadClass(String classname)
+           ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:554: error: class, interface, or enum expected
+        Class theClass = findLoadedClass(classname);
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:556: error: class, interface, or enum expected
+        if (theClass == null) {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:558: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:561: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:579: error: class, interface, or enum expected
+    public Class forceLoadSystemClass(String classname)
+           ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:583: error: class, interface, or enum expected
+        Class theClass = findLoadedClass(classname);
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:585: error: class, interface, or enum expected
+        if (theClass == null) {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:587: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:590: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:601: error: class, interface, or enum expected
+    public InputStream getResourceAsStream(String name) {
+           ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:604: error: class, interface, or enum expected
+        if (isParentFirst(name)) {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:606: error: class, interface, or enum expected
+            if (resourceStream != null) {
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:610: error: class, interface, or enum expected
+            } else {
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:612: error: class, interface, or enum expected
+                if (resourceStream != null) {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:615: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:619: error: class, interface, or enum expected
+            if (resourceStream != null) {
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:623: error: class, interface, or enum expected
+            } else {
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:625: error: class, interface, or enum expected
+                if (resourceStream != null) {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:628: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:635: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:638: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:654: error: class, interface, or enum expected
+        Enumeration e = pathComponents.elements();
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:655: error: class, interface, or enum expected
+        while (e.hasMoreElements() && stream == null) {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:657: error: class, interface, or enum expected
+            stream = getResourceStream(pathComponent, name);
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:658: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:660: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:675: error: class, interface, or enum expected
+        } else {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:677: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:696: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:701: error: class, interface, or enum expected
+                if (resource.exists()) {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:703: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:707: error: class, interface, or enum expected
+                if (zipFile == null) {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:709: error: class, interface, or enum expected
+                    zipFiles.put(file, zipFile);
+                    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:710: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:712: error: class, interface, or enum expected
+                if (entry != null) {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:714: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:720: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:723: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:747: error: class, interface, or enum expected
+        for (Enumeration e = systemPackages.elements(); e.hasMoreElements();) {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:747: error: class, interface, or enum expected
+        for (Enumeration e = systemPackages.elements(); e.hasMoreElements();) {
+                                                        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:747: error: class, interface, or enum expected
+        for (Enumeration e = systemPackages.elements(); e.hasMoreElements();) {
+                                                                            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:749: error: class, interface, or enum expected
+            if (resourceName.startsWith(packageName)) {
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:751: error: class, interface, or enum expected
+                break;
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:752: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:755: error: class, interface, or enum expected
+        for (Enumeration e = loaderPackages.elements(); e.hasMoreElements();) {
+                                                        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:755: error: class, interface, or enum expected
+        for (Enumeration e = loaderPackages.elements(); e.hasMoreElements();) {
+                                                                            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:757: error: class, interface, or enum expected
+            if (resourceName.startsWith(packageName)) {
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:759: error: class, interface, or enum expected
+                break;
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:760: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:764: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:778: error: class, interface, or enum expected
+    public URL getResource(String name) {
+           ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:782: error: class, interface, or enum expected
+        if (isParentFirst(name)) {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:785: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:791: error: class, interface, or enum expected
+        } else {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:795: error: class, interface, or enum expected
+            while (e.hasMoreElements() && url == null) {
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:797: error: class, interface, or enum expected
+                url = getResourceURL(pathComponent, name);
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:798: error: class, interface, or enum expected
+                if (url != null) {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:802: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:811: error: class, interface, or enum expected
+            if (url != null) {
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:814: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:819: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:822: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:835: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:853: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:858: error: class, interface, or enum expected
+                if (resource.exists()) {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:861: error: class, interface, or enum expected
+                    } catch (MalformedURLException ex) {
+                    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:863: error: class, interface, or enum expected
+                    }
+                    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:867: error: class, interface, or enum expected
+                if (zipFile == null) {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:869: error: class, interface, or enum expected
+                    zipFiles.put(file, zipFile);
+                    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:870: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:873: error: class, interface, or enum expected
+                if (entry != null) {
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:877: error: class, interface, or enum expected
+                    } catch (MalformedURLException ex) {
+                    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:879: error: class, interface, or enum expected
+                    }
+                    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:884: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:887: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:916: error: class, interface, or enum expected
+        if (theClass != null) {
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:918: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:923: error: class, interface, or enum expected
+                log("Class " + classname + " loaded from parent loader",
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:925: error: class, interface, or enum expected
+            } catch (ClassNotFoundException cnfe) {
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:927: error: class, interface, or enum expected
+                log("Class " + classname + " loaded from ant loader",
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:929: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:933: error: class, interface, or enum expected
+                log("Class " + classname + " loaded from ant loader",
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:935: error: class, interface, or enum expected
+            } catch (ClassNotFoundException cnfe) {
+            ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:938: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:940: error: class, interface, or enum expected
+                log("Class " + classname + " loaded from parent loader",
+                ^
+hybrids/ant/ant/1.5.1/AntClassLoader.java:942: error: class, interface, or enum expected
+            }
+            ^
+100 errors

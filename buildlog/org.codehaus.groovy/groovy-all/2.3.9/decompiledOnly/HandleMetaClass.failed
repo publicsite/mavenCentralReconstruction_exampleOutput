@@ -1,0 +1,242 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:7: error: cannot find symbol
+import groovy.lang.MetaBeanProperty;
+                  ^
+  symbol:   class MetaBeanProperty
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:10: error: cannot find symbol
+import groovy.lang.MetaMethod;
+                  ^
+  symbol:   class MetaMethod
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:11: error: cannot find symbol
+import groovy.lang.GroovyObject;
+                  ^
+  symbol:   class GroovyObject
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:12: error: cannot find symbol
+import groovy.lang.ExpandoMetaClass;
+                  ^
+  symbol:   class ExpandoMetaClass
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:13: error: cannot find symbol
+import groovy.lang.MetaClass;
+                  ^
+  symbol:   class MetaClass
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:14: error: cannot find symbol
+import groovy.lang.DelegatingMetaClass;
+                  ^
+  symbol:   class DelegatingMetaClass
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:16: error: cannot find symbol
+public class HandleMetaClass extends DelegatingMetaClass
+                                     ^
+  symbol: class DelegatingMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:19: error: cannot find symbol
+    private static MetaClass myMetaClass;
+                   ^
+  symbol:   class MetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:22: error: cannot find symbol
+    public HandleMetaClass(final MetaClass mc) {
+                                 ^
+  symbol:   class MetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:26: error: cannot find symbol
+    public HandleMetaClass(final MetaClass mc, final Object obj) {
+                                 ^
+  symbol:   class MetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:47: error: cannot find symbol
+    public GroovyObject replaceDelegate() {
+           ^
+  symbol:   class GroovyObject
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:99: error: cannot find symbol
+    public void addMetaMethod(final MetaMethod metaMethod) {
+                                    ^
+  symbol:   class MetaMethod
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:104: error: cannot find symbol
+    public void addMetaBeanProperty(final MetaBeanProperty metaBeanProperty) {
+                                          ^
+  symbol:   class MetaBeanProperty
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:29: error: cannot find symbol
+            if (InvokerHelper.getMetaClass(obj.getClass()) == mc || !(mc instanceof ExpandoMetaClass)) {
+                ^
+  symbol:   variable InvokerHelper
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:29: error: cannot find symbol
+            if (InvokerHelper.getMetaClass(obj.getClass()) == mc || !(mc instanceof ExpandoMetaClass)) {
+                                                                                    ^
+  symbol:   class ExpandoMetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:37: error: cannot find symbol
+            HandleMetaClass.myMetaClass = InvokerHelper.getMetaClass(this.getClass());
+                                          ^
+  symbol:   variable InvokerHelper
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:37: error: cannot find symbol
+            HandleMetaClass.myMetaClass = InvokerHelper.getMetaClass(this.getClass());
+                                                                         ^
+  symbol: method getClass()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:41: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:44: error: cannot find symbol
+        this.delegate.initialize();
+            ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:49: error: cannot find symbol
+            if (!(this.delegate instanceof ExpandoMetaClass)) {
+                      ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:49: error: cannot find symbol
+            if (!(this.delegate instanceof ExpandoMetaClass)) {
+                                           ^
+  symbol:   class ExpandoMetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:50: error: cannot find symbol
+                (this.delegate = new ExpandoMetaClass(this.delegate.getTheClass(), true, true)).initialize();
+                     ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:50: error: cannot find symbol
+                (this.delegate = new ExpandoMetaClass(this.delegate.getTheClass(), true, true)).initialize();
+                                     ^
+  symbol:   class ExpandoMetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:50: error: cannot find symbol
+                (this.delegate = new ExpandoMetaClass(this.delegate.getTheClass(), true, true)).initialize();
+                                                          ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:52: error: cannot find symbol
+            DefaultGroovyMethods.setMetaClass(this.delegate.getTheClass(), this.delegate);
+                                                                               ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:52: error: cannot find symbol
+            DefaultGroovyMethods.setMetaClass(this.delegate.getTheClass(), this.delegate);
+            ^
+  symbol:   variable DefaultGroovyMethods
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:52: error: cannot find symbol
+            DefaultGroovyMethods.setMetaClass(this.delegate.getTheClass(), this.delegate);
+                                                  ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:55: error: cannot find symbol
+            final MetaClass metaClass = this.delegate;
+                  ^
+  symbol:   class MetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:55: error: cannot find symbol
+            final MetaClass metaClass = this.delegate;
+                                            ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:56: error: cannot find symbol
+            this.delegate = new ExpandoMetaClass(this.delegate.getTheClass(), false, true);
+                ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:56: error: cannot find symbol
+            this.delegate = new ExpandoMetaClass(this.delegate.getTheClass(), false, true);
+                                ^
+  symbol:   class ExpandoMetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:56: error: cannot find symbol
+            this.delegate = new ExpandoMetaClass(this.delegate.getTheClass(), false, true);
+                                                     ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:57: error: cannot find symbol
+            if (metaClass instanceof ExpandoMetaClass) {
+                                     ^
+  symbol:   class ExpandoMetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:58: error: cannot find symbol
+                final ExpandoMetaClass emc = (ExpandoMetaClass)metaClass;
+                      ^
+  symbol:   class ExpandoMetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:58: error: cannot find symbol
+                final ExpandoMetaClass emc = (ExpandoMetaClass)metaClass;
+                                              ^
+  symbol:   class ExpandoMetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:59: error: cannot find symbol
+                for (final MetaMethod method : emc.getExpandoMethods()) {
+                           ^
+  symbol:   class MetaMethod
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:60: error: cannot find symbol
+                    ((ExpandoMetaClass)this.delegate).registerInstanceMethod(method);
+                      ^
+  symbol:   class ExpandoMetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:60: error: cannot find symbol
+                    ((ExpandoMetaClass)this.delegate).registerInstanceMethod(method);
+                                           ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:63: error: cannot find symbol
+            this.delegate.initialize();
+                ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:64: error: cannot find symbol
+            MetaClassHelper.doSetMetaClass(this.object, this.delegate);
+                                                            ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:64: error: cannot find symbol
+            MetaClassHelper.doSetMetaClass(this.object, this.delegate);
+            ^
+  symbol:   variable MetaClassHelper
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:67: error: cannot find symbol
+        return (GroovyObject)this.delegate;
+                ^
+  symbol:   class GroovyObject
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:67: error: cannot find symbol
+        return (GroovyObject)this.delegate;
+                                 ^
+  symbol: variable delegate
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:70: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:75: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:77: error: cannot find symbol
+        if (ExpandoMetaClass.isValidExpandoProperty(property) && (property.equals("static") || property.equals("constructor") || HandleMetaClass.myMetaClass.hasProperty(this, property) == null)) {
+            ^
+  symbol:   variable ExpandoMetaClass
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:83: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:88: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:93: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:98: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:103: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:108: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:110: error: cannot find symbol
+        return super.equals(obj) || this.getAdaptee().equals(obj) || (obj instanceof HandleMetaClass && this.equals(((HandleMetaClass)obj).getAdaptee()));
+               ^
+  symbol:   variable super
+  location: class HandleMetaClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:110: error: cannot find symbol
+        return super.equals(obj) || this.getAdaptee().equals(obj) || (obj instanceof HandleMetaClass && this.equals(((HandleMetaClass)obj).getAdaptee()));
+                                        ^
+  symbol: method getAdaptee()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/HandleMetaClass.java:110: error: cannot find symbol
+        return super.equals(obj) || this.getAdaptee().equals(obj) || (obj instanceof HandleMetaClass && this.equals(((HandleMetaClass)obj).getAdaptee()));
+                                                                                                                                          ^
+  symbol:   method getAdaptee()
+  location: class HandleMetaClass
+55 errors

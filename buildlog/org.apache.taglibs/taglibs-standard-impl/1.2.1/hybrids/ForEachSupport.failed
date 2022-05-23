@@ -1,0 +1,62 @@
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:27: error: cannot find symbol
+import javax.servlet.jsp.jstl.core.LoopTagSupport;
+                                  ^
+  symbol:   class LoopTagSupport
+  location: package javax.servlet.jsp.jstl.core
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:46: error: cannot find symbol
+public abstract class ForEachSupport extends LoopTagSupport {
+                                             ^
+  symbol: class LoopTagSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:50: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:55: error: cannot find symbol
+            items = new ToEndIterator(end);
+                                      ^
+  symbol:   variable end
+  location: class ForEachSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:57: error: cannot find symbol
+            deferredExpression = (ValueExpression) rawItems;
+            ^
+  symbol:   variable deferredExpression
+  location: class ForEachSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:58: error: cannot find symbol
+            Object o = deferredExpression.getValue(pageContext.getELContext());
+                       ^
+  symbol:   variable deferredExpression
+  location: class ForEachSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:58: error: cannot find symbol
+            Object o = deferredExpression.getValue(pageContext.getELContext());
+                                                   ^
+  symbol:   variable pageContext
+  location: class ForEachSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:61: error: cannot find symbol
+                items = new IndexedDeferredIterator(iterator, deferredExpression);
+                                                              ^
+  symbol:   variable deferredExpression
+  location: class ForEachSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:63: error: cannot find symbol
+                items = new IteratedDeferredIterator(iterator, new IteratedExpression(deferredExpression, getDelims()));
+                                                                                      ^
+  symbol:   variable deferredExpression
+  location: class ForEachSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:63: error: cannot find symbol
+                items = new IteratedDeferredIterator(iterator, new IteratedExpression(deferredExpression, getDelims()));
+                                                                                                          ^
+  symbol:   method getDelims()
+  location: class ForEachSupport
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:92: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:97: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:102: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.apache.taglibs/taglibs-standard-impl/1.2.1/ForEachSupport.java:104: error: cannot find symbol
+        super.release();
+        ^
+  symbol:   variable super
+  location: class ForEachSupport
+14 errors

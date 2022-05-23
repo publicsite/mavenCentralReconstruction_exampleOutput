@@ -1,0 +1,79 @@
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:7: error: cannot find symbol
+import org.hamcrest.CoreMatchers;
+                   ^
+  symbol:   class CoreMatchers
+  location: package org.hamcrest
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:8: error: cannot find symbol
+import org.hamcrest.SelfDescribing;
+                   ^
+  symbol:   class SelfDescribing
+  location: package org.hamcrest
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:9: error: cannot find symbol
+import org.hamcrest.Description;
+                   ^
+  symbol:   class Description
+  location: package org.hamcrest
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:10: error: cannot find symbol
+import org.hamcrest.Matcher;
+                   ^
+  symbol:   class Matcher
+  location: package org.hamcrest
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:11: error: cannot find symbol
+import org.hamcrest.BaseMatcher;
+                   ^
+  symbol:   class BaseMatcher
+  location: package org.hamcrest
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:13: error: cannot find symbol
+public class CombinableMatcher<T> extends BaseMatcher<T>
+                                          ^
+  symbol: class BaseMatcher
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:15: error: cannot find symbol
+    private final Matcher<? extends T> fMatcher;
+                  ^
+  symbol:   class Matcher
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:17: error: cannot find symbol
+    public CombinableMatcher(final Matcher<? extends T> matcher) {
+                                   ^
+  symbol:   class Matcher
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:25: error: cannot find symbol
+    public void describeTo(final Description description) {
+                                 ^
+  symbol:   class Description
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:29: error: cannot find symbol
+    public CombinableMatcher<T> and(final Matcher<? extends T> matcher) {
+                                          ^
+  symbol:   class Matcher
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:33: error: cannot find symbol
+    public CombinableMatcher<T> or(final Matcher<? extends T> matcher) {
+                                         ^
+  symbol:   class Matcher
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:30: error: cannot find symbol
+        return new CombinableMatcher<T>(CoreMatchers.allOf(matcher, this.fMatcher));
+                                        ^
+  symbol:   variable CoreMatchers
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+sources/structure/junit/junit/4.10/Decompiled/org/junit/internal/matchers/CombinableMatcher.java:34: error: cannot find symbol
+        return new CombinableMatcher<T>(CoreMatchers.anyOf(matcher, this.fMatcher));
+                                        ^
+  symbol:   variable CoreMatchers
+  location: class CombinableMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+13 errors

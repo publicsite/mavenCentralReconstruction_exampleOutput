@@ -1,0 +1,83 @@
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:23: error: cannot find symbol
+import org.apache.ldap.common.util.ExceptionUtils;
+                                  ^
+  symbol:   class ExceptionUtils
+  location: package org.apache.ldap.common.util
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:25: error: cannot find symbol
+import org.apache.ldap.common.message.ResultCodeEnum;
+                                     ^
+  symbol:   class ResultCodeEnum
+  location: package org.apache.ldap.common.message
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:50: error: incompatible types: Object[] cannot be converted to String[]
+            ids = retAttrs.toArray(ArrayUtils.EMPTY_STRING_ARRAY);
+                                  ^
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:53: error: incompatible types: Object[] cannot be converted to String[]
+            ids = retAttrs.toArray(ArrayUtils.EMPTY_STRING_ARRAY);
+                                  ^
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:58: error: cannot access ScopeEnum
+        controls.setSearchScope(req.getScope().getValue());
+                                            ^
+  class file for org.apache.ldap.common.message.ScopeEnum not found
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:64: error: cannot access DerefAliasesEnum
+            ctx.addToEnvironment("java.naming.ldap.derefAliases", req.getDerefAliases().getName());
+                                                                                     ^
+  class file for org.apache.ldap.common.message.DerefAliasesEnum not found
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:78: error: cannot find symbol
+            resp.getLdapResult().setResultCode(ResultCodeEnum.SUCCESS);
+                                               ^
+  symbol:   variable ResultCodeEnum
+  location: class SearchHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:87: error: cannot find symbol
+            msg += ExceptionUtils.getStackTrace((Throwable)e);
+                   ^
+  symbol:   variable ExceptionUtils
+  location: class SearchHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:89: error: cannot find symbol
+            ResultCodeEnum rc = null;
+            ^
+  symbol:   class ResultCodeEnum
+  location: class SearchHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:94: error: cannot access MessageTypeEnum
+                rc = ResultCodeEnum.getBestEstimate((Throwable)e, req.getType());
+                                                                             ^
+  class file for org.apache.ldap.common.message.MessageTypeEnum not found
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:94: error: cannot find symbol
+                rc = ResultCodeEnum.getBestEstimate((Throwable)e, req.getType());
+                     ^
+  symbol:   variable ResultCodeEnum
+  location: class SearchHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:114: error: cannot find symbol
+        msg += ExceptionUtils.getStackTrace((Throwable)e);
+               ^
+  symbol:   variable ExceptionUtils
+  location: class SearchHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:116: error: cannot find symbol
+        ResultCodeEnum rc = null;
+        ^
+  symbol:   class ResultCodeEnum
+  location: class SearchHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:121: error: cannot find symbol
+            rc = ResultCodeEnum.getBestEstimate((Throwable)e, req.getType());
+                 ^
+  symbol:   variable ResultCodeEnum
+  location: class SearchHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:149: error: incompatible types: Object cannot be converted to SearchResult
+                    final SearchResult result = underlying.next();
+                                                               ^
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:208: error: cannot find symbol
+                    this.respDone.getLdapResult().setResultCode(ResultCodeEnum.SUCCESS);
+                                                                ^
+  symbol:   variable ResultCodeEnum
+  location: class SearchHandler.SearchResponseIterator
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SearchHandler.java:213: error: incompatible types: Object cannot be converted to SearchResult
+                result = this.underlying.next();
+                                             ^
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SessionRegistry.java:55: error: incompatible types: Object cannot be converted to LdapContext
+            ctx = this.contexts.get(session);
+                                   ^
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SessionRegistry.java:63: error: incompatible types: Object cannot be converted to InitialContextFactory
+                final InitialContextFactory factory = this.env.get("server.use.factory.instance");
+                                                                  ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors

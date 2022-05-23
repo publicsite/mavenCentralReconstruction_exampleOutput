@@ -1,0 +1,114 @@
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:30: error: cannot find symbol
+import org.objectweb.asm.ClassReader;
+                        ^
+  symbol:   class ClassReader
+  location: package org.objectweb.asm
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:34: error: cannot find symbol
+import org.objectweb.asm.Type;
+                        ^
+  symbol:   class Type
+  location: package org.objectweb.asm
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:35: error: cannot find symbol
+import org.objectweb.asm.commons.EmptyVisitor;
+                                ^
+  symbol:   class EmptyVisitor
+  location: package org.objectweb.asm.commons
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:154: error: cannot find symbol
+	private static abstract class ParameterNameDiscoveringVisitor extends EmptyVisitor {
+	                                                                      ^
+  symbol:   class EmptyVisitor
+  location: class LocalVariableTableParameterNameDiscoverer
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:129: error: cannot find symbol
+	private ClassReader getClassReader(Class clazz) throws IOException {
+	        ^
+  symbol:   class ClassReader
+  location: class LocalVariableTableParameterNameDiscoverer
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:240: error: cannot find symbol
+	private static class LocalVariableTableVisitor extends EmptyVisitor {
+	                                                       ^
+  symbol:   class EmptyVisitor
+  location: class LocalVariableTableParameterNameDiscoverer
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:362: error: cannot find symbol
+			extends edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap
+			                                                      ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:110: error: cannot find symbol
+		ClassReader classReader = getClassReader(method.getDeclaringClass());
+		^
+  symbol:   class ClassReader
+  location: class LocalVariableTableParameterNameDiscoverer
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:120: error: cannot find symbol
+		ClassReader classReader = getClassReader(ctor.getDeclaringClass());
+		^
+  symbol:   class ClassReader
+  location: class LocalVariableTableParameterNameDiscoverer
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:131: error: cannot find symbol
+			ClassReader classReader = (ClassReader) this.classReaderCache.get(clazz);
+			^
+  symbol:   class ClassReader
+  location: class LocalVariableTableParameterNameDiscoverer
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:131: error: cannot find symbol
+			ClassReader classReader = (ClassReader) this.classReaderCache.get(clazz);
+			                           ^
+  symbol:   class ClassReader
+  location: class LocalVariableTableParameterNameDiscoverer
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:138: error: cannot find symbol
+					classReader = new ClassReader(is);
+					                  ^
+  symbol:   class ClassReader
+  location: class LocalVariableTableParameterNameDiscoverer
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:182: error: incompatible types: LocalVariableTableVisitor cannot be converted to MethodVisitor
+				return new LocalVariableTableVisitor(this, isStatic(access));
+				       ^
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:222: error: cannot find symbol
+			setDescriptorToMatch(Type.getMethodDescriptor(method));
+			                     ^
+  symbol:   variable Type
+  location: class FindMethodParameterNamesClassVisitor
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:231: error: cannot find symbol
+			Type[] pTypes = new Type[ctor.getParameterTypes().length];
+			^
+  symbol:   class Type
+  location: class FindConstructorParameterNamesClassVisitor
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:231: error: cannot find symbol
+			Type[] pTypes = new Type[ctor.getParameterTypes().length];
+			                    ^
+  symbol:   class Type
+  location: class FindConstructorParameterNamesClassVisitor
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:233: error: cannot find symbol
+				pTypes[i] = Type.getType(ctor.getParameterTypes()[i]);
+				            ^
+  symbol:   variable Type
+  location: class FindConstructorParameterNamesClassVisitor
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:235: error: cannot find symbol
+			setDescriptorToMatch(Type.getMethodDescriptor(Type.VOID_TYPE, pTypes));
+			                                              ^
+  symbol:   variable Type
+  location: class FindConstructorParameterNamesClassVisitor
+hybrids/org.springframework/spring/2.5.6/LocalVariableTableParameterNameDiscoverer.java:235: error: cannot find symbol
+			setDescriptorToMatch(Type.getMethodDescriptor(Type.VOID_TYPE, pTypes));
+			                     ^
+  symbol:   variable Type
+  location: class FindConstructorParameterNamesClassVisitor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:110: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Set createLinkedSetIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:147: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createLinkedMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:179: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createIdentityMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:342: error: cannot find symbol
+			return new edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap(initialCapacity);
+			                                                         ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:361: error: BackportConcurrentHashMap is not abstract and does not override abstract method replace(Object,Object) in ConcurrentMap
+	private static class BackportConcurrentHashMap
+	               ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+21 errors
+3 warnings

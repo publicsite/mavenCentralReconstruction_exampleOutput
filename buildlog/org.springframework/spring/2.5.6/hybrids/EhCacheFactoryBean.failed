@@ -1,0 +1,141 @@
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:21: error: package net.sf.ehcache does not exist
+import net.sf.ehcache.Cache;
+                     ^
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:22: error: package net.sf.ehcache does not exist
+import net.sf.ehcache.CacheException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:23: error: package net.sf.ehcache does not exist
+import net.sf.ehcache.CacheManager;
+                     ^
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:24: error: package net.sf.ehcache does not exist
+import net.sf.ehcache.Ehcache;
+                     ^
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:25: error: package net.sf.ehcache.constructs.blocking does not exist
+import net.sf.ehcache.constructs.blocking.BlockingCache;
+                                         ^
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:26: error: package net.sf.ehcache.constructs.blocking does not exist
+import net.sf.ehcache.constructs.blocking.CacheEntryFactory;
+                                         ^
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:27: error: package net.sf.ehcache.constructs.blocking does not exist
+import net.sf.ehcache.constructs.blocking.SelfPopulatingCache;
+                                         ^
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:28: error: package net.sf.ehcache.constructs.blocking does not exist
+import net.sf.ehcache.constructs.blocking.UpdatingCacheEntryFactory;
+                                         ^
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:29: error: package net.sf.ehcache.constructs.blocking does not exist
+import net.sf.ehcache.constructs.blocking.UpdatingSelfPopulatingCache;
+                                         ^
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:30: error: package net.sf.ehcache.store does not exist
+import net.sf.ehcache.store.MemoryStoreEvictionPolicy;
+                           ^
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:63: error: cannot find symbol
+	private CacheManager cacheManager;
+	        ^
+  symbol:   class CacheManager
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:71: error: cannot find symbol
+	private MemoryStoreEvictionPolicy memoryStoreEvictionPolicy = MemoryStoreEvictionPolicy.LRU;
+	        ^
+  symbol:   class MemoryStoreEvictionPolicy
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:89: error: cannot find symbol
+	private CacheEntryFactory cacheEntryFactory;
+	        ^
+  symbol:   class CacheEntryFactory
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:93: error: cannot find symbol
+	private Ehcache cache;
+	        ^
+  symbol:   class Ehcache
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:107: error: cannot find symbol
+	public void setCacheManager(CacheManager cacheManager) {
+	                            ^
+  symbol:   class CacheManager
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:141: error: cannot find symbol
+	public void setMemoryStoreEvictionPolicy(MemoryStoreEvictionPolicy memoryStoreEvictionPolicy) {
+	                                         ^
+  symbol:   class MemoryStoreEvictionPolicy
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:222: error: cannot find symbol
+	public void setCacheEntryFactory(CacheEntryFactory cacheEntryFactory) {
+	                                 ^
+  symbol:   class CacheEntryFactory
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:231: error: cannot find symbol
+	public void afterPropertiesSet() throws CacheException, IOException {
+	                                        ^
+  symbol:   class CacheException
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:273: error: cannot find symbol
+	private Cache createCache() {
+	        ^
+  symbol:   class Cache
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:285: error: cannot find symbol
+	protected Ehcache decorateCache(Ehcache cache) {
+	                                ^
+  symbol:   class Ehcache
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:285: error: cannot find symbol
+	protected Ehcache decorateCache(Ehcache cache) {
+	          ^
+  symbol:   class Ehcache
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:71: error: cannot find symbol
+	private MemoryStoreEvictionPolicy memoryStoreEvictionPolicy = MemoryStoreEvictionPolicy.LRU;
+	                                                              ^
+  symbol:   variable MemoryStoreEvictionPolicy
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:237: error: cannot find symbol
+			this.cacheManager = CacheManager.getInstance();
+			                    ^
+  symbol:   variable CacheManager
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:247: error: cannot find symbol
+		Ehcache rawCache = null;
+		^
+  symbol:   class Ehcache
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:263: error: cannot find symbol
+		Ehcache decoratedCache = decorateCache(rawCache);
+		^
+  symbol:   class Ehcache
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:274: error: cannot find symbol
+		return new Cache(
+		           ^
+  symbol:   class Cache
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:287: error: cannot find symbol
+			if (this.cacheEntryFactory instanceof UpdatingCacheEntryFactory) {
+			                                      ^
+  symbol:   class UpdatingCacheEntryFactory
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:288: error: cannot find symbol
+				return new UpdatingSelfPopulatingCache(cache, (UpdatingCacheEntryFactory) this.cacheEntryFactory);
+				           ^
+  symbol:   class UpdatingSelfPopulatingCache
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:288: error: cannot find symbol
+				return new UpdatingSelfPopulatingCache(cache, (UpdatingCacheEntryFactory) this.cacheEntryFactory);
+				                                               ^
+  symbol:   class UpdatingCacheEntryFactory
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:291: error: cannot find symbol
+				return new SelfPopulatingCache(cache, this.cacheEntryFactory);
+				           ^
+  symbol:   class SelfPopulatingCache
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:295: error: cannot find symbol
+			return new BlockingCache(cache);
+			           ^
+  symbol:   class BlockingCache
+  location: class EhCacheFactoryBean
+hybrids/org.springframework/spring/2.5.6/EhCacheFactoryBean.java:306: error: cannot find symbol
+		return (this.cache != null ? this.cache.getClass() : Ehcache.class);
+		                                                     ^
+  symbol:   class Ehcache
+  location: class EhCacheFactoryBean
+32 errors

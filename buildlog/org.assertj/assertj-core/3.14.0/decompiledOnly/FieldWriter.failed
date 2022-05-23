@@ -1,0 +1,100 @@
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:7: error: cannot find symbol
+final class FieldWriter extends FieldVisitor
+                                ^
+  symbol: class FieldVisitor
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:9: error: cannot find symbol
+    private final SymbolTable symbolTable;
+                  ^
+  symbol:   class SymbolTable
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:15: error: cannot find symbol
+    private AnnotationWriter lastRuntimeVisibleAnnotation;
+            ^
+  symbol:   class AnnotationWriter
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:16: error: cannot find symbol
+    private AnnotationWriter lastRuntimeInvisibleAnnotation;
+            ^
+  symbol:   class AnnotationWriter
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:17: error: cannot find symbol
+    private AnnotationWriter lastRuntimeVisibleTypeAnnotation;
+            ^
+  symbol:   class AnnotationWriter
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:18: error: cannot find symbol
+    private AnnotationWriter lastRuntimeInvisibleTypeAnnotation;
+            ^
+  symbol:   class AnnotationWriter
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:19: error: cannot find symbol
+    private Attribute firstAttribute;
+            ^
+  symbol:   class Attribute
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:21: error: cannot find symbol
+    FieldWriter(final SymbolTable symbolTable, final int access, final String name, final String descriptor, final String signature, final Object constantValue) {
+                      ^
+  symbol:   class SymbolTable
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:52: error: cannot find symbol
+    public void visitAttribute(final Attribute attribute) {
+                                     ^
+  symbol:   class Attribute
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:118: error: package Attribute does not exist
+    final void collectAttributePrototypes(final Attribute.Set attributePrototypes) {
+                                                         ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:35: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:38: error: cannot find symbol
+            return this.lastRuntimeVisibleAnnotation = AnnotationWriter.create(this.symbolTable, descriptor, this.lastRuntimeVisibleAnnotation);
+                                                       ^
+  symbol:   variable AnnotationWriter
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:40: error: cannot find symbol
+        return this.lastRuntimeInvisibleAnnotation = AnnotationWriter.create(this.symbolTable, descriptor, this.lastRuntimeInvisibleAnnotation);
+                                                     ^
+  symbol:   variable AnnotationWriter
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:43: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:46: error: cannot find symbol
+            return this.lastRuntimeVisibleTypeAnnotation = AnnotationWriter.create(this.symbolTable, typeRef, typePath, descriptor, this.lastRuntimeVisibleTypeAnnotation);
+                                                           ^
+  symbol:   variable AnnotationWriter
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:48: error: cannot find symbol
+        return this.lastRuntimeInvisibleTypeAnnotation = AnnotationWriter.create(this.symbolTable, typeRef, typePath, descriptor, this.lastRuntimeInvisibleTypeAnnotation);
+                                                         ^
+  symbol:   variable AnnotationWriter
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:51: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:57: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:67: error: cannot find symbol
+        size += Attribute.computeAttributesSize(this.symbolTable, this.accessFlags, this.signatureIndex);
+                ^
+  symbol:   variable Attribute
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:68: error: cannot find symbol
+        size += AnnotationWriter.computeAnnotationsSize(this.lastRuntimeVisibleAnnotation, this.lastRuntimeInvisibleAnnotation, this.lastRuntimeVisibleTypeAnnotation, this.lastRuntimeInvisibleTypeAnnotation);
+                ^
+  symbol:   variable AnnotationWriter
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:111: error: cannot find symbol
+        Attribute.putAttributes(this.symbolTable, this.accessFlags, this.signatureIndex, output);
+        ^
+  symbol:   variable Attribute
+  location: class FieldWriter
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/jar/asm/FieldWriter.java:112: error: cannot find symbol
+        AnnotationWriter.putAnnotations(this.symbolTable, this.lastRuntimeVisibleAnnotation, this.lastRuntimeInvisibleAnnotation, this.lastRuntimeVisibleTypeAnnotation, this.lastRuntimeInvisibleTypeAnnotation, output);
+        ^
+  symbol:   variable AnnotationWriter
+  location: class FieldWriter
+22 errors

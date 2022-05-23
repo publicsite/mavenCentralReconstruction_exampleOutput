@@ -1,0 +1,416 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:11: error: cannot find symbol
+public class JsonParserLax extends JsonParserCharArray
+                                   ^
+  symbol: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:42: error: cannot find symbol
+        if (this.__currentChar == '{') {
+                ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:43: error: cannot find symbol
+            this.nextChar();
+                ^
+  symbol: method nextChar()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:45: error: cannot find symbol
+        final ValueMap map = (ValueMap)(this.useValues ? new ValueMapImpl() : new LazyValueMap(this.lazyChop));
+              ^
+  symbol:   class ValueMap
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:45: error: cannot find symbol
+        final ValueMap map = (ValueMap)(this.useValues ? new ValueMapImpl() : new LazyValueMap(this.lazyChop));
+                              ^
+  symbol:   class ValueMap
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:45: error: cannot find symbol
+        final ValueMap map = (ValueMap)(this.useValues ? new ValueMapImpl() : new LazyValueMap(this.lazyChop));
+                                                             ^
+  symbol:   class ValueMapImpl
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:45: error: cannot find symbol
+        final ValueMap map = (ValueMap)(this.useValues ? new ValueMapImpl() : new LazyValueMap(this.lazyChop));
+                                                                                  ^
+  symbol:   class LazyValueMap
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:46: error: cannot find symbol
+        final Value value = new ValueContainer(map);
+                                ^
+  symbol:   class ValueContainer
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:47: error: cannot find symbol
+        this.skipWhiteSpace();
+            ^
+  symbol: method skipWhiteSpace()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:48: error: cannot find symbol
+        int startIndexOfKey = this.__index;
+                                  ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:50: error: cannot find symbol
+        while (this.__index < this.charArray.length) {
+                   ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:50: error: cannot find symbol
+        while (this.__index < this.charArray.length) {
+                                  ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:51: error: cannot find symbol
+            this.skipWhiteSpace();
+                ^
+  symbol: method skipWhiteSpace()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:52: error: cannot find symbol
+            switch (this.__currentChar) {
+                        ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:52: error: illegal parenthesized expression
+            switch (this.__currentChar) {
+                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:55: error: cannot find symbol
+                    startIndexOfKey = this.__index;
+                                          ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:60: error: cannot find symbol
+                    startIndexOfKey = this.__index;
+                                          ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:64: error: cannot find symbol
+                    final char startChar = this.charArray[startIndexOfKey];
+                                               ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:68: error: cannot find symbol
+                    final Value key = this.extractLaxString(startIndexOfKey, this.__index - 1, false, false);
+                                                                                 ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:69: error: cannot find symbol
+                    ++this.__index;
+                          ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:71: error: cannot find symbol
+                    this.skipWhiteSpace();
+                        ^
+  symbol: method skipWhiteSpace()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:72: error: cannot find symbol
+                    final MapItemValue miv = new MapItemValue(key, item);
+                          ^
+  symbol:   class MapItemValue
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:72: error: cannot find symbol
+                    final MapItemValue miv = new MapItemValue(key, item);
+                                                 ^
+  symbol:   class MapItemValue
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:74: error: cannot find symbol
+                    startIndexOfKey = this.__index;
+                                          ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:75: error: cannot find symbol
+                    if (this.__currentChar == '}') {
+                            ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:76: error: cannot find symbol
+                        ++this.__index;
+                              ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:83: error: cannot find symbol
+                    this.skipWhiteSpace();
+                        ^
+  symbol: method skipWhiteSpace()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:84: error: cannot find symbol
+                    if (this.__currentChar != ':') {
+                            ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:85: error: cannot find symbol
+                        this.complain("expecting current character to be ':' but got " + this.charDescription(this.__currentChar) + "\n");
+                                                                                                                  ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:87: error: cannot find symbol
+                    ++this.__index;
+                          ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:89: error: cannot find symbol
+                    this.skipWhiteSpace();
+                        ^
+  symbol: method skipWhiteSpace()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:90: error: cannot find symbol
+                    final MapItemValue miv = new MapItemValue(key, item);
+                          ^
+  symbol:   class MapItemValue
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:90: error: cannot find symbol
+                    final MapItemValue miv = new MapItemValue(key, item);
+                                                 ^
+  symbol:   class MapItemValue
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:92: error: cannot find symbol
+                    startIndexOfKey = this.__index;
+                                          ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:93: error: cannot find symbol
+                    if (this.__currentChar == '}') {
+                            ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:94: error: cannot find symbol
+                        ++this.__index;
+                              ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:101: error: cannot find symbol
+                    this.skipWhiteSpace();
+                        ^
+  symbol: method skipWhiteSpace()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:102: error: cannot find symbol
+                    if (this.__currentChar != ':') {
+                            ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:103: error: cannot find symbol
+                        this.complain("expecting current character to be ':' but got " + this.charDescription(this.__currentChar) + "\n");
+                                                                                                                  ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:105: error: cannot find symbol
+                    ++this.__index;
+                          ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:107: error: cannot find symbol
+                    this.skipWhiteSpace();
+                        ^
+  symbol: method skipWhiteSpace()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:108: error: cannot find symbol
+                    final MapItemValue miv = new MapItemValue(key, item);
+                          ^
+  symbol:   class MapItemValue
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:108: error: cannot find symbol
+                    final MapItemValue miv = new MapItemValue(key, item);
+                                                 ^
+  symbol:   class MapItemValue
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:110: error: cannot find symbol
+                    startIndexOfKey = this.__index;
+                                          ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:111: error: cannot find symbol
+                    if (this.__currentChar == '}') {
+                            ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:112: error: cannot find symbol
+                        ++this.__index;
+                              ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:118: error: cannot find symbol
+                    ++this.__index;
+                          ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:122: error: cannot find symbol
+            ++this.__index;
+                  ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:129: error: cannot find symbol
+        while (startIndexOfKey < this.__index && startIndexOfKey < this.charArray.length) {
+                                     ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:129: error: cannot find symbol
+        while (startIndexOfKey < this.__index && startIndexOfKey < this.charArray.length) {
+                                                                       ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:130: error: cannot find symbol
+            final char startChar = this.charArray[startIndexOfKey];
+                                       ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:145: error: cannot find symbol
+        for (endIndex = ((end >= this.charArray.length) ? (this.charArray.length - 1) : end); endIndex >= startIndexOfKey + 1 && endIndex >= 0; --endIndex) {
+                                     ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:145: error: cannot find symbol
+        for (endIndex = ((end >= this.charArray.length) ? (this.charArray.length - 1) : end); endIndex >= startIndexOfKey + 1 && endIndex >= 0; --endIndex) {
+                                                               ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:146: error: cannot find symbol
+            final char endChar = this.charArray[endIndex];
+                                     ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:153: error: cannot find symbol
+        return new CharSequenceValue(this.chop, Type.STRING, startIndexOfKey, endIndex + 1, this.charArray, encoded, checkDate);
+                   ^
+  symbol:   class CharSequenceValue
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:153: error: cannot find symbol
+        return new CharSequenceValue(this.chop, Type.STRING, startIndexOfKey, endIndex + 1, this.charArray, encoded, checkDate);
+                                                                                                ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:156: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:163: error: cannot find symbol
+        while (this.__index < this.charArray.length) {
+                   ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:163: error: cannot find symbol
+        while (this.__index < this.charArray.length) {
+                                  ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:164: error: cannot find symbol
+            this.skipWhiteSpace();
+                ^
+  symbol: method skipWhiteSpace()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:165: error: cannot find symbol
+            switch (this.__currentChar) {
+                        ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:165: error: illegal parenthesized expression
+            switch (this.__currentChar) {
+                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:202: error: cannot find symbol
+                        return this.decodeTrue() ? ValueContainer.TRUE : ValueContainer.FALSE;
+                                   ^
+  symbol: method decodeTrue()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:202: error: cannot find symbol
+                        return this.decodeTrue() ? ValueContainer.TRUE : ValueContainer.FALSE;
+                                                   ^
+  symbol:   variable ValueContainer
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:202: error: cannot find symbol
+                        return this.decodeTrue() ? ValueContainer.TRUE : ValueContainer.FALSE;
+                                                                         ^
+  symbol:   variable ValueContainer
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:209: error: cannot find symbol
+                        return this.decodeFalse() ? ValueContainer.TRUE : ValueContainer.FALSE;
+                                   ^
+  symbol: method decodeFalse()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:209: error: cannot find symbol
+                        return this.decodeFalse() ? ValueContainer.TRUE : ValueContainer.FALSE;
+                                                    ^
+  symbol:   variable ValueContainer
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:209: error: cannot find symbol
+                        return this.decodeFalse() ? ValueContainer.TRUE : ValueContainer.FALSE;
+                                                                          ^
+  symbol:   variable ValueContainer
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:216: error: cannot find symbol
+                        return (this.decodeNull() == null) ? ValueContainer.NULL : ValueContainer.NULL;
+                                    ^
+  symbol: method decodeNull()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:216: error: cannot find symbol
+                        return (this.decodeNull() == null) ? ValueContainer.NULL : ValueContainer.NULL;
+                                                             ^
+  symbol:   variable ValueContainer
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:216: error: cannot find symbol
+                        return (this.decodeNull() == null) ? ValueContainer.NULL : ValueContainer.NULL;
+                                                                                   ^
+  symbol:   variable ValueContainer
+  location: class JsonParserLax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:252: error: cannot find symbol
+            ++this.__index;
+                  ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:258: error: cannot find symbol
+        while (this.__index < this.charArray.length) {
+                   ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:258: error: cannot find symbol
+        while (this.__index < this.charArray.length) {
+                                  ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:259: error: cannot find symbol
+            this.__currentChar = this.charArray[this.__index];
+                ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:259: error: cannot find symbol
+            this.__currentChar = this.charArray[this.__index];
+                                     ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:259: error: cannot find symbol
+            this.__currentChar = this.charArray[this.__index];
+                                                    ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:260: error: cannot find symbol
+            if (this.__currentChar == '\n') {
+                    ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:261: error: cannot find symbol
+                ++this.__index;
+                      ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:264: error: cannot find symbol
+            ++this.__index;
+                  ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:269: error: cannot find symbol
+        if (this.hasMore()) {
+                ^
+  symbol: method hasMore()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:270: error: cannot find symbol
+            ++this.__index;
+                  ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:271: error: cannot find symbol
+            switch (this.__currentChar = this.charArray[this.__index]) {
+                        ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:271: error: cannot find symbol
+            switch (this.__currentChar = this.charArray[this.__index]) {
+                                             ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:271: error: cannot find symbol
+            switch (this.__currentChar = this.charArray[this.__index]) {
+                                                            ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:273: error: cannot find symbol
+                    while (this.__index < this.charArray.length) {
+                               ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:273: error: cannot find symbol
+                    while (this.__index < this.charArray.length) {
+                                              ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:274: error: cannot find symbol
+                        this.__currentChar = this.charArray[this.__index];
+                            ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:274: error: cannot find symbol
+                        this.__currentChar = this.charArray[this.__index];
+                                                 ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:274: error: cannot find symbol
+                        this.__currentChar = this.charArray[this.__index];
+                                                                ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:275: error: cannot find symbol
+                        if (this.__currentChar == '*') {
+                                ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:276: error: cannot find symbol
+                            if (this.hasMore()) {
+                                    ^
+  symbol: method hasMore()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:277: error: cannot find symbol
+                                ++this.__index;
+                                      ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:278: error: cannot find symbol
+                                this.__currentChar = this.charArray[this.__index];
+                                    ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:278: error: cannot find symbol
+                                this.__currentChar = this.charArray[this.__index];
+                                                         ^
+  symbol: variable charArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:278: error: cannot find symbol
+                                this.__currentChar = this.charArray[this.__index];
+                                                                        ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:279: error: cannot find symbol
+                                if (this.__currentChar == '/' && this.hasMore()) {
+                                        ^
+  symbol: variable __currentChar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:279: error: cannot find symbol
+                                if (this.__currentChar == '/' && this.hasMore()) {
+                                                                     ^
+  symbol: method hasMore()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:280: error: cannot find symbol
+                                    ++this.__index;
+                                          ^
+  symbol: variable __index
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserLax.java:285: error: cannot find symbol
+                                this.complain("missing close of comment");
+                                    ^
+  symbol: method complain(String)
+100 errors

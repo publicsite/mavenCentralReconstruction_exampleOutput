@@ -1,0 +1,71 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:8: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.processor.core.Processor;
+                                                                                  ^
+  symbol:   class Processor
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common.processor.core
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:12: error: cannot find symbol
+    public static final <C extends Context> void process(final String[] row, final Processor<C> processor, final C context, final ProcessorErrorHandler<C> errorHandler) {
+                                                                                   ^
+  symbol:   class Processor
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:12: error: cannot find symbol
+    public static final <C extends Context> void process(final String[] row, final Processor<C> processor, final C context, final ProcessorErrorHandler<C> errorHandler) {
+                                                                                                                                  ^
+  symbol:   class ProcessorErrorHandler
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:47: error: cannot find symbol
+    private static final void throwDataProcessingException(final Processor processor, final Throwable t, final String[] row, final int errorContentLength) throws DataProcessingException {
+                                                                 ^
+  symbol:   class Processor
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:47: error: cannot find symbol
+    private static final void throwDataProcessingException(final Processor processor, final Throwable t, final String[] row, final int errorContentLength) throws DataProcessingException {
+                                                                                                                                                                  ^
+  symbol:   class DataProcessingException
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:16: error: cannot find symbol
+        catch (DataProcessingException ex) {
+               ^
+  symbol:   class DataProcessingException
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:18: error: cannot find symbol
+            if (!ex.isFatal() && !ex.isHandled() && ex.getColumnIndex() > -1 && errorHandler instanceof RetryableErrorHandler) {
+                                                                                                        ^
+  symbol:   class RetryableErrorHandler
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:19: error: cannot find symbol
+                final RetryableErrorHandler retry = (RetryableErrorHandler)errorHandler;
+                      ^
+  symbol:   class RetryableErrorHandler
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:19: error: cannot find symbol
+                final RetryableErrorHandler retry = (RetryableErrorHandler)errorHandler;
+                                                     ^
+  symbol:   class RetryableErrorHandler
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:27: error: cannot find symbol
+                    catch (DataProcessingException e) {
+                           ^
+  symbol:   class DataProcessingException
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:48: error: cannot find symbol
+        final DataProcessingException ex = new DataProcessingException("Unexpected error processing input row " + AbstractException.restrictContent(errorContentLength, Arrays.toString(row)) + " using Processor " + processor.getClass().getName() + '.', AbstractException.restrictContent(errorContentLength, row), t);
+              ^
+  symbol:   class DataProcessingException
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:48: error: cannot find symbol
+        final DataProcessingException ex = new DataProcessingException("Unexpected error processing input row " + AbstractException.restrictContent(errorContentLength, Arrays.toString(row)) + " using Processor " + processor.getClass().getName() + '.', AbstractException.restrictContent(errorContentLength, row), t);
+                                               ^
+  symbol:   class DataProcessingException
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:48: error: cannot find symbol
+        final DataProcessingException ex = new DataProcessingException("Unexpected error processing input row " + AbstractException.restrictContent(errorContentLength, Arrays.toString(row)) + " using Processor " + processor.getClass().getName() + '.', AbstractException.restrictContent(errorContentLength, row), t);
+                                                                                                                  ^
+  symbol:   variable AbstractException
+  location: class Internal
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/Internal.java:48: error: cannot find symbol
+        final DataProcessingException ex = new DataProcessingException("Unexpected error processing input row " + AbstractException.restrictContent(errorContentLength, Arrays.toString(row)) + " using Processor " + processor.getClass().getName() + '.', AbstractException.restrictContent(errorContentLength, row), t);
+                                                                                                                                                                                                                                                            ^
+  symbol:   variable AbstractException
+  location: class Internal
+14 errors

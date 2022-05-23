@@ -1,0 +1,94 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:7: error: cannot find symbol
+import org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
+                                               ^
+  symbol:   class DefaultTypeTransformation
+  location: package org.codehaus.groovy.runtime.typehandling
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:8: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:9: error: package groovy.test does not exist
+import groovy.test.GroovyAssert;
+                  ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:10: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:113: error: cannot find symbol
+    protected String shouldFail(final Closure code) {
+                                      ^
+  symbol:   class Closure
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:117: error: cannot find symbol
+    protected String shouldFail(final Class clazz, final Closure code) {
+                                                         ^
+  symbol:   class Closure
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:121: error: cannot find symbol
+    protected String shouldFailWithCause(final Class clazz, final Closure code) {
+                                                                  ^
+  symbol:   class Closure
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:38: error: cannot find symbol
+        final String message = "expected array: " + InvokerHelper.toString(expected) + " value array: " + InvokerHelper.toString(value);
+                                                    ^
+  symbol:   variable InvokerHelper
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:38: error: cannot find symbol
+        final String message = "expected array: " + InvokerHelper.toString(expected) + " value array: " + InvokerHelper.toString(value);
+                                                                                                          ^
+  symbol:   variable InvokerHelper
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:96: error: cannot find symbol
+        final Object console = InvokerHelper.invokeMethod(value, "toString", null);
+                               ^
+  symbol:   variable InvokerHelper
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:101: error: cannot find symbol
+        final Object console = InvokerHelper.invokeMethod(value, "inspect", null);
+                               ^
+  symbol:   variable InvokerHelper
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:106: error: cannot find symbol
+        GroovyAssert.assertScript(script);
+        ^
+  symbol:   variable GroovyAssert
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:114: error: cannot find symbol
+        return GroovyAssert.shouldFail(code).getMessage();
+               ^
+  symbol:   variable GroovyAssert
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:118: error: cannot find symbol
+        return GroovyAssert.shouldFail(clazz, code).getMessage();
+               ^
+  symbol:   variable GroovyAssert
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:122: error: cannot find symbol
+        return GroovyAssert.shouldFailWithCause(clazz, code).getMessage();
+               ^
+  symbol:   variable GroovyAssert
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:126: error: cannot find symbol
+        return GroovyAssert.shouldFail(clazz, script).getMessage();
+               ^
+  symbol:   variable GroovyAssert
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:130: error: cannot find symbol
+        return GroovyAssert.shouldFail(script).getMessage();
+               ^
+  symbol:   variable GroovyAssert
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:138: error: cannot find symbol
+        return GroovyAssert.notYetImplemented(caller);
+               ^
+  symbol:   variable GroovyAssert
+  location: class GroovyTestCase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestCase.java:149: error: cannot find symbol
+        if (expected != null && DefaultTypeTransformation.compareEqual(expected, actual)) {
+                                ^
+  symbol:   variable DefaultTypeTransformation
+  location: class GroovyTestCase
+19 errors

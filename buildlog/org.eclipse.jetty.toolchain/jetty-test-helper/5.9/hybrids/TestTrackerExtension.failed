@@ -1,0 +1,19 @@
+hybrids/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/TestTrackerExtension.java:24: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.BeforeEachCallback;
+                                      ^
+hybrids/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/TestTrackerExtension.java:25: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+hybrids/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/TestTrackerExtension.java:27: error: cannot find symbol
+public class TestTrackerExtension implements BeforeEachCallback
+                                             ^
+  symbol: class BeforeEachCallback
+hybrids/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/TestTrackerExtension.java:30: error: cannot find symbol
+    public void beforeEach(ExtensionContext extensionContext)
+                           ^
+  symbol:   class ExtensionContext
+  location: class TestTrackerExtension
+hybrids/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/TestTrackerExtension.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+5 errors

@@ -1,0 +1,25 @@
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/junit4/statements/SpringRepeat.java:7: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/junit4/statements/SpringRepeat.java:8: error: package org.springframework.util does not exist
+import org.springframework.util.ClassUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/junit4/statements/SpringRepeat.java:10: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/junit4/statements/SpringRepeat.java:15: error: cannot find symbol
+    protected static final Log logger;
+                           ^
+  symbol:   class Log
+  location: class SpringRepeat
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/junit4/statements/SpringRepeat.java:29: error: cannot find symbol
+                SpringRepeat.logger.info((Object)String.format("Repetition %d of test %s#%s()", i + 1, ClassUtils.getShortName((Class)this.testMethod.getDeclaringClass()), this.testMethod.getName()));
+                                                                                                       ^
+  symbol:   variable ClassUtils
+  location: class SpringRepeat
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/junit4/statements/SpringRepeat.java:36: error: cannot find symbol
+        logger = LogFactory.getLog((Class)SpringRepeat.class);
+                 ^
+  symbol:   variable LogFactory
+  location: class SpringRepeat
+6 errors

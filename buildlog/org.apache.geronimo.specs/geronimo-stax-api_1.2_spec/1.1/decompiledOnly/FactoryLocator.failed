@@ -1,0 +1,32 @@
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/Decompiled/javax/xml/stream/FactoryLocator.java:5: error: package exists in another module: java.xml
+package javax.xml.stream;
+^
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/Decompiled/javax/xml/stream/FactoryLocator.java:7: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/Decompiled/javax/xml/stream/FactoryLocator.java:29: error: cannot find symbol
+            final String factoryClassName = ProviderLocator.lookupByJREPropertyFile("lib" + File.separator + "stax.properties", factoryId);
+                                            ^
+  symbol:   variable ProviderLocator
+  location: class FactoryLocator
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/Decompiled/javax/xml/stream/FactoryLocator.java:36: error: cannot find symbol
+            final Object service = ProviderLocator.getService(factoryId, FactoryLocator.class, classLoader);
+                                                                         ^
+  symbol:   class FactoryLocator
+  location: class FactoryLocator
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/Decompiled/javax/xml/stream/FactoryLocator.java:36: error: cannot find symbol
+            final Object service = ProviderLocator.getService(factoryId, FactoryLocator.class, classLoader);
+                                   ^
+  symbol:   variable ProviderLocator
+  location: class FactoryLocator
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/Decompiled/javax/xml/stream/FactoryLocator.java:50: error: cannot find symbol
+            return ProviderLocator.loadClass(className, FactoryLocator.class, classLoader).newInstance();
+                                                        ^
+  symbol:   class FactoryLocator
+  location: class FactoryLocator
+sources/structure/org.apache.geronimo.specs/geronimo-stax-api_1.2_spec/1.1/Decompiled/javax/xml/stream/FactoryLocator.java:50: error: cannot find symbol
+            return ProviderLocator.loadClass(className, FactoryLocator.class, classLoader).newInstance();
+                   ^
+  symbol:   variable ProviderLocator
+  location: class FactoryLocator
+7 errors

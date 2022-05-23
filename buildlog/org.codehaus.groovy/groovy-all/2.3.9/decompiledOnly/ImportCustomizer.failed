@@ -1,0 +1,107 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:7: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassHelper;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:8: error: cannot find symbol
+import org.codehaus.groovy.control.CompilationFailedException;
+                                  ^
+  symbol:   class CompilationFailedException
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:10: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ModuleNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:11: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:12: error: cannot find symbol
+import org.codehaus.groovy.classgen.GeneratorContext;
+                                   ^
+  symbol:   class GeneratorContext
+  location: package org.codehaus.groovy.classgen
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:13: error: cannot find symbol
+import org.codehaus.groovy.control.SourceUnit;
+                                  ^
+  symbol:   class SourceUnit
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:18: error: cannot find symbol
+public class ImportCustomizer extends CompilationCustomizer
+                                      ^
+  symbol: class CompilationCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:28: error: cannot find symbol
+    public void call(final SourceUnit source, final GeneratorContext context, final ClassNode classNode) throws CompilationFailedException {
+                           ^
+  symbol:   class SourceUnit
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:28: error: cannot find symbol
+    public void call(final SourceUnit source, final GeneratorContext context, final ClassNode classNode) throws CompilationFailedException {
+                                                    ^
+  symbol:   class GeneratorContext
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:28: error: cannot find symbol
+    public void call(final SourceUnit source, final GeneratorContext context, final ClassNode classNode) throws CompilationFailedException {
+                                                                                    ^
+  symbol:   class ClassNode
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:28: error: cannot find symbol
+    public void call(final SourceUnit source, final GeneratorContext context, final ClassNode classNode) throws CompilationFailedException {
+                                                                                                                ^
+  symbol:   class CompilationFailedException
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:106: error: cannot find symbol
+        final ClassNode classNode;
+              ^
+  symbol:   class ClassNode
+  location: class Import
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:111: error: cannot find symbol
+        private Import(final ImportType type, final String alias, final ClassNode classNode, final String field) {
+                                                                        ^
+  symbol:   class ClassNode
+  location: class Import
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:119: error: cannot find symbol
+        private Import(final ImportType type, final String alias, final ClassNode classNode) {
+                                                                        ^
+  symbol:   class ClassNode
+  location: class Import
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:29: error: cannot find symbol
+        final ModuleNode ast = source.getAST();
+              ^
+  symbol:   class ModuleNode
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:53: error: cannot find symbol
+        this.imports.add(new Import(ImportType.regular, alias, ClassHelper.make(className)));
+                                                               ^
+  symbol:   variable ClassHelper
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:58: error: cannot find symbol
+        final ClassNode node = ClassHelper.make(className);
+              ^
+  symbol:   class ClassNode
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:58: error: cannot find symbol
+        final ClassNode node = ClassHelper.make(className);
+                               ^
+  symbol:   variable ClassHelper
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:71: error: cannot find symbol
+        this.imports.add(new Import(ImportType.staticImport, alias, ClassHelper.make(className), fieldName));
+                                                                    ^
+  symbol:   variable ClassHelper
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:90: error: cannot find symbol
+        final ClassNode node = ClassHelper.make(className);
+              ^
+  symbol:   class ClassNode
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:90: error: cannot find symbol
+        final ClassNode node = ClassHelper.make(className);
+                               ^
+  symbol:   variable ClassHelper
+  location: class ImportCustomizer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/customizers/ImportCustomizer.java:95: error: cannot find symbol
+        this.imports.add(new Import(ImportType.staticStar, className, ClassHelper.make(className)));
+                                                                      ^
+  symbol:   variable ClassHelper
+  location: class ImportCustomizer
+23 errors

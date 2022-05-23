@@ -1,0 +1,116 @@
+hybrids/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/Service.java:22: error: cannot find symbol
+import javax.xml.bind.JAXBContext;
+                     ^
+  symbol:   class JAXBContext
+  location: package javax.xml.bind
+hybrids/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/Service.java:73: error: cannot find symbol
+    public Dispatch<Object> createDispatch(QName portName, JAXBContext context, Mode mode) {
+                                                           ^
+  symbol:   class JAXBContext
+  location: class Service
+hybrids/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/Service.java:85: error: cannot find symbol
+    public Dispatch<Object> createDispatch(QName portName, JAXBContext context, Service.Mode mode, WebServiceFeature... features) {
+                                                           ^
+  symbol:   class JAXBContext
+  location: class Service
+hybrids/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/Service.java:89: error: cannot find symbol
+    public Dispatch<Object> createDispatch(EndpointReference endpointReference, JAXBContext context, Service.Mode mode, WebServiceFeature... features) {
+                                                                                ^
+  symbol:   class JAXBContext
+  location: class Service
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/ServiceDelegate.java:22: error: cannot find symbol
+import javax.xml.bind.JAXBContext;
+                     ^
+  symbol:   class JAXBContext
+  location: package javax.xml.bind
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/ServiceDelegate.java:52: error: cannot find symbol
+    public abstract Dispatch<Object> createDispatch(QName qname, JAXBContext jaxbcontext, javax.xml.ws.Service.Mode mode);
+                                                                 ^
+  symbol:   class JAXBContext
+  location: class ServiceDelegate
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/ServiceDelegate.java:58: error: cannot find symbol
+    public abstract Dispatch<Object> createDispatch(QName portName, JAXBContext context, Service.Mode mode, WebServiceFeature... features);
+                                                                    ^
+  symbol:   class JAXBContext
+  location: class ServiceDelegate
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/ServiceDelegate.java:60: error: cannot find symbol
+    public abstract Dispatch<Object> createDispatch(EndpointReference endpointReference, JAXBContext context, Service.Mode mode, WebServiceFeature... features);
+                                                                                         ^
+  symbol:   class JAXBContext
+  location: class ServiceDelegate
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/wsaddressing/W3CEndpointReference.java:22: error: cannot find symbol
+import javax.xml.bind.JAXBContext;
+                     ^
+  symbol:   class JAXBContext
+  location: package javax.xml.bind
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/wsaddressing/W3CEndpointReference.java:69: error: cannot find symbol
+    private static JAXBContext jaxbContext;
+                   ^
+  symbol:   class JAXBContext
+  location: class W3CEndpointReference
+hybrids/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/Service.java:69: error: name clash: createDispatch(QName,Class<T>,Mode) in Service and createDispatch(QName,JAXBContext,Mode) in Service have the same erasure, yet neither overrides the other
+    public <T>Dispatch<T> createDispatch(QName portName, Class<T> type, Mode mode) {
+                          ^
+  where T is a type-variable:
+    T extends Object declared in method <T>createDispatch(QName,Class<T>,Mode)
+hybrids/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/Service.java:70: error: incompatible types: Dispatch<Object> cannot be converted to Dispatch<T>
+        return delegate.createDispatch(portName, type, mode);
+                                      ^
+  where T is a type-variable:
+    T extends Object declared in method <T>createDispatch(QName,Class<T>,Mode)
+hybrids/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/Service.java:77: error: name clash: createDispatch(QName,Class<T>,Mode,WebServiceFeature[]) in Service and createDispatch(QName,JAXBContext,Mode,WebServiceFeature[]) in Service have the same erasure, yet neither overrides the other
+    public <T> Dispatch<T> createDispatch(QName portName, Class<T> type, Service.Mode mode, WebServiceFeature... features) {
+                           ^
+  where T is a type-variable:
+    T extends Object declared in method <T>createDispatch(QName,Class<T>,Mode,WebServiceFeature...)
+hybrids/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/Service.java:78: error: incompatible types: Dispatch<Object> cannot be converted to Dispatch<T>
+        return delegate.createDispatch(portName, type, mode, features);
+                                      ^
+  where T is a type-variable:
+    T extends Object declared in method <T>createDispatch(QName,Class<T>,Mode,WebServiceFeature...)
+hybrids/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/Service.java:81: error: name clash: createDispatch(EndpointReference,Class<T>,Mode,WebServiceFeature[]) in Service and createDispatch(EndpointReference,JAXBContext,Mode,WebServiceFeature[]) in Service have the same erasure, yet neither overrides the other
+    public <T> Dispatch<T> createDispatch(EndpointReference endpointReference, Class<T> type, Service.Mode mode, WebServiceFeature... features) {
+                           ^
+  where T is a type-variable:
+    T extends Object declared in method <T>createDispatch(EndpointReference,Class<T>,Mode,WebServiceFeature...)
+hybrids/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/Service.java:82: error: incompatible types: Dispatch<Object> cannot be converted to Dispatch<T>
+        return delegate.createDispatch(endpointReference, type, mode, features);
+                                      ^
+  where T is a type-variable:
+    T extends Object declared in method <T>createDispatch(EndpointReference,Class<T>,Mode,WebServiceFeature...)
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/ServiceDelegate.java:50: error: name clash: createDispatch(QName,Class<T>,Mode) in ServiceDelegate and createDispatch(QName,JAXBContext,Mode) in ServiceDelegate have the same erasure, yet neither overrides the other
+    public abstract <T>Dispatch<T> createDispatch(QName qname, Class<T> class1, Service.Mode mode);
+                                   ^
+  where T is a type-variable:
+    T extends Object declared in method <T>createDispatch(QName,Class<T>,Mode)
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/ServiceDelegate.java:54: error: name clash: createDispatch(QName,Class<T>,Mode,WebServiceFeature[]) in ServiceDelegate and createDispatch(QName,JAXBContext,Mode,WebServiceFeature[]) in ServiceDelegate have the same erasure, yet neither overrides the other
+    public abstract <T> Dispatch<T> createDispatch(QName portName, Class<T> type, Service.Mode mode, WebServiceFeature... features);
+                                    ^
+  where T is a type-variable:
+    T extends Object declared in method <T>createDispatch(QName,Class<T>,Mode,WebServiceFeature...)
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/ServiceDelegate.java:56: error: name clash: createDispatch(EndpointReference,Class<T>,Mode,WebServiceFeature[]) in ServiceDelegate and createDispatch(EndpointReference,JAXBContext,Mode,WebServiceFeature[]) in ServiceDelegate have the same erasure, yet neither overrides the other
+    public abstract <T> Dispatch<T> createDispatch(EndpointReference endpointReference, Class<T> type, Service.Mode mode, WebServiceFeature... features);
+                                    ^
+  where T is a type-variable:
+    T extends Object declared in method <T>createDispatch(EndpointReference,Class<T>,Mode,WebServiceFeature...)
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/FactoryFinder.java:32: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/wsaddressing/W3CEndpointReference.java:84: error: cannot find symbol
+            jaxbContext = JAXBContext.newInstance(W3CEndpointReference.class);
+                          ^
+  symbol:   variable JAXBContext
+  location: class W3CEndpointReference
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/FactoryFinder.java:128: error: cannot find symbol
+                        return ProviderLocator.loadClass(iClassName, FactoryFinder.class, iClassLoader).newInstance();
+                               ^
+  symbol: variable ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/FactoryFinder.java:176: error: cannot find symbol
+                        Object service = ProviderLocator.getService(iFactoryId, FactoryFinder.class, classLoader);
+                                         ^
+  symbol: variable ProviderLocator
+sources/structure/org.apache.geronimo.specs/geronimo-jaxws_2.2_spec/1.1/extractedSources/javax/xml/ws/spi/FactoryFinder.java:185: error: cannot find symbol
+                        String factoryClassName =  ProviderLocator.lookupByJREPropertyFile("lib" + File.separator + "jaxrpc.properties", iFactoryId);
+                                                   ^
+  symbol: variable ProviderLocator
+24 errors

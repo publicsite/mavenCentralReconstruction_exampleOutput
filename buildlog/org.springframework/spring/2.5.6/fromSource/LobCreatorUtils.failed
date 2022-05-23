@@ -1,0 +1,29 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/support/lob/LobCreatorUtils.java:19: error: package javax.transaction does not exist
+import javax.transaction.Status;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/support/lob/LobCreatorUtils.java:20: error: package javax.transaction does not exist
+import javax.transaction.TransactionManager;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/support/lob/LobCreatorUtils.java:56: error: cannot find symbol
+			LobCreator lobCreator, TransactionManager jtaTransactionManager) throws IllegalStateException {
+			                       ^
+  symbol:   class TransactionManager
+  location: class LobCreatorUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/support/lob/LobCreatorUtils.java:67: error: cannot find symbol
+					if (jtaStatus == Status.STATUS_ACTIVE || jtaStatus == Status.STATUS_MARKED_ROLLBACK) {
+					                 ^
+  symbol:   variable Status
+  location: class LobCreatorUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/support/lob/LobCreatorUtils.java:67: error: cannot find symbol
+					if (jtaStatus == Status.STATUS_ACTIVE || jtaStatus == Status.STATUS_MARKED_ROLLBACK) {
+					                                                      ^
+  symbol:   variable Status
+  location: class LobCreatorUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/support/lob/JtaLobCreatorSynchronization.java:19: error: package javax.transaction does not exist
+import javax.transaction.Synchronization;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/support/lob/JtaLobCreatorSynchronization.java:33: error: cannot find symbol
+public class JtaLobCreatorSynchronization implements Synchronization {
+                                                     ^
+  symbol: class Synchronization
+7 errors

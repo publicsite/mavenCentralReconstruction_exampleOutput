@@ -1,0 +1,201 @@
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:19: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.BadPropertyValueException;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:20: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.Generator;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:21: error: package com.google.gwt.core.ext.Generator does not exist
+import com.google.gwt.core.ext.Generator.RunsLocal;
+                                        ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:22: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.GeneratorContext;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:23: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.PropertyOracle;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:24: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.SelectionProperty;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:25: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:26: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.UnableToCompleteException;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:27: error: package com.google.gwt.core.ext.typeinfo does not exist
+import com.google.gwt.core.ext.typeinfo.JClassType;
+                                       ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:28: error: package com.google.gwt.core.ext.typeinfo does not exist
+import com.google.gwt.core.ext.typeinfo.NotFoundException;
+                                       ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:29: error: package com.google.gwt.core.ext.typeinfo does not exist
+import com.google.gwt.core.ext.typeinfo.TypeOracle;
+                                       ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:40: error: cannot find symbol
+public class UserAgentGenerator extends Generator {
+                                        ^
+  symbol: class Generator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:39: error: cannot find symbol
+@RunsLocal(requiresProperties = {"user.agent"})
+ ^
+  symbol: class RunsLocal
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:44: error: cannot find symbol
+  public String generate(TreeLogger logger, GeneratorContext context, String typeName)
+                         ^
+  symbol:   class TreeLogger
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:44: error: cannot find symbol
+  public String generate(TreeLogger logger, GeneratorContext context, String typeName)
+                                            ^
+  symbol:   class GeneratorContext
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:45: error: cannot find symbol
+      throws UnableToCompleteException {
+             ^
+  symbol:   class UnableToCompleteException
+  location: class UserAgentGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/ClassSourceFileComposerFactory.java:18: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.GeneratorContext;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/ClassSourceFileComposerFactory.java:80: error: cannot find symbol
+  public SourceWriter createSourceWriter(GeneratorContext ctx,
+                                         ^
+  symbol:   class GeneratorContext
+  location: class ClassSourceFileComposerFactory
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/SourceWriter.java:19: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/SourceWriter.java:30: error: cannot find symbol
+  void commit(TreeLogger logger);
+              ^
+  symbol:   class TreeLogger
+  location: interface SourceWriter
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:43: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:46: error: cannot find symbol
+    TypeOracle typeOracle = context.getTypeOracle();
+    ^
+  symbol:   class TypeOracle
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:48: error: cannot find symbol
+    JClassType userType;
+    ^
+  symbol:   class JClassType
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:51: error: cannot find symbol
+    } catch (NotFoundException e) {
+             ^
+  symbol:   class NotFoundException
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:52: error: cannot find symbol
+      logger.log(TreeLogger.ERROR, "Unable to find metadata for type: " + typeName, e);
+                 ^
+  symbol:   variable TreeLogger
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:53: error: cannot find symbol
+      throw new UnableToCompleteException();
+                ^
+  symbol:   class UnableToCompleteException
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:60: error: cannot find symbol
+      logger.log(TreeLogger.ERROR, userType.getQualifiedSourceName() + " is not an interface", null);
+                 ^
+  symbol:   variable TreeLogger
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:61: error: cannot find symbol
+      throw new UnableToCompleteException();
+                ^
+  symbol:   class UnableToCompleteException
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:64: error: cannot find symbol
+    PropertyOracle propertyOracle = context.getPropertyOracle();
+    ^
+  symbol:   class PropertyOracle
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:67: error: cannot find symbol
+    SelectionProperty selectionProperty;
+    ^
+  symbol:   class SelectionProperty
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:71: error: cannot find symbol
+    } catch (BadPropertyValueException e) {
+             ^
+  symbol:   class BadPropertyValueException
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:72: error: cannot find symbol
+      logger.log(TreeLogger.ERROR, "Unable to find value for '" + PROPERTY_USER_AGENT + "'", e);
+                 ^
+  symbol:   variable TreeLogger
+  location: class UserAgentGenerator
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/UserAgentGenerator.java:73: error: cannot find symbol
+      throw new UnableToCompleteException();
+                ^
+  symbol:   class UnableToCompleteException
+  location: class UserAgentGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:19: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:20: error: package com.google.gwt.core.ext.linker does not exist
+import com.google.gwt.core.ext.linker.ConfigurationProperty;
+                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:21: error: package com.google.gwt.core.ext.linker does not exist
+import com.google.gwt.core.ext.linker.PropertyProviderGenerator;
+                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:33: error: cannot find symbol
+public class UserAgentPropertyGenerator implements PropertyProviderGenerator {
+                                                   ^
+  symbol: class PropertyProviderGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:95: error: cannot find symbol
+  public String generate(TreeLogger logger, SortedSet<String> possibleValues, String fallback,
+                         ^
+  symbol:   class TreeLogger
+  location: class UserAgentPropertyGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:96: error: cannot find symbol
+      SortedSet<ConfigurationProperty> configProperties) {
+                ^
+  symbol:   class ConfigurationProperty
+  location: class UserAgentPropertyGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:109: error: cannot find symbol
+  private static void assertUserAgents(TreeLogger logger, SortedSet<String> possibleValues) {
+                                       ^
+  symbol:   class TreeLogger
+  location: class UserAgentPropertyGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/StringSourceWriter.java:18: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/StringSourceWriter.java:44: error: cannot find symbol
+  public void commit(TreeLogger logger) {
+                     ^
+  symbol:   class TreeLogger
+  location: class StringSourceWriter
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/ClassSourceFileComposer.java:18: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.GeneratorContext;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/ClassSourceFileComposer.java:19: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/ClassSourceFileComposer.java:39: error: cannot find symbol
+  private final GeneratorContext ctx;
+                ^
+  symbol:   class GeneratorContext
+  location: class ClassSourceFileComposer
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/ClassSourceFileComposer.java:50: error: cannot find symbol
+  ClassSourceFileComposer(GeneratorContext ctx, PrintWriter printWriter,
+                          ^
+  symbol:   class GeneratorContext
+  location: class ClassSourceFileComposer
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/ClassSourceFileComposer.java:101: error: cannot find symbol
+  public void commit(TreeLogger logger) {
+                     ^
+  symbol:   class TreeLogger
+  location: class ClassSourceFileComposer
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:94: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:113: error: cannot find symbol
+      logger.log(TreeLogger.WARN, "Unrecognized " + UserAgentGenerator.PROPERTY_USER_AGENT
+                 ^
+  symbol:   variable TreeLogger
+  location: class UserAgentPropertyGenerator
+49 errors

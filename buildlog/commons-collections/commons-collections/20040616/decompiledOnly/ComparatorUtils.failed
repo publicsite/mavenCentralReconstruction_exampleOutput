@@ -1,0 +1,14 @@
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/ComparatorUtils.java:40: error: no suitable method found for chainedComparator(Object[])
+        return chainedComparator(comparators.toArray(new Comparator[comparators.size()]));
+               ^
+    method ComparatorUtils.chainedComparator(Comparator[]) is not applicable
+      (argument mismatch; Object[] cannot be converted to Comparator[])
+    method ComparatorUtils.chainedComparator(Collection) is not applicable
+      (argument mismatch; Object[] cannot be converted to Collection)
+sources/structure/commons-collections/commons-collections/20040616/Decompiled/org/apache/commons/collections/comparators/ComparatorChain.java:117: error: incompatible types: Object cannot be converted to Comparator
+            final Comparator comparator = comparators.next();
+                                                          ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors

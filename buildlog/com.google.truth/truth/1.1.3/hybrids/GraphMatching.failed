@@ -1,0 +1,157 @@
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:18: error: package com.google.common.base does not exist
+import com.google.common.base.Optional;
+                             ^
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:19: error: cannot find symbol
+import com.google.common.collect.BiMap;
+                                ^
+  symbol:   class BiMap
+  location: package com.google.common.collect
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:20: error: cannot find symbol
+import com.google.common.collect.HashBiMap;
+                                ^
+  symbol:   class HashBiMap
+  location: package com.google.common.collect
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:21: error: cannot find symbol
+import com.google.common.collect.ImmutableBiMap;
+                                ^
+  symbol:   class ImmutableBiMap
+  location: package com.google.common.collect
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:22: error: cannot find symbol
+import com.google.common.collect.Multimap;
+                                ^
+  symbol:   class Multimap
+  location: package com.google.common.collect
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:23: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:54: error: cannot find symbol
+  static <U, V> ImmutableBiMap<U, V> maximumCardinalityBipartiteMatching(Multimap<U, V> graph) {
+                                                                         ^
+  symbol:   class Multimap
+  location: class GraphMatching
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:54: error: cannot find symbol
+  static <U, V> ImmutableBiMap<U, V> maximumCardinalityBipartiteMatching(Multimap<U, V> graph) {
+                ^
+  symbol:   class ImmutableBiMap
+  location: class GraphMatching
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:71: error: cannot find symbol
+    private final Multimap<U, V> graph;
+                  ^
+  symbol:   class Multimap
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:77: error: cannot find symbol
+    static <U, V> HopcroftKarp<U, V> overBipartiteGraph(Multimap<U, V> graph) {
+                                                        ^
+  symbol:   class Multimap
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:81: error: cannot find symbol
+    private HopcroftKarp(Multimap<U, V> graph) {
+                         ^
+  symbol:   class Multimap
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:86: error: cannot find symbol
+    ImmutableBiMap<U, V> perform() {
+    ^
+  symbol:   class ImmutableBiMap
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:130: error: cannot find symbol
+    private Optional<Integer> breadthFirstSearch(BiMap<U, V> matching, Map<U, Integer> layers) {
+                                                 ^
+  symbol:   class BiMap
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:130: error: cannot find symbol
+    private Optional<Integer> breadthFirstSearch(BiMap<U, V> matching, Map<U, Integer> layers) {
+            ^
+  symbol:   class Optional
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:218: error: cannot find symbol
+        BiMap<U, V> matching, Map<U, Integer> layers, int freeRhsVertexLayer, U lhs) {
+        ^
+  symbol:   class BiMap
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:216: error: cannot find symbol
+    @CanIgnoreReturnValue
+     ^
+  symbol:   class CanIgnoreReturnValue
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:87: error: cannot find symbol
+      BiMap<U, V> matching = HashBiMap.create();
+      ^
+  symbol:   class BiMap
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:87: error: cannot find symbol
+      BiMap<U, V> matching = HashBiMap.create();
+                             ^
+  symbol:   variable HashBiMap
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:92: error: cannot find symbol
+        Optional<Integer> freeRhsVertexLayer = breadthFirstSearch(matching, layers);
+        ^
+  symbol:   class Optional
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:106: error: cannot find symbol
+      return ImmutableBiMap.copyOf(matching);
+             ^
+  symbol:   variable ImmutableBiMap
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:132: error: cannot find symbol
+      Optional<Integer> freeRhsVertexLayer = Optional.absent();
+      ^
+  symbol:   class Optional
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:132: error: cannot find symbol
+      Optional<Integer> freeRhsVertexLayer = Optional.absent();
+                                             ^
+  symbol:   variable Optional
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+hybrids/com.google.truth/truth/1.1.3/GraphMatching.java:160: error: cannot find symbol
+              freeRhsVertexLayer = Optional.of(layer);
+                                   ^
+  symbol:   variable Optional
+  location: class HopcroftKarp<U,V>
+  where U,V are type-variables:
+    U extends Object declared in class HopcroftKarp
+    V extends Object declared in class HopcroftKarp
+23 errors

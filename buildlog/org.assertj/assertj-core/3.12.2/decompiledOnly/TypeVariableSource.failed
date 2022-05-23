@@ -1,0 +1,84 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:7: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.FilterableList;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:8: error: package org.assertj.core.internal.bytebuddy.description.method does not exist
+import org.assertj.core.internal.bytebuddy.description.method.MethodDescription;
+                                                             ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:9: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.ElementMatcher;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:10: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.ElementMatchers;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:11: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:12: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeList;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:14: error: package ModifierReviewable does not exist
+public interface TypeVariableSource extends ModifierReviewable.OfAbstraction
+                                                              ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:18: error: package TypeList does not exist
+    TypeList.Generic getTypeVariables();
+            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:22: error: package TypeDescription does not exist
+    TypeDescription.Generic findVariable(final String p0);
+                   ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:42: error: cannot find symbol
+        T onType(final TypeDescription p0);
+                       ^
+  symbol:   class TypeDescription
+  location: interface Visitor<T>
+  where T is a type-variable:
+    T extends Object declared in interface Visitor
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:44: error: package MethodDescription does not exist
+        T onMethod(final MethodDescription.InDefinedShape p0);
+                                          ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:28: error: package ModifierReviewable does not exist
+    public abstract static class AbstractBase extends ModifierReviewable.AbstractBase implements TypeVariableSource
+                                                                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:30: error: package TypeDescription does not exist
+        public TypeDescription.Generic findVariable(final String symbol) {
+                              ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:50: error: cannot find symbol
+            public TypeVariableSource onType(final TypeDescription typeDescription) {
+                                                   ^
+  symbol:   class TypeDescription
+  location: class NoOp
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:54: error: package MethodDescription does not exist
+            public TypeVariableSource onMethod(final MethodDescription.InDefinedShape methodDescription) {
+                                                                      ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:31: error: package TypeList does not exist
+            final TypeList.Generic typeVariables = ((FilterableList<Object, TypeList.Generic>)this.getTypeVariables()).filter(ElementMatchers.named(symbol));
+                          ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:31: error: cannot find symbol
+            final TypeList.Generic typeVariables = ((FilterableList<Object, TypeList.Generic>)this.getTypeVariables()).filter(ElementMatchers.named(symbol));
+                                                     ^
+  symbol:   class FilterableList
+  location: class AbstractBase
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:31: error: package TypeList does not exist
+            final TypeList.Generic typeVariables = ((FilterableList<Object, TypeList.Generic>)this.getTypeVariables()).filter(ElementMatchers.named(symbol));
+                                                                                    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:31: error: cannot find symbol
+            final TypeList.Generic typeVariables = ((FilterableList<Object, TypeList.Generic>)this.getTypeVariables()).filter(ElementMatchers.named(symbol));
+                                                                                                                              ^
+  symbol:   variable ElementMatchers
+  location: class AbstractBase
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:34: error: package TypeDescription does not exist
+                return (enclosingSource == null) ? TypeDescription.Generic.UNDEFINED : enclosingSource.findVariable(symbol);
+                                                                  ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:36: error: cannot find symbol
+            return ((FilterableList<TypeDescription.Generic, S>)typeVariables).getOnly();
+                     ^
+  symbol:   class FilterableList
+  location: class AbstractBase
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:36: error: package TypeDescription does not exist
+            return ((FilterableList<TypeDescription.Generic, S>)typeVariables).getOnly();
+                                                   ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/description/TypeVariableSource.java:36: error: cannot find symbol
+            return ((FilterableList<TypeDescription.Generic, S>)typeVariables).getOnly();
+                                                             ^
+  symbol:   class S
+  location: class AbstractBase
+23 errors

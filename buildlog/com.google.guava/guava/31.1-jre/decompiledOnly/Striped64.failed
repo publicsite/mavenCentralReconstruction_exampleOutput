@@ -1,0 +1,59 @@
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:11: warning: Unsafe is internal proprietary API and may be removed in a future release
+import sun.misc.Unsafe;
+               ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:12: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/hash/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/hash/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/hash/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/hash/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:23: error: cannot find symbol
+    @CheckForNull
+     ^
+  symbol:   class CheckForNull
+  location: class Striped64
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:41: error: cannot find symbol
+    final void retryUpdate(final long x, @CheckForNull int[] hc, boolean wasUncontended) {
+                                          ^
+  symbol:   class CheckForNull
+  location: class Striped64
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:27: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static final Unsafe UNSAFE;
+                         ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:162: warning: Unsafe is internal proprietary API and may be removed in a future release
+    private static Unsafe getUnsafe() {
+                   ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:164: warning: Unsafe is internal proprietary API and may be removed in a future release
+            return Unsafe.getUnsafe();
+                   ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:168: warning: Unsafe is internal proprietary API and may be removed in a future release
+                return AccessController.doPrivileged((PrivilegedExceptionAction<Unsafe>)new PrivilegedExceptionAction<Unsafe>() {
+                                                                                ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:168: warning: Unsafe is internal proprietary API and may be removed in a future release
+                return AccessController.doPrivileged((PrivilegedExceptionAction<Unsafe>)new PrivilegedExceptionAction<Unsafe>() {
+                                                                                                                      ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:170: warning: Unsafe is internal proprietary API and may be removed in a future release
+                    public Unsafe run() throws Exception {
+                           ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:171: warning: Unsafe is internal proprietary API and may be removed in a future release
+                        final Class<Unsafe> k = Unsafe.class;
+                                    ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:171: warning: Unsafe is internal proprietary API and may be removed in a future release
+                        final Class<Unsafe> k = Unsafe.class;
+                                                ^
+sources/structure/com.google.guava/guava/31.1-jre/Decompiled/com/google/common/hash/Striped64.java:221: warning: Unsafe is internal proprietary API and may be removed in a future release
+        private static final Unsafe UNSAFE;
+                             ^
+7 errors
+10 warnings

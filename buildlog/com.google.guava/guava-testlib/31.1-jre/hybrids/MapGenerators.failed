@@ -1,0 +1,132 @@
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:22: error: cannot find symbol
+import com.google.common.collect.ImmutableMap;
+                                ^
+  symbol:   class ImmutableMap
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:23: error: cannot find symbol
+import com.google.common.collect.ImmutableSet;
+                                ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:24: error: cannot find symbol
+import com.google.common.collect.Iterables;
+                                ^
+  symbol:   class Iterables
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:25: error: cannot find symbol
+import com.google.common.collect.Maps;
+                                ^
+  symbol:   class Maps
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:26: error: cannot find symbol
+import com.google.common.collect.Ordering;
+                                ^
+  symbol:   class Ordering
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:235: error: cannot find symbol
+    public ImmutableSet<Integer>[] createValueArray(int length) {
+           ^
+  symbol:   class ImmutableSet
+  location: class ImmutableMapValuesAsSingletonSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:53: error: package ImmutableMap does not exist
+      ImmutableMap.Builder<String, String> builder = ImmutableMap.builder();
+                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:53: error: cannot find symbol
+      ImmutableMap.Builder<String, String> builder = ImmutableMap.builder();
+                                                     ^
+  symbol:   variable ImmutableMap
+  location: class ImmutableMapGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:64: error: cannot find symbol
+      Map<String, String> builder = Maps.newLinkedHashMap();
+                                    ^
+  symbol:   variable Maps
+  location: class ImmutableMapCopyOfGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:68: error: cannot find symbol
+      return ImmutableMap.copyOf(builder);
+             ^
+  symbol:   variable ImmutableMap
+  location: class ImmutableMapCopyOfGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:75: error: cannot find symbol
+      return ImmutableMap.copyOf(Arrays.asList(entries));
+             ^
+  symbol:   variable ImmutableMap
+  location: class ImmutableMapCopyOfEntriesGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:84: error: package ImmutableMap does not exist
+      ImmutableMap.Builder<Integer, UnhashableObject> builder = ImmutableMap.builder();
+                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:84: error: cannot find symbol
+      ImmutableMap.Builder<Integer, UnhashableObject> builder = ImmutableMap.builder();
+                                                                ^
+  symbol:   variable ImmutableMap
+  location: class ImmutableMapUnhashableValuesGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:96: error: package ImmutableMap does not exist
+      ImmutableMap.Builder<String, Integer> builder = ImmutableMap.builder();
+                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:96: error: cannot find symbol
+      ImmutableMap.Builder<String, Integer> builder = ImmutableMap.builder();
+                                                      ^
+  symbol:   variable ImmutableMap
+  location: class ImmutableMapKeyListGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:107: error: package ImmutableMap does not exist
+      ImmutableMap.Builder<Integer, String> builder = ImmutableMap.builder();
+                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:107: error: cannot find symbol
+      ImmutableMap.Builder<Integer, String> builder = ImmutableMap.builder();
+                                                      ^
+  symbol:   variable ImmutableMap
+  location: class ImmutableMapValueListGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:141: error: package ImmutableMap does not exist
+      ImmutableMap.Builder<String, Integer> builder = ImmutableMap.builder();
+                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:141: error: cannot find symbol
+      ImmutableMap.Builder<String, Integer> builder = ImmutableMap.builder();
+                                                      ^
+  symbol:   variable ImmutableMap
+  location: class ImmutableMapEntryListGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:154: error: cannot find symbol
+      Map<AnEnum, String> map = Maps.newHashMap();
+                                ^
+  symbol:   variable Maps
+  location: class ImmutableEnumMapGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:159: error: cannot find symbol
+      return Maps.immutableEnumMap(map);
+             ^
+  symbol:   variable Maps
+  location: class ImmutableEnumMapGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:170: error: cannot find symbol
+      return ImmutableMap.copyOf(map);
+             ^
+  symbol:   variable ImmutableMap
+  location: class ImmutableMapCopyOfEnumMapGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:175: error: cannot find symbol
+      return new Ordering<Entry<AnEnum, String>>() {
+                 ^
+  symbol:   class Ordering
+  location: class ImmutableMapCopyOfEnumMapGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:177: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:200: error: cannot find symbol
+      return ImmutableSet.of(item);
+             ^
+  symbol:   variable ImmutableSet
+  location: class ImmutableMapValuesAsSingletonSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:205: error: package ImmutableMap does not exist
+      ImmutableMap.Builder<String, Integer> builder = ImmutableMap.builder();
+                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:205: error: cannot find symbol
+      ImmutableMap.Builder<String, Integer> builder = ImmutableMap.builder();
+                                                      ^
+  symbol:   variable ImmutableMap
+  location: class ImmutableMapValuesAsSingletonSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:210: error: cannot find symbol
+        Integer value = Iterables.getOnlyElement(entry.getValue());
+                        ^
+  symbol:   variable Iterables
+  location: class ImmutableMapValuesAsSingletonSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MapGenerators.java:236: error: cannot find symbol
+      return new ImmutableSet[length];
+                 ^
+  symbol:   class ImmutableSet
+  location: class ImmutableMapValuesAsSingletonSetGenerator
+29 errors

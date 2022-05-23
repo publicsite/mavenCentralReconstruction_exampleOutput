@@ -1,0 +1,20 @@
+sources/structure/junit/junit/4.7/Decompiled/org/junit/internal/matchers/TypeSafeMatcher.java:8: error: cannot find symbol
+import org.hamcrest.BaseMatcher;
+                   ^
+  symbol:   class BaseMatcher
+  location: package org.hamcrest
+sources/structure/junit/junit/4.7/Decompiled/org/junit/internal/matchers/TypeSafeMatcher.java:10: error: cannot find symbol
+public abstract class TypeSafeMatcher<T> extends BaseMatcher<T>
+                                                 ^
+  symbol: class BaseMatcher
+sources/structure/junit/junit/4.7/Decompiled/org/junit/internal/matchers/TypeSafeMatcher.java:17: error: cannot find symbol
+        this.expectedType = findExpectedType(this.getClass());
+                                                 ^
+  symbol: method getClass()
+sources/structure/junit/junit/4.7/Decompiled/org/junit/internal/matchers/TypeSafeMatcher.java:40: error: incompatible types: Object cannot be converted to T
+        return item != null && this.expectedType.isInstance(item) && this.matchesSafely(item);
+                                                                                        ^
+  where T is a type-variable:
+    T extends Object declared in class TypeSafeMatcher
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+4 errors

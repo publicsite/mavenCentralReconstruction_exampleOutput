@@ -1,0 +1,39 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/record/RecordImpl.java:21: error: cannot find symbol
+    private final RecordMetaDataImpl<C> metaData;
+                  ^
+  symbol:   class RecordMetaDataImpl
+  location: class RecordImpl<C>
+  where C is a type-variable:
+    C extends Context declared in class RecordImpl
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/record/RecordImpl.java:23: error: cannot find symbol
+    RecordImpl(final String[] data, final RecordMetaDataImpl metaData) {
+                                          ^
+  symbol:   class RecordMetaDataImpl
+  location: class RecordImpl<C>
+  where C is a type-variable:
+    C extends Context declared in class RecordImpl
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/record/RecordImpl.java:25: error: cannot find symbol
+        this.metaData = (RecordMetaDataImpl<C>)metaData;
+                         ^
+  symbol:   class RecordMetaDataImpl
+  location: class RecordImpl<C>
+  where C is a type-variable:
+    C extends Context declared in class RecordImpl
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/record/RecordImpl.java:436: error: method buildSelection in class RecordImpl<C> cannot be applied to given types;
+        selectedColumns = this.buildSelection(selectedColumns.getClass().getComponentType(), selectedColumns);
+                              ^
+  required: Class<T#1>,T#1[]
+  found: Class<CAP#1>,T#2[]
+  reason: inference variable T#1 has incompatible bounds
+    lower bounds: Enum<T#1>
+    lower bounds: T#2[]
+  where T#1,T#2,C are type-variables:
+    T#1 extends Enum<T#1> declared in method <T#1>buildSelection(Class<T#1>,T#1...)
+    T#2 extends Enum<T#2> declared in method <T#2>fillEnumObjectMap(Map<T#2,Object>,T#2...)
+    C extends Context declared in class RecordImpl
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+Note: sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/record/RecordImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+4 errors

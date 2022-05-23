@@ -1,0 +1,37 @@
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/AttributeCollection.java:25: error: incompatible types: Object cannot be converted to Attribute_info
+        return this.m_attributes.get(offset);
+                                    ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/AttributeCollection.java:62: error: clone() has protected access in Object
+                _clone.m_attributes.add(this.m_attributes.get(a).clone());
+                                                                ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/AttributeCollection.java:103: error: incompatible types: Object cannot be converted to Attribute_info
+        final Attribute_info result = this.m_attributes.set(offset, attribute);
+                                                           ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/AttributeCollection.java:126: error: incompatible types: Object cannot be converted to Attribute_info
+        final Attribute_info result = this.m_attributes.remove(offset);
+                                                              ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/InnerClassesAttribute_info.java:31: error: incompatible types: Object cannot be converted to InnerClass_info
+        return this.m_classes.get(offset);
+                                 ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/InnerClassesAttribute_info.java:61: error: clone() has protected access in Object
+            _clone.m_classes.add(classes.get(e).clone());
+                                               ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/InnerClassesAttribute_info.java:72: error: cannot find symbol
+            classes.get(l).writeInClassFormat(out);
+                          ^
+  symbol:   method writeInClassFormat(UDataOutputStream)
+  location: class Object
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/LineNumberTableAttribute_info.java:18: error: incompatible types: Object cannot be converted to LineNumber_info
+        return this.m_lines.get(offset);
+                               ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/LineNumberTableAttribute_info.java:47: error: clone() has protected access in Object
+            _clone.m_lines.add(this.m_lines.get(e).clone());
+                                                  ^
+sources/structure/emma/emma/2.0.5312/Decompiled/com/vladium/jcd/cls/attribute/LineNumberTableAttribute_info.java:57: error: cannot find symbol
+            this.m_lines.get(l).writeInClassFormat(out);
+                               ^
+  symbol:   method writeInClassFormat(UDataOutputStream)
+  location: class Object
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+10 errors

@@ -1,0 +1,38 @@
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/sqlmap/engine/mapping/result/ResultMap.java:164: error: incompatible types: Object cannot be converted to ResultMapping[]
+            return this.remappableResultMappings.get();
+                                                    ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/sqlmap/engine/mapping/result/ResultMap.java:204: error: incompatible types: Object[] cannot be converted to ResultMapping[]
+            this.resultMappings = resultMappingList.toArray(new ResultMapping[resultMappingList.size()]);
+                                                           ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/Decompiled/com/ibatis/sqlmap/engine/mapping/result/ResultMap.java:296: error: incompatible types: Object cannot be converted to ResultMapping
+                final ResultMapping resultMapping = this.nestedResultMappings.get(i);
+                                                                                 ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/mapping/result/loader/EnhancedLazyResultLoader.java:22: error: package net.sf.cglib.proxy does not exist
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/mapping/result/loader/EnhancedLazyResultLoader.java:23: error: package net.sf.cglib.proxy does not exist
+import net.sf.cglib.proxy.InvocationHandler;
+                         ^
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/mapping/result/loader/EnhancedLazyResultLoader.java:66: error: cannot find symbol
+  private static class EnhancedLazyResultLoaderImpl implements InvocationHandler {
+                                                               ^
+  symbol:   class InvocationHandler
+  location: class EnhancedLazyResultLoader
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/mapping/result/loader/EnhancedLazyResultLoader.java:104: error: cannot find symbol
+          return Enhancer.create(Object.class, SET_INTERFACES, this);
+                 ^
+  symbol:   variable Enhancer
+  location: class EnhancedLazyResultLoaderImpl
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/mapping/result/loader/EnhancedLazyResultLoader.java:106: error: cannot find symbol
+          return Enhancer.create(Object.class, LIST_INTERFACES, this);
+                 ^
+  symbol:   variable Enhancer
+  location: class EnhancedLazyResultLoaderImpl
+sources/structure/org.apache.ibatis/ibatis-sqlmap/2.3.4.726/extractedSources/com/ibatis/sqlmap/engine/mapping/result/loader/EnhancedLazyResultLoader.java:111: error: cannot find symbol
+        return Enhancer.create(targetType, this);
+               ^
+  symbol:   variable Enhancer
+  location: class EnhancedLazyResultLoaderImpl
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

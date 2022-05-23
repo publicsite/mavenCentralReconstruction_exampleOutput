@@ -1,0 +1,112 @@
+hybrids/xalan/xalan/2.7.1/MethodType.java:114: error: class, interface, or enum expected
+    public boolean identicalTo(Type other) {
+           ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:116: error: class, interface, or enum expected
+	if (other instanceof MethodType) {
+	^
+hybrids/xalan/xalan/2.7.1/MethodType.java:117: error: class, interface, or enum expected
+	    final MethodType temp = (MethodType) other;
+	          ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:118: error: class, interface, or enum expected
+	    if (_resultType.identicalTo(temp._resultType)) {
+	    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:119: error: class, interface, or enum expected
+		final int len = argsCount();
+		      ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:120: error: class, interface, or enum expected
+		result = len == temp.argsCount();
+		^
+hybrids/xalan/xalan/2.7.1/MethodType.java:121: error: class, interface, or enum expected
+		for (int i = 0; i < len && result; i++) {
+		^
+hybrids/xalan/xalan/2.7.1/MethodType.java:121: error: class, interface, or enum expected
+		for (int i = 0; i < len && result; i++) {
+		                ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:121: error: class, interface, or enum expected
+		for (int i = 0; i < len && result; i++) {
+		                                   ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:122: error: class, interface, or enum expected
+		    final Type arg1 = (Type)_argsType.elementAt(i);
+		          ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:123: error: class, interface, or enum expected
+		    final Type arg2 = (Type)temp._argsType.elementAt(i);
+		          ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:124: error: class, interface, or enum expected
+		    result = arg1.identicalTo(arg2);
+		    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:125: error: class, interface, or enum expected
+		}
+		^
+hybrids/xalan/xalan/2.7.1/MethodType.java:129: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:131: error: class, interface, or enum expected
+    public int distanceTo(Type other) {
+           ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:133: error: class, interface, or enum expected
+	if (other instanceof MethodType) {
+	^
+hybrids/xalan/xalan/2.7.1/MethodType.java:134: error: class, interface, or enum expected
+	    final MethodType mtype = (MethodType) other;
+	          ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:135: error: class, interface, or enum expected
+	    if (_argsType != null) {
+	    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:136: error: class, interface, or enum expected
+		final int len = _argsType.size();
+		      ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:137: error: class, interface, or enum expected
+		if (len == mtype._argsType.size()) {
+		^
+hybrids/xalan/xalan/2.7.1/MethodType.java:139: error: class, interface, or enum expected
+		    for (int i = 0; i < len; i++) {
+		    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:139: error: class, interface, or enum expected
+		    for (int i = 0; i < len; i++) {
+		                    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:139: error: class, interface, or enum expected
+		    for (int i = 0; i < len; i++) {
+		                             ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:141: error: class, interface, or enum expected
+			Type arg2 = (Type) mtype._argsType.elementAt(i);
+			^
+hybrids/xalan/xalan/2.7.1/MethodType.java:142: error: class, interface, or enum expected
+			final int temp = arg1.distanceTo(arg2);
+			      ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:143: error: class, interface, or enum expected
+			if (temp == Integer.MAX_VALUE) {
+			^
+hybrids/xalan/xalan/2.7.1/MethodType.java:145: error: class, interface, or enum expected
+			    break;
+			    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:146: error: class, interface, or enum expected
+			}
+			^
+hybrids/xalan/xalan/2.7.1/MethodType.java:149: error: class, interface, or enum expected
+			}
+			^
+hybrids/xalan/xalan/2.7.1/MethodType.java:155: error: class, interface, or enum expected
+	    }
+	    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:158: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:160: error: class, interface, or enum expected
+    public Type resultType() {
+           ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:162: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:164: error: class, interface, or enum expected
+    public Vector argsType() {
+           ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:166: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:168: error: class, interface, or enum expected
+    public int argsCount() {
+           ^
+hybrids/xalan/xalan/2.7.1/MethodType.java:170: error: class, interface, or enum expected
+    }
+    ^
+37 errors

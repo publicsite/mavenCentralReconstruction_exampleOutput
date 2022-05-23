@@ -1,0 +1,22 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/datasource/DelegatingDataSource.java:40: error: DelegatingDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class DelegatingDataSource implements DataSource, InitializingBean {
+       ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy.java:88: error: no suitable constructor found for LazyConnectionInvocationHandler(String,String)
+        return (Connection)Proxy.newProxyInstance(ConnectionProxy.class.getClassLoader(), new Class[] { ConnectionProxy.class }, new LazyConnectionInvocationHandler(username, password));
+                                                                                                                                 ^
+    constructor LazyConnectionDataSourceProxy.LazyConnectionInvocationHandler.LazyConnectionDataSourceProxy.LazyConnectionInvocationHandler() is not applicable
+      (actual and formal argument lists differ in length)
+    constructor LazyConnectionDataSourceProxy.LazyConnectionInvocationHandler.LazyConnectionDataSourceProxy.LazyConnectionInvocationHandler(LazyConnectionDataSourceProxy,String,String) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy.java:114: error: no suitable constructor found for LazyConnectionInvocationHandler(LazyConnectionDataSourceProxy)
+            this(lazyConnectionDataSourceProxy);
+            ^
+    constructor LazyConnectionDataSourceProxy.LazyConnectionInvocationHandler.LazyConnectionDataSourceProxy.LazyConnectionInvocationHandler() is not applicable
+      (actual and formal argument lists differ in length)
+    constructor LazyConnectionDataSourceProxy.LazyConnectionInvocationHandler.LazyConnectionDataSourceProxy.LazyConnectionInvocationHandler(LazyConnectionDataSourceProxy,String,String) is not applicable
+      (actual and formal argument lists differ in length)
+Note: sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors

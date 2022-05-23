@@ -1,0 +1,186 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:9: error: package org.codehaus.groovy.ast.tools does not exist
+import org.codehaus.groovy.ast.tools.GeneralUtils;
+                                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:10: error: package org.codehaus.groovy.ast.stmt does not exist
+import org.codehaus.groovy.ast.stmt.Statement;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:11: error: package org.codehaus.groovy.ast.stmt does not exist
+import org.codehaus.groovy.ast.stmt.BlockStatement;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:12: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.Expression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:13: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ListExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:14: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ClassExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:15: error: cannot find symbol
+import org.codehaus.groovy.control.SourceUnit;
+                                  ^
+  symbol:   class SourceUnit
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:18: error: cannot find symbol
+import org.codehaus.groovy.transform.AbstractASTTransformation;
+                                    ^
+  symbol:   class AbstractASTTransformation
+  location: package org.codehaus.groovy.transform
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:22: error: cannot find symbol
+public class MixinASTTransformation extends AbstractASTTransformation
+                                            ^
+  symbol: class AbstractASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:24: error: cannot find symbol
+    private static final ClassNode MY_TYPE;
+                         ^
+  symbol:   class ClassNode
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:27: error: cannot find symbol
+    public void visit(final ASTNode[] nodes, final SourceUnit source) {
+                            ^
+  symbol:   class ASTNode
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:27: error: cannot find symbol
+    public void visit(final ASTNode[] nodes, final SourceUnit source) {
+                                                   ^
+  symbol:   class SourceUnit
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:26: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:29: error: cannot find symbol
+        final AnnotationNode node = (AnnotationNode)nodes[0];
+              ^
+  symbol:   class AnnotationNode
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:29: error: cannot find symbol
+        final AnnotationNode node = (AnnotationNode)nodes[0];
+                                     ^
+  symbol:   class AnnotationNode
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:30: error: cannot find symbol
+        final AnnotatedNode parent = (AnnotatedNode)nodes[1];
+              ^
+  symbol:   class AnnotatedNode
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:30: error: cannot find symbol
+        final AnnotatedNode parent = (AnnotatedNode)nodes[1];
+                                      ^
+  symbol:   class AnnotatedNode
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:34: error: cannot find symbol
+        final Expression expr = node.getMember("value");
+              ^
+  symbol:   class Expression
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:38: error: cannot find symbol
+        Expression useClasses = null;
+        ^
+  symbol:   class Expression
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:39: error: cannot find symbol
+        if (expr instanceof ClassExpression) {
+                            ^
+  symbol:   class ClassExpression
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:42: error: cannot find symbol
+        else if (expr instanceof ListExpression) {
+                                 ^
+  symbol:   class ListExpression
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:43: error: cannot find symbol
+            final ListExpression listExpression = (ListExpression)expr;
+                  ^
+  symbol:   class ListExpression
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:43: error: cannot find symbol
+            final ListExpression listExpression = (ListExpression)expr;
+                                                   ^
+  symbol:   class ListExpression
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:44: error: cannot find symbol
+            for (final Expression ex : listExpression.getExpressions()) {
+                       ^
+  symbol:   class Expression
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:45: error: cannot find symbol
+                if (!(ex instanceof ClassExpression)) {
+                                    ^
+  symbol:   class ClassExpression
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:54: error: cannot find symbol
+        if (parent instanceof ClassNode) {
+                              ^
+  symbol:   class ClassNode
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:55: error: cannot find symbol
+            final ClassNode annotatedClass = (ClassNode)parent;
+                  ^
+  symbol:   class ClassNode
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:55: error: cannot find symbol
+            final ClassNode annotatedClass = (ClassNode)parent;
+                                              ^
+  symbol:   class ClassNode
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:56: error: cannot find symbol
+            final Parameter[] noparams = new Parameter[0];
+                  ^
+  symbol:   class Parameter
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:56: error: cannot find symbol
+            final Parameter[] noparams = new Parameter[0];
+                                             ^
+  symbol:   class Parameter
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:57: error: cannot find symbol
+            MethodNode clinit = annotatedClass.getDeclaredMethod("<clinit>", noparams);
+            ^
+  symbol:   class MethodNode
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:59: error: cannot find symbol
+                clinit = annotatedClass.addMethod("<clinit>", 4105, ClassHelper.VOID_TYPE, noparams, null, new BlockStatement());
+                                                                    ^
+  symbol:   variable ClassHelper
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:59: error: cannot find symbol
+                clinit = annotatedClass.addMethod("<clinit>", 4105, ClassHelper.VOID_TYPE, noparams, null, new BlockStatement());
+                                                                                                               ^
+  symbol:   class BlockStatement
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:62: error: cannot find symbol
+            final BlockStatement code = (BlockStatement)clinit.getCode();
+                  ^
+  symbol:   class BlockStatement
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:62: error: cannot find symbol
+            final BlockStatement code = (BlockStatement)clinit.getCode();
+                                         ^
+  symbol:   class BlockStatement
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:63: error: cannot find symbol
+            code.addStatement(GeneralUtils.stmt(GeneralUtils.callX(GeneralUtils.propX(GeneralUtils.classX(annotatedClass), "metaClass"), "mixin", useClasses)));
+                              ^
+  symbol:   variable GeneralUtils
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:63: error: cannot find symbol
+            code.addStatement(GeneralUtils.stmt(GeneralUtils.callX(GeneralUtils.propX(GeneralUtils.classX(annotatedClass), "metaClass"), "mixin", useClasses)));
+                                                ^
+  symbol:   variable GeneralUtils
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:63: error: cannot find symbol
+            code.addStatement(GeneralUtils.stmt(GeneralUtils.callX(GeneralUtils.propX(GeneralUtils.classX(annotatedClass), "metaClass"), "mixin", useClasses)));
+                                                                   ^
+  symbol:   variable GeneralUtils
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:63: error: cannot find symbol
+            code.addStatement(GeneralUtils.stmt(GeneralUtils.callX(GeneralUtils.propX(GeneralUtils.classX(annotatedClass), "metaClass"), "mixin", useClasses)));
+                                                                                      ^
+  symbol:   variable GeneralUtils
+  location: class MixinASTTransformation
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/MixinASTTransformation.java:68: error: cannot find symbol
+        MY_TYPE = ClassHelper.make(Mixin.class);
+                  ^
+  symbol:   variable ClassHelper
+  location: class MixinASTTransformation
+40 errors

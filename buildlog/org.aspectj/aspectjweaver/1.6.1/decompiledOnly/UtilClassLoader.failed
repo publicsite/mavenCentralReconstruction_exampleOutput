@@ -1,0 +1,76 @@
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/UtilClassLoader.java:89: error: no suitable constructor found for File(Object,String)
+            final File file = new File(iter.next(), fileName);
+                              ^
+    constructor File.File(String,int) is not applicable
+      (argument mismatch; Object cannot be converted to String)
+    constructor File.File(String,File) is not applicable
+      (argument mismatch; Object cannot be converted to String)
+    constructor File.File(String,String) is not applicable
+      (argument mismatch; Object cannot be converted to String)
+    constructor File.File(File,String) is not applicable
+      (argument mismatch; Object cannot be converted to File)
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:41: error: incompatible types: Object cannot be converted to String
+        final String className = LangUtil.VM_CLASSES.get(version);
+                                                        ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:139: error: incompatible types: Object[] cannot be converted to String[]
+        return strings(text).toArray(new String[0]);
+                                    ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:158: error: incompatible types: Object[] cannot be converted to String[]
+        return result.toArray(new String[0]);
+                             ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:237: error: incompatible types: Object[] cannot be converted to String[]
+        return result.toArray(new String[0]);
+                             ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:254: error: incompatible types: Object[] cannot be converted to String[]
+        return result.toArray(new String[0]);
+                             ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:378: error: incompatible types: Object[] cannot be converted to String[]
+        return result.toArray(new String[0]);
+                             ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:389: error: incompatible types: Object cannot be converted to String
+                for (final String arg : args) {
+                                        ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:397: error: incompatible types: Object[] cannot be converted to String[]
+        return result.toArray(new String[0]);
+                             ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:431: error: incompatible types: Object[] cannot be converted to String[]
+            result[variant] = next.toArray(NONE);
+                                          ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:603: error: incompatible types: Object cannot be converted to String
+            final String line = lines.getLast();
+                                             ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:614: error: cannot find symbol
+                totalLength += EOL_LEN + lines.getFirst().length();
+                                                         ^
+  symbol:   method length()
+  location: class Object
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:708: error: incompatible types: Object[] cannot be converted to String[]
+        final String[] command = cmd.toArray(new String[0]);
+                                            ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/LangUtil.java:886: error: incompatible types: Object[] cannot be converted to String[]
+            this.init(cmd.toArray(new String[0]), mainClass);
+                                 ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/FileUtil.java:93: error: incompatible types: Object cannot be converted to String
+        for (final String suffix : FileUtil.SOURCE_SUFFIXES) {
+                                           ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/FileUtil.java:161: error: incompatible types: Object cannot be converted to File
+            final File file = files.get(i);
+                                       ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/FileUtil.java:440: error: incompatible types: Object[] cannot be converted to String[]
+        return result.toArray(new String[0]);
+                             ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/FileUtil.java:448: error: incompatible types: Object[] cannot be converted to File[]
+        return result.toArray(new File[result.size()]);
+                             ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/FileUtil.java:471: error: incompatible types: Object[] cannot be converted to File[]
+            result = list.toArray(new File[0]);
+                                 ^
+sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/FileUtil.java:882: error: incompatible types: Object cannot be converted to String
+        for (final String path : sources) {
+                                 ^
+Note: sources/structure/org.aspectj/aspectjweaver/1.6.1/Decompiled/org/aspectj/util/FileUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+20 errors

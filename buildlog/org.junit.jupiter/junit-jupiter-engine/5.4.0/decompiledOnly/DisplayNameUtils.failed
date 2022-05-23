@@ -1,0 +1,59 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:7: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.LoggerFactory;
+                                         ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:8: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:12: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.StringUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:13: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.AnnotationUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:15: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:19: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.Logger;
+                                         ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:23: error: cannot find symbol
+    private static final Logger logger;
+                         ^
+  symbol:   class Logger
+  location: class DisplayNameUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:28: error: cannot find symbol
+        Preconditions.notNull((Object)element, "Annotated element must not be null");
+        ^
+  symbol:   variable Preconditions
+  location: class DisplayNameUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:29: error: cannot find symbol
+        final Optional<DisplayName> displayNameAnnotation = (Optional<DisplayName>)AnnotationUtils.findAnnotation(element, (Class)DisplayName.class);
+                                                                                   ^
+  symbol:   variable AnnotationUtils
+  location: class DisplayNameUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:32: error: cannot find symbol
+            if (!StringUtils.isBlank(displayName)) {
+                 ^
+  symbol:   variable StringUtils
+  location: class DisplayNameUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:54: error: cannot find symbol
+        Preconditions.notNull((Object)testClass, "Test class must not be null");
+        ^
+  symbol:   variable Preconditions
+  location: class DisplayNameUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:66: error: cannot find symbol
+        return (DisplayNameGenerator)ReflectionUtils.newInstance((Class)displayNameGeneratorClass, new Object[0]);
+                                     ^
+  symbol:   variable ReflectionUtils
+  location: class DisplayNameUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:72: error: cannot find symbol
+            final Optional<DisplayNameGeneration> generation = (Optional<DisplayNameGeneration>)AnnotationUtils.findAnnotation((AnnotatedElement)candidate, (Class)DisplayNameGeneration.class);
+                                                                                                ^
+  symbol:   variable AnnotationUtils
+  location: class DisplayNameUtils
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/descriptor/DisplayNameUtils.java:82: error: cannot find symbol
+        logger = LoggerFactory.getLogger((Class)DisplayNameUtils.class);
+                 ^
+  symbol:   variable LoggerFactory
+  location: class DisplayNameUtils
+14 errors

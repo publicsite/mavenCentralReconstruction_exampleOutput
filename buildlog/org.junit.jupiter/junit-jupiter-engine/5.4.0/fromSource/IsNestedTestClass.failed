@@ -1,0 +1,40 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsNestedTestClass.java:14: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.AnnotationUtils.isAnnotated;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsNestedTestClass.java:14: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.AnnotationUtils.isAnnotated;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsInnerClass.java:14: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isInnerClass;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsInnerClass.java:14: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isInnerClass;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsInnerClass.java:15: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isPrivate;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsInnerClass.java:15: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isPrivate;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsNestedTestClass.java:37: error: cannot find symbol
+		return isAnnotated(candidate, Nested.class);
+		       ^
+  symbol:   method isAnnotated(Class<CAP#1>,Class<Nested>)
+  location: class IsNestedTestClass
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsInnerClass.java:32: error: cannot find symbol
+		if (isPrivate(candidate)) {
+		    ^
+  symbol:   method isPrivate(Class<CAP#1>)
+  location: class IsInnerClass
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsInnerClass.java:35: error: cannot find symbol
+		if (!isInnerClass(candidate)) {
+		     ^
+  symbol:   method isInnerClass(Class<CAP#1>)
+  location: class IsInnerClass
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+9 errors

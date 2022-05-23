@@ -1,0 +1,170 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:7: error: cannot find symbol
+public class ManagedDoubleKeyMap<K1, K2, V> extends AbstractConcurrentDoubleKeyMap<K1, K2, V>
+                                                    ^
+  symbol: class AbstractConcurrentDoubleKeyMap
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:9: error: cannot find symbol
+    public ManagedDoubleKeyMap(final ReferenceBundle bundle) {
+                                     ^
+  symbol:   class ReferenceBundle
+  location: class ManagedDoubleKeyMap<K1,K2,V>
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class ManagedDoubleKeyMap
+    K2 extends Object declared in class ManagedDoubleKeyMap
+    V extends Object declared in class ManagedDoubleKeyMap
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:14: error: package AbstractConcurrentDoubleKeyMap does not exist
+    protected AbstractConcurrentDoubleKeyMap.Segment<K1, K2, V> createSegment(final Object segmentInfo, final int cap) {
+                                            ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:19: error: package AbstractConcurrentDoubleKeyMap does not exist
+    static class Segment<K1, K2, V> extends AbstractConcurrentDoubleKeyMap.Segment<K1, K2, V>
+                                                                          ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:21: error: cannot find symbol
+        private ReferenceBundle bundle;
+                ^
+  symbol:   class ReferenceBundle
+  location: class Segment<K1,K2,V>
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class Segment
+    K2 extends Object declared in class Segment
+    V extends Object declared in class Segment
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:23: error: cannot find symbol
+        public Segment(final ReferenceBundle bundle, final int cap) {
+                             ^
+  symbol:   class ReferenceBundle
+  location: class Segment<K1,K2,V>
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class Segment
+    K2 extends Object declared in class Segment
+    V extends Object declared in class Segment
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:29: error: package AbstractConcurrentDoubleKeyMap does not exist
+        protected AbstractConcurrentDoubleKeyMap.Entry<K1, K2, V> createEntry(final K1 key1, final K2 key2, final int hash) {
+                                                ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:34: error: cannot find symbol
+    static class Ref<K> extends ManagedReference<K>
+                                ^
+  symbol:   class ManagedReference
+  location: class ManagedDoubleKeyMap<K1,K2,V>
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class ManagedDoubleKeyMap
+    K2 extends Object declared in class ManagedDoubleKeyMap
+    V extends Object declared in class ManagedDoubleKeyMap
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:48: error: package AbstractConcurrentDoubleKeyMap does not exist
+    public static class Entry<K1, K2, V> implements AbstractConcurrentDoubleKeyMap.Entry<K1, K2, V>
+                                                                                  ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:38: error: cannot find symbol
+        public Ref(final ReferenceBundle bundle, final K referent, final Entry entry) {
+                         ^
+  symbol:   class ReferenceBundle
+  location: class Ref<K>
+  where K is a type-variable:
+    K extends Object declared in class Ref
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:55: error: cannot find symbol
+        public Entry(final ReferenceBundle bundle, final K1 key1, final K2 key2, final int hash, final ManagedDoubleKeyMap.Segment segment) {
+                           ^
+  symbol:   class ReferenceBundle
+  location: class Entry<K1,K2,V>
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class Entry
+    K2 extends Object declared in class Entry
+    V extends Object declared in class Entry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:97: error: cannot find symbol
+        public EntryWithValue(final ReferenceBundle bundle, final K1 key1, final K2 key2, final int hash, final ManagedDoubleKeyMap.Segment segment) {
+                                    ^
+  symbol:   class ReferenceBundle
+  location: class EntryWithValue<K1,K2,V>
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class EntryWithValue
+    K2 extends Object declared in class EntryWithValue
+    V extends Object declared in class EntryWithValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:13: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:15: error: cannot find symbol
+        final ReferenceBundle bundle = (ReferenceBundle)segmentInfo;
+              ^
+  symbol:   class ReferenceBundle
+  location: class ManagedDoubleKeyMap<K1,K2,V>
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class ManagedDoubleKeyMap
+    K2 extends Object declared in class ManagedDoubleKeyMap
+    V extends Object declared in class ManagedDoubleKeyMap
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:15: error: cannot find symbol
+        final ReferenceBundle bundle = (ReferenceBundle)segmentInfo;
+                                        ^
+  symbol:   class ReferenceBundle
+  location: class ManagedDoubleKeyMap<K1,K2,V>
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class ManagedDoubleKeyMap
+    K2 extends Object declared in class ManagedDoubleKeyMap
+    V extends Object declared in class ManagedDoubleKeyMap
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:28: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:62: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:64: error: cannot find symbol
+            return this.ref1.get() != null && this.ref2.get() != null;
+                            ^
+  symbol:   method get()
+  location: variable ref1 of type Ref<K1>
+  where K1 is a type-variable:
+    K1 extends Object declared in class Entry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:64: error: cannot find symbol
+            return this.ref1.get() != null && this.ref2.get() != null;
+                                                       ^
+  symbol:   method get()
+  location: variable ref2 of type Ref<K2>
+  where K2 is a type-variable:
+    K2 extends Object declared in class Entry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:67: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:69: error: cannot find symbol
+            return this.hash == hash && this.ref1.get() == key1 && this.ref2.get() == key2;
+                                                 ^
+  symbol:   method get()
+  location: variable ref1 of type Ref<K1>
+  where K1 is a type-variable:
+    K1 extends Object declared in class Entry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:69: error: cannot find symbol
+            return this.hash == hash && this.ref1.get() == key1 && this.ref2.get() == key2;
+                                                                            ^
+  symbol:   method get()
+  location: variable ref2 of type Ref<K2>
+  where K2 is a type-variable:
+    K2 extends Object declared in class Entry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:72: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:77: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:81: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:87: error: cannot find symbol
+            this.segment.removeEntry(this);
+                        ^
+  symbol:   method removeEntry(Entry<K1,K2,V>)
+  location: variable segment of type Segment
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class Entry
+    K2 extends Object declared in class Entry
+    V extends Object declared in class Entry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:88: error: cannot find symbol
+            this.ref1.clear();
+                     ^
+  symbol:   method clear()
+  location: variable ref1 of type Ref<K1>
+  where K1 is a type-variable:
+    K1 extends Object declared in class Entry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java:89: error: cannot find symbol
+            this.ref2.clear();
+                     ^
+  symbol:   method clear()
+  location: variable ref2 of type Ref<K2>
+  where K2 is a type-variable:
+    K2 extends Object declared in class Entry
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/ManagedDoubleKeyMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+28 errors

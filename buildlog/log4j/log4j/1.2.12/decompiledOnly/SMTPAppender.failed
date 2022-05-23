@@ -1,0 +1,251 @@
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:9: error: package javax.mail does not exist
+import javax.mail.Transport;
+                 ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:11: error: package javax.mail does not exist
+import javax.mail.Multipart;
+                 ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:12: error: package javax.mail does not exist
+import javax.mail.BodyPart;
+                 ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:13: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMultipart;
+                          ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:14: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeBodyPart;
+                          ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:15: error: package javax.mail.internet does not exist
+import javax.mail.internet.AddressException;
+                          ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:16: error: package javax.mail.internet does not exist
+import javax.mail.internet.InternetAddress;
+                          ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:18: error: package javax.mail does not exist
+import javax.mail.MessagingException;
+                 ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:20: error: package javax.mail does not exist
+import javax.mail.Message$RecipientType;
+                 ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:21: error: package javax.mail does not exist
+import javax.mail.Address;
+                 ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:22: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMessage;
+                          ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:23: error: package javax.mail does not exist
+import javax.mail.Authenticator;
+                 ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:24: error: package javax.mail does not exist
+import javax.mail.Session;
+                 ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:27: error: package javax.mail does not exist
+import javax.mail.Message;
+                 ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:40: error: cannot find symbol
+    protected Message msg;
+              ^
+  symbol:   class Message
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:122: error: cannot find symbol
+    InternetAddress getAddress(final String str) {
+    ^
+  symbol:   class InternetAddress
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:160: error: cannot find symbol
+    InternetAddress[] parseAddress(final String str) {
+    ^
+  symbol:   class InternetAddress
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:58: error: incompatible types: Properties cannot be converted to Hashtable<String,String>
+            ((Hashtable<String, String>)properties).put("mail.smtp.host", this.smtpHost);
+                                        ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:60: error: cannot find symbol
+        this.msg = (Message)new MimeMessage(Session.getInstance(properties, (Authenticator)null));
+                    ^
+  symbol:   class Message
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:60: error: cannot find symbol
+        this.msg = (Message)new MimeMessage(Session.getInstance(properties, (Authenticator)null));
+                                ^
+  symbol:   class MimeMessage
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:60: error: cannot find symbol
+        this.msg = (Message)new MimeMessage(Session.getInstance(properties, (Authenticator)null));
+                                                                             ^
+  symbol:   class Authenticator
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:60: error: cannot find symbol
+        this.msg = (Message)new MimeMessage(Session.getInstance(properties, (Authenticator)null));
+                                            ^
+  symbol:   variable Session
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:63: error: cannot find symbol
+                this.msg.setFrom((Address)this.getAddress(this.from));
+                                  ^
+  symbol:   class Address
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:68: error: cannot find symbol
+            this.msg.setRecipients(Message$RecipientType.TO, (Address[])this.parseAddress(this.to));
+                                   ^
+  symbol:   variable Message$RecipientType
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:68: error: cannot find symbol
+            this.msg.setRecipients(Message$RecipientType.TO, (Address[])this.parseAddress(this.to));
+                                                              ^
+  symbol:   class Address
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:73: error: cannot find symbol
+        catch (MessagingException t) {
+               ^
+  symbol:   class MessagingException
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:124: error: cannot find symbol
+            return new InternetAddress(str);
+                       ^
+  symbol:   class InternetAddress
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:126: error: cannot find symbol
+        catch (AddressException ex) {
+               ^
+  symbol:   class AddressException
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:162: error: cannot find symbol
+            return InternetAddress.parse(str, true);
+                   ^
+  symbol:   variable InternetAddress
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:164: error: cannot find symbol
+        catch (AddressException ex) {
+               ^
+  symbol:   class AddressException
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:176: error: cannot find symbol
+            final MimeBodyPart mimeBodyPart = new MimeBodyPart();
+                  ^
+  symbol:   class MimeBodyPart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:176: error: cannot find symbol
+            final MimeBodyPart mimeBodyPart = new MimeBodyPart();
+                                                  ^
+  symbol:   class MimeBodyPart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:199: error: cannot find symbol
+            final MimeMultipart content = new MimeMultipart();
+                  ^
+  symbol:   class MimeMultipart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:199: error: cannot find symbol
+            final MimeMultipart content = new MimeMultipart();
+                                              ^
+  symbol:   class MimeMultipart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:200: error: cannot find symbol
+            ((Multipart)content).addBodyPart((BodyPart)mimeBodyPart);
+                                              ^
+  symbol:   class BodyPart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:200: error: cannot find symbol
+            ((Multipart)content).addBodyPart((BodyPart)mimeBodyPart);
+              ^
+  symbol:   class Multipart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:201: error: cannot find symbol
+            this.msg.setContent((Multipart)content);
+                                 ^
+  symbol:   class Multipart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/net/SMTPAppender.java:203: error: cannot find symbol
+            Transport.send(this.msg);
+            ^
+  symbol:   variable Transport
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/spi/LoggingEvent.java:188: error: incompatible types: Object cannot be converted to Method
+                Method m = LoggingEvent.methodCache.get(className);
+                                                       ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/Category.java:83: error: incompatible types: Object cannot be converted to Appender
+                final Appender a = enumeration.nextElement();
+                                                          ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/helpers/AppenderAttachableImpl.java:34: error: incompatible types: Object cannot be converted to Appender
+                final Appender appender = this.appenderList.elementAt(i);
+                                                                     ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/helpers/AppenderAttachableImpl.java:53: error: incompatible types: Object cannot be converted to Appender
+            final Appender appender = this.appenderList.elementAt(i);
+                                                                 ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/helpers/AppenderAttachableImpl.java:66: error: incompatible types: Object cannot be converted to Appender
+            final Appender a = this.appenderList.elementAt(i);
+                                                          ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/helpers/AppenderAttachableImpl.java:77: error: incompatible types: Object cannot be converted to Appender
+                final Appender a = this.appenderList.elementAt(i);
+                                                              ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/helpers/AppenderAttachableImpl.java:90: error: cannot find symbol
+            if (name.equals(this.appenderList.elementAt(i).getName())) {
+                                                          ^
+  symbol:   method getName()
+  location: class Object
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:28: error: incompatible types: Object cannot be converted to Stack
+        final Stack stack = NDC.ht.get(Thread.currentThread());
+                                      ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:44: error: incompatible types: Object cannot be converted to Stack
+        final Stack s = NDC.ht.get(Thread.currentThread());
+                                  ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:46: error: cannot find symbol
+            return s.peek().fullMessage;
+                           ^
+  symbol:   variable fullMessage
+  location: class Object
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:52: error: incompatible types: Object cannot be converted to Stack
+        final Stack stack = NDC.ht.get(Thread.currentThread());
+                                      ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:77: error: incompatible types: Object cannot be converted to Thread
+                final Thread t = enumeration.nextElement();
+                                                        ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:89: error: incompatible types: Object cannot be converted to Thread
+            final Thread t2 = v.elementAt(i);
+                                         ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:97: error: incompatible types: Object cannot be converted to Stack
+        final Stack stack = NDC.ht.get(key);
+                                      ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:99: error: cannot find symbol
+            return stack.peek().message;
+                               ^
+  symbol:   variable message
+  location: class Object
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:106: error: incompatible types: Object cannot be converted to Stack
+        final Stack stack = NDC.ht.get(key);
+                                      ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:108: error: cannot find symbol
+            return stack.pop().message;
+                              ^
+  symbol:   variable message
+  location: class Object
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:115: error: incompatible types: Object cannot be converted to Stack
+        Stack stack = NDC.ht.get(key);
+                                ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:127: error: incompatible types: Object cannot be converted to DiagnosticContext
+            final DiagnosticContext parent = stack.peek();
+                                                       ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/NDC.java:138: error: incompatible types: Object cannot be converted to Stack
+        final Stack stack = NDC.ht.get(Thread.currentThread());
+                                      ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/MDC.java:36: error: incompatible types: Object cannot be converted to Hashtable
+        final Hashtable ht = ((ThreadLocalMap)this.tlm).get();
+                                                           ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/MDC.java:51: error: incompatible types: Object cannot be converted to Hashtable
+        return ((ThreadLocalMap)this.tlm).get();
+                                             ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/MDC.java:62: error: incompatible types: Object cannot be converted to Hashtable
+        Hashtable ht = ((ThreadLocalMap)this.tlm).get();
+                                                     ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/MDC.java:76: error: incompatible types: Object cannot be converted to Hashtable
+            final Hashtable ht = ((ThreadLocalMap)this.tlm).get();
+                                                               ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/or/RendererMap.java:66: error: incompatible types: Object cannot be converted to ObjectRenderer
+            r = this.map.get(c);
+                            ^
+sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/or/RendererMap.java:94: error: incompatible types: Object cannot be converted to ObjectRenderer
+        ObjectRenderer r = this.map.get(c);
+                                       ^
+Note: sources/structure/log4j/log4j/1.2.12/Decompiled/org/apache/log4j/spi/LoggingEvent.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+64 errors

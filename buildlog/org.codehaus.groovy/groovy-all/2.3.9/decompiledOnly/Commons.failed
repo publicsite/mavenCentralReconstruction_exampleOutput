@@ -1,0 +1,136 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:7: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.TernaryExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:8: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.BooleanExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:9: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ArgumentListExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:11: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.Expression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:12: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.MethodCallExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:13: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ConstantExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:14: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ClassExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:15: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.FieldNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:16: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:17: error: cannot find symbol
+import groovy.lang.GroovyClassLoader;
+                  ^
+  symbol:   class GroovyClassLoader
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:18: error: cannot find symbol
+import org.codehaus.groovy.transform.LogASTTransformation;
+                                    ^
+  symbol:   class LogASTTransformation
+  location: package org.codehaus.groovy.transform
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:36: error: package LogASTTransformation does not exist
+    Class<? extends LogASTTransformation.LoggingStrategy> loggingStrategy() default CommonsLoggingStrategy.class;
+                                        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:38: error: package LogASTTransformation does not exist
+    public static class CommonsLoggingStrategy extends LogASTTransformation.AbstractLoggingStrategy
+                                                                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:43: error: cannot find symbol
+        protected CommonsLoggingStrategy(final GroovyClassLoader loader) {
+                                               ^
+  symbol:   class GroovyClassLoader
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:48: error: cannot find symbol
+        public FieldNode addLoggerFieldToClass(final ClassNode classNode, final String logFieldName, final String categoryName) {
+                                                     ^
+  symbol:   class ClassNode
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:48: error: cannot find symbol
+        public FieldNode addLoggerFieldToClass(final ClassNode classNode, final String logFieldName, final String categoryName) {
+               ^
+  symbol:   class FieldNode
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:58: error: cannot find symbol
+        public Expression wrapLoggingMethodCall(final Expression logVariable, final String methodName, final Expression originalExpression) {
+                                                      ^
+  symbol:   class Expression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:58: error: cannot find symbol
+        public Expression wrapLoggingMethodCall(final Expression logVariable, final String methodName, final Expression originalExpression) {
+                                                                                                             ^
+  symbol:   class Expression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:58: error: cannot find symbol
+        public Expression wrapLoggingMethodCall(final Expression logVariable, final String methodName, final Expression originalExpression) {
+               ^
+  symbol:   class Expression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:47: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:49: error: cannot find symbol
+            return classNode.addField(logFieldName, 154, this.classNode("org.apache.commons.logging.Log"), new MethodCallExpression(new ClassExpression(this.classNode("org.apache.commons.logging.LogFactory")), "getLog", new ConstantExpression(this.getCategoryName(classNode, categoryName))));
+                                                                                                               ^
+  symbol:   class MethodCallExpression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:49: error: cannot find symbol
+            return classNode.addField(logFieldName, 154, this.classNode("org.apache.commons.logging.Log"), new MethodCallExpression(new ClassExpression(this.classNode("org.apache.commons.logging.LogFactory")), "getLog", new ConstantExpression(this.getCategoryName(classNode, categoryName))));
+                                                                                                                                        ^
+  symbol:   class ClassExpression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:49: error: cannot find symbol
+            return classNode.addField(logFieldName, 154, this.classNode("org.apache.commons.logging.Log"), new MethodCallExpression(new ClassExpression(this.classNode("org.apache.commons.logging.LogFactory")), "getLog", new ConstantExpression(this.getCategoryName(classNode, categoryName))));
+                                                                                                                                                            ^
+  symbol: method classNode(String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:49: error: cannot find symbol
+            return classNode.addField(logFieldName, 154, this.classNode("org.apache.commons.logging.Log"), new MethodCallExpression(new ClassExpression(this.classNode("org.apache.commons.logging.LogFactory")), "getLog", new ConstantExpression(this.getCategoryName(classNode, categoryName))));
+                                                                                                                                                                                                                                ^
+  symbol:   class ConstantExpression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:49: error: cannot find symbol
+            return classNode.addField(logFieldName, 154, this.classNode("org.apache.commons.logging.Log"), new MethodCallExpression(new ClassExpression(this.classNode("org.apache.commons.logging.LogFactory")), "getLog", new ConstantExpression(this.getCategoryName(classNode, categoryName))));
+                                                             ^
+  symbol: method classNode(String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:52: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:57: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:59: error: cannot find symbol
+            final MethodCallExpression condition = new MethodCallExpression(logVariable, "is" + methodName.substring(0, 1).toUpperCase(Locale.ENGLISH) + methodName.substring(1, methodName.length()) + "Enabled", ArgumentListExpression.EMPTY_ARGUMENTS);
+                  ^
+  symbol:   class MethodCallExpression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:59: error: cannot find symbol
+            final MethodCallExpression condition = new MethodCallExpression(logVariable, "is" + methodName.substring(0, 1).toUpperCase(Locale.ENGLISH) + methodName.substring(1, methodName.length()) + "Enabled", ArgumentListExpression.EMPTY_ARGUMENTS);
+                                                       ^
+  symbol:   class MethodCallExpression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:59: error: cannot find symbol
+            final MethodCallExpression condition = new MethodCallExpression(logVariable, "is" + methodName.substring(0, 1).toUpperCase(Locale.ENGLISH) + methodName.substring(1, methodName.length()) + "Enabled", ArgumentListExpression.EMPTY_ARGUMENTS);
+                                                                                                                                                                                                                   ^
+  symbol:   variable ArgumentListExpression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:60: error: cannot find symbol
+            return new TernaryExpression(new BooleanExpression(condition), originalExpression, ConstantExpression.NULL);
+                       ^
+  symbol:   class TernaryExpression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:60: error: cannot find symbol
+            return new TernaryExpression(new BooleanExpression(condition), originalExpression, ConstantExpression.NULL);
+                                             ^
+  symbol:   class BooleanExpression
+  location: class CommonsLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Commons.java:60: error: cannot find symbol
+            return new TernaryExpression(new BooleanExpression(condition), originalExpression, ConstantExpression.NULL);
+                                                                                               ^
+  symbol:   variable ConstantExpression
+  location: class CommonsLoggingStrategy
+33 errors

@@ -1,0 +1,141 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:8: error: cannot find symbol
+import org.codehaus.groovy.reflection.CachedClass;
+                                     ^
+  symbol:   class CachedClass
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:10: error: cannot find symbol
+import groovy.lang.MetaProperty;
+                  ^
+  symbol:   class MetaProperty
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:18: error: cannot find symbol
+import groovy.lang.MetaMethod;
+                  ^
+  symbol:   class MetaMethod
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:20: error: cannot find symbol
+import org.codehaus.groovy.reflection.ClassInfo;
+                                     ^
+  symbol:   class ClassInfo
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:75: error: cannot find symbol
+    private static List<Pair<Class, Class>> getConflictClasses(final List<MetaMethod> sugg, final Class[] argumentClasses) {
+                                                                          ^
+  symbol:   class MetaMethod
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:166: error: cannot find symbol
+    private static String listParameterNames(final CachedClass[] cachedClasses) {
+                                                   ^
+  symbol:   class CachedClass
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:177: error: cannot find symbol
+    private static List<MetaMethod> rankMethods(final String name, Object[] original, final List<MetaMethod> methods) {
+                                                                                                 ^
+  symbol:   class MetaMethod
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:177: error: cannot find symbol
+    private static List<MetaMethod> rankMethods(final String name, Object[] original, final List<MetaMethod> methods) {
+                        ^
+  symbol:   class MetaMethod
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:346: error: cannot find symbol
+        final MetaMethod m;
+              ^
+  symbol:   class MetaMethod
+  location: class RankableMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:349: error: cannot find symbol
+        public RankableMethod(final String name, final Class[] argumentTypes, final MetaMethod m2) {
+                                                                                    ^
+  symbol:   class MetaMethod
+  location: class RankableMethod
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:390: error: cannot find symbol
+        final MetaProperty f;
+              ^
+  symbol:   class MetaProperty
+  location: class RankableField
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:393: error: cannot find symbol
+        public RankableField(final String name, final MetaProperty mp) {
+                                                      ^
+  symbol:   class MetaProperty
+  location: class RankableField
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:34: error: cannot find symbol
+        final ClassInfo ci = ClassInfo.getClassInfo(type);
+              ^
+  symbol:   class ClassInfo
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:34: error: cannot find symbol
+        final ClassInfo ci = ClassInfo.getClassInfo(type);
+                             ^
+  symbol:   variable ClassInfo
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:35: error: cannot find symbol
+        final List<MetaMethod> methods = new ArrayList<MetaMethod>(ci.getMetaClass().getMethods());
+                   ^
+  symbol:   class MetaMethod
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:35: error: cannot find symbol
+        final List<MetaMethod> methods = new ArrayList<MetaMethod>(ci.getMetaClass().getMethods());
+                                                       ^
+  symbol:   class MetaMethod
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:37: error: cannot find symbol
+        final List<MetaMethod> sugg = rankMethods(methodName, arguments, methods);
+                   ^
+  symbol:   class MetaMethod
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:63: error: incompatible types: Pair<Class,Class> cannot be converted to Pair<Object,Object>
+                sb.append(((Class)((Pair<Object, Object>)pair).u).getName()).append(" (defined by '");
+                                                         ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:64: error: incompatible types: Pair<Class,Class> cannot be converted to Pair<Object,Object>
+                sb.append(((Class)((Pair<Object, Object>)pair).u).getClassLoader());
+                                                         ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:66: error: incompatible types: Pair<Class,Class> cannot be converted to Pair<Object,Object>
+                sb.append(((Class)((Pair<Object, Object>)pair).v).getClassLoader());
+                                                         ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:78: error: cannot find symbol
+        for (final MetaMethod method : sugg) {
+                   ^
+  symbol:   class MetaMethod
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:120: error: reference to listParameterNames is ambiguous
+                sb.append(listParameterNames(sugg[i].getParameterTypes()));
+                          ^
+  both method listParameterNames(Class[]) in MethodRankHelper and method listParameterNames(CachedClass[]) in MethodRankHelper match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:129: error: cannot find symbol
+        final ClassInfo ci = ClassInfo.getClassInfo(type);
+              ^
+  symbol:   class ClassInfo
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:129: error: cannot find symbol
+        final ClassInfo ci = ClassInfo.getClassInfo(type);
+                             ^
+  symbol:   variable ClassInfo
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:130: error: cannot find symbol
+        final List<MetaProperty> fi = ci.getMetaClass().getProperties();
+                   ^
+  symbol:   class MetaProperty
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:134: error: cannot find symbol
+        for (final MetaProperty mp : fi) {
+                   ^
+  symbol:   class MetaProperty
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:187: error: cannot find symbol
+        for (final MetaMethod m : methods) {
+                   ^
+  symbol:   class MetaMethod
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:191: error: cannot find symbol
+        final List<MetaMethod> l = new ArrayList<MetaMethod>(rm.size());
+                   ^
+  symbol:   class MetaMethod
+  location: class MethodRankHelper
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java:191: error: cannot find symbol
+        final List<MetaMethod> l = new ArrayList<MetaMethod>(rm.size());
+                                                 ^
+  symbol:   class MetaMethod
+  location: class MethodRankHelper
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodRankHelper.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+29 errors

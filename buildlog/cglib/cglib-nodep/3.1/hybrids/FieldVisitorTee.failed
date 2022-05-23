@@ -1,0 +1,47 @@
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.AnnotationVisitor;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Attribute;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:20: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.FieldVisitor;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:21: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.Opcodes;
+                        ^
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:23: error: cannot find symbol
+public class FieldVisitorTee extends FieldVisitor {
+                                     ^
+  symbol: class FieldVisitor
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:24: error: cannot find symbol
+    private FieldVisitor fv1, fv2;
+            ^
+  symbol:   class FieldVisitor
+  location: class FieldVisitorTee
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:26: error: cannot find symbol
+    public FieldVisitorTee(FieldVisitor fv1, FieldVisitor fv2) {
+                           ^
+  symbol:   class FieldVisitor
+  location: class FieldVisitorTee
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:26: error: cannot find symbol
+    public FieldVisitorTee(FieldVisitor fv1, FieldVisitor fv2) {
+                                             ^
+  symbol:   class FieldVisitor
+  location: class FieldVisitorTee
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:32: error: cannot find symbol
+    public AnnotationVisitor visitAnnotation(String desc, boolean visible) {
+           ^
+  symbol:   class AnnotationVisitor
+  location: class FieldVisitorTee
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:37: error: cannot find symbol
+    public void visitAttribute(Attribute attr) {
+                               ^
+  symbol:   class Attribute
+  location: class FieldVisitorTee
+hybrids/cglib/cglib-nodep/3.1/FieldVisitorTee.java:27: error: cannot find symbol
+	super(Opcodes.ASM4);
+	      ^
+  symbol:   variable Opcodes
+  location: class FieldVisitorTee
+11 errors

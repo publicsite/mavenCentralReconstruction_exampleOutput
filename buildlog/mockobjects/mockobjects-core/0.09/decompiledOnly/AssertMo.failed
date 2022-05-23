@@ -1,0 +1,71 @@
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:7: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:9: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:11: error: cannot find symbol
+public class AssertMo extends Assert
+                              ^
+  symbol: class Assert
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:17: error: cannot find symbol
+        Assert.assertEquals(description + " (different lengths)", expectedArray.length, actualArray.length);
+        ^
+  symbol:   variable Assert
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:19: error: cannot find symbol
+            Assert.assertEquals(description + " (element " + i + ")", expectedArray[i], actualArray[i]);
+            ^
+  symbol:   variable Assert
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:24: error: cannot find symbol
+        Assert.assertTrue(description + "\nExclude String: " + excludeString + "\n Target String: " + targetString, targetString.indexOf(excludeString) == -1);
+        ^
+  symbol:   variable Assert
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:28: error: cannot find symbol
+        Assert.assertTrue(description + "\nInclude String: " + includeString + "\n Target String: " + targetString, targetString.indexOf(includeString) != -1);
+        ^
+  symbol:   variable Assert
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:32: error: cannot find symbol
+        Assert.assertTrue(description + "\n Start String: " + startString + "\nTarget String: " + targetString, targetString.startsWith(startString));
+        ^
+  symbol:   variable Assert
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:40: error: cannot find symbol
+        catch (AssertionFailedError ex) {
+               ^
+  symbol:   class AssertionFailedError
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:43: error: cannot find symbol
+        Assert.assertTrue("Should not have verified", threwException);
+        ^
+  symbol:   variable Assert
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:51: error: cannot find symbol
+        Assert.fail(formatted + "\nExpected:<" + expected + ">\nReceived:<" + actual + ">");
+        ^
+  symbol:   variable Assert
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/NotImplementedException.java:3: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/util/NotImplementedException.java:5: error: cannot find symbol
+public class NotImplementedException extends AssertionFailedError {
+                                             ^
+  symbol: class AssertionFailedError
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:55: error: incompatible types: NotImplementedException cannot be converted to Throwable
+        throw new NotImplementedException("Not Implemented in " + mockName);
+        ^
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:62: error: cannot find symbol
+        catch (AssertionFailedError expected) {
+               ^
+  symbol:   class AssertionFailedError
+  location: class AssertMo
+sources/structure/mockobjects/mockobjects-core/0.09/Decompiled/com/mockobjects/util/AssertMo.java:65: error: cannot find symbol
+        Assert.fail(message);
+        ^
+  symbol:   variable Assert
+  location: class AssertMo
+16 errors

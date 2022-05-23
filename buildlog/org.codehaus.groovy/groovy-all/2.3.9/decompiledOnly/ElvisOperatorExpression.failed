@@ -1,0 +1,79 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:7: error: cannot find symbol
+import org.codehaus.groovy.ast.GroovyCodeVisitor;
+                              ^
+  symbol:   class GroovyCodeVisitor
+  location: package org.codehaus.groovy.ast
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:8: error: cannot find symbol
+import org.codehaus.groovy.ast.ASTNode;
+                              ^
+  symbol:   class ASTNode
+  location: package org.codehaus.groovy.ast
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:10: error: cannot find symbol
+public class ElvisOperatorExpression extends TernaryExpression
+                                             ^
+  symbol: class TernaryExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:12: error: cannot find symbol
+    public ElvisOperatorExpression(final Expression base, final Expression falseExpression) {
+                                         ^
+  symbol:   class Expression
+  location: class ElvisOperatorExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:12: error: cannot find symbol
+    public ElvisOperatorExpression(final Expression base, final Expression falseExpression) {
+                                                                ^
+  symbol:   class Expression
+  location: class ElvisOperatorExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:16: error: cannot find symbol
+    private static BooleanExpression getBool(final Expression base) {
+                                                   ^
+  symbol:   class Expression
+  location: class ElvisOperatorExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:16: error: cannot find symbol
+    private static BooleanExpression getBool(final Expression base) {
+                   ^
+  symbol:   class BooleanExpression
+  location: class ElvisOperatorExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:23: error: cannot find symbol
+    public void visit(final GroovyCodeVisitor visitor) {
+                            ^
+  symbol:   class GroovyCodeVisitor
+  location: class ElvisOperatorExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:28: error: cannot find symbol
+    public Expression transformExpression(final ExpressionTransformer transformer) {
+                                                ^
+  symbol:   class ExpressionTransformer
+  location: class ElvisOperatorExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:28: error: cannot find symbol
+    public Expression transformExpression(final ExpressionTransformer transformer) {
+           ^
+  symbol:   class Expression
+  location: class ElvisOperatorExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:17: error: cannot find symbol
+        final BooleanExpression be = new BooleanExpression(base);
+              ^
+  symbol:   class BooleanExpression
+  location: class ElvisOperatorExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:17: error: cannot find symbol
+        final BooleanExpression be = new BooleanExpression(base);
+                                         ^
+  symbol:   class BooleanExpression
+  location: class ElvisOperatorExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:22: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:29: error: cannot find symbol
+        final Expression ret = new ElvisOperatorExpression(transformer.transform(this.getTrueExpression()), transformer.transform(this.getFalseExpression()));
+              ^
+  symbol:   class Expression
+  location: class ElvisOperatorExpression
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:29: error: cannot find symbol
+        final Expression ret = new ElvisOperatorExpression(transformer.transform(this.getTrueExpression()), transformer.transform(this.getFalseExpression()));
+                                                                                     ^
+  symbol: method getTrueExpression()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ast/expr/ElvisOperatorExpression.java:29: error: cannot find symbol
+        final Expression ret = new ElvisOperatorExpression(transformer.transform(this.getTrueExpression()), transformer.transform(this.getFalseExpression()));
+                                                                                                                                      ^
+  symbol: method getFalseExpression()
+17 errors

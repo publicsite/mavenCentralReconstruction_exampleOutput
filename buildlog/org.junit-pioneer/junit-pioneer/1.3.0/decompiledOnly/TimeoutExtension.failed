@@ -1,0 +1,97 @@
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:8: error: package org.junit.platform.commons.support does not exist
+import org.junit.platform.commons.support.AnnotationSupport;
+                                         ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:9: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Assertions;
+                            ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:11: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionConfigurationException;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:13: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:15: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ReflectiveInvocationContext;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:16: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.InvocationInterceptor;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:18: error: cannot find symbol
+class TimeoutExtension implements InvocationInterceptor
+                                  ^
+  symbol: class InvocationInterceptor
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:22: error: package InvocationInterceptor does not exist
+    public void interceptTestMethod(final InvocationInterceptor.Invocation<Void> invocation, final ReflectiveInvocationContext<Method> invocationContext, final ExtensionContext extensionContext) throws Throwable {
+                                                               ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:22: error: cannot find symbol
+    public void interceptTestMethod(final InvocationInterceptor.Invocation<Void> invocation, final ReflectiveInvocationContext<Method> invocationContext, final ExtensionContext extensionContext) throws Throwable {
+                                                                                                   ^
+  symbol:   class ReflectiveInvocationContext
+  location: class TimeoutExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:22: error: cannot find symbol
+    public void interceptTestMethod(final InvocationInterceptor.Invocation<Void> invocation, final ReflectiveInvocationContext<Method> invocationContext, final ExtensionContext extensionContext) throws Throwable {
+                                                                                                                                                                ^
+  symbol:   class ExtensionContext
+  location: class TimeoutExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:32: error: package InvocationInterceptor does not exist
+    private void proceedWithTimeout(final InvocationInterceptor.Invocation<Void> invocation, final ExtensionContext extensionContext, final long timeout) {
+                                                               ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:32: error: cannot find symbol
+    private void proceedWithTimeout(final InvocationInterceptor.Invocation<Void> invocation, final ExtensionContext extensionContext, final long timeout) {
+                                                                                                   ^
+  symbol:   class ExtensionContext
+  location: class TimeoutExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:39: error: cannot find symbol
+    private Optional<Long> annotatedTimeout(final ExtensionContext context) {
+                                                  ^
+  symbol:   class ExtensionContext
+  location: class TimeoutExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:34: error: cannot find symbol
+            throw new ExtensionConfigurationException("Timeout for vintage @Test must be positive.");
+                      ^
+  symbol:   class ExtensionConfigurationException
+  location: class TimeoutExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:36: error: cannot find symbol
+        Assertions.assertTimeoutPreemptively(Duration.ofMillis(timeout), invocation::proceed, String.format("Test '%s' was supposed to run no longer than %d ms.", extensionContext.getDisplayName(), timeout));
+        ^
+  symbol:   variable Assertions
+  location: class TimeoutExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/vintage/TimeoutExtension.java:40: error: cannot find symbol
+        return AnnotationSupport.findAnnotation(context.getElement(), (Class)Test.class).map(Test::timeout).filter(timeout -> timeout != 0L);
+               ^
+  symbol:   variable AnnotationSupport
+  location: class TimeoutExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/vintage/ExpectedExceptionExtension.java:38: error: cannot find symbol
+	private static final Namespace NAMESPACE = Namespace.create(ExpectedExceptionExtension.class);
+	                                           ^
+  symbol:   variable Namespace
+  location: class ExpectedExceptionExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/vintage/ExpectedExceptionExtension.java:41: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/vintage/ExpectedExceptionExtension.java:60: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/vintage/ExpectedExceptionExtension.java:63: error: cannot find symbol
+			case WAS_NOT_THROWN:
+			     ^
+  symbol:   variable WAS_NOT_THROWN
+  location: class ExpectedExceptionExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/vintage/ExpectedExceptionExtension.java:65: error: cannot find symbol
+						.map(expected -> new AssertionFailedError(format(EXPECTED_EXCEPTION_WAS_NOT_THROWN, expected)))
+						                     ^
+  symbol:   class AssertionFailedError
+  location: class ExpectedExceptionExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/vintage/ExpectedExceptionExtension.java:69: error: cannot find symbol
+			case WAS_THROWN_AS_EXPECTED:
+			     ^
+  symbol:   variable WAS_THROWN_AS_EXPECTED
+  location: class ExpectedExceptionExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/vintage/ExpectedExceptionExtension.java:72: error: cannot find symbol
+			case WAS_THROWN_NOT_AS_EXPECTED:
+			     ^
+  symbol:   variable WAS_THROWN_NOT_AS_EXPECTED
+  location: class ExpectedExceptionExtension
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+23 errors

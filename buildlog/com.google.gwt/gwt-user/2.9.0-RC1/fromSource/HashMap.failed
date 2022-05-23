@@ -1,0 +1,25 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/HashMap.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/HashMap.java:30: error: cannot find symbol
+public class HashMap<K, V> extends AbstractHashMap<K, V> implements Cloneable,
+                                   ^
+  symbol: class AbstractHashMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/HashMap.java:63: error: no suitable constructor found for HashMap(java.util.HashMap<K,V>)
+    return new HashMap<K, V>(this);
+           ^
+    constructor java.util.HashMap.java.util.HashMap(int) is not applicable
+      (argument mismatch; java.util.HashMap<K,V> cannot be converted to int)
+    constructor java.util.HashMap.java.util.HashMap(Map<? extends K,? extends V>) is not applicable
+      (argument mismatch; java.util.HashMap<K,V> cannot be converted to Map<? extends K,? extends V>)
+  where K,V are type-variables:
+    K extends Object declared in class java.util.HashMap
+    V extends Object declared in class java.util.HashMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/HashMap.java:66: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/HashMap.java:71: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+5 errors

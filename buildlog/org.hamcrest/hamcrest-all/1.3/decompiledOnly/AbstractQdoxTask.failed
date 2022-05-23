@@ -1,0 +1,144 @@
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:7: error: cannot find symbol
+import org.hamcrest.generator.qdox.model.JavaClass;
+                                        ^
+  symbol:   class JavaClass
+  location: package org.hamcrest.generator.qdox.model
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:9: error: cannot find symbol
+import org.hamcrest.generator.qdox.model.DefaultDocletTagFactory;
+                                        ^
+  symbol:   class DefaultDocletTagFactory
+  location: package org.hamcrest.generator.qdox.model
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:10: error: cannot find symbol
+import org.hamcrest.generator.qdox.model.DocletTagFactory;
+                                        ^
+  symbol:   class DocletTagFactory
+  location: package org.hamcrest.generator.qdox.model
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:11: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.BuildException;
+                           ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:12: error: cannot find symbol
+import org.hamcrest.generator.qdox.model.JavaSource;
+                                        ^
+  symbol:   class JavaSource
+  location: package org.hamcrest.generator.qdox.model
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:13: error: cannot find symbol
+import org.hamcrest.generator.qdox.JavaDocBuilder;
+                                  ^
+  symbol:   class JavaDocBuilder
+  location: package org.hamcrest.generator.qdox
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:15: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.DirectoryScanner;
+                           ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:16: error: package org.apache.tools.ant.types does not exist
+import org.apache.tools.ant.types.FileSet;
+                                 ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:20: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.Task;
+                           ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:22: error: cannot find symbol
+public abstract class AbstractQdoxTask extends Task
+                                               ^
+  symbol: class Task
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:36: error: cannot find symbol
+    public void addFileset(final FileSet set) {
+                                 ^
+  symbol:   class FileSet
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:56: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:66: error: cannot find symbol
+    protected DocletTagFactory createDocletTagFactory() {
+              ^
+  symbol:   class DocletTagFactory
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:70: error: cannot find symbol
+    private void mergeBuilderSources(final JavaDocBuilder builder) {
+                                           ^
+  symbol:   class JavaDocBuilder
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:76: error: cannot find symbol
+    protected void processSources(final JavaSource[] sources) {
+                                        ^
+  symbol:   class JavaSource
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:85: error: cannot find symbol
+    protected void processClasses(final JavaClass[] classes) {
+                                        ^
+  symbol:   class JavaClass
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:92: error: cannot find symbol
+    protected void validateAttributes() throws BuildException {
+                                               ^
+  symbol:   class BuildException
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:42: error: cannot find symbol
+            final FileSet fs = this.filesets.elementAt(i);
+                  ^
+  symbol:   class FileSet
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:43: error: cannot find symbol
+            final DirectoryScanner ds = fs.getDirectoryScanner(this.getProject());
+                  ^
+  symbol:   class DirectoryScanner
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:43: error: cannot find symbol
+            final DirectoryScanner ds = fs.getDirectoryScanner(this.getProject());
+                                                                   ^
+  symbol: method getProject()
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:45: error: cannot find symbol
+            this.buildFileMap(fs.getDir(this.getProject()), srcFiles);
+                                            ^
+  symbol: method getProject()
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:59: error: cannot find symbol
+        final JavaDocBuilder builder = new JavaDocBuilder(this.createDocletTagFactory());
+              ^
+  symbol:   class JavaDocBuilder
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:59: error: cannot find symbol
+        final JavaDocBuilder builder = new JavaDocBuilder(this.createDocletTagFactory());
+                                           ^
+  symbol:   class JavaDocBuilder
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:60: error: cannot find symbol
+        builder.getClassLibrary().addClassLoader(this.getClass().getClassLoader());
+                                                     ^
+  symbol: method getClass()
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:62: error: cannot find symbol
+        final JavaSource[] sources = builder.getSources();
+              ^
+  symbol:   class JavaSource
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:67: error: cannot find symbol
+        return new DefaultDocletTagFactory();
+                   ^
+  symbol:   class DefaultDocletTagFactory
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:71: error: incompatible types: Object cannot be converted to String
+        for (final String sourceFile : this.fileMap.keySet()) {
+                                                          ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:78: error: cannot find symbol
+            final JavaSource source = sources[i];
+                  ^
+  symbol:   class JavaSource
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:80: error: cannot find symbol
+            final JavaClass[] classes = source.getClasses();
+                  ^
+  symbol:   class JavaClass
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:87: error: cannot find symbol
+            final JavaClass clazz = classes[j];
+                  ^
+  symbol:   class JavaClass
+  location: class AbstractQdoxTask
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java:94: error: cannot find symbol
+            throw new BuildException("Specify at least one source fileset.");
+                      ^
+  symbol:   class BuildException
+  location: class AbstractQdoxTask
+Note: sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/generator/qdox/ant/AbstractQdoxTask.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+31 errors

@@ -1,0 +1,37 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FailSafeMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FailSafeMatcher.java:10: error: package ElementMatcher.Junction does not exist
+public class FailSafeMatcher<T> extends ElementMatcher.Junction.AbstractBase<T>
+                                                               ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FailSafeMatcher.java:9: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FailSafeMatcher.java:12: error: cannot find symbol
+    private final ElementMatcher<? super T> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class FailSafeMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class FailSafeMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FailSafeMatcher.java:15: error: cannot find symbol
+    public FailSafeMatcher(final ElementMatcher<? super T> matcher, final boolean fallback) {
+                                 ^
+  symbol:   class ElementMatcher
+  location: class FailSafeMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class FailSafeMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FailSafeMatcher.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FailSafeMatcher.java:34: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FailSafeMatcher.java:36: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.fallback == ((FailSafeMatcher)o).fallback && this.matcher.equals(((FailSafeMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/FailSafeMatcher.java:39: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+9 errors

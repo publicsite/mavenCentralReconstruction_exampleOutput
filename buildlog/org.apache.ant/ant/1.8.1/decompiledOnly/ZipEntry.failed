@@ -1,0 +1,23 @@
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipEntry.java:138: error: incompatible types: Object[] cannot be converted to ZipExtraField[]
+        return result.toArray(new ZipExtraField[0]);
+                             ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ZipEntry.java:189: error: incompatible types: Object cannot be converted to ZipExtraField
+            return this.extraFields.get(type);
+                                       ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:20: error: incompatible types: Object cannot be converted to ZipExtraField
+            final ZipExtraField ze = c.newInstance();
+                                                  ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:35: error: incompatible types: Object cannot be converted to Class
+        final Class c = ExtraFieldUtils.implementations.get(headerId);
+                                                           ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:37: error: incompatible types: Object cannot be converted to ZipExtraField
+            return c.newInstance();
+                                ^
+sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java:103: error: incompatible types: Object[] cannot be converted to ZipExtraField[]
+        return v.toArray(result);
+                        ^
+Note: sources/structure/org.apache.ant/ant/1.8.1/Decompiled/org/apache/tools/zip/ExtraFieldUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+6 errors

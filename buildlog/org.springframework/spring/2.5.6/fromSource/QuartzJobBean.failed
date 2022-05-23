@@ -1,0 +1,77 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:19: error: package org.quartz does not exist
+import org.quartz.Job;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:20: error: package org.quartz does not exist
+import org.quartz.JobExecutionContext;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:21: error: package org.quartz does not exist
+import org.quartz.JobExecutionException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:22: error: package org.quartz does not exist
+import org.quartz.SchedulerException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:68: error: cannot find symbol
+public abstract class QuartzJobBean implements Job {
+                                               ^
+  symbol: class Job
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:75: error: cannot find symbol
+	public final void execute(JobExecutionContext context) throws JobExecutionException {
+	                          ^
+  symbol:   class JobExecutionContext
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:75: error: cannot find symbol
+	public final void execute(JobExecutionContext context) throws JobExecutionException {
+	                                                              ^
+  symbol:   class JobExecutionException
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:95: error: cannot find symbol
+	protected abstract void executeInternal(JobExecutionContext context) throws JobExecutionException;
+	                                        ^
+  symbol:   class JobExecutionContext
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:95: error: cannot find symbol
+	protected abstract void executeInternal(JobExecutionContext context) throws JobExecutionException;
+	                                                                            ^
+  symbol:   class JobExecutionException
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:83: error: cannot find symbol
+		catch (SchedulerException ex) {
+		       ^
+  symbol:   class SchedulerException
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/QuartzJobBean.java:84: error: cannot find symbol
+			throw new JobExecutionException(ex);
+			          ^
+  symbol:   class JobExecutionException
+  location: class QuartzJobBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:362: error: cannot find symbol
+			extends edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap
+			                                                      ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/BeanWrapperImpl.java:355: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public Object doTypeConversionIfNecessary(Object value, Class requiredType) throws TypeMismatchException {
+	              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:110: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Set createLinkedSetIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:147: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createLinkedMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:179: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createIdentityMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:342: error: cannot find symbol
+			return new edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap(initialCapacity);
+			                                                         ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:361: error: BackportConcurrentHashMap is not abstract and does not override abstract method replace(Object,Object) in ConcurrentMap
+	private static class BackportConcurrentHashMap
+	               ^
+Note: sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/BeanWrapperImpl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 errors
+4 warnings

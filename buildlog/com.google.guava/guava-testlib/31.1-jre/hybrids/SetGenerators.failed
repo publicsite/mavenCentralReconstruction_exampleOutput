@@ -1,0 +1,321 @@
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:20: error: cannot find symbol
+import static com.google.common.collect.Lists.newArrayList;
+                                       ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:20: error: static import only from classes and interfaces
+import static com.google.common.collect.Lists.newArrayList;
+^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:21: error: cannot find symbol
+import static com.google.common.collect.Sets.newTreeSet;
+                                       ^
+  symbol:   class Sets
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:21: error: static import only from classes and interfaces
+import static com.google.common.collect.Sets.newTreeSet;
+^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:30: error: cannot find symbol
+import com.google.common.collect.ContiguousSet;
+                                ^
+  symbol:   class ContiguousSet
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:31: error: cannot find symbol
+import com.google.common.collect.DiscreteDomain;
+                                ^
+  symbol:   class DiscreteDomain
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:32: error: cannot find symbol
+import com.google.common.collect.ImmutableSet;
+                                ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:33: error: cannot find symbol
+import com.google.common.collect.ImmutableSortedSet;
+                                ^
+  symbol:   class ImmutableSortedSet
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:34: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:35: error: cannot find symbol
+import com.google.common.collect.Ordering;
+                                ^
+  symbol:   class Ordering
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:36: error: cannot find symbol
+import com.google.common.collect.Range;
+                                ^
+  symbol:   class Range
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:37: error: cannot find symbol
+import com.google.common.collect.Sets;
+                                ^
+  symbol:   class Sets
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:314: error: cannot find symbol
+  private static Ordering<String> createExplicitComparator(String[] elements) {
+                 ^
+  symbol:   class Ordering
+  location: class SetGenerators
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:410: error: cannot find symbol
+    protected final ContiguousSet<Integer> checkedCreate(SortedSet<Integer> elementsSet) {
+                    ^
+  symbol:   class ContiguousSet
+  location: class AbstractContiguousSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:67: error: cannot find symbol
+      return ImmutableSet.copyOf(elements);
+             ^
+  symbol:   variable ImmutableSet
+  location: class ImmutableSetCopyOfGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:74: error: package ImmutableSet does not exist
+      ImmutableSet.Builder<String> builder = ImmutableSet.builder();
+                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:74: error: cannot find symbol
+      ImmutableSet.Builder<String> builder = ImmutableSet.builder();
+                                             ^
+  symbol:   variable ImmutableSet
+  location: class ImmutableSetUnsizedBuilderGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:85: error: package ImmutableSet does not exist
+      ImmutableSet.Builder<String> builder =
+                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:86: error: cannot find symbol
+          ImmutableSet.builderWithExpectedSize(Sets.newHashSet(elements).size());
+          ^
+  symbol:   variable ImmutableSet
+  location: class ImmutableSetSizedBuilderGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:86: error: cannot find symbol
+          ImmutableSet.builderWithExpectedSize(Sets.newHashSet(elements).size());
+                                               ^
+  symbol:   variable Sets
+  location: class ImmutableSetSizedBuilderGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:97: error: package ImmutableSet does not exist
+      ImmutableSet.Builder<String> builder =
+                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:98: error: cannot find symbol
+          ImmutableSet.builderWithExpectedSize(Sets.newHashSet(elements).size() + 1);
+                                               ^
+  symbol:   variable Sets
+  location: class ImmutableSetTooBigBuilderGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:98: error: cannot find symbol
+          ImmutableSet.builderWithExpectedSize(Sets.newHashSet(elements).size() + 1);
+          ^
+  symbol:   variable ImmutableSet
+  location: class ImmutableSetTooBigBuilderGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:109: error: package ImmutableSet does not exist
+      ImmutableSet.Builder<String> builder =
+                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:110: error: cannot find symbol
+          ImmutableSet.builderWithExpectedSize(Math.max(0, Sets.newHashSet(elements).size() - 1));
+          ^
+  symbol:   variable ImmutableSet
+  location: class ImmutableSetTooSmallBuilderGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:110: error: cannot find symbol
+          ImmutableSet.builderWithExpectedSize(Math.max(0, Sets.newHashSet(elements).size() - 1));
+                                                           ^
+  symbol:   variable Sets
+  location: class ImmutableSetTooSmallBuilderGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:125: error: cannot find symbol
+      return ImmutableSet.copyOf(elements);
+             ^
+  symbol:   variable ImmutableSet
+  location: class ImmutableSetWithBadHashesGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:135: error: cannot find symbol
+      return (ImmutableSet<String>) ImmutableSet.of(elements[0], elements[0]);
+              ^
+  symbol:   class ImmutableSet
+  location: class DegeneratedImmutableSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:135: error: cannot find symbol
+      return (ImmutableSet<String>) ImmutableSet.of(elements[0], elements[0]);
+                                    ^
+  symbol:   variable ImmutableSet
+  location: class DegeneratedImmutableSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:142: error: cannot find symbol
+      return ImmutableSortedSet.copyOf(elements);
+             ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetCopyOfGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:149: error: cannot find symbol
+      List<String> list = Lists.newArrayList(elements);
+                          ^
+  symbol:   variable Lists
+  location: class ImmutableSortedSetHeadsetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:151: error: cannot find symbol
+      return ImmutableSortedSet.copyOf(list).headSet("zzy");
+             ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetHeadsetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:158: error: cannot find symbol
+      List<String> list = Lists.newArrayList(elements);
+                          ^
+  symbol:   variable Lists
+  location: class ImmutableSortedSetTailsetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:160: error: cannot find symbol
+      return ImmutableSortedSet.copyOf(list).tailSet("\0\0");
+             ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetTailsetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:167: error: cannot find symbol
+      List<String> list = Lists.newArrayList(elements);
+                          ^
+  symbol:   variable Lists
+  location: class ImmutableSortedSetSubsetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:170: error: cannot find symbol
+      return ImmutableSortedSet.copyOf(list).subSet("\0\0", "zzy");
+             ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetSubsetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:178: error: cannot find symbol
+      return ImmutableSortedSet.<String>reverseOrder().add(elements).build().descendingSet();
+             ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetDescendingGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:188: error: cannot find symbol
+      return ImmutableSortedSet.orderedBy(STRING_REVERSED).add(elements).build();
+             ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetExplicitComparator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:205: error: package ImmutableSortedSet does not exist
+      return new ImmutableSortedSet.Builder<String>(COMPARABLE_REVERSED).add(elements).build();
+                                   ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:219: error: cannot find symbol
+      return ImmutableSortedSet.<String>reverseOrder()
+             ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetReversedOrderGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:234: error: cannot find symbol
+      return ImmutableSortedSet.copyOf(elements);
+             ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetUnhashableGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:241: error: cannot find symbol
+      return ImmutableSet.copyOf(elements).asList();
+             ^
+  symbol:   variable ImmutableSet
+  location: class ImmutableSetAsListGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:249: error: cannot find symbol
+      ImmutableSet<String> set = ImmutableSortedSet.copyOf(comparator, Arrays.asList(elements));
+      ^
+  symbol:   class ImmutableSet
+  location: class ImmutableSortedSetAsListGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:249: error: cannot find symbol
+      ImmutableSet<String> set = ImmutableSortedSet.copyOf(comparator, Arrays.asList(elements));
+                                 ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetAsListGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:258: error: package ImmutableSortedSet does not exist
+      ImmutableSortedSet.Builder<String> builder = ImmutableSortedSet.orderedBy(comparator);
+                        ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:258: error: cannot find symbol
+      ImmutableSortedSet.Builder<String> builder = ImmutableSortedSet.orderedBy(comparator);
+                                                   ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetSubsetAsListGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:271: error: cannot find symbol
+      return ImmutableSortedSet.orderedBy(comparator)
+             ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetDescendingAsListGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:283: error: package ImmutableSortedSet does not exist
+      ImmutableSortedSet.Builder<String> builder = ImmutableSortedSet.orderedBy(comparator);
+                        ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:283: error: cannot find symbol
+      ImmutableSortedSet.Builder<String> builder = ImmutableSortedSet.orderedBy(comparator);
+                                                   ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetAsListSubListGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:296: error: package ImmutableSortedSet does not exist
+      ImmutableSortedSet.Builder<String> builder = ImmutableSortedSet.orderedBy(comparator);
+                        ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:296: error: cannot find symbol
+      ImmutableSortedSet.Builder<String> builder = ImmutableSortedSet.orderedBy(comparator);
+                                                   ^
+  symbol:   variable ImmutableSortedSet
+  location: class ImmutableSortedSetSubsetAsListSubListGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:317: error: cannot find symbol
+    Set<String> elementsPlus = Sets.newLinkedHashSet();
+                               ^
+  symbol:   variable Sets
+  location: class SetGenerators
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:323: error: cannot find symbol
+    return Ordering.explicit(Lists.newArrayList(elementsPlus));
+           ^
+  symbol:   variable Ordering
+  location: class SetGenerators
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:323: error: cannot find symbol
+    return Ordering.explicit(Lists.newArrayList(elementsPlus));
+                             ^
+  symbol:   variable Lists
+  location: class SetGenerators
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:339: error: cannot find symbol
+    SortedSet<E> set = newTreeSet();
+                       ^
+  symbol:   method newTreeSet()
+  location: class SetGenerators
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:342: error: cannot find symbol
+      set.add(checkNotNull(element));
+              ^
+  symbol:   method checkNotNull(E)
+  location: class SetGenerators
+  where E is a type-variable:
+    E extends Comparable<? super E> declared in method <E>nullCheckedTreeSet(E[])
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:411: error: cannot find symbol
+      List<Integer> elements = newArrayList(elementsSet);
+                               ^
+  symbol:   method newArrayList(SortedSet<Integer>)
+  location: class AbstractContiguousSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:419: error: cannot find symbol
+      Range<Integer> range =
+      ^
+  symbol:   class Range
+  location: class AbstractContiguousSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:420: error: cannot find symbol
+          elements.isEmpty() ? Range.closedOpen(0, 0) : Range.encloseAll(elements);
+                               ^
+  symbol:   variable Range
+  location: class AbstractContiguousSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:420: error: cannot find symbol
+          elements.isEmpty() ? Range.closedOpen(0, 0) : Range.encloseAll(elements);
+                                                        ^
+  symbol:   variable Range
+  location: class AbstractContiguousSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:421: error: cannot find symbol
+      return ContiguousSet.create(range, DiscreteDomain.integers());
+             ^
+  symbol:   variable ContiguousSet
+  location: class AbstractContiguousSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:421: error: cannot find symbol
+      return ContiguousSet.create(range, DiscreteDomain.integers());
+                                         ^
+  symbol:   variable DiscreteDomain
+  location: class AbstractContiguousSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:383: error: cannot find symbol
+        return ContiguousSet.create(Range.openClosed(0, 1), DiscreteDomain.integers()).subSet(0, 1);
+               ^
+  symbol:   variable ContiguousSet
+  location: class ContiguousSetSubsetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:383: error: cannot find symbol
+        return ContiguousSet.create(Range.openClosed(0, 1), DiscreteDomain.integers()).subSet(0, 1);
+                                    ^
+  symbol:   variable Range
+  location: class ContiguousSetSubsetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:383: error: cannot find symbol
+        return ContiguousSet.create(Range.openClosed(0, 1), DiscreteDomain.integers()).subSet(0, 1);
+                                                            ^
+  symbol:   variable DiscreteDomain
+  location: class ContiguousSetSubsetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java:403: error: cannot find symbol
+      Collections.sort(insertionOrder, Ordering.natural().reverse());
+                                       ^
+  symbol:   variable Ordering
+  location: class ContiguousSetDescendingGenerator
+Note: hybrids/com.google.guava/guava-testlib/31.1-jre/SetGenerators.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+68 errors

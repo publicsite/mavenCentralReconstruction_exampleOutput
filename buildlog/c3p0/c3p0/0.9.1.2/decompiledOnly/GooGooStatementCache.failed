@@ -1,0 +1,40 @@
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:89: error: incompatible types: Object cannot be converted to Connection
+            for (final Connection pcon : this.cxnStmtMgr.connectionSet()) {
+                                                                      ^
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:171: error: incompatible types: Object cannot be converted to StatementCacheKey
+        final StatementCacheKey key = this.stmtToKey.get(pstmt);
+                                                        ^
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:291: error: incompatible types: Object cannot be converted to StatementCacheKey
+        final StatementCacheKey sck = this.stmtToKey.remove(ps);
+                                                           ^
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:338: error: incompatible types: Object cannot be converted to KeyRec
+        return this.keyToKeyRec.get(key);
+                                   ^
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:489: error: incompatible types: Object cannot be converted to Long
+            final Long old = this.stmtsToLongs.get(ps);
+                                                  ^
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:499: error: incompatible types: Object cannot be converted to Long
+            final Long old = this.stmtsToLongs.remove(ps);
+                                                     ^
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:513: error: incompatible types: Object cannot be converted to Long
+            final Long l = this.longsToStmts.firstKey();
+                                                     ^
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:516: error: cannot find symbol
+                GooGooStatementCache.logger.finest("CULLING: " + GooGooStatementCache.this.stmtToKey.get(ps).stmtText);
+                                                                                                            ^
+  symbol:   variable stmtText
+  location: class Object
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:555: error: incompatible types: Object cannot be converted to Set
+            return this.cxnToStmtSets.get(pcon);
+                                         ^
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:602: error: incompatible types: Object cannot be converted to GooGooStatementCache.Deathmarch
+            Deathmarch dm = this.cxnsToDms.get(pcon);
+                                              ^
+sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java:618: error: incompatible types: Object cannot be converted to GooGooStatementCache.Deathmarch
+            return this.cxnsToDms.get(pcon);
+                                     ^
+Note: sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/c3p0/c3p0/0.9.1.2/Decompiled/com/mchange/v2/c3p0/stmt/GooGooStatementCache.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors

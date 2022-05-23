@@ -1,0 +1,25 @@
+sources/structure/xml-apis/xml-apis/2.0.2/extractedSources/org/xml/sax/helpers/XMLReaderFactory.java:8: error: package exists in another module: java.xml
+package org.xml.sax.helpers;
+^
+sources/structure/xml-apis/xml-apis/2.0.2/extractedSources/org/xml/sax/helpers/XMLReaderFactory.java:108: error: cannot find symbol
+        SecuritySupport ss = SecuritySupport.getInstance();
+        ^
+  symbol:   class SecuritySupport
+  location: class XMLReaderFactory
+sources/structure/xml-apis/xml-apis/2.0.2/extractedSources/org/xml/sax/helpers/XMLReaderFactory.java:108: error: cannot find symbol
+        SecuritySupport ss = SecuritySupport.getInstance();
+                             ^
+  symbol:   variable SecuritySupport
+  location: class XMLReaderFactory
+sources/structure/xml-apis/xml-apis/2.0.2/extractedSources/org/xml/sax/helpers/XMLReaderFactory.java:109: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+	    ClassLoader	loader = NewInstance.getClassLoader ();
+	               	         ^
+sources/structure/xml-apis/xml-apis/2.0.2/extractedSources/org/xml/sax/helpers/XMLReaderFactory.java:224: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+	return loadClass (NewInstance.getClassLoader (), className);
+	                  ^
+sources/structure/xml-apis/xml-apis/2.0.2/extractedSources/org/xml/sax/helpers/XMLReaderFactory.java:231: error: NewInstance is not public in org.xml.sax.helpers; cannot be accessed from outside package
+	    return (XMLReader) NewInstance.newInstance (loader, className);
+	                       ^
+Note: sources/structure/xml-apis/xml-apis/2.0.2/extractedSources/org/xml/sax/helpers/XMLReaderFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+6 errors

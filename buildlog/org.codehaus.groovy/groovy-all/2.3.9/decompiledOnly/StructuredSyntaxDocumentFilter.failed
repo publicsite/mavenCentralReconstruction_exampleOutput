@@ -1,0 +1,37 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/StructuredSyntaxDocumentFilter.java:94: error: incompatible types: Object cannot be converted to StructuredSyntaxDocumentFilter.MultiLineRun
+                ml = set.last();
+                             ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/StructuredSyntaxDocumentFilter.java:206: error: incompatible types: Object cannot be converted to String
+                final String nextRegexp = iter.next();
+                                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/StructuredSyntaxDocumentFilter.java:214: error: cannot find symbol
+                    iter.next().initialize();
+                               ^
+  symbol:   method initialize()
+  location: class Object
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/StructuredSyntaxDocumentFilter.java:243: error: incompatible types: Object cannot be converted to Style
+                style = this.styleMap.get(this.groupList.get(groupNum));
+                                         ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/StructuredSyntaxDocumentFilter.java:246: error: no suitable constructor found for MultiLineRun(int,int)
+                    final MultiLineRun mlr = new MultiLineRun(offset, matchEnd);
+                                             ^
+    constructor StructuredSyntaxDocumentFilter.MultiLineRun.StructuredSyntaxDocumentFilter.MultiLineRun(StructuredSyntaxDocumentFilter,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor StructuredSyntaxDocumentFilter.MultiLineRun.StructuredSyntaxDocumentFilter.MultiLineRun(int,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/StructuredSyntaxDocumentFilter.java:249: error: incompatible types: Object cannot be converted to StructuredSyntaxDocumentFilter.LexerNode
+                final LexerNode node = this.children.get(this.groupList.get(groupNum));
+                                                        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/StructuredSyntaxDocumentFilter.java:261: error: incompatible types: Object cannot be converted to Style
+            node.defaultStyle = this.styleMap.get(regexp);
+                                                 ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/StructuredSyntaxDocumentFilter.java:305: error: no suitable constructor found for MultiLineRun(StructuredSyntaxDocumentFilter,int,int,int)
+            this(structuredSyntaxDocumentFilter, start, end, 2);
+            ^
+    constructor StructuredSyntaxDocumentFilter.MultiLineRun.StructuredSyntaxDocumentFilter.MultiLineRun(StructuredSyntaxDocumentFilter,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor StructuredSyntaxDocumentFilter.MultiLineRun.StructuredSyntaxDocumentFilter.MultiLineRun(int,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/StructuredSyntaxDocumentFilter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

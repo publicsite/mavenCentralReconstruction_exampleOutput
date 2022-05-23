@@ -1,0 +1,22 @@
+hybrids/org.hamcrest/hamcrest/2.2-rc1/IsArrayContainingInAnyOrder.java:61: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public static <E> Matcher<E[]> arrayContainingInAnyOrder(final Matcher<? super E>... itemMatchers) {
+                                   ^
+hybrids/org.hamcrest/hamcrest/2.2-rc1/IsArrayContainingInAnyOrder.java:83: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public static <E> Matcher<E[]> arrayContainingInAnyOrder(Collection<Matcher<? super E>> itemMatchers) {
+                                   ^
+hybrids/org.hamcrest/hamcrest/2.2-rc1/IsArrayContainingInAnyOrder.java:105: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public static <E> Matcher<E[]> arrayContainingInAnyOrder(E... items) {
+                                   ^
+sources/structure/org.hamcrest/hamcrest/2.2-rc1/extractedSources/org/hamcrest/collection/IsIterableContainingInAnyOrder.java:101: error: incompatible types: inference variable T#1 has incompatible bounds
+        return containsInAnyOrder(Arrays.asList(itemMatchers));
+                                 ^
+    equality constraints: T#2
+    lower bounds: List<T#3>
+  where T#1,T#2,T#3 are type-variables:
+    T#1 extends Object declared in method <T#1>containsInAnyOrder(T#1...)
+    T#2 extends Object declared in method <T#2>containsInAnyOrder(Matcher<? super T#2>...)
+    T#3 extends Object declared in method <T#3>asList(T#3...)
+Note: hybrids/org.hamcrest/hamcrest/2.2-rc1/IsArrayContainingInAnyOrder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+3 warnings

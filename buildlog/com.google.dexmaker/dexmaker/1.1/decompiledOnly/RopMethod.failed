@@ -1,0 +1,96 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:8: error: cannot find symbol
+import com.google.dexmaker.dx.util.IntList;
+                                  ^
+  symbol:   class IntList
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:12: error: cannot find symbol
+    private final BasicBlockList blocks;
+                  ^
+  symbol:   class BasicBlockList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:14: error: cannot find symbol
+    private IntList[] predecessors;
+            ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:15: error: cannot find symbol
+    private IntList exitPredecessors;
+            ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:17: error: cannot find symbol
+    public RopMethod(final BasicBlockList blocks, final int firstLabel) {
+                           ^
+  symbol:   class BasicBlockList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:30: error: cannot find symbol
+    public BasicBlockList getBlocks() {
+           ^
+  symbol:   class BasicBlockList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:38: error: cannot find symbol
+    public IntList labelToPredecessors(final int label) {
+           ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:49: error: cannot find symbol
+    public IntList getExitPredecessors() {
+           ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:42: error: cannot find symbol
+        final IntList result = this.predecessors[label];
+              ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:67: error: cannot find symbol
+        final IntList[] predecessors = new IntList[maxLabel];
+              ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:67: error: cannot find symbol
+        final IntList[] predecessors = new IntList[maxLabel];
+                                           ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:68: error: cannot find symbol
+        final IntList exitPredecessors = new IntList(10);
+              ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:68: error: cannot find symbol
+        final IntList exitPredecessors = new IntList(10);
+                                             ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:70: error: cannot find symbol
+            final BasicBlock one = this.blocks.get(i);
+                  ^
+  symbol:   class BasicBlock
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:72: error: cannot find symbol
+            final IntList successors = one.getSuccessors();
+                  ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:80: error: cannot find symbol
+                    IntList succPreds = predecessors[succLabel];
+                    ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:82: error: cannot find symbol
+                        succPreds = new IntList(10);
+                                        ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:89: error: cannot find symbol
+        for (final IntList preds : predecessors) {
+                   ^
+  symbol:   class IntList
+  location: class RopMethod
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/RopMethod.java:98: error: cannot find symbol
+            predecessors[this.firstLabel] = IntList.EMPTY;
+                                            ^
+  symbol:   variable IntList
+  location: class RopMethod
+19 errors

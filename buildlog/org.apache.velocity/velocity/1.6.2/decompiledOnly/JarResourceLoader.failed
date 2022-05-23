@@ -1,0 +1,28 @@
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/resource/loader/JarResourceLoader.java:42: error: incompatible types: Object cannot be converted to String
+                this.loadJar(paths.get(i));
+                                      ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/resource/loader/JarResourceLoader.java:73: error: incompatible types: Object cannot be converted to JarHolder
+            final JarHolder theJar = this.jarfiles.get(path);
+                                                      ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/resource/loader/JarResourceLoader.java:97: error: incompatible types: Object cannot be converted to String
+            final String jarurl = this.entryDirectory.get(normalizedPath);
+                                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/resource/loader/JarResourceLoader.java:99: error: incompatible types: Object cannot be converted to JarHolder
+                final JarHolder holder = this.jarfiles.get(jarurl);
+                                                          ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/StringUtils.java:80: error: incompatible types: Object[] cannot be converted to String[]
+        return list.toArray(new String[list.size()]);
+                           ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/StringUtils.java:127: error: incompatible types: Object cannot be converted to String
+                        final String value = vars.get(nameBuf.toString());
+                                                     ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/util/StringUtils.java:293: error: incompatible types: Object cannot be converted to String
+            list.set(i, nullTrim(list.get(i)));
+                                         ^
+sources/structure/org.apache.velocity/velocity/1.6.2/Decompiled/org/apache/velocity/runtime/resource/loader/JarHolder.java:93: error: incompatible types: Object cannot be converted to JarEntry
+            final JarEntry je = all.nextElement();
+                                               ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+8 errors

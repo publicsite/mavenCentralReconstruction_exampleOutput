@@ -1,0 +1,134 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/AbstractExtensionContext.java:26: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/ExtensionValuesStore.java:15: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.getWrapperType;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/ExtensionValuesStore.java:15: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.getWrapperType;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/ExtensionValuesStore.java:16: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isAssignableTo;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/ExtensionValuesStore.java:16: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isAssignableTo;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:20: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/AbstractExtensionContext.java:47: error: cannot find symbol
+		Preconditions.notNull(testDescriptor, "TestDescriptor must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class AbstractExtensionContext<T>
+  where T is a type-variable:
+    T extends TestDescriptor declared in class AbstractExtensionContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/AbstractExtensionContext.java:48: error: cannot find symbol
+		Preconditions.notNull(configuration, "JupiterConfiguration must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class AbstractExtensionContext<T>
+  where T is a type-variable:
+    T extends TestDescriptor declared in class AbstractExtensionContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/descriptor/AbstractExtensionContext.java:110: error: cannot find symbol
+		Preconditions.notNull(namespace, "Namespace must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class AbstractExtensionContext<T>
+  where T is a type-variable:
+    T extends TestDescriptor declared in class AbstractExtensionContext
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/support/OpenTest4JAndJUnit4AwareThrowableCollector.java:15: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/support/OpenTest4JAndJUnit4AwareThrowableCollector.java:17: error: package org.opentest4j does not exist
+import org.opentest4j.TestAbortedException;
+                     ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/ExtensionValuesStore.java:124: error: cannot find symbol
+		if (isAssignableTo(value, requiredType)) {
+		    ^
+  symbol:   method isAssignableTo(Object,Class<T>)
+  location: class ExtensionValuesStore
+  where T is a type-variable:
+    T extends Object declared in method <T>castToRequiredType(Object,Object,Class<T>)
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/ExtensionValuesStore.java:126: error: cannot find symbol
+				return (T) getWrapperType(requiredType).cast(value);
+				           ^
+  symbol:   method getWrapperType(Class<T>)
+  location: class ExtensionValuesStore
+  where T is a type-variable:
+    T extends Object declared in method <T>castToRequiredType(Object,Object,Class<T>)
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/ExtensionValuesStore.java:131: error: cannot access JUnitException
+		throw new ExtensionContextException(
+		^
+  class file for org.junit.platform.commons.JUnitException not found
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:38: error: cannot find symbol
+		Preconditions.notNull(key, "key must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:44: error: cannot find symbol
+		Preconditions.notNull(key, "key must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:45: error: cannot find symbol
+		Preconditions.notNull(requiredType, "requiredType must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:51: error: cannot find symbol
+		Preconditions.notNull(key, "key must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:52: error: cannot find symbol
+		Preconditions.notNull(defaultCreator, "defaultCreator function must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:58: error: cannot find symbol
+		Preconditions.notNull(key, "key must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:59: error: cannot find symbol
+		Preconditions.notNull(defaultCreator, "defaultCreator function must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:60: error: cannot find symbol
+		Preconditions.notNull(requiredType, "requiredType must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:66: error: cannot find symbol
+		Preconditions.notNull(key, "key must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:72: error: cannot find symbol
+		Preconditions.notNull(key, "key must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:78: error: cannot find symbol
+		Preconditions.notNull(key, "key must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/execution/NamespaceAwareStore.java:79: error: cannot find symbol
+		Preconditions.notNull(requiredType, "requiredType must not be null");
+		^
+  symbol:   variable Preconditions
+  location: class NamespaceAwareStore
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/support/OpenTest4JAndJUnit4AwareThrowableCollector.java:37: error: cannot find symbol
+		Predicate<Throwable> otaPredicate = TestAbortedException.class::isInstance;
+		                                    ^
+  symbol:   class TestAbortedException
+  location: class OpenTest4JAndJUnit4AwareThrowableCollector
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/support/OpenTest4JAndJUnit4AwareThrowableCollector.java:40: error: cannot find symbol
+		Class<?> clazz = ReflectionUtils.tryToLoadClass(
+		                 ^
+  symbol:   variable ReflectionUtils
+  location: class OpenTest4JAndJUnit4AwareThrowableCollector
+28 errors

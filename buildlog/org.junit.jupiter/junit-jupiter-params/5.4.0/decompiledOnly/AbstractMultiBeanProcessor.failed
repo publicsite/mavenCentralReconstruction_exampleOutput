@@ -1,0 +1,72 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:12: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.ArgumentUtils;
+                                                                   ^
+  symbol:   class ArgumentUtils
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:20: error: cannot find symbol
+    private final AbstractBeanProcessor<?, C>[] beanProcessors;
+                  ^
+  symbol:   class AbstractBeanProcessor
+  location: class AbstractMultiBeanProcessor<C>
+  where C is a type-variable:
+    C extends Context declared in class AbstractMultiBeanProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:21: error: cannot find symbol
+    private final Map<Class, AbstractBeanProcessor> processorMap;
+                             ^
+  symbol:   class AbstractBeanProcessor
+  location: class AbstractMultiBeanProcessor<C>
+  where C is a type-variable:
+    C extends Context declared in class AbstractMultiBeanProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:47: error: cannot find symbol
+    public <T> AbstractBeanProcessor<T, C> getProcessorOfType(final Class<T> type) {
+               ^
+  symbol:   class AbstractBeanProcessor
+  location: class AbstractMultiBeanProcessor<C>
+  where C is a type-variable:
+    C extends Context declared in class AbstractMultiBeanProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:24: error: cannot find symbol
+        this.processorMap = new HashMap<Class, AbstractBeanProcessor>();
+                                               ^
+  symbol:   class AbstractBeanProcessor
+  location: class AbstractMultiBeanProcessor<C>
+  where C is a type-variable:
+    C extends Context declared in class AbstractMultiBeanProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:25: error: cannot find symbol
+        ArgumentUtils.noNulls("Bean types", (Class[])beanTypes);
+        ^
+  symbol:   variable ArgumentUtils
+  location: class AbstractMultiBeanProcessor<C>
+  where C is a type-variable:
+    C extends Context declared in class AbstractMultiBeanProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:26: error: cannot find symbol
+        this.beanProcessors = (AbstractBeanProcessor<?, C>[])new AbstractBeanProcessor[beanTypes.length];
+                               ^
+  symbol:   class AbstractBeanProcessor
+  location: class AbstractMultiBeanProcessor<C>
+  where C is a type-variable:
+    C extends Context declared in class AbstractMultiBeanProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:26: error: cannot find symbol
+        this.beanProcessors = (AbstractBeanProcessor<?, C>[])new AbstractBeanProcessor[beanTypes.length];
+                                                                 ^
+  symbol:   class AbstractBeanProcessor
+  location: class AbstractMultiBeanProcessor<C>
+  where C is a type-variable:
+    C extends Context declared in class AbstractMultiBeanProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:29: error: cannot find symbol
+            this.beanProcessors[i] = new AbstractBeanProcessor<Object, C>(type, MethodFilter.ONLY_SETTERS) {
+                                         ^
+  symbol:   class AbstractBeanProcessor
+  location: class AbstractMultiBeanProcessor<C>
+  where C is a type-variable:
+    C extends Context declared in class AbstractMultiBeanProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:30: error: method does not override or implement a method from a supertype
+                @Override
+                ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/processor/core/AbstractMultiBeanProcessor.java:48: error: cannot find symbol
+        final AbstractBeanProcessor<T, C> processor = this.processorMap.get(type);
+              ^
+  symbol:   class AbstractBeanProcessor
+  location: class AbstractMultiBeanProcessor<C>
+  where C is a type-variable:
+    C extends Context declared in class AbstractMultiBeanProcessor
+11 errors

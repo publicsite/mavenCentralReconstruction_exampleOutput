@@ -1,0 +1,72 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:18: error: cannot find symbol
+import static java.util.ConcurrentModificationDetector.checkStructuralChange;
+                       ^
+  symbol:   class ConcurrentModificationDetector
+  location: package java.util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:18: error: static import only from classes and interfaces
+import static java.util.ConcurrentModificationDetector.checkStructuralChange;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:19: error: cannot find symbol
+import static java.util.ConcurrentModificationDetector.recordLastKnownStructure;
+                       ^
+  symbol:   class ConcurrentModificationDetector
+  location: package java.util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:19: error: static import only from classes and interfaces
+import static java.util.ConcurrentModificationDetector.recordLastKnownStructure;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:98: error: cannot find symbol
+        recordLastKnownStructure(map, this);
+        ^
+  symbol:   method recordLastKnownStructure(HashMap<K,LinkedHashMap<K,V>.ChainEntry>,LinkedHashMap<K,V>.EntrySet.EntryIterator)
+  location: class LinkedHashMap<K,V>.EntrySet.EntryIterator
+  where K,V are type-variables:
+    K extends Object declared in class LinkedHashMap
+    V extends Object declared in class LinkedHashMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:108: error: cannot find symbol
+        checkStructuralChange(map, this);
+        ^
+  symbol:   method checkStructuralChange(HashMap<K,LinkedHashMap<K,V>.ChainEntry>,LinkedHashMap<K,V>.EntrySet.EntryIterator)
+  location: class LinkedHashMap<K,V>.EntrySet.EntryIterator
+  where K,V are type-variables:
+    K extends Object declared in class LinkedHashMap
+    V extends Object declared in class LinkedHashMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:119: error: cannot find symbol
+        checkStructuralChange(map, this);
+        ^
+  symbol:   method checkStructuralChange(HashMap<K,LinkedHashMap<K,V>.ChainEntry>,LinkedHashMap<K,V>.EntrySet.EntryIterator)
+  location: class LinkedHashMap<K,V>.EntrySet.EntryIterator
+  where K,V are type-variables:
+    K extends Object declared in class LinkedHashMap
+    V extends Object declared in class LinkedHashMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:123: error: cannot find symbol
+        recordLastKnownStructure(map, this);
+        ^
+  symbol:   method recordLastKnownStructure(HashMap<K,LinkedHashMap<K,V>.ChainEntry>,LinkedHashMap<K,V>.EntrySet.EntryIterator)
+  location: class LinkedHashMap<K,V>.EntrySet.EntryIterator
+  where K,V are type-variables:
+    K extends Object declared in class LinkedHashMap
+    V extends Object declared in class LinkedHashMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:130: error: not an enclosing class: LinkedHashMap
+      LinkedHashMap.this.clear();
+                   ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:136: error: cannot find symbol
+        return containsEntry((Map.Entry<?, ?>) o);
+               ^
+  symbol:   method containsEntry(Entry<CAP#1,CAP#2>)
+  location: class LinkedHashMap<K,V>.EntrySet
+  where K,V are type-variables:
+    K extends Object declared in class LinkedHashMap
+    V extends Object declared in class LinkedHashMap
+  where CAP#1,CAP#2 are fresh type-variables:
+    CAP#1 extends Object from capture of ?
+    CAP#2 extends Object from capture of ?
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:150: error: not an enclosing class: LinkedHashMap
+        LinkedHashMap.this.remove(key);
+                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/LinkedHashMap.java:158: error: not an enclosing class: LinkedHashMap
+      return LinkedHashMap.this.size();
+                          ^
+13 errors

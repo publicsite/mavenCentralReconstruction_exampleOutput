@@ -1,0 +1,86 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:7: error: package groovy.lang does not exist
+import groovy.lang.MetaClass;
+                  ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:8: error: package groovy.lang does not exist
+import groovy.lang.Script;
+                  ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:9: error: package groovy.lang does not exist
+import groovy.lang.GroovyObject;
+                  ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:11: error: package org.codehaus.groovy.control does not exist
+import org.codehaus.groovy.control.CompilationFailedException;
+                                  ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:19: error: package groovy.lang does not exist
+import groovy.lang.GroovyClassLoader;
+                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scripting/groovy/GroovyObjectCustomizer.java:19: error: package groovy.lang does not exist
+import groovy.lang.GroovyObject;
+                  ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:28: error: cannot find symbol
+    private GroovyClassLoader groovyClassLoader;
+            ^
+  symbol:   class GroovyClassLoader
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:57: error: cannot find symbol
+    public GroovyClassLoader getGroovyClassLoader() {
+           ^
+  symbol:   class GroovyClassLoader
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scripting/groovy/GroovyObjectCustomizer.java:41: error: cannot find symbol
+	void customize(GroovyObject goo);
+	               ^
+  symbol:   class GroovyObject
+  location: interface GroovyObjectCustomizer
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:49: error: cannot find symbol
+            ((ConfigurableListableBeanFactory)beanFactory).ignoreDependencyType(MetaClass.class);
+                                                                                ^
+  symbol:   class MetaClass
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:54: error: cannot find symbol
+        this.groovyClassLoader = new GroovyClassLoader(classLoader);
+                                     ^
+  symbol:   class GroovyClassLoader
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:60: error: cannot find symbol
+                this.groovyClassLoader = new GroovyClassLoader(ClassUtils.getDefaultClassLoader());
+                                             ^
+  symbol:   class GroovyClassLoader
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:90: error: cannot find symbol
+                    if (Script.class.isAssignableFrom(this.scriptClass)) {
+                        ^
+  symbol:   class Script
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:101: error: cannot find symbol
+        catch (CompilationFailedException ex) {
+               ^
+  symbol:   class CompilationFailedException
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:112: error: cannot find symbol
+                    if (Script.class.isAssignableFrom(this.scriptClass)) {
+                        ^
+  symbol:   class Script
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:124: error: cannot find symbol
+        catch (CompilationFailedException ex) {
+               ^
+  symbol:   class CompilationFailedException
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:137: error: cannot find symbol
+            final GroovyObject goo = scriptClass.newInstance();
+                  ^
+  symbol:   class GroovyObject
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:141: error: cannot find symbol
+            if (goo instanceof Script) {
+                               ^
+  symbol:   class Script
+  location: class GroovyScriptFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java:142: error: cannot find symbol
+                return ((Script)goo).run();
+                         ^
+  symbol:   class Script
+  location: class GroovyScriptFactory
+Note: sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scripting/groovy/GroovyScriptFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+19 errors

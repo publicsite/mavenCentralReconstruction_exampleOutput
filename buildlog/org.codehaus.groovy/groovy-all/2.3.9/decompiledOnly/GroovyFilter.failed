@@ -1,0 +1,58 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:23: error: cannot find symbol
+public class GroovyFilter extends StructuredSyntaxDocumentFilter
+                                  ^
+  symbol: class StructuredSyntaxDocumentFilter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:72: error: cannot find symbol
+        this.getRootNode().putStyle("/\\*(?s:.)*?(?:\\*/|\\z)", comment);
+            ^
+  symbol: method getRootNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:73: error: cannot find symbol
+        this.getRootNode().putStyle("//.*", comment);
+            ^
+  symbol: method getRootNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:74: error: cannot find symbol
+        this.getRootNode().putStyle("(?ms:\"{3}.*?(?:\"{3}|\\z))|(?:\"{1}.*?(?:\"|\\Z))", quotes);
+            ^
+  symbol: method getRootNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:75: error: cannot find symbol
+        this.getRootNode().putStyle("(?ms:'{3}(?!'{1,3}).*?(?:'{3}|\\z))|(?:'{1}.*?(?:'|\\z))", charQuotes);
+            ^
+  symbol: method getRootNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:76: error: cannot find symbol
+        this.getRootNode().putStyle("(?:/[^/*].*?/|(?ms:\\$/.*?(?:/\\$|\\z)))", slashyQuotes);
+            ^
+  symbol: method getRootNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:77: error: cannot find symbol
+        this.getRootNode().putStyle(new String[] { "0[xX][0-9a-fA-F](?:[0-9a-fA-F_]*[0-9a-fA-F])?", "0[0-7](?:[_0-7]*[0-7])?", "0[bB][01](?:[_01]*[01])?", "(?:0|[1-9](?:[_0-9]*[0-9])?)?\\.?[0-9](?:[_0-9]*[0-9])?(?:[eE][+-]?[0-9]+(?:[_0-9]*[0-9])?)?[fFdD]?", "0[xX](?:[0-9a-fA-F](?:[0-9a-fA-F_]*[0-9a-fA-F])?)?\\.?(?:[0-9a-fA-F_]*[0-9a-fA-F])?(?:[pP][+-]?[0-9]+(?:[_0-9]*[0-9])?)?[fFdD]?", "(?:0|[1-9](?:[_0-9]*[0-9])?)[lL]?" }, digit);
+            ^
+  symbol: method getRootNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:78: error: cannot find symbol
+        this.getRootNode().putStyle("[\\w\\$&&[\\D]][\\w\\$]* *\\(", operation);
+            ^
+  symbol: method getRootNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:79: error: cannot find symbol
+        LexerNode node = this.createLexerNode();
+        ^
+  symbol:   class LexerNode
+  location: class GroovyFilter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:79: error: cannot find symbol
+        LexerNode node = this.createLexerNode();
+                             ^
+  symbol: method createLexerNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:82: error: cannot find symbol
+        this.getRootNode().putChild("[\\w\\$&&[\\D]][\\w\\$]* *\\(", node);
+            ^
+  symbol: method getRootNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:83: error: cannot find symbol
+        this.getRootNode().putStyle("[\\w\\$&&[\\D]][\\w\\$]*", ident);
+            ^
+  symbol: method getRootNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:84: error: cannot find symbol
+        node = this.createLexerNode();
+                   ^
+  symbol: method createLexerNode()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/text/GroovyFilter.java:86: error: cannot find symbol
+        this.getRootNode().putChild("[\\w\\$&&[\\D]][\\w\\$]*", node);
+            ^
+  symbol: method getRootNode()
+14 errors

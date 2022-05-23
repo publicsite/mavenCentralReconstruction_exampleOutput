@@ -1,0 +1,21 @@
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/collection/IsArrayContainingInAnyOrder.java:58: error: incompatible types: inference variable E#1 has incompatible bounds
+        return arrayContainingInAnyOrder(Arrays.asList(itemMatchers));
+                                        ^
+    equality constraints: E#2
+    lower bounds: List<T>
+  where E#1,E#2,T are type-variables:
+    E#1 extends Object declared in method <E#1>arrayContainingInAnyOrder(E#1...)
+    E#2 extends Object declared in method <E#2>arrayContainingInAnyOrder(Matcher<? super E#2>...)
+    T extends Object declared in method <T>asList(T...)
+sources/structure/org.hamcrest/hamcrest-all/1.3/extractedSources/org/hamcrest/collection/IsIterableContainingInAnyOrder.java:125: error: incompatible types: inference variable T#1 has incompatible bounds
+        return containsInAnyOrder(Arrays.asList(itemMatchers));
+                                 ^
+    equality constraints: T#2
+    lower bounds: List<T#3>
+  where T#1,T#2,T#3 are type-variables:
+    T#1 extends Object declared in method <T#1>containsInAnyOrder(T#1...)
+    T#2 extends Object declared in method <T#2>containsInAnyOrder(Matcher<? super T#2>...)
+    T#3 extends Object declared in method <T#3>asList(T#3...)
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors

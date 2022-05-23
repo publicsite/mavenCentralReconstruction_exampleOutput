@@ -1,0 +1,66 @@
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DefaultGeneratorStrategy.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassWriter;
+                        ^
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/ClassGenerator.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DefaultGeneratorStrategy.java:29: error: cannot find symbol
+    protected ClassWriter getClassWriter() throws Exception {
+              ^
+  symbol:   class ClassWriter
+  location: class DefaultGeneratorStrategy
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/ClassGenerator.java:21: error: cannot find symbol
+    void generateClass(ClassVisitor v) throws Exception;
+                       ^
+  symbol:   class ClassVisitor
+  location: interface ClassGenerator
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DefaultGeneratorStrategy.java:24: error: cannot find symbol
+        ClassWriter cw = getClassWriter();
+        ^
+  symbol:   class ClassWriter
+  location: class DefaultGeneratorStrategy
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassWriter;
+                        ^
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassReader;
+                        ^
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java:20: error: package org.objectweb.asm.util does not exist
+import org.objectweb.asm.util.TraceClassVisitor;
+                             ^
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java:24: error: cannot find symbol
+public class DebuggingClassWriter extends ClassWriter {
+                                          ^
+  symbol: class ClassWriter
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DefaultGeneratorStrategy.java:30: error: cannot find symbol
+      return new DebuggingClassWriter(ClassWriter.COMPUTE_MAXS);
+                                      ^
+  symbol:   variable ClassWriter
+  location: class DefaultGeneratorStrategy
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java:58: error: cannot find symbol
+        super.visit(version, access, name, signature, superName, interfaces);
+        ^
+  symbol:   variable super
+  location: class DebuggingClassWriter
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java:76: error: not an enclosing class: DebuggingClassWriter
+                byte[] b = DebuggingClassWriter.super.toByteArray();
+                                               ^
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java:94: error: cannot find symbol
+                                ClassReader cr = new ClassReader(b);
+                                ^
+  symbol: class ClassReader
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java:94: error: cannot find symbol
+                                ClassReader cr = new ClassReader(b);
+                                                     ^
+  symbol: class ClassReader
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java:96: error: cannot find symbol
+                                TraceClassVisitor tcv = new TraceClassVisitor(null, pw);
+                                ^
+  symbol: class TraceClassVisitor
+sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java:96: error: cannot find symbol
+                                TraceClassVisitor tcv = new TraceClassVisitor(null, pw);
+                                                            ^
+  symbol: class TraceClassVisitor
+Note: sources/structure/cglib/cglib-nodep/2.2.2/extractedSources/src/proxy/net/sf/cglib/core/DebuggingClassWriter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+16 errors

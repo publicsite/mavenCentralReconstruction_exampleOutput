@@ -1,0 +1,159 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:11: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.csv.CsvParser;
+                                                                ^
+  symbol:   class CsvParser
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.csv
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:12: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:17: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.csv.CsvFormat;
+                                                                ^
+  symbol:   class CsvFormat
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.csv
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:18: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.PreconditionViolationException;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:19: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.csv.CsvParserSettings;
+                                                                ^
+  symbol:   class CsvParserSettings
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.csv
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:31: error: cannot find symbol
+    private CsvParserSettings settings;
+            ^
+  symbol:   class CsvParserSettings
+  location: class CsvFileArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/Arguments.java:16: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:73: error: cannot find symbol
+    private CsvParser createCsvParser(final InputStream inputStream) {
+            ^
+  symbol:   class CsvParser
+  location: class CsvFileArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:84: error: cannot find symbol
+    private Stream<Arguments> toStream(final CsvParser csvParser) {
+                                             ^
+  symbol:   class CsvParser
+  location: class CsvFileArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:98: error: cannot find symbol
+        private final CsvParser csvParser;
+                      ^
+  symbol:   class CsvParser
+  location: class CsvParserIterator
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:102: error: cannot find symbol
+        CsvParserIterator(final CsvParser csvParser, final CsvFileSource annotation) {
+                                ^
+  symbol:   class CsvParser
+  location: class CsvParserIterator
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:50: error: cannot find symbol
+            throw new PreconditionViolationException("The charset supplied in " + this.annotation + " is invalid", (Throwable)ex);
+                      ^
+  symbol:   class PreconditionViolationException
+  location: class CsvFileArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:53: error: cannot find symbol
+        this.settings = new CsvParserSettings();
+                            ^
+  symbol:   class CsvParserSettings
+  location: class CsvFileArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:64: error: incompatible types: invalid method reference
+        return Arrays.stream(this.resources).map(resource -> this.openInputStream(context, resource)).map((Function<? super Object, ?>)this::createCsvParser).flatMap((Function<? super Object, ? extends Stream<? extends Arguments>>)this::toStream);
+                                                                                                                                       ^
+    incompatible types: Object cannot be converted to InputStream
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:68: error: cannot find symbol
+        Preconditions.notBlank(resource, "Classpath resource [" + resource + "] must not be null or blank");
+        ^
+  symbol:   variable Preconditions
+  location: class CsvFileArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:70: error: cannot find symbol
+        return (InputStream)Preconditions.notNull((Object)this.inputStreamProvider.apply(testClass, resource), () -> "Classpath resource [" + resource + "] does not exist");
+                            ^
+  symbol:   variable Preconditions
+  location: class CsvFileArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:74: error: cannot find symbol
+        final CsvParser csvParser = new CsvParser(this.settings);
+              ^
+  symbol:   class CsvParser
+  location: class CsvFileArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:74: error: cannot find symbol
+        final CsvParser csvParser = new CsvParser(this.settings);
+                                        ^
+  symbol:   class CsvParser
+  location: class CsvFileArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:18: error: package com.univocity.parsers.csv does not exist
+import com.univocity.parsers.csv.CsvParser;
+                                ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:19: error: package com.univocity.parsers.csv does not exist
+import com.univocity.parsers.csv.CsvParserSettings;
+                                ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:23: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.BlacklistedExceptions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:24: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.PreconditionViolationException;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:25: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/provider/CsvFileArgumentsProvider.java:86: error: incompatible types: Stream<CAP#1> cannot be converted to Stream<Arguments>
+        return StreamSupport.stream(Spliterators.spliteratorUnknownSize((Iterator<?>)iterator, 16), false).skip(this.numLinesToSkip).onClose(() -> {
+                                                                                                                                            ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/Arguments.java:75: error: cannot find symbol
+		Preconditions.notNull(arguments, "argument array must not be null");
+		^
+  symbol:   variable Preconditions
+  location: interface Arguments
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:43: error: cannot find symbol
+		CsvParserSettings settings = new CsvParserSettings();
+		^
+  symbol:   class CsvParserSettings
+  location: class CsvArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:43: error: cannot find symbol
+		CsvParserSettings settings = new CsvParserSettings();
+		                                 ^
+  symbol:   class CsvParserSettings
+  location: class CsvArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:50: error: cannot find symbol
+		CsvParser csvParser = new CsvParser(settings);
+		^
+  symbol:   class CsvParser
+  location: class CsvArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:50: error: cannot find symbol
+		CsvParser csvParser = new CsvParser(settings);
+		                          ^
+  symbol:   class CsvParser
+  location: class CsvArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:63: error: cannot find symbol
+					Preconditions.notNull(parsedLine,
+					^
+  symbol:   variable Preconditions
+  location: class CsvArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:73: error: cannot find symbol
+		BlacklistedExceptions.rethrowIfBlacklisted(throwable);
+		^
+  symbol:   variable BlacklistedExceptions
+  location: class CsvArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:74: error: cannot find symbol
+		if (throwable instanceof PreconditionViolationException) {
+		                         ^
+  symbol:   class PreconditionViolationException
+  location: class CsvArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:75: error: cannot find symbol
+			throw (PreconditionViolationException) throwable;
+			       ^
+  symbol:   class PreconditionViolationException
+  location: class CsvArgumentsProvider
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvParsingException.java:16: error: package org.junit.platform.commons does not exist
+import org.junit.platform.commons.JUnitException;
+                                 ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvParsingException.java:26: error: cannot find symbol
+public class CsvParsingException extends JUnitException {
+                                         ^
+  symbol: class JUnitException
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/provider/CsvArgumentsProvider.java:77: error: incompatible types: CsvParsingException cannot be converted to Throwable
+		throw new CsvParsingException("Failed to parse CSV input configured via " + annotation, throwable);
+		^
+36 errors

@@ -1,0 +1,52 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:10: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:13: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:56: error: cannot find symbol
+    public enum Strategy implements ClassLoadingStrategy<InjectionClassLoader>
+                                    ^
+  symbol:   class ClassLoadingStrategy
+  location: class InjectionClassLoader
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:60: error: cannot find symbol
+        public Map<TypeDescription, Class<?>> load(final InjectionClassLoader classLoader, final Map<TypeDescription, byte[]> types) {
+                                                                                                     ^
+  symbol:   class TypeDescription
+  location: class Strategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:60: error: cannot find symbol
+        public Map<TypeDescription, Class<?>> load(final InjectionClassLoader classLoader, final Map<TypeDescription, byte[]> types) {
+                   ^
+  symbol:   class TypeDescription
+  location: class Strategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:20: error: cannot find symbol
+    @SuppressFBWarnings(value = { "DP_DO_INSIDE_DO_PRIVILEGED" }, justification = "Must be invoked from targeting ClassLoader class.")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class InjectionClassLoader
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:65: error: cannot find symbol
+            final Map<String, TypeDescription> typeDescriptions = new HashMap<String, TypeDescription>();
+                              ^
+  symbol:   class TypeDescription
+  location: class Strategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:65: error: cannot find symbol
+            final Map<String, TypeDescription> typeDescriptions = new HashMap<String, TypeDescription>();
+                                                                                      ^
+  symbol:   class TypeDescription
+  location: class Strategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:66: error: cannot find symbol
+            for (final Map.Entry<TypeDescription, byte[]> entry : types.entrySet()) {
+                                 ^
+  symbol:   class TypeDescription
+  location: class Strategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:70: error: cannot find symbol
+            final Map<TypeDescription, Class<?>> loadedTypes = new HashMap<TypeDescription, Class<?>>();
+                      ^
+  symbol:   class TypeDescription
+  location: class Strategy
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/dynamic/loading/InjectionClassLoader.java:70: error: cannot find symbol
+            final Map<TypeDescription, Class<?>> loadedTypes = new HashMap<TypeDescription, Class<?>>();
+                                                                           ^
+  symbol:   class TypeDescription
+  location: class Strategy
+11 errors

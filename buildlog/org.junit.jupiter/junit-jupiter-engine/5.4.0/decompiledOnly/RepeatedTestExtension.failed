@@ -1,0 +1,35 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/RepeatedTestExtension.java:7: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/RepeatedTestExtension.java:13: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.AnnotationUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/RepeatedTestExtension.java:21: error: cannot find symbol
+        return AnnotationUtils.isAnnotated(context.getTestMethod(), (Class)RepeatedTest.class);
+               ^
+  symbol:   variable AnnotationUtils
+  location: class RepeatedTestExtension
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/RepeatedTestExtension.java:27: error: cannot find symbol
+        final RepeatedTest repeatedTest = AnnotationUtils.findAnnotation((AnnotatedElement)testMethod, (Class)RepeatedTest.class).get();
+                                          ^
+  symbol:   variable AnnotationUtils
+  location: class RepeatedTestExtension
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/RepeatedTestExtension.java:35: error: cannot find symbol
+        Preconditions.condition(repetitions > 0, () -> String.format("Configuration error: @RepeatedTest on method [%s] must be declared with a positive 'value'.", method));
+        ^
+  symbol:   variable Preconditions
+  location: class RepeatedTestExtension
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/RepeatedTestExtension.java:40: error: cannot find symbol
+        final String pattern = Preconditions.notBlank(repeatedTest.name().trim(), () -> String.format("Configuration error: @RepeatedTest on method [%s] must be declared with a non-empty name.", method));
+                               ^
+  symbol:   variable Preconditions
+  location: class RepeatedTestExtension
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/RepetitionInfoParameterResolver.java:17: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ToStringBuilder;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/extension/RepetitionInfoParameterResolver.java:68: error: cannot find symbol
+			return new ToStringBuilder(this)
+			           ^
+  symbol:   class ToStringBuilder
+  location: class DefaultRepetitionInfo
+8 errors

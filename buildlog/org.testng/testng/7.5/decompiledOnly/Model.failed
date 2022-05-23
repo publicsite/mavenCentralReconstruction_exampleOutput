@@ -1,0 +1,37 @@
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:3: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:85: error: cannot find symbol
+  Injector getParentInjector();
+  ^
+  symbol:   class Injector
+  location: interface ISuite
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:87: error: cannot find symbol
+  void setParentInjector(Injector injector);
+                         ^
+  symbol:   class Injector
+  location: interface ISuite
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/jq/Model.java:100: error: incompatible types: Collection<CAP#1> cannot be converted to Collection<? extends ITestResult>
+            this.m_model.putAll(suite, (Collection<?>)failed);
+                                       ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/jq/Model.java:101: error: incompatible types: Collection<CAP#1> cannot be converted to Collection<? extends ITestResult>
+            this.m_model.putAll(suite, (Collection<?>)skipped);
+                                       ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/jq/Model.java:102: error: incompatible types: Collection<CAP#1> cannot be converted to Collection<? extends ITestResult>
+            this.m_model.putAll(suite, (Collection<?>)passed);
+                                       ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/jq/Model.java:108: error: incompatible types: Collection<CAP#1> cannot be converted to Collection<? extends String>
+        this.m_groupsBySuiteName.putAll(suite.getName(), (Collection<?>)Arrays.asList(groups));
+                                                         ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+7 errors

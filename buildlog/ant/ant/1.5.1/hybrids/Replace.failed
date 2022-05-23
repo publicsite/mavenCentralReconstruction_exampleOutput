@@ -1,0 +1,301 @@
+hybrids/ant/ant/1.5.1/Replace.java:259: error: illegal start of expression
+        private String token;
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:325: error: class, interface, or enum expected
+}
+^
+hybrids/ant/ant/1.5.1/Replace.java:327: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:331: error: class, interface, or enum expected
+            throw new BuildException(message, location);
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:332: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:335: error: class, interface, or enum expected
+            throw new BuildException(message, location);
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:336: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:345: error: class, interface, or enum expected
+    public void validateReplacefilters()
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:347: error: class, interface, or enum expected
+        for (int i = 0; i < replacefilters.size(); i++) {
+                        ^
+hybrids/ant/ant/1.5.1/Replace.java:347: error: class, interface, or enum expected
+        for (int i = 0; i < replacefilters.size(); i++) {
+                                                   ^
+hybrids/ant/ant/1.5.1/Replace.java:350: error: class, interface, or enum expected
+            element.validate();
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:351: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:361: error: class, interface, or enum expected
+    public Properties getProperties(File propertyFile) throws BuildException {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:364: error: class, interface, or enum expected
+        try {
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:366: error: class, interface, or enum expected
+        } catch (FileNotFoundException e) {
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:369: error: class, interface, or enum expected
+            throw new BuildException(message);
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:370: error: class, interface, or enum expected
+        } catch (IOException e) {
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:373: error: class, interface, or enum expected
+            throw new BuildException(message);
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:374: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:377: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:391: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:396: error: class, interface, or enum expected
+        Reader reader = null;
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:397: error: class, interface, or enum expected
+        Writer writer = null;
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:398: error: class, interface, or enum expected
+        try {
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:401: error: class, interface, or enum expected
+            writer = encoding == null ? new FileWriter(temp)
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:404: error: class, interface, or enum expected
+            BufferedReader br = new BufferedReader(reader);
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:405: error: class, interface, or enum expected
+            BufferedWriter bw = new BufferedWriter(writer);
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:412: error: class, interface, or enum expected
+            int fileLengthInBytes = (int) src.length();
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:413: error: class, interface, or enum expected
+            StringBuffer tmpBuf = new StringBuffer(fileLengthInBytes);
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:414: error: class, interface, or enum expected
+            int readChar = 0;
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:415: error: class, interface, or enum expected
+            int totread = 0;
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:416: error: class, interface, or enum expected
+            while (true) {
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:418: error: class, interface, or enum expected
+                if (readChar < 0) { break; }
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:418: error: class, interface, or enum expected
+                if (readChar < 0) { break; }
+                                           ^
+hybrids/ant/ant/1.5.1/Replace.java:420: error: class, interface, or enum expected
+                totread++;
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:421: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:427: error: class, interface, or enum expected
+            String newString = new String(buf);
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:429: error: class, interface, or enum expected
+            if (token != null) {
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:435: error: class, interface, or enum expected
+                String tok = stringReplace(token.getText(), "\n",
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:439: error: class, interface, or enum expected
+                log("Replacing in " + src.getPath() + ": " + token.getText() 
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:441: error: class, interface, or enum expected
+                newString = stringReplace(newString, tok, val);
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:442: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:446: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:449: error: class, interface, or enum expected
+            if (changes) {
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:451: error: class, interface, or enum expected
+                bw.flush();
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:452: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:456: error: class, interface, or enum expected
+            writer = null;
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:457: error: class, interface, or enum expected
+            br.close();
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:458: error: class, interface, or enum expected
+            reader = null;
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:462: error: class, interface, or enum expected
+            if (changes) {
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:464: error: class, interface, or enum expected
+                if (!src.delete()) {
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:467: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:471: error: class, interface, or enum expected
+                }
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:473: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:478: error: class, interface, or enum expected
+        } finally {
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:482: error: class, interface, or enum expected
+                } catch (IOException e) {}
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:487: error: class, interface, or enum expected
+                } catch (IOException e) {}
+                ^
+hybrids/ant/ant/1.5.1/Replace.java:491: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:505: error: class, interface, or enum expected
+        for (int i = 0; i < replacefilters.size(); i++) {
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:505: error: class, interface, or enum expected
+        for (int i = 0; i < replacefilters.size(); i++) {
+                        ^
+hybrids/ant/ant/1.5.1/Replace.java:505: error: class, interface, or enum expected
+        for (int i = 0; i < replacefilters.size(); i++) {
+                                                   ^
+hybrids/ant/ant/1.5.1/Replace.java:509: error: class, interface, or enum expected
+            log("Replacing in " + filename + ": " + filter.getToken() 
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:511: error: class, interface, or enum expected
+            newString = stringReplace(newString, filter.getToken(), 
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:513: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:516: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:523: error: class, interface, or enum expected
+    public void setFile(File file) {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:525: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:535: error: class, interface, or enum expected
+    public void setSummary(boolean summary) {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:537: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:547: error: class, interface, or enum expected
+    public void setReplaceFilterFile(File filename) {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:549: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:556: error: class, interface, or enum expected
+    public void setDir(File dir) {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:558: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:567: error: class, interface, or enum expected
+    public void setToken(String token) {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:569: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:576: error: class, interface, or enum expected
+    public void setValue(String value) {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:578: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:586: error: class, interface, or enum expected
+    public void setEncoding(String encoding) {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:588: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:594: error: class, interface, or enum expected
+    public NestedString createReplaceToken() {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:597: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:599: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:605: error: class, interface, or enum expected
+    public NestedString createReplaceValue() {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:607: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:616: error: class, interface, or enum expected
+    public void setPropertyFile(File filename) {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:618: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:623: error: class, interface, or enum expected
+    public Replacefilter createReplacefilter() {
+           ^
+hybrids/ant/ant/1.5.1/Replace.java:625: error: class, interface, or enum expected
+        replacefilters.addElement(filter);
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:626: error: class, interface, or enum expected
+        return filter;
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:627: error: class, interface, or enum expected
+    }
+    ^
+hybrids/ant/ant/1.5.1/Replace.java:634: error: class, interface, or enum expected
+        int start = 0;
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:635: error: class, interface, or enum expected
+        int found = str.indexOf(str1);
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:636: error: class, interface, or enum expected
+        while (found >= 0) {
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:640: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:645: error: class, interface, or enum expected
+            }
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:649: error: class, interface, or enum expected
+            found = str.indexOf(str1, start);
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:650: error: class, interface, or enum expected
+            ++replaceCount;
+            ^
+hybrids/ant/ant/1.5.1/Replace.java:651: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:656: error: class, interface, or enum expected
+        }
+        ^
+hybrids/ant/ant/1.5.1/Replace.java:659: error: class, interface, or enum expected
+    }
+    ^
+100 errors

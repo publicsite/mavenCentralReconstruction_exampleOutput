@@ -1,0 +1,118 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:10: error: package javax.xml.ws does not exist
+import javax.xml.ws.WebServiceException;
+                   ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:12: error: package javax.xml.ws does not exist
+import javax.xml.ws.ProtocolException;
+                   ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:14: error: package javax.xml.ws.soap does not exist
+import javax.xml.ws.soap.SOAPFaultException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:18: error: package javax.xml.ws does not exist
+import javax.xml.ws.BindingProvider;
+                   ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:22: error: package javax.xml.ws does not exist
+import javax.xml.ws.Service;
+                   ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:23: error: package javax.xml.ws does not exist
+import javax.xml.ws.Service;
+                   ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:24: error: package javax.xml.ws.handler does not exist
+import javax.xml.ws.handler.HandlerResolver;
+                           ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:28: error: cannot find symbol
+    private Service jaxWsService;
+            ^
+  symbol:   class Service
+  location: class JaxWsPortClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:48: error: cannot find symbol
+    public void setJaxWsService(final Service jaxWsService) {
+                                      ^
+  symbol:   class Service
+  location: class JaxWsPortClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:52: error: cannot find symbol
+    public Service getJaxWsService() {
+           ^
+  symbol:   class Service
+  location: class JaxWsPortClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:53: error: cannot find symbol
+	private HandlerResolver handlerResolver;
+	        ^
+  symbol:   class HandlerResolver
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:123: error: cannot find symbol
+	public void setHandlerResolver(HandlerResolver handlerResolver) {
+	                               ^
+  symbol:   class HandlerResolver
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:133: error: cannot find symbol
+	public Service createJaxWsService() {
+	       ^
+  symbol:   class Service
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:134: error: cannot find symbol
+		Service service = (this.wsdlDocumentUrl != null ?
+		^
+  symbol:   class Service
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:135: error: cannot find symbol
+				Service.create(this.wsdlDocumentUrl, getQName(this.serviceName)) :
+				^
+  symbol:   variable Service
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:136: error: cannot find symbol
+				Service.create(getQName(this.serviceName)));
+				^
+  symbol:   variable Service
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:152: error: cannot find symbol
+        Service serviceToUse = this.getJaxWsService();
+        ^
+  symbol:   class Service
+  location: class JaxWsPortClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:198: error: cannot find symbol
+            if (!(stub instanceof BindingProvider)) {
+                                  ^
+  symbol:   class BindingProvider
+  location: class JaxWsPortClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:201: error: cannot find symbol
+            ((BindingProvider)stub).getRequestContext().putAll(stubProperties);
+              ^
+  symbol:   class BindingProvider
+  location: class JaxWsPortClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:225: error: cannot find symbol
+        catch (SOAPFaultException ex) {
+               ^
+  symbol:   class SOAPFaultException
+  location: class JaxWsPortClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/JaxWsSoapFaultException.java:20: error: package javax.xml.soap does not exist
+import javax.xml.soap.SOAPFault;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/JaxWsSoapFaultException.java:21: error: package javax.xml.ws.soap does not exist
+import javax.xml.ws.soap.SOAPFaultException;
+                        ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/JaxWsSoapFaultException.java:38: error: cannot find symbol
+	public JaxWsSoapFaultException(SOAPFaultException original) {
+	                               ^
+  symbol:   class SOAPFaultException
+  location: class JaxWsSoapFaultException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/JaxWsSoapFaultException.java:45: error: cannot find symbol
+	public final SOAPFault getFault() {
+	             ^
+  symbol:   class SOAPFault
+  location: class JaxWsSoapFaultException
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:228: error: cannot find symbol
+        catch (ProtocolException ex2) {
+               ^
+  symbol:   class ProtocolException
+  location: class JaxWsPortClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/JaxWsPortClientInterceptor.java:231: error: cannot find symbol
+        catch (WebServiceException ex3) {
+               ^
+  symbol:   class WebServiceException
+  location: class JaxWsPortClientInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/JaxWsSoapFaultException.java:46: error: cannot find symbol
+		return ((SOAPFaultException) getCause()).getFault();
+		         ^
+  symbol:   class SOAPFaultException
+  location: class JaxWsSoapFaultException
+27 errors

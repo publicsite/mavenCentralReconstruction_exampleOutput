@@ -1,0 +1,301 @@
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:496: error: illegal start of type
+    for (int count = 0; count < mapArr.size(); count++) {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:496: error: > expected
+    for (int count = 0; count < mapArr.size(); count++) {
+                                           ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:496: error: <identifier> expected
+    for (int count = 0; count < mapArr.size(); count++) {
+                                                    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:517: error: class, interface, or enum expected
+  protected Catalog newCatalog() {
+            ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:520: error: class, interface, or enum expected
+    try {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:522: error: class, interface, or enum expected
+      c.setCatalogManager(catalogManager);
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:523: error: class, interface, or enum expected
+      copyReaders(c);
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:524: error: class, interface, or enum expected
+      return c;
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:525: error: class, interface, or enum expected
+    } catch (ClassNotFoundException cnfe) {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:527: error: class, interface, or enum expected
+    } catch (IllegalAccessException iae) {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:529: error: class, interface, or enum expected
+    } catch (InstantiationException ie) {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:531: error: class, interface, or enum expected
+    } catch (ClassCastException cce) {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:533: error: class, interface, or enum expected
+    } catch (Exception e) {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:535: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:538: error: class, interface, or enum expected
+    c.setCatalogManager(catalogManager);
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:539: error: class, interface, or enum expected
+    copyReaders(c);
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:540: error: class, interface, or enum expected
+    return c;
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:541: error: class, interface, or enum expected
+  }
+  ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:546: error: class, interface, or enum expected
+  public String getCurrentBase() {
+         ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:548: error: class, interface, or enum expected
+  }
+  ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:557: error: class, interface, or enum expected
+  public String getDefaultOverride() {
+         ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:560: error: class, interface, or enum expected
+    } else {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:562: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:576: error: class, interface, or enum expected
+  public void loadSystemCatalogs()
+         ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:580: error: class, interface, or enum expected
+    if (catalogs != null) {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:581: error: class, interface, or enum expected
+      for (int count = 0; count < catalogs.size(); count++) {
+                          ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:581: error: class, interface, or enum expected
+      for (int count = 0; count < catalogs.size(); count++) {
+                                                   ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:583: error: class, interface, or enum expected
+      }
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:600: error: class, interface, or enum expected
+      catalogFiles.removeElement(catfile);
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:601: error: class, interface, or enum expected
+      parseCatalog(catfile);
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:602: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:614: error: class, interface, or enum expected
+  public synchronized void parseCatalog(String fileName)
+                      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:618: error: class, interface, or enum expected
+    catalogManager.debug.message(4, "Parse catalog: " + fileName);
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:623: error: class, interface, or enum expected
+    catalogFiles.addElement(fileName);
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:626: error: class, interface, or enum expected
+    parsePendingCatalogs();
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:627: error: class, interface, or enum expected
+  }
+  ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:642: error: class, interface, or enum expected
+  public synchronized void parseCatalog(String mimeType, InputStream is)
+                      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:646: error: class, interface, or enum expected
+    catalogManager.debug.message(4, "Parse " + mimeType + " catalog on input stream");
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:648: error: class, interface, or enum expected
+    CatalogReader reader = null;
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:650: error: class, interface, or enum expected
+    if (readerMap.containsKey(mimeType)) {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:652: error: class, interface, or enum expected
+      reader = (CatalogReader) readerArr.get(arrayPos);
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:653: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:657: error: class, interface, or enum expected
+      catalogManager.debug.message(2, msg);
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:658: error: class, interface, or enum expected
+      throw new CatalogException(CatalogException.UNPARSEABLE, msg);
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:659: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:664: error: class, interface, or enum expected
+    parsePendingCatalogs();
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:665: error: class, interface, or enum expected
+  }
+  ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:682: error: class, interface, or enum expected
+  public synchronized void parseCatalog(URL aUrl) throws IOException {
+                      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:684: error: class, interface, or enum expected
+    base = aUrl;
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:686: error: class, interface, or enum expected
+    default_override = catalogManager.getPreferPublic();
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:687: error: class, interface, or enum expected
+    catalogManager.debug.message(4, "Parse catalog: " + aUrl.toString());
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:689: error: class, interface, or enum expected
+    DataInputStream inStream = null;
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:690: error: class, interface, or enum expected
+    boolean parsed = false;
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:692: error: class, interface, or enum expected
+    for (int count = 0; !parsed && count < readerArr.size(); count++) {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:692: error: class, interface, or enum expected
+    for (int count = 0; !parsed && count < readerArr.size(); count++) {
+                        ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:692: error: class, interface, or enum expected
+    for (int count = 0; !parsed && count < readerArr.size(); count++) {
+                                                             ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:695: error: class, interface, or enum expected
+      try {
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:697: error: class, interface, or enum expected
+      } catch (FileNotFoundException fnfe) {
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:700: error: class, interface, or enum expected
+      }
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:704: error: class, interface, or enum expected
+        parsed=true;
+        ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:705: error: class, interface, or enum expected
+      } catch (CatalogException ce) {
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:709: error: class, interface, or enum expected
+        } else {
+        ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:716: error: class, interface, or enum expected
+      } catch (IOException e) {
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:722: error: class, interface, or enum expected
+  }
+  ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:737: error: class, interface, or enum expected
+      Enumeration q = localCatalogFiles.elements();
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:738: error: class, interface, or enum expected
+      while (q.hasMoreElements()) {
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:740: error: class, interface, or enum expected
+      }
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:743: error: class, interface, or enum expected
+      for (int curCat = 0; curCat < catalogFiles.size(); curCat++) {
+                           ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:743: error: class, interface, or enum expected
+      for (int curCat = 0; curCat < catalogFiles.size(); curCat++) {
+                                                         ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:745: error: class, interface, or enum expected
+	newQueue.addElement(catfile);
+	^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:746: error: class, interface, or enum expected
+      }
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:749: error: class, interface, or enum expected
+      localCatalogFiles.clear();
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:750: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:757: error: class, interface, or enum expected
+      while (e.hasMoreElements()) {
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:759: error: class, interface, or enum expected
+      }
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:761: error: class, interface, or enum expected
+    }
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:768: error: class, interface, or enum expected
+      try {
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:770: error: class, interface, or enum expected
+      } catch (ArrayIndexOutOfBoundsException e) {
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:779: error: class, interface, or enum expected
+	} catch (CatalogException ce) {
+	^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:781: error: class, interface, or enum expected
+	}
+	^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:786: error: class, interface, or enum expected
+      }
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:792: error: class, interface, or enum expected
+	Enumeration q = localCatalogFiles.elements();
+	^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:793: error: class, interface, or enum expected
+	while (q.hasMoreElements()) {
+	^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:795: error: class, interface, or enum expected
+	}
+	^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:798: error: class, interface, or enum expected
+	for (int curCat = 0; curCat < catalogFiles.size(); curCat++) {
+	                     ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:798: error: class, interface, or enum expected
+	for (int curCat = 0; curCat < catalogFiles.size(); curCat++) {
+	                                                   ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:800: error: class, interface, or enum expected
+	  newQueue.addElement(catfile);
+	  ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:801: error: class, interface, or enum expected
+	}
+	^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:804: error: class, interface, or enum expected
+	localCatalogFiles.clear();
+	^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:805: error: class, interface, or enum expected
+      }
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:809: error: class, interface, or enum expected
+	while (e.hasMoreElements()) {
+	^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:811: error: class, interface, or enum expected
+	}
+	^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:813: error: class, interface, or enum expected
+      }
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:818: error: class, interface, or enum expected
+  }
+  ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:837: error: class, interface, or enum expected
+    try {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:840: error: class, interface, or enum expected
+      catalogCwd = new URL("file:" + userdir + "/basename");
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:841: error: class, interface, or enum expected
+    } catch (MalformedURLException e) {
+    ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:843: error: class, interface, or enum expected
+      catalogManager.debug.message(1, "Malformed URL on cwd", userdir);
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:844: error: class, interface, or enum expected
+      catalogCwd = null;
+      ^
+hybrids/xml-resolver/xml-resolver/1.1/Catalog.java:845: error: class, interface, or enum expected
+    }
+    ^
+100 errors

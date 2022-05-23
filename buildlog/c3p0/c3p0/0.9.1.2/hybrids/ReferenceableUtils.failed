@@ -1,0 +1,112 @@
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:62: error: illegal start of expression
+        public Reference ref;
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:65: error: invalid method declaration; return type required
+        private ExtractRec(final Reference ref, final int index) {
+                ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:70: error: class, interface, or enum expected
+}
+^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:73: error: class, interface, or enum expected
+			cl = new URLClassLoader( new URL[] { u }, ClassLoader.getSystemClassLoader() );
+			^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:74: error: class, interface, or enum expected
+		    }
+		    ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:77: error: class, interface, or enum expected
+		ObjectFactory of = (ObjectFactory) fClass.newInstance();
+		^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:78: error: class, interface, or enum expected
+		return of.getObjectInstance( ref, name, nameCtx, env );
+		^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:79: error: class, interface, or enum expected
+	    }
+	    ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:87: error: class, interface, or enum expected
+		    }
+		    ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:89: error: class, interface, or enum expected
+		ne.setRootCause( e );
+		^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:90: error: class, interface, or enum expected
+		throw ne;
+		^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:91: error: class, interface, or enum expected
+	    }
+	    ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:99: error: class, interface, or enum expected
+    public static void appendToReference(Reference appendTo, Reference orig)
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:103: error: class, interface, or enum expected
+	appendTo.add( new StringRefAddr( REFADDR_VERSION, String.valueOf( CURRENT_REF_VERSION ) ) );
+	^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:104: error: class, interface, or enum expected
+	appendTo.add( new StringRefAddr( REFADDR_CLASSNAME, orig.getClassName() ) );
+	^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:105: error: class, interface, or enum expected
+	appendTo.add( new StringRefAddr( REFADDR_FACTORY, orig.getFactoryClassName() ) );
+	^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:106: error: class, interface, or enum expected
+	appendTo.add( new StringRefAddr( REFADDR_FACTORY_CLASS_LOCATION, 
+	^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:108: error: class, interface, or enum expected
+	appendTo.add( new StringRefAddr( REFADDR_SIZE, String.valueOf(len) ) );
+	^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:109: error: class, interface, or enum expected
+	for (int i = 0; i < len; ++i)
+	^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:109: error: class, interface, or enum expected
+	for (int i = 0; i < len; ++i)
+	                ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:109: error: class, interface, or enum expected
+	for (int i = 0; i < len; ++i)
+	                         ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:111: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:118: error: class, interface, or enum expected
+    public static ExtractRec extractNestedReference(Reference extractFrom, int index)
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:124: error: class, interface, or enum expected
+		if (version == 1)
+		^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:127: error: class, interface, or enum expected
+			String factoryClassName = (String) extractFrom.get(index++).getContent();
+			^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:128: error: class, interface, or enum expected
+			String factoryClassLocation = (String) extractFrom.get(index++).getContent();
+			^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:130: error: class, interface, or enum expected
+			Reference outRef = new Reference( className, 
+			^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:133: error: class, interface, or enum expected
+			int size = Integer.parseInt((String) extractFrom.get(index++).getContent());
+			^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:134: error: class, interface, or enum expected
+			for (int i = 0; i < size; ++i)
+			^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:134: error: class, interface, or enum expected
+			for (int i = 0; i < size; ++i)
+			                ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:134: error: class, interface, or enum expected
+			for (int i = 0; i < size; ++i)
+			                          ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:136: error: class, interface, or enum expected
+			return new ExtractRec( outRef, index );
+			^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:137: error: class, interface, or enum expected
+		    }
+		    ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:140: error: class, interface, or enum expected
+	    }
+	    ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:148: error: class, interface, or enum expected
+		    }
+		    ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:150: error: class, interface, or enum expected
+	    }
+	    ^
+hybrids/c3p0/c3p0/0.9.1.2/ReferenceableUtils.java:175: error: class, interface, or enum expected
+    private ReferenceableUtils()
+            ^
+37 errors

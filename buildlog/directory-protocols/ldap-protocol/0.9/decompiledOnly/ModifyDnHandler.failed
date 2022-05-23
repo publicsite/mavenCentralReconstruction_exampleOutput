@@ -1,0 +1,92 @@
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:10: error: cannot find symbol
+import org.apache.ldap.common.message.ResultCodeEnum;
+                                     ^
+  symbol:   class ResultCodeEnum
+  location: package org.apache.ldap.common.message
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:12: error: cannot find symbol
+import org.apache.ldap.common.util.ExceptionUtils;
+                                  ^
+  symbol:   class ExceptionUtils
+  location: package org.apache.ldap.common.util
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:14: error: cannot find symbol
+import org.apache.ldap.common.name.LdapName;
+                                  ^
+  symbol:   class LdapName
+  location: package org.apache.ldap.common.name
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:35: error: cannot find symbol
+                final LdapName oldDn = new LdapName(req.getName());
+                      ^
+  symbol:   class LdapName
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:35: error: cannot find symbol
+                final LdapName oldDn = new LdapName(req.getName());
+                                           ^
+  symbol:   class LdapName
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:36: error: cannot find symbol
+                final LdapName newDn = new LdapName(req.getNewSuperior());
+                      ^
+  symbol:   class LdapName
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:36: error: cannot find symbol
+                final LdapName newDn = new LdapName(req.getNewSuperior());
+                                           ^
+  symbol:   class LdapName
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:43: error: cannot find symbol
+                ctx.rename((Name)new LdapName(req.getName()), (Name)newDn);
+                                     ^
+  symbol:   class LdapName
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:46: error: cannot find symbol
+                final LdapName newDn2 = new LdapName(req.getName());
+                      ^
+  symbol:   class LdapName
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:46: error: cannot find symbol
+                final LdapName newDn2 = new LdapName(req.getName());
+                                            ^
+  symbol:   class LdapName
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:49: error: cannot find symbol
+                ctx.rename((Name)new LdapName(req.getName()), (Name)newDn2);
+                                     ^
+  symbol:   class LdapName
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:54: error: cannot find symbol
+            msg += ExceptionUtils.getStackTrace((Throwable)e);
+                   ^
+  symbol:   variable ExceptionUtils
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:55: error: cannot find symbol
+            ResultCodeEnum code;
+            ^
+  symbol:   class ResultCodeEnum
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:57: error: cannot access ResultCodeEnum
+                code = ((LdapException)e).getResultCode();
+                                                       ^
+  class file for org.apache.ldap.common.message.ResultCodeEnum not found
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:60: error: cannot access MessageTypeEnum
+                code = ResultCodeEnum.getBestEstimate((Throwable)e, req.getType());
+                                                                               ^
+  class file for org.apache.ldap.common.message.MessageTypeEnum not found
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:60: error: cannot find symbol
+                code = ResultCodeEnum.getBestEstimate((Throwable)e, req.getType());
+                       ^
+  symbol:   variable ResultCodeEnum
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/ModifyDnHandler.java:70: error: cannot find symbol
+        resp.getLdapResult().setResultCode(ResultCodeEnum.SUCCESS);
+                                           ^
+  symbol:   variable ResultCodeEnum
+  location: class ModifyDnHandler
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SessionRegistry.java:55: error: incompatible types: Object cannot be converted to LdapContext
+            ctx = this.contexts.get(session);
+                                   ^
+sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SessionRegistry.java:63: error: incompatible types: Object cannot be converted to InitialContextFactory
+                final InitialContextFactory factory = this.env.get("server.use.factory.instance");
+                                                                  ^
+Note: sources/structure/directory-protocols/ldap-protocol/0.9/Decompiled/org/apache/ldap/server/protocol/SessionRegistry.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors

@@ -1,0 +1,21 @@
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/DocumentBuilderFactory.java:20: error: package exists in another module: java.xml
+package javax.xml.parsers;
+^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/DocumentBuilderFactory.java:103: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            return (DocumentBuilderFactory) FactoryFinder.find(
+                                            ^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/DocumentBuilderFactory.java:109: error: package FactoryFinder does not exist
+        catch (FactoryFinder.ConfigurationError e) {
+                            ^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/DocumentBuilderFactory.java:126: error: cannot find symbol
+            classLoader = SecuritySupport.getContextClassLoader();
+                          ^
+  symbol:   variable SecuritySupport
+  location: class DocumentBuilderFactory
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/DocumentBuilderFactory.java:129: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            return (DocumentBuilderFactory) FactoryFinder.newInstance(factoryClassName, classLoader, false);
+                                            ^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/parsers/DocumentBuilderFactory.java:131: error: package FactoryFinder does not exist
+        catch (FactoryFinder.ConfigurationError e) {
+                            ^
+6 errors

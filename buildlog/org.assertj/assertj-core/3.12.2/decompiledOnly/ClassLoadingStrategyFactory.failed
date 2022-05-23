@@ -1,0 +1,24 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/ClassLoadingStrategyFactory.java:7: error: package org.assertj.core.internal.bytebuddy.dynamic.loading does not exist
+import org.assertj.core.internal.bytebuddy.dynamic.loading.ClassInjector;
+                                                          ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/ClassLoadingStrategyFactory.java:8: error: package org.assertj.core.internal.bytebuddy.dynamic.loading does not exist
+import org.assertj.core.internal.bytebuddy.dynamic.loading.ClassLoadingStrategy;
+                                                          ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/ClassLoadingStrategyFactory.java:17: error: cannot find symbol
+    static ClassLoadingStrategy<ClassLoader> classLoadingStrategy(final Class<?> assertClass) {
+           ^
+  symbol:   class ClassLoadingStrategy
+  location: class ClassLoadingStrategyFactory
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/ClassLoadingStrategyFactory.java:18: error: package ClassInjector does not exist
+        if (ClassInjector.UsingReflection.isAvailable()) {
+                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/ClassLoadingStrategyFactory.java:19: error: package ClassLoadingStrategy does not exist
+            return ClassLoadingStrategy.Default.INJECTION;
+                                       ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/ClassLoadingStrategyFactory.java:21: error: package ClassInjector does not exist
+        if (ClassInjector.UsingLookup.isAvailable()) {
+                         ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/api/ClassLoadingStrategyFactory.java:23: error: package ClassLoadingStrategy does not exist
+                return ClassLoadingStrategy.UsingLookup.of(ClassLoadingStrategyFactory.PRIVATE_LOOKUP_IN.invoke(null, assertClass, ClassLoadingStrategyFactory.LOOKUP));
+                                           ^
+7 errors

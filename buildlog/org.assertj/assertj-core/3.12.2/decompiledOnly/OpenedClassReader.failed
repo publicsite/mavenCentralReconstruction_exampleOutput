@@ -1,0 +1,34 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/OpenedClassReader.java:9: error: package org.assertj.core.internal.bytebuddy.utility.privilege does not exist
+import org.assertj.core.internal.bytebuddy.utility.privilege.GetSystemPropertyAction;
+                                                            ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/OpenedClassReader.java:10: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.jar.asm.ClassReader;
+                                                  ^
+  symbol:   class ClassReader
+  location: package org.assertj.core.internal.bytebuddy.jar.asm
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/OpenedClassReader.java:22: error: cannot find symbol
+    public static ClassReader of(final byte[] binaryRepresentation) {
+                  ^
+  symbol:   class ClassReader
+  location: class OpenedClassReader
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/OpenedClassReader.java:28: error: cannot find symbol
+            final ClassReader classReader = new ClassReader(binaryRepresentation);
+                  ^
+  symbol:   class ClassReader
+  location: class OpenedClassReader
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/OpenedClassReader.java:28: error: cannot find symbol
+            final ClassReader classReader = new ClassReader(binaryRepresentation);
+                                                ^
+  symbol:   class ClassReader
+  location: class OpenedClassReader
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/OpenedClassReader.java:32: error: cannot find symbol
+        return new ClassReader(binaryRepresentation);
+                   ^
+  symbol:   class ClassReader
+  location: class OpenedClassReader
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/utility/OpenedClassReader.java:38: error: cannot find symbol
+            experimental = Boolean.parseBoolean(AccessController.doPrivileged((PrivilegedAction<String>)new GetSystemPropertyAction("org.assertj.core.internal.bytebuddy.experimental")));
+                                                                                                            ^
+  symbol:   class GetSystemPropertyAction
+  location: class OpenedClassReader
+7 errors

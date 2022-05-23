@@ -1,0 +1,104 @@
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:18: error: package org.junit.platform.launcher does not exist
+import org.junit.platform.launcher.TestPlan;
+                                  ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:19: error: package org.junit.platform.engine does not exist
+import org.junit.platform.engine.TestExecutionResult;
+                                ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:21: error: package org.junit.platform.engine.reporting does not exist
+import org.junit.platform.engine.reporting.ReportEntry;
+                                          ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:22: error: package org.junit.platform.launcher does not exist
+import org.junit.platform.launcher.TestIdentifier;
+                                  ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:27: error: package org.junit.platform.launcher does not exist
+import org.junit.platform.launcher.TestExecutionListener;
+                                  ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:29: error: cannot find symbol
+public class IssueExtensionExecutionListener implements TestExecutionListener
+                                                        ^
+  symbol: class TestExecutionListener
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/issue/IssueTestCaseBuilder.java:13: error: package org.junit.platform.engine.TestExecutionResult does not exist
+import org.junit.platform.engine.TestExecutionResult.Status;
+                                                    ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:40: error: cannot find symbol
+    public void reportingEntryPublished(final TestIdentifier testIdentifier, final ReportEntry entry) {
+                                              ^
+  symbol:   class TestIdentifier
+  location: class IssueExtensionExecutionListener
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:40: error: cannot find symbol
+    public void reportingEntryPublished(final TestIdentifier testIdentifier, final ReportEntry entry) {
+                                                                                   ^
+  symbol:   class ReportEntry
+  location: class IssueExtensionExecutionListener
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:52: error: cannot find symbol
+    public void executionFinished(final TestIdentifier testIdentifier, final TestExecutionResult testExecutionResult) {
+                                        ^
+  symbol:   class TestIdentifier
+  location: class IssueExtensionExecutionListener
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:52: error: cannot find symbol
+    public void executionFinished(final TestIdentifier testIdentifier, final TestExecutionResult testExecutionResult) {
+                                                                             ^
+  symbol:   class TestExecutionResult
+  location: class IssueExtensionExecutionListener
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:65: error: cannot find symbol
+    public void testPlanExecutionFinished(final TestPlan testPlan) {
+                                                ^
+  symbol:   class TestPlan
+  location: class IssueExtensionExecutionListener
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/IssueTestCase.java:17: error: package org.junit.platform.engine.TestExecutionResult does not exist
+import org.junit.platform.engine.TestExecutionResult.Status;
+                                                    ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/IssueTestCase.java:33: error: cannot find symbol
+	private final Status result;
+	              ^
+  symbol:   class Status
+  location: class IssueTestCase
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/IssueTestCase.java:41: error: cannot find symbol
+	public IssueTestCase(String testId, Status result) {
+	                                    ^
+  symbol:   class Status
+  location: class IssueTestCase
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/IssueTestCase.java:59: error: cannot find symbol
+	public Status result() {
+	       ^
+  symbol:   class Status
+  location: class IssueTestCase
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/issue/IssueTestCaseBuilder.java:20: error: cannot find symbol
+	private Status result;
+	        ^
+  symbol:   class Status
+  location: class IssueTestCaseBuilder
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/issue/IssueTestCaseBuilder.java:26: error: cannot find symbol
+	public IssueTestCaseBuilder setResult(Status result) {
+	                                      ^
+  symbol:   class Status
+  location: class IssueTestCaseBuilder
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:59: error: package TestExecutionResult does not exist
+                final TestExecutionResult.Status result = testExecutionResult.getStatus();
+                                         ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:83: error: incompatible types: Collector<Object,CAP#1,List<Object>> cannot be converted to Collector<? super Object,?,List<IssueTestSuite>>
+        })).entrySet().stream().map(issueIdWithTestCases -> new IssueTestSuite(issueIdWithTestCases.getKey(), (List<IssueTestCase>)((ArrayList)issueIdWithTestCases.getValue()).stream().map(IssueTestCaseBuilder::build).collect(Collectors.toList()))).collect((Collector<? super Object, ?, List<IssueTestSuite>>)Collectors.toList());
+                                                                                                                                                                                                                                                                                                                                      ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:77: error: incompatible types: invalid method reference
+        final List<IssueTestSuite> suites = this.testCases.values().stream().collect(Collectors.toMap((Function<? super Object, ?>)IssueTestCaseBuilder::getIssueId, builder -> {
+                                                                                                                                   ^
+    method getIssueId in class IssueTestCaseBuilder cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:83: error: incompatible types: invalid method reference
+        })).entrySet().stream().map(issueIdWithTestCases -> new IssueTestSuite(issueIdWithTestCases.getKey(), (List<IssueTestCase>)((ArrayList)issueIdWithTestCases.getValue()).stream().map(IssueTestCaseBuilder::build).collect(Collectors.toList()))).collect((Collector<? super Object, ?, List<IssueTestSuite>>)Collectors.toList());
+                                                                                                                                                                                             ^
+    method build in class IssueTestCaseBuilder cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java:83: error: incompatible types: Object cannot be converted to String
+        })).entrySet().stream().map(issueIdWithTestCases -> new IssueTestSuite(issueIdWithTestCases.getKey(), (List<IssueTestCase>)((ArrayList)issueIdWithTestCases.getValue()).stream().map(IssueTestCaseBuilder::build).collect(Collectors.toList()))).collect((Collector<? super Object, ?, List<IssueTestSuite>>)Collectors.toList());
+                                                                                                          ^
+Note: sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/issue/IssueExtensionExecutionListener.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+23 errors

@@ -1,0 +1,56 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:7: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:8: error: package org.assertj.core.internal.bytebuddy.description.method does not exist
+import org.assertj.core.internal.bytebuddy.description.method.MethodDescription;
+                                                             ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:10: error: package MethodDelegationBinder does not exist
+public enum DeclaringTypeResolver implements MethodDelegationBinder.AmbiguityResolver
+                                                                   ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:14: error: cannot find symbol
+    public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+                                    ^
+  symbol:   class MethodDescription
+  location: class DeclaringTypeResolver
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:14: error: package MethodDelegationBinder does not exist
+    public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+                                                                                          ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:14: error: package MethodDelegationBinder does not exist
+    public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+                                                                                                                                           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:14: error: cannot find symbol
+    public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+           ^
+  symbol:   class Resolution
+  location: class DeclaringTypeResolver
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:15: error: cannot find symbol
+        final TypeDescription leftType = left.getTarget().getDeclaringType().asErasure();
+              ^
+  symbol:   class TypeDescription
+  location: class DeclaringTypeResolver
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:16: error: cannot find symbol
+        final TypeDescription rightType = right.getTarget().getDeclaringType().asErasure();
+              ^
+  symbol:   class TypeDescription
+  location: class DeclaringTypeResolver
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:18: error: cannot find symbol
+            return Resolution.AMBIGUOUS;
+                   ^
+  symbol:   variable Resolution
+  location: class DeclaringTypeResolver
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:21: error: cannot find symbol
+            return Resolution.RIGHT;
+                   ^
+  symbol:   variable Resolution
+  location: class DeclaringTypeResolver
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:24: error: cannot find symbol
+            return Resolution.LEFT;
+                   ^
+  symbol:   variable Resolution
+  location: class DeclaringTypeResolver
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/DeclaringTypeResolver.java:26: error: cannot find symbol
+        return Resolution.AMBIGUOUS;
+               ^
+  symbol:   variable Resolution
+  location: class DeclaringTypeResolver
+13 errors

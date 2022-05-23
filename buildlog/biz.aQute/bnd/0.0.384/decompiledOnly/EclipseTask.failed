@@ -1,0 +1,38 @@
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/EclipseTask.java:10: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.BuildException;
+                           ^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/ant/BaseTask.java:10: error: cannot find symbol
+public class BaseTask extends Task implements Reporter {
+                              ^
+  symbol: class Task
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/EclipseTask.java:31: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class EclipseTask
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/ant/BaseTask.java:6: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/EclipseTask.java:34: error: cannot find symbol
+                this.projectLocation = this.getProject().getBaseDir();
+                                           ^
+  symbol: method getProject()
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/EclipseTask.java:41: error: cannot find symbol
+                throw new BuildException("Errors during Eclipse Path inspection");
+                          ^
+  symbol:   class BuildException
+  location: class EclipseTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/EclipseTask.java:57: error: cannot find symbol
+            throw new BuildException("Error during parsing Eclipse .classpath files", (Throwable)e);
+                      ^
+  symbol:   class BuildException
+  location: class EclipseTask
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/EclipseTask.java:71: error: cannot find symbol
+            this.getProject().setProperty(n, v);
+                ^
+  symbol: method getProject()
+sources/structure/biz.aQute/bnd/0.0.384/Decompiled/aQute/bnd/ant/EclipseTask.java:82: error: cannot find symbol
+            this.prebuild.add(BaseTask.getFile(this.getProject().getBaseDir().getParentFile(), st.nextToken()));
+                                                   ^
+  symbol: method getProject()
+9 errors

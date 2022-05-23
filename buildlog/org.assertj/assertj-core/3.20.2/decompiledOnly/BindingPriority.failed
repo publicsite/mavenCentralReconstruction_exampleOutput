@@ -1,0 +1,52 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:7: error: package org.assertj.core.internal.bytebuddy.implementation.bind.MethodDelegationBinder does not exist
+import org.assertj.core.internal.bytebuddy.implementation.bind.MethodDelegationBinder.AmbiguityResolver;
+                                                                                     ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:8: error: package org.assertj.core.internal.bytebuddy.description.method does not exist
+import org.assertj.core.internal.bytebuddy.description.method.MethodDescription;
+                                                             ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:9: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationDescription;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:10: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.implementation.bind.MethodDelegationBinder;
+                                                              ^
+  symbol:   class MethodDelegationBinder
+  location: package org.assertj.core.internal.bytebuddy.implementation.bind
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:26: error: package MethodDelegationBinder does not exist
+    public enum Resolver implements MethodDelegationBinder.AmbiguityResolver
+                                                          ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:30: error: package AnnotationDescription does not exist
+        private static int resolve(final AnnotationDescription.Loadable<BindingPriority> bindingPriority) {
+                                                              ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:34: error: cannot find symbol
+        public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+                                        ^
+  symbol:   class MethodDescription
+  location: class Resolver
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:34: error: package MethodDelegationBinder does not exist
+        public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+                                                                                              ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:34: error: package MethodDelegationBinder does not exist
+        public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+                                                                                                                                               ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:34: error: cannot find symbol
+        public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+               ^
+  symbol:   class Resolution
+  location: class Resolver
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:38: error: cannot find symbol
+                return Resolution.AMBIGUOUS;
+                       ^
+  symbol:   variable Resolution
+  location: class Resolver
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:41: error: cannot find symbol
+                return Resolution.RIGHT;
+                       ^
+  symbol:   variable Resolution
+  location: class Resolver
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/annotation/BindingPriority.java:43: error: cannot find symbol
+            return Resolution.LEFT;
+                   ^
+  symbol:   variable Resolution
+  location: class Resolver
+13 errors

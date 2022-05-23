@@ -1,0 +1,39 @@
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:14: error: cannot find symbol
+import javax.servlet.jsp.tagext.TagSupport;
+                               ^
+  symbol:   class TagSupport
+  location: package javax.servlet.jsp.tagext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:16: error: cannot find symbol
+public abstract class TransactionTagSupport extends TagSupport implements TryCatchFinally
+                                                    ^
+  symbol: class TagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/sql/TransactionTagSupport.java:39: error: cannot find symbol
+        final DataSource dataSource = DataSourceUtil.getDataSource(this.rawDataSource, this.pageContext);
+                                                                                           ^
+  symbol: variable pageContext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.java:25: error: cannot find symbol
+import javax.servlet.jsp.PageContext;
+                        ^
+  symbol:   class PageContext
+  location: package javax.servlet.jsp
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.java:26: error: cannot find symbol
+import javax.servlet.jsp.jstl.core.Config;
+                                  ^
+  symbol:   class Config
+  location: package javax.servlet.jsp.jstl.core
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.java:50: error: cannot find symbol
+    static DataSource getDataSource(Object rawDataSource, PageContext pc)
+                                                          ^
+  symbol:   class PageContext
+  location: class DataSourceUtil
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.java:55: error: cannot find symbol
+            rawDataSource = Config.find(pc, Config.SQL_DATA_SOURCE);
+                                            ^
+  symbol:   variable Config
+  location: class DataSourceUtil
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/extractedSources/org/apache/taglibs/standard/tag/common/sql/DataSourceUtil.java:55: error: cannot find symbol
+            rawDataSource = Config.find(pc, Config.SQL_DATA_SOURCE);
+                            ^
+  symbol:   variable Config
+  location: class DataSourceUtil
+8 errors

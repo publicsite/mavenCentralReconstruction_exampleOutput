@@ -1,0 +1,120 @@
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:7: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallSequence.java:6: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallCollection.java:3: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallCollection.java:7: error: cannot find symbol
+    protected AssertionFailedError createUnexpectedCallError(String methodName, Object[] args) {
+              ^
+  symbol:   class AssertionFailedError
+  location: class CallCollection
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallOnceExpectation.java:3: error: package junit.framework does not exist
+import junit.framework.*;
+^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallSignature.java:3: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallSignature.java:5: error: cannot find symbol
+public class CallSignature extends Assert implements Callable 
+                                   ^
+  symbol: class Assert
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:90: error: cannot find symbol
+		} catch (AssertionFailedError ex) {
+		         ^
+  symbol:   class AssertionFailedError
+  location: class Mock
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:91: error: cannot find symbol
+			throw new AssertionFailedError(name + ": " + ex.getMessage());
+			          ^
+  symbol:   class AssertionFailedError
+  location: class Mock
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:106: error: cannot find symbol
+		} catch (AssertionFailedError ex) {
+		         ^
+  symbol:   class AssertionFailedError
+  location: class Mock
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:107: error: cannot find symbol
+			throw new AssertionFailedError(name + ": " + ex.getMessage());
+			          ^
+  symbol:   class AssertionFailedError
+  location: class Mock
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:237: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public void expect(String methodName, CallSequence deprecated) {
+	            ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:238: error: cannot find symbol
+		throw new AssertionFailedError("method is deprecated! Use: new OrderedMock() instead...");
+		          ^
+  symbol:   class AssertionFailedError
+  location: class Mock
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:243: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public void expectAndReturn(String methodName, CallSequence deprecated, Object result) {
+	            ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:244: error: cannot find symbol
+		throw new AssertionFailedError("method is deprecated! Use: new OrderedMock() instead...");
+		          ^
+  symbol:   class AssertionFailedError
+  location: class Mock
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:249: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public void expectAndThrow(String methodName, CallSequence deprecated, Throwable throwable) {
+	            ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:250: error: cannot find symbol
+		throw new AssertionFailedError("method is deprecated! Use: new OrderedMock() instead...");
+		          ^
+  symbol:   class AssertionFailedError
+  location: class Mock
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:255: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public void expectVoid(String methodName, ConstraintMatcher args) {
+	            ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:261: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public void expectVoid(String methodName, Object equalArg) {
+	            ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:267: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public void expectVoid(String methodName) {
+	            ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/Mock.java:273: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public void expectNotCalled(String methodName) {
+	            ^
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallCollection.java:15: error: cannot find symbol
+        return new AssertionFailedError(buf.toString());
+                   ^
+  symbol:   class AssertionFailedError
+  location: class CallCollection
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallSequence.java:21: error: cannot find symbol
+		if (expectedCalls.size() == 0) throw new AssertionFailedError("no methods defined on mock, received: " + DynamicUtil.methodToString(methodName, args));
+		                                         ^
+  symbol:   class AssertionFailedError
+  location: class CallSequence
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallSequence.java:22: error: cannot find symbol
+		if (callIndex == expectedCalls.size()) throw new AssertionFailedError("mock called too many times, received: " + DynamicUtil.methodToString(methodName, args));
+		                                                 ^
+  symbol:   class AssertionFailedError
+  location: class CallSequence
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallSequence.java:30: error: cannot find symbol
+		} catch (AssertionFailedError ex) {
+		         ^
+  symbol:   class AssertionFailedError
+  location: class CallSequence
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallSequence.java:55: error: cannot find symbol
+		throw new AssertionFailedError("matches() operation not supported in CallSequence");
+		          ^
+  symbol:   class AssertionFailedError
+  location: class CallSequence
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallOnceExpectation.java:28: error: cannot find symbol
+			throw new AssertionFailedError( delegate.getDescription() + " was expected but not called" );
+			          ^
+  symbol:   class AssertionFailedError
+  location: class CallOnceExpectation
+sources/structure/mockobjects/mockobjects-core/0.09/extractedSources/com/mockobjects/dynamic/CallSignature.java:37: error: cannot find symbol
+		return Mock.className(this.getClass()) + "(" + this.getDescription() + ")";
+		                          ^
+  symbol: method getClass()
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+21 errors
+7 warnings

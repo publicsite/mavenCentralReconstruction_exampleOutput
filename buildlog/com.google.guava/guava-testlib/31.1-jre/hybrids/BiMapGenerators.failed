@@ -1,0 +1,78 @@
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:20: error: cannot find symbol
+import com.google.common.collect.BiMap;
+                                ^
+  symbol:   class BiMap
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:21: error: cannot find symbol
+import com.google.common.collect.ImmutableBiMap;
+                                ^
+  symbol:   class ImmutableBiMap
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:22: error: cannot find symbol
+import com.google.common.collect.Maps;
+                                ^
+  symbol:   class Maps
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestStringBiMapGenerator.java:20: error: cannot find symbol
+import com.google.common.collect.BiMap;
+                                ^
+  symbol:   class BiMap
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestBiMapGenerator.java:20: error: cannot find symbol
+import com.google.common.collect.BiMap;
+                                ^
+  symbol:   class BiMap
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestBiMapGenerator.java:30: error: cannot find symbol
+public interface TestBiMapGenerator<K, V> extends TestContainerGenerator<BiMap<K, V>, Entry<K, V>> {
+                                                                         ^
+  symbol: class BiMap
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:37: error: cannot find symbol
+    protected BiMap<String, String> create(Entry<String, String>[] entries) {
+              ^
+  symbol:   class BiMap
+  location: class ImmutableBiMapGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestStringBiMapGenerator.java:48: error: cannot find symbol
+  public final BiMap<String, String> create(Object... entries) {
+               ^
+  symbol:   class BiMap
+  location: class TestStringBiMapGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestStringBiMapGenerator.java:60: error: cannot find symbol
+  protected abstract BiMap<String, String> create(Entry<String, String>[] entries);
+                     ^
+  symbol:   class BiMap
+  location: class TestStringBiMapGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:48: error: cannot find symbol
+    protected BiMap<String, String> create(Entry<String, String>[] entries) {
+              ^
+  symbol:   class BiMap
+  location: class ImmutableBiMapCopyOfGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:59: error: cannot find symbol
+    protected BiMap<String, String> create(Entry<String, String>[] entries) {
+              ^
+  symbol:   class BiMap
+  location: class ImmutableBiMapCopyOfEntriesGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:38: error: package ImmutableBiMap does not exist
+      ImmutableBiMap.Builder<String, String> builder = ImmutableBiMap.builder();
+                    ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:38: error: cannot find symbol
+      ImmutableBiMap.Builder<String, String> builder = ImmutableBiMap.builder();
+                                                       ^
+  symbol:   variable ImmutableBiMap
+  location: class ImmutableBiMapGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:49: error: cannot find symbol
+      Map<String, String> builder = Maps.newLinkedHashMap();
+                                    ^
+  symbol:   variable Maps
+  location: class ImmutableBiMapCopyOfGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:53: error: cannot find symbol
+      return ImmutableBiMap.copyOf(builder);
+             ^
+  symbol:   variable ImmutableBiMap
+  location: class ImmutableBiMapCopyOfGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/BiMapGenerators.java:60: error: cannot find symbol
+      return ImmutableBiMap.copyOf(Arrays.asList(entries));
+             ^
+  symbol:   variable ImmutableBiMap
+  location: class ImmutableBiMapCopyOfEntriesGenerator
+16 errors

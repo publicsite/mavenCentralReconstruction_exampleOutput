@@ -1,0 +1,32 @@
+hybrids/com.google.guava/guava-testlib/31.1-jre/CollectorTester.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/CollectorTester.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+hybrids/com.google.guava/guava-testlib/31.1-jre/CollectorTester.java:72: error: cannot find symbol
+    this.collector = checkNotNull(collector);
+                     ^
+  symbol:   method checkNotNull(Collector<T,A,R>)
+  location: class CollectorTester<T,A,R>
+  where T,A,R are type-variables:
+    T extends Object declared in class CollectorTester
+    A extends Object declared in class CollectorTester
+    R extends Object declared in class CollectorTester
+hybrids/com.google.guava/guava-testlib/31.1-jre/CollectorTester.java:73: error: cannot find symbol
+    this.equivalence = checkNotNull(equivalence);
+                       ^
+  symbol:   method checkNotNull(BiPredicate<CAP#1,CAP#2>)
+  location: class CollectorTester<T,A,R>
+  where R,T,A are type-variables:
+    R extends Object declared in class CollectorTester
+    T extends Object declared in class CollectorTester
+    A extends Object declared in class CollectorTester
+  where CAP#1,CAP#2 are fresh type-variables:
+    CAP#1 extends Object super: R from capture of ? super R
+    CAP#2 extends Object super: R from capture of ? super R
+Note: hybrids/com.google.guava/guava-testlib/31.1-jre/CollectorTester.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: hybrids/com.google.guava/guava-testlib/31.1-jre/CollectorTester.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors

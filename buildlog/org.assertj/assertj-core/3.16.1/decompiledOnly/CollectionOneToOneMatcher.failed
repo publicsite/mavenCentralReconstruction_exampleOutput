@@ -1,0 +1,51 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:10: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:13: error: package ElementMatcher.Junction does not exist
+public class CollectionOneToOneMatcher<T> extends ElementMatcher.Junction.AbstractBase<Iterable<? extends T>>
+                                                                         ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:12: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:15: error: cannot find symbol
+    private final List<? extends ElementMatcher<? super T>> matchers;
+                                 ^
+  symbol:   class ElementMatcher
+  location: class CollectionOneToOneMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CollectionOneToOneMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:17: error: cannot find symbol
+    public CollectionOneToOneMatcher(final List<? extends ElementMatcher<? super T>> matchers) {
+                                                          ^
+  symbol:   class ElementMatcher
+  location: class CollectionOneToOneMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CollectionOneToOneMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:25: error: cannot find symbol
+        final Iterator<? extends ElementMatcher<? super T>> iterator = this.matchers.iterator();
+                                 ^
+  symbol:   class ElementMatcher
+  location: class CollectionOneToOneMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CollectionOneToOneMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:27: error: cannot find symbol
+            if (!iterator.hasNext() || !((ElementMatcher)iterator.next()).matches(value)) {
+                                          ^
+  symbol:   class ElementMatcher
+  location: class CollectionOneToOneMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class CollectionOneToOneMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:34: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:50: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:52: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matchers.equals(((CollectionOneToOneMatcher)o).matchers));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/CollectionOneToOneMatcher.java:55: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+11 errors

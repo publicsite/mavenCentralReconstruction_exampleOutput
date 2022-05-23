@@ -1,0 +1,53 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:362: error: cannot find symbol
+			extends edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap
+			                                                      ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/ConstructorResolver.java:128: error: incompatible types: Object cannot be converted to Exception
+                                        this.beanFactory.onSuppressedException(it.next());
+                                                                                      ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/ConstructorResolver.java:256: error: incompatible types: Object cannot be converted to Exception
+                                            this.beanFactory.onSuppressedException(it.next());
+                                                                                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/ConstructorResolver.java:308: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry entry : cargs.getIndexedArgumentValues().entrySet()) {
+                                                                              ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/ConstructorResolver.java:309: error: incompatible types: Object cannot be converted to int
+            final int index = entry.getKey();
+                                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/ConstructorResolver.java:316: error: incompatible types: Object cannot be converted to ValueHolder
+            final ConstructorArgumentValues.ValueHolder valueHolder = entry.getValue();
+                                                                                    ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/ConstructorResolver.java:327: error: incompatible types: Object cannot be converted to ValueHolder
+        for (final ConstructorArgumentValues.ValueHolder valueHolder2 : cargs.getGenericArgumentValues()) {
+                                                                                                      ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/ConstructorResolver.java:398: error: incompatible types: Object cannot be converted to String
+        for (final String autowiredBeanName : autowiredBeanNames) {
+                                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/BeanWrapperImpl.java:355: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public Object doTypeConversionIfNecessary(Object value, Class requiredType) throws TypeMismatchException {
+	              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:110: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Set createLinkedSetIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:147: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createLinkedMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:179: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createIdentityMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:342: error: cannot find symbol
+			return new edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap(initialCapacity);
+			                                                         ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:361: error: BackportConcurrentHashMap is not abstract and does not override abstract method replace(Object,Object) in ConcurrentMap
+	private static class BackportConcurrentHashMap
+	               ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+10 errors
+4 warnings

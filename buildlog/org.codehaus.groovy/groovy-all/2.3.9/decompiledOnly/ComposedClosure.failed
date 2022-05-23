@@ -1,0 +1,132 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:8: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:10: error: cannot find symbol
+public final class ComposedClosure<V> extends Closure<V>
+                                              ^
+  symbol: class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:12: error: cannot find symbol
+    private Closure first;
+            ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:13: error: cannot find symbol
+    private Closure<V> second;
+            ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:15: error: cannot find symbol
+    public ComposedClosure(final Closure first, final Closure<V> second) {
+                                 ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:15: error: cannot find symbol
+    public ComposedClosure(final Closure first, final Closure<V> second) {
+                                                      ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:17: error: cannot find symbol
+        this.first = (Closure)this.getOwner();
+                      ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:17: error: cannot find symbol
+        this.first = (Closure)this.getOwner();
+                                  ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:18: error: cannot find symbol
+        this.second = (Closure<V>)second.clone();
+                       ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:19: error: cannot find symbol
+        this.maximumNumberOfParameters = first.getMaximumNumberOfParameters();
+            ^
+  symbol: variable maximumNumberOfParameters
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:22: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:24: error: cannot find symbol
+        ((Closure)this.getOwner()).setDelegate(delegate);
+          ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:24: error: cannot find symbol
+        ((Closure)this.getOwner()).setDelegate(delegate);
+                      ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:30: error: cannot find symbol
+        return ((Closure)this.getOwner()).getDelegate();
+                 ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:30: error: cannot find symbol
+        return ((Closure)this.getOwner()).getDelegate();
+                             ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:35: error: cannot find symbol
+        ((Closure)this.getOwner()).setResolveStrategy(resolveStrategy);
+          ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:35: error: cannot find symbol
+        ((Closure)this.getOwner()).setResolveStrategy(resolveStrategy);
+                      ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:39: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:41: error: cannot find symbol
+        return ((Closure)this.getOwner()).getResolveStrategy();
+                 ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:41: error: cannot find symbol
+        return ((Closure)this.getOwner()).getResolveStrategy();
+                             ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:44: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:46: error: cannot find symbol
+        return new ComposedClosure(this.first, (Closure<Object>)this.second);
+                                                ^
+  symbol:   class Closure
+  location: class ComposedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class ComposedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:49: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/ComposedClosure.java:58: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+26 errors

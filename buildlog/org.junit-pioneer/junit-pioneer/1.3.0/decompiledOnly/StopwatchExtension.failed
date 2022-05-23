@@ -1,0 +1,49 @@
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:7: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:9: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.AfterTestExecutionCallback;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:10: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.BeforeTestExecutionCallback;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:12: error: cannot find symbol
+class StopwatchExtension implements BeforeTestExecutionCallback, AfterTestExecutionCallback
+                                    ^
+  symbol: class BeforeTestExecutionCallback
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:12: error: cannot find symbol
+class StopwatchExtension implements BeforeTestExecutionCallback, AfterTestExecutionCallback
+                                                                 ^
+  symbol: class AfterTestExecutionCallback
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:15: error: package ExtensionContext does not exist
+    private static final ExtensionContext.Namespace NAMESPACE;
+                                         ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:22: error: cannot find symbol
+    public void beforeTestExecution(final ExtensionContext context) {
+                                          ^
+  symbol:   class ExtensionContext
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:26: error: cannot find symbol
+    public void afterTestExecution(final ExtensionContext context) {
+                                         ^
+  symbol:   class ExtensionContext
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:30: error: cannot find symbol
+    void storeNowAsLaunchTime(final ExtensionContext context) {
+                                    ^
+  symbol:   class ExtensionContext
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:34: error: cannot find symbol
+    long loadLaunchTime(final ExtensionContext context) {
+                              ^
+  symbol:   class ExtensionContext
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:38: error: cannot find symbol
+    void calculateAndReportElapsedTime(final ExtensionContext context) {
+                                             ^
+  symbol:   class ExtensionContext
+  location: class StopwatchExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/Decompiled/org/junitpioneer/jupiter/StopwatchExtension.java:46: error: package ExtensionContext does not exist
+        NAMESPACE = ExtensionContext.Namespace.create(new Object[] { StopwatchExtension.class });
+                                    ^
+12 errors

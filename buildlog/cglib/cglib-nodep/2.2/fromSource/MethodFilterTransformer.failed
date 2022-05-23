@@ -1,0 +1,56 @@
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassTransformer.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassAdapter;
+                        ^
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassTransformer.java:20: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassTransformer.java:22: error: cannot find symbol
+abstract public class AbstractClassTransformer extends ClassAdapter implements ClassTransformer {
+                                                       ^
+  symbol: class ClassAdapter
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/ClassTransformer.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassVisitor;
+                        ^
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/ClassTransformer.java:20: error: cannot find symbol
+public interface ClassTransformer extends ClassVisitor {
+                                          ^
+  symbol: class ClassVisitor
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/MethodFilterTransformer.java:23: error: cannot find symbol
+    private ClassVisitor direct;
+            ^
+  symbol:   class ClassVisitor
+  location: class MethodFilterTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/MethodFilterTransformer.java:31: error: cannot find symbol
+    public MethodVisitor visitMethod(int access,
+           ^
+  symbol:   class MethodVisitor
+  location: class MethodFilterTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/MethodFilterTransformer.java:39: error: cannot find symbol
+    public void setTarget(ClassVisitor target) {
+                          ^
+  symbol:   class ClassVisitor
+  location: class MethodFilterTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassTransformer.java:27: error: cannot find symbol
+    public void setTarget(ClassVisitor target) {
+                          ^
+  symbol:   class ClassVisitor
+  location: class AbstractClassTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/ClassTransformer.java:21: error: cannot find symbol
+    public void setTarget(ClassVisitor target);
+                          ^
+  symbol:   class ClassVisitor
+  location: interface ClassTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/MethodFilterTransformer.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.*;
+^
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/AbstractClassTransformer.java:28: error: cannot find symbol
+        cv = target;
+        ^
+  symbol:   variable cv
+  location: class AbstractClassTransformer
+sources/structure/cglib/cglib-nodep/2.2/extractedSources/net/sf/cglib/transform/MethodFilterTransformer.java:36: error: cannot find symbol
+        return (filter.accept(access, name, desc, signature, exceptions) ? pass : direct).visitMethod(access, name, desc, signature, exceptions);
+                                                                                         ^
+  symbol:   method visitMethod(int,String,String,String,String[])
+  location: interface ClassTransformer
+13 errors

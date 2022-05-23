@@ -1,0 +1,40 @@
+hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java:18: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassWriter;
+                        ^
+hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java:19: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassReader;
+                        ^
+hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java:20: error: package org.objectweb.asm.util does not exist
+import org.objectweb.asm.util.TraceClassVisitor;
+                             ^
+hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java:24: error: cannot find symbol
+public class DebuggingClassWriter extends ClassWriter {
+                                          ^
+  symbol: class ClassWriter
+hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java:58: error: cannot find symbol
+        super.visit(version, access, name, signature, superName, interfaces);
+        ^
+  symbol:   variable super
+  location: class DebuggingClassWriter
+hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java:76: error: not an enclosing class: DebuggingClassWriter
+                byte[] b = DebuggingClassWriter.super.toByteArray();
+                                               ^
+hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java:94: error: cannot find symbol
+                                ClassReader cr = new ClassReader(b);
+                                ^
+  symbol: class ClassReader
+hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java:94: error: cannot find symbol
+                                ClassReader cr = new ClassReader(b);
+                                                     ^
+  symbol: class ClassReader
+hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java:96: error: cannot find symbol
+                                TraceClassVisitor tcv = new TraceClassVisitor(null, pw);
+                                ^
+  symbol: class TraceClassVisitor
+hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java:96: error: cannot find symbol
+                                TraceClassVisitor tcv = new TraceClassVisitor(null, pw);
+                                                            ^
+  symbol: class TraceClassVisitor
+Note: hybrids/cglib/cglib-nodep/2.2.2/DebuggingClassWriter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+10 errors

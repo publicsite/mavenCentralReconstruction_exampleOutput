@@ -1,0 +1,57 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/client/impl/AbstractGwtSpecificValidator.java:118: error: incompatible types: Annotation cannot be converted to A
+        validator.initialize((Annotation)constraintDescriptor.getAnnotation());
+                             ^
+  where A,T,V,G are type-variables:
+    A extends Annotation declared in method <A,T,V>validate(GwtValidationContext<T>,Set<ConstraintViolation<T>>,G,V,ConstraintValidator<A,? super V>,ConstraintDescriptorImpl<A>,Class<?>...)
+    T extends Object declared in method <A,T,V>validate(GwtValidationContext<T>,Set<ConstraintViolation<T>>,G,V,ConstraintValidator<A,? super V>,ConstraintDescriptorImpl<A>,Class<?>...)
+    V extends Object declared in method <A,T,V>validate(GwtValidationContext<T>,Set<ConstraintViolation<T>>,G,V,ConstraintValidator<A,? super V>,ConstraintDescriptorImpl<A>,Class<?>...)
+    G extends Object declared in class AbstractGwtSpecificValidator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/client/impl/AbstractGwtSpecificValidator.java:126: error: incompatible types: Object cannot be converted to CAP#1
+        if (!validator.isValid((Object)value, (ConstraintValidatorContext)constraintValidatorContext)) {
+                               ^
+  where V,A,T,G are type-variables:
+    V extends Object declared in method <A,T,V>validate(GwtValidationContext<T>,Set<ConstraintViolation<T>>,G,V,ConstraintValidator<A,? super V>,ConstraintDescriptorImpl<A>,Class<?>...)
+    A extends Annotation declared in method <A,T,V>validate(GwtValidationContext<T>,Set<ConstraintViolation<T>>,G,V,ConstraintValidator<A,? super V>,ConstraintDescriptorImpl<A>,Class<?>...)
+    T extends Object declared in method <A,T,V>validate(GwtValidationContext<T>,Set<ConstraintViolation<T>>,G,V,ConstraintValidator<A,? super V>,ConstraintDescriptorImpl<A>,Class<?>...)
+    G extends Object declared in class AbstractGwtSpecificValidator
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: V from capture of ? super V
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/validation/client/impl/AbstractGwtSpecificValidator.java:154: error: incompatible types: Class<T> cannot be converted to Class<Object>
+        final ConstraintViolation<T> violation = (ConstraintViolation<T>)ConstraintViolationImpl.builder().setConstraintDescriptor((ConstraintDescriptor<?>)constraintDescriptor).setInvalidValue(value).setLeafBean(object).setMessage(message).setMessageTemplate(messageAndPath.getMessage()).setPropertyPath(messageAndPath.getPath()).setRootBean(context.getRootBean()).setRootBeanClass(context.getRootBeanClass()).setElementType(constraintDescriptor.getElementType()).build();
+                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+  where T,V,A,G are type-variables:
+    T extends Object declared in method <T,V,A>createConstraintViolation(GwtValidationContext<T>,G,V,ConstraintDescriptorImpl<A>,MessageAndPath)
+    V extends Object declared in method <T,V,A>createConstraintViolation(GwtValidationContext<T>,G,V,ConstraintDescriptorImpl<A>,MessageAndPath)
+    A extends Annotation declared in method <T,V,A>createConstraintViolation(GwtValidationContext<T>,G,V,ConstraintDescriptorImpl<A>,MessageAndPath)
+    G extends Object declared in class AbstractGwtSpecificValidator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/validation/client/impl/ConstraintDescriptorImpl.java:35: error: ConstraintDescriptorImpl is not abstract and does not override abstract method <U>unwrap(Class<U>) in ConstraintDescriptor
+public final class ConstraintDescriptorImpl<T extends Annotation> implements
+             ^
+  where U is a type-variable:
+    U extends Object declared in method <U>unwrap(Class<U>)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/validation/client/impl/ConstraintValidatorContextImpl.java:39: error: ConstraintValidatorContextImpl is not abstract and does not override abstract method <T>unwrap(Class<T>) in ConstraintValidatorContext
+public final class ConstraintValidatorContextImpl<A extends Annotation, T>
+             ^
+  where T is a type-variable:
+    T extends Object declared in method <T>unwrap(Class<T>)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/validation/client/impl/ConstraintValidatorContextImpl.java:46: error: ConstraintValidatorContextImpl.ConstraintViolationBuilderImpl is not abstract and does not override abstract method addParameterNode(int) in ConstraintViolationBuilder
+  public final class ConstraintViolationBuilderImpl implements
+               ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/validation/client/impl/ConstraintValidatorContextImpl.java:79: error: ConstraintValidatorContextImpl.NodeBuilderCustomizableContextImpl is not abstract and does not override abstract method addContainerElementNode(String,Class<?>,Integer) in NodeBuilderCustomizableContext
+  public final class NodeBuilderCustomizableContextImpl implements
+               ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/validation/client/impl/ConstraintValidatorContextImpl.java:112: error: ConstraintValidatorContextImpl.NodeBuilderDefinedContextImpl is not abstract and does not override abstract method addContainerElementNode(String,Class<?>,Integer) in NodeBuilderDefinedContext
+  public final class NodeBuilderDefinedContextImpl implements
+               ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/validation/client/impl/ConstraintValidatorContextImpl.java:142: error: ConstraintValidatorContextImpl.NodeContextBuilderImpl is not abstract and does not override abstract method addContainerElementNode(String,Class<?>,Integer) in NodeContextBuilder
+  public final class NodeContextBuilderImpl implements NodeContextBuilder {
+               ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/validation/client/impl/ConstraintViolationImpl.java:31: error: ConstraintViolationImpl is not abstract and does not override abstract method <U>unwrap(Class<U>) in ConstraintViolation
+public final class ConstraintViolationImpl<T> implements ConstraintViolation<T>,
+             ^
+  where U is a type-variable:
+    U extends Object declared in method <U>unwrap(Class<U>)
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/validation/client/impl/ConstraintValidatorContextImpl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+10 errors

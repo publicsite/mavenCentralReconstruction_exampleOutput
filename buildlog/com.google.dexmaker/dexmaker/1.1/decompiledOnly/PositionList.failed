@@ -1,0 +1,78 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:7: error: cannot find symbol
+import com.google.dexmaker.dx.rop.code.SourcePosition;
+                                      ^
+  symbol:   class SourcePosition
+  location: package com.google.dexmaker.dx.rop.code
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:8: error: cannot find symbol
+import com.google.dexmaker.dx.util.FixedSizeList;
+                                  ^
+  symbol:   class FixedSizeList
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:10: error: cannot find symbol
+public final class PositionList extends FixedSizeList
+                                        ^
+  symbol: class FixedSizeList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:17: error: cannot find symbol
+    public static PositionList make(final DalvInsnList insns, final int howMuch) {
+                                          ^
+  symbol:   class DalvInsnList
+  location: class PositionList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:81: error: cannot find symbol
+        private final SourcePosition position;
+                      ^
+  symbol:   class SourcePosition
+  location: class Entry
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:83: error: cannot find symbol
+        public Entry(final int address, final SourcePosition position) {
+                                              ^
+  symbol:   class SourcePosition
+  location: class Entry
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:98: error: cannot find symbol
+        public SourcePosition getPosition() {
+               ^
+  symbol:   class SourcePosition
+  location: class Entry
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:24: error: cannot find symbol
+                SourcePosition cur;
+                ^
+  symbol:   class SourcePosition
+  location: class PositionList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:25: error: cannot find symbol
+                final SourcePosition noInfo = cur = SourcePosition.NO_INFO;
+                      ^
+  symbol:   class SourcePosition
+  location: class PositionList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:25: error: cannot find symbol
+                final SourcePosition noInfo = cur = SourcePosition.NO_INFO;
+                                                    ^
+  symbol:   variable SourcePosition
+  location: class PositionList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:31: error: cannot find symbol
+                    final DalvInsn insn = insns.get(i);
+                          ^
+  symbol:   class DalvInsn
+  location: class PositionList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:32: error: cannot find symbol
+                    if (insn instanceof CodeAddress) {
+                                        ^
+  symbol:   class CodeAddress
+  location: class PositionList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:36: error: cannot find symbol
+                        final SourcePosition pos = insn.getPosition();
+                              ^
+  symbol:   class SourcePosition
+  location: class PositionList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:53: error: cannot find symbol
+                result.setImmutable();
+                      ^
+  symbol:   method setImmutable()
+  location: variable result of type PositionList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:67: error: cannot find symbol
+        return (Entry)this.get0(n);
+                          ^
+  symbol: method get0(int)
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/code/PositionList.java:71: error: cannot find symbol
+        this.set0(n, entry);
+            ^
+  symbol: method set0(int,Entry)
+16 errors

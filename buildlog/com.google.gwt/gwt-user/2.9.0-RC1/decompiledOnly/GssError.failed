@@ -1,0 +1,47 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/ast/GssError.java:8: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Strings;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/ast/GssError.java:9: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Preconditions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/ast/GssError.java:10: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.SourceCodeLocation;
+                                           ^
+  symbol:   class SourceCodeLocation
+  location: package com.google.gwt.thirdparty.common.css
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/ast/GssError.java:15: error: cannot find symbol
+    private SourceCodeLocation location;
+            ^
+  symbol:   class SourceCodeLocation
+  location: class GssError
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/ast/GssError.java:19: error: cannot find symbol
+    public GssError(final String message, final SourceCodeLocation location) {
+                                                ^
+  symbol:   class SourceCodeLocation
+  location: class GssError
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/ast/GssError.java:28: error: cannot find symbol
+    public SourceCodeLocation getLocation() {
+           ^
+  symbol:   class SourceCodeLocation
+  location: class GssError
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/ast/GssError.java:22: error: cannot find symbol
+        Preconditions.checkNotNull((Object)message);
+        ^
+  symbol:   variable Preconditions
+  location: class GssError
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/ast/GssError.java:23: error: cannot find symbol
+        Preconditions.checkNotNull((Object)location);
+        ^
+  symbol:   variable Preconditions
+  location: class GssError
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/ast/GssError.java:61: error: cannot find symbol
+            return new MessageFormatArgs("{0} at line {1} column {2}:\n{3}\n{4}^\n", new Object[] { this.message, this.location.getBeginLineNumber(), this.location.getBeginIndexInLine(), this.getLine(), Strings.repeat(" ", this.location.getBeginIndexInLine() - 1) });
+                                                                                                                                                                                                           ^
+  symbol:   variable Strings
+  location: class GssError
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/ast/GssError.java:63: error: cannot find symbol
+        return new MessageFormatArgs("{0} in {1} at line {2} column {3}:\n{4}\n{5}^\n", new Object[] { this.message, this.location.getSourceCode().getFileName(), this.location.getBeginLineNumber(), this.location.getBeginIndexInLine(), this.getLine(), Strings.repeat(" ", this.location.getBeginIndexInLine() - 1) });
+                                                                                                                                                                                                                                                           ^
+  symbol:   variable Strings
+  location: class GssError
+10 errors

@@ -1,0 +1,126 @@
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:29: error: package org.osgi.service.log does not exist
+import org.osgi.service.log.LogService;
+                           ^
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:30: error: cannot find symbol
+import org.osgi.util.tracker.BundleTracker;
+                            ^
+  symbol:   class BundleTracker
+  location: package org.osgi.util.tracker
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:31: error: cannot find symbol
+import org.osgi.util.tracker.ServiceTracker;
+                            ^
+  symbol:   class ServiceTracker
+  location: package org.osgi.util.tracker
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:32: error: cannot find symbol
+import org.osgi.util.tracker.ServiceTrackerCustomizer;
+                            ^
+  symbol:   class ServiceTrackerCustomizer
+  location: package org.osgi.util.tracker
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:42: error: cannot find symbol
+    protected BundleTracker bt;
+              ^
+  symbol:   class BundleTracker
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:44: error: cannot find symbol
+    protected ServiceTracker lst;
+              ^
+  symbol:   class ServiceTracker
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:52: error: cannot find symbol
+    List<LogService> logServices = new ArrayList<LogService>();
+         ^
+  symbol:   class LogService
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:92: error: cannot find symbol
+	private final class LogServiceTracker extends ServiceTracker {
+	                                              ^
+  symbol:   class ServiceTracker
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:94: error: cannot find symbol
+                ServiceTrackerCustomizer customizer) {
+                ^
+  symbol:   class ServiceTrackerCustomizer
+  location: class Activator.LogServiceTracker
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/Decompiled/org/apache/geronimo/osgi/registry/ProviderRegistryImpl.java:204: error: incompatible types: Object cannot be converted to String
+            final String exportedProviders = this.bundle.getHeaders().get("Export-SPI-Provider");
+                                                                         ^
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:52: error: cannot find symbol
+    List<LogService> logServices = new ArrayList<LogService>();
+                                                 ^
+  symbol:   class LogService
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:58: error: cannot find symbol
+        lst = new LogServiceTracker(context, LogService.class.getName(), null);
+                                             ^
+  symbol:   class LogService
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:65: error: cannot find symbol
+	    bt = new BundleTracker(context, Bundle.ACTIVE, new ProviderBundleTrackerCustomizer(this, context.getBundle(), registry));
+	             ^
+  symbol:   class BundleTracker
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/ProviderBundleTrackerCustomizer.java:23: error: package org.osgi.service.log does not exist
+import org.osgi.service.log.LogService;
+                           ^
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/ProviderBundleTrackerCustomizer.java:24: error: cannot find symbol
+import org.osgi.util.tracker.BundleTrackerCustomizer;
+                            ^
+  symbol:   class BundleTrackerCustomizer
+  location: package org.osgi.util.tracker
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/ProviderBundleTrackerCustomizer.java:26: error: cannot find symbol
+public class ProviderBundleTrackerCustomizer implements BundleTrackerCustomizer {
+                                                        ^
+  symbol: class BundleTrackerCustomizer
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:78: error: cannot find symbol
+	        for (LogService log : logServices) {
+	             ^
+  symbol:   class LogService
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:86: error: cannot find symbol
+            for (LogService log : logServices) {
+                 ^
+  symbol:   class LogService
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:98: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:100: error: cannot find symbol
+            Object svc = super.addingService(reference);
+                              ^
+  symbol: method addingService(ServiceReference)
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:101: error: cannot find symbol
+            if (svc instanceof LogService) {
+                               ^
+  symbol:   class LogService
+  location: class Activator.LogServiceTracker
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:103: error: cannot find symbol
+                    logServices.add((LogService) svc);
+                                     ^
+  symbol:   class LogService
+  location: class Activator.LogServiceTracker
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:109: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/Activator.java:114: error: cannot find symbol
+            super.removedService(reference, service);
+                 ^
+  symbol: method removedService(ServiceReference,Object)
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/ProviderBundleTrackerCustomizer.java:48: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/ProviderBundleTrackerCustomizer.java:50: error: cannot find symbol
+        log(LogService.LOG_DEBUG, "Bundle Considered for class providers: " + bundle.getSymbolicName());
+            ^
+  symbol:   variable LogService
+  location: class ProviderBundleTrackerCustomizer
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/ProviderBundleTrackerCustomizer.java:58: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/extractedSources/org/apache/geronimo/osgi/registry/ProviderBundleTrackerCustomizer.java:63: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+Note: sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/Decompiled/org/apache/geronimo/osgi/registry/ProviderRegistryImpl.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.apache.geronimo.specs/geronimo-osgi-registry/1.1/Decompiled/org/apache/geronimo/osgi/registry/ProviderRegistryImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+28 errors

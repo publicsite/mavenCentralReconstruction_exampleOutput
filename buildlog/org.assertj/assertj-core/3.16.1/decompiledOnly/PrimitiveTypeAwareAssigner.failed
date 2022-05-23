@@ -1,0 +1,68 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:7: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDefinition;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:8: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.implementation.bytecode.StackManipulation;
+                                                                  ^
+  symbol:   class StackManipulation
+  location: package org.assertj.core.internal.bytebuddy.implementation.bytecode
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:9: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:10: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:11: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.implementation.bytecode.assign.Assigner;
+                                                                         ^
+  symbol:   class Assigner
+  location: package org.assertj.core.internal.bytebuddy.implementation.bytecode.assign
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:14: error: cannot find symbol
+public class PrimitiveTypeAwareAssigner implements Assigner
+                                                   ^
+  symbol: class Assigner
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:13: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:16: error: cannot find symbol
+    private final Assigner referenceTypeAwareAssigner;
+                  ^
+  symbol:   class Assigner
+  location: class PrimitiveTypeAwareAssigner
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:18: error: cannot find symbol
+    public PrimitiveTypeAwareAssigner(final Assigner referenceTypeAwareAssigner) {
+                                            ^
+  symbol:   class Assigner
+  location: class PrimitiveTypeAwareAssigner
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:22: error: package TypeDescription does not exist
+    public StackManipulation assign(final TypeDescription.Generic source, final TypeDescription.Generic target, final Typing typing) {
+                                                         ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:22: error: package TypeDescription does not exist
+    public StackManipulation assign(final TypeDescription.Generic source, final TypeDescription.Generic target, final Typing typing) {
+                                                                                               ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:22: error: cannot find symbol
+    public StackManipulation assign(final TypeDescription.Generic source, final TypeDescription.Generic target, final Typing typing) {
+                                                                                                                      ^
+  symbol:   class Typing
+  location: class PrimitiveTypeAwareAssigner
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:22: error: cannot find symbol
+    public StackManipulation assign(final TypeDescription.Generic source, final TypeDescription.Generic target, final Typing typing) {
+           ^
+  symbol:   class StackManipulation
+  location: class PrimitiveTypeAwareAssigner
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:24: error: cannot find symbol
+            return PrimitiveWideningDelegate.forPrimitive(source).widenTo(target);
+                   ^
+  symbol:   variable PrimitiveWideningDelegate
+  location: class PrimitiveTypeAwareAssigner
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:27: error: cannot find symbol
+            return PrimitiveBoxingDelegate.forPrimitive(source).assignBoxedTo(target, this.referenceTypeAwareAssigner, typing);
+                   ^
+  symbol:   variable PrimitiveBoxingDelegate
+  location: class PrimitiveTypeAwareAssigner
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveTypeAwareAssigner.java:30: error: cannot find symbol
+            return PrimitiveUnboxingDelegate.forReferenceType(source).assignUnboxedTo(target, this.referenceTypeAwareAssigner, typing);
+                   ^
+  symbol:   variable PrimitiveUnboxingDelegate
+  location: class PrimitiveTypeAwareAssigner
+16 errors

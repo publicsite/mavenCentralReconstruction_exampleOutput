@@ -1,0 +1,61 @@
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:8: error: cannot find symbol
+public class BndCompletionProcessor implements IContentAssistProcessor {
+                                               ^
+  symbol: class IContentAssistProcessor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:10: error: cannot find symbol
+    public ICompletionProposal[] computeCompletionProposals(ITextViewer viewer,
+                                                            ^
+  symbol:   class ITextViewer
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:10: error: cannot find symbol
+    public ICompletionProposal[] computeCompletionProposals(ITextViewer viewer,
+           ^
+  symbol:   class ICompletionProposal
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:22: error: cannot find symbol
+    public IContextInformation[] computeContextInformation(ITextViewer viewer,
+                                                           ^
+  symbol:   class ITextViewer
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:22: error: cannot find symbol
+    public IContextInformation[] computeContextInformation(ITextViewer viewer,
+           ^
+  symbol:   class IContextInformation
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:36: error: cannot find symbol
+    public IContextInformationValidator getContextInformationValidator() {
+           ^
+  symbol:   class IContextInformationValidator
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:3: error: package org.eclipse.jface.text does not exist
+import org.eclipse.jface.text.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:4: error: package org.eclipse.jface.text.contentassist does not exist
+import org.eclipse.jface.text.contentassist.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:12: error: cannot find symbol
+        ICompletionProposal[] result= new ICompletionProposal[Syntax.HELP.size()];
+        ^
+  symbol:   class ICompletionProposal
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:12: error: cannot find symbol
+        ICompletionProposal[] result= new ICompletionProposal[Syntax.HELP.size()];
+                                          ^
+  symbol:   class ICompletionProposal
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:15: error: cannot find symbol
+            IContextInformation info= new ContextInformation(
+            ^
+  symbol:   class IContextInformation
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:15: error: cannot find symbol
+            IContextInformation info= new ContextInformation(
+                                          ^
+  symbol:   class ContextInformation
+  location: class BndCompletionProcessor
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/plugin/editors/BndCompletionProcessor.java:17: error: cannot find symbol
+            result[i++]= new CompletionProposal(s.getHeader()+": ", offset-1, 1, s.getHeader().length()+2, null, s.getHeader(), info, s.getLead()); //$NON-NLS-1$
+                             ^
+  symbol:   class CompletionProposal
+  location: class BndCompletionProcessor
+13 errors

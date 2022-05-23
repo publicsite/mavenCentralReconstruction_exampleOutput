@@ -1,0 +1,59 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:7: error: cannot find symbol
+import com.google.dexmaker.dx.util.FixedSizeList;
+                                  ^
+  symbol:   class FixedSizeList
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:9: error: cannot find symbol
+public final class AnnotationsList extends FixedSizeList
+                                           ^
+  symbol: class FixedSizeList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:32: error: cannot find symbol
+    public Annotations get(final int n) {
+           ^
+  symbol:   class Annotations
+  location: class AnnotationsList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:36: error: cannot find symbol
+    public void set(final int n, final Annotations a) {
+                                       ^
+  symbol:   class Annotations
+  location: class AnnotationsList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:14: error: cannot find symbol
+        final int size = list1.size();
+                              ^
+  symbol:   method size()
+  location: variable list1 of type AnnotationsList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:15: error: cannot find symbol
+        if (size != list2.size()) {
+                         ^
+  symbol:   method size()
+  location: variable list2 of type AnnotationsList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:20: error: cannot find symbol
+            final Annotations a1 = list1.get(i);
+                  ^
+  symbol:   class Annotations
+  location: class AnnotationsList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:21: error: cannot find symbol
+            final Annotations a2 = list2.get(i);
+                  ^
+  symbol:   class Annotations
+  location: class AnnotationsList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:22: error: cannot find symbol
+            result.set(i, Annotations.combine(a1, a2));
+                          ^
+  symbol:   variable Annotations
+  location: class AnnotationsList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:24: error: cannot find symbol
+        result.setImmutable();
+              ^
+  symbol:   method setImmutable()
+  location: variable result of type AnnotationsList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:33: error: cannot find symbol
+        return (Annotations)this.get0(n);
+                ^
+  symbol:   class Annotations
+  location: class AnnotationsList
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/annotation/AnnotationsList.java:33: error: cannot find symbol
+        return (Annotations)this.get0(n);
+                                ^
+  symbol: method get0(int)
+12 errors

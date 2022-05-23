@@ -1,0 +1,130 @@
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:7: error: package org.opentest4j does not exist
+import org.opentest4j.MultipleFailuresError;
+                     ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:9: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.CollectionUtils;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/RunnerTestDescriptor.java:20: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.Logger;
+                                         ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/RunnerTestDescriptor.java:21: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.LoggerFactory;
+                                         ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:16: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.CollectionUtils.getOnlyElement;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:16: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.CollectionUtils.getOnlyElement;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:17: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.FunctionUtils.where;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:17: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.FunctionUtils.where;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:18: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.findMethods;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:18: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.findMethods;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:19: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.StringUtils.isNotBlank;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:19: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.StringUtils.isNotBlank;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:31: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/RunnerTestDescriptor.java:37: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(RunnerTestDescriptor.class);
+	                     ^
+  symbol:   class Logger
+  location: class RunnerTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:49: error: cannot find symbol
+        final Stream<Object> concat = Stream.concat((Stream<?>)Stream.of((T)runnerTestDescriptor), this.runnerDescendants.stream());
+                                                                          ^
+  symbol:   class T
+  location: class TestRun
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:52: error: incompatible types: invalid method reference
+        this.descriptionToDescriptors = concat.map((Function<? super Object, ?>)obj::cast).collect((Collector<? super Object, ?, Map<Description, List<VintageTestDescriptor>>>)Collectors.groupingBy((Function<? super Object, ?>)VintageTestDescriptor::getDescription, HashMap::new, (Collector<? super Object, ?, Object>)Collectors.toCollection((Supplier<D>)ArrayList::new)));
+                                                                                                                                                                                                                                   ^
+    method getDescription in class VintageTestDescriptor cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:52: error: cannot find symbol
+        this.descriptionToDescriptors = concat.map((Function<? super Object, ?>)obj::cast).collect((Collector<? super Object, ?, Map<Description, List<VintageTestDescriptor>>>)Collectors.groupingBy((Function<? super Object, ?>)VintageTestDescriptor::getDescription, HashMap::new, (Collector<? super Object, ?, Object>)Collectors.toCollection((Supplier<D>)ArrayList::new)));
+                                                                                                                                                                                                                                                                                                                                                                ^
+  symbol:   class D
+  location: class TestRun
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:52: error: incompatible types: Collector<Object,CAP#1,HashMap<CAP#2,Object>> cannot be converted to Collector<? super Object,?,Map<Description,List<VintageTestDescriptor>>>
+        this.descriptionToDescriptors = concat.map((Function<? super Object, ?>)obj::cast).collect((Collector<? super Object, ?, Map<Description, List<VintageTestDescriptor>>>)Collectors.groupingBy((Function<? super Object, ?>)VintageTestDescriptor::getDescription, HashMap::new, (Collector<? super Object, ?, Object>)Collectors.toCollection((Supplier<D>)ArrayList::new)));
+                                                                                                                                                                                                     ^
+  where CAP#1,CAP#2 are fresh type-variables:
+    CAP#1 extends Object from capture of ?
+    CAP#2 extends Object from capture of ?
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:74: error: cannot find symbol
+            return Optional.of(CollectionUtils.getOnlyElement((Collection)descriptors));
+                               ^
+  symbol:   variable CollectionUtils
+  location: class TestRun
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:112: error: incompatible types: invalid method reference
+        return testDescriptors.stream().allMatch((Predicate<? super Object>)this::isFinishedOrSkipped);
+                                                                            ^
+    incompatible types: Object cannot be converted to TestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:132: error: incompatible types: Collector<Object,CAP#1,List<Object>> cannot be converted to Collector<? super Object,?,List<Throwable>>
+        final List<Throwable> failures = testExecutionResults.stream().map((Function<? super Object, ?>)TestExecutionResult::getThrowable).map((Function<? super Object, ?>)Optional::get).collect((Collector<? super Object, ?, List<Throwable>>)Collectors.toList());
+                                                                                                                                                                                                                                                                   ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:132: error: incompatible types: invalid method reference
+        final List<Throwable> failures = testExecutionResults.stream().map((Function<? super Object, ?>)TestExecutionResult::getThrowable).map((Function<? super Object, ?>)Optional::get).collect((Collector<? super Object, ?, List<Throwable>>)Collectors.toList());
+                                                                                                                                                                            ^
+    method get in class Optional<T> cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Optional
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:132: error: incompatible types: invalid method reference
+        final List<Throwable> failures = testExecutionResults.stream().map((Function<? super Object, ?>)TestExecutionResult::getThrowable).map((Function<? super Object, ?>)Optional::get).collect((Collector<? super Object, ?, List<Throwable>>)Collectors.toList());
+                                                                                                        ^
+    method getThrowable in class TestExecutionResult cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java:133: error: cannot find symbol
+        return TestExecutionResult.failed((Throwable)new MultipleFailuresError("", (List)failures));
+                                                         ^
+  symbol:   class MultipleFailuresError
+  location: class TestRun
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:76: error: cannot find symbol
+			if (isNotBlank(className)) {
+			    ^
+  symbol:   method isNotBlank(String)
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:136: error: cannot find symbol
+					.map(ReflectionUtils::getAllAssignmentCompatibleClasses)
+					     ^
+  symbol:   variable ReflectionUtils
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:167: error: cannot find symbol
+			List<Method> methods = findMethods(testClass, where(Method::getName, isEqual(methodName)));
+			                                              ^
+  symbol:   method where(Method::getName,Predicate<Object>)
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:168: error: cannot find symbol
+			return (methods.size() == 1) ? MethodSource.from(testClass, getOnlyElement(methods)) : null;
+			                                                            ^
+  symbol:   method getOnlyElement(List<Method>)
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/RunnerTestDescriptor.java:37: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(RunnerTestDescriptor.class);
+	                                     ^
+  symbol:   variable LoggerFactory
+  location: class RunnerTestDescriptor
+Note: sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/execution/TestRun.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+29 errors

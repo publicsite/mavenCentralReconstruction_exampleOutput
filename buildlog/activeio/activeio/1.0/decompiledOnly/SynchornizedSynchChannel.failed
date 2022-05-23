@@ -1,0 +1,57 @@
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:10: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.Mutex;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:12: error: package EDU.oswego.cs.dl.util.concurrent does not exist
+import EDU.oswego.cs.dl.util.concurrent.Sync;
+                                       ^
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:17: error: cannot find symbol
+    private final Sync readLock;
+                  ^
+  symbol:   class Sync
+  location: class SynchornizedSynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:18: error: cannot find symbol
+    private final Sync writeLock;
+                  ^
+  symbol:   class Sync
+  location: class SynchornizedSynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:24: error: cannot find symbol
+    public SynchornizedSynchChannel(final SynchChannel next, final Sync readLock, final Sync writeLock) {
+                                                                   ^
+  symbol:   class Sync
+  location: class SynchornizedSynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:24: error: cannot find symbol
+    public SynchornizedSynchChannel(final SynchChannel next, final Sync readLock, final Sync writeLock) {
+                                                                                        ^
+  symbol:   class Sync
+  location: class SynchornizedSynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:100: error: cannot find symbol
+    public Sync getReadLock() {
+           ^
+  symbol:   class Sync
+  location: class SynchornizedSynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:104: error: cannot find symbol
+    public Sync getWriteLock() {
+           ^
+  symbol:   class Sync
+  location: class SynchornizedSynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:21: error: cannot find symbol
+        this(next, (Sync)new Mutex(), (Sync)new Mutex());
+                    ^
+  symbol:   class Sync
+  location: class SynchornizedSynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:21: error: cannot find symbol
+        this(next, (Sync)new Mutex(), (Sync)new Mutex());
+                             ^
+  symbol:   class Mutex
+  location: class SynchornizedSynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:21: error: cannot find symbol
+        this(next, (Sync)new Mutex(), (Sync)new Mutex());
+                                       ^
+  symbol:   class Sync
+  location: class SynchornizedSynchChannel
+sources/structure/activeio/activeio/1.0/Decompiled/org/activeio/filter/SynchornizedSynchChannel.java:21: error: cannot find symbol
+        this(next, (Sync)new Mutex(), (Sync)new Mutex());
+                                                ^
+  symbol:   class Mutex
+  location: class SynchornizedSynchChannel
+12 errors

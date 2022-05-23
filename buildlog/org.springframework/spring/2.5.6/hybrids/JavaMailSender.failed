@@ -1,0 +1,47 @@
+hybrids/org.springframework/spring/2.5.6/JavaMailSender.java:21: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMessage;
+                          ^
+hybrids/org.springframework/spring/2.5.6/JavaMailSender.java:73: error: cannot find symbol
+	MimeMessage createMimeMessage();
+	^
+  symbol:   class MimeMessage
+  location: interface JavaMailSender
+hybrids/org.springframework/spring/2.5.6/JavaMailSender.java:83: error: cannot find symbol
+	MimeMessage createMimeMessage(InputStream contentStream) throws MailException;
+	^
+  symbol:   class MimeMessage
+  location: interface JavaMailSender
+hybrids/org.springframework/spring/2.5.6/JavaMailSender.java:95: error: cannot find symbol
+	void send(MimeMessage mimeMessage) throws MailException;
+	          ^
+  symbol:   class MimeMessage
+  location: interface JavaMailSender
+hybrids/org.springframework/spring/2.5.6/JavaMailSender.java:107: error: cannot find symbol
+	void send(MimeMessage[] mimeMessages) throws MailException;
+	          ^
+  symbol:   class MimeMessage
+  location: interface JavaMailSender
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessagePreparator.java:19: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMessage;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/MimeMessagePreparator.java:51: error: cannot find symbol
+	void prepare(MimeMessage mimeMessage) throws Exception;
+	             ^
+  symbol:   class MimeMessage
+  location: interface MimeMessagePreparator
+hybrids/org.springframework/spring/2.5.6/JavaMailSender.java:107: error: name clash: interface JavaMailSender has two methods with the same erasure, yet neither overrides the other
+	void send(MimeMessage[] mimeMessages) throws MailException;
+	     ^
+  first method:  send(MimeMessage) in JavaMailSender
+  second method: send(SimpleMailMessage) in MailSender
+hybrids/org.springframework/spring/2.5.6/JavaMailSender.java:124: error: name clash: interface JavaMailSender has two methods with the same erasure, yet neither overrides the other
+	void send(MimeMessagePreparator mimeMessagePreparator) throws MailException;
+	     ^
+  first method:  send(MimeMessage) in JavaMailSender
+  second method: send(SimpleMailMessage[]) in MailSender
+hybrids/org.springframework/spring/2.5.6/JavaMailSender.java:141: error: name clash: interface JavaMailSender has two methods with the same erasure, yet neither overrides the other
+	void send(MimeMessagePreparator[] mimeMessagePreparators) throws MailException;
+	     ^
+  first method:  send(MimeMessage) in JavaMailSender
+  second method: send(SimpleMailMessage[]) in MailSender
+10 errors

@@ -1,0 +1,34 @@
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java:21: error: package org.apache.commons.net.telnet does not exist
+import org.apache.commons.net.telnet.TelnetClient;
+                                    ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java:320: error: cannot find symbol
+    public class AntTelnetClient extends TelnetClient {
+                                         ^
+  symbol:   class TelnetClient
+  location: class TelnetTask
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java:100: error: cannot find symbol
+               telnet.connect(server, port);
+                     ^
+  symbol:   method connect(String,int)
+  location: variable telnet of type TelnetTask.AntTelnetClient
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java:118: error: cannot find symbol
+           if (telnet != null && telnet.isConnected()) {
+                                       ^
+  symbol:   method isConnected()
+  location: variable telnet of type TelnetTask.AntTelnetClient
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java:120: error: cannot find symbol
+                   telnet.disconnect();
+                         ^
+  symbol:   method disconnect()
+  location: variable telnet of type TelnetTask.AntTelnetClient
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java:337: error: cannot find symbol
+            InputStream is = this.getInputStream();
+                                 ^
+  symbol: method getInputStream()
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java:376: error: cannot find symbol
+            OutputStream os = this.getOutputStream();
+                                  ^
+  symbol: method getOutputStream()
+Note: sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/net/TelnetTask.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+7 errors

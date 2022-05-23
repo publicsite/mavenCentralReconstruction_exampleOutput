@@ -1,0 +1,16 @@
+sources/structure/org.beanshell/bsh/2.0b5/Decompiled/bsh/util/AWTConsole.java:14: error: package java.awt.peer is not visible
+import java.awt.peer.TextComponentPeer;
+               ^
+  (package java.awt.peer is declared in module java.desktop, which does not export it)
+sources/structure/org.beanshell/bsh/2.0b5/Decompiled/bsh/util/AWTConsole.java:176: error: cannot find symbol
+        ((TextComponentPeer)this.getPeer()).setCaretPosition(pos + this.countNLs());
+                                ^
+  symbol: method getPeer()
+sources/structure/org.beanshell/bsh/2.0b5/Decompiled/bsh/util/AWTConsole.java:217: error: incompatible types: Object cannot be converted to String
+            showline = this.history.elementAt(this.history.size() - this.histLine);
+                                             ^
+Note: sources/structure/org.beanshell/bsh/2.0b5/Decompiled/bsh/util/AWTConsole.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.beanshell/bsh/2.0b5/Decompiled/bsh/util/AWTConsole.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors

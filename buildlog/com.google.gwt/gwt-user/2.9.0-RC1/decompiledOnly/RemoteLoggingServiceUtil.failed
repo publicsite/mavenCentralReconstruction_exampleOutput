@@ -1,0 +1,114 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:18: error: package com.google.gwt.thirdparty.debugging.sourcemap does not exist
+import com.google.gwt.thirdparty.debugging.sourcemap.SourceMapConsumerFactory;
+                                                    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:19: error: package com.google.gwt.thirdparty.debugging.sourcemap does not exist
+import com.google.gwt.thirdparty.debugging.sourcemap.SourceMapping;
+                                                    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:20: error: package com.google.gwt.thirdparty.debugging.sourcemap.proto does not exist
+import com.google.gwt.thirdparty.debugging.sourcemap.proto.Mapping;
+                                                          ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:150: error: cannot find symbol
+  private final Map<String, SourceMapping> sourceMaps = new HashMap<String, SourceMapping>();
+                            ^
+  symbol:   class SourceMapping
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:350: error: cannot find symbol
+  private SourceMapping loadSourceMap(String permutationStrongName, int fragmentId) {
+          ^
+  symbol:   class SourceMapping
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:19: error: package com.google.gwt.thirdparty.json does not exist
+import com.google.gwt.thirdparty.json.JSONArray;
+                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:20: error: package com.google.gwt.thirdparty.json does not exist
+import com.google.gwt.thirdparty.json.JSONException;
+                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:21: error: package com.google.gwt.thirdparty.json does not exist
+import com.google.gwt.thirdparty.json.JSONObject;
+                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:56: error: cannot find symbol
+    private static Throwable fromJsonString(String jsonString) throws JSONException {
+                                                                      ^
+  symbol:   class JSONException
+  location: class JsonLogRecordThrowable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:65: error: cannot find symbol
+    public JsonLogRecordThrowable(JSONObject t) throws JSONException {
+                                  ^
+  symbol:   class JSONObject
+  location: class JsonLogRecordThrowable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:65: error: cannot find symbol
+    public JsonLogRecordThrowable(JSONObject t) throws JSONException {
+                                                       ^
+  symbol:   class JSONException
+  location: class JsonLogRecordThrowable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:72: error: cannot find symbol
+    private StackTraceElement[] stackTraceFromJson(JSONArray st) throws JSONException {
+                                                   ^
+  symbol:   class JSONArray
+  location: class JsonLogRecordThrowable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:72: error: cannot find symbol
+    private StackTraceElement[] stackTraceFromJson(JSONArray st) throws JSONException {
+                                                                        ^
+  symbol:   class JSONException
+  location: class JsonLogRecordThrowable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:83: error: cannot find symbol
+    private StackTraceElement stackTraceElementFromJson(String jsonString) throws JSONException {
+                                                                                  ^
+  symbol:   class JSONException
+  location: class JsonLogRecordThrowable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:150: error: cannot find symbol
+  private final Map<String, SourceMapping> sourceMaps = new HashMap<String, SourceMapping>();
+                                                                            ^
+  symbol:   class SourceMapping
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:300: error: cannot find symbol
+      SourceMapping sourceMapping = loadSourceMap(strongName, fragmentId);
+      ^
+  symbol:   class SourceMapping
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:302: error: package Mapping does not exist
+        Mapping.OriginalMapping mappingForLine = sourceMapping
+               ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:351: error: cannot find symbol
+    SourceMapping toReturn = sourceMaps.get(permutationStrongName + fragmentId);
+    ^
+  symbol:   class SourceMapping
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/server/StackTraceDeobfuscator.java:356: error: cannot find symbol
+        toReturn = SourceMapConsumerFactory.parse(sourceMapString);
+                   ^
+  symbol:   variable SourceMapConsumerFactory
+  location: class StackTraceDeobfuscator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:38: error: cannot find symbol
+      JSONObject lro = new JSONObject(jsonString);
+      ^
+  symbol:   class JSONObject
+  location: class JsonLogRecordServerUtil
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:38: error: cannot find symbol
+      JSONObject lro = new JSONObject(jsonString);
+                           ^
+  symbol:   class JSONObject
+  location: class JsonLogRecordServerUtil
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:49: error: cannot find symbol
+    } catch (JSONException e) {
+             ^
+  symbol:   class JSONException
+  location: class JsonLogRecordServerUtil
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:60: error: cannot find symbol
+      return new JsonLogRecordThrowable(new JSONObject(jsonString));
+                                            ^
+  symbol:   class JSONObject
+  location: class JsonLogRecordThrowable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:84: error: cannot find symbol
+      JSONObject ste = new JSONObject(jsonString);
+      ^
+  symbol:   class JSONObject
+  location: class JsonLogRecordThrowable
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java:84: error: cannot find symbol
+      JSONObject ste = new JSONObject(jsonString);
+                           ^
+  symbol:   class JSONObject
+  location: class JsonLogRecordThrowable
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/logging/server/JsonLogRecordServerUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+25 errors

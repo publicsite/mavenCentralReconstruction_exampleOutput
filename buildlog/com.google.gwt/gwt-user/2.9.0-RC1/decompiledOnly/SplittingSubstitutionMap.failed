@@ -1,0 +1,68 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:9: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.ImmutableMap;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:10: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.Maps;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:11: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Preconditions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:12: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Splitter;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:14: error: cannot find symbol
+public class SplittingSubstitutionMap implements MultipleMappingSubstitutionMap
+                                                 ^
+  symbol: class MultipleMappingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:16: error: cannot find symbol
+    private static final Splitter DASH;
+                         ^
+  symbol:   class Splitter
+  location: class SplittingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:29: error: cannot find symbol
+    public ValueWithMappings getValueWithMappings(final String key) {
+           ^
+  symbol:   class ValueWithMappings
+  location: class SplittingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:30: error: cannot find symbol
+        Preconditions.checkNotNull((Object)key, (Object)"CSS key cannot be null");
+        ^
+  symbol:   variable Preconditions
+  location: class SplittingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:31: error: cannot find symbol
+        Preconditions.checkArgument(!key.isEmpty(), (Object)"CSS key cannot be empty");
+        ^
+  symbol:   variable Preconditions
+  location: class SplittingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:34: error: cannot find symbol
+            return ValueWithMappings.createForSingleMapping(key, value);
+                   ^
+  symbol:   variable ValueWithMappings
+  location: class SplittingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:37: error: cannot find symbol
+        final Map<String, String> mappings = (Map<String, String>)Maps.newHashMap();
+                                                                  ^
+  symbol:   variable Maps
+  location: class SplittingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:47: error: cannot find symbol
+        return ValueWithMappings.createWithValueAndMappings(renamedClassComposedFromParts, (Map<String, String>)ImmutableMap.copyOf((Map)mappings));
+                                                                                                                ^
+  symbol:   variable ImmutableMap
+  location: class SplittingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:47: error: cannot find symbol
+        return ValueWithMappings.createWithValueAndMappings(renamedClassComposedFromParts, (Map<String, String>)ImmutableMap.copyOf((Map)mappings));
+               ^
+  symbol:   variable ValueWithMappings
+  location: class SplittingSubstitutionMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/SplittingSubstitutionMap.java:51: error: cannot find symbol
+        DASH = Splitter.on('-');
+               ^
+  symbol:   variable Splitter
+  location: class SplittingSubstitutionMap
+16 errors

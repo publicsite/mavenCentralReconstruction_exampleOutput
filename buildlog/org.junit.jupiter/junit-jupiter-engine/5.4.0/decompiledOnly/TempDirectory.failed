@@ -1,0 +1,68 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:29: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ExceptionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:31: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.AnnotationUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:35: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:48: error: cannot find symbol
+        this.injectFields(context, null, ReflectionUtils::isStatic);
+                                         ^
+  symbol:   variable ReflectionUtils
+  location: class TempDirectory
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:52: error: cannot find symbol
+        this.injectFields(context, context.getRequiredTestInstance(), ReflectionUtils::isNotStatic);
+                                                                      ^
+  symbol:   variable ReflectionUtils
+  location: class TempDirectory
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:56: error: cannot find symbol
+        AnnotationUtils.findAnnotatedFields(context.getRequiredTestClass(), (Class)TempDir.class, (Predicate)predicate).forEach(field -> {
+        ^
+  symbol:   variable AnnotationUtils
+  location: class TempDirectory
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:59: error: cannot find symbol
+                ((Field)ReflectionUtils.makeAccessible((AccessibleObject)field)).set(testInstance, this.getPathOrFile(field.getType(), context));
+                        ^
+  symbol:   variable ReflectionUtils
+  location: class TempDirectory
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:62: error: cannot find symbol
+                ExceptionUtils.throwAsUncheckedException(t);
+                ^
+  symbol:   variable ExceptionUtils
+  location: class TempDirectory
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:69: error: cannot find symbol
+        if (ReflectionUtils.isPrivate((Member)field)) {
+            ^
+  symbol:   variable ReflectionUtils
+  location: class TempDirectory
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:70: error: cannot access JUnitException
+            throw new ExtensionConfigurationException("@TempDir field [" + field + "] must not be private.");
+            ^
+  class file for org.junit.platform.commons.JUnitException not found
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:77: error: incompatible types: ParameterResolutionException cannot be converted to Throwable
+            throw new ParameterResolutionException("@TempDir is not supported on constructor parameters. Please use field injection instead.");
+            ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:90: error: incompatible types: ExtensionConfigurationException cannot be converted to Throwable
+            throw new ExtensionConfigurationException("Can only resolve @TempDir " + target + " of type " + Path.class.getName() + " or " + File.class.getName() + " but was: " + type.getName());
+            ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:104: error: incompatible types: ExtensionConfigurationException cannot be converted to Throwable
+            throw new ExtensionConfigurationException("Failed to create default temp directory", (Throwable)ex);
+            ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:158: error: incompatible types: Collector<CharSequence,CAP#1,String> cannot be converted to Collector<? super Object,?,String>
+            final String joinedPaths = failures.keySet().stream().peek((Consumer<? super Object>)this::tryToDeleteOnExit).map((Function<? super Object, ?>)this::relativizeSafely).map((Function<? super Object, ?>)String::valueOf).collect((Collector<? super Object, ?, String>)Collectors.joining(", "));
+                                                                                                                                                                                                                                                                                                     ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:158: error: incompatible types: invalid method reference
+            final String joinedPaths = failures.keySet().stream().peek((Consumer<? super Object>)this::tryToDeleteOnExit).map((Function<? super Object, ?>)this::relativizeSafely).map((Function<? super Object, ?>)String::valueOf).collect((Collector<? super Object, ?, String>)Collectors.joining(", "));
+                                                                                                                                                           ^
+    incompatible types: Object cannot be converted to Path
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java:158: error: incompatible types: invalid method reference
+            final String joinedPaths = failures.keySet().stream().peek((Consumer<? super Object>)this::tryToDeleteOnExit).map((Function<? super Object, ?>)this::relativizeSafely).map((Function<? super Object, ?>)String::valueOf).collect((Collector<? super Object, ?, String>)Collectors.joining(", "));
+                                                                                                 ^
+    incompatible types: Object cannot be converted to Path
+Note: sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/extension/TempDirectory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+16 errors

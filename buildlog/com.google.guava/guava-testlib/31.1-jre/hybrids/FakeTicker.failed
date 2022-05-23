@@ -1,0 +1,22 @@
+hybrids/com.google.guava/guava-testlib/31.1-jre/FakeTicker.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkArgument;
+                                    ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/FakeTicker.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkArgument;
+^
+hybrids/com.google.guava/guava-testlib/31.1-jre/FakeTicker.java:23: error: package com.google.common.base does not exist
+import com.google.common.base.Ticker;
+                             ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/FakeTicker.java:39: error: cannot find symbol
+public class FakeTicker extends Ticker {
+                                ^
+  symbol: class Ticker
+hybrids/com.google.guava/guava-testlib/31.1-jre/FakeTicker.java:75: error: cannot find symbol
+    checkArgument(autoIncrementStep >= 0, "May not auto-increment by a negative amount");
+    ^
+  symbol:   method checkArgument(boolean,String)
+  location: class FakeTicker
+hybrids/com.google.guava/guava-testlib/31.1-jre/FakeTicker.java:93: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+6 errors

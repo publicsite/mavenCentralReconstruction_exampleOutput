@@ -1,0 +1,69 @@
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:7: error: package org.apache.tools.ant.taskdefs.condition does not exist
+import org.apache.tools.ant.taskdefs.condition.Condition;
+                                              ^
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:8: error: cannot find symbol
+import org.apache.tools.ant.BuildException;
+                           ^
+  symbol:   class BuildException
+  location: package org.apache.tools.ant
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:9: error: package org.apache.tools.ant.taskdefs.condition does not exist
+import org.apache.tools.ant.taskdefs.condition.ConditionBase;
+                                              ^
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:11: error: cannot find symbol
+public class AssertTask extends ConditionBase
+                                ^
+  symbol: class ConditionBase
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:23: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class AssertTask
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:24: error: cannot find symbol
+        final int count = this.countConditions();
+                              ^
+  symbol: method countConditions()
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:26: error: cannot find symbol
+            throw new BuildException("You must not specify more than one condition", this.getLocation());
+                      ^
+  symbol:   class BuildException
+  location: class AssertTask
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:26: error: cannot find symbol
+            throw new BuildException("You must not specify more than one condition", this.getLocation());
+                                                                                         ^
+  symbol: method getLocation()
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:28: error: cannot find symbol
+        if (count < 1 || !this.getConditions().nextElement().eval()) {
+                              ^
+  symbol: method getConditions()
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/AssertionFailedException.java:23: error: cannot find symbol
+import org.apache.tools.ant.BuildException;
+                           ^
+  symbol:   class BuildException
+  location: package org.apache.tools.ant
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/AssertionFailedException.java:24: error: cannot find symbol
+import org.apache.tools.ant.Location;
+                           ^
+  symbol:   class Location
+  location: package org.apache.tools.ant
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/AssertionFailedException.java:29: error: cannot find symbol
+public class AssertionFailedException extends BuildException {
+                                              ^
+  symbol: class BuildException
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/AssertionFailedException.java:38: error: cannot find symbol
+    public AssertionFailedException(String message, Location loc) {
+                                                    ^
+  symbol:   class Location
+  location: class AssertionFailedException
+sources/structure/org.apache.ant/ant-antunit/1.4/extractedSources/org/apache/ant/antunit/AssertionFailedException.java:42: error: cannot find symbol
+    public AssertionFailedException(String message, BuildException e) {
+                                                    ^
+  symbol:   class BuildException
+  location: class AssertionFailedException
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:29: error: cannot find symbol
+            throw new AssertionFailedException(this.message, this.getLocation());
+                                                                 ^
+  symbol: method getLocation()
+sources/structure/org.apache.ant/ant-antunit/1.4/Decompiled/org/apache/ant/antunit/AssertTask.java:29: error: incompatible types: AssertionFailedException cannot be converted to Throwable
+            throw new AssertionFailedException(this.message, this.getLocation());
+            ^
+16 errors

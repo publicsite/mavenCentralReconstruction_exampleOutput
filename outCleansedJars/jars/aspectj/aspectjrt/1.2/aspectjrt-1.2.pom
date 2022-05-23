@@ -1,0 +1,78 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>aspectj</groupId>
+  <artifactId>aspectjrt</artifactId>
+  <name>AspectJ runtime</name>
+  <version>1.2</version>
+  <description></description>
+  <url>http://www.eclipse.org/aspectj</url>
+  <issueManagement>
+    <url>http://bugs.eclipse.org/</url>
+  </issueManagement>
+  <inceptionYear>1997</inceptionYear>
+  <mailingLists>
+    <mailingList>
+      <name>AspectJ User List</name>
+      <subscribe>https://dev.eclipse.org/mailman/listinfo/aspectj-users</subscribe>
+      <unsubscribe>https://dev.eclipse.org/mailman/listinfo/aspectj-users</unsubscribe>
+      <archive>http://dev.eclipse.org/mhonarc/lists/aspectj-users/maillist.html</archive>
+    </mailingList>
+    <mailingList>
+      <name>AspectJ Developer List</name>
+      <subscribe>https://dev.eclipse.org/mailman/listinfo/aspectj-dev</subscribe>
+      <unsubscribe>https://dev.eclipse.org/mailman/listinfo/aspectj-dev</unsubscribe>
+      <archive>http://dev.eclipse.org/mhonarc/lists/aspectj-dev/maillist.html</archive>
+    </mailingList>
+  </mailingLists>
+  <licenses>
+    <license>
+      <name>Common Public License - v 1.0</name>
+      <url>http://www.eclipse.org/legal/cpl-v10.html</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:cvs:pserver:anonymous@dev.eclipse.org:/home/technology:org.aspectj</connection>
+    <url>http://dev.eclipse.org/viewcvs/index.cgi?cvsroot=Technology_Project</url>
+  </scm>
+  <organization>
+    <name>Eclipse.org</name>
+    <url>http://www.eclipse.org/</url>
+  </organization>
+  <build>
+    <sourceDirectory>src/</sourceDirectory>
+    <testSourceDirectory>src/test</testSourceDirectory>
+    <resources>
+      <resource>
+        <directory>${basedir}/src/</directory>
+        <includes>
+          <include>*.jar</include>
+        </includes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <includes>
+            <include>**/*Test.java</include>
+          </includes>
+          <excludes>
+            <exclude>**/RepositoryTest.java</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <distributionManagement>
+    <repository>
+      <id>default</id>
+      <name>Default Repository</name>
+      <url>file:///aspectj/</url>
+    </repository>
+    <site>
+      <id>default</id>
+      <name>Default Site</name>
+      <url>scp://www.eclipse.org//aspectj/</url>
+    </site>
+  </distributionManagement>
+</project>

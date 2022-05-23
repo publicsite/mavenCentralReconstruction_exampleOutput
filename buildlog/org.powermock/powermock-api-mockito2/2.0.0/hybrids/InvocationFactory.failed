@@ -1,0 +1,32 @@
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationFactory.java:21: error: cannot find symbol
+import org.mockito.Mockito;
+                  ^
+  symbol:   class Mockito
+  location: package org.mockito
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationFactory.java:25: error: package org.powermock.core does not exist
+import org.powermock.core.MockGateway;
+                         ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationFactory.java:26: error: package org.powermock.core does not exist
+import org.powermock.core.MockRepository;
+                         ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationFactory.java:27: error: package org.powermock.reflect does not exist
+import org.powermock.reflect.Whitebox;
+                            ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationFactory.java:39: error: cannot find symbol
+        return Mockito.framework()
+               ^
+  symbol:   variable Mockito
+  location: class InvocationFactory
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationFactory.java:49: error: cannot find symbol
+                final Class<?> type = Whitebox.getType(delegator);
+                                      ^
+  symbol: variable Whitebox
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationFactory.java:52: error: cannot find symbol
+                    MockRepository.putAdditionalState(MockGateway.DONT_MOCK_NEXT_CALL, true);
+                                                      ^
+  symbol: variable MockGateway
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/InvocationFactory.java:52: error: cannot find symbol
+                    MockRepository.putAdditionalState(MockGateway.DONT_MOCK_NEXT_CALL, true);
+                    ^
+  symbol: variable MockRepository
+8 errors

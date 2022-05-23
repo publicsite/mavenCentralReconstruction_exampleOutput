@@ -1,0 +1,64 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/ejb/access/AbstractRemoteSlsbInvokerInterceptor.java:23: error: package javax.ejb does not exist
+import javax.ejb.EJBHome;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/ejb/access/AbstractRemoteSlsbInvokerInterceptor.java:24: error: package javax.ejb does not exist
+import javax.ejb.EJBObject;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/ejb/access/AbstractRemoteSlsbInvokerInterceptor.java:26: error: package javax.rmi does not exist
+import javax.rmi.PortableRemoteObject;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/ejb/access/AbstractRemoteSlsbInvokerInterceptor.java:234: error: cannot find symbol
+	protected void removeSessionBeanInstance(EJBObject ejb) {
+	                                         ^
+  symbol:   class EJBObject
+  location: class AbstractRemoteSlsbInvokerInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/rmi/RmiClientInterceptorUtils.java:32: error: package org.omg.CORBA does not exist
+import org.omg.CORBA.COMM_FAILURE;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/rmi/RmiClientInterceptorUtils.java:33: error: package org.omg.CORBA does not exist
+import org.omg.CORBA.CompletionStatus;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/rmi/RmiClientInterceptorUtils.java:34: error: package org.omg.CORBA does not exist
+import org.omg.CORBA.NO_RESPONSE;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/rmi/RmiClientInterceptorUtils.java:35: error: package org.omg.CORBA does not exist
+import org.omg.CORBA.SystemException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/ejb/access/AbstractRemoteSlsbInvokerInterceptor.java:101: error: cannot find symbol
+				homeObject = PortableRemoteObject.narrow(homeObject, this.homeInterface);
+				             ^
+  symbol:   variable PortableRemoteObject
+  location: class AbstractRemoteSlsbInvokerInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/ejb/access/AbstractRemoteSlsbInvokerInterceptor.java:118: error: cannot find symbol
+		if (!(home instanceof EJBHome)) {
+		                      ^
+  symbol:   class EJBHome
+  location: class AbstractRemoteSlsbInvokerInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/rmi/RmiClientInterceptorUtils.java:68: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Object invoke(MethodInvocation invocation, Remote stub, String serviceName) throws Throwable {
+	                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/rmi/RmiClientInterceptorUtils.java:89: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Object doInvoke(MethodInvocation invocation, Remote stub) throws InvocationTargetException {
+	                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/rmi/RmiClientInterceptorUtils.java:226: error: cannot find symbol
+		return ((ex instanceof COMM_FAILURE || ex instanceof NO_RESPONSE) &&
+		                       ^
+  symbol:   class COMM_FAILURE
+  location: class RmiClientInterceptorUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/rmi/RmiClientInterceptorUtils.java:226: error: cannot find symbol
+		return ((ex instanceof COMM_FAILURE || ex instanceof NO_RESPONSE) &&
+		                                                     ^
+  symbol:   class NO_RESPONSE
+  location: class RmiClientInterceptorUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/rmi/RmiClientInterceptorUtils.java:227: error: cannot find symbol
+				((SystemException) ex).completed == CompletionStatus.COMPLETED_NO);
+				  ^
+  symbol:   class SystemException
+  location: class RmiClientInterceptorUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/rmi/RmiClientInterceptorUtils.java:227: error: cannot find symbol
+				((SystemException) ex).completed == CompletionStatus.COMPLETED_NO);
+				                                    ^
+  symbol:   variable CompletionStatus
+  location: class RmiClientInterceptorUtils
+14 errors
+2 warnings

@@ -1,0 +1,56 @@
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:18: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:19: error: package com.google.gwt.dev.resource does not exist
+import com.google.gwt.dev.resource.Resource;
+                                  ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:20: error: package com.google.gwt.dev.resource does not exist
+import com.google.gwt.dev.resource.ResourceOracle;
+                                  ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:21: error: package com.google.gwt.dev.util does not exist
+import com.google.gwt.dev.util.Util;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:22: error: package com.google.gwt.dev.util.collect does not exist
+import com.google.gwt.dev.util.collect.Sets;
+                                      ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:51: error: cannot find symbol
+  private final ResourceOracle resourceOracle;
+                ^
+  symbol:   class ResourceOracle
+  location: class GwtResourceEntityResolver
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:52: error: cannot find symbol
+  private final TreeLogger logger;
+                ^
+  symbol:   class TreeLogger
+  location: class GwtResourceEntityResolver
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:54: error: cannot find symbol
+  public GwtResourceEntityResolver(TreeLogger logger, ResourceOracle resourceOracle,
+                                   ^
+  symbol:   class TreeLogger
+  location: class GwtResourceEntityResolver
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:54: error: cannot find symbol
+  public GwtResourceEntityResolver(TreeLogger logger, ResourceOracle resourceOracle,
+                                                      ^
+  symbol:   class ResourceOracle
+  location: class GwtResourceEntityResolver
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:43: error: cannot find symbol
+  private static final Set<String> EXTERNAL_PREFIXES = Collections.unmodifiableSet(Sets.create(new String[] {
+                                                                                   ^
+  symbol:   variable Sets
+  location: class GwtResourceEntityResolver
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:65: error: cannot find symbol
+    Resource resource = null;
+    ^
+  symbol:   class Resource
+  location: class GwtResourceEntityResolver
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:79: error: cannot find symbol
+        content = Util.readStreamAsString(resourceStream);
+                  ^
+  symbol:   variable Util
+  location: class GwtResourceEntityResolver
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/GwtResourceEntityResolver.java:81: error: cannot find symbol
+        logger.log(TreeLogger.ERROR, "Error reading resource: " + resource.getLocation());
+                   ^
+  symbol:   variable TreeLogger
+  location: class GwtResourceEntityResolver
+13 errors

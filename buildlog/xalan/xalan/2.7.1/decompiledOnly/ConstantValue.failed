@@ -1,0 +1,100 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:11: error: cannot find symbol
+public final class ConstantValue extends Attribute
+                                         ^
+  symbol: class Attribute
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:19: error: cannot find symbol
+    ConstantValue(final int name_index, final int length, final DataInputStream file, final ConstantPool constant_pool) throws IOException {
+                                                                                            ^
+  symbol:   class ConstantPool
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:23: error: cannot find symbol
+    public ConstantValue(final int name_index, final int length, final int constantvalue_index, final ConstantPool constant_pool) {
+                                                                                                      ^
+  symbol:   class ConstantPool
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:28: error: cannot find symbol
+    public void accept(final Visitor v) {
+                             ^
+  symbol:   class Visitor
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:112: error: cannot find symbol
+    public Attribute copy(final ConstantPool constant_pool) {
+                                ^
+  symbol:   class ConstantPool
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:112: error: cannot find symbol
+    public Attribute copy(final ConstantPool constant_pool) {
+           ^
+  symbol:   class Attribute
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:16: error: cannot find symbol
+        this(c.getNameIndex(), c.getLength(), c.getConstantValueIndex(), c.getConstantPool());
+              ^
+  symbol:   method getNameIndex()
+  location: variable c of type ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:16: error: cannot find symbol
+        this(c.getNameIndex(), c.getLength(), c.getConstantValueIndex(), c.getConstantPool());
+                                ^
+  symbol:   method getLength()
+  location: variable c of type ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:16: error: cannot find symbol
+        this(c.getNameIndex(), c.getLength(), c.getConstantValueIndex(), c.getConstantPool());
+                                                                          ^
+  symbol:   method getConstantPool()
+  location: variable c of type ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:33: error: cannot find symbol
+        super.dump(file);
+        ^
+  symbol:   variable super
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:46: error: cannot find symbol
+        Constant c = super.constant_pool.getConstant(this.constantvalue_index);
+        ^
+  symbol:   class Constant
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:46: error: package super does not exist
+        Constant c = super.constant_pool.getConstant(this.constantvalue_index);
+                          ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:50: error: cannot find symbol
+                buf = "" + ((ConstantLong)c).getBytes();
+                             ^
+  symbol:   class ConstantLong
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:54: error: cannot find symbol
+                buf = "" + ((ConstantFloat)c).getBytes();
+                             ^
+  symbol:   class ConstantFloat
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:58: error: cannot find symbol
+                buf = "" + ((ConstantDouble)c).getBytes();
+                             ^
+  symbol:   class ConstantDouble
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:62: error: cannot find symbol
+                buf = "" + ((ConstantInteger)c).getBytes();
+                             ^
+  symbol:   class ConstantInteger
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:66: error: cannot find symbol
+                final int i = ((ConstantString)c).getStringIndex();
+                                ^
+  symbol:   class ConstantString
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:67: error: package super does not exist
+                c = super.constant_pool.getConstant(i, (byte)1);
+                         ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:68: error: cannot find symbol
+                buf = "\"" + convertString(((ConstantUtf8)c).getBytes()) + "\"";
+                                             ^
+  symbol:   class ConstantUtf8
+  location: class ConstantValue
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:113: error: cannot find symbol
+        final ConstantValue c = (ConstantValue)this.clone();
+                                                   ^
+  symbol: method clone()
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/classfile/ConstantValue.java:114: error: cannot find symbol
+        c.constant_pool = constant_pool;
+         ^
+  symbol:   variable constant_pool
+  location: variable c of type ConstantValue
+21 errors

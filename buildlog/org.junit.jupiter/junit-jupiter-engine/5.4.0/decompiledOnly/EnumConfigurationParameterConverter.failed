@@ -1,0 +1,31 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/config/EnumConfigurationParameterConverter.java:7: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.LoggerFactory;
+                                         ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/config/EnumConfigurationParameterConverter.java:9: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.Preconditions;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/config/EnumConfigurationParameterConverter.java:11: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.Logger;
+                                         ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/config/EnumConfigurationParameterConverter.java:15: error: cannot find symbol
+    private static final Logger logger;
+                         ^
+  symbol:   class Logger
+  location: class EnumConfigurationParameterConverter<E>
+  where E is a type-variable:
+    E extends Enum<E> declared in class EnumConfigurationParameterConverter
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/config/EnumConfigurationParameterConverter.java:25: error: cannot find symbol
+        Preconditions.notNull((Object)configParams, "ConfigurationParameters must not be null");
+        ^
+  symbol:   variable Preconditions
+  location: class EnumConfigurationParameterConverter<E>
+  where E is a type-variable:
+    E extends Enum<E> declared in class EnumConfigurationParameterConverter
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/Decompiled/org/junit/jupiter/engine/config/EnumConfigurationParameterConverter.java:44: error: cannot find symbol
+        logger = LoggerFactory.getLogger((Class)EnumConfigurationParameterConverter.class);
+                 ^
+  symbol:   variable LoggerFactory
+  location: class EnumConfigurationParameterConverter<E>
+  where E is a type-variable:
+    E extends Enum<E> declared in class EnumConfigurationParameterConverter
+6 errors

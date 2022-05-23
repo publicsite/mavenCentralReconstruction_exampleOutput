@@ -1,0 +1,43 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3546: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3554: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:59: error: incompatible types: ElementMatcher<Token> cannot be converted to ElementMatcher<? super Object>
+        final MethodRebaseResolver methodRebaseResolver = MethodRebaseResolver.Default.make(methodRegistry.getInstrumentedType(), new HashSet<MethodDescription.Token>(this.originalType.getDeclaredMethods().asTokenList(ElementMatchers.is(this.originalType)).filter((ElementMatcher<? super Object>)RebaseableMatcher.of(methodRegistry.getInstrumentedType(), methodRegistry.getInstrumentedMethods()))), this.classFileVersion, this.auxiliaryTypeNamingStrategy, this.methodNameTransformer);
+                                                                                                                                                                                                                                                                                                                            ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java:60: error: incompatible types: Unloaded<Object> cannot be converted to Unloaded<T>
+        return TypeWriter.Default.forRebasing(methodRegistry, this.auxiliaryTypes, this.fieldRegistry.compile(methodRegistry.getInstrumentedType()), this.typeAttributeAppender, this.asmVisitorWrapper, this.classFileVersion, this.annotationValueFilterFactory, this.annotationRetention, this.auxiliaryTypeNamingStrategy, this.implementationContextFactory, this.typeValidation, this.classWriterStrategy, typePool, this.originalType, this.classFileLocator, methodRebaseResolver).make(typeResolutionStrategy.resolve());
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+  where T is a type-variable:
+    T extends Object declared in class RebaseDynamicTypeBuilder
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/dynamic/scaffold/inline/RebaseDynamicTypeBuilder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

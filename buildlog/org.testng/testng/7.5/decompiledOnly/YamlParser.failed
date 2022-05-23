@@ -1,0 +1,213 @@
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:19: error: package org.yaml.snakeyaml does not exist
+import org.yaml.snakeyaml.TypeDescription;
+                         ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:20: error: package org.yaml.snakeyaml.constructor does not exist
+import org.yaml.snakeyaml.constructor.Constructor;
+                                     ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:21: error: package org.yaml.snakeyaml.nodes does not exist
+import org.yaml.snakeyaml.nodes.MappingNode;
+                               ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:22: error: package org.yaml.snakeyaml.nodes does not exist
+import org.yaml.snakeyaml.nodes.Node;
+                               ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:23: error: package org.yaml.snakeyaml.nodes does not exist
+import org.yaml.snakeyaml.nodes.NodeId;
+                               ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:24: error: package org.yaml.snakeyaml.nodes does not exist
+import org.yaml.snakeyaml.nodes.NodeTuple;
+                               ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:25: error: package org.yaml.snakeyaml.nodes does not exist
+import org.yaml.snakeyaml.nodes.ScalarNode;
+                               ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:301: error: cannot find symbol
+  private static class TestNGConstructor extends Constructor {
+                                                 ^
+  symbol:   class Constructor
+  location: class Yaml
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:309: error: cannot find symbol
+    private class ConstructXmlScript extends ConstructMapping {
+                                             ^
+  symbol:   class ConstructMapping
+  location: class TestNGConstructor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:312: error: cannot find symbol
+      public Object construct(Node node) {
+                              ^
+  symbol:   class Node
+  location: class TestNGConstructor.ConstructXmlScript
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:330: error: cannot find symbol
+      private void setValue(NodeTuple tuple, String key, Consumer<String> cons) {
+                            ^
+  symbol:   class NodeTuple
+  location: class TestNGConstructor.ConstructXmlScript
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:340: error: cannot find symbol
+    private class ConstructParallelMode extends ConstructScalar {
+                                                ^
+  symbol:   class ConstructScalar
+  location: class TestNGConstructor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:343: error: cannot find symbol
+      public Object construct(Node node) {
+                              ^
+  symbol:   class Node
+  location: class TestNGConstructor.ConstructParallelMode
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:357: error: cannot find symbol
+  private static class XmlClassTypeDescriptor extends TypeDescription {
+                                                      ^
+  symbol:   class TypeDescription
+  location: class Yaml
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:367: error: cannot find symbol
+    public Object newInstance(Node node) {
+                              ^
+  symbol:   class Node
+  location: class XmlClassTypeDescriptor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:34: error: cannot find symbol
+    Constructor constructor = new TestNGConstructor(XmlSuite.class);
+    ^
+  symbol:   class Constructor
+  location: class Yaml
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:36: error: cannot find symbol
+      TypeDescription suiteDescription = new TypeDescription(XmlSuite.class);
+      ^
+  symbol:   class TypeDescription
+  location: class Yaml
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:36: error: cannot find symbol
+      TypeDescription suiteDescription = new TypeDescription(XmlSuite.class);
+                                             ^
+  symbol:   class TypeDescription
+  location: class Yaml
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:45: error: cannot find symbol
+      TypeDescription testDescription = new TypeDescription(XmlTest.class);
+      ^
+  symbol:   class TypeDescription
+  location: class Yaml
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:45: error: cannot find symbol
+      TypeDescription testDescription = new TypeDescription(XmlTest.class);
+                                            ^
+  symbol:   class TypeDescription
+  location: class Yaml
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:52: error: cannot find symbol
+    TypeDescription xmlClassDescription = new XmlClassTypeDescriptor(loadClasses);
+    ^
+  symbol:   class TypeDescription
+  location: class Yaml
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:55: error: package org.yaml.snakeyaml does not exist
+    org.yaml.snakeyaml.Yaml y = new org.yaml.snakeyaml.Yaml(constructor);
+                      ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:55: error: package org.yaml.snakeyaml does not exist
+    org.yaml.snakeyaml.Yaml y = new org.yaml.snakeyaml.Yaml(constructor);
+                                                      ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:305: error: cannot find symbol
+      yamlClassConstructors.put(NodeId.scalar, new ConstructParallelMode());
+                                ^
+  symbol:   variable NodeId
+  location: class TestNGConstructor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:305: error: cannot find symbol
+      yamlClassConstructors.put(NodeId.scalar, new ConstructParallelMode());
+      ^
+  symbol:   variable yamlClassConstructors
+  location: class TestNGConstructor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:306: error: cannot find symbol
+      yamlClassConstructors.put(NodeId.mapping, new ConstructXmlScript());
+                                ^
+  symbol:   variable NodeId
+  location: class TestNGConstructor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:306: error: cannot find symbol
+      yamlClassConstructors.put(NodeId.mapping, new ConstructXmlScript());
+      ^
+  symbol:   variable yamlClassConstructors
+  location: class TestNGConstructor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:311: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:316: error: cannot find symbol
+          MappingNode mappingNode = ((MappingNode) node);
+          ^
+  symbol:   class MappingNode
+  location: class TestNGConstructor.ConstructXmlScript
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:316: error: cannot find symbol
+          MappingNode mappingNode = ((MappingNode) node);
+                                      ^
+  symbol:   class MappingNode
+  location: class TestNGConstructor.ConstructXmlScript
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:317: error: cannot find symbol
+          List<NodeTuple> tuples = mappingNode.getValue();
+               ^
+  symbol:   class NodeTuple
+  location: class TestNGConstructor.ConstructXmlScript
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:318: error: cannot find symbol
+          for (NodeTuple tuple : tuples) {
+               ^
+  symbol:   class NodeTuple
+  location: class TestNGConstructor.ConstructXmlScript
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:327: error: non-static variable super cannot be referenced from a static context
+        return super.construct(node);
+               ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:331: error: cannot find symbol
+        ScalarNode keyNode = (ScalarNode) tuple.getKeyNode();
+        ^
+  symbol:   class ScalarNode
+  location: class TestNGConstructor.ConstructXmlScript
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:331: error: cannot find symbol
+        ScalarNode keyNode = (ScalarNode) tuple.getKeyNode();
+                              ^
+  symbol:   class ScalarNode
+  location: class TestNGConstructor.ConstructXmlScript
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:332: error: cannot find symbol
+        ScalarNode valueNode = (ScalarNode) tuple.getValueNode();
+        ^
+  symbol:   class ScalarNode
+  location: class TestNGConstructor.ConstructXmlScript
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:332: error: cannot find symbol
+        ScalarNode valueNode = (ScalarNode) tuple.getValueNode();
+                                ^
+  symbol:   class ScalarNode
+  location: class TestNGConstructor.ConstructXmlScript
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:342: error: method does not override or implement a method from a supertype
+      @Override
+      ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:345: error: cannot find symbol
+          String parallel = constructScalar((ScalarNode) node);
+                                             ^
+  symbol:   class ScalarNode
+  location: class TestNGConstructor.ConstructParallelMode
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:349: error: cannot find symbol
+          String failurePolicy = constructScalar((ScalarNode) node);
+                                                  ^
+  symbol:   class ScalarNode
+  location: class TestNGConstructor.ConstructParallelMode
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:352: error: non-static variable super cannot be referenced from a static context
+        return super.construct(node);
+               ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:366: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:374: error: cannot find symbol
+        if (node instanceof MappingNode) {
+                            ^
+  symbol:   class MappingNode
+  location: class XmlClassTypeDescriptor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:375: error: cannot find symbol
+          Node valueNode =
+          ^
+  symbol:   class Node
+  location: class XmlClassTypeDescriptor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:376: error: cannot find symbol
+              ((MappingNode) node)
+                ^
+  symbol:   class MappingNode
+  location: class XmlClassTypeDescriptor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:380: error: cannot find symbol
+                              ((ScalarNode) nodeTuple.getKeyNode()).getValue().equals("name"))
+                                ^
+  symbol:   class ScalarNode
+  location: class XmlClassTypeDescriptor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:384: error: cannot find symbol
+          className = ((ScalarNode) valueNode).getValue();
+                        ^
+  symbol:   class ScalarNode
+  location: class XmlClassTypeDescriptor
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/Yaml.java:386: error: cannot find symbol
+          className = ((ScalarNode) node).getValue();
+                        ^
+  symbol:   class ScalarNode
+  location: class XmlClassTypeDescriptor
+48 errors

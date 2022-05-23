@@ -1,0 +1,68 @@
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:21: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:22: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.DoNotMock;
+                                        ^
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:28: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:38: error: cannot find symbol
+@DoNotMock("Use FakeTimeLimiter")
+ ^
+  symbol: class DoNotMock
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/util/concurrent/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:149: error: cannot find symbol
+  <T extends @Nullable Object> T callWithTimeout(
+              ^
+  symbol:   class Nullable
+  location: interface TimeLimiter
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:170: error: cannot find symbol
+  default <T extends @Nullable Object> T callWithTimeout(Callable<T> callable, Duration timeout)
+                      ^
+  symbol:   class Nullable
+  location: interface TimeLimiter
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:196: error: cannot find symbol
+  <T extends @Nullable Object> T callUninterruptiblyWithTimeout(
+              ^
+  symbol:   class Nullable
+  location: interface TimeLimiter
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:219: error: cannot find symbol
+  default <T extends @Nullable Object> T callUninterruptiblyWithTimeout(
+                      ^
+  symbol:   class Nullable
+  location: interface TimeLimiter
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:148: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: interface TimeLimiter
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:169: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: interface TimeLimiter
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:195: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: interface TimeLimiter
+hybrids/com.google.guava/guava/31.1-jre/TimeLimiter.java:218: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: interface TimeLimiter
+16 errors

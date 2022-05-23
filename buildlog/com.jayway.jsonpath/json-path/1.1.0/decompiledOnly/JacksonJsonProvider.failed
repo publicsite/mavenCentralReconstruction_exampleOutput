@@ -1,0 +1,65 @@
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:7: error: package org.slf4j does not exist
+import org.slf4j.LoggerFactory;
+                ^
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:11: error: package com.fasterxml.jackson.core does not exist
+import com.fasterxml.jackson.core.JsonGenerator;
+                                 ^
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:21: error: package org.slf4j does not exist
+import org.slf4j.Logger;
+                ^
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/extractedSources/com/jayway/jsonpath/internal/spi/json/AbstractJsonProvider.java:19: error: package org.slf4j does not exist
+import org.slf4j.Logger;
+                ^
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/extractedSources/com/jayway/jsonpath/internal/spi/json/AbstractJsonProvider.java:20: error: package org.slf4j does not exist
+import org.slf4j.LoggerFactory;
+                ^
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:25: error: cannot find symbol
+    private static final Logger logger;
+                         ^
+  symbol:   class Logger
+  location: class JacksonJsonProvider
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/extractedSources/com/jayway/jsonpath/internal/spi/json/AbstractJsonProvider.java:28: error: cannot find symbol
+    private static final Logger logger = LoggerFactory.getLogger(AbstractJsonProvider.class);
+                         ^
+  symbol:   class Logger
+  location: class AbstractJsonProvider
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/extractedSources/com/jayway/jsonpath/internal/spi/json/AbstractJsonProvider.java:28: error: cannot find symbol
+    private static final Logger logger = LoggerFactory.getLogger(AbstractJsonProvider.class);
+                                         ^
+  symbol:   variable LoggerFactory
+  location: class AbstractJsonProvider
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:40: error: cannot access Versioned
+        this(objectMapper, objectMapper.reader().withType((Class)Object.class));
+                                       ^
+  class file for com.fasterxml.jackson.core.Versioned not found
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:51: error: cannot access ObjectCodec
+            return this.objectReader.readValue(json);
+                                    ^
+  class file for com.fasterxml.jackson.core.ObjectCodec not found
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:62: error: cannot access JsonProcessingException
+            return this.objectReader.readValue((Reader)new InputStreamReader(jsonStream, charset));
+                                    ^
+  class file for com.fasterxml.jackson.core.JsonProcessingException not found
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:73: error: cannot find symbol
+            final JsonGenerator generator = this.objectMapper.getFactory().createGenerator((Writer)writer);
+                  ^
+  symbol:   class JsonGenerator
+  location: class JacksonJsonProvider
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:73: error: cannot access JsonFactory
+            final JsonGenerator generator = this.objectMapper.getFactory().createGenerator((Writer)writer);
+                                                                        ^
+  class file for com.fasterxml.jackson.core.JsonFactory not found
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:74: error: cannot access JsonGenerator
+            this.objectMapper.writeValue(generator, obj);
+                             ^
+  class file for com.fasterxml.jackson.core.JsonGenerator not found
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:96: error: cannot find symbol
+        logger = LoggerFactory.getLogger((Class)JacksonJsonProvider.class);
+                 ^
+  symbol:   variable LoggerFactory
+  location: class JacksonJsonProvider
+sources/structure/com.jayway.jsonpath/json-path/1.1.0/Decompiled/com/jayway/jsonpath/internal/spi/json/JacksonJsonProvider.java:98: error: cannot access TypeReference
+        defaultObjectReader = JacksonJsonProvider.defaultObjectMapper.reader().withType((Class)Object.class);
+                                                                              ^
+  class file for com.fasterxml.jackson.core.type.TypeReference not found
+16 errors

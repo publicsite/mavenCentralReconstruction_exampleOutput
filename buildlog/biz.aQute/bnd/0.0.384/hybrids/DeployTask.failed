@@ -1,0 +1,64 @@
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/ant/BaseTask.java:10: error: cannot find symbol
+public class BaseTask extends Task implements Reporter {
+                              ^
+  symbol: class Task
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:13: error: cannot find symbol
+    List<FileSet> filesets = new ArrayList<FileSet>();
+         ^
+  symbol:   class FileSet
+  location: class DeployTask
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:16: error: cannot find symbol
+    public void execute() throws BuildException {
+                                 ^
+  symbol:   class BuildException
+  location: class DeployTask
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:48: error: cannot find symbol
+    public void addFileset(FileSet files) {
+                           ^
+  symbol:   class FileSet
+  location: class DeployTask
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:6: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.*;
+^
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:7: error: package org.apache.tools.ant.types does not exist
+import org.apache.tools.ant.types.*;
+^
+sources/structure/biz.aQute/bnd/0.0.384/extractedSources/aQute/bnd/ant/BaseTask.java:6: error: package org.apache.tools.ant does not exist
+import org.apache.tools.ant.*;
+^
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:13: error: cannot find symbol
+    List<FileSet> filesets = new ArrayList<FileSet>();
+                                           ^
+  symbol:   class FileSet
+  location: class DeployTask
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:18: error: cannot find symbol
+            Project project = Workspace.getProject(getProject().getBaseDir());
+                                                   ^
+  symbol:   method getProject()
+  location: class DeployTask
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:21: error: cannot find symbol
+            for (FileSet fileset : filesets) {
+                 ^
+  symbol:   class FileSet
+  location: class DeployTask
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:22: error: cannot find symbol
+                DirectoryScanner ds = fileset.getDirectoryScanner(getProject());
+                ^
+  symbol:   class DirectoryScanner
+  location: class DeployTask
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:22: error: cannot find symbol
+                DirectoryScanner ds = fileset.getDirectoryScanner(getProject());
+                                                                  ^
+  symbol:   method getProject()
+  location: class DeployTask
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:41: error: cannot find symbol
+                throw new BuildException("Deploy failed");
+                          ^
+  symbol:   class BuildException
+  location: class DeployTask
+hybrids/biz.aQute/bnd/0.0.384/DeployTask.java:44: error: cannot find symbol
+            throw new BuildException(t);
+                      ^
+  symbol:   class BuildException
+  location: class DeployTask
+14 errors

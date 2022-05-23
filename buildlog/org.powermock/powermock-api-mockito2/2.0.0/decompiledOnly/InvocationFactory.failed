@@ -1,0 +1,25 @@
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/InvocationFactory.java:9: error: package org.powermock.core does not exist
+import org.powermock.core.MockRepository;
+                         ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/InvocationFactory.java:11: error: package org.powermock.reflect does not exist
+import org.powermock.reflect.Whitebox;
+                            ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/InvocationFactory.java:13: error: cannot find symbol
+import org.mockito.Mockito;
+                  ^
+  symbol:   class Mockito
+  location: package org.mockito
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/InvocationFactory.java:22: error: cannot find symbol
+        return Mockito.framework().getInvocationFactory().createInvocation(mock, settings, method, realMethod, arguments);
+               ^
+  symbol:   variable Mockito
+  location: class InvocationFactory
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/InvocationFactory.java:29: error: cannot find symbol
+                final Class<?> type = (Class<?>)Whitebox.getType(delegator);
+                                                ^
+  symbol: variable Whitebox
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/InvocationFactory.java:32: error: cannot find symbol
+                    MockRepository.putAdditionalState("DontMockNextCall", (Object)true);
+                    ^
+  symbol: variable MockRepository
+6 errors

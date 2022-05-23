@@ -1,0 +1,353 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java:8: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java:10: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java:11: error: package javax.jms does not exist
+import javax.jms.ServerSession;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ServerSessionFactory.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ServerSessionFactory.java:20: error: package javax.jms does not exist
+import javax.jms.ServerSession;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:20: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java:34: error: cannot find symbol
+    public ServerSession getServerSession(final ListenerSessionManager sessionManager) throws JMSException {
+           ^
+  symbol:   class ServerSession
+  location: class SimpleServerSessionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java:34: error: cannot find symbol
+    public ServerSession getServerSession(final ListenerSessionManager sessionManager) throws JMSException {
+                                                                                              ^
+  symbol:   class JMSException
+  location: class SimpleServerSessionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:48: error: cannot find symbol
+	Session createListenerSession() throws JMSException;
+	^
+  symbol:   class Session
+  location: interface ListenerSessionManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:48: error: cannot find symbol
+	Session createListenerSession() throws JMSException;
+	                                       ^
+  symbol:   class JMSException
+  location: interface ListenerSessionManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:56: error: cannot find symbol
+	void executeListenerSession(Session session);
+	                            ^
+  symbol:   class Session
+  location: interface ListenerSessionManager
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ServerSessionFactory.java:53: error: cannot find symbol
+	ServerSession getServerSession(ListenerSessionManager sessionManager) throws JMSException;
+	^
+  symbol:   class ServerSession
+  location: interface ServerSessionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ServerSessionFactory.java:53: error: cannot find symbol
+	ServerSession getServerSession(ListenerSessionManager sessionManager) throws JMSException;
+	                                                                             ^
+  symbol:   class JMSException
+  location: interface ServerSessionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java:45: error: cannot find symbol
+    private class SimpleServerSession implements ServerSession
+                                                 ^
+  symbol:   class ServerSession
+  location: class SimpleServerSessionFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java:48: error: cannot find symbol
+        private final Session session;
+                      ^
+  symbol:   class Session
+  location: class SimpleServerSessionFactory.SimpleServerSession
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java:50: error: cannot find symbol
+        public SimpleServerSession(final ListenerSessionManager sessionManager) throws JMSException {
+                                                                                       ^
+  symbol:   class JMSException
+  location: class SimpleServerSessionFactory.SimpleServerSession
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java:55: error: cannot find symbol
+        public Session getSession() {
+               ^
+  symbol:   class Session
+  location: class SimpleServerSessionFactory.SimpleServerSession
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:19: error: package javax.jms does not exist
+import javax.jms.Connection;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:20: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:21: error: package javax.jms does not exist
+import javax.jms.MessageConsumer;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:22: error: package javax.jms does not exist
+import javax.jms.MessageProducer;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:23: error: package javax.jms does not exist
+import javax.jms.QueueBrowser;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:24: error: package javax.jms does not exist
+import javax.jms.QueueRequestor;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:25: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:62: error: cannot find symbol
+	public static void closeConnection(Connection con) {
+	                                   ^
+  symbol:   class Connection
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:72: error: cannot find symbol
+	public static void closeConnection(Connection con, boolean stop) {
+	                                   ^
+  symbol:   class Connection
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:105: error: cannot find symbol
+	public static void closeSession(Session session) {
+	                                ^
+  symbol:   class Session
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:125: error: cannot find symbol
+	public static void closeMessageProducer(MessageProducer producer) {
+	                                        ^
+  symbol:   class MessageProducer
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:145: error: cannot find symbol
+	public static void closeMessageConsumer(MessageConsumer consumer) {
+	                                        ^
+  symbol:   class MessageConsumer
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:174: error: cannot find symbol
+	public static void closeQueueBrowser(QueueBrowser browser) {
+	                                     ^
+  symbol:   class QueueBrowser
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:194: error: cannot find symbol
+	public static void closeQueueRequestor(QueueRequestor requestor) {
+	                                       ^
+  symbol:   class QueueRequestor
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:214: error: cannot find symbol
+	public static void commitIfNecessary(Session session) throws JMSException {
+	                                     ^
+  symbol:   class Session
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:214: error: cannot find symbol
+	public static void commitIfNecessary(Session session) throws JMSException {
+	                                                             ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:232: error: cannot find symbol
+	public static void rollbackIfNecessary(Session session) throws JMSException {
+	                                       ^
+  symbol:   class Session
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:232: error: cannot find symbol
+	public static void rollbackIfNecessary(Session session) throws JMSException {
+	                                                               ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:252: error: cannot find symbol
+	public static String buildExceptionMessage(JMSException ex) {
+	                                           ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:267: error: cannot find symbol
+	public static JmsException convertJmsAccessException(JMSException ex) {
+	                                                     ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/InvalidClientIDException.java:28: error: package javax.jms does not exist
+	public InvalidClientIDException(javax.jms.InvalidClientIDException cause) {
+	                                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/InvalidDestinationException.java:28: error: package javax.jms does not exist
+	public InvalidDestinationException(javax.jms.InvalidDestinationException cause) {
+	                                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/InvalidSelectorException.java:28: error: package javax.jms does not exist
+	public InvalidSelectorException(javax.jms.InvalidSelectorException cause) {
+	                                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsSecurityException.java:28: error: package javax.jms does not exist
+	public JmsSecurityException(javax.jms.JMSSecurityException cause) {
+	                                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/MessageEOFException.java:28: error: package javax.jms does not exist
+	public MessageEOFException(javax.jms.MessageEOFException cause) {
+	                                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/MessageFormatException.java:28: error: package javax.jms does not exist
+	public MessageFormatException(javax.jms.MessageFormatException cause) {
+	                                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/MessageNotReadableException.java:28: error: package javax.jms does not exist
+	public MessageNotReadableException(javax.jms.MessageNotReadableException cause) {
+	                                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/MessageNotWriteableException.java:28: error: package javax.jms does not exist
+	public MessageNotWriteableException(javax.jms.MessageNotWriteableException cause) {
+	                                             ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/ResourceAllocationException.java:28: error: package javax.jms does not exist
+	public ResourceAllocationException(javax.jms.ResourceAllocationException cause) {
+	                                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/TransactionInProgressException.java:28: error: package javax.jms does not exist
+	public TransactionInProgressException(javax.jms.TransactionInProgressException cause) {
+	                                               ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/TransactionRolledBackException.java:28: error: package javax.jms does not exist
+	public TransactionRolledBackException(javax.jms.TransactionRolledBackException cause) {
+	                                               ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java:35: error: cannot find symbol
+        return (ServerSession)new SimpleServerSession(sessionManager);
+                ^
+  symbol:   class ServerSession
+  location: class SimpleServerSessionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ServerSessionFactory.java:43: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public interface ServerSessionFactory {
+       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/listener/serversession/ListenerSessionManager.java:39: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public interface ListenerSessionManager {
+       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:87: error: package javax.jms does not exist
+			catch (javax.jms.IllegalStateException ex) {
+			                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:90: error: cannot find symbol
+			catch (JMSException ex) {
+			       ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:110: error: cannot find symbol
+			catch (JMSException ex) {
+			       ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:130: error: cannot find symbol
+			catch (JMSException ex) {
+			       ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:153: error: cannot find symbol
+			catch (JMSException ex) {
+			       ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:179: error: cannot find symbol
+			catch (JMSException ex) {
+			       ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:199: error: cannot find symbol
+			catch (JMSException ex) {
+			       ^
+  symbol:   class JMSException
+  location: class JmsUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:219: error: package javax.jms does not exist
+		catch (javax.jms.TransactionInProgressException ex) {
+		                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:222: error: package javax.jms does not exist
+		catch (javax.jms.IllegalStateException ex) {
+		                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:237: error: package javax.jms does not exist
+		catch (javax.jms.TransactionInProgressException ex) {
+		                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:240: error: package javax.jms does not exist
+		catch (javax.jms.IllegalStateException ex) {
+		                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:270: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.IllegalStateException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/IllegalStateException.java:28: error: package javax.jms does not exist
+	public IllegalStateException(javax.jms.IllegalStateException cause) {
+	                                      ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:271: error: package javax.jms does not exist
+			return new org.springframework.jms.IllegalStateException((javax.jms.IllegalStateException) ex);
+			                                                                   ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:273: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.InvalidClientIDException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:274: error: package javax.jms does not exist
+			return new InvalidClientIDException((javax.jms.InvalidClientIDException) ex);
+			                                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:276: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.InvalidDestinationException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:277: error: package javax.jms does not exist
+			return new InvalidDestinationException((javax.jms.InvalidDestinationException) ex);
+			                                                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:279: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.InvalidSelectorException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:280: error: package javax.jms does not exist
+			return new InvalidSelectorException((javax.jms.InvalidSelectorException) ex);
+			                                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:282: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.JMSSecurityException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:283: error: package javax.jms does not exist
+			return new JmsSecurityException((javax.jms.JMSSecurityException) ex);
+			                                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:285: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.MessageEOFException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:286: error: package javax.jms does not exist
+			return new MessageEOFException((javax.jms.MessageEOFException) ex);
+			                                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:288: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.MessageFormatException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:289: error: package javax.jms does not exist
+			return new MessageFormatException((javax.jms.MessageFormatException) ex);
+			                                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:291: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.MessageNotReadableException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:292: error: package javax.jms does not exist
+			return new MessageNotReadableException((javax.jms.MessageNotReadableException) ex);
+			                                                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:294: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.MessageNotWriteableException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:295: error: package javax.jms does not exist
+			return new MessageNotWriteableException((javax.jms.MessageNotWriteableException) ex);
+			                                                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:297: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.ResourceAllocationException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:298: error: package javax.jms does not exist
+			return new ResourceAllocationException((javax.jms.ResourceAllocationException) ex);
+			                                                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:300: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.TransactionInProgressException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:301: error: package javax.jms does not exist
+			return new TransactionInProgressException((javax.jms.TransactionInProgressException) ex);
+			                                                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:303: error: package javax.jms does not exist
+		if (ex instanceof javax.jms.TransactionRolledBackException) {
+		                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/support/JmsUtils.java:304: error: package javax.jms does not exist
+			return new TransactionRolledBackException((javax.jms.TransactionRolledBackException) ex);
+			                                                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:71: error: cannot find symbol
+		if (cause instanceof JMSException) {
+		                     ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:72: error: cannot find symbol
+			return ((JMSException) cause).getErrorCode();
+			         ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:85: error: cannot find symbol
+		if (cause instanceof JMSException) {
+		                     ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:86: error: cannot find symbol
+			Exception linkedEx = ((JMSException) cause).getLinkedException();
+			                       ^
+  symbol:   class JMSException
+  location: class JmsException
+Note: sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/listener/serversession/SimpleServerSessionFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+91 errors
+2 warnings

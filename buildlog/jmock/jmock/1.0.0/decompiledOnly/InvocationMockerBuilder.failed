@@ -1,0 +1,38 @@
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/builder/InvocationMockerBuilder.java:15: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/matcher/InvokedAfterMatcher.java:7: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/matcher/InvokedRecorder.java:7: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/builder/InvocationMockerBuilder.java:65: error: cannot find symbol
+            throw new AssertionFailedError("no method named " + str + " is defined in type " + this.mockedType);
+                      ^
+  symbol:   class AssertionFailedError
+  location: class InvocationMockerBuilder
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/builder/InvocationMockerBuilder.java:147: error: cannot find symbol
+            throw new AssertionFailedError("confusing identifier of prior invocation \"" + str + "\"; " + "give it an explicit call identifier");
+                      ^
+  symbol:   class AssertionFailedError
+  location: class InvocationMockerBuilder
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/matcher/InvokedAfterMatcher.java:26: error: cannot find symbol
+            throw new AssertionFailedError("called out of order; should be called after " + this.priorCallDescription);
+                      ^
+  symbol:   class AssertionFailedError
+  location: class InvokedAfterMatcher
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/matcher/InvokedRecorder.java:43: error: cannot find symbol
+        Assert.assertTrue("expected invokedMethod was not invokedObject", this.hasBeenInvoked);
+        ^
+  symbol:   variable Assert
+  location: class InvokedRecorder
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/Invocation.java:22: error: cannot find symbol
+        this.parameterValues = ((a == null) ? Collections.EMPTY_LIST : Collections.unmodifiableList((List<?>)Arrays.asList((T[])a)));
+                                                                                                                            ^
+  symbol:   class T
+  location: class Invocation
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/matcher/MethodNameMatcher.java:20: error: self-reference in initializer
+            private final /* synthetic */ String val$methodName = val$methodName;
+                                                                  ^
+9 errors

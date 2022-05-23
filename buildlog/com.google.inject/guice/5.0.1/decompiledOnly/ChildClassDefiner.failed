@@ -1,0 +1,25 @@
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/aop/ChildClassDefiner.java:8: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheLoader;
+                              ^
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/aop/ChildClassDefiner.java:9: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheBuilder;
+                              ^
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/aop/ChildClassDefiner.java:10: error: package com.google.common.cache does not exist
+import com.google.common.cache.LoadingCache;
+                              ^
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/aop/ChildClassDefiner.java:52: error: cannot find symbol
+        static final LoadingCache<ClassLoader, ChildLoader> CHILD_LOADER_CACHE;
+                     ^
+  symbol:   class LoadingCache
+  location: class ChildLoaderCacheHolder
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/aop/ChildClassDefiner.java:55: error: cannot find symbol
+            CHILD_LOADER_CACHE = CacheBuilder.newBuilder().weakKeys().weakValues().build(CacheLoader.from(ChildClassDefiner::childLoader));
+                                 ^
+  symbol:   variable CacheBuilder
+  location: class ChildLoaderCacheHolder
+sources/structure/com.google.inject/guice/5.0.1/Decompiled/com/google/inject/internal/aop/ChildClassDefiner.java:55: error: cannot find symbol
+            CHILD_LOADER_CACHE = CacheBuilder.newBuilder().weakKeys().weakValues().build(CacheLoader.from(ChildClassDefiner::childLoader));
+                                                                                         ^
+  symbol:   variable CacheLoader
+  location: class ChildLoaderCacheHolder
+6 errors

@@ -1,0 +1,100 @@
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:8: error: package org.objectweb.howl.log does not exist
+import org.objectweb.howl.log.LogRecord;
+                             ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:9: error: package org.objectweb.howl.log does not exist
+import org.objectweb.howl.log.LogEventListener;
+                             ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:11: error: package org.objectweb.howl.log does not exist
+import org.objectweb.howl.log.InvalidLogKeyException;
+                             ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:16: error: package org.objectweb.howl.log does not exist
+import org.objectweb.howl.log.InvalidLogBufferException;
+                             ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:17: error: package org.objectweb.howl.log does not exist
+import org.objectweb.howl.log.LogConfigurationException;
+                             ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:18: error: package org.objectweb.howl.log does not exist
+import org.objectweb.howl.log.InvalidFileSetException;
+                             ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:19: error: package org.objectweb.howl.log does not exist
+import org.objectweb.howl.log.Configuration;
+                             ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:21: error: package org.objectweb.howl.log does not exist
+import org.objectweb.howl.log.Logger;
+                             ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:26: error: cannot find symbol
+    private final Logger logger;
+                  ^
+  symbol:   class Logger
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:29: error: cannot find symbol
+    public HowlJournal(final Configuration configuration) throws InvalidFileSetException, LogConfigurationException, InvalidLogBufferException, ClassNotFoundException, IOException, InterruptedException {
+                             ^
+  symbol:   class Configuration
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:29: error: cannot find symbol
+    public HowlJournal(final Configuration configuration) throws InvalidFileSetException, LogConfigurationException, InvalidLogBufferException, ClassNotFoundException, IOException, InterruptedException {
+                                                                 ^
+  symbol:   class InvalidFileSetException
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:29: error: cannot find symbol
+    public HowlJournal(final Configuration configuration) throws InvalidFileSetException, LogConfigurationException, InvalidLogBufferException, ClassNotFoundException, IOException, InterruptedException {
+                                                                                          ^
+  symbol:   class LogConfigurationException
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:29: error: cannot find symbol
+    public HowlJournal(final Configuration configuration) throws InvalidFileSetException, LogConfigurationException, InvalidLogBufferException, ClassNotFoundException, IOException, InterruptedException {
+                                                                                                                     ^
+  symbol:   class InvalidLogBufferException
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:30: error: cannot find symbol
+        (this.logger = new Logger(configuration)).open();
+                           ^
+  symbol:   class Logger
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:61: error: cannot find symbol
+        catch (InvalidLogKeyException e3) {
+               ^
+  symbol:   class InvalidLogKeyException
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:97: error: cannot find symbol
+        this.logger.setLogEventListener((LogEventListener)new LogEventListener() {
+                                         ^
+  symbol:   class LogEventListener
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:97: error: cannot find symbol
+        this.logger.setLogEventListener((LogEventListener)new LogEventListener() {
+                                                              ^
+  symbol:   class LogEventListener
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:116: error: cannot find symbol
+                    final LogRecord record = this.logger.get((LogRecord)null, this.toLong(lastLocation));
+                          ^
+  symbol:   class LogRecord
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:116: error: cannot find symbol
+                    final LogRecord record = this.logger.get((LogRecord)null, this.toLong(lastLocation));
+                                                              ^
+  symbol:   class LogRecord
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:117: error: cannot find symbol
+                    final LogRecord next = this.logger.getNext(record);
+                          ^
+  symbol:   class LogRecord
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:135: error: cannot find symbol
+            final LogRecord record = this.logger.get((LogRecord)null, this.toLong(location));
+                  ^
+  symbol:   class LogRecord
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:135: error: cannot find symbol
+            final LogRecord record = this.logger.get((LogRecord)null, this.toLong(location));
+                                                      ^
+  symbol:   class LogRecord
+  location: class HowlJournal
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activeio/journal/howl/HowlJournal.java:138: error: cannot find symbol
+        catch (InvalidLogKeyException e) {
+               ^
+  symbol:   class InvalidLogKeyException
+  location: class HowlJournal
+23 errors

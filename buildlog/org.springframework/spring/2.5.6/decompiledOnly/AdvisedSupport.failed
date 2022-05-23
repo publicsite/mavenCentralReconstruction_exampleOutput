@@ -1,0 +1,53 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:362: error: cannot find symbol
+			extends edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap
+			                                                      ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/aop/framework/AdvisedSupport.java:123: error: incompatible types: Object[] cannot be converted to Class[]
+        return this.interfaces.toArray(new Class[this.interfaces.size()]);
+                                      ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/aop/framework/AdvisedSupport.java:127: error: incompatible types: Object cannot be converted to Class
+        for (final Class proxyIntf : this.interfaces) {
+                                         ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/aop/framework/AdvisedSupport.java:167: error: incompatible types: Object cannot be converted to Advisor
+        final Advisor advisor = this.advisors.get(index);
+                                                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/aop/framework/AdvisedSupport.java:236: error: incompatible types: Object[] cannot be converted to Advisor[]
+        this.advisorArray = this.advisors.toArray(new Advisor[this.advisors.size()]);
+                                                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/aop/framework/AdvisedSupport.java:273: error: incompatible types: Object cannot be converted to Advisor
+            final Advisor advisor = this.advisors.get(i);
+                                                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/aop/framework/AdvisedSupport.java:284: error: incompatible types: Object cannot be converted to Advisor
+            final Advisor advisor = this.advisors.get(i);
+                                                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/aop/framework/AdvisedSupport.java:296: error: incompatible types: Object cannot be converted to Advisor
+            final Advisor advisor = this.advisors.get(i);
+                                                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/aop/framework/AdvisedSupport.java:306: error: incompatible types: Object cannot be converted to List
+        List cached = this.methodCache.get(cacheKey);
+                                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/aop/framework/AdvisedSupport.java:329: error: incompatible types: Object cannot be converted to Advisor
+        for (final Advisor advisor : advisors) {
+                                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:110: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Set createLinkedSetIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:147: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createLinkedMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:179: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createIdentityMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:342: error: cannot find symbol
+			return new edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap(initialCapacity);
+			                                                         ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:361: error: BackportConcurrentHashMap is not abstract and does not override abstract method replace(Object,Object) in ConcurrentMap
+	private static class BackportConcurrentHashMap
+	               ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 errors
+3 warnings

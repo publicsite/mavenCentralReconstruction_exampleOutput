@@ -1,0 +1,42 @@
+hybrids/org.springframework/spring/2.5.6/CookieGenerator.java:19: error: package javax.servlet.http does not exist
+import javax.servlet.http.Cookie;
+                         ^
+hybrids/org.springframework/spring/2.5.6/CookieGenerator.java:20: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletResponse;
+                         ^
+hybrids/org.springframework/spring/2.5.6/CookieGenerator.java:155: error: cannot find symbol
+	public void addCookie(HttpServletResponse response, String cookieValue) {
+	                      ^
+  symbol:   class HttpServletResponse
+  location: class CookieGenerator
+hybrids/org.springframework/spring/2.5.6/CookieGenerator.java:177: error: cannot find symbol
+	public void removeCookie(HttpServletResponse response) {
+	                         ^
+  symbol:   class HttpServletResponse
+  location: class CookieGenerator
+hybrids/org.springframework/spring/2.5.6/CookieGenerator.java:195: error: cannot find symbol
+	protected Cookie createCookie(String cookieValue) {
+	          ^
+  symbol:   class Cookie
+  location: class CookieGenerator
+hybrids/org.springframework/spring/2.5.6/CookieGenerator.java:156: error: cannot find symbol
+		Cookie cookie = createCookie(cookieValue);
+		^
+  symbol:   class Cookie
+  location: class CookieGenerator
+hybrids/org.springframework/spring/2.5.6/CookieGenerator.java:178: error: cannot find symbol
+		Cookie cookie = createCookie("");
+		^
+  symbol:   class Cookie
+  location: class CookieGenerator
+hybrids/org.springframework/spring/2.5.6/CookieGenerator.java:196: error: cannot find symbol
+		Cookie cookie = new Cookie(getCookieName(), cookieValue);
+		^
+  symbol:   class Cookie
+  location: class CookieGenerator
+hybrids/org.springframework/spring/2.5.6/CookieGenerator.java:196: error: cannot find symbol
+		Cookie cookie = new Cookie(getCookieName(), cookieValue);
+		                    ^
+  symbol:   class Cookie
+  location: class CookieGenerator
+9 errors

@@ -1,0 +1,110 @@
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:7: error: cannot find symbol
+import org.assertj.core.internal.cglib.core.CodeEmitter;
+                                           ^
+  symbol:   class CodeEmitter
+  location: package org.assertj.core.internal.cglib.core
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:9: error: cannot find symbol
+import org.assertj.core.internal.cglib.core.TypeUtils;
+                                           ^
+  symbol:   class TypeUtils
+  location: package org.assertj.core.internal.cglib.core
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:10: error: cannot find symbol
+import org.assertj.core.internal.cglib.core.MethodInfo;
+                                           ^
+  symbol:   class MethodInfo
+  location: package org.assertj.core.internal.cglib.core
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:12: error: cannot find symbol
+import org.assertj.core.internal.cglib.core.ClassEmitter;
+                                           ^
+  symbol:   class ClassEmitter
+  location: package org.assertj.core.internal.cglib.core
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:13: error: cannot find symbol
+import org.assertj.core.internal.cglib.core.Signature;
+                                           ^
+  symbol:   class Signature
+  location: package org.assertj.core.internal.cglib.core
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:14: error: cannot find symbol
+import org.assertj.core.internal.cglib.asm.Type;
+                                          ^
+  symbol:   class Type
+  location: package org.assertj.core.internal.cglib.asm
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:16: error: cannot find symbol
+class DispatcherGenerator implements CallbackGenerator
+                                     ^
+  symbol: class CallbackGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:20: error: cannot find symbol
+    private static final Type DISPATCHER;
+                         ^
+  symbol:   class Type
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:21: error: cannot find symbol
+    private static final Type PROXY_REF_DISPATCHER;
+                         ^
+  symbol:   class Type
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:22: error: cannot find symbol
+    private static final Signature LOAD_OBJECT;
+                         ^
+  symbol:   class Signature
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:23: error: cannot find symbol
+    private static final Signature PROXY_REF_LOAD_OBJECT;
+                         ^
+  symbol:   class Signature
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:30: error: cannot find symbol
+    public void generate(final ClassEmitter ce, final Context context, final List methods) {
+                               ^
+  symbol:   class ClassEmitter
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:30: error: cannot find symbol
+    public void generate(final ClassEmitter ce, final Context context, final List methods) {
+                                                      ^
+  symbol:   class Context
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:51: error: cannot find symbol
+    public void generateStatic(final CodeEmitter e, final Context context, final List methods) {
+                                     ^
+  symbol:   class CodeEmitter
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:51: error: cannot find symbol
+    public void generateStatic(final CodeEmitter e, final Context context, final List methods) {
+                                                          ^
+  symbol:   class Context
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:31: error: cannot find symbol
+        for (final MethodInfo method : methods) {
+                   ^
+  symbol:   class MethodInfo
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:32: error: cannot find symbol
+            if (!TypeUtils.isProtected(method.getModifiers())) {
+                 ^
+  symbol:   variable TypeUtils
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:33: error: cannot find symbol
+                final CodeEmitter e = context.beginMethod(ce, method);
+                      ^
+  symbol:   class CodeEmitter
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:57: error: cannot find symbol
+        DISPATCHER = TypeUtils.parseType("org.assertj.core.internal.cglib.proxy.Dispatcher");
+                     ^
+  symbol:   variable TypeUtils
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:58: error: cannot find symbol
+        PROXY_REF_DISPATCHER = TypeUtils.parseType("org.assertj.core.internal.cglib.proxy.ProxyRefDispatcher");
+                               ^
+  symbol:   variable TypeUtils
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:59: error: cannot find symbol
+        LOAD_OBJECT = TypeUtils.parseSignature("Object loadObject()");
+                      ^
+  symbol:   variable TypeUtils
+  location: class DispatcherGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/proxy/DispatcherGenerator.java:60: error: cannot find symbol
+        PROXY_REF_LOAD_OBJECT = TypeUtils.parseSignature("Object loadObject(Object)");
+                                ^
+  symbol:   variable TypeUtils
+  location: class DispatcherGenerator
+22 errors

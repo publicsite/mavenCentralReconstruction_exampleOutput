@@ -1,0 +1,37 @@
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/NegatingMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/NegatingMatcher.java:10: error: package ElementMatcher.Junction does not exist
+public class NegatingMatcher<T> extends ElementMatcher.Junction.AbstractBase<T>
+                                                               ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/NegatingMatcher.java:9: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/NegatingMatcher.java:12: error: cannot find symbol
+    private final ElementMatcher<? super T> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class NegatingMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class NegatingMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/NegatingMatcher.java:14: error: cannot find symbol
+    public NegatingMatcher(final ElementMatcher<? super T> matcher) {
+                                 ^
+  symbol:   class ElementMatcher
+  location: class NegatingMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class NegatingMatcher
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/NegatingMatcher.java:22: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/NegatingMatcher.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/NegatingMatcher.java:29: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((NegatingMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.12.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/NegatingMatcher.java:32: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+9 errors

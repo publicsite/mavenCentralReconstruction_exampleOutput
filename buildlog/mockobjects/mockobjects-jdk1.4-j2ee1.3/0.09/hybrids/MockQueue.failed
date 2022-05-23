@@ -1,0 +1,59 @@
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:3: error: cannot find symbol
+import com.mockobjects.MockObject;
+                      ^
+  symbol:   class MockObject
+  location: package com.mockobjects
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:4: error: cannot find symbol
+import com.mockobjects.ReturnValue;
+                      ^
+  symbol:   class ReturnValue
+  location: package com.mockobjects
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:6: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:7: error: package javax.jms does not exist
+import javax.jms.Queue;
+                ^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:9: error: cannot find symbol
+public class MockQueue extends MockObject implements Queue {
+                               ^
+  symbol: class MockObject
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:9: error: cannot find symbol
+public class MockQueue extends MockObject implements Queue {
+                                                     ^
+  symbol: class Queue
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:11: error: cannot find symbol
+    private JMSException myException;
+            ^
+  symbol:   class JMSException
+  location: class MockQueue
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:12: error: cannot find symbol
+    private final ReturnValue myName = new ReturnValue("name");
+                  ^
+  symbol:   class ReturnValue
+  location: class MockQueue
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:14: error: cannot find symbol
+    public String getQueueName() throws JMSException {
+                                        ^
+  symbol:   class JMSException
+  location: class MockQueue
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:27: error: cannot find symbol
+    public void setupThrowException(JMSException e) {
+                                    ^
+  symbol:   class JMSException
+  location: class MockQueue
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:31: error: cannot find symbol
+    protected void throwExceptionIfAny() throws JMSException {
+                                                ^
+  symbol:   class JMSException
+  location: class MockQueue
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:12: error: cannot find symbol
+    private final ReturnValue myName = new ReturnValue("name");
+                                           ^
+  symbol:   class ReturnValue
+  location: class MockQueue
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueue.java:24: error: cannot find symbol
+        return this.getClass().getName() + ", " + myName.getValue();
+                   ^
+  symbol: method getClass()
+13 errors

@@ -1,0 +1,168 @@
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:26: error: package javax.servlet does not exist
+import javax.servlet.ServletContext;
+                    ^
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:27: error: package javax.servlet does not exist
+import javax.servlet.ServletRequest;
+                    ^
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:28: error: package javax.servlet.http does not exist
+import javax.servlet.http.Cookie;
+                         ^
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:29: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletRequest;
+                         ^
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:30: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletResponse;
+                         ^
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:31: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpSession;
+                         ^
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:135: error: cannot find symbol
+	public static void setWebAppRootSystemProperty(ServletContext servletContext) throws IllegalStateException {
+	                                               ^
+  symbol:   class ServletContext
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:161: error: cannot find symbol
+	public static void removeWebAppRootSystemProperty(ServletContext servletContext) {
+	                                                  ^
+  symbol:   class ServletContext
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:175: error: cannot find symbol
+	public static boolean isDefaultHtmlEscape(ServletContext servletContext) {
+	                                          ^
+  symbol:   class ServletContext
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:193: error: cannot find symbol
+	public static Boolean getDefaultHtmlEscape(ServletContext servletContext) {
+	                                           ^
+  symbol:   class ServletContext
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:208: error: cannot find symbol
+	public static File getTempDir(ServletContext servletContext) {
+	                              ^
+  symbol:   class ServletContext
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:226: error: cannot find symbol
+	public static String getRealPath(ServletContext servletContext, String path) throws FileNotFoundException {
+	                                 ^
+  symbol:   class ServletContext
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:247: error: cannot find symbol
+	public static String getSessionId(HttpServletRequest request) {
+	                                  ^
+  symbol:   class HttpServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:261: error: cannot find symbol
+	public static Object getSessionAttribute(HttpServletRequest request, String name) {
+	                                         ^
+  symbol:   class HttpServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:276: error: cannot find symbol
+	public static Object getRequiredSessionAttribute(HttpServletRequest request, String name)
+	                                                 ^
+  symbol:   class HttpServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:294: error: cannot find symbol
+	public static void setSessionAttribute(HttpServletRequest request, String name, Object value) {
+	                                       ^
+  symbol:   class HttpServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:317: error: cannot find symbol
+	public static Object getOrCreateSessionAttribute(HttpSession session, String name, Class clazz)
+	                                                 ^
+  symbol:   class HttpSession
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:361: error: cannot find symbol
+	public static Object getSessionMutex(HttpSession session) {
+	                                     ^
+  symbol:   class HttpSession
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:380: error: cannot find symbol
+	public static boolean isIncludeRequest(ServletRequest request) {
+	                                       ^
+  symbol:   class ServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:397: error: cannot find symbol
+	public static void exposeForwardRequestAttributes(HttpServletRequest request) {
+	                                                  ^
+  symbol:   class HttpServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:423: error: cannot find symbol
+	public static void exposeErrorRequestAttributes(HttpServletRequest request, Throwable ex, String servletName) {
+	                                                ^
+  symbol:   class HttpServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:438: error: cannot find symbol
+	private static void exposeRequestAttributeIfNotPresent(ServletRequest request, String name, Object value) {
+	                                                       ^
+  symbol:   class ServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:455: error: cannot find symbol
+	public static void clearErrorRequestAttributes(HttpServletRequest request) {
+	                                               ^
+  symbol:   class HttpServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:470: error: cannot find symbol
+	public static void exposeRequestAttributes(ServletRequest request, Map attributes) {
+	                                           ^
+  symbol:   class ServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:490: error: cannot find symbol
+	public static Cookie getCookie(HttpServletRequest request, String name) {
+	                               ^
+  symbol:   class HttpServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:490: error: cannot find symbol
+	public static Cookie getCookie(HttpServletRequest request, String name) {
+	              ^
+  symbol:   class Cookie
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:513: error: cannot find symbol
+	public static boolean hasSubmitParameter(ServletRequest request, String name) {
+	                                         ^
+  symbol:   class ServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:536: error: cannot find symbol
+	public static String findParameterValue(ServletRequest request, String name) {
+	                                        ^
+  symbol:   class ServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:603: error: cannot find symbol
+	public static Map getParametersStartingWith(ServletRequest request, String prefix) {
+	                                            ^
+  symbol:   class ServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:638: error: cannot find symbol
+	public static int getTargetPage(ServletRequest request, String paramPrefix, int currentPage) {
+	                                ^
+  symbol:   class ServletRequest
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:249: error: cannot find symbol
+		HttpSession session = request.getSession(false);
+		^
+  symbol:   class HttpSession
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:263: error: cannot find symbol
+		HttpSession session = request.getSession(false);
+		^
+  symbol:   class HttpSession
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:300: error: cannot find symbol
+			HttpSession session = request.getSession(false);
+			^
+  symbol:   class HttpSession
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:424: error: cannot find symbol
+		exposeRequestAttributeIfNotPresent(request, ERROR_STATUS_CODE_ATTRIBUTE, new Integer(HttpServletResponse.SC_OK));
+		                                                                                     ^
+  symbol:   variable HttpServletResponse
+  location: class WebUtils
+hybrids/org.springframework/spring/2.5.6/WebUtils.java:492: error: cannot find symbol
+		Cookie cookies[] = request.getCookies();
+		^
+  symbol:   class Cookie
+  location: class WebUtils
+Note: hybrids/org.springframework/spring/2.5.6/WebUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: hybrids/org.springframework/spring/2.5.6/WebUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+35 errors

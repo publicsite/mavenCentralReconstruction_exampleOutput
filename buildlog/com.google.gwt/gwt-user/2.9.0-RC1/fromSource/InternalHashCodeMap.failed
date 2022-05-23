@@ -1,0 +1,54 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/InternalHashCodeMap.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/InternalHashCodeMap.java:18: error: cannot find symbol
+import static java.util.ConcurrentModificationDetector.structureChanged;
+                       ^
+  symbol:   class ConcurrentModificationDetector
+  location: package java.util
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/InternalHashCodeMap.java:18: error: static import only from classes and interfaces
+import static java.util.ConcurrentModificationDetector.structureChanged;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/InternalHashCodeMap.java:39: error: cannot find symbol
+  private final InternalJsMap<Object> backingMap = InternalJsMapFactory.newJsMap();
+                ^
+  symbol:   class InternalJsMap
+  location: class InternalHashCodeMap<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class InternalHashCodeMap
+    V extends Object declared in class InternalHashCodeMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/InternalHashCodeMap.java:40: error: cannot find symbol
+  private AbstractHashMap<K, V> host;
+          ^
+  symbol:   class AbstractHashMap
+  location: class InternalHashCodeMap<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class InternalHashCodeMap
+    V extends Object declared in class InternalHashCodeMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/InternalHashCodeMap.java:43: error: cannot find symbol
+  public InternalHashCodeMap(AbstractHashMap<K, V> host) {
+                             ^
+  symbol:   class AbstractHashMap
+  location: class InternalHashCodeMap<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class InternalHashCodeMap
+    V extends Object declared in class InternalHashCodeMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/InternalHashCodeMap.java:39: error: cannot find symbol
+  private final InternalJsMap<Object> backingMap = InternalJsMapFactory.newJsMap();
+                                                   ^
+  symbol:   variable InternalJsMapFactory
+  location: class InternalHashCodeMap<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class InternalHashCodeMap
+    V extends Object declared in class InternalHashCodeMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/InternalHashCodeMap.java:109: error: package InternalJsMap does not exist
+      final InternalJsMap.Iterator<?> chains = backingMap.entries();
+                         ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/InternalHashCodeMap.java:119: error: package InternalJsMap does not exist
+        InternalJsMap.IteratorEntry<?> current = chains.next();
+                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/InternalHashCodeMap.java:137: error: cannot find symbol
+        InternalHashCodeMap.this.remove(lastEntry.getKey());
+        ^
+  symbol: class InternalHashCodeMap
+10 errors

@@ -1,0 +1,84 @@
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:18: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:19: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.UnableToCompleteException;
+                              ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:20: error: package com.google.gwt.core.ext.linker does not exist
+import com.google.gwt.core.ext.linker.ArtifactSet;
+                                     ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:21: error: package com.google.gwt.core.ext.linker does not exist
+import com.google.gwt.core.ext.linker.CompilationResult;
+                                     ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:22: error: package com.google.gwt.core.ext.linker does not exist
+import com.google.gwt.core.ext.linker.EmittedArtifact;
+                                     ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:23: error: package com.google.gwt.core.ext.linker does not exist
+import com.google.gwt.core.ext.linker.Shardable;
+                                     ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:24: error: package com.google.gwt.core.ext.linker does not exist
+import com.google.gwt.core.ext.linker.SyntheticArtifact;
+                                     ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:25: error: package com.google.gwt.core.linker does not exist
+import com.google.gwt.core.linker.SymbolMapsLinker;
+                                 ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:34: error: cannot find symbol
+public class JUnitSymbolMapsLinker extends SymbolMapsLinker {
+                                           ^
+  symbol: class SymbolMapsLinker
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:33: error: cannot find symbol
+@Shardable
+ ^
+  symbol: class Shardable
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:39: error: cannot find symbol
+  protected void doEmitSymbolMap(TreeLogger logger, ArtifactSet artifacts,
+                                 ^
+  symbol:   class TreeLogger
+  location: class JUnitSymbolMapsLinker
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:39: error: cannot find symbol
+  protected void doEmitSymbolMap(TreeLogger logger, ArtifactSet artifacts,
+                                                    ^
+  symbol:   class ArtifactSet
+  location: class JUnitSymbolMapsLinker
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:40: error: cannot find symbol
+      CompilationResult result, ByteArrayOutputStream out)
+      ^
+  symbol:   class CompilationResult
+  location: class JUnitSymbolMapsLinker
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:41: error: cannot find symbol
+      throws UnableToCompleteException {
+             ^
+  symbol:   class UnableToCompleteException
+  location: class JUnitSymbolMapsLinker
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:53: error: cannot find symbol
+  protected SyntheticArtifact emitSourceMapString(TreeLogger logger, String contents,
+                                                  ^
+  symbol:   class TreeLogger
+  location: class JUnitSymbolMapsLinker
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:53: error: cannot find symbol
+  protected SyntheticArtifact emitSourceMapString(TreeLogger logger, String contents,
+            ^
+  symbol:   class SyntheticArtifact
+  location: class JUnitSymbolMapsLinker
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:54: error: cannot find symbol
+      String partialPath) throws UnableToCompleteException {
+                                 ^
+  symbol:   class UnableToCompleteException
+  location: class JUnitSymbolMapsLinker
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:38: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:44: error: cannot find symbol
+        + STRONG_NAME_SUFFIX;
+          ^
+  symbol:   variable STRONG_NAME_SUFFIX
+  location: class JUnitSymbolMapsLinker
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:46: error: cannot find symbol
+    EmittedArtifact symbolMapArtifact = emitBytes(logger, out.toByteArray(),
+    ^
+  symbol:   class EmittedArtifact
+  location: class JUnitSymbolMapsLinker
+hybrids/com.google.gwt/gwt-user/2.9.0-RC1/JUnitSymbolMapsLinker.java:52: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+21 errors

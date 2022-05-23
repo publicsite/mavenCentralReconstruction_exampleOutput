@@ -1,0 +1,104 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:7: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssTreeVisitor;
+                                                        ^
+  symbol:   class CssTreeVisitor
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:8: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssIdSelectorNode;
+                                                        ^
+  symbol:   class CssIdSelectorNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:9: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssNode;
+                                                        ^
+  symbol:   class CssNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:11: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.ImmutableList;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:12: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssClassSelectorNode;
+                                                        ^
+  symbol:   class CssClassSelectorNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:14: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.MutatingVisitController;
+                                                        ^
+  symbol:   class MutatingVisitController
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:16: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.DefaultTreeVisitor;
+                                                        ^
+  symbol:   class DefaultTreeVisitor
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:18: error: cannot find symbol
+public class CssClassRenaming extends DefaultTreeVisitor implements CssCompilerPass
+                                      ^
+  symbol: class DefaultTreeVisitor
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:20: error: cannot find symbol
+    private final MutatingVisitController visitController;
+                  ^
+  symbol:   class MutatingVisitController
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:24: error: cannot find symbol
+    public CssClassRenaming(final MutatingVisitController visitController, final SubstitutionMap cssClassRenamingMap, final SubstitutionMap elementIdMap) {
+                                  ^
+  symbol:   class MutatingVisitController
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:31: error: cannot find symbol
+    public boolean enterClassSelector(final CssClassSelectorNode node) {
+                                            ^
+  symbol:   class CssClassSelectorNode
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:45: error: cannot find symbol
+    public boolean enterIdSelector(final CssIdSelectorNode node) {
+                                         ^
+  symbol:   class CssIdSelectorNode
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:30: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:39: error: cannot find symbol
+        final CssClassSelectorNode classSelector = new CssClassSelectorNode(substitution, node.getSourceCodeLocation());
+              ^
+  symbol:   class CssClassSelectorNode
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:39: error: cannot find symbol
+        final CssClassSelectorNode classSelector = new CssClassSelectorNode(substitution, node.getSourceCodeLocation());
+                                                       ^
+  symbol:   class CssClassSelectorNode
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:40: error: cannot find symbol
+        this.visitController.replaceCurrentBlockChildWith((List<CssNode>)ImmutableList.of((Object)classSelector), false);
+                                                                ^
+  symbol:   class CssNode
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:40: error: cannot find symbol
+        this.visitController.replaceCurrentBlockChildWith((List<CssNode>)ImmutableList.of((Object)classSelector), false);
+                                                                         ^
+  symbol:   variable ImmutableList
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:44: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:53: error: cannot find symbol
+        final CssIdSelectorNode idSelector = new CssIdSelectorNode(substitution, node.getSourceCodeLocation());
+              ^
+  symbol:   class CssIdSelectorNode
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:53: error: cannot find symbol
+        final CssIdSelectorNode idSelector = new CssIdSelectorNode(substitution, node.getSourceCodeLocation());
+                                                 ^
+  symbol:   class CssIdSelectorNode
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:54: error: cannot find symbol
+        this.visitController.replaceCurrentBlockChildWith((List<CssNode>)ImmutableList.of((Object)idSelector), false);
+                                                                ^
+  symbol:   class CssNode
+  location: class CssClassRenaming
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/CssClassRenaming.java:54: error: cannot find symbol
+        this.visitController.replaceCurrentBlockChildWith((List<CssNode>)ImmutableList.of((Object)idSelector), false);
+                                                                         ^
+  symbol:   variable ImmutableList
+  location: class CssClassRenaming
+22 errors

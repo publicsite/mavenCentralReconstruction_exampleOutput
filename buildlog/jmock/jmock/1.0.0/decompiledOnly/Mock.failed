@@ -1,0 +1,150 @@
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/Mock.java:8: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/builder/InvocationMockerBuilder.java:15: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java:8: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/AbstractDynamicMock.java:14: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/matcher/InvokedAfterMatcher.java:7: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/matcher/InvokedRecorder.java:7: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java:11: error: package junit.framework does not exist
+import junit.framework.Assert;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java:13: error: cannot find symbol
+public class ReturnStub extends Assert implements Stub
+                                ^
+  symbol: class Assert
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/Mock.java:89: error: cannot find symbol
+            throw new AssertionFailedError("no expected invocation named '" + key + "'");
+                      ^
+  symbol:   class AssertionFailedError
+  location: class Mock
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/Mock.java:91: error: incompatible types: Object cannot be converted to MatchBuilder
+        return this.idTable.get(key);
+                               ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/Mock.java:96: error: cannot find symbol
+            throw new AssertionFailedError("duplicate invocation named \"" + s + "\"");
+                      ^
+  symbol:   class AssertionFailedError
+  location: class Mock
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/builder/InvocationMockerBuilder.java:65: error: cannot find symbol
+            throw new AssertionFailedError("no method named " + str + " is defined in type " + this.mockedType);
+                      ^
+  symbol:   class AssertionFailedError
+  location: class InvocationMockerBuilder
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/builder/InvocationMockerBuilder.java:147: error: cannot find symbol
+            throw new AssertionFailedError("confusing identifier of prior invocation \"" + str + "\"; " + "give it an explicit call identifier");
+                      ^
+  symbol:   class AssertionFailedError
+  location: class InvocationMockerBuilder
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java:58: error: cannot find symbol
+        catch (AssertionFailedError assertionFailedError2) {
+               ^
+  symbol:   class AssertionFailedError
+  location: class InvocationMocker
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java:59: error: cannot find symbol
+            final AssertionFailedError assertionFailedError = new AssertionFailedError(assertionFailedError2.getMessage() + ": " + this.toString());
+                  ^
+  symbol:   class AssertionFailedError
+  location: class InvocationMocker
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java:59: error: cannot find symbol
+            final AssertionFailedError assertionFailedError = new AssertionFailedError(assertionFailedError2.getMessage() + ": " + this.toString());
+                                                                  ^
+  symbol:   class AssertionFailedError
+  location: class InvocationMocker
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/InvocationMocker.java:97: error: incompatible types: Object cannot be converted to InvocationMatcher
+                for (final InvocationMatcher invocationMatcher : list) {
+                                                                 ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/Invocation.java:22: error: cannot find symbol
+        this.parameterValues = ((a == null) ? Collections.EMPTY_LIST : Collections.unmodifiableList((List<?>)Arrays.asList((T[])a)));
+                                                                                                                            ^
+  symbol:   class T
+  location: class Invocation
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/TestFailureStub.java:7: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/AbstractDynamicMock.java:42: error: cannot find symbol
+        catch (AssertionFailedError assertionFailedError) {
+               ^
+  symbol:   class AssertionFailedError
+  location: class AbstractDynamicMock
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/DynamicMockError.java:7: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/DynamicMockError.java:9: error: cannot find symbol
+public class DynamicMockError extends AssertionFailedError
+                                      ^
+  symbol: class AssertionFailedError
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/AbstractDynamicMock.java:44: error: cannot find symbol
+            dynamicMockError.fillInStackTrace();
+                            ^
+  symbol:   method fillInStackTrace()
+  location: variable dynamicMockError of type DynamicMockError
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/AbstractDynamicMock.java:45: error: incompatible types: DynamicMockError cannot be converted to Throwable
+            throw dynamicMockError;
+            ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/AbstractDynamicMock.java:53: error: cannot find symbol
+        catch (AssertionFailedError assertionFailedError) {
+               ^
+  symbol:   class AssertionFailedError
+  location: class AbstractDynamicMock
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/AbstractDynamicMock.java:54: error: cannot find symbol
+            throw new AssertionFailedError(this.name + ": " + assertionFailedError.getMessage());
+                      ^
+  symbol:   class AssertionFailedError
+  location: class AbstractDynamicMock
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/matcher/InvokedAfterMatcher.java:26: error: cannot find symbol
+            throw new AssertionFailedError("called out of order; should be called after " + this.priorCallDescription);
+                      ^
+  symbol:   class AssertionFailedError
+  location: class InvokedAfterMatcher
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/matcher/InvokedRecorder.java:43: error: cannot find symbol
+        Assert.assertTrue("expected invokedMethod was not invokedObject", this.hasBeenInvoked);
+        ^
+  symbol:   variable Assert
+  location: class InvokedRecorder
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/matcher/MethodNameMatcher.java:20: error: self-reference in initializer
+            private final /* synthetic */ String val$methodName = val$methodName;
+                                                                  ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java:60: error: cannot find symbol
+        fail("tried to return an incompatible value: expected a " + obj + " but returned a " + obj2);
+        ^
+  symbol:   method fail(String)
+  location: class ReturnStub
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java:64: error: cannot find symbol
+        fail("tried to return null value from invokedMethod returning " + obj);
+        ^
+  symbol:   method fail(String)
+  location: class ReturnStub
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/ReturnStub.java:68: error: cannot find symbol
+        fail("tried to return a value from a void method");
+        ^
+  symbol:   method fail(String)
+  location: class ReturnStub
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/LIFOInvocationDispatcher.java:64: error: incompatible types: Object cannot be converted to Invokable
+        for (final Invokable invokable : this.invokables) {
+                                             ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/TestFailureStub.java:20: error: cannot find symbol
+        throw new AssertionFailedError(this.errorMessage);
+                  ^
+  symbol:   class AssertionFailedError
+  location: class TestFailureStub
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/DynamicMockError.java:23: error: cannot find symbol
+        sb.append(this.dynamicMock.toString()).append(": ").append(super.getMessage()).append("\n");
+                                                                   ^
+  symbol:   variable super
+  location: class DynamicMockError
+Note: sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/AbstractDynamicMock.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+35 errors

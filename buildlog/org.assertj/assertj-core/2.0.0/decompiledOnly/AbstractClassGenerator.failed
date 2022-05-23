@@ -1,0 +1,95 @@
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:9: error: cannot find symbol
+import org.assertj.core.internal.cglib.asm.ClassReader;
+                                          ^
+  symbol:   class ClassReader
+  location: package org.assertj.core.internal.cglib.asm
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:16: error: cannot find symbol
+public abstract class AbstractClassGenerator implements ClassGenerator
+                                                        ^
+  symbol: class ClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:20: error: cannot find symbol
+    private GeneratorStrategy strategy;
+            ^
+  symbol:   class GeneratorStrategy
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:21: error: cannot find symbol
+    private NamingPolicy namingPolicy;
+            ^
+  symbol:   class NamingPolicy
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:65: error: cannot find symbol
+    public void setNamingPolicy(NamingPolicy namingPolicy) {
+                                ^
+  symbol:   class NamingPolicy
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:72: error: cannot find symbol
+    public NamingPolicy getNamingPolicy() {
+           ^
+  symbol:   class NamingPolicy
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:92: error: cannot find symbol
+    public void setStrategy(GeneratorStrategy strategy) {
+                            ^
+  symbol:   class GeneratorStrategy
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:99: error: cannot find symbol
+    public GeneratorStrategy getStrategy() {
+           ^
+  symbol:   class GeneratorStrategy
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:31: error: cannot find symbol
+        this.strategy = DefaultGeneratorStrategy.INSTANCE;
+                        ^
+  symbol:   variable DefaultGeneratorStrategy
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:32: error: cannot find symbol
+        this.namingPolicy = DefaultNamingPolicy.INSTANCE;
+                            ^
+  symbol:   variable DefaultNamingPolicy
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:58: error: cannot find symbol
+        return this.source.cache.get(loader).get(AbstractClassGenerator.NAME_KEY);
+                                            ^
+  symbol:   method get(Object)
+  location: class Object
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:67: error: cannot find symbol
+            namingPolicy = DefaultNamingPolicy.INSTANCE;
+                           ^
+  symbol:   variable DefaultNamingPolicy
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:94: error: cannot find symbol
+            strategy = DefaultGeneratorStrategy.INSTANCE;
+                       ^
+  symbol:   variable DefaultGeneratorStrategy
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:104: error: incompatible types: Object cannot be converted to AbstractClassGenerator
+        return AbstractClassGenerator.CURRENT.get();
+                                                 ^
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:132: error: incompatible types: Object cannot be converted to Map
+                cache2 = this.source.cache.get(loader);
+                                              ^
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:139: error: incompatible types: Object cannot be converted to Reference
+                    final Reference ref = cache2.get(key);
+                                                    ^
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:140: error: incompatible types: bad type in conditional expression
+                    gen = ((ref == null) ? null : ref.get());
+                                                         ^
+    Object cannot be converted to Class
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:155: error: cannot find symbol
+                            final String className = ClassNameReader.getClassName(new ClassReader(b));
+                                                                                      ^
+  symbol:   class ClassReader
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:155: error: cannot find symbol
+                            final String className = ClassNameReader.getClassName(new ClassReader(b));
+                                                     ^
+  symbol:   variable ClassNameReader
+  location: class AbstractClassGenerator
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java:157: error: cannot find symbol
+                            gen = ReflectUtils.defineClass(className, b, loader);
+                                  ^
+  symbol:   variable ReflectUtils
+  location: class AbstractClassGenerator
+Note: sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/AbstractClassGenerator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+20 errors

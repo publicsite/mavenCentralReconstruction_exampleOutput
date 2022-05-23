@@ -1,0 +1,16 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/logging/Logger.java:16: error: package exists in another module: java.logging
+package java.util.logging;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/logging/Logger.java:62: error: no suitable constructor found for Logger(<null>,<null>)
+      return new Logger(null, null);
+             ^
+    constructor Logger.Logger(String,String,Module,LogManager,boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor Logger.Logger(String) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/logging/Logger.java:64: error: cannot find symbol
+    return LogManager.getLogManager().ensureLogger(name);
+                                     ^
+  symbol:   method ensureLogger(String)
+  location: class LogManager
+3 errors

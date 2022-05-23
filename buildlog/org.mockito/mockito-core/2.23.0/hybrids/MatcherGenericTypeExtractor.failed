@@ -1,0 +1,17 @@
+hybrids/org.mockito/mockito-core/2.23.0/MatcherGenericTypeExtractor.java:7: error: package org.hamcrest does not exist
+import org.hamcrest.BaseMatcher;
+                   ^
+hybrids/org.mockito/mockito-core/2.23.0/MatcherGenericTypeExtractor.java:8: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+hybrids/org.mockito/mockito-core/2.23.0/MatcherGenericTypeExtractor.java:23: error: cannot find symbol
+        return genericTypeOf(matcherClass, BaseMatcher.class, Matcher.class);
+                                           ^
+  symbol:   class BaseMatcher
+  location: class MatcherGenericTypeExtractor
+hybrids/org.mockito/mockito-core/2.23.0/MatcherGenericTypeExtractor.java:23: error: cannot find symbol
+        return genericTypeOf(matcherClass, BaseMatcher.class, Matcher.class);
+                                                              ^
+  symbol:   class Matcher
+  location: class MatcherGenericTypeExtractor
+4 errors

@@ -1,0 +1,40 @@
+hybrids/org.springframework/spring/2.5.6/LocalSlsbInvokerInterceptor.java:22: error: package javax.ejb does not exist
+import javax.ejb.CreateException;
+                ^
+hybrids/org.springframework/spring/2.5.6/LocalSlsbInvokerInterceptor.java:23: error: package javax.ejb does not exist
+import javax.ejb.EJBLocalHome;
+                ^
+hybrids/org.springframework/spring/2.5.6/LocalSlsbInvokerInterceptor.java:24: error: package javax.ejb does not exist
+import javax.ejb.EJBLocalObject;
+                ^
+hybrids/org.springframework/spring/2.5.6/LocalSlsbInvokerInterceptor.java:136: error: cannot find symbol
+	protected void releaseSessionBeanInstance(EJBLocalObject ejb) {
+	                                          ^
+  symbol:   class EJBLocalObject
+  location: class LocalSlsbInvokerInterceptor
+hybrids/org.springframework/spring/2.5.6/LocalSlsbInvokerInterceptor.java:163: error: cannot find symbol
+	protected void removeSessionBeanInstance(EJBLocalObject ejb) {
+	                                         ^
+  symbol:   class EJBLocalObject
+  location: class LocalSlsbInvokerInterceptor
+hybrids/org.springframework/spring/2.5.6/LocalSlsbInvokerInterceptor.java:83: error: cannot find symbol
+			if (targetEx instanceof CreateException) {
+			                        ^
+  symbol:   class CreateException
+  location: class LocalSlsbInvokerInterceptor
+hybrids/org.springframework/spring/2.5.6/LocalSlsbInvokerInterceptor.java:98: error: cannot find symbol
+			if (ejb instanceof EJBLocalObject) {
+			                   ^
+  symbol:   class EJBLocalObject
+  location: class LocalSlsbInvokerInterceptor
+hybrids/org.springframework/spring/2.5.6/LocalSlsbInvokerInterceptor.java:99: error: cannot find symbol
+				releaseSessionBeanInstance((EJBLocalObject) ejb);
+				                            ^
+  symbol:   class EJBLocalObject
+  location: class LocalSlsbInvokerInterceptor
+hybrids/org.springframework/spring/2.5.6/LocalSlsbInvokerInterceptor.java:111: error: cannot find symbol
+		if (!(home instanceof EJBLocalHome)) {
+		                      ^
+  symbol:   class EJBLocalHome
+  location: class LocalSlsbInvokerInterceptor
+9 errors

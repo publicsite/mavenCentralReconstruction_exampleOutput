@@ -1,0 +1,49 @@
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:16: error: cannot find symbol
+import org.apache.ldap.common.message.LockableAttributesImpl;
+                                     ^
+  symbol:   class LockableAttributesImpl
+  location: package org.apache.ldap.common.message
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:102: error: cannot find symbol
+        final Attributes attrs = (Attributes)new LockableAttributesImpl();
+                                                 ^
+  symbol:   class LockableAttributesImpl
+  location: class ServerSystemPreferences
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:125: error: no suitable method found for modifyAttributes(String,Object[])
+            this.ctx.modifyAttributes("", this.changes.toArray(ServerSystemPreferences.EMPTY_MODS));
+                    ^
+    method DirContext.modifyAttributes(Name,ModificationItem[]) is not applicable
+      (argument mismatch; String cannot be converted to Name)
+    method DirContext.modifyAttributes(String,ModificationItem[]) is not applicable
+      (argument mismatch; Object[] cannot be converted to ModificationItem[])
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:154: error: no suitable method found for modifyAttributes(String,Object[])
+            this.ctx.modifyAttributes("", this.changes.toArray(ServerSystemPreferences.EMPTY_MODS));
+                    ^
+    method DirContext.modifyAttributes(Name,ModificationItem[]) is not applicable
+      (argument mismatch; String cannot be converted to Name)
+    method DirContext.modifyAttributes(String,ModificationItem[]) is not applicable
+      (argument mismatch; Object[] cannot be converted to ModificationItem[])
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:169: error: incompatible types: Object cannot be converted to NameClassPair
+                final NameClassPair ncp = list.next();
+                                                   ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:176: error: incompatible types: Object[] cannot be converted to String[]
+        return children.toArray(ServerSystemPreferences.EMPTY_STRINGS);
+                               ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:186: error: incompatible types: Object cannot be converted to String
+                final String id = ids.next();
+                                          ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:198: error: incompatible types: Object[] cannot be converted to String[]
+        return keys.toArray(ServerSystemPreferences.EMPTY_STRINGS);
+                           ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:212: error: incompatible types: Object cannot be converted to List
+            deltas = this.keyToChange.get(key);
+                                         ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:226: error: incompatible types: Object cannot be converted to List
+                final List mods = this.keyToChange.get(key);
+                                                      ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java:228: error: incompatible types: Object cannot be converted to ModificationItem
+                    final ModificationItem mi = mods.get(ii);
+                                                        ^
+Note: sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/prefs/ServerSystemPreferences.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+11 errors

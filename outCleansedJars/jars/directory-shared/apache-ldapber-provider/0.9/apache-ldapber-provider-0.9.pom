@@ -1,0 +1,62 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>directory-shared</groupId>
+  <artifactId>apache-ldapber-provider</artifactId>
+  <name>Apache's ASN.1 based LDAP BER Message Provider</name>
+  <version>0.9</version>
+  <description>A provider for the LDAP message framework (in LDAP commons) based on the
+    Apache ASN.1 BER Runtime.</description>
+  <inceptionYear>2004</inceptionYear>
+  <dependencies>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.0</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-collections</groupId>
+      <artifactId>commons-collections</artifactId>
+      <version>3.0</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-primitives</groupId>
+      <artifactId>commons-primitives</artifactId>
+      <version>20041207.202534</version>
+    </dependency>
+    <dependency>
+      <groupId>directory-asn1</groupId>
+      <artifactId>asn1-codec</artifactId>
+      <version>0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>${pom.groupId}</groupId>
+      <artifactId>ldap-common</artifactId>
+      <version>${pom.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>directory-asn1</groupId>
+      <artifactId>asn1-ber</artifactId>
+      <version>0.3</version>
+    </dependency>
+    <dependency>
+      <groupId>regexp</groupId>
+      <artifactId>regexp</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>antlr</groupId>
+      <artifactId>antlr</artifactId>
+      <version>2.7.2</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+    </dependency>
+  </dependencies>
+</project>

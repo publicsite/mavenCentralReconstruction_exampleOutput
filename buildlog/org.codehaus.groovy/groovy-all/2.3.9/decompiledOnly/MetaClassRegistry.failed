@@ -1,0 +1,83 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:7: error: cannot find symbol
+import org.codehaus.groovy.runtime.metaclass.ClosureMetaClass;
+                                            ^
+  symbol:   class ClosureMetaClass
+  location: package org.codehaus.groovy.runtime.metaclass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:14: error: cannot find symbol
+    MetaClass getMetaClass(final Class p0);
+    ^
+  symbol:   class MetaClass
+  location: interface MetaClassRegistry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:16: error: cannot find symbol
+    void setMetaClass(final Class p0, final MetaClass p1);
+                                            ^
+  symbol:   class MetaClass
+  location: interface MetaClassRegistry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:24: error: cannot find symbol
+    void addMetaClassRegistryChangeEventListener(final MetaClassRegistryChangeEventListener p0);
+                                                       ^
+  symbol:   class MetaClassRegistryChangeEventListener
+  location: interface MetaClassRegistry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:26: error: cannot find symbol
+    void addNonRemovableMetaClassRegistryChangeEventListener(final MetaClassRegistryChangeEventListener p0);
+                                                                   ^
+  symbol:   class MetaClassRegistryChangeEventListener
+  location: interface MetaClassRegistry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:28: error: cannot find symbol
+    void removeMetaClassRegistryChangeEventListener(final MetaClassRegistryChangeEventListener p0);
+                                                          ^
+  symbol:   class MetaClassRegistryChangeEventListener
+  location: interface MetaClassRegistry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:30: error: cannot find symbol
+    MetaClassRegistryChangeEventListener[] getMetaClassRegistryChangeEventListeners();
+    ^
+  symbol:   class MetaClassRegistryChangeEventListener
+  location: interface MetaClassRegistry
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:38: error: cannot find symbol
+        public final MetaClass create(final Class theClass, final MetaClassRegistry registry) {
+                     ^
+  symbol:   class MetaClass
+  location: class MetaClassCreationHandle
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:45: error: cannot find symbol
+        private MetaClass createWithCustomLookup(final Class theClass, final MetaClassRegistry registry) {
+                ^
+  symbol:   class MetaClass
+  location: class MetaClassCreationHandle
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:64: error: cannot find symbol
+        protected MetaClass createNormalMetaClass(final Class theClass, final MetaClassRegistry registry) {
+                  ^
+  symbol:   class MetaClass
+  location: class MetaClassCreationHandle
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:48: error: cannot find symbol
+                if (DelegatingMetaClass.class.isAssignableFrom(customMetaClass)) {
+                    ^
+  symbol:   class DelegatingMetaClass
+  location: class MetaClassCreationHandle
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:49: error: cannot find symbol
+                    final Constructor customMetaClassConstructor = customMetaClass.getConstructor(MetaClass.class);
+                                                                                                  ^
+  symbol:   class MetaClass
+  location: class MetaClassCreationHandle
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:50: error: cannot find symbol
+                    final MetaClass normalMetaClass = this.createNormalMetaClass(theClass, registry);
+                          ^
+  symbol:   class MetaClass
+  location: class MetaClassCreationHandle
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:60: error: cannot find symbol
+                throw new GroovyRuntimeException("Could not instantiate custom Metaclass for class: " + theClass.getName() + ". Reason: " + e, e);
+                          ^
+  symbol:   class GroovyRuntimeException
+  location: class MetaClassCreationHandle
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:66: error: cannot find symbol
+                return new ClosureMetaClass(registry, theClass);
+                           ^
+  symbol:   class ClosureMetaClass
+  location: class MetaClassCreationHandle
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java:68: error: cannot find symbol
+            return new MetaClassImpl(registry, theClass);
+                       ^
+  symbol:   class MetaClassImpl
+  location: class MetaClassCreationHandle
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MetaClassRegistry.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+16 errors

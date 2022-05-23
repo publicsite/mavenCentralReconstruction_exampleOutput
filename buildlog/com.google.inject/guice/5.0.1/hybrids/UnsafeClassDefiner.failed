@@ -1,0 +1,25 @@
+hybrids/com.google.inject/guice/5.0.1/UnsafeClassDefiner.java:31: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheBuilder;
+                              ^
+hybrids/com.google.inject/guice/5.0.1/UnsafeClassDefiner.java:32: error: package com.google.common.cache does not exist
+import com.google.common.cache.CacheLoader;
+                              ^
+hybrids/com.google.inject/guice/5.0.1/UnsafeClassDefiner.java:33: error: package com.google.common.cache does not exist
+import com.google.common.cache.LoadingCache;
+                              ^
+hybrids/com.google.inject/guice/5.0.1/UnsafeClassDefiner.java:75: error: cannot find symbol
+    static final LoadingCache<Class<?>, Method> DEFINE_METHOD_CACHE =
+                 ^
+  symbol:   class LoadingCache
+  location: class DefineMethodCacheHolder
+hybrids/com.google.inject/guice/5.0.1/UnsafeClassDefiner.java:76: error: cannot find symbol
+        CacheBuilder.newBuilder()
+        ^
+  symbol:   variable CacheBuilder
+  location: class DefineMethodCacheHolder
+hybrids/com.google.inject/guice/5.0.1/UnsafeClassDefiner.java:79: error: cannot find symbol
+            .build(CacheLoader.from(UnsafeClassDefiner::tryAccessDefineMethod));
+                   ^
+  symbol:   variable CacheLoader
+  location: class DefineMethodCacheHolder
+6 errors

@@ -1,0 +1,90 @@
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3194: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3202: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:51: error: type argument Object is not within bounds of type-variable S
+                final MethodList<?> defaultConstructors = (superClass == null) ? new MethodList.Empty<Object>() : superClass.getDeclaredMethods().filter(ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.takesArguments(0)).and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(instrumentedType)));
+                                                                                                      ^
+  where S is a type-variable:
+    S extends MethodDescription declared in class Empty
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:51: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                final MethodList<?> defaultConstructors = (superClass == null) ? new MethodList.Empty<Object>() : superClass.getDeclaredMethods().filter(ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.takesArguments(0)).and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(instrumentedType)));
+                                                                                                                                                                                                                                                                                                                               ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:51: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+                final MethodList<?> defaultConstructors = (superClass == null) ? new MethodList.Empty<Object>() : superClass.getDeclaredMethods().filter(ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.takesArguments(0)).and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(instrumentedType)));
+                                                                                                                                                                                                                                                           ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:60: error: incompatible types: inference variable T has incompatible bounds
+                return methodRegistry.append(new LatentMatcher.Resolved<Object>(ElementMatchers.isConstructor()), new MethodRegistry.Handler.ForImplementation(SuperMethodCall.INSTANCE), methodAttributeAppenderFactory, Transformer.NoOp.make());
+                                             ^
+    lower bounds: MethodDescription
+    lower bounds: Object
+  where T is a type-variable:
+    T extends MethodDescription declared in method <T>isConstructor()
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:67: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                return (List<MethodDescription.Token>)((superClass == null) ? new MethodList.Empty() : ((MethodList)superClass.getDeclaredMethods().filter(ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(instrumentedType))))).asTokenList(ElementMatchers.is(instrumentedType));
+                                                                                                                                                                                                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:71: error: incompatible types: inference variable T has incompatible bounds
+                return methodRegistry.append(new LatentMatcher.Resolved<Object>(ElementMatchers.isConstructor()), new MethodRegistry.Handler.ForImplementation(SuperMethodCall.INSTANCE), methodAttributeAppenderFactory, Transformer.NoOp.make());
+                                             ^
+    lower bounds: MethodDescription
+    lower bounds: Object
+  where T is a type-variable:
+    T extends MethodDescription declared in method <T>isConstructor()
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:78: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+                return (List<MethodDescription.Token>)((superClass == null) ? new MethodList.Empty() : ((MethodList)superClass.getDeclaredMethods().filter(ElementMatchers.isPublic().and((ElementMatcher<? super Object>)ElementMatchers.isConstructor())))).asTokenList(ElementMatchers.is(instrumentedType));
+                                                                                                                                                                                                                                                       ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:82: error: incompatible types: inference variable T has incompatible bounds
+                return methodRegistry.append(new LatentMatcher.Resolved<Object>(ElementMatchers.isConstructor()), new MethodRegistry.Handler.ForImplementation(SuperMethodCall.INSTANCE), methodAttributeAppenderFactory, Transformer.NoOp.make());
+                                             ^
+    lower bounds: MethodDescription
+    lower bounds: Object
+  where T is a type-variable:
+    T extends MethodDescription declared in method <T>isConstructor()
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:89: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                return (List<MethodDescription.Token>)((superClass == null) ? new MethodList.Empty() : ((MethodList)superClass.getDeclaredMethods().filter(ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.isVisibleTo(instrumentedType))))).asTokenList(ElementMatchers.is(instrumentedType));
+                                                                                                                                                                                                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:93: error: incompatible types: inference variable T has incompatible bounds
+                return methodRegistry.append(new LatentMatcher.Resolved<Object>(ElementMatchers.isConstructor()), new MethodRegistry.Handler.ForImplementation(SuperMethodCall.INSTANCE), methodAttributeAppenderFactory, Transformer.NoOp.make());
+                                             ^
+    lower bounds: MethodDescription
+    lower bounds: Object
+  where T is a type-variable:
+    T extends MethodDescription declared in method <T>isConstructor()
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:204: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+                candidates = candidates.filter((ElementMatcher<? super Object>)ElementMatchers.takesArguments(0));
+                                                                                                             ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.java:213: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+            return methodRegistry.append(new LatentMatcher.Resolved<Object>(ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.takesArguments(0))), new MethodRegistry.Handler.ForImplementation(methodCall), this.methodAttributeAppenderFactory, Transformer.NoOp.make());
+                                                                                                                                                                              ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+19 errors

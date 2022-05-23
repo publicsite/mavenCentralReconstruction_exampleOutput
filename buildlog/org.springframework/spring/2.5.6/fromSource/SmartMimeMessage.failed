@@ -1,0 +1,34 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/SmartMimeMessage.java:19: error: package javax.activation does not exist
+import javax.activation.FileTypeMap;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/SmartMimeMessage.java:20: error: package javax.mail does not exist
+import javax.mail.Session;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/SmartMimeMessage.java:21: error: package javax.mail.internet does not exist
+import javax.mail.internet.MimeMessage;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/SmartMimeMessage.java:38: error: cannot find symbol
+class SmartMimeMessage extends MimeMessage {
+                               ^
+  symbol: class MimeMessage
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/SmartMimeMessage.java:42: error: cannot find symbol
+	private final FileTypeMap defaultFileTypeMap;
+	              ^
+  symbol:   class FileTypeMap
+  location: class SmartMimeMessage
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/SmartMimeMessage.java:51: error: cannot find symbol
+	public SmartMimeMessage(Session session, String defaultEncoding, FileTypeMap defaultFileTypeMap) {
+	                        ^
+  symbol:   class Session
+  location: class SmartMimeMessage
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/SmartMimeMessage.java:51: error: cannot find symbol
+	public SmartMimeMessage(Session session, String defaultEncoding, FileTypeMap defaultFileTypeMap) {
+	                                                                 ^
+  symbol:   class FileTypeMap
+  location: class SmartMimeMessage
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/mail/javamail/SmartMimeMessage.java:68: error: cannot find symbol
+	public final FileTypeMap getDefaultFileTypeMap() {
+	             ^
+  symbol:   class FileTypeMap
+  location: class SmartMimeMessage
+8 errors

@@ -1,0 +1,98 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:10: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.fields.FieldConversionMapping;
+                                                                          ^
+  symbol:   class FieldConversionMapping
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common.fields
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:17: error: cannot find symbol
+    protected FieldConversionMapping conversions;
+              ^
+  symbol:   class FieldConversionMapping
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:21: error: cannot find symbol
+    ProcessorErrorHandler errorHandler;
+    ^
+  symbol:   class ProcessorErrorHandler
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:43: error: cannot find symbol
+    private FieldConversionMapping getConversions() {
+            ^
+  symbol:   class FieldConversionMapping
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:194: error: cannot find symbol
+    protected DataProcessingException toDataProcessingException(final Throwable ex, final Object[] row, final int column) {
+              ^
+  symbol:   class DataProcessingException
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:25: error: cannot find symbol
+        this.errorHandler = NoopProcessorErrorHandler.instance;
+                            ^
+  symbol:   variable NoopProcessorErrorHandler
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:45: error: cannot find symbol
+            this.conversions = new FieldConversionMapping();
+                                   ^
+  symbol:   class FieldConversionMapping
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:179: error: cannot find symbol
+        final DataProcessingException error = this.toDataProcessingException(ex, row, column);
+              ^
+  symbol:   class DataProcessingException
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:180: error: cannot find symbol
+        if (column > -1 && this.errorHandler instanceof RetryableErrorHandler) {
+                                                        ^
+  symbol:   class RetryableErrorHandler
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:181: error: cannot find symbol
+            ((RetryableErrorHandler)this.errorHandler).prepareToRun();
+              ^
+  symbol:   class RetryableErrorHandler
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:185: error: cannot find symbol
+        if (column > -1 && this.errorHandler instanceof RetryableErrorHandler) {
+                                                        ^
+  symbol:   class RetryableErrorHandler
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:186: error: cannot find symbol
+            final RetryableErrorHandler retry = (RetryableErrorHandler)this.errorHandler;
+                  ^
+  symbol:   class RetryableErrorHandler
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:186: error: cannot find symbol
+            final RetryableErrorHandler retry = (RetryableErrorHandler)this.errorHandler;
+                                                 ^
+  symbol:   class RetryableErrorHandler
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:195: error: cannot find symbol
+        DataProcessingException error;
+        ^
+  symbol:   class DataProcessingException
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:196: error: cannot find symbol
+        if (ex instanceof DataProcessingException) {
+                          ^
+  symbol:   class DataProcessingException
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:197: error: cannot find symbol
+            error = (DataProcessingException)ex;
+                     ^
+  symbol:   class DataProcessingException
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:202: error: cannot find symbol
+            error = new DataProcessingException("Error processing data conversions", column, row, ex);
+                        ^
+  symbol:   class DataProcessingException
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:211: error: cannot find symbol
+        ArgumentUtils.noNulls("Type to convert", type);
+        ^
+  symbol:   variable ArgumentUtils
+  location: class DefaultConversionProcessor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java:212: error: cannot find symbol
+        ArgumentUtils.noNulls("Sequence of conversions to apply over data of type " + type.getSimpleName(), (Conversion[])conversions);
+        ^
+  symbol:   variable ArgumentUtils
+  location: class DefaultConversionProcessor
+Note: sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/DefaultConversionProcessor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors

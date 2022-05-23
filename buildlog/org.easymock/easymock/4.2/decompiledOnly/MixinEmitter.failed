@@ -1,0 +1,123 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:7: error: cannot find symbol
+import org.easymock.cglib.core.MethodInfo;
+                              ^
+  symbol:   class MethodInfo
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:10: error: cannot find symbol
+import org.easymock.cglib.core.CodeEmitter;
+                              ^
+  symbol:   class CodeEmitter
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:12: error: cannot find symbol
+import org.easymock.cglib.core.ReflectUtils;
+                              ^
+  symbol:   class ReflectUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:13: error: cannot find symbol
+import org.easymock.cglib.core.MethodWrapper;
+                              ^
+  symbol:   class MethodWrapper
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:15: error: cannot find symbol
+import org.easymock.cglib.core.Constants;
+                              ^
+  symbol:   class Constants
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:16: error: cannot find symbol
+import org.easymock.cglib.core.EmitUtils;
+                              ^
+  symbol:   class EmitUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:17: error: cannot find symbol
+import org.easymock.cglib.core.TypeUtils;
+                              ^
+  symbol:   class TypeUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:18: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:21: error: cannot find symbol
+import org.easymock.cglib.core.ClassEmitter;
+                              ^
+  symbol:   class ClassEmitter
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:23: error: cannot find symbol
+class MixinEmitter extends ClassEmitter
+                           ^
+  symbol: class ClassEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:30: error: cannot find symbol
+    public MixinEmitter(final ClassVisitor v, final String className, final Class[] classes, final int[] route) {
+                              ^
+  symbol:   class ClassVisitor
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:32: error: cannot find symbol
+        this.begin_class(52, 1, className, MixinEmitter.MIXIN, TypeUtils.getTypes(this.getInterfaces(classes)), "<generated>");
+                                                               ^
+  symbol:   variable TypeUtils
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:33: error: cannot find symbol
+        EmitUtils.null_constructor(this);
+        ^
+  symbol:   variable EmitUtils
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:34: error: cannot find symbol
+        EmitUtils.factory_method(this, MixinEmitter.NEW_INSTANCE);
+        ^
+  symbol:   variable EmitUtils
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:35: error: cannot find symbol
+        this.declare_field(2, "CGLIB$DELEGATES", Constants.TYPE_OBJECT_ARRAY, null);
+                                                 ^
+  symbol:   variable Constants
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:36: error: cannot find symbol
+        CodeEmitter e = this.begin_method(1, MixinEmitter.CSTRUCT_OBJECT_ARRAY, null);
+        ^
+  symbol:   class CodeEmitter
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:36: error: cannot find symbol
+        CodeEmitter e = this.begin_method(1, MixinEmitter.CSTRUCT_OBJECT_ARRAY, null);
+                            ^
+  symbol: method begin_method(int,Signature,<null>)
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:48: error: cannot find symbol
+                if (unique.add(MethodWrapper.create(methods[j]))) {
+                               ^
+  symbol:   variable MethodWrapper
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:49: error: cannot find symbol
+                    final MethodInfo method = ReflectUtils.getMethodInfo(methods[j]);
+                          ^
+  symbol:   class MethodInfo
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:49: error: cannot find symbol
+                    final MethodInfo method = ReflectUtils.getMethodInfo(methods[j]);
+                                              ^
+  symbol:   variable ReflectUtils
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:54: error: cannot find symbol
+                    e = EmitUtils.begin_method(this, method, modifiers);
+                        ^
+  symbol:   variable EmitUtils
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:66: error: cannot find symbol
+        this.end_class();
+            ^
+  symbol: method end_class()
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:78: error: cannot find symbol
+        CSTRUCT_OBJECT_ARRAY = TypeUtils.parseConstructor("Object[]");
+                               ^
+  symbol:   variable TypeUtils
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:79: error: cannot find symbol
+        MIXIN = TypeUtils.parseType("org.easymock.cglib.proxy.Mixin");
+                ^
+  symbol:   variable TypeUtils
+  location: class MixinEmitter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/MixinEmitter.java:80: error: cannot find symbol
+        NEW_INSTANCE = new Signature("newInstance", MixinEmitter.MIXIN, new Type[] { Constants.TYPE_OBJECT_ARRAY });
+                                                                                     ^
+  symbol:   variable Constants
+  location: class MixinEmitter
+25 errors

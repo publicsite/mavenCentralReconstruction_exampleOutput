@@ -1,0 +1,61 @@
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:8: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:9: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationDescription;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:12: error: package ElementMatcher.Junction does not exist
+public class AnnotationTypeMatcher<T extends AnnotationDescription> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                                   ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:11: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:12: error: cannot find symbol
+public class AnnotationTypeMatcher<T extends AnnotationDescription> extends ElementMatcher.Junction.AbstractBase<T>
+                                             ^
+  symbol: class AnnotationDescription
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:14: error: cannot find symbol
+    private final ElementMatcher<? super TypeDescription> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class AnnotationTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class AnnotationTypeMatcher
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:14: error: cannot find symbol
+    private final ElementMatcher<? super TypeDescription> matcher;
+                                         ^
+  symbol:   class TypeDescription
+  location: class AnnotationTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class AnnotationTypeMatcher
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:16: error: cannot find symbol
+    public AnnotationTypeMatcher(final ElementMatcher<? super TypeDescription> matcher) {
+                                       ^
+  symbol:   class ElementMatcher
+  location: class AnnotationTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class AnnotationTypeMatcher
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:16: error: cannot find symbol
+    public AnnotationTypeMatcher(final ElementMatcher<? super TypeDescription> matcher) {
+                                                              ^
+  symbol:   class TypeDescription
+  location: class AnnotationTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class AnnotationTypeMatcher
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:31: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((AnnotationTypeMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AnnotationTypeMatcher.java:34: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+14 errors

@@ -1,0 +1,109 @@
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/Category.java:68: error: incompatible types: Object cannot be converted to Appender
+                final Appender a = enum1.nextElement();
+                                                    ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/helpers/AppenderAttachableImpl.java:34: error: incompatible types: Object cannot be converted to Appender
+                final Appender appender = this.appenderList.elementAt(i);
+                                                                     ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/helpers/AppenderAttachableImpl.java:53: error: incompatible types: Object cannot be converted to Appender
+            final Appender appender = this.appenderList.elementAt(i);
+                                                                 ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/helpers/AppenderAttachableImpl.java:66: error: incompatible types: Object cannot be converted to Appender
+            final Appender a = this.appenderList.elementAt(i);
+                                                          ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/helpers/AppenderAttachableImpl.java:77: error: incompatible types: Object cannot be converted to Appender
+                final Appender a = this.appenderList.elementAt(i);
+                                                              ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/helpers/AppenderAttachableImpl.java:97: error: cannot find symbol
+            if (name.equals(this.appenderList.elementAt(i).getName())) {
+                                                          ^
+  symbol:   method getName()
+  location: class Object
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/spi/LoggingEvent.java:171: error: incompatible types: Object cannot be converted to Method
+                Method m = LoggingEvent.methodCache.get(className);
+                                                       ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/PropertyConfigurator.java:149: error: incompatible types: Object cannot be converted to String
+            final String key = enum1.nextElement();
+                                                ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/PropertyConfigurator.java:264: error: incompatible types: Object cannot be converted to Appender
+        return this.registry.get(name);
+                                ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/xml/DOMConfigurator.java:83: error: incompatible types: Object cannot be converted to Appender
+        Appender appender = this.appenderBag.get(appenderName);
+                                                ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/xml/DOMConfigurator.java:117: error: incompatible types: Object cannot be converted to Appender
+            final Appender appender = Loader.loadClass(className).newInstance();
+                                                                             ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/xml/DOMConfigurator.java:313: error: incompatible types: Object cannot be converted to Layout
+            final Layout layout = Loader.loadClass(className).newInstance();
+                                                                         ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/config/PropertySetter.java:49: error: incompatible types: Object cannot be converted to String
+            String key = e.nextElement();
+                                      ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/MDC.java:44: error: incompatible types: Object cannot be converted to Hashtable
+        Hashtable ht = ((ThreadLocalMap)this.tlm).get();
+                                                     ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/MDC.java:56: error: incompatible types: Object cannot be converted to Hashtable
+        final Hashtable ht = ((ThreadLocalMap)this.tlm).get();
+                                                           ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/MDC.java:65: error: incompatible types: Object cannot be converted to Hashtable
+            final Hashtable ht = ((ThreadLocalMap)this.tlm).get();
+                                                               ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/MDC.java:76: error: incompatible types: Object cannot be converted to Hashtable
+        return ((ThreadLocalMap)this.tlm).get();
+                                             ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:23: error: incompatible types: Object cannot be converted to Stack
+        final Stack stack = NDC.ht.get(Thread.currentThread());
+                                      ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:45: error: incompatible types: Object cannot be converted to Stack
+        final Stack s = NDC.ht.get(Thread.currentThread());
+                                  ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:47: error: cannot find symbol
+            return s.peek().fullMessage;
+                           ^
+  symbol:   variable fullMessage
+  location: class Object
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:53: error: incompatible types: Object cannot be converted to Stack
+        final Stack stack = NDC.ht.get(Thread.currentThread());
+                                      ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:71: error: incompatible types: Object cannot be converted to Thread
+                final Thread t = enum1.nextElement();
+                                                  ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:82: error: incompatible types: Object cannot be converted to Thread
+            final Thread t = v.elementAt(i);
+                                        ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:90: error: incompatible types: Object cannot be converted to Stack
+        final Stack stack = NDC.ht.get(key);
+                                      ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:92: error: cannot find symbol
+            return stack.pop().message;
+                              ^
+  symbol:   variable message
+  location: class Object
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:99: error: incompatible types: Object cannot be converted to Stack
+        final Stack stack = NDC.ht.get(key);
+                                      ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:101: error: cannot find symbol
+            return stack.peek().message;
+                               ^
+  symbol:   variable message
+  location: class Object
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:108: error: incompatible types: Object cannot be converted to Stack
+        Stack stack = NDC.ht.get(key);
+                                ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:120: error: incompatible types: Object cannot be converted to DiagnosticContext
+            final DiagnosticContext parent = stack.peek();
+                                                       ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/NDC.java:131: error: incompatible types: Object cannot be converted to Stack
+        final Stack stack = NDC.ht.get(Thread.currentThread());
+                                      ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/or/RendererMap.java:55: error: incompatible types: Object cannot be converted to ObjectRenderer
+            r = this.map.get(c);
+                            ^
+sources/structure/log4j/log4j/1.2.6/Decompiled/org/apache/log4j/or/RendererMap.java:68: error: incompatible types: Object cannot be converted to ObjectRenderer
+        ObjectRenderer r = this.map.get(c);
+                                       ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+32 errors

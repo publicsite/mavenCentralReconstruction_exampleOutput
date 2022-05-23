@@ -1,0 +1,100 @@
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:8: error: cannot find symbol
+import org.hamcrest.SelfDescribing;
+                   ^
+  symbol:   class SelfDescribing
+  location: package org.hamcrest
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:9: error: cannot find symbol
+import org.hamcrest.Description;
+                   ^
+  symbol:   class Description
+  location: package org.hamcrest
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:10: error: cannot find symbol
+import org.hamcrest.Matcher;
+                   ^
+  symbol:   class Matcher
+  location: package org.hamcrest
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:11: error: cannot find symbol
+import org.hamcrest.BaseMatcher;
+                   ^
+  symbol:   class BaseMatcher
+  location: package org.hamcrest
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:13: error: cannot find symbol
+public class Is<T> extends BaseMatcher<T>
+                           ^
+  symbol: class BaseMatcher
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:15: error: cannot find symbol
+    private final Matcher<T> matcher;
+                  ^
+  symbol:   class Matcher
+  location: class Is<T>
+  where T is a type-variable:
+    T extends Object declared in class Is
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:17: error: cannot find symbol
+    public Is(final Matcher<T> matcher) {
+                    ^
+  symbol:   class Matcher
+  location: class Is<T>
+  where T is a type-variable:
+    T extends Object declared in class Is
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:25: error: cannot find symbol
+    public void describeTo(final Description description) {
+                                 ^
+  symbol:   class Description
+  location: class Is<T>
+  where T is a type-variable:
+    T extends Object declared in class Is
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:30: error: cannot find symbol
+    public static <T> Matcher<T> is(final Matcher<T> matcher) {
+                                          ^
+  symbol:   class Matcher
+  location: class Is<T>
+  where T is a type-variable:
+    T extends Object declared in class Is
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:30: error: cannot find symbol
+    public static <T> Matcher<T> is(final Matcher<T> matcher) {
+                      ^
+  symbol:   class Matcher
+  location: class Is<T>
+  where T is a type-variable:
+    T extends Object declared in class Is
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:35: error: cannot find symbol
+    public static <T> Matcher<T> is(final T value) {
+                      ^
+  symbol:   class Matcher
+  location: class Is<T>
+  where T is a type-variable:
+    T extends Object declared in class Is
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:40: error: cannot find symbol
+    public static Matcher<Object> is(final Class<?> type) {
+                  ^
+  symbol:   class Matcher
+  location: class Is<T>
+  where T is a type-variable:
+    T extends Object declared in class Is
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:30: error: name clash: <T>is(<any>) in Is and is(Class<?>) in Is have the same erasure, yet neither hides the other
+    public static <T> Matcher<T> is(final Matcher<T> matcher) {
+                                 ^
+  where T is a type-variable:
+    T extends Object declared in method <T>is(<any>)
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:36: error: cannot find symbol
+        return is((Matcher<T>)IsEqual.equalTo((T)value));
+                   ^
+  symbol:   class Matcher
+  location: class Is<T>
+  where T is a type-variable:
+    T extends Object declared in class Is
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:36: error: cannot find symbol
+        return is((Matcher<T>)IsEqual.equalTo((T)value));
+                              ^
+  symbol:   variable IsEqual
+  location: class Is<T>
+  where T is a type-variable:
+    T extends Object declared in class Is
+sources/structure/junit/junit/4.10/Decompiled/org/hamcrest/core/Is.java:41: error: cannot find symbol
+        return is(IsInstanceOf.instanceOf(type));
+                  ^
+  symbol:   variable IsInstanceOf
+  location: class Is<T>
+  where T is a type-variable:
+    T extends Object declared in class Is
+16 errors

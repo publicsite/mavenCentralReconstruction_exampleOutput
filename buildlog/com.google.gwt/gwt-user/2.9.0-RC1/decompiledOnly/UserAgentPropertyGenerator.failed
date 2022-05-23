@@ -1,0 +1,55 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:11: error: package com.google.gwt.core.ext.linker does not exist
+import com.google.gwt.core.ext.linker.ConfigurationProperty;
+                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:12: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:15: error: package com.google.gwt.core.ext.linker does not exist
+import com.google.gwt.core.ext.linker.PropertyProviderGenerator;
+                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:17: error: cannot find symbol
+public class UserAgentPropertyGenerator implements PropertyProviderGenerator
+                                                   ^
+  symbol: class PropertyProviderGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/SourceWriter.java:19: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:35: error: cannot find symbol
+    public String generate(final TreeLogger logger, final SortedSet<String> possibleValues, final String fallback, final SortedSet<ConfigurationProperty> configProperties) {
+                                 ^
+  symbol:   class TreeLogger
+  location: class UserAgentPropertyGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:35: error: cannot find symbol
+    public String generate(final TreeLogger logger, final SortedSet<String> possibleValues, final String fallback, final SortedSet<ConfigurationProperty> configProperties) {
+                                                                                                                                   ^
+  symbol:   class ConfigurationProperty
+  location: class UserAgentPropertyGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:46: error: cannot find symbol
+    private static void assertUserAgents(final TreeLogger logger, final SortedSet<String> possibleValues) {
+                                               ^
+  symbol:   class TreeLogger
+  location: class UserAgentPropertyGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/SourceWriter.java:30: error: cannot find symbol
+  void commit(TreeLogger logger);
+              ^
+  symbol:   class TreeLogger
+  location: interface SourceWriter
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/StringSourceWriter.java:18: error: package com.google.gwt.core.ext does not exist
+import com.google.gwt.core.ext.TreeLogger;
+                              ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/user/rebind/StringSourceWriter.java:44: error: cannot find symbol
+  public void commit(TreeLogger logger) {
+                     ^
+  symbol:   class TreeLogger
+  location: class StringSourceWriter
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:48: error: cannot find symbol
+        unknownValues.removeAll(getKnownAgents());
+                                ^
+  symbol:   method getKnownAgents()
+  location: class UserAgentPropertyGenerator
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/useragent/rebind/UserAgentPropertyGenerator.java:50: error: cannot find symbol
+            logger.log(TreeLogger.WARN, "Unrecognized user.agent values " + unknownValues + ", possibly due to UserAgent.gwt.xml and " + UserAgentPropertyGenerator.class.getName() + " being out of sync.");
+                       ^
+  symbol:   variable TreeLogger
+  location: class UserAgentPropertyGenerator
+13 errors

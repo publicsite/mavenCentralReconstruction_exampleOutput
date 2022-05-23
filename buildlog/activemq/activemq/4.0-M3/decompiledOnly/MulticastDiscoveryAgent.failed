@@ -1,0 +1,61 @@
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:7: error: cannot find symbol
+import sun.misc.Perf;
+               ^
+  symbol:   class Perf
+  location: package sun.misc
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:74: error: cannot find symbol
+        final Perf perf;
+              ^
+  symbol:   class Perf
+  location: class SunPerfProvider
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/multicast/MulticastDiscoveryAgent.java:239: error: incompatible types: Object cannot be converted to AtomicLong
+            AtomicLong lastKeepAlive = this.services.get(service);
+                                                        ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/multicast/MulticastDiscoveryAgent.java:268: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry entry : this.services.entrySet()) {
+                                                           ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/multicast/MulticastDiscoveryAgent.java:269: error: incompatible types: Object cannot be converted to AtomicLong
+            final AtomicLong lastHeartBeat = entry.getValue();
+                                                           ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/transport/discovery/multicast/MulticastDiscoveryAgent.java:271: error: incompatible types: Object cannot be converted to String
+                final String brokerName = this.brokers.get(entry.getKey());
+                                                          ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/apache/commons/logging/LogFactory.java:108: error: incompatible types: Object cannot be converted to String
+                    final String name = names.nextElement();
+                                                         ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/apache/commons/logging/LogFactory.java:127: error: incompatible types: Object cannot be converted to LogFactory
+            final LogFactory factory = LogFactory.factories.get(classLoader);
+                                                               ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/apache/commons/logging/LogFactory.java:139: error: incompatible types: Object cannot be converted to LogFactory
+                final LogFactory element = elements.nextElement();
+                                                               ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/apache/commons/logging/LogFactory.java:171: error: incompatible types: Object cannot be converted to LogFactory
+            factory = LogFactory.factories.get(contextClassLoader);
+                                              ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/ConcurrentHashMap.java:258: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry e : m.entrySet()) {
+                                           ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/ConcurrentHashMap.java:873: error: incompatible types: Object cannot be converted to Entry
+                c.add(new edu.emory.mathcs.backport.java.util.AbstractMap.SimpleEntry(i.next()));
+                                                                                            ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/ConcurrentHashMap.java:882: error: incompatible types: Object cannot be converted to Entry
+                c.add(new edu.emory.mathcs.backport.java.util.AbstractMap.SimpleEntry(i.next()));
+                                                                                            ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:53: error: incompatible types: Object cannot be converted to NanoTimer
+                timer = cls.newInstance();
+                                       ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:79: error: cannot find symbol
+            this.perf = AccessController.doPrivileged((PrivilegedAction<Perf>)new PrivilegedAction() {
+                                                                        ^
+  symbol:   class Perf
+  location: class SunPerfProvider
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:81: error: cannot find symbol
+                    return Perf.getPerf();
+                           ^
+  symbol: variable Perf
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+16 errors

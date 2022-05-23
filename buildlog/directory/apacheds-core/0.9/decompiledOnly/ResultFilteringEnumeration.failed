@@ -1,0 +1,14 @@
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/ResultFilteringEnumeration.java:98: error: incompatible types: Object cannot be converted to SearchResult
+            tmp = this.decorated.next();
+                                     ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/ResultFilteringEnumeration.java:105: error: incompatible types: Object cannot be converted to SearchResultFilter
+                    final SearchResultFilter filter = this.filters.get(ii);
+                                                                      ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/ResultFilteringEnumeration.java:112: error: cannot find symbol
+            accepted = this.filters.get(0).accept(this.ctx, tmp, this.searchControls);
+                                          ^
+  symbol:   method accept(LdapContext,SearchResult,SearchControls)
+  location: class Object
+Note: sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/db/ResultFilteringEnumeration.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors

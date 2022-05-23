@@ -1,0 +1,95 @@
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:7: error: cannot find symbol
+public class MockQueueConnectionFactory extends MockObject implements
+                                                ^
+  symbol: class MockObject
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:8: error: cannot find symbol
+    QueueConnectionFactory {
+    ^
+  symbol: class QueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:10: error: cannot find symbol
+    private final ExpectationValue myUserName = new ExpectationValue("MockQueueConnectionFactory.createQueueConnection");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:11: error: cannot find symbol
+    private final ExpectationValue myPassword = new ExpectationValue("MockQueueConnectionFactory.createQueueConnection");
+                  ^
+  symbol:   class ExpectationValue
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:13: error: cannot find symbol
+    private JMSException myException;
+            ^
+  symbol:   class JMSException
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:14: error: cannot find symbol
+    private final ReturnValue myQueueConnection = new ReturnValue("queue connection");
+                  ^
+  symbol:   class ReturnValue
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:16: error: cannot find symbol
+    public QueueConnection createQueueConnection() throws JMSException {
+           ^
+  symbol:   class QueueConnection
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:16: error: cannot find symbol
+    public QueueConnection createQueueConnection() throws JMSException {
+                                                          ^
+  symbol:   class JMSException
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:21: error: cannot find symbol
+    public QueueConnection createQueueConnection(String userName, String password)
+           ^
+  symbol:   class QueueConnection
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:22: error: cannot find symbol
+        throws JMSException {
+               ^
+  symbol:   class JMSException
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:37: error: cannot find symbol
+    public void setupQueueConnection(QueueConnection queueConnection) {
+                                     ^
+  symbol:   class QueueConnection
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:41: error: cannot find symbol
+    public void setupThrowException(JMSException e) {
+                                    ^
+  symbol:   class JMSException
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:45: error: cannot find symbol
+    private void throwExceptionIfAny() throws JMSException {
+                                              ^
+  symbol:   class JMSException
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:3: error: package com.mockobjects does not exist
+import com.mockobjects.*;
+^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:5: error: package javax.jms does not exist
+import javax.jms.*;
+^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:10: error: cannot find symbol
+    private final ExpectationValue myUserName = new ExpectationValue("MockQueueConnectionFactory.createQueueConnection");
+                                                    ^
+  symbol:   class ExpectationValue
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:11: error: cannot find symbol
+    private final ExpectationValue myPassword = new ExpectationValue("MockQueueConnectionFactory.createQueueConnection");
+                                                    ^
+  symbol:   class ExpectationValue
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:14: error: cannot find symbol
+    private final ReturnValue myQueueConnection = new ReturnValue("queue connection");
+                                                      ^
+  symbol:   class ReturnValue
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:18: error: cannot find symbol
+        return (QueueConnection) myQueueConnection.getValue();
+                ^
+  symbol:   class QueueConnection
+  location: class MockQueueConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockQueueConnectionFactory.java:26: error: cannot find symbol
+        return (QueueConnection) myQueueConnection.getValue();
+                ^
+  symbol:   class QueueConnection
+  location: class MockQueueConnectionFactory
+20 errors

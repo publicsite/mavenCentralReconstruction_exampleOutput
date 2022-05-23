@@ -1,0 +1,128 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:9: error: cannot find symbol
+import org.easymock.cglib.core.internal.LoadingCache;
+                                       ^
+  symbol:   class LoadingCache
+  location: package org.easymock.cglib.core.internal
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:11: error: cannot find symbol
+import org.easymock.asm.ClassReader;
+                       ^
+  symbol:   class ClassReader
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:17: error: cannot find symbol
+public abstract class AbstractClassGenerator<T> implements ClassGenerator
+                                                           ^
+  symbol: class ClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:22: error: cannot find symbol
+    private GeneratorStrategy strategy;
+            ^
+  symbol:   class GeneratorStrategy
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:23: error: cannot find symbol
+    private NamingPolicy namingPolicy;
+            ^
+  symbol:   class NamingPolicy
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:67: error: cannot find symbol
+    public void setNamingPolicy(NamingPolicy namingPolicy) {
+                                ^
+  symbol:   class NamingPolicy
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:74: error: cannot find symbol
+    public NamingPolicy getNamingPolicy() {
+           ^
+  symbol:   class NamingPolicy
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:94: error: cannot find symbol
+    public void setStrategy(GeneratorStrategy strategy) {
+                            ^
+  symbol:   class GeneratorStrategy
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:101: error: cannot find symbol
+    public GeneratorStrategy getStrategy() {
+           ^
+  symbol:   class GeneratorStrategy
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:228: error: cannot find symbol
+        private final LoadingCache<AbstractClassGenerator, Object, Object> generatedClasses;
+                      ^
+  symbol:   class LoadingCache
+  location: class ClassLoaderData
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:41: error: cannot find symbol
+        this.strategy = DefaultGeneratorStrategy.INSTANCE;
+                        ^
+  symbol:   variable DefaultGeneratorStrategy
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:42: error: cannot find symbol
+        this.namingPolicy = DefaultNamingPolicy.INSTANCE;
+                            ^
+  symbol:   variable DefaultNamingPolicy
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:69: error: cannot find symbol
+            namingPolicy = DefaultNamingPolicy.INSTANCE;
+                           ^
+  symbol:   variable DefaultNamingPolicy
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:96: error: cannot find symbol
+            strategy = DefaultGeneratorStrategy.INSTANCE;
+                       ^
+  symbol:   variable DefaultGeneratorStrategy
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:106: error: incompatible types: Object cannot be converted to AbstractClassGenerator
+        return AbstractClassGenerator.CURRENT.get();
+                                                 ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:188: error: cannot find symbol
+            final String className = ClassNameReader.getClassName(new ClassReader(b));
+                                                                      ^
+  symbol:   class ClassReader
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:188: error: cannot find symbol
+            final String className = ClassNameReader.getClassName(new ClassReader(b));
+                                     ^
+  symbol:   variable ClassNameReader
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:193: error: cannot find symbol
+                    gen = ReflectUtils.defineClass(className, b, classLoader);
+                          ^
+  symbol:   variable ReflectUtils
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:196: error: cannot find symbol
+                    gen = ReflectUtils.defineClass(className, b, classLoader, protectionDomain);
+                          ^
+  symbol:   variable ReflectUtils
+  location: class AbstractClassGenerator<T>
+  where T is a type-variable:
+    T extends Object declared in class AbstractClassGenerator
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java:250: error: cannot find symbol
+            this.generatedClasses = new LoadingCache<AbstractClassGenerator, Object, Object>(ClassLoaderData.GET_KEY, load);
+                                        ^
+  symbol:   class LoadingCache
+  location: class ClassLoaderData
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/AbstractClassGenerator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+20 errors

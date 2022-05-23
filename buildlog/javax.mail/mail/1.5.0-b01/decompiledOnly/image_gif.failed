@@ -1,0 +1,39 @@
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/com/sun/mail/handlers/image_gif.java:12: error: package javax.activation does not exist
+import javax.activation.DataSource;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/com/sun/mail/handlers/image_gif.java:14: error: package javax.activation does not exist
+import javax.activation.ActivationDataFlavor;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/com/sun/mail/handlers/image_gif.java:15: error: package javax.activation does not exist
+import javax.activation.DataContentHandler;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/com/sun/mail/handlers/image_gif.java:17: error: cannot find symbol
+public class image_gif implements DataContentHandler
+                                  ^
+  symbol: class DataContentHandler
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/com/sun/mail/handlers/image_gif.java:19: error: cannot find symbol
+    private static ActivationDataFlavor myDF;
+                   ^
+  symbol:   class ActivationDataFlavor
+  location: class image_gif
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/com/sun/mail/handlers/image_gif.java:21: error: cannot find symbol
+    protected ActivationDataFlavor getDF() {
+              ^
+  symbol:   class ActivationDataFlavor
+  location: class image_gif
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/com/sun/mail/handlers/image_gif.java:29: error: cannot find symbol
+    public Object getTransferData(final DataFlavor df, final DataSource ds) throws IOException {
+                                                             ^
+  symbol:   class DataSource
+  location: class image_gif
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/com/sun/mail/handlers/image_gif.java:36: error: cannot find symbol
+    public Object getContent(final DataSource ds) throws IOException {
+                                   ^
+  symbol:   class DataSource
+  location: class image_gif
+sources/structure/javax.mail/mail/1.5.0-b01/Decompiled/com/sun/mail/handlers/image_gif.java:69: error: cannot find symbol
+        image_gif.myDF = new ActivationDataFlavor((Class)Image.class, "image/gif", "GIF Image");
+                             ^
+  symbol:   class ActivationDataFlavor
+  location: class image_gif
+9 errors

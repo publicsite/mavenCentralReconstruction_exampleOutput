@@ -1,0 +1,101 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:7: error: cannot find symbol
+import org.codehaus.groovy.reflection.CachedMethod;
+                                     ^
+  symbol:   class CachedMethod
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:8: error: cannot find symbol
+import org.codehaus.groovy.reflection.CachedClass;
+                                     ^
+  symbol:   class CachedClass
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:9: error: cannot find symbol
+import org.codehaus.groovy.runtime.metaclass.NewInstanceMetaMethod;
+                                            ^
+  symbol:   class NewInstanceMetaMethod
+  location: package org.codehaus.groovy.runtime.metaclass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:10: error: cannot find symbol
+import org.codehaus.groovy.runtime.metaclass.NewStaticMetaMethod;
+                                            ^
+  symbol:   class NewStaticMetaMethod
+  location: package org.codehaus.groovy.runtime.metaclass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:11: error: cannot find symbol
+import org.codehaus.groovy.reflection.ReflectionCache;
+                                     ^
+  symbol:   class ReflectionCache
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:14: error: cannot find symbol
+import groovy.lang.MetaMethod;
+                  ^
+  symbol:   class MetaMethod
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:18: error: cannot find symbol
+public abstract class SimpleExtensionModule extends ExtensionModule
+                                                    ^
+  symbol: class ExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:27: error: cannot find symbol
+    public List<MetaMethod> getMetaMethods() {
+                ^
+  symbol:   class MetaMethod
+  location: class SimpleExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:50: error: cannot find symbol
+    private void createMetaMethods(final Class extensionClass, final List<MetaMethod> metaMethods, final boolean isStatic) {
+                                                                          ^
+  symbol:   class MetaMethod
+  location: class SimpleExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:26: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:28: error: cannot find symbol
+        final List<MetaMethod> metaMethods = new LinkedList<MetaMethod>();
+                   ^
+  symbol:   class MetaMethod
+  location: class SimpleExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:28: error: cannot find symbol
+        final List<MetaMethod> metaMethods = new LinkedList<MetaMethod>();
+                                                            ^
+  symbol:   class MetaMethod
+  location: class SimpleExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:35: error: cannot find symbol
+                SimpleExtensionModule.LOG.warning("Module [" + this.getName() + "] - Unable to load extension class [" + extensionClass + "] due to [" + e.getMessage() + "]. Maybe this module is not supported by your JVM version.");
+                                                                   ^
+  symbol: method getName()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:44: error: cannot find symbol
+                SimpleExtensionModule.LOG.warning("Module [" + this.getName() + "] - Unable to load extension class [" + extensionClass + "] due to [" + e.getMessage() + "]. Maybe this module is not supported by your JVM version.");
+                                                                   ^
+  symbol: method getName()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:51: error: cannot find symbol
+        final CachedClass cachedClass = ReflectionCache.getCachedClass(extensionClass);
+              ^
+  symbol:   class CachedClass
+  location: class SimpleExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:51: error: cannot find symbol
+        final CachedClass cachedClass = ReflectionCache.getCachedClass(extensionClass);
+                                        ^
+  symbol:   variable ReflectionCache
+  location: class SimpleExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:52: error: cannot find symbol
+        final CachedMethod[] arr$;
+              ^
+  symbol:   class CachedMethod
+  location: class SimpleExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:53: error: cannot find symbol
+        final CachedMethod[] methods = arr$ = cachedClass.getMethods();
+              ^
+  symbol:   class CachedMethod
+  location: class SimpleExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:54: error: cannot find symbol
+        for (final CachedMethod method : arr$) {
+                   ^
+  symbol:   class CachedMethod
+  location: class SimpleExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:56: error: cannot find symbol
+                metaMethods.add(isStatic ? new NewStaticMetaMethod(method) : new NewInstanceMetaMethod(method));
+                                               ^
+  symbol:   class NewStaticMetaMethod
+  location: class SimpleExtensionModule
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/m12n/SimpleExtensionModule.java:56: error: cannot find symbol
+                metaMethods.add(isStatic ? new NewStaticMetaMethod(method) : new NewInstanceMetaMethod(method));
+                                                                                 ^
+  symbol:   class NewInstanceMetaMethod
+  location: class SimpleExtensionModule
+21 errors

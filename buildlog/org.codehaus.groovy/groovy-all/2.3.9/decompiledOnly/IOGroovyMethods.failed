@@ -1,0 +1,492 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:9: error: package org.codehaus.groovy.runtime.callsite does not exist
+import org.codehaus.groovy.runtime.callsite.BooleanClosureWrapper;
+                                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:10: error: cannot find symbol
+import groovy.io.GroovyPrintWriter;
+                ^
+  symbol:   class GroovyPrintWriter
+  location: package groovy.io
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:23: error: package groovy.transform.stc does not exist
+import groovy.transform.stc.FromString;
+                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:35: error: package groovy.transform.stc does not exist
+import groovy.transform.stc.SimpleType;
+                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:36: error: package groovy.transform.stc does not exist
+import groovy.transform.stc.ClosureParams;
+                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:37: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:42: error: cannot find symbol
+public class IOGroovyMethods extends DefaultGroovyMethodsSupport
+                                     ^
+  symbol: class DefaultGroovyMethodsSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:59: error: cannot find symbol
+    public static Appendable withFormatter(final Appendable self, @ClosureParams(value = SimpleType.class, options = { "java.util.Formatter" }) final Closure closure) {
+                                                                                                                                                      ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:65: error: cannot find symbol
+    public static Appendable withFormatter(final Appendable self, final Locale locale, @ClosureParams(value = SimpleType.class, options = { "java.util.Formatter" }) final Closure closure) {
+                                                                                                                                                                           ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:71: error: cannot find symbol
+    private static void callWithFormatter(final Closure closure, final Formatter formatter) {
+                                                ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:123: error: cannot find symbol
+    public static <T> T withObjectOutputStream(final OutputStream outputStream, @ClosureParams(value = SimpleType.class, options = { "java.io.ObjectOutputStream" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                           ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:140: error: cannot find symbol
+    public static void eachObject(ObjectInputStream ois, final Closure closure) throws IOException, ClassNotFoundException {
+                                                               ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:157: error: cannot find symbol
+    public static <T> T withObjectInputStream(final InputStream inputStream, @ClosureParams(value = SimpleType.class, options = { "java.io.ObjectInputStream" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                       ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:161: error: cannot find symbol
+    public static <T> T withObjectInputStream(final InputStream inputStream, final ClassLoader classLoader, @ClosureParams(value = SimpleType.class, options = { "java.io.ObjectInputStream" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                                                      ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:165: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, final String charset, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                          ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:169: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, final String charset, final int firstLine, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                                               ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:173: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                    ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:177: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, final int firstLine, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                         ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:181: error: cannot find symbol
+    public static <T> T eachLine(final Reader self, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                                                                             ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:185: error: cannot find symbol
+    public static <T> T eachLine(Reader self, final int firstLine, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                            ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:215: error: cannot find symbol
+    public static <T> T splitEachLine(final Reader self, final String regex, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                          ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:219: error: cannot find symbol
+    public static <T> T splitEachLine(Reader self, final Pattern pattern, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                       ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:248: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final String regex, final String charset, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                                       ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:252: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final Pattern pattern, final String charset, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                                          ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:256: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final String regex, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                 ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:260: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final Pattern pattern, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                    ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:540: error: cannot find symbol
+    public static <T> T withPrintWriter(final Writer writer, @ClosureParams(value = SimpleType.class, options = { "java.io.PrintWriter" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                 ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:544: error: cannot find symbol
+    public static <T> T withPrintWriter(final OutputStream stream, @ClosureParams(value = SimpleType.class, options = { "java.io.PrintWriter" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                       ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:548: error: cannot find symbol
+    public static <T> T withWriter(Writer writer, @ClosureParams(value = SimpleType.class, options = { "java.io.Writer" }) final Closure<T> closure) throws IOException {
+                                                                                                                                 ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:565: error: cannot find symbol
+    public static <T> T withReader(Reader reader, @ClosureParams(value = SimpleType.class, options = { "java.io.Reader" }) final Closure<T> closure) throws IOException {
+                                                                                                                                 ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:578: error: cannot find symbol
+    public static <T> T withStream(InputStream stream, @ClosureParams(value = SimpleType.class, options = { "java.io.InputStream" }) final Closure<T> closure) throws IOException {
+                                                                                                                                           ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:591: error: cannot find symbol
+    public static <T> T withReader(final InputStream in, @ClosureParams(value = SimpleType.class, options = { "java.io.Reader" }) final Closure<T> closure) throws IOException {
+                                                                                                                                        ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:595: error: cannot find symbol
+    public static <T> T withReader(final InputStream in, final String charset, @ClosureParams(value = SimpleType.class, options = { "java.io.Reader" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                              ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:599: error: cannot find symbol
+    public static <T> T withWriter(final OutputStream stream, @ClosureParams(value = SimpleType.class, options = { "java.io.Writer" }) final Closure<T> closure) throws IOException {
+                                                                                                                                             ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:607: error: cannot find symbol
+    public static <T> T withWriter(final OutputStream stream, final String charset, @ClosureParams(value = SimpleType.class, options = { "java.io.Writer" }) final Closure<T> closure) throws IOException {
+                                                                                                                                                                   ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:615: error: cannot find symbol
+    public static <T> T withStream(OutputStream os, @ClosureParams(value = SimpleType.class, options = { "java.io.OutputStream" }) final Closure<T> closure) throws IOException {
+                                                                                                                                         ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:629: error: cannot find symbol
+    public static void eachByte(InputStream is, @ClosureParams(value = SimpleType.class, options = { "byte" }) final Closure closure) throws IOException {
+                                                                                                                     ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:647: error: cannot find symbol
+    public static void eachByte(InputStream is, final int bufferLen, @ClosureParams(value = FromString.class, options = { "byte[],Integer" }) final Closure closure) throws IOException {
+                                                                                                                                                    ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:663: error: cannot find symbol
+    public static void transformChar(Reader self, Writer writer, @ClosureParams(value = SimpleType.class, options = { "java.lang.String" }) final Closure closure) throws IOException {
+                                                                                                                                                  ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:685: error: cannot find symbol
+    public static void transformLine(Reader reader, Writer writer, @ClosureParams(value = SimpleType.class, options = { "java.lang.String" }) final Closure closure) throws IOException {
+                                                                                                                                                    ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:713: error: cannot find symbol
+    public static void filterLine(Reader reader, Writer writer, @ClosureParams(value = SimpleType.class, options = { "java.lang.String" }) final Closure closure) throws IOException {
+                                                                                                                                                 ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:741: error: cannot find symbol
+    public static Writable filterLine(final Reader reader, @ClosureParams(value = SimpleType.class, options = { "java.lang.String" }) final Closure closure) {
+                                                                                                                                            ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:773: error: cannot find symbol
+    public static Writable filterLine(final InputStream self, @ClosureParams(value = SimpleType.class, options = { "java.lang.String" }) final Closure predicate) {
+                                                                                                                                               ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:777: error: cannot find symbol
+    public static Writable filterLine(final InputStream self, final String charset, @ClosureParams(value = SimpleType.class, options = { "java.lang.String" }) final Closure predicate) throws UnsupportedEncodingException {
+                                                                                                                                                                     ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:781: error: cannot find symbol
+    public static void filterLine(final InputStream self, final Writer writer, @ClosureParams(value = SimpleType.class, options = { "java.lang.String" }) final Closure predicate) throws IOException {
+                                                                                                                                                                ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:785: error: cannot find symbol
+    public static void filterLine(final InputStream self, final Writer writer, final String charset, @ClosureParams(value = SimpleType.class, options = { "java.lang.String" }) final Closure predicate) throws IOException {
+                                                                                                                                                                                      ^
+  symbol:   class Closure
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:59: error: cannot find symbol
+    public static Appendable withFormatter(final Appendable self, @ClosureParams(value = SimpleType.class, options = { "java.util.Formatter" }) final Closure closure) {
+                                                                   ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:59: error: cannot find symbol
+    public static Appendable withFormatter(final Appendable self, @ClosureParams(value = SimpleType.class, options = { "java.util.Formatter" }) final Closure closure) {
+                                                                                         ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:65: error: cannot find symbol
+    public static Appendable withFormatter(final Appendable self, final Locale locale, @ClosureParams(value = SimpleType.class, options = { "java.util.Formatter" }) final Closure closure) {
+                                                                                        ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:65: error: cannot find symbol
+    public static Appendable withFormatter(final Appendable self, final Locale locale, @ClosureParams(value = SimpleType.class, options = { "java.util.Formatter" }) final Closure closure) {
+                                                                                                              ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:123: error: cannot find symbol
+    public static <T> T withObjectOutputStream(final OutputStream outputStream, @ClosureParams(value = SimpleType.class, options = { "java.io.ObjectOutputStream" }) final Closure<T> closure) throws IOException {
+                                                                                 ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:123: error: cannot find symbol
+    public static <T> T withObjectOutputStream(final OutputStream outputStream, @ClosureParams(value = SimpleType.class, options = { "java.io.ObjectOutputStream" }) final Closure<T> closure) throws IOException {
+                                                                                                       ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:157: error: cannot find symbol
+    public static <T> T withObjectInputStream(final InputStream inputStream, @ClosureParams(value = SimpleType.class, options = { "java.io.ObjectInputStream" }) final Closure<T> closure) throws IOException {
+                                                                              ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:157: error: cannot find symbol
+    public static <T> T withObjectInputStream(final InputStream inputStream, @ClosureParams(value = SimpleType.class, options = { "java.io.ObjectInputStream" }) final Closure<T> closure) throws IOException {
+                                                                                                    ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:161: error: cannot find symbol
+    public static <T> T withObjectInputStream(final InputStream inputStream, final ClassLoader classLoader, @ClosureParams(value = SimpleType.class, options = { "java.io.ObjectInputStream" }) final Closure<T> closure) throws IOException {
+                                                                                                             ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:161: error: cannot find symbol
+    public static <T> T withObjectInputStream(final InputStream inputStream, final ClassLoader classLoader, @ClosureParams(value = SimpleType.class, options = { "java.io.ObjectInputStream" }) final Closure<T> closure) throws IOException {
+                                                                                                                                   ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:165: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, final String charset, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                  ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:165: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, final String charset, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                                        ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:169: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, final String charset, final int firstLine, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                                       ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:169: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, final String charset, final int firstLine, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                                                             ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:173: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                            ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:173: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                  ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:177: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, final int firstLine, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                 ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:177: error: cannot find symbol
+    public static <T> T eachLine(final InputStream stream, final int firstLine, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                                       ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:181: error: cannot find symbol
+    public static <T> T eachLine(final Reader self, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                     ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:181: error: cannot find symbol
+    public static <T> T eachLine(final Reader self, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                           ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:185: error: cannot find symbol
+    public static <T> T eachLine(Reader self, final int firstLine, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                    ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:185: error: cannot find symbol
+    public static <T> T eachLine(Reader self, final int firstLine, @ClosureParams(value = FromString.class, options = { "String", "String,Integer" }) final Closure<T> closure) throws IOException {
+                                                                                          ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:215: error: cannot find symbol
+    public static <T> T splitEachLine(final Reader self, final String regex, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                              ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:215: error: cannot find symbol
+    public static <T> T splitEachLine(final Reader self, final String regex, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                    ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:219: error: cannot find symbol
+    public static <T> T splitEachLine(Reader self, final Pattern pattern, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                           ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:219: error: cannot find symbol
+    public static <T> T splitEachLine(Reader self, final Pattern pattern, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                 ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:248: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final String regex, final String charset, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                           ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:248: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final String regex, final String charset, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                                                 ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:252: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final Pattern pattern, final String charset, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                              ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:252: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final Pattern pattern, final String charset, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                                                    ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:256: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final String regex, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                     ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:256: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final String regex, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                           ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:260: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final Pattern pattern, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                        ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:260: error: cannot find symbol
+    public static <T> T splitEachLine(final InputStream stream, final Pattern pattern, @ClosureParams(value = FromString.class, options = { "List<String>" }) final Closure<T> closure) throws IOException {
+                                                                                                              ^
+  symbol:   class FromString
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:540: error: cannot find symbol
+    public static <T> T withPrintWriter(final Writer writer, @ClosureParams(value = SimpleType.class, options = { "java.io.PrintWriter" }) final Closure<T> closure) throws IOException {
+                                                              ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:540: error: cannot find symbol
+    public static <T> T withPrintWriter(final Writer writer, @ClosureParams(value = SimpleType.class, options = { "java.io.PrintWriter" }) final Closure<T> closure) throws IOException {
+                                                                                    ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:544: error: cannot find symbol
+    public static <T> T withPrintWriter(final OutputStream stream, @ClosureParams(value = SimpleType.class, options = { "java.io.PrintWriter" }) final Closure<T> closure) throws IOException {
+                                                                    ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:544: error: cannot find symbol
+    public static <T> T withPrintWriter(final OutputStream stream, @ClosureParams(value = SimpleType.class, options = { "java.io.PrintWriter" }) final Closure<T> closure) throws IOException {
+                                                                                          ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:548: error: cannot find symbol
+    public static <T> T withWriter(Writer writer, @ClosureParams(value = SimpleType.class, options = { "java.io.Writer" }) final Closure<T> closure) throws IOException {
+                                                   ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:548: error: cannot find symbol
+    public static <T> T withWriter(Writer writer, @ClosureParams(value = SimpleType.class, options = { "java.io.Writer" }) final Closure<T> closure) throws IOException {
+                                                                         ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:565: error: cannot find symbol
+    public static <T> T withReader(Reader reader, @ClosureParams(value = SimpleType.class, options = { "java.io.Reader" }) final Closure<T> closure) throws IOException {
+                                                   ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:565: error: cannot find symbol
+    public static <T> T withReader(Reader reader, @ClosureParams(value = SimpleType.class, options = { "java.io.Reader" }) final Closure<T> closure) throws IOException {
+                                                                         ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:578: error: cannot find symbol
+    public static <T> T withStream(InputStream stream, @ClosureParams(value = SimpleType.class, options = { "java.io.InputStream" }) final Closure<T> closure) throws IOException {
+                                                        ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:578: error: cannot find symbol
+    public static <T> T withStream(InputStream stream, @ClosureParams(value = SimpleType.class, options = { "java.io.InputStream" }) final Closure<T> closure) throws IOException {
+                                                                              ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:591: error: cannot find symbol
+    public static <T> T withReader(final InputStream in, @ClosureParams(value = SimpleType.class, options = { "java.io.Reader" }) final Closure<T> closure) throws IOException {
+                                                          ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:591: error: cannot find symbol
+    public static <T> T withReader(final InputStream in, @ClosureParams(value = SimpleType.class, options = { "java.io.Reader" }) final Closure<T> closure) throws IOException {
+                                                                                ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:595: error: cannot find symbol
+    public static <T> T withReader(final InputStream in, final String charset, @ClosureParams(value = SimpleType.class, options = { "java.io.Reader" }) final Closure<T> closure) throws IOException {
+                                                                                ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:595: error: cannot find symbol
+    public static <T> T withReader(final InputStream in, final String charset, @ClosureParams(value = SimpleType.class, options = { "java.io.Reader" }) final Closure<T> closure) throws IOException {
+                                                                                                      ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:599: error: cannot find symbol
+    public static <T> T withWriter(final OutputStream stream, @ClosureParams(value = SimpleType.class, options = { "java.io.Writer" }) final Closure<T> closure) throws IOException {
+                                                               ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:599: error: cannot find symbol
+    public static <T> T withWriter(final OutputStream stream, @ClosureParams(value = SimpleType.class, options = { "java.io.Writer" }) final Closure<T> closure) throws IOException {
+                                                                                     ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:607: error: cannot find symbol
+    public static <T> T withWriter(final OutputStream stream, final String charset, @ClosureParams(value = SimpleType.class, options = { "java.io.Writer" }) final Closure<T> closure) throws IOException {
+                                                                                     ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:607: error: cannot find symbol
+    public static <T> T withWriter(final OutputStream stream, final String charset, @ClosureParams(value = SimpleType.class, options = { "java.io.Writer" }) final Closure<T> closure) throws IOException {
+                                                                                                           ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:615: error: cannot find symbol
+    public static <T> T withStream(OutputStream os, @ClosureParams(value = SimpleType.class, options = { "java.io.OutputStream" }) final Closure<T> closure) throws IOException {
+                                                     ^
+  symbol:   class ClosureParams
+  location: class IOGroovyMethods
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/IOGroovyMethods.java:615: error: cannot find symbol
+    public static <T> T withStream(OutputStream os, @ClosureParams(value = SimpleType.class, options = { "java.io.OutputStream" }) final Closure<T> closure) throws IOException {
+                                                                           ^
+  symbol:   class SimpleType
+  location: class IOGroovyMethods
+100 errors

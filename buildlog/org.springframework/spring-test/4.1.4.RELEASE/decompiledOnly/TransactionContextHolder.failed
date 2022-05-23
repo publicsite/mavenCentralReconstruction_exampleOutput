@@ -1,0 +1,84 @@
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/transaction/TransactionContextHolder.java:7: error: package org.springframework.core does not exist
+import org.springframework.core.NamedInheritableThreadLocal;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:19: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:20: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:23: error: package org.springframework.transaction does not exist
+import org.springframework.transaction.PlatformTransactionManager;
+                                      ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:24: error: package org.springframework.transaction does not exist
+import org.springframework.transaction.TransactionDefinition;
+                                      ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:25: error: package org.springframework.transaction does not exist
+import org.springframework.transaction.TransactionException;
+                                      ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:26: error: package org.springframework.transaction does not exist
+import org.springframework.transaction.TransactionStatus;
+                                      ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:39: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(TransactionContext.class);
+	                     ^
+  symbol:   class Log
+  location: class TransactionContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:22: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:23: error: package org.springframework.core does not exist
+import org.springframework.core.AttributeAccessor;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:33: error: cannot find symbol
+public interface TestContext extends AttributeAccessor, Serializable {
+                                     ^
+  symbol: class AttributeAccessor
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:43: error: cannot find symbol
+	private final TransactionDefinition transactionDefinition;
+	              ^
+  symbol:   class TransactionDefinition
+  location: class TransactionContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:45: error: cannot find symbol
+	private final PlatformTransactionManager transactionManager;
+	              ^
+  symbol:   class PlatformTransactionManager
+  location: class TransactionContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:51: error: cannot find symbol
+	private TransactionStatus transactionStatus;
+	        ^
+  symbol:   class TransactionStatus
+  location: class TransactionContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:56: error: cannot find symbol
+	TransactionContext(TestContext testContext, PlatformTransactionManager transactionManager,
+	                                            ^
+  symbol:   class PlatformTransactionManager
+  location: class TransactionContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:57: error: cannot find symbol
+			TransactionDefinition transactionDefinition, boolean defaultRollback) {
+			^
+  symbol:   class TransactionDefinition
+  location: class TransactionContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:65: error: cannot find symbol
+	TransactionStatus getTransactionStatus() {
+	^
+  symbol:   class TransactionStatus
+  location: class TransactionContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:46: error: cannot find symbol
+	ApplicationContext getApplicationContext();
+	^
+  symbol:   class ApplicationContext
+  location: interface TestContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/transaction/TransactionContextHolder.java:30: error: cannot find symbol
+        currentTransactionContext = (ThreadLocal)new NamedInheritableThreadLocal("Test Transaction Context");
+                                                     ^
+  symbol:   class NamedInheritableThreadLocal
+  location: class TransactionContextHolder
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/transaction/TransactionContext.java:39: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(TransactionContext.class);
+	                                  ^
+  symbol:   variable LogFactory
+  location: class TransactionContext
+Note: sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/context/transaction/TransactionContextHolder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+20 errors

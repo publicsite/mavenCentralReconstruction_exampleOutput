@@ -1,0 +1,96 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:12: error: cannot find symbol
+import groovy.lang.Script;
+                  ^
+  symbol:   class Script
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:17: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:20: error: cannot find symbol
+import groovy.lang.GroovyCodeSource;
+                  ^
+  symbol:   class GroovyCodeSource
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:21: error: cannot find symbol
+import groovy.lang.GroovyShell;
+                  ^
+  symbol:   class GroovyShell
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:27: error: cannot find symbol
+    private GroovyShell groovy;
+            ^
+  symbol:   class GroovyShell
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:28: error: cannot find symbol
+    private GroovyCodeSource source;
+            ^
+  symbol:   class GroovyCodeSource
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:33: error: cannot find symbol
+    public GroovySocketServer(final GroovyShell groovy, final boolean isScriptFile, final String scriptFilenameOrText, final boolean autoOutput, final int port) {
+                                    ^
+  symbol:   class GroovyShell
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:37: error: cannot find symbol
+    private static GroovyCodeSource getCodeSource(final boolean scriptFile, final String scriptFilenameOrText) {
+                   ^
+  symbol:   class GroovyCodeSource
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:59: error: cannot find symbol
+    public GroovySocketServer(final GroovyShell groovy, final GroovyCodeSource source, final boolean autoOutput, final int port) {
+                                    ^
+  symbol:   class GroovyShell
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:59: error: cannot find symbol
+    public GroovySocketServer(final GroovyShell groovy, final GroovyCodeSource source, final boolean autoOutput, final int port) {
+                                                              ^
+  symbol:   class GroovyCodeSource
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:93: error: cannot find symbol
+        private Script script;
+                ^
+  symbol:   class Script
+  location: class GroovySocketServer.GroovyClientConnection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:99: error: cannot find symbol
+        GroovyClientConnection(final Script script, final boolean autoOutput, final Socket socket) throws IOException {
+                                     ^
+  symbol:   class Script
+  location: class GroovySocketServer.GroovyClientConnection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:41: error: cannot find symbol
+                    return new GroovyCodeSource(new URI(scriptFilenameOrText));
+                               ^
+  symbol:   class GroovyCodeSource
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:43: error: cannot find symbol
+                return new GroovyCodeSource(GroovyMain.searchForGroovyScriptFile(scriptFilenameOrText));
+                           ^
+  symbol:   class GroovyCodeSource
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:43: error: cannot find symbol
+                return new GroovyCodeSource(GroovyMain.searchForGroovyScriptFile(scriptFilenameOrText));
+                                            ^
+  symbol:   variable GroovyMain
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:46: error: cannot find symbol
+                throw new GroovyRuntimeException("Unable to get script from: " + scriptFilenameOrText, e);
+                          ^
+  symbol:   class GroovyRuntimeException
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:49: error: cannot find symbol
+                throw new GroovyRuntimeException("Unable to get script from URI: " + scriptFilenameOrText, e2);
+                          ^
+  symbol:   class GroovyRuntimeException
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:52: error: cannot find symbol
+        return new GroovyCodeSource(scriptFilenameOrText, generateScriptName(), "/groovy/shell");
+                   ^
+  symbol:   class GroovyCodeSource
+  location: class GroovySocketServer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/ui/GroovySocketServer.java:78: error: cannot find symbol
+                final Script script = this.groovy.parse(this.source);
+                      ^
+  symbol:   class Script
+  location: class GroovySocketServer
+19 errors

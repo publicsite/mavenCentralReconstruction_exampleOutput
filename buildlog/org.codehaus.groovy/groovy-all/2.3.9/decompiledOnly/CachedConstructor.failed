@@ -1,0 +1,74 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:7: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:8: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:10: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerInvocationException;
+                                  ^
+  symbol:   class InvokerInvocationException
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:15: error: cannot find symbol
+public class CachedConstructor extends ParameterTypes
+                                       ^
+  symbol: class ParameterTypes
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:17: error: cannot find symbol
+    CachedClass clazz;
+    ^
+  symbol:   class CachedClass
+  location: class CachedConstructor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:20: error: cannot find symbol
+    public CachedConstructor(final CachedClass clazz, final Constructor c) {
+                                   ^
+  symbol:   class CachedClass
+  location: class CachedConstructor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:82: error: cannot find symbol
+    private static GroovyRuntimeException createExceptionText(final String init, final Constructor constructor, final Object[] argumentArray, final Throwable e, final boolean setReason) {
+                   ^
+  symbol:   class GroovyRuntimeException
+  location: class CachedConstructor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:90: error: cannot find symbol
+    public CachedClass getCachedClass() {
+           ^
+  symbol:   class CachedClass
+  location: class CachedConstructor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:36: error: cannot find symbol
+        this(ReflectionCache.getCachedClass(c.getDeclaringClass()), c);
+             ^
+  symbol:   variable ReflectionCache
+  location: class CachedConstructor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:39: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:45: error: cannot find symbol
+        final CachedConstructor[] constructors = ReflectionCache.getCachedClass(constructor.getDeclaringClass()).getConstructors();
+                                                 ^
+  symbol:   variable ReflectionCache
+  location: class CachedConstructor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:56: error: cannot find symbol
+        argumentArray = this.coerceArgumentsToClasses(argumentArray);
+                            ^
+  symbol: method coerceArgumentsToClasses(Object[])
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:66: error: cannot find symbol
+            throw (e.getCause() instanceof RuntimeException) ? ((RuntimeException)e.getCause()) : new InvokerInvocationException(e);
+                                                                                                      ^
+  symbol:   class InvokerInvocationException
+  location: class CachedConstructor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:83: error: cannot find symbol
+        throw new GroovyRuntimeException(init + constructor + " with arguments: " + InvokerHelper.toString(argumentArray) + " reason: " + e, setReason ? e : null);
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: class CachedConstructor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java:83: error: cannot find symbol
+        throw new GroovyRuntimeException(init + constructor + " with arguments: " + InvokerHelper.toString(argumentArray) + " reason: " + e, setReason ? e : null);
+                                                                                    ^
+  symbol:   variable InvokerHelper
+  location: class CachedConstructor
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/CachedConstructor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+15 errors

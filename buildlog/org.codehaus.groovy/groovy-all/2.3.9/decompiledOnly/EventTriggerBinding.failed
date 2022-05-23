@@ -1,0 +1,75 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:7: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:8: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:10: error: cannot find symbol
+public class EventTriggerBinding implements TriggerBinding
+                                            ^
+  symbol: class TriggerBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:21: error: cannot find symbol
+    public FullBinding createBinding(final SourceBinding sourceBinding, final TargetBinding targetBinding) {
+           ^
+  symbol:   class FullBinding
+  location: class EventTriggerBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:41: error: cannot find symbol
+    private class EventTriggerFullBinding extends AbstractFullBinding
+                                                  ^
+  symbol:   class AbstractFullBinding
+  location: class EventTriggerBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:43: error: cannot find symbol
+        Closure handler;
+        ^
+  symbol:   class Closure
+  location: class EventTriggerBinding.EventTriggerFullBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:20: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:46: error: cannot find symbol
+            this.setSourceBinding(sourceBinding);
+                ^
+  symbol: method setSourceBinding(SourceBinding)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:47: error: cannot find symbol
+            this.setTargetBinding(targetBinding);
+                ^
+  symbol: method setTargetBinding(TargetBinding)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:48: error: cannot find symbol
+            this.handler = new Closure(EventTriggerBinding.this.triggerBean) {
+                               ^
+  symbol:   class Closure
+  location: class EventTriggerBinding.EventTriggerFullBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:49: error: method does not override or implement a method from a supertype
+                @Override
+                ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:51: error: cannot find symbol
+                    if (sourceBinding instanceof ClosureSourceBinding) {
+                                                 ^
+  symbol: class ClosureSourceBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:52: error: cannot find symbol
+                        ((ClosureSourceBinding)sourceBinding).setClosureArguments(params);
+                          ^
+  symbol: class ClosureSourceBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:54: error: cannot find symbol
+                    EventTriggerFullBinding.this.update();
+                                                ^
+  symbol: method update()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:60: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:62: error: cannot find symbol
+            InvokerHelper.setProperty(EventTriggerBinding.this.triggerBean, EventTriggerBinding.this.eventName, this.handler);
+            ^
+  symbol:   variable InvokerHelper
+  location: class EventTriggerBinding.EventTriggerFullBinding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:65: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/binding/EventTriggerBinding.java:70: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+18 errors

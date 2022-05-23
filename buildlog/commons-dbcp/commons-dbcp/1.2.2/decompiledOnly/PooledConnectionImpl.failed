@@ -1,0 +1,55 @@
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/cpdsadapter/PooledConnectionImpl.java:21: error: PooledConnectionImpl is not abstract and does not override abstract method removeStatementEventListener(StatementEventListener) in PooledConnection
+class PooledConnectionImpl implements PooledConnection, KeyedPoolableObjectFactory
+^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/cpdsadapter/PooledConnectionImpl.java:117: error: cannot find symbol
+            i.next().connectionClosed(event);
+                    ^
+  symbol:   method connectionClosed(ConnectionEvent)
+  location: class Object
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/AbandonedTrace.java:124: error: incompatible types: Object cannot be converted to AbandonedTrace
+            for (final AbandonedTrace at : this.trace) {
+                                               ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingConnection.java:18: error: DelegatingConnection is not abstract and does not override abstract method getNetworkTimeout() in Connection
+public class DelegatingConnection extends AbandonedTrace implements Connection
+       ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingStatement.java:14: error: DelegatingStatement is not abstract and does not override abstract method isCloseOnCompletion() in Statement
+public class DelegatingStatement extends AbandonedTrace implements Statement
+       ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingStatement.java:68: error: isClosed() in DelegatingStatement cannot implement isClosed() in Statement
+    protected boolean isClosed() {
+                      ^
+  attempting to assign weaker access privileges; was public
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingStatement.java:86: error: incompatible types: Object[] cannot be converted to ResultSet[]
+                final ResultSet[] set = resultSets.toArray(new ResultSet[resultSets.size()]);
+                                                          ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingPreparedStatement.java:26: error: DelegatingPreparedStatement is not abstract and does not override abstract method setNClob(int,Reader) in PreparedStatement
+public class DelegatingPreparedStatement extends DelegatingStatement implements PreparedStatement
+       ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/cpdsadapter/ConnectionImpl.java:17: error: ConnectionImpl is not abstract and does not override abstract method getNetworkTimeout() in Connection
+class ConnectionImpl implements Connection
+^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/PoolablePreparedStatement.java:14: error: PoolablePreparedStatement is not abstract and does not override abstract method setNClob(int,Reader) in PreparedStatement
+public class PoolablePreparedStatement extends DelegatingPreparedStatement implements PreparedStatement
+       ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/PoolablePreparedStatement.java:63: error: incompatible types: Object[] cannot be converted to ResultSet[]
+            final ResultSet[] set = resultSets.toArray(new ResultSet[resultSets.size()]);
+                                                      ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/cpdsadapter/PoolablePreparedStatementStub.java:13: error: isClosed() in DelegatingStatement cannot implement isClosed() in Statement
+class PoolablePreparedStatementStub extends PoolablePreparedStatement
+^
+  attempting to assign weaker access privileges; was public
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingCallableStatement.java:24: error: DelegatingCallableStatement is not abstract and does not override abstract method <T>getObject(String,Class<T>) in CallableStatement
+public class DelegatingCallableStatement extends DelegatingPreparedStatement implements CallableStatement
+       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>getObject(String,Class<T>)
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/DelegatingResultSet.java:26: error: DelegatingResultSet is not abstract and does not override abstract method <T>getObject(String,Class<T>) in ResultSet
+public class DelegatingResultSet extends AbandonedTrace implements ResultSet
+       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>getObject(String,Class<T>)
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 errors

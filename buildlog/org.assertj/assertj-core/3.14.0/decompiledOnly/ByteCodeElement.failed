@@ -1,0 +1,77 @@
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:7: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.ElementMatcher;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:12: error: package org.assertj.core.internal.bytebuddy.matcher does not exist
+import org.assertj.core.internal.bytebuddy.matcher.FilterableList;
+                                                  ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:13: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:14: error: package org.assertj.core.internal.bytebuddy.description.annotation does not exist
+import org.assertj.core.internal.bytebuddy.description.annotation.AnnotationSource;
+                                                                 ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:16: error: cannot find symbol
+public interface ByteCodeElement extends NamedElement.WithRuntimeName, ModifierReviewable, DeclaredByType, AnnotationSource
+                                                                       ^
+  symbol: class ModifierReviewable
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:16: error: cannot find symbol
+public interface ByteCodeElement extends NamedElement.WithRuntimeName, ModifierReviewable, DeclaredByType, AnnotationSource
+                                                                                           ^
+  symbol: class DeclaredByType
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:16: error: cannot find symbol
+public interface ByteCodeElement extends NamedElement.WithRuntimeName, ModifierReviewable, DeclaredByType, AnnotationSource
+                                                                                                           ^
+  symbol: class AnnotationSource
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:24: error: cannot find symbol
+    boolean isVisibleTo(final TypeDescription p0);
+                              ^
+  symbol:   class TypeDescription
+  location: interface ByteCodeElement
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:26: error: cannot find symbol
+    boolean isAccessibleTo(final TypeDescription p0);
+                                 ^
+  symbol:   class TypeDescription
+  location: interface ByteCodeElement
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:30: error: package TypeDescription.Generic does not exist
+        T accept(final TypeDescription.Generic.Visitor<? extends TypeDescription.Generic> p0);
+                                              ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:30: error: package TypeDescription does not exist
+        T accept(final TypeDescription.Generic.Visitor<? extends TypeDescription.Generic> p0);
+                                                                                ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:32: error: package FilterableList does not exist
+        public static class TokenList<S extends Token<S>> extends FilterableList.AbstractBase<S, TokenList<S>>
+                                                                                ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:44: error: package TypeDescription.Generic does not exist
+            public TokenList<S> accept(final TypeDescription.Generic.Visitor<? extends TypeDescription.Generic> visitor) {
+                                                                    ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:44: error: package TypeDescription does not exist
+            public TokenList<S> accept(final TypeDescription.Generic.Visitor<? extends TypeDescription.Generic> visitor) {
+                                                                                                      ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:73: error: cannot find symbol
+        S asToken(final ElementMatcher<? super TypeDescription> p0);
+                        ^
+  symbol:   class ElementMatcher
+  location: interface TypeDependant<T,S>
+  where T,S are type-variables:
+    T extends TypeDependant<?,S> declared in interface TypeDependant
+    S extends Token<S> declared in interface TypeDependant
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:73: error: cannot find symbol
+        S asToken(final ElementMatcher<? super TypeDescription> p0);
+                                               ^
+  symbol:   class TypeDescription
+  location: interface TypeDependant<T,S>
+  where T,S are type-variables:
+    T extends TypeDependant<?,S> declared in interface TypeDependant
+    S extends Token<S> declared in interface TypeDependant
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:52: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:57: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java:62: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+Note: sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/description/ByteCodeElement.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors

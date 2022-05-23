@@ -1,0 +1,56 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:7: error: cannot find symbol
+import org.apache.bcel.verifier.exc.LocalVariableInfoInconsistentException;
+                                   ^
+  symbol:   class LocalVariableInfoInconsistentException
+  location: package org.apache.bcel.verifier.exc
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:8: error: cannot find symbol
+import org.apache.bcel.generic.Type;
+                              ^
+  symbol:   class Type
+  location: package org.apache.bcel.generic
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:25: error: cannot find symbol
+    private void setType(final int offset, final Type t) {
+                                                 ^
+  symbol:   class Type
+  location: class LocalVariableInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:29: error: cannot find symbol
+    public Type getType(final int offset) {
+           ^
+  symbol:   class Type
+  location: class LocalVariableInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:37: error: cannot find symbol
+    public void add(final String name, final int startpc, final int length, final Type t) throws LocalVariableInfoInconsistentException {
+                                                                                  ^
+  symbol:   class Type
+  location: class LocalVariableInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:37: error: cannot find symbol
+    public void add(final String name, final int startpc, final int length, final Type t) throws LocalVariableInfoInconsistentException {
+                                                                                                 ^
+  symbol:   class LocalVariableInfoInconsistentException
+  location: class LocalVariableInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:43: error: cannot find symbol
+    private void add(final int offset, final String name, final Type t) throws LocalVariableInfoInconsistentException {
+                                                                ^
+  symbol:   class Type
+  location: class LocalVariableInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:43: error: cannot find symbol
+    private void add(final int offset, final String name, final Type t) throws LocalVariableInfoInconsistentException {
+                                                                               ^
+  symbol:   class LocalVariableInfoInconsistentException
+  location: class LocalVariableInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:34: error: incompatible types: Object cannot be converted to String
+        return this.names.get(Integer.toString(offset));
+                             ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:45: error: cannot find symbol
+            throw new LocalVariableInfoInconsistentException("At bytecode offset '" + offset + "' a local variable has two different names: '" + this.getName(offset) + "' and '" + name + "'.");
+                      ^
+  symbol:   class LocalVariableInfoInconsistentException
+  location: class LocalVariableInfo
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java:48: error: cannot find symbol
+            throw new LocalVariableInfoInconsistentException("At bytecode offset '" + offset + "' a local variable has two different types: '" + this.getType(offset) + "' and '" + t + "'.");
+                      ^
+  symbol:   class LocalVariableInfoInconsistentException
+  location: class LocalVariableInfo
+Note: sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/verifier/statics/LocalVariableInfo.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors

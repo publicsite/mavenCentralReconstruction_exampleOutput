@@ -1,0 +1,118 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:11: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.fields.ExcludeFieldEnumSelector;
+                                                                          ^
+  symbol:   class ExcludeFieldEnumSelector
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common.fields
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:12: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.fields.FieldEnumSelector;
+                                                                          ^
+  symbol:   class FieldEnumSelector
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common.fields
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:15: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.fields.ExcludeFieldNameSelector;
+                                                                          ^
+  symbol:   class ExcludeFieldNameSelector
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common.fields
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:16: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.fields.FieldNameSelector;
+                                                                          ^
+  symbol:   class FieldNameSelector
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common.fields
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:20: error: cannot find symbol
+public abstract class CommonSettings<F extends Format> implements Cloneable
+                                               ^
+  symbol: class Format
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:31: error: cannot find symbol
+    private ProcessorErrorHandler<? extends Context> errorHandler;
+            ^
+  symbol:   class ProcessorErrorHandler
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:185: error: cannot find symbol
+    public RowProcessorErrorHandler getRowProcessorErrorHandler() {
+           ^
+  symbol:   class RowProcessorErrorHandler
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:190: error: cannot find symbol
+    public void setRowProcessorErrorHandler(final RowProcessorErrorHandler rowProcessorErrorHandler) {
+                                                  ^
+  symbol:   class RowProcessorErrorHandler
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:194: error: cannot find symbol
+    public <T extends Context> ProcessorErrorHandler<T> getProcessorErrorHandler() {
+                               ^
+  symbol:   class ProcessorErrorHandler
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:198: error: cannot find symbol
+    public void setProcessorErrorHandler(final ProcessorErrorHandler<? extends Context> processorErrorHandler) {
+                                               ^
+  symbol:   class ProcessorErrorHandler
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:139: error: cannot find symbol
+        return this.setFieldSet(new FieldNameSelector(), fieldNames);
+                                    ^
+  symbol:   class FieldNameSelector
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:143: error: cannot find symbol
+        return this.setFieldSet(new ExcludeFieldNameSelector(), fieldNames);
+                                    ^
+  symbol:   class ExcludeFieldNameSelector
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:155: error: cannot find symbol
+        return (FieldSet<Enum>)this.setFieldSet(new FieldEnumSelector(), (Enum[])columns);
+                                                    ^
+  symbol:   class FieldEnumSelector
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:159: error: cannot find symbol
+        return (FieldSet<Enum>)this.setFieldSet(new ExcludeFieldEnumSelector(), (Enum[])columns);
+                                                    ^
+  symbol:   class ExcludeFieldEnumSelector
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:186: error: cannot find symbol
+        return (RowProcessorErrorHandler)((this.errorHandler == null) ? NoopRowProcessorErrorHandler.instance : this.errorHandler);
+                ^
+  symbol:   class RowProcessorErrorHandler
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:186: error: cannot find symbol
+        return (RowProcessorErrorHandler)((this.errorHandler == null) ? NoopRowProcessorErrorHandler.instance : this.errorHandler);
+                                                                        ^
+  symbol:   variable NoopRowProcessorErrorHandler
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:195: error: cannot find symbol
+        return (ProcessorErrorHandler<T>)((this.errorHandler == null) ? NoopProcessorErrorHandler.instance : this.errorHandler);
+                ^
+  symbol:   class ProcessorErrorHandler
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java:195: error: cannot find symbol
+        return (ProcessorErrorHandler<T>)((this.errorHandler == null) ? NoopProcessorErrorHandler.instance : this.errorHandler);
+                                                                        ^
+  symbol:   variable NoopProcessorErrorHandler
+  location: class CommonSettings<F>
+  where F is a type-variable:
+    F declared in class CommonSettings
+Note: sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonSettings.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+18 errors

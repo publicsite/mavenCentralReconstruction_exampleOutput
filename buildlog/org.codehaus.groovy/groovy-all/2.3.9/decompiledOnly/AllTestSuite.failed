@@ -1,0 +1,63 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:8: error: cannot find symbol
+import org.codehaus.groovy.runtime.ScriptTestAdapter;
+                                  ^
+  symbol:   class ScriptTestAdapter
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:9: error: cannot find symbol
+import groovy.lang.Script;
+                  ^
+  symbol:   class Script
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:14: error: cannot find symbol
+import org.codehaus.groovy.control.CompilationFailedException;
+                                  ^
+  symbol:   class CompilationFailedException
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:16: error: cannot find symbol
+import groovy.lang.GroovyClassLoader;
+                  ^
+  symbol:   class GroovyClassLoader
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:27: error: cannot find symbol
+    private static final GroovyClassLoader GROOVY_LOADER;
+                         ^
+  symbol:   class GroovyClassLoader
+  location: class AllTestSuite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:61: error: cannot find symbol
+    protected void loadTest(final String filename) throws CompilationFailedException, IOException {
+                                                          ^
+  symbol:   class CompilationFailedException
+  location: class AllTestSuite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:74: error: cannot find symbol
+    protected Class compile(final String filename) throws CompilationFailedException, IOException {
+                                                          ^
+  symbol:   class CompilationFailedException
+  location: class AllTestSuite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:50: error: cannot find symbol
+            catch (CompilationFailedException cfe) {
+                   ^
+  symbol:   class CompilationFailedException
+  location: class AllTestSuite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:67: error: cannot find symbol
+            if (!Script.class.isAssignableFrom(type)) {
+                 ^
+  symbol:   class Script
+  location: class AllTestSuite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:70: error: cannot find symbol
+            this.addTest((Test)new ScriptTestAdapter(type, AllTestSuite.EMPTY_ARGS));
+                                   ^
+  symbol:   class ScriptTestAdapter
+  location: class AllTestSuite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:81: error: cannot find symbol
+        GROOVY_LOADER = new GroovyClassLoader(AllTestSuite.JAVA_LOADER);
+                            ^
+  symbol:   class GroovyClassLoader
+  location: class AllTestSuite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java:86: error: incompatible types: Object cannot be converted to IFileNameFinder
+            AllTestSuite.finder = finderClass.newInstance();
+                                                         ^
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/AllTestSuite.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 errors

@@ -1,0 +1,85 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3546: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3554: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java:52: error: no suitable constructor found for Invocation(InDefinedShape)
+            return MethodInvocation.STATIC.new Invocation(methodDescription);
+                                           ^
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(MethodInvocation,InDefinedShape) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(InDefinedShape,TypeDescription) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java:55: error: no suitable constructor found for Invocation(InDefinedShape)
+            return MethodInvocation.SPECIAL_CONSTRUCTOR.new Invocation(methodDescription);
+                                                        ^
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(MethodInvocation,InDefinedShape) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(InDefinedShape,TypeDescription) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java:60: error: no suitable constructor found for Invocation(InDefinedShape)
+            return this$0.new Invocation(methodDescription);
+                          ^
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(MethodInvocation,InDefinedShape) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(InDefinedShape,TypeDescription) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java:63: error: no suitable constructor found for Invocation(InDefinedShape)
+            return MethodInvocation.INTERFACE.new Invocation(methodDescription);
+                                              ^
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(MethodInvocation,InDefinedShape) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(InDefinedShape,TypeDescription) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java:65: error: no suitable constructor found for Invocation(InDefinedShape)
+        return MethodInvocation.VIRTUAL.new Invocation(methodDescription);
+                                        ^
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(MethodInvocation,InDefinedShape) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(InDefinedShape,TypeDescription) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java:69: error: cannot find symbol
+        final MethodDescription.InDefinedShape declaredMethod = ((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)methodDescription).asDefined();
+                                                                                                                                  ^
+  symbol:   class S
+  location: class MethodInvocation
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java:160: error: no suitable constructor found for Invocation(MethodInvocation,InDefinedShape,TypeDescription)
+            this(this$0, methodDescription, methodDescription.getDeclaringType());
+            ^
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(MethodInvocation,InDefinedShape) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor MethodInvocation.Invocation.MethodInvocation.Invocation(InDefinedShape,TypeDescription) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/implementation/bytecode/member/MethodInvocation.java:197: error: cannot find symbol
+            return this.methodDescription.isInvokeBootstrap() ? new DynamicInvocation(methodName, returnType, (List<? extends TypeDescription>)new TypeList.Explicit(methodType), ((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)this.methodDescription).asDefined(), arguments) : StackManipulation.Illegal.INSTANCE;
+                                                                                                                                                                                                                                                    ^
+  symbol:   class S
+  location: class MethodInvocation.Invocation
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+15 errors

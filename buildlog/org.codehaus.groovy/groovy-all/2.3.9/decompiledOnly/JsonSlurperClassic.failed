@@ -1,0 +1,205 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:13: error: cannot find symbol
+import org.codehaus.groovy.runtime.DefaultGroovyMethodsSupport;
+                                  ^
+  symbol:   class DefaultGroovyMethodsSupport
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:15: error: cannot find symbol
+import org.codehaus.groovy.runtime.ResourceGroovyMethods;
+                                  ^
+  symbol:   class ResourceGroovyMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:141: error: cannot find symbol
+    private List parseArray(final JsonLexer lexer) {
+                                  ^
+  symbol:   class JsonLexer
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:175: error: cannot find symbol
+    private Map parseObject(final JsonLexer lexer) {
+                                  ^
+  symbol:   class JsonLexer
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:31: error: cannot find symbol
+        final JsonLexer lexer = new JsonLexer(reader);
+              ^
+  symbol:   class JsonLexer
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:31: error: cannot find symbol
+        final JsonLexer lexer = new JsonLexer(reader);
+                                    ^
+  symbol:   class JsonLexer
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:32: error: cannot find symbol
+        final JsonToken token = lexer.nextToken();
+              ^
+  symbol:   class JsonToken
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:34: error: cannot find symbol
+        if (token.getType() == JsonTokenType.OPEN_CURLY) {
+                               ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:38: error: cannot find symbol
+            if (token.getType() != JsonTokenType.OPEN_BRACKET) {
+                                   ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:39: error: package JsonTokenType does not exist
+                throw new JsonException("A JSON payload should start with " + JsonTokenType.OPEN_CURLY.getLabel() + " or " + JsonTokenType.OPEN_BRACKET.getLabel() + ".\n" + "Instead, '" + token.getText() + "' was found " + "on line: " + token.getStartLine() + ", " + "column: " + token.getStartColumn());
+                                                                                           ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:39: error: package JsonTokenType does not exist
+                throw new JsonException("A JSON payload should start with " + JsonTokenType.OPEN_CURLY.getLabel() + " or " + JsonTokenType.OPEN_BRACKET.getLabel() + ".\n" + "Instead, '" + token.getText() + "' was found " + "on line: " + token.getStartLine() + ", " + "column: " + token.getStartColumn());
+                                                                                                                                          ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:58: error: cannot find symbol
+                reader = ResourceGroovyMethods.newReader(file);
+                         ^
+  symbol:   variable ResourceGroovyMethods
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:61: error: cannot find symbol
+                reader = ResourceGroovyMethods.newReader(file, charset);
+                         ^
+  symbol:   variable ResourceGroovyMethods
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:70: error: cannot find symbol
+                DefaultGroovyMethodsSupport.closeWithWarning(reader);
+                ^
+  symbol:   variable DefaultGroovyMethodsSupport
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:91: error: cannot find symbol
+                reader = ResourceGroovyMethods.newReader(url);
+                         ^
+  symbol:   variable ResourceGroovyMethods
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:94: error: cannot find symbol
+                reader = ResourceGroovyMethods.newReader(url, params);
+                         ^
+  symbol:   variable ResourceGroovyMethods
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:103: error: cannot find symbol
+                DefaultGroovyMethodsSupport.closeWithWarning(reader);
+                ^
+  symbol:   variable DefaultGroovyMethodsSupport
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:124: error: cannot find symbol
+                reader = ResourceGroovyMethods.newReader(url, charset);
+                         ^
+  symbol:   variable ResourceGroovyMethods
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:127: error: cannot find symbol
+                reader = ResourceGroovyMethods.newReader(url, params, charset);
+                         ^
+  symbol:   variable ResourceGroovyMethods
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:136: error: cannot find symbol
+                DefaultGroovyMethodsSupport.closeWithWarning(reader);
+                ^
+  symbol:   variable DefaultGroovyMethodsSupport
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:143: error: cannot find symbol
+        JsonToken currentToken;
+        ^
+  symbol:   class JsonToken
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:149: error: cannot find symbol
+            if (currentToken.getType() == JsonTokenType.OPEN_CURLY) {
+                                          ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:152: error: cannot find symbol
+            else if (currentToken.getType() == JsonTokenType.OPEN_BRACKET) {
+                                               ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:155: error: package JsonTokenType does not exist
+            else if (currentToken.getType().ordinal() >= JsonTokenType.NULL.ordinal()) {
+                                                                      ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:159: error: cannot find symbol
+                if (currentToken.getType() == JsonTokenType.CLOSE_BRACKET) {
+                                              ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:166: error: package JsonTokenType does not exist
+                throw new JsonException("Expected " + JsonTokenType.CLOSE_BRACKET.getLabel() + " " + "or " + JsonTokenType.COMMA.getLabel() + " " + "on line: " + lexer.getReader().getLine() + ", " + "column: " + lexer.getReader().getColumn() + ".\n" + "But got an unterminated array.");
+                                                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:166: error: package JsonTokenType does not exist
+                throw new JsonException("Expected " + JsonTokenType.CLOSE_BRACKET.getLabel() + " " + "or " + JsonTokenType.COMMA.getLabel() + " " + "on line: " + lexer.getReader().getLine() + ", " + "column: " + lexer.getReader().getColumn() + ".\n" + "But got an unterminated array.");
+                                                                                                                          ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:168: error: cannot find symbol
+            if (currentToken.getType() == JsonTokenType.CLOSE_BRACKET) {
+                                          ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:171: error: cannot find symbol
+        } while (currentToken.getType() == JsonTokenType.COMMA);
+                                           ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:172: error: package JsonTokenType does not exist
+        throw new JsonException("Expected a value or " + JsonTokenType.CLOSE_BRACKET.getLabel() + " " + "on line: " + currentToken.getStartLine() + " " + "column: " + currentToken.getStartColumn() + ".\n" + "But got '" + currentToken.getText() + "' instead.");
+                                                                      ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:177: error: cannot find symbol
+        JsonToken previousToken = null;
+        ^
+  symbol:   class JsonToken
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:178: error: cannot find symbol
+        JsonToken currentToken = null;
+        ^
+  symbol:   class JsonToken
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:184: error: cannot find symbol
+            if (currentToken.getType() == JsonTokenType.CLOSE_CURLY) {
+                                          ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:187: error: cannot find symbol
+            if (currentToken.getType() != JsonTokenType.STRING) {
+                                          ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:188: error: package JsonTokenType does not exist
+                throw new JsonException("Expected " + JsonTokenType.STRING.getLabel() + " key " + "on line: " + currentToken.getStartLine() + ", " + "column: " + currentToken.getStartColumn() + ".\n" + "But got '" + currentToken.getText() + "' instead.");
+                                                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:193: error: package JsonTokenType does not exist
+                throw new JsonException("Expected a " + JsonTokenType.COLON.getLabel() + " " + "on line: " + lexer.getReader().getLine() + ", " + "column: " + lexer.getReader().getColumn() + ".\n" + "But got an unterminated object.");
+                                                                     ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:195: error: cannot find symbol
+            if (currentToken.getType() != JsonTokenType.COLON) {
+                                          ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:196: error: package JsonTokenType does not exist
+                throw new JsonException("Expected " + JsonTokenType.COLON.getLabel() + " " + "on line: " + currentToken.getStartLine() + ", " + "column: " + currentToken.getStartColumn() + ".\n" + "But got '" + currentToken.getText() + "' instead.");
+                                                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:202: error: cannot find symbol
+            if (currentToken.getType() == JsonTokenType.OPEN_CURLY) {
+                                          ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:205: error: cannot find symbol
+            else if (currentToken.getType() == JsonTokenType.OPEN_BRACKET) {
+                                               ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:209: error: package JsonTokenType does not exist
+                if (currentToken.getType().ordinal() < JsonTokenType.NULL.ordinal()) {
+                                                                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:217: error: package JsonTokenType does not exist
+                throw new JsonException("Expected " + JsonTokenType.CLOSE_CURLY.getLabel() + " or " + JsonTokenType.COMMA.getLabel() + " " + "on line: " + previousToken.getEndLine() + ", " + "column: " + previousToken.getEndColumn() + ".\n" + "But got an unterminated object.");
+                                                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:217: error: package JsonTokenType does not exist
+                throw new JsonException("Expected " + JsonTokenType.CLOSE_CURLY.getLabel() + " or " + JsonTokenType.COMMA.getLabel() + " " + "on line: " + previousToken.getEndLine() + ", " + "column: " + previousToken.getEndColumn() + ".\n" + "But got an unterminated object.");
+                                                                                                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:219: error: cannot find symbol
+            if (currentToken.getType() == JsonTokenType.CLOSE_CURLY) {
+                                          ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:222: error: cannot find symbol
+            if (currentToken.getType() != JsonTokenType.COMMA) {
+                                          ^
+  symbol:   variable JsonTokenType
+  location: class JsonSlurperClassic
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/JsonSlurperClassic.java:223: error: package JsonTokenType does not exist
+                throw new JsonException("Expected a value or " + JsonTokenType.CLOSE_CURLY.getLabel() + " " + "on line: " + currentToken.getStartLine() + ", " + "column: " + currentToken.getStartColumn() + ".\n" + "But got '" + currentToken.getText() + "' instead.");
+                                                                              ^
+46 errors

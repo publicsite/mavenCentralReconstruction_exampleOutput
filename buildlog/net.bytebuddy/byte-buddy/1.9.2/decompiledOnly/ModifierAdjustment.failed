@@ -1,0 +1,100 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3546: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3554: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/asm/ModifierAdjustment.java:61: error: no suitable method found for of(Collection<CAP#1>)
+        return new ModifierAdjustment(CompoundList.of(new Adjustment<TypeDescription>(matcher, ModifierContributor.Resolver.of((Collection<?>)modifierContributors)), this.typeAdjustments), this.fieldAdjustments, this.methodAdjustments);
+                                                                                                                           ^
+    method Resolver.of(ForType...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForType)
+    method Resolver.of(ForField...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForField)
+    method Resolver.of(ForMethod...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForMethod)
+    method Resolver.of(ForParameter...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForParameter)
+    method Resolver.<S>of(Collection<? extends S>) is not applicable
+      (inference variable S has incompatible bounds
+        lower bounds: ModifierContributor
+        lower bounds: CAP#1)
+  where S is a type-variable:
+    S extends ModifierContributor declared in method <S>of(Collection<? extends S>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/asm/ModifierAdjustment.java:77: error: no suitable method found for of(Collection<CAP#1>)
+        return new ModifierAdjustment(this.typeAdjustments, CompoundList.of(new Adjustment<FieldDescription.InDefinedShape>(matcher, ModifierContributor.Resolver.of((Collection<?>)modifierContributors)), this.fieldAdjustments), this.methodAdjustments);
+                                                                                                                                                                 ^
+    method Resolver.of(ForType...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForType)
+    method Resolver.of(ForField...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForField)
+    method Resolver.of(ForMethod...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForMethod)
+    method Resolver.of(ForParameter...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForParameter)
+    method Resolver.<S>of(Collection<? extends S>) is not applicable
+      (inference variable S has incompatible bounds
+        lower bounds: ModifierContributor
+        lower bounds: CAP#1)
+  where S is a type-variable:
+    S extends ModifierContributor declared in method <S>of(Collection<? extends S>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/asm/ModifierAdjustment.java:125: error: no suitable method found for of(Collection<CAP#1>)
+        return new ModifierAdjustment(this.typeAdjustments, this.fieldAdjustments, CompoundList.of(new Adjustment<MethodDescription>(matcher, ModifierContributor.Resolver.of((Collection<?>)modifierContributors)), this.methodAdjustments));
+                                                                                                                                                                          ^
+    method Resolver.of(ForType...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForType)
+    method Resolver.of(ForField...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForField)
+    method Resolver.of(ForMethod...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForMethod)
+    method Resolver.of(ForParameter...) is not applicable
+      (varargs mismatch; Collection<CAP#1> cannot be converted to ForParameter)
+    method Resolver.<S>of(Collection<? extends S>) is not applicable
+      (inference variable S has incompatible bounds
+        lower bounds: ModifierContributor
+        lower bounds: CAP#1)
+  where S is a type-variable:
+    S extends ModifierContributor declared in method <S>of(Collection<? extends S>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/asm/ModifierAdjustment.java:162: error: incompatible types: Object cannot be converted to CAP#1
+            return this.matcher.matches((Object)target);
+                                        ^
+  where T is a type-variable:
+    T extends Object declared in class Adjustment
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: T from capture of ? super T
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.2/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3540: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: sources/structure/net.bytebuddy/byte-buddy/1.9.2/Decompiled/net/bytebuddy/asm/ModifierAdjustment.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+11 errors

@@ -1,0 +1,74 @@
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:36: error: package org.apache.geronimo.osgi.registry.api does not exist
+import org.apache.geronimo.osgi.registry.api.ProviderRegistry;
+                                            ^
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:39: error: package org.osgi.util.tracker does not exist
+import org.osgi.util.tracker.ServiceTracker;
+                            ^
+sources/structure/org.apache.openejb/javaee-api/6.0-6/Decompiled/javax/validation/Validation.java:30: error: type argument Object is not within bounds of type-variable U
+        return new ProviderSpecificBootstrapImpl<T, Object>(providerType);
+                                                    ^
+  where U,T are type-variables:
+    U extends ValidationProvider<T> declared in class ProviderSpecificBootstrapImpl
+    T extends Configuration<T> declared in class ProviderSpecificBootstrapImpl
+sources/structure/org.apache.openejb/javaee-api/6.0-6/Decompiled/javax/validation/Validation.java:30: error: incompatible types: Class<U> cannot be converted to Class<Object>
+        return new ProviderSpecificBootstrapImpl<T, Object>(providerType);
+                                                            ^
+  where U,T are type-variables:
+    U extends ValidationProvider<T> declared in method <T,U>byProvider(Class<U>)
+    T extends Configuration<T> declared in method <T,U>byProvider(Class<U>)
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:65: error: cannot find symbol
+            registryTracker = new ServiceTracker(c, "org.apache.geronimo.osgi.registry.api.ProviderRegistry", null);
+                                  ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:66: error: cannot find symbol
+            ((ServiceTracker)registryTracker).open();
+              ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:82: error: cannot find symbol
+            ((ServiceTracker)registryTracker).close();
+              ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:108: error: cannot find symbol
+        return ((ProviderRegistry)registry).locate(providerId);
+                 ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:132: error: cannot find symbol
+        return ((ProviderRegistry)registry).locateAll(providerId);
+                 ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:224: error: cannot find symbol
+            Object service = ((ProviderRegistry)registry).getService(iface);
+                               ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:267: error: cannot find symbol
+            Class<?> cls = ((ProviderRegistry)registry).getServiceClass(iface);
+                             ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:306: error: cannot find symbol
+            List<Object> globalServices = ((ProviderRegistry)registry).getServices(iface);
+                                            ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:355: error: cannot find symbol
+            List<Class<?>> globalServices = ((ProviderRegistry)registry).getServiceClasses(iface);
+                                              ^
+  symbol:   class ProviderRegistry
+  location: class ProviderLocator
+sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java:628: error: cannot find symbol
+        return ((ServiceTracker)registryTracker).getService();
+                 ^
+  symbol:   class ServiceTracker
+  location: class ProviderLocator
+Note: sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.apache.openejb/javaee-api/6.0-6/extractedSources/org/apache/geronimo/osgi/locator/ProviderLocator.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+14 errors

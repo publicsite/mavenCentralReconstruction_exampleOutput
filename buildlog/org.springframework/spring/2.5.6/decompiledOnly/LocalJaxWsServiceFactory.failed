@@ -1,0 +1,37 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:8: error: package javax.xml.ws does not exist
+import javax.xml.ws.Service;
+                   ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:11: error: package javax.xml.ws.handler does not exist
+import javax.xml.ws.handler.HandlerResolver;
+                           ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:21: error: cannot find symbol
+    private HandlerResolver handlerResolver;
+            ^
+  symbol:   class HandlerResolver
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:55: error: cannot find symbol
+    public void setHandlerResolver(final HandlerResolver handlerResolver) {
+                                         ^
+  symbol:   class HandlerResolver
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:59: error: cannot find symbol
+    public Service createJaxWsService() {
+           ^
+  symbol:   class Service
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:60: error: cannot find symbol
+        final Service service = (this.wsdlDocumentUrl != null) ? Service.create(this.wsdlDocumentUrl, this.getQName(this.serviceName)) : Service.create(this.getQName(this.serviceName));
+              ^
+  symbol:   class Service
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:60: error: cannot find symbol
+        final Service service = (this.wsdlDocumentUrl != null) ? Service.create(this.wsdlDocumentUrl, this.getQName(this.serviceName)) : Service.create(this.getQName(this.serviceName));
+                                                                 ^
+  symbol:   variable Service
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:60: error: cannot find symbol
+        final Service service = (this.wsdlDocumentUrl != null) ? Service.create(this.wsdlDocumentUrl, this.getQName(this.serviceName)) : Service.create(this.getQName(this.serviceName));
+                                                                                                                                         ^
+  symbol:   variable Service
+  location: class LocalJaxWsServiceFactory
+8 errors

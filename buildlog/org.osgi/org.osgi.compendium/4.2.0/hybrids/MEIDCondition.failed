@@ -1,0 +1,42 @@
+hybrids/org.osgi/org.osgi.compendium/4.2.0/MEIDCondition.java:21: error: package org.osgi.framework does not exist
+import org.osgi.framework.Bundle;
+                         ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/MEIDCondition.java:22: error: package org.osgi.service.condpermadmin does not exist
+import org.osgi.service.condpermadmin.Condition;
+                                     ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/MEIDCondition.java:23: error: package org.osgi.service.condpermadmin does not exist
+import org.osgi.service.condpermadmin.ConditionInfo;
+                                     ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/MEIDCondition.java:72: error: cannot find symbol
+	public static Condition getCondition(Bundle bundle,
+	                                     ^
+  symbol:   class Bundle
+  location: class MEIDCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/MEIDCondition.java:73: error: cannot find symbol
+			ConditionInfo conditionInfo) {
+			^
+  symbol:   class ConditionInfo
+  location: class MEIDCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/MEIDCondition.java:72: error: cannot find symbol
+	public static Condition getCondition(Bundle bundle,
+	              ^
+  symbol:   class Condition
+  location: class MEIDCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/MEIDCondition.java:102: error: cannot find symbol
+			return Condition.FALSE;
+			       ^
+  symbol:   variable Condition
+  location: class MEIDCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/MEIDCondition.java:104: error: cannot find symbol
+		return MEID.startsWith(meid) ? Condition.TRUE : Condition.FALSE;
+		                               ^
+  symbol:   variable Condition
+  location: class MEIDCondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/MEIDCondition.java:104: error: cannot find symbol
+		return MEID.startsWith(meid) ? Condition.TRUE : Condition.FALSE;
+		                                                ^
+  symbol:   variable Condition
+  location: class MEIDCondition
+Note: hybrids/org.osgi/org.osgi.compendium/4.2.0/MEIDCondition.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

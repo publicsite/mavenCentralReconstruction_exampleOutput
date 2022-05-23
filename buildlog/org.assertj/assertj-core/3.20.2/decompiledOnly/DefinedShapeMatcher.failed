@@ -1,0 +1,57 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:8: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.description.ByteCodeElement;
+                                                      ^
+  symbol:   class ByteCodeElement
+  location: package org.assertj.core.internal.bytebuddy.description
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:11: error: package ElementMatcher.Junction does not exist
+public class DefinedShapeMatcher<T extends ByteCodeElement.TypeDependant<S, ?>, S extends ByteCodeElement.TypeDependant<?, ?>> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                                                                                              ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:10: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:11: error: package ByteCodeElement does not exist
+public class DefinedShapeMatcher<T extends ByteCodeElement.TypeDependant<S, ?>, S extends ByteCodeElement.TypeDependant<?, ?>> extends ElementMatcher.Junction.AbstractBase<T>
+                                                          ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:11: error: package ByteCodeElement does not exist
+public class DefinedShapeMatcher<T extends ByteCodeElement.TypeDependant<S, ?>, S extends ByteCodeElement.TypeDependant<?, ?>> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                                         ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:13: error: cannot find symbol
+    private final ElementMatcher<? super S> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class DefinedShapeMatcher<T,S>
+  where T,S are type-variables:
+    T declared in class DefinedShapeMatcher
+    S declared in class DefinedShapeMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:15: error: cannot find symbol
+    public DefinedShapeMatcher(final ElementMatcher<? super S> matcher) {
+                                     ^
+  symbol:   class ElementMatcher
+  location: class DefinedShapeMatcher<T,S>
+  where T,S are type-variables:
+    T declared in class DefinedShapeMatcher
+    S declared in class DefinedShapeMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:20: error: package ByteCodeElement does not exist
+        return this.matcher.matches(((ByteCodeElement.TypeDependant<? super S, S>)target).asDefined());
+                                                     ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:30: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((DefinedShapeMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/DefinedShapeMatcher.java:35: error: cannot find symbol
+        return this.getClass().hashCode() * 31 + this.matcher.hashCode();
+                   ^
+  symbol: method getClass()
+14 errors

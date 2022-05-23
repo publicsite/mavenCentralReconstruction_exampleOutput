@@ -1,0 +1,151 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:7: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.TypeList;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:10: error: cannot find symbol
+import com.google.dexmaker.dx.util.AnnotatedOutput;
+                                  ^
+  symbol:   class AnnotatedOutput
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:11: error: cannot find symbol
+import com.google.dexmaker.dx.rop.cst.CstType;
+                                     ^
+  symbol:   class CstType
+  location: package com.google.dexmaker.dx.rop.cst
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:15: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Type;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:18: error: cannot find symbol
+public final class ClassDefsSection extends UniformItemSection
+                                            ^
+  symbol: class UniformItemSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:20: error: cannot find symbol
+    private final TreeMap<Type, ClassDefItem> classDefs;
+                          ^
+  symbol:   class Type
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:20: error: cannot find symbol
+    private final TreeMap<Type, ClassDefItem> classDefs;
+                                ^
+  symbol:   class ClassDefItem
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:21: error: cannot find symbol
+    private ArrayList<ClassDefItem> orderedDefs;
+                      ^
+  symbol:   class ClassDefItem
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:23: error: cannot find symbol
+    public ClassDefsSection(final DexFile file) {
+                                  ^
+  symbol:   class DexFile
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:30: error: cannot find symbol
+    public Collection<? extends Item> items() {
+                                ^
+  symbol:   class Item
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:38: error: cannot find symbol
+    public IndexedItem get(final Constant cst) {
+           ^
+  symbol:   class IndexedItem
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:51: error: cannot find symbol
+    public void writeHeaderPart(final AnnotatedOutput out) {
+                                      ^
+  symbol:   class AnnotatedOutput
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:63: error: cannot find symbol
+    public void add(final ClassDefItem clazz) {
+                          ^
+  symbol:   class ClassDefItem
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:88: error: cannot find symbol
+    private int orderItems0(final Type type, int idx, int maxDepth) {
+                                  ^
+  symbol:   class Type
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:25: error: cannot find symbol
+        this.classDefs = new TreeMap<Type, ClassDefItem>();
+                                     ^
+  symbol:   class Type
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:25: error: cannot find symbol
+        this.classDefs = new TreeMap<Type, ClassDefItem>();
+                                           ^
+  symbol:   class ClassDefItem
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:37: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:42: error: cannot find symbol
+        this.throwIfNotPrepared();
+            ^
+  symbol: method throwIfNotPrepared()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:43: error: cannot find symbol
+        final Type type = ((CstType)cst).getClassType();
+              ^
+  symbol:   class Type
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:43: error: cannot find symbol
+        final Type type = ((CstType)cst).getClassType();
+                            ^
+  symbol:   class CstType
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:44: error: cannot find symbol
+        final IndexedItem result = this.classDefs.get(type);
+              ^
+  symbol:   class IndexedItem
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:52: error: cannot find symbol
+        this.throwIfNotPrepared();
+            ^
+  symbol: method throwIfNotPrepared()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:54: error: cannot find symbol
+        final int offset = (sz == 0) ? 0 : this.getFileOffset();
+                                               ^
+  symbol: method getFileOffset()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:64: error: cannot find symbol
+        Type type;
+        ^
+  symbol:   class Type
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:71: error: cannot find symbol
+        this.throwIfPrepared();
+            ^
+  symbol: method throwIfPrepared()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:78: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:82: error: cannot find symbol
+        this.orderedDefs = new ArrayList<ClassDefItem>(sz);
+                                         ^
+  symbol:   class ClassDefItem
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:83: error: cannot find symbol
+        for (final Type type : this.classDefs.keySet()) {
+                   ^
+  symbol:   class Type
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:89: error: cannot find symbol
+        final ClassDefItem c = this.classDefs.get(type);
+              ^
+  symbol:   class ClassDefItem
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:97: error: cannot find symbol
+        final CstType superclassCst = c.getSuperclass();
+              ^
+  symbol:   class CstType
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:99: error: cannot find symbol
+            final Type superclass = superclassCst.getClassType();
+                  ^
+  symbol:   class Type
+  location: class ClassDefsSection
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/dex/file/ClassDefsSection.java:102: error: cannot find symbol
+        final TypeList interfaces = c.getInterfaces();
+              ^
+  symbol:   class TypeList
+  location: class ClassDefsSection
+33 errors

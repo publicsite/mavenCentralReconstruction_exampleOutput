@@ -1,0 +1,91 @@
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:7: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.CollectionUtils;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:8: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.FunctionUtils;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:12: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:28: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.StringUtils;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:65: error: cannot find symbol
+            if (StringUtils.isNotBlank(className)) {
+                ^
+  symbol:   variable StringUtils
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:97: error: cannot find symbol
+        return parent2.map(obj::cast).map(parent -> parent.tryToExcludeFromRunner(description)).orElse(false);
+                                                          ^
+  symbol:   method tryToExcludeFromRunner(Description)
+  location: variable parent of type Object
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:97: error: incompatible types: Object cannot be converted to boolean
+        return parent2.map(obj::cast).map(parent -> parent.tryToExcludeFromRunner(description)).orElse(false);
+                                                                                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:107: error: cannot find symbol
+            stream.map(obj::cast).forEach(childDescriptor -> childDescriptor.pruneDescriptorsForObsoleteDescriptions(newChildren));
+                                                                            ^
+  symbol:   method pruneDescriptorsForObsoleteDescriptions(List<Description>)
+  location: variable childDescriptor of type Object
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:117: error: incompatible types: invalid method reference
+        map.ifPresent(tags::addAll);
+                      ^
+    incompatible types: Object cannot be converted to Collection<? extends TestTag>
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:123: error: incompatible types: invalid method reference
+            final Stream<Object> map = Arrays.stream(annotation.value()).map((Function<? super Class, ?>)ReflectionUtils::getAllAssignmentCompatibleClasses).flatMap((Function<? super Object, ? extends Stream<?>>)Collection::stream).distinct().map((Function<? super Object, ?>)Class::getName).map((Function<? super Object, ?>)TestTag::create);
+                                                                                                                                                                                                                                                                                                                                     ^
+    incompatible types: Object cannot be converted to String
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:123: error: incompatible types: invalid method reference
+            final Stream<Object> map = Arrays.stream(annotation.value()).map((Function<? super Class, ?>)ReflectionUtils::getAllAssignmentCompatibleClasses).flatMap((Function<? super Object, ? extends Stream<?>>)Collection::stream).distinct().map((Function<? super Object, ?>)Class::getName).map((Function<? super Object, ?>)TestTag::create);
+                                                                                                                                                                                                                                                                                    ^
+    method getName in class Class<T> cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Class
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:123: error: incompatible types: invalid method reference
+            final Stream<Object> map = Arrays.stream(annotation.value()).map((Function<? super Class, ?>)ReflectionUtils::getAllAssignmentCompatibleClasses).flatMap((Function<? super Object, ? extends Stream<?>>)Collection::stream).distinct().map((Function<? super Object, ?>)Class::getName).map((Function<? super Object, ?>)TestTag::create);
+                                                                                                                                                                                                                    ^
+    method stream in interface Collection<E> cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+  where E is a type-variable:
+    E extends Object declared in interface Collection
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:123: error: cannot find symbol
+            final Stream<Object> map = Arrays.stream(annotation.value()).map((Function<? super Class, ?>)ReflectionUtils::getAllAssignmentCompatibleClasses).flatMap((Function<? super Object, ? extends Stream<?>>)Collection::stream).distinct().map((Function<? super Object, ?>)Class::getName).map((Function<? super Object, ?>)TestTag::create);
+                                                                                                         ^
+  symbol:   variable ReflectionUtils
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:125: error: incompatible types: invalid method reference
+            map.forEachOrdered(tags::add);
+                               ^
+    incompatible types: Object cannot be converted to TestTag
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:148: error: cannot find symbol
+        final List<Method> methods = (List<Method>)ReflectionUtils.findMethods((Class)testClass, FunctionUtils.where((Function)Method::getName, (Predicate)Predicate.isEqual(methodName)));
+                                                   ^
+  symbol:   variable ReflectionUtils
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:148: error: incompatible types: invalid method reference
+        final List<Method> methods = (List<Method>)ReflectionUtils.findMethods((Class)testClass, FunctionUtils.where((Function)Method::getName, (Predicate)Predicate.isEqual(methodName)));
+                                                                                                                               ^
+    method getName in class Method cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:148: error: cannot find symbol
+        final List<Method> methods = (List<Method>)ReflectionUtils.findMethods((Class)testClass, FunctionUtils.where((Function)Method::getName, (Predicate)Predicate.isEqual(methodName)));
+                                                                                                 ^
+  symbol:   variable FunctionUtils
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:149: error: cannot find symbol
+        return (methods.size() == 1) ? MethodSource.from((Class)testClass, (Method)CollectionUtils.getOnlyElement((Collection)methods)) : null;
+                                                                                   ^
+  symbol:   variable CollectionUtils
+  location: class VintageTestDescriptor
+Note: sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/Decompiled/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+18 errors

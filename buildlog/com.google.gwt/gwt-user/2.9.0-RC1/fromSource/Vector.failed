@@ -1,0 +1,30 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Vector.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Vector.java:160: error: method indexOf in class ArrayList<E> cannot be applied to given types;
+    return arrayList.indexOf(elem, index);
+                    ^
+  required: Object
+  found: Object,int
+  reason: actual and formal argument lists differ in length
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Vector.java:189: error: method lastIndexOf in class ArrayList<E> cannot be applied to given types;
+    return arrayList.lastIndexOf(o, index);
+                    ^
+  required: Object
+  found: Object,int
+  reason: actual and formal argument lists differ in length
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Vector.java:237: error: cannot find symbol
+    arrayList.setSize(size);
+             ^
+  symbol:   method setSize(int)
+  location: variable arrayList of type ArrayList<E>
+  where E is a type-variable:
+    E extends Object declared in class Vector
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Vector.java:277: error: removeRange(int,int) has protected access in ArrayList
+    arrayList.removeRange(fromIndex, endIndex);
+             ^
+5 errors

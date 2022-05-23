@@ -1,0 +1,24 @@
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/mbeans/Version.java:10: error: package org.apache.derby.shared.common.security does not exist
+import org.apache.derby.shared.common.security.SystemPermission;
+                                              ^
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/mbeans/Version.java:11: error: cannot find symbol
+import org.apache.derby.shared.common.info.ProductVersionHolder;
+                                          ^
+  symbol:   class ProductVersionHolder
+  location: package org.apache.derby.shared.common.info
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/mbeans/Version.java:15: error: cannot find symbol
+    private final ProductVersionHolder versionInfo;
+                  ^
+  symbol:   class ProductVersionHolder
+  location: class Version
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/mbeans/Version.java:18: error: cannot find symbol
+    public Version(final ProductVersionHolder versionInfo, final String permissionName) {
+                         ^
+  symbol:   class ProductVersionHolder
+  location: class Version
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/mbeans/Version.java:26: error: cannot find symbol
+                AccessController.checkPermission((Permission)new SystemPermission(this.permissionName, "monitor"));
+                                                                 ^
+  symbol:   class SystemPermission
+  location: class Version
+5 errors

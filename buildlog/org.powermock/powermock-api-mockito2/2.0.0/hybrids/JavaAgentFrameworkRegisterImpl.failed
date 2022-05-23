@@ -1,0 +1,45 @@
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:4: error: package org.powermock.core.agent does not exist
+import org.powermock.core.agent.JavaAgentClassRegister;
+                               ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:5: error: package org.powermock.core.agent does not exist
+import org.powermock.core.agent.JavaAgentFrameworkRegister;
+                               ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:6: error: package org.powermock.reflect does not exist
+import org.powermock.reflect.Whitebox;
+                            ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:11: error: cannot find symbol
+public class JavaAgentFrameworkRegisterImpl implements JavaAgentFrameworkRegister {
+                                                       ^
+  symbol: class JavaAgentFrameworkRegister
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:18: error: cannot find symbol
+    public void set(JavaAgentClassRegister javaAgentClassRegister) {
+                    ^
+  symbol:   class JavaAgentClassRegister
+  location: class JavaAgentFrameworkRegisterImpl
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:22: error: cannot find symbol
+    private void setToPowerMockito(JavaAgentClassRegister javaAgentClassRegister) {
+                                   ^
+  symbol:   class JavaAgentClassRegister
+  location: class JavaAgentFrameworkRegisterImpl
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:17: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:25: error: cannot find symbol
+        Whitebox.setInternalState(mockCreator, "agentClassRegister", javaAgentClassRegister);
+        ^
+  symbol:   variable Whitebox
+  location: class JavaAgentFrameworkRegisterImpl
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:32: error: cannot find symbol
+            return Whitebox.getInternalState(classLoader.loadClass(MOCK_CREATOR_IMPLEMENTATION_CLASS), "MOCK_CREATOR");
+                   ^
+  symbol:   variable Whitebox
+  location: class JavaAgentFrameworkRegisterImpl
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:38: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/org.powermock/powermock-api-mockito2/2.0.0/JavaAgentFrameworkRegisterImpl.java:43: error: cannot find symbol
+        Whitebox.setInternalState(mockCreator, "agentClassRegister", (Object) null);
+        ^
+  symbol:   variable Whitebox
+  location: class JavaAgentFrameworkRegisterImpl
+11 errors

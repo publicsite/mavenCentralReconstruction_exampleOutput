@@ -1,0 +1,119 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:9: error: cannot find symbol
+import org.codehaus.groovy.runtime.DefaultGroovyStaticMethods;
+                                  ^
+  symbol:   class DefaultGroovyStaticMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:19: error: cannot find symbol
+    private final LoggingHelper log;
+                  ^
+  symbol:   class LoggingHelper
+  location: class UberCompileTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:161: error: cannot find symbol
+    private class GenStubsAdapter extends GenerateStubsTask
+                                          ^
+  symbol:   class GenerateStubsTask
+  location: class UberCompileTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:183: error: cannot find symbol
+    private class GroovycAdapter extends GroovycTask
+                                         ^
+  symbol:   class GroovycTask
+  location: class UberCompileTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:28: error: cannot find symbol
+        this.log = new LoggingHelper(this);
+                       ^
+  symbol:   class LoggingHelper
+  location: class UberCompileTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:85: error: cannot find symbol
+            (this.genStubsTask = new GenStubsAdapter()).setProject(this.getProject());
+                                                       ^
+  symbol:   method setProject(Project)
+  location: class UberCompileTask.GenStubsAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:92: error: cannot find symbol
+            (this.groovycTask = new GroovycAdapter()).setProject(this.getProject());
+                                                     ^
+  symbol:   method setProject(Project)
+  location: class UberCompileTask.GroovycAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:119: error: cannot find symbol
+        genstubs.classpath = this.classpath;
+                ^
+  symbol:   variable classpath
+  location: variable genstubs of type UberCompileTask.GenStubsAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:120: error: cannot find symbol
+        genstubs.src = this.src;
+                ^
+  symbol:   variable src
+  location: variable genstubs of type UberCompileTask.GenStubsAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:121: error: cannot find symbol
+        if (genstubs.destdir == null) {
+                    ^
+  symbol:   variable destdir
+  location: variable genstubs of type UberCompileTask.GenStubsAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:122: error: cannot find symbol
+            genstubs.destdir = this.createTempDir();
+                    ^
+  symbol:   variable destdir
+  location: variable genstubs of type UberCompileTask.GenStubsAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:126: error: cannot find symbol
+            genstubs.createInclude().setName("**/*.java");
+                    ^
+  symbol:   method createInclude()
+  location: variable genstubs of type UberCompileTask.GenStubsAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:127: error: cannot find symbol
+            genstubs.createInclude().setName("**/*.groovy");
+                    ^
+  symbol:   method createInclude()
+  location: variable genstubs of type UberCompileTask.GenStubsAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:137: error: cannot find symbol
+        javac.createSrc().createPathElement().setLocation(genstubs.destdir);
+                                                                  ^
+  symbol:   variable destdir
+  location: variable genstubs of type UberCompileTask.GenStubsAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:139: error: cannot find symbol
+        groovyc.classpath = this.classpath;
+               ^
+  symbol:   variable classpath
+  location: variable groovyc of type UberCompileTask.GroovycAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:140: error: cannot find symbol
+        groovyc.src = this.src;
+               ^
+  symbol:   variable src
+  location: variable groovyc of type UberCompileTask.GroovycAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:141: error: cannot find symbol
+        groovyc.destdir = this.destdir;
+               ^
+  symbol:   variable destdir
+  location: variable groovyc of type UberCompileTask.GroovycAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:142: error: cannot find symbol
+        groovyc.force = true;
+               ^
+  symbol:   variable force
+  location: variable groovyc of type UberCompileTask.GroovycAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:145: error: cannot find symbol
+            groovyc.createInclude().setName("**/*.groovy");
+                   ^
+  symbol:   method createInclude()
+  location: variable groovyc of type UberCompileTask.GroovycAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:147: error: cannot find symbol
+        genstubs.execute();
+                ^
+  symbol:   method execute()
+  location: variable genstubs of type UberCompileTask.GenStubsAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:149: error: cannot find symbol
+        groovyc.execute();
+               ^
+  symbol:   method execute()
+  location: variable groovyc of type UberCompileTask.GroovycAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:154: error: cannot find symbol
+            return DefaultGroovyStaticMethods.createTempDir(null, "groovy-", "stubs");
+                   ^
+  symbol:   variable DefaultGroovyStaticMethods
+  location: class UberCompileTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:164: error: cannot find symbol
+            return super.getImplicitFileSet();
+                        ^
+  symbol: method getImplicitFileSet()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/UberCompileTask.java:186: error: cannot find symbol
+            return super.getImplicitFileSet();
+                        ^
+  symbol: method getImplicitFileSet()
+24 errors

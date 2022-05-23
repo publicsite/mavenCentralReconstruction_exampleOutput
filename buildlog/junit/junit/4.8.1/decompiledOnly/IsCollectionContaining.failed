@@ -1,0 +1,208 @@
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:8: error: package org.hamcrest.core does not exist
+import org.hamcrest.core.AllOf;
+                        ^
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:10: error: package org.hamcrest.core does not exist
+import org.hamcrest.core.IsEqual;
+                        ^
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:12: error: cannot find symbol
+import org.hamcrest.SelfDescribing;
+                   ^
+  symbol:   class SelfDescribing
+  location: package org.hamcrest
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:13: error: cannot find symbol
+import org.hamcrest.Description;
+                   ^
+  symbol:   class Description
+  location: package org.hamcrest
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:15: error: cannot find symbol
+import org.hamcrest.Matcher;
+                   ^
+  symbol:   class Matcher
+  location: package org.hamcrest
+sources/structure/junit/junit/4.8.1/extractedSources/org/junit/internal/matchers/TypeSafeMatcher.java:5: error: cannot find symbol
+import org.hamcrest.BaseMatcher;
+                   ^
+  symbol:   class BaseMatcher
+  location: package org.hamcrest
+sources/structure/junit/junit/4.8.1/extractedSources/org/junit/internal/matchers/TypeSafeMatcher.java:13: error: cannot find symbol
+public abstract class TypeSafeMatcher<T> extends BaseMatcher<T> {
+                                                 ^
+  symbol: class BaseMatcher
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:19: error: cannot find symbol
+    private final Matcher<? extends T> elementMatcher;
+                  ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:21: error: cannot find symbol
+    public IsCollectionContaining(final Matcher<? extends T> elementMatcher) {
+                                        ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:35: error: cannot find symbol
+    public void describeTo(final Description description) {
+                                 ^
+  symbol:   class Description
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:40: error: cannot find symbol
+    public static <T> Matcher<Iterable<T>> hasItem(final Matcher<? extends T> elementMatcher) {
+                                                         ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:40: error: cannot find symbol
+    public static <T> Matcher<Iterable<T>> hasItem(final Matcher<? extends T> elementMatcher) {
+                      ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:45: error: cannot find symbol
+    public static <T> Matcher<Iterable<T>> hasItem(final T element) {
+                      ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:50: error: cannot find symbol
+    public static <T> Matcher<Iterable<T>> hasItems(final Matcher<? extends T>... elementMatchers) {
+                                                          ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:50: error: cannot find symbol
+    public static <T> Matcher<Iterable<T>> hasItems(final Matcher<? extends T>... elementMatchers) {
+                      ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:59: error: cannot find symbol
+    public static <T> Matcher<Iterable<T>> hasItems(final T... elements) {
+                      ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/extractedSources/org/junit/internal/matchers/TypeSafeMatcher.java:24: error: cannot find symbol
+        expectedType = findExpectedType(getClass());
+                                        ^
+  symbol:   method getClass()
+  location: class TypeSafeMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class TypeSafeMatcher
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:41: error: cannot find symbol
+        return (Matcher<Iterable<T>>)new IsCollectionContaining(elementMatcher);
+                ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:46: error: cannot find symbol
+        return hasItem((Matcher<? extends T>)IsEqual.equalTo((T)element));
+                        ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:46: error: cannot find symbol
+        return hasItem((Matcher<? extends T>)IsEqual.equalTo((T)element));
+                                             ^
+  symbol:   variable IsEqual
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:51: error: cannot find symbol
+        final Collection<Matcher<? extends Iterable<T>>> all = new ArrayList<Matcher<? extends Iterable<T>>>(elementMatchers.length);
+                         ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:51: error: cannot find symbol
+        final Collection<Matcher<? extends Iterable<T>>> all = new ArrayList<Matcher<? extends Iterable<T>>>(elementMatchers.length);
+                                                                             ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:52: error: cannot find symbol
+        for (final Matcher<? extends T> elementMatcher : elementMatchers) {
+                   ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:53: error: cannot find symbol
+            all.add((Matcher<? extends Iterable<T>>)hasItem((Matcher<?>)elementMatcher));
+                     ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:53: error: cannot find symbol
+            all.add((Matcher<? extends Iterable<T>>)hasItem((Matcher<?>)elementMatcher));
+                                                             ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:55: error: cannot find symbol
+        return AllOf.allOf((Iterable<Matcher<? extends Iterable<T>>>)all);
+                                     ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:55: error: cannot find symbol
+        return AllOf.allOf((Iterable<Matcher<? extends Iterable<T>>>)all);
+               ^
+  symbol:   variable AllOf
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:60: error: cannot find symbol
+        final Collection<Matcher<? extends Iterable<T>>> all = new ArrayList<Matcher<? extends Iterable<T>>>(elements.length);
+                         ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:60: error: cannot find symbol
+        final Collection<Matcher<? extends Iterable<T>>> all = new ArrayList<Matcher<? extends Iterable<T>>>(elements.length);
+                                                                             ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:62: error: reference to hasItem is ambiguous
+            all.add(hasItem(element));
+                    ^
+  both method <T#1>hasItem(<any>) in IsCollectionContaining and method <T#2>hasItem(T#2) in IsCollectionContaining match
+  where T#1,T#2 are type-variables:
+    T#1 extends Object declared in method <T#1>hasItem(<any>)
+    T#2 extends Object declared in method <T#2>hasItem(T#2)
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:64: error: cannot find symbol
+        return AllOf.allOf((Iterable<Matcher<? extends Iterable<T>>>)all);
+                                     ^
+  symbol:   class Matcher
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java:64: error: cannot find symbol
+        return AllOf.allOf((Iterable<Matcher<? extends Iterable<T>>>)all);
+               ^
+  symbol:   variable AllOf
+  location: class IsCollectionContaining<T>
+  where T is a type-variable:
+    T extends Object declared in class IsCollectionContaining
+Note: sources/structure/junit/junit/4.8.1/Decompiled/org/junit/internal/matchers/IsCollectionContaining.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+32 errors

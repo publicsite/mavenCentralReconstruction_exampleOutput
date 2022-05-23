@@ -1,0 +1,30 @@
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/VisibilityPredicate.java:9: error: cannot find symbol
+import org.assertj.core.internal.cglib.asm.Type;
+                                          ^
+  symbol:   class Type
+  location: package org.assertj.core.internal.cglib.asm
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/VisibilityPredicate.java:18: error: cannot find symbol
+        this.pkg = TypeUtils.getPackageName(Type.getType(source));
+                   ^
+  symbol:   variable TypeUtils
+  location: class VisibilityPredicate
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/VisibilityPredicate.java:18: error: cannot find symbol
+        this.pkg = TypeUtils.getPackageName(Type.getType(source));
+                                            ^
+  symbol:   variable Type
+  location: class VisibilityPredicate
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/VisibilityPredicate.java:22: error: incompatible types: bad type in conditional expression
+        final int mod = (arg instanceof Member) ? ((Member)arg).getModifiers() : arg;
+                                                                                 ^
+    Object cannot be converted to int
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/VisibilityPredicate.java:32: error: cannot find symbol
+        return this.pkg.equals(TypeUtils.getPackageName(Type.getType(((Member)arg).getDeclaringClass())));
+                               ^
+  symbol:   variable TypeUtils
+  location: class VisibilityPredicate
+sources/structure/org.assertj/assertj-core/2.0.0/Decompiled/org/assertj/core/internal/cglib/core/VisibilityPredicate.java:32: error: cannot find symbol
+        return this.pkg.equals(TypeUtils.getPackageName(Type.getType(((Member)arg).getDeclaringClass())));
+                                                        ^
+  symbol:   variable Type
+  location: class VisibilityPredicate
+6 errors

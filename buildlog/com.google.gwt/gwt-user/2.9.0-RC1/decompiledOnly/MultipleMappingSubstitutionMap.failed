@@ -1,0 +1,27 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/MultipleMappingSubstitutionMap.java:7: error: package com.google.gwt.thirdparty.guava.common.collect does not exist
+import com.google.gwt.thirdparty.guava.common.collect.ImmutableMap;
+                                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/MultipleMappingSubstitutionMap.java:8: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Preconditions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/MultipleMappingSubstitutionMap.java:21: error: cannot find symbol
+            Preconditions.checkNotNull((Object)value);
+            ^
+  symbol:   variable Preconditions
+  location: class ValueWithMappings
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/MultipleMappingSubstitutionMap.java:22: error: cannot find symbol
+            Preconditions.checkNotNull((Object)mappings);
+            ^
+  symbol:   variable Preconditions
+  location: class ValueWithMappings
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/MultipleMappingSubstitutionMap.java:24: error: cannot find symbol
+            this.mappings = (Map<String, String>)ImmutableMap.copyOf((Map)mappings);
+                                                 ^
+  symbol:   variable ImmutableMap
+  location: class ValueWithMappings
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/MultipleMappingSubstitutionMap.java:32: error: cannot find symbol
+            return new ValueWithMappings(value, (Map<String, String>)ImmutableMap.of((Object)key, (Object)value));
+                                                                     ^
+  symbol:   variable ImmutableMap
+  location: class ValueWithMappings
+6 errors

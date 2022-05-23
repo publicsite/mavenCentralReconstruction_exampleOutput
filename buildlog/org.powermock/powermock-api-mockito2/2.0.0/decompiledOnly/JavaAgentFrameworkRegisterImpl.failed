@@ -1,0 +1,39 @@
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/extension/agent/JavaAgentFrameworkRegisterImpl.java:7: error: package org.powermock.reflect does not exist
+import org.powermock.reflect.Whitebox;
+                            ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/extension/agent/JavaAgentFrameworkRegisterImpl.java:8: error: package org.powermock.core.agent does not exist
+import org.powermock.core.agent.JavaAgentClassRegister;
+                               ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/extension/agent/JavaAgentFrameworkRegisterImpl.java:10: error: package org.powermock.core.agent does not exist
+import org.powermock.core.agent.JavaAgentFrameworkRegister;
+                               ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/extension/agent/JavaAgentFrameworkRegisterImpl.java:12: error: cannot find symbol
+public class JavaAgentFrameworkRegisterImpl implements JavaAgentFrameworkRegister
+                                                       ^
+  symbol: class JavaAgentFrameworkRegister
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/extension/agent/JavaAgentFrameworkRegisterImpl.java:17: error: cannot find symbol
+    public void set(final JavaAgentClassRegister javaAgentClassRegister) {
+                          ^
+  symbol:   class JavaAgentClassRegister
+  location: class JavaAgentFrameworkRegisterImpl
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/extension/agent/JavaAgentFrameworkRegisterImpl.java:21: error: cannot find symbol
+    private void setToPowerMockito(final JavaAgentClassRegister javaAgentClassRegister) {
+                                         ^
+  symbol:   class JavaAgentClassRegister
+  location: class JavaAgentFrameworkRegisterImpl
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/extension/agent/JavaAgentFrameworkRegisterImpl.java:22: error: cannot find symbol
+        Whitebox.setInternalState((Object)(this.mockCreator = this.getPowerMockCoreForCurrentClassLoader()), "agentClassRegister", (Object)javaAgentClassRegister);
+        ^
+  symbol:   variable Whitebox
+  location: class JavaAgentFrameworkRegisterImpl
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/extension/agent/JavaAgentFrameworkRegisterImpl.java:28: error: cannot find symbol
+            return (MockCreator)Whitebox.getInternalState((Object)classLoader.loadClass("org.powermock.api.mockito.internal.mockcreation.DefaultMockCreator"), "MOCK_CREATOR");
+                                ^
+  symbol:   variable Whitebox
+  location: class JavaAgentFrameworkRegisterImpl
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/extension/agent/JavaAgentFrameworkRegisterImpl.java:39: error: cannot find symbol
+        Whitebox.setInternalState((Object)this.mockCreator, "agentClassRegister", (Object)null);
+        ^
+  symbol:   variable Whitebox
+  location: class JavaAgentFrameworkRegisterImpl
+9 errors

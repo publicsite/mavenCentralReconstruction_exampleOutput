@@ -1,0 +1,32 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MissingPropertyException.java:7: error: cannot find symbol
+import org.codehaus.groovy.runtime.MethodRankHelper;
+                                  ^
+  symbol:   class MethodRankHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MissingPropertyException.java:9: error: cannot find symbol
+public class MissingPropertyException extends GroovyRuntimeException
+                                              ^
+  symbol: class GroovyRuntimeException
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MissingPropertyException.java:38: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MissingPropertyException.java:40: error: cannot find symbol
+        final Throwable cause = this.getCause();
+                                    ^
+  symbol: method getCause()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MissingPropertyException.java:44: error: cannot find symbol
+        if (super.getMessageWithoutLocationText() != null) {
+            ^
+  symbol:   variable super
+  location: class MissingPropertyException
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MissingPropertyException.java:45: error: cannot find symbol
+            return super.getMessageWithoutLocationText();
+                   ^
+  symbol:   variable super
+  location: class MissingPropertyException
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/MissingPropertyException.java:47: error: cannot find symbol
+        return "No such property: " + this.property + " for class: " + this.type.getName() + MethodRankHelper.getPropertySuggestionString(this.property, this.type);
+                                                                                             ^
+  symbol:   variable MethodRankHelper
+  location: class MissingPropertyException
+7 errors

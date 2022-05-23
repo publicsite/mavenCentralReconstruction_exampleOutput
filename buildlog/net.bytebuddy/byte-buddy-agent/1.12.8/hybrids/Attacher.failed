@@ -1,0 +1,30 @@
+hybrids/net.bytebuddy/byte-buddy-agent/1.12.8/Attacher.java:18: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.12.8/extractedSources/net/bytebuddy/agent/utility/nullability/MaybeNull.java:18: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.12.8/extractedSources/net/bytebuddy/agent/utility/nullability/MaybeNull.java:19: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierNickname;
+                            ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.12.8/extractedSources/net/bytebuddy/agent/utility/nullability/MaybeNull.java:20: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.When;
+                            ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.12.8/extractedSources/net/bytebuddy/agent/utility/nullability/MaybeNull.java:29: error: cannot find symbol
+@Nonnull(when = When.MAYBE)
+ ^
+  symbol: class Nonnull
+sources/structure/net.bytebuddy/byte-buddy-agent/1.12.8/extractedSources/net/bytebuddy/agent/utility/nullability/MaybeNull.java:30: error: cannot find symbol
+@TypeQualifierNickname
+ ^
+  symbol: class TypeQualifierNickname
+hybrids/net.bytebuddy/byte-buddy-agent/1.12.8/Attacher.java:64: error: cannot find symbol
+    @SuppressFBWarnings(value = "REC_CATCH_EXCEPTION", justification = "Exception should not be rethrown but trigger a fallback.")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class Attacher
+sources/structure/net.bytebuddy/byte-buddy-agent/1.12.8/extractedSources/net/bytebuddy/agent/utility/nullability/MaybeNull.java:29: error: cannot find symbol
+@Nonnull(when = When.MAYBE)
+                ^
+  symbol: variable When
+8 errors

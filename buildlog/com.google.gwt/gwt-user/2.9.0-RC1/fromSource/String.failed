@@ -1,0 +1,67 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:17: error: package exists in another module: java.base
+package java.lang;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:226: error: cannot find symbol
+      char hiSurrogate = Character.getHighSurrogate(codePoint);
+                                  ^
+  symbol:   method getHighSurrogate(int)
+  location: class Character
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:227: error: cannot find symbol
+      char loSurrogate = Character.getLowSurrogate(codePoint);
+                                  ^
+  symbol:   method getLowSurrogate(int)
+  location: class Character
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:365: error: incompatible types: String cannot be converted to char[]
+    return Character.codePointAt(this, index, length());
+                                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:369: error: incompatible types: String cannot be converted to char[]
+    return Character.codePointBefore(this, index, 0);
+                                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:441: error: incompatible types: java.lang.String cannot be converted to java.lang.String
+    return ((EmulatedCharset) charset).getBytes(this);
+                                                ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:458: error: incompatible types: java.lang.String cannot be converted to java.lang.String
+    return HashCodes.getStringHashCode(this);
+                                       ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:478: error: incompatible types: inference variable T has incompatible bounds
+    return checkNotNull(this);
+                       ^
+    lower bounds: java.lang.String,Object
+    lower bounds: java.lang.String
+  where T is a type-variable:
+    T extends Object declared in method <T>checkNotNull(T)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:516: error: incompatible types: java.lang.String cannot be converted to java.lang.String
+    return new NativeRegExp("^(" + regex + ")$").test(this);
+                                                      ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:537: error: cannot find symbol
+    String right = other.asNativeString().substr(ooffset, len);
+                        ^
+  symbol:   method asNativeString()
+  location: variable other of type String
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:628: error: incompatible types: java.lang.String cannot be converted to java.lang.String
+    String trail = this;
+                   ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:739: error: incompatible types: inference variable T has incompatible bounds
+    return checkNotNull(this);
+                       ^
+    lower bounds: java.lang.String,Object
+    lower bounds: java.lang.String
+  where T is a type-variable:
+    T extends Object declared in method <T>checkNotNull(T)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:752: error: incompatible types: bad type in conditional expression
+    return start > 0 || end < length ? substring(start, end) : this;
+                                                               ^
+    java.lang.String cannot be converted to java.lang.String
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/String.java:789: error: cannot find symbol
+    return $create(bytes, ofs, len, String.getCharset(charsetName));
+                                          ^
+  symbol:   method getCharset(String)
+  location: class String
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/javaemul/internal/EmulatedCharset.java:31: error: LatinCharset is not abstract and does not override abstract method newEncoder() in Charset
+  private static class LatinCharset extends EmulatedCharset {
+                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/javaemul/internal/EmulatedCharset.java:56: error: UtfCharset is not abstract and does not override abstract method newEncoder() in Charset
+  private static class UtfCharset extends EmulatedCharset {
+                 ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+16 errors

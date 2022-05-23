@@ -1,0 +1,41 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ClassLoaderHierarchyMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ClassLoaderHierarchyMatcher.java:10: error: package ElementMatcher.Junction does not exist
+public class ClassLoaderHierarchyMatcher<T extends ClassLoader> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                               ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ClassLoaderHierarchyMatcher.java:9: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ClassLoaderHierarchyMatcher.java:12: error: cannot find symbol
+    private final ElementMatcher<? super ClassLoader> matcher;
+                  ^
+  symbol:   class ElementMatcher
+  location: class ClassLoaderHierarchyMatcher<T>
+  where T is a type-variable:
+    T extends ClassLoader declared in class ClassLoaderHierarchyMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ClassLoaderHierarchyMatcher.java:14: error: cannot find symbol
+    public ClassLoaderHierarchyMatcher(final ElementMatcher<? super ClassLoader> matcher) {
+                                             ^
+  symbol:   class ElementMatcher
+  location: class ClassLoaderHierarchyMatcher<T>
+  where T is a type-variable:
+    T extends ClassLoader declared in class ClassLoaderHierarchyMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ClassLoaderHierarchyMatcher.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ClassLoaderHierarchyMatcher.java:32: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ClassLoaderHierarchyMatcher.java:34: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.matcher.equals(((ClassLoaderHierarchyMatcher)o).matcher));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ClassLoaderHierarchyMatcher.java:37: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ClassLoaderHierarchyMatcher.java:39: error: cannot find symbol
+        return this.getClass().hashCode() * 31 + this.matcher.hashCode();
+                   ^
+  symbol: method getClass()
+10 errors

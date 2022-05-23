@@ -1,0 +1,19 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Comparator.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Comparator.java:42: error: package Comparators does not exist
+    return new Comparators.ReversedComparator<T>(this);
+                          ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Comparator.java:107: error: Comparators is not public in java.util; cannot be accessed from outside package
+    return Comparators.naturalOrder();
+           ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Comparator.java:111: error: package Comparators does not exist
+    return new Comparators.NullComparator<>(true, comparator);
+                          ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Comparator.java:115: error: package Comparators does not exist
+    return new Comparators.NullComparator<>(false, comparator);
+                          ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/Comparator.java:119: error: Comparators is not public in java.util; cannot be accessed from outside package
+    return Comparators.reverseNaturalOrder();
+           ^
+6 errors

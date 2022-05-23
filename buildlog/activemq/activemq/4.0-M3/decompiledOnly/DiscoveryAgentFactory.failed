@@ -1,0 +1,55 @@
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:7: error: cannot find symbol
+import sun.misc.Perf;
+               ^
+  symbol:   class Perf
+  location: package sun.misc
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:74: error: cannot find symbol
+        final Perf perf;
+              ^
+  symbol:   class Perf
+  location: class SunPerfProvider
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/ConcurrentHashMap.java:258: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry e : m.entrySet()) {
+                                           ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/ConcurrentHashMap.java:873: error: incompatible types: Object cannot be converted to Entry
+                c.add(new edu.emory.mathcs.backport.java.util.AbstractMap.SimpleEntry(i.next()));
+                                                                                            ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/ConcurrentHashMap.java:882: error: incompatible types: Object cannot be converted to Entry
+                c.add(new edu.emory.mathcs.backport.java.util.AbstractMap.SimpleEntry(i.next()));
+                                                                                            ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/util/IntrospectionSupport.java:28: error: incompatible types: Object cannot be converted to String
+            String name = iter.next();
+                                   ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/util/IntrospectionSupport.java:49: error: incompatible types: Object cannot be converted to String
+            String name = iter.next();
+                                   ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/util/IntrospectionSupport.java:69: error: incompatible types: Object cannot be converted to Entry
+            final Map.Entry entry = iter.next();
+                                             ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/util/IntrospectionSupport.java:70: error: incompatible types: Object cannot be converted to String
+            if (setProperty(target, entry.getKey(), entry.getValue())) {
+                                                ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/util/URISupport.java:166: error: incompatible types: Object cannot be converted to String
+                    final String key = iter.next();
+                                                ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/org/activemq/util/URISupport.java:167: error: incompatible types: Object cannot be converted to String
+                    final String value = options.get(key);
+                                                    ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:53: error: incompatible types: Object cannot be converted to NanoTimer
+                timer = cls.newInstance();
+                                       ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:79: error: cannot find symbol
+            this.perf = AccessController.doPrivileged((PrivilegedAction<Perf>)new PrivilegedAction() {
+                                                                        ^
+  symbol:   class Perf
+  location: class SunPerfProvider
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:81: error: cannot find symbol
+                    return Perf.getPerf();
+                           ^
+  symbol: variable Perf
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+14 errors

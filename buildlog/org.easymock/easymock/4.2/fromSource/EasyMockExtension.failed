@@ -1,0 +1,161 @@
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/EasyMockExtension.java:18: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/EasyMockExtension.java:19: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.TestInstancePostProcessor;
+                                      ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/EasyMockExtension.java:31: error: cannot find symbol
+public class EasyMockExtension implements TestInstancePostProcessor {
+                                          ^
+  symbol: class TestInstancePostProcessor
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/EasyMockExtension.java:34: error: cannot find symbol
+    public void postProcessTestInstance(Object testInstance, ExtensionContext context) throws Exception {
+                                                             ^
+  symbol:   class ExtensionContext
+  location: class EasyMockExtension
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/EasyMockExtension.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/EasyMockSupport.java:18: error: package net.sf.cglib.proxy does not exist
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/EasyMockSupport.java:19: error: package net.sf.cglib.proxy does not exist
+import net.sf.cglib.proxy.Factory;
+                         ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:18: error: package net.sf.cglib.core does not exist
+import net.sf.cglib.core.CodeGenerationException;
+                        ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:19: error: package net.sf.cglib.core does not exist
+import net.sf.cglib.core.CollectionUtils;
+                        ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:20: error: package net.sf.cglib.core does not exist
+import net.sf.cglib.core.DefaultNamingPolicy;
+                        ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:21: error: package net.sf.cglib.core does not exist
+import net.sf.cglib.core.NamingPolicy;
+                        ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:22: error: package net.sf.cglib.core does not exist
+import net.sf.cglib.core.Predicate;
+                        ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:23: error: package net.sf.cglib.core does not exist
+import net.sf.cglib.core.VisibilityPredicate;
+                        ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:24: error: package net.sf.cglib.proxy does not exist
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:25: error: package net.sf.cglib.proxy does not exist
+import net.sf.cglib.proxy.Factory;
+                         ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:26: error: package net.sf.cglib.proxy does not exist
+import net.sf.cglib.proxy.MethodInterceptor;
+                         ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:27: error: package net.sf.cglib.proxy does not exist
+import net.sf.cglib.proxy.MethodProxy;
+                         ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:145: error: cannot find symbol
+    private static final NamingPolicy ALLOWS_MOCKING_CLASSES_IN_SIGNED_PACKAGES = new DefaultNamingPolicy() {
+                         ^
+  symbol:   class NamingPolicy
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:231: error: cannot find symbol
+    private Enhancer createEnhancer(Class<?> toMock) {
+            ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:51: error: cannot find symbol
+    public static class MockMethodInterceptor implements MethodInterceptor, Serializable {
+                                                         ^
+  symbol:   class MethodInterceptor
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:63: error: cannot find symbol
+        public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy)
+                                                                          ^
+  symbol:   class MethodProxy
+  location: class MockMethodInterceptor
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/EasyMockSupport.java:647: error: cannot find symbol
+            if(!Enhancer.isEnhanced(possibleMock.getClass())) {
+                ^
+  symbol:   variable Enhancer
+  location: class ObjectMockingHelper
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/EasyMockSupport.java:650: error: cannot find symbol
+            if(!(possibleMock instanceof Factory)) {
+                                         ^
+  symbol:   class Factory
+  location: class ObjectMockingHelper
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/EasyMockSupport.java:653: error: cannot find symbol
+            return (((Factory) possibleMock).getCallback(0) instanceof ClassProxyFactory.MockMethodInterceptor);
+                      ^
+  symbol:   class Factory
+  location: class ObjectMockingHelper
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:145: error: cannot find symbol
+    private static final NamingPolicy ALLOWS_MOCKING_CLASSES_IN_SIGNED_PACKAGES = new DefaultNamingPolicy() {
+                                                                                      ^
+  symbol:   class DefaultNamingPolicy
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:148: error: cannot find symbol
+                Predicate names) {
+                ^
+  symbol: class Predicate
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:146: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:149: error: non-static variable super cannot be referenced from a static context
+            return "codegen." + super.getClassName(prefix, source, key, names);
+                                ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:165: error: cannot find symbol
+        Enhancer enhancer = createEnhancer(toMock);
+        ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:176: error: cannot find symbol
+        } catch (CodeGenerationException e) {
+                 ^
+  symbol:   class CodeGenerationException
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:188: error: cannot find symbol
+        Factory mock;
+        ^
+  symbol:   class Factory
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:205: error: cannot find symbol
+                mock = (Factory) cstr.newInstance(args.getInitArgs());
+                        ^
+  symbol:   class Factory
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:218: error: cannot find symbol
+                mock = (Factory) ClassInstantiatorFactory.getInstantiator().newInstance(mockClass);
+                        ^
+  symbol:   class Factory
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:233: error: cannot find symbol
+        Enhancer enhancer = new Enhancer() {
+        ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:233: error: cannot find symbol
+        Enhancer enhancer = new Enhancer() {
+                                ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:240: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:242: error: cannot find symbol
+                CollectionUtils.filter(constructors, new VisibilityPredicate(sc, true));
+                                                         ^
+  symbol: class VisibilityPredicate
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:242: error: cannot find symbol
+                CollectionUtils.filter(constructors, new VisibilityPredicate(sc, true));
+                ^
+  symbol: variable CollectionUtils
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:258: error: cannot find symbol
+        Factory factory = (Factory) mock;
+        ^
+  symbol:   class Factory
+  location: class ClassProxyFactory
+sources/structure/org.easymock/easymock/4.2/extractedSources/org/easymock/internal/ClassProxyFactory.java:258: error: cannot find symbol
+        Factory factory = (Factory) mock;
+                           ^
+  symbol:   class Factory
+  location: class ClassProxyFactory
+40 errors

@@ -1,0 +1,16 @@
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:8: error: package org.powermock.utils does not exist
+import org.powermock.utils.StringJoiner;
+                          ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:9: error: package org.powermock.core.reporter does not exist
+import org.powermock.core.reporter.PowerMockReporter;
+                                  ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:11: error: cannot find symbol
+public class MockitoPowerMockReporter implements PowerMockReporter
+                                                 ^
+  symbol: class PowerMockReporter
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/expectation/reporter/MockitoPowerMockReporter.java:14: error: cannot find symbol
+        throw new ClassNotPreparedException(StringJoiner.join(String.format("The class %s not prepared for test.", type.getName()), new Object[] { "To prepare this class, add class to the '@PrepareForTest' annotation.", "In case if you don't use this annotation, add the annotation on class or  method level. " }));
+                                            ^
+  symbol:   variable StringJoiner
+  location: class MockitoPowerMockReporter
+4 errors

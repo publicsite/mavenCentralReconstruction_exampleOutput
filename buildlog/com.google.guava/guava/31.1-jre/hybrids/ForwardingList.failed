@@ -1,0 +1,466 @@
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:21: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:26: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:27: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:21: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:24: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:25: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:56: error: cannot find symbol
+public abstract class ForwardingList<E extends @Nullable Object> extends ForwardingCollection<E>
+                                                ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:51: error: cannot find symbol
+public abstract class ForwardingCollection<E extends @Nullable Object> extends ForwardingObject
+                                                      ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:129: error: cannot find symbol
+  public <T extends @Nullable Object> T[] toArray(T[] array) {
+                     ^
+  symbol:   class Nullable
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:257: error: cannot find symbol
+  protected <T extends @Nullable Object> T[] standardToArray(T[] array) {
+                        ^
+  symbol:   class Nullable
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:19: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:20: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:28: error: package javax.annotation does not exist
+import javax.annotation.Nonnull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:29: error: package javax.annotation.meta does not exist
+import javax.annotation.meta.TypeQualifierDefault;
+                            ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:39: error: cannot find symbol
+@TypeQualifierDefault({FIELD, METHOD, PARAMETER})
+ ^
+  symbol: class TypeQualifierDefault
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/ElementTypesAreNonnullByDefault.java:40: error: cannot find symbol
+@Nonnull
+ ^
+  symbol: class Nonnull
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ParametricNullness.java:50: error: package javax.annotation.meta does not exist
+@javax.annotation.meta.TypeQualifierNickname
+                      ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ParametricNullness.java:51: error: package javax.annotation does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                 ^
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:71: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ForwardingList<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingList
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:84: error: cannot find symbol
+  public int indexOf(@CheckForNull Object element) {
+                      ^
+  symbol:   class CheckForNull
+  location: class ForwardingList<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingList
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:89: error: cannot find symbol
+  public int lastIndexOf(@CheckForNull Object element) {
+                          ^
+  symbol:   class CheckForNull
+  location: class ForwardingList<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingList
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:103: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ForwardingList<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingList
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:110: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ForwardingList<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingList
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:123: error: cannot find symbol
+  public boolean equals(@CheckForNull Object object) {
+                         ^
+  symbol:   class CheckForNull
+  location: class ForwardingList<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingList
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:162: error: cannot find symbol
+  protected int standardIndexOf(@CheckForNull Object element) {
+                                 ^
+  symbol:   class CheckForNull
+  location: class ForwardingList<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingList
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:173: error: cannot find symbol
+  protected int standardLastIndexOf(@CheckForNull Object element) {
+                                     ^
+  symbol:   class CheckForNull
+  location: class ForwardingList<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingList
+hybrids/com.google.guava/guava/31.1-jre/ForwardingList.java:231: error: cannot find symbol
+  protected boolean standardEquals(@CheckForNull Object object) {
+                                    ^
+  symbol:   class CheckForNull
+  location: class ForwardingList<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingList
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:71: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:83: error: cannot find symbol
+  public boolean contains(@CheckForNull Object object) {
+                           ^
+  symbol:   class CheckForNull
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:87: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:95: error: cannot find symbol
+  public boolean remove(@CheckForNull Object object) {
+                         ^
+  symbol:   class CheckForNull
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:93: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:104: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:110: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:122: error: cannot find symbol
+  public @Nullable Object[] toArray() {
+          ^
+  symbol:   class Nullable
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:126: error: cannot find symbol
+  @CanIgnoreReturnValue
+   ^
+  symbol:   class CanIgnoreReturnValue
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:140: error: cannot find symbol
+  protected boolean standardContains(@CheckForNull Object object) {
+                                      ^
+  symbol:   class CheckForNull
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:172: error: cannot find symbol
+  protected boolean standardRemove(@CheckForNull Object object) {
+                                    ^
+  symbol:   class CheckForNull
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ForwardingCollection.java:245: error: cannot find symbol
+  protected @Nullable Object[] standardToArray() {
+             ^
+  symbol:   class Nullable
+  location: class ForwardingCollection<E>
+  where E is a type-variable:
+    E extends Object declared in class ForwardingCollection
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:53: error: cannot find symbol
+  public static boolean equal(@CheckForNull Object a, @CheckForNull Object b) {
+                               ^
+  symbol:   class CheckForNull
+  location: class Objects
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:53: error: cannot find symbol
+  public static boolean equal(@CheckForNull Object a, @CheckForNull Object b) {
+                                                       ^
+  symbol:   class CheckForNull
+  location: class Objects
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:78: error: cannot find symbol
+  public static int hashCode(@CheckForNull @Nullable Object... objects) {
+                              ^
+  symbol:   class CheckForNull
+  location: class Objects
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Objects.java:78: error: cannot find symbol
+  public static int hashCode(@CheckForNull @Nullable Object... objects) {
+                                            ^
+  symbol:   class Nullable
+  location: class Objects
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/ParametricNullness.java:51: error: package javax.annotation.meta does not exist
+@javax.annotation.Nonnull(when = javax.annotation.meta.When.UNKNOWN)
+                                                      ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Strings.java:23: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.InlineMe;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Strings.java:24: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.InlineMeValidationDisabled;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Strings.java:26: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Strings.java:27: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Preconditions.java:20: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Preconditions.java:21: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Preconditions.java:22: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicates.java:28: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicates.java:29: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/CollectPreconditions.java:22: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/NullnessCasts.java:18: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/NullnessCasts.java:19: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:36: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:50: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:51: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:80: error: cannot find symbol
+  static <T extends @Nullable Object> UnmodifiableIterator<T> emptyIterator() {
+                     ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/UnmodifiableIterator.java:20: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.DoNotCall;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/UnmodifiableIterator.java:22: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/UnmodifiableIterator.java:36: error: cannot find symbol
+public abstract class UnmodifiableIterator<E extends @Nullable Object> implements Iterator<E> {
+                                                      ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:91: error: cannot find symbol
+  static <T extends @Nullable Object> UnmodifiableListIterator<T> emptyListIterator() {
+                     ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/UnmodifiableListIterator.java:20: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.DoNotCall;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/UnmodifiableListIterator.java:22: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/UnmodifiableListIterator.java:32: error: cannot find symbol
+public abstract class UnmodifiableListIterator<E extends @Nullable Object>
+                                                          ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:124: error: cannot find symbol
+  static <T extends @Nullable Object> Iterator<T> emptyModifiableIterator() {
+                     ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:129: error: cannot find symbol
+  public static <T extends @Nullable Object> UnmodifiableIterator<T> unmodifiableIterator(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:158: error: cannot find symbol
+  public static <T extends @Nullable Object> UnmodifiableIterator<T> unmodifiableIterator(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:225: error: cannot find symbol
+  public static <T extends @Nullable Object> boolean removeIf(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicate.java:18: error: package com.google.errorprone.annotations does not exist
+import com.google.errorprone.annotations.CanIgnoreReturnValue;
+                                        ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicate.java:19: error: package javax.annotation does not exist
+import javax.annotation.CheckForNull;
+                       ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicate.java:20: error: package org.checkerframework.checker.nullness.qual does not exist
+import org.checkerframework.checker.nullness.qual.Nullable;
+                                                 ^
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/base/Predicate.java:47: error: cannot find symbol
+public interface Predicate<T extends @Nullable Object> extends java.util.function.Predicate<T> {
+                                      ^
+  symbol: class Nullable
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:308: error: cannot find symbol
+  public static <T extends @Nullable Object> T getOnlyElement(Iterator<T> iterator) {
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:334: error: cannot find symbol
+  public static <T extends @Nullable Object> T getOnlyElement(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:349: error: cannot find symbol
+  public static <T> @Nullable T[] toArray(Iterator<? extends @Nullable T> iterator, Class<T> type) {
+                                                              ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:361: error: cannot find symbol
+  public static <T extends @Nullable Object> boolean addAll(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:400: error: cannot find symbol
+  public static <T extends @Nullable Object> Iterator<T> cycle(Iterable<T> iterable) {
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:451: error: cannot find symbol
+  public static <T extends @Nullable Object> Iterator<T> cycle(T... elements) {
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:499: error: cannot find symbol
+  public static <T extends @Nullable Object> Iterator<T> concat(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:514: error: cannot find symbol
+  public static <T extends @Nullable Object> Iterator<T> concat(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:531: error: cannot find symbol
+  public static <T extends @Nullable Object> Iterator<T> concat(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:553: error: cannot find symbol
+  public static <T extends @Nullable Object> Iterator<T> concat(Iterator<? extends T>... inputs) {
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:566: error: cannot find symbol
+  public static <T extends @Nullable Object> Iterator<T> concat(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:572: error: cannot find symbol
+  static <T extends @Nullable Object> Iterator<T> concatNoDefensiveCopy(
+                     ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:598: error: cannot find symbol
+  public static <T extends @Nullable Object> UnmodifiableIterator<List<T>> partition(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:617: error: cannot find symbol
+  public static <T extends @Nullable Object>
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:618: error: cannot find symbol
+      UnmodifiableIterator<List<@Nullable T>> paddedPartition(Iterator<T> iterator, int size) {
+                                 ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:622: error: cannot find symbol
+  private static <T extends @Nullable Object> UnmodifiableIterator<List<@Nullable T>> partitionImpl(
+                             ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:622: error: cannot find symbol
+  private static <T extends @Nullable Object> UnmodifiableIterator<List<@Nullable T>> partitionImpl(
+                                                                         ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:663: error: cannot find symbol
+  public static <T extends @Nullable Object> UnmodifiableIterator<T> filter(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:696: error: cannot find symbol
+  public static <T extends @Nullable Object> boolean any(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:705: error: cannot find symbol
+  public static <T extends @Nullable Object> boolean all(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+sources/structure/com.google.guava/guava/31.1-jre/extractedSources/com/google/common/collect/Iterators.java:727: error: cannot find symbol
+  public static <T extends @Nullable Object> T find(
+                            ^
+  symbol:   class Nullable
+  location: class Iterators
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors

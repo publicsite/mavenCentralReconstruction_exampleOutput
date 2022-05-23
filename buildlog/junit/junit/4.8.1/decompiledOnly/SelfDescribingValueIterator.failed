@@ -1,0 +1,24 @@
+sources/structure/junit/junit/4.8.1/Decompiled/org/hamcrest/internal/SelfDescribingValueIterator.java:7: error: cannot find symbol
+import org.hamcrest.SelfDescribing;
+                   ^
+  symbol:   class SelfDescribing
+  location: package org.hamcrest
+sources/structure/junit/junit/4.8.1/Decompiled/org/hamcrest/internal/SelfDescribingValueIterator.java:10: error: cannot find symbol
+public class SelfDescribingValueIterator<T> implements Iterator<SelfDescribing>
+                                                                ^
+  symbol: class SelfDescribing
+sources/structure/junit/junit/4.8.1/Decompiled/org/hamcrest/internal/SelfDescribingValueIterator.java:22: error: cannot find symbol
+    public SelfDescribing next() {
+           ^
+  symbol:   class SelfDescribing
+  location: class SelfDescribingValueIterator<T>
+  where T is a type-variable:
+    T extends Object declared in class SelfDescribingValueIterator
+sources/structure/junit/junit/4.8.1/Decompiled/org/hamcrest/internal/SelfDescribingValueIterator.java:23: error: cannot find symbol
+        return new SelfDescribingValue<Object>(this.values.next());
+                   ^
+  symbol:   class SelfDescribingValue
+  location: class SelfDescribingValueIterator<T>
+  where T is a type-variable:
+    T extends Object declared in class SelfDescribingValueIterator
+4 errors

@@ -1,0 +1,31 @@
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/MultipartDataSource.java:47: error: package javax.activation does not exist
+import javax.activation.DataSource;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/MultipartDataSource.java:66: error: cannot find symbol
+public interface MultipartDataSource extends DataSource {
+                                             ^
+  symbol: class DataSource
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Part.java:45: error: package javax.activation does not exist
+import javax.activation.DataHandler;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Multipart.java:47: error: package javax.activation does not exist
+import javax.activation.DataSource;
+                       ^
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Part.java:278: error: cannot find symbol
+    public DataHandler getDataHandler() throws MessagingException;
+           ^
+  symbol:   class DataHandler
+  location: interface Part
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Part.java:312: error: cannot find symbol
+    public void setDataHandler(DataHandler dh) throws MessagingException;
+                               ^
+  symbol:   class DataHandler
+  location: interface Part
+sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Multipart.java:109: error: cannot find symbol
+	contentType = mp.getContentType();
+	                ^
+  symbol:   method getContentType()
+  location: variable mp of type MultipartDataSource
+Note: sources/structure/javax.mail/mail/1.5.0-b01/extractedSources/javax/mail/Multipart.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+7 errors

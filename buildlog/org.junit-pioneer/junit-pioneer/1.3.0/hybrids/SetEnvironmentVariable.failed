@@ -1,0 +1,307 @@
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/SetEnvironmentVariable.java:19: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtendWith;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/WritesEnvironmentVariable.java:18: error: package org.junit.jupiter.api.parallel does not exist
+import org.junit.jupiter.api.parallel.ResourceAccessMode;
+                                     ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/WritesEnvironmentVariable.java:19: error: package org.junit.jupiter.api.parallel does not exist
+import org.junit.jupiter.api.parallel.ResourceLock;
+                                     ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/WritesEnvironmentVariable.java:36: error: cannot find symbol
+@ResourceLock(value = "java.lang.System.environment", mode = ResourceAccessMode.READ_WRITE)
+ ^
+  symbol: class ResourceLock
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/SetEnvironmentVariable.java:58: error: cannot find symbol
+@ExtendWith(EnvironmentVariableExtension.class)
+ ^
+  symbol: class ExtendWith
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/SetEnvironmentVariable.java:77: error: cannot find symbol
+	@ExtendWith(EnvironmentVariableExtension.class)
+	 ^
+  symbol:   class ExtendWith
+  location: @interface SetEnvironmentVariable
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/EnvironmentVariableExtension.java:19: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:20: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.AfterAllCallback;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:21: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.AfterEachCallback;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:22: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.BeforeAllCallback;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:23: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.BeforeEachCallback;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:24: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionConfigurationException;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:25: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:26: error: package org.junit.jupiter.api.extension.ExtensionContext does not exist
+import org.junit.jupiter.api.extension.ExtensionContext.Namespace;
+                                                       ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:36: error: cannot find symbol
+		implements BeforeAllCallback, BeforeEachCallback, AfterAllCallback, AfterEachCallback {
+		           ^
+  symbol: class BeforeAllCallback
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:36: error: cannot find symbol
+		implements BeforeAllCallback, BeforeEachCallback, AfterAllCallback, AfterEachCallback {
+		                              ^
+  symbol: class BeforeEachCallback
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:36: error: cannot find symbol
+		implements BeforeAllCallback, BeforeEachCallback, AfterAllCallback, AfterEachCallback {
+		                                                  ^
+  symbol: class AfterAllCallback
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:36: error: cannot find symbol
+		implements BeforeAllCallback, BeforeEachCallback, AfterAllCallback, AfterEachCallback {
+		                                                                    ^
+  symbol: class AfterEachCallback
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/EnvironmentVariableExtension.java:31: error: cannot find symbol
+	protected boolean isAnnotationPresent(ExtensionContext context) {
+	                                      ^
+  symbol:   class ExtensionContext
+  location: class EnvironmentVariableExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/EnvironmentVariableExtension.java:38: error: cannot find symbol
+	protected Set<String> entriesToClear(ExtensionContext context) {
+	                                     ^
+  symbol:   class ExtensionContext
+  location: class EnvironmentVariableExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/EnvironmentVariableExtension.java:46: error: cannot find symbol
+	protected Map<String, String> entriesToSet(ExtensionContext context) {
+	                                           ^
+  symbol:   class ExtensionContext
+  location: class EnvironmentVariableExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/EnvironmentVariableExtension.java:53: error: cannot find symbol
+	protected void reportWarning(ExtensionContext context) {
+	                             ^
+  symbol:   class ExtensionContext
+  location: class EnvironmentVariableExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:38: error: cannot find symbol
+	private static final Namespace NAMESPACE = Namespace.create(AbstractEntryBasedExtension.class);
+	                     ^
+  symbol:   class Namespace
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:45: error: cannot find symbol
+	protected abstract boolean isAnnotationPresent(ExtensionContext context);
+	                                               ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:51: error: cannot find symbol
+	protected abstract Set<K> entriesToClear(ExtensionContext context);
+	                                         ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:57: error: cannot find symbol
+	protected abstract Map<K, V> entriesToSet(ExtensionContext context);
+	                                          ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:77: error: cannot find symbol
+	protected void reportWarning(ExtensionContext context) {
+	                             ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:82: error: cannot find symbol
+	public void beforeAll(ExtensionContext context) {
+	                      ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:87: error: cannot find symbol
+	public void beforeEach(ExtensionContext context) {
+	                       ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:91: error: cannot find symbol
+	private void clearAndSetEntries(ExtensionContext context) {
+	                                ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:125: error: cannot find symbol
+	private void storeOriginalEntries(ExtensionContext context, Collection<K> entriesToClear,
+	                                  ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:139: error: cannot find symbol
+	public void afterEach(ExtensionContext context) throws Exception {
+	                      ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:145: error: cannot find symbol
+	public void afterAll(ExtensionContext context) throws Exception {
+	                     ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:149: error: cannot find symbol
+	private void restoreOriginalEntries(ExtensionContext context) {
+	                                    ^
+  symbol:   class ExtensionContext
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:25: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:26: error: package org.junit.platform.commons.support does not exist
+import org.junit.platform.commons.support.AnnotationSupport;
+                                         ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:58: error: cannot find symbol
+	public static boolean isAnyAnnotationPresent(ExtensionContext context,
+	                                             ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:73: error: cannot find symbol
+	public static boolean isAnyRepeatableAnnotationPresent(ExtensionContext context,
+	                                                       ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:88: error: cannot find symbol
+	public static <A extends Annotation> Optional<A> findClosestEnclosingAnnotation(ExtensionContext context,
+	                                                                                ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:99: error: cannot find symbol
+	public static <A extends Annotation> Stream<A> findAllEnclosingAnnotations(ExtensionContext context,
+	                                                                           ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:110: error: cannot find symbol
+	public static <A extends Annotation> Stream<A> findClosestEnclosingRepeatableAnnotations(ExtensionContext context,
+	                                                                                         ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:121: error: cannot find symbol
+	public static <A extends Annotation> Stream<A> findAllEnclosingRepeatableAnnotations(ExtensionContext context,
+	                                                                                     ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:173: error: cannot find symbol
+	static <A extends Annotation> Stream<A> findAnnotations(ExtensionContext context, Class<A> annotationType,
+	                                                        ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerUtils.java:13: error: package org.junit.platform.commons.support does not exist
+import static org.junit.platform.commons.support.ReflectionSupport.findMethod;
+                                                ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerUtils.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.support.ReflectionSupport.findMethod;
+^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/WritesEnvironmentVariable.java:36: error: cannot find symbol
+@ResourceLock(value = "java.lang.System.environment", mode = ResourceAccessMode.READ_WRITE)
+                                                             ^
+  symbol: variable ResourceAccessMode
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:38: error: cannot find symbol
+	private static final Namespace NAMESPACE = Namespace.create(AbstractEntryBasedExtension.class);
+	                                           ^
+  symbol:   variable Namespace
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:81: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:86: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:101: error: cannot find symbol
+			throw new ExtensionConfigurationException("Don't clear/set the same entry more than once.", ex);
+			          ^
+  symbol:   class ExtensionConfigurationException
+  location: class AbstractEntryBasedExtension<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class AbstractEntryBasedExtension
+    V extends Object declared in class AbstractEntryBasedExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:138: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/AbstractEntryBasedExtension.java:144: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/ClearEnvironmentVariable.java:19: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtendWith;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/ClearEnvironmentVariable.java:57: error: cannot find symbol
+@ExtendWith(EnvironmentVariableExtension.class)
+ ^
+  symbol: class ExtendWith
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/ClearEnvironmentVariable.java:71: error: cannot find symbol
+	@ExtendWith(EnvironmentVariableExtension.class)
+	 ^
+  symbol:   class ExtendWith
+  location: @interface ClearEnvironmentVariable
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/EnvironmentVariableUtils.java:17: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionConfigurationException;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:64: error: incompatible types: invalid method reference
+				.anyMatch(Optional::isPresent);
+				          ^
+    method isPresent in class Optional<T> cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Optional
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:199: error: cannot find symbol
+			return AnnotationSupport.findRepeatableAnnotations(element, annotationType);
+			       ^
+  symbol:   variable AnnotationSupport
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:201: error: cannot find symbol
+			return AnnotationSupport
+			       ^
+  symbol:   variable AnnotationSupport
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerUtils.java:76: error: cannot find symbol
+			method = findMethod(current, methodName, parameterTypes);
+			         ^
+  symbol:   method findMethod(Class<CAP#1>,String,Class<?>[])
+  location: class PioneerUtils
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/EnvironmentVariableUtils.java:64: error: cannot find symbol
+			throw new ExtensionConfigurationException("Could not modify environment variables", ex);
+			          ^
+  symbol:   class ExtensionConfigurationException
+  location: class EnvironmentVariableUtils
+Note: sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+61 errors

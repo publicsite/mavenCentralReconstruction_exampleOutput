@@ -1,0 +1,112 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:9: error: cannot find symbol
+import org.apache.regexp.RE;
+                        ^
+  symbol:   class RE
+  location: package org.apache.regexp
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:12: error: cannot find symbol
+import org.apache.bcel.Constants;
+                      ^
+  symbol:   class Constants
+  location: package org.apache.bcel
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:13: error: cannot find symbol
+import org.apache.bcel.generic.InstructionHandle;
+                              ^
+  symbol:   class InstructionHandle
+  location: package org.apache.bcel.generic
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:14: error: cannot find symbol
+import org.apache.bcel.generic.InstructionList;
+                              ^
+  symbol:   class InstructionList
+  location: package org.apache.bcel.generic
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:22: error: cannot find symbol
+    private InstructionList il;
+            ^
+  symbol:   class InstructionList
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:24: error: cannot find symbol
+    private InstructionHandle[] handles;
+            ^
+  symbol:   class InstructionHandle
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:26: error: cannot find symbol
+    public InstructionFinder(final InstructionList il) {
+                                   ^
+  symbol:   class InstructionList
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:78: error: cannot find symbol
+    private InstructionHandle[] getMatch(final int matched_from, final int match_length) {
+            ^
+  symbol:   class InstructionHandle
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:84: error: cannot find symbol
+    public final Iterator search(final String pattern, final InstructionHandle from, final CodeConstraint constraint) {
+                                                             ^
+  symbol:   class InstructionHandle
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:121: error: cannot find symbol
+    public final Iterator search(final String pattern, final InstructionHandle from) {
+                                                             ^
+  symbol:   class InstructionHandle
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:133: error: cannot find symbol
+    public final InstructionList getInstructionList() {
+                 ^
+  symbol:   class InstructionList
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:238: error: cannot find symbol
+        boolean checkCode(final InstructionHandle[] p0);
+                                ^
+  symbol:   class InstructionHandle
+  location: interface CodeConstraint
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:42: error: incompatible types: Object cannot be converted to String
+        final String result = InstructionFinder.map.get(pattern);
+                                                       ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:47: error: cannot find symbol
+            if (pattern.equals(Constants.OPCODE_NAMES[i])) {
+                               ^
+  symbol:   variable Constants
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:79: error: cannot find symbol
+        final InstructionHandle[] match = new InstructionHandle[match_length];
+              ^
+  symbol:   class InstructionHandle
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:79: error: cannot find symbol
+        final InstructionHandle[] match = new InstructionHandle[match_length];
+                                              ^
+  symbol:   class InstructionHandle
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:97: error: cannot find symbol
+            final RE re = new RE(search);
+                  ^
+  symbol:   class RE
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:97: error: cannot find symbol
+            final RE re = new RE(search);
+                              ^
+  symbol:   class RE
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:103: error: cannot find symbol
+                final InstructionHandle[] match = this.getMatch(startExpr, lenExpr);
+                      ^
+  symbol:   class InstructionHandle
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:158: error: cannot find symbol
+                    buf.append(Constants.OPCODE_NAMES[ch - '\u7fff']);
+                               ^
+  symbol:   variable Constants
+  location: class InstructionFinder
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:216: error: incompatible types: Object cannot be converted to String
+        for (final String key : InstructionFinder.map.keySet()) {
+                                                            ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:217: error: incompatible types: Object cannot be converted to String
+            final String value = InstructionFinder.map.get(key);
+                                                          ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java:225: error: cannot find symbol
+            if (Constants.NO_OF_OPERANDS[j] != -1) {
+                ^
+  symbol:   variable Constants
+  location: class InstructionFinder
+Note: sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/util/InstructionFinder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+23 errors

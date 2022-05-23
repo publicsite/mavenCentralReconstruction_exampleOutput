@@ -1,0 +1,42 @@
+hybrids/org.osgi/org.osgi.compendium/4.2.0/IMEICondition.java:21: error: package org.osgi.framework does not exist
+import org.osgi.framework.Bundle;
+                         ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/IMEICondition.java:22: error: package org.osgi.service.condpermadmin does not exist
+import org.osgi.service.condpermadmin.Condition;
+                                     ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/IMEICondition.java:23: error: package org.osgi.service.condpermadmin does not exist
+import org.osgi.service.condpermadmin.ConditionInfo;
+                                     ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/IMEICondition.java:67: error: cannot find symbol
+	public static Condition getCondition(Bundle bundle,
+	                                     ^
+  symbol:   class Bundle
+  location: class IMEICondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/IMEICondition.java:68: error: cannot find symbol
+			ConditionInfo conditionInfo) {
+			^
+  symbol:   class ConditionInfo
+  location: class IMEICondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/IMEICondition.java:67: error: cannot find symbol
+	public static Condition getCondition(Bundle bundle,
+	              ^
+  symbol:   class Condition
+  location: class IMEICondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/IMEICondition.java:94: error: cannot find symbol
+			return Condition.FALSE;
+			       ^
+  symbol:   variable Condition
+  location: class IMEICondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/IMEICondition.java:96: error: cannot find symbol
+		return IMEI.startsWith(imei) ? Condition.TRUE : Condition.FALSE;
+		                               ^
+  symbol:   variable Condition
+  location: class IMEICondition
+hybrids/org.osgi/org.osgi.compendium/4.2.0/IMEICondition.java:96: error: cannot find symbol
+		return IMEI.startsWith(imei) ? Condition.TRUE : Condition.FALSE;
+		                                                ^
+  symbol:   variable Condition
+  location: class IMEICondition
+Note: hybrids/org.osgi/org.osgi.compendium/4.2.0/IMEICondition.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

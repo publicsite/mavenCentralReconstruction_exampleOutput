@@ -1,0 +1,441 @@
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:3: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/SuiteRunner.java:5: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IInjectorFactory.java:3: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IInjectorFactory.java:4: error: cannot find symbol
+import com.google.inject.Module;
+                        ^
+  symbol:   class Module
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IInjectorFactory.java:20: error: cannot find symbol
+  Injector getInjector(Stage stage, Module... modules);
+  ^
+  symbol:   class Injector
+  location: interface IInjectorFactory
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IInjectorFactory.java:33: error: cannot find symbol
+  default Injector getInjector(@Nullable Injector parent, Stage stage, Module... modules) {
+                                         ^
+  symbol:   class Injector
+  location: interface IInjectorFactory
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IInjectorFactory.java:33: error: cannot find symbol
+  default Injector getInjector(@Nullable Injector parent, Stage stage, Module... modules) {
+          ^
+  symbol:   class Injector
+  location: interface IInjectorFactory
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/SuiteRunner.java:44: error: cannot find symbol
+  private Injector parentInjector;
+          ^
+  symbol:   class Injector
+  location: class SuiteRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/SuiteRunner.java:313: error: cannot find symbol
+  public Injector getParentInjector() {
+         ^
+  symbol:   class Injector
+  location: class SuiteRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/SuiteRunner.java:318: error: cannot find symbol
+  public void setParentInjector(Injector injector) {
+                                ^
+  symbol:   class Injector
+  location: class SuiteRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:85: error: cannot find symbol
+  Injector getParentInjector();
+  ^
+  symbol:   class Injector
+  location: interface ISuite
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:87: error: cannot find symbol
+  void setParentInjector(Injector injector);
+                         ^
+  symbol:   class Injector
+  location: interface ISuite
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceBackedInjectorFactory.java:3: error: cannot find symbol
+import com.google.inject.Guice;
+                        ^
+  symbol:   class Guice
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceBackedInjectorFactory.java:4: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceBackedInjectorFactory.java:5: error: cannot find symbol
+import com.google.inject.Module;
+                        ^
+  symbol:   class Module
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceBackedInjectorFactory.java:13: error: cannot find symbol
+  public Injector getInjector(Stage stage, Module... modules) {
+         ^
+  symbol:   class Injector
+  location: class GuiceBackedInjectorFactory
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceBackedInjectorFactory.java:18: error: cannot find symbol
+  public Injector getInjector(@Nullable Injector parent, Stage stage, Module... modules) {
+                                        ^
+  symbol:   class Injector
+  location: class GuiceBackedInjectorFactory
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceBackedInjectorFactory.java:18: error: cannot find symbol
+  public Injector getInjector(@Nullable Injector parent, Stage stage, Module... modules) {
+         ^
+  symbol:   class Injector
+  location: class GuiceBackedInjectorFactory
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:324: error: incompatible types: Set<Object> cannot be converted to Collection<XmlSuite>
+        return (Collection<XmlSuite>)Collections.emptySet();
+                                                         ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:423: error: incompatible types: Set<Object> cannot be converted to Set<Class>
+        final Set<Class> classes = (Set<Class>)Sets.newHashSet();
+                                                              ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1064: error: incompatible types: inference variable T has incompatible bounds
+                this.m_configuration.setInjectorFactory(this.m_objectFactory.newInstance(clazz, new Object[0]));
+                                    ^
+    equality constraints: CAP#1
+    lower bounds: IInjectorFactory,Object
+  where T is a type-variable:
+    T extends Object declared in method <T>newInstance(Class<T>,Object...)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1209: error: incompatible types: Object cannot be converted to String
+        result.outputDirectory = cmdLineArgs.get("-d");
+                                                ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1210: error: incompatible types: Object cannot be converted to String
+        final String testClasses = cmdLineArgs.get("-testclass");
+                                                  ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1214: error: incompatible types: Object cannot be converted to String
+        final String testNames = cmdLineArgs.get("-testnames");
+                                                ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1218: error: incompatible types: Object cannot be converted to String
+        final String useDefaultListeners = cmdLineArgs.get("-usedefaultlisteners");
+                                                          ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1222: error: incompatible types: Object cannot be converted to String
+        result.groups = cmdLineArgs.get("-groups");
+                                       ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1223: error: incompatible types: Object cannot be converted to String
+        result.excludedGroups = cmdLineArgs.get("-excludegroups");
+                                               ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1224: error: incompatible types: Object cannot be converted to String
+        result.testJar = cmdLineArgs.get("-testjar");
+                                        ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1225: error: incompatible types: Object cannot be converted to String
+        result.xmlPathInJar = cmdLineArgs.get("-xmlpathinjar");
+                                             ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1226: error: incompatible types: Object cannot be converted to Boolean
+        result.junit = cmdLineArgs.get("-junit");
+                                      ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1227: error: incompatible types: Object cannot be converted to Boolean
+        result.mixed = cmdLineArgs.get("-mixed");
+                                      ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1232: error: incompatible types: Object cannot be converted to Boolean
+        result.skipFailedInvocationCounts = cmdLineArgs.get("-skipfailedinvocationcounts");
+                                                           ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1234: error: incompatible types: Object cannot be converted to String
+        result.spiListenersToSkip = cmdLineArgs.getOrDefault("-spilistenerstoskip", "");
+                                                            ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1235: error: incompatible types: Object cannot be converted to String
+        final String parallelMode = cmdLineArgs.get("-parallel");
+                                                   ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1247: error: incompatible types: Object cannot be converted to String
+        final String defaultSuiteName = cmdLineArgs.get("-suitename");
+                                                       ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1251: error: incompatible types: Object cannot be converted to String
+        final String defaultTestName = cmdLineArgs.get("-testname");
+                                                      ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1262: error: incompatible types: Object cannot be converted to String
+        final String ms = cmdLineArgs.get("-methodselectors");
+                                         ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1266: error: incompatible types: Object cannot be converted to String
+        final String objectFactory = cmdLineArgs.get("-objectfactory");
+                                                    ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1270: error: incompatible types: Object cannot be converted to String
+        final String runnerFactory = cmdLineArgs.get("-testrunfactory");
+                                                    ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1274: error: incompatible types: Object cannot be converted to String
+        final String reporterConfigs = cmdLineArgs.get("-reporter");
+                                                      ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1278: error: incompatible types: Object cannot be converted to String
+        final String failurePolicy = cmdLineArgs.get("-configfailurepolicy");
+                                                    ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1286: error: incompatible types: Object cannot be converted to String
+        final String dependencyInjectorFactoryClass = cmdLineArgs.get("-dependencyinjectorfactory");
+                                                                     ^
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/TestNG.java:1319: error: incompatible types: inference variable T has incompatible bounds
+        final IReporter reporter = this.m_objectFactory.newInstance(reporterClass, new Object[0]);
+                                                                   ^
+    equality constraints: CAP#1
+    lower bounds: IReporter,Object
+  where T is a type-variable:
+    T extends Object declared in method <T>newInstance(Class<T>,Object...)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceBasedObjectDispenser.java:3: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/annotations/Guice.java:5: error: cannot find symbol
+import com.google.inject.Module;
+                        ^
+  symbol:   class Module
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/IModuleFactory.java:3: error: cannot find symbol
+import com.google.inject.Module;
+                        ^
+  symbol:   class Module
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/invokers/TestInvoker.java:484: error: cannot find symbol
+          new SingleTestMethodWorker(this, invoker, mi, parameters, testContext, m_classListeners));
+              ^
+  symbol:   class SingleTestMethodWorker
+  location: class TestInvoker
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:5: error: package org.junit.runner does not exist
+import org.junit.runner.Description;
+                       ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:6: error: package org.junit.runner does not exist
+import org.junit.runner.JUnitCore;
+                       ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:7: error: package org.junit.runner does not exist
+import org.junit.runner.Request;
+                       ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:8: error: package org.junit.runner does not exist
+import org.junit.runner.Result;
+                       ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:9: error: package org.junit.runner.manipulation does not exist
+import org.junit.runner.manipulation.Filter;
+                                    ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:10: error: package org.junit.runner.notification does not exist
+import org.junit.runner.notification.Failure;
+                                    ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:11: error: package org.junit.runner.notification does not exist
+import org.junit.runner.notification.RunListener;
+                                    ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:27: error: cannot find symbol
+  private Map<Description, ITestResult> m_findedMethods = new WeakHashMap<>();
+              ^
+  symbol:   class Description
+  location: class JUnit4TestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:66: error: cannot find symbol
+  public Result start(final Class testCase, final String... methods) {
+         ^
+  symbol:   class Result
+  location: class JUnit4TestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:230: error: cannot find symbol
+  private ITestResult createTestResult(ITestObjectFactory objectFactory, Description test) {
+                                                                         ^
+  symbol:   class Description
+  location: class JUnit4TestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:246: error: cannot find symbol
+  private static boolean isAssumptionFailed(Failure failure) {
+                                            ^
+  symbol:   class Failure
+  location: class JUnit4TestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:109: error: cannot find symbol
+  private class RL extends RunListener {
+                           ^
+  symbol:   class RunListener
+  location: class JUnit4TestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:111: error: cannot find symbol
+    private List<Description> notified = new LinkedList<>();
+                 ^
+  symbol:   class Description
+  location: class JUnit4TestRunner.RL
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:114: error: cannot find symbol
+    public void testAssumptionFailure(Failure failure) {
+                                      ^
+  symbol:   class Failure
+  location: class JUnit4TestRunner.RL
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:129: error: cannot find symbol
+    public void testFailure(Failure failure) throws Exception {
+                            ^
+  symbol:   class Failure
+  location: class JUnit4TestRunner.RL
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:165: error: cannot find symbol
+    public void testFinished(Description description) throws Exception {
+                             ^
+  symbol:   class Description
+  location: class JUnit4TestRunner.RL
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:181: error: cannot find symbol
+    public void testIgnored(Description description) throws Exception {
+                            ^
+  symbol:   class Description
+  location: class JUnit4TestRunner.RL
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:198: error: cannot find symbol
+    public void testRunFinished(Result result) throws Exception {}
+                                ^
+  symbol:   class Result
+  location: class JUnit4TestRunner.RL
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:201: error: cannot find symbol
+    public void testRunStarted(Description description) throws Exception {}
+                               ^
+  symbol:   class Description
+  location: class JUnit4TestRunner.RL
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:204: error: cannot find symbol
+    public void testStarted(Description description) throws Exception {
+                            ^
+  symbol:   class Description
+  location: class JUnit4TestRunner.RL
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:219: error: cannot find symbol
+    private void validate(ITestResult tr, Description description) {
+                                          ^
+  symbol:   class Description
+  location: class JUnit4TestRunner.RL
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnit4TestRunner.java:225: error: cannot find symbol
+    private String stringify(Description description) {
+                             ^
+  symbol:   class Description
+  location: class JUnit4TestRunner.RL
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:12: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:13: error: package junit.framework does not exist
+import junit.framework.Test;
+                      ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:14: error: package junit.framework does not exist
+import junit.framework.TestListener;
+                      ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:15: error: package junit.framework does not exist
+import junit.framework.TestResult;
+                      ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:16: error: package junit.framework does not exist
+import junit.framework.TestSuite;
+                      ^
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:24: error: cannot find symbol
+public class JUnitTestRunner implements TestListener, IJUnitTestRunner {
+                                        ^
+  symbol: class TestListener
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:30: error: cannot find symbol
+  private Map<Test, TestRunInfo> m_tests = new WeakHashMap<>();
+              ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:51: error: cannot find symbol
+  public void startTest(Test test) {
+                        ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:57: error: cannot find symbol
+  public void addError(Test test, Throwable t) {
+                       ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:66: error: cannot find symbol
+  public void addFailure(Test test, AssertionFailedError t) {
+                         ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:66: error: cannot find symbol
+  public void addFailure(Test test, AssertionFailedError t) {
+                                    ^
+  symbol:   class AssertionFailedError
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:70: error: cannot find symbol
+  private void recordFailure(Test test, Throwable t) {
+                             ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:79: error: cannot find symbol
+  public void endTest(Test test) {
+                      ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:101: error: cannot find symbol
+  private org.testng.internal.TestResult recordResults(Test test, TestRunInfo tri) {
+                                                       ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:134: error: cannot find symbol
+  protected Test getTest(Class<? extends Test> testClass, String... methods) {
+                                         ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:134: error: cannot find symbol
+  protected Test getTest(Class<? extends Test> testClass, String... methods) {
+            ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:204: error: cannot find symbol
+  public TestResult start(Class testCase, String... methods) {
+         ^
+  symbol:   class TestResult
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:230: error: cannot find symbol
+  protected TestResult createTestResult() {
+            ^
+  symbol:   class TestResult
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:234: error: cannot find symbol
+  protected TestResult doRun(Test suite) {
+                             ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/junit/JUnitTestRunner.java:234: error: cannot find symbol
+  protected TestResult doRun(Test suite) {
+            ^
+  symbol:   class TestResult
+  location: class JUnitTestRunner
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceBackedInjectorFactory.java:20: error: cannot find symbol
+      return Guice.createInjector(stage, modules);
+             ^
+  symbol:   variable Guice
+  location: class GuiceBackedInjectorFactory
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceHelper.java:8: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceHelper.java:9: error: cannot find symbol
+import com.google.inject.Module;
+                        ^
+  symbol:   class Module
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceHelper.java:34: error: cannot find symbol
+  private final Map<List<Module>, Injector> m_injectors = Maps.newHashMap();
+                                  ^
+  symbol:   class Injector
+  location: class GuiceHelper
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceHelper.java:59: error: cannot find symbol
+  Injector getInjector(IClass iClass, IInjectorFactory injectorFactory) {
+  ^
+  symbol:   class Injector
+  location: class GuiceHelper
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceHelper.java:63: error: cannot find symbol
+  Injector getInjector(Class<?> cls, IInjectorFactory injectorFactory) {
+  ^
+  symbol:   class Injector
+  location: class GuiceHelper
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceHelper.java:83: error: cannot find symbol
+  private Injector getParentInjector(IInjectorFactory factory) {
+          ^
+  symbol:   class Injector
+  location: class GuiceHelper
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceHelper.java:107: error: cannot find symbol
+  private void addInjector(List<Module> moduleInstances, Injector injector) {
+                                                         ^
+  symbol:   class Injector
+  location: class GuiceHelper
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceHelper.java:111: error: cannot find symbol
+  Injector getInjector(List<Module> moduleInstances) {
+  ^
+  symbol:   class Injector
+  location: class GuiceHelper
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceHelper.java:169: error: cannot find symbol
+      Injector parent, IInjectorFactory injectorFactory, List<Module> moduleInstances) {
+      ^
+  symbol:   class Injector
+  location: class GuiceHelper
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/internal/objects/GuiceHelper.java:168: error: cannot find symbol
+  private Injector createInjector(
+          ^
+  symbol:   class Injector
+  location: class GuiceHelper
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors

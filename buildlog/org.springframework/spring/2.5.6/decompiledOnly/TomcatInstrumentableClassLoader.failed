@@ -1,0 +1,53 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:9: error: package org.apache.catalina.loader does not exist
+import org.apache.catalina.loader.ResourceEntry;
+                                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:12: error: package org.apache.catalina.loader does not exist
+import org.apache.catalina.loader.WebappClassLoader;
+                                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:14: error: cannot find symbol
+public class TomcatInstrumentableClassLoader extends WebappClassLoader
+                                                     ^
+  symbol: class WebappClassLoader
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:37: error: cannot find symbol
+    protected ResourceEntry findResourceInternal(final String name, final String path) {
+              ^
+  symbol:   class ResourceEntry
+  location: class TomcatInstrumentableClassLoader
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:19: error: incompatible types: TomcatInstrumentableClassLoader cannot be converted to ClassLoader
+        this.weavingTransformer = new WeavingTransformer((ClassLoader)this);
+                                                                      ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:24: error: incompatible types: TomcatInstrumentableClassLoader cannot be converted to ClassLoader
+        this.weavingTransformer = new WeavingTransformer((ClassLoader)this);
+                                                                      ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:32: error: cannot find symbol
+        final WebappClassLoader tempLoader = new WebappClassLoader();
+              ^
+  symbol:   class WebappClassLoader
+  location: class TomcatInstrumentableClassLoader
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:32: error: cannot find symbol
+        final WebappClassLoader tempLoader = new WebappClassLoader();
+                                                 ^
+  symbol:   class WebappClassLoader
+  location: class TomcatInstrumentableClassLoader
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:38: error: cannot find symbol
+        final ResourceEntry entry = super.findResourceInternal(name, path);
+              ^
+  symbol:   class ResourceEntry
+  location: class TomcatInstrumentableClassLoader
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:38: error: cannot find symbol
+        final ResourceEntry entry = super.findResourceInternal(name, path);
+                                    ^
+  symbol:   variable super
+  location: class TomcatInstrumentableClassLoader
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:47: error: cannot find symbol
+        final StringBuilder sb = new StringBuilder(this.getClass().getName());
+                                                       ^
+  symbol: method getClass()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java:49: error: cannot find symbol
+        sb.append(super.toString());
+                  ^
+  symbol:   variable super
+  location: class TomcatInstrumentableClassLoader
+Note: sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/instrument/classloading/tomcat/TomcatInstrumentableClassLoader.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 errors

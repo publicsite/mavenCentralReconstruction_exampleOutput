@@ -1,0 +1,21 @@
+sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0.2/Decompiled/javax/el/ExpressionFactory.java:9: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0.2/Decompiled/javax/el/ExpressionFactory.java:87: error: cannot find symbol
+        return ProviderLocator.getServiceClass(ExpressionFactory.class.getName(), ExpressionFactory.class, cl);
+               ^
+  symbol:   variable ProviderLocator
+  location: class ExpressionFactory
+sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0.2/Decompiled/javax/el/ExpressionFactory.java:92: error: cannot find symbol
+            return ProviderLocator.lookupByJREPropertyFile(ExpressionFactory.JAVA_RUNTIME_PROPERTY_FILE_LOCATION, "javax.el.ExpressionFactory");
+                   ^
+  symbol:   variable ProviderLocator
+  location: class ExpressionFactory
+sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0.2/Decompiled/javax/el/ExpressionFactory.java:111: error: cannot find symbol
+            return ProviderLocator.loadClass(implClassName, ExpressionFactory.class, cl);
+                   ^
+  symbol:   variable ProviderLocator
+  location: class ExpressionFactory
+Note: sources/structure/org.apache.geronimo.specs/geronimo-el_2.2_spec/1.0.2/Decompiled/javax/el/ExpressionFactory.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 errors

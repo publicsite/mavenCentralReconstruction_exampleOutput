@@ -1,0 +1,92 @@
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:24: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:246: error: cannot find symbol
+    @SuppressFBWarnings(value = { "IC_SUPERCLASS_USES_SUBCLASS_DURING_INITIALIZATION" }, justification = "Safe initialization is implied")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class ByteBuddyAgent
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:196: error: cannot find symbol
+    @SuppressFBWarnings(value = { "REC_CATCH_EXCEPTION" }, justification = "Exception should not be rethrown but trigger a fallback")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class ByteBuddyAgent
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:227: error: cannot find symbol
+    @SuppressFBWarnings(value = { "REC_CATCH_EXCEPTION" }, justification = "Legal outcome where reflection communicates errors by throwing an exception")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class ByteBuddyAgent
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:284: error: cannot find symbol
+            @SuppressFBWarnings(value = { "DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED" }, justification = "Privilege is explicit user responsibility")
+             ^
+  symbol:   class SuppressFBWarnings
+  location: class ForStandardToolsJarVm
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:302: error: cannot find symbol
+            @SuppressFBWarnings(value = { "DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED" }, justification = "Privilege is explicit user responsibility")
+             ^
+  symbol:   class SuppressFBWarnings
+  location: class ForUserDefinedToolsJar
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:482: error: cannot find symbol
+            @SuppressFBWarnings(value = { "REC_CATCH_EXCEPTION" }, justification = "Exception should not be rethrown but trigger a fallback")
+             ^
+  symbol:   class SuppressFBWarnings
+  location: class InstallationAction
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:683: error: cannot find symbol
+                @SuppressFBWarnings(value = { "REC_CATCH_EXCEPTION" }, justification = "Exception should not be rethrown but trigger a fallback")
+                 ^
+  symbol:   class SuppressFBWarnings
+  location: class ForJava9CapableVm
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/Attacher.java:3: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/Attacher.java:48: error: cannot find symbol
+    @SuppressFBWarnings(value = "REC_CATCH_EXCEPTION", justification = "Exception should not be rethrown but trigger a fallback")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class Attacher
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/VirtualMachine.java:251: error: cannot find symbol
+                    Object thisModule = getModule.invoke(OnUnix.class), otherModule = getModule.invoke(AFUNIXSocket.class);
+                                                                                                       ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/VirtualMachine.java:267: error: cannot find symbol
+                if (!AFUNIXSocket.isSupported()) {
+                     ^
+  symbol:   variable AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/VirtualMachine.java:284: error: cannot find symbol
+                return new OnUnix(processId, AFUNIXSocket.newInstance(), DEFAULT_ATTEMPTS, DEFAULT_PAUSE, DEFAULT_TIMEOUT, TimeUnit.MILLISECONDS);
+                                             ^
+  symbol:   variable AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/VirtualMachine.java:342: error: cannot find symbol
+                    ((AFUNIXSocket) socket).setSoTimeout((int) timeUnit.toMillis(timeout));
+                      ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/VirtualMachine.java:344: error: cannot find symbol
+                ((AFUNIXSocket) socket).connect(new AFUNIXSocketAddress(socketFile));
+                                                    ^
+  symbol:   class AFUNIXSocketAddress
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/VirtualMachine.java:344: error: cannot find symbol
+                ((AFUNIXSocket) socket).connect(new AFUNIXSocketAddress(socketFile));
+                  ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/VirtualMachine.java:351: error: cannot find symbol
+                return ((AFUNIXSocket) this.socket).getInputStream().read(buffer);
+                         ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/VirtualMachine.java:358: error: cannot find symbol
+                ((AFUNIXSocket) this.socket).getOutputStream().write(buffer);
+                  ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+sources/structure/net.bytebuddy/byte-buddy-agent/1.9.0/extractedSources/net/bytebuddy/agent/VirtualMachine.java:365: error: cannot find symbol
+                ((AFUNIXSocket) this.socket).close();
+                  ^
+  symbol:   class AFUNIXSocket
+  location: class OnUnix
+19 errors

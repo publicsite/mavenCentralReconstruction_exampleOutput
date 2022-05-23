@@ -1,0 +1,79 @@
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/util/ParserConfigurationSettings.java:62: error: incompatible types: Object cannot be converted to Boolean
+        final Boolean b = this.fFeatures.get(key);
+                                            ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/parsers/BasicParserConfiguration.java:139: error: incompatible types: Object cannot be converted to XMLEntityResolver
+        return super.fProperties.get("http://apache.org/xml/properties/internal/entity-resolver");
+                                    ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/parsers/BasicParserConfiguration.java:147: error: incompatible types: Object cannot be converted to XMLErrorHandler
+        return super.fProperties.get("http://apache.org/xml/properties/internal/error-handler");
+                                    ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLErrorReporter.java:62: error: incompatible types: Object cannot be converted to MessageFormatter
+        return this.fMessageFormatters.get(key);
+                                          ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLErrorReporter.java:66: error: incompatible types: Object cannot be converted to MessageFormatter
+        return this.fMessageFormatters.remove(key);
+                                             ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:193: error: incompatible types: Object cannot be converted to Entity
+        final Entity entity = this.fEntities.get(key);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:198: error: incompatible types: Object cannot be converted to Entity
+        final Entity entity = this.fEntities.get(key);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:212: error: incompatible types: Object cannot be converted to Entity
+        final Entity entity = this.fEntities.get(key);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:251: error: incompatible types: Object cannot be converted to Entity
+        final Entity entity = this.fEntities.get(str);
+                                                ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:386: error: cannot find symbol
+                            final Map.Entry<String, V> entry = httpRequestProperties.next();
+                                                    ^
+  symbol:   class V
+  location: class XMLEntityManager
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:574: error: cannot find symbol
+                this.fReaderStack.pop().close();
+                                       ^
+  symbol:   method close()
+  location: class Object
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java:954: error: incompatible types: bad type in conditional expression
+        this.fCurrentEntity = ((this.fEntityStack.size() > 0) ? this.fEntityStack.pop() : null);
+                                                                                     ^
+    Object cannot be converted to XMLEntityManager.ScannedEntity
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/dtd/XMLDTDProcessor.java:523: error: incompatible types: Object cannot be converted to String
+                final String s = this.fNDataDeclNotations.get(key);
+                                                             ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/dtd/XMLDTDProcessor.java:531: error: incompatible types: Object cannot be converted to String
+                final String s2 = this.fNotationEnumVals.get(key2);
+                                                            ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/dtd/DTDGrammarBucket.java:25: error: incompatible types: Object cannot be converted to DTDGrammar
+        return this.fGrammars.get(xmlGrammarDescription);
+                                 ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/dtd/DTDGrammar.java:235: error: incompatible types: Object cannot be converted to XMLElementDecl
+        final XMLElementDecl xmlElementDecl = this.fElementDeclTab.get(s);
+                                                                      ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/dtd/DTDGrammar.java:436: error: incompatible types: Object cannot be converted to XMLElementDecl
+        final XMLElementDecl fElementDecl = this.fElementDeclTab.get(key);
+                                                                    ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/util/EncodingMap.java:19: error: incompatible types: Object cannot be converted to String
+        return EncodingMap.fIANA2JavaMap.get(key);
+                                            ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/util/EncodingMap.java:23: error: incompatible types: Object cannot be converted to String
+        return EncodingMap.fIANA2JavaMap.remove(key);
+                                               ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/util/EncodingMap.java:31: error: incompatible types: Object cannot be converted to String
+        return EncodingMap.fJava2IANAMap.get(key);
+                                            ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/util/EncodingMap.java:35: error: incompatible types: Object cannot be converted to String
+        return EncodingMap.fJava2IANAMap.remove(key);
+                                               ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/util/HTTPInputSource.java:53: error: incompatible types: Object cannot be converted to String
+        return this.fHTTPRequestProperties.get(s);
+                                              ^
+sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/util/NamespaceSupport.java:32: error: incompatible types: Object cannot be converted to String
+            final String s = allPrefixes.nextElement();
+                                                    ^
+Note: sources/structure/xerces/xercesImpl/2.9.0/Decompiled/org/apache/xerces/impl/XMLEntityManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+23 errors

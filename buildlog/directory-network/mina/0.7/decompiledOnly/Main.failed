@@ -1,0 +1,70 @@
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/filter/SSLFilter.java:257: error: incompatible types: Object cannot be converted to SSLHandler
+        SSLHandler handler = this.sslSessionHandlerMap.get(session);
+                                                          ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/filter/SSLFilter.java:260: error: incompatible types: Object cannot be converted to SSLHandler
+                handler = this.sslSessionHandlerMap.get(session);
+                                                       ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/filter/SSLFilter.java:281: error: incompatible types: Object cannot be converted to SSLHandler
+        return this.sslSessionHandlerMap.get(session);
+                                            ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/common/TransportType.java:39: error: incompatible types: Object cannot be converted to TransportType
+        final TransportType type = TransportType.name2type.get(name.toUpperCase());
+                                                              ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/registry/SimpleServiceRegistry.java:85: error: incompatible types: Object cannot be converted to Service
+        for (final Service s : new HashSet(this.services)) {
+                               ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/registry/SimpleServiceRegistry.java:104: error: incompatible types: Object cannot be converted to Service
+        for (final Service s : this.services) {
+                                   ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/registry/SimpleServiceRegistry.java:114: error: incompatible types: Object cannot be converted to Service
+        for (final Service s : this.services) {
+                                   ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/registry/SimpleServiceRegistry.java:124: error: incompatible types: Object cannot be converted to Service
+        for (final Service s : this.services) {
+                                   ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/util/BaseThreadPool.java:132: error: incompatible types: Object cannot be converted to SessionBuffer
+        SessionBuffer buf = buffers.get(session);
+                                       ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/util/BaseThreadPool.java:135: error: incompatible types: Object cannot be converted to SessionBuffer
+                buf = buffers.get(session);
+                                 ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/util/BaseThreadPool.java:221: error: incompatible types: Object cannot be converted to SessionBuffer
+                        buf = it.next();
+                                     ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/datagram/DatagramAcceptor.java:132: error: incompatible types: Object cannot be converted to SelectionKey
+            final SelectionKey key = it.next();
+                                            ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/datagram/DatagramAcceptor.java:311: error: incompatible types: Object cannot be converted to DatagramChannel
+            final DatagramChannel ch = this.channels.remove(request.address);
+                                                           ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/AbstractIoFilterChain.java:99: error: incompatible types: Object cannot be converted to AbstractIoFilterChain.Entry
+        final Entry e = this.name2entry.get(name);
+                                           ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/AbstractIoFilterChain.java:142: error: incompatible types: Object cannot be converted to String
+            this.remove(it.next());
+                               ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/AbstractIoFilterChain.java:155: error: incompatible types: Object cannot be converted to AbstractIoFilterChain.Entry
+        final Entry e = this.name2entry.get(baseName);
+                                           ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/socket/SocketAcceptor.java:159: error: variable e is already defined in method registerNew()
+                catch (IOException e) {
+                                   ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/socket/SocketAcceptor.java:192: error: incompatible types: Object cannot be converted to ServerSocketChannel
+            final ServerSocketChannel ssc = this.channels.remove(request.address);
+                                                                ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/socket/SocketAcceptor.java:270: error: incompatible types: Object cannot be converted to SelectionKey
+                final SelectionKey key = it.next();
+                                                ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/examples/httpserver/HttpProtocolHandler.java:58: error: incompatible types: Object cannot be converted to Entry
+                for (final Map.Entry e : headers.entrySet()) {
+                                                         ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/socket/SocketIoProcessor.java:141: error: incompatible types: Object cannot be converted to SelectionKey
+        for (final SelectionKey key : selectedKeys) {
+                                      ^
+sources/structure/directory-network/mina/0.7/Decompiled/org/apache/mina/io/socket/SocketIoProcessor.java:209: error: incompatible types: Object cannot be converted to SelectionKey
+            for (final SelectionKey key : keys) {
+                                          ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+22 errors

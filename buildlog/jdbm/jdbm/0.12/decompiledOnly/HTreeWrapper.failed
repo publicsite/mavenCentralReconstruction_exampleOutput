@@ -1,0 +1,111 @@
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:210: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+        private Enumeration enum;
+                            ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:222: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+            return this.enum != null && this.enum.hasMoreElements();
+                        ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:222: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+            return this.enum != null && this.enum.hasMoreElements();
+                                             ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:226: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+            if (this.enum != null) {
+                     ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:227: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+                final Object next = this.enum.nextElement();
+                                         ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:228: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+                if (!this.enum.hasMoreElements()) {
+                          ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:229: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+                    this.enum = null;
+                         ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:274: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+                    this.enum = bucket.getKeys().elements();
+                         ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:277: error: as of release 5, 'enum' is a keyword, and may not be used as an identifier
+                    this.enum = bucket.getValues().elements();
+                         ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordManager.java:49: error: cannot find symbol
+            this.caches.elementAt(i).flushAll();
+                                    ^
+  symbol:   method flushAll()
+  location: class Object
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordManager.java:50: error: cannot find symbol
+            this.caches.elementAt(i).invalidateAll();
+                                    ^
+  symbol:   method invalidateAll()
+  location: class Object
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordManager.java:60: error: cannot find symbol
+            this.caches.elementAt(i).flushAll();
+                                    ^
+  symbol:   method flushAll()
+  location: class Object
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordManager.java:67: error: cannot find symbol
+            this.caches.elementAt(i).invalidate(recid);
+                                    ^
+  symbol:   method invalidate(long)
+  location: class Object
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordManager.java:81: error: cannot find symbol
+            this.caches.elementAt(i).flush(recid);
+                                    ^
+  symbol:   method flush(long)
+  location: class Object
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordManager.java:88: error: cannot find symbol
+            this.caches.elementAt(i).flush(recid);
+                                    ^
+  symbol:   method flush(long)
+  location: class Object
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordManager.java:115: error: incompatible types: Object cannot be converted to Long
+        final Long recid = nameDirectory.get(name);
+                                            ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordManager.java:155: error: cannot find symbol
+            this.caches.elementAt(i).invalidateAll();
+                                    ^
+  symbol:   method invalidateAll()
+  location: class Object
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordManager.java:190: error: cannot find symbol
+            this.caches.elementAt(i).invalidate(recid);
+                                    ^
+  symbol:   method invalidate(long)
+  location: class Object
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/helper/ObjectCache.java:74: error: incompatible types: Object cannot be converted to RecordEntry
+            final RecordEntry entry = enum1.nextElement();
+                                                       ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:245: error: incompatible types: Object cannot be converted to HashDirectory
+                    this._dir = this._dirStack.pop();
+                                                  ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/hash/HashDirectory.java:246: error: incompatible types: Object cannot be converted to int
+                    this._child = this._childStack.pop();
+                                                      ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordFile.java:78: error: incompatible types: Object cannot be converted to BlockIo
+            final BlockIo node = i.next();
+                                       ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordFile.java:113: error: incompatible types: Object cannot be converted to BlockIo
+        BlockIo node = this.inTxn.get(key);
+                                     ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordFile.java:119: error: incompatible types: Object cannot be converted to BlockIo
+        node = this.dirty.get(key);
+                             ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordFile.java:127: error: incompatible types: Object cannot be converted to BlockIo
+            final BlockIo cur = i.next();
+                                      ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordFile.java:158: error: incompatible types: Object cannot be converted to BlockIo
+            retval = this.free.removeFirst();
+                                          ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/RecordFile.java:181: error: incompatible types: Object cannot be converted to BlockIo
+        final BlockIo node = this.inUse.get(new Long(blockid));
+                                           ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/TransactionManager.java:57: error: incompatible types: Object cannot be converted to BlockIo
+        for (final BlockIo cur : blocks) {
+                                 ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/TransactionManager.java:128: error: incompatible types: Object cannot be converted to BlockIo
+        for (final BlockIo cur : blocks) {
+                                 ^
+sources/structure/jdbm/jdbm/0.12/Decompiled/jdbm/recman/TransactionManager.java:154: error: incompatible types: Object cannot be converted to BlockIo
+        for (final BlockIo cur : blocks) {
+                                 ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+30 errors

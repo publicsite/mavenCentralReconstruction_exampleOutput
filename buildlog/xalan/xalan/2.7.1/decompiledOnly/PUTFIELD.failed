@@ -1,0 +1,51 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:7: error: cannot find symbol
+import org.apache.bcel.ExceptionConstants;
+                      ^
+  symbol:   class ExceptionConstants
+  location: package org.apache.bcel
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:9: error: cannot find symbol
+public class PUTFIELD extends FieldInstruction implements PopInstruction, ExceptionThrower
+                              ^
+  symbol: class FieldInstruction
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:9: error: cannot find symbol
+public class PUTFIELD extends FieldInstruction implements PopInstruction, ExceptionThrower
+                                                          ^
+  symbol: class PopInstruction
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:18: error: cannot find symbol
+    public int consumeStack(final ConstantPoolGen cpg) {
+                                  ^
+  symbol:   class ConstantPoolGen
+  location: class PUTFIELD
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:30: error: cannot find symbol
+    public void accept(final Visitor v) {
+                             ^
+  symbol:   class Visitor
+  location: class PUTFIELD
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:23: error: package ExceptionConstants does not exist
+        final Class[] cs = new Class[2 + ExceptionConstants.EXCS_FIELD_AND_METHOD_RESOLUTION.length];
+                                                           ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:24: error: cannot find symbol
+        System.arraycopy(ExceptionConstants.EXCS_FIELD_AND_METHOD_RESOLUTION, 0, cs, 0, ExceptionConstants.EXCS_FIELD_AND_METHOD_RESOLUTION.length);
+                         ^
+  symbol:   variable ExceptionConstants
+  location: class PUTFIELD
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:24: error: package ExceptionConstants does not exist
+        System.arraycopy(ExceptionConstants.EXCS_FIELD_AND_METHOD_RESOLUTION, 0, cs, 0, ExceptionConstants.EXCS_FIELD_AND_METHOD_RESOLUTION.length);
+                                                                                                          ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:25: error: package ExceptionConstants does not exist
+        cs[ExceptionConstants.EXCS_FIELD_AND_METHOD_RESOLUTION.length + 1] = ExceptionConstants.INCOMPATIBLE_CLASS_CHANGE_ERROR;
+                             ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:25: error: cannot find symbol
+        cs[ExceptionConstants.EXCS_FIELD_AND_METHOD_RESOLUTION.length + 1] = ExceptionConstants.INCOMPATIBLE_CLASS_CHANGE_ERROR;
+                                                                             ^
+  symbol:   variable ExceptionConstants
+  location: class PUTFIELD
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:26: error: package ExceptionConstants does not exist
+        cs[ExceptionConstants.EXCS_FIELD_AND_METHOD_RESOLUTION.length] = ExceptionConstants.NULL_POINTER_EXCEPTION;
+                             ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/org/apache/bcel/generic/PUTFIELD.java:26: error: cannot find symbol
+        cs[ExceptionConstants.EXCS_FIELD_AND_METHOD_RESOLUTION.length] = ExceptionConstants.NULL_POINTER_EXCEPTION;
+                                                                         ^
+  symbol:   variable ExceptionConstants
+  location: class PUTFIELD
+12 errors

@@ -1,0 +1,31 @@
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/integration/EasyMock2Adapter.java:9: error: package org.easymock does not exist
+import org.easymock.EasyMock;
+                   ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/integration/EasyMock2Adapter.java:11: error: package org.easymock does not exist
+import org.easymock.IArgumentMatcher;
+                   ^
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/integration/EasyMock2Adapter.java:13: error: cannot find symbol
+public class EasyMock2Adapter implements IArgumentMatcher
+                                         ^
+  symbol: class IArgumentMatcher
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/integration/EasyMock2Adapter.java:17: error: cannot find symbol
+    public static IArgumentMatcher adapt(final Matcher<?> matcher) {
+                  ^
+  symbol:   class IArgumentMatcher
+  location: class EasyMock2Adapter
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/integration/EasyMock2Adapter.java:19: error: cannot find symbol
+        EasyMock.reportMatcher((IArgumentMatcher)easyMock2Matcher);
+                                ^
+  symbol:   class IArgumentMatcher
+  location: class EasyMock2Adapter
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/integration/EasyMock2Adapter.java:19: error: cannot find symbol
+        EasyMock.reportMatcher((IArgumentMatcher)easyMock2Matcher);
+        ^
+  symbol:   variable EasyMock
+  location: class EasyMock2Adapter
+sources/structure/org.hamcrest/hamcrest-all/1.3/Decompiled/org/hamcrest/integration/EasyMock2Adapter.java:20: error: cannot find symbol
+        return (IArgumentMatcher)easyMock2Matcher;
+                ^
+  symbol:   class IArgumentMatcher
+  location: class EasyMock2Adapter
+7 errors

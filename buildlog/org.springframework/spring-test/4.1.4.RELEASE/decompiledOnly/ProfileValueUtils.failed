@@ -1,0 +1,79 @@
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:7: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:8: error: package org.springframework.util does not exist
+import org.springframework.util.ObjectUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:9: error: package org.springframework.util does not exist
+import org.springframework.util.StringUtils;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:11: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotationUtils;
+                                          ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:12: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:13: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:17: error: cannot find symbol
+    private static final Log logger;
+                         ^
+  symbol:   class Log
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:20: error: cannot find symbol
+        Assert.notNull((Object)testClass, "testClass must not be null");
+        ^
+  symbol:   variable Assert
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/annotation/SystemProfileValueSource.java:19: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:22: error: cannot find symbol
+        final ProfileValueSourceConfiguration config = (ProfileValueSourceConfiguration)AnnotationUtils.findAnnotation((Class)testClass, (Class)annotationType);
+                                                                                        ^
+  symbol:   variable AnnotationUtils
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:31: error: cannot find symbol
+            profileValueSourceType = (Class<? extends ProfileValueSource>)AnnotationUtils.getDefaultValue((Class)annotationType);
+                                                                          ^
+  symbol:   variable AnnotationUtils
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:55: error: cannot find symbol
+        final IfProfileValue ifProfileValue = (IfProfileValue)AnnotationUtils.findAnnotation((Class)testClass, (Class)IfProfileValue.class);
+                                                              ^
+  symbol:   variable AnnotationUtils
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:64: error: cannot find symbol
+        IfProfileValue ifProfileValue = (IfProfileValue)AnnotationUtils.findAnnotation((Class)testClass, (Class)IfProfileValue.class);
+                                                        ^
+  symbol:   variable AnnotationUtils
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:67: error: cannot find symbol
+            ifProfileValue = (IfProfileValue)AnnotationUtils.findAnnotation(testMethod, (Class)IfProfileValue.class);
+                                             ^
+  symbol:   variable AnnotationUtils
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:79: error: cannot find symbol
+        if (StringUtils.hasLength(ifProfileValue.value())) {
+            ^
+  symbol:   variable StringUtils
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:86: error: cannot find symbol
+            if (ObjectUtils.nullSafeEquals((Object)value, (Object)environmentValue)) {
+                ^
+  symbol:   variable ObjectUtils
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java:94: error: cannot find symbol
+        logger = LogFactory.getLog((Class)ProfileValueUtils.class);
+                 ^
+  symbol:   variable LogFactory
+  location: class ProfileValueUtils
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/annotation/SystemProfileValueSource.java:55: error: cannot find symbol
+		Assert.hasText(key, "'key' must not be empty");
+		^
+  symbol:   variable Assert
+  location: class SystemProfileValueSource
+Note: sources/structure/org.springframework/spring-test/4.1.4.RELEASE/Decompiled/org/springframework/test/annotation/ProfileValueUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+18 errors

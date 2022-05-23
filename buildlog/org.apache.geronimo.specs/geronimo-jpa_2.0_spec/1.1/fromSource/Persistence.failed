@@ -1,0 +1,19 @@
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/javax/persistence/Persistence.java:44: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/javax/persistence/spi/PersistenceProviderResolverHolder.java:42: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/javax/persistence/Persistence.java:210: error: cannot find symbol
+            providerClass = ProviderLocator.loadClass(providerName, Persistence.class, cl);
+                            ^
+  symbol:   variable ProviderLocator
+  location: class Persistence
+sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/javax/persistence/spi/PersistenceProviderResolverHolder.java:108: error: cannot find symbol
+                    List<Object> serviceProviders = ProviderLocator.getServices(PersistenceProvider.class.getName(), this.getClass(), cl);
+                                                    ^
+  symbol:   variable ProviderLocator
+  location: class DefaultPersistenceProviderResolver
+Note: sources/structure/org.apache.geronimo.specs/geronimo-jpa_2.0_spec/1.1/extractedSources/javax/persistence/Persistence.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+4 errors

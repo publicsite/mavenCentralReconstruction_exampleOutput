@@ -1,0 +1,80 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:10: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:11: error: package com.google.common.primitives does not exist
+import com.google.common.primitives.Chars;
+                                   ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:16: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:31: error: cannot find symbol
+            return (List<String>)ImmutableList.copyOf((Object[])elements);
+                                 ^
+  symbol:   variable ImmutableList
+  location: class ImmutableListOfGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:39: error: package ImmutableList does not exist
+            final ImmutableList.Builder<String> builder = (ImmutableList.Builder<String>)ImmutableList.builder();
+                               ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:39: error: package ImmutableList does not exist
+            final ImmutableList.Builder<String> builder = (ImmutableList.Builder<String>)ImmutableList.builder();
+                                                                        ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:39: error: cannot find symbol
+            final ImmutableList.Builder<String> builder = (ImmutableList.Builder<String>)ImmutableList.builder();
+                                                                                         ^
+  symbol:   variable ImmutableList
+  location: class BuilderAddListGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:51: error: cannot find symbol
+            return (List<String>)ImmutableList.builder().addAll((Iterable)Arrays.asList(elements)).build();
+                                 ^
+  symbol:   variable ImmutableList
+  location: class BuilderAddAllListGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:61: error: cannot find symbol
+            return (List<String>)ImmutableList.copyOf((Collection)list).reverse();
+                                 ^
+  symbol:   variable ImmutableList
+  location: class BuilderReversedListGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:73: error: cannot find symbol
+            return (List<String>)ImmutableList.copyOf((Object[])all).subList(0, elements.length);
+                                 ^
+  symbol:   variable ImmutableList
+  location: class ImmutableListHeadSubListGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:85: error: cannot find symbol
+            return (List<String>)ImmutableList.copyOf((Object[])all).subList(2, elements.length + 2);
+                                 ^
+  symbol:   variable ImmutableList
+  location: class ImmutableListTailSubListGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:99: error: cannot find symbol
+            return (List<String>)ImmutableList.copyOf((Object[])all).subList(2, elements.length + 2);
+                                 ^
+  symbol:   variable ImmutableList
+  location: class ImmutableListMiddleSubListGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:106: error: cannot find symbol
+            final char[] chars = Chars.toArray((Collection)Arrays.asList(elements));
+                                 ^
+  symbol:   variable Chars
+  location: class CharactersOfStringGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:107: error: cannot find symbol
+            return (List<Character>)Lists.charactersOf(String.copyValueOf(chars));
+                                    ^
+  symbol:   variable Lists
+  location: class CharactersOfStringGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:114: error: cannot find symbol
+            final char[] chars = Chars.toArray((Collection)Arrays.asList(elements));
+                                 ^
+  symbol:   variable Chars
+  location: class CharactersOfCharSequenceGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:117: error: cannot find symbol
+            return (List<Character>)Lists.charactersOf((CharSequence)str);
+                                    ^
+  symbol:   variable Lists
+  location: class CharactersOfCharSequenceGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/ListGenerators.java:128: error: cannot find symbol
+            return (List<UnhashableObject>)ImmutableList.copyOf((Object[])elements);
+                                           ^
+  symbol:   variable ImmutableList
+  location: class UnhashableElementsImmutableListGenerator
+17 errors

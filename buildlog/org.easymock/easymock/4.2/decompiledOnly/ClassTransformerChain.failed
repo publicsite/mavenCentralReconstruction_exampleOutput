@@ -1,0 +1,58 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:7: error: cannot find symbol
+import org.easymock.asm.MethodVisitor;
+                       ^
+  symbol:   class MethodVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:8: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:10: error: cannot find symbol
+public class ClassTransformerChain extends AbstractClassTransformer
+                                           ^
+  symbol: class AbstractClassTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:12: error: cannot find symbol
+    private ClassTransformer[] chain;
+            ^
+  symbol:   class ClassTransformer
+  location: class ClassTransformerChain
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:14: error: cannot find symbol
+    public ClassTransformerChain(final ClassTransformer[] chain) {
+                                       ^
+  symbol:   class ClassTransformer
+  location: class ClassTransformerChain
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:19: error: cannot find symbol
+    public void setTarget(final ClassVisitor v) {
+                                ^
+  symbol:   class ClassVisitor
+  location: class ClassTransformerChain
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:29: error: cannot find symbol
+    public MethodVisitor visitMethod(final int access, final String name, final String desc, final String signature, final String[] exceptions) {
+           ^
+  symbol:   class MethodVisitor
+  location: class ClassTransformerChain
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:18: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:20: error: cannot find symbol
+        super.setTarget(this.chain[0]);
+        ^
+  symbol:   variable super
+  location: class ClassTransformerChain
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:21: error: cannot find symbol
+        ClassVisitor next = v;
+        ^
+  symbol:   class ClassVisitor
+  location: class ClassTransformerChain
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:30: error: cannot find symbol
+        return this.cv.visitMethod(access, name, desc, signature, exceptions);
+                   ^
+  symbol: variable cv
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/ClassTransformerChain.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+13 errors

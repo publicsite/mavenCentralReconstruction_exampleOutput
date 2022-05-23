@@ -1,0 +1,30 @@
+hybrids/com.jamonapi/jamon/2.82/HazelcastPersisterImp.java:3: error: package com.hazelcast.core does not exist
+import com.hazelcast.core.Hazelcast;
+                         ^
+hybrids/com.jamonapi/jamon/2.82/HazelcastPersisterImp.java:4: error: package com.hazelcast.core does not exist
+import com.hazelcast.core.HazelcastInstance;
+                         ^
+hybrids/com.jamonapi/jamon/2.82/HazelcastPersisterImp.java:5: error: package com.hazelcast.core does not exist
+import com.hazelcast.core.IMap;
+                         ^
+hybrids/com.jamonapi/jamon/2.82/HazelcastPersisterImp.java:23: error: cannot find symbol
+    private IMap<String, MonitorComposite> jamonDataMap;
+            ^
+  symbol:   class IMap
+  location: class HazelcastPersisterImp
+hybrids/com.jamonapi/jamon/2.82/HazelcastPersisterImp.java:24: error: cannot find symbol
+    private HazelcastInstance hazelCast;
+            ^
+  symbol:   class HazelcastInstance
+  location: class HazelcastPersisterImp
+hybrids/com.jamonapi/jamon/2.82/HazelcastPersisterImp.java:30: error: cannot find symbol
+    public HazelcastPersisterImp(HazelcastInstance hazelCast) {
+                                 ^
+  symbol:   class HazelcastInstance
+  location: class HazelcastPersisterImp
+hybrids/com.jamonapi/jamon/2.82/HazelcastPersisterImp.java:27: error: cannot find symbol
+        hazelCast = Hazelcast.newHazelcastInstance();
+                    ^
+  symbol:   variable Hazelcast
+  location: class HazelcastPersisterImp
+7 errors

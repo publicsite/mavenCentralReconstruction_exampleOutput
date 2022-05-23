@@ -1,0 +1,17 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/jdo/JdoObjectRetrievalFailureException.java:7: error: package javax.jdo does not exist
+import javax.jdo.JDOHelper;
+                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/jdo/JdoObjectRetrievalFailureException.java:8: error: package javax.jdo does not exist
+import javax.jdo.JDOObjectNotFoundException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/jdo/JdoObjectRetrievalFailureException.java:13: error: cannot find symbol
+    public JdoObjectRetrievalFailureException(final JDOObjectNotFoundException ex) {
+                                                    ^
+  symbol:   class JDOObjectNotFoundException
+  location: class JdoObjectRetrievalFailureException
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/jdo/JdoObjectRetrievalFailureException.java:14: error: cannot find symbol
+        super((ex.getFailedObject() != null) ? ex.getFailedObject().getClass() : null, (ex.getFailedObject() != null) ? JDOHelper.getObjectId(ex.getFailedObject()) : null, ex.getMessage(), (Throwable)ex);
+                                                                                                                        ^
+  symbol:   variable JDOHelper
+  location: class JdoObjectRetrievalFailureException
+4 errors

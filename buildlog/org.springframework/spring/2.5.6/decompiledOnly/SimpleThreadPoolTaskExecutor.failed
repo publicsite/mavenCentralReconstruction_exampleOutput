@@ -1,0 +1,28 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:9: error: package org.quartz does not exist
+import org.quartz.SchedulerConfigException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:13: error: package org.quartz.simpl does not exist
+import org.quartz.simpl.SimpleThreadPool;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:15: error: cannot find symbol
+public class SimpleThreadPoolTaskExecutor extends SimpleThreadPool implements SchedulingTaskExecutor, InitializingBean, DisposableBean
+                                                  ^
+  symbol: class SimpleThreadPool
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:27: error: cannot find symbol
+    public void afterPropertiesSet() throws SchedulerConfigException {
+                                            ^
+  symbol:   class SchedulerConfigException
+  location: class SimpleThreadPoolTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:28: error: cannot find symbol
+        this.initialize();
+            ^
+  symbol: method initialize()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:33: error: cannot find symbol
+        if (!this.runInThread(task)) {
+                 ^
+  symbol: method runInThread(Runnable)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:43: error: cannot find symbol
+        this.shutdown(this.waitForJobsToCompleteOnShutdown);
+            ^
+  symbol: method shutdown(boolean)
+7 errors

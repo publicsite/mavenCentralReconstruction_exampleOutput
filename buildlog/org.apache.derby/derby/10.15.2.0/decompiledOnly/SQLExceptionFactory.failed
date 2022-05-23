@@ -1,0 +1,56 @@
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:7: error: cannot find symbol
+import org.apache.derby.shared.common.i18n.MessageService;
+                                          ^
+  symbol:   class MessageService
+  location: package org.apache.derby.shared.common.i18n
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:17: error: cannot find symbol
+import org.apache.derby.shared.common.error.StandardException;
+                                           ^
+  symbol:   class StandardException
+  location: package org.apache.derby.shared.common.error
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:76: error: cannot find symbol
+    private StandardException wrapArgsForTransportAcrossDRDA(final String s, final Throwable t, final Object[] array) {
+            ^
+  symbol:   class StandardException
+  location: class SQLExceptionFactory
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:24: error: cannot find symbol
+        final String sqlStateFromIdentifier = StandardException.getSQLStateFromIdentifier(s);
+                                              ^
+  symbol:   variable StandardException
+  location: class SQLExceptionFactory
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:25: error: cannot find symbol
+        final StandardException wrapArgsForTransportAcrossDRDA = this.wrapArgsForTransportAcrossDRDA(s, t, array);
+              ^
+  symbol:   class StandardException
+  location: class SQLExceptionFactory
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:73: error: cannot find symbol
+        return this.getSQLException(MessageService.getTextMessage(s, array), s, ex, StandardException.getSeverityFromIdentifier(s), t, array);
+                                    ^
+  symbol:   variable MessageService
+  location: class SQLExceptionFactory
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:73: error: cannot find symbol
+        return this.getSQLException(MessageService.getTextMessage(s, array), s, ex, StandardException.getSeverityFromIdentifier(s), t, array);
+                                                                                    ^
+  symbol:   variable StandardException
+  location: class SQLExceptionFactory
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:77: error: cannot find symbol
+        if (t instanceof StandardException) {
+                         ^
+  symbol:   class StandardException
+  location: class SQLExceptionFactory
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:78: error: cannot find symbol
+            final StandardException ex = (StandardException)t;
+                  ^
+  symbol:   class StandardException
+  location: class SQLExceptionFactory
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:78: error: cannot find symbol
+            final StandardException ex = (StandardException)t;
+                                          ^
+  symbol:   class StandardException
+  location: class SQLExceptionFactory
+sources/structure/org.apache.derby/derby/10.15.2.0/Decompiled/org/apache/derby/impl/jdbc/SQLExceptionFactory.java:83: error: cannot find symbol
+        return StandardException.newException(s, t, array);
+               ^
+  symbol:   variable StandardException
+  location: class SQLExceptionFactory
+11 errors

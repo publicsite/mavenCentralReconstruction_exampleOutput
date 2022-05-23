@@ -1,0 +1,23 @@
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/service/event/Event.java:9: error: package org.osgi.framework does not exist
+import org.osgi.framework.Filter;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/service/event/Event.java:69: error: cannot find symbol
+    public final boolean matches(final Filter filter) {
+                                       ^
+  symbol:   class Filter
+  location: class Event
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/service/event/Event.java:24: error: incompatible types: INT#1 cannot be converted to int
+        final int size = (properties == null) ? true : (properties.size() + 1);
+                                              ^
+  where INT#1,INT#2 are intersection types:
+    INT#1 extends Object,Serializable,Comparable<? extends INT#2>
+    INT#2 extends Object,Serializable,Comparable<?>
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/service/event/Event.java:41: error: incompatible types: INT#1 cannot be converted to int
+        final int size = (properties == null) ? true : (properties.size() + 1);
+                                              ^
+  where INT#1,INT#2 are intersection types:
+    INT#1 extends Object,Serializable,Comparable<? extends INT#2>
+    INT#2 extends Object,Serializable,Comparable<?>
+Note: sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/service/event/Event.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors

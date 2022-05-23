@@ -1,0 +1,38 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestSuite.java:8: error: cannot find symbol
+import org.codehaus.groovy.runtime.ScriptTestAdapter;
+                                  ^
+  symbol:   class ScriptTestAdapter
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestSuite.java:9: error: cannot find symbol
+import groovy.lang.Script;
+                  ^
+  symbol:   class Script
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestSuite.java:12: error: cannot find symbol
+import groovy.lang.GroovyClassLoader;
+                  ^
+  symbol:   class GroovyClassLoader
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestSuite.java:18: error: cannot find symbol
+    protected final GroovyClassLoader loader;
+                    ^
+  symbol:   class GroovyClassLoader
+  location: class GroovyTestSuite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestSuite.java:21: error: cannot find symbol
+        this.loader = new GroovyClassLoader(GroovyTestSuite.class.getClassLoader());
+                          ^
+  symbol:   class GroovyClassLoader
+  location: class GroovyTestSuite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestSuite.java:50: error: cannot find symbol
+        if (!Test.class.isAssignableFrom(type) && Script.class.isAssignableFrom(type)) {
+                                                  ^
+  symbol:   class Script
+  location: class GroovyTestSuite
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestSuite.java:51: error: cannot find symbol
+            this.addTest((Test)new ScriptTestAdapter(type, args));
+                                   ^
+  symbol:   class ScriptTestAdapter
+  location: class GroovyTestSuite
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/GroovyTestSuite.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+7 errors

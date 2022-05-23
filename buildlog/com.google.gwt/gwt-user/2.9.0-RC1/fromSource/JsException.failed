@@ -1,0 +1,19 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/JsException.java:16: error: package exists in another module: java.base
+package java.lang;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/JsException.java:30: error: no suitable constructor found for RuntimeException(Object)
+    super(backingJsObject);
+    ^
+    constructor RuntimeException.RuntimeException(String) is not applicable
+      (argument mismatch; Object cannot be converted to String)
+    constructor RuntimeException.RuntimeException(Throwable) is not applicable
+      (argument mismatch; Object cannot be converted to Throwable)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/JsException.java:43: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/JsException.java:45: error: cannot find symbol
+    super.privateInitError(backingJsObject == UNINITIALIZED ? error : backingJsObject);
+         ^
+  symbol: method privateInitError(backingJsO[...]bject)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+4 errors

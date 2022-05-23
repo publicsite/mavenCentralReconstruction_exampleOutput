@@ -1,0 +1,48 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:8: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:11: error: package ElementMatcher.Junction does not exist
+public class SubTypeMatcher<T extends TypeDescription> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                      ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:10: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:11: error: cannot find symbol
+public class SubTypeMatcher<T extends TypeDescription> extends ElementMatcher.Junction.AbstractBase<T>
+                                      ^
+  symbol: class TypeDescription
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:13: error: cannot find symbol
+    private final TypeDescription typeDescription;
+                  ^
+  symbol:   class TypeDescription
+  location: class SubTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class SubTypeMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:15: error: cannot find symbol
+    public SubTypeMatcher(final TypeDescription typeDescription) {
+                                ^
+  symbol:   class TypeDescription
+  location: class SubTypeMatcher<T>
+  where T is a type-variable:
+    T declared in class SubTypeMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:23: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:30: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.typeDescription.equals(((SubTypeMatcher)o).typeDescription));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/SubTypeMatcher.java:35: error: cannot find symbol
+        return this.getClass().hashCode() * 31 + this.typeDescription.hashCode();
+                   ^
+  symbol: method getClass()
+12 errors

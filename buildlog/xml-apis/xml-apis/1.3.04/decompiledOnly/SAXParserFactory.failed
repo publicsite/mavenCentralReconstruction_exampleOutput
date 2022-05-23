@@ -1,0 +1,10 @@
+sources/structure/xml-apis/xml-apis/1.3.04/Decompiled/javax/xml/parsers/SAXParserFactory.java:5: error: package exists in another module: java.xml
+package javax.xml.parsers;
+^
+sources/structure/xml-apis/xml-apis/1.3.04/Decompiled/javax/xml/parsers/SAXParserFactory.java:24: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            return (SAXParserFactory)FactoryFinder.find("javax.xml.parsers.SAXParserFactory", "org.apache.xerces.jaxp.SAXParserFactoryImpl");
+                                     ^
+sources/structure/xml-apis/xml-apis/1.3.04/Decompiled/javax/xml/parsers/SAXParserFactory.java:26: error: package FactoryFinder does not exist
+        catch (FactoryFinder.ConfigurationError configurationError) {
+                            ^
+3 errors

@@ -1,0 +1,12 @@
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/namespace/QName.java:20: error: package exists in another module: java.xml
+package javax.xml.namespace;
+^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/namespace/QName.java:332: error: localPart has private access in QName
+            return localPart.equals(qName.localPart) && namespaceURI.equals(qName.namespaceURI);
+                                         ^
+sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/namespace/QName.java:332: error: namespaceURI has private access in QName
+            return localPart.equals(qName.localPart) && namespaceURI.equals(qName.namespaceURI);
+                                                                                 ^
+Note: sources/structure/xml-apis/xml-apis/1.4.01/extractedSources/javax/xml/namespace/QName.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors

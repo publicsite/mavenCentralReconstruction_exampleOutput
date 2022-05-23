@@ -1,0 +1,75 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:362: error: cannot find symbol
+			extends edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap
+			                                                      ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:100: error: incompatible types: Object cannot be converted to ObjectFactory
+                    final ObjectFactory singletonFactory = this.singletonFactories.get(beanName);
+                                                                                      ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:135: error: incompatible types: Object cannot be converted to Throwable
+                            ex.addRelatedCause(it.next());
+                                                      ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:209: error: incompatible types: Object cannot be converted to Set
+            Set containedBeans = this.containedBeanMap.get(containingBeanName);
+                                                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:221: error: incompatible types: Object cannot be converted to Set
+            Set dependentBeans = this.dependentBeanMap.get(beanName);
+                                                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:229: error: incompatible types: Object cannot be converted to Set
+            Set dependenciesForBean = this.dependenciesForBeanMap.get(dependentBeanName);
+                                                                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:243: error: incompatible types: Object cannot be converted to Set
+        final Set dependentBeans = this.dependentBeanMap.get(beanName);
+                                                            ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:247: error: incompatible types: Object[] cannot be converted to String[]
+        return dependentBeans.toArray(new String[dependentBeans.size()]);
+                                     ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:251: error: incompatible types: Object cannot be converted to Set
+        final Set dependenciesForBean = this.dependenciesForBeanMap.get(beanName);
+                                                                       ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:255: error: incompatible types: Object[] cannot be converted to String[]
+        return dependenciesForBean.toArray(new String[dependenciesForBean.size()]);
+                                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:287: error: incompatible types: Object cannot be converted to DisposableBean
+            disposableBean = this.disposableBeans.remove(beanName);
+                                                        ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:293: error: incompatible types: Object cannot be converted to Set
+        final Set dependencies = this.dependentBeanMap.remove(beanName);
+                                                             ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:298: error: incompatible types: Object cannot be converted to String
+            for (final String dependentBeanName : dependencies) {
+                                                  ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:310: error: incompatible types: Object cannot be converted to Set
+        final Set containedBeans = this.containedBeanMap.remove(beanName);
+                                                               ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:312: error: incompatible types: Object cannot be converted to String
+            for (final String containedBeanName : containedBeans) {
+                                                  ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:319: error: incompatible types: Object cannot be converted to Entry
+                final Map.Entry entry = it3.next();
+                                                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java:320: error: incompatible types: Object cannot be converted to Set
+                final Set dependenciesToClean = entry.getValue();
+                                                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:110: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Set createLinkedSetIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:147: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createLinkedMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:179: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static Map createIdentityMapIfPossible(int initialCapacity) {
+	                  ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:342: error: cannot find symbol
+			return new edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap(initialCapacity);
+			                                                         ^
+  symbol:   class ConcurrentHashMap
+  location: package edu.emory.mathcs.backport.java.util.concurrent
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/core/CollectionFactory.java:361: error: BackportConcurrentHashMap is not abstract and does not override abstract method replace(Object,Object) in ConcurrentMap
+	private static class BackportConcurrentHashMap
+	               ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+19 errors
+3 warnings

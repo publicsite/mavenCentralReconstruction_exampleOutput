@@ -1,0 +1,47 @@
+hybrids/commons-logging/commons-logging/1.0.4/Log4jFactory.java:27: error: cannot find symbol
+import org.apache.log4j.Logger;
+                       ^
+  symbol:   class Logger
+  location: package org.apache.log4j
+sources/structure/commons-logging/commons-logging/1.0.4/extractedSources/org/apache/commons/logging/impl/Log4JLogger.java:22: error: cannot find symbol
+import org.apache.log4j.Logger;
+                       ^
+  symbol:   class Logger
+  location: package org.apache.log4j
+sources/structure/commons-logging/commons-logging/1.0.4/extractedSources/org/apache/commons/logging/impl/Log4JLogger.java:48: error: cannot find symbol
+    private transient Logger logger = null;
+                      ^
+  symbol:   class Logger
+  location: class Log4JLogger
+sources/structure/commons-logging/commons-logging/1.0.4/extractedSources/org/apache/commons/logging/impl/Log4JLogger.java:70: error: cannot find symbol
+    public Log4JLogger(Logger logger ) {
+                       ^
+  symbol:   class Logger
+  location: class Log4JLogger
+sources/structure/commons-logging/commons-logging/1.0.4/extractedSources/org/apache/commons/logging/impl/Log4JLogger.java:227: error: cannot find symbol
+    public Logger getLogger() {
+           ^
+  symbol:   class Logger
+  location: class Log4JLogger
+hybrids/commons-logging/commons-logging/1.0.4/Log4jFactory.java:101: error: cannot find symbol
+        instance=new Log4JLogger( Logger.getLogger( clazz ));
+                                  ^
+  symbol:   variable Logger
+  location: class Log4jFactory
+hybrids/commons-logging/commons-logging/1.0.4/Log4jFactory.java:114: error: cannot find symbol
+        instance=new Log4JLogger( Logger.getLogger( name ));
+                                  ^
+  symbol:   variable Logger
+  location: class Log4jFactory
+hybrids/commons-logging/commons-logging/1.0.4/Log4jFactory.java:39: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public final class Log4jFactory extends LogFactory {
+             ^
+sources/structure/commons-logging/commons-logging/1.0.4/extractedSources/org/apache/commons/logging/impl/Log4JLogger.java:229: error: cannot find symbol
+            logger = Logger.getLogger(name);
+                     ^
+  symbol:   variable Logger
+  location: class Log4JLogger
+Note: hybrids/commons-logging/commons-logging/1.0.4/Log4jFactory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors
+1 warning

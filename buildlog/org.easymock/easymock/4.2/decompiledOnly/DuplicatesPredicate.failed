@@ -1,0 +1,78 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:7: error: cannot find symbol
+import org.easymock.asm.MethodVisitor;
+                       ^
+  symbol:   class MethodVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:13: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:14: error: cannot find symbol
+import org.easymock.asm.ClassReader;
+                       ^
+  symbol:   class ClassReader
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:97: error: cannot find symbol
+    private static class UnnecessaryBridgeFinder extends ClassVisitor
+                                                         ^
+  symbol:   class ClassVisitor
+  location: class DuplicatesPredicate
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:119: error: cannot find symbol
+        public MethodVisitor visitMethod(final int access, final String name, final String desc, final String signature, final String[] exceptions) {
+               ^
+  symbol:   class MethodVisitor
+  location: class UnnecessaryBridgeFinder
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:39: error: cannot find symbol
+            final Object sig = MethodWrapper.create(method);
+                               ^
+  symbol:   variable MethodWrapper
+  location: class DuplicatesPredicate
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:40: error: incompatible types: Object cannot be converted to Method
+            final Method existing = scanned.get(sig);
+                                               ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:71: error: cannot find symbol
+                        new ClassReader(is).accept(finder, 6);
+                            ^
+  symbol:   class ClassReader
+  location: class DuplicatesPredicate
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:83: error: cannot find symbol
+        return !this.rejected.contains(arg) && this.unique.add(MethodWrapper.create((Method)arg));
+                                                               ^
+  symbol:   variable MethodWrapper
+  location: class DuplicatesPredicate
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:104: error: cannot find symbol
+            super(Constants.ASM_API);
+                  ^
+  symbol:   variable Constants
+  location: class UnnecessaryBridgeFinder
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:111: error: cannot find symbol
+            this.methods.put(ReflectUtils.getSignature(m), m);
+                             ^
+  symbol:   variable ReflectUtils
+  location: class UnnecessaryBridgeFinder
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:114: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:118: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:121: error: incompatible types: Object cannot be converted to Method
+            final Method currentMethod = this.methods.remove(sig);
+                                                            ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:124: error: cannot find symbol
+                return new MethodVisitor(Constants.ASM_API) {
+                           ^
+  symbol:   class MethodVisitor
+  location: class UnnecessaryBridgeFinder
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:124: error: cannot find symbol
+                return new MethodVisitor(Constants.ASM_API) {
+                                         ^
+  symbol:   variable Constants
+  location: class UnnecessaryBridgeFinder
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java:125: error: method does not override or implement a method from a supertype
+                    @Override
+                    ^
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DuplicatesPredicate.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+17 errors

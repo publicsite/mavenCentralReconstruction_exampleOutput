@@ -1,0 +1,67 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:9: error: cannot find symbol
+import groovy.lang.MetaMethod;
+                  ^
+  symbol:   class MetaMethod
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:10: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:12: error: cannot find symbol
+public class MethodClosure extends Closure
+                                   ^
+  symbol: class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:20: error: cannot find symbol
+        this.maximumNumberOfParameters = 0;
+            ^
+  symbol: variable maximumNumberOfParameters
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:21: error: cannot find symbol
+        this.parameterTypes = new Class[0];
+            ^
+  symbol: variable parameterTypes
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:22: error: cannot find symbol
+        final List<MetaMethod> methods = InvokerHelper.getMetaClass(clazz).respondsTo(owner, method);
+                   ^
+  symbol:   class MetaMethod
+  location: class MethodClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:22: error: cannot find symbol
+        final List<MetaMethod> methods = InvokerHelper.getMetaClass(clazz).respondsTo(owner, method);
+                                         ^
+  symbol:   variable InvokerHelper
+  location: class MethodClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:23: error: cannot find symbol
+        for (final MetaMethod m : methods) {
+                   ^
+  symbol:   class MetaMethod
+  location: class MethodClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:24: error: cannot find symbol
+            if (m.getParameterTypes().length > this.maximumNumberOfParameters) {
+                                                   ^
+  symbol: variable maximumNumberOfParameters
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:26: error: cannot find symbol
+                this.maximumNumberOfParameters = pt.length;
+                    ^
+  symbol: variable maximumNumberOfParameters
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:27: error: cannot find symbol
+                this.parameterTypes = pt;
+                    ^
+  symbol: variable parameterTypes
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:37: error: cannot find symbol
+        return InvokerHelper.invokeMethod(this.getOwner(), this.method, arguments);
+               ^
+  symbol:   variable InvokerHelper
+  location: class MethodClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:37: error: cannot find symbol
+        return InvokerHelper.invokeMethod(this.getOwner(), this.method, arguments);
+                                              ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:40: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/MethodClosure.java:45: error: cannot find symbol
+        return super.getProperty(property);
+               ^
+  symbol:   variable super
+  location: class MethodClosure
+15 errors

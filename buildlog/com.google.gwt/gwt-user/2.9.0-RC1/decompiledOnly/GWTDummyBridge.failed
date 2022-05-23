@@ -1,0 +1,30 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/junit/GWTDummyBridge.java:8: error: package com.google.gwt.dev does not exist
+import com.google.gwt.dev.About;
+                         ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/junit/GWTDummyBridge.java:11: error: cannot find symbol
+import com.google.gwt.core.client.GWTBridge;
+                                 ^
+  symbol:   class GWTBridge
+  location: package com.google.gwt.core.client
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/junit/GWTDummyBridge.java:13: error: cannot find symbol
+class GWTDummyBridge extends GWTBridge
+                             ^
+  symbol: class GWTBridge
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/junit/GWTDummyBridge.java:24: error: method create in class FakeMessagesMaker cannot be applied to given types;
+            return FakeMessagesMaker.create(classLiteral);
+                                    ^
+  required: Class<T>
+  found: Class<CAP#1>
+  reason: inference variable T has incompatible bounds
+    equality constraints: CAP#1
+    lower bounds: Messages
+  where T is a type-variable:
+    T extends Messages declared in method <T>create(Class<T>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/junit/GWTDummyBridge.java:34: error: cannot find symbol
+        return About.getGwtVersionNum();
+               ^
+  symbol:   variable About
+  location: class GWTDummyBridge
+5 errors

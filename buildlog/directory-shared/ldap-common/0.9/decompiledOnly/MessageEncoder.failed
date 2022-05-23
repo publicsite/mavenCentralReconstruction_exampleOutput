@@ -1,0 +1,48 @@
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/util/StringTools.java:12: error: cannot find symbol
+import org.apache.regexp.RE;
+                        ^
+  symbol:   class RE
+  location: package org.apache.regexp
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/util/StringTools.java:159: error: cannot find symbol
+    public static RE getRegex(final String a_initial, final String[] a_any, final String a_final) throws RESyntaxException {
+                  ^
+  symbol:   class RE
+  location: class StringTools
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/util/StringTools.java:175: error: cannot find symbol
+    public static RE getRegex(final String a_ldapRegex) throws RESyntaxException {
+                  ^
+  symbol:   class RE
+  location: class StringTools
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/message/spi/Provider.java:38: error: incompatible types: Object cannot be converted to ProviderMonitor
+                    Provider.monitor = mc.newInstance();
+                                                     ^
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/message/spi/Provider.java:81: error: incompatible types: Object cannot be converted to String
+        final String className = a_env.get("asn.1.berlib.provider");
+                                          ^
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/message/spi/Provider.java:123: error: no suitable constructor found for File(Object)
+            final File dir = new File(paths.get(ii));
+                             ^
+    constructor File.File(String) is not applicable
+      (argument mismatch; Object cannot be converted to String)
+    constructor File.File(URI) is not applicable
+      (argument mismatch; Object cannot be converted to URI)
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/RuntimeMultiException.java:48: error: incompatible types: Object cannot be converted to Throwable
+            l_throwable = l_list.next();
+                                     ^
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/RuntimeMultiException.java:65: error: incompatible types: Object cannot be converted to Throwable
+            l_throwable = l_list.next();
+                                     ^
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/util/StringTools.java:172: error: cannot find symbol
+        return new RE(l_buf.toString());
+                   ^
+  symbol:   class RE
+  location: class StringTools
+sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/util/StringTools.java:199: error: incompatible types: Object cannot be converted to String
+                l_anyStrs[ii] = l_any.get(ii);
+                                         ^
+Note: sources/structure/directory-shared/ldap-common/0.9/Decompiled/org/apache/ldap/common/message/spi/Provider.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+10 errors

@@ -1,0 +1,50 @@
+hybrids/org.hamcrest/hamcrest/2.2/IsArrayContainingInOrder.java:54: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public static <E> Matcher<E[]> arrayContaining(final E... items) {
+                                   ^
+hybrids/org.hamcrest/hamcrest/2.2/IsArrayContainingInOrder.java:57: error: cannot find symbol
+            matchers.add(IsEqual.equalTo(item));
+                         ^
+  symbol:   variable IsEqual
+  location: class IsArrayContainingInOrder<E>
+  where E is a type-variable:
+    E extends Object declared in class IsArrayContainingInOrder
+hybrids/org.hamcrest/hamcrest/2.2/IsArrayContainingInOrder.java:75: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public static <E> Matcher<E[]> arrayContaining(Matcher<? super E>... itemMatchers) {
+                                   ^
+hybrids/org.hamcrest/hamcrest/2.2/IsArrayContainingInOrder.java:76: error: incompatible types: inference variable E#1 has incompatible bounds
+        return arrayContaining(asList(itemMatchers));
+                              ^
+    equality constraints: E#2
+    lower bounds: List<T>
+  where E#1,E#2,T are type-variables:
+    E#1 extends Object declared in method <E#1>arrayContaining(E#1...)
+    E#2 extends Object declared in method <E#2>arrayContaining(Matcher<? super E#2>...)
+    T extends Object declared in method <T>asList(T...)
+hybrids/org.hamcrest/hamcrest/2.2/IsArrayContainingInOrder.java:92: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+    public static <E> Matcher<E[]> arrayContaining(List<Matcher<? super E>> itemMatchers) {
+                                   ^
+hybrids/org.hamcrest/hamcrest/2.2/IsArrayContainingInOrder.java:17: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+public class IsArrayContainingInOrder<E> extends TypeSafeMatcher<E[]> {
+       ^
+sources/structure/org.hamcrest/hamcrest/2.2/extractedSources/org/hamcrest/collection/ArrayMatching.java:70: error: incompatible types: inference variable E#1 has incompatible bounds
+      return arrayContainingInAnyOrder(asList(itemMatchers));
+                                      ^
+    equality constraints: E#2
+    lower bounds: List<T>
+  where E#1,E#2,T are type-variables:
+    E#1 extends Object declared in method <E#1>arrayContainingInAnyOrder(E#1...)
+    E#2 extends Object declared in method <E#2>arrayContainingInAnyOrder(Matcher<? super E#2>...)
+    T extends Object declared in method <T>asList(T...)
+sources/structure/org.hamcrest/hamcrest/2.2/extractedSources/org/hamcrest/collection/IsIterableContainingInAnyOrder.java:101: error: incompatible types: inference variable T#1 has incompatible bounds
+        return containsInAnyOrder(Arrays.asList(itemMatchers));
+                                 ^
+    equality constraints: T#2
+    lower bounds: List<T#3>
+  where T#1,T#2,T#3 are type-variables:
+    T#1 extends Object declared in method <T#1>containsInAnyOrder(T#1...)
+    T#2 extends Object declared in method <T#2>containsInAnyOrder(Matcher<? super T#2>...)
+    T#3 extends Object declared in method <T#3>asList(T#3...)
+Note: hybrids/org.hamcrest/hamcrest/2.2/IsArrayContainingInOrder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors
+4 warnings

@@ -1,0 +1,277 @@
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:84: error: ';' expected
+    throws IntrospectionException
+                                 ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:90: error: illegal start of type
+            for( int i = 0, len = pds.length; i < len; ++i)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:90: error: > expected
+            for( int i = 0, len = pds.length; i < len; ++i)
+                                                     ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:90: error: illegal start of type
+            for( int i = 0, len = pds.length; i < len; ++i)
+                                                       ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:90: error: <identifier> expected
+            for( int i = 0, len = pds.length; i < len; ++i)
+                                                          ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:128: error: class, interface, or enum expected
+        catch ( IntrospectionException e )
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:129: error: class, interface, or enum expected
+        { throw e; }
+                   ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:136: error: class, interface, or enum expected
+            throw new IntrospectionException( e.getMessage() );
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:137: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:140: error: class, interface, or enum expected
+    public static void overwriteAccessiblePropertiesFromMap( Map sourceMap, Object destBean, boolean skip_nulls )
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:142: error: class, interface, or enum expected
+    { overwriteAccessiblePropertiesFromMap( sourceMap, destBean, skip_nulls, Collections.EMPTY_SET ); }
+                                                                                                      ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:144: error: class, interface, or enum expected
+    public static void overwriteAccessiblePropertiesFromMap( Map sourceMap, Object destBean, boolean skip_nulls, Collection ignoreProps )
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:155: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:157: error: class, interface, or enum expected
+    public static void overwriteAccessiblePropertiesFromMap( Map sourceMap, 
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:169: error: class, interface, or enum expected
+        if (cantCoerceLevel == null)
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:172: error: class, interface, or enum expected
+        Set sourceMapProps = sourceMap.keySet();
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:174: error: class, interface, or enum expected
+        String propName = null;
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:175: error: class, interface, or enum expected
+        BeanInfo beanInfo = Introspector.getBeanInfo( destBean.getClass(), Object.class ); //so we don't see message about getClass()
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:175: error: <identifier> expected
+        BeanInfo beanInfo = Introspector.getBeanInfo( destBean.getClass(), Object.class ); //so we don't see message about getClass()
+                                                                                       ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:178: error: illegal start of type
+        for( int i = 0, len = pds.length; i < len; ++i)
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:178: error: > expected
+        for( int i = 0, len = pds.length; i < len; ++i)
+                                                 ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:178: error: illegal start of type
+        for( int i = 0, len = pds.length; i < len; ++i)
+                                                   ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:178: error: <identifier> expected
+        for( int i = 0, len = pds.length; i < len; ++i)
+                                                      ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:321: error: class, interface, or enum expected
+    public static void appendPropNamesAndValues(StringBuffer appendIntoMe, Object bean, Collection ignoreProps) throws IntrospectionException
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:324: error: class, interface, or enum expected
+        extractAccessiblePropertiesToMap( tmp, bean, ignoreProps );
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:325: error: class, interface, or enum expected
+        boolean first = true;
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:326: error: class, interface, or enum expected
+        for (Iterator ii = tmp.keySet().iterator(); ii.hasNext(); )
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:326: error: class, interface, or enum expected
+        for (Iterator ii = tmp.keySet().iterator(); ii.hasNext(); )
+                                                    ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:326: error: class, interface, or enum expected
+        for (Iterator ii = tmp.keySet().iterator(); ii.hasNext(); )
+                                                                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:329: error: class, interface, or enum expected
+            Object val = tmp.get( key );
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:330: error: class, interface, or enum expected
+            if (first)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:332: error: class, interface, or enum expected
+            else
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:334: error: class, interface, or enum expected
+            appendIntoMe.append( key );
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:335: error: class, interface, or enum expected
+            appendIntoMe.append( " -> ");
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:336: error: class, interface, or enum expected
+            appendIntoMe.append( val );
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:337: error: class, interface, or enum expected
+        }
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:341: error: class, interface, or enum expected
+    public static void extractAccessiblePropertiesToMap( Map fillMe, Object bean ) throws IntrospectionException
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:342: error: class, interface, or enum expected
+    { extractAccessiblePropertiesToMap( fillMe, bean, Collections.EMPTY_SET ); }
+                                                                               ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:344: error: class, interface, or enum expected
+    public static void extractAccessiblePropertiesToMap( Map fillMe, Object bean, Collection ignoreProps ) throws IntrospectionException
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:347: error: class, interface, or enum expected
+        try
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:349: error: <identifier> expected
+            BeanInfo bi = Introspector.getBeanInfo( bean.getClass(), Object.class );
+                                                                                 ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:351: error: illegal start of type
+            for (int i = 0, len = pds.length; i < len; ++i)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:351: error: > expected
+            for (int i = 0, len = pds.length; i < len; ++i)
+                                                     ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:351: error: illegal start of type
+            for (int i = 0, len = pds.length; i < len; ++i)
+                                                       ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:351: error: <identifier> expected
+            for (int i = 0, len = pds.length; i < len; ++i)
+                                                          ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:363: error: class, interface, or enum expected
+        catch ( IntrospectionException e )
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:369: error: class, interface, or enum expected
+            if (Debug.DEBUG && Debug.TRACE >= Debug.TRACE_MED && logger.isLoggable( MLevel.FINE ))
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:371: error: <identifier> expected
+                                BeansUtils.class.getName(),
+                                                ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:375: error: illegal start of type
+            throw e; 
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:375: error: <identifier> expected
+            throw e; 
+                   ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:377: error: class, interface, or enum expected
+        catch ( Exception e )
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:382: error: <identifier> expected
+                                BeansUtils.class.getName(),
+                                                ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:386: error: illegal start of type
+            throw new IntrospectionException( e.toString() + (propName == null ? "" : " [" + propName + ']') );
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:386: error: invalid method declaration; return type required
+            throw new IntrospectionException( e.toString() + (propName == null ? "" : " [" + propName + ']') );
+                      ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:386: error: <identifier> expected
+            throw new IntrospectionException( e.toString() + (propName == null ? "" : " [" + propName + ']') );
+                                                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:388: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:395: error: class, interface, or enum expected
+        else
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:397: error: <identifier> expected
+            BeanInfo beanInfo = Introspector.getBeanInfo( target.getClass(), Object.class );
+                                                                                         ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:401: error: illegal start of type
+            for( int i = 0, len = pds.length; i < len; ++i)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:401: error: > expected
+            for( int i = 0, len = pds.length; i < len; ++i)
+                                                     ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:401: error: illegal start of type
+            for( int i = 0, len = pds.length; i < len; ++i)
+                                                       ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:401: error: <identifier> expected
+            for( int i = 0, len = pds.length; i < len; ++i)
+                                                          ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:402: error: <identifier> expected
+                if (propName.equals( pds[i].getName() ))
+                                   ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:402: error: ']' expected
+                if (propName.equals( pds[i].getName() ))
+                                         ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:402: error: ',', ')', or '[' expected
+                if (propName.equals( pds[i].getName() ))
+                                          ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:409: error: <identifier> expected
+            targetSetter.invoke( target, new Object[] { value } );
+                               ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:409: error: <identifier> expected
+            targetSetter.invoke( target, new Object[] { value } );
+                                       ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:409: error: illegal start of type
+            targetSetter.invoke( target, new Object[] { value } );
+                                         ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:409: error: not a statement
+            targetSetter.invoke( target, new Object[] { value } );
+                                                        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:409: error: ';' expected
+            targetSetter.invoke( target, new Object[] { value } );
+                                                             ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:409: error: illegal start of type
+            targetSetter.invoke( target, new Object[] { value } );
+                                                                ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:411: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:414: error: class, interface, or enum expected
+    public static void overwriteSpecificAccessibleProperties( Object sourceBean, Object destBean, Collection props )
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:421: error: class, interface, or enum expected
+            BeanInfo beanInfo = Introspector.getBeanInfo( sourceBean.getClass(), Object.class ); //so we don't see message about getClass()
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:421: error: <identifier> expected
+            BeanInfo beanInfo = Introspector.getBeanInfo( sourceBean.getClass(), Object.class ); //so we don't see message about getClass()
+                                                                                             ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:423: error: illegal start of type
+            for( int i = 0, len = pds.length; i < len; ++i)
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:423: error: > expected
+            for( int i = 0, len = pds.length; i < len; ++i)
+                                                     ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:423: error: illegal start of type
+            for( int i = 0, len = pds.length; i < len; ++i)
+                                                       ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:423: error: <identifier> expected
+            for( int i = 0, len = pds.length; i < len; ++i)
+                                                          ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:461: error: illegal start of type
+            if ( logger.isLoggable( MLevel.WARNING ) )
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:461: error: <identifier> expected
+            if ( logger.isLoggable( MLevel.WARNING ) )
+                                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:461: error: <identifier> expected
+            if ( logger.isLoggable( MLevel.WARNING ) )
+                                                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:461: error: ';' expected
+            if ( logger.isLoggable( MLevel.WARNING ) )
+                                                    ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:468: error: class, interface, or enum expected
+        catch ( IntrospectionException e )
+        ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:469: error: class, interface, or enum expected
+        { throw e; }
+                   ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:475: error: <identifier> expected
+                                BeansUtils.class.getName(),
+                                                ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:479: error: illegal start of type
+            throw new IntrospectionException( e.getMessage() );
+            ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:479: error: invalid method declaration; return type required
+            throw new IntrospectionException( e.getMessage() );
+                      ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:479: error: <identifier> expected
+            throw new IntrospectionException( e.getMessage() );
+                                                          ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:481: error: class, interface, or enum expected
+    }
+    ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:483: error: class, interface, or enum expected
+    public static void debugShowPropertyChange( PropertyChangeEvent evt )
+                  ^
+hybrids/c3p0/c3p0/0.9.1.2/BeansUtils.java:489: error: class, interface, or enum expected
+    }
+    ^
+92 errors

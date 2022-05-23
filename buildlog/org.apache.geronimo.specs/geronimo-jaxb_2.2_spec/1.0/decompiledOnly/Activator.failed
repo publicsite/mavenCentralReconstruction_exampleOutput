@@ -1,0 +1,44 @@
+sources/structure/org.apache.geronimo.specs/geronimo-jaxb_2.2_spec/1.0/Decompiled/org/apache/geronimo/osgi/locator/Activator.java:7: error: package org.osgi.framework does not exist
+import org.osgi.framework.BundleEvent;
+                         ^
+sources/structure/org.apache.geronimo.specs/geronimo-jaxb_2.2_spec/1.0/Decompiled/org/apache/geronimo/osgi/locator/Activator.java:8: error: package org.osgi.framework does not exist
+import org.osgi.framework.BundleContext;
+                         ^
+sources/structure/org.apache.geronimo.specs/geronimo-jaxb_2.2_spec/1.0/Decompiled/org/apache/geronimo/osgi/locator/Activator.java:9: error: package org.osgi.framework does not exist
+import org.osgi.framework.BundleActivator;
+                         ^
+sources/structure/org.apache.geronimo.specs/geronimo-jaxb_2.2_spec/1.0/Decompiled/org/apache/geronimo/osgi/locator/Activator.java:11: error: cannot find symbol
+public class Activator implements BundleActivator
+                                  ^
+  symbol: class BundleActivator
+sources/structure/org.apache.geronimo.specs/geronimo-jaxb_2.2_spec/1.0/Decompiled/org/apache/geronimo/osgi/locator/Activator.java:13: error: cannot find symbol
+    protected BundleContext bundleContext;
+              ^
+  symbol:   class BundleContext
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-jaxb_2.2_spec/1.0/Decompiled/org/apache/geronimo/osgi/locator/Activator.java:15: error: cannot find symbol
+    public synchronized void start(final BundleContext bundleContext) throws Exception {
+                                         ^
+  symbol:   class BundleContext
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-jaxb_2.2_spec/1.0/Decompiled/org/apache/geronimo/osgi/locator/Activator.java:19: error: cannot find symbol
+    public synchronized void stop(final BundleContext bundleContext) throws Exception {
+                                        ^
+  symbol:   class BundleContext
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-jaxb_2.2_spec/1.0/Decompiled/org/apache/geronimo/osgi/locator/Activator.java:24: error: cannot find symbol
+    public void bundleChanged(final BundleEvent event) {
+                                    ^
+  symbol:   class BundleEvent
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-jaxb_2.2_spec/1.0/Decompiled/org/apache/geronimo/osgi/locator/Activator.java:16: error: cannot find symbol
+        ProviderLocator.init(this.bundleContext = bundleContext);
+        ^
+  symbol:   variable ProviderLocator
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-jaxb_2.2_spec/1.0/Decompiled/org/apache/geronimo/osgi/locator/Activator.java:20: error: cannot find symbol
+        ProviderLocator.destroy();
+        ^
+  symbol:   variable ProviderLocator
+  location: class Activator
+10 errors

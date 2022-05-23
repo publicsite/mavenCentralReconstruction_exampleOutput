@@ -1,0 +1,21 @@
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/StubSequence.java:7: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/StubSequence.java:32: error: cannot find symbol
+            return this.iterator.next().invoke(invocation);
+                                       ^
+  symbol:   method invoke(Invocation)
+  location: class Object
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/StubSequence.java:34: error: cannot find symbol
+        throw new AssertionFailedError("no more stubs available");
+                  ^
+  symbol:   class AssertionFailedError
+  location: class StubSequence
+sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/Invocation.java:22: error: cannot find symbol
+        this.parameterValues = ((a == null) ? Collections.EMPTY_LIST : Collections.unmodifiableList((List<?>)Arrays.asList((T[])a)));
+                                                                                                                            ^
+  symbol:   class T
+  location: class Invocation
+Note: sources/structure/jmock/jmock/1.0.0/Decompiled/org/jmock/core/stub/StubSequence.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors

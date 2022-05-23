@@ -1,0 +1,46 @@
+hybrids/org.springframework/spring/2.5.6/ConfigurableMimeFileTypeMap.java:23: error: package javax.activation does not exist
+import javax.activation.FileTypeMap;
+                       ^
+hybrids/org.springframework/spring/2.5.6/ConfigurableMimeFileTypeMap.java:24: error: package javax.activation does not exist
+import javax.activation.MimetypesFileTypeMap;
+                       ^
+hybrids/org.springframework/spring/2.5.6/ConfigurableMimeFileTypeMap.java:62: error: cannot find symbol
+public class ConfigurableMimeFileTypeMap extends FileTypeMap implements InitializingBean {
+                                                 ^
+  symbol: class FileTypeMap
+hybrids/org.springframework/spring/2.5.6/ConfigurableMimeFileTypeMap.java:78: error: cannot find symbol
+	private FileTypeMap fileTypeMap;
+	        ^
+  symbol:   class FileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+hybrids/org.springframework/spring/2.5.6/ConfigurableMimeFileTypeMap.java:116: error: cannot find symbol
+	protected final FileTypeMap getFileTypeMap() {
+	                ^
+  symbol:   class FileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+hybrids/org.springframework/spring/2.5.6/ConfigurableMimeFileTypeMap.java:144: error: cannot find symbol
+	protected FileTypeMap createFileTypeMap(Resource mappingLocation, String[] mappings) throws IOException {
+	          ^
+  symbol:   class FileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+hybrids/org.springframework/spring/2.5.6/ConfigurableMimeFileTypeMap.java:67: error: cannot find symbol
+	private Resource mappingLocation = new ClassPathResource("mime.types", getClass());
+	                                                                       ^
+  symbol:   method getClass()
+  location: class ConfigurableMimeFileTypeMap
+hybrids/org.springframework/spring/2.5.6/ConfigurableMimeFileTypeMap.java:145: error: cannot find symbol
+		MimetypesFileTypeMap fileTypeMap = null;
+		^
+  symbol:   class MimetypesFileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+hybrids/org.springframework/spring/2.5.6/ConfigurableMimeFileTypeMap.java:149: error: cannot find symbol
+				fileTypeMap = new MimetypesFileTypeMap(is);
+				                  ^
+  symbol:   class MimetypesFileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+hybrids/org.springframework/spring/2.5.6/ConfigurableMimeFileTypeMap.java:156: error: cannot find symbol
+			fileTypeMap = new MimetypesFileTypeMap();
+			                  ^
+  symbol:   class MimetypesFileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+10 errors

@@ -1,0 +1,47 @@
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/ExtensionValuesStore.java:15: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.getWrapperType;
+                                             ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/ExtensionValuesStore.java:15: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.getWrapperType;
+^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/ExtensionValuesStore.java:16: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isAssignableTo;
+                                             ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/ExtensionValuesStore.java:16: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isAssignableTo;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/support/OpenTest4JAndJUnit4AwareThrowableCollector.java:15: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/support/OpenTest4JAndJUnit4AwareThrowableCollector.java:17: error: package org.opentest4j does not exist
+import org.opentest4j.TestAbortedException;
+                     ^
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/ExtensionValuesStore.java:124: error: cannot find symbol
+		if (isAssignableTo(value, requiredType)) {
+		    ^
+  symbol:   method isAssignableTo(Object,Class<T>)
+  location: class ExtensionValuesStore
+  where T is a type-variable:
+    T extends Object declared in method <T>castToRequiredType(Object,Object,Class<T>)
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/ExtensionValuesStore.java:126: error: cannot find symbol
+				return (T) getWrapperType(requiredType).cast(value);
+				           ^
+  symbol:   method getWrapperType(Class<T>)
+  location: class ExtensionValuesStore
+  where T is a type-variable:
+    T extends Object declared in method <T>castToRequiredType(Object,Object,Class<T>)
+hybrids/org.junit.jupiter/junit-jupiter-engine/5.4.0/ExtensionValuesStore.java:131: error: cannot access JUnitException
+		throw new ExtensionContextException(
+		^
+  class file for org.junit.platform.commons.JUnitException not found
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/support/OpenTest4JAndJUnit4AwareThrowableCollector.java:37: error: cannot find symbol
+		Predicate<Throwable> otaPredicate = TestAbortedException.class::isInstance;
+		                                    ^
+  symbol:   class TestAbortedException
+  location: class OpenTest4JAndJUnit4AwareThrowableCollector
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/support/OpenTest4JAndJUnit4AwareThrowableCollector.java:40: error: cannot find symbol
+		Class<?> clazz = ReflectionUtils.tryToLoadClass(
+		                 ^
+  symbol:   variable ReflectionUtils
+  location: class OpenTest4JAndJUnit4AwareThrowableCollector
+11 errors

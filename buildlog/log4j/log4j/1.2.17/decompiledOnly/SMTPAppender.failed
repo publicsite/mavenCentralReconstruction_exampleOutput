@@ -1,0 +1,190 @@
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:10: error: cannot find symbol
+import javax.mail.Multipart;
+                 ^
+  symbol:   class Multipart
+  location: package javax.mail
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:12: error: cannot find symbol
+import javax.mail.Transport;
+                 ^
+  symbol:   class Transport
+  location: package javax.mail
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:14: error: cannot find symbol
+import javax.mail.BodyPart;
+                 ^
+  symbol:   class BodyPart
+  location: package javax.mail
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:15: error: cannot find symbol
+import javax.mail.internet.MimeMultipart;
+                          ^
+  symbol:   class MimeMultipart
+  location: package javax.mail.internet
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:16: error: cannot find symbol
+import javax.mail.internet.InternetHeaders;
+                          ^
+  symbol:   class InternetHeaders
+  location: package javax.mail.internet
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:20: error: cannot find symbol
+import javax.mail.internet.MimeBodyPart;
+                          ^
+  symbol:   class MimeBodyPart
+  location: package javax.mail.internet
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:23: error: cannot find symbol
+import javax.mail.internet.InternetAddress;
+                          ^
+  symbol:   class InternetAddress
+  location: package javax.mail.internet
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:29: error: cannot find symbol
+import javax.mail.Session;
+                 ^
+  symbol:   class Session
+  location: package javax.mail
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:34: error: cannot find symbol
+import javax.mail.internet.MimeUtility;
+                          ^
+  symbol:   class MimeUtility
+  location: package javax.mail.internet
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:35: error: cannot find symbol
+import javax.mail.internet.MimeMessage;
+                          ^
+  symbol:   class MimeMessage
+  location: package javax.mail.internet
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:37: error: cannot find symbol
+import javax.mail.Message;
+                 ^
+  symbol:   class Message
+  location: package javax.mail
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:60: error: cannot find symbol
+    protected Message msg;
+              ^
+  symbol:   class Message
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:99: error: cannot find symbol
+    protected void addressMessage(final Message msg) throws MessagingException {
+                                        ^
+  symbol:   class Message
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:120: error: cannot find symbol
+    protected Session createSession() {
+              ^
+  symbol:   class Session
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:199: error: cannot find symbol
+    InternetAddress getAddress(final String addressStr) {
+    ^
+  symbol:   class InternetAddress
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:209: error: cannot find symbol
+    InternetAddress[] parseAddress(final String addressStr) {
+    ^
+  symbol:   class InternetAddress
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:78: error: cannot find symbol
+        final Session session = this.createSession();
+              ^
+  symbol:   class Session
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:79: error: cannot find symbol
+        this.msg = (Message)new MimeMessage(session);
+                    ^
+  symbol:   class Message
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:79: error: cannot find symbol
+        this.msg = (Message)new MimeMessage(session);
+                                ^
+  symbol:   class MimeMessage
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:84: error: cannot find symbol
+                    this.msg.setSubject(MimeUtility.encodeText(this.subject, "UTF-8", (String)null));
+                                        ^
+  symbol:   variable MimeUtility
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:110: error: package Message does not exist
+            msg.setRecipients(Message.RecipientType.TO, (Address[])this.parseAddress(this.to));
+                                     ^
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:113: error: package Message does not exist
+            msg.setRecipients(Message.RecipientType.CC, (Address[])this.parseAddress(this.cc));
+                                     ^
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:116: error: package Message does not exist
+            msg.setRecipients(Message.RecipientType.BCC, (Address[])this.parseAddress(this.bcc));
+                                     ^
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:148: error: cannot find symbol
+        final Session session = Session.getInstance(props, auth);
+              ^
+  symbol:   class Session
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:148: error: cannot find symbol
+        final Session session = Session.getInstance(props, auth);
+                                ^
+  symbol:   variable Session
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:201: error: cannot find symbol
+            return new InternetAddress(addressStr);
+                       ^
+  symbol:   class InternetAddress
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:211: error: cannot find symbol
+            return InternetAddress.parse(addressStr, true);
+                   ^
+  symbol:   variable InternetAddress
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:258: error: cannot find symbol
+            MimeBodyPart part;
+            ^
+  symbol:   class MimeBodyPart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:260: error: cannot find symbol
+                part = new MimeBodyPart();
+                           ^
+  symbol:   class MimeBodyPart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:266: error: cannot find symbol
+                    final Writer writer = new OutputStreamWriter(MimeUtility.encode((OutputStream)os, "quoted-printable"), "UTF-8");
+                                                                 ^
+  symbol:   variable MimeUtility
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:269: error: cannot find symbol
+                    final InternetHeaders headers = new InternetHeaders();
+                          ^
+  symbol:   class InternetHeaders
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:269: error: cannot find symbol
+                    final InternetHeaders headers = new InternetHeaders();
+                                                        ^
+  symbol:   class InternetHeaders
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:272: error: cannot find symbol
+                    part = new MimeBodyPart(headers, os.toByteArray());
+                               ^
+  symbol:   class MimeBodyPart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:281: error: cannot find symbol
+                    part = new MimeBodyPart();
+                               ^
+  symbol:   class MimeBodyPart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:285: error: cannot find symbol
+            final Multipart mp = (Multipart)new MimeMultipart();
+                  ^
+  symbol:   class Multipart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:285: error: cannot find symbol
+            final Multipart mp = (Multipart)new MimeMultipart();
+                                  ^
+  symbol:   class Multipart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:285: error: cannot find symbol
+            final Multipart mp = (Multipart)new MimeMultipart();
+                                                ^
+  symbol:   class MimeMultipart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:286: error: cannot find symbol
+            mp.addBodyPart((BodyPart)part);
+                            ^
+  symbol:   class BodyPart
+  location: class SMTPAppender
+sources/structure/log4j/log4j/1.2.17/Decompiled/org/apache/log4j/net/SMTPAppender.java:289: error: cannot find symbol
+            Transport.send(this.msg);
+            ^
+  symbol:   variable Transport
+  location: class SMTPAppender
+39 errors

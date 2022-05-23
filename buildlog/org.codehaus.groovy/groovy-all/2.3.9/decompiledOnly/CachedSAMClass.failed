@@ -1,0 +1,113 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:17: error: cannot find symbol
+import org.codehaus.groovy.runtime.ConvertedClosure;
+                                  ^
+  symbol:   class ConvertedClosure
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:20: error: package org.codehaus.groovy.transform.trait does not exist
+import org.codehaus.groovy.transform.trait.Traits;
+                                          ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:22: error: cannot find symbol
+import groovy.util.ProxyGenerator;
+                  ^
+  symbol:   class ProxyGenerator
+  location: package groovy.util
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:24: error: cannot find symbol
+import org.codehaus.groovy.reflection.ReflectionCache;
+                                     ^
+  symbol:   class ReflectionCache
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:25: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:27: error: cannot find symbol
+import org.codehaus.groovy.reflection.ClassInfo;
+                                     ^
+  symbol:   class ClassInfo
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:29: error: cannot find symbol
+import org.codehaus.groovy.reflection.CachedClass;
+                                     ^
+  symbol:   class CachedClass
+  location: package org.codehaus.groovy.reflection
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:31: error: cannot find symbol
+public class CachedSAMClass extends CachedClass
+                                    ^
+  symbol: class CachedClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:37: error: cannot find symbol
+    public CachedSAMClass(final Class klazz, final ClassInfo classInfo) {
+                                                   ^
+  symbol:   class ClassInfo
+  location: class CachedSAMClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:50: error: cannot find symbol
+    public static Object coerceToSAM(final Closure argument, final Method method, final Class clazz, final boolean isInterface) {
+                                           ^
+  symbol:   class Closure
+  location: class CachedSAMClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:45: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:47: error: cannot find symbol
+        return argument == null || Closure.class.isAssignableFrom(argument) || ReflectionCache.isAssignableFrom(this.getTheClass(), argument);
+                                   ^
+  symbol:   class Closure
+  location: class CachedSAMClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:47: error: cannot find symbol
+        return argument == null || Closure.class.isAssignableFrom(argument) || ReflectionCache.isAssignableFrom(this.getTheClass(), argument);
+                                                                               ^
+  symbol:   variable ReflectionCache
+  location: class CachedSAMClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:47: error: cannot find symbol
+        return argument == null || Closure.class.isAssignableFrom(argument) || ReflectionCache.isAssignableFrom(this.getTheClass(), argument);
+                                                                                                                    ^
+  symbol: method getTheClass()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:57: error: package ProxyGenerator does not exist
+            return ProxyGenerator.INSTANCE.instantiateAggregateFromBaseClass(m, clazz);
+                                 ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:59: error: cannot find symbol
+        if (Traits.isTrait(clazz)) {
+            ^
+  symbol:   variable Traits
+  location: class CachedSAMClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:60: error: cannot find symbol
+            final Map<String, Closure> impl = (Map<String, Closure>)Collections.singletonMap(method.getName(), argument);
+                              ^
+  symbol:   class Closure
+  location: class CachedSAMClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:60: error: cannot find symbol
+            final Map<String, Closure> impl = (Map<String, Closure>)Collections.singletonMap(method.getName(), argument);
+                                                           ^
+  symbol:   class Closure
+  location: class CachedSAMClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:61: error: package ProxyGenerator does not exist
+            return ProxyGenerator.INSTANCE.instantiateAggregate(impl, (List<Class>)Collections.singletonList(clazz));
+                                 ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:63: error: cannot find symbol
+        return Proxy.newProxyInstance(clazz.getClassLoader(), new Class[] { clazz }, new ConvertedClosure(argument));
+                                                                                         ^
+  symbol:   class ConvertedClosure
+  location: class CachedSAMClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:66: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:68: error: cannot find symbol
+        if (argument instanceof Closure) {
+                                ^
+  symbol:   class Closure
+  location: class CachedSAMClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:69: error: cannot find symbol
+            final Class clazz = this.getTheClass();
+                                    ^
+  symbol: method getTheClass()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:70: error: cannot find symbol
+            return coerceToSAM((Closure)argument, this.method, clazz, clazz.isInterface());
+                                ^
+  symbol:   class Closure
+  location: class CachedSAMClass
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java:150: error: package Traits does not exist
+                    if (mi.getAnnotation(Traits.Implemented.class) == null) {
+                                               ^
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/reflection/stdclasses/CachedSAMClass.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+25 errors

@@ -1,0 +1,19 @@
+sources/structure/org.hamcrest/hamcrest/2.2-rc1/Decompiled/org/hamcrest/core/CombinableMatcher.java:36: error: no suitable constructor found for AllOf(ArrayList<Matcher<? super T>>)
+        return new CombinableMatcher<T>(new AllOf<Object>(this.templatedListWith(other)));
+                                        ^
+    constructor AllOf.AllOf(Matcher<? super Object>...) is not applicable
+      (varargs mismatch; ArrayList<Matcher<? super T>> cannot be converted to Matcher<? super Object>)
+    constructor AllOf.AllOf(Iterable<Matcher<? super Object>>) is not applicable
+      (argument mismatch; ArrayList<Matcher<? super T>> cannot be converted to Iterable<Matcher<? super Object>>)
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+sources/structure/org.hamcrest/hamcrest/2.2-rc1/Decompiled/org/hamcrest/core/CombinableMatcher.java:40: error: no suitable constructor found for AnyOf(ArrayList<Matcher<? super T>>)
+        return new CombinableMatcher<T>(new AnyOf<Object>(this.templatedListWith(other)));
+                                        ^
+    constructor AnyOf.AnyOf(Matcher<? super Object>...) is not applicable
+      (varargs mismatch; ArrayList<Matcher<? super T>> cannot be converted to Matcher<? super Object>)
+    constructor AnyOf.AnyOf(Iterable<Matcher<? super Object>>) is not applicable
+      (argument mismatch; ArrayList<Matcher<? super T>> cannot be converted to Iterable<Matcher<? super Object>>)
+  where T is a type-variable:
+    T extends Object declared in class CombinableMatcher
+2 errors

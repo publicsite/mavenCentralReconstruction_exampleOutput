@@ -1,0 +1,101 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:7: error: cannot find symbol
+import com.google.dexmaker.dx.util.IntList;
+                                  ^
+  symbol:   class IntList
+  location: package com.google.dexmaker.dx.util
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:12: error: cannot find symbol
+    private final RopMethod method;
+                  ^
+  symbol:   class RopMethod
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:13: error: cannot find symbol
+    private final BasicBlockList blocks;
+                  ^
+  symbol:   class BasicBlockList
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:14: error: cannot find symbol
+    private final LocalVariableInfo resultInfo;
+                  ^
+  symbol:   class LocalVariableInfo
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:17: error: cannot find symbol
+    public static LocalVariableInfo extract(final RopMethod method) {
+                                                  ^
+  symbol:   class RopMethod
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:17: error: cannot find symbol
+    public static LocalVariableInfo extract(final RopMethod method) {
+                  ^
+  symbol:   class LocalVariableInfo
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:22: error: cannot find symbol
+    private LocalVariableExtractor(final RopMethod method) {
+                                         ^
+  symbol:   class RopMethod
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:34: error: cannot find symbol
+    private LocalVariableInfo doit() {
+            ^
+  symbol:   class LocalVariableInfo
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:26: error: cannot find symbol
+        final BasicBlockList blocks = method.getBlocks();
+              ^
+  symbol:   class BasicBlockList
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:30: error: cannot find symbol
+        this.resultInfo = new LocalVariableInfo(method);
+                              ^
+  symbol:   class LocalVariableInfo
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:44: error: cannot find symbol
+        RegisterSpecSet primaryState = this.resultInfo.mutableCopyOfStarts(label);
+        ^
+  symbol:   class RegisterSpecSet
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:45: error: cannot find symbol
+        final BasicBlock block = this.blocks.labelToBlock(label);
+              ^
+  symbol:   class BasicBlock
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:46: error: cannot find symbol
+        final InsnList insns = block.getInsns();
+              ^
+  symbol:   class InsnList
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:50: error: cannot find symbol
+        final RegisterSpecSet secondaryState = primaryState;
+              ^
+  symbol:   class RegisterSpecSet
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:56: error: cannot find symbol
+            final Insn insn = insns.get(i);
+                  ^
+  symbol:   class Insn
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:57: error: cannot find symbol
+            RegisterSpec result = insn.getLocalAssignment();
+            ^
+  symbol:   class RegisterSpec
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:66: error: cannot find symbol
+                final RegisterSpec already = primaryState.get(result);
+                      ^
+  symbol:   class RegisterSpec
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:68: error: cannot find symbol
+                    final RegisterSpec previous = primaryState.localItemToSpec(result.getLocalItem());
+                          ^
+  symbol:   class RegisterSpec
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:78: error: cannot find symbol
+        final IntList successors = block.getSuccessors();
+              ^
+  symbol:   class IntList
+  location: class LocalVariableExtractor
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/code/LocalVariableExtractor.java:83: error: cannot find symbol
+            final RegisterSpecSet state = (succ == primarySuccessor) ? primaryState : secondaryState;
+                  ^
+  symbol:   class RegisterSpecSet
+  location: class LocalVariableExtractor
+20 errors

@@ -1,0 +1,236 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:19: error: cannot find symbol
+import static com.google.common.util.concurrent.MoreExecutors.newDirectExecutorService;
+                                               ^
+  symbol:   class MoreExecutors
+  location: package com.google.common.util.concurrent
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:19: error: static import only from classes and interfaces
+import static com.google.common.util.concurrent.MoreExecutors.newDirectExecutorService;
+^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:22: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:23: error: package com.google.common.util.concurrent.ForwardingListenableFuture does not exist
+import com.google.common.util.concurrent.ForwardingListenableFuture.SimpleForwardingListenableFuture;
+                                                                   ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:24: error: cannot find symbol
+import com.google.common.util.concurrent.ListenableFuture;
+                                        ^
+  symbol:   class ListenableFuture
+  location: package com.google.common.util.concurrent
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:25: error: cannot find symbol
+import com.google.common.util.concurrent.ListenableScheduledFuture;
+                                        ^
+  symbol:   class ListenableScheduledFuture
+  location: package com.google.common.util.concurrent
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:26: error: cannot find symbol
+import com.google.common.util.concurrent.ListeningExecutorService;
+                                        ^
+  symbol:   class ListeningExecutorService
+  location: package com.google.common.util.concurrent
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:27: error: cannot find symbol
+import com.google.common.util.concurrent.ListeningScheduledExecutorService;
+                                        ^
+  symbol:   class ListeningScheduledExecutorService
+  location: package com.google.common.util.concurrent
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:48: error: cannot find symbol
+    implements ListeningScheduledExecutorService {
+               ^
+  symbol: class ListeningScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:50: error: cannot find symbol
+  private final ListeningExecutorService delegate = newDirectExecutorService();
+                ^
+  symbol:   class ListeningExecutorService
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:79: error: cannot find symbol
+  public <T> ListenableFuture<T> submit(Callable<T> task) {
+             ^
+  symbol:   class ListenableFuture
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:85: error: cannot find symbol
+  public <T> ListenableFuture<T> submit(Runnable task, T result) {
+             ^
+  symbol:   class ListenableFuture
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:92: error: cannot find symbol
+  public ListenableFuture<?> submit(Runnable task) {
+         ^
+  symbol:   class ListenableFuture
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:135: error: cannot find symbol
+  public ListenableScheduledFuture<?> schedule(Runnable command, long delay, TimeUnit unit) {
+         ^
+  symbol:   class ListenableScheduledFuture
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:142: error: cannot find symbol
+  public <V> ListenableScheduledFuture<V> schedule(
+             ^
+  symbol:   class ListenableScheduledFuture
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:179: error: cannot find symbol
+  public ListenableScheduledFuture<?> scheduleAtFixedRate(
+         ^
+  symbol:   class ListenableScheduledFuture
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:185: error: cannot find symbol
+  public ListenableScheduledFuture<?> scheduleWithFixedDelay(
+         ^
+  symbol:   class ListenableScheduledFuture
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:150: error: cannot find symbol
+  private static class ImmediateScheduledFuture<V> extends SimpleForwardingListenableFuture<V>
+                                                           ^
+  symbol:   class SimpleForwardingListenableFuture
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:151: error: cannot find symbol
+      implements ListenableScheduledFuture<V> {
+                 ^
+  symbol:   class ListenableScheduledFuture
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:154: error: cannot find symbol
+    protected ImmediateScheduledFuture(ListenableFuture<V> future) {
+                                       ^
+  symbol:   class ListenableFuture
+  location: class ImmediateScheduledFuture<V>
+  where V is a type-variable:
+    V extends Object declared in class ImmediateScheduledFuture
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:50: error: cannot find symbol
+  private final ListeningExecutorService delegate = newDirectExecutorService();
+                                                    ^
+  symbol:   method newDirectExecutorService()
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:74: error: cannot find symbol
+    Preconditions.checkNotNull(unit, "unit must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:80: error: cannot find symbol
+    Preconditions.checkNotNull(task, "task must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:86: error: cannot find symbol
+    Preconditions.checkNotNull(task, "task must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:87: error: cannot find symbol
+    Preconditions.checkNotNull(result, "result must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:93: error: cannot find symbol
+    Preconditions.checkNotNull(task, "task must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:100: error: cannot find symbol
+    Preconditions.checkNotNull(tasks, "tasks must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:108: error: cannot find symbol
+    Preconditions.checkNotNull(tasks, "tasks must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:109: error: cannot find symbol
+    Preconditions.checkNotNull(unit, "unit must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:116: error: cannot find symbol
+    Preconditions.checkNotNull(tasks, "tasks must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:123: error: cannot find symbol
+    Preconditions.checkNotNull(tasks, "tasks must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:124: error: cannot find symbol
+    Preconditions.checkNotNull(unit, "unit must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:130: error: cannot find symbol
+    Preconditions.checkNotNull(command, "command must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:134: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:136: error: cannot find symbol
+    Preconditions.checkNotNull(command, "command must not be null");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:137: error: cannot find symbol
+    Preconditions.checkNotNull(unit, "unit must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:141: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:144: error: cannot find symbol
+    Preconditions.checkNotNull(callable, "callable must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:145: error: cannot find symbol
+    Preconditions.checkNotNull(unit, "unit must not be null!");
+    ^
+  symbol:   variable Preconditions
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:146: error: cannot find symbol
+    ListenableFuture<V> delegateFuture = submit(callable);
+    ^
+  symbol:   class ListenableFuture
+  location: class SameThreadScheduledExecutorService
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:158: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:161: error: cannot find symbol
+      Preconditions.checkNotNull(unit, "unit must not be null!");
+      ^
+  symbol:   variable Preconditions
+  location: class ImmediateScheduledFuture<V>
+  where V is a type-variable:
+    V extends Object declared in class ImmediateScheduledFuture
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:162: error: method get in class ImmediateScheduledFuture<V> cannot be applied to given types;
+      return get();
+             ^
+  required: long,TimeUnit
+  found: no arguments
+  reason: actual and formal argument lists differ in length
+  where V is a type-variable:
+    V extends Object declared in class ImmediateScheduledFuture
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:165: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:167: error: cannot find symbol
+      Preconditions.checkNotNull(unit, "unit must not be null!");
+      ^
+  symbol:   variable Preconditions
+  location: class ImmediateScheduledFuture<V>
+  where V is a type-variable:
+    V extends Object declared in class ImmediateScheduledFuture
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:171: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:173: error: cannot find symbol
+      Preconditions.checkNotNull(other, "other must not be null!");
+      ^
+  symbol:   variable Preconditions
+  location: class ImmediateScheduledFuture<V>
+  where V is a type-variable:
+    V extends Object declared in class ImmediateScheduledFuture
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:178: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/util/concurrent/testing/SameThreadScheduledExecutorService.java:184: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+49 errors

@@ -1,0 +1,35 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/io/URLReaderSource.java:8: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/io/URLReaderSource.java:13: error: cannot find symbol
+import org.codehaus.groovy.control.CompilerConfiguration;
+                                  ^
+  symbol:   class CompilerConfiguration
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/io/URLReaderSource.java:16: error: cannot find symbol
+public class URLReaderSource extends AbstractReaderSource
+                                     ^
+  symbol: class AbstractReaderSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/io/URLReaderSource.java:20: error: cannot find symbol
+    public URLReaderSource(final URL url, final CompilerConfiguration configuration) {
+                                                ^
+  symbol:   class CompilerConfiguration
+  location: class URLReaderSource
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/io/URLReaderSource.java:25: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/io/URLReaderSource.java:27: error: cannot find symbol
+        return new InputStreamReader(this.url.openStream(), this.configuration.getSourceEncoding());
+                                                                ^
+  symbol: variable configuration
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/io/URLReaderSource.java:30: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/io/URLReaderSource.java:36: error: cannot find symbol
+            throw new GroovyRuntimeException("Unable to convert the URL <" + this.url + "> to a URI!", e);
+                      ^
+  symbol:   class GroovyRuntimeException
+  location: class URLReaderSource
+8 errors

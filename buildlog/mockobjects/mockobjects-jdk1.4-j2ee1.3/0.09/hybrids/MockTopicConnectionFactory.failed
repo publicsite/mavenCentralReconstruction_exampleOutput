@@ -1,0 +1,60 @@
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:6: error: cannot find symbol
+public class MockTopicConnectionFactory extends MockObject
+                                                ^
+  symbol: class MockObject
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:7: error: cannot find symbol
+implements TopicConnectionFactory{
+           ^
+  symbol: class TopicConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:9: error: cannot find symbol
+    private final ReturnValue topicConnectionToReturn = new ReturnValue("topic connection");
+                  ^
+  symbol:   class ReturnValue
+  location: class MockTopicConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:12: error: cannot find symbol
+        TopicConnection topicConnectionToReturn){
+        ^
+  symbol:   class TopicConnection
+  location: class MockTopicConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:17: error: cannot find symbol
+    public TopicConnection createTopicConnection() throws JMSException{
+           ^
+  symbol:   class TopicConnection
+  location: class MockTopicConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:17: error: cannot find symbol
+    public TopicConnection createTopicConnection() throws JMSException{
+                                                          ^
+  symbol:   class JMSException
+  location: class MockTopicConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:21: error: cannot find symbol
+    public TopicConnection createTopicConnection(String userName,
+           ^
+  symbol:   class TopicConnection
+  location: class MockTopicConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:22: error: cannot find symbol
+        String password) throws JMSException{
+                                ^
+  symbol:   class JMSException
+  location: class MockTopicConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:3: error: package com.mockobjects does not exist
+import com.mockobjects.*;
+^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:4: error: package javax.jms does not exist
+import javax.jms.*;
+^
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:9: error: cannot find symbol
+    private final ReturnValue topicConnectionToReturn = new ReturnValue("topic connection");
+                                                            ^
+  symbol:   class ReturnValue
+  location: class MockTopicConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:18: error: cannot find symbol
+        return (TopicConnection)topicConnectionToReturn.getValue();
+                ^
+  symbol:   class TopicConnection
+  location: class MockTopicConnectionFactory
+hybrids/mockobjects/mockobjects-jdk1.4-j2ee1.3/0.09/MockTopicConnectionFactory.java:23: error: cannot find symbol
+        return (TopicConnection)topicConnectionToReturn.getValue();
+                ^
+  symbol:   class TopicConnection
+  location: class MockTopicConnectionFactory
+13 errors

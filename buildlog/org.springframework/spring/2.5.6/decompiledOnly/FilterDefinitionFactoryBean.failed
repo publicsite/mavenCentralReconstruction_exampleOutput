@@ -1,0 +1,30 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/FilterDefinitionFactoryBean.java:8: error: package org.hibernate.type does not exist
+import org.hibernate.type.TypeFactory;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/FilterDefinitionFactoryBean.java:11: error: package org.hibernate.engine does not exist
+import org.hibernate.engine.FilterDefinition;
+                           ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/FilterDefinitionFactoryBean.java:22: error: cannot find symbol
+    private FilterDefinition filterDefinition;
+            ^
+  symbol:   class FilterDefinition
+  location: class FilterDefinitionFactoryBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/FilterDefinitionFactoryBean.java:37: error: incompatible types: Object cannot be converted to String
+                final String paramName = names.nextElement();
+                                                          ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/FilterDefinitionFactoryBean.java:39: error: cannot find symbol
+                this.parameterTypeMap.put(paramName, TypeFactory.heuristicType(typeName));
+                                                     ^
+  symbol:   variable TypeFactory
+  location: class FilterDefinitionFactoryBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/FilterDefinitionFactoryBean.java:58: error: cannot find symbol
+        this.filterDefinition = new FilterDefinition(this.filterName, this.defaultFilterCondition, this.parameterTypeMap);
+                                    ^
+  symbol:   class FilterDefinition
+  location: class FilterDefinitionFactoryBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/orm/hibernate3/FilterDefinitionFactoryBean.java:66: error: cannot find symbol
+        return FilterDefinition.class;
+               ^
+  symbol:   class FilterDefinition
+  location: class FilterDefinitionFactoryBean
+7 errors

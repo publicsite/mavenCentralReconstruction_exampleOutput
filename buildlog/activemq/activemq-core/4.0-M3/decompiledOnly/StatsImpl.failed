@@ -1,0 +1,50 @@
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatsImpl.java:9: error: package javax.management.j2ee.statistics does not exist
+import javax.management.j2ee.statistics.Statistic;
+                                       ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatsImpl.java:12: error: package javax.management.j2ee.statistics does not exist
+import javax.management.j2ee.statistics.Stats;
+                                       ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatisticImpl.java:7: error: package javax.management.j2ee.statistics does not exist
+import javax.management.j2ee.statistics.Statistic;
+                                       ^
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatisticImpl.java:9: error: cannot find symbol
+public class StatisticImpl implements Statistic, Resettable
+                                      ^
+  symbol: class Statistic
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatsImpl.java:14: error: cannot find symbol
+public class StatsImpl extends StatisticImpl implements Stats, Resettable
+                                                        ^
+  symbol: class Stats
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatsImpl.java:38: error: cannot find symbol
+    public Statistic getStatistic(final String name) {
+           ^
+  symbol:   class Statistic
+  location: class StatsImpl
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatsImpl.java:49: error: cannot find symbol
+    public Statistic[] getStatistics() {
+           ^
+  symbol:   class Statistic
+  location: class StatsImpl
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatsImpl.java:28: error: cannot find symbol
+        final Statistic[] stats = this.getStatistics();
+              ^
+  symbol:   class Statistic
+  location: class StatsImpl
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatsImpl.java:30: error: cannot find symbol
+            final Statistic stat = stats[i];
+                  ^
+  symbol:   class Statistic
+  location: class StatsImpl
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatsImpl.java:51: error: cannot find symbol
+        final Statistic[] answer = new Statistic[values.size()];
+              ^
+  symbol:   class Statistic
+  location: class StatsImpl
+sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatsImpl.java:51: error: cannot find symbol
+        final Statistic[] answer = new Statistic[values.size()];
+                                       ^
+  symbol:   class Statistic
+  location: class StatsImpl
+Note: sources/structure/activemq/activemq-core/4.0-M3/Decompiled/org/activemq/management/StatsImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors

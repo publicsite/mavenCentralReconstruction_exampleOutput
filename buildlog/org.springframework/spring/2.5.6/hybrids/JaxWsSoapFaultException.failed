@@ -1,0 +1,22 @@
+hybrids/org.springframework/spring/2.5.6/JaxWsSoapFaultException.java:20: error: package javax.xml.soap does not exist
+import javax.xml.soap.SOAPFault;
+                     ^
+hybrids/org.springframework/spring/2.5.6/JaxWsSoapFaultException.java:21: error: package javax.xml.ws.soap does not exist
+import javax.xml.ws.soap.SOAPFaultException;
+                        ^
+hybrids/org.springframework/spring/2.5.6/JaxWsSoapFaultException.java:38: error: cannot find symbol
+	public JaxWsSoapFaultException(SOAPFaultException original) {
+	                               ^
+  symbol:   class SOAPFaultException
+  location: class JaxWsSoapFaultException
+hybrids/org.springframework/spring/2.5.6/JaxWsSoapFaultException.java:45: error: cannot find symbol
+	public final SOAPFault getFault() {
+	             ^
+  symbol:   class SOAPFault
+  location: class JaxWsSoapFaultException
+hybrids/org.springframework/spring/2.5.6/JaxWsSoapFaultException.java:46: error: cannot find symbol
+		return ((SOAPFaultException) getCause()).getFault();
+		         ^
+  symbol:   class SOAPFaultException
+  location: class JaxWsSoapFaultException
+5 errors

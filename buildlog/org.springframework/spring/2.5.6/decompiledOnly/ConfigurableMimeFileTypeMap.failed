@@ -1,0 +1,50 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:9: error: package javax.activation does not exist
+import javax.activation.MimetypesFileTypeMap;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:14: error: package javax.activation does not exist
+import javax.activation.FileTypeMap;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:16: error: cannot find symbol
+public class ConfigurableMimeFileTypeMap extends FileTypeMap implements InitializingBean
+                                                 ^
+  symbol: class FileTypeMap
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:20: error: cannot find symbol
+    private FileTypeMap fileTypeMap;
+            ^
+  symbol:   class FileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:38: error: cannot find symbol
+    protected final FileTypeMap getFileTypeMap() {
+                    ^
+  symbol:   class FileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:52: error: cannot find symbol
+    protected FileTypeMap createFileTypeMap(final Resource mappingLocation, final String[] mappings) throws IOException {
+              ^
+  symbol:   class FileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:23: error: cannot find symbol
+        this.mappingLocation = new ClassPathResource("mime.types", this.getClass());
+                                                                       ^
+  symbol: method getClass()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:53: error: cannot find symbol
+        MimetypesFileTypeMap fileTypeMap = null;
+        ^
+  symbol:   class MimetypesFileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:57: error: cannot find symbol
+                fileTypeMap = new MimetypesFileTypeMap(is);
+                                  ^
+  symbol:   class MimetypesFileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:64: error: cannot find symbol
+            fileTypeMap = new MimetypesFileTypeMap();
+                              ^
+  symbol:   class MimetypesFileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/mail/javamail/ConfigurableMimeFileTypeMap.java:71: error: cannot find symbol
+        return (FileTypeMap)fileTypeMap;
+                ^
+  symbol:   class FileTypeMap
+  location: class ConfigurableMimeFileTypeMap
+11 errors

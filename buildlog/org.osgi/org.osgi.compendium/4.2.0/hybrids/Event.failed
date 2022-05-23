@@ -1,0 +1,40 @@
+hybrids/org.osgi/org.osgi.compendium/4.2.0/Event.java:26: error: package org.osgi.framework does not exist
+import org.osgi.framework.Filter;
+                         ^
+hybrids/org.osgi/org.osgi.compendium/4.2.0/Event.java:140: error: cannot find symbol
+	public final boolean matches(Filter filter) {
+	                             ^
+  symbol:   class Filter
+  location: class Event
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/event/EventConstants.java:19: error: package org.osgi.framework does not exist
+import org.osgi.framework.Bundle;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/event/EventConstants.java:20: error: package org.osgi.framework does not exist
+import org.osgi.framework.Constants;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/event/EventConstants.java:21: error: package org.osgi.framework does not exist
+import org.osgi.framework.Filter;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/event/EventConstants.java:22: error: package org.osgi.framework does not exist
+import org.osgi.framework.ServiceReference;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/event/EventConstants.java:23: error: package org.osgi.framework does not exist
+import org.osgi.framework.Version;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/event/EventConstants.java:158: error: cannot find symbol
+	public static final String	SERVICE_ID			= Constants.SERVICE_ID;
+	                          	          			  ^
+  symbol:   variable Constants
+  location: interface EventConstants
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/event/EventConstants.java:170: error: cannot find symbol
+	public static final String	SERVICE_PID			= Constants.SERVICE_PID;
+	                          	           			  ^
+  symbol:   variable Constants
+  location: interface EventConstants
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/event/EventConstants.java:185: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public static final String	EXECPTION_CLASS		= "exception.class";
+	                          	^
+Note: hybrids/org.osgi/org.osgi.compendium/4.2.0/Event.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors
+1 warning

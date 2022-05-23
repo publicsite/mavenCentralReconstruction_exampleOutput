@@ -1,0 +1,183 @@
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:17: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Assertions;
+                            ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:38: error: cannot find symbol
+            Assertions.fail("Not able to delete path, not a file or directory? : " + path.toAbsolutePath());
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:55: error: cannot find symbol
+        Assertions.assertTrue(path.isFile(), "Path must be a file: " + path.getAbsolutePath());
+        ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:56: error: cannot find symbol
+        Assertions.assertTrue(isTestingDir(path.getParentFile()), "Can only delete content within the /target/tests/ directory: " + path.getAbsolutePath());
+        ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:57: error: cannot find symbol
+        Assertions.assertTrue(path.delete(), "Failed to delete file: " + path.getAbsolutePath());
+        ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:63: error: cannot find symbol
+            Assertions.assertTrue(Files.isRegularFile(path, new LinkOption[0]) || Files.isSymbolicLink(path), "Path must be a file or link: " + location);
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:64: error: cannot find symbol
+            Assertions.assertTrue(isTestingDir(path.getParent()), "Can only delete content within the /target/tests/ directory: " + location);
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:66: error: cannot find symbol
+                Assertions.assertTrue(Files.deleteIfExists(path), "Failed to delete file: " + location);
+                ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:69: error: cannot find symbol
+                Assertions.fail("Unable to delete file: " + location, (Throwable)e);
+                ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:77: error: cannot find symbol
+            Assertions.assertTrue(Files.isDirectory(path, new LinkOption[0]), "Path must be a file: " + location);
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:78: error: cannot find symbol
+            Assertions.assertTrue(isTestingDir(path.getParent()), "Can only delete content within the /target/tests/ directory: " + location);
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:80: error: cannot find symbol
+                Assertions.assertTrue(Files.deleteIfExists(path), "Failed to delete directory: " + location);
+                ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:83: error: cannot find symbol
+                Assertions.fail("Unable to delete directory: " + location, (Throwable)e);
+                ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:90: error: cannot find symbol
+        Assertions.assertTrue(isTestingDir(path), "Can only delete content within the /target/tests/ directory: " + location);
+        ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:119: error: cannot find symbol
+            Assertions.fail("Unable to (recursively) delete path: " + location, (Throwable)e);
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:122: error: cannot find symbol
+            Assertions.fail("Unable to (recursively) delete path: " + location, (Throwable)e2);
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:161: error: cannot find symbol
+            Assertions.assertTrue(dir.isDirectory(), "Path exists, but should be a Dir : " + dir.getAbsolutePath());
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:164: error: cannot find symbol
+            Assertions.assertTrue(dir.mkdirs(), "Creating dir: " + dir);
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:170: error: cannot find symbol
+            Assertions.assertTrue(Files.isDirectory(dir, new LinkOption[0]), "Path exists, but should be a Dir : " + dir.toAbsolutePath());
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:175: error: cannot find symbol
+                Assertions.assertTrue(Files.exists(dir, new LinkOption[0]), "Failed to create dir: " + dir);
+                ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:178: error: cannot find symbol
+                Assertions.fail("Failed to create directory: " + dir, (Throwable)e);
+                ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:198: error: cannot find symbol
+            Assertions.assertTrue(file.setLastModified(System.currentTimeMillis()), "Updating last modified timestamp");
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:201: error: cannot find symbol
+            Assertions.assertTrue(file.createNewFile(), "Creating file: " + file);
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/Decompiled/org/eclipse/jetty/toolchain/test/FS.java:214: error: cannot find symbol
+            Assertions.assertTrue(Files.exists(file, new LinkOption[0]), "Created new file?: " + file);
+            ^
+  symbol:   variable Assertions
+  location: class FS
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:25: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.assertFalse;
+                                   ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:25: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.assertFalse;
+^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:26: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.assertTrue;
+                                   ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:26: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.assertTrue;
+^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:199: error: reference to getTargetTestingPath is ambiguous
+        return getTargetTestingPath(testname).toFile();
+               ^
+  both method getTargetTestingPath(String) in MavenTestingUtils and method getTargetTestingPath(TestInfo) in MavenTestingUtils match
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:285: error: package org.junit.jupiter.api.condition.OS does not exist
+        if (org.junit.jupiter.api.condition.OS.WINDOWS.isCurrentOs())
+                                              ^
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/MavenTestingUtils.java:405: error: cannot find symbol
+        fail(err.toString());
+        ^
+  symbol:   method fail(String)
+  location: class MavenTestingUtils
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:47: error: cannot find symbol
+        assertTrue(path.isDirectory(), msg + " path should be a Dir : " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:59: error: cannot find symbol
+        assertTrue(Files.isDirectory(path), msg + " path should be a Dir : " + path);
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:71: error: cannot find symbol
+        assertTrue(path.isFile(), msg + " path should be a File : " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:83: error: cannot find symbol
+        assertTrue(Files.isRegularFile(path), msg + " path should be a File : " + path);
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:94: error: cannot find symbol
+        assertTrue(path.exists(), msg + " path should exist: " + path.getAbsolutePath());
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:105: error: cannot find symbol
+        assertTrue(Files.exists(path), msg + " path should exist: " + path);
+        ^
+  symbol:   method assertTrue(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:116: error: cannot find symbol
+        assertFalse(path.exists(), msg + " path should not exist: " + path.getAbsolutePath());
+        ^
+  symbol:   method assertFalse(boolean,String)
+  location: class PathAssert
+sources/structure/org.eclipse.jetty.toolchain/jetty-test-helper/5.9/extractedSources/org/eclipse/jetty/toolchain/test/PathAssert.java:127: error: cannot find symbol
+        assertFalse(Files.exists(path), msg + " path should not exist: " + path);
+        ^
+  symbol:   method assertFalse(boolean,String)
+  location: class PathAssert
+39 errors

@@ -1,0 +1,36 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:7: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:8: error: package org.assertj.core.internal.bytebuddy.implementation.bytecode.assign does not exist
+import org.assertj.core.internal.bytebuddy.implementation.bytecode.assign.Assigner;
+                                                                         ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:9: error: package org.assertj.core.internal.bytebuddy.asm does not exist
+import org.assertj.core.internal.bytebuddy.asm.Advice;
+                                              ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:18: error: package CachedReturnPlugin does not exist
+    protected static Object enter(@CachedReturnPlugin.CacheField final Object cached) {
+                                                     ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:17: error: package Advice does not exist
+    @Advice.OnMethodEnter(skipOn = Advice.OnNonDefaultValue.class)
+           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:17: error: package Advice does not exist
+    @Advice.OnMethodEnter(skipOn = Advice.OnNonDefaultValue.class)
+                                         ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:24: error: package Advice does not exist
+    protected static void exit(@Advice.Return(readOnly = false, typing = Assigner.Typing.DYNAMIC) Object returned, @CachedReturnPlugin.CacheField Object cached) {
+                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:24: error: package Assigner does not exist
+    protected static void exit(@Advice.Return(readOnly = false, typing = Assigner.Typing.DYNAMIC) Object returned, @CachedReturnPlugin.CacheField Object cached) {
+                                                                                 ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:24: error: package CachedReturnPlugin does not exist
+    protected static void exit(@Advice.Return(readOnly = false, typing = Assigner.Typing.DYNAMIC) Object returned, @CachedReturnPlugin.CacheField Object cached) {
+                                                                                                                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:22: error: package Advice does not exist
+    @Advice.OnMethodExit
+           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/build/CachedReturnPlugin$Object.java:23: error: cannot find symbol
+    @SuppressFBWarnings(value = { "UC_USELESS_VOID_METHOD", "DLS_DEAD_LOCAL_STORE" }, justification = "Advice method serves as a template")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class CachedReturnPlugin$Object
+11 errors

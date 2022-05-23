@@ -1,0 +1,94 @@
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:68: error: cannot find symbol
+            final short get_action = this.get_action(this.stack.peek().parse_state, this.cur_token.sym);
+                                                                      ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:87: error: cannot find symbol
+                final short get_reduce = this.get_reduce(this.stack.peek().parse_state, i);
+                                                                          ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:88: error: cannot find symbol
+                this.debug_message("# Reduce rule: top state " + this.stack.peek().parse_state + ", lhs sym " + i + " -> state " + get_reduce);
+                                                                                  ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:105: error: incompatible types: Object cannot be converted to Symbol
+                    do_action = this.stack.peek();
+                                               ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:195: error: cannot find symbol
+        final int right = this.stack.peek().right;
+                                           ^
+  symbol:   variable right
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:196: error: cannot find symbol
+        int n = this.stack.peek().left;
+                                 ^
+  symbol:   variable left
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:199: error: cannot find symbol
+                this.debug_message("# Pop stack by one, state was # " + this.stack.peek().parse_state);
+                                                                                         ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:201: error: cannot find symbol
+            n = this.stack.pop().left;
+                                ^
+  symbol:   variable left
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:210: error: cannot find symbol
+        final short get_action = this.get_action(this.stack.peek().parse_state, this.error_sym());
+                                                                  ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:212: error: cannot find symbol
+            this.debug_message("# Recover state found (#" + this.stack.peek().parse_state + ")");
+                                                                             ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:287: error: cannot find symbol
+            final short get_action = this.get_action(this.stack.peek().parse_state, this.cur_token.sym);
+                                                                      ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:302: error: cannot find symbol
+                do_action.parse_state = this.get_reduce(this.stack.peek().parse_state, n);
+                                                                         ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:317: error: incompatible types: Object cannot be converted to Symbol
+                    do_action = this.stack.peek();
+                                               ^
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:330: error: cannot find symbol
+            this.debug_message("# Current state is #" + this.stack.peek().parse_state);
+                                                                         ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:333: error: cannot find symbol
+            final short get_action = this.get_action(this.stack.peek().parse_state, this.cur_err_token().sym);
+                                                                      ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:364: error: cannot find symbol
+                final short get_reduce = this.get_reduce(this.stack.peek().parse_state, n);
+                                                                          ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:437: error: cannot find symbol
+        return this.get_action(this.stack.peek().parse_state, this.error_sym()) > 0;
+                                                ^
+  symbol:   variable parse_state
+  location: class Object
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:449: error: cannot find symbol
+        final virtual_parse_stack virtual_parse_stack = new virtual_parse_stack(this.stack);
+              ^
+  symbol:   class virtual_parse_stack
+  location: class lr_parser
+sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java:449: error: cannot find symbol
+        final virtual_parse_stack virtual_parse_stack = new virtual_parse_stack(this.stack);
+                                                            ^
+  symbol:   class virtual_parse_stack
+  location: class lr_parser
+Note: sources/structure/xalan/xalan/2.7.1/Decompiled/java_cup/runtime/lr_parser.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors

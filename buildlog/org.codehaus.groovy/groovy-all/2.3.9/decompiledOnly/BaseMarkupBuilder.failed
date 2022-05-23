@@ -1,0 +1,112 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:7: error: cannot find symbol
+import groovy.lang.GroovyObjectSupport;
+                  ^
+  symbol:   class GroovyObjectSupport
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:10: error: cannot find symbol
+import groovy.lang.GroovyInterceptable;
+                  ^
+  symbol:   class GroovyInterceptable
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:11: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:14: error: cannot find symbol
+public class BaseMarkupBuilder extends Builder
+                                       ^
+  symbol: class Builder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:21: error: cannot find symbol
+    public Object bind(final Closure root) {
+                             ^
+  symbol:   class Closure
+  location: class BaseMarkupBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:25: error: cannot find symbol
+    private static class Document extends Built implements GroovyInterceptable
+                                          ^
+  symbol:   class Built
+  location: class BaseMarkupBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:25: error: cannot find symbol
+    private static class Document extends Built implements GroovyInterceptable
+                                                           ^
+  symbol:   class GroovyInterceptable
+  location: class BaseMarkupBuilder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:33: error: cannot find symbol
+        public Document(final Closure root, final Map namespaceMethodMap) {
+                              ^
+  symbol:   class Closure
+  location: class Document
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:134: error: cannot find symbol
+        private abstract class OutputSink extends GroovyObjectSupport
+                                                  ^
+  symbol:   class GroovyObjectSupport
+  location: class Document
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:20: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:22: error: cannot find symbol
+        return new Document(root, this.namespaceMethodMap);
+                                      ^
+  symbol: variable namespaceMethodMap
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:142: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:73: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:83: error: cannot find symbol
+                else if (arg instanceof Closure) {
+                                        ^
+  symbol:   class Closure
+  location: class Document
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:84: error: cannot find symbol
+                    final Closure c = (Closure)arg;
+                          ^
+  symbol:   class Closure
+  location: class Document
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:84: error: cannot find symbol
+                    final Closure c = (Closure)arg;
+                                       ^
+  symbol:   class Closure
+  location: class Document
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:102: error: cannot find symbol
+            final Object[] info = this.namespaceSpecificTags.get(uri);
+                                      ^
+  symbol: variable namespaceSpecificTags
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:104: error: cannot find symbol
+            final Closure defaultTagClosure = (Closure)info[0];
+                  ^
+  symbol:   class Closure
+  location: class Document
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:104: error: cannot find symbol
+            final Closure defaultTagClosure = (Closure)info[0];
+                                               ^
+  symbol:   class Closure
+  location: class Document
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:108: error: cannot find symbol
+                return tagMap.get(name).call(this, this.pendingNamespaces, this.namespaces, this.namespaceSpecificTags, prefix, attrs, body, this.out);
+                                                                                                ^
+  symbol: variable namespaceSpecificTags
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:110: error: cannot find symbol
+            return defaultTagClosure.call(name, this, this.pendingNamespaces, this.namespaces, this.namespaceSpecificTags, prefix, attrs, body, this.out);
+                                                                                                   ^
+  symbol: variable namespaceSpecificTags
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:113: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:123: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:127: error: cannot find symbol
+                this.root.call(this);
+                    ^
+  symbol: variable root
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java:130: error: cannot find symbol
+                super.setProperty(property, newValue);
+                ^
+  symbol:   variable super
+  location: class Document
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/streamingmarkupsupport/BaseMarkupBuilder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+25 errors

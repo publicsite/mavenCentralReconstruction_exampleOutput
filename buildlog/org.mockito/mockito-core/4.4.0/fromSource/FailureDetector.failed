@@ -1,0 +1,24 @@
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/util/FailureDetector.java:7: error: package org.junit.runner.notification does not exist
+import org.junit.runner.notification.Failure;
+                                    ^
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/util/FailureDetector.java:8: error: package org.junit.runner.notification does not exist
+import org.junit.runner.notification.RunListener;
+                                    ^
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/util/FailureDetector.java:13: error: cannot find symbol
+public class FailureDetector extends RunListener {
+                                     ^
+  symbol: class RunListener
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/util/FailureDetector.java:18: error: cannot find symbol
+    public void testFailure(Failure failure) throws Exception {
+                            ^
+  symbol:   class Failure
+  location: class FailureDetector
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/util/FailureDetector.java:17: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.mockito/mockito-core/4.4.0/extractedSources/org/mockito/internal/runners/util/FailureDetector.java:19: error: cannot find symbol
+        super.testFailure(failure);
+        ^
+  symbol:   variable super
+  location: class FailureDetector
+6 errors

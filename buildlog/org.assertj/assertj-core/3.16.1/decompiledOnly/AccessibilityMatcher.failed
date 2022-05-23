@@ -1,0 +1,49 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.description.type does not exist
+import org.assertj.core.internal.bytebuddy.description.type.TypeDescription;
+                                                           ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:8: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:9: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.description.ByteCodeElement;
+                                                      ^
+  symbol:   class ByteCodeElement
+  location: package org.assertj.core.internal.bytebuddy.description
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:12: error: package ElementMatcher.Junction does not exist
+public class AccessibilityMatcher<T extends ByteCodeElement> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                            ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:11: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:12: error: cannot find symbol
+public class AccessibilityMatcher<T extends ByteCodeElement> extends ElementMatcher.Junction.AbstractBase<T>
+                                            ^
+  symbol: class ByteCodeElement
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:14: error: cannot find symbol
+    private final TypeDescription typeDescription;
+                  ^
+  symbol:   class TypeDescription
+  location: class AccessibilityMatcher<T>
+  where T is a type-variable:
+    T declared in class AccessibilityMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:16: error: cannot find symbol
+    public AccessibilityMatcher(final TypeDescription typeDescription) {
+                                      ^
+  symbol:   class TypeDescription
+  location: class AccessibilityMatcher<T>
+  where T is a type-variable:
+    T declared in class AccessibilityMatcher
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:31: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.typeDescription.equals(((AccessibilityMatcher)o).typeDescription));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/internal/bytebuddy/matcher/AccessibilityMatcher.java:34: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+12 errors

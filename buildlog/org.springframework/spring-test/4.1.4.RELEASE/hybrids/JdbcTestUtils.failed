@@ -1,0 +1,164 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:23: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:24: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:26: error: package org.springframework.core.io does not exist
+import org.springframework.core.io.Resource;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:27: error: package org.springframework.core.io does not exist
+import org.springframework.core.io.ResourceLoader;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:28: error: package org.springframework.core.io.support does not exist
+import org.springframework.core.io.support.EncodedResource;
+                                          ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:29: error: package org.springframework.dao does not exist
+import org.springframework.dao.DataAccessException;
+                              ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:30: error: package org.springframework.jdbc.core does not exist
+import org.springframework.jdbc.core.JdbcTemplate;
+                                    ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:31: error: package org.springframework.jdbc.core does not exist
+import org.springframework.jdbc.core.SqlParameterValue;
+                                    ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:32: error: package org.springframework.jdbc.datasource.init does not exist
+import org.springframework.jdbc.datasource.init.ResourceDatabasePopulator;
+                                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:33: error: package org.springframework.jdbc.datasource.init does not exist
+import org.springframework.jdbc.datasource.init.ScriptUtils;
+                                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:34: error: package org.springframework.util does not exist
+import org.springframework.util.StringUtils;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:53: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(JdbcTestUtils.class);
+	                     ^
+  symbol:   class Log
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:62: error: cannot find symbol
+	public static int countRowsInTable(JdbcTemplate jdbcTemplate, String tableName) {
+	                                   ^
+  symbol:   class JdbcTemplate
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:80: error: cannot find symbol
+	public static int countRowsInTableWhere(JdbcTemplate jdbcTemplate, String tableName, String whereClause) {
+	                                        ^
+  symbol:   class JdbcTemplate
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:94: error: cannot find symbol
+	public static int deleteFromTables(JdbcTemplate jdbcTemplate, String... tableNames) {
+	                                   ^
+  symbol:   class JdbcTemplate
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:125: error: cannot find symbol
+	public static int deleteFromTableWhere(JdbcTemplate jdbcTemplate, String tableName, String whereClause,
+	                                       ^
+  symbol:   class JdbcTemplate
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:143: error: cannot find symbol
+	public static void dropTables(JdbcTemplate jdbcTemplate, String... tableNames) {
+	                              ^
+  symbol:   class JdbcTemplate
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:171: error: cannot find symbol
+	public static void executeSqlScript(JdbcTemplate jdbcTemplate, ResourceLoader resourceLoader,
+	                                    ^
+  symbol:   class JdbcTemplate
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:171: error: cannot find symbol
+	public static void executeSqlScript(JdbcTemplate jdbcTemplate, ResourceLoader resourceLoader,
+	                                                               ^
+  symbol:   class ResourceLoader
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:172: error: cannot find symbol
+			String sqlResourcePath, boolean continueOnError) throws DataAccessException {
+			                                                        ^
+  symbol:   class DataAccessException
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:198: error: cannot find symbol
+	public static void executeSqlScript(JdbcTemplate jdbcTemplate, Resource resource, boolean continueOnError)
+	                                    ^
+  symbol:   class JdbcTemplate
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:198: error: cannot find symbol
+	public static void executeSqlScript(JdbcTemplate jdbcTemplate, Resource resource, boolean continueOnError)
+	                                                               ^
+  symbol:   class Resource
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:199: error: cannot find symbol
+			throws DataAccessException {
+			       ^
+  symbol:   class DataAccessException
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:221: error: cannot find symbol
+	public static void executeSqlScript(JdbcTemplate jdbcTemplate, EncodedResource resource, boolean continueOnError)
+	                                    ^
+  symbol:   class JdbcTemplate
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:221: error: cannot find symbol
+	public static void executeSqlScript(JdbcTemplate jdbcTemplate, EncodedResource resource, boolean continueOnError)
+	                                                               ^
+  symbol:   class EncodedResource
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:222: error: cannot find symbol
+			throws DataAccessException {
+			       ^
+  symbol:   class DataAccessException
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:53: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(JdbcTestUtils.class);
+	                                  ^
+  symbol:   variable LogFactory
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:82: error: cannot find symbol
+		if (StringUtils.hasText(whereClause)) {
+		    ^
+  symbol:   variable StringUtils
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:128: error: cannot find symbol
+		if (StringUtils.hasText(whereClause)) {
+		    ^
+  symbol:   variable StringUtils
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:173: error: cannot find symbol
+		Resource resource = resourceLoader.getResource(sqlResourcePath);
+		^
+  symbol:   class Resource
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:200: error: cannot find symbol
+		executeSqlScript(jdbcTemplate, new EncodedResource(resource), continueOnError);
+		                                   ^
+  symbol:   class EncodedResource
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:223: error: cannot find symbol
+		new ResourceDatabasePopulator(continueOnError, false, resource.getEncoding(), resource.getResource()).execute(jdbcTemplate.getDataSource());
+		    ^
+  symbol:   class ResourceDatabasePopulator
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:239: error: cannot find symbol
+		return readScript(lineNumberReader, ScriptUtils.DEFAULT_COMMENT_PREFIX);
+		                                    ^
+  symbol:   variable ScriptUtils
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:257: error: cannot find symbol
+		return ScriptUtils.readScript(lineNumberReader, commentPrefix, ScriptUtils.DEFAULT_STATEMENT_SEPARATOR);
+		                                                               ^
+  symbol:   variable ScriptUtils
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:257: error: cannot find symbol
+		return ScriptUtils.readScript(lineNumberReader, commentPrefix, ScriptUtils.DEFAULT_STATEMENT_SEPARATOR);
+		       ^
+  symbol:   variable ScriptUtils
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:270: error: cannot find symbol
+		return ScriptUtils.containsSqlScriptDelimiters(script, String.valueOf(delim));
+		       ^
+  symbol:   variable ScriptUtils
+  location: class JdbcTestUtils
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/JdbcTestUtils.java:289: error: cannot find symbol
+		ScriptUtils.splitSqlScript(script, delim, statements);
+		^
+  symbol:   variable ScriptUtils
+  location: class JdbcTestUtils
+37 errors

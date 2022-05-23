@@ -1,0 +1,132 @@
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:19: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:20: error: package javax.resource.spi does not exist
+import javax.resource.spi.BootstrapContext;
+                         ^
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:21: error: package javax.resource.spi does not exist
+import javax.resource.spi.ResourceAdapter;
+                         ^
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:22: error: package javax.resource.spi does not exist
+import javax.resource.spi.XATerminator;
+                         ^
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:23: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkManager;
+                              ^
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:53: error: cannot find symbol
+	private ResourceAdapter resourceAdapter;
+	        ^
+  symbol:   class ResourceAdapter
+  location: class ResourceAdapterFactoryBean
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:55: error: cannot find symbol
+	private BootstrapContext bootstrapContext;
+	        ^
+  symbol:   class BootstrapContext
+  location: class ResourceAdapterFactoryBean
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:57: error: cannot find symbol
+	private WorkManager workManager;
+	        ^
+  symbol:   class WorkManager
+  location: class ResourceAdapterFactoryBean
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:59: error: cannot find symbol
+	private XATerminator xaTerminator;
+	        ^
+  symbol:   class XATerminator
+  location: class ResourceAdapterFactoryBean
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:80: error: cannot find symbol
+	public void setResourceAdapter(ResourceAdapter resourceAdapter) {
+	                               ^
+  symbol:   class ResourceAdapter
+  location: class ResourceAdapterFactoryBean
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:91: error: cannot find symbol
+	public void setBootstrapContext(BootstrapContext bootstrapContext) {
+	                                ^
+  symbol:   class BootstrapContext
+  location: class ResourceAdapterFactoryBean
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:99: error: cannot find symbol
+	public void setWorkManager(WorkManager workManager) {
+	                           ^
+  symbol:   class WorkManager
+  location: class ResourceAdapterFactoryBean
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:107: error: cannot find symbol
+	public void setXaTerminator(XATerminator xaTerminator) {
+	                            ^
+  symbol:   class XATerminator
+  location: class ResourceAdapterFactoryBean
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:116: error: cannot find symbol
+	public void afterPropertiesSet() throws ResourceException {
+	                                        ^
+  symbol:   class ResourceException
+  location: class ResourceAdapterFactoryBean
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:70: error: cannot find symbol
+		Assert.isAssignable(ResourceAdapter.class, resourceAdapterClass);
+		                    ^
+  symbol:   class ResourceAdapter
+  location: class ResourceAdapterFactoryBean
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:71: error: cannot find symbol
+		this.resourceAdapter = (ResourceAdapter) BeanUtils.instantiateClass(resourceAdapterClass);
+		                        ^
+  symbol:   class ResourceAdapter
+  location: class ResourceAdapterFactoryBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:21: error: package javax.resource.spi does not exist
+import javax.resource.spi.BootstrapContext;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:22: error: package javax.resource.spi does not exist
+import javax.resource.spi.UnavailableException;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:23: error: package javax.resource.spi does not exist
+import javax.resource.spi.XATerminator;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:24: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkManager;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:38: error: cannot find symbol
+public class SimpleBootstrapContext implements BootstrapContext {
+                                               ^
+  symbol: class BootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:40: error: cannot find symbol
+	private WorkManager workManager;
+	        ^
+  symbol:   class WorkManager
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:42: error: cannot find symbol
+	private XATerminator xaTerminator;
+	        ^
+  symbol:   class XATerminator
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:50: error: cannot find symbol
+	public SimpleBootstrapContext(WorkManager workManager) {
+	                              ^
+  symbol:   class WorkManager
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:59: error: cannot find symbol
+	public SimpleBootstrapContext(WorkManager workManager, XATerminator xaTerminator) {
+	                              ^
+  symbol:   class WorkManager
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:59: error: cannot find symbol
+	public SimpleBootstrapContext(WorkManager workManager, XATerminator xaTerminator) {
+	                                                       ^
+  symbol:   class XATerminator
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:65: error: cannot find symbol
+	public WorkManager getWorkManager() {
+	       ^
+  symbol:   class WorkManager
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:72: error: cannot find symbol
+	public XATerminator getXATerminator() {
+	       ^
+  symbol:   class XATerminator
+  location: class SimpleBootstrapContext
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/support/SimpleBootstrapContext.java:76: error: cannot find symbol
+	public Timer createTimer() throws UnavailableException {
+	                                  ^
+  symbol:   class UnavailableException
+  location: class SimpleBootstrapContext
+hybrids/org.springframework/spring/2.5.6/ResourceAdapterFactoryBean.java:132: error: cannot find symbol
+		return (this.resourceAdapter != null ? this.resourceAdapter.getClass() : ResourceAdapter.class);
+		                                                                         ^
+  symbol:   class ResourceAdapter
+  location: class ResourceAdapterFactoryBean
+30 errors

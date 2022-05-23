@@ -1,0 +1,80 @@
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java:31: error: package org.apache.xml.resolver does not exist
+import org.apache.xml.resolver.Catalog;
+                              ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java:32: error: package org.apache.xml.resolver does not exist
+import org.apache.xml.resolver.CatalogManager;
+                              ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java:34: error: package org.apache.xml.resolver.tools does not exist
+import org.apache.xml.resolver.tools.CatalogResolver;
+                                    ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java:64: error: cannot find symbol
+public class ApacheCatalogResolver extends CatalogResolver {
+                                           ^
+  symbol: class CatalogResolver
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java:78: error: cannot find symbol
+        CatalogManager.getStaticManager().setIgnoreMissingProperties(true);
+        ^
+  symbol:   variable CatalogManager
+  location: class ApacheCatalogResolver
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java:87: error: cannot find symbol
+        CatalogManager.getStaticManager().setUseStaticCatalog(false);
+        ^
+  symbol:   variable CatalogManager
+  location: class ApacheCatalogResolver
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java:108: error: cannot find symbol
+        Catalog catalog = getCatalog();
+        ^
+  symbol:   class Catalog
+  location: class ApacheCatalogResolver
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java:108: error: cannot find symbol
+        Catalog catalog = getCatalog();
+                          ^
+  symbol:   method getCatalog()
+  location: class ApacheCatalogResolver
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java:118: error: cannot find symbol
+            apacheCatalog.parseCatalog(file);
+                         ^
+  symbol:   method parseCatalog(String)
+  location: variable apacheCatalog of type ApacheCatalog
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalog.java:58: error: cannot find symbol
+        ApacheCatalog cat = (ApacheCatalog) super.newCatalog();
+                                            ^
+  symbol:   variable super
+  location: class ApacheCatalog
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalog.java:92: error: cannot find symbol
+        if (type == PUBLIC) {
+                    ^
+  symbol:   variable PUBLIC
+  location: class ApacheCatalog
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalog.java:94: error: cannot find symbol
+            String publicid = PublicId.normalize(entry.getEntryArg(0));
+                              ^
+  symbol:   variable PublicId
+  location: class ApacheCatalog
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalog.java:98: error: package catalogManager does not exist
+                catalogManager.debug
+                              ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalog.java:101: error: cannot find symbol
+                resolver.addPublicEntry(publicid, systemid, base);
+                                                            ^
+  symbol:   variable base
+  location: class ApacheCatalog
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalog.java:104: error: cannot find symbol
+        } else if (type == URI) {
+                           ^
+  symbol:   variable URI
+  location: class ApacheCatalog
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalog.java:110: error: package catalogManager does not exist
+                catalogManager.debug
+                              ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalog.java:113: error: cannot find symbol
+                resolver.addURIEntry(uri, altURI, base);
+                                                  ^
+  symbol:   variable base
+  location: class ApacheCatalog
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/types/resolver/ApacheCatalog.java:118: error: cannot find symbol
+        super.addEntry(entry);
+        ^
+  symbol:   variable super
+  location: class ApacheCatalog
+18 errors

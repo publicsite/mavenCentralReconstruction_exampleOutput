@@ -1,0 +1,102 @@
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:9: error: package org.junit.platform.commons.support does not exist
+import org.junit.platform.commons.support.ReflectionSupport;
+                                         ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:13: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ParameterResolutionException;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:15: error: package org.junit.platform.commons.support does not exist
+import org.junit.platform.commons.support.AnnotationSupport;
+                                         ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:16: error: package org.junit.platform.commons.annotation does not exist
+import org.junit.platform.commons.annotation.Testable;
+                                            ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:18: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ParameterContext;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:19: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:20: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.AfterTestExecutionCallback;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:21: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ParameterResolver;
+                                      ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:23: error: cannot find symbol
+public class SoftAssertionsExtension implements ParameterResolver, AfterTestExecutionCallback
+                                                ^
+  symbol: class ParameterResolver
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:23: error: cannot find symbol
+public class SoftAssertionsExtension implements ParameterResolver, AfterTestExecutionCallback
+                                                                   ^
+  symbol: class AfterTestExecutionCallback
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:25: error: package ExtensionContext does not exist
+    private static final ExtensionContext.Namespace SOFT_ASSERTIONS_EXTENSION_NAMESPACE;
+                                         ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:27: error: cannot find symbol
+    public boolean supportsParameter(final ParameterContext parameterContext, final ExtensionContext extensionContext) {
+                                           ^
+  symbol:   class ParameterContext
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:27: error: cannot find symbol
+    public boolean supportsParameter(final ParameterContext parameterContext, final ExtensionContext extensionContext) {
+                                                                                    ^
+  symbol:   class ExtensionContext
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:49: error: cannot find symbol
+    public Object resolveParameter(final ParameterContext parameterContext, final ExtensionContext extensionContext) {
+                                         ^
+  symbol:   class ParameterContext
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:49: error: cannot find symbol
+    public Object resolveParameter(final ParameterContext parameterContext, final ExtensionContext extensionContext) {
+                                                                                  ^
+  symbol:   class ExtensionContext
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:54: error: cannot find symbol
+    public void afterTestExecution(final ExtensionContext extensionContext) {
+                                         ^
+  symbol:   class ExtensionContext
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:63: error: cannot find symbol
+    private static ExtensionContext.Store getStore(final ExtensionContext extensionContext) {
+                                                         ^
+  symbol:   class ExtensionContext
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:63: error: package ExtensionContext does not exist
+    private static ExtensionContext.Store getStore(final ExtensionContext extensionContext) {
+                                   ^
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:32: error: cannot find symbol
+        final boolean isTestableMethod = executable instanceof Method && AnnotationSupport.isAnnotated((AnnotatedElement)executable, (Class)Testable.class);
+                                                                                                                                            ^
+  symbol:   class Testable
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:32: error: cannot find symbol
+        final boolean isTestableMethod = executable instanceof Method && AnnotationSupport.isAnnotated((AnnotatedElement)executable, (Class)Testable.class);
+                                                                         ^
+  symbol:   variable AnnotationSupport
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:34: error: cannot find symbol
+            throw new ParameterResolutionException(String.format("Configuration error: cannot resolve SoftAssertionsProvider instances for [%s]. Only test methods are supported.", executable));
+                      ^
+  symbol:   class ParameterResolutionException
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:38: error: cannot find symbol
+            throw new ParameterResolutionException(String.format("Configuration error: the resolved SoftAssertionsProvider implementation [%s] is abstract and cannot be instantiated.", executable));
+                      ^
+  symbol:   class ParameterResolutionException
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:44: error: cannot find symbol
+            throw new ParameterResolutionException(String.format("Configuration error: the resolved SoftAssertionsProvider implementation [%s] has no default constructor and cannot be instantiated.", executable));
+                      ^
+  symbol:   class ParameterResolutionException
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:51: error: cannot find symbol
+        return getStore(extensionContext).getOrComputeIfAbsent((Object)SoftAssertionsProvider.class, unused -> (SoftAssertionsProvider)ReflectionSupport.newInstance((Class)concreteSoftAssertionsProviderType, new Object[0]), (Class)SoftAssertionsProvider.class);
+                                                                                                                                       ^
+  symbol:   variable ReflectionSupport
+  location: class SoftAssertionsExtension
+sources/structure/org.assertj/assertj-core/3.16.1/Decompiled/org/assertj/core/api/junit/jupiter/SoftAssertionsExtension.java:68: error: package ExtensionContext does not exist
+        SOFT_ASSERTIONS_EXTENSION_NAMESPACE = ExtensionContext.Namespace.create(new Object[] { SoftAssertionsExtension.class });
+                                                              ^
+25 errors

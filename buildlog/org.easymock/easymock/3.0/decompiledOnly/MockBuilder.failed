@@ -1,0 +1,111 @@
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/EasyMock.java:1884: error: name clash: capture(Capture<Boolean>) and <T>capture(Capture<T>) have the same erasure
+    public static boolean capture(final Capture<Boolean> captured) {
+                          ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/EasyMock.java:1896: error: name clash: capture(Capture<Integer>) and <T>capture(Capture<T>) have the same erasure
+    public static int capture(final Capture<Integer> captured) {
+                      ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/EasyMock.java:1908: error: name clash: capture(Capture<Long>) and <T>capture(Capture<T>) have the same erasure
+    public static long capture(final Capture<Long> captured) {
+                       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/EasyMock.java:1920: error: name clash: capture(Capture<Float>) and <T>capture(Capture<T>) have the same erasure
+    public static float capture(final Capture<Float> captured) {
+                        ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/EasyMock.java:1932: error: name clash: capture(Capture<Double>) and <T>capture(Capture<T>) have the same erasure
+    public static double capture(final Capture<Double> captured) {
+                         ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/EasyMock.java:1944: error: name clash: capture(Capture<Byte>) and <T>capture(Capture<T>) have the same erasure
+    public static byte capture(final Capture<Byte> captured) {
+                       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/EasyMock.java:1956: error: name clash: capture(Capture<Character>) and <T>capture(Capture<T>) have the same erasure
+    public static char capture(final Capture<Character> captured) {
+                       ^
+  where T is a type-variable:
+    T extends Object declared in method <T>capture(Capture<T>)
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassExtensionHelper.java:21: error: cannot find symbol
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+  symbol:   class Enhancer
+  location: package net.sf.cglib.proxy
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:45: error: cannot find symbol
+    public static class MockMethodInterceptor implements MethodInterceptor, Serializable {
+                                                         ^
+  symbol:   class MethodInterceptor
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:58: error: cannot find symbol
+                final MethodProxy proxy) throws Throwable {
+                      ^
+  symbol:   class MethodProxy
+  location: class MockMethodInterceptor
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:257: error: cannot find symbol
+    private Enhancer createEnhancer(final Class<T> toMock) {
+            ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:174: error: cannot find symbol
+        final Enhancer enhancer = createEnhancer(toMock);
+              ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:176: error: cannot find symbol
+        final MethodInterceptor interceptor = new MockMethodInterceptor(handler);
+              ^
+  symbol:   class MethodInterceptor
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:194: error: cannot find symbol
+        Enhancer.registerCallbacks(mockClass, new Callback[] { interceptor });
+        ^
+  symbol:   variable Enhancer
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:259: error: cannot find symbol
+        final Enhancer enhancer = new Enhancer() {
+              ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:259: error: cannot find symbol
+        final Enhancer enhancer = new Enhancer() {
+                                      ^
+  symbol:   class Enhancer
+  location: class ClassProxyFactory<T>
+  where T is a type-variable:
+    T extends Object declared in class ClassProxyFactory
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:265: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassProxyFactory.java:267: error: cannot find symbol
+                CollectionUtils.filter(constructors, new VisibilityPredicate(sc, true));
+                                                         ^
+  symbol: class VisibilityPredicate
+sources/structure/org.easymock/easymock/3.0/extractedSources/org/easymock/internal/ClassExtensionHelper.java:57: error: cannot find symbol
+            if (Enhancer.isEnhanced(mock.getClass())) {
+                ^
+  symbol:   variable Enhancer
+  location: class ClassExtensionHelper
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.easymock/easymock/3.0/Decompiled/org/easymock/internal/MockBuilder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+19 errors

@@ -1,0 +1,133 @@
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/org/apache/geronimo/specs/activation/CommandMapBundleTrackerCustomizer.java:19: error: cannot find symbol
+import org.osgi.util.tracker.BundleTrackerCustomizer;
+                            ^
+  symbol:   class BundleTrackerCustomizer
+  location: package org.osgi.util.tracker
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/Decompiled/org/apache/geronimo/specs/activation/CommandMapBundleTrackerCustomizer.java:21: error: cannot find symbol
+public class CommandMapBundleTrackerCustomizer implements BundleTrackerCustomizer
+                                                          ^
+  symbol: class BundleTrackerCustomizer
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:29: error: package org.osgi.service.log does not exist
+import org.osgi.service.log.LogService;
+                           ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:30: error: cannot find symbol
+import org.osgi.util.tracker.BundleTracker;
+                            ^
+  symbol:   class BundleTracker
+  location: package org.osgi.util.tracker
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:31: error: cannot find symbol
+import org.osgi.util.tracker.ServiceTracker;
+                            ^
+  symbol:   class ServiceTracker
+  location: package org.osgi.util.tracker
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:32: error: cannot find symbol
+import org.osgi.util.tracker.ServiceTrackerCustomizer;
+                            ^
+  symbol:   class ServiceTrackerCustomizer
+  location: package org.osgi.util.tracker
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:38: error: package org.apache.geronimo.osgi.locator does not exist
+public class Activator extends org.apache.geronimo.osgi.locator.Activator {
+                                                               ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:40: error: cannot find symbol
+    protected BundleTracker bt;
+              ^
+  symbol:   class BundleTracker
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:42: error: cannot find symbol
+    protected ServiceTracker lst;
+              ^
+  symbol:   class ServiceTracker
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:44: error: cannot find symbol
+    List<LogService> logServices = new ArrayList<LogService>();
+         ^
+  symbol:   class LogService
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/javax/activation/MailcapCommandMap.java:40: error: package org.apache.geronimo.osgi.locator does not exist
+import org.apache.geronimo.osgi.locator.ProviderLocator;
+                                       ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:79: error: cannot find symbol
+	private final class LogServiceTracker extends ServiceTracker {
+	                                              ^
+  symbol:   class ServiceTracker
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:81: error: cannot find symbol
+                ServiceTrackerCustomizer customizer) {
+                ^
+  symbol:   class ServiceTrackerCustomizer
+  location: class Activator.LogServiceTracker
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:44: error: cannot find symbol
+    List<LogService> logServices = new ArrayList<LogService>();
+                                                 ^
+  symbol:   class LogService
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:47: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:49: error: cannot find symbol
+        super.start(context);
+        ^
+  symbol:   variable super
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:50: error: cannot find symbol
+        lst = new LogServiceTracker(context, LogService.class.getName(), null);
+                                             ^
+  symbol:   class LogService
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:52: error: cannot find symbol
+	    bt = new BundleTracker(context, Bundle.ACTIVE, new CommandMapBundleTrackerCustomizer(this, context.getBundle()));
+	             ^
+  symbol:   class BundleTracker
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:56: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:60: error: cannot find symbol
+        super.stop(context);
+        ^
+  symbol:   variable super
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:65: error: cannot find symbol
+	        for (LogService log : logServices) {
+	             ^
+  symbol:   class LogService
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:73: error: cannot find symbol
+            for (LogService log : logServices) {
+                 ^
+  symbol:   class LogService
+  location: class Activator
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:85: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:87: error: cannot find symbol
+            Object svc = super.addingService(reference);
+                         ^
+  symbol:   variable super
+  location: class Activator.LogServiceTracker
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:88: error: cannot find symbol
+            if (svc instanceof LogService) {
+                               ^
+  symbol:   class LogService
+  location: class Activator.LogServiceTracker
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:90: error: cannot find symbol
+                    logServices.add((LogService) svc);
+                                     ^
+  symbol:   class LogService
+  location: class Activator.LogServiceTracker
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:96: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/org/apache/geronimo/specs/activation/Activator.java:101: error: cannot find symbol
+            super.removedService(reference, service);
+            ^
+  symbol:   variable super
+  location: class Activator.LogServiceTracker
+sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/javax/activation/MailcapCommandMap.java:472: error: cannot find symbol
+            return (DataContentHandler) ProviderLocator.loadClass(info.getCommandClass(), this.getClass(), cl).newInstance();
+                                        ^
+  symbol:   variable ProviderLocator
+  location: class MailcapCommandMap
+Note: sources/structure/org.apache.geronimo.specs/geronimo-activation_1.1_spec/1.1/extractedSources/javax/activation/MailcapCommandMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+29 errors

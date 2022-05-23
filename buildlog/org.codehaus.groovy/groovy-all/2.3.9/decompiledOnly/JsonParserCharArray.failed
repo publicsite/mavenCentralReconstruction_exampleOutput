@@ -1,0 +1,91 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:11: error: cannot find symbol
+public class JsonParserCharArray extends BaseJsonParser
+                                         ^
+  symbol: class BaseJsonParser
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:21: error: cannot find symbol
+    private CharBuf builder;
+            ^
+  symbol:   class CharBuf
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:25: error: cannot find symbol
+        this.builder = CharBuf.create(20);
+                       ^
+  symbol:   variable CharBuf
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:70: error: cannot find symbol
+        return CharScanner.errorDetails(message, this.charArray, this.__index, this.__currentChar);
+               ^
+  symbol:   variable CharScanner
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:93: error: cannot find symbol
+                if (JsonParserCharArray.internKeys) {
+                                       ^
+  symbol:   variable internKeys
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:93: error: illegal parenthesized expression
+                if (JsonParserCharArray.internKeys) {
+                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:94: error: cannot find symbol
+                    final String keyPrime = JsonParserCharArray.internedKeysCache.get(key);
+                                                               ^
+  symbol:   variable internedKeysCache
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:97: error: cannot find symbol
+                        JsonParserCharArray.internedKeysCache.put(key, key);
+                                           ^
+  symbol:   variable internedKeysCache
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:105: error: cannot find symbol
+                    this.complain("expecting current character to be " + this.charDescription(this.__currentChar) + "\n");
+                                                                             ^
+  symbol: method charDescription(char)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:118: error: cannot find symbol
+                this.complain("expecting '}' or ',' but got current char " + this.charDescription(this.__currentChar));
+                                                                                 ^
+  symbol: method charDescription(char)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:186: error: cannot find symbol
+        final Number num = CharScanner.parseJsonNumber(this.charArray, this.__index, this.charArray.length, this.endIndex);
+                           ^
+  symbol:   variable CharScanner
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:223: error: cannot find symbol
+        final boolean encoded = BaseJsonParser.hasEscapeChar(array, index, this.indexHolder);
+                                                                               ^
+  symbol: variable indexHolder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:223: error: cannot find symbol
+        final boolean encoded = BaseJsonParser.hasEscapeChar(array, index, this.indexHolder);
+                                ^
+  symbol:   variable BaseJsonParser
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:224: error: cannot find symbol
+        index = this.indexHolder[0];
+                    ^
+  symbol: variable indexHolder
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:227: error: cannot find symbol
+            index = BaseJsonParser.findEndQuote(array, index);
+                    ^
+  symbol:   variable BaseJsonParser
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:280: error: cannot find symbol
+                        final String charString = this.charDescription(c);
+                                                      ^
+  symbol: method charDescription(char)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:306: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:312: error: cannot find symbol
+        NULL = Chr.chars("null");
+               ^
+  symbol:   variable Chr
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:313: error: cannot find symbol
+        TRUE = Chr.chars("true");
+               ^
+  symbol:   variable Chr
+  location: class JsonParserCharArray
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/JsonParserCharArray.java:314: error: cannot find symbol
+        JsonParserCharArray.FALSE = Chr.chars("false");
+                                    ^
+  symbol:   variable Chr
+  location: class JsonParserCharArray
+20 errors

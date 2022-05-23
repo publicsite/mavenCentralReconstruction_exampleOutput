@@ -1,0 +1,396 @@
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:303: error: cannot find symbol
+        public enum Inactive implements Unresolved, ForMethodEnter, ForMethodExit, Bound
+                                                    ^
+  symbol:   class ForMethodEnter
+  location: interface Dispatcher
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:303: error: cannot find symbol
+        public enum Inactive implements Unresolved, ForMethodEnter, ForMethodExit, Bound
+                                                                    ^
+  symbol:   class ForMethodExit
+  location: interface Dispatcher
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:343: error: cannot find symbol
+            public ForMethodEnter asMethodEnter(final List<? extends OffsetMapping.Factory<?>> userFactories, final ClassReader classReader, final Unresolved methodExit) {
+                   ^
+  symbol:   class ForMethodEnter
+  location: class Inactive
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:348: error: cannot find symbol
+            public ForMethodExit asMethodExit(final List<? extends OffsetMapping.Factory<?>> userFactories, final ClassReader classReader, final Unresolved methodEnter) {
+                   ^
+  symbol:   class ForMethodExit
+  location: class Inactive
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:681: error: reference to ForMethodEnter is ambiguous
+                    protected static class WithRetainedEnterType extends ForMethodEnter
+                                                                         ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:693: error: reference to ForMethodEnter is ambiguous
+                    protected static class WithDiscardedEnterType extends ForMethodEnter
+                                                                          ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:771: error: reference to ForMethodExit is ambiguous
+                    protected static class WithExceptionHandler extends ForMethodExit
+                                                                        ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:796: error: reference to ForMethodExit is ambiguous
+                    protected static class WithoutExceptionHandler extends ForMethodExit
+                                                                           ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1271: error: reference to ForMethodEnter is ambiguous
+                    protected static class WithRetainedEnterType extends ForMethodEnter
+                                                                         ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1283: error: reference to ForMethodEnter is ambiguous
+                    protected static class WithDiscardedEnterType extends ForMethodEnter
+                                                                          ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1351: error: reference to ForMethodExit is ambiguous
+                    protected static class WithExceptionHandler extends ForMethodExit
+                                                                        ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1376: error: reference to ForMethodExit is ambiguous
+                    protected static class WithoutExceptionHandler extends ForMethodExit
+                                                                           ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1880: error: cannot find symbol
+    protected abstract static class AdviceVisitor extends ExceptionTableSensitiveMethodVisitor implements Relocation
+                                                                                                          ^
+  symbol:   class Relocation
+  location: class Advice
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1891: error: package Resolved does not exist
+        protected AdviceVisitor(final MethodVisitor methodVisitor, final MethodVisitor delegate, final Context implementationContext, final Assigner assigner, final StackManipulation exceptionHandler, final TypeDescription instrumentedType, final MethodDescription instrumentedMethod, final Resolved.ForMethodEnter methodEnter, final Resolved.ForMethodExit methodExit, final List<? extends TypeDescription> postMethodTypes, final int writerFlags, final int readerFlags) {
+                                                                                                                                                                                                                                                                                                           ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1891: error: package Resolved does not exist
+        protected AdviceVisitor(final MethodVisitor methodVisitor, final MethodVisitor delegate, final Context implementationContext, final Assigner assigner, final StackManipulation exceptionHandler, final TypeDescription instrumentedType, final MethodDescription instrumentedMethod, final Resolved.ForMethodEnter methodEnter, final Resolved.ForMethodExit methodExit, final List<? extends TypeDescription> postMethodTypes, final int writerFlags, final int readerFlags) {
+                                                                                                                                                                                                                                                                                                                                                      ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1963: error: package Resolved does not exist
+            protected WithoutExitAdvice(final MethodVisitor methodVisitor, final Context implementationContext, final Assigner assigner, final StackManipulation exceptionHandler, final TypeDescription instrumentedType, final MethodDescription instrumentedMethod, final Resolved.ForMethodEnter methodEnter, final int writerFlags, final int readerFlags) {
+                                                                                                                                                                                                                                                                                     ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2011: error: package Resolved does not exist
+            protected WithExitAdvice(final MethodVisitor methodVisitor, final Context implementationContext, final Assigner assigner, final StackManipulation exceptionHandler, final TypeDescription instrumentedType, final MethodDescription instrumentedMethod, final Resolved.ForMethodEnter methodEnter, final Resolved.ForMethodExit methodExit, final List<? extends TypeDescription> postMethodTypes, final int writerFlags, final int readerFlags) {
+                                                                                                                                                                                                                                                                                  ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2011: error: package Resolved does not exist
+            protected WithExitAdvice(final MethodVisitor methodVisitor, final Context implementationContext, final Assigner assigner, final StackManipulation exceptionHandler, final TypeDescription instrumentedType, final MethodDescription instrumentedMethod, final Resolved.ForMethodEnter methodEnter, final Resolved.ForMethodExit methodExit, final List<? extends TypeDescription> postMethodTypes, final int writerFlags, final int readerFlags) {
+                                                                                                                                                                                                                                                                                                                             ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2110: error: package Resolved does not exist
+                protected WithoutExceptionHandling(final MethodVisitor methodVisitor, final Context implementationContext, final Assigner assigner, final StackManipulation exceptionHandler, final TypeDescription instrumentedType, final MethodDescription instrumentedMethod, final Resolved.ForMethodEnter methodEnter, final Resolved.ForMethodExit methodExit, final int writerFlags, final int readerFlags) {
+                                                                                                                                                                                                                                                                                                ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2110: error: package Resolved does not exist
+                protected WithoutExceptionHandling(final MethodVisitor methodVisitor, final Context implementationContext, final Assigner assigner, final StackManipulation exceptionHandler, final TypeDescription instrumentedType, final MethodDescription instrumentedMethod, final Resolved.ForMethodEnter methodEnter, final Resolved.ForMethodExit methodExit, final int writerFlags, final int readerFlags) {
+                                                                                                                                                                                                                                                                                                                                           ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2157: error: package Resolved does not exist
+                protected WithExceptionHandling(final MethodVisitor methodVisitor, final Context implementationContext, final Assigner assigner, final StackManipulation exceptionHandler, final TypeDescription instrumentedType, final MethodDescription instrumentedMethod, final Resolved.ForMethodEnter methodEnter, final Resolved.ForMethodExit methodExit, final int writerFlags, final int readerFlags, final TypeDescription throwable) {
+                                                                                                                                                                                                                                                                                             ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2157: error: package Resolved does not exist
+                protected WithExceptionHandling(final MethodVisitor methodVisitor, final Context implementationContext, final Assigner assigner, final StackManipulation exceptionHandler, final TypeDescription instrumentedType, final MethodDescription instrumentedMethod, final Resolved.ForMethodEnter methodEnter, final Resolved.ForMethodExit methodExit, final int writerFlags, final int readerFlags, final TypeDescription throwable) {
+                                                                                                                                                                                                                                                                                                                                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3194: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3202: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:322: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:332: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:337: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:364: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1415: error: incompatible types: inference variable T has incompatible equality constraints CAP#1,CAP#2
+                                final OffsetMapping current = factory2.make(parameterDescription, annotationDescription.prepare(factory2.getAnnotationType()), adviceType);
+                                                                      ^
+  where T is a type-variable:
+    T extends Annotation declared in method <T>prepare(Class<T>)
+  where CAP#1,CAP#2 are fresh type-variables:
+    CAP#1 extends Annotation from capture of ?
+    CAP#2 extends Annotation from capture of ?
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:625: error: incompatible types: List<Factory> cannot be converted to List<? extends Factory<?>>
+                        super(adviceMethod, CompoundList.of((List<? extends OffsetMapping.Factory<?>>)Arrays.asList(OffsetMapping.ForArgument.Unresolved.Factory.INSTANCE, OffsetMapping.ForAllArguments.Factory.INSTANCE, OffsetMapping.ForThisReference.Factory.INSTANCE, OffsetMapping.ForField.Unresolved.Factory.INSTANCE, OffsetMapping.ForOrigin.Factory.INSTANCE, OffsetMapping.ForUnusedValue.Factory.INSTANCE, OffsetMapping.ForStubValue.INSTANCE, OffsetMapping.ForThrowable.Factory.INSTANCE, OffsetMapping.ForExitValue.Factory.of(exitType), new OffsetMapping.ForLocalValue.Factory(namedTypes), new OffsetMapping.Factory.Illegal(Thrown.class), new OffsetMapping.Factory.Illegal(Enter.class), new OffsetMapping.Factory.Illegal(Return.class)), userFactories), adviceMethod.getDeclaredAnnotations().ofType(OnMethodEnter.class).getValue(Advice.SUPPRESS_ENTER).resolve((Class<? extends TypeDescription>)TypeDescription.class), adviceMethod.getDeclaredAnnotations().ofType(OnMethodEnter.class).getValue(Advice.SKIP_ON).resolve((Class<? extends TypeDescription>)TypeDescription.class), classReader);
+                                                                                                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:631: error: incompatible types: bad type in conditional expression
+                        return methodExit ? new WithRetainedEnterType(adviceMethod, namedTypes, userFactories, exitType, classReader) : new WithDiscardedEnterType(adviceMethod, namedTypes, userFactories, exitType, classReader);
+                                            ^
+    WithRetainedEnterType cannot be converted to ForMethodEnter
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:631: error: incompatible types: bad type in conditional expression
+                        return methodExit ? new WithRetainedEnterType(adviceMethod, namedTypes, userFactories, exitType, classReader) : new WithDiscardedEnterType(adviceMethod, namedTypes, userFactories, exitType, classReader);
+                                                                                                                                        ^
+    WithDiscardedEnterType cannot be converted to ForMethodEnter
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:673: error: reference to ForMethodEnter is ambiguous
+                        return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.namedTypes.equals(((ForMethodEnter)o).namedTypes) && this.prependLineNumber == ((ForMethodEnter)o).prependLineNumber));
+                                                                                                                                          ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:673: error: reference to ForMethodEnter is ambiguous
+                        return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.namedTypes.equals(((ForMethodEnter)o).namedTypes) && this.prependLineNumber == ((ForMethodEnter)o).prependLineNumber));
+                                                                                                                                                                                                       ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:687: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:689: error: cannot find symbol
+                            return this.adviceMethod.getReturnType();
+                                       ^
+  symbol: variable adviceMethod
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:699: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:704: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:706: error: cannot find symbol
+                            methodSizeHandler.requireLocalVariableLengthPadding(this.adviceMethod.getReturnType().getStackSize().getSize());
+                                                                                    ^
+  symbol: variable adviceMethod
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:707: error: non-static variable super cannot be referenced from a static context
+                            return super.doApply(methodVisitor, implementationContext, assigner, argumentHandler, methodSizeHandler, stackMapFrameHandler, instrumentedType, instrumentedMethod, suppressionHandler, relocationHandler);
+                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:707: error: cannot find symbol
+                            return super.doApply(methodVisitor, implementationContext, assigner, argumentHandler, methodSizeHandler, stackMapFrameHandler, instrumentedType, instrumentedMethod, suppressionHandler, relocationHandler);
+                                        ^
+  symbol: method doApply(MethodVisitor,Context,Assigner,net.bytebuddy.asm.Advice.ArgumentHandler.ForAdvice,net.bytebuddy.asm.Advice.MethodSizeHandler.ForAdvice,net.bytebuddy.asm.Advice.StackMapFrameHandler.ForAdvice,TypeDescription,MethodDescription,net.bytebuddy.asm.Advice.Dispatcher.SuppressionHandler.Bound,net.bytebuddy.asm.Advice.Dispatcher.RelocationHandler.Bound)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:724: error: incompatible types: bad type in conditional expression
+                        return throwable.represents(NoExceptionHandler.class) ? new WithoutExceptionHandler(adviceMethod, namedTypes, userFactories, classReader, enterType) : new WithExceptionHandler(adviceMethod, namedTypes, userFactories, classReader, enterType, throwable);
+                                                                                ^
+    WithoutExceptionHandler cannot be converted to ForMethodExit
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:724: error: incompatible types: bad type in conditional expression
+                        return throwable.represents(NoExceptionHandler.class) ? new WithoutExceptionHandler(adviceMethod, namedTypes, userFactories, classReader, enterType) : new WithExceptionHandler(adviceMethod, namedTypes, userFactories, classReader, enterType, throwable);
+                                                                                                                                                                               ^
+    WithExceptionHandler cannot be converted to ForMethodExit
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:762: error: reference to ForMethodExit is ambiguous
+                        return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.backupArguments == ((ForMethodExit)o).backupArguments));
+                                                                                                                                           ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Inlining.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:780: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:785: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:787: error: non-static variable super cannot be referenced from a static context
+                            return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.throwable.equals(((WithExceptionHandler)o).throwable)));
+                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:787: error: cannot find symbol
+                            return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.throwable.equals(((WithExceptionHandler)o).throwable)));
+                                                                                      ^
+  symbol: method getClass()
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:790: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:792: error: non-static variable super cannot be referenced from a static context
+                            return super.hashCode() * 31 + this.throwable.hashCode();
+                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:802: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1230: error: incompatible types: List<Factory> cannot be converted to List<? extends Factory<?>>
+                        super(adviceMethod, CompoundList.of((List<? extends OffsetMapping.Factory<?>>)Arrays.asList(OffsetMapping.ForArgument.Unresolved.Factory.INSTANCE, OffsetMapping.ForAllArguments.Factory.INSTANCE, OffsetMapping.ForThisReference.Factory.INSTANCE, OffsetMapping.ForField.Unresolved.Factory.INSTANCE, OffsetMapping.ForOrigin.Factory.INSTANCE, OffsetMapping.ForUnusedValue.Factory.INSTANCE, OffsetMapping.ForStubValue.INSTANCE, OffsetMapping.ForExitValue.Factory.of(exitType), new OffsetMapping.Factory.Illegal(Thrown.class), new OffsetMapping.Factory.Illegal(Enter.class), new OffsetMapping.Factory.Illegal(Local.class), new OffsetMapping.Factory.Illegal(Return.class)), userFactories), adviceMethod.getDeclaredAnnotations().ofType(OnMethodEnter.class).getValue(Advice.SUPPRESS_ENTER).resolve((Class<? extends TypeDescription>)TypeDescription.class), adviceMethod.getDeclaredAnnotations().ofType(OnMethodEnter.class).getValue(Advice.SKIP_ON).resolve((Class<? extends TypeDescription>)TypeDescription.class));
+                                                                                                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1235: error: incompatible types: bad type in conditional expression
+                        return methodExit ? new WithRetainedEnterType(adviceMethod, userFactories, exitType) : new WithDiscardedEnterType(adviceMethod, userFactories, exitType);
+                                            ^
+    WithRetainedEnterType cannot be converted to ForMethodEnter
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1235: error: incompatible types: bad type in conditional expression
+                        return methodExit ? new WithRetainedEnterType(adviceMethod, userFactories, exitType) : new WithDiscardedEnterType(adviceMethod, userFactories, exitType);
+                                                                                                               ^
+    WithDiscardedEnterType cannot be converted to ForMethodEnter
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1263: error: reference to ForMethodEnter is ambiguous
+                        return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.prependLineNumber == ((ForMethodEnter)o).prependLineNumber));
+                                                                                                                                             ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodEnter in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1277: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1279: error: cannot find symbol
+                            return this.adviceMethod.getReturnType();
+                                       ^
+  symbol: variable adviceMethod
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1289: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1294: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1296: error: cannot find symbol
+                            methodSizeHandler.requireLocalVariableLengthPadding(this.adviceMethod.getReturnType().getStackSize().getSize());
+                                                                                    ^
+  symbol: variable adviceMethod
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1297: error: non-static variable super cannot be referenced from a static context
+                            return super.doResolve(instrumentedType, instrumentedMethod, methodVisitor, implementationContext, assigner, argumentHandler, methodSizeHandler, stackMapFrameHandler, suppressionHandler, relocationHandler);
+                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1297: error: cannot find symbol
+                            return super.doResolve(instrumentedType, instrumentedMethod, methodVisitor, implementationContext, assigner, argumentHandler, methodSizeHandler, stackMapFrameHandler, suppressionHandler, relocationHandler);
+                                        ^
+  symbol: method doResolve(TypeDescription,MethodDescription,MethodVisitor,Context,Assigner,net.bytebuddy.asm.Advice.ArgumentHandler.ForAdvice,net.bytebuddy.asm.Advice.MethodSizeHandler.ForAdvice,net.bytebuddy.asm.Advice.StackMapFrameHandler.ForAdvice,net.bytebuddy.asm.Advice.Dispatcher.SuppressionHandler.Bound,net.bytebuddy.asm.Advice.Dispatcher.RelocationHandler.Bound)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1314: error: incompatible types: bad type in conditional expression
+                        return throwable.represents(NoExceptionHandler.class) ? new WithoutExceptionHandler(adviceMethod, namedTypes, userFactories, enterType) : new WithExceptionHandler(adviceMethod, namedTypes, userFactories, enterType, throwable);
+                                                                                ^
+    WithoutExceptionHandler cannot be converted to ForMethodExit
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1314: error: incompatible types: bad type in conditional expression
+                        return throwable.represents(NoExceptionHandler.class) ? new WithoutExceptionHandler(adviceMethod, namedTypes, userFactories, enterType) : new WithExceptionHandler(adviceMethod, namedTypes, userFactories, enterType, throwable);
+                                                                                                                                                                  ^
+    WithExceptionHandler cannot be converted to ForMethodExit
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1342: error: reference to ForMethodExit is ambiguous
+                        return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.backupArguments == ((ForMethodExit)o).backupArguments));
+                                                                                                                                           ^
+  both class net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Delegating.Resolved and interface net.bytebuddy.asm.Advice.Dispatcher.Resolved.ForMethodExit in net.bytebuddy.asm.Advice.Dispatcher.Resolved match
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1360: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1365: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1367: error: non-static variable super cannot be referenced from a static context
+                            return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.throwable.equals(((WithExceptionHandler)o).throwable)));
+                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1367: error: cannot find symbol
+                            return super.equals(o) && (this == o || (o != null && this.getClass() == o.getClass() && this.throwable.equals(((WithExceptionHandler)o).throwable)));
+                                                                                      ^
+  symbol: method getClass()
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1370: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1372: error: non-static variable super cannot be referenced from a static context
+                            return super.hashCode() * 31 + this.throwable.hashCode();
+                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1382: error: method does not override or implement a method from a supertype
+                        @Override
+                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1897: error: incompatible types: List<Object> cannot be converted to List<? extends TypeDescription>
+            final List<TypeDescription> initialTypes = CompoundList.of((List<? extends TypeDescription>)(methodExit.getAdviceType().represents(Void.TYPE) ? Collections.emptyList() : Collections.singletonList(methodExit.getAdviceType().asErasure())), (List<? extends TypeDescription>)this.argumentHandler.getNamedTypes());
+                                                                                                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1902: error: cannot find symbol
+            this.methodExit = methodExit.bind(instrumentedType, instrumentedMethod, methodVisitor, implementationContext, assigner, this.argumentHandler, this.methodSizeHandler, this.stackMapFrameHandler, exceptionHandler, new ForLabel(this.preparationStart));
+                                                                                                                                                                                                                                   ^
+  symbol:   class ForLabel
+  location: class AdviceVisitor
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1964: error: cannot find symbol
+                super(methodVisitor, methodVisitor, implementationContext, assigner, exceptionHandler, instrumentedType, instrumentedMethod, methodEnter, Inactive.INSTANCE, Collections.emptyList(), writerFlags, readerFlags);
+                                                                                                                                                          ^
+  symbol:   variable Inactive
+  location: class WithoutExitAdvice
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:1979: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2016: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2324: error: type argument Object is not within bounds of type-variable T
+            return this.bind(new OffsetMapping.ForField.Resolved.Factory<Object>(type, fieldDescription));
+                                                                         ^
+  where T is a type-variable:
+    T extends Annotation declared in class Factory
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2324: error: incompatible types: Class<T> cannot be converted to Class<Object>
+            return this.bind(new OffsetMapping.ForField.Resolved.Factory<Object>(type, fieldDescription));
+                                                                                 ^
+  where T is a type-variable:
+    T extends Annotation declared in method <T>bind(Class<T>,FieldDescription)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2348: error: type argument Object is not within bounds of type-variable T
+            return this.bind(new OffsetMapping.ForArgument.Resolved.Factory<Object>(type, parameterDescription));
+                                                                            ^
+  where T is a type-variable:
+    T extends Annotation declared in class Factory
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2348: error: incompatible types: Class<T> cannot be converted to Class<Object>
+            return this.bind(new OffsetMapping.ForArgument.Resolved.Factory<Object>(type, parameterDescription));
+                                                                                    ^
+  where T is a type-variable:
+    T extends Annotation declared in method <T>bind(Class<T>,ParameterDescription)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2356: error: type argument Object is not within bounds of type-variable T
+            return this.bind(new OffsetMapping.ForStackManipulation.Factory<Object>(type, value));
+                                                                            ^
+  where T is a type-variable:
+    T extends Annotation declared in class Factory
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2356: error: no suitable constructor found for Factory(Class<T>,TypeDescription)
+            return this.bind(new OffsetMapping.ForStackManipulation.Factory<Object>(type, value));
+                             ^
+    constructor Factory.Factory(Class<Object>,TypeDescription) is not applicable
+      (argument mismatch; Class<T> cannot be converted to Class<Object>)
+    constructor Factory.Factory(Class<Object>,EnumerationDescription) is not applicable
+      (argument mismatch; Class<T> cannot be converted to Class<Object>)
+  where T is a type-variable:
+    T extends Annotation declared in method <T>bind(Class<T>,TypeDescription)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2364: error: type argument Object is not within bounds of type-variable T
+            return this.bind(new OffsetMapping.ForStackManipulation.Factory<Object>(type, value));
+                                                                            ^
+  where T is a type-variable:
+    T extends Annotation declared in class Factory
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2364: error: no suitable constructor found for Factory(Class<T>,EnumerationDescription)
+            return this.bind(new OffsetMapping.ForStackManipulation.Factory<Object>(type, value));
+                             ^
+    constructor Factory.Factory(Class<Object>,TypeDescription) is not applicable
+      (argument mismatch; Class<T> cannot be converted to Class<Object>)
+    constructor Factory.Factory(Class<Object>,EnumerationDescription) is not applicable
+      (argument mismatch; Class<T> cannot be converted to Class<Object>)
+  where T is a type-variable:
+    T extends Annotation declared in method <T>bind(Class<T>,EnumerationDescription)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2384: error: type argument Object is not within bounds of type-variable T
+            return this.bind(new OffsetMapping.ForStackManipulation.Factory<Object>(type, stackManipulation, targetType));
+                                                                            ^
+  where T is a type-variable:
+    T extends Annotation declared in class Factory
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2384: error: incompatible types: Class<T> cannot be converted to Class<Object>
+            return this.bind(new OffsetMapping.ForStackManipulation.Factory<Object>(type, stackManipulation, targetType));
+                                                                                    ^
+  where T is a type-variable:
+    T extends Annotation declared in method <T>bind(Class<T>,StackManipulation,Generic)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2388: error: type argument Object is not within bounds of type-variable T
+            return this.bind(new OffsetMapping.Factory.Simple<Object>(type, offsetMapping));
+                                                              ^
+  where T is a type-variable:
+    T extends Annotation declared in class Simple
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2388: error: incompatible types: Class<T> cannot be converted to Class<Object>
+            return this.bind(new OffsetMapping.Factory.Simple<Object>(type, offsetMapping));
+                                                                      ^
+  where T is a type-variable:
+    T extends Annotation declared in method <T>bind(Class<T>,OffsetMapping)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2855: error: cannot find symbol
+                return Target.ForStackManipulation.of(((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)instrumentedMethod).asDefined());
+                                                                                                                        ^
+  symbol:   class S
+  location: class ForInstrumentedMethod
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2898: error: cannot find symbol
+                return new Target.ForField.ReadWrite(((ByteCodeElement.TypeDependant<FieldDescription, S>)fieldDescription).asDefined(), readAssignment, writeAssignment);
+                                                                                                       ^
+  symbol:   class S
+  location: class ForField
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:2898: error: incompatible types: FieldDescription cannot be converted to TypeDependant<FieldDescription,S>
+                return new Target.ForField.ReadWrite(((ByteCodeElement.TypeDependant<FieldDescription, S>)fieldDescription).asDefined(), readAssignment, writeAssignment);
+                                                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:3107: error: incompatible types: List<ForStringRepresentation> cannot be converted to List<Renderer>
+                    return new ForOrigin((List<Renderer>)Collections.singletonList(Renderer.ForStringRepresentation.INSTANCE));
+                                                                                  ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:3432: error: incompatible types: Class<Enter> cannot be converted to Class<Annotation>
+                    return (OffsetMapping.Factory<Enter>)(typeDefinition.represents(Void.TYPE) ? new Illegal<Enter>((Class<Annotation>)Enter.class) : new Factory(typeDefinition));
+                                                                                                                                            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:3515: error: incompatible types: Class<Exit> cannot be converted to Class<Annotation>
+                    return (OffsetMapping.Factory<Exit>)(typeDefinition.represents(Void.TYPE) ? new Illegal<Exit>((Class<Annotation>)Exit.class) : new Factory(typeDefinition));
+                                                                                                                                         ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:3722: error: type argument Object is not within bounds of type-variable T
+                    return (OffsetMapping.Factory<?>)(adviceMethod.getDeclaredAnnotations().ofType(OnMethodExit.class).getValue(Advice.ON_THROWABLE).resolve((Class<? extends TypeDescription>)TypeDescription.class).represents(NoExceptionHandler.class) ? new Illegal<Object>((Class<Annotation>)Thrown.class) : Factory.INSTANCE);
+                                                                                                                                                                                                                                                                         ^
+  where T is a type-variable:
+    T extends Annotation declared in class Illegal
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/Advice.java:3722: error: incompatible types: Class<Thrown> cannot be converted to Class<Annotation>
+                    return (OffsetMapping.Factory<?>)(adviceMethod.getDeclaredAnnotations().ofType(OnMethodExit.class).getValue(Advice.ON_THROWABLE).resolve((Class<? extends TypeDescription>)TypeDescription.class).represents(NoExceptionHandler.class) ? new Illegal<Object>((Class<Annotation>)Thrown.class) : Factory.INSTANCE);
+                                                                                                                                                                                                                                                                                                          ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors

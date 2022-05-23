@@ -1,0 +1,18 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/datasource/DriverManagerDataSource.java:66: error: DriverManagerDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class DriverManagerDataSource extends AbstractDriverBasedDataSource {
+       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jdbc/datasource/DriverManagerDataSource.java:122: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public DriverManagerDataSource(String driverClassName, String url, String username, String password) {
+	       ^
+hybrids/org.springframework/spring/2.5.6/SingleConnectionDataSource.java:58: error: SingleConnectionDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class SingleConnectionDataSource extends DriverManagerDataSource
+       ^
+hybrids/org.springframework/spring/2.5.6/SingleConnectionDataSource.java:97: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+	public SingleConnectionDataSource(
+	       ^
+Note: hybrids/org.springframework/spring/2.5.6/SingleConnectionDataSource.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+2 warnings

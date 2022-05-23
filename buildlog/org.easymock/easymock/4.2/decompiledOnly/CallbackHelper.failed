@@ -1,0 +1,35 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/CallbackHelper.java:7: error: cannot find symbol
+import org.easymock.cglib.core.ReflectUtils;
+                              ^
+  symbol:   class ReflectUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/CallbackHelper.java:23: error: cannot find symbol
+        Enhancer.getMethods(superclass, interfaces, methods);
+        ^
+  symbol:   variable Enhancer
+  location: class CallbackHelper
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/CallbackHelper.java:26: error: incompatible types: Object cannot be converted to Method
+            final Method method = methods.get(i);
+                                             ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/CallbackHelper.java:38: error: incompatible types: Object cannot be converted to Integer
+            Integer index = indexes.get(callback);
+                                       ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/CallbackHelper.java:55: error: incompatible types: Object[] cannot be converted to Callback[]
+            return this.callbacks.toArray(new Callback[this.callbacks.size()]);
+                                         ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/CallbackHelper.java:65: error: cannot find symbol
+            return ReflectUtils.getClasses(this.getCallbacks());
+                   ^
+  symbol:   variable ReflectUtils
+  location: class CallbackHelper
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/CallbackHelper.java:67: error: incompatible types: Object[] cannot be converted to Class[]
+        return this.callbacks.toArray(new Class[this.callbacks.size()]);
+                                     ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/CallbackHelper.java:71: error: incompatible types: Object cannot be converted to int
+        return this.methodMap.get(method);
+                                 ^
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/CallbackHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/proxy/CallbackHelper.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

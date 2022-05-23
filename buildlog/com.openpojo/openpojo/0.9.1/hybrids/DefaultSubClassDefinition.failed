@@ -1,0 +1,35 @@
+hybrids/com.openpojo/openpojo/0.9.1/DefaultSubClassDefinition.java:22: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassReader;
+                        ^
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/SubClassDefinition.java:21: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassReader;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/DefaultSubClassDefinition.java:29: error: cannot find symbol
+  private final ClassReader classReader;
+                ^
+  symbol:   class ClassReader
+  location: class DefaultSubClassDefinition
+hybrids/com.openpojo/openpojo/0.9.1/DefaultSubClassDefinition.java:40: error: cannot find symbol
+  public ClassReader getClassReader() {
+         ^
+  symbol:   class ClassReader
+  location: class DefaultSubClassDefinition
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/SubClassDefinition.java:29: error: cannot find symbol
+  ClassReader getClassReader();
+  ^
+  symbol:   class ClassReader
+  location: interface SubClassDefinition
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/ClassReaderFactory.java:23: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassReader;
+                        ^
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/ClassReaderFactory.java:34: error: cannot find symbol
+  public static ClassReader getClassReader(Class clazz) {
+                ^
+  symbol:   class ClassReader
+  location: class ClassReaderFactory
+sources/structure/com.openpojo/openpojo/0.9.1/extractedSources/com/openpojo/reflection/java/bytecode/asm/ClassReaderFactory.java:36: error: cannot find symbol
+      return new ClassReader(clazz.getResourceAsStream(Java.PATH_DELIMITER + clazz.getName().replace(Java.PACKAGE_DELIMITER,
+                 ^
+  symbol:   class ClassReader
+  location: class ClassReaderFactory
+8 errors

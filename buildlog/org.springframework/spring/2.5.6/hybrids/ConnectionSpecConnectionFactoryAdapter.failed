@@ -1,0 +1,144 @@
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:19: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:20: error: package javax.resource.cci does not exist
+import javax.resource.cci.Connection;
+                         ^
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:21: error: package javax.resource.cci does not exist
+import javax.resource.cci.ConnectionSpec;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:21: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:22: error: package javax.resource.cci does not exist
+import javax.resource.cci.Connection;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:23: error: package javax.resource.cci does not exist
+import javax.resource.cci.ConnectionFactory;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:24: error: package javax.resource.cci does not exist
+import javax.resource.cci.ConnectionSpec;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:25: error: package javax.resource.cci does not exist
+import javax.resource.cci.RecordFactory;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:26: error: package javax.resource.cci does not exist
+import javax.resource.cci.ResourceAdapterMetaData;
+                         ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:42: error: cannot find symbol
+public class DelegatingConnectionFactory implements ConnectionFactory, InitializingBean {
+                                                    ^
+  symbol: class ConnectionFactory
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:67: error: cannot find symbol
+	private ConnectionSpec connectionSpec;
+	        ^
+  symbol:   class ConnectionSpec
+  location: class ConnectionSpecConnectionFactoryAdapter
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:76: error: cannot find symbol
+	public void setConnectionSpec(ConnectionSpec connectionSpec) {
+	                              ^
+  symbol:   class ConnectionSpec
+  location: class ConnectionSpecConnectionFactoryAdapter
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:88: error: cannot find symbol
+	public void setConnectionSpecForCurrentThread(ConnectionSpec spec) {
+	                                              ^
+  symbol:   class ConnectionSpec
+  location: class ConnectionSpecConnectionFactoryAdapter
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:108: error: cannot find symbol
+	public final Connection getConnection() throws ResourceException {
+	             ^
+  symbol:   class Connection
+  location: class ConnectionSpecConnectionFactoryAdapter
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:108: error: cannot find symbol
+	public final Connection getConnection() throws ResourceException {
+	                                               ^
+  symbol:   class ResourceException
+  location: class ConnectionSpecConnectionFactoryAdapter
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:128: error: cannot find symbol
+	protected Connection doGetConnection(ConnectionSpec spec) throws ResourceException {
+	                                     ^
+  symbol:   class ConnectionSpec
+  location: class ConnectionSpecConnectionFactoryAdapter
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:128: error: cannot find symbol
+	protected Connection doGetConnection(ConnectionSpec spec) throws ResourceException {
+	          ^
+  symbol:   class Connection
+  location: class ConnectionSpecConnectionFactoryAdapter
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:128: error: cannot find symbol
+	protected Connection doGetConnection(ConnectionSpec spec) throws ResourceException {
+	                                                                 ^
+  symbol:   class ResourceException
+  location: class ConnectionSpecConnectionFactoryAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:44: error: cannot find symbol
+	private ConnectionFactory targetConnectionFactory;
+	        ^
+  symbol:   class ConnectionFactory
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:50: error: cannot find symbol
+	public void setTargetConnectionFactory(ConnectionFactory targetConnectionFactory) {
+	                                       ^
+  symbol:   class ConnectionFactory
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:57: error: cannot find symbol
+	public ConnectionFactory getTargetConnectionFactory() {
+	       ^
+  symbol:   class ConnectionFactory
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:69: error: cannot find symbol
+	public Connection getConnection() throws ResourceException {
+	       ^
+  symbol:   class Connection
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:69: error: cannot find symbol
+	public Connection getConnection() throws ResourceException {
+	                                         ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:73: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	                                ^
+  symbol:   class ConnectionSpec
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:73: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	       ^
+  symbol:   class Connection
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:73: error: cannot find symbol
+	public Connection getConnection(ConnectionSpec connectionSpec) throws ResourceException {
+	                                                                      ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:77: error: cannot find symbol
+	public RecordFactory getRecordFactory() throws ResourceException {
+	       ^
+  symbol:   class RecordFactory
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:77: error: cannot find symbol
+	public RecordFactory getRecordFactory() throws ResourceException {
+	                                               ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:81: error: cannot find symbol
+	public ResourceAdapterMetaData getMetaData() throws ResourceException {
+	       ^
+  symbol:   class ResourceAdapterMetaData
+  location: class DelegatingConnectionFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/cci/connection/DelegatingConnectionFactory.java:81: error: cannot find symbol
+	public ResourceAdapterMetaData getMetaData() throws ResourceException {
+	                                                    ^
+  symbol:   class ResourceException
+  location: class DelegatingConnectionFactory
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:109: error: cannot find symbol
+		ConnectionSpec threadSpec = (ConnectionSpec) this.threadBoundSpec.get();
+		^
+  symbol:   class ConnectionSpec
+  location: class ConnectionSpecConnectionFactoryAdapter
+hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java:109: error: cannot find symbol
+		ConnectionSpec threadSpec = (ConnectionSpec) this.threadBoundSpec.get();
+		                             ^
+  symbol:   class ConnectionSpec
+  location: class ConnectionSpecConnectionFactoryAdapter
+Note: hybrids/org.springframework/spring/2.5.6/ConnectionSpecConnectionFactoryAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+32 errors

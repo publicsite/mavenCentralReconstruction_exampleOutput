@@ -1,0 +1,49 @@
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:3: error: cannot find symbol
+import com.google.inject.Injector;
+                        ^
+  symbol:   class Injector
+  location: package com.google.inject
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:85: error: cannot find symbol
+  Injector getParentInjector();
+  ^
+  symbol:   class Injector
+  location: interface ISuite
+sources/structure/org.testng/testng/7.5/extractedSources/org/testng/ISuite.java:87: error: cannot find symbol
+  void setParentInjector(Injector injector);
+                         ^
+  symbol:   class Injector
+  location: interface ISuite
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/EmailableReporter2.java:185: error: cannot find symbol
+                final Optional<TestResult> maxValue = (Optional<TestResult>)suiteResult.testResults.stream().max(Comparator.comparing((Function<? super T, ? extends Comparable>)TestResult::getDuration));
+                                                                                                                                                        ^
+  symbol:   class T
+  location: class EmailableReporter2
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/EmailableReporter2.java:539: error: incompatible types: Collector<Object,CAP#1,Set<Object>> cannot be converted to Collector<? super Object,?,Set<ITestResult>>
+            return results.stream().filter(result -> !result.wasRetried()).collect((Collector<? super Object, ?, Set<ITestResult>>)Collectors.toSet());
+                                                                                                                                                   ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/EmailableReporter2.java:543: error: incompatible types: Collector<Object,CAP#1,Set<Object>> cannot be converted to Collector<? super Object,?,Set<ITestResult>>
+            return results.stream().filter(ITestResult::wasRetried).collect((Collector<? super Object, ?, Set<ITestResult>>)Collectors.toSet());
+                                                                                                                                            ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/EmailableReporter2.java:660: error: cannot find symbol
+            RESULT_COMPARATOR = Comparator.comparing(o -> o.getTestClass().getName()).thenComparing(o -> o.getMethod().getMethodName());
+                                                           ^
+  symbol:   method getTestClass()
+  location: variable o of type Object
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/EmailableReporter2.java:660: error: cannot find symbol
+            RESULT_COMPARATOR = Comparator.comparing(o -> o.getTestClass().getName()).thenComparing(o -> o.getMethod().getMethodName());
+                                                                                                          ^
+  symbol:   method getMethod()
+  location: variable o of type Object
+sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/EmailableReporter2.java:660: error: incompatible types: no instance(s) of type variable(s) U exist so that Comparator<Object> conforms to Comparator<ITestResult>
+            RESULT_COMPARATOR = Comparator.comparing(o -> o.getTestClass().getName()).thenComparing(o -> o.getMethod().getMethodName());
+                                                                                                   ^
+  where U,T are type-variables:
+    U extends Comparable<? super U> declared in method <U>thenComparing(Function<? super T,? extends U>)
+    T extends Object declared in interface Comparator
+Note: sources/structure/org.testng/testng/7.5/Decompiled/org/testng/reporters/EmailableReporter2.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+9 errors

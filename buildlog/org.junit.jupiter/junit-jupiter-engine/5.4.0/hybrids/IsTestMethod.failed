@@ -1,0 +1,58 @@
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:13: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.AnnotationUtils.isAnnotated;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.AnnotationUtils.isAnnotated;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:14: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isAbstract;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:14: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isAbstract;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:15: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isPrivate;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:15: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isPrivate;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:16: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.isStatic;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:16: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.isStatic;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:17: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.returnsVoid;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:17: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.returnsVoid;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:39: error: cannot find symbol
+		if (isStatic(candidate)) {
+		    ^
+  symbol:   method isStatic(Method)
+  location: class IsTestableMethod
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:42: error: cannot find symbol
+		if (isPrivate(candidate)) {
+		    ^
+  symbol:   method isPrivate(Method)
+  location: class IsTestableMethod
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:45: error: cannot find symbol
+		if (isAbstract(candidate)) {
+		    ^
+  symbol:   method isAbstract(Method)
+  location: class IsTestableMethod
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:48: error: cannot find symbol
+		if (returnsVoid(candidate) != this.mustReturnVoid) {
+		    ^
+  symbol:   method returnsVoid(Method)
+  location: class IsTestableMethod
+sources/structure/org.junit.jupiter/junit-jupiter-engine/5.4.0/extractedSources/org/junit/jupiter/engine/discovery/predicates/IsTestableMethod.java:52: error: cannot find symbol
+		return isAnnotated(candidate, this.annotationType);
+		       ^
+  symbol:   method isAnnotated(Method,Class<CAP#1>)
+  location: class IsTestableMethod
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Annotation from capture of ? extends Annotation
+15 errors

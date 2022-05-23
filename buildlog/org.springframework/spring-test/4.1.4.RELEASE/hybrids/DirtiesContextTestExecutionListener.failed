@@ -1,0 +1,156 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:21: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:22: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:24: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:25: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotatedElementUtils;
+                                          ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:26: error: package org.springframework.core.annotation does not exist
+import org.springframework.core.annotation.AnnotationAttributes;
+                                          ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:31: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/AbstractTestExecutionListener.java:19: error: package org.springframework.core does not exist
+import org.springframework.core.Ordered;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/AbstractTestExecutionListener.java:32: error: cannot find symbol
+public abstract class AbstractTestExecutionListener implements TestExecutionListener, Ordered {
+                                                                                      ^
+  symbol: class Ordered
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:48: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(DirtiesContextTestExecutionListener.class);
+	                     ^
+  symbol:   class Log
+  location: class DirtiesContextTestExecutionListener
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:22: error: package org.springframework.context does not exist
+import org.springframework.context.ApplicationContext;
+                                  ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:23: error: package org.springframework.core does not exist
+import org.springframework.core.AttributeAccessor;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:33: error: cannot find symbol
+public interface TestContext extends AttributeAccessor, Serializable {
+                                     ^
+  symbol: class AttributeAccessor
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/TestContext.java:46: error: cannot find symbol
+	ApplicationContext getApplicationContext();
+	^
+  symbol:   class ApplicationContext
+  location: interface TestContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/AbstractTestExecutionListener.java:86: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/AbstractTestExecutionListener.java:88: error: cannot find symbol
+		return Ordered.LOWEST_PRECEDENCE;
+		       ^
+  symbol:   variable Ordered
+  location: class AbstractTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:48: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(DirtiesContextTestExecutionListener.class);
+	                                  ^
+  symbol:   variable LogFactory
+  location: class DirtiesContextTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:74: error: cannot find symbol
+		Assert.notNull(testClass, "The test class of the supplied TestContext must not be null");
+		^
+  symbol:   variable Assert
+  location: class DirtiesContextTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:76: error: cannot find symbol
+		Assert.notNull(testMethod, "The test method of the supplied TestContext must not be null");
+		^
+  symbol:   variable Assert
+  location: class DirtiesContextTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:79: error: cannot find symbol
+		AnnotationAttributes methodAnnAttrs = AnnotatedElementUtils.getAnnotationAttributes(testMethod, annotationType);
+		^
+  symbol:   class AnnotationAttributes
+  location: class DirtiesContextTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:79: error: cannot find symbol
+		AnnotationAttributes methodAnnAttrs = AnnotatedElementUtils.getAnnotationAttributes(testMethod, annotationType);
+		                                      ^
+  symbol:   variable AnnotatedElementUtils
+  location: class DirtiesContextTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:80: error: cannot find symbol
+		AnnotationAttributes classAnnAttrs = AnnotatedElementUtils.getAnnotationAttributes(testClass, annotationType);
+		^
+  symbol:   class AnnotationAttributes
+  location: class DirtiesContextTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:80: error: cannot find symbol
+		AnnotationAttributes classAnnAttrs = AnnotatedElementUtils.getAnnotationAttributes(testClass, annotationType);
+		                                     ^
+  symbol:   variable AnnotatedElementUtils
+  location: class DirtiesContextTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:111: error: cannot find symbol
+		Assert.notNull(testClass, "The test class of the supplied TestContext must not be null");
+		^
+  symbol:   variable Assert
+  location: class DirtiesContextTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:114: error: cannot find symbol
+		AnnotationAttributes annAttrs = AnnotatedElementUtils.getAnnotationAttributes(testClass, annotationType);
+		^
+  symbol:   class AnnotationAttributes
+  location: class DirtiesContextTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:114: error: cannot find symbol
+		AnnotationAttributes annAttrs = AnnotatedElementUtils.getAnnotationAttributes(testClass, annotationType);
+		                                ^
+  symbol:   variable AnnotatedElementUtils
+  location: class DirtiesContextTestExecutionListener
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:19: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.Log;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:20: error: package org.apache.commons.logging does not exist
+import org.apache.commons.logging.LogFactory;
+                                 ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:22: error: package org.springframework.beans.factory.config does not exist
+import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
+                                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:23: error: package org.springframework.core does not exist
+import org.springframework.core.Conventions;
+                               ^
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:54: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(DependencyInjectionTestExecutionListener.class);
+	                     ^
+  symbol:   class Log
+  location: class DependencyInjectionTestExecutionListener
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/DirtiesContextTestExecutionListener.java:141: error: cannot find symbol
+		testContext.setAttribute(DependencyInjectionTestExecutionListener.REINJECT_DEPENDENCIES_ATTRIBUTE, Boolean.TRUE);
+		           ^
+  symbol:   method setAttribute(String,Boolean)
+  location: variable testContext of type TestContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:51: error: cannot find symbol
+	public static final String REINJECT_DEPENDENCIES_ATTRIBUTE = Conventions.getQualifiedAttributeName(
+	                                                             ^
+  symbol:   variable Conventions
+  location: class DependencyInjectionTestExecutionListener
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:54: error: cannot find symbol
+	private static final Log logger = LogFactory.getLog(DependencyInjectionTestExecutionListener.class);
+	                                  ^
+  symbol:   variable LogFactory
+  location: class DependencyInjectionTestExecutionListener
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:95: error: cannot find symbol
+		if (Boolean.TRUE.equals(testContext.getAttribute(REINJECT_DEPENDENCIES_ATTRIBUTE))) {
+		                                   ^
+  symbol:   method getAttribute(String)
+  location: variable testContext of type TestContext
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:117: error: cannot find symbol
+		AutowireCapableBeanFactory beanFactory = testContext.getApplicationContext().getAutowireCapableBeanFactory();
+		^
+  symbol:   class AutowireCapableBeanFactory
+  location: class DependencyInjectionTestExecutionListener
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:118: error: cannot find symbol
+		beanFactory.autowireBeanProperties(bean, AutowireCapableBeanFactory.AUTOWIRE_NO, false);
+		                                         ^
+  symbol:   variable AutowireCapableBeanFactory
+  location: class DependencyInjectionTestExecutionListener
+sources/structure/org.springframework/spring-test/4.1.4.RELEASE/extractedSources/org/springframework/test/context/support/DependencyInjectionTestExecutionListener.java:120: error: cannot find symbol
+		testContext.removeAttribute(REINJECT_DEPENDENCIES_ATTRIBUTE);
+		           ^
+  symbol:   method removeAttribute(String)
+  location: variable testContext of type TestContext
+37 errors

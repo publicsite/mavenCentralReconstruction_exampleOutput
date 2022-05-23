@@ -1,0 +1,311 @@
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:22: error: package junit.framework does not exist
+import junit.framework.Test;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:23: error: package junit.framework does not exist
+import junit.framework.TestCase;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:60: error: cannot find symbol
+    public static String getTestCaseName(Test t) {
+                                         ^
+  symbol:   class Test
+  location: class JUnitVersionHelper
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:102: error: cannot find symbol
+    static String getTestCaseClassName(Test test) {
+                                       ^
+  symbol:   class Test
+  location: class JUnitVersionHelper
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:34: error: cannot find symbol
+            testCaseName = TestCase.class.getMethod("getName", new Class[0]);
+                           ^
+  symbol:   class TestCase
+  location: class JUnitVersionHelper
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:38: error: cannot find symbol
+                testCaseName = TestCase.class.getMethod("name", new Class[0]);
+                               ^
+  symbol:   class TestCase
+  location: class JUnitVersionHelper
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java:71: error: cannot find symbol
+        if (t instanceof TestCase && testCaseName != null) {
+                         ^
+  symbol:   class TestCase
+  location: class JUnitVersionHelper
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.java:22: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.java:23: error: package junit.framework does not exist
+import junit.framework.TestCase;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.java:24: error: package junit.framework does not exist
+import junit.framework.TestResult;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.java:74: error: cannot find symbol
+    static class VmExitErrorTest extends TestCase {
+                                         ^
+  symbol:   class TestCase
+  location: class JUnitTaskMirrorImpl
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.java:90: error: cannot find symbol
+        public void run(TestResult r) {
+                        ^
+  symbol:   class TestResult
+  location: class VmExitErrorTest
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitResultFormatter.java:22: error: package junit.framework does not exist
+import junit.framework.TestListener;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitResultFormatter.java:31: error: cannot find symbol
+    extends TestListener, JUnitTaskMirror.JUnitResultFormatterMirror {
+            ^
+  symbol: class TestListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.java:55: error: cannot find symbol
+        TestCase t = new VmExitErrorTest(message, test, testCase);
+        ^
+  symbol:   class TestCase
+  location: class JUnitTaskMirrorImpl
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.java:57: error: cannot find symbol
+        formatter.addError(t, new AssertionFailedError(message));
+                                  ^
+  symbol:   class AssertionFailedError
+  location: class JUnitTaskMirrorImpl
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:38: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:39: error: package junit.framework does not exist
+import junit.framework.Test;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:40: error: package junit.framework does not exist
+import junit.framework.TestFailure;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:41: error: package junit.framework does not exist
+import junit.framework.TestListener;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:42: error: package junit.framework does not exist
+import junit.framework.TestResult;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:43: error: package junit.framework does not exist
+import junit.framework.TestSuite;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:68: error: cannot find symbol
+public class JUnitTestRunner implements TestListener, JUnitTaskMirror.JUnitTestRunnerMirror {
+                                        ^
+  symbol: class TestListener
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:78: error: cannot find symbol
+    private TestResult res;
+            ^
+  symbol:   class TestResult
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:477: error: cannot find symbol
+    public void startTest(Test t) {
+                          ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:488: error: cannot find symbol
+    public void endTest(Test test) {
+                        ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:509: error: cannot find symbol
+    public void addFailure(Test test, Throwable t) {
+                           ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:524: error: cannot find symbol
+    public void addFailure(Test test, AssertionFailedError t) {
+                           ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:524: error: cannot find symbol
+    public void addFailure(Test test, AssertionFailedError t) {
+                                      ^
+  symbol:   class AssertionFailedError
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:535: error: cannot find symbol
+    public void addError(Test test, Throwable t) {
+                         ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:960: error: cannot find symbol
+    private TestListener wrapListener(final TestListener testListener) {
+                                            ^
+  symbol:   class TestListener
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:960: error: cannot find symbol
+    private TestListener wrapListener(final TestListener testListener) {
+            ^
+  symbol:   class TestListener
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:1015: error: cannot find symbol
+    private int[] findJUnit4FailureErrorCount(TestResult res) {
+                                              ^
+  symbol:   class TestResult
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java:24: error: package junit.framework does not exist
+import junit.framework.AssertionFailedError;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java:25: error: package junit.framework does not exist
+import junit.framework.Test;
+                      ^
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java:75: error: cannot find symbol
+    public void startTest(Test t) {
+                          ^
+  symbol:   class Test
+  location: class SummaryJUnitResultFormatter
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java:81: error: cannot find symbol
+    public void endTest(Test test) {
+                        ^
+  symbol:   class Test
+  location: class SummaryJUnitResultFormatter
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java:88: error: cannot find symbol
+    public void addFailure(Test test, Throwable t) {
+                           ^
+  symbol:   class Test
+  location: class SummaryJUnitResultFormatter
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java:97: error: cannot find symbol
+    public void addFailure(Test test, AssertionFailedError t) {
+                           ^
+  symbol:   class Test
+  location: class SummaryJUnitResultFormatter
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java:97: error: cannot find symbol
+    public void addFailure(Test test, AssertionFailedError t) {
+                                      ^
+  symbol:   class AssertionFailedError
+  location: class SummaryJUnitResultFormatter
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java:105: error: cannot find symbol
+    public void addError(Test test, Throwable t) {
+                         ^
+  symbol:   class Test
+  location: class SummaryJUnitResultFormatter
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.java:91: error: cannot find symbol
+            throw new AssertionFailedError(message);
+                      ^
+  symbol:   class AssertionFailedError
+  location: class VmExitErrorTest
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:270: error: cannot find symbol
+        res = new TestResult();
+                  ^
+  symbol:   class TestResult
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:273: error: cannot find symbol
+            res.addListener(wrapListener((TestListener) formatters.elementAt(i)));
+                                          ^
+  symbol:   class TestListener
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:327: error: cannot find symbol
+        Test suite = null;
+        ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:357: error: cannot find symbol
+                    suite = (Test) suiteMethod.invoke(null, new Class[0]);
+                             ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:357: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                    suite = (Test) suiteMethod.invoke(null, new Class[0]);
+                                                            ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:388: error: cannot find symbol
+                            (Test) junit4TestAdapterClass
+                             ^
+  symbol:   class Test
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:397: error: cannot find symbol
+                        suite = new TestSuite(testClass);
+                                    ^
+  symbol:   class TestSuite
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:413: error: cannot find symbol
+                    ((TestListener) formatters.elementAt(i))
+                      ^
+  symbol:   class TestListener
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:797: error: cannot find symbol
+            public void addError(Test arg0, Throwable arg1) {
+                                 ^
+  symbol: class Test
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:800: error: cannot find symbol
+            public void addFailure(Test arg0, AssertionFailedError arg1) {
+                                   ^
+  symbol: class Test
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:800: error: cannot find symbol
+            public void addFailure(Test arg0, AssertionFailedError arg1) {
+                                              ^
+  symbol: class AssertionFailedError
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:803: error: cannot find symbol
+            public void endTest(Test arg0) {
+                                ^
+  symbol: class Test
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:806: error: cannot find symbol
+            public void startTest(Test arg0) {
+                                  ^
+  symbol: class Test
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:961: error: cannot find symbol
+        return new TestListener() {
+                   ^
+  symbol:   class TestListener
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:962: error: cannot find symbol
+            public void addError(Test test, Throwable t) {
+                                 ^
+  symbol: class Test
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:991: error: cannot find symbol
+            public void addFailure(Test test, AssertionFailedError t) {
+                                   ^
+  symbol: class Test
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:991: error: cannot find symbol
+            public void addFailure(Test test, AssertionFailedError t) {
+                                              ^
+  symbol: class AssertionFailedError
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:994: error: cannot find symbol
+            public void addFailure(Test test, Throwable t) { // pre-3.4
+                                   ^
+  symbol: class Test
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:1001: error: cannot find symbol
+            public void endTest(Test test) {
+                                ^
+  symbol: class Test
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:1004: error: cannot find symbol
+            public void startTest(Test test) {
+                                  ^
+  symbol: class Test
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:963: error: cannot find symbol
+                if (junit4 && t instanceof AssertionFailedError) {
+                                           ^
+  symbol: class AssertionFailedError
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:967: error: cannot find symbol
+                    testListener.addFailure(test, (AssertionFailedError) t);
+                                                   ^
+  symbol: class AssertionFailedError
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:975: error: cannot find symbol
+                        AssertionFailedError failure = msg != null
+                        ^
+  symbol: class AssertionFailedError
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:976: error: cannot find symbol
+                            ? new AssertionFailedError(msg) : new AssertionFailedError();
+                                  ^
+  symbol: class AssertionFailedError
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:976: error: cannot find symbol
+                            ? new AssertionFailedError(msg) : new AssertionFailedError();
+                                                                  ^
+  symbol: class AssertionFailedError
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:995: error: cannot find symbol
+                if (t instanceof AssertionFailedError) {
+                                 ^
+  symbol: class AssertionFailedError
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:996: error: cannot find symbol
+                    testListener.addFailure(test, (AssertionFailedError) t);
+                                                   ^
+  symbol: class AssertionFailedError
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:1025: error: cannot find symbol
+            Throwable t = ((TestFailure) e.nextElement()).thrownException();
+                            ^
+  symbol:   class TestFailure
+  location: class JUnitTestRunner
+sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java:1026: error: cannot find symbol
+            if (t instanceof AssertionFailedError
+                             ^
+  symbol:   class AssertionFailedError
+  location: class JUnitTestRunner
+Note: sources/structure/org.apache.ant/ant/1.7.0/extractedSources/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+70 errors
+1 warning

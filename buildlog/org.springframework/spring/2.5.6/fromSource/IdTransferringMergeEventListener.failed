@@ -1,0 +1,37 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/support/IdTransferringMergeEventListener.java:22: error: package org.hibernate.engine does not exist
+import org.hibernate.engine.SessionImplementor;
+                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/support/IdTransferringMergeEventListener.java:23: error: package org.hibernate.event does not exist
+import org.hibernate.event.MergeEvent;
+                          ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/support/IdTransferringMergeEventListener.java:24: error: package org.hibernate.event.def does not exist
+import org.hibernate.event.def.DefaultMergeEventListener;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/support/IdTransferringMergeEventListener.java:25: error: package org.hibernate.persister.entity does not exist
+import org.hibernate.persister.entity.EntityPersister;
+                                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/support/IdTransferringMergeEventListener.java:52: error: cannot find symbol
+public class IdTransferringMergeEventListener extends DefaultMergeEventListener {
+                                                      ^
+  symbol: class DefaultMergeEventListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/support/IdTransferringMergeEventListener.java:57: error: cannot find symbol
+	protected void entityIsTransient(MergeEvent event, Map copyCache) {
+	                                 ^
+  symbol:   class MergeEvent
+  location: class IdTransferringMergeEventListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/support/IdTransferringMergeEventListener.java:58: error: cannot find symbol
+		super.entityIsTransient(event, copyCache);
+		^
+  symbol:   variable super
+  location: class IdTransferringMergeEventListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/support/IdTransferringMergeEventListener.java:59: error: cannot find symbol
+		SessionImplementor session = event.getSession();
+		^
+  symbol:   class SessionImplementor
+  location: class IdTransferringMergeEventListener
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/support/IdTransferringMergeEventListener.java:60: error: cannot find symbol
+		EntityPersister persister = session.getEntityPersister(event.getEntityName(), event.getEntity());
+		^
+  symbol:   class EntityPersister
+  location: class IdTransferringMergeEventListener
+9 errors

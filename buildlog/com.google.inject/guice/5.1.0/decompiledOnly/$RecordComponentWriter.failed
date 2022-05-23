@@ -1,0 +1,100 @@
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:7: error: cannot find symbol
+final class $RecordComponentWriter extends $RecordComponentVisitor
+                                           ^
+  symbol: class $RecordComponentVisitor
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:9: error: cannot find symbol
+    private final $SymbolTable symbolTable;
+                  ^
+  symbol:   class $SymbolTable
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:13: error: cannot find symbol
+    private $AnnotationWriter lastRuntimeVisibleAnnotation;
+            ^
+  symbol:   class $AnnotationWriter
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:14: error: cannot find symbol
+    private $AnnotationWriter lastRuntimeInvisibleAnnotation;
+            ^
+  symbol:   class $AnnotationWriter
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:15: error: cannot find symbol
+    private $AnnotationWriter lastRuntimeVisibleTypeAnnotation;
+            ^
+  symbol:   class $AnnotationWriter
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:16: error: cannot find symbol
+    private $AnnotationWriter lastRuntimeInvisibleTypeAnnotation;
+            ^
+  symbol:   class $AnnotationWriter
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:17: error: cannot find symbol
+    private $Attribute firstAttribute;
+            ^
+  symbol:   class $Attribute
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:19: error: cannot find symbol
+    $RecordComponentWriter(final $SymbolTable symbolTable, final String name, final String descriptor, final String signature) {
+                                 ^
+  symbol:   class $SymbolTable
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:46: error: cannot find symbol
+    public void visitAttribute(final $Attribute attribute) {
+                                     ^
+  symbol:   class $Attribute
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:94: error: package $Attribute does not exist
+    final void collectAttributePrototypes(final $Attribute.Set attributePrototypes) {
+                                                          ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:32: error: cannot find symbol
+            return this.lastRuntimeVisibleAnnotation = $AnnotationWriter.create(this.symbolTable, descriptor, this.lastRuntimeVisibleAnnotation);
+                                                       ^
+  symbol:   variable $AnnotationWriter
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:34: error: cannot find symbol
+        return this.lastRuntimeInvisibleAnnotation = $AnnotationWriter.create(this.symbolTable, descriptor, this.lastRuntimeInvisibleAnnotation);
+                                                     ^
+  symbol:   variable $AnnotationWriter
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:37: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:40: error: cannot find symbol
+            return this.lastRuntimeVisibleTypeAnnotation = $AnnotationWriter.create(this.symbolTable, typeRef, typePath, descriptor, this.lastRuntimeVisibleTypeAnnotation);
+                                                           ^
+  symbol:   variable $AnnotationWriter
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:42: error: cannot find symbol
+        return this.lastRuntimeInvisibleTypeAnnotation = $AnnotationWriter.create(this.symbolTable, typeRef, typePath, descriptor, this.lastRuntimeInvisibleTypeAnnotation);
+                                                         ^
+  symbol:   variable $AnnotationWriter
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:45: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:51: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:57: error: cannot find symbol
+        size += $Attribute.computeAttributesSize(this.symbolTable, 0, this.signatureIndex);
+                ^
+  symbol:   variable $Attribute
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:58: error: cannot find symbol
+        size += $AnnotationWriter.computeAnnotationsSize(this.lastRuntimeVisibleAnnotation, this.lastRuntimeInvisibleAnnotation, this.lastRuntimeVisibleTypeAnnotation, this.lastRuntimeInvisibleTypeAnnotation);
+                ^
+  symbol:   variable $AnnotationWriter
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:87: error: cannot find symbol
+        $Attribute.putAttributes(this.symbolTable, 0, this.signatureIndex, output);
+        ^
+  symbol:   variable $Attribute
+  location: class $RecordComponentWriter
+sources/structure/com.google.inject/guice/5.1.0/Decompiled/com/google/inject/internal/asm/$RecordComponentWriter.java:88: error: cannot find symbol
+        $AnnotationWriter.putAnnotations(this.symbolTable, this.lastRuntimeVisibleAnnotation, this.lastRuntimeInvisibleAnnotation, this.lastRuntimeVisibleTypeAnnotation, this.lastRuntimeInvisibleTypeAnnotation, output);
+        ^
+  symbol:   variable $AnnotationWriter
+  location: class $RecordComponentWriter
+22 errors

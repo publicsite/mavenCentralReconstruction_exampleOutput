@@ -1,0 +1,89 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:7: error: cannot find symbol
+import groovy.lang.MissingPropertyException;
+                  ^
+  symbol:   class MissingPropertyException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:8: error: cannot find symbol
+import groovy.lang.MissingMethodException;
+                  ^
+  symbol:   class MissingMethodException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:9: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:10: error: cannot find symbol
+import groovy.lang.Binding;
+                  ^
+  symbol:   class Binding
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:11: error: cannot find symbol
+import groovy.lang.MetaClass;
+                  ^
+  symbol:   class MetaClass
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:12: error: cannot find symbol
+import groovy.lang.Script;
+                  ^
+  symbol:   class Script
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:14: error: cannot find symbol
+public abstract class DelegatingScript extends Script
+                                               ^
+  symbol: class Script
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:17: error: cannot find symbol
+    private MetaClass metaClass;
+            ^
+  symbol:   class MetaClass
+  location: class DelegatingScript
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:22: error: cannot find symbol
+    protected DelegatingScript(final Binding binding) {
+                                     ^
+  symbol:   class Binding
+  location: class DelegatingScript
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:28: error: cannot find symbol
+        this.metaClass = InvokerHelper.getMetaClass(delegate.getClass());
+                         ^
+  symbol:   variable InvokerHelper
+  location: class DelegatingScript
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:31: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:36: error: cannot find symbol
+        catch (MissingMethodException mme) {
+               ^
+  symbol:   class MissingMethodException
+  location: class DelegatingScript
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:37: error: cannot find symbol
+            return super.invokeMethod(name, args);
+                   ^
+  symbol:   variable super
+  location: class DelegatingScript
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:41: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:46: error: cannot find symbol
+        catch (MissingPropertyException e) {
+               ^
+  symbol:   class MissingPropertyException
+  location: class DelegatingScript
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:47: error: cannot find symbol
+            return super.getProperty(property);
+                   ^
+  symbol:   variable super
+  location: class DelegatingScript
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:51: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:56: error: cannot find symbol
+        catch (MissingPropertyException e) {
+               ^
+  symbol:   class MissingPropertyException
+  location: class DelegatingScript
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/DelegatingScript.java:57: error: cannot find symbol
+            super.setProperty(property, newValue);
+            ^
+  symbol:   variable super
+  location: class DelegatingScript
+19 errors

@@ -1,0 +1,65 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:11: error: cannot find symbol
+import org.easymock.asm.ClassReader;
+                       ^
+  symbol:   class ClassReader
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:17: error: cannot find symbol
+import org.easymock.asm.ClassWriter;
+                       ^
+  symbol:   class ClassWriter
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:19: error: cannot find symbol
+import org.easymock.asm.ClassVisitor;
+                       ^
+  symbol:   class ClassVisitor
+  location: package org.easymock.asm
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:21: error: cannot find symbol
+public class DebuggingClassWriter extends ClassVisitor
+                                          ^
+  symbol: class ClassVisitor
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:30: error: cannot find symbol
+        super(Constants.ASM_API, new ClassWriter(flags));
+              ^
+  symbol:   variable Constants
+  location: class DebuggingClassWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:30: error: cannot find symbol
+        super(Constants.ASM_API, new ClassWriter(flags));
+                                     ^
+  symbol:   class ClassWriter
+  location: class DebuggingClassWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:37: error: cannot find symbol
+        super.visit(version, access, name, signature, superName, interfaces);
+        ^
+  symbol:   variable super
+  location: class DebuggingClassWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:51: error: cannot find symbol
+                final byte[] b = ((ClassWriter)DebuggingClassWriter.this.cv).toByteArray();
+                                   ^
+  symbol: class ClassWriter
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:51: error: cannot find symbol
+                final byte[] b = ((ClassWriter)DebuggingClassWriter.this.cv).toByteArray();
+                                                                        ^
+  symbol: variable cv
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:68: error: cannot find symbol
+                                final ClassReader cr = new ClassReader(b);
+                                      ^
+  symbol: class ClassReader
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:68: error: cannot find symbol
+                                final ClassReader cr = new ClassReader(b);
+                                                           ^
+  symbol: class ClassReader
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:70: error: cannot find symbol
+                                final ClassVisitor tcv = DebuggingClassWriter.traceCtor.newInstance(null, pw);
+                                      ^
+  symbol: class ClassVisitor
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java:94: error: cannot find symbol
+                DebuggingClassWriter.traceCtor = clazz.getConstructor(ClassVisitor.class, PrintWriter.class);
+                                                                      ^
+  symbol:   class ClassVisitor
+  location: class DebuggingClassWriter
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/core/DebuggingClassWriter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 errors

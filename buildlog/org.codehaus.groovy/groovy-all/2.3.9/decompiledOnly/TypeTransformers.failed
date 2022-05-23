@@ -1,0 +1,107 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:8: error: cannot find symbol
+import groovy.lang.GroovyObject;
+                  ^
+  symbol:   class GroovyObject
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:10: error: cannot find symbol
+import org.codehaus.groovy.runtime.ConvertedClosure;
+                                  ^
+  symbol:   class ConvertedClosure
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:13: error: cannot find symbol
+import org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation;
+                                               ^
+  symbol:   class DefaultTypeTransformation
+  location: package org.codehaus.groovy.runtime.typehandling
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:19: error: package org.codehaus.groovy.transform.trait does not exist
+import org.codehaus.groovy.transform.trait.Traits;
+                                          ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:20: error: cannot find symbol
+import groovy.util.ProxyGenerator;
+                  ^
+  symbol:   class ProxyGenerator
+  location: package groovy.util
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:21: error: package org.codehaus.groovy.reflection.stdclasses does not exist
+import org.codehaus.groovy.reflection.stdclasses.CachedSAMClass;
+                                                ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:23: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:24: error: cannot find symbol
+import groovy.lang.GString;
+                  ^
+  symbol:   class GString
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:47: error: cannot find symbol
+        if (arg instanceof GString) {
+                           ^
+  symbol:   class GString
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:50: error: cannot find symbol
+        else if (arg instanceof Closure) {
+                                ^
+  symbol:   class Closure
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:66: error: cannot find symbol
+        final Method method = CachedSAMClass.getSAMMethod(parameter);
+                              ^
+  symbol:   variable CachedSAMClass
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:72: error: cannot find symbol
+            ret = MethodHandles.insertArguments(ret, 2, ProxyGenerator.INSTANCE, parameter);
+                                                        ^
+  symbol:   variable ProxyGenerator
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:76: error: cannot find symbol
+        if (Traits.isTrait(parameter)) {
+            ^
+  symbol:   variable Traits
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:78: error: cannot find symbol
+            ret = MethodHandles.insertArguments(ret, 2, ProxyGenerator.INSTANCE, Collections.singletonList(parameter));
+                                                        ^
+  symbol:   variable ProxyGenerator
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:139: error: cannot find symbol
+            AS_ARRAY = TypeTransformers.LOOKUP.findStatic(DefaultTypeTransformation.class, "asArray", MethodType.methodType(Object.class, Object.class, Class.class));
+                                                          ^
+  symbol:   class DefaultTypeTransformation
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:141: error: cannot find symbol
+            final MethodHandle newConvertedClosure = TypeTransformers.LOOKUP.findConstructor(ConvertedClosure.class, MethodType.methodType(Void.TYPE, Closure.class, String.class));
+                                                                                             ^
+  symbol:   class ConvertedClosure
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:141: error: cannot find symbol
+            final MethodHandle newConvertedClosure = TypeTransformers.LOOKUP.findConstructor(ConvertedClosure.class, MethodType.methodType(Void.TYPE, Closure.class, String.class));
+                                                                                                                                                      ^
+  symbol:   class Closure
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:143: error: cannot find symbol
+            newOrder = newOrder.insertParameterTypes(0, InvocationHandler.class, Closure.class, String.class);
+                                                                                 ^
+  symbol:   class Closure
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:147: error: cannot find symbol
+            newProxyInstance = TypeTransformers.LOOKUP.findVirtual(ProxyGenerator.class, "instantiateAggregateFromBaseClass", MethodType.methodType(GroovyObject.class, Map.class, Class.class));
+                                                                   ^
+  symbol:   class ProxyGenerator
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:147: error: cannot find symbol
+            newProxyInstance = TypeTransformers.LOOKUP.findVirtual(ProxyGenerator.class, "instantiateAggregateFromBaseClass", MethodType.methodType(GroovyObject.class, Map.class, Class.class));
+                                                                                                                                                    ^
+  symbol:   class GroovyObject
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:153: error: cannot find symbol
+            newProxyInstance = TypeTransformers.LOOKUP.findVirtual(ProxyGenerator.class, "instantiateAggregate", MethodType.methodType(GroovyObject.class, Map.class, List.class));
+                                                                   ^
+  symbol:   class ProxyGenerator
+  location: class TypeTransformers
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/vmplugin/v7/TypeTransformers.java:153: error: cannot find symbol
+            newProxyInstance = TypeTransformers.LOOKUP.findVirtual(ProxyGenerator.class, "instantiateAggregate", MethodType.methodType(GroovyObject.class, Map.class, List.class));
+                                                                                                                                       ^
+  symbol:   class GroovyObject
+  location: class TypeTransformers
+22 errors

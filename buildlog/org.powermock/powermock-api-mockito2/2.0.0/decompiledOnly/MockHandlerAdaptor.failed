@@ -1,0 +1,102 @@
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/MockHandlerAdaptor.java:8: error: cannot find symbol
+import org.mockito.exceptions.base.MockitoAssertionError;
+                                  ^
+  symbol:   class MockitoAssertionError
+  location: package org.mockito.exceptions.base
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/MockHandlerAdaptor.java:10: error: package org.mockito.exceptions.misusing does not exist
+import org.mockito.exceptions.misusing.NotAMockException;
+                                      ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/MockHandlerAdaptor.java:11: error: package org.powermock.core does not exist
+import org.powermock.core.MockRepository;
+                         ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/MockHandlerAdaptor.java:15: error: cannot find symbol
+import org.mockito.Mockito;
+                  ^
+  symbol:   class Mockito
+  location: package org.mockito
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/invocation/InvocationFactory.java:21: error: cannot find symbol
+import org.mockito.Mockito;
+                  ^
+  symbol:   class Mockito
+  location: package org.mockito
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/invocation/InvocationFactory.java:25: error: package org.powermock.core does not exist
+import org.powermock.core.MockGateway;
+                         ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/invocation/InvocationFactory.java:26: error: package org.powermock.core does not exist
+import org.powermock.core.MockRepository;
+                         ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/invocation/InvocationFactory.java:27: error: package org.powermock.reflect does not exist
+import org.powermock.reflect.Whitebox;
+                            ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/internal/invocation/InvocationControlAssertionError.java:18: error: package org.powermock.core.spi.support does not exist
+import org.powermock.core.spi.support.InvocationSubstitute;
+                                     ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/internal/invocation/InvocationControlAssertionError.java:19: error: package org.powermock.reflect does not exist
+import org.powermock.reflect.Whitebox;
+                            ^
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/MockHandlerAdaptor.java:27: error: cannot find symbol
+        this.mockingDetails = Mockito.mockingDetails((Object)mock);
+                              ^
+  symbol:   variable Mockito
+  location: class MockHandlerAdaptor<T>
+  where T is a type-variable:
+    T extends Object declared in class MockHandlerAdaptor
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/MockHandlerAdaptor.java:47: error: cannot find symbol
+        catch (NotAMockException e) {
+               ^
+  symbol:   class NotAMockException
+  location: class MockHandlerAdaptor<T>
+  where T is a type-variable:
+    T extends Object declared in class MockHandlerAdaptor
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/MockHandlerAdaptor.java:48: error: cannot find symbol
+            if (invocation.getMock().getClass().getName().startsWith("java.") && MockRepository.getInstanceMethodInvocationControl(invocation.getMock()) != null) {
+                                                                                 ^
+  symbol:   variable MockRepository
+  location: class MockHandlerAdaptor<T>
+  where T is a type-variable:
+    T extends Object declared in class MockHandlerAdaptor
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/Decompiled/org/powermock/api/mockito/invocation/MockHandlerAdaptor.java:53: error: cannot find symbol
+        catch (MockitoAssertionError e2) {
+               ^
+  symbol:   class MockitoAssertionError
+  location: class MockHandlerAdaptor<T>
+  where T is a type-variable:
+    T extends Object declared in class MockHandlerAdaptor
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/invocation/InvocationFactory.java:39: error: cannot find symbol
+        return Mockito.framework()
+               ^
+  symbol:   variable Mockito
+  location: class InvocationFactory
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/invocation/InvocationFactory.java:49: error: cannot find symbol
+                final Class<?> type = Whitebox.getType(delegator);
+                                      ^
+  symbol: variable Whitebox
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/invocation/InvocationFactory.java:52: error: cannot find symbol
+                    MockRepository.putAdditionalState(MockGateway.DONT_MOCK_NEXT_CALL, true);
+                                                      ^
+  symbol: variable MockGateway
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/invocation/InvocationFactory.java:52: error: cannot find symbol
+                    MockRepository.putAdditionalState(MockGateway.DONT_MOCK_NEXT_CALL, true);
+                    ^
+  symbol: variable MockRepository
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/internal/invocation/InvocationControlAssertionError.java:66: error: cannot find symbol
+        Whitebox.setInternalState(errorToUpdate, "detailMessage", builder.toString());
+        ^
+  symbol:   variable Whitebox
+  location: class InvocationControlAssertionError
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/internal/invocation/InvocationControlAssertionError.java:76: error: cannot find symbol
+        Whitebox.setInternalState(errorToUpdate, "detailMessage", "\n" + changeMessageContent(errorToUpdate.getMessage()));
+        ^
+  symbol:   variable Whitebox
+  location: class InvocationControlAssertionError
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/internal/invocation/InvocationControlAssertionError.java:86: error: cannot find symbol
+        final String newSubsitutionClassName = InvocationSubstitute.class.getSimpleName();
+                                               ^
+  symbol:   class InvocationSubstitute
+  location: class InvocationControlAssertionError
+sources/structure/org.powermock/powermock-api-mockito2/2.0.0/extractedSources/org/powermock/api/mockito/internal/invocation/InvocationControlAssertionError.java:90: error: cannot find symbol
+        final String newSubsitutionMethodName = InvocationSubstitute.class.getDeclaredMethods()[0].getName();
+                                                ^
+  symbol:   class InvocationSubstitute
+  location: class InvocationControlAssertionError
+22 errors

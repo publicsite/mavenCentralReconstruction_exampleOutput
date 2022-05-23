@@ -1,0 +1,48 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/shared/SafeHtmlHostedModeUtils.java:7: error: package com.google.gwt.thirdparty.guava.common.base does not exist
+import com.google.gwt.thirdparty.guava.common.base.Preconditions;
+                                                  ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/shared/SafeHtmlHostedModeUtils.java:9: error: package com.google.gwt.thirdparty.streamhtmlparser does not exist
+import com.google.gwt.thirdparty.streamhtmlparser.HtmlParser;
+                                                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/shared/SafeHtmlHostedModeUtils.java:10: error: package com.google.gwt.thirdparty.streamhtmlparser does not exist
+import com.google.gwt.thirdparty.streamhtmlparser.ParseException;
+                                                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/shared/SafeHtmlHostedModeUtils.java:11: error: package com.google.gwt.thirdparty.streamhtmlparser does not exist
+import com.google.gwt.thirdparty.streamhtmlparser.HtmlParserFactory;
+                                                 ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/shared/GWT.java:31: error: cannot find symbol
+  private static GWTBridge sGWTBridge = null;
+                 ^
+  symbol:   class GWTBridge
+  location: class GWT
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/core/shared/GWT.java:177: error: cannot find symbol
+  public static void setBridge(GWTBridge bridge) {
+                               ^
+  symbol:   class GWTBridge
+  location: class GWT
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/shared/SafeHtmlHostedModeUtils.java:19: error: cannot find symbol
+        final HtmlParser htmlParser = HtmlParserFactory.createParser();
+              ^
+  symbol:   class HtmlParser
+  location: class SafeHtmlHostedModeUtils
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/shared/SafeHtmlHostedModeUtils.java:19: error: cannot find symbol
+        final HtmlParser htmlParser = HtmlParserFactory.createParser();
+                                      ^
+  symbol:   variable HtmlParserFactory
+  location: class SafeHtmlHostedModeUtils
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/shared/SafeHtmlHostedModeUtils.java:23: error: cannot find symbol
+        catch (ParseException e) {
+               ^
+  symbol:   class ParseException
+  location: class SafeHtmlHostedModeUtils
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/shared/SafeHtmlHostedModeUtils.java:26: error: cannot find symbol
+        return htmlParser.getState() == HtmlParser.STATE_TEXT && !htmlParser.inJavascript() && !htmlParser.inCss();
+                                        ^
+  symbol:   variable HtmlParser
+  location: class SafeHtmlHostedModeUtils
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/safehtml/shared/SafeHtmlHostedModeUtils.java:31: error: cannot find symbol
+            Preconditions.checkArgument(isCompleteHtml(html), "String is not complete HTML (ends in non-inner-HTML context): %s", new Object[] { html });
+            ^
+  symbol:   variable Preconditions
+  location: class SafeHtmlHostedModeUtils
+11 errors

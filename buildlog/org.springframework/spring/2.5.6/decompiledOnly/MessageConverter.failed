@@ -1,0 +1,58 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/support/converter/MessageConverter.java:7: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/support/converter/MessageConverter.java:8: error: package javax.jms does not exist
+import javax.jms.Message;
+                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/support/converter/MessageConverter.java:9: error: package javax.jms does not exist
+import javax.jms.Session;
+                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/support/converter/MessageConverter.java:13: error: cannot find symbol
+    Message toMessage(final Object p0, final Session p1) throws JMSException, MessageConversionException;
+                                             ^
+  symbol:   class Session
+  location: interface MessageConverter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/support/converter/MessageConverter.java:13: error: cannot find symbol
+    Message toMessage(final Object p0, final Session p1) throws JMSException, MessageConversionException;
+    ^
+  symbol:   class Message
+  location: interface MessageConverter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/support/converter/MessageConverter.java:13: error: cannot find symbol
+    Message toMessage(final Object p0, final Session p1) throws JMSException, MessageConversionException;
+                                                                ^
+  symbol:   class JMSException
+  location: interface MessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:19: error: package javax.jms does not exist
+import javax.jms.JMSException;
+                ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/support/converter/MessageConverter.java:15: error: cannot find symbol
+    Object fromMessage(final Message p0) throws JMSException, MessageConversionException;
+                             ^
+  symbol:   class Message
+  location: interface MessageConverter
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/jms/support/converter/MessageConverter.java:15: error: cannot find symbol
+    Object fromMessage(final Message p0) throws JMSException, MessageConversionException;
+                                                ^
+  symbol:   class JMSException
+  location: interface MessageConverter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:71: error: cannot find symbol
+		if (cause instanceof JMSException) {
+		                     ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:72: error: cannot find symbol
+			return ((JMSException) cause).getErrorCode();
+			         ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:85: error: cannot find symbol
+		if (cause instanceof JMSException) {
+		                     ^
+  symbol:   class JMSException
+  location: class JmsException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jms/JmsException.java:86: error: cannot find symbol
+			Exception linkedEx = ((JMSException) cause).getLinkedException();
+			                       ^
+  symbol:   class JMSException
+  location: class JmsException
+13 errors

@@ -1,0 +1,64 @@
+hybrids/org.hamcrest/hamcrest/2.2/Matchers.java:1204: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+  public static <T> org.hamcrest.Matcher<T> isIn(java.util.Collection<T> collection) {
+                                            ^
+hybrids/org.hamcrest/hamcrest/2.2/Matchers.java:1219: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+  public static <T> org.hamcrest.Matcher<T> isIn(T[] elements) {
+                                            ^
+hybrids/org.hamcrest/hamcrest/2.2/Matchers.java:1235: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+  public static <T> org.hamcrest.Matcher<T> isOneOf(T... elements) {
+                                            ^
+hybrids/org.hamcrest/hamcrest/2.2/Matchers.java:1380: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+  public static Matcher<java.lang.String> equalToIgnoringWhiteSpace(java.lang.String expectedString) {
+                                          ^
+hybrids/org.hamcrest/hamcrest/2.2/Matchers.java:1430: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+  public static Matcher<java.lang.String> isEmptyOrNullString() {
+                                          ^
+hybrids/org.hamcrest/hamcrest/2.2/Matchers.java:1442: warning: [dep-ann] deprecated item is not annotated with @Deprecated
+  public static Matcher<java.lang.String> isEmptyString() {
+                                          ^
+sources/structure/org.hamcrest/hamcrest/2.2/extractedSources/org/hamcrest/core/CombinableMatcher.java:60: error: incompatible types: Matcher<CAP#1> cannot be converted to Matcher<? super CAP#2>
+      return new CombinableMatcher<>(first).and(other);
+                                                ^
+  where X is a type-variable:
+    X extends Object declared in class CombinableBothMatcher
+  where CAP#1,CAP#2 are fresh type-variables:
+    CAP#1 extends Object super: X from capture of ? super X
+    CAP#2 extends Object super: X from capture of ? super X
+sources/structure/org.hamcrest/hamcrest/2.2/extractedSources/org/hamcrest/core/CombinableMatcher.java:79: error: incompatible types: Matcher<CAP#1> cannot be converted to Matcher<? super CAP#2>
+      return new CombinableMatcher<>(first).or(other);
+                                               ^
+  where X is a type-variable:
+    X extends Object declared in class CombinableEitherMatcher
+  where CAP#1,CAP#2 are fresh type-variables:
+    CAP#1 extends Object super: X from capture of ? super X
+    CAP#2 extends Object super: X from capture of ? super X
+sources/structure/org.hamcrest/hamcrest/2.2/extractedSources/org/hamcrest/collection/ArrayMatching.java:70: error: incompatible types: inference variable E#1 has incompatible bounds
+      return arrayContainingInAnyOrder(asList(itemMatchers));
+                                      ^
+    equality constraints: E#2
+    lower bounds: List<T>
+  where E#1,E#2,T are type-variables:
+    E#1 extends Object declared in method <E#1>arrayContainingInAnyOrder(E#1...)
+    E#2 extends Object declared in method <E#2>arrayContainingInAnyOrder(Matcher<? super E#2>...)
+    T extends Object declared in method <T>asList(T...)
+sources/structure/org.hamcrest/hamcrest/2.2/extractedSources/org/hamcrest/collection/IsIterableContainingInAnyOrder.java:101: error: incompatible types: inference variable T#1 has incompatible bounds
+        return containsInAnyOrder(Arrays.asList(itemMatchers));
+                                 ^
+    equality constraints: T#2
+    lower bounds: List<T#3>
+  where T#1,T#2,T#3 are type-variables:
+    T#1 extends Object declared in method <T#1>containsInAnyOrder(T#1...)
+    T#2 extends Object declared in method <T#2>containsInAnyOrder(Matcher<? super T#2>...)
+    T#3 extends Object declared in method <T#3>asList(T#3...)
+sources/structure/org.hamcrest/hamcrest/2.2/extractedSources/org/hamcrest/collection/IsIterableContainingInRelativeOrder.java:102: error: incompatible types: inference variable E#1 has incompatible bounds
+        return containsInRelativeOrder(asList(itemMatchers));
+                                      ^
+    equality constraints: E#2
+    lower bounds: List<T>
+  where E#1,E#2,T are type-variables:
+    E#1 extends Object declared in method <E#1>containsInRelativeOrder(E#1...)
+    E#2 extends Object declared in method <E#2>containsInRelativeOrder(Matcher<? super E#2>...)
+    T extends Object declared in method <T>asList(T...)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+5 errors
+6 warnings

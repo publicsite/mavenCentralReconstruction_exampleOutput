@@ -1,0 +1,109 @@
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/PackageNameSelectorResolver.java:13: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.findAllClassesInPackage;
+                                             ^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/PackageNameSelectorResolver.java:13: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.findAllClassesInPackage;
+^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/PackageNameSelectorResolver.java:17: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ClassFilter;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/DiscoverySelectorResolver.java:13: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ClassFilter;
+                                      ^
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/PackageNameSelectorResolver.java:27: error: cannot find symbol
+	public void resolve(EngineDiscoveryRequest request, ClassFilter classFilter, TestClassCollector collector) {
+	                                                    ^
+  symbol:   class ClassFilter
+  location: class PackageNameSelectorResolver
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/TestClassCollector.java:14: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.FunctionUtils.where;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/TestClassCollector.java:14: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.FunctionUtils.where;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/RunnerTestDescriptor.java:20: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.Logger;
+                                         ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/RunnerTestDescriptor.java:21: error: package org.junit.platform.commons.logging does not exist
+import org.junit.platform.commons.logging.LoggerFactory;
+                                         ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:16: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.CollectionUtils.getOnlyElement;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:16: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.CollectionUtils.getOnlyElement;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:17: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.FunctionUtils.where;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:17: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.FunctionUtils.where;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:18: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.findMethods;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:18: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.findMethods;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:19: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.StringUtils.isNotBlank;
+                                             ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:19: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.StringUtils.isNotBlank;
+^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:31: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.ReflectionUtils;
+                                      ^
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/RunnerTestDescriptor.java:37: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(RunnerTestDescriptor.class);
+	                     ^
+  symbol:   class Logger
+  location: class RunnerTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/DiscoverySelectorResolver.java:21: error: cannot find symbol
+	void resolve(EngineDiscoveryRequest request, ClassFilter classFilter, TestClassCollector collector);
+	                                             ^
+  symbol:   class ClassFilter
+  location: interface DiscoverySelectorResolver
+hybrids/org.junit.vintage/junit-vintage-engine/5.4.0/PackageNameSelectorResolver.java:33: error: incompatible types: cannot infer type-variable(s) R
+			.flatMap(Collection::stream)
+			        ^
+    (argument mismatch; invalid method reference
+      method stream in interface Collection<E> cannot be applied to given types
+        required: no arguments
+        found: Object
+        reason: actual and formal argument lists differ in length)
+  where R,T,E are type-variables:
+    R extends Object declared in method <R>flatMap(Function<? super T,? extends Stream<? extends R>>)
+    T extends Object declared in interface Stream
+    E extends Object declared in interface Collection
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/discovery/TestClassCollector.java:53: error: cannot find symbol
+				.filter(where(Entry::getKey, testClass -> !completeTestClasses.contains(testClass)))
+				        ^
+  symbol:   method where(Entry::getKey,(testClass[...]lass))
+  location: class TestClassCollector
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:76: error: cannot find symbol
+			if (isNotBlank(className)) {
+			    ^
+  symbol:   method isNotBlank(String)
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:136: error: cannot find symbol
+					.map(ReflectionUtils::getAllAssignmentCompatibleClasses)
+					     ^
+  symbol:   variable ReflectionUtils
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:167: error: cannot find symbol
+			List<Method> methods = findMethods(testClass, where(Method::getName, isEqual(methodName)));
+			                                              ^
+  symbol:   method where(Method::getName,Predicate<Object>)
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/VintageTestDescriptor.java:168: error: cannot find symbol
+			return (methods.size() == 1) ? MethodSource.from(testClass, getOnlyElement(methods)) : null;
+			                                                            ^
+  symbol:   method getOnlyElement(List<Method>)
+  location: class VintageTestDescriptor
+sources/structure/org.junit.vintage/junit-vintage-engine/5.4.0/extractedSources/org/junit/vintage/engine/descriptor/RunnerTestDescriptor.java:37: error: cannot find symbol
+	private static final Logger logger = LoggerFactory.getLogger(RunnerTestDescriptor.class);
+	                                     ^
+  symbol:   variable LoggerFactory
+  location: class RunnerTestDescriptor
+27 errors

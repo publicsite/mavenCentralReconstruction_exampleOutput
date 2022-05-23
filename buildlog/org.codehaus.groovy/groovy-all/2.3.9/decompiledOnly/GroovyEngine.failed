@@ -1,0 +1,70 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:10: error: cannot find symbol
+import org.apache.bsf.BSFManager;
+                     ^
+  symbol:   class BSFManager
+  location: package org.apache.bsf
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:11: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:13: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:15: error: cannot find symbol
+import groovy.lang.GroovyShell;
+                  ^
+  symbol:   class GroovyShell
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:20: error: cannot find symbol
+    protected GroovyShell shell;
+              ^
+  symbol:   class GroovyShell
+  location: class GroovyEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:81: error: cannot find symbol
+    public void initialize(final BSFManager mgr, final String lang, final Vector declaredBeans) throws BSFException {
+                                 ^
+  symbol:   class BSFManager
+  location: class GroovyEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:97: error: cannot find symbol
+    protected GroovyShell getEvalShell() {
+              ^
+  symbol:   class GroovyShell
+  location: class GroovyEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:50: error: cannot find symbol
+        if (object instanceof Closure) {
+                              ^
+  symbol:   class Closure
+  location: class GroovyEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:51: error: cannot find symbol
+            final Closure closure = (Closure)object;
+                  ^
+  symbol:   class Closure
+  location: class GroovyEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:51: error: cannot find symbol
+            final Closure closure = (Closure)object;
+                                     ^
+  symbol:   class Closure
+  location: class GroovyEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:58: error: cannot find symbol
+        return InvokerHelper.invokeMethod(object, method, args);
+               ^
+  symbol:   variable InvokerHelper
+  location: class GroovyEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:83: error: cannot find symbol
+        (this.shell = new GroovyShell(mgr.getClassLoader())).setVariable("bsf", new BSFFunctions(mgr, (BSFEngine)this));
+                          ^
+  symbol:   class GroovyShell
+  location: class GroovyEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:85: error: incompatible types: Object cannot be converted to BSFDeclaredBean
+            this.declareBean(declaredBeans.elementAt(i));
+                                                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/bsf/GroovyEngine.java:98: error: cannot find symbol
+        return new GroovyShell(this.shell);
+                   ^
+  symbol:   class GroovyShell
+  location: class GroovyEngine
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+14 errors

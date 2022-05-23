@@ -1,0 +1,43 @@
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/ForEachSupport.java:20: error: cannot find symbol
+import javax.servlet.jsp.jstl.core.LoopTagSupport;
+                                  ^
+  symbol:   class LoopTagSupport
+  location: package javax.servlet.jsp.jstl.core
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/ForEachSupport.java:22: error: cannot find symbol
+public abstract class ForEachSupport extends LoopTagSupport
+                                             ^
+  symbol: class LoopTagSupport
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/ForEachSupport.java:29: error: cannot find symbol
+            this.items = new ToEndIterator(this.end);
+                                               ^
+  symbol: variable end
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/ForEachSupport.java:32: error: cannot find symbol
+            this.deferredExpression = (ValueExpression)this.rawItems;
+                ^
+  symbol: variable deferredExpression
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/ForEachSupport.java:33: error: cannot find symbol
+            final Object o = this.deferredExpression.getValue(this.pageContext.getELContext());
+                                 ^
+  symbol: variable deferredExpression
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/ForEachSupport.java:33: error: cannot find symbol
+            final Object o = this.deferredExpression.getValue(this.pageContext.getELContext());
+                                                                  ^
+  symbol: variable pageContext
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/ForEachSupport.java:36: error: cannot find symbol
+                this.items = new IndexedDeferredIterator(iterator, this.deferredExpression);
+                                                                       ^
+  symbol: variable deferredExpression
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/ForEachSupport.java:39: error: cannot find symbol
+                this.items = new IteratedDeferredIterator(iterator, new IteratedExpression(this.deferredExpression, this.getDelims()));
+                                                                                               ^
+  symbol: variable deferredExpression
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/ForEachSupport.java:39: error: cannot find symbol
+                this.items = new IteratedDeferredIterator(iterator, new IteratedExpression(this.deferredExpression, this.getDelims()));
+                                                                                                                        ^
+  symbol: method getDelims()
+sources/structure/org.apache.taglibs/taglibs-standard-impl/1.2.1/Decompiled/org/apache/taglibs/standard/tag/common/core/ForEachSupport.java:82: error: cannot find symbol
+        super.release();
+        ^
+  symbol:   variable super
+  location: class ForEachSupport
+10 errors

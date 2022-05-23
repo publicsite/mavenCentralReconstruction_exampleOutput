@@ -1,0 +1,501 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:7: error: cannot find symbol
+import com.google.dexmaker.dx.io.instructions.InstructionCodec;
+                                             ^
+  symbol:   class InstructionCodec
+  location: package com.google.dexmaker.dx.io.instructions
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:294: error: cannot find symbol
+    public static InstructionCodec getFormat(final int opcode) {
+                  ^
+  symbol:   class InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:837: error: cannot find symbol
+        private final InstructionCodec format;
+                      ^
+  symbol:   class InstructionCodec
+  location: class Info
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:840: error: cannot find symbol
+        public Info(final int opcode, final String name, final InstructionCodec format, final IndexType indexType) {
+                                                               ^
+  symbol:   class InstructionCodec
+  location: class Info
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:855: error: cannot find symbol
+        public InstructionCodec getFormat() {
+               ^
+  symbol:   class InstructionCodec
+  location: class Info
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:308: error: cannot find symbol
+        SPECIAL_FORMAT = new Info(-1, "<special>", InstructionCodec.FORMAT_00X, IndexType.NONE);
+                                                   ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:309: error: cannot find symbol
+        PACKED_SWITCH_PAYLOAD = new Info(256, "packed-switch-payload", InstructionCodec.FORMAT_PACKED_SWITCH_PAYLOAD, IndexType.NONE);
+                                                                       ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:310: error: cannot find symbol
+        SPARSE_SWITCH_PAYLOAD = new Info(512, "sparse-switch-payload", InstructionCodec.FORMAT_SPARSE_SWITCH_PAYLOAD, IndexType.NONE);
+                                                                       ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:311: error: cannot find symbol
+        FILL_ARRAY_DATA_PAYLOAD = new Info(768, "fill-array-data-payload", InstructionCodec.FORMAT_FILL_ARRAY_DATA_PAYLOAD, IndexType.NONE);
+                                                                           ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:312: error: cannot find symbol
+        NOP = new Info(0, "nop", InstructionCodec.FORMAT_10X, IndexType.NONE);
+                                 ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:313: error: cannot find symbol
+        MOVE = new Info(1, "move", InstructionCodec.FORMAT_12X, IndexType.NONE);
+                                   ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:314: error: cannot find symbol
+        MOVE_FROM16 = new Info(2, "move/from16", InstructionCodec.FORMAT_22X, IndexType.NONE);
+                                                 ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:315: error: cannot find symbol
+        MOVE_16 = new Info(3, "move/16", InstructionCodec.FORMAT_32X, IndexType.NONE);
+                                         ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:316: error: cannot find symbol
+        MOVE_WIDE = new Info(4, "move-wide", InstructionCodec.FORMAT_12X, IndexType.NONE);
+                                             ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:317: error: cannot find symbol
+        MOVE_WIDE_FROM16 = new Info(5, "move-wide/from16", InstructionCodec.FORMAT_22X, IndexType.NONE);
+                                                           ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:318: error: cannot find symbol
+        MOVE_WIDE_16 = new Info(6, "move-wide/16", InstructionCodec.FORMAT_32X, IndexType.NONE);
+                                                   ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:319: error: cannot find symbol
+        MOVE_OBJECT = new Info(7, "move-object", InstructionCodec.FORMAT_12X, IndexType.NONE);
+                                                 ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:320: error: cannot find symbol
+        MOVE_OBJECT_FROM16 = new Info(8, "move-object/from16", InstructionCodec.FORMAT_22X, IndexType.NONE);
+                                                               ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:321: error: cannot find symbol
+        MOVE_OBJECT_16 = new Info(9, "move-object/16", InstructionCodec.FORMAT_32X, IndexType.NONE);
+                                                       ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:322: error: cannot find symbol
+        MOVE_RESULT = new Info(10, "move-result", InstructionCodec.FORMAT_11X, IndexType.NONE);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:323: error: cannot find symbol
+        MOVE_RESULT_WIDE = new Info(11, "move-result-wide", InstructionCodec.FORMAT_11X, IndexType.NONE);
+                                                            ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:324: error: cannot find symbol
+        MOVE_RESULT_OBJECT = new Info(12, "move-result-object", InstructionCodec.FORMAT_11X, IndexType.NONE);
+                                                                ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:325: error: cannot find symbol
+        MOVE_EXCEPTION = new Info(13, "move-exception", InstructionCodec.FORMAT_11X, IndexType.NONE);
+                                                        ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:326: error: cannot find symbol
+        RETURN_VOID = new Info(14, "return-void", InstructionCodec.FORMAT_10X, IndexType.NONE);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:327: error: cannot find symbol
+        RETURN = new Info(15, "return", InstructionCodec.FORMAT_11X, IndexType.NONE);
+                                        ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:328: error: cannot find symbol
+        RETURN_WIDE = new Info(16, "return-wide", InstructionCodec.FORMAT_11X, IndexType.NONE);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:329: error: cannot find symbol
+        RETURN_OBJECT = new Info(17, "return-object", InstructionCodec.FORMAT_11X, IndexType.NONE);
+                                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:330: error: cannot find symbol
+        CONST_4 = new Info(18, "const/4", InstructionCodec.FORMAT_11N, IndexType.NONE);
+                                          ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:331: error: cannot find symbol
+        CONST_16 = new Info(19, "const/16", InstructionCodec.FORMAT_21S, IndexType.NONE);
+                                            ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:332: error: cannot find symbol
+        CONST = new Info(20, "const", InstructionCodec.FORMAT_31I, IndexType.NONE);
+                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:333: error: cannot find symbol
+        CONST_HIGH16 = new Info(21, "const/high16", InstructionCodec.FORMAT_21H, IndexType.NONE);
+                                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:334: error: cannot find symbol
+        CONST_WIDE_16 = new Info(22, "const-wide/16", InstructionCodec.FORMAT_21S, IndexType.NONE);
+                                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:335: error: cannot find symbol
+        CONST_WIDE_32 = new Info(23, "const-wide/32", InstructionCodec.FORMAT_31I, IndexType.NONE);
+                                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:336: error: cannot find symbol
+        CONST_WIDE = new Info(24, "const-wide", InstructionCodec.FORMAT_51L, IndexType.NONE);
+                                                ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:337: error: cannot find symbol
+        CONST_WIDE_HIGH16 = new Info(25, "const-wide/high16", InstructionCodec.FORMAT_21H, IndexType.NONE);
+                                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:338: error: cannot find symbol
+        CONST_STRING = new Info(26, "const-string", InstructionCodec.FORMAT_21C, IndexType.STRING_REF);
+                                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:339: error: cannot find symbol
+        CONST_STRING_JUMBO = new Info(27, "const-string/jumbo", InstructionCodec.FORMAT_31C, IndexType.STRING_REF);
+                                                                ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:340: error: cannot find symbol
+        CONST_CLASS = new Info(28, "const-class", InstructionCodec.FORMAT_21C, IndexType.TYPE_REF);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:341: error: cannot find symbol
+        MONITOR_ENTER = new Info(29, "monitor-enter", InstructionCodec.FORMAT_11X, IndexType.NONE);
+                                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:342: error: cannot find symbol
+        MONITOR_EXIT = new Info(30, "monitor-exit", InstructionCodec.FORMAT_11X, IndexType.NONE);
+                                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:343: error: cannot find symbol
+        CHECK_CAST = new Info(31, "check-cast", InstructionCodec.FORMAT_21C, IndexType.TYPE_REF);
+                                                ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:344: error: cannot find symbol
+        INSTANCE_OF = new Info(32, "instance-of", InstructionCodec.FORMAT_22C, IndexType.TYPE_REF);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:345: error: cannot find symbol
+        ARRAY_LENGTH = new Info(33, "array-length", InstructionCodec.FORMAT_12X, IndexType.NONE);
+                                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:346: error: cannot find symbol
+        NEW_INSTANCE = new Info(34, "new-instance", InstructionCodec.FORMAT_21C, IndexType.TYPE_REF);
+                                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:347: error: cannot find symbol
+        NEW_ARRAY = new Info(35, "new-array", InstructionCodec.FORMAT_22C, IndexType.TYPE_REF);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:348: error: cannot find symbol
+        FILLED_NEW_ARRAY = new Info(36, "filled-new-array", InstructionCodec.FORMAT_35C, IndexType.TYPE_REF);
+                                                            ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:349: error: cannot find symbol
+        FILLED_NEW_ARRAY_RANGE = new Info(37, "filled-new-array/range", InstructionCodec.FORMAT_3RC, IndexType.TYPE_REF);
+                                                                        ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:350: error: cannot find symbol
+        FILL_ARRAY_DATA = new Info(38, "fill-array-data", InstructionCodec.FORMAT_31T, IndexType.NONE);
+                                                          ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:351: error: cannot find symbol
+        THROW = new Info(39, "throw", InstructionCodec.FORMAT_11X, IndexType.NONE);
+                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:352: error: cannot find symbol
+        GOTO = new Info(40, "goto", InstructionCodec.FORMAT_10T, IndexType.NONE);
+                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:353: error: cannot find symbol
+        GOTO_16 = new Info(41, "goto/16", InstructionCodec.FORMAT_20T, IndexType.NONE);
+                                          ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:354: error: cannot find symbol
+        GOTO_32 = new Info(42, "goto/32", InstructionCodec.FORMAT_30T, IndexType.NONE);
+                                          ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:355: error: cannot find symbol
+        PACKED_SWITCH = new Info(43, "packed-switch", InstructionCodec.FORMAT_31T, IndexType.NONE);
+                                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:356: error: cannot find symbol
+        SPARSE_SWITCH = new Info(44, "sparse-switch", InstructionCodec.FORMAT_31T, IndexType.NONE);
+                                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:357: error: cannot find symbol
+        CMPL_FLOAT = new Info(45, "cmpl-float", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                                ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:358: error: cannot find symbol
+        CMPG_FLOAT = new Info(46, "cmpg-float", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                                ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:359: error: cannot find symbol
+        CMPL_DOUBLE = new Info(47, "cmpl-double", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:360: error: cannot find symbol
+        CMPG_DOUBLE = new Info(48, "cmpg-double", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:361: error: cannot find symbol
+        CMP_LONG = new Info(49, "cmp-long", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                            ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:362: error: cannot find symbol
+        IF_EQ = new Info(50, "if-eq", InstructionCodec.FORMAT_22T, IndexType.NONE);
+                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:363: error: cannot find symbol
+        IF_NE = new Info(51, "if-ne", InstructionCodec.FORMAT_22T, IndexType.NONE);
+                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:364: error: cannot find symbol
+        IF_LT = new Info(52, "if-lt", InstructionCodec.FORMAT_22T, IndexType.NONE);
+                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:365: error: cannot find symbol
+        IF_GE = new Info(53, "if-ge", InstructionCodec.FORMAT_22T, IndexType.NONE);
+                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:366: error: cannot find symbol
+        IF_GT = new Info(54, "if-gt", InstructionCodec.FORMAT_22T, IndexType.NONE);
+                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:367: error: cannot find symbol
+        IF_LE = new Info(55, "if-le", InstructionCodec.FORMAT_22T, IndexType.NONE);
+                                      ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:368: error: cannot find symbol
+        IF_EQZ = new Info(56, "if-eqz", InstructionCodec.FORMAT_21T, IndexType.NONE);
+                                        ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:369: error: cannot find symbol
+        IF_NEZ = new Info(57, "if-nez", InstructionCodec.FORMAT_21T, IndexType.NONE);
+                                        ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:370: error: cannot find symbol
+        IF_LTZ = new Info(58, "if-ltz", InstructionCodec.FORMAT_21T, IndexType.NONE);
+                                        ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:371: error: cannot find symbol
+        IF_GEZ = new Info(59, "if-gez", InstructionCodec.FORMAT_21T, IndexType.NONE);
+                                        ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:372: error: cannot find symbol
+        IF_GTZ = new Info(60, "if-gtz", InstructionCodec.FORMAT_21T, IndexType.NONE);
+                                        ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:373: error: cannot find symbol
+        IF_LEZ = new Info(61, "if-lez", InstructionCodec.FORMAT_21T, IndexType.NONE);
+                                        ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:374: error: cannot find symbol
+        AGET = new Info(68, "aget", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:375: error: cannot find symbol
+        AGET_WIDE = new Info(69, "aget-wide", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:376: error: cannot find symbol
+        AGET_OBJECT = new Info(70, "aget-object", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:377: error: cannot find symbol
+        AGET_BOOLEAN = new Info(71, "aget-boolean", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:378: error: cannot find symbol
+        AGET_BYTE = new Info(72, "aget-byte", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:379: error: cannot find symbol
+        AGET_CHAR = new Info(73, "aget-char", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:380: error: cannot find symbol
+        AGET_SHORT = new Info(74, "aget-short", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                                ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:381: error: cannot find symbol
+        APUT = new Info(75, "aput", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:382: error: cannot find symbol
+        APUT_WIDE = new Info(76, "aput-wide", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:383: error: cannot find symbol
+        APUT_OBJECT = new Info(77, "aput-object", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:384: error: cannot find symbol
+        APUT_BOOLEAN = new Info(78, "aput-boolean", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:385: error: cannot find symbol
+        APUT_BYTE = new Info(79, "aput-byte", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:386: error: cannot find symbol
+        APUT_CHAR = new Info(80, "aput-char", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:387: error: cannot find symbol
+        APUT_SHORT = new Info(81, "aput-short", InstructionCodec.FORMAT_23X, IndexType.NONE);
+                                                ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:388: error: cannot find symbol
+        IGET = new Info(82, "iget", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:389: error: cannot find symbol
+        IGET_WIDE = new Info(83, "iget-wide", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:390: error: cannot find symbol
+        IGET_OBJECT = new Info(84, "iget-object", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:391: error: cannot find symbol
+        IGET_BOOLEAN = new Info(85, "iget-boolean", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:392: error: cannot find symbol
+        IGET_BYTE = new Info(86, "iget-byte", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:393: error: cannot find symbol
+        IGET_CHAR = new Info(87, "iget-char", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:394: error: cannot find symbol
+        IGET_SHORT = new Info(88, "iget-short", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                                ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:395: error: cannot find symbol
+        IPUT = new Info(89, "iput", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:396: error: cannot find symbol
+        IPUT_WIDE = new Info(90, "iput-wide", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:397: error: cannot find symbol
+        IPUT_OBJECT = new Info(91, "iput-object", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                                  ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:398: error: cannot find symbol
+        IPUT_BOOLEAN = new Info(92, "iput-boolean", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:399: error: cannot find symbol
+        IPUT_BYTE = new Info(93, "iput-byte", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:400: error: cannot find symbol
+        IPUT_CHAR = new Info(94, "iput-char", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                              ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:401: error: cannot find symbol
+        IPUT_SHORT = new Info(95, "iput-short", InstructionCodec.FORMAT_22C, IndexType.FIELD_REF);
+                                                ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/io/OpcodeInfo.java:402: error: cannot find symbol
+        SGET = new Info(96, "sget", InstructionCodec.FORMAT_21C, IndexType.FIELD_REF);
+                                    ^
+  symbol:   variable InstructionCodec
+  location: class OpcodeInfo
+100 errors

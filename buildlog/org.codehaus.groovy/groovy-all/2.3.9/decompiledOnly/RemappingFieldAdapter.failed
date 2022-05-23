@@ -1,0 +1,54 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:9: error: cannot find symbol
+import groovyjarjarasm.asm.FieldVisitor;
+                          ^
+  symbol:   class FieldVisitor
+  location: package groovyjarjarasm.asm
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:11: error: cannot find symbol
+public class RemappingFieldAdapter extends FieldVisitor
+                                           ^
+  symbol: class FieldVisitor
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:13: error: cannot find symbol
+    private final Remapper remapper;
+                  ^
+  symbol:   class Remapper
+  location: class RemappingFieldAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:15: error: cannot find symbol
+    public RemappingFieldAdapter(final FieldVisitor fieldVisitor, final Remapper remapper) {
+                                       ^
+  symbol:   class FieldVisitor
+  location: class RemappingFieldAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:15: error: cannot find symbol
+    public RemappingFieldAdapter(final FieldVisitor fieldVisitor, final Remapper remapper) {
+                                                                        ^
+  symbol:   class Remapper
+  location: class RemappingFieldAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:19: error: cannot find symbol
+    protected RemappingFieldAdapter(final int n, final FieldVisitor fieldVisitor, final Remapper remapper) {
+                                                       ^
+  symbol:   class FieldVisitor
+  location: class RemappingFieldAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:19: error: cannot find symbol
+    protected RemappingFieldAdapter(final int n, final FieldVisitor fieldVisitor, final Remapper remapper) {
+                                                                                        ^
+  symbol:   class Remapper
+  location: class RemappingFieldAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:25: error: cannot find symbol
+        final AnnotationVisitor visitAnnotation = this.fv.visitAnnotation(this.remapper.mapDesc(s), b);
+                                                      ^
+  symbol: variable fv
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:26: error: cannot find symbol
+        return (visitAnnotation == null) ? null : new RemappingAnnotationAdapter(visitAnnotation, this.remapper);
+                                                      ^
+  symbol:   class RemappingAnnotationAdapter
+  location: class RemappingFieldAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:30: error: cannot find symbol
+        final AnnotationVisitor visitTypeAnnotation = super.visitTypeAnnotation(n, typePath, this.remapper.mapDesc(s), b);
+                                                      ^
+  symbol:   variable super
+  location: class RemappingFieldAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarasm/asm/commons/RemappingFieldAdapter.java:31: error: cannot find symbol
+        return (visitTypeAnnotation == null) ? null : new RemappingAnnotationAdapter(visitTypeAnnotation, this.remapper);
+                                                          ^
+  symbol:   class RemappingAnnotationAdapter
+  location: class RemappingFieldAdapter
+11 errors

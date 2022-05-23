@@ -1,0 +1,55 @@
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:7: error: cannot find symbol
+import org.easymock.cglib.core.ClassEmitter;
+                              ^
+  symbol:   class ClassEmitter
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:8: error: cannot find symbol
+import org.easymock.cglib.core.EmitUtils;
+                              ^
+  symbol:   class EmitUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:9: error: cannot find symbol
+import org.easymock.cglib.core.TypeUtils;
+                              ^
+  symbol:   class TypeUtils
+  location: package org.easymock.cglib.core
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:12: error: cannot find symbol
+import org.easymock.cglib.transform.ClassEmitterTransformer;
+                                   ^
+  symbol:   class ClassEmitterTransformer
+  location: package org.easymock.cglib.transform
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:14: error: cannot find symbol
+public class AddPropertyTransformer extends ClassEmitterTransformer
+                                            ^
+  symbol: class ClassEmitterTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:21: error: incompatible types: Object[] cannot be converted to String[]
+        this.names = props.keySet().toArray(new String[size]);
+                                           ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:24: error: incompatible types: Object cannot be converted to Type
+            this.types[i] = props.get(this.names[i]);
+                                     ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:33: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:35: error: cannot find symbol
+        if (!TypeUtils.isAbstract(this.getAccess())) {
+             ^
+  symbol:   variable TypeUtils
+  location: class AddPropertyTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:35: error: cannot find symbol
+        if (!TypeUtils.isAbstract(this.getAccess())) {
+                                      ^
+  symbol: method getAccess()
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:36: error: cannot find symbol
+            EmitUtils.add_properties(this, this.names, this.types);
+            ^
+  symbol:   variable EmitUtils
+  location: class AddPropertyTransformer
+sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java:38: error: cannot find symbol
+        super.end_class();
+        ^
+  symbol:   variable super
+  location: class AddPropertyTransformer
+Note: sources/structure/org.easymock/easymock/4.2/Decompiled/org/easymock/cglib/transform/impl/AddPropertyTransformer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+12 errors

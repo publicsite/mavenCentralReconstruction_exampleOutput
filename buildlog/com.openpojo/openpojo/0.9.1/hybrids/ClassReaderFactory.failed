@@ -1,0 +1,14 @@
+hybrids/com.openpojo/openpojo/0.9.1/ClassReaderFactory.java:23: error: package org.objectweb.asm does not exist
+import org.objectweb.asm.ClassReader;
+                        ^
+hybrids/com.openpojo/openpojo/0.9.1/ClassReaderFactory.java:34: error: cannot find symbol
+  public static ClassReader getClassReader(Class clazz) {
+                ^
+  symbol:   class ClassReader
+  location: class ClassReaderFactory
+hybrids/com.openpojo/openpojo/0.9.1/ClassReaderFactory.java:36: error: cannot find symbol
+      return new ClassReader(clazz.getResourceAsStream(Java.PATH_DELIMITER + clazz.getName().replace(Java.PACKAGE_DELIMITER,
+                 ^
+  symbol:   class ClassReader
+  location: class ClassReaderFactory
+3 errors

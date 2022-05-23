@@ -1,0 +1,106 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:9: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.helpers.AnnotationHelper;
+                                                                                ^
+  symbol:   class AnnotationHelper
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.helpers
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:10: error: cannot find symbol
+import org.junit.jupiter.params.shadow.com.univocity.parsers.common.processor.BeanWriterProcessor;
+                                                                             ^
+  symbol:   class BeanWriterProcessor
+  location: package org.junit.jupiter.params.shadow.com.univocity.parsers.common.processor
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:14: error: cannot find symbol
+public abstract class CommonWriterSettings<F extends Format> extends CommonSettings<F>
+                                                                     ^
+  symbol: class CommonSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:14: error: cannot find symbol
+public abstract class CommonWriterSettings<F extends Format> extends CommonSettings<F>
+                                                     ^
+  symbol: class Format
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:61: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:63: error: cannot find symbol
+        super.addConfiguration(out);
+        ^
+  symbol:   variable super
+  location: class CommonWriterSettings<F>
+  where F is a type-variable:
+    F declared in class CommonWriterSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:69: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:71: error: cannot find symbol
+        if (this.rowWriterProcessor instanceof BeanWriterProcessor) {
+                                               ^
+  symbol:   class BeanWriterProcessor
+  location: class CommonWriterSettings<F>
+  where F is a type-variable:
+    F declared in class CommonWriterSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:72: error: cannot find symbol
+            final Class<?> beanClass = (Class<?>)((BeanWriterProcessor)this.rowWriterProcessor).getBeanClass();
+                                                   ^
+  symbol:   class BeanWriterProcessor
+  location: class CommonWriterSettings<F>
+  where F is a type-variable:
+    F declared in class CommonWriterSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:78: error: cannot find symbol
+        if (!this.deriveHeadersFrom(beanClass)) {
+                 ^
+  symbol: method deriveHeadersFrom(Class<CAP#1>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:81: error: cannot find symbol
+        final Headers headerAnnotation = AnnotationHelper.findHeadersAnnotation(beanClass);
+                                         ^
+  symbol:   variable AnnotationHelper
+  location: class CommonWriterSettings<F>
+  where F is a type-variable:
+    F declared in class CommonWriterSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:82: error: cannot find symbol
+        String[] headersFromBean = AnnotationHelper.deriveHeaderNamesFromFields(beanClass, MethodFilter.ONLY_GETTERS);
+                                   ^
+  symbol:   variable AnnotationHelper
+  location: class CommonWriterSettings<F>
+  where F is a type-variable:
+    F declared in class CommonWriterSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:93: error: cannot find symbol
+        if (this.getHeaders() == null && headersFromBean.length > 0) {
+                ^
+  symbol: method getHeaders()
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:94: error: cannot find symbol
+            this.setHeadersDerivedFromClass(beanClass, headersFromBean);
+                ^
+  symbol: method setHeadersDerivedFromClass(Class<CAP#1>,String[])
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object from capture of ?
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:98: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:100: error: cannot find symbol
+        return (CommonWriterSettings)super.clone(clearInputSpecificSettings);
+                                     ^
+  symbol:   variable super
+  location: class CommonWriterSettings<F>
+  where F is a type-variable:
+    F declared in class CommonWriterSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:103: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:105: error: cannot find symbol
+        return (CommonWriterSettings)super.clone();
+                                     ^
+  symbol:   variable super
+  location: class CommonWriterSettings<F>
+  where F is a type-variable:
+    F declared in class CommonWriterSettings
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:108: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/Decompiled/org/junit/jupiter/params/shadow/com/univocity/parsers/common/CommonWriterSettings.java:110: error: cannot find symbol
+        super.clearInputSpecificSettings();
+        ^
+  symbol:   variable super
+  location: class CommonWriterSettings<F>
+  where F is a type-variable:
+    F declared in class CommonWriterSettings
+20 errors

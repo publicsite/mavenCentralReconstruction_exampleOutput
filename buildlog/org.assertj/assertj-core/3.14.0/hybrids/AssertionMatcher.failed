@@ -1,0 +1,27 @@
+hybrids/org.assertj/assertj-core/3.14.0/AssertionMatcher.java:16: error: package org.hamcrest does not exist
+import org.hamcrest.BaseMatcher;
+                   ^
+hybrids/org.assertj/assertj-core/3.14.0/AssertionMatcher.java:17: error: package org.hamcrest does not exist
+import org.hamcrest.Description;
+                   ^
+hybrids/org.assertj/assertj-core/3.14.0/AssertionMatcher.java:18: error: package org.hamcrest does not exist
+import org.hamcrest.Matcher;
+                   ^
+hybrids/org.assertj/assertj-core/3.14.0/AssertionMatcher.java:43: error: cannot find symbol
+public abstract class AssertionMatcher<T> extends BaseMatcher<T> {
+                                                  ^
+  symbol: class BaseMatcher
+hybrids/org.assertj/assertj-core/3.14.0/AssertionMatcher.java:86: error: cannot find symbol
+  public void describeTo(Description description) {
+                         ^
+  symbol:   class Description
+  location: class AssertionMatcher<T>
+  where T is a type-variable:
+    T extends Object declared in class AssertionMatcher
+hybrids/org.assertj/assertj-core/3.14.0/AssertionMatcher.java:50: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+hybrids/org.assertj/assertj-core/3.14.0/AssertionMatcher.java:85: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+7 errors

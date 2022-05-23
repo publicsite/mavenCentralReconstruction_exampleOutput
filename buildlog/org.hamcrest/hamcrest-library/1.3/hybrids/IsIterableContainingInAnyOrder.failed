@@ -1,0 +1,8 @@
+hybrids/org.hamcrest/hamcrest-library/1.3/IsIterableContainingInAnyOrder.java:125: error: incompatible types: List<Matcher<? super T>> cannot be converted to Collection<Matcher<? super Object>>
+        return (Matcher<Iterable<? extends T>>)containsInAnyOrder((Collection<org.hamcrest.Matcher<? super Object>>)Arrays.asList(itemMatchers));
+                                                                                                                                 ^
+  where T is a type-variable:
+    T extends Object declared in method <T>containsInAnyOrder(Matcher<? super T>...)
+Note: hybrids/org.hamcrest/hamcrest-library/1.3/IsIterableContainingInAnyOrder.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error

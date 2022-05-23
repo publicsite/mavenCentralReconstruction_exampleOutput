@@ -1,0 +1,101 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:7: error: cannot find symbol
+import org.codehaus.groovy.syntax.Types;
+                                 ^
+  symbol:   class Types
+  location: package org.codehaus.groovy.syntax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:9: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:10: error: cannot find symbol
+import org.codehaus.groovy.runtime.DefaultGroovyMethods;
+                                  ^
+  symbol:   class DefaultGroovyMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:11: error: cannot find symbol
+import org.codehaus.groovy.runtime.StringGroovyMethods;
+                                  ^
+  symbol:   class StringGroovyMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:22: error: cannot find symbol
+import groovy.lang.GroovyObjectSupport;
+                  ^
+  symbol:   class GroovyObjectSupport
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:24: error: cannot find symbol
+public class ConfigObject extends GroovyObjectSupport implements Writable, Map, Cloneable
+                                  ^
+  symbol: class GroovyObjectSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:24: error: ConfigObject is not abstract and does not override abstract method hashCode() in Map
+public class ConfigObject extends GroovyObjectSupport implements Writable, Map, Cloneable
+       ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:60: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:123: error: cannot find symbol
+        final String space = apply ? StringGroovyMethods.multiply("\t", tab) : "";
+                                     ^
+  symbol:   variable StringGroovyMethods
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:135: error: incompatible types: Object cannot be converted to String
+                    final String k = e.getKey();
+                                             ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:151: error: cannot find symbol
+                if (configSize == 1 || DefaultGroovyMethods.asBoolean(dotsInKeys)) {
+                                       ^
+  symbol:   variable DefaultGroovyMethods
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:153: error: cannot find symbol
+                        key = (ConfigObject.KEYWORDS.contains(key) ? InvokerHelper.inspect(key) : key);
+                                                                     ^
+  symbol:   variable InvokerHelper
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:157: error: cannot find symbol
+                    else if (!DefaultGroovyMethods.asBoolean(dotsInKeys) && firstValue instanceof ConfigObject) {
+                              ^
+  symbol:   variable DefaultGroovyMethods
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:163: error: cannot find symbol
+                            final Object k2 = (((String)j).indexOf(46) > -1) ? InvokerHelper.inspect(j) : j;
+                                                                               ^
+  symbol:   variable InvokerHelper
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:165: error: cannot find symbol
+                                key = (ConfigObject.KEYWORDS.contains(key) ? InvokerHelper.inspect(key) : key);
+                                                                             ^
+  symbol:   variable InvokerHelper
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:186: error: cannot find symbol
+        key = (isKeyword ? InvokerHelper.inspect(key) : key);
+                           ^
+  symbol:   variable InvokerHelper
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:187: error: cannot find symbol
+        if (!StringGroovyMethods.asBoolean(prefix) && isKeyword) {
+             ^
+  symbol:   variable StringGroovyMethods
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:190: error: cannot find symbol
+        out.append((CharSequence)space).append((CharSequence)prefix).append((CharSequence)key).append('=').append((CharSequence)InvokerHelper.inspect(value));
+                                                                                                                                ^
+  symbol:   variable InvokerHelper
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:195: error: cannot find symbol
+        key = (ConfigObject.KEYWORDS.contains(key) ? InvokerHelper.inspect(key) : key);
+                                                     ^
+  symbol:   variable InvokerHelper
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:293: error: cannot find symbol
+            final ConfigObject clone = (ConfigObject)super.clone();
+                                                     ^
+  symbol:   variable super
+  location: class ConfigObject
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java:314: error: cannot find symbol
+        KEYWORDS = Types.getKeywords();
+                   ^
+  symbol:   variable Types
+  location: class ConfigObject
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/ConfigObject.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+21 errors

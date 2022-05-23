@@ -1,0 +1,108 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:8: error: cannot find symbol
+import groovy.lang.GroovyClassLoader;
+                  ^
+  symbol:   class GroovyClassLoader
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:17: error: cannot find symbol
+import org.codehaus.groovy.control.CompilationUnit;
+                                  ^
+  symbol:   class CompilationUnit
+  location: package org.codehaus.groovy.control
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:19: error: cannot find symbol
+public class GroovycTask extends CompileTaskSupport
+                                 ^
+  symbol: class CompileTaskSupport
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:29: error: cannot find symbol
+        final Path path = this.getClasspath();
+                              ^
+  symbol: method getClasspath()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:31: error: cannot find symbol
+            this.config.setClasspath(path.toString());
+                ^
+  symbol: variable config
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:33: error: cannot find symbol
+        this.config.setTargetDirectory(this.destdir);
+                                           ^
+  symbol: variable destdir
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:33: error: cannot find symbol
+        this.config.setTargetDirectory(this.destdir);
+            ^
+  symbol: variable config
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:34: error: cannot find symbol
+        final GroovyClassLoader gcl = this.createClassLoader();
+              ^
+  symbol:   class GroovyClassLoader
+  location: class GroovycTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:34: error: cannot find symbol
+        final GroovyClassLoader gcl = this.createClassLoader();
+                                          ^
+  symbol: method createClassLoader()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:35: error: cannot find symbol
+        final CompilationUnit compilation = new CompilationUnit(this.config, null, gcl);
+              ^
+  symbol:   class CompilationUnit
+  location: class GroovycTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:35: error: cannot find symbol
+        final CompilationUnit compilation = new CompilationUnit(this.config, null, gcl);
+                                                ^
+  symbol:   class CompilationUnit
+  location: class GroovycTask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:35: error: cannot find symbol
+        final CompilationUnit compilation = new CompilationUnit(this.config, null, gcl);
+                                                                    ^
+  symbol: variable config
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:40: error: cannot find symbol
+        final String[] list = this.src.list();
+                                  ^
+  symbol: variable src
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:42: error: cannot find symbol
+            final File basedir = this.getProject().resolveFile(list[i]);
+                                     ^
+  symbol: method getProject()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:44: error: cannot find symbol
+                throw new BuildException("Source directory does not exist: " + basedir, this.getLocation());
+                                                                                            ^
+  symbol: method getLocation()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:46: error: cannot find symbol
+            final DirectoryScanner scanner = this.getDirectoryScanner(basedir);
+                                                 ^
+  symbol: method getDirectoryScanner(File)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:49: error: cannot find symbol
+                this.log.debug("Forcefully including all files from: " + basedir);
+                    ^
+  symbol: variable log
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:52: error: cannot find symbol
+                    this.log.debug("    " + file);
+                        ^
+  symbol: variable log
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:58: error: cannot find symbol
+                this.log.debug("Including changed files from: " + basedir);
+                    ^
+  symbol: variable log
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:59: error: incompatible types: GroovycTask cannot be converted to Task
+                final SourceFileScanner sourceScanner = new SourceFileScanner((Task)this);
+                                                                                    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:60: error: cannot find symbol
+                final File[] files = sourceScanner.restrictAsFiles(includes, basedir, this.destdir, (FileNameMapper)mapper);
+                                                                                          ^
+  symbol: variable destdir
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:62: error: cannot find symbol
+                    this.log.debug("    " + files[k]);
+                        ^
+  symbol: variable log
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:69: error: cannot find symbol
+            this.log.info("Compiling " + count + " source file" + ((count > 1) ? "s" : "") + " to " + this.destdir);
+                                                                                                          ^
+  symbol: variable destdir
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:69: error: cannot find symbol
+            this.log.info("Compiling " + count + " source file" + ((count > 1) ? "s" : "") + " to " + this.destdir);
+                ^
+  symbol: variable log
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/ant/GroovycTask.java:73: error: cannot find symbol
+            this.log.info("No sources found to compile");
+                ^
+  symbol: variable log
+26 errors

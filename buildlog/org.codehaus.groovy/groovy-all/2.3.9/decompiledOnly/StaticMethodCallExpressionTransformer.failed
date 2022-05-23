@@ -1,0 +1,59 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:7: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ASTNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:8: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.MethodCallExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:9: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ClassExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:11: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.MethodNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:12: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.Expression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:13: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.StaticMethodCallExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:17: error: cannot find symbol
+    private final StaticCompilationTransformer transformer;
+                  ^
+  symbol:   class StaticCompilationTransformer
+  location: class StaticMethodCallExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:19: error: cannot find symbol
+    public StaticMethodCallExpressionTransformer(final StaticCompilationTransformer staticCompilationTransformer) {
+                                                       ^
+  symbol:   class StaticCompilationTransformer
+  location: class StaticMethodCallExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:23: error: cannot find symbol
+    Expression transformStaticMethodCallExpression(final StaticMethodCallExpression orig) {
+                                                         ^
+  symbol:   class StaticMethodCallExpression
+  location: class StaticMethodCallExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:23: error: cannot find symbol
+    Expression transformStaticMethodCallExpression(final StaticMethodCallExpression orig) {
+    ^
+  symbol:   class Expression
+  location: class StaticMethodCallExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:24: error: cannot find symbol
+        final MethodNode target = orig.getNodeMetaData(StaticTypesMarker.DIRECT_METHOD_CALL_TARGET);
+              ^
+  symbol:   class MethodNode
+  location: class StaticMethodCallExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:26: error: cannot find symbol
+            final MethodCallExpression call = new MethodCallExpression(new ClassExpression(orig.getOwnerType()), orig.getMethod(), orig.getArguments());
+                  ^
+  symbol:   class MethodCallExpression
+  location: class StaticMethodCallExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:26: error: cannot find symbol
+            final MethodCallExpression call = new MethodCallExpression(new ClassExpression(orig.getOwnerType()), orig.getMethod(), orig.getArguments());
+                                                  ^
+  symbol:   class MethodCallExpression
+  location: class StaticMethodCallExpressionTransformer
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/transform/sc/transformers/StaticMethodCallExpressionTransformer.java:26: error: cannot find symbol
+            final MethodCallExpression call = new MethodCallExpression(new ClassExpression(orig.getOwnerType()), orig.getMethod(), orig.getArguments());
+                                                                           ^
+  symbol:   class ClassExpression
+  location: class StaticMethodCallExpressionTransformer
+14 errors

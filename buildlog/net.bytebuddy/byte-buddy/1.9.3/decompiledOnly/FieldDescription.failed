@@ -1,0 +1,99 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/description/field/FieldDescription.java:26: error: cannot find symbol
+public interface FieldDescription extends ByteCodeElement, ModifierReviewable.ForFieldDescription, NamedElement.WithGenericName, TypeDependant<InDefinedShape, Token>
+                                                                                                                                 ^
+  symbol: class TypeDependant
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/description/field/FieldDescription.java:26: error: cannot find symbol
+public interface FieldDescription extends ByteCodeElement, ModifierReviewable.ForFieldDescription, NamedElement.WithGenericName, TypeDependant<InDefinedShape, Token>
+                                                                                                                                               ^
+  symbol: class InDefinedShape
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/description/field/FieldDescription.java:26: error: cannot find symbol
+public interface FieldDescription extends ByteCodeElement, ModifierReviewable.ForFieldDescription, NamedElement.WithGenericName, TypeDependant<InDefinedShape, Token>
+                                                                                                                                                               ^
+  symbol: class Token
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:59: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:60: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:61: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3561: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3569: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/description/field/FieldDescription.java:53: error: reference to AbstractBase is ambiguous
+                return fieldType.getSort().isNonGeneric() ? AbstractBase.NON_GENERIC_SIGNATURE : fieldType.accept((TypeDescription.Generic.Visitor<SignatureVisitor>)new TypeDescription.Generic.Visitor.ForSignatureVisitor(new SignatureWriter())).toString();
+                                                            ^
+  both class net.bytebuddy.description.ModifierReviewable.AbstractBase in ModifierReviewable and class net.bytebuddy.description.field.FieldDescription.AbstractBase in FieldDescription match
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/description/field/FieldDescription.java:56: error: reference to AbstractBase is ambiguous
+                return AbstractBase.NON_GENERIC_SIGNATURE;
+                       ^
+  both class net.bytebuddy.description.ModifierReviewable.AbstractBase in ModifierReviewable and class net.bytebuddy.description.field.FieldDescription.AbstractBase in FieldDescription match
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/description/field/FieldDescription.java:247: error: cannot find symbol
+            return ((TypeDependant<InDefinedShape, S>)this.fieldDescription).asDefined();
+                                                   ^
+  symbol:   class S
+  location: class TypeSubstituting
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/matcher/ElementMatchers.java:162: error: type argument T#1 is not within bounds of type-variable T#2
+        return new DefinedShapeMatcher<T, FieldDescription.InDefinedShape>(matcher);
+                                       ^
+  where T#1,T#2,S are type-variables:
+    T#1 extends FieldDescription declared in method <T#1>definedField(ElementMatcher<? super InDefinedShape>)
+    T#2 extends TypeDependant<S,?> declared in class DefinedShapeMatcher
+    S extends TypeDependant<?,?> declared in class DefinedShapeMatcher
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/description/field/FieldList.java:64: error: cannot find symbol
+                tokens.add(fieldDescription.asToken(matcher));
+                                           ^
+  symbol:   method asToken(ElementMatcher<CAP#1>)
+  location: variable fieldDescription of type FieldDescription
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: TypeDescription from capture of ? super TypeDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/description/field/FieldList.java:75: error: cannot find symbol
+                declaredForms.add(fieldDescription.asDefined());
+                                                  ^
+  symbol:   method asDefined()
+  location: variable fieldDescription of type FieldDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/Transformer.java:128: error: cannot find symbol
+                    transformer.transform(instrumentedType, fieldDescription.asToken(none())),
+                                                                            ^
+  symbol:   method asToken(Junction<Object>)
+  location: variable fieldDescription of type FieldDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/Transformer.java:129: error: cannot find symbol
+                    fieldDescription.asDefined());
+                                    ^
+  symbol:   method asDefined()
+  location: variable fieldDescription of type FieldDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3555: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3555: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/asm/Advice.java:2137: error: cannot find symbol
+                    return new Target.ForField.ReadWrite(fieldDescription.asDefined(), readAssignment, writeAssignment);
+                                                                         ^
+  symbol:   method asDefined()
+  location: variable fieldDescription of type FieldDescription
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/implementation/bytecode/member/FieldAccess.java:112: error: cannot find symbol
+        FieldDescription.InDefinedShape declaredField = fieldDescription.asDefined();
+                                                                        ^
+  symbol:   method asDefined()
+  location: variable fieldDescription of type FieldDescription
+Note: sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/description/field/FieldDescription.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+20 errors

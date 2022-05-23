@@ -1,0 +1,126 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:7: error: cannot find symbol
+import groovy.util.ResourceConnector;
+                  ^
+  symbol:   class ResourceConnector
+  location: package groovy.util
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:9: error: cannot find symbol
+import org.codehaus.groovy.runtime.GroovyCategorySupport;
+                                  ^
+  symbol:   class GroovyCategorySupport
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:12: error: cannot find symbol
+import groovy.lang.Binding;
+                  ^
+  symbol:   class Binding
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:13: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:18: error: cannot find symbol
+import groovy.util.GroovyScriptEngine;
+                  ^
+  symbol:   class GroovyScriptEngine
+  location: package groovy.util
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:20: error: cannot find symbol
+public class GroovyServlet extends AbstractHttpServlet
+                                   ^
+  symbol: class AbstractHttpServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:22: error: cannot find symbol
+    private GroovyScriptEngine gse;
+            ^
+  symbol:   class GroovyScriptEngine
+  location: class GroovyServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:90: error: cannot find symbol
+    protected GroovyScriptEngine createGroovyScriptEngine() {
+              ^
+  symbol:   class GroovyScriptEngine
+  location: class GroovyServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:24: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:26: error: cannot find symbol
+        super.init(config);
+        ^
+  symbol:   variable super
+  location: class GroovyServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:28: error: cannot find symbol
+        this.servletContext.log("Groovy servlet initialized on " + this.gse + ".");
+            ^
+  symbol: variable servletContext
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:32: error: cannot find symbol
+        final String scriptUri = this.getScriptUri(request);
+                                     ^
+  symbol: method getScriptUri(HttpServletRequest)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:33: error: cannot find symbol
+        response.setContentType("text/html; charset=" + this.encoding);
+                                                            ^
+  symbol: variable encoding
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:34: error: cannot find symbol
+        final ServletBinding binding = new ServletBinding(request, response, this.servletContext);
+              ^
+  symbol:   class ServletBinding
+  location: class GroovyServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:34: error: cannot find symbol
+        final ServletBinding binding = new ServletBinding(request, response, this.servletContext);
+                                           ^
+  symbol:   class ServletBinding
+  location: class GroovyServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:34: error: cannot find symbol
+        final ServletBinding binding = new ServletBinding(request, response, this.servletContext);
+                                                                                 ^
+  symbol: variable servletContext
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:37: error: cannot find symbol
+            final Closure closure = new Closure(this.gse) {
+                  ^
+  symbol:   class Closure
+  location: class GroovyServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:37: error: cannot find symbol
+            final Closure closure = new Closure(this.gse) {
+                                        ^
+  symbol:   class Closure
+  location: class GroovyServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:38: error: method does not override or implement a method from a supertype
+                @Override
+                ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:41: error: cannot find symbol
+                        return ((GroovyScriptEngine)this.getDelegate()).run(scriptUri, binding);
+                                 ^
+  symbol: class GroovyScriptEngine
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:41: error: cannot find symbol
+                        return ((GroovyScriptEngine)this.getDelegate()).run(scriptUri, binding);
+                                                        ^
+  symbol: method getDelegate()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:51: error: cannot find symbol
+            GroovyCategorySupport.use(ServletCategory.class, (Closure<Object>)closure);
+                                                              ^
+  symbol:   class Closure
+  location: class GroovyServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:51: error: cannot find symbol
+            GroovyCategorySupport.use(ServletCategory.class, (Closure<Object>)closure);
+            ^
+  symbol:   variable GroovyCategorySupport
+  location: class GroovyServlet
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:65: error: cannot find symbol
+                this.servletContext.log(error.toString());
+                    ^
+  symbol: variable servletContext
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:73: error: cannot find symbol
+                this.servletContext.log(error.toString());
+                    ^
+  symbol: variable servletContext
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:78: error: cannot find symbol
+            this.servletContext.log("An error occurred processing the request", (Throwable)runtimeException);
+                ^
+  symbol: variable servletContext
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:83: error: cannot find symbol
+            this.servletContext.log(e.toString());
+                ^
+  symbol: variable servletContext
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/servlet/GroovyServlet.java:91: error: cannot find symbol
+        return new GroovyScriptEngine(this);
+                   ^
+  symbol:   class GroovyScriptEngine
+  location: class GroovyServlet
+28 errors

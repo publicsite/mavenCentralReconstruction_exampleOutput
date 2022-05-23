@@ -1,0 +1,177 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:11: error: cannot find symbol
+import groovy.xml.DOMBuilder;
+                 ^
+  symbol:   class DOMBuilder
+  location: package groovy.xml
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:12: error: cannot find symbol
+import groovy.lang.GroovyRuntimeException;
+                  ^
+  symbol:   class GroovyRuntimeException
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:13: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:18: error: cannot find symbol
+import org.codehaus.groovy.runtime.InvokerHelper;
+                                  ^
+  symbol:   class InvokerHelper
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:20: error: cannot find symbol
+import org.codehaus.groovy.runtime.XmlGroovyMethods;
+                                  ^
+  symbol:   class XmlGroovyMethods
+  location: package org.codehaus.groovy.runtime
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:22: error: cannot find symbol
+import groovy.lang.IntRange;
+                  ^
+  symbol:   class IntRange
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:119: error: cannot find symbol
+    public static NodeList getAt(final Node o, final IntRange r) {
+                                                     ^
+  symbol:   class IntRange
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:123: error: cannot find symbol
+    public static NodeList getAt(final NodeListsHolder o, final IntRange r) {
+                                                                ^
+  symbol:   class IntRange
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:127: error: cannot find symbol
+    public static NodeList getAt(final NodesHolder o, final IntRange r) {
+                                                            ^
+  symbol:   class IntRange
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:144: error: cannot find symbol
+    private static NodeList nodesGetAt(final Object o, final IntRange r) {
+                                                             ^
+  symbol:   class IntRange
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:175: error: cannot find symbol
+    private static NodeList xgetAt(final Element element, final IntRange r) {
+                                                                ^
+  symbol:   class IntRange
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:183: error: cannot find symbol
+    private static NodeList xgetAt(final NodeList nodeList, IntRange r) {
+                                                            ^
+  symbol:   class IntRange
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:312: error: cannot find symbol
+    public static Node replaceNode(final NodesHolder self, final Closure c) {
+                                                                 ^
+  symbol:   class Closure
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:319: error: cannot find symbol
+    public static Node replaceNode(final Node self, final Closure c) {
+                                                          ^
+  symbol:   class Closure
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:328: error: cannot find symbol
+    public static void plus(final Element self, final Closure c) {
+                                                      ^
+  symbol:   class Closure
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:335: error: cannot find symbol
+    private static void appendNodes(final Node self, final Closure c) {
+                                                           ^
+  symbol:   class Closure
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:363: error: cannot find symbol
+    public static void plus(final NodeList self, final Closure c) {
+                                                       ^
+  symbol:   class Closure
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:53: error: reference to xgetAt is ambiguous
+        return xgetAt(element, elementName);
+               ^
+  both method xgetAt(Element,String) in DOMCategory and method xgetAt(Element,IntRange) in DOMCategory match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:58: error: reference to xgetAt is ambiguous
+            return xgetAt((Element)nodeList, elementName);
+                   ^
+  both method xgetAt(Element,String) in DOMCategory and method xgetAt(Element,IntRange) in DOMCategory match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:60: error: reference to xgetAt is ambiguous
+        return xgetAt(nodeList, elementName);
+               ^
+  both method xgetAt(NodeList,String) in DOMCategory and method xgetAt(NodeList,IntRange) in DOMCategory match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:133: error: reference to xgetAt is ambiguous
+            final Node n = xgetAt((Element)o, i);
+                           ^
+  both method xgetAt(Element,int) in DOMCategory and method xgetAt(Element,IntRange) in DOMCategory match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:139: error: reference to xgetAt is ambiguous
+            return xgetAt((NodeList)o, i);
+                   ^
+  both method xgetAt(NodeList,int) in DOMCategory and method xgetAt(NodeList,IntRange) in DOMCategory match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:160: error: reference to xgetAt is ambiguous
+            return xgetAt(nodeList, i);
+                   ^
+  both method xgetAt(NodeList,int) in DOMCategory and method xgetAt(NodeList,IntRange) in DOMCategory match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:187: error: reference to xgetAt is ambiguous
+            return new NodesHolder((List)Arrays.asList(xgetAt(nodeList, from)));
+                                                       ^
+  both method xgetAt(NodeList,int) in DOMCategory and method xgetAt(NodeList,IntRange) in DOMCategory match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:196: error: cannot find symbol
+            r = (r.isReverse() ? new IntRange(to, from) : new IntRange(from, to));
+                                     ^
+  symbol:   class IntRange
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:196: error: cannot find symbol
+            r = (r.isReverse() ? new IntRange(to, from) : new IntRange(from, to));
+                                                              ^
+  symbol:   class IntRange
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:242: error: cannot find symbol
+        final Iterator<Node> it = XmlGroovyMethods.iterator(self);
+                                  ^
+  symbol:   variable XmlGroovyMethods
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:274: error: cannot find symbol
+        InvokerHelper.setProperty(self, property, value);
+        ^
+  symbol:   variable InvokerHelper
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:314: error: cannot find symbol
+            throw new GroovyRuntimeException("replaceNode() can only be used to replace a single element.");
+                      ^
+  symbol:   class GroovyRuntimeException
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:338: error: cannot find symbol
+        final DOMBuilder b = new DOMBuilder(self.getOwnerDocument());
+              ^
+  symbol:   class DOMBuilder
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:338: error: cannot find symbol
+        final DOMBuilder b = new DOMBuilder(self.getOwnerDocument());
+                                 ^
+  symbol:   class DOMBuilder
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:340: error: cannot find symbol
+        final Iterator<Node> iter = XmlGroovyMethods.iterator(children(newNodes));
+                                    ^
+  symbol:   variable XmlGroovyMethods
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:443: error: cannot find symbol
+            throw new GroovyRuntimeException(e);
+                      ^
+  symbol:   class GroovyRuntimeException
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:453: error: cannot find symbol
+            throw new GroovyRuntimeException(e);
+                      ^
+  symbol:   class GroovyRuntimeException
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:460: error: cannot find symbol
+        final Iterator it = XmlGroovyMethods.iterator(self);
+                            ^
+  symbol:   variable XmlGroovyMethods
+  location: class DOMCategory
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java:526: error: method toString in class NodeListsHolder cannot be applied to given types;
+            return toString(this);
+                   ^
+  required: no arguments
+  found: NodeListsHolder
+  reason: actual and formal argument lists differ in length
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/xml/dom/DOMCategory.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+36 errors

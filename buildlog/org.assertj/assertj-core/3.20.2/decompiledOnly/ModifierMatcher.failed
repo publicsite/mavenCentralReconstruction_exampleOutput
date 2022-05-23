@@ -1,0 +1,49 @@
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:7: error: package org.assertj.core.internal.bytebuddy.build does not exist
+import org.assertj.core.internal.bytebuddy.build.HashCodeAndEqualsPlugin;
+                                                ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:8: error: cannot find symbol
+import org.assertj.core.internal.bytebuddy.description.ModifierReviewable;
+                                                      ^
+  symbol:   class ModifierReviewable
+  location: package org.assertj.core.internal.bytebuddy.description
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:11: error: package ElementMatcher.Junction does not exist
+public class ModifierMatcher<T extends ModifierReviewable> extends ElementMatcher.Junction.AbstractBase<T>
+                                                                                          ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:10: error: package HashCodeAndEqualsPlugin does not exist
+@HashCodeAndEqualsPlugin.Enhance
+                        ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:11: error: cannot find symbol
+public class ModifierMatcher<T extends ModifierReviewable> extends ElementMatcher.Junction.AbstractBase<T>
+                                       ^
+  symbol: class ModifierReviewable
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:15: error: cannot find symbol
+    public static <T extends ModifierReviewable> ElementMatcher.Junction<T> of(final Mode mode) {
+                             ^
+  symbol:   class ModifierReviewable
+  location: class ModifierMatcher<T>
+  where T is a type-variable:
+    T declared in class ModifierMatcher
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:15: error: package ElementMatcher does not exist
+    public static <T extends ModifierReviewable> ElementMatcher.Junction<T> of(final Mode mode) {
+                                                               ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:16: error: package ElementMatcher does not exist
+        return (ElementMatcher.Junction<T>)mode.getMatcher();
+                              ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:27: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:32: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:34: error: cannot find symbol
+        return this == o || (o != null && this.getClass() == o.getClass() && this.mode.equals(((ModifierMatcher)o).mode));
+                                              ^
+  symbol: method getClass()
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:37: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.assertj/assertj-core/3.20.2/Decompiled/org/assertj/core/internal/bytebuddy/matcher/ModifierMatcher.java:39: error: cannot find symbol
+        return this.getClass().hashCode() * 31 + this.mode.hashCode();
+                   ^
+  symbol: method getClass()
+13 errors

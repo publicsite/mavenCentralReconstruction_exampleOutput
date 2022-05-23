@@ -1,0 +1,31 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:19: error: package org.quartz does not exist
+import org.quartz.SchedulerConfigException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:20: error: package org.quartz.simpl does not exist
+import org.quartz.simpl.SimpleThreadPool;
+                       ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:44: error: cannot find symbol
+public class SimpleThreadPoolTaskExecutor extends SimpleThreadPool
+                                                  ^
+  symbol: class SimpleThreadPool
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:59: error: cannot find symbol
+	public void afterPropertiesSet() throws SchedulerConfigException {
+	                                        ^
+  symbol:   class SchedulerConfigException
+  location: class SimpleThreadPoolTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:60: error: cannot find symbol
+		initialize();
+		^
+  symbol:   method initialize()
+  location: class SimpleThreadPoolTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:66: error: cannot find symbol
+		if (!runInThread(task)) {
+		     ^
+  symbol:   method runInThread(Runnable)
+  location: class SimpleThreadPoolTaskExecutor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/SimpleThreadPoolTaskExecutor.java:80: error: cannot find symbol
+		shutdown(this.waitForJobsToCompleteOnShutdown);
+		^
+  symbol:   method shutdown(boolean)
+  location: class SimpleThreadPoolTaskExecutor
+7 errors

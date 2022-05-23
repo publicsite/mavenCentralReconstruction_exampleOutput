@@ -1,0 +1,83 @@
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:7: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Type;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:8: error: package com.google.dexmaker.dx.rop.type does not exist
+import com.google.dexmaker.dx.rop.type.Prototype;
+                                      ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:10: error: cannot find symbol
+public abstract class CstBaseMethodRef extends CstMemberRef
+                                               ^
+  symbol: class CstMemberRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:12: error: cannot find symbol
+    private final Prototype prototype;
+                  ^
+  symbol:   class Prototype
+  location: class CstBaseMethodRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:13: error: cannot find symbol
+    private Prototype instancePrototype;
+            ^
+  symbol:   class Prototype
+  location: class CstBaseMethodRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:15: error: cannot find symbol
+    CstBaseMethodRef(final CstType definingClass, final CstNat nat) {
+                           ^
+  symbol:   class CstType
+  location: class CstBaseMethodRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:15: error: cannot find symbol
+    CstBaseMethodRef(final CstType definingClass, final CstNat nat) {
+                                                        ^
+  symbol:   class CstNat
+  location: class CstBaseMethodRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:22: error: cannot find symbol
+    public final Prototype getPrototype() {
+                 ^
+  symbol:   class Prototype
+  location: class CstBaseMethodRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:26: error: cannot find symbol
+    public final Prototype getPrototype(final boolean isStatic) {
+                 ^
+  symbol:   class Prototype
+  location: class CstBaseMethodRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:47: error: cannot find symbol
+    public final Type getType() {
+                 ^
+  symbol:   class Type
+  location: class CstBaseMethodRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:17: error: cannot find symbol
+        final String descriptor = this.getNat().getDescriptor().getString();
+                                      ^
+  symbol: method getNat()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:18: error: cannot find symbol
+        this.prototype = Prototype.intern(descriptor);
+                         ^
+  symbol:   variable Prototype
+  location: class CstBaseMethodRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:31: error: cannot find symbol
+            final Type thisType = this.getDefiningClass().getClassType();
+                  ^
+  symbol:   class Type
+  location: class CstBaseMethodRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:31: error: cannot find symbol
+            final Type thisType = this.getDefiningClass().getClassType();
+                                      ^
+  symbol: method getDefiningClass()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:37: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:39: error: cannot find symbol
+        final int cmp = super.compareTo0(other);
+                        ^
+  symbol:   variable super
+  location: class CstBaseMethodRef
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:43: error: incompatible types: Constant cannot be converted to CstBaseMethodRef
+        final CstBaseMethodRef otherMethod = (CstBaseMethodRef)other;
+                                                               ^
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:56: error: cannot find symbol
+        return this.getNat().isInstanceInit();
+                   ^
+  symbol: method getNat()
+sources/structure/com.google.dexmaker/dexmaker/1.1/Decompiled/com/google/dexmaker/dx/rop/cst/CstBaseMethodRef.java:60: error: cannot find symbol
+        return this.getNat().isClassInit();
+                   ^
+  symbol: method getNat()
+19 errors

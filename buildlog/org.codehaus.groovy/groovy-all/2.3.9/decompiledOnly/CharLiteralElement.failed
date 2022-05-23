@@ -1,0 +1,48 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:7: error: cannot find symbol
+class CharLiteralElement extends GrammarAtom
+                                 ^
+  symbol: class GrammarAtom
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:9: error: cannot find symbol
+    public CharLiteralElement(final LexerGrammar lexerGrammar, final Token token, final boolean not, final int autoGenType) {
+                                    ^
+  symbol:   class LexerGrammar
+  location: class CharLiteralElement
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:22: error: cannot find symbol
+    public Lookahead look(final int n) {
+           ^
+  symbol:   class Lookahead
+  location: class CharLiteralElement
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:11: error: cannot find symbol
+        this.tokenType = ANTLRLexer.tokenTypeForCharLiteral(token.getText());
+            ^
+  symbol: variable tokenType
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:11: error: cannot find symbol
+        this.tokenType = ANTLRLexer.tokenTypeForCharLiteral(token.getText());
+                         ^
+  symbol:   variable ANTLRLexer
+  location: class CharLiteralElement
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:12: error: cannot find symbol
+        lexerGrammar.charVocabulary.add(this.tokenType);
+                                            ^
+  symbol: variable tokenType
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:13: error: cannot find symbol
+        this.line = token.getLine();
+            ^
+  symbol: variable line
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:14: error: cannot find symbol
+        this.not = not;
+            ^
+  symbol: variable not
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:15: error: cannot find symbol
+        this.autoGenType = autoGenType;
+            ^
+  symbol: variable autoGenType
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:19: error: cannot find symbol
+        this.grammar.generator.gen(this);
+            ^
+  symbol: variable grammar
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovyjarjarantlr/CharLiteralElement.java:23: error: cannot find symbol
+        return this.grammar.theLLkAnalyzer.look(n, this);
+                   ^
+  symbol: variable grammar
+11 errors

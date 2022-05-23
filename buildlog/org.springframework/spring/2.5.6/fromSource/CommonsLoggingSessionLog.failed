@@ -1,0 +1,107 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:21: error: package oracle.toplink.internal.databaseaccess does not exist
+import oracle.toplink.internal.databaseaccess.Accessor;
+                                             ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:22: error: package oracle.toplink.logging does not exist
+import oracle.toplink.logging.AbstractSessionLog;
+                             ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:23: error: package oracle.toplink.logging does not exist
+import oracle.toplink.logging.SessionLogEntry;
+                             ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:24: error: package oracle.toplink.publicinterface does not exist
+import oracle.toplink.publicinterface.Session;
+                                     ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:55: error: cannot find symbol
+public class CommonsLoggingSessionLog extends AbstractSessionLog {
+                                              ^
+  symbol: class AbstractSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:104: error: cannot find symbol
+	public void log(SessionLogEntry entry) {
+	                ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:168: error: cannot find symbol
+	protected String getCategory(SessionLogEntry entry) {
+	                             ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:181: error: cannot find symbol
+	protected String getMessageString(SessionLogEntry entry) {
+	                                  ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:203: error: cannot find symbol
+	protected Session getSession(SessionLogEntry entry) {
+	                             ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:203: error: cannot find symbol
+	protected Session getSession(SessionLogEntry entry) {
+	          ^
+  symbol:   class Session
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:213: error: cannot find symbol
+	protected Throwable getException(SessionLogEntry entry) {
+	                                 ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:70: error: cannot find symbol
+			getSessionMethod = SessionLogEntry.class.getMethod("getSession", new Class[0]);
+			                   ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:76: error: cannot find symbol
+			getExceptionMethod = SessionLogEntry.class.getMethod("getException", new Class[0]);
+			                     ^
+  symbol:   class SessionLogEntry
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:107: error: cannot find symbol
+			case SEVERE:
+			     ^
+  symbol:   variable SEVERE
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:117: error: cannot find symbol
+			case WARNING:
+			     ^
+  symbol:   variable WARNING
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:127: error: cannot find symbol
+			case INFO:
+			     ^
+  symbol:   variable INFO
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:137: error: cannot find symbol
+			case CONFIG:
+			     ^
+  symbol:   variable CONFIG
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:138: error: cannot find symbol
+			case FINE:
+			     ^
+  symbol:   variable FINE
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:139: error: cannot find symbol
+			case FINER:
+			     ^
+  symbol:   variable FINER
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:149: error: cannot find symbol
+			case FINEST:
+			     ^
+  symbol:   variable FINEST
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:183: error: cannot find symbol
+		Session session = getSession(entry);
+		^
+  symbol:   class Session
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:188: error: cannot find symbol
+		Accessor connection = entry.getConnection();
+		^
+  symbol:   class Accessor
+  location: class CommonsLoggingSessionLog
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/toplink/support/CommonsLoggingSessionLog.java:204: error: cannot find symbol
+		return (Session) ReflectionUtils.invokeMethod(getSessionMethod, entry);
+		        ^
+  symbol:   class Session
+  location: class CommonsLoggingSessionLog
+23 errors

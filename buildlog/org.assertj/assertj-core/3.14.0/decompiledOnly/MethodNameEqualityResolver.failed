@@ -1,0 +1,38 @@
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/MethodNameEqualityResolver.java:7: error: package org.assertj.core.internal.bytebuddy.description.method does not exist
+import org.assertj.core.internal.bytebuddy.description.method.MethodDescription;
+                                                             ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/MethodNameEqualityResolver.java:9: error: package MethodDelegationBinder does not exist
+public enum MethodNameEqualityResolver implements MethodDelegationBinder.AmbiguityResolver
+                                                                        ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/MethodNameEqualityResolver.java:13: error: cannot find symbol
+    public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+                                    ^
+  symbol:   class MethodDescription
+  location: class MethodNameEqualityResolver
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/MethodNameEqualityResolver.java:13: error: package MethodDelegationBinder does not exist
+    public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+                                                                                          ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/MethodNameEqualityResolver.java:13: error: package MethodDelegationBinder does not exist
+    public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+                                                                                                                                           ^
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/MethodNameEqualityResolver.java:13: error: cannot find symbol
+    public Resolution resolve(final MethodDescription source, final MethodDelegationBinder.MethodBinding left, final MethodDelegationBinder.MethodBinding right) {
+           ^
+  symbol:   class Resolution
+  location: class MethodNameEqualityResolver
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/MethodNameEqualityResolver.java:17: error: cannot find symbol
+            return leftEquals ? Resolution.LEFT : Resolution.RIGHT;
+                                ^
+  symbol:   variable Resolution
+  location: class MethodNameEqualityResolver
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/MethodNameEqualityResolver.java:17: error: cannot find symbol
+            return leftEquals ? Resolution.LEFT : Resolution.RIGHT;
+                                                  ^
+  symbol:   variable Resolution
+  location: class MethodNameEqualityResolver
+sources/structure/org.assertj/assertj-core/3.14.0/Decompiled/org/assertj/core/internal/bytebuddy/implementation/bind/MethodNameEqualityResolver.java:19: error: cannot find symbol
+        return Resolution.AMBIGUOUS;
+               ^
+  symbol:   variable Resolution
+  location: class MethodNameEqualityResolver
+9 errors

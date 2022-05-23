@@ -1,0 +1,24 @@
+hybrids/org.assertj/assertj-core/3.14.0/ClassLoadingStrategyFactory.java:18: error: package net.bytebuddy.dynamic.loading does not exist
+import net.bytebuddy.dynamic.loading.ClassInjector;
+                                    ^
+hybrids/org.assertj/assertj-core/3.14.0/ClassLoadingStrategyFactory.java:19: error: package net.bytebuddy.dynamic.loading does not exist
+import net.bytebuddy.dynamic.loading.ClassLoadingStrategy;
+                                    ^
+hybrids/org.assertj/assertj-core/3.14.0/ClassLoadingStrategyFactory.java:36: error: cannot find symbol
+  static ClassLoadingStrategy<ClassLoader> classLoadingStrategy(Class<?> assertClass) {
+         ^
+  symbol:   class ClassLoadingStrategy
+  location: class ClassLoadingStrategyFactory
+hybrids/org.assertj/assertj-core/3.14.0/ClassLoadingStrategyFactory.java:37: error: package ClassInjector does not exist
+    if (ClassInjector.UsingReflection.isAvailable()) {
+                     ^
+hybrids/org.assertj/assertj-core/3.14.0/ClassLoadingStrategyFactory.java:38: error: package ClassLoadingStrategy does not exist
+      return ClassLoadingStrategy.Default.INJECTION;
+                                 ^
+hybrids/org.assertj/assertj-core/3.14.0/ClassLoadingStrategyFactory.java:39: error: package ClassInjector does not exist
+    } else if (ClassInjector.UsingLookup.isAvailable()) {
+                            ^
+hybrids/org.assertj/assertj-core/3.14.0/ClassLoadingStrategyFactory.java:41: error: package ClassLoadingStrategy does not exist
+        return ClassLoadingStrategy.UsingLookup.of(PRIVATE_LOOKUP_IN.invoke(null, assertClass, LOOKUP));
+                                   ^
+7 errors

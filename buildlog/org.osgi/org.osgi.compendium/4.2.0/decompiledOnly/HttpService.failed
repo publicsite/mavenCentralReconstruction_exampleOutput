@@ -1,0 +1,33 @@
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/service/http/HttpService.java:7: error: package javax.servlet does not exist
+import javax.servlet.ServletException;
+                    ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/service/http/HttpService.java:9: error: package javax.servlet does not exist
+import javax.servlet.Servlet;
+                    ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/service/http/HttpService.java:13: error: cannot find symbol
+    void registerServlet(final String p0, final Servlet p1, final Dictionary p2, final HttpContext p3) throws ServletException, NamespaceException;
+                                                ^
+  symbol:   class Servlet
+  location: interface HttpService
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/http/HttpContext.java:21: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletRequest;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/http/HttpContext.java:22: error: package javax.servlet.http does not exist
+import javax.servlet.http.HttpServletResponse;
+                         ^
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/Decompiled/org/osgi/service/http/HttpService.java:13: error: cannot find symbol
+    void registerServlet(final String p0, final Servlet p1, final Dictionary p2, final HttpContext p3) throws ServletException, NamespaceException;
+                                                                                                              ^
+  symbol:   class ServletException
+  location: interface HttpService
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/http/HttpContext.java:128: error: cannot find symbol
+	public boolean handleSecurity(HttpServletRequest request,
+	                              ^
+  symbol:   class HttpServletRequest
+  location: interface HttpContext
+sources/structure/org.osgi/org.osgi.compendium/4.2.0/extractedSources/org/osgi/service/http/HttpContext.java:129: error: cannot find symbol
+			HttpServletResponse response) throws IOException;
+			^
+  symbol:   class HttpServletResponse
+  location: interface HttpContext
+8 errors

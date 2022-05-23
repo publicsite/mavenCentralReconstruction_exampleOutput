@@ -1,0 +1,52 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/ListWithDefault.java:17: error: cannot find symbol
+    private final Closure initClosure;
+                  ^
+  symbol:   class Closure
+  location: class ListWithDefault<T>
+  where T is a type-variable:
+    T extends Object declared in class ListWithDefault
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/ListWithDefault.java:19: error: cannot find symbol
+    private ListWithDefault(final List<T> items, final boolean lazyDefaultValues, final Closure initClosure) {
+                                                                                        ^
+  symbol:   class Closure
+  location: class ListWithDefault<T>
+  where T is a type-variable:
+    T extends Object declared in class ListWithDefault
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/ListWithDefault.java:33: error: cannot find symbol
+    public Closure getInitClosure() {
+           ^
+  symbol:   class Closure
+  location: class ListWithDefault<T>
+  where T is a type-variable:
+    T extends Object declared in class ListWithDefault
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/ListWithDefault.java:37: error: cannot find symbol
+    public static <T> List<T> newInstance(final List<T> items, final boolean lazyDefaultValues, final Closure initClosure) {
+                                                                                                      ^
+  symbol:   class Closure
+  location: class ListWithDefault<T>
+  where T is a type-variable:
+    T extends Object declared in class ListWithDefault
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/ListWithDefault.java:34: error: cannot find symbol
+        return (this.initClosure != null) ? ((Closure)this.initClosure.clone()) : null;
+                                              ^
+  symbol:   class Closure
+  location: class ListWithDefault<T>
+  where T is a type-variable:
+    T extends Object declared in class ListWithDefault
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/ListWithDefault.java:44: error: cannot find symbol
+        return new ListWithDefault<T>(new ArrayList<T>((Collection<? extends T>)items), lazyDefaultValues, (Closure)initClosure.clone());
+                                                                                                            ^
+  symbol:   class Closure
+  location: class ListWithDefault<T>
+  where T is a type-variable:
+    T extends Object declared in class ListWithDefault
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/ListWithDefault.java:208: error: cannot find symbol
+        return new ListWithDefault((List<Object>)this.delegate.subList(fromIndex, toIndex), this.lazyDefaultValues, (Closure)this.initClosure.clone());
+                                                                                                                     ^
+  symbol:   class Closure
+  location: class ListWithDefault<T>
+  where T is a type-variable:
+    T extends Object declared in class ListWithDefault
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/lang/ListWithDefault.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+7 errors

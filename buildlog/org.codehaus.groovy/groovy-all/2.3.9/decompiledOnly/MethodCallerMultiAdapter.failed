@@ -1,0 +1,81 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:7: error: cannot find symbol
+import groovyjarjarasm.asm.MethodVisitor;
+                          ^
+  symbol:   class MethodVisitor
+  location: package groovyjarjarasm.asm
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:11: error: cannot find symbol
+    private MethodCaller[] methods;
+            ^
+  symbol:   class MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:43: error: cannot find symbol
+    public void call(final MethodVisitor methodVisitor, final int numberOfArguments, final boolean safe, final boolean spreadSafe) {
+                           ^
+  symbol:   class MethodVisitor
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:20: error: cannot find symbol
+            mcma.methods = new MethodCaller[2 * numberOfBaseMethods];
+                               ^
+  symbol:   class MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:22: error: cannot find symbol
+                mcma.methods[i * numberOfBaseMethods] = MethodCaller.newStatic(theClass, baseName + i);
+                                                        ^
+  symbol:   variable MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:24: error: cannot find symbol
+                    mcma.methods[i * numberOfBaseMethods + 1] = MethodCaller.newStatic(theClass, baseName + i + "Safe");
+                                                                ^
+  symbol:   variable MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:25: error: cannot find symbol
+                    mcma.methods[i * numberOfBaseMethods + 2] = MethodCaller.newStatic(theClass, baseName + i + "SpreadSafe");
+                                                                ^
+  symbol:   variable MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:28: error: cannot find symbol
+            mcma.methods[1 * numberOfBaseMethods] = MethodCaller.newStatic(theClass, baseName + "N");
+                                                    ^
+  symbol:   variable MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:30: error: cannot find symbol
+                mcma.methods[1 * numberOfBaseMethods + 1] = MethodCaller.newStatic(theClass, baseName + "N" + "Safe");
+                                                            ^
+  symbol:   variable MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:31: error: cannot find symbol
+                mcma.methods[1 * numberOfBaseMethods + 2] = MethodCaller.newStatic(theClass, baseName + "N" + "SpreadSafe");
+                                                            ^
+  symbol:   variable MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:35: error: cannot find symbol
+            mcma.methods = new MethodCaller[] { MethodCaller.newStatic(theClass, baseName), MethodCaller.newStatic(theClass, baseName + "Safe"), MethodCaller.newStatic(theClass, baseName + "SpreadSafe") };
+                               ^
+  symbol:   class MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:35: error: cannot find symbol
+            mcma.methods = new MethodCaller[] { MethodCaller.newStatic(theClass, baseName), MethodCaller.newStatic(theClass, baseName + "Safe"), MethodCaller.newStatic(theClass, baseName + "SpreadSafe") };
+                                                ^
+  symbol:   variable MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:35: error: cannot find symbol
+            mcma.methods = new MethodCaller[] { MethodCaller.newStatic(theClass, baseName), MethodCaller.newStatic(theClass, baseName + "Safe"), MethodCaller.newStatic(theClass, baseName + "SpreadSafe") };
+                                                                                            ^
+  symbol:   variable MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:35: error: cannot find symbol
+            mcma.methods = new MethodCaller[] { MethodCaller.newStatic(theClass, baseName), MethodCaller.newStatic(theClass, baseName + "Safe"), MethodCaller.newStatic(theClass, baseName + "SpreadSafe") };
+                                                                                                                                                 ^
+  symbol:   variable MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:38: error: cannot find symbol
+            mcma.methods = new MethodCaller[] { MethodCaller.newStatic(theClass, baseName) };
+                               ^
+  symbol:   class MethodCaller
+  location: class MethodCallerMultiAdapter
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/classgen/asm/MethodCallerMultiAdapter.java:38: error: cannot find symbol
+            mcma.methods = new MethodCaller[] { MethodCaller.newStatic(theClass, baseName) };
+                                                ^
+  symbol:   variable MethodCaller
+  location: class MethodCallerMultiAdapter
+16 errors

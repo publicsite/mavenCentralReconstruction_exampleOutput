@@ -1,0 +1,40 @@
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockHttpInputMessage.java:22: error: package org.springframework.http does not exist
+import org.springframework.http.HttpHeaders;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockHttpInputMessage.java:23: error: package org.springframework.http does not exist
+import org.springframework.http.HttpInputMessage;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockHttpInputMessage.java:24: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockHttpInputMessage.java:32: error: cannot find symbol
+public class MockHttpInputMessage implements HttpInputMessage {
+                                             ^
+  symbol: class HttpInputMessage
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockHttpInputMessage.java:34: error: cannot find symbol
+	private final HttpHeaders headers = new HttpHeaders();
+	              ^
+  symbol:   class HttpHeaders
+  location: class MockHttpInputMessage
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockHttpInputMessage.java:49: error: cannot find symbol
+	public HttpHeaders getHeaders() {
+	       ^
+  symbol:   class HttpHeaders
+  location: class MockHttpInputMessage
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockHttpInputMessage.java:34: error: cannot find symbol
+	private final HttpHeaders headers = new HttpHeaders();
+	                                        ^
+  symbol:   class HttpHeaders
+  location: class MockHttpInputMessage
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockHttpInputMessage.java:44: error: cannot find symbol
+		Assert.notNull(body, "'body' must not be null");
+		^
+  symbol:   variable Assert
+  location: class MockHttpInputMessage
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockHttpInputMessage.java:48: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.springframework/spring-test/4.1.4.RELEASE/MockHttpInputMessage.java:53: error: method does not override or implement a method from a supertype
+	@Override
+	^
+10 errors

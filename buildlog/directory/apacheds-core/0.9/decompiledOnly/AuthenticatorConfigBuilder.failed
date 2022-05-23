@@ -1,0 +1,20 @@
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/authn/AuthenticatorConfigBuilder.java:7: error: cannot find symbol
+import org.apache.ldap.common.util.StringTools;
+                                  ^
+  symbol:   class StringTools
+  location: package org.apache.ldap.common.util
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/authn/AuthenticatorConfigBuilder.java:28: error: incompatible types: Object cannot be converted to String
+        final String authenticatorClass = env.get(buf.toString());
+                                                 ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/authn/AuthenticatorConfigBuilder.java:34: error: incompatible types: Object cannot be converted to String
+        final String propertiesFile = env.get(buf.toString());
+                                             ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/authn/AuthenticatorConfigBuilder.java:49: error: incompatible types: Object cannot be converted to String
+        String idList = env.get("server.authenticators");
+                               ^
+sources/structure/directory/apacheds-core/0.9/Decompiled/org/apache/ldap/server/authn/AuthenticatorConfigBuilder.java:53: error: cannot find symbol
+        idList = StringTools.deepTrim(idList);
+                 ^
+  symbol:   variable StringTools
+  location: class AuthenticatorConfigBuilder
+5 errors

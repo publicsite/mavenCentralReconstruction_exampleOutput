@@ -1,0 +1,83 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:11: error: package org.quartz does not exist
+import org.quartz.JobDetail;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:15: error: package org.quartz does not exist
+import org.quartz.CronTrigger;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:17: error: cannot find symbol
+public class CronTriggerBean extends CronTrigger implements JobDetailAwareTrigger, BeanNameAware, InitializingBean
+                                     ^
+  symbol: class CronTrigger
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/JobDetailAwareTrigger.java:19: error: package org.quartz does not exist
+import org.quartz.JobDetail;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:20: error: cannot find symbol
+    private JobDetail jobDetail;
+            ^
+  symbol:   class JobDetail
+  location: class CronTriggerBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:37: error: cannot find symbol
+    public void setJobDetail(final JobDetail jobDetail) {
+                                   ^
+  symbol:   class JobDetail
+  location: class CronTriggerBean
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:41: error: cannot find symbol
+    public JobDetail getJobDetail() {
+           ^
+  symbol:   class JobDetail
+  location: class CronTriggerBean
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/JobDetailAwareTrigger.java:45: error: cannot find symbol
+	JobDetail getJobDetail();
+	^
+  symbol:   class JobDetail
+  location: interface JobDetailAwareTrigger
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:24: error: cannot find symbol
+        this.getJobDataMap().putAll(jobDataAsMap);
+            ^
+  symbol: method getJobDataMap()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:28: error: cannot find symbol
+        this.setMisfireInstruction(CronTriggerBean.constants.asNumber(constantName).intValue());
+            ^
+  symbol: method setMisfireInstruction(int)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:33: error: cannot find symbol
+            this.addTriggerListener(names[i]);
+                ^
+  symbol: method addTriggerListener(String)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:50: error: cannot find symbol
+        if (this.getName() == null) {
+                ^
+  symbol: method getName()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:51: error: cannot find symbol
+            this.setName(this.beanName);
+                ^
+  symbol: method setName(String)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:53: error: cannot find symbol
+        if (this.getGroup() == null) {
+                ^
+  symbol: method getGroup()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:54: error: cannot find symbol
+            this.setGroup("DEFAULT");
+                ^
+  symbol: method setGroup(String)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:56: error: cannot find symbol
+        if (this.getStartTime() == null) {
+                ^
+  symbol: method getStartTime()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:57: error: cannot find symbol
+            this.setStartTime(new Date());
+                ^
+  symbol: method setStartTime(Date)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:59: error: cannot find symbol
+        if (this.getTimeZone() == null) {
+                ^
+  symbol: method getTimeZone()
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:60: error: cannot find symbol
+            this.setTimeZone(TimeZone.getDefault());
+                ^
+  symbol: method setTimeZone(TimeZone)
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/scheduling/quartz/CronTriggerBean.java:69: error: cannot find symbol
+        constants = new Constants(CronTrigger.class);
+                                  ^
+  symbol:   class CronTrigger
+  location: class CronTriggerBean
+20 errors

@@ -1,0 +1,18 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/StackTraceElement.java:16: error: package exists in another module: java.base
+package java.lang;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/StackTraceElement.java:69: error: lineNumber has private access in StackTraceElement
+      return lineNumber == st.lineNumber
+                             ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/StackTraceElement.java:70: error: methodName has private access in StackTraceElement
+          && Objects.equals(methodName, st.methodName)
+                                          ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/StackTraceElement.java:71: error: cannot find symbol
+          && Objects.equals(className, st.className)
+                                         ^
+  symbol:   variable className
+  location: variable st of type StackTraceElement
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/lang/StackTraceElement.java:72: error: fileName has private access in StackTraceElement
+          && Objects.equals(fileName, st.fileName);
+                                        ^
+5 errors

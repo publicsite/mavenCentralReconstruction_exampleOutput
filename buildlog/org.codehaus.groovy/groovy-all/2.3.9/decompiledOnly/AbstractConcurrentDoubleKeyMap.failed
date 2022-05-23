@@ -1,0 +1,132 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:7: error: cannot find symbol
+public abstract class AbstractConcurrentDoubleKeyMap<K1, K2, V> extends AbstractConcurrentMapBase
+                                                                        ^
+  symbol: class AbstractConcurrentMapBase
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:185: error: package AbstractConcurrentMapBase does not exist
+    interface Entry<K1, K2, V> extends AbstractConcurrentMapBase.Entry<V>
+                                                                ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:47: error: package AbstractConcurrentMapBase does not exist
+    abstract static class Segment<K1, K2, V> extends AbstractConcurrentMapBase.Segment
+                                                                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:34: error: cannot find symbol
+        this.segmentFor(hash).put(key1, key2, hash).setValue(value);
+                                                   ^
+  symbol:   method setValue(V)
+  location: interface Entry<K1,K2,V>
+  where V,K1,K2 are type-variables:
+    V extends Object declared in class AbstractConcurrentDoubleKeyMap
+    K1 extends Object declared in class AbstractConcurrentDoubleKeyMap
+    K2 extends Object declared in class AbstractConcurrentDoubleKeyMap
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:42: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:44: error: cannot find symbol
+        return (Segment<K1, K2, V>)this.segments[hash >>> this.segmentShift & this.segmentMask];
+                                       ^
+  symbol: variable segments
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:44: error: cannot find symbol
+        return (Segment<K1, K2, V>)this.segments[hash >>> this.segmentShift & this.segmentMask];
+                                                              ^
+  symbol: variable segmentShift
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:44: error: cannot find symbol
+        return (Segment<K1, K2, V>)this.segments[hash >>> this.segmentShift & this.segmentMask];
+                                                                                  ^
+  symbol: variable segmentMask
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:54: error: cannot find symbol
+            final Object[] tab = this.table;
+                                     ^
+  symbol: variable table
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:60: error: cannot find symbol
+                        return e.getValue();
+                                ^
+  symbol:   method getValue()
+  location: variable e of type Entry<K1,K2,V>
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class Segment
+    K2 extends Object declared in class Segment
+    V extends Object declared in class Segment
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:68: error: cannot find symbol
+                            return e2.getValue();
+                                     ^
+  symbol:   method getValue()
+  location: variable e2 of type Entry<K1,K2,V>
+  where K1,K2,V are type-variables:
+    K1 extends Object declared in class Segment
+    K2 extends Object declared in class Segment
+    V extends Object declared in class Segment
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:77: error: cannot find symbol
+            final Object[] tab = this.table;
+                                     ^
+  symbol: variable table
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:97: error: cannot find symbol
+            kvEntry.setValue(value);
+                   ^
+  symbol:   method setValue(V)
+  location: variable kvEntry of type Entry<K1,K2,V>
+  where V,K1,K2 are type-variables:
+    V extends Object declared in class Segment
+    K1 extends Object declared in class Segment
+    K2 extends Object declared in class Segment
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:102: error: cannot find symbol
+            this.lock();
+                ^
+  symbol: method lock()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:104: error: cannot find symbol
+                int c = this.count;
+                            ^
+  symbol: variable count
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:105: error: cannot find symbol
+                if (c++ > this.threshold) {
+                              ^
+  symbol: variable threshold
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:106: error: cannot find symbol
+                    this.rehash();
+                        ^
+  symbol: method rehash()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:108: error: cannot find symbol
+                final Object[] tab = this.table;
+                                         ^
+  symbol: variable table
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:114: error: cannot find symbol
+                    this.count = c;
+                        ^
+  symbol: variable count
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:130: error: cannot find symbol
+                    this.count = c;
+                        ^
+  symbol: variable count
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:142: error: cannot find symbol
+                this.count = c;
+                    ^
+  symbol: variable count
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:146: error: cannot find symbol
+                this.unlock();
+                    ^
+  symbol: method unlock()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:151: error: cannot find symbol
+            this.lock();
+                ^
+  symbol: method lock()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:153: error: cannot find symbol
+                final int c = this.count - 1;
+                                  ^
+  symbol: variable count
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:154: error: cannot find symbol
+                final Object[] tab = this.table;
+                                         ^
+  symbol: variable table
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:161: error: cannot find symbol
+                            this.count = c;
+                                ^
+  symbol: variable count
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:170: error: cannot find symbol
+                                this.count = c;
+                                    ^
+  symbol: variable count
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java:178: error: cannot find symbol
+                this.unlock();
+                    ^
+  symbol: method unlock()
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/util/AbstractConcurrentDoubleKeyMap.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+28 errors

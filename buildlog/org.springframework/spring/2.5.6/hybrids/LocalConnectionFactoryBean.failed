@@ -1,0 +1,35 @@
+hybrids/org.springframework/spring/2.5.6/LocalConnectionFactoryBean.java:19: error: package javax.resource does not exist
+import javax.resource.ResourceException;
+                     ^
+hybrids/org.springframework/spring/2.5.6/LocalConnectionFactoryBean.java:20: error: package javax.resource.spi does not exist
+import javax.resource.spi.ConnectionManager;
+                         ^
+hybrids/org.springframework/spring/2.5.6/LocalConnectionFactoryBean.java:21: error: package javax.resource.spi does not exist
+import javax.resource.spi.ManagedConnectionFactory;
+                         ^
+hybrids/org.springframework/spring/2.5.6/LocalConnectionFactoryBean.java:73: error: cannot find symbol
+	private ManagedConnectionFactory managedConnectionFactory;
+	        ^
+  symbol:   class ManagedConnectionFactory
+  location: class LocalConnectionFactoryBean
+hybrids/org.springframework/spring/2.5.6/LocalConnectionFactoryBean.java:75: error: cannot find symbol
+	private ConnectionManager connectionManager;
+	        ^
+  symbol:   class ConnectionManager
+  location: class LocalConnectionFactoryBean
+hybrids/org.springframework/spring/2.5.6/LocalConnectionFactoryBean.java:96: error: cannot find symbol
+	public void setManagedConnectionFactory(ManagedConnectionFactory managedConnectionFactory) {
+	                                        ^
+  symbol:   class ManagedConnectionFactory
+  location: class LocalConnectionFactoryBean
+hybrids/org.springframework/spring/2.5.6/LocalConnectionFactoryBean.java:108: error: cannot find symbol
+	public void setConnectionManager(ConnectionManager connectionManager) {
+	                                 ^
+  symbol:   class ConnectionManager
+  location: class LocalConnectionFactoryBean
+hybrids/org.springframework/spring/2.5.6/LocalConnectionFactoryBean.java:112: error: cannot find symbol
+	public void afterPropertiesSet() throws ResourceException {
+	                                        ^
+  symbol:   class ResourceException
+  location: class LocalConnectionFactoryBean
+8 errors

@@ -1,0 +1,14 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateQueryException.java:19: error: package org.hibernate does not exist
+import org.hibernate.QueryException;
+                    ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateQueryException.java:33: error: cannot find symbol
+	public HibernateQueryException(QueryException ex) {
+	                               ^
+  symbol:   class QueryException
+  location: class HibernateQueryException
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/orm/hibernate3/HibernateQueryException.java:41: error: cannot find symbol
+		return ((QueryException) getCause()).getQueryString();
+		         ^
+  symbol:   class QueryException
+  location: class HibernateQueryException
+3 errors

@@ -1,0 +1,51 @@
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:10: error: cannot find symbol
+import org.apache.asn1.ber.TypeClass;
+                          ^
+  symbol:   class TypeClass
+  location: package org.apache.asn1.ber
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:11: error: cannot find symbol
+import org.apache.asn1.ber.primitives.UniversalTag;
+                                     ^
+  symbol:   class UniversalTag
+  location: package org.apache.asn1.ber.primitives
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:12: error: cannot find symbol
+import org.apache.asn1.ber.TagEnum;
+                          ^
+  symbol:   class TagEnum
+  location: package org.apache.asn1.ber
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:13: error: package org.apache.asn1.ber.digester does not exist
+import org.apache.asn1.ber.digester.AbstractRule;
+                                   ^
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:15: error: cannot find symbol
+public class TypesOnlyRule extends AbstractRule
+                                   ^
+  symbol: class AbstractRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:19: error: cannot find symbol
+    private final TagEnum tag;
+                  ^
+  symbol:   class TagEnum
+  location: class TypesOnlyRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:27: error: cannot find symbol
+    public void tag(final int id, final boolean isPrimitive, final TypeClass typeClass) {
+                                                                   ^
+  symbol:   class TypeClass
+  location: class TypesOnlyRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:24: error: cannot find symbol
+        this.tag = (TagEnum)UniversalTag.BOOLEAN;
+                    ^
+  symbol:   class TagEnum
+  location: class TypesOnlyRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:24: error: cannot find symbol
+        this.tag = (TagEnum)UniversalTag.BOOLEAN;
+                            ^
+  symbol:   variable UniversalTag
+  location: class TypesOnlyRule
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:50: error: cannot find symbol
+        final SearchRequestImpl req = (SearchRequestImpl)this.getDigester().peek(1);
+                                                             ^
+  symbol: method getDigester()
+sources/structure/directory-shared/apache-ldapber-provider/0.9/Decompiled/org/apache/ldap/common/berlib/asn1/decoder/search/TypesOnlyRule.java:52: error: cannot find symbol
+        ((SearchRequestProcessing)this.getDigester().peek()).next();
+                                      ^
+  symbol: method getDigester()
+11 errors

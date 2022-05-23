@@ -1,0 +1,96 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:17: error: cannot find symbol
+import com.google.common.collect.BiMap;
+                                ^
+  symbol:   class BiMap
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:31: error: cannot find symbol
+        private final OneSizeTestContainerGenerator<BiMap<K, V>, Map.Entry<K, V>> generator;
+                                                    ^
+  symbol:   class BiMap
+  location: class MapGenerator<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MapGenerator
+    V extends Object declared in class MapGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:33: error: cannot find symbol
+        public MapGenerator(final OneSizeTestContainerGenerator<BiMap<K, V>, Map.Entry<K, V>> oneSizeTestContainerGenerator) {
+                                                                ^
+  symbol:   class BiMap
+  location: class MapGenerator<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class MapGenerator
+    V extends Object declared in class MapGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestBiMapGenerator.java:20: error: cannot find symbol
+import com.google.common.collect.BiMap;
+                                ^
+  symbol:   class BiMap
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestBiMapGenerator.java:30: error: cannot find symbol
+public interface TestBiMapGenerator<K, V> extends TestContainerGenerator<BiMap<K, V>, Entry<K, V>> {
+                                                                         ^
+  symbol: class BiMap
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:75: error: cannot find symbol
+        private final OneSizeTestContainerGenerator<BiMap<K, V>, Map.Entry<K, V>> generator;
+                                                    ^
+  symbol:   class BiMap
+  location: class InverseBiMapGenerator<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class InverseBiMapGenerator
+    V extends Object declared in class InverseBiMapGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:77: error: cannot find symbol
+        public InverseBiMapGenerator(final OneSizeTestContainerGenerator<BiMap<K, V>, Map.Entry<K, V>> oneSizeTestContainerGenerator) {
+                                                                         ^
+  symbol:   class BiMap
+  location: class InverseBiMapGenerator<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class InverseBiMapGenerator
+    V extends Object declared in class InverseBiMapGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:92: error: cannot find symbol
+        public BiMap<V, K> create(final Object... elements) {
+               ^
+  symbol:   class BiMap
+  location: class InverseBiMapGenerator<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class InverseBiMapGenerator
+    V extends Object declared in class InverseBiMapGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:128: error: cannot find symbol
+        private final OneSizeTestContainerGenerator<BiMap<K, V>, Map.Entry<K, V>> mapGenerator;
+                                                    ^
+  symbol:   class BiMap
+  location: class BiMapValueSetGenerator<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class BiMapValueSetGenerator
+    V extends Object declared in class BiMapValueSetGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:131: error: cannot find symbol
+        public BiMapValueSetGenerator(final OneSizeTestContainerGenerator<BiMap<K, V>, Map.Entry<K, V>> mapGenerator) {
+                                                                          ^
+  symbol:   class BiMap
+  location: class BiMapValueSetGenerator<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class BiMapValueSetGenerator
+    V extends Object declared in class BiMapValueSetGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:95: error: incompatible types: Entry<CAP#1,CAP#2> cannot be converted to Entry<K,V>
+                entries[i] = this.reverse((Map.Entry<?, ?>)elements[i]);
+                                          ^
+  where K,V are type-variables:
+    K extends Object declared in class InverseBiMapGenerator
+    V extends Object declared in class InverseBiMapGenerator
+  where CAP#1,CAP#2 are fresh type-variables:
+    CAP#1 extends Object from capture of ?
+    CAP#2 extends Object from capture of ?
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:97: error: cannot find symbol
+            return (BiMap<V, K>)this.generator.create((Object[])entries).inverse();
+                    ^
+  symbol:   class BiMap
+  location: class InverseBiMapGenerator<K,V>
+  where K,V are type-variables:
+    K extends Object declared in class InverseBiMapGenerator
+    V extends Object declared in class InverseBiMapGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java:156: error: incompatible types: Object[] cannot be converted to V[]
+            final V[] vs = ((TestBiMapGenerator)this.mapGenerator.getInnerGenerator()).createValueArray(length);
+                                                                                                       ^
+  where V is a type-variable:
+    V extends Object declared in class BiMapValueSetGenerator
+Note: sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/collect/testing/google/DerivedGoogleCollectionGenerators.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+13 errors

@@ -1,0 +1,235 @@
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:6: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Level;
+                               ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:8: error: package org.apache.logging.log4j.core.appender does not exist
+import org.apache.logging.log4j.core.appender.AbstractAppender;
+                                             ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:9: error: package org.apache.logging.log4j.core.config does not exist
+import org.apache.logging.log4j.core.config.Property;
+                                           ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:10: error: package org.apache.logging.log4j.core.config.plugins does not exist
+import org.apache.logging.log4j.core.config.plugins.Plugin;
+                                                   ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:11: error: package org.apache.logging.log4j.core.config.plugins does not exist
+import org.apache.logging.log4j.core.config.plugins.PluginAttribute;
+                                                   ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:12: error: package org.apache.logging.log4j.core.config.plugins does not exist
+import org.apache.logging.log4j.core.config.plugins.PluginElement;
+                                                   ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:13: error: package org.apache.logging.log4j.core.config.plugins does not exist
+import org.apache.logging.log4j.core.config.plugins.PluginFactory;
+                                                   ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:14: error: package org.apache.logging.log4j.core.layout does not exist
+import org.apache.logging.log4j.core.layout.PatternLayout;
+                                           ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:26: error: cannot find symbol
+public class JAMonAppender extends AbstractAppender {
+                                   ^
+  symbol: class AbstractAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:25: error: cannot find symbol
+@Plugin(name = "JamonAppender", category = Core.CATEGORY_NAME, elementType = Appender.ELEMENT_TYPE, printObject = true)
+ ^
+  symbol: class Plugin
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:57: error: cannot find symbol
+    public JAMonAppender(final String name, final Filter filter, final Layout<? extends Serializable> layout, final boolean ignoreExceptions,
+                                                  ^
+  symbol:   class Filter
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:57: error: cannot find symbol
+    public JAMonAppender(final String name, final Filter filter, final Layout<? extends Serializable> layout, final boolean ignoreExceptions,
+                                                                       ^
+  symbol:   class Layout
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:86: error: cannot find symbol
+                                               @PluginElement("Layout") Layout layout,
+                                                                        ^
+  symbol:   class Layout
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:87: error: cannot find symbol
+                                               @PluginElement("Filters") Filter filter,
+                                                                         ^
+  symbol:   class Filter
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:109: error: cannot find symbol
+    public void append(LogEvent event) {
+                       ^
+  symbol:   class LogEvent
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:135: error: cannot find symbol
+    private String createDetailMessage(String message, LogEvent event) {
+                                                       ^
+  symbol:   class LogEvent
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:143: error: cannot find symbol
+    private String standardizeAndGeneralizeSummaryLabel(String message, LogEvent event) {
+                                                                        ^
+  symbol:   class LogEvent
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:154: error: cannot find symbol
+    private String getLevelKey(LogEvent event) {
+                               ^
+  symbol:   class LogEvent
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:7: error: package org.apache.logging.log4j.core does not exist
+import org.apache.logging.log4j.core.*;
+^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:25: error: cannot find symbol
+@Plugin(name = "JamonAppender", category = Core.CATEGORY_NAME, elementType = Appender.ELEMENT_TYPE, printObject = true)
+                                           ^
+  symbol: variable Core
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:25: error: cannot find symbol
+@Plugin(name = "JamonAppender", category = Core.CATEGORY_NAME, elementType = Appender.ELEMENT_TYPE, printObject = true)
+                                                                             ^
+  symbol: variable Appender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:84: error: cannot find symbol
+    public static JAMonAppender createAppender(@PluginAttribute("name") String name,
+                                                ^
+  symbol:   class PluginAttribute
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:85: error: cannot find symbol
+                                               @PluginAttribute("ignoreExceptions") boolean ignoreExceptions, // true - just log exception, false - log and pass exception to the application
+                                                ^
+  symbol:   class PluginAttribute
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:86: error: cannot find symbol
+                                               @PluginElement("Layout") Layout layout,
+                                                ^
+  symbol:   class PluginElement
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:87: error: cannot find symbol
+                                               @PluginElement("Filters") Filter filter,
+                                                ^
+  symbol:   class PluginElement
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:88: error: cannot find symbol
+                                               @PluginAttribute(value = "bufferSize", defaultInt = 100) int bufferSize,
+                                                ^
+  symbol:   class PluginAttribute
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:89: error: cannot find symbol
+                                               @PluginAttribute(value = "enableLevelMonitoring", defaultBoolean = true) boolean enableLevelMonitoring, // count DEBUG/INFO/ERROR etc.
+                                                ^
+  symbol:   class PluginAttribute
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:90: error: cannot find symbol
+                                               @PluginAttribute(value = "generalize", defaultBoolean = false) boolean generalize, // don't generalize by default
+                                                ^
+  symbol:   class PluginAttribute
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:91: error: cannot find symbol
+                                               @PluginAttribute(value = "enableListeners", defaultString = "NONE") String levelListenerType // no buffer listeners by default
+                                                ^
+  symbol:   class PluginAttribute
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:83: error: cannot find symbol
+    @PluginFactory
+     ^
+  symbol:   class PluginFactory
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:62: error: cannot find symbol
+        super(name, filter, layout, ignoreExceptions, Property.EMPTY_ARRAY);
+                                                      ^
+  symbol:   variable Property
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:94: error: cannot find symbol
+            layout = PatternLayout.createDefaultLayout();
+                     ^
+  symbol:   variable PatternLayout
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:108: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:208: error: package Level does not exist
+        if (Level.DEBUG.toString().equalsIgnoreCase(level.toUpperCase()))
+                 ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:209: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.DEBUG, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:210: error: package Level does not exist
+        else if (Level.TRACE.toString().equalsIgnoreCase(level.toUpperCase()))
+                      ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:211: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.TRACE, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:212: error: package Level does not exist
+        else if (Level.INFO.toString().equalsIgnoreCase(level.toUpperCase()))
+                      ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:213: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.INFO, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:214: error: package Level does not exist
+        else if (Level.WARN.toString().equalsIgnoreCase(level.toUpperCase()))
+                      ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:215: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.WARN, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:216: error: package Level does not exist
+        else if (Level.ERROR.toString().equalsIgnoreCase(level.toUpperCase()))
+                      ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:217: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.ERROR, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:218: error: package Level does not exist
+        else if (Level.FATAL.toString().equalsIgnoreCase(level.toUpperCase()))
+                      ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:219: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.FATAL, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:222: error: package Level does not exist
+        else if (Level.ALL.toString().equalsIgnoreCase(level.toUpperCase())) {
+                      ^
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:223: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.TRACE, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:224: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.DEBUG, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:225: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.INFO, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:226: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.WARN, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:227: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.ERROR, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:228: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.FATAL, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:232: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.ERROR, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java:233: error: cannot find symbol
+            addDefaultListener(MonitorFactory.getMonitor(PREFIX + Level.FATAL, units));
+                                                                  ^
+  symbol:   variable Level
+  location: class JAMonAppender
+Note: hybrids/com.jamonapi/jamon/2.82/JAMonAppender.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+54 errors

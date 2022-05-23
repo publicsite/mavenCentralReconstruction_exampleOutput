@@ -1,0 +1,50 @@
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:24: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:282: error: cannot find symbol
+    @SuppressFBWarnings(value = { "IC_SUPERCLASS_USES_SUBCLASS_DURING_INITIALIZATION" }, justification = "Safe initialization is implied")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class ByteBuddyAgent
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:229: error: cannot find symbol
+    @SuppressFBWarnings(value = { "REC_CATCH_EXCEPTION" }, justification = "Exception should not be rethrown but trigger a fallback")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class ByteBuddyAgent
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:263: error: cannot find symbol
+    @SuppressFBWarnings(value = { "REC_CATCH_EXCEPTION" }, justification = "Legal outcome where reflection communicates errors by throwing an exception")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class ByteBuddyAgent
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:320: error: cannot find symbol
+            @SuppressFBWarnings(value = { "DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED" }, justification = "Privilege is explicit user responsibility")
+             ^
+  symbol:   class SuppressFBWarnings
+  location: class ForStandardToolsJarVm
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:338: error: cannot find symbol
+            @SuppressFBWarnings(value = { "DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED" }, justification = "Privilege is explicit user responsibility")
+             ^
+  symbol:   class SuppressFBWarnings
+  location: class ForUserDefinedToolsJar
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:532: error: cannot find symbol
+            @SuppressFBWarnings(value = { "REC_CATCH_EXCEPTION" }, justification = "Exception should not be rethrown but trigger a fallback")
+             ^
+  symbol:   class SuppressFBWarnings
+  location: class InstallationAction
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:736: error: cannot find symbol
+                @SuppressFBWarnings(value = { "REC_CATCH_EXCEPTION" }, justification = "Exception should not be rethrown but trigger a fallback")
+                 ^
+  symbol:   class SuppressFBWarnings
+  location: class ForJava9CapableVm
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/extractedSources/net/bytebuddy/agent/Attacher.java:18: error: package edu.umd.cs.findbugs.annotations does not exist
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+                                      ^
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/extractedSources/net/bytebuddy/agent/Attacher.java:68: error: cannot find symbol
+    @SuppressFBWarnings(value = "REC_CATCH_EXCEPTION", justification = "Exception should not be rethrown but trigger a fallback")
+     ^
+  symbol:   class SuppressFBWarnings
+  location: class Attacher
+sources/structure/net.bytebuddy/byte-buddy-agent/1.11.2/Decompiled/net/bytebuddy/agent/ByteBuddyAgent.java:360: error: incompatible types: Resolver cannot be converted to PrivilegedAction<Class<?>>
+                    return new Accessor.Simple.WithDirectAttachment(AccessController.doPrivileged((PrivilegedAction<Class<?>>)VirtualMachine.Resolver.INSTANCE));
+                                                                                                                                                     ^
+11 errors

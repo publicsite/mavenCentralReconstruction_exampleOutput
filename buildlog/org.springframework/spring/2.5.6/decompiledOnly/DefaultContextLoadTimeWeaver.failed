@@ -1,0 +1,76 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/GlassFishLoadTimeWeaver.java:21: error: package com.sun.enterprise.loader does not exist
+import com.sun.enterprise.loader.InstrumentableClassLoader;
+                                ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/GlassFishLoadTimeWeaver.java:38: error: cannot find symbol
+	private final InstrumentableClassLoader classLoader;
+	              ^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/GlassFishLoadTimeWeaver.java:72: error: cannot find symbol
+	protected InstrumentableClassLoader determineClassLoader(ClassLoader classLoader) {
+	          ^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/oc4j/OC4JLoadTimeWeaver.java:21: error: package oracle.classloader.util does not exist
+import oracle.classloader.util.ClassLoaderUtilities;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/InstrumentationLoadTimeWeaver.java:26: error: cannot find symbol
+import org.springframework.instrument.InstrumentationSavingAgent;
+                                     ^
+  symbol:   class InstrumentationSavingAgent
+  location: package org.springframework.instrument
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/GlassFishLoadTimeWeaver.java:58: error: cannot find symbol
+		InstrumentableClassLoader icl = determineClassLoader(classLoader);
+		^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/GlassFishLoadTimeWeaver.java:61: error: cannot find symbol
+					"An [" + InstrumentableClassLoader.class.getName() + "] implementation is required.");
+					         ^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/GlassFishLoadTimeWeaver.java:76: error: cannot find symbol
+			if (cl instanceof InstrumentableClassLoader) {
+			                  ^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/GlassFishLoadTimeWeaver.java:77: error: cannot find symbol
+				return (InstrumentableClassLoader) cl;
+				        ^
+  symbol:   class InstrumentableClassLoader
+  location: class GlassFishLoadTimeWeaver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/ClassTransformerAdapter.java:23: error: package javax.persistence.spi does not exist
+import javax.persistence.spi.ClassTransformer;
+                            ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/glassfish/ClassTransformerAdapter.java:33: error: cannot find symbol
+class ClassTransformerAdapter implements ClassTransformer {
+                                         ^
+  symbol: class ClassTransformer
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/oc4j/OC4JClassPreprocessorAdapter.java:19: error: package oracle.classloader.util does not exist
+import oracle.classloader.util.ClassPreprocessor;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/oc4j/OC4JClassPreprocessorAdapter.java:36: error: cannot find symbol
+class OC4JClassPreprocessorAdapter implements ClassPreprocessor {
+                                              ^
+  symbol: class ClassPreprocessor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/oc4j/OC4JClassPreprocessorAdapter.java:52: error: cannot find symbol
+	public ClassPreprocessor initialize(ClassLoader loader) {
+	       ^
+  symbol:   class ClassPreprocessor
+  location: class OC4JClassPreprocessorAdapter
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/oc4j/OC4JLoadTimeWeaver.java:69: error: cannot find symbol
+		ClassLoaderUtilities.addPreprocessor(this.classLoader, processor);
+		^
+  symbol:   variable ClassLoaderUtilities
+  location: class OC4JLoadTimeWeaver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/oc4j/OC4JLoadTimeWeaver.java:77: error: cannot find symbol
+		return ClassLoaderUtilities.copy(this.classLoader);
+		       ^
+  symbol:   variable ClassLoaderUtilities
+  location: class OC4JLoadTimeWeaver
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/InstrumentationLoadTimeWeaver.java:156: error: cannot find symbol
+			return InstrumentationSavingAgent.getInstrumentation();
+			       ^
+  symbol:   variable InstrumentationSavingAgent
+  location: class InstrumentationAccessor
+17 errors

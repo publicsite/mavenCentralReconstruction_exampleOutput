@@ -1,0 +1,27 @@
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:7: error: cannot find symbol
+import sun.misc.Perf;
+               ^
+  symbol:   class Perf
+  location: package sun.misc
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:74: error: cannot find symbol
+        final Perf perf;
+              ^
+  symbol:   class Perf
+  location: class SunPerfProvider
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:53: error: incompatible types: Object cannot be converted to NanoTimer
+                timer = cls.newInstance();
+                                       ^
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:79: error: cannot find symbol
+            this.perf = AccessController.doPrivileged((PrivilegedAction<Perf>)new PrivilegedAction() {
+                                                                        ^
+  symbol:   class Perf
+  location: class SunPerfProvider
+sources/structure/activemq/activemq/4.0-M3/Decompiled/edu/emory/mathcs/backport/java/util/concurrent/helpers/Utils.java:81: error: cannot find symbol
+                    return Perf.getPerf();
+                           ^
+  symbol: variable Perf
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 errors

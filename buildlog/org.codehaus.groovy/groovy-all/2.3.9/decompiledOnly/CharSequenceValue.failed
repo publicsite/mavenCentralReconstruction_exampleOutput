@@ -1,0 +1,138 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:33: error: cannot find symbol
+                Exceptions.handle(ex);
+                ^
+  symbol:   variable Exceptions
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:72: error: cannot find symbol
+                Exceptions.die("toEnum " + cls + " value was " + this.stringValue());
+                ^
+  symbol:   variable Exceptions
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:80: error: incompatible types: Enum cannot be converted to T
+            return Enum.valueOf(cls, value);
+                               ^
+  where T is a type-variable:
+    T extends Enum declared in method <T>toEnum(Class<T>,String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:83: error: incompatible types: Enum cannot be converted to T
+            return Enum.valueOf(cls, value.toUpperCase().replace('-', '_'));
+                               ^
+  where T is a type-variable:
+    T extends Enum declared in method <T>toEnum(Class<T>,String)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:90: error: incompatible types: Enum cannot be converted to T
+        for (final T e : arr$) {
+                         ^
+  where T is a type-variable:
+    T extends Enum declared in method <T>toEnum(Class<T>,int)
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:95: error: cannot find symbol
+        Exceptions.die("Can't convert ordinal value " + value + " into enum of type " + cls);
+        ^
+  symbol:   variable Exceptions
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:110: error: cannot find symbol
+                if (CharScanner.isInteger(this.buffer, this.startIndex, this.endIndex - this.startIndex)) {
+                    ^
+  symbol:   variable CharScanner
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:118: error: cannot find symbol
+                    if (Dates.isISO8601QuickCheck(this.buffer, this.startIndex, this.endIndex)) {
+                        ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:119: error: cannot find symbol
+                        if (Dates.isJsonDate(this.buffer, this.startIndex, this.endIndex)) {
+                            ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:120: error: cannot find symbol
+                            date = Dates.fromJsonDate(this.buffer, this.startIndex, this.endIndex);
+                                   ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:123: error: cannot find symbol
+                            if (!Dates.isISO8601(this.buffer, this.startIndex, this.endIndex)) {
+                                 ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:126: error: cannot find symbol
+                            date = Dates.fromISO8601(this.buffer, this.startIndex, this.endIndex);
+                                   ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:137: error: cannot find symbol
+                Exceptions.die();
+                ^
+  symbol:   variable Exceptions
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:213: error: cannot find symbol
+            return JsonStringDecoder.decodeForSure(this.buffer, this.startIndex, this.endIndex);
+                   ^
+  symbol:   variable JsonStringDecoder
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:220: error: cannot find symbol
+        return JsonStringDecoder.decode(this.buffer, this.startIndex, this.endIndex);
+               ^
+  symbol:   variable JsonStringDecoder
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:226: error: cannot find symbol
+            return new Date(Dates.utc(this.longValue()));
+                            ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:228: error: cannot find symbol
+        if (!Dates.isISO8601QuickCheck(this.buffer, this.startIndex, this.endIndex)) {
+             ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:231: error: cannot find symbol
+        if (Dates.isJsonDate(this.buffer, this.startIndex, this.endIndex)) {
+            ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:232: error: cannot find symbol
+            return Dates.fromJsonDate(this.buffer, this.startIndex, this.endIndex);
+                   ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:234: error: cannot find symbol
+        if (Dates.isISO8601(this.buffer, this.startIndex, this.endIndex)) {
+            ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:235: error: cannot find symbol
+            return Dates.fromISO8601(this.buffer, this.startIndex, this.endIndex);
+                   ^
+  symbol:   variable Dates
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:247: error: cannot find symbol
+        return CharScanner.parseIntFromTo(this.buffer, this.startIndex, this.endIndex) * sign;
+               ^
+  symbol:   variable CharScanner
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:252: error: cannot find symbol
+        if (CharScanner.isInteger(this.buffer, this.startIndex, this.endIndex - this.startIndex)) {
+            ^
+  symbol:   variable CharScanner
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:253: error: cannot find symbol
+            return CharScanner.parseIntFromTo(this.buffer, this.startIndex, this.endIndex);
+                   ^
+  symbol:   variable CharScanner
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:255: error: cannot find symbol
+        return CharScanner.parseLongFromTo(this.buffer, this.startIndex, this.endIndex);
+               ^
+  symbol:   variable CharScanner
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:270: error: cannot find symbol
+        return CharScanner.parseDouble(this.buffer, this.startIndex, this.endIndex);
+               ^
+  symbol:   variable CharScanner
+  location: class CharSequenceValue
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java:280: error: cannot find symbol
+        return CharScanner.parseFloat(this.buffer, this.startIndex, this.endIndex);
+               ^
+  symbol:   variable CharScanner
+  location: class CharSequenceValue
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/json/internal/CharSequenceValue.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+27 errors

@@ -1,0 +1,215 @@
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/ReportEntry.java:19: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtendWith;
+                                      ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:27: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.BeforeEachCallback;
+                                      ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:28: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionConfigurationException;
+                                      ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:29: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:30: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.InvocationInterceptor;
+                                      ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:31: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ReflectiveInvocationContext;
+                                      ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:32: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.TestWatcher;
+                                      ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:35: error: cannot find symbol
+class ReportEntryExtension implements TestWatcher, BeforeEachCallback, InvocationInterceptor {
+                                      ^
+  symbol: class TestWatcher
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:35: error: cannot find symbol
+class ReportEntryExtension implements TestWatcher, BeforeEachCallback, InvocationInterceptor {
+                                                   ^
+  symbol: class BeforeEachCallback
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:35: error: cannot find symbol
+class ReportEntryExtension implements TestWatcher, BeforeEachCallback, InvocationInterceptor {
+                                                                       ^
+  symbol: class InvocationInterceptor
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/ReportEntry.java:44: error: cannot find symbol
+@ExtendWith(ReportEntryExtension.class)
+ ^
+  symbol: class ExtendWith
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:37: error: package ExtensionContext does not exist
+	private static final ExtensionContext.Namespace NAMESPACE = ExtensionContext.Namespace
+	                                     ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:43: error: cannot find symbol
+	public void beforeEach(ExtensionContext context) {
+	                       ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:47: error: cannot find symbol
+	private Stream<ReportEntry> findAnnotations(ExtensionContext context) {
+	                                            ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:51: error: cannot find symbol
+	private static void verifyReportEntry(ExtensionContext context, ReportEntry entry) {
+	                                      ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:57: error: cannot find symbol
+	private static void verifyParameterCount(ExtensionContext context, ReportEntry entry) {
+	                                         ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:94: error: cannot find symbol
+	public void testDisabled(ExtensionContext context, Optional<String> reason) {
+	                         ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:99: error: cannot find symbol
+	public void testSuccessful(ExtensionContext context) {
+	                           ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:104: error: cannot find symbol
+	public void testAborted(ExtensionContext context, Throwable cause) {
+	                        ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:109: error: cannot find symbol
+	public void testFailed(ExtensionContext context, Throwable cause) {
+	                       ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:117: error: cannot find symbol
+	private void publishOnConditions(ExtensionContext context, ReportEntry.PublishCondition... conditions) {
+	                                 ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:123: error: cannot find symbol
+	private String parseVariables(String value, ExtensionContext context) {
+	                                            ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:141: error: cannot find symbol
+	public void interceptTestTemplateMethod(Invocation<Void> invocation,
+	                                        ^
+  symbol:   class Invocation
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:142: error: cannot find symbol
+			ReflectiveInvocationContext<Method> invocationContext, ExtensionContext extensionContext) throws Throwable {
+			^
+  symbol:   class ReflectiveInvocationContext
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:142: error: cannot find symbol
+			ReflectiveInvocationContext<Method> invocationContext, ExtensionContext extensionContext) throws Throwable {
+			                                                       ^
+  symbol:   class ExtensionContext
+  location: class ReportEntryExtension
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/jupiter/ReportEntry.java:105: error: cannot find symbol
+	@ExtendWith(ReportEntryExtension.class)
+	 ^
+  symbol:   class ExtendWith
+  location: @interface ReportEntry
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:25: error: package org.junit.jupiter.api.extension does not exist
+import org.junit.jupiter.api.extension.ExtensionContext;
+                                      ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:26: error: package org.junit.platform.commons.support does not exist
+import org.junit.platform.commons.support.AnnotationSupport;
+                                         ^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:58: error: cannot find symbol
+	public static boolean isAnyAnnotationPresent(ExtensionContext context,
+	                                             ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:73: error: cannot find symbol
+	public static boolean isAnyRepeatableAnnotationPresent(ExtensionContext context,
+	                                                       ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:88: error: cannot find symbol
+	public static <A extends Annotation> Optional<A> findClosestEnclosingAnnotation(ExtensionContext context,
+	                                                                                ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:99: error: cannot find symbol
+	public static <A extends Annotation> Stream<A> findAllEnclosingAnnotations(ExtensionContext context,
+	                                                                           ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:110: error: cannot find symbol
+	public static <A extends Annotation> Stream<A> findClosestEnclosingRepeatableAnnotations(ExtensionContext context,
+	                                                                                         ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:121: error: cannot find symbol
+	public static <A extends Annotation> Stream<A> findAllEnclosingRepeatableAnnotations(ExtensionContext context,
+	                                                                                     ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:173: error: cannot find symbol
+	static <A extends Annotation> Stream<A> findAnnotations(ExtensionContext context, Class<A> annotationType,
+	                                                        ^
+  symbol:   class ExtensionContext
+  location: class PioneerAnnotationUtils
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:37: error: package ExtensionContext does not exist
+	private static final ExtensionContext.Namespace NAMESPACE = ExtensionContext.Namespace
+	                                                                            ^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:42: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:62: error: cannot find symbol
+				throw new ExtensionConfigurationException(format(message, entry.key(), entry.value()));
+				          ^
+  symbol:   class ExtensionConfigurationException
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:82: error: cannot find symbol
+			throw new ExtensionConfigurationException(format(message, entry.key(), entry.value()));
+			          ^
+  symbol:   class ExtensionConfigurationException
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:89: error: cannot find symbol
+			throw new ExtensionConfigurationException(format(message, entry.key(), entry.value()));
+			          ^
+  symbol:   class ExtensionConfigurationException
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:93: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:98: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:103: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:108: error: method does not override or implement a method from a supertype
+	@Override
+	^
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:113: error: cannot find symbol
+		if (!(cause instanceof ExtensionConfigurationException))
+		                       ^
+  symbol:   class ExtensionConfigurationException
+  location: class ReportEntryExtension
+hybrids/org.junit-pioneer/junit-pioneer/1.3.0/ReportEntryExtension.java:140: error: method does not override or implement a method from a supertype
+	@Override
+	^
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:64: error: incompatible types: invalid method reference
+				.anyMatch(Optional::isPresent);
+				          ^
+    method isPresent in class Optional<T> cannot be applied to given types
+      required: no arguments
+      found: Object
+      reason: actual and formal argument lists differ in length
+  where T is a type-variable:
+    T extends Object declared in class Optional
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:199: error: cannot find symbol
+			return AnnotationSupport.findRepeatableAnnotations(element, annotationType);
+			       ^
+  symbol:   variable AnnotationSupport
+  location: class PioneerAnnotationUtils
+sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java:201: error: cannot find symbol
+			return AnnotationSupport
+			       ^
+  symbol:   variable AnnotationSupport
+  location: class PioneerAnnotationUtils
+Note: sources/structure/org.junit-pioneer/junit-pioneer/1.3.0/extractedSources/org/junitpioneer/internal/PioneerAnnotationUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+49 errors

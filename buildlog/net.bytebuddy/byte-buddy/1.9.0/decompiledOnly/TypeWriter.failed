@@ -1,0 +1,81 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:39: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:40: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:41: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1063: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1065: error: cannot find symbol
+                    protected OpenedClassRemapper(final ClassVisitor classVisitor, final Remapper remapper) {
+                                                                                         ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:151: error: type argument Object is not within bounds of type-variable S
+            return new ForInlining.WithDecorationOnly<U>(instrumentedType, classFileVersion, auxiliaryTypes, new MethodList.Explicit<Object>(methods), typeAttributeAppender, asmVisitorWrapper, annotationValueFilterFactory, annotationRetention, auxiliaryTypeNamingStrategy, implementationContextFactory, typeValidation, classWriterStrategy, typePool, classFileLocator);
+                                                                                                                                     ^
+  where S is a type-variable:
+    S extends MethodDescription declared in class Explicit
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1050: error: cannot find symbol
+                    return this.originalType.getName().equals(this.instrumentedType.getName()) ? classVisitor : new OpenedClassRemapper(classVisitor, new SimpleRemapper(this.originalType.getInternalName(), this.instrumentedType.getInternalName()));
+                                                                                                                                                          ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1050: error: incompatible types: bad type in conditional expression
+                    return this.originalType.getName().equals(this.instrumentedType.getName()) ? classVisitor : new OpenedClassRemapper(classVisitor, new SimpleRemapper(this.originalType.getInternalName(), this.instrumentedType.getInternalName()));
+                                                                                                                ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1102: error: type argument TypeList is not within bounds of type-variable S
+                            for (final TypeDescription typeDescription : ((FilterableList<Object, TypeList>)WithFullProcessing.this.instrumentedType.getNestMembers()).filter(ElementMatchers.not(ElementMatchers.is(WithFullProcessing.this.instrumentedType)))) {
+                                                                                                  ^
+  where S,T are type-variables:
+    S extends FilterableList<T,S> declared in interface FilterableList
+    T extends Object declared in interface FilterableList
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1102: error: incompatible types: TypeList cannot be converted to FilterableList<Object,TypeList>
+                            for (final TypeDescription typeDescription : ((FilterableList<Object, TypeList>)WithFullProcessing.this.instrumentedType.getNestMembers()).filter(ElementMatchers.not(ElementMatchers.is(WithFullProcessing.this.instrumentedType)))) {
+                                                                                                                                                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1225: error: non-static type variable S cannot be referenced from a static context
+                            final MethodRebaseResolver.Resolution resolution = WithFullProcessing.this.methodRebaseResolver.resolve(((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)implementedMethod).asDefined());
+                                                                                                                                                                                                      ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1234: error: non-static type variable S cannot be referenced from a static context
+                        return new CodePreservingMethodVisitor(methodVisitor, record, WithFullProcessing.this.methodRebaseResolver.resolve(((ByteCodeElement.TypeDependant<MethodDescription.InDefinedShape, S>)implementedMethod).asDefined()));
+                                                                                                                                                                                                             ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1720: error: type argument Object is not within bounds of type-variable S
+                    super(instrumentedType, classFileVersion, FieldPool.Disabled.INSTANCE, auxiliaryTypes, new LazyFieldList(instrumentedType), methods, new MethodList.Empty<Object>(), LoadedTypeInitializer.NoOp.INSTANCE, TypeInitializer.None.INSTANCE, typeAttributeAppender, asmVisitorWrapper, annotationValueFilterFactory, annotationRetention, auxiliaryTypeNamingStrategy, implementationContextFactory, typeValidation, classWriterStrategy, typePool, instrumentedType, classFileLocator);
+                                                                                                                                                                              ^
+  where S is a type-variable:
+    S extends MethodDescription declared in class Empty
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1844: error: type argument TypeList is not within bounds of type-variable S
+                    for (final TypeDescription typeDescription : ((FilterableList<Object, TypeList>)this.instrumentedType.getNestMembers()).filter(ElementMatchers.not(ElementMatchers.is(this.instrumentedType)))) {
+                                                                                          ^
+  where S,T are type-variables:
+    S extends FilterableList<T,S> declared in interface FilterableList
+    T extends Object declared in interface FilterableList
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1844: error: incompatible types: TypeList cannot be converted to FilterableList<Object,TypeList>
+                    for (final TypeDescription typeDescription : ((FilterableList<Object, TypeList>)this.instrumentedType.getNestMembers()).filter(ElementMatchers.not(ElementMatchers.is(this.instrumentedType)))) {
+                                                                                                                                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:1895: error: incompatible types: ClassDumpAction cannot be converted to PrivilegedExceptionAction<Object>
+                        AccessController.doPrivileged((PrivilegedExceptionAction<Object>)new ClassDumpAction(dumpFolder, instrumentedType, original, binaryRepresentation));
+                                                                                         ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:2247: error: type argument TypeList is not within bounds of type-variable S
+                            for (final TypeDescription interfaceType : ((FilterableList<Object, TypeList>)instrumentedType.getInterfaces().asErasures()).filter(ElementMatchers.isSubTypeOf(declaringType))) {
+                                                                                                ^
+  where S,T are type-variables:
+    S extends FilterableList<T,S> declared in interface FilterableList
+    T extends Object declared in interface FilterableList
+sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java:2247: error: incompatible types: TypeList cannot be converted to FilterableList<Object,TypeList>
+                            for (final TypeDescription interfaceType : ((FilterableList<Object, TypeList>)instrumentedType.getInterfaces().asErasures()).filter(ElementMatchers.isSubTypeOf(declaringType))) {
+                                                                                                                                                     ^
+Note: sources/structure/net.bytebuddy/byte-buddy/1.9.0/Decompiled/net/bytebuddy/dynamic/scaffold/TypeWriter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+18 errors

@@ -1,0 +1,115 @@
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3194: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3202: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:228: error: incompatible types: List<ElementMatcher<? super TypeDescription>> cannot be converted to List<? extends ElementMatcher<? super Object>>
+        return erasures((ElementMatcher<? super Iterable<? extends TypeDescription>>)new CollectionOneToOneMatcher((List<? extends ElementMatcher<? super Object>>)typeMatchers));
+                                                                                                                                                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:360: error: incompatible types: Junction<OfByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+        return not((ElementMatcher<? super T>)isPublic().or((ElementMatcher<? super Object>)isProtected()).or((ElementMatcher<? super Object>)isPrivate()));
+                                                                                                                                                       ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:360: error: incompatible types: Junction<OfByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+        return not((ElementMatcher<? super T>)isPublic().or((ElementMatcher<? super Object>)isProtected()).or((ElementMatcher<? super Object>)isPrivate()));
+                                                                                                       ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:448: error: incompatible types: List<ElementMatcher<? super Generic>> cannot be converted to List<? extends ElementMatcher<? super Object>>
+        return takesGenericArguments((ElementMatcher<? super Iterable<? extends TypeDescription.Generic>>)new CollectionOneToOneMatcher((List<? extends ElementMatcher<? super Object>>)typeMatchers));
+                                                                                                                                                                                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:452: error: type argument Object is not within bounds of type-variable T
+        return new MethodParametersMatcher<T>(new MethodParameterTypesMatcher<Object>(matchers));
+                                                                              ^
+  where T is a type-variable:
+    T extends ParameterList<?> declared in class MethodParameterTypesMatcher
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:480: error: incompatible types: List<ElementMatcher<? super Generic>> cannot be converted to List<? extends ElementMatcher<? super Object>>
+        return takesGenericArguments((ElementMatcher<? super Iterable<? extends TypeDescription.Generic>>)new CollectionOneToOneMatcher((List<? extends ElementMatcher<? super Object>>)typeMatchers));
+                                                                                                                                                                                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:484: error: type argument Object is not within bounds of type-variable T
+        return new MethodParametersMatcher<T>(new MethodParameterTypesMatcher<Object>(erasures(matchers)));
+                                                                              ^
+  where T is a type-variable:
+    T extends ParameterList<?> declared in class MethodParameterTypesMatcher
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:488: error: type argument Object is not within bounds of type-variable T
+        return new MethodParametersMatcher<T>(new CollectionSizeMatcher<Object>(length));
+                                                                        ^
+  where T is a type-variable:
+    T extends Iterable<?> declared in class CollectionSizeMatcher
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:500: error: incompatible types: Junction<Generic> cannot be converted to ElementMatcher<? super Object>
+        return (exceptionType.isAssignableTo(RuntimeException.class) || exceptionType.isAssignableTo(Error.class)) ? new BooleanMatcher<T>(true) : declaresGenericException((ElementMatcher<? super Iterable<? extends TypeDescription.Generic>>)new CollectionItemMatcher((ElementMatcher<? super Object>)erasure(isSuperTypeOf(exceptionType))));
+                                                                                                                                                                                                                                                                                                                  ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:516: error: incompatible types: Junction<Generic> cannot be converted to ElementMatcher<? super Object>
+        return exceptionType.isAssignableTo(Throwable.class) ? declaresGenericException((ElementMatcher<? super Iterable<? extends TypeDescription.Generic>>)new CollectionItemMatcher((ElementMatcher<? super Object>)erasure(exceptionType))) : new BooleanMatcher<T>(false);
+                                                                                                                                                                                                                              ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:584: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+        return named("finalize").and((ElementMatcher<? super Object>)takesArguments(0)).and((ElementMatcher<? super T>)returns(TypeDescription.VOID));
+                                                                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:588: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+        return named("hashCode").and((ElementMatcher<? super Object>)takesArguments(0)).and((ElementMatcher<? super T>)returns(Integer.TYPE));
+                                                                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:592: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+        return named("equals").and((ElementMatcher<? super Object>)takesArguments(TypeDescription.OBJECT)).and((ElementMatcher<? super T>)returns(Boolean.TYPE));
+                                                                                 ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:600: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+        return named("toString").and((ElementMatcher<? super Object>)takesArguments(0)).and((ElementMatcher<? super T>)returns(TypeDescription.STRING));
+                                                                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:604: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+        return nameStartsWith("set").and((ElementMatcher<? super Object>)takesArguments(1)).and((ElementMatcher<? super T>)returns(TypeDescription.VOID));
+                                                                                       ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:632: error: incompatible types: List<ElementMatcher<CAP#1>> cannot be converted to List<? extends ElementMatcher<? super Object>>
+        return isSetter().and((ElementMatcher<? super T>)takesGenericArguments((ElementMatcher<? super Iterable<? extends TypeDescription.Generic>>)new CollectionOneToOneMatcher((List<? extends ElementMatcher<? super Object>>)Collections.singletonList((ElementMatcher<? super T>)matcher))));
+                                                                                                                                                                                                                                                           ^
+  where T is a type-variable:
+    T extends MethodDescription declared in method <T>isGenericSetter(ElementMatcher<? super Generic>)
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends Object super: T from capture of ? super T
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:636: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+        return takesArguments(0).and(not((ElementMatcher<? super Object>)returns(TypeDescription.VOID))).and((ElementMatcher<? super T>)nameStartsWith("get").or(nameStartsWith("is").and((ElementMatcher<? super Object>)returnsGeneric(anyOf(Boolean.TYPE, Boolean.class)))));
+                                                                                                                                                                                                                                        ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:636: error: incompatible types: Junction<MethodDescription> cannot be converted to ElementMatcher<? super Object>
+        return takesArguments(0).and(not((ElementMatcher<? super Object>)returns(TypeDescription.VOID))).and((ElementMatcher<? super T>)nameStartsWith("get").or(nameStartsWith("is").and((ElementMatcher<? super Object>)returnsGeneric(anyOf(Boolean.TYPE, Boolean.class)))));
+                                                                                ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:640: error: incompatible types: Junction<NamedElement> cannot be converted to ElementMatcher<? super Object>
+        return isGetter().and((ElementMatcher<? super T>)(property.isEmpty() ? named("get").or((ElementMatcher<? super Object>)named("is")) : named("get" + Character.toUpperCase(property.charAt(0)) + property.substring(1)).or((ElementMatcher<? super Object>)named("is" + Character.toUpperCase(property.charAt(0)) + property.substring(1)))));
+                                                                                                                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:640: error: incompatible types: Junction<NamedElement> cannot be converted to ElementMatcher<? super Object>
+        return isGetter().and((ElementMatcher<? super T>)(property.isEmpty() ? named("get").or((ElementMatcher<? super Object>)named("is")) : named("get" + Character.toUpperCase(property.charAt(0)) + property.substring(1)).or((ElementMatcher<? super Object>)named("is" + Character.toUpperCase(property.charAt(0)) + property.substring(1)))));
+                                                                                                                                                                                                                                                                       ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:674: error: incompatible types: Junction<NamedElement> cannot be converted to Junction<T>
+        return (ElementMatcher.Junction<T>)named(internalName);
+                                                ^
+  where T is a type-variable:
+    T extends MethodDescription declared in method <T>hasMethodName(String)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/matcher/ElementMatchers.java:791: error: incompatible types: Junction<Object> cannot be converted to Junction<T>
+        return (ElementMatcher.Junction<T>)((classLoader == null) ? none() : new EqualityMatcher<Object>(classLoader));
+                                           ^
+  where T is a type-variable:
+    T extends ClassLoader declared in method <T>isExtensionClassLoader()
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+29 errors

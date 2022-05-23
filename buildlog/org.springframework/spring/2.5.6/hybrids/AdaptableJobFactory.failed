@@ -1,0 +1,80 @@
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:19: error: package org.quartz does not exist
+import org.quartz.Job;
+                 ^
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:20: error: package org.quartz does not exist
+import org.quartz.SchedulerException;
+                 ^
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:21: error: package org.quartz.spi does not exist
+import org.quartz.spi.JobFactory;
+                     ^
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:22: error: package org.quartz.spi does not exist
+import org.quartz.spi.TriggerFiredBundle;
+                     ^
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:33: error: cannot find symbol
+public class AdaptableJobFactory implements JobFactory {
+                                            ^
+  symbol: class JobFactory
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:35: error: cannot find symbol
+	public Job newJob(TriggerFiredBundle bundle) throws SchedulerException {
+	                  ^
+  symbol:   class TriggerFiredBundle
+  location: class AdaptableJobFactory
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:35: error: cannot find symbol
+	public Job newJob(TriggerFiredBundle bundle) throws SchedulerException {
+	       ^
+  symbol:   class Job
+  location: class AdaptableJobFactory
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:35: error: cannot find symbol
+	public Job newJob(TriggerFiredBundle bundle) throws SchedulerException {
+	                                                    ^
+  symbol:   class SchedulerException
+  location: class AdaptableJobFactory
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:53: error: cannot find symbol
+	protected Object createJobInstance(TriggerFiredBundle bundle) throws Exception {
+	                                   ^
+  symbol:   class TriggerFiredBundle
+  location: class AdaptableJobFactory
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:66: error: cannot find symbol
+	protected Job adaptJob(Object jobObject) throws Exception {
+	          ^
+  symbol:   class Job
+  location: class AdaptableJobFactory
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:41: error: cannot find symbol
+			throw new SchedulerException("Job instantiation failed", ex);
+			          ^
+  symbol:   class SchedulerException
+  location: class AdaptableJobFactory
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:67: error: cannot find symbol
+		if (jobObject instanceof Job) {
+		                         ^
+  symbol:   class Job
+  location: class AdaptableJobFactory
+hybrids/org.springframework/spring/2.5.6/AdaptableJobFactory.java:68: error: cannot find symbol
+			return (Job) jobObject;
+			        ^
+  symbol:   class Job
+  location: class AdaptableJobFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:19: error: package org.quartz does not exist
+import org.quartz.Job;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:20: error: package org.quartz does not exist
+import org.quartz.JobExecutionContext;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:21: error: package org.quartz does not exist
+import org.quartz.JobExecutionException;
+                 ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:38: error: cannot find symbol
+public class DelegatingJob implements Job {
+                                      ^
+  symbol: class Job
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:63: error: cannot find symbol
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+	                    ^
+  symbol:   class JobExecutionContext
+  location: class DelegatingJob
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/scheduling/quartz/DelegatingJob.java:63: error: cannot find symbol
+	public void execute(JobExecutionContext context) throws JobExecutionException {
+	                                                        ^
+  symbol:   class JobExecutionException
+  location: class DelegatingJob
+19 errors

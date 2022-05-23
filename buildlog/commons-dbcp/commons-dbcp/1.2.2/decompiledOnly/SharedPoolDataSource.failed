@@ -1,0 +1,38 @@
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/SharedPoolDataSource.java:25: error: SharedPoolDataSource is not abstract and does not override abstract method getParentLogger() in CommonDataSource
+public class SharedPoolDataSource extends InstanceKeyDataSource
+       ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/SharedPoolDataSource.java:109: error: incompatible types: Object cannot be converted to UserPassKey
+        UserPassKey key = this.userKeys.get(username);
+                                           ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/SequencedHashMap.java:107: error: incompatible types: Object cannot be converted to Entry
+        final Entry entry = this.entries.get(o);
+                                            ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/SequencedHashMap.java:141: error: incompatible types: Object cannot be converted to Entry
+        Entry e = this.entries.get(key);
+                                  ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/SequencedHashMap.java:160: error: incompatible types: Object cannot be converted to Entry
+        final Entry e = this.entries.remove(key);
+                                           ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/SequencedHashMap.java:170: error: incompatible types: Object cannot be converted to Entry
+        for (final Map.Entry entry : t.entrySet()) {
+                                               ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/SequencedHashMap.java:288: error: incompatible types: Object cannot be converted to Entry
+                final Entry entry = SequencedHashMap.this.entries.get(e.getKey());
+                                                                     ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/SequencedHashMap.java:352: error: incompatible types: Object cannot be converted to Entry
+        Entry e = this.entries.get(key);
+                                  ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/InstanceKeyObjectFactory.java:48: error: cannot find symbol
+            instanceIterator.next().getValue().close();
+                                   ^
+  symbol:   method getValue()
+  location: class Object
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java:169: error: incompatible types: Object cannot be converted to PooledConnectionAndInfo
+            final PooledConnectionAndInfo info = this.pcMap.get(pc);
+                                                               ^
+sources/structure/commons-dbcp/commons-dbcp/1.2.2/Decompiled/org/apache/commons/dbcp/datasources/KeyedCPDSConnectionFactory.java:198: error: incompatible types: Object cannot be converted to PooledConnectionAndInfo
+        final PooledConnectionAndInfo info = this.pcMap.get(pc);
+                                                           ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+11 errors

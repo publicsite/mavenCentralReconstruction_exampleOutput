@@ -1,0 +1,17 @@
+hybrids/org.springframework/spring/2.5.6/JdoObjectRetrievalFailureException.java:19: error: package javax.jdo does not exist
+import javax.jdo.JDOHelper;
+                ^
+hybrids/org.springframework/spring/2.5.6/JdoObjectRetrievalFailureException.java:20: error: package javax.jdo does not exist
+import javax.jdo.JDOObjectNotFoundException;
+                ^
+hybrids/org.springframework/spring/2.5.6/JdoObjectRetrievalFailureException.java:34: error: cannot find symbol
+	public JdoObjectRetrievalFailureException(JDOObjectNotFoundException ex) {
+	                                          ^
+  symbol:   class JDOObjectNotFoundException
+  location: class JdoObjectRetrievalFailureException
+hybrids/org.springframework/spring/2.5.6/JdoObjectRetrievalFailureException.java:37: error: cannot find symbol
+				(ex.getFailedObject() != null ? JDOHelper.getObjectId(ex.getFailedObject()) : null),
+				                                ^
+  symbol:   variable JDOHelper
+  location: class JdoObjectRetrievalFailureException
+4 errors

@@ -1,0 +1,40 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/xml/DomToGroovy.java:29: error: cannot find symbol
+import org.codehaus.groovy.syntax.Types;
+                                 ^
+  symbol:   class Types
+  location: package org.codehaus.groovy.syntax
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/xml/DomToGroovy.java:33: error: cannot find symbol
+import groovy.util.IndentPrinter;
+                  ^
+  symbol:   class IndentPrinter
+  location: package groovy.util
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/xml/DomToGroovy.java:37: error: cannot find symbol
+    protected IndentPrinter out;
+              ^
+  symbol:   class IndentPrinter
+  location: class DomToGroovy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/xml/DomToGroovy.java:46: error: cannot find symbol
+    public DomToGroovy(final IndentPrinter out) {
+                             ^
+  symbol:   class IndentPrinter
+  location: class DomToGroovy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/xml/DomToGroovy.java:43: error: cannot find symbol
+        this(new IndentPrinter(out));
+                 ^
+  symbol:   class IndentPrinter
+  location: class DomToGroovy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/xml/DomToGroovy.java:49: error: cannot find symbol
+        this.keywords = Types.getKeywords();
+                        ^
+  symbol:   variable Types
+  location: class DomToGroovy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/xml/DomToGroovy.java:83: error: reference to DomToGroovy is ambiguous
+        final DomToGroovy converter = new DomToGroovy(writer);
+                                      ^
+  both constructor DomToGroovy(PrintWriter) in DomToGroovy and constructor DomToGroovy(IndentPrinter) in DomToGroovy match
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/xml/DomToGroovy.java:42: error: recursive constructor invocation
+    public DomToGroovy(final PrintWriter out) {
+           ^
+Note: sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/tools/xml/DomToGroovy.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+8 errors

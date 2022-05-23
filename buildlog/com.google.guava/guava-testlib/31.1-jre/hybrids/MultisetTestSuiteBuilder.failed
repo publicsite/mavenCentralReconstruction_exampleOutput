@@ -1,0 +1,558 @@
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkArgument;
+                                    ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkArgument;
+^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:22: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:23: error: package com.google.common.collect.Multiset does not exist
+import com.google.common.collect.Multiset.Entry;
+                                         ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:24: error: cannot find symbol
+import com.google.common.collect.Multisets;
+                                ^
+  symbol:   class Multisets
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestMultisetGenerator.java:20: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/TestMultisetGenerator.java:31: error: cannot find symbol
+  Multiset<E> create(Object... elements);
+  ^
+  symbol:   class Multiset
+  location: interface TestMultisetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in interface TestMultisetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:199: error: package Multiset does not exist
+  static class EntrySetGenerator<E> implements TestSetGenerator<Multiset.Entry<E>> {
+                                                                        ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:207: error: package Multiset does not exist
+    public SampleElements<Multiset.Entry<E>> samples() {
+                                  ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:218: error: package Multiset does not exist
+    public Set<Multiset.Entry<E>> create(Object... entries) {
+                       ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:235: error: package Multiset does not exist
+    public Multiset.Entry<E>[] createArray(int length) {
+                   ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:240: error: cannot find symbol
+    public Iterable<Entry<E>> order(List<Entry<E>> insertionOrder) {
+                                         ^
+  symbol:   class Entry
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:240: error: cannot find symbol
+    public Iterable<Entry<E>> order(List<Entry<E>> insertionOrder) {
+                    ^
+  symbol:   class Entry
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:271: error: cannot find symbol
+    public Multiset<E> create(Object... elements) {
+           ^
+  symbol:   class Multiset
+  location: class ReserializedMultisetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class ReserializedMultisetGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:30: error: cannot find symbol
+import com.google.common.collect.ImmutableSet;
+                                ^
+  symbol:   class ImmutableSet
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:31: error: cannot find symbol
+import com.google.common.collect.Ordering;
+                                ^
+  symbol:   class Ordering
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:32: error: package com.google.common.primitives does not exist
+import com.google.common.primitives.Ints;
+                                   ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:271: error: cannot find symbol
+  private final ImmutableSet<Supplier<GeneralSpliterator<E>>> spliteratorSuppliers;
+                ^
+  symbol:   class ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:273: error: cannot find symbol
+  private SpliteratorTester(ImmutableSet<Supplier<GeneralSpliterator<E>>> spliteratorSuppliers) {
+                            ^
+  symbol:   class ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultisetTester.java:20: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultisetTester.java:32: error: cannot find symbol
+  protected final Multiset<E> getMultiset() {
+                  ^
+  symbol:   class Multiset
+  location: class AbstractMultisetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class AbstractMultisetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:24: error: package com.google.common.base does not exist
+import com.google.common.base.Equivalence;
+                             ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:25: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:26: error: cannot find symbol
+import com.google.common.collect.Iterables;
+                                ^
+  symbol:   class Iterables
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:27: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:22: error: package com.google.common.base does not exist
+import com.google.common.base.Equivalence;
+                             ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:23: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:24: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:50: error: cannot find symbol
+  private final Equivalence<? super T> equivalence;
+                ^
+  symbol:   class Equivalence
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:55: error: cannot find symbol
+  private final List<ImmutableList<T>> groups = Lists.newArrayList();
+                     ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:58: error: cannot find symbol
+      Equivalence<? super T> equivalence,
+      ^
+  symbol:   class Equivalence
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:23: error: package com.google.common.collect.Multiset does not exist
+import com.google.common.collect.Multiset.Entry;
+                                         ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:24: error: cannot find symbol
+import com.google.common.collect.Multisets;
+                                ^
+  symbol:   class Multisets
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetReadsTester.java:23: error: cannot find symbol
+import com.google.common.collect.HashMultiset;
+                                ^
+  symbol:   class HashMultiset
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetReadsTester.java:24: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetReadsTester.java:25: error: cannot find symbol
+import com.google.common.collect.Multisets;
+                                ^
+  symbol:   class Multisets
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultisetSetCountTester.java:29: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultisetSetCountTester.java:30: error: package com.google.common.collect.Multiset does not exist
+import com.google.common.collect.Multiset.Entry;
+                                         ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetFeature.java:20: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetEntrySetTester.java:28: error: cannot find symbol
+import com.google.common.collect.Iterables;
+                                ^
+  symbol:   class Iterables
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetEntrySetTester.java:29: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetEntrySetTester.java:30: error: cannot find symbol
+import com.google.common.collect.Multisets;
+                                ^
+  symbol:   class Multisets
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetFeature.java:35: error: cannot find symbol
+public enum MultisetFeature implements Feature<Multiset> {
+                                               ^
+  symbol: class Multiset
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetFeature.java:43: error: cannot find symbol
+  public Set<Feature<? super Multiset>> getImpliedFeatures() {
+                             ^
+  symbol:   class Multiset
+  location: class MultisetFeature
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetSerializationTester.java:22: error: cannot find symbol
+import com.google.common.collect.Multiset;
+                                ^
+  symbol:   class Multiset
+  location: package com.google.common.collect
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:185: error: cannot find symbol
+      return ((Multiset<E>) gen.create(duplicated)).elementSet();
+               ^
+  symbol:   class Multiset
+  location: class ElementSetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class ElementSetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:210: error: cannot find symbol
+          Multisets.immutableEntry(samples.e0(), 3),
+          ^
+  symbol:   variable Multisets
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:211: error: cannot find symbol
+          Multisets.immutableEntry(samples.e1(), 4),
+          ^
+  symbol:   variable Multisets
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:212: error: cannot find symbol
+          Multisets.immutableEntry(samples.e2(), 1),
+          ^
+  symbol:   variable Multisets
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:213: error: cannot find symbol
+          Multisets.immutableEntry(samples.e3(), 5),
+          ^
+  symbol:   variable Multisets
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:214: error: cannot find symbol
+          Multisets.immutableEntry(samples.e4(), 2));
+          ^
+  symbol:   variable Multisets
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:223: error: package Multiset does not exist
+        Multiset.Entry<E> entry = (Entry<E>) o;
+                ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:223: error: cannot find symbol
+        Multiset.Entry<E> entry = (Entry<E>) o;
+                                   ^
+  symbol:   class Entry
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:230: error: cannot find symbol
+      return ((Multiset<E>) gen.create(contents.toArray())).entrySet();
+               ^
+  symbol:   class Multiset
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:236: error: package Multiset does not exist
+      return new Multiset.Entry[length];
+                         ^
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:242: error: cannot find symbol
+      Map<E, Entry<E>> map = new LinkedHashMap<>();
+             ^
+  symbol:   class Entry
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:243: error: cannot find symbol
+      for (Entry<E> entry : insertionOrder) {
+           ^
+  symbol:   class Entry
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:248: error: cannot find symbol
+      List<Entry<E>> order = new ArrayList<>();
+           ^
+  symbol:   class Entry
+  location: class EntrySetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class EntrySetGenerator
+hybrids/com.google.guava/guava-testlib/31.1-jre/MultisetTestSuiteBuilder.java:272: error: cannot find symbol
+      return (Multiset<E>) SerializableTester.reserialize(gen.create(elements));
+              ^
+  symbol:   class Multiset
+  location: class ReserializedMultisetGenerator<E>
+  where E is a type-variable:
+    E extends Object declared in class ReserializedMultisetGenerator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/Platform.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/Platform.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:60: error: cannot find symbol
+      this.spliterator = checkNotNull(spliterator);
+                         ^
+  symbol:   method checkNotNull(Spliterator<E>)
+  location: class GeneralSpliterator<E>
+  where E is a type-variable:
+    E extends Object declared in class GeneralSpliterator
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:240: error: cannot find symbol
+        ImmutableSet.of(() -> new GeneralSpliteratorOfObject<>(spliteratorSupplier.get())));
+        ^
+  symbol:   variable ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:247: error: cannot find symbol
+        ImmutableSet.of(
+        ^
+  symbol:   variable ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:256: error: cannot find symbol
+        ImmutableSet.of(
+        ^
+  symbol:   variable ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:266: error: cannot find symbol
+        ImmutableSet.of(
+        ^
+  symbol:   variable ImmutableSet
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:302: error: cannot find symbol
+          assertTrue(Ordering.from(comparator).isOrdered(resultsForStrategy));
+                     ^
+  symbol:   variable Ordering
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/SpliteratorTester.java:305: error: cannot find symbol
+          assertEquals(Ints.checkedCast(estimatedSize), resultsForStrategy.size());
+                       ^
+  symbol:   variable Ints
+  location: class SpliteratorTester<E>
+  where E is a type-variable:
+    E extends Object declared in class SpliteratorTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/AbstractMultisetTester.java:33: error: cannot find symbol
+    return (Multiset<E>) collection;
+            ^
+  symbol:   class Multiset
+  location: class AbstractMultisetTester<E>
+  where E is a type-variable:
+    E extends Object declared in class AbstractMultisetTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:80: error: cannot find symbol
+  private final List<List<Object>> equalityGroups = Lists.newArrayList();
+                                                    ^
+  symbol:   variable Lists
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:89: error: cannot find symbol
+    this.itemReporter = checkNotNull(itemReporter);
+                        ^
+  symbol:   method checkNotNull(ItemReporter)
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:97: error: cannot find symbol
+    checkNotNull(equalityGroup);
+    ^
+  symbol:   method checkNotNull(Object[])
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:98: error: cannot find symbol
+    equalityGroups.add(ImmutableList.copyOf(equalityGroup));
+                       ^
+  symbol:   variable ImmutableList
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:106: error: cannot find symbol
+            Equivalence.equals(), "Object#equals", "Object#hashCode", itemReporter);
+            ^
+  symbol:   variable Equivalence
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/EqualsTester.java:118: error: cannot find symbol
+    for (Object item : Iterables.concat(equalityGroups)) {
+                       ^
+  symbol:   variable Iterables
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:55: error: cannot find symbol
+  private final List<ImmutableList<T>> groups = Lists.newArrayList();
+                                                ^
+  symbol:   variable Lists
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:63: error: cannot find symbol
+    this.relationshipName = checkNotNull(relationshipName);
+                            ^
+  symbol:   method checkNotNull(String)
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:64: error: cannot find symbol
+    this.hashName = checkNotNull(hashName);
+                    ^
+  symbol:   method checkNotNull(String)
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:65: error: cannot find symbol
+    this.itemReporter = checkNotNull(itemReporter);
+                        ^
+  symbol:   method checkNotNull(ItemReporter)
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:70: error: cannot find symbol
+    groups.add(ImmutableList.copyOf(group));
+               ^
+  symbol:   variable ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:76: error: cannot find symbol
+      ImmutableList<T> group = groups.get(groupNumber);
+      ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:89: error: cannot find symbol
+            ImmutableList<T> unrelatedGroup = groups.get(unrelatedGroupNumber);
+            ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:43: error: cannot find symbol
+    List<Entry<E>> expected = new ArrayList<>(getMultiset().entrySet());
+         ^
+  symbol:   class Entry
+  location: class MultisetForEachEntryTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetForEachEntryTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:44: error: cannot find symbol
+    List<Entry<E>> actual = new ArrayList<>();
+         ^
+  symbol:   class Entry
+  location: class MultisetForEachEntryTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetForEachEntryTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:46: error: cannot find symbol
+        .forEachEntry((element, count) -> actual.add(Multisets.immutableEntry(element, count)));
+                                                     ^
+  symbol:   variable Multisets
+  location: class MultisetForEachEntryTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetForEachEntryTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:52: error: cannot find symbol
+    List<Entry<E>> expected = new ArrayList<>(getMultiset().entrySet());
+         ^
+  symbol:   class Entry
+  location: class MultisetForEachEntryTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetForEachEntryTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:53: error: cannot find symbol
+    List<Entry<E>> actual = new ArrayList<>();
+         ^
+  symbol:   class Entry
+  location: class MultisetForEachEntryTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetForEachEntryTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:55: error: cannot find symbol
+        .forEachEntry((element, count) -> actual.add(Multisets.immutableEntry(element, count)));
+                                                     ^
+  symbol:   variable Multisets
+  location: class MultisetForEachEntryTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetForEachEntryTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:61: error: cannot find symbol
+    List<Entry<E>> expected = Collections.singletonList(Multisets.immutableEntry(e0(), 3));
+         ^
+  symbol:   class Entry
+  location: class MultisetForEachEntryTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetForEachEntryTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:61: error: cannot find symbol
+    List<Entry<E>> expected = Collections.singletonList(Multisets.immutableEntry(e0(), 3));
+                                                        ^
+  symbol:   variable Multisets
+  location: class MultisetForEachEntryTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetForEachEntryTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:62: error: cannot find symbol
+    List<Entry<E>> actual = new ArrayList<>();
+         ^
+  symbol:   class Entry
+  location: class MultisetForEachEntryTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetForEachEntryTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetForEachEntryTester.java:64: error: cannot find symbol
+        .forEachEntry((element, count) -> actual.add(Multisets.immutableEntry(element, count)));
+                                                     ^
+  symbol:   variable Multisets
+  location: class MultisetForEachEntryTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetForEachEntryTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetReadsTester.java:50: error: cannot find symbol
+        getMultiset().entrySet().contains(Multisets.immutableEntry(e0(), 1)));
+                                          ^
+  symbol:   variable Multisets
+  location: class MultisetReadsTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetReadsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/collect/testing/google/MultisetReadsTester.java:56: error: cannot find symbol
+        getMultiset().entrySet().contains(Multisets.immutableEntry(e3(), 0)));
+                                          ^
+  symbol:   variable Multisets
+  location: class MultisetReadsTester<E>
+  where E is a type-variable:
+    E extends Object declared in class MultisetReadsTester
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 errors

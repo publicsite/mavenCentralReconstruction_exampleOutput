@@ -1,0 +1,71 @@
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/registry/DmtServiceFactory.java:9: error: cannot find symbol
+import info.dmtree.DmtAdmin;
+                  ^
+  symbol:   class DmtAdmin
+  location: package info.dmtree
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/registry/DmtServiceFactory.java:19: error: cannot find symbol
+    public static DmtAdmin getDmtAdmin() {
+                  ^
+  symbol:   class DmtAdmin
+  location: class DmtServiceFactory
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/notification/NotificationService.java:7: error: cannot find symbol
+import info.dmtree.DmtException;
+                  ^
+  symbol:   class DmtException
+  location: package info.dmtree
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/notification/AlertItem.java:7: error: cannot find symbol
+import info.dmtree.Uri;
+                  ^
+  symbol:   class Uri
+  location: package info.dmtree
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/notification/AlertItem.java:8: error: cannot find symbol
+import info.dmtree.DmtData;
+                  ^
+  symbol:   class DmtData
+  location: package info.dmtree
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/notification/NotificationService.java:11: error: cannot find symbol
+    void sendNotification(final String p0, final int p1, final String p2, final AlertItem[] p3) throws DmtException;
+                                                                                                       ^
+  symbol:   class DmtException
+  location: interface NotificationService
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/notification/AlertItem.java:15: error: cannot find symbol
+    private final DmtData data;
+                  ^
+  symbol:   class DmtData
+  location: class AlertItem
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/notification/AlertItem.java:17: error: cannot find symbol
+    public AlertItem(final String source, final String type, final String mark, final DmtData data) {
+                                                                                      ^
+  symbol:   class DmtData
+  location: class AlertItem
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/notification/AlertItem.java:24: error: cannot find symbol
+    public AlertItem(final String[] source, final String type, final String mark, final DmtData data) {
+                                                                                        ^
+  symbol:   class DmtData
+  location: class AlertItem
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/notification/AlertItem.java:48: error: cannot find symbol
+    public DmtData getData() {
+           ^
+  symbol:   class DmtData
+  location: class AlertItem
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/registry/DmtServiceFactory.java:23: error: cannot find symbol
+        final ServiceReference dmtAdminRef = DmtServiceFactory.context.getServiceReference(DmtAdmin.class.getName());
+                                                                                           ^
+  symbol:   class DmtAdmin
+  location: class DmtServiceFactory
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/registry/DmtServiceFactory.java:27: error: cannot find symbol
+        final DmtAdmin dmtAdmin = (DmtAdmin)DmtServiceFactory.context.getService(dmtAdminRef);
+              ^
+  symbol:   class DmtAdmin
+  location: class DmtServiceFactory
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/registry/DmtServiceFactory.java:27: error: cannot find symbol
+        final DmtAdmin dmtAdmin = (DmtAdmin)DmtServiceFactory.context.getService(dmtAdminRef);
+                                   ^
+  symbol:   class DmtAdmin
+  location: class DmtServiceFactory
+sources/structure/org.apache.felix/org.osgi.compendium/1.2.0/Decompiled/info/dmtree/notification/AlertItem.java:29: error: cannot find symbol
+            this.source = Uri.toUri(source);
+                          ^
+  symbol:   variable Uri
+  location: class AlertItem
+14 errors

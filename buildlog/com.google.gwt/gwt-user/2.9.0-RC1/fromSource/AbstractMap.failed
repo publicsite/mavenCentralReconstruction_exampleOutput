@@ -1,0 +1,28 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractMap.java:16: error: package exists in another module: java.base
+package java.util;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractMap.java:187: error: method hashCode in class Object cannot be applied to given types;
+    return Collections.hashCode(entrySet());
+                      ^
+  required: no arguments
+  found: Set<Entry<K,V>>
+  reason: actual and formal argument lists differ in length
+  where K,V are type-variables:
+    K extends Object declared in class AbstractMap
+    V extends Object declared in class AbstractMap
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractMap.java:201: error: not an enclosing class: AbstractMap
+        AbstractMap.this.clear();
+                   ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractMap.java:234: error: not an enclosing class: AbstractMap
+          AbstractMap.this.remove(key);
+                     ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractMap.java:242: error: not an enclosing class: AbstractMap
+        return AbstractMap.this.size();
+                          ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractMap.java:292: error: not an enclosing class: AbstractMap
+        AbstractMap.this.clear();
+                   ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/util/AbstractMap.java:324: error: not an enclosing class: AbstractMap
+        return AbstractMap.this.size();
+                          ^
+7 errors

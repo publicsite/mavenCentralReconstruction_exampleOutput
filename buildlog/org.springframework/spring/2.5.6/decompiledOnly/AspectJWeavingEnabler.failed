@@ -1,0 +1,21 @@
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/weaving/AspectJWeavingEnabler.java:11: error: cannot find symbol
+import org.aspectj.weaver.loadtime.ClassPreProcessorAgentAdapter;
+                                  ^
+  symbol:   class ClassPreProcessorAgentAdapter
+  location: package org.aspectj.weaver.loadtime
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/InstrumentationLoadTimeWeaver.java:26: error: cannot find symbol
+import org.springframework.instrument.InstrumentationSavingAgent;
+                                     ^
+  symbol:   class InstrumentationSavingAgent
+  location: package org.springframework.instrument
+sources/structure/org.springframework/spring/2.5.6/Decompiled/org/springframework/context/weaving/AspectJWeavingEnabler.java:41: error: cannot find symbol
+        weaverToUse.addTransformer(new AspectJClassBypassingClassFileTransformer((ClassFileTransformer)new ClassPreProcessorAgentAdapter()));
+                                                                                                           ^
+  symbol:   class ClassPreProcessorAgentAdapter
+  location: class AspectJWeavingEnabler
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/instrument/classloading/InstrumentationLoadTimeWeaver.java:156: error: cannot find symbol
+			return InstrumentationSavingAgent.getInstrumentation();
+			       ^
+  symbol:   variable InstrumentationSavingAgent
+  location: class InstrumentationAccessor
+4 errors

@@ -1,0 +1,10 @@
+hybrids/xml-apis/xml-apis/2.0.2/DocumentBuilderFactory.java:56: error: package exists in another module: java.xml
+package javax.xml.parsers;
+^
+hybrids/xml-apis/xml-apis/2.0.2/DocumentBuilderFactory.java:139: error: FactoryFinder is not public in javax.xml.parsers; cannot be accessed from outside package
+            return (DocumentBuilderFactory) FactoryFinder.find(
+                                            ^
+hybrids/xml-apis/xml-apis/2.0.2/DocumentBuilderFactory.java:144: error: package FactoryFinder does not exist
+        } catch (FactoryFinder.ConfigurationError e) {
+                              ^
+3 errors

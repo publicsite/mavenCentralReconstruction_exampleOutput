@@ -1,0 +1,39 @@
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:14: error: package org.junit.platform.commons.util.ReflectionUtils does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.HierarchyTraversalMode.BOTTOM_UP;
+                                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:14: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.HierarchyTraversalMode.BOTTOM_UP;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:15: error: package org.junit.platform.commons.util does not exist
+import static org.junit.platform.commons.util.ReflectionUtils.findMethods;
+                                             ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:15: error: static import only from classes and interfaces
+import static org.junit.platform.commons.util.ReflectionUtils.findMethods;
+^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:23: error: package org.junit.platform.commons does not exist
+import org.junit.platform.commons.JUnitException;
+                                 ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:24: error: package org.junit.platform.commons.util does not exist
+import org.junit.platform.commons.util.AnnotationUtils;
+                                      ^
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:49: error: cannot find symbol
+			Method method = findMethods(instance.getClass(), isAnnotationConsumerAcceptMethod, BOTTOM_UP).get(0);
+			                                                                                   ^
+  symbol:   variable BOTTOM_UP
+  location: class AnnotationConsumerInitializer
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:51: error: cannot find symbol
+			Annotation annotation = AnnotationUtils.findAnnotation(annotatedElement, annotationType) //
+			                        ^
+  symbol:   variable AnnotationUtils
+  location: class AnnotationConsumerInitializer
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:52: error: cannot find symbol
+					.orElseThrow(() -> new JUnitException(instance.getClass().getName()
+					                       ^
+  symbol:   class JUnitException
+  location: class AnnotationConsumerInitializer
+sources/structure/org.junit.jupiter/junit-jupiter-params/5.4.0/extractedSources/org/junit/jupiter/params/support/AnnotationConsumerInitializer.java:65: error: cannot find symbol
+			throw new JUnitException("Failed to initialize AnnotationConsumer: " + instance, ex);
+			          ^
+  symbol:   class JUnitException
+  location: class AnnotationConsumerInitializer
+10 errors

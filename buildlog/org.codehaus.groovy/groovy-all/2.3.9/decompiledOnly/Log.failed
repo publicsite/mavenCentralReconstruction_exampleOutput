@@ -1,0 +1,179 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:8: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassHelper;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:10: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.TernaryExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:11: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.BooleanExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:12: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ArgumentListExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:13: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.AttributeExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:15: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.Expression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:16: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.MethodCallExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:17: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ConstantExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:18: error: package org.codehaus.groovy.ast.expr does not exist
+import org.codehaus.groovy.ast.expr.ClassExpression;
+                                   ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:19: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.FieldNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:20: error: cannot find symbol
+import groovy.lang.GroovyClassLoader;
+                  ^
+  symbol:   class GroovyClassLoader
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:21: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:22: error: cannot find symbol
+import org.codehaus.groovy.transform.LogASTTransformation;
+                                    ^
+  symbol:   class LogASTTransformation
+  location: package org.codehaus.groovy.transform
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:40: error: package LogASTTransformation does not exist
+    Class<? extends LogASTTransformation.LoggingStrategy> loggingStrategy() default JavaUtilLoggingStrategy.class;
+                                        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:42: error: package LogASTTransformation does not exist
+    public static class JavaUtilLoggingStrategy extends LogASTTransformation.AbstractLoggingStrategy
+                                                                            ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:44: error: cannot find symbol
+        private static final ClassNode LOGGER_CLASSNODE;
+                             ^
+  symbol:   class ClassNode
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:45: error: cannot find symbol
+        private static final ClassNode LEVEL_CLASSNODE;
+                             ^
+  symbol:   class ClassNode
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:47: error: cannot find symbol
+        protected JavaUtilLoggingStrategy(final GroovyClassLoader loader) {
+                                                ^
+  symbol:   class GroovyClassLoader
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:52: error: cannot find symbol
+        public FieldNode addLoggerFieldToClass(final ClassNode classNode, final String logFieldName, final String categoryName) {
+                                                     ^
+  symbol:   class ClassNode
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:52: error: cannot find symbol
+        public FieldNode addLoggerFieldToClass(final ClassNode classNode, final String logFieldName, final String categoryName) {
+               ^
+  symbol:   class FieldNode
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:62: error: cannot find symbol
+        public Expression wrapLoggingMethodCall(final Expression logVariable, final String methodName, final Expression originalExpression) {
+                                                      ^
+  symbol:   class Expression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:62: error: cannot find symbol
+        public Expression wrapLoggingMethodCall(final Expression logVariable, final String methodName, final Expression originalExpression) {
+                                                                                                             ^
+  symbol:   class Expression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:62: error: cannot find symbol
+        public Expression wrapLoggingMethodCall(final Expression logVariable, final String methodName, final Expression originalExpression) {
+               ^
+  symbol:   class Expression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:51: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:53: error: cannot find symbol
+            return classNode.addField(logFieldName, 154, JavaUtilLoggingStrategy.LOGGER_CLASSNODE, new MethodCallExpression(new ClassExpression(JavaUtilLoggingStrategy.LOGGER_CLASSNODE), "getLogger", new ConstantExpression(this.getCategoryName(classNode, categoryName))));
+                                                                                                       ^
+  symbol:   class MethodCallExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:53: error: cannot find symbol
+            return classNode.addField(logFieldName, 154, JavaUtilLoggingStrategy.LOGGER_CLASSNODE, new MethodCallExpression(new ClassExpression(JavaUtilLoggingStrategy.LOGGER_CLASSNODE), "getLogger", new ConstantExpression(this.getCategoryName(classNode, categoryName))));
+                                                                                                                                ^
+  symbol:   class ClassExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:53: error: cannot find symbol
+            return classNode.addField(logFieldName, 154, JavaUtilLoggingStrategy.LOGGER_CLASSNODE, new MethodCallExpression(new ClassExpression(JavaUtilLoggingStrategy.LOGGER_CLASSNODE), "getLogger", new ConstantExpression(this.getCategoryName(classNode, categoryName))));
+                                                                                                                                                                                                            ^
+  symbol:   class ConstantExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:56: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:61: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:63: error: cannot find symbol
+            final AttributeExpression logLevelExpression = new AttributeExpression(new ClassExpression(JavaUtilLoggingStrategy.LEVEL_CLASSNODE), new ConstantExpression(methodName.toUpperCase(Locale.ENGLISH)));
+                  ^
+  symbol:   class AttributeExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:63: error: cannot find symbol
+            final AttributeExpression logLevelExpression = new AttributeExpression(new ClassExpression(JavaUtilLoggingStrategy.LEVEL_CLASSNODE), new ConstantExpression(methodName.toUpperCase(Locale.ENGLISH)));
+                                                               ^
+  symbol:   class AttributeExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:63: error: cannot find symbol
+            final AttributeExpression logLevelExpression = new AttributeExpression(new ClassExpression(JavaUtilLoggingStrategy.LEVEL_CLASSNODE), new ConstantExpression(methodName.toUpperCase(Locale.ENGLISH)));
+                                                                                       ^
+  symbol:   class ClassExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:63: error: cannot find symbol
+            final AttributeExpression logLevelExpression = new AttributeExpression(new ClassExpression(JavaUtilLoggingStrategy.LEVEL_CLASSNODE), new ConstantExpression(methodName.toUpperCase(Locale.ENGLISH)));
+                                                                                                                                                     ^
+  symbol:   class ConstantExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:64: error: cannot find symbol
+            final ArgumentListExpression args = new ArgumentListExpression();
+                  ^
+  symbol:   class ArgumentListExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:64: error: cannot find symbol
+            final ArgumentListExpression args = new ArgumentListExpression();
+                                                    ^
+  symbol:   class ArgumentListExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:66: error: cannot find symbol
+            final MethodCallExpression condition = new MethodCallExpression(logVariable, "isLoggable", args);
+                  ^
+  symbol:   class MethodCallExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:66: error: cannot find symbol
+            final MethodCallExpression condition = new MethodCallExpression(logVariable, "isLoggable", args);
+                                                       ^
+  symbol:   class MethodCallExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:67: error: cannot find symbol
+            return new TernaryExpression(new BooleanExpression(condition), originalExpression, ConstantExpression.NULL);
+                       ^
+  symbol:   class TernaryExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:67: error: cannot find symbol
+            return new TernaryExpression(new BooleanExpression(condition), originalExpression, ConstantExpression.NULL);
+                                             ^
+  symbol:   class BooleanExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:67: error: cannot find symbol
+            return new TernaryExpression(new BooleanExpression(condition), originalExpression, ConstantExpression.NULL);
+                                                                                               ^
+  symbol:   variable ConstantExpression
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:71: error: cannot find symbol
+            LOGGER_CLASSNODE = ClassHelper.make(Logger.class);
+                               ^
+  symbol:   variable ClassHelper
+  location: class JavaUtilLoggingStrategy
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/groovy/util/logging/Log.java:72: error: cannot find symbol
+            LEVEL_CLASSNODE = ClassHelper.make(Level.class);
+                              ^
+  symbol:   variable ClassHelper
+  location: class JavaUtilLoggingStrategy
+42 errors

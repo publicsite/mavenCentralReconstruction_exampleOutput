@@ -1,0 +1,16 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/jboss/JBossWorkManagerUtils.java:25: error: package javax.resource.spi.work does not exist
+import javax.resource.spi.work.WorkManager;
+                              ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/jboss/JBossWorkManagerUtils.java:48: error: cannot find symbol
+	public static WorkManager getWorkManager() {
+	              ^
+  symbol:   class WorkManager
+  location: class JBossWorkManagerUtils
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/jboss/JBossWorkManagerUtils.java:56: error: cannot find symbol
+			return (WorkManager) getInstanceMethod.invoke(workManagerMBean, new Object[0]);
+			        ^
+  symbol:   class WorkManager
+  location: class JBossWorkManagerUtils
+Note: sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/jca/work/jboss/JBossWorkManagerUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors

@@ -1,0 +1,37 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:23: error: package javax.xml.ws does not exist
+import javax.xml.ws.Service;
+                   ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:24: error: package javax.xml.ws.handler does not exist
+import javax.xml.ws.handler.HandlerResolver;
+                           ^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:53: error: cannot find symbol
+	private HandlerResolver handlerResolver;
+	        ^
+  symbol:   class HandlerResolver
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:123: error: cannot find symbol
+	public void setHandlerResolver(HandlerResolver handlerResolver) {
+	                               ^
+  symbol:   class HandlerResolver
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:133: error: cannot find symbol
+	public Service createJaxWsService() {
+	       ^
+  symbol:   class Service
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:134: error: cannot find symbol
+		Service service = (this.wsdlDocumentUrl != null ?
+		^
+  symbol:   class Service
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:135: error: cannot find symbol
+				Service.create(this.wsdlDocumentUrl, getQName(this.serviceName)) :
+				^
+  symbol:   variable Service
+  location: class LocalJaxWsServiceFactory
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/remoting/jaxws/LocalJaxWsServiceFactory.java:136: error: cannot find symbol
+				Service.create(getQName(this.serviceName)));
+				^
+  symbol:   variable Service
+  location: class LocalJaxWsServiceFactory
+8 errors

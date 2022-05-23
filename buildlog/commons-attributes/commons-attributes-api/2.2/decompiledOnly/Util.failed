@@ -1,0 +1,118 @@
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:109: error: incompatible types: Object cannot be converted to String
+        for (final String fieldName : fieldAttrs.keySet()) {
+                                                       ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:110: error: incompatible types: Object cannot be converted to Collection
+            checkTargets(2, fieldAttrs.get(fieldName), owningClass.getName() + "." + fieldName);
+                                          ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:113: error: incompatible types: Object cannot be converted to String
+        for (final String ctorName : ctorAttrs.keySet()) {
+                                                     ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:114: error: incompatible types: Object cannot be converted to List
+            final List bundle = ctorAttrs.get(ctorName);
+                                             ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:118: error: incompatible types: Object cannot be converted to Collection
+                        checkTargets(8, bundle.get(0), owningClass.getName() + "." + ctorName);
+                                                  ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:122: error: incompatible types: Object cannot be converted to Collection
+                        checkTargets(32, bundle.get(i), "parameter " + i + " of " + owningClass.getName() + ctorName);
+                                                   ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:129: error: incompatible types: Object cannot be converted to String
+        for (final String methodName : methodAttrs.keySet()) {
+                                                         ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:130: error: incompatible types: Object cannot be converted to List
+            final List bundle2 = methodAttrs.get(methodName);
+                                                ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:134: error: incompatible types: Object cannot be converted to Collection
+                        checkTargets(4, bundle2.get(0), owningClass.getName() + "." + methodName);
+                                                   ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:138: error: incompatible types: Object cannot be converted to Collection
+                        checkTargets(64, bundle2.get(1), "return value of " + owningClass.getName() + "." + methodName);
+                                                    ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Util.java:142: error: incompatible types: Object cannot be converted to Collection
+                        checkTargets(16, bundle2.get(j), "parameter " + (j - 1) + " of " + owningClass.getName() + "." + methodName);
+                                                    ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Attributes.java:32: error: incompatible types: Object cannot be converted to CachedRepository
+            final CachedRepository cr = Attributes.classRepositories.get(clazz);
+                                                                        ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Attributes.java:42: error: incompatible types: Object cannot be converted to AttributeRepositoryClass
+                repo = attributeRepo.newInstance();
+                                                ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/RuntimeAttributeRepository.java:51: error: incompatible types: Object cannot be converted to List
+        List bundle = map.get(signature);
+                             ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/RuntimeAttributeRepository.java:88: error: incompatible types: Object cannot be converted to Set
+        Set attributeSet = this.fieldAttributes.get(signature);
+                                                   ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/RuntimeAttributeRepository.java:103: error: incompatible types: Object cannot be converted to Set
+        final Set ctorAttrs = bundle.get(0);
+                                        ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/RuntimeAttributeRepository.java:114: error: incompatible types: Object cannot be converted to Set
+        final Set methodAttrs = bundle.get(0);
+                                          ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/RuntimeAttributeRepository.java:125: error: incompatible types: Object cannot be converted to Set
+        final Set parameterAttrs = bundle.get(parameterIndex + 1);
+                                             ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/RuntimeAttributeRepository.java:136: error: incompatible types: Object cannot be converted to Set
+        final Set parameterAttrs = bundle.get(parameterIndex + 2);
+                                             ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/RuntimeAttributeRepository.java:147: error: incompatible types: Object cannot be converted to Set
+        final Set returnAttrs = bundle.get(1);
+                                          ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:47: error: incompatible types: Object cannot be converted to List
+                attributeBundle = repo.getMethodAttributes().get(key);
+                                                                ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:51: error: incompatible types: Object cannot be converted to Collection
+                attributes.addAll(attributeBundle.get(0));
+                                                     ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:62: error: incompatible types: Object cannot be converted to Collection
+                attributes.addAll(attributeBundle.get(1));
+                                                     ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:74: error: incompatible types: Object cannot be converted to Collection
+                    attributes.addAll(attributeBundle.get(l + 2));
+                                                         ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:90: error: incompatible types: Object cannot be converted to List
+                attributeBundle = repo.getConstructorAttributes().get(key2);
+                                                                     ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:92: error: incompatible types: Object cannot be converted to Collection
+                bundle2.setAttributes(attributeBundle.get(0));
+                                                         ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:94: error: incompatible types: Object cannot be converted to Collection
+                    bundle2.addParameterAttributes(attributeBundle.get(l + 1));
+                                                                      ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:199: error: incompatible types: Object cannot be converted to Collection
+            return this.fields.get(f);
+                                  ^
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:206: error: cannot find symbol
+            return this.methods.get(m).getAttributes();
+                                      ^
+  symbol:   method getAttributes()
+  location: class Object
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:213: error: cannot find symbol
+            return this.constructors.get(c).getParameterAttributes(parameter);
+                                           ^
+  symbol:   method getParameterAttributes(int)
+  location: class Object
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:220: error: cannot find symbol
+            return this.methods.get(m).getParameterAttributes(parameter);
+                                      ^
+  symbol:   method getParameterAttributes(int)
+  location: class Object
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:227: error: cannot find symbol
+            return this.methods.get(m).getReturnAttributes();
+                                      ^
+  symbol:   method getReturnAttributes()
+  location: class Object
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:234: error: cannot find symbol
+            return this.constructors.get(c).getAttributes();
+                                           ^
+  symbol:   method getAttributes()
+  location: class Object
+sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/DefaultCachedRepository.java:269: error: incompatible types: Object cannot be converted to Collection
+            return this.parameterAttributes.get(index);
+                                               ^
+Note: sources/structure/commons-attributes/commons-attributes-api/2.2/Decompiled/org/apache/commons/attributes/Attributes.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+34 errors

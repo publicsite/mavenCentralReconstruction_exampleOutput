@@ -1,0 +1,518 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:35: error: package exists in another module: java.base
+package java.math;
+^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:55: error: cannot find symbol
+    int op1Sign = op1.sign;
+                     ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:56: error: cannot find symbol
+    int op2Sign = op2.sign;
+                     ^
+  symbol:   variable sign
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:64: error: cannot find symbol
+    int op1Len = op1.numberLength;
+                    ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:65: error: cannot find symbol
+    int op2Len = op2.numberLength;
+                    ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:68: error: cannot find symbol
+      long a = (op1.digits[0] & 0xFFFFFFFFL);
+                   ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:69: error: cannot find symbol
+      long b = (op2.digits[0] & 0xFFFFFFFFL);
+                   ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:78: error: no suitable constructor found for BigInteger(int,int)
+        return ((valueHi == 0) ? new BigInteger(op1Sign, valueLo)
+                                 ^
+    constructor BigInteger.BigInteger(int,byte[]) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(int,int[]) is not applicable
+      (argument mismatch; int cannot be converted to int[])
+    constructor BigInteger.BigInteger(String,int) is not applicable
+      (argument mismatch; int cannot be converted to String)
+    constructor BigInteger.BigInteger(int,Random) is not applicable
+      (argument mismatch; int cannot be converted to Random)
+    constructor BigInteger.BigInteger(int[],int) is not applicable
+      (argument mismatch; int cannot be converted to int[])
+    constructor BigInteger.BigInteger(byte[],int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:79: error: no suitable constructor found for BigInteger(int,int,int[])
+            : new BigInteger(op1Sign, 2, new int[] {valueLo, valueHi}));
+              ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:85: error: cannot find symbol
+      resDigits = (op1Len >= op2Len) ? add(op1.digits, op1Len, op2.digits,
+                                              ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:85: error: cannot find symbol
+      resDigits = (op1Len >= op2Len) ? add(op1.digits, op1Len, op2.digits,
+                                                                  ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:86: error: cannot find symbol
+          op2Len) : add(op2.digits, op2Len, op1.digits, op1Len);
+                           ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:86: error: cannot find symbol
+          op2Len) : add(op2.digits, op2Len, op1.digits, op1Len);
+                                               ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:89: error: cannot find symbol
+          : compareArrays(op1.digits, op2.digits, op1Len));
+                             ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:89: error: cannot find symbol
+          : compareArrays(op1.digits, op2.digits, op1Len));
+                                         ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:91: error: cannot find symbol
+      if (cmp == BigInteger.EQUALS) {
+                           ^
+  symbol:   variable EQUALS
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:95: error: cannot find symbol
+      if (cmp == BigInteger.GREATER) {
+                           ^
+  symbol:   variable GREATER
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:97: error: cannot find symbol
+        resDigits = subtract(op1.digits, op1Len, op2.digits, op2Len);
+                                ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:97: error: cannot find symbol
+        resDigits = subtract(op1.digits, op1Len, op2.digits, op2Len);
+                                                    ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:100: error: cannot find symbol
+        resDigits = subtract(op2.digits, op2Len, op1.digits, op1Len);
+                                ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:100: error: cannot find symbol
+        resDigits = subtract(op2.digits, op2Len, op1.digits, op1Len);
+                                                    ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:103: error: no suitable constructor found for BigInteger(int,int,int[])
+    BigInteger res = new BigInteger(resSign, resDigits.length, resDigits);
+                     ^
+    constructor BigInteger.BigInteger(byte[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to byte[])
+    constructor BigInteger.BigInteger(char[],int,int) is not applicable
+      (argument mismatch; int cannot be converted to char[])
+    constructor BigInteger.BigInteger(int,int,Random) is not applicable
+      (argument mismatch; int[] cannot be converted to Random)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:104: error: cannot find symbol
+    res.cutOffLeadingZeroes();
+       ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable res of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:122: error: cannot find symbol
+    return ((i < 0) ? BigInteger.EQUALS
+                                ^
+  symbol:   variable EQUALS
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:123: error: cannot find symbol
+        : (a[i] & 0xFFFFFFFFL) < (b[i] & 0xFFFFFFFFL) ? BigInteger.LESS
+                                                                  ^
+  symbol:   variable LESS
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:124: error: cannot find symbol
+            : BigInteger.GREATER);
+                        ^
+  symbol:   variable GREATER
+  location: class BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:135: error: cannot find symbol
+    if (op1.sign == 0) {
+           ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:136: error: cannot find symbol
+      System.arraycopy(op2.digits, 0, op1.digits, 0, op2.numberLength);
+                          ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:136: error: cannot find symbol
+      System.arraycopy(op2.digits, 0, op1.digits, 0, op2.numberLength);
+                                         ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:136: error: cannot find symbol
+      System.arraycopy(op2.digits, 0, op1.digits, 0, op2.numberLength);
+                                                        ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:137: error: cannot find symbol
+    } else if (op2.sign == 0) {
+                  ^
+  symbol:   variable sign
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:139: error: cannot find symbol
+    } else if (op1.sign == op2.sign) {
+                  ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:139: error: cannot find symbol
+    } else if (op1.sign == op2.sign) {
+                              ^
+  symbol:   variable sign
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:140: error: cannot find symbol
+      add(op1.digits, op1.digits, op1.numberLength, op2.digits,
+             ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:140: error: cannot find symbol
+      add(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                         ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:140: error: cannot find symbol
+      add(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                     ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:140: error: cannot find symbol
+      add(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                                       ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:141: error: cannot find symbol
+          op2.numberLength);
+             ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:143: error: cannot find symbol
+      int sign = unsignedArraysCompare(op1.digits, op2.digits,
+                                          ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:143: error: cannot find symbol
+      int sign = unsignedArraysCompare(op1.digits, op2.digits,
+                                                      ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:144: error: cannot find symbol
+          op1.numberLength, op2.numberLength);
+             ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:144: error: cannot find symbol
+          op1.numberLength, op2.numberLength);
+                               ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:146: error: cannot find symbol
+        subtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                    ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:146: error: cannot find symbol
+        subtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:146: error: cannot find symbol
+        subtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                            ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:146: error: cannot find symbol
+        subtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                                              ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:147: error: cannot find symbol
+            op2.numberLength);
+               ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:149: error: cannot find symbol
+        inverseSubtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                           ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:149: error: cannot find symbol
+        inverseSubtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                       ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:149: error: cannot find symbol
+        inverseSubtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                                   ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:149: error: cannot find symbol
+        inverseSubtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                                                     ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:150: error: cannot find symbol
+            op2.numberLength);
+               ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:151: error: cannot find symbol
+        op1.sign = -op1.sign;
+           ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:151: error: cannot find symbol
+        op1.sign = -op1.sign;
+                       ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:154: error: cannot find symbol
+    op1.numberLength = Math.max(op1.numberLength, op2.numberLength) + 1;
+       ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:154: error: cannot find symbol
+    op1.numberLength = Math.max(op1.numberLength, op2.numberLength) + 1;
+                                   ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:154: error: cannot find symbol
+    op1.numberLength = Math.max(op1.numberLength, op2.numberLength) + 1;
+                                                     ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:155: error: cannot find symbol
+    op1.cutOffLeadingZeroes();
+       ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:156: error: cannot find symbol
+    op1.unCache();
+       ^
+  symbol:   method unCache()
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:168: error: cannot find symbol
+    if (op1.sign == 0) {
+           ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:169: error: cannot find symbol
+      System.arraycopy(op2.digits, 0, op1.digits, 0, op2.numberLength);
+                          ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:169: error: cannot find symbol
+      System.arraycopy(op2.digits, 0, op1.digits, 0, op2.numberLength);
+                                         ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:169: error: cannot find symbol
+      System.arraycopy(op2.digits, 0, op1.digits, 0, op2.numberLength);
+                                                        ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:170: error: cannot find symbol
+      op1.sign = -op2.sign;
+         ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:170: error: cannot find symbol
+      op1.sign = -op2.sign;
+                     ^
+  symbol:   variable sign
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:171: error: cannot find symbol
+    } else if (op1.sign != op2.sign) {
+                  ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:171: error: cannot find symbol
+    } else if (op1.sign != op2.sign) {
+                              ^
+  symbol:   variable sign
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:172: error: cannot find symbol
+      add(op1.digits, op1.digits, op1.numberLength, op2.digits,
+             ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:172: error: cannot find symbol
+      add(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                         ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:172: error: cannot find symbol
+      add(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                     ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:172: error: cannot find symbol
+      add(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                                       ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:173: error: cannot find symbol
+          op2.numberLength);
+             ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:174: error: cannot find symbol
+      op1.sign = resultSign;
+         ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:176: error: cannot find symbol
+      int sign = unsignedArraysCompare(op1.digits, op2.digits,
+                                          ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:176: error: cannot find symbol
+      int sign = unsignedArraysCompare(op1.digits, op2.digits,
+                                                      ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:177: error: cannot find symbol
+          op1.numberLength, op2.numberLength);
+             ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:177: error: cannot find symbol
+          op1.numberLength, op2.numberLength);
+                               ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:179: error: cannot find symbol
+        subtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                    ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:179: error: cannot find symbol
+        subtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:179: error: cannot find symbol
+        subtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                            ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:179: error: cannot find symbol
+        subtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                                              ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:180: error: cannot find symbol
+            op2.numberLength); // op1 = op1 - op2
+               ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:183: error: cannot find symbol
+        inverseSubtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                           ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:183: error: cannot find symbol
+        inverseSubtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                       ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:183: error: cannot find symbol
+        inverseSubtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                                   ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:183: error: cannot find symbol
+        inverseSubtract(op1.digits, op1.digits, op1.numberLength, op2.digits,
+                                                                     ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:184: error: cannot find symbol
+            op2.numberLength); // op1 = op2 - op1
+               ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:185: error: cannot find symbol
+        op1.sign = -op1.sign;
+           ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:185: error: cannot find symbol
+        op1.sign = -op1.sign;
+                       ^
+  symbol:   variable sign
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:188: error: cannot find symbol
+    op1.numberLength = Math.max(op1.numberLength, op2.numberLength) + 1;
+       ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:188: error: cannot find symbol
+    op1.numberLength = Math.max(op1.numberLength, op2.numberLength) + 1;
+                                   ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:188: error: cannot find symbol
+    op1.numberLength = Math.max(op1.numberLength, op2.numberLength) + 1;
+                                                     ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:189: error: cannot find symbol
+    op1.cutOffLeadingZeroes();
+       ^
+  symbol:   method cutOffLeadingZeroes()
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:190: error: cannot find symbol
+    op1.unCache();
+       ^
+  symbol:   method unCache()
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:203: error: cannot find symbol
+    add(op1.digits, op1.digits, op1.numberLength, op2.digits, op2.numberLength);
+           ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:203: error: cannot find symbol
+    add(op1.digits, op1.digits, op1.numberLength, op2.digits, op2.numberLength);
+                       ^
+  symbol:   variable digits
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:203: error: cannot find symbol
+    add(op1.digits, op1.digits, op1.numberLength, op2.digits, op2.numberLength);
+                                   ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:203: error: cannot find symbol
+    add(op1.digits, op1.digits, op1.numberLength, op2.digits, op2.numberLength);
+                                                     ^
+  symbol:   variable digits
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:203: error: cannot find symbol
+    add(op1.digits, op1.digits, op1.numberLength, op2.digits, op2.numberLength);
+                                                                 ^
+  symbol:   variable numberLength
+  location: variable op2 of type BigInteger
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/gwt/emul/java/math/Elementary.java:204: error: cannot find symbol
+    op1.numberLength = Math.min(
+       ^
+  symbol:   variable numberLength
+  location: variable op1 of type BigInteger
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors

@@ -1,0 +1,104 @@
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:44: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:45: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:46: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3194: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3202: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:131: error: no suitable constructor found for MemberSubstitution(Compiler,TypePoolResolver,boolean,Compound,<null>)
+            return new MemberSubstitution(this.methodGraphCompiler, this.typePoolResolver, this.strict, new Substitution.Compound(new Substitution[] { this.doStub(), this.substitution }), null);
+                   ^
+    constructor MemberSubstitution.MemberSubstitution(boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor MemberSubstitution.MemberSubstitution(Compiler,TypePoolResolver,boolean,Substitution) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:141: error: no suitable constructor found for MemberSubstitution(Compiler,TypePoolResolver,boolean,Compound,<null>)
+            return new MemberSubstitution(this.methodGraphCompiler, this.typePoolResolver, this.strict, new Substitution.Compound(new Substitution[] { this.doReplaceWith(fieldDescription), this.substitution }), null);
+                   ^
+    constructor MemberSubstitution.MemberSubstitution(boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor MemberSubstitution.MemberSubstitution(Compiler,TypePoolResolver,boolean,Substitution) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:154: error: no suitable constructor found for MemberSubstitution(Compiler,TypePoolResolver,boolean,Compound,<null>)
+            return new MemberSubstitution(this.methodGraphCompiler, this.typePoolResolver, this.strict, new Substitution.Compound(new Substitution[] { this.doReplaceWith(methodDescription), this.substitution }), null);
+                   ^
+    constructor MemberSubstitution.MemberSubstitution(boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor MemberSubstitution.MemberSubstitution(Compiler,TypePoolResolver,boolean,Substitution) is not applicable
+      (actual and formal argument lists differ in length)
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:335: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                final FieldList<FieldDescription.InDefinedShape> candidates = resolution.resolve().getDeclaredFields().filter(this.strict ? ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)) : ElementMatchers.failSafe(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))));
+                                                                                                                                                                                                                                                 ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:335: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                final FieldList<FieldDescription.InDefinedShape> candidates = resolution.resolve().getDeclaredFields().filter(this.strict ? ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)) : ElementMatchers.failSafe(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))));
+                                                                                                                                                                                                                                                                                                                                                                                               ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:386: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                    candidates = resolution.resolve().getDeclaredMethods().filter(this.strict ? ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)) : ElementMatchers.failSafe(ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))));
+                                                                                                                                                                                                 ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:386: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                    candidates = resolution.resolve().getDeclaredMethods().filter(this.strict ? ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)) : ElementMatchers.failSafe(ElementMatchers.isConstructor().and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))));
+                                                                                                                                                                                                                                                                                                                                           ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:389: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                    candidates = resolution.resolve().getDeclaredMethods().filter(this.strict ? ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)) : ElementMatchers.failSafe(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))));
+                                                                                                                                                                                                     ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:389: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                    candidates = resolution.resolve().getDeclaredMethods().filter(this.strict ? ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)) : ElementMatchers.failSafe(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))));
+                                                                                                                                                                                                                                                                                                                                                   ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:393: error: incompatible types: Junction<OfByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                    candidates = typeDescription.getDeclaredMethods().filter(this.strict ? ElementMatchers.isPrivate().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isStatic())).and(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))) : ElementMatchers.failSafe(ElementMatchers.isPrivate().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isStatic())).and(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)))));
+                                                                                                                                                                                                       ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:393: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                    candidates = typeDescription.getDeclaredMethods().filter(this.strict ? ElementMatchers.isPrivate().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isStatic())).and(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))) : ElementMatchers.failSafe(ElementMatchers.isPrivate().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isStatic())).and(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)))));
+                                                                                                                                                                                                                                                                                                                     ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:393: error: incompatible types: Junction<OfByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                    candidates = typeDescription.getDeclaredMethods().filter(this.strict ? ElementMatchers.isPrivate().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isStatic())).and(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))) : ElementMatchers.failSafe(ElementMatchers.isPrivate().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isStatic())).and(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)))));
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:393: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                    candidates = typeDescription.getDeclaredMethods().filter(this.strict ? ElementMatchers.isPrivate().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isStatic())).and(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))) : ElementMatchers.failSafe(ElementMatchers.isPrivate().and(ElementMatchers.not((ElementMatcher<? super Object>)ElementMatchers.isStatic())).and(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)))));
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:395: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                        candidates = this.methodGraphCompiler.compile(resolution.resolve()).listNodes().asMethodList().filter(this.strict ? ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)) : ElementMatchers.failSafe(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))));
+                                                                                                                                                                                                                                                 ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:395: error: incompatible types: Junction<ByteCodeElement> cannot be converted to ElementMatcher<? super Object>
+                        candidates = this.methodGraphCompiler.compile(resolution.resolve()).listNodes().asMethodList().filter(this.strict ? ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor)) : ElementMatchers.failSafe(ElementMatchers.named(internalName).and((ElementMatcher<? super Object>)ElementMatchers.hasDescriptor(descriptor))));
+                                                                                                                                                                                                                                                                                                                                                                                               ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:637: error: incompatible types: Generic cannot be converted to List<TypeDefinition>
+                        stackManipulations.add(Removal.of(((List<TypeDefinition>)arguments).get(index)));
+                                                                                 ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:667: error: incompatible types: Generic cannot be converted to List<Object>
+                            throw new IllegalStateException("Cannot set " + this.fieldDescription + " on " + ((List<Object>)arguments).get(0));
+                                                                                                                            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:670: error: incompatible types: Generic cannot be converted to List<Object>
+                            throw new IllegalStateException("Cannot set " + this.fieldDescription + " to " + ((List<Object>)arguments).get((int)(this.fieldDescription.isStatic() ? 0 : 1)));
+                                                                                                                            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/Decompiled/net/bytebuddy/asm/MemberSubstitution.java:679: error: incompatible types: Generic cannot be converted to List<Object>
+                            throw new IllegalStateException("Cannot get " + this.fieldDescription + " on " + ((List<Object>)arguments).get(0));
+                                                                                                                            ^
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.8.22/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3188: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+26 errors

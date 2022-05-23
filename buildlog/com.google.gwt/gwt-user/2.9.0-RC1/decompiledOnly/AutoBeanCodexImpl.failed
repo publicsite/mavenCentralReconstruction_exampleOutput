@@ -1,0 +1,38 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/autobean/super/com/google/web/bindery/autobean/shared/impl/StringQuoter.java:18: error: cannot find symbol
+import com.google.gwt.core.client.GwtScriptOnly;
+                                 ^
+  symbol:   class GwtScriptOnly
+  location: package com.google.gwt.core.client
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/autobean/super/com/google/web/bindery/autobean/shared/impl/StringQuoter.java:30: error: cannot find symbol
+@GwtScriptOnly
+ ^
+  symbol: class GwtScriptOnly
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/autobean/gwt/client/impl/JsoSplittable.java:18: error: cannot find symbol
+import com.google.gwt.core.client.GwtScriptOnly;
+                                 ^
+  symbol:   class GwtScriptOnly
+  location: package com.google.gwt.core.client
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/autobean/gwt/client/impl/JsoSplittable.java:36: error: cannot find symbol
+@GwtScriptOnly
+ ^
+  symbol: class GwtScriptOnly
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/autobean/shared/impl/AutoBeanCodexImpl.java:78: error: type argument Object is not within bounds of type-variable E
+                toReturn = new EnumCoder<Object>(type);
+                                         ^
+  where E is a type-variable:
+    E extends Enum<?> declared in class EnumCoder
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/autobean/shared/impl/AutoBeanCodexImpl.java:78: error: incompatible types: Class<E> cannot be converted to Class<Object>
+                toReturn = new EnumCoder<Object>(type);
+                                                 ^
+  where E is a type-variable:
+    E extends Enum<?> declared in method <E>enumCoder(Class<E>)
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/autobean/shared/impl/AutoBeanCodexImpl.java:156: error: incompatible types: bad type in conditional expression
+            this.enumMap = ((factory instanceof EnumMap) ? factory : null);
+                                                           ^
+    AutoBeanFactory cannot be converted to EnumMap
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/extractedSources/com/google/web/bindery/autobean/shared/impl/AbstractAutoBean.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/web/bindery/autobean/shared/impl/AutoBeanCodexImpl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+7 errors

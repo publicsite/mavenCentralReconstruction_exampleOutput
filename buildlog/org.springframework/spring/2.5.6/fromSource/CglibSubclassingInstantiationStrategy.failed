@@ -1,0 +1,52 @@
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:24: error: cannot find symbol
+import net.sf.cglib.proxy.Enhancer;
+                         ^
+  symbol:   class Enhancer
+  location: package net.sf.cglib.proxy
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:25: error: cannot find symbol
+import net.sf.cglib.proxy.MethodInterceptor;
+                         ^
+  symbol:   class MethodInterceptor
+  location: package net.sf.cglib.proxy
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:26: error: cannot find symbol
+import net.sf.cglib.proxy.MethodProxy;
+                         ^
+  symbol:   class MethodProxy
+  location: package net.sf.cglib.proxy
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:151: error: cannot find symbol
+		private class LookupOverrideMethodInterceptor extends CglibIdentitySupport implements MethodInterceptor {
+		                                                                                      ^
+  symbol:   class MethodInterceptor
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:153: error: cannot find symbol
+			public Object intercept(Object obj, Method method, Object[] args, MethodProxy mp) throws Throwable {
+			                                                                  ^
+  symbol:   class MethodProxy
+  location: class CglibSubclassCreator.LookupOverrideMethodInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:165: error: cannot find symbol
+		private class ReplaceOverrideMethodInterceptor extends CglibIdentitySupport implements MethodInterceptor {
+		                                                                                       ^
+  symbol:   class MethodInterceptor
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:167: error: cannot find symbol
+			public Object intercept(Object obj, Method method, Object[] args, MethodProxy mp) throws Throwable {
+			                                                                  ^
+  symbol:   class MethodProxy
+  location: class CglibSubclassCreator.ReplaceOverrideMethodInterceptor
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:107: error: cannot find symbol
+			Enhancer enhancer = new Enhancer();
+			^
+  symbol:   class Enhancer
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:107: error: cannot find symbol
+			Enhancer enhancer = new Enhancer();
+			                        ^
+  symbol:   class Enhancer
+  location: class CglibSubclassCreator
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:112: error: incompatible types: CglibSubclassCreator.LookupOverrideMethodInterceptor cannot be converted to Callback
+					new LookupOverrideMethodInterceptor(),
+					^
+sources/structure/org.springframework/spring/2.5.6/extractedSources/org/springframework/beans/factory/support/CglibSubclassingInstantiationStrategy.java:113: error: incompatible types: CglibSubclassCreator.ReplaceOverrideMethodInterceptor cannot be converted to Callback
+					new ReplaceOverrideMethodInterceptor()
+					^
+11 errors

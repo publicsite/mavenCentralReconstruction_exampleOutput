@@ -1,0 +1,164 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:10: error: cannot find symbol
+import org.codehaus.groovy.classgen.Verifier;
+                                   ^
+  symbol:   class Verifier
+  location: package org.codehaus.groovy.classgen
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:13: error: cannot find symbol
+import groovy.lang.GroovyClassLoader;
+                  ^
+  symbol:   class GroovyClassLoader
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:14: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassHelper;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:17: error: package org.codehaus.groovy.ast does not exist
+import org.codehaus.groovy.ast.ClassNode;
+                              ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:22: error: cannot find symbol
+    private Map<String, ClassNode> cachedClasses;
+                        ^
+  symbol:   class ClassNode
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:23: error: cannot find symbol
+    protected static final ClassNode NO_CLASS;
+                           ^
+  symbol:   class ClassNode
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:29: error: cannot find symbol
+    public LookupResult resolveName(final String name, final CompilationUnit compilationUnit) {
+                                                             ^
+  symbol:   class CompilationUnit
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:48: error: cannot find symbol
+    public void cacheClass(final String name, final ClassNode res) {
+                                                    ^
+  symbol:   class ClassNode
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:52: error: cannot find symbol
+    public ClassNode getFromClassCache(final String name) {
+           ^
+  symbol:   class ClassNode
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:57: error: cannot find symbol
+    public LookupResult findClassNode(final String name, final CompilationUnit compilationUnit) {
+                                                               ^
+  symbol:   class CompilationUnit
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:61: error: cannot find symbol
+    private LookupResult tryAsLoaderClassOrScript(final String name, final CompilationUnit compilationUnit) {
+                                                                           ^
+  symbol:   class CompilationUnit
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:84: error: cannot find symbol
+    private LookupResult tryAsScript(final String name, final CompilationUnit compilationUnit, final Class oldClass) {
+                                                              ^
+  symbol:   class CompilationUnit
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:144: error: cannot find symbol
+        private SourceUnit su;
+                ^
+  symbol:   class SourceUnit
+  location: class LookupResult
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:145: error: cannot find symbol
+        private ClassNode cn;
+                ^
+  symbol:   class ClassNode
+  location: class LookupResult
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:147: error: cannot find symbol
+        public LookupResult(final SourceUnit su, final ClassNode cn) {
+                                  ^
+  symbol:   class SourceUnit
+  location: class LookupResult
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:147: error: cannot find symbol
+        public LookupResult(final SourceUnit su, final ClassNode cn) {
+                                                       ^
+  symbol:   class ClassNode
+  location: class LookupResult
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:166: error: cannot find symbol
+        public SourceUnit getSourceUnit() {
+               ^
+  symbol:   class SourceUnit
+  location: class LookupResult
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:170: error: cannot find symbol
+        public ClassNode getClassNode() {
+               ^
+  symbol:   class ClassNode
+  location: class LookupResult
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:26: error: cannot find symbol
+        this.cachedClasses = new HashMap<String, ClassNode>();
+                                                 ^
+  symbol:   class ClassNode
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:30: error: cannot find symbol
+        final ClassNode res = this.getFromClassCache(name);
+              ^
+  symbol:   class ClassNode
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:53: error: cannot find symbol
+        final ClassNode cached = this.cachedClasses.get(name);
+              ^
+  symbol:   class ClassNode
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:62: error: cannot find symbol
+        final GroovyClassLoader loader = compilationUnit.getClassLoader();
+              ^
+  symbol:   class GroovyClassLoader
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:71: error: cannot find symbol
+        catch (CompilationFailedException cfe) {
+               ^
+  symbol:   class CompilationFailedException
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:80: error: cannot find symbol
+        final ClassNode cn = ClassHelper.make(cls);
+              ^
+  symbol:   class ClassNode
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:80: error: cannot find symbol
+        final ClassNode cn = ClassHelper.make(cls);
+                             ^
+  symbol:   variable ClassHelper
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:87: error: cannot find symbol
+            final ClassNode cn = ClassHelper.make(oldClass);
+                  ^
+  symbol:   class ClassNode
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:87: error: cannot find symbol
+            final ClassNode cn = ClassHelper.make(oldClass);
+                                 ^
+  symbol:   variable ClassHelper
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:96: error: cannot find symbol
+        final GroovyClassLoader gcl = compilationUnit.getClassLoader();
+              ^
+  symbol:   class GroovyClassLoader
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:103: error: cannot find symbol
+            final SourceUnit su = compilationUnit.addSource(url);
+                  ^
+  symbol:   class SourceUnit
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:110: error: cannot find symbol
+        return Verifier.getTimestamp(cls);
+               ^
+  symbol:   variable Verifier
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:134: error: cannot find symbol
+        NO_CLASS = new ClassNode("NO_CLASS", 1, ClassHelper.OBJECT_TYPE) {
+                       ^
+  symbol:   class ClassNode
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:134: error: cannot find symbol
+        NO_CLASS = new ClassNode("NO_CLASS", 1, ClassHelper.OBJECT_TYPE) {
+                                                ^
+  symbol:   variable ClassHelper
+  location: class ClassNodeResolver
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:136: error: cannot find symbol
+            public void setRedirect(final ClassNode cn) {
+                                          ^
+  symbol: class ClassNode
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/control/ClassNodeResolver.java:135: error: method does not override or implement a method from a supertype
+            @Override
+            ^
+34 errors

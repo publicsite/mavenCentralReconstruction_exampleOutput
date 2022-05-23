@@ -1,0 +1,81 @@
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:7: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssTreeVisitor;
+                                                        ^
+  symbol:   class CssTreeVisitor
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:8: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssBooleanExpressionNode;
+                                                        ^
+  symbol:   class CssBooleanExpressionNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:10: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssAtRuleNode;
+                                                        ^
+  symbol:   class CssAtRuleNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:11: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssConditionalRuleNode;
+                                                        ^
+  symbol:   class CssConditionalRuleNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:12: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.CssConditionalBlockNode;
+                                                        ^
+  symbol:   class CssConditionalBlockNode
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:14: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.MutatingVisitController;
+                                                        ^
+  symbol:   class MutatingVisitController
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:16: error: cannot find symbol
+import com.google.gwt.thirdparty.common.css.compiler.ast.DefaultTreeVisitor;
+                                                        ^
+  symbol:   class DefaultTreeVisitor
+  location: package com.google.gwt.thirdparty.common.css.compiler.ast
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:18: error: cannot find symbol
+public class EliminateConditionalNodes extends DefaultTreeVisitor implements CssCompilerPass
+                                               ^
+  symbol: class DefaultTreeVisitor
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:20: error: cannot find symbol
+    private final MutatingVisitController visitController;
+                  ^
+  symbol:   class MutatingVisitController
+  location: class EliminateConditionalNodes
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:23: error: cannot find symbol
+    public EliminateConditionalNodes(final MutatingVisitController visitController, final Set<String> trueConditions) {
+                                           ^
+  symbol:   class MutatingVisitController
+  location: class EliminateConditionalNodes
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:29: error: cannot find symbol
+    public boolean enterConditionalBlock(final CssConditionalBlockNode block) {
+                                               ^
+  symbol:   class CssConditionalBlockNode
+  location: class EliminateConditionalNodes
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:28: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:31: error: cannot find symbol
+        for (final CssConditionalRuleNode currentCondtional : block.childIterable()) {
+                   ^
+  symbol:   class CssConditionalRuleNode
+  location: class EliminateConditionalNodes
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:32: error: package CssAtRuleNode does not exist
+            if (currentCondtional.getType() == CssAtRuleNode.Type.ELSE) {
+                                                            ^
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:36: error: cannot find symbol
+            final BooleanExpressionEvaluator evaluator = new BooleanExpressionEvaluator(currentCondtional.getCondition(), this.trueConditions);
+                  ^
+  symbol:   class BooleanExpressionEvaluator
+  location: class EliminateConditionalNodes
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:36: error: cannot find symbol
+            final BooleanExpressionEvaluator evaluator = new BooleanExpressionEvaluator(currentCondtional.getCondition(), this.trueConditions);
+                                                             ^
+  symbol:   class BooleanExpressionEvaluator
+  location: class EliminateConditionalNodes
+sources/structure/com.google.gwt/gwt-user/2.9.0-RC1/Decompiled/com/google/gwt/thirdparty/common/css/compiler/passes/EliminateConditionalNodes.java:37: error: cannot find symbol
+            final CssBooleanExpressionNode result = evaluator.evaluate();
+                  ^
+  symbol:   class CssBooleanExpressionNode
+  location: class EliminateConditionalNodes
+17 errors

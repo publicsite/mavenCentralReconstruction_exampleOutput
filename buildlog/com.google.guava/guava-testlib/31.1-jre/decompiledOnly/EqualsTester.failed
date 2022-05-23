@@ -1,0 +1,151 @@
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:8: error: cannot find symbol
+import com.google.common.collect.Iterables;
+                                ^
+  symbol:   class Iterables
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:10: error: package com.google.common.base does not exist
+import com.google.common.base.Equivalence;
+                             ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:11: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:12: error: package com.google.common.base does not exist
+import com.google.common.base.Preconditions;
+                             ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:13: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:19: error: package com.google.common.base does not exist
+import static com.google.common.base.Preconditions.checkNotNull;
+                                    ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:19: error: static import only from classes and interfaces
+import static com.google.common.base.Preconditions.checkNotNull;
+^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:22: error: package com.google.common.base does not exist
+import com.google.common.base.Equivalence;
+                             ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:23: error: cannot find symbol
+import com.google.common.collect.ImmutableList;
+                                ^
+  symbol:   class ImmutableList
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:24: error: cannot find symbol
+import com.google.common.collect.Lists;
+                                ^
+  symbol:   class Lists
+  location: package com.google.common.collect
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:50: error: cannot find symbol
+  private final Equivalence<? super T> equivalence;
+                ^
+  symbol:   class Equivalence
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:55: error: cannot find symbol
+  private final List<ImmutableList<T>> groups = Lists.newArrayList();
+                     ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:58: error: cannot find symbol
+      Equivalence<? super T> equivalence,
+      ^
+  symbol:   class Equivalence
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:29: error: cannot find symbol
+        this.equalityGroups = (List<List<Object>>)Lists.newArrayList();
+                                                  ^
+  symbol:   variable Lists
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:30: error: cannot find symbol
+        this.itemReporter = (RelationshipTester.ItemReporter)Preconditions.checkNotNull((Object)itemReporter);
+                                                             ^
+  symbol:   variable Preconditions
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:34: error: cannot find symbol
+        Preconditions.checkNotNull((Object)equalityGroup);
+        ^
+  symbol:   variable Preconditions
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:35: error: cannot find symbol
+        this.equalityGroups.add((List<Object>)ImmutableList.copyOf(equalityGroup));
+                                              ^
+  symbol:   variable ImmutableList
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:40: error: package com.google.common.base does not exist
+        final RelationshipTester<Object> delegate = new RelationshipTester<Object>((com.google.common.base.Equivalence<? super Object>)Equivalence.equals(), "Object#equals", "Object#hashCode", this.itemReporter);
+                                                                                                          ^
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:40: error: cannot find symbol
+        final RelationshipTester<Object> delegate = new RelationshipTester<Object>((com.google.common.base.Equivalence<? super Object>)Equivalence.equals(), "Object#equals", "Object#hashCode", this.itemReporter);
+                                                                                                                                       ^
+  symbol:   variable Equivalence
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:52: error: cannot find symbol
+        for (final Object item : Iterables.concat((Iterable)this.equalityGroups)) {
+                                 ^
+  symbol:   variable Iterables
+  location: class EqualsTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java:77: error: cannot find symbol
+            $VALUES = $values();
+            ^
+  symbol:   variable $VALUES
+  location: class NotAnInstance
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:55: error: cannot find symbol
+  private final List<ImmutableList<T>> groups = Lists.newArrayList();
+                                                ^
+  symbol:   variable Lists
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:63: error: cannot find symbol
+    this.relationshipName = checkNotNull(relationshipName);
+                            ^
+  symbol:   method checkNotNull(String)
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:64: error: cannot find symbol
+    this.hashName = checkNotNull(hashName);
+                    ^
+  symbol:   method checkNotNull(String)
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:65: error: cannot find symbol
+    this.itemReporter = checkNotNull(itemReporter);
+                        ^
+  symbol:   method checkNotNull(ItemReporter)
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:70: error: cannot find symbol
+    groups.add(ImmutableList.copyOf(group));
+               ^
+  symbol:   variable ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:76: error: cannot find symbol
+      ImmutableList<T> group = groups.get(groupNumber);
+      ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+sources/structure/com.google.guava/guava-testlib/31.1-jre/extractedSources/com/google/common/testing/RelationshipTester.java:89: error: cannot find symbol
+            ImmutableList<T> unrelatedGroup = groups.get(unrelatedGroupNumber);
+            ^
+  symbol:   class ImmutableList
+  location: class RelationshipTester<T>
+  where T is a type-variable:
+    T extends Object declared in class RelationshipTester
+Note: sources/structure/com.google.guava/guava-testlib/31.1-jre/Decompiled/com/google/common/testing/EqualsTester.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+28 errors

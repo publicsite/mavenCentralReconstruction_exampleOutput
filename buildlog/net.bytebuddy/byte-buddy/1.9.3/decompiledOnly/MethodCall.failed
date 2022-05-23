@@ -1,0 +1,65 @@
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:59: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.ClassRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:60: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.Remapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:61: error: package net.bytebuddy.jar.asm.commons does not exist
+import net.bytebuddy.jar.asm.commons.SimpleRemapper;
+                                    ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3561: error: cannot find symbol
+                protected static class OpenedClassRemapper extends ClassRemapper {
+                                                                   ^
+  symbol:   class ClassRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3569: error: cannot find symbol
+                    protected OpenedClassRemapper(ClassVisitor classVisitor, Remapper remapper) {
+                                                                             ^
+  symbol:   class Remapper
+  location: class OpenedClassRemapper
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java:982: error: incompatible types: List<ForNullConstant> cannot be converted to List<ArgumentLoader>
+                return (List<ArgumentLoader>)Collections.singletonList(this);
+                                                                      ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java:1036: error: incompatible types: List<ForThisReference> cannot be converted to List<ArgumentLoader>
+                    return (List<ArgumentLoader>)Collections.singletonList(new ForThisReference(instrumentedType));
+                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java:1077: error: incompatible types: List<ForInstrumentedType> cannot be converted to List<ArgumentLoader>
+                    return (List<ArgumentLoader>)Collections.singletonList(new ForInstrumentedType(instrumentedType));
+                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java:1146: error: incompatible types: List<ForMethodParameter> cannot be converted to List<ArgumentLoader>
+                    return (List<ArgumentLoader>)Collections.singletonList(new ForMethodParameter(this.index, instrumentedMethod));
+                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java:1211: error: incompatible types: List<ForMethodParameterArray> cannot be converted to List<ArgumentLoader>
+                    return (List<ArgumentLoader>)Collections.singletonList(new ForMethodParameterArray(instrumentedMethod.getParameters()));
+                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java:1267: error: incompatible types: List<ForMethodParameterArrayElement> cannot be converted to List<ArgumentLoader>
+                    return (List<ArgumentLoader>)Collections.singletonList(new ForMethodParameterArrayElement(instrumentedMethod.getParameters().get(this.index), this.arrayIndex));
+                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java:1365: error: incompatible types: List<ForInstance> cannot be converted to List<ArgumentLoader>
+                    return (List<ArgumentLoader>)Collections.singletonList(new ForInstance((FieldDescription)instrumentedType.getDeclaredFields().filter(ElementMatchers.named(this.name)).getOnly()));
+                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java:1432: error: incompatible types: List<ForField> cannot be converted to List<ArgumentLoader>
+                    return (List<ArgumentLoader>)Collections.singletonList(new ForField(resolution.getField(), instrumentedMethod));
+                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java:1497: error: incompatible types: List<ForMethodCall> cannot be converted to List<ArgumentLoader>
+                    return (List<ArgumentLoader>)Collections.singletonList(new ForMethodCall(implementationTarget, this.methodCall, this.methodCall.methodLocator.resolve(instrumentedType, this.methodCall.targetHandler.resolve(instrumentedType, instrumentedMethod), instrumentedMethod), instrumentedMethod));
+                                                                          ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java:1579: error: incompatible types: List<ForStackManipulation> cannot be converted to List<ArgumentLoader>
+                return (List<ArgumentLoader>)Collections.singletonList(this);
+                                                                      ^
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3555: error: cannot find symbol
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                                                                        ^
+  symbol:   class SimpleRemapper
+  location: class WithFullProcessing<V>
+  where V is a type-variable:
+    V extends Object declared in class WithFullProcessing
+sources/structure/net.bytebuddy/byte-buddy/1.9.3/extractedSources/net/bytebuddy/dynamic/scaffold/TypeWriter.java:3555: error: incompatible types: bad type in conditional expression
+                            : new OpenedClassRemapper(classVisitor, new SimpleRemapper(originalType.getInternalName(), instrumentedType.getInternalName()));
+                              ^
+    OpenedClassRemapper cannot be converted to ClassVisitor
+Note: sources/structure/net.bytebuddy/byte-buddy/1.9.3/Decompiled/net/bytebuddy/implementation/MethodCall.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+17 errors

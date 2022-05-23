@@ -1,0 +1,65 @@
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:21: error: package org.hibernate does not exist
+import org.hibernate.ConnectionReleaseMode;
+                    ^
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:22: error: package org.hibernate does not exist
+import org.hibernate.Transaction;
+                    ^
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:23: error: package org.hibernate.jdbc does not exist
+import org.hibernate.jdbc.JDBCContext;
+                         ^
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:24: error: package org.hibernate.transaction does not exist
+import org.hibernate.transaction.JDBCTransaction;
+                                ^
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:25: error: package org.hibernate.transaction does not exist
+import org.hibernate.transaction.TransactionFactory;
+                                ^
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:40: error: cannot find symbol
+public class SpringTransactionFactory implements TransactionFactory {
+                                                 ^
+  symbol: class TransactionFactory
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:49: error: cannot find symbol
+	public ConnectionReleaseMode getDefaultReleaseMode() {
+	       ^
+  symbol:   class ConnectionReleaseMode
+  location: class SpringTransactionFactory
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:53: error: cannot find symbol
+	public Transaction createTransaction(JDBCContext jdbcContext, Context transactionContext) {
+	                                     ^
+  symbol:   class JDBCContext
+  location: class SpringTransactionFactory
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:53: error: cannot find symbol
+	public Transaction createTransaction(JDBCContext jdbcContext, Context transactionContext) {
+	                                                              ^
+  symbol:   class Context
+  location: class SpringTransactionFactory
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:53: error: cannot find symbol
+	public Transaction createTransaction(JDBCContext jdbcContext, Context transactionContext) {
+	       ^
+  symbol:   class Transaction
+  location: class SpringTransactionFactory
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:69: error: cannot find symbol
+			JDBCContext jdbcContext, Context transactionContext, Transaction transaction) {
+			^
+  symbol:   class JDBCContext
+  location: class SpringTransactionFactory
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:69: error: cannot find symbol
+			JDBCContext jdbcContext, Context transactionContext, Transaction transaction) {
+			                         ^
+  symbol:   class Context
+  location: class SpringTransactionFactory
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:69: error: cannot find symbol
+			JDBCContext jdbcContext, Context transactionContext, Transaction transaction) {
+			                                                     ^
+  symbol:   class Transaction
+  location: class SpringTransactionFactory
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:50: error: cannot find symbol
+		return ConnectionReleaseMode.ON_CLOSE;
+		       ^
+  symbol:   variable ConnectionReleaseMode
+  location: class SpringTransactionFactory
+hybrids/org.springframework/spring/2.5.6/SpringTransactionFactory.java:54: error: cannot find symbol
+		return new JDBCTransaction(jdbcContext, transactionContext);
+		           ^
+  symbol:   class JDBCTransaction
+  location: class SpringTransactionFactory
+15 errors

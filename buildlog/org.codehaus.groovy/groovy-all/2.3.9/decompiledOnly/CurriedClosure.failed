@@ -1,0 +1,145 @@
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:7: error: cannot find symbol
+import groovy.lang.Closure;
+                  ^
+  symbol:   class Closure
+  location: package groovy.lang
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:9: error: cannot find symbol
+public final class CurriedClosure<V> extends Closure<V>
+                                             ^
+  symbol: class Closure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:16: error: cannot find symbol
+    public CurriedClosure(final int index, final Closure<V> uncurriedClosure, final Object... arguments) {
+                                                 ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:52: error: cannot find symbol
+    public CurriedClosure(final Closure<V> uncurriedClosure, final Object... arguments) {
+                                ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:23: error: cannot find symbol
+        this.maximumNumberOfParameters = origMaxLen - arguments.length;
+            ^
+  symbol: variable maximumNumberOfParameters
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:38: error: cannot find symbol
+            if (this.maximumNumberOfParameters < 0) {
+                    ^
+  symbol: variable maximumNumberOfParameters
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:46: error: cannot find symbol
+            else if (index > this.maximumNumberOfParameters) {
+                                 ^
+  symbol: variable maximumNumberOfParameters
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:47: error: cannot find symbol
+                throw new IllegalArgumentException("To curry " + arguments.length + " argument(s) expect index range 0.." + this.maximumNumberOfParameters + " but found " + index);
+                                                                                                                                ^
+  symbol: variable maximumNumberOfParameters
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:80: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:82: error: cannot find symbol
+        ((Closure)this.getOwner()).setDelegate(delegate);
+          ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:82: error: cannot find symbol
+        ((Closure)this.getOwner()).setDelegate(delegate);
+                      ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:85: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:87: error: cannot find symbol
+        return ((Closure)this.getOwner()).getDelegate();
+                 ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:87: error: cannot find symbol
+        return ((Closure)this.getOwner()).getDelegate();
+                             ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:90: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:92: error: cannot find symbol
+        ((Closure)this.getOwner()).setResolveStrategy(resolveStrategy);
+          ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:92: error: cannot find symbol
+        ((Closure)this.getOwner()).setResolveStrategy(resolveStrategy);
+                      ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:95: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:97: error: cannot find symbol
+        return ((Closure)this.getOwner()).getResolveStrategy();
+                 ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:97: error: cannot find symbol
+        return ((Closure)this.getOwner()).getResolveStrategy();
+                             ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:100: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:102: error: cannot find symbol
+        final Closure<V> uncurriedClosure = (Closure<V>)((Closure)this.getOwner()).clone();
+              ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:102: error: cannot find symbol
+        final Closure<V> uncurriedClosure = (Closure<V>)((Closure)this.getOwner()).clone();
+                                             ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:102: error: cannot find symbol
+        final Closure<V> uncurriedClosure = (Closure<V>)((Closure)this.getOwner()).clone();
+                                                          ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:102: error: cannot find symbol
+        final Closure<V> uncurriedClosure = (Closure<V>)((Closure)this.getOwner()).clone();
+                                                                      ^
+  symbol: method getOwner()
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:103: error: cannot find symbol
+        return new CurriedClosure(this.index, (Closure<Object>)uncurriedClosure, this.curriedParams);
+                                               ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:106: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:108: error: cannot find symbol
+        final Class[] oldParams = ((Closure)this.getOwner()).getParameterTypes();
+                                    ^
+  symbol:   class Closure
+  location: class CurriedClosure<V>
+  where V is a type-variable:
+    V extends Object declared in class CurriedClosure
+sources/structure/org.codehaus.groovy/groovy-all/2.3.9/Decompiled/org/codehaus/groovy/runtime/CurriedClosure.java:108: error: cannot find symbol
+        final Class[] oldParams = ((Closure)this.getOwner()).getParameterTypes();
+                                                ^
+  symbol: method getOwner()
+29 errors
